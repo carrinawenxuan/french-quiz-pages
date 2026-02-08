@@ -1078,6 +1078,7 @@
     body.theme-light .edit-set-field input,
     body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .edit-set-append .btn { margin-top: 0.5rem; }
     .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -1342,6 +1343,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <textarea id="edit-set-review-urls" rows="4" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
       </div>
       <div class="edit-set-meta" id="edit-set-meta"></div>
+      <div class="edit-set-field edit-set-append">
+        <label for="edit-set-append-text">追加题目（粘贴 JSON 数组或文本格式，会追加到本题集末尾）</label>
+        <textarea id="edit-set-append-text" rows="4" placeholder="[{&quot;type&quot;:&quot;single_choice&quot;, ...}, ...] 或 题型：... A) B) C) D) 正确：C" autocomplete="off"></textarea>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-append">解析并追加</button>
+      </div>
       <div class="edit-set-actions">
         <button type="button" class="btn btn-primary" id="btn-edit-set-save">保存</button>
         <button type="button" class="btn btn-secondary" id="btn-edit-set-cancel">取消</button>
@@ -1834,6 +1840,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (nameEl) nameEl.value = set.name || '';
       if (urlsEl) urlsEl.value = (set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls.join('\n') : '';
       if (metaEl) metaEl.textContent = set.questions ? set.questions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次' : '';
+      const appendEl = document.getElementById('edit-set-append-text');
+      if (appendEl) appendEl.value = '';
       document.getElementById('edit-set-modal-overlay').classList.add('show');
       requestAnimationFrame(() => { if (nameEl) nameEl.focus(); });
     }
@@ -1871,6 +1879,37 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       a.download = (name || 'export') + '.json';
       a.click();
       URL.revokeObjectURL(a.href);
+    }
+    function appendToEditSetModal() {
+      if (_editingSetId == null) return;
+      const textEl = document.getElementById('edit-set-append-text');
+      const text = textEl ? textEl.value.trim() : '';
+      if (!text) {
+        alert('请先粘贴要追加的题目（JSON 数组或含「题型：」「A) B) C) D)」「正确：」的文本）。');
+        return;
+      }
+      let parsed = [];
+      if (/^\s*[\[{]/.test(text)) {
+        try {
+          const data = JSON.parse(text);
+          parsed = Array.isArray(data) ? data : (data.questions || []);
+        } catch (_) {}
+      }
+      if (parsed.length === 0) parsed = parsePastedText(text);
+      if (parsed.length === 0) {
+        alert('未能解析出题目。请使用：① 题目数组 JSON，或 ② 含「题型：」「A) B) C) D)」「正确：」的文本。');
+        return;
+      }
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === String(_editingSetId));
+      if (!set || !Array.isArray(set.questions)) return;
+      const newQuestions = set.questions.concat(parsed);
+      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { questions: newQuestions }) : s);
+      setSavedSets(updated);
+      const metaEl = document.getElementById('edit-set-meta');
+      if (metaEl) metaEl.textContent = newQuestions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次';
+      if (textEl) textEl.value = '';
+      alert('已追加 ' + parsed.length + ' 题，当前共 ' + newQuestions.length + ' 题。');
     }
     function deleteFromEditModal() {
       if (_editingSetId == null) return;
@@ -2831,6 +2870,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-edit-set-save').addEventListener('click', saveEditSetModal);
     document.getElementById('btn-edit-set-cancel').addEventListener('click', closeEditSetModal);
     document.getElementById('btn-edit-set-export').addEventListener('click', exportFromEditModal);
+    document.getElementById('btn-edit-set-append').addEventListener('click', appendToEditSetModal);
     document.getElementById('btn-edit-set-delete').addEventListener('click', deleteFromEditModal);
     document.getElementById('edit-set-modal-overlay').addEventListener('click', (e) => {
       if (e.target.id === 'edit-set-modal-overlay') closeEditSetModal();
