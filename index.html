@@ -856,8 +856,21 @@
       letter-spacing: 0.03em;
       margin-bottom: 0.85rem;
     }
+    .saved-sets-folders-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 0.75rem; margin-bottom: 0.75rem; }
+    .saved-sets-folders-label { font-size: 0.85rem; color: var(--text-muted); }
+    .saved-sets-folder-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .folder-tag { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.5rem; background: var(--surface); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.85rem; color: var(--text); }
+    .folder-tag .folder-tag-name { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .folder-tag .folder-tag-edit, .folder-tag .folder-tag-delete { padding: 0 0.25rem; font-size: 0.9rem; line-height: 1; background: none; border: none; color: var(--text-muted); cursor: pointer; border-radius: 4px; }
+    .folder-tag .folder-tag-edit:hover, .folder-tag .folder-tag-delete:hover { color: var(--text); }
+    .folder-tag .folder-tag-delete:hover { color: #f87171; }
+    body.theme-light .folder-tag { border-color: rgba(0,0,0,0.08); }
+    .saved-sets-folder { margin-bottom: 1rem; }
+    .saved-sets-folder:last-child { margin-bottom: 0; }
+    .saved-sets-folder-title { font-size: 0.9rem; font-weight: 600; color: var(--accent); margin: 0 0 0.5rem 0; padding-bottom: 0.25rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    body.theme-light .saved-sets-folder-title { border-bottom-color: rgba(0,0,0,0.06); }
     .saved-sets-list-wrap {
-      max-height: 280px;
+      max-height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
       margin: 0 -0.25rem 0 0;
@@ -921,7 +934,10 @@
     .import-name-wrap { margin-top: 0.75rem; }
     .import-name-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-name-wrap input { width: 100%; max-width: 320px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); }
+    .import-folder-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0.35rem; }
+    .import-name-wrap select { max-width: 280px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); }
     body.theme-light .import-name-wrap input { background: var(--bg); border-color: rgba(0,0,0,0.12); }
+    body.theme-light .import-name-wrap select { background: var(--bg); border-color: rgba(0,0,0,0.12); }
     .import-review-wrap { margin-top: 0.75rem; }
     .import-review-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-review-wrap textarea { width: 100%; max-width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); resize: vertical; min-height: 4rem; }
@@ -1084,6 +1100,7 @@
     .edit-set-field { margin-bottom: 1rem; }
     .edit-set-field label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .edit-set-field input,
+    .edit-set-field select,
     .edit-set-field textarea {
       width: 100%;
       padding: 0.55rem 0.75rem;
@@ -1096,6 +1113,7 @@
     }
     .edit-set-field textarea { resize: vertical; min-height: 4.5rem; }
     body.theme-light .edit-set-field input,
+    body.theme-light .edit-set-field select,
     body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
     .edit-set-append .btn { margin-top: 0.5rem; }
@@ -1225,6 +1243,10 @@
         <div class="import-name-wrap">
           <label for="import-set-name">习题集名称（保存用，填写后本次导入会加入「我的习题集」）</label>
           <input type="text" id="import-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
+          <label for="import-set-folder" class="import-folder-label">保存到文件夹</label>
+          <select id="import-set-folder">
+            <option value="">未分类</option>
+          </select>
         </div>
         <div class="import-review-wrap">
           <label for="import-review-urls">练习前复习资料（可选，每行一个 URL，开始练习前可先看）</label>
@@ -1250,8 +1272,13 @@
             <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" />
           </div>
         </div>
+        <div class="saved-sets-folders-bar" id="saved-sets-folders-bar">
+          <span class="saved-sets-folders-label">文件夹</span>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-add-folder">添加文件夹</button>
+          <div class="saved-sets-folder-tags" id="saved-sets-folder-tags"></div>
+        </div>
         <div class="saved-sets-list-wrap">
-          <ul class="saved-sets-list" id="saved-sets-list"></ul>
+          <div id="saved-sets-list"></div>
           <p class="saved-sets-empty" id="saved-sets-empty" style="display: none;">暂无保存的习题集，导入题目时填写名称即可保存。</p>
         </div>
       </div>
@@ -1413,6 +1440,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <input type="text" id="edit-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
       </div>
       <div class="edit-set-field">
+        <label for="edit-set-folder">所属文件夹</label>
+        <select id="edit-set-folder">
+          <option value="">未分类</option>
+        </select>
+      </div>
+      <div class="edit-set-field">
         <span class="edit-set-review-label">练习前复习资料（可选）</span>
         <div class="edit-set-review-row">
           <label for="edit-set-review-texts">文本（每行一段，练习前可滚动查看）</label>
@@ -1450,6 +1483,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const LETTERS = ['A', 'B', 'C', 'D'];
     const WRONG_BOOK_KEY = 'french_quiz_wrong';
     const SAVED_SETS_KEY = 'french_quiz_saved_sets';
+    const FOLDERS_KEY = 'french_quiz_folders';
     const TIMER_SECONDS_KEY = 'french_quiz_timer_seconds';
     const DAILY_STATS_KEY = 'french_quiz_daily_stats';
     const RECENT_SESSIONS_KEY = 'french_quiz_recent_sessions';
@@ -1667,6 +1701,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const timerEl = document.getElementById('timer-seconds');
       return {
         savedSets: getSavedSets(),
+        folders: getFolders(),
         wrongBook: getWrongBook(),
         timerSeconds: timerEl ? Math.max(0, parseInt(timerEl.value, 10) || 10) : 10,
         dailyStats: getDailyStats(),
@@ -1675,6 +1710,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function loadDataFromObject(data) {
       if (data.savedSets != null) setSavedSets(Array.isArray(data.savedSets) ? data.savedSets : []);
+      if (data.folders != null) setFolders(Array.isArray(data.folders) ? data.folders : []);
       if (data.wrongBook != null) setWrongBook(Array.isArray(data.wrongBook) ? data.wrongBook : []);
       if (data.timerSeconds != null) {
         const n = Math.max(0, Math.min(120, parseInt(data.timerSeconds, 10) || 10));
@@ -1729,7 +1765,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!fileHandle) {
           fileHandle = await handle.getFileHandle(DATA_FILE_NAME, { create: true });
           const writable = await fileHandle.createWritable();
-          const empty = { savedSets: [], wrongBook: [], timerSeconds: 10 };
+          const empty = { savedSets: [], folders: [], wrongBook: [], timerSeconds: 10 };
           await writable.write(JSON.stringify(empty, null, 2));
           await writable.close();
           loadDataFromObject(empty);
@@ -1815,6 +1851,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStatsBar();
       updateStartPracticeSelect();
     }
+    function getFolders() {
+      try {
+        const raw = localStorage.getItem(FOLDERS_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr : [];
+      } catch (_) { return []; }
+    }
+    function setFolders(arr) {
+      const list = Array.isArray(arr) ? arr : [];
+      localStorage.setItem(FOLDERS_KEY, JSON.stringify(list));
+      renderSavedSets();
+      updateStartPracticeSelect();
+      renderFolderSelects();
+    }
+    function renderFolderSelects() {
+      const folders = getFolders();
+      const opts = '<option value="">未分类</option>' + folders.map(f => '<option value="' + escapeHtml(String(f.id)) + '">' + escapeHtml(f.name) + '</option>').join('');
+      const editSel = document.getElementById('edit-set-folder');
+      if (editSel) { editSel.innerHTML = opts; }
+      const importSel = document.getElementById('import-set-folder');
+      if (importSel) { importSel.innerHTML = opts; }
+    }
     function removeCurrentQuestionFromSet() {
       if (!state.practicedSetId) return;
       const q = state.questions[state.index];
@@ -1840,9 +1898,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const sel = document.getElementById('start-practice-select');
       if (!sel) return;
       const saved = getSavedSets();
+      const folders = getFolders();
+      const folderIds = new Set(folders.map(f => String(f.id)));
+      let html = '<option value="default">默认题目</option>';
+      folders.forEach(f => {
+        const inFolder = saved.filter(s => String(s.folderId || '') === String(f.id));
+        if (inFolder.length === 0) return;
+        html += '<optgroup label="' + escapeHtml(f.name) + '">' +
+          inFolder.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+      });
+      const uncategorized = saved.filter(s => !s.folderId || !folderIds.has(String(s.folderId)));
+      if (uncategorized.length > 0) {
+        html += '<optgroup label="未分类">' +
+          uncategorized.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+      }
       const currentVal = sel.value;
-      sel.innerHTML = '<option value="default">默认题目</option>' +
-        saved.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('');
+      sel.innerHTML = html;
       if (currentVal && (currentVal === 'default' || saved.some(s => String(s.id) === currentVal))) sel.value = currentVal;
     }
     function formatSavedSetDate(iso) {
@@ -1856,12 +1927,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function renderSavedSets() {
       const sets = getSavedSets();
+      const folders = getFolders();
+      const folderIds = new Set(folders.map(f => String(f.id)));
       const searchEl = document.getElementById('saved-sets-search');
       const query = (searchEl && searchEl.value ? searchEl.value : '').trim().toLowerCase();
       const filtered = query ? sets.filter(s => (s.name || '').toLowerCase().includes(query)) : sets;
       const listEl = document.getElementById('saved-sets-list');
       const emptyEl = document.getElementById('saved-sets-empty');
+      const tagsEl = document.getElementById('saved-sets-folder-tags');
       if (!listEl || !emptyEl) return;
+      renderFolderTags();
+      function itemHtml(s) {
+        const count = s.practiceCount || 0;
+        const lastStr = s.lastPracticedAt ? '最近 ' + formatSavedSetDate(s.lastPracticedAt) : '未练习';
+        return '<li class="saved-sets-item" data-id="' + String(s.id) + '">' +
+          '<div class="saved-sets-item-content">' +
+          '<span class="name">' + escapeHtml(s.name) + '</span>' +
+          '<div class="meta">' +
+          '<span>' + escapeHtml(formatSavedSetDate(s.createdAt)) + '</span><span class="dot">·</span><span>' + s.questions.length + ' 题</span><span class="dot">·</span><span>练习 ' + count + ' 次</span><span class="dot">·</span><span>' + lastStr + '</span>' +
+          '</div></div>' +
+          '<div class="actions"><button type="button" class="btn btn-primary" data-action="start">开始</button><button type="button" class="btn btn-secondary" data-action="edit">编辑</button></div>' +
+          '</li>';
+      }
       if (filtered.length === 0) {
         listEl.innerHTML = '';
         emptyEl.style.display = 'block';
@@ -1869,30 +1956,55 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         return;
       }
       emptyEl.style.display = 'none';
-      listEl.innerHTML = filtered.map(s => {
-        const count = s.practiceCount || 0;
-        const lastStr = s.lastPracticedAt ? '最近 ' + formatSavedSetDate(s.lastPracticedAt) : '未练习';
-        return `
-        <li class="saved-sets-item" data-id="${String(s.id)}">
-          <div class="saved-sets-item-content">
-            <span class="name">${escapeHtml(s.name)}</span>
-            <div class="meta">
-              <span>${escapeHtml(formatSavedSetDate(s.createdAt))}</span>
-              <span class="dot">·</span>
-              <span>${s.questions.length} 题</span>
-              <span class="dot">·</span>
-              <span>练习 ${count} 次</span>
-              <span class="dot">·</span>
-              <span>${lastStr}</span>
-            </div>
-          </div>
-          <div class="actions">
-            <button type="button" class="btn btn-primary" data-action="start">开始</button>
-            <button type="button" class="btn btn-secondary" data-action="edit">编辑</button>
-          </div>
-        </li>
-      `;
+      let html = '';
+      folders.forEach(f => {
+        const inFolder = filtered.filter(s => String(s.folderId || '') === String(f.id));
+        if (inFolder.length === 0) return;
+        html += '<div class="saved-sets-folder"><h4 class="saved-sets-folder-title">' + escapeHtml(f.name) + '</h4><ul class="saved-sets-list">' + inFolder.map(itemHtml).join('') + '</ul></div>';
+      });
+      const uncategorized = filtered.filter(s => !s.folderId || !folderIds.has(String(s.folderId)));
+      if (uncategorized.length > 0) {
+        html += '<div class="saved-sets-folder"><h4 class="saved-sets-folder-title">未分类</h4><ul class="saved-sets-list">' + uncategorized.map(itemHtml).join('') + '</ul></div>';
+      }
+      listEl.innerHTML = html;
+    }
+    function renderFolderTags() {
+      const tagsEl = document.getElementById('saved-sets-folder-tags');
+      if (!tagsEl) return;
+      const folders = getFolders();
+      tagsEl.innerHTML = folders.map(f => {
+        return '<span class="folder-tag" data-folder-id="' + escapeHtml(String(f.id)) + '">' +
+          '<span class="folder-tag-name" title="' + escapeHtml(f.name) + '">' + escapeHtml(f.name) + '</span>' +
+          '<button type="button" class="folder-tag-edit" aria-label="重命名">✎</button>' +
+          '<button type="button" class="folder-tag-delete" aria-label="删除">×</button>' +
+          '</span>';
       }).join('');
+      tagsEl.querySelectorAll('.folder-tag-edit').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const tag = this.closest('.folder-tag');
+          const id = tag.dataset.folderId;
+          const folders = getFolders();
+          const folder = folders.find(f => String(f.id) === id);
+          if (!folder) return;
+          const name = prompt('重命名文件夹', folder.name || '');
+          if (name == null || (name && !name.trim())) return;
+          const trimmed = name.trim();
+          if (!trimmed) return;
+          setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: trimmed }) : f));
+        });
+      });
+      tagsEl.querySelectorAll('.folder-tag-delete').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const tag = this.closest('.folder-tag');
+          const id = tag.dataset.folderId;
+          if (!confirm('删除该文件夹？其下习题集会移到「未分类」。')) return;
+          const folders = getFolders().filter(f => String(f.id) !== id);
+          setFolders(folders);
+          const sets = getSavedSets();
+          const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
+          setSavedSets(updated);
+        });
+      });
     }
     function handleSavedSetsAction(e) {
       const btn = e.target.closest('[data-action]');
@@ -1991,6 +2103,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const linksEl = document.getElementById('edit-set-review-links');
       const metaEl = document.getElementById('edit-set-meta');
       if (nameEl) nameEl.value = set.name || '';
+      const folderEl = document.getElementById('edit-set-folder');
+      if (folderEl) folderEl.value = set.folderId != null ? String(set.folderId) : '';
       const m = getReviewMaterials(set);
       if (textsEl) textsEl.value = m.texts.join('\n');
       if (linksEl) linksEl.value = m.links.join('\n');
@@ -2021,7 +2135,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const reviewLinks = linkLines.map(s => (/^https?:\/\//i.test(s) || isLikelyUrl(s)) ? (/^https?:\/\//i.test(s) ? s : 'https://' + s) : s);
       const reviewImages = _editModalPastedImages.slice();
       const sets = getSavedSets();
-      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, reviewTexts: reviewTexts, reviewLinks: reviewLinks, reviewImages: reviewImages }) : s);
+      const folderEl = document.getElementById('edit-set-folder');
+      const folderId = (folderEl && folderEl.value) ? folderEl.value : null;
+      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, folderId: folderId || undefined, reviewTexts: reviewTexts, reviewLinks: reviewLinks, reviewImages: reviewImages }) : s);
       setSavedSets(updated);
       closeEditSetModal();
     }
@@ -2890,9 +3006,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           else if (isLikelyUrl(s)) reviewLinks.push(/^https?:\/\//i.test(s) ? s : 'https://' + s);
           else reviewTexts.push(s);
         });
+        const folderSel = document.getElementById('import-set-folder');
+        const folderId = (folderSel && folderSel.value) ? folderSel.value : null;
         const saved = {
           id: Date.now(),
           name: name,
+          folderId: folderId || undefined,
           createdAt: new Date().toISOString(),
           questions: parsed,
           practiceCount: 0,
@@ -2980,6 +3099,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const searchInput = document.getElementById('saved-sets-search');
     if (searchInput) searchInput.addEventListener('input', renderSavedSets);
     document.getElementById('saved-sets-list').addEventListener('click', handleSavedSetsAction);
+    document.getElementById('btn-add-folder').addEventListener('click', () => {
+      const name = prompt('输入文件夹名称', '');
+      if (name == null || !name.trim()) return;
+      const trimmed = name.trim();
+      setFolders(getFolders().concat([{ id: String(Date.now()), name: trimmed }]));
+    });
     function startWrongBookDuePractice() {
       const due = getWrongBookDue();
       if (due.length === 0) {
@@ -3127,6 +3252,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     renderSavedSets();
     updateStatsBar();
     updateStartPracticeSelect();
+    renderFolderSelects();
     updateCategoryFilter();
     const startSel = document.getElementById('start-practice-select');
     if (startSel) startSel.addEventListener('change', updateCategoryFilter);
