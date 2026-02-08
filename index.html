@@ -1223,10 +1223,10 @@
           <p class="save-success-tip-title">已保存。要同步到 GitHub（主仓库 + Pages 站点一起更新）：</p>
           <p class="save-success-tip-desc">在项目目录打开终端，运行（或点击复制），把 <code>../french-quiz-pages</code> 换成你的公开 Pages 仓库路径：</p>
           <div class="save-success-tip-cmd-wrap">
-            <code class="save-success-tip-cmd" id="save-deploy-cmd">./sync-and-push.sh ../french-quiz-pages</code>
+            <code class="save-success-tip-cmd" id="save-deploy-cmd">./scripts/sync-and-push.sh ../french-quiz-pages</code>
             <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-deploy-cmd">复制命令</button>
           </div>
-          <p class="save-success-tip-extra">只推当前仓库用 <code>./sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x sync-and-push.sh</code>。</p>
+          <p class="save-success-tip-extra">只推当前仓库用 <code>./scripts/sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x scripts/sync-and-push.sh</code>。</p>
         </div>
         <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
         <input type="file" id="file-import-data" accept=".json,application/json" />
@@ -2800,7 +2800,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-one-save').addEventListener('click', saveToProjectFolder);
     document.getElementById('btn-copy-deploy-cmd').addEventListener('click', () => {
       const cmd = document.getElementById('save-deploy-cmd');
-      const text = cmd ? cmd.textContent.trim() : './sync-and-push.sh ../french-quiz-pages';
+      const text = cmd ? cmd.textContent.trim() : './scripts/sync-and-push.sh ../french-quiz-pages';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(() => alert('已复制，到终端粘贴执行即可。')).catch(() => alert('复制失败'));
       } else {
