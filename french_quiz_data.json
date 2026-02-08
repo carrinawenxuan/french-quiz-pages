@@ -1892,13 +1892,58 @@
       ]
     }
   ],
-  "wrongBook": [],
-  "timerSeconds": 10,
+  "wrongBook": [
+    {
+      "type": "single_choice",
+      "stem": "Hier, Marie ______ au cinéma avec ses amis.",
+      "options": [
+        "est allé",
+        "est allée",
+        "a allé",
+        "a allée"
+      ],
+      "correct": 1,
+      "explanation": "【A1 基础】Aller 是位移词，助动词用 Être。主语 Marie 是阴性单数，过去分词 aller 必须加 e，变成 allée。",
+      "category": "语法-助动词选择",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Nous avons _____ (finir) notre travail.",
+      "correct": [
+        "fini"
+      ],
+      "explanation": "【A1 基础】助动词是 Avoir。动词 finir 不是“特权阶级”，用 Avoir。Avoir 后面如果没有宾语提前，分词永远不配合，保持原型 fini。",
+      "category": "语法-基础配合",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    },
+    {
+      "type": "single_choice",
+      "stem": "Mes sœurs sont ______ en Italie l'année dernière.",
+      "options": [
+        "parti",
+        "partie",
+        "partis",
+        "parties"
+      ],
+      "correct": 3,
+      "explanation": "【A2 配合】Partir 是位移词，用 Être。主语 Mes sœurs 是阴性复数，所以分词必须加 es，变成 parties。",
+      "category": "语法-性数配合",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    }
+  ],
+  "timerSeconds": 30,
   "dailyStats": {
     "date": "2026-02-08",
     "todayCount": 51,
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T20:12:55.003Z"
+  "exportedAt": "2026-02-08T20:18:26.561Z"
 }
