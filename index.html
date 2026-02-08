@@ -1126,7 +1126,14 @@
     .review-modal-links .review-modal-img { max-width: 100%; max-height: 280px; display: block; border-radius: var(--radius-sm); margin-top: 0.25rem; }
     .review-modal-images { display: flex; flex-direction: column; gap: 0.5rem; }
     .review-modal-images .review-modal-msg { margin: 0; }
-    .review-modal-images .review-modal-img { max-width: 100%; max-height: 240px; display: block; border-radius: var(--radius-sm); }
+    .review-modal-images .review-modal-img { max-width: 100%; max-height: 240px; display: block; border-radius: var(--radius-sm); cursor: pointer; }
+    .review-modal-images .review-modal-msg { cursor: pointer; }
+    .image-lightbox-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 2rem; box-sizing: border-box; opacity: 0; visibility: hidden; transition: opacity 0.2s, visibility 0.2s; }
+    .image-lightbox-overlay.show { opacity: 1; visibility: visible; }
+    .image-lightbox-overlay .image-lightbox-content { position: relative; max-width: 95vw; max-height: 95vh; display: flex; align-items: center; justify-content: center; }
+    .image-lightbox-overlay .image-lightbox-content img { max-width: 95vw; max-height: 95vh; width: auto; height: auto; object-fit: contain; border-radius: var(--radius-sm); box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+    .image-lightbox-overlay .image-lightbox-close { position: absolute; top: -2.5rem; right: 0; width: 2rem; height: 2rem; border: none; background: rgba(255,255,255,0.2); color: #fff; font-size: 1.25rem; line-height: 1; cursor: pointer; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 0; }
+    .image-lightbox-overlay .image-lightbox-close:hover { background: rgba(255,255,255,0.35); }
     .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -1382,6 +1389,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <div class="review-modal-actions">
         <button type="button" class="btn btn-primary" id="btn-review-start-quiz">直接开始练习</button>
       </div>
+    </div>
+  </div>
+
+  <div class="image-lightbox-overlay" id="image-lightbox-overlay" role="dialog" aria-modal="true" aria-label="放大查看图片">
+    <div class="image-lightbox-content">
+      <img id="image-lightbox-img" src="" alt="放大图" />
+      <button type="button" class="image-lightbox-close" id="image-lightbox-close" aria-label="关闭">×</button>
     </div>
   </div>
 
@@ -2358,7 +2372,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (imagesEl) {
         imagesEl.innerHTML = m.images.map(dataUrl => {
           const safeSrc = (dataUrl || '').replace(/"/g, '&quot;');
-          return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" /></div>';
+          return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" title="点击放大" /></div>';
         }).join('');
         imagesEl.style.display = m.images.length ? 'flex' : 'none';
       }
@@ -2369,6 +2383,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const overlay = document.getElementById('review-modal-overlay');
       if (overlay) overlay.classList.remove('show');
       _pendingReviewStart = null;
+    }
+    function openImageLightbox(src) {
+      const el = document.getElementById('image-lightbox-overlay');
+      const img = document.getElementById('image-lightbox-img');
+      if (el && img && src) { img.src = src; el.classList.add('show'); }
+    }
+    function closeImageLightbox() {
+      const el = document.getElementById('image-lightbox-overlay');
+      if (el) el.classList.remove('show');
     }
     function recordSavedSetPractice(setId) {
       if (!setId) return;
@@ -3015,8 +3038,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     document.getElementById('btn-review-start-quiz').addEventListener('click', confirmReviewStartQuiz);
     document.getElementById('review-modal-overlay').addEventListener('click', (e) => {
+      if (e.target.closest('#review-modal-images') && e.target.classList.contains('review-modal-img')) {
+        e.preventDefault();
+        e.stopPropagation();
+        openImageLightbox(e.target.src);
+        return;
+      }
       if (e.target.id === 'review-modal-overlay') confirmReviewStartQuiz();
     });
+    document.getElementById('image-lightbox-close').addEventListener('click', closeImageLightbox);
+    document.getElementById('image-lightbox-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'image-lightbox-overlay') closeImageLightbox();
+    });
+    document.querySelector('.image-lightbox-content').addEventListener('click', (e) => e.stopPropagation());
     document.getElementById('btn-edit-set-save').addEventListener('click', saveEditSetModal);
     document.getElementById('btn-edit-set-cancel').addEventListener('click', closeEditSetModal);
     document.getElementById('btn-edit-set-export').addEventListener('click', exportFromEditModal);
