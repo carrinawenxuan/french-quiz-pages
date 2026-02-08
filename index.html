@@ -1033,6 +1033,19 @@
     }
     .review-modal-links a:hover { background: var(--accent-soft); border-color: var(--accent); }
     body.theme-light .review-modal-links a { border-color: rgba(0,0,0,0.08); }
+    .review-modal-links .review-modal-msg {
+      display: block;
+      padding: 0.6rem 0.75rem;
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      word-break: break-word;
+      white-space: pre-wrap;
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    body.theme-light .review-modal-links .review-modal-msg { border-color: rgba(0,0,0,0.08); }
     .review-modal-actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
     .review-modal-actions .btn { flex: 1; }
 
@@ -2213,13 +2226,29 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         return;
       }
       _pendingReviewStart = { questions, fromWrongBook, setId };
+      function isLikelyUrl(str) {
+        const s = (str || '').trim();
+        if (!s) return false;
+        let toTry = s;
+        if (!/^https?:\/\//i.test(s)) toTry = 'https://' + s;
+        try {
+          const u = new URL(toTry);
+          const host = (u.hostname || '').toLowerCase();
+          return host.length > 0 && (host.includes('.') || host === 'localhost');
+        } catch (_) { return false; }
+      }
       const linksEl = document.getElementById('review-modal-links');
       if (linksEl) {
-        linksEl.innerHTML = urls.map(url => {
-          const href = /^https?:\/\//i.test(url) ? url : ('https://' + url);
-          const label = url.length > 60 ? url.slice(0, 57) + '…' : url;
-          return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
-        }).join('');
+        linksEl.innerHTML = urls.map(raw => {
+          const url = (raw || '').trim();
+          if (!url) return '';
+          if (isLikelyUrl(url)) {
+            const href = /^https?:\/\//i.test(url) ? url : ('https://' + url);
+            const label = url.length > 80 ? url.slice(0, 77) + '…' : url;
+            return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
+          }
+          return '<div class="review-modal-msg">' + escapeHtml(url) + '</div>';
+        }).filter(Boolean).join('');
       }
       const overlay = document.getElementById('review-modal-overlay');
       if (overlay) overlay.classList.add('show');
