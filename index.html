@@ -1,0 +1,2544 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Français Quiz · 法语练习</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0c0a14;
+      --card: #16141f;
+      --surface: #1e1b28;
+      --accent: #8b5cf6;
+      --accent-hover: #a78bfa;
+      --accent-soft: rgba(139, 92, 246, 0.15);
+      --correct: #34d399;
+      --wrong: #f87171;
+      --option-a: #60a5fa;
+      --option-b: #fbbf24;
+      --option-c: #4ade80;
+      --option-d: #fb923c;
+      --text: #f5f3ff;
+      --text-muted: #a1a1aa;
+      --radius: 16px;
+      --radius-sm: 10px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.25);
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    body.theme-light {
+      --bg: #f8f7fc;
+      --card: #fff;
+      --surface: #f0eef8;
+      --text: #1c1917;
+      --text-muted: #78716c;
+      --shadow: 0 4px 20px rgba(124, 58, 237, 0.08);
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+      background: var(--bg);
+      background-image: none;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      background-image:
+        radial-gradient(ellipse 100% 60% at 50% -15%, rgba(139, 92, 246, 0.2), transparent 50%),
+        radial-gradient(ellipse 70% 50% at 100% 80%, rgba(96, 165, 250, 0.12), transparent),
+        radial-gradient(ellipse 50% 30% at 0% 60%, rgba(139, 92, 246, 0.08), transparent);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      padding-left: max(1.25rem, env(safe-area-inset-left));
+      padding-right: max(1.25rem, env(safe-area-inset-right));
+      padding-top: max(1.5rem, env(safe-area-inset-top));
+      padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+    }
+    @media (min-width: 600px) {
+      .container { padding: 2rem 1.5rem; }
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    body.theme-light header { border-bottom-color: rgba(0,0,0,0.06); }
+    header .brand {
+      text-align: left;
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #c4b5fd 0%, #a78bfa 50%, #818cf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    header p {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-top: 0.2rem;
+    }
+    .theme-toggle {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.1);
+      background: var(--surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      transition: all 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+    body.theme-light .theme-toggle { border-color: rgba(0,0,0,0.08); background: var(--surface); }
+    body.theme-light .question-card,
+    body.theme-light .result-card { box-shadow: var(--shadow-sm); }
+    body.theme-light .option { border-color: rgba(0,0,0,0.08); }
+    body.theme-light .option:hover { background: rgba(0,0,0,0.04); }
+
+    .stats-bar {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    .stats-bar span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.6rem 1rem;
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+    body.theme-light .stats-bar span { border-color: rgba(0,0,0,0.06); background: var(--card); }
+    .stats-bar strong {
+      color: var(--accent);
+      font-weight: 700;
+      margin-right: 0.15rem;
+    }
+
+    .home-section {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+    .home-section:hover {
+      border-color: rgba(255,255,255,0.08);
+      box-shadow: var(--shadow);
+    }
+    body.theme-light .home-section { border-color: rgba(0,0,0,0.06); }
+    body.theme-light .home-section:hover { border-color: rgba(124, 58, 237, 0.2); box-shadow: var(--shadow); }
+    .home-section h2 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.85rem;
+    }
+
+    .screen {
+      display: none;
+    }
+    .screen.active {
+      display: block;
+      animation: fadeIn 0.35s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #screen-result.active {
+      animation: fadeIn 0.4s ease;
+    }
+    #screen-result .result-card {
+      animation: fadeIn 0.5s ease 0.1s both;
+    }
+
+    /* Question transitions */
+    @keyframes slideInRight {
+      from { opacity: 0; transform: translateX(30px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideOutLeft {
+      from { opacity: 1; transform: translateX(0); }
+      to { opacity: 0; transform: translateX(-30px); }
+    }
+    .question-card.animate-in { animation: slideInRight 0.3s ease forwards; }
+    .question-card.animate-out { animation: slideOutLeft 0.2s ease forwards; }
+
+    /* Answer feedback animations */
+    @keyframes bounceIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      60% { transform: scale(1.05); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    @keyframes shakeX {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-6px); }
+      40%, 80% { transform: translateX(6px); }
+    }
+    .answer-feedback.correct-msg { animation: bounceIn 0.4s ease; }
+    .answer-feedback.wrong-msg { animation: shakeX 0.4s ease; }
+
+    /* Option click effect */
+    @keyframes optionPulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(0.97); }
+      100% { transform: scale(1); }
+    }
+    .option.just-selected { animation: optionPulse 0.2s ease; }
+
+    /* Stats bar number pop */
+    @keyframes countPop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.25); color: var(--accent-hover); }
+      100% { transform: scale(1); }
+    }
+    .stats-bar strong { display: inline-block; }
+    .stats-bar strong.updated { animation: countPop 0.3s ease; }
+
+    /* Circular timer ring */
+    .timer-ring { flex-shrink: 0; }
+    .timer-ring-fill { transition: stroke-dashoffset 1s linear, stroke 0.3s; }
+    .timer-ring-fill.low { stroke: var(--wrong); }
+
+    .home-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .home-actions .btn { min-height: 52px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.95rem 1.5rem;
+      min-height: 48px;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: inherit;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(139, 92, 246, 0.35);
+    }
+    .btn:active { transform: translateY(0); }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent) 0%, #6366f1 100%);
+      color: white;
+      box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+    }
+    .btn-primary:hover { box-shadow: 0 10px 32px rgba(139, 92, 246, 0.45); }
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      box-shadow: 0 8px 24px rgba(139, 92, 246, 0.2);
+    }
+    body.theme-light .btn-secondary { background: var(--card); border-color: rgba(0,0,0,0.1); }
+    body.theme-light .btn-secondary:hover { background: var(--surface); border-color: var(--accent); }
+
+    .import-section {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: var(--shadow-sm);
+    }
+    body.theme-light .import-section { border-color: rgba(0,0,0,0.06); }
+    .import-section h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .import-section textarea {
+      width: 100%;
+      min-height: 140px;
+      padding: 0.85rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      resize: vertical;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .import-section textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    body.theme-light .import-section textarea { background: var(--bg); border-color: rgba(0,0,0,0.1); }
+    .import-section textarea::placeholder {
+      color: var(--text-muted);
+    }
+    .import-section .hint {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* Quiz */
+    .progress-wrap {
+      margin-bottom: 1.25rem;
+    }
+    .progress-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .progress-estimate {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+    }
+    .progress-bar {
+      height: 8px;
+      background: var(--surface);
+      border-radius: 999px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.04);
+    }
+    body.theme-light .progress-bar { border-color: rgba(0,0,0,0.06); }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), #818cf8);
+      border-radius: 999px;
+      transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+    }
+
+    .question-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      border: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .question-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: linear-gradient(180deg, var(--accent), #818cf8);
+      border-radius: 4px 0 0 4px;
+    }
+    body.theme-light .question-card::before { opacity: 0.9; }
+    .question-meta {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.03em;
+    }
+    .question-stem {
+      font-size: 1.25rem;
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    @media (min-width: 480px) {
+      .question-stem { font-size: 1.35rem; }
+    }
+    .question-stem .blank {
+      display: inline-block;
+      min-width: 120px;
+      border-bottom: 2px solid var(--accent);
+      margin: 0 4px;
+      padding: 0 4px;
+    }
+    .question-stem .blank.filled {
+      border-color: var(--correct);
+      color: var(--correct);
+    }
+    .question-stem .blank.wrong {
+      border-color: var(--wrong);
+      color: var(--wrong);
+    }
+    .paragraph-blanks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .paragraph-blanks input {
+      width: 120px;
+      padding: 0.5rem 0.75rem;
+      font-size: 1rem;
+      background: var(--surface);
+      border: 2px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    body.theme-light .paragraph-blanks input { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .paragraph-blanks input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    .paragraph-blanks input.correct-blank {
+      border-color: var(--correct);
+      background: rgba(16, 185, 129, 0.15);
+    }
+    .paragraph-blanks input.wrong-blank {
+      border-color: var(--wrong);
+      background: rgba(239, 68, 68, 0.15);
+    }
+
+    .options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+    }
+    @media (max-width: 480px) {
+      .options { grid-template-columns: 1fr; }
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding: 1rem 1.25rem;
+      min-height: 48px;
+      background: var(--surface);
+      border: 2px solid rgba(255,255,255,0.06);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .option:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.12);
+      transform: translateY(-1px);
+    }
+    .option.selected {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      box-shadow: 0 0 0 1px var(--accent);
+    }
+    .option.correct {
+      border-color: var(--correct);
+      background: rgba(52, 211, 153, 0.12);
+    }
+    .option.wrong {
+      border-color: var(--wrong);
+      background: rgba(248, 113, 113, 0.12);
+    }
+    .option.disabled {
+      pointer-events: none;
+      opacity: 0.65;
+    }
+    .option-letter {
+      width: 34px;
+      height: 34px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    .option:nth-child(1) .option-letter { background: var(--option-a); color: #fff; }
+    .option:nth-child(2) .option-letter { background: var(--option-b); color: #1a1a1a; }
+    .option:nth-child(3) .option-letter { background: var(--option-c); color: #fff; }
+    .option:nth-child(4) .option-letter { background: var(--option-d); color: #fff; }
+    .option input {
+      margin: 0;
+      accent-color: var(--accent);
+    }
+    .option-label {
+      flex: 1;
+    }
+
+    .fill-input-wrap {
+      margin-top: 0.5rem;
+    }
+    .fill-input-wrap input {
+      width: 100%;
+      max-width: 280px;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      font-family: inherit;
+      background: var(--surface);
+      border: 2px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .fill-input-wrap input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    body.theme-light .fill-input-wrap input { background: var(--card); border-color: rgba(0,0,0,0.12); }
+
+    .answer-feedback {
+      margin-top: 1rem;
+      padding: 0.65rem 1rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 1rem;
+      display: none;
+    }
+    .answer-feedback.correct-msg { background: rgba(52, 211, 153, 0.15); color: var(--correct); display: block; border: 1px solid rgba(52, 211, 153, 0.3); }
+    .answer-feedback.wrong-msg { background: rgba(248, 113, 113, 0.15); color: var(--wrong); display: block; border: 1px solid rgba(248, 113, 113, 0.3); }
+    .explanation {
+      margin-top: 1.25rem;
+      padding: 1rem 1.15rem;
+      background: rgba(52, 211, 153, 0.08);
+      border: 1px solid rgba(52, 211, 153, 0.25);
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #6ee7b7;
+      white-space: pre-wrap;
+    }
+    body.theme-light .explanation { background: rgba(52, 211, 153, 0.1); color: #059669; border-color: rgba(52, 211, 153, 0.3); }
+    .wrong-book-remove-wrap { margin-top: 0.75rem; }
+    .btn-sm { padding: 0.4rem 0.75rem; font-size: 0.85rem; min-height: auto; }
+
+    .quiz-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .quiz-actions-right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .quiz-actions .btn {
+      min-width: 120px;
+    }
+    .quiz-actions #btn-exit-quiz { min-width: auto; }
+    .quiz-shortcut-hint {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      width: 100%;
+    }
+
+    .timer-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .timer-wrap label { font-size: 0.9rem; color: var(--text-muted); }
+    .timer-wrap input[type="number"] {
+      width: 4rem;
+      padding: 0.45rem 0.5rem;
+      font-size: 0.9rem;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+    }
+    body.theme-light .timer-wrap input[type="number"] { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .shuffle-wrap { display: flex; align-items: center; gap: 0.4rem; }
+    .shuffle-wrap input[type="checkbox"] { accent-color: var(--accent); cursor: pointer; }
+    .shuffle-wrap label { font-size: 0.85rem; color: var(--text-muted); cursor: pointer; }
+    .type-filter-wrap { margin-top: 0.75rem; }
+    .type-filter-wrap .type-filter-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+    .type-filter-row { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center; }
+    .type-filter-row label { display: flex; align-items: center; gap: 0.35rem; font-size: 0.9rem; color: var(--text); cursor: pointer; }
+    .type-filter-row input[type="checkbox"] { accent-color: var(--accent); cursor: pointer; }
+    .start-select-wrap { margin-bottom: 0.75rem; }
+    .category-filter-wrap { margin-bottom: 0.75rem; }
+    .category-filter-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .category-filter-wrap select {
+      width: 100%;
+      max-width: 320px;
+      padding: 0.65rem 0.85rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      cursor: pointer;
+    }
+    body.theme-light .category-filter-wrap select { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .start-select-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .start-select-wrap select {
+      width: 100%;
+      max-width: 320px;
+      padding: 0.65rem 0.85rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .start-select-wrap select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px var(--accent-soft);
+    }
+    body.theme-light .start-select-wrap select { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .quiz-timer {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent);
+      min-width: 2.5rem;
+    }
+    .quiz-timer.low { color: var(--wrong); }
+    .question-stem-wrap { position: relative; }
+    .btn-read-aloud {
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.1);
+      background: var(--surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-read-aloud:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+    body.theme-light .btn-read-aloud { background: var(--card); border-color: rgba(0,0,0,0.1); }
+    .result-celebration {
+      font-size: 1.35rem;
+      margin-top: 0.75rem;
+      color: var(--correct);
+      font-weight: 700;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.9; transform: scale(1.02); }
+    }
+    .saved-sets-search { margin-bottom: 1rem; }
+    .saved-sets-search input {
+      width: 100%;
+      padding: 0.65rem 1rem 0.65rem 2.25rem;
+      font-size: 0.9rem;
+      background: var(--bg);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .saved-sets-search input::placeholder { color: var(--text-muted); }
+    .saved-sets-search input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    .saved-sets-search-wrap { position: relative; }
+    .saved-sets-search-wrap::before {
+      content: '🔍';
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.9rem;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    body.theme-light .saved-sets-search input { border-color: rgba(0,0,0,0.12); }
+
+    /* Result */
+    .result-card {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: visible;
+    }
+    .result-card .result-confetti { border-radius: var(--radius); }
+    .result-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent), #818cf8);
+    }
+    .result-score {
+      font-size: 3.25rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #c4b5fd, #a78bfa 40%, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+      line-height: 1.1;
+    }
+    .result-pct {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin: -0.25rem 0 0.5rem;
+    }
+    .result-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    .result-confetti {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      border-radius: inherit;
+    }
+    .result-confetti span {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      animation: confetti 2.5s ease-out forwards;
+      opacity: 0;
+    }
+    @keyframes confetti {
+      0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(-120px) rotate(720deg); opacity: 0; }
+    }
+    .result-card .btn {
+      margin-top: 0.5rem;
+    }
+    .result-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 1.25rem;
+    }
+    .wrong-book-btn { background: rgba(248, 113, 113, 0.15); color: #fca5a5; border: 1px solid rgba(248, 113, 113, 0.35); }
+    .wrong-book-btn:hover { background: rgba(248, 113, 113, 0.25); box-shadow: 0 4px 16px rgba(248, 113, 113, 0.2); }
+    .result-recent {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    body.theme-light .result-recent { border-top-color: rgba(0,0,0,0.06); }
+    .result-recent-title { font-weight: 600; margin-bottom: 0.35rem; }
+    .result-recent ul { list-style: none; }
+    .result-recent li { padding: 0.2rem 0; }
+
+    .format-doc {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    body.theme-light .format-doc { border-color: rgba(0,0,0,0.06); }
+    .format-doc-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .format-doc-title::before { content: '▶'; font-size: 0.7rem; transition: transform 0.2s; }
+    .format-doc.open .format-doc-title::before { transform: rotate(90deg); }
+    .format-doc-content { display: none; font-size: 0.8rem; line-height: 1.7; color: var(--text-muted); }
+    .format-doc.open .format-doc-content { display: block; }
+    .format-doc pre {
+      background: var(--bg);
+      padding: 0.75rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 0.5rem 0;
+      font-size: 0.75rem;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .format-doc .type-tag { color: var(--accent); font-weight: 600; }
+
+    .saved-sets {
+      margin-top: 1.5rem;
+      padding: 1.5rem;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: var(--shadow-sm);
+    }
+    body.theme-light .saved-sets { border-color: rgba(0,0,0,0.06); }
+    .saved-sets h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.85rem;
+    }
+    .saved-sets-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+    .saved-sets-item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 1.15rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.06);
+      background: var(--surface);
+      flex-wrap: wrap;
+      transition: all 0.2s;
+    }
+    .saved-sets-item:hover {
+      border-color: rgba(139, 92, 246, 0.35);
+      background: var(--accent-soft);
+      box-shadow: var(--shadow-sm);
+    }
+    body.theme-light .saved-sets-item { border-color: rgba(0,0,0,0.08); background: var(--bg); }
+    body.theme-light .saved-sets-item:hover { border-color: var(--accent); background: var(--surface); }
+    .saved-sets-item-content { flex: 1; min-width: 0; }
+    .saved-sets-item .name {
+      display: block;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 0.35rem;
+      line-height: 1.4;
+    }
+    .saved-sets-item .meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .saved-sets-item .meta span { white-space: nowrap; }
+    .saved-sets-item .meta .dot { opacity: 0.5; user-select: none; }
+    .saved-sets-item .actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+    .saved-sets-item .btn { padding: 0.45rem 0.9rem; font-size: 0.85rem; border-radius: 8px; }
+    .saved-sets-item .btn[data-action="rename"] { color: var(--text-muted); border-color: rgba(255,255,255,0.15); }
+    .saved-sets-item .btn[data-action="rename"]:hover { color: var(--accent); border-color: var(--accent); }
+    .saved-sets-item .btn[data-action="delete"] { color: var(--text-muted); border-color: rgba(255,255,255,0.1); }
+    .saved-sets-item .btn[data-action="delete"]:hover { color: #f87171; border-color: rgba(248,113,113,0.5); background: rgba(248,113,113,0.08); }
+    .saved-sets-item .btn[data-action="export"] { color: var(--text-muted); border-color: rgba(255,255,255,0.1); }
+    .saved-sets-item .btn[data-action="export"]:hover { color: var(--accent); border-color: var(--accent); }
+    body.theme-light .saved-sets-item .btn[data-action="rename"] { border-color: rgba(0,0,0,0.15); }
+    body.theme-light .saved-sets-item .btn[data-action="delete"] { border-color: rgba(0,0,0,0.1); }
+    body.theme-light .saved-sets-item .btn[data-action="export"] { border-color: rgba(0,0,0,0.1); }
+    .saved-sets-empty { font-size: 0.9rem; color: var(--text-muted); padding: 1rem 0; text-align: center; }
+    .import-name-wrap { margin-top: 0.75rem; }
+    .import-name-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .import-name-wrap input { width: 100%; max-width: 320px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); }
+    body.theme-light .import-name-wrap input { background: var(--bg); border-color: rgba(0,0,0,0.12); }
+    .storage-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
+    .storage-desc code { font-size: 0.75em; padding: 0.15em 0.4em; background: var(--bg); border-radius: 4px; }
+    .btn-one-save {
+      width: 100%;
+      margin-bottom: 1rem;
+      min-height: 48px;
+      font-size: 1rem;
+    }
+    .storage-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+    @media (max-width: 420px) {
+      .storage-grid { grid-template-columns: 1fr; }
+    }
+    .storage-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      padding: 1.1rem 1.2rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.06);
+      background: var(--surface);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    body.theme-light .storage-card { border-color: rgba(0,0,0,0.08); background: var(--card); }
+    .storage-card:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+    body.theme-light .storage-card:hover { background: var(--surface); border-color: var(--accent); }
+    .storage-card .title { font-weight: 600; font-size: 0.9rem; color: var(--text); }
+    .storage-card .hint { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; line-height: 1.4; }
+    .save-success-tip {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--surface);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: var(--radius-sm);
+    }
+    body.theme-light .save-success-tip { border-color: rgba(124, 58, 237, 0.35); background: var(--card); }
+    .save-success-tip-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem; }
+    .save-success-tip-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .save-success-tip-cmd-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .save-success-tip-cmd {
+      flex: 1;
+      min-width: 0;
+      font-size: 0.8rem;
+      padding: 0.5rem 0.6rem;
+      background: var(--bg);
+      border-radius: 6px;
+      word-break: break-all;
+    }
+    body.theme-light .save-success-tip-cmd { background: var(--surface); }
+    .save-success-tip-extra { font-size: 0.8rem; color: var(--text-muted); }
+    .storage-fallback { margin-top: 0.75rem; font-size: 0.8rem; color: var(--text-muted); }
+    .storage-fallback a { color: var(--accent); text-decoration: none; }
+    .storage-fallback a:hover { text-decoration: underline; }
+    input[type="file"]#file-import-data { display: none; }
+
+    /* Screen reader only */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1>Français Quiz</h1>
+        <p>TCF 填空 · 段落填空 · 单选 · 多选</p>
+      </div>
+      <button type="button" class="theme-toggle" id="theme-toggle" title="切换深色/浅色" aria-label="切换深色或浅色主题">🌓</button>
+    </header>
+
+    <div id="screen-home" class="screen active">
+      <div class="stats-bar" id="stats-bar">
+        <span>今日已练 <strong id="stat-today">0</strong> 题</span>
+        <span>连续 <strong id="stat-streak">0</strong> 天</span>
+        <span>错题本 <strong id="stat-wrong">0</strong> 题</span>
+        <span>习题集 <strong id="stat-sets">0</strong> 套</span>
+      </div>
+
+      <div class="home-section">
+        <h2>开始练习</h2>
+        <div class="timer-wrap">
+          <label for="timer-seconds">每题倒计时（秒）</label>
+          <input type="number" id="timer-seconds" min="0" max="120" value="10" title="0 表示不限时" />
+          <div class="shuffle-wrap">
+            <input type="checkbox" id="shuffle-questions" />
+            <label for="shuffle-questions">打乱题目顺序</label>
+          </div>
+          <div class="shuffle-wrap">
+            <input type="checkbox" id="shuffle-options" />
+            <label for="shuffle-options">打乱选项顺序</label>
+          </div>
+        </div>
+        <div class="type-filter-wrap">
+          <span class="type-filter-label">只做以下题型（不勾选 = 全部）</span>
+          <div class="type-filter-row">
+            <label><input type="checkbox" id="filter-type-single" checked /> 单选</label>
+            <label><input type="checkbox" id="filter-type-multiple" checked /> 多选</label>
+            <label><input type="checkbox" id="filter-type-fill" checked /> 填空</label>
+            <label><input type="checkbox" id="filter-type-paragraph" checked /> 段落填空</label>
+          </div>
+        </div>
+        <div class="start-select-wrap">
+          <label for="start-practice-select">选择习题集</label>
+          <select id="start-practice-select">
+            <option value="default">默认题目</option>
+          </select>
+        </div>
+        <div class="category-filter-wrap" id="category-filter-wrap">
+          <label for="filter-category">分类筛选</label>
+          <select id="filter-category">
+            <option value="">全部</option>
+          </select>
+        </div>
+        <div class="home-actions">
+          <button type="button" class="btn btn-primary" id="btn-start-practice">开始练习</button>
+          <button type="button" class="btn btn-secondary" id="btn-import-show">导入我的题目</button>
+        </div>
+        <div class="import-section" id="import-section" style="display: none;">
+        <h3>粘贴题目文本（支持你给的格式）</h3>
+        <textarea id="import-text" placeholder="粘贴题目文本（见下方说明）或 JSON 数组…"></textarea>
+        <div class="import-name-wrap">
+          <label for="import-set-name">习题集名称（保存用，填写后本次导入会加入「我的习题集」）</label>
+          <input type="text" id="import-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
+        </div>
+        <button type="button" class="btn btn-primary" id="btn-import-parse" style="margin-top: 0.75rem;">解析并开始</button>
+        </div>
+      </div>
+
+      <div class="home-section">
+        <h2>错题本</h2>
+        <div class="home-actions">
+          <button type="button" class="btn wrong-book-btn" id="btn-wrong-book">按计划复习 (<span id="wrong-count">0</span>)</button>
+          <button type="button" class="btn btn-secondary" id="btn-wrong-free">自由练习全部</button>
+          <button type="button" class="btn btn-secondary" id="btn-clear-wrong">清空错题本</button>
+        </div>
+      </div>
+
+      <div class="home-section" id="storage-section">
+        <h2>数据存到项目文件夹 / 云端同步</h2>
+        <p class="storage-desc">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：电脑保存后把该文件<strong>提交并推送到 GitHub</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
+        <div class="storage-grid">
+          <button type="button" class="storage-card" id="btn-open-folder">
+            <span class="title">打开并加载</span>
+            <span class="hint">选择 french-quiz 文件夹，读取本地 JSON</span>
+          </button>
+          <button type="button" class="storage-card" id="btn-save-to-folder">
+            <span class="title">保存到项目文件夹</span>
+            <span class="hint">覆盖 french_quiz_data.json</span>
+          </button>
+          <button type="button" class="storage-card" id="btn-export-data">
+            <span class="title">导出到项目文件夹（覆盖）</span>
+            <span class="hint">直接写入项目目录，覆盖原文件</span>
+          </button>
+          <button type="button" class="storage-card" id="btn-import-data">
+            <span class="title">从文件导入</span>
+            <span class="hint">选择本机 JSON 文件恢复数据</span>
+          </button>
+        </div>
+        <div class="save-success-tip" id="save-success-tip" style="display: none;">
+          <p class="save-success-tip-title">已保存。要同步到 GitHub（GitHub Pages 会在推送后自动更新）：</p>
+          <p class="save-success-tip-desc">在项目目录打开终端，运行（或点击复制）：</p>
+          <div class="save-success-tip-cmd-wrap">
+            <code class="save-success-tip-cmd" id="save-deploy-cmd">git add french_quiz_data.json && git commit -m "Update data" && git push</code>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-deploy-cmd">复制命令</button>
+          </div>
+          <p class="save-success-tip-extra">也可在项目目录运行 <code>npm run deploy</code> 或 <code>./deploy.sh</code>。</p>
+        </div>
+        <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
+        <input type="file" id="file-import-data" accept=".json,application/json" />
+      </div>
+
+      <div class="home-section saved-sets" id="saved-sets-section">
+        <h2>我的习题集</h2>
+        <div class="saved-sets-search">
+          <div class="saved-sets-search-wrap">
+            <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" />
+          </div>
+        </div>
+        <ul class="saved-sets-list" id="saved-sets-list"></ul>
+        <p class="saved-sets-empty" id="saved-sets-empty" style="display: none;">暂无保存的习题集，导入题目时填写名称即可保存。</p>
+      </div>
+
+      <div class="home-section format-doc" id="format-doc">
+        <h2 class="format-doc-title">各题型格式说明（点开查看）</h2>
+        <div class="format-doc-content">
+          <p><strong>通用：</strong>可直接粘贴 JSON 题目数组，或按下方文本格式粘贴。</p>
+          <p><span class="type-tag">单选题 single_choice</span></p>
+          <pre>{"type":"single_choice","stem":"Nous ______ une lettre.","options":["écris","écrit","écrivons","écrivent"],"correct":2,"explanation":"nous 用 écrivons。","category":"语法"}</pre>
+          <p><span class="type-tag">多选题 multiple_choice</span> — correct 为正确选项索引数组。</p>
+          <pre>{"type":"multiple_choice","stem":"下列哪些是复数形式？","options":["ils","il","elles","elle"],"correct":[0,2],"explanation":"ils/elles 为复数。"}</pre>
+          <p><span class="type-tag">填空题 fill_blank</span> — correct 为答案字符串或可接受答案数组。</p>
+          <pre>{"type":"fill_blank","stem":"Il _____ (avoir) 20 ans.","correct":["a","a "],"explanation":"avoir 第三人称单数变位为 a。"}</pre>
+          <p><span class="type-tag">段落填空题 paragraph_fill_blank</span> — 题干中用 _____ 表示空，顺序对应 correct 数组。</p>
+          <pre>{"type":"paragraph_fill_blank","stem":"Il a _____ ans. Elle _____ (s'appeler) Marie.","correct":["15","s'appelle"],"explanation":"两空依次填写。"}</pre>
+          <p><strong>文本格式（单选题）：</strong>含「题型：」「A) B) C) D)」「正确：」即可解析。例：</p>
+          <pre>题型：Nous ______ une lettre à nos parents.
+A) écris  B) écrit  C) écrivons  D) écrivent
+正确：C</pre>
+        </div>
+      </div>
+    </div>
+
+    <div id="screen-quiz" class="screen">
+      <div class="progress-wrap">
+        <span class="progress-estimate" id="progress-estimate"></span>
+        <span class="progress-label" id="progress-label">第 1 / 1 题</span>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+      <div class="question-card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;">
+          <div class="question-meta" id="question-meta"></div>
+          <div style="display:flex;align-items:center;gap:0.35rem;">
+            <svg class="timer-ring" id="timer-ring" width="40" height="40" viewBox="0 0 40 40" style="display:none;">
+              <circle cx="20" cy="20" r="17" fill="none" stroke="var(--surface)" stroke-width="3" />
+              <circle class="timer-ring-fill" id="timer-ring-fill" cx="20" cy="20" r="17" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="106.81" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)" />
+            </svg>
+            <span class="quiz-timer" id="quiz-timer" style="display: none;"></span>
+          </div>
+        </div>
+        <div class="question-stem-wrap">
+          <div class="question-stem" id="question-stem"></div>
+          <button type="button" class="btn-read-aloud" id="btn-read-aloud" title="朗读题干（法语）" aria-label="朗读题干（法语）">🔊 朗读</button>
+        </div>
+        <div class="options" id="options-container"></div>
+        <div class="fill-input-wrap" id="fill-input-wrap" style="display: none;">
+          <input type="text" id="fill-input" placeholder="输入答案..." autocomplete="off" />
+        </div>
+        <div class="paragraph-blanks" id="paragraph-blanks-wrap" style="display: none;"></div>
+        <div class="answer-feedback" id="answer-feedback"></div>
+        <div class="explanation" id="explanation" style="display: none;"></div>
+        <div class="wrong-book-remove-wrap" id="wrong-book-remove-wrap" style="display: none;">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-wrong">移出错题本</button>
+        </div>
+      </div>
+      <div class="quiz-actions">
+        <span id="question-counter"></span>
+        <div class="quiz-actions-right">
+          <button type="button" class="btn btn-secondary" id="btn-exit-quiz" aria-label="提前退出练习">提前退出</button>
+          <button type="button" class="btn btn-primary" id="btn-next" style="display: none;" aria-label="下一题">下一题</button>
+          <button type="button" class="btn btn-primary" id="btn-submit" aria-label="确认答案">确认</button>
+        </div>
+      </div>
+      <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认</p>
+    </div>
+
+    <div id="screen-result" class="screen">
+      <div class="result-card" id="result-card">
+        <div class="result-score" id="result-score" role="text" aria-live="polite">0/0</div>
+        <p class="result-pct" id="result-pct"></p>
+        <p class="result-desc" id="result-desc">完成练习</p>
+        <p class="result-celebration" id="result-celebration" style="display: none;">🎉 全对！</p>
+        <div class="result-confetti" id="result-confetti" aria-hidden="true"></div>
+        <div class="result-actions">
+          <button type="button" class="btn btn-primary" id="btn-restart" aria-label="再练一遍">再练一遍</button>
+          <button type="button" class="btn wrong-book-btn" id="btn-result-wrong" aria-label="错题本按计划复习">错题本·按计划</button>
+          <button type="button" class="btn btn-secondary" id="btn-result-wrong-free" aria-label="错题自由练习">错题自由练习</button>
+          <button type="button" class="btn btn-secondary" id="btn-share-result" aria-label="分享成绩">分享成绩</button>
+          <button type="button" class="btn btn-secondary" id="btn-back-home" aria-label="返回首页">返回首页</button>
+        </div>
+        <div class="result-recent" id="result-recent" style="display: none;"></div>
+      </div>
+    </div>
+    <div id="sr-announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+  </div>
+
+  <script>
+    const LETTERS = ['A', 'B', 'C', 'D'];
+    const WRONG_BOOK_KEY = 'french_quiz_wrong';
+    const SAVED_SETS_KEY = 'french_quiz_saved_sets';
+    const TIMER_SECONDS_KEY = 'french_quiz_timer_seconds';
+    const DAILY_STATS_KEY = 'french_quiz_daily_stats';
+    const RECENT_SESSIONS_KEY = 'french_quiz_recent_sessions';
+    const THEME_KEY = 'french_quiz_theme';
+    const DATA_FILE_NAME = 'french_quiz_data.json';
+    const RECENT_SESSIONS_MAX = 10;
+    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result' };
+
+    const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
+
+    let projectFolderHandle = null;
+    let _savedSetsCache = null;
+    let _savedSetsCacheDirty = true;
+    let _wrongBookCache = null;
+    let _wrongBookCacheDirty = true;
+    const _escapeDiv = document.createElement('div');
+    const _wrongBookIdCache = new WeakMap();
+
+    function getRecentSessions() {
+      try {
+        const raw = localStorage.getItem(RECENT_SESSIONS_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr.slice(-RECENT_SESSIONS_MAX) : [];
+      } catch (_) { return []; }
+    }
+    function pushRecentSession(total, score) {
+      const sessions = getRecentSessions();
+      sessions.push({ total, score, at: new Date().toISOString() });
+      localStorage.setItem(RECENT_SESSIONS_KEY, JSON.stringify(sessions.slice(-RECENT_SESSIONS_MAX)));
+    }
+
+    function saveQuizProgress() {
+      try {
+        sessionStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
+          questions: state.questions, index: state.index, score: state.score,
+          timerSeconds: state.timerSeconds, practicingWrongBook: state.practicingWrongBook,
+          practicedSetId: state.practicedSetId, savedAt: Date.now()
+        }));
+      } catch (_) {}
+    }
+    function clearQuizProgress() { try { sessionStorage.removeItem(QUIZ_PROGRESS_KEY); } catch (_) {} }
+    function getQuizProgress() {
+      try {
+        const raw = sessionStorage.getItem(QUIZ_PROGRESS_KEY);
+        if (!raw) return null;
+        const p = JSON.parse(raw);
+        if (Date.now() - p.savedAt > 2 * 60 * 60 * 1000) { clearQuizProgress(); return null; }
+        return p;
+      } catch (_) { return null; }
+    }
+
+    function getDailyStats() {
+      try {
+        const raw = localStorage.getItem(DAILY_STATS_KEY);
+        const data = raw ? JSON.parse(raw) : {};
+        const today = new Date().toISOString().slice(0, 10);
+        const yesterday = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+        if (data.date !== today) {
+          return {
+            date: today,
+            todayCount: 0,
+            lastDate: data.lastDate || data.date,
+            streak: data.streak || 0
+          };
+        }
+        return {
+          date: today,
+          todayCount: data.todayCount || 0,
+          lastDate: data.lastDate || data.date,
+          streak: data.streak || 0
+        };
+      } catch (_) { return { date: new Date().toISOString().slice(0, 10), todayCount: 0, lastDate: null, streak: 0 }; }
+    }
+    function addTodayPractice(n) {
+      const raw = localStorage.getItem(DAILY_STATS_KEY);
+      const data = raw ? JSON.parse(raw) : {};
+      const today = new Date().toISOString().slice(0, 10);
+      const yesterday = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+      let streak = data.streak || 0;
+      let todayCount = data.todayCount || 0;
+      if (data.date === today) {
+        todayCount += (n || 0);
+      } else {
+        todayCount = n || 0;
+        const prevDate = data.lastDate || data.date;
+        if (prevDate === yesterday) streak += 1;
+        else if (prevDate !== today) streak = 1;
+      }
+      const st = { date: today, todayCount, lastDate: today, streak };
+      localStorage.setItem(DAILY_STATS_KEY, JSON.stringify(st));
+      updateStatsBar();
+    }
+    function animateStatChange(el, newValue) {
+      if (!el) return;
+      const oldText = el.textContent;
+      el.textContent = newValue;
+      if (oldText !== String(newValue)) {
+        el.classList.remove('updated');
+        void el.offsetWidth;
+        el.classList.add('updated');
+      }
+    }
+    function updateStatsBar() {
+      const st = getDailyStats();
+      const elToday = document.getElementById('stat-today');
+      const elWrong = document.getElementById('stat-wrong');
+      const elSets = document.getElementById('stat-sets');
+      const elStreak = document.getElementById('stat-streak');
+      animateStatChange(elToday, st.todayCount || 0);
+      animateStatChange(elWrong, getWrongBook().length);
+      animateStatChange(elSets, getSavedSets().length);
+      animateStatChange(elStreak, st.streak || 0);
+    }
+    function shuffleArray(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function normalizeFrench(str) {
+      return str
+        .trim()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/\u0153/g, 'oe')
+        .replace(/\u00e6/g, 'ae')
+        .replace(/\s+/g, ' ');
+    }
+    function matchFrenchAnswer(val, acceptList) {
+      return acceptList.some(c => c === val) || acceptList.some(c => normalizeFrench(c) === normalizeFrench(val));
+    }
+
+    const QUESTION_TYPES = { single_choice: '单选', multiple_choice: '多选', fill_blank: '填空', paragraph_fill_blank: '段落填空' };
+    function getSelectedTypeFilter() {
+      const single = document.getElementById('filter-type-single');
+      const multiple = document.getElementById('filter-type-multiple');
+      const fill = document.getElementById('filter-type-fill');
+      const paragraph = document.getElementById('filter-type-paragraph');
+      const types = [];
+      if (single && single.checked) types.push('single_choice');
+      if (multiple && multiple.checked) types.push('multiple_choice');
+      if (fill && fill.checked) types.push('fill_blank');
+      if (paragraph && paragraph.checked) types.push('paragraph_fill_blank');
+      return types.length === 0 ? null : types;
+    }
+    function filterQuestionsByType(questions, typeFilter) {
+      if (!questions || !typeFilter || typeFilter.length === 0) return questions || [];
+      return questions.filter(q => q && typeFilter.includes(q.type));
+    }
+    function shuffleQuestionOptions(q) {
+      if (!q || (q.type !== 'single_choice' && q.type !== 'multiple_choice') || !q.options || !q.options.length) return q;
+      const perm = shuffleArray(q.options.map((_, i) => i));
+      const newOptions = perm.map(i => q.options[i]);
+      const oldCorrect = Array.isArray(q.correct) ? q.correct : [q.correct];
+      const newCorrect = q.type === 'single_choice'
+        ? perm.indexOf(oldCorrect[0])
+        : oldCorrect.map(c => perm.indexOf(c)).sort((a, b) => a - b);
+      return Object.assign({}, q, { options: newOptions, correct: newCorrect });
+    }
+
+    function getDataForExport() {
+      const timerEl = document.getElementById('timer-seconds');
+      return {
+        savedSets: getSavedSets(),
+        wrongBook: getWrongBook(),
+        timerSeconds: timerEl ? Math.max(0, parseInt(timerEl.value, 10) || 10) : 10,
+        dailyStats: getDailyStats(),
+        exportedAt: new Date().toISOString()
+      };
+    }
+    function loadDataFromObject(data) {
+      if (data.savedSets != null) setSavedSets(Array.isArray(data.savedSets) ? data.savedSets : []);
+      if (data.wrongBook != null) setWrongBook(Array.isArray(data.wrongBook) ? data.wrongBook : []);
+      if (data.timerSeconds != null) {
+        const n = Math.max(0, Math.min(120, parseInt(data.timerSeconds, 10) || 10));
+        const el = document.getElementById('timer-seconds');
+        if (el) { el.value = n; localStorage.setItem(TIMER_SECONDS_KEY, String(n)); }
+      }
+      if (data.dailyStats != null && data.dailyStats.date) {
+        try {
+          localStorage.setItem(DAILY_STATS_KEY, JSON.stringify({
+            date: data.dailyStats.date,
+            todayCount: data.dailyStats.todayCount || 0,
+            lastDate: data.dailyStats.lastDate || data.dailyStats.date,
+            streak: data.dailyStats.streak || 0
+          }));
+        } catch (_) {}
+        updateStatsBar();
+      }
+      updateWrongCount();
+      renderSavedSets();
+      updateStartPracticeSelect();
+    }
+    async function loadFromCloud() {
+      let url = DATA_FILE_NAME;
+      if (typeof location !== 'undefined' && location.origin) {
+        const dir = location.pathname.replace(/\/[^/]*$/, '') || '/';
+        const base = dir.endsWith('/') ? dir : dir + '/';
+        url = location.origin + base + DATA_FILE_NAME;
+      }
+      const btn = document.getElementById('btn-load-cloud');
+      if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
+      try {
+        const res = await fetch(url + '?t=' + Date.now());
+        if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据' : '请求失败');
+        const data = await res.json();
+        if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
+        loadDataFromObject(data);
+        alert('已从云端加载：' + (data.savedSets && data.savedSets.length ? data.savedSets.length + ' 套习题集' : '') + (data.wrongBook && data.wrongBook.length ? '，' + data.wrongBook.length + ' 道错题' : '') + '。');
+      } catch (e) {
+        alert('加载失败，请检查网络或稍后再试。若已部署，请确认电脑端已保存并把 french_quiz_data.json 提交推送到 GitHub。');
+      }
+      if (btn) { btn.disabled = false; btn.textContent = '从云端加载（手机同步习题集）'; }
+    }
+    async function pickFolderAndLoad() {
+      if (!('showDirectoryPicker' in window)) {
+        alert('当前浏览器不支持选择文件夹，请用 Chrome 或 Edge，或使用下方「从文件导入数据」选择 JSON 文件。');
+        return;
+      }
+      try {
+        const handle = await window.showDirectoryPicker();
+        projectFolderHandle = handle;
+        let fileHandle = await handle.getFileHandle(DATA_FILE_NAME, { create: false }).catch(() => null);
+        if (!fileHandle) {
+          fileHandle = await handle.getFileHandle(DATA_FILE_NAME, { create: true });
+          const writable = await fileHandle.createWritable();
+          const empty = { savedSets: [], wrongBook: [], timerSeconds: 10 };
+          await writable.write(JSON.stringify(empty, null, 2));
+          await writable.close();
+          loadDataFromObject(empty);
+          alert('已在项目文件夹创建 ' + DATA_FILE_NAME + ' 并加载空数据。');
+          return;
+        }
+        const file = await fileHandle.getFile();
+        const text = await file.text();
+        const data = JSON.parse(text);
+        loadDataFromObject(data);
+        alert('已从项目文件夹加载数据。');
+      } catch (e) {
+        if (e.name === 'AbortError') return;
+        console.error(e);
+        alert('加载失败：' + (e.message || String(e)));
+      }
+    }
+    async function saveToProjectFolder() {
+      if (!projectFolderHandle) {
+        if (!('showDirectoryPicker' in window)) {
+          alert('当前浏览器不支持。请用 Chrome/Edge 选择文件夹，或使用「导出数据」下载 JSON 后手动放到 french-quiz 文件夹。');
+          return;
+        }
+        try {
+          projectFolderHandle = await window.showDirectoryPicker();
+        } catch (e) {
+          if (e.name === 'AbortError') return;
+          throw e;
+        }
+      }
+      try {
+        const fileHandle = await projectFolderHandle.getFileHandle(DATA_FILE_NAME, { create: true });
+        const writable = await fileHandle.createWritable();
+        await writable.write(JSON.stringify(getDataForExport(), null, 2));
+        await writable.close();
+        const tipEl = document.getElementById('save-success-tip');
+        if (tipEl) {
+          tipEl.style.display = 'block';
+          tipEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+        alert('已保存。下方可复制命令到终端执行，推送后 GitHub Pages 会自动更新。');
+      } catch (e) {
+        console.error(e);
+        alert('保存失败：' + (e.message || String(e)) + '。请重新点击「打开项目文件夹并加载」选择 french-quiz 文件夹。');
+        projectFolderHandle = null;
+      }
+    }
+    function exportDataDownload() {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([JSON.stringify(getDataForExport(), null, 2)], { type: 'application/json' }));
+      a.download = DATA_FILE_NAME;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+    function importDataFromFile(file) {
+      const fr = new FileReader();
+      fr.onload = () => {
+        try {
+          const data = JSON.parse(fr.result);
+          loadDataFromObject(data);
+          alert('已从文件导入数据。');
+        } catch (e) {
+          alert('文件格式错误：' + (e.message || String(e)));
+        }
+      };
+      fr.readAsText(file);
+    }
+
+    function getSavedSets() {
+      if (!_savedSetsCacheDirty && _savedSetsCache !== null) return _savedSetsCache;
+      try {
+        const raw = localStorage.getItem(SAVED_SETS_KEY);
+        _savedSetsCache = raw ? JSON.parse(raw) : [];
+        _savedSetsCacheDirty = false;
+        return _savedSetsCache;
+      } catch (_) { return []; }
+    }
+    function setSavedSets(arr) {
+      _savedSetsCache = arr;
+      _savedSetsCacheDirty = false;
+      localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
+      renderSavedSets();
+      updateStatsBar();
+      updateStartPracticeSelect();
+    }
+    function updateStartPracticeSelect() {
+      const sel = document.getElementById('start-practice-select');
+      if (!sel) return;
+      const saved = getSavedSets();
+      const currentVal = sel.value;
+      sel.innerHTML = '<option value="default">默认题目</option>' +
+        saved.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('');
+      if (currentVal && (currentVal === 'default' || saved.some(s => String(s.id) === currentVal))) sel.value = currentVal;
+    }
+    function formatSavedSetDate(iso) {
+      const d = new Date(iso);
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      const h = String(d.getHours()).padStart(2, '0');
+      const min = String(d.getMinutes()).padStart(2, '0');
+      return y + '-' + m + '-' + day + ' ' + h + ':' + min;
+    }
+    function renderSavedSets() {
+      const sets = getSavedSets();
+      const searchEl = document.getElementById('saved-sets-search');
+      const query = (searchEl && searchEl.value ? searchEl.value : '').trim().toLowerCase();
+      const filtered = query ? sets.filter(s => (s.name || '').toLowerCase().includes(query)) : sets;
+      const listEl = document.getElementById('saved-sets-list');
+      const emptyEl = document.getElementById('saved-sets-empty');
+      if (!listEl || !emptyEl) return;
+      if (filtered.length === 0) {
+        listEl.innerHTML = '';
+        emptyEl.style.display = 'block';
+        emptyEl.textContent = query ? '没有匹配的习题集' : '还没有习题集，去「开始练习」里粘贴题目并填写名称，即可保存到这里。';
+        return;
+      }
+      emptyEl.style.display = 'none';
+      listEl.innerHTML = filtered.map(s => {
+        const count = s.practiceCount || 0;
+        const lastStr = s.lastPracticedAt ? '最近 ' + formatSavedSetDate(s.lastPracticedAt) : '未练习';
+        return `
+        <li class="saved-sets-item" data-id="${String(s.id)}">
+          <div class="saved-sets-item-content">
+            <span class="name">${escapeHtml(s.name)}</span>
+            <div class="meta">
+              <span>${escapeHtml(formatSavedSetDate(s.createdAt))}</span>
+              <span class="dot">·</span>
+              <span>${s.questions.length} 题</span>
+              <span class="dot">·</span>
+              <span>练习 ${count} 次</span>
+              <span class="dot">·</span>
+              <span>${lastStr}</span>
+            </div>
+          </div>
+          <div class="actions">
+            <button type="button" class="btn btn-primary" data-action="start">开始</button>
+            <button type="button" class="btn btn-secondary" data-action="export">导出</button>
+            <button type="button" class="btn btn-secondary" data-action="rename">重命名</button>
+            <button type="button" class="btn btn-secondary" data-action="delete">删除</button>
+          </div>
+        </li>
+      `;
+      }).join('');
+    }
+    function handleSavedSetsAction(e) {
+      const btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      const item = btn.closest('.saved-sets-item');
+      if (!item) return;
+      const id = item.dataset.id;
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === id);
+      switch (btn.dataset.action) {
+        case 'start':
+          if (set && set.questions && set.questions.length) startQuiz(set.questions, false, set.id);
+          break;
+        case 'export':
+          if (!set || !set.questions) return;
+          const name = (set.name || '习题集').replace(/[\\/:*?"<>|]/g, '_').slice(0, 50);
+          const blob = new Blob([JSON.stringify(set.questions, null, 2)], { type: 'application/json' });
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = (name || 'export') + '.json';
+          a.click();
+          URL.revokeObjectURL(a.href);
+          break;
+        case 'rename':
+          if (!set) return;
+          const newName = prompt('输入习题集新名称：', set.name || '');
+          if (newName == null) return;
+          const trimmed = String(newName).trim();
+          if (!trimmed) return;
+          setSavedSets(sets.map(s => String(s.id) === id ? Object.assign({}, s, { name: trimmed }) : s));
+          break;
+        case 'delete':
+          if (confirm('确定删除该习题集？')) {
+            setSavedSets(sets.filter(s => String(s.id) !== id));
+          }
+          break;
+      }
+    }
+
+    const EBINGHAUS_INTERVALS = [1, 3, 7, 14, 30];
+    function todayString() {
+      const d = new Date();
+      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    }
+    function addDays(dayStr, days) {
+      const d = new Date(dayStr + 'T12:00:00');
+      d.setDate(d.getDate() + days);
+      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    }
+    function wrongBookItemId(item) {
+      if (_wrongBookIdCache.has(item)) return _wrongBookIdCache.get(item);
+      const id = (item.stem || '') + '|' + (item.options ? item.options.join('|') : '') + '|' + String(item.correct != null ? item.correct : '');
+      _wrongBookIdCache.set(item, id);
+      return id;
+    }
+    function getWrongBook() {
+      if (!_wrongBookCacheDirty && _wrongBookCache !== null) return _wrongBookCache;
+      try {
+        const raw = localStorage.getItem(WRONG_BOOK_KEY);
+        _wrongBookCache = raw ? JSON.parse(raw) : [];
+        _wrongBookCacheDirty = false;
+        return _wrongBookCache;
+      } catch (_) { return []; }
+    }
+    function setWrongBook(arr) {
+      _wrongBookCache = arr;
+      _wrongBookCacheDirty = false;
+      localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
+      updateWrongCount();
+      updateStatsBar();
+    }
+    function removeFromWrongBook(q) {
+      const book = getWrongBook();
+      const id = wrongBookItemId(q);
+      const next = book.filter(item => wrongBookItemId(item) !== id);
+      if (next.length < book.length) setWrongBook(next);
+    }
+    function getWrongBookDue() {
+      const book = getWrongBook();
+      const today = todayString();
+      return book
+        .filter(item => {
+          const next = item.nextReview;
+          if (!next) return true;
+          return next <= today;
+        })
+        .sort((a, b) => (a.nextReview || '').localeCompare(b.nextReview || ''));
+    }
+    function addToWrongBook(q) {
+      const book = getWrongBook();
+      const id = wrongBookItemId(q);
+      if (book.some(item => wrongBookItemId(item) === id)) return;
+      const nextReview = addDays(todayString(), 1);
+      book.push(Object.assign({}, q, { nextReview: nextReview, interval: 1, repetitions: 0 }));
+      setWrongBook(book);
+    }
+    function addToWrongBookDirect(item) {
+      const book = getWrongBook();
+      const id = wrongBookItemId(item);
+      if (book.some(i => wrongBookItemId(i) === id)) return;
+      book.push(item);
+      setWrongBook(book);
+    }
+    function updateWrongBookAfterAnswer(item, correct) {
+      const book = getWrongBook();
+      const id = wrongBookItemId(item);
+      const idx = book.findIndex(i => wrongBookItemId(i) === id);
+      if (idx === -1) return;
+      const today = todayString();
+      if (correct) {
+        const rep = (book[idx].repetitions || 0) + 1;
+        if (rep >= 5) {
+          book.splice(idx, 1);
+        } else {
+          const intervalDays = EBINGHAUS_INTERVALS[Math.min(rep, EBINGHAUS_INTERVALS.length - 1)];
+          book[idx] = Object.assign({}, book[idx], {
+            repetitions: rep,
+            interval: intervalDays,
+            nextReview: addDays(today, intervalDays)
+          });
+        }
+      } else {
+        book[idx] = Object.assign({}, book[idx], {
+          nextReview: addDays(today, 1),
+          repetitions: 0,
+          interval: 1
+        });
+      }
+      setWrongBook(book);
+    }
+    function updateWrongCount() {
+      const el = document.getElementById('wrong-count');
+      if (el) el.textContent = getWrongBook().length;
+    }
+
+    const DEFAULT_QUESTIONS = [
+      {
+        type: 'single_choice',
+        category: '词干变化陷阱',
+        stem: 'Nous ______ une lettre à nos parents.',
+        options: ['écris', 'écrit', 'écrivons', 'écrivent'],
+        correct: 2,
+        explanation: 'nous/vous/ils 用词干 écriv-。A) écris → je/tu；B) écrit → il；D) écrivent → ils。正确为 C) écrivons。'
+      },
+      {
+        type: 'single_choice',
+        category: '单数人称拼写区分',
+        stem: 'Mon frère ______ un roman.',
+        options: ['écris', 'écrit', 'écrive', 'écri'],
+        correct: 1,
+        explanation: 'mon frère = il，用 écriT（-t 结尾）。记忆：je/tu → écriS；il/elle/on → écriT。C) 虚拟式；D) 不存在。'
+      },
+      {
+        type: 'single_choice',
+        category: '听力辨音',
+        stem: '听力 [ilzekʁiv]，quelle est la forme correcte ?',
+        options: ['il écrit', 'ils écrivent', 'ils écrit', 'il écrivent'],
+        correct: 1,
+        explanation: '[ekʁiv] 有 [v] 音 → 复数；联诵 [z] → ils。故 B) ils écrivent。'
+      },
+      {
+        type: 'single_choice',
+        category: '省音规则',
+        stem: '______ écris une lettre.',
+        options: ["Je", "J'", "Tu", "Il"],
+        correct: 1,
+        explanation: 'écrire 以元音开头，je + 元音 = j\'。A) Je écris 语法错误；C/D 与空格后 écris 不匹配。'
+      },
+      {
+        type: 'paragraph_fill_blank',
+        category: '段落填空',
+        stem: 'Il a _____ ans. Elle _____ (s\'appeler) Marie.',
+        correct: ['15', "s'appelle"],
+        explanation: '第一空填年龄数字；第二空 s\'appeler 第三人称单数变位为 s\'appelle。'
+      }
+    ];
+
+    function getCurrentSetQuestions() {
+      const sel = document.getElementById('start-practice-select');
+      const val = sel ? sel.value : 'default';
+      if (val === 'default') return DEFAULT_QUESTIONS;
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === val);
+      return (set && set.questions) ? set.questions : [];
+    }
+    function updateCategoryFilter() {
+      const questions = getCurrentSetQuestions();
+      const categories = [...new Set(questions.map(q => q.category).filter(Boolean))].sort();
+      const wrap = document.getElementById('category-filter-wrap');
+      const sel = document.getElementById('filter-category');
+      if (!wrap || !sel) return;
+      const currentVal = sel.value;
+      sel.innerHTML = '<option value="">全部</option>' + categories.map(c => '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>').join('');
+      if (categories.indexOf(currentVal) !== -1) sel.value = currentVal;
+      else sel.value = '';
+      wrap.style.display = categories.length > 0 ? 'block' : 'none';
+    }
+
+    let state = {
+      questions: [],
+      index: 0,
+      score: 0,
+      answered: false,
+      timerSeconds: 10,
+      practicingWrongBook: false,
+      practicedSetId: null
+    };
+    let timerId = null;
+
+    const TIMER_CIRCUMFERENCE = 2 * Math.PI * 17; // ~106.81
+    function clearTimer() {
+      if (timerId) clearInterval(timerId);
+      timerId = null;
+      const el = document.getElementById('quiz-timer');
+      if (el) { el.style.display = 'none'; el.textContent = ''; el.classList.remove('low'); }
+      const ring = document.getElementById('timer-ring');
+      const ringFill = document.getElementById('timer-ring-fill');
+      if (ring) ring.style.display = 'none';
+      if (ringFill) { ringFill.style.strokeDashoffset = '0'; ringFill.classList.remove('low'); }
+    }
+    function startTimer() {
+      clearTimer();
+      const seconds = state.timerSeconds;
+      if (!seconds) return;
+      let remain = seconds;
+      const el = document.getElementById('quiz-timer');
+      const ring = document.getElementById('timer-ring');
+      const ringFill = document.getElementById('timer-ring-fill');
+      if (!el) return;
+      el.style.display = 'inline';
+      el.textContent = remain;
+      el.classList.remove('low');
+      if (ring) ring.style.display = 'block';
+      if (ringFill) { ringFill.style.strokeDashoffset = '0'; ringFill.classList.remove('low'); }
+      timerId = setInterval(() => {
+        remain--;
+        el.textContent = remain;
+        if (ringFill) {
+          const offset = TIMER_CIRCUMFERENCE * (1 - remain / seconds);
+          ringFill.style.strokeDashoffset = offset;
+        }
+        if (remain <= 3) {
+          el.classList.add('low');
+          if (ringFill) ringFill.classList.add('low');
+          if (remain > 0 && navigator.vibrate) navigator.vibrate(200);
+        }
+        if (remain <= 0) {
+          clearTimer();
+          submitAnswer();
+        }
+      }, 1000);
+    }
+
+    function showScreen(id) {
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      const screen = document.getElementById(id);
+      screen.classList.add('active');
+      requestAnimationFrame(() => {
+        if (id === SCREEN.QUIZ) {
+          const first = screen.querySelector('.option, input[type="text"], .btn-primary');
+          if (first) first.focus();
+        } else if (id === SCREEN.RESULT) {
+          const scoreEl = screen.querySelector('.result-score');
+          if (scoreEl) { scoreEl.setAttribute('tabindex', '-1'); scoreEl.focus(); }
+        }
+      });
+    }
+
+    function parsePastedText(text) {
+      const questions = [];
+      // 按「套路 N」或「题型：」分块，保证每块里有一道题
+      const chunks = text.split(/(?=套路\s*\d|题型[：:])/i).filter(b => b.trim());
+      for (const chunk of chunks) {
+        // 题型：后面到 A) 之前为题干（可多行）
+        const stemMatch = chunk.match(/题型[：:]\s*([\s\S]*?)(?=A\)\s)/i);
+        if (!stemMatch) continue;
+        const stem = stemMatch[1].replace(/\s+/g, ' ').trim();
+        // A) ... B) ... C) ... D) ...（允许同一行或换行）
+        const optMatch = chunk.match(/A\)\s*([\s\S]*?)\s*B\)\s*([\s\S]*?)\s*C\)\s*([\s\S]*?)\s*D\)\s*([\s\S]*?)(?=\n|正确|$)/);
+        if (!optMatch) continue;
+        const options = [optMatch[1], optMatch[2], optMatch[3], optMatch[4]].map(s => s.trim());
+        const correctMatch = chunk.match(/正确[：:]\s*([A-D])/i);
+        if (!correctMatch) continue;
+        const correct = LETTERS.indexOf(correctMatch[1].toUpperCase());
+        if (correct === -1) continue;
+        let category = '';
+        const catMatch = chunk.match(/套路\s*\d+[：:]\s*([^\n（(]+)/);
+        if (catMatch) category = catMatch[1].trim();
+        let explanation = '';
+        const expMatch = chunk.match(/(?:干扰项分析|解释|出题人想考|记忆口诀)[：:]\s*([\s\S]+?)(?=套路\s*\d|题型[：:]|$)/i);
+        if (expMatch) explanation = expMatch[1].trim().split(/\n/).slice(0, 8).join('\n');
+        questions.push({
+          type: 'single_choice',
+          category,
+          stem,
+          options,
+          correct,
+          explanation: explanation || `正确答案：${LETTERS[correct]}`
+        });
+      }
+      return questions;
+    }
+
+    function startQuiz(questions, fromWrongBook, setId) {
+      if (!questions || questions.length === 0) {
+        alert(fromWrongBook ? '没有到期需要复习的错题。明天再来或清空错题本后重新做题。' : '没有可用的题目，请检查导入格式或使用默认题目。');
+        return;
+      }
+      const timerInput = document.getElementById('timer-seconds');
+      state.timerSeconds = timerInput ? Math.max(0, parseInt(timerInput.value, 10) || 10) : 10;
+      let list = document.getElementById('shuffle-questions') && document.getElementById('shuffle-questions').checked
+        ? shuffleArray(questions)
+        : questions;
+      if (document.getElementById('shuffle-options') && document.getElementById('shuffle-options').checked) {
+        list = list.map(shuffleQuestionOptions);
+      }
+      state.questions = list;
+      state.index = 0;
+      state.score = 0;
+      state.answered = false;
+      state.practicingWrongBook = !!fromWrongBook;
+      state.practicedSetId = setId || null;
+      showScreen(SCREEN.QUIZ);
+      renderQuestion();
+    }
+    function recordSavedSetPractice(setId) {
+      if (!setId) return;
+      const sets = getSavedSets();
+      const idx = sets.findIndex(s => String(s.id) === String(setId));
+      if (idx === -1) return;
+      sets[idx] = Object.assign({}, sets[idx], {
+        practiceCount: (sets[idx].practiceCount || 0) + 1,
+        lastPracticedAt: new Date().toISOString()
+      });
+      setSavedSets(sets);
+    }
+
+    function renderParagraphBlanks(q, correctArr) {
+      const parts = q.stem.split('_____');
+      let stemHtml = '';
+      for (let i = 0; i < parts.length; i++) {
+        stemHtml += escapeHtml(parts[i]);
+        if (i < parts.length - 1) stemHtml += '<span class="blank" data-blank="' + i + '">( ' + (i + 1) + ' )</span>';
+      }
+      document.getElementById('question-stem').innerHTML = stemHtml;
+      const wrap = document.getElementById('paragraph-blanks-wrap');
+      wrap.style.display = 'block';
+      wrap.innerHTML = correctArr.map((_, i) =>
+        '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="min-width:2.5rem;">第' + (i + 1) + '空:</span><input type="text" data-blank="' + i + '" placeholder="..." autocomplete="off" /></label>'
+      ).join('');
+      wrap.querySelectorAll('input').forEach(inp => {
+        inp.addEventListener('keydown', e => { if (e.key === 'Enter') submitAnswer(); });
+      });
+    }
+
+    function renderQuestion() {
+      const q = state.questions[state.index];
+      if (!q) {
+        showResult();
+        return;
+      }
+
+      state.answered = false;
+      const idx = state.index + 1;
+      const total = state.questions.length;
+      document.getElementById('progress-fill').style.width = (idx / total) * 100 + '%';
+      document.getElementById('question-counter').textContent = `${idx} / ${total}`;
+      const labelEl = document.getElementById('progress-label');
+      if (labelEl) labelEl.textContent = '第 ' + idx + ' / ' + total + ' 题';
+      const estimateEl = document.getElementById('progress-estimate');
+      if (estimateEl && idx === 1) {
+        estimateEl.textContent = '共 ' + total + ' 题' + (state.timerSeconds ? '，约 ' + Math.ceil(total * state.timerSeconds / 60) + ' 分钟' : '，不限时');
+      }
+      document.getElementById('question-meta').textContent = q.category ? `套路 · ${q.category}` : '';
+      document.getElementById('question-stem').innerHTML = escapeHtml(q.stem);
+      document.getElementById('explanation').style.display = 'none';
+      document.getElementById('explanation').textContent = q.explanation || '';
+      const removeWrapEl = document.getElementById('wrong-book-remove-wrap');
+      if (removeWrapEl) removeWrapEl.style.display = 'none';
+      document.getElementById('answer-feedback').className = 'answer-feedback';
+      document.getElementById('answer-feedback').textContent = '';
+
+      const optionsEl = document.getElementById('options-container');
+      const fillWrap = document.getElementById('fill-input-wrap');
+      const fillInput = document.getElementById('fill-input');
+
+      if (q.type === 'fill_blank') {
+        optionsEl.innerHTML = '';
+        const blankCount = (q.stem.match(/_____/g) || []).length;
+        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+        const isMultiBlank = blankCount >= 2 && correctArr.length >= 2;
+        if (isMultiBlank) {
+          fillWrap.style.display = 'none';
+          renderParagraphBlanks(q, correctArr.slice(0, blankCount));
+        } else {
+          fillWrap.style.display = 'block';
+          fillInput.value = '';
+          fillInput.placeholder = '输入答案...';
+          document.getElementById('paragraph-blanks-wrap').style.display = 'none';
+          document.getElementById('paragraph-blanks-wrap').innerHTML = '';
+        }
+        document.getElementById('btn-submit').style.display = 'inline-flex';
+        document.getElementById('btn-next').style.display = 'none';
+        startTimer();
+        return;
+      }
+
+      if (q.type === 'paragraph_fill_blank') {
+        optionsEl.innerHTML = '';
+        fillWrap.style.display = 'none';
+        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+        renderParagraphBlanks(q, correctArr);
+        document.getElementById('btn-submit').style.display = 'inline-flex';
+        document.getElementById('btn-next').style.display = 'none';
+        startTimer();
+        return;
+      }
+
+      fillWrap.style.display = 'none';
+      document.getElementById('paragraph-blanks-wrap').style.display = 'none';
+      document.getElementById('paragraph-blanks-wrap').innerHTML = '';
+      const isMulti = q.type === 'multiple_choice';
+      const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
+      optionsEl.setAttribute('role', 'group');
+      optionsEl.setAttribute('aria-label', isMulti ? '多选选项' : '单选选项');
+
+      optionsEl.innerHTML = q.options.map((opt, i) => {
+        const letter = LETTERS[i];
+        const inputType = isMulti ? 'checkbox' : 'radio';
+        const name = isMulti ? `opt-${state.index}` : 'option';
+        return `
+          <label class="option" data-index="${i}">
+            <input type="${inputType}" name="${name}" value="${i}" />
+            <span class="option-letter">${letter}</span>
+            <span class="option-label">${escapeHtml(opt)}</span>
+          </label>
+        `;
+      }).join('');
+
+      optionsEl.querySelectorAll('.option').forEach(label => {
+        label.addEventListener('click', () => {
+          if (state.answered) return;
+          const input = label.querySelector('input');
+          if (isMulti) {
+            input.checked = !input.checked;
+          } else {
+            optionsEl.querySelectorAll('.option').forEach(l => l.classList.remove('selected'));
+            optionsEl.querySelectorAll('input').forEach(inp => { inp.checked = false; });
+            input.checked = true;
+            label.classList.add('selected');
+          }
+          label.classList.remove('just-selected');
+          void label.offsetWidth;
+          label.classList.add('just-selected');
+        });
+      });
+
+      document.getElementById('btn-submit').style.display = 'inline-flex';
+      document.getElementById('btn-next').style.display = 'none';
+      startTimer();
+    }
+
+    function escapeHtml(s) {
+      _escapeDiv.textContent = s;
+      return _escapeDiv.innerHTML;
+    }
+
+    function submitAnswer() {
+      clearTimer();
+      if (state.answered) return;
+      const q = state.questions[state.index];
+      const optionsEl = document.getElementById('options-container');
+      const fillWrap = document.getElementById('fill-input-wrap');
+      const fillInput = document.getElementById('fill-input');
+
+      let correct = false;
+      if (q.type === 'fill_blank') {
+        const paragraphWrap = document.getElementById('paragraph-blanks-wrap');
+        const multiInputs = paragraphWrap && paragraphWrap.style.display !== 'none' ? paragraphWrap.querySelectorAll('input') : [];
+        if (multiInputs.length >= 2) {
+          const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+          let allRight = true;
+          const answers = [];
+          for (let i = 0; i < correctArr.length && i < multiInputs.length; i++) {
+            const val = (multiInputs[i].value || '').trim().toLowerCase();
+            const accept = Array.isArray(correctArr[i]) ? correctArr[i].map(c => String(c).toLowerCase().trim()) : [String(correctArr[i]).toLowerCase().trim()];
+            const ok = matchFrenchAnswer(val, accept);
+            answers.push({ val, ok, accept });
+            if (!ok) allRight = false;
+          }
+          state.answered = true;
+          if (allRight) state.score++;
+          else addToWrongBook(q);
+          correct = allRight;
+          multiInputs.forEach((inp, i) => {
+            inp.disabled = true;
+            inp.classList.add(answers[i].ok ? 'correct-blank' : 'wrong-blank');
+          });
+          const stemEl = document.getElementById('question-stem');
+          stemEl.querySelectorAll('.blank').forEach((span, i) => {
+            if (answers[i]) {
+              span.classList.add(answers[i].ok ? 'filled' : 'wrong');
+              span.textContent = answers[i].ok ? answers[i].val : (answers[i].val || '?') + ' → ' + (Array.isArray(q.correct[i]) ? q.correct[i][0] : q.correct[i]);
+            }
+          });
+        } else {
+          const answer = (fillInput.value || '').trim().toLowerCase();
+          const accept = (Array.isArray(q.correct) ? q.correct : [q.correct]).map(c => String(c).toLowerCase().trim());
+          correct = matchFrenchAnswer(answer, accept);
+          state.answered = true;
+          if (correct) state.score++;
+          else addToWrongBook(q);
+        }
+      } else if (q.type === 'paragraph_fill_blank') {
+        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+        const inputs = document.querySelectorAll('#paragraph-blanks-wrap input');
+        let allRight = true;
+        const answers = [];
+        for (let i = 0; i < correctArr.length; i++) {
+          const val = (inputs[i] && inputs[i].value ? inputs[i].value : '').trim().toLowerCase();
+          const accept = Array.isArray(correctArr[i]) ? correctArr[i].map(c => String(c).toLowerCase().trim()) : [String(correctArr[i]).toLowerCase().trim()];
+          const ok = matchFrenchAnswer(val, accept);
+          answers.push({ val, ok, accept });
+          if (!ok) allRight = false;
+        }
+        state.answered = true;
+        if (allRight) state.score++;
+        else addToWrongBook(q);
+        inputs.forEach((inp, i) => {
+          inp.disabled = true;
+          inp.classList.add(answers[i].ok ? 'correct-blank' : 'wrong-blank');
+        });
+        const stemEl = document.getElementById('question-stem');
+        stemEl.querySelectorAll('.blank').forEach((span, i) => {
+          span.classList.add(answers[i].ok ? 'filled' : 'wrong');
+          span.textContent = answers[i].ok ? answers[i].val : (answers[i].val || '?') + ' → ' + (Array.isArray(q.correct[i]) ? q.correct[i][0] : q.correct[i]);
+        });
+        correct = allRight;
+      } else {
+        const isMulti = q.type === 'multiple_choice';
+        const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
+        const selected = Array.from(optionsEl.querySelectorAll('input:checked')).map(inp => parseInt(inp.value, 10));
+        correct = isMulti
+          ? selected.length === correctSet.size && selected.every(i => correctSet.has(i))
+          : selected.length === 1 && correctSet.has(selected[0]);
+        state.answered = true;
+        if (correct) state.score++;
+        else addToWrongBook(q);
+
+        optionsEl.querySelectorAll('.option').forEach((label, i) => {
+          label.classList.add('disabled');
+          const inCorrect = correctSet.has(i);
+          const wasSelected = label.querySelector('input').checked;
+          if (inCorrect) label.classList.add('correct');
+          else if (wasSelected) label.classList.add('wrong');
+        });
+      }
+
+      if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
+
+      const feedbackEl = document.getElementById('answer-feedback');
+      feedbackEl.textContent = correct ? '正确！' : '错误';
+      feedbackEl.className = 'answer-feedback ' + (correct ? 'correct-msg' : 'wrong-msg');
+
+      const explanationEl = document.getElementById('explanation');
+      let explanationText = q.explanation || '';
+      if (!explanationText && !correct) {
+        if (q.type === 'fill_blank') {
+          const ans = Array.isArray(q.correct) ? q.correct : [q.correct];
+          explanationText = '正确答案：' + ans.map(a => String(a).trim()).join(' 或 ');
+        } else if (q.type === 'single_choice') {
+          explanationText = '正确答案：' + (q.options ? LETTERS[q.correct] + ') ' + q.options[q.correct] : LETTERS[q.correct]);
+        } else if (q.type === 'multiple_choice' && q.options) {
+          const indices = Array.isArray(q.correct) ? q.correct : [q.correct];
+          explanationText = '正确答案：' + indices.map(i => LETTERS[i] + ') ' + q.options[i]).join('；');
+        } else if (q.type === 'paragraph_fill_blank') {
+          const arr = Array.isArray(q.correct) ? q.correct : [q.correct];
+          explanationText = '正确答案：' + arr.map((c, i) => '第' + (i + 1) + '空 ' + (Array.isArray(c) ? c[0] : c)).join('；');
+        }
+      }
+      explanationEl.textContent = explanationText;
+      explanationEl.style.display = explanationText ? 'block' : 'none';
+
+      const announcer = document.getElementById('sr-announcer');
+      if (announcer) announcer.textContent = correct ? '回答正确' : '回答错误。' + (explanationText || '');
+
+      const removeWrap = document.getElementById('wrong-book-remove-wrap');
+      const btnRemove = document.getElementById('btn-remove-from-wrong');
+      if (removeWrap && btnRemove) {
+        if (state.practicingWrongBook) {
+          removeWrap.style.display = 'block';
+          btnRemove.textContent = '移出错题本';
+          btnRemove.disabled = false;
+          btnRemove.onclick = () => {
+            const removedItem = JSON.parse(JSON.stringify(q));
+            removeFromWrongBook(q);
+            btnRemove.textContent = '已移出（5秒内可撤销）';
+            btnRemove.disabled = false;
+            const undoTimer = setTimeout(() => {
+              btnRemove.textContent = '已移出';
+              btnRemove.disabled = true;
+            }, 5000);
+            btnRemove.onclick = () => {
+              clearTimeout(undoTimer);
+              addToWrongBookDirect(removedItem);
+              btnRemove.textContent = '已撤销，仍在错题本';
+              btnRemove.disabled = true;
+            };
+          };
+        } else {
+          removeWrap.style.display = 'none';
+        }
+      }
+
+      document.getElementById('btn-submit').style.display = 'none';
+      document.getElementById('btn-next').style.display = 'inline-flex';
+      saveQuizProgress();
+    }
+
+    function nextQuestion() {
+      state.index++;
+      if (state.index >= state.questions.length) {
+        showResult();
+      } else {
+        const card = document.querySelector('.question-card');
+        if (card) {
+          card.classList.add('animate-out');
+          setTimeout(() => {
+            card.classList.remove('animate-out');
+            renderQuestion();
+            card.classList.add('animate-in');
+            card.addEventListener('animationend', () => card.classList.remove('animate-in'), { once: true });
+          }, 200);
+        } else {
+          renderQuestion();
+        }
+      }
+    }
+
+    function showResult() {
+      clearQuizProgress();
+      if (state.practicedSetId) {
+        recordSavedSetPractice(state.practicedSetId);
+        state.practicedSetId = null;
+      }
+      addTodayPractice(state.questions.length);
+      document.getElementById('result-score').textContent = `${state.score} / ${state.questions.length}`;
+      const pct = state.questions.length ? Math.round((state.score / state.questions.length) * 100) : 0;
+      const pctEl = document.getElementById('result-pct');
+      if (pctEl) pctEl.textContent = '正确率 ' + pct + '%';
+      document.getElementById('result-desc').textContent = pct >= 80 ? 'Très bien !' : pct >= 60 ? 'Pas mal !' : 'Continuez à pratiquer !';
+      const celebrationEl = document.getElementById('result-celebration');
+      const isFull = state.score === state.questions.length && state.questions.length > 0;
+      if (celebrationEl) celebrationEl.style.display = isFull ? 'block' : 'none';
+      const confettiEl = document.getElementById('result-confetti');
+      if (confettiEl) {
+        confettiEl.innerHTML = '';
+        if (isFull) {
+          const colors = ['#8b5cf6', '#34d399', '#fbbf24', '#60a5fa', '#f87171'];
+          for (let i = 0; i < 14; i++) {
+            const s = document.createElement('span');
+            s.style.left = (10 + Math.random() * 80) + '%';
+            s.style.top = (60 + Math.random() * 35) + '%';
+            s.style.background = colors[i % colors.length];
+            s.style.animationDelay = (Math.random() * 0.6) + 's';
+            s.style.animationDuration = (2 + Math.random() * 1.2) + 's';
+            confettiEl.appendChild(s);
+          }
+        }
+      }
+      pushRecentSession(state.questions.length, state.score);
+      const recentEl = document.getElementById('result-recent');
+      if (recentEl) {
+        const sessions = getRecentSessions();
+        const toShow = sessions.slice(-5).reverse();
+        if (toShow.length <= 1) {
+          recentEl.style.display = 'none';
+        } else {
+          recentEl.style.display = 'block';
+          recentEl.innerHTML = '<div class="result-recent-title">最近练习</div><ul>' +
+            toShow.map((s, i) => '<li>' + s.score + '/' + s.total + (i === 0 ? '（本次）' : '') + '</li>').join('') + '</ul>';
+        }
+      }
+      const announcer = document.getElementById('sr-announcer');
+      if (announcer) announcer.textContent = '练习完成，得分 ' + state.score + ' / ' + state.questions.length + '，正确率 ' + pct + '%';
+      showScreen(SCREEN.RESULT);
+    }
+    function readAloudStem() {
+      const q = state.questions[state.index];
+      if (!q || !q.stem) return;
+      const text = (q.stem || '').replace(/_____/g, ' ').trim();
+      if (!text) return;
+      if (typeof speechSynthesis === 'undefined') return;
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'fr-FR';
+      u.rate = 0.9;
+      speechSynthesis.speak(u);
+    }
+    function onQuizKeydown(e) {
+      if (!document.getElementById('screen-quiz').classList.contains('active')) return;
+      const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA') {
+        if (e.key === 'Enter') { e.preventDefault(); if (state.answered) nextQuestion(); else submitAnswer(); }
+        return;
+      }
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (state.answered) nextQuestion();
+        else submitAnswer();
+        return;
+      }
+      if (['1','2','3','4'].includes(e.key)) {
+        const q = state.questions[state.index];
+        if (!q || state.answered) return;
+        if ((q.type === 'single_choice' || q.type === 'multiple_choice') && q.options && q.options.length > 0) {
+          const idx = parseInt(e.key, 10) - 1;
+          if (idx < 0 || idx >= q.options.length) return;
+          const opts = document.querySelectorAll('#options-container .option');
+          if (opts[idx]) opts[idx].click();
+        }
+      }
+    }
+
+    document.getElementById('btn-start-practice').addEventListener('click', () => {
+      const typeFilter = getSelectedTypeFilter();
+      const sel = document.getElementById('start-practice-select');
+      const val = sel ? sel.value : 'default';
+      let questions = [];
+      if (val === 'default') {
+        questions = DEFAULT_QUESTIONS;
+      } else {
+        const sets = getSavedSets();
+        const set = sets.find(s => String(s.id) === val);
+        if (!set || !set.questions || !set.questions.length) {
+          alert('未找到该习题集，请重新选择。');
+          return;
+        }
+        questions = set.questions;
+      }
+      let filtered = filterQuestionsByType(questions, typeFilter);
+      const categoryEl = document.getElementById('filter-category');
+      const categoryVal = categoryEl && categoryEl.value ? categoryEl.value.trim() : '';
+      if (categoryVal) {
+        filtered = filtered.filter(q => q && q.category === categoryVal);
+      }
+      if (filtered.length === 0) {
+        const typeNames = typeFilter ? typeFilter.map(t => QUESTION_TYPES[t] || t).join('、') : '';
+        alert('当前选题型或分类下没有题目。请勾选更多题型、换分类或选择其他习题集。' + (typeNames ? '（已选题型：' + typeNames + '）' : ''));
+        return;
+      }
+      if (val !== 'default') {
+        const sets = getSavedSets();
+        const set = sets.find(s => String(s.id) === val);
+        if (set) startQuiz(filtered, false, set.id);
+        else startQuiz(filtered);
+      } else {
+        startQuiz(filtered);
+      }
+    });
+
+    document.getElementById('btn-import-show').addEventListener('click', () => {
+      const sec = document.getElementById('import-section');
+      sec.style.display = sec.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.getElementById('btn-import-parse').addEventListener('click', () => {
+      const text = document.getElementById('import-text').value.trim();
+      let parsed = [];
+      if (/^\s*[\[{]/.test(text)) {
+        try {
+          const data = JSON.parse(text);
+          parsed = Array.isArray(data) ? data : (data.questions || []);
+        } catch (_) {}
+      }
+      if (parsed.length === 0) parsed = parsePastedText(text);
+      if (parsed.length > 0) {
+        const nameInput = document.getElementById('import-set-name');
+        const name = (nameInput && nameInput.value ? nameInput.value.trim() : '') || ('未命名 ' + formatSavedSetDate(new Date().toISOString()));
+        const saved = {
+          id: Date.now(),
+          name: name,
+          createdAt: new Date().toISOString(),
+          questions: parsed,
+          practiceCount: 0,
+          lastPracticedAt: null
+        };
+        const all = getSavedSets();
+        all.unshift(saved);
+        setSavedSets(all);
+        startQuiz(parsed);
+        document.getElementById('import-section').style.display = 'none';
+        document.getElementById('import-text').value = '';
+        if (nameInput) nameInput.value = '';
+      } else {
+        alert('未能解析出题目。请使用：① 含「题型：」「A) B) C) D)」「正确：」的文本，或 ② 题目数组 JSON。');
+      }
+    });
+
+    document.getElementById('btn-submit').addEventListener('click', submitAnswer);
+    document.getElementById('btn-next').addEventListener('click', nextQuestion);
+    document.getElementById('btn-exit-quiz').addEventListener('click', () => {
+      if (confirm('确定要提前退出吗？')) {
+        clearTimer();
+        clearQuizProgress();
+        showScreen(SCREEN.HOME);
+        updateWrongCount();
+        renderSavedSets();
+      }
+    });
+    document.getElementById('fill-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        if (state.answered) nextQuestion();
+        else submitAnswer();
+      }
+    });
+    document.getElementById('btn-restart').addEventListener('click', () => {
+      showScreen(SCREEN.HOME);
+      updateWrongCount();
+      renderSavedSets();
+      updateStatsBar();
+      updateStartPracticeSelect();
+    });
+    document.getElementById('btn-back-home').addEventListener('click', () => {
+      showScreen(SCREEN.HOME);
+      updateWrongCount();
+      renderSavedSets();
+      updateStatsBar();
+      updateStartPracticeSelect();
+    });
+    document.getElementById('btn-share-result').addEventListener('click', () => {
+      const scoreEl = document.getElementById('result-score');
+      const scoreText = scoreEl ? scoreEl.textContent.trim() : '0/0';
+      const st = getDailyStats();
+      const streak = st.streak || 0;
+      const text = 'Français Quiz ' + scoreText + '，连续 ' + streak + ' 天 ✨';
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => alert('已复制到剪贴板')).catch(() => alert('复制失败，请手动复制'));
+      } else {
+        try {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          alert('已复制到剪贴板');
+        } catch (_) { alert('复制失败，请手动复制'); }
+      }
+    });
+    document.getElementById('format-doc').addEventListener('click', (e) => {
+      if (e.target.closest('.format-doc-title')) document.getElementById('format-doc').classList.toggle('open');
+    });
+    const readAloudBtn = document.getElementById('btn-read-aloud');
+    if (readAloudBtn) readAloudBtn.addEventListener('click', readAloudStem);
+    document.addEventListener('keydown', onQuizKeydown);
+    const searchInput = document.getElementById('saved-sets-search');
+    if (searchInput) searchInput.addEventListener('input', renderSavedSets);
+    document.getElementById('saved-sets-list').addEventListener('click', handleSavedSetsAction);
+    function startWrongBookDuePractice() {
+      const due = getWrongBookDue();
+      if (due.length === 0) {
+        const total = getWrongBook().length;
+        if (total === 0) alert('错题本还是空的。多做几道题，错题会自动进来，再按计划复习就好。');
+        else alert('没有到期需要复习的错题（艾宾浩斯已排好后续日期）。错题本里共有 ' + total + ' 题。');
+        return;
+      }
+      const typeFilter = getSelectedTypeFilter();
+      const filtered = filterQuestionsByType(due, typeFilter);
+      if (filtered.length === 0) { alert('当前选题型下没有到期的错题。请勾选更多题型或改天再试。'); return; }
+      startQuiz(filtered, true);
+    }
+    function startWrongBookFreePractice() {
+      const book = getWrongBook();
+      if (book.length === 0) { alert('错题本还是空的。做错题目后会自动加入，再来这里练习即可。'); return; }
+      const typeFilter = getSelectedTypeFilter();
+      const filtered = filterQuestionsByType(book, typeFilter);
+      if (filtered.length === 0) { alert('当前选题型下没有错题。请勾选更多题型。'); return; }
+      startQuiz(filtered, true);
+    }
+    document.getElementById('btn-wrong-book').addEventListener('click', startWrongBookDuePractice);
+    document.getElementById('btn-result-wrong').addEventListener('click', startWrongBookDuePractice);
+    document.getElementById('btn-wrong-free').addEventListener('click', startWrongBookFreePractice);
+    document.getElementById('btn-result-wrong-free').addEventListener('click', startWrongBookFreePractice);
+    document.getElementById('btn-clear-wrong').addEventListener('click', () => {
+      if (getWrongBook().length === 0) {
+        alert('错题本已经是空的了。');
+        return;
+      }
+      if (confirm('确定要清空错题本吗？清空后无法恢复。')) {
+        setWrongBook([]);
+      }
+    });
+    (function initTimerInput() {
+      const el = document.getElementById('timer-seconds');
+      if (el) {
+        const saved = localStorage.getItem(TIMER_SECONDS_KEY);
+        if (saved !== null) { const n = parseInt(saved, 10); if (!isNaN(n) && n >= 0) el.value = n; }
+        el.addEventListener('change', () => {
+          const n = Math.max(0, Math.min(120, parseInt(el.value, 10) || 0));
+          el.value = n;
+          localStorage.setItem(TIMER_SECONDS_KEY, n);
+        });
+      }
+    })();
+
+    document.getElementById('btn-one-save').addEventListener('click', saveToProjectFolder);
+    document.getElementById('btn-copy-deploy-cmd').addEventListener('click', () => {
+      const cmd = document.getElementById('save-deploy-cmd');
+      const text = cmd ? cmd.textContent : 'git add french_quiz_data.json && git commit -m "Update data" && git push';
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => alert('已复制，到终端粘贴执行即可。')).catch(() => alert('复制失败'));
+      } else {
+        try {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          alert('已复制，到终端粘贴执行即可。');
+        } catch (_) { alert('复制失败'); }
+      }
+    });
+    document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
+    document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
+    document.getElementById('btn-save-to-folder').addEventListener('click', saveToProjectFolder);
+    document.getElementById('btn-export-data').addEventListener('click', saveToProjectFolder);
+    document.getElementById('btn-import-data').addEventListener('click', () => document.getElementById('file-import-data').click());
+    document.getElementById('link-download-json').addEventListener('click', (e) => { e.preventDefault(); exportDataDownload(); });
+    document.getElementById('file-import-data').addEventListener('change', function() {
+      const file = this.files && this.files[0];
+      if (file) importDataFromFile(file);
+      this.value = '';
+    });
+
+    (function initTheme() {
+      const theme = localStorage.getItem(THEME_KEY) || 'dark';
+      if (theme === 'light') document.body.classList.add('theme-light');
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.addEventListener('click', () => {
+        document.body.classList.toggle('theme-light');
+        localStorage.setItem(THEME_KEY, document.body.classList.contains('theme-light') ? 'light' : 'dark');
+      });
+    })();
+    updateWrongCount();
+    renderSavedSets();
+    updateStatsBar();
+    updateStartPracticeSelect();
+    updateCategoryFilter();
+    const startSel = document.getElementById('start-practice-select');
+    if (startSel) startSel.addEventListener('change', updateCategoryFilter);
+
+    // Restore in-progress quiz
+    (function checkSavedProgress() {
+      const saved = getQuizProgress();
+      if (saved && saved.questions && saved.questions.length > 0 && saved.index < saved.questions.length) {
+        if (confirm('检测到上次未完成的练习（第 ' + (saved.index + 1) + '/' + saved.questions.length + ' 题），是否继续？')) {
+          state.questions = saved.questions;
+          state.index = saved.index;
+          state.score = saved.score;
+          state.answered = false;
+          state.timerSeconds = saved.timerSeconds;
+          state.practicingWrongBook = saved.practicingWrongBook;
+          state.practicedSetId = saved.practicedSetId;
+          showScreen(SCREEN.QUIZ);
+          renderQuestion();
+        } else {
+          clearQuizProgress();
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

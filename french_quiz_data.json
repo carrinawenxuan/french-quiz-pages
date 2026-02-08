@@ -1,0 +1,1718 @@
+{
+  "savedSets": [
+    {
+      "id": 1770531013562,
+      "name": "特殊但是常见的过去分词",
+      "createdAt": "2026-02-08T06:10:13.562Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'______ beaucoup de chance hier.",
+          "options": [
+            "ai eu",
+            "ai avoir",
+            "suis eu",
+            "ai avé"
+          ],
+          "correct": 0,
+          "explanation": "avoir 的过去分词是不规则形式 eu；复合过去时中，avoir 作实义动词，一定用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ très malade la semaine dernière.",
+          "options": [
+            "a été",
+            "est été",
+            "a êté",
+            "est êté"
+          ],
+          "correct": 0,
+          "explanation": "être 作实义动词时，复合过去时要用助动词 avoir：a été，而不是 est été。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu ______ ce week-end ?",
+          "options": [
+            "as fais",
+            "as fait",
+            "as faire",
+            "es fait"
+          ],
+          "correct": 1,
+          "explanation": "faire 的过去分词是 fait；助动词 avoir + fait 构成复合过去时。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne m'______ rien.",
+          "options": [
+            "a dis",
+            "a dire",
+            "a dit",
+            "est dit"
+          ],
+          "correct": 2,
+          "explanation": "dire 的过去分词是不规则形式 dit；dire 属于用 avoir 的动词。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ une erreur.",
+          "options": [
+            "avons fais",
+            "avons fait",
+            "sommes fait",
+            "avons faite"
+          ],
+          "correct": 1,
+          "explanation": "faire 的过去分词是 fait，且在 avoir 作助动词时不与宾语 une erreur 配合。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ très contentes.",
+          "options": [
+            "sont été",
+            "ont été",
+            "ont êtées",
+            "sont êtées"
+          ],
+          "correct": 1,
+          "explanation": "être 作实义动词时，用 avoir 构成复合过去时：ont été；过去分词 été 永远不变。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ la vérité ?",
+          "options": [
+            "as dis",
+            "as dire",
+            "as dit",
+            "es dit"
+          ],
+          "correct": 2,
+          "explanation": "dire 的过去分词是 dit；复合过去时结构为 as dit。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'______ pas le temps de finir.",
+          "options": [
+            "suis eu",
+            "ai avoir",
+            "ai eu",
+            "ai avé"
+          ],
+          "correct": 2,
+          "explanation": "avoir 的过去分词是 eu；否定句不影响过去分词形式。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce qu'il ______ de son travail ?",
+          "options": [
+            "a dis",
+            "a dit",
+            "est dit",
+            "a dire"
+          ],
+          "correct": 1,
+          "explanation": "dire 的过去分词 dit；提问结构不改变复合过去时构成。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ quoi hier soir ?",
+          "options": [
+            "êtes fait",
+            "avez fais",
+            "avez fait",
+            "avez faire"
+          ],
+          "correct": 2,
+          "explanation": "faire 的过去分词是 fait；vous + avoir → avez fait。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ le bus ce matin.",
+          "options": [
+            "ai pris",
+            "ai prendre",
+            "ai prendu",
+            "suis pris"
+          ],
+          "correct": 0,
+          "explanation": "prendre 的过去分词是不规则形式 pris；prendre 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ le français en deux ans.",
+          "options": [
+            "a apprendu",
+            "a apprendre",
+            "a appris",
+            "est appris"
+          ],
+          "correct": 2,
+          "explanation": "apprendre 的过去分词是 appris；复合过去时用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ ce que j'ai dit ?",
+          "options": [
+            "as comprendu",
+            "as compris",
+            "as comprendre",
+            "es compris"
+          ],
+          "correct": 1,
+          "explanation": "comprendre 的过去分词是 compris；错误项常见伪规则加 -u。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ son manteau et il est parti.",
+          "options": [
+            "a mettré",
+            "a mis",
+            "a mettu",
+            "est mis"
+          ],
+          "correct": 1,
+          "explanation": "mettre 的过去分词是不规则形式 mis；mettre 用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ une décision importante.",
+          "options": [
+            "avons prendu",
+            "avons prendre",
+            "avons pris",
+            "sommes pris"
+          ],
+          "correct": 2,
+          "explanation": "prendre → pris；在 avoir 作助动词时不过去分词不与宾语配合。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'______ pas ______ sa réponse.",
+          "options": [
+            "ai ... comprendu",
+            "suis ... compris",
+            "ai ... compris",
+            "ai ... comprendre"
+          ],
+          "correct": 2,
+          "explanation": "comprendre 的过去分词是 compris；否定与插入宾语不改变分词形式。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ leurs affaires dans le sac.",
+          "options": [
+            "ont mettu",
+            "ont mettré",
+            "ont mis",
+            "sont mis"
+          ],
+          "correct": 2,
+          "explanation": "mettre → mis；mettre 为及物动词，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où est-ce que tu ______ cette expression ?",
+          "options": [
+            "as apprendu",
+            "as appris",
+            "es appris",
+            "as apprendre"
+          ],
+          "correct": 1,
+          "explanation": "apprendre 的过去分词是 appris；疑问句不改变助动词选择。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ deux heures pour finir.",
+          "options": [
+            "a mettré",
+            "a mettu",
+            "a mis",
+            "est mis"
+          ],
+          "correct": 2,
+          "explanation": "表示花费时间：mettre 用 avoir；过去分词 mis。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ quelle route ?",
+          "options": [
+            "êtes pris",
+            "avez prendre",
+            "avez prendu",
+            "avez pris"
+          ],
+          "correct": 3,
+          "explanation": "prendre 的过去分词 pris；vous + avoir → avez pris。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ ce film trois fois.",
+          "options": [
+            "ai voyé",
+            "ai voir",
+            "ai vu",
+            "suis vu"
+          ],
+          "correct": 2,
+          "explanation": "voir 的过去分词是不规则形式 vu；voir 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle n'______ pas ______ venir.",
+          "options": [
+            "a ... pouvé",
+            "a ... pu",
+            "est ... pu",
+            "a ... pouvu"
+          ],
+          "correct": 1,
+          "explanation": "pouvoir 的过去分词是 pu；否定与双空结构不影响分词形式。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ la réponse tout de suite ?",
+          "options": [
+            "as savé",
+            "as su",
+            "as savoir",
+            "es su"
+          ],
+          "correct": 1,
+          "explanation": "savoir 的过去分词是不规则形式 su。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ partir plus tôt.",
+          "options": [
+            "a voulu",
+            "a voulé",
+            "est voulu",
+            "a vouloir"
+          ],
+          "correct": 0,
+          "explanation": "vouloir 的过去分词是 voulu；vouloir 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ attendre deux heures.",
+          "options": [
+            "avons devé",
+            "avons du",
+            "avons dû",
+            "sommes dû"
+          ],
+          "correct": 2,
+          "explanation": "devoir 的过去分词是 dû，带重音符号以区分介词 du。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'______ pas ______ le faire seul.",
+          "options": [
+            "ai ... pouvé",
+            "suis ... pu",
+            "ai ... pu",
+            "ai ... pouvoir"
+          ],
+          "correct": 2,
+          "explanation": "pouvoir 的过去分词是 pu；复合过去时用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ rester jusqu'à minuit.",
+          "options": [
+            "ont devé",
+            "ont du",
+            "ont dû",
+            "sont dû"
+          ],
+          "correct": 2,
+          "explanation": "devoir 的过去分词是 dû；elles + avoir → ont dû。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu ______ Marie hier ?",
+          "options": [
+            "as voyé",
+            "as vu",
+            "es vu",
+            "as voir"
+          ],
+          "correct": 1,
+          "explanation": "voir 的过去分词 vu；voir 为及物动词，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'______ pas ______ me répondre.",
+          "options": [
+            "a ... voulu",
+            "a ... voulé",
+            "est ... voulu",
+            "a ... vouloir"
+          ],
+          "correct": 0,
+          "explanation": "vouloir 的过去分词 est voulu 是错误；正确形式为 a voulu。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ qu'elle était malade ?",
+          "options": [
+            "avez savé",
+            "avez su",
+            "êtes su",
+            "avez savoir"
+          ],
+          "correct": 1,
+          "explanation": "savoir 的过去分词是不规则形式 su。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ ce livre en une journée.",
+          "options": [
+            "ai liré",
+            "ai lis",
+            "ai lu",
+            "suis lu"
+          ],
+          "correct": 2,
+          "explanation": "lire 的过去分词是不规则形式 lu；lire 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ ton message hier.",
+          "options": [
+            "a recevé",
+            "a reçu",
+            "est reçu",
+            "a reçoit"
+          ],
+          "correct": 1,
+          "explanation": "recevoir 的过去分词是 reçu（带重音）；recevoir 用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ cet auteur ?",
+          "options": [
+            "as connaîtré",
+            "as connu",
+            "es connu",
+            "as connaît"
+          ],
+          "correct": 1,
+          "explanation": "connaître 的过去分词是 connu；表示“认识/了解”用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ dix ans à Paris.",
+          "options": [
+            "a vivé",
+            "a vécu",
+            "est vécu",
+            "a vivré"
+          ],
+          "correct": 1,
+          "explanation": "vivre 的过去分词是 vécu（带重音）；表示经历/居住时间。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ tous les articles.",
+          "options": [
+            "avons liré",
+            "avons lis",
+            "avons lu",
+            "sommes lu"
+          ],
+          "correct": 2,
+          "explanation": "lire → lu；复合过去时用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ beaucoup de difficultés.",
+          "options": [
+            "ont connaîtré",
+            "ont connu",
+            "sont connu",
+            "ont connaît"
+          ],
+          "correct": 1,
+          "explanation": "connaître → connu；表示“经历过困难”，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ ta lettre ce matin.",
+          "options": [
+            "suis reçu",
+            "ai recevé",
+            "ai reçu",
+            "ai reçoit"
+          ],
+          "correct": 2,
+          "explanation": "recevoir 的过去分词是 reçu；J’ai reçu。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ des moments difficiles.",
+          "options": [
+            "a vivé",
+            "est vécu",
+            "a vécu",
+            "a vivré"
+          ],
+          "correct": 2,
+          "explanation": "vivre → vécu；表示经历，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ combien de livres ce mois-ci ?",
+          "options": [
+            "êtes lu",
+            "avez liré",
+            "avez lu",
+            "avez lis"
+          ],
+          "correct": 2,
+          "explanation": "lire 的过去分词是 lu；vous + avoir → avez lu。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ une réponse ?",
+          "options": [
+            "es reçu",
+            "as recevé",
+            "as reçu",
+            "as reçoit"
+          ],
+          "correct": 2,
+          "explanation": "recevoir → reçu；问是否“收到”，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ une lettre à ma mère.",
+          "options": [
+            "ai écris",
+            "ai écrit",
+            "ai écrire",
+            "suis écrit"
+          ],
+          "correct": 1,
+          "explanation": "écrire 的过去分词是 écrit（以 -it 结尾）；écrire 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ pendant cinq heures.",
+          "options": [
+            "a conduis",
+            "a conduiré",
+            "a conduit",
+            "est conduit"
+          ],
+          "correct": 2,
+          "explanation": "conduire 的过去分词是不规则形式 conduit；表示开车时间，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ ce texte en anglais.",
+          "options": [
+            "avons traduis",
+            "avons traduit",
+            "avons traduiré",
+            "sommes traduit"
+          ],
+          "correct": 1,
+          "explanation": "traduire 的过去分词是 traduit；traduire 为及物动词，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette usine ______ 10 000 voitures l'an dernier.",
+          "options": [
+            "a produis",
+            "a produiré",
+            "a produit",
+            "est produit"
+          ],
+          "correct": 2,
+          "explanation": "produire 的过去分词是 produit；表示生产数量，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ combien de pages ?",
+          "options": [
+            "as écris",
+            "as écrit",
+            "as écrire",
+            "es écrit"
+          ],
+          "correct": 1,
+          "explanation": "écrire 的过去分词 écrit，不是 écris；复合过去时结构 as écrit。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'______ qu'il viendrait.",
+          "options": [
+            "a dis",
+            "a dire",
+            "a dit",
+            "est dit"
+          ],
+          "correct": 2,
+          "explanation": "dire 的过去分词是 dit；dire 用助动词 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ prudemment ?",
+          "options": [
+            "êtes conduit",
+            "avez conduis",
+            "avez conduit",
+            "avez conduiré"
+          ],
+          "correct": 2,
+          "explanation": "conduire → conduit；副词 prudemment 不影响过去分词形式。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'______ ce document en français.",
+          "options": [
+            "suis traduit",
+            "ai traduis",
+            "ai traduit",
+            "ai traduiré"
+          ],
+          "correct": 2,
+          "explanation": "traduire 的过去分词是 traduit；traduire 为及物动词，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce pays ______ beaucoup de pétrole.",
+          "options": [
+            "a produis",
+            "est produit",
+            "a produit",
+            "a produiré"
+          ],
+          "correct": 2,
+          "explanation": "produire → produit；表示国家生产，用 avoir。",
+          "category": "过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ toute la vérité.",
+          "options": [
+            "a dis",
+            "a dit",
+            "est dit",
+            "a dire"
+          ],
+          "correct": 1,
+          "explanation": "dire 的过去分词是 dit；过去分词不与直接宾语配合。",
+          "category": "过去分词"
+        }
+      ],
+      "practiceCount": 1,
+      "lastPracticedAt": "2026-02-08T17:58:03.649Z"
+    },
+    {
+      "id": 1770520425011,
+      "name": "部分冠词题目",
+      "createdAt": "2026-02-08T03:13:45.011Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Elle boit _____ lait.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "lait 为阳性不可数名词，肯定句表示喝一些，用部分冠词 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous achetons _____ bananes.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "bananes 为复数名词，肯定句中表示不确定数量，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il mange _____ riz.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "riz 为阳性不可数名词，吃一些用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je prends _____ salade.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "salade 为阴性单数名词，肯定句用 de la。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle aime _____ chocolat.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "aimer 表示对一类事物的喜好时，用定冠词 le，表示“喜欢巧克力这种东西”。",
+          "category": "定冠词 vs 部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous regardons _____ films.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "films 为复数名词，表示看一些电影，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il boit _____ eau.",
+          "correct": [
+            "de l’"
+          ],
+          "explanation": "eau 以元音开头，部分冠词 de l’。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je prépare _____ soupe.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "soupe 为阴性单数名词，肯定句用 de la。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants mangent _____ fruits.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "fruits 为复数，表示吃一些水果，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J’adore _____ musique.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "adorer 表示强烈喜好某一类事物，用定冠词 la。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle nettoie _____ cuisine.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "这里指具体的一间厨房，用定冠词 la。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous buvons _____ café.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "café 为阳性不可数名词，肯定句用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il mange _____ viande.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "viande 为阴性不可数名词，肯定句用 de la。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je mange _____ pain.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "pain 为阳性不可数名词，表示吃一些，用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ voiture est noire.",
+          "correct": [
+            "La"
+          ],
+          "explanation": "指具体的一辆车，用定冠词 La。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils jouent dans _____ parc.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "parc 是特定地点，用定冠词 le。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous aimons _____ sport.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "aimer + 名词表示类别或习惯，用定冠词 le。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle boit _____ jus.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "jus 为阳性不可数名词，肯定句用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je regarde _____ télé.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "固定搭配：regarder la télé。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants aiment _____ chocolat.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "aimer 表示喜欢某一类事物，用定冠词 le。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne bois pas _____ café.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中部分冠词一律变为 de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n’aime pas _____ café.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "n’aimer pas 表示对一类事物的否定态度，仍用定冠词 le。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle ne mange pas _____ viande.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定结构 ne…pas 中，部分冠词 de la → de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle n’aime pas _____ viande.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "n’aimer pas 表示不喜欢某一类东西，用定冠词 la。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne buvons pas _____ lait.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中，部分冠词 du → de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous n’aimons pas _____ lait.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "aimer / ne pas aimer 描述态度，对象为类别，用定冠词 le。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il ne prépare pas _____ soupe.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中 de la → de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n’aime pas _____ soupe.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "n’aimer pas 表示对汤这种食物的态度，用定冠词 la。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne mange pas _____ pain.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中部分冠词 du → de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n’aime pas _____ pain.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "n’aimer pas 表示对面包这一类的态度，用定冠词 le。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je bois _____ café tous les matins.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "café 为阳性不可数名词，肯定句表示喝一些，用部分冠词 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n’ai pas _____ temps aujourd’hui.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定结构 n’avoir pas 中，名词前通常用 de（这里不是部分冠词，而是固定表达：avoir du temps / ne pas avoir de temps）。",
+          "category": "否定 + de"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle aime _____ musique classique.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "aimer 表示对一类事物（音乐）的一般喜好，用定冠词 la。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous mangeons _____ riz ce soir.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "riz 为阳性不可数名词，肯定句中表示吃一些，用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n’y a pas _____ pain à la maison.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定结构 ne…pas 中，部分冠词 du 变为 de：il y a du pain / il n’y a pas de pain。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J’adore _____ chocolat noir.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "adorer 表示对“黑巧克力”这一类的强烈喜好，用定冠词 le（泛指）。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle prépare _____ soupe pour le dîner.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "soupe 为阴性不可数名词，肯定句中表示做一些汤，用 de la。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne buvons pas _____ alcool.",
+          "correct": [
+            "d’"
+          ],
+          "explanation": "否定句中部分冠词变 de；alcool 以元音开头，省音为 d’。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants mangent _____ fruits.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "fruits 为复数名词，肯定句中表示吃一些水果，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n’aime pas _____ viande.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "n’aimer pas 表示对“肉这一类食物”的态度，用定冠词 la（泛指类别）。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il boit _____ eau après le sport.",
+          "correct": [
+            "de l’"
+          ],
+          "explanation": "eau 以元音开头，肯定句中用部分冠词 de l’。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous regardons _____ films français.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "films 为复数名词，表示看一些法国电影，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne prends jamais _____ sucre.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "ne…jamais 否定结构中，部分冠词 du 变为 de：prendre du sucre / ne jamais prendre de sucre。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle déteste _____ café.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "détester 表示对“咖啡这一类”的态度，用定冠词 le（泛指）。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il mange _____ fromage.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "fromage 为阳性不可数名词，肯定句中表示吃一些，用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous n’avons plus _____ patience.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "ne…plus 否定结构中名词前用 de：avoir de la patience / ne plus avoir de patience。",
+          "category": "否定 + de"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J’aime _____ cuisine italienne.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "aimer 表示对“意大利菜/意大利料理”这一类的喜好，用定冠词 la。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle achète _____ légumes au marché.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "légumes 为复数名词，acheter 表示买一些，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne bois pas _____ thé le soir.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中部分冠词 du 变 de：boire du thé / ne pas boire de thé。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il adore _____ musique.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "adorer 表示对“音乐这一类”的强烈喜好，用定冠词 la。",
+          "category": "定冠词"
+        }
+      ]
+    },
+    {
+      "id": 1770514058113,
+      "name": "冠词定冠词副词",
+      "createdAt": "2026-02-08T01:27:38.113Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Pour faire ce gâteau, il faut _____ farine et _____ œufs.",
+          "correct": [
+            "de la",
+            "des"
+          ],
+          "explanation": "肯定句中表示不确定数量。farine 为阴性单数 → de la；œufs 为复数 → des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le matin, je ne bois jamais _____ thé, mais je prends _____ lait.",
+          "correct": [
+            "de",
+            "du"
+          ],
+          "explanation": "ne…jamais 是否定结构，部分冠词一律变 de；lait 为阳性单数肯定 → du。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Cet informaticien a _____ courage, mais il n'a pas _____ patience.",
+          "correct": [
+            "du",
+            "de"
+          ],
+          "explanation": "肯定句中抽象名词 courage 用 du；否定句 n’a pas → de。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Dans le frigo, il n'y a plus _____ eau minérale.",
+          "correct": [
+            "d’"
+          ],
+          "explanation": "ne…plus 是否定；eau 以元音开头，用 d’。",
+          "category": "部分冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je bois _____ café tous les matins.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "café 为阳性单数，肯定句用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle mange _____ viande.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "viande 为阴性单数，肯定句用 de la。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous achetons _____ fruits au marché.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "fruits 为复数，肯定句用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il met _____ huile dans la poêle.",
+          "correct": [
+            "de l’"
+          ],
+          "explanation": "huile 以元音开头，部分冠词为 de l’。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous prenez _____ fromage après le repas.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "fromage 为阳性单数，肯定句用 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J’adore _____ fromage, c’est pourquoi j’achète _____ fromage chaque samedi.",
+          "correct": [
+            "le",
+            "du"
+          ],
+          "explanation": "adorer 表示对一类事物的喜好 → 定冠词 le；acheter 表示买一些 → du。",
+          "category": "定冠词 vs 部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que tu aimes _____ vin rouge ? – Non, je préfère _____ bière.",
+          "correct": [
+            "le",
+            "la"
+          ],
+          "explanation": "aimer / préférer 表示类别偏好时用定冠词。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a _____ soleil aujourd'hui, j'aime beaucoup _____ soleil.",
+          "correct": [
+            "du",
+            "le"
+          ],
+          "explanation": "存在句 il y a 表示有一些 → du；后半句泛指太阳这一类 → le。",
+          "category": "定冠词 vs 部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le médecin déteste _____ sucre, il ne met jamais _____ sucre dans son café.",
+          "correct": [
+            "le",
+            "de"
+          ],
+          "explanation": "détester 表示对一类事物的态度 → le；否定 ne…jamais → de。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J’aime _____ café, mais je ne bois pas _____ café le soir.",
+          "correct": [
+            "le",
+            "de"
+          ],
+          "explanation": "j’aime 表示偏好类别 → le；否定句中部分冠词变 de。",
+          "category": "定冠词 + 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ légumes sont bons pour la santé.",
+          "correct": [
+            "Les"
+          ],
+          "explanation": "泛指“蔬菜这种东西”，用定冠词复数 les。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il mange _____ légumes tous les jours.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "表示每天吃一些蔬菜，用部分冠词 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ chocolat noir est trop amer pour moi.",
+          "correct": [
+            "Le"
+          ],
+          "explanation": "泛指黑巧克力这一类，用定冠词 le。",
+          "category": "定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle achète _____ chocolat pour le dessert.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "acheter + 不确定数量，用部分冠词 du。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a _____ voitures dans cette ville, on ne peut plus respirer !",
+          "correct": [
+            "trop de"
+          ],
+          "explanation": "数量过多，用 trop de，后接名词一律 de。",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n'ai pas _____ argent pour acheter ce sac, il me manque 10 euros.",
+          "correct": [
+            "assez d’"
+          ],
+          "explanation": "不够 → ne pas assez de；argent 元音开头省音。",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce journaliste travaille énormément, il a _____ temps libre.",
+          "correct": [
+            "peu de"
+          ],
+          "explanation": "数量极少，用 peu de。",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a _____ bruit dans ce café, je n’aime pas ça.",
+          "correct": [
+            "trop de"
+          ],
+          "explanation": "噪音过多，典型搭配 trop de bruit。",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je voudrais une _____ de café noir, s'il vous plaît.",
+          "correct": [
+            "tasse"
+          ],
+          "explanation": "咖啡常用单位为 une tasse de。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Achetez un _____ de sucre.",
+          "correct": [
+            "paquet"
+          ],
+          "explanation": "糖通常用 un paquet de 表示。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle mange deux _____ de jambon au déjeuner.",
+          "correct": [
+            "tranches"
+          ],
+          "explanation": "火腿、面包等薄片用 tranche。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il mange un _____ de fromage avec son pain.",
+          "correct": [
+            "morceau"
+          ],
+          "explanation": "一块奶酪常用 un morceau de。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On a besoin d'une _____ d'eau pour la table.",
+          "correct": [
+            "bouteille"
+          ],
+          "explanation": "水通常用 bouteille 作为容器单位。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle achète un _____ de pommes au supermarché.",
+          "correct": [
+            "kilo"
+          ],
+          "explanation": "水果重量单位用 kilo。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il prend une _____ de pain avec son petit-déjeuner.",
+          "correct": [
+            "tranche"
+          ],
+          "explanation": "一片面包用 une tranche de pain。",
+          "category": "单位名词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous commandons un _____ de vin rouge.",
+          "correct": [
+            "verre"
+          ],
+          "explanation": "饮料在餐厅常用 un verre de。",
+          "category": "单位名词"
+        }
+      ]
+    },
+    {
+      "id": 1770420703201,
+      "name": "avoir固定表达",
+      "createdAt": "2026-02-06T23:31:43.201Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "_____ avons froid.",
+          "correct": [
+            "Nous"
+          ],
+          "explanation": "动词 avoir 的第一人称复数主语是 nous，对应 avons。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ ai raison.",
+          "correct": [
+            "J’",
+            "Je"
+          ],
+          "explanation": "avoir 第一人称单数 ai，主语为 je，在元音前常省音为 j’。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ avez un chat ?",
+          "correct": [
+            "Vous"
+          ],
+          "explanation": "avez 是 avoir 的 vous 变位，疑问句中主语仍为 vous。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ as des lunettes de soleil.",
+          "correct": [
+            "Tu"
+          ],
+          "explanation": "as 是 avoir 的 tu 变位，表示第二人称单数。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ a deux filles et un garçon.",
+          "correct": [
+            "Elle",
+            "Il"
+          ],
+          "explanation": "a 是第三人称单数变位，主语可以是 il 或 elle。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ ont une voiture et un vélo.",
+          "correct": [
+            "Ils",
+            "Elles"
+          ],
+          "explanation": "ont 是第三人称复数变位，主语为 ils 或 elles。",
+          "category": "代词 + avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ des problèmes.",
+          "correct": [
+            "avons"
+          ],
+          "explanation": "avoir 第一人称复数变位为 avons。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ un jardin ?",
+          "correct": [
+            "avez"
+          ],
+          "explanation": "avoir 的 vous 变位是 avez，常用于提问。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ beaucoup de valises.",
+          "correct": [
+            "ont"
+          ],
+          "explanation": "avoir 的第三人称复数变位是 ont。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ des disques de jazz ?",
+          "correct": [
+            "as"
+          ],
+          "explanation": "avoir 的 tu 变位为 as。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ un piano chez lui.",
+          "correct": [
+            "a"
+          ],
+          "explanation": "avoir 的第三人称单数变位为 a。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ du travail.",
+          "correct": [
+            "ont"
+          ],
+          "explanation": "elles 为第三人称复数，对应 ont。",
+          "category": "avoir 现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle n’_____ pas de dictionnaire.",
+          "correct": [
+            "a"
+          ],
+          "explanation": "否定结构 ne…pas 包围动词，avoir 第三人称单数为 a。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous n’_____ pas un stylo ?",
+          "correct": [
+            "avez"
+          ],
+          "explanation": "否定疑问句中 avoir 的 vous 变位仍为 avez。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils n’_____ pas le temps.",
+          "correct": [
+            "ont"
+          ],
+          "explanation": "ne…pas 包围 ont，表示否定“没有时间”。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu n’_____ pas de voiture.",
+          "correct": [
+            "as"
+          ],
+          "explanation": "avoir 否定时 as 不变，注意 de 代替 un/une。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n’_____ pas de patience.",
+          "correct": [
+            "ai"
+          ],
+          "explanation": "avoir 第一人称单数 ai，否定后名词前用 de。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous n’_____ pas de vacances.",
+          "correct": [
+            "avons"
+          ],
+          "explanation": "avoir 第一人称复数 avons，否定结构保持动词不变。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles n’_____ pas d’amis.",
+          "correct": [
+            "ont"
+          ],
+          "explanation": "否定中 des → de，动词 ont 保持不变。",
+          "category": "avoir 否定式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C’est leur anniversaire : ils _____",
+          "correct": [
+            "ont 20 ans"
+          ],
+          "explanation": "年龄用 avoir + 数字 + ans 表达。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Christine reste ici : elle _____",
+          "correct": [
+            "n’a pas envie de sortir"
+          ],
+          "explanation": "表达“没有心情做某事”用 ne pas avoir envie de。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est midi : je _____",
+          "correct": [
+            "ai faim"
+          ],
+          "explanation": "表达“饿”必须用 avoir faim。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est tard : le bébé _____",
+          "correct": [
+            "a sommeil"
+          ],
+          "explanation": "avoir sommeil 表示“困了”，不用 être。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu es courageux : tu _____",
+          "correct": [
+            "n’as pas peur"
+          ],
+          "explanation": "表达“害怕/不害怕”用 avoir peur。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous sommes pressés : nous _____",
+          "correct": [
+            "n’avons pas le temps"
+          ],
+          "explanation": "表达“没时间”固定用 ne pas avoir le temps。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ton amie est pâle : elle _____",
+          "correct": [
+            "a l’air malade"
+          ],
+          "explanation": "avoir l’air + adjectif 表示外表状态。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ma montre est arrêtée : vous _____ ?",
+          "correct": [
+            "avez l’heure"
+          ],
+          "explanation": "询问时间用 avoir l’heure。",
+          "category": "avoir 固定搭配"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Claire _____ vingt ans. Elle _____ étudiante à la faculté des Lettres. C’_____ une fille sympathique. Elle _____ grande, elle _____ des cheveux blonds et des yeux noirs. Elle _____ bon caractère et elle _____ toujours gaie. Elle _____ beaucoup d’amis.",
+          "correct": [
+            "a",
+            "est",
+            "est",
+            "est",
+            "a",
+            "a",
+            "est",
+            "a"
+          ],
+          "explanation": "允许系统区分 être（身份、状态、性格）与 avoir（年龄、拥有）。",
+          "category": "être vs avoir"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mes voisins _____ espagnols. Ils _____ deux enfants. Ce _____ des gens serviables. La fille _____ 10 ans et le garçon _____ 6 ans. Ils _____ très généreux. Les enfants _____ amusants. Ce _____ des passionnés de jeux vidéo. Le père _____ sportif ; c’_____ un champion de tennis. Il _____ aussi musicien.",
+          "correct": [
+            "sont",
+            "ont",
+            "sont",
+            "a",
+            "a",
+            "sont",
+            "sont",
+            "sont",
+            "est",
+            "est"
+          ],
+          "explanation": "être 用于国籍、性格、身份；avoir 用于年龄和拥有。",
+          "category": "être vs avoir"
+        }
+      ]
+    }
+  ],
+  "wrongBook": [
+    {
+      "type": "single_choice",
+      "stem": "Nous ______ attendre deux heures.",
+      "options": [
+        "avons devé",
+        "avons du",
+        "avons dû",
+        "sommes dû"
+      ],
+      "correct": 2,
+      "explanation": "devoir 的过去分词是 dû，带重音符号以区分介词 du。",
+      "category": "过去分词",
+      "nextReview": "2026-02-11",
+      "interval": 3,
+      "repetitions": 1
+    }
+  ],
+  "timerSeconds": 30,
+  "dailyStats": {
+    "date": "2026-02-08",
+    "todayCount": 51,
+    "lastDate": "2026-02-08",
+    "streak": 0
+  },
+  "exportedAt": "2026-02-08T18:11:49.369Z"
+}
