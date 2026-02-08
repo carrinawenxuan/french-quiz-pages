@@ -1018,7 +1018,13 @@
     }
     body.theme-light .review-modal { border-color: rgba(0,0,0,0.1); }
     .review-modal h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--text); }
-    .review-modal-links { flex: 1; overflow-y: auto; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .review-modal-body { flex: 1; overflow-y: auto; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 1rem; }
+    .review-modal-texts-wrap { max-height: 180px; overflow-y: auto; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06); background: var(--surface); padding: 0.6rem 0.75rem; }
+    body.theme-light .review-modal-texts-wrap { border-color: rgba(0,0,0,0.08); }
+    .review-modal-texts { font-size: 0.9rem; line-height: 1.6; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+    .review-modal-texts .review-text-block { margin-bottom: 0.75rem; }
+    .review-modal-texts .review-text-block:last-child { margin-bottom: 0; }
+    .review-modal-links { display: flex; flex-direction: column; gap: 0.5rem; }
     .review-modal-links a {
       display: block;
       padding: 0.6rem 0.75rem;
@@ -1092,7 +1098,12 @@
     body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
     .edit-set-append .btn { margin-top: 0.5rem; }
-    .edit-set-paste-images { margin-top: 0.75rem; }
+    .edit-set-review-label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .edit-set-review-row { margin-bottom: 0.75rem; }
+    .edit-set-review-row label { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .edit-set-review-row textarea { width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-sm); color: var(--text); resize: vertical; }
+    body.theme-light .edit-set-review-row textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .edit-set-paste-images { margin-top: 0.5rem; }
     .edit-set-paste-images-hint { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .edit-set-paste-zone {
       min-height: 56px;
@@ -1113,6 +1124,9 @@
     .edit-set-pasted-item img { display: block; max-width: 80px; max-height: 80px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); }
     .edit-set-pasted-item .edit-set-pasted-remove { position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border-radius: 50%; border: none; background: rgba(0,0,0,0.6); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; }
     .review-modal-links .review-modal-img { max-width: 100%; max-height: 280px; display: block; border-radius: var(--radius-sm); margin-top: 0.25rem; }
+    .review-modal-images { display: flex; flex-direction: column; gap: 0.5rem; }
+    .review-modal-images .review-modal-msg { margin: 0; }
+    .review-modal-images .review-modal-img { max-width: 100%; max-height: 240px; display: block; border-radius: var(--radius-sm); }
     .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -1358,7 +1372,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="review-modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="review-modal-title">
     <div class="review-modal">
       <h3 id="review-modal-title">是否观看复习材料？</h3>
-      <div class="review-modal-links" id="review-modal-links"></div>
+      <div class="review-modal-body">
+        <div class="review-modal-texts-wrap" id="review-modal-texts-wrap">
+          <div class="review-modal-texts roll" id="review-modal-texts"></div>
+        </div>
+        <div class="review-modal-links" id="review-modal-links"></div>
+        <div class="review-modal-images" id="review-modal-images"></div>
+      </div>
       <div class="review-modal-actions">
         <button type="button" class="btn btn-primary" id="btn-review-start-quiz">直接开始练习</button>
       </div>
@@ -1373,10 +1393,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <input type="text" id="edit-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
       </div>
       <div class="edit-set-field">
-        <label for="edit-set-review-urls">练习前复习资料（可选，每行一个 URL 或一段文字）</label>
-        <textarea id="edit-set-review-urls" rows="4" placeholder="https://… 或 任意文字&#10;支持混合粘贴" autocomplete="off"></textarea>
+        <span class="edit-set-review-label">练习前复习资料（可选）</span>
+        <div class="edit-set-review-row">
+          <label for="edit-set-review-texts">文本（每行一段，练习前可滚动查看）</label>
+          <textarea id="edit-set-review-texts" rows="3" placeholder="口诀、说明等&#10;每行一段" autocomplete="off"></textarea>
+        </div>
+        <div class="edit-set-review-row">
+          <label for="edit-set-review-links">链接（每行一个 URL）</label>
+          <textarea id="edit-set-review-links" rows="2" placeholder="https://…" autocomplete="off"></textarea>
+        </div>
         <div class="edit-set-paste-images" id="edit-set-paste-images">
-          <span class="edit-set-paste-images-hint">复习图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴图片</span>
+          <span class="edit-set-paste-images-hint">图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴</span>
           <div class="edit-set-paste-zone" id="edit-set-paste-zone" tabindex="0">粘贴图片到此处</div>
           <div class="edit-set-pasted-list" id="edit-set-pasted-list"></div>
         </div>
@@ -1858,7 +1885,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       switch (btn.dataset.action) {
         case 'start':
           if (set && set.questions && set.questions.length) {
-            if (set.reviewUrls && set.reviewUrls.length) showReviewModal(set, set.questions, false, set.id);
+            if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
             else startQuiz(set.questions, false, set.id);
           }
           break;
@@ -1880,6 +1907,31 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const host = (u.hostname || '').toLowerCase();
         return host.length > 0 && (host.includes('.') || host === 'localhost');
       } catch (_) { return false; }
+    }
+    function getReviewMaterials(set) {
+      if (!set) return { texts: [], links: [], images: [] };
+      const hasNew = (set.reviewTexts && set.reviewTexts.length) || (set.reviewLinks && set.reviewLinks.length) || (set.reviewImages && set.reviewImages.length);
+      if (hasNew) {
+        return {
+          texts: Array.isArray(set.reviewTexts) ? set.reviewTexts : [],
+          links: Array.isArray(set.reviewLinks) ? set.reviewLinks : [],
+          images: Array.isArray(set.reviewImages) ? set.reviewImages : []
+        };
+      }
+      const urls = Array.isArray(set.reviewUrls) ? set.reviewUrls : [];
+      const texts = [], links = [], images = [];
+      urls.forEach(u => {
+        const s = (u || '').trim();
+        if (!s) return;
+        if (isDataImageUrl(s)) images.push(s);
+        else if (isLikelyUrl(s)) links.push(/^https?:\/\//i.test(s) ? s : 'https://' + s);
+        else texts.push(s);
+      });
+      return { texts, links, images };
+    }
+    function hasReviewMaterial(set) {
+      const m = getReviewMaterials(set);
+      return m.texts.length > 0 || m.links.length > 0 || m.images.length > 0;
     }
     function renderEditModalPastedImages() {
       const listEl = document.getElementById('edit-set-pasted-list');
@@ -1903,13 +1955,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!set) return;
       _editingSetId = setId;
       const nameEl = document.getElementById('edit-set-name');
-      const urlsEl = document.getElementById('edit-set-review-urls');
+      const textsEl = document.getElementById('edit-set-review-texts');
+      const linksEl = document.getElementById('edit-set-review-links');
       const metaEl = document.getElementById('edit-set-meta');
       if (nameEl) nameEl.value = set.name || '';
-      const reviewUrls = (set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls : [];
-      const textLines = reviewUrls.filter(u => !isDataImageUrl(u));
-      _editModalPastedImages = reviewUrls.filter(isDataImageUrl);
-      if (urlsEl) urlsEl.value = textLines.join('\n');
+      const m = getReviewMaterials(set);
+      if (textsEl) textsEl.value = m.texts.join('\n');
+      if (linksEl) linksEl.value = m.links.join('\n');
+      _editModalPastedImages = m.images.slice();
       if (metaEl) metaEl.textContent = set.questions ? set.questions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次' : '';
       renderEditModalPastedImages();
       const appendEl = document.getElementById('edit-set-append-text');
@@ -1924,23 +1977,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function saveEditSetModal() {
       if (_editingSetId == null) return;
       const nameEl = document.getElementById('edit-set-name');
-      const urlsEl = document.getElementById('edit-set-review-urls');
+      const textsEl = document.getElementById('edit-set-review-texts');
+      const linksEl = document.getElementById('edit-set-review-links');
       const name = nameEl ? String(nameEl.value).trim() : '';
       if (!name) {
         alert('请填写习题集名称。');
         return;
       }
-      const rawLines = (urlsEl && urlsEl.value ? urlsEl.value.trim().split(/\n/) : [])
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-      const textLines = rawLines.map(s => {
-        if (/^https?:\/\//i.test(s) || /^data:image\//i.test(s)) return s;
-        if (isLikelyUrl(s)) return /^https?:\/\//i.test(s) ? s : ('https://' + s);
-        return s;
-      });
-      const reviewUrls = textLines.concat(_editModalPastedImages);
+      const reviewTexts = (textsEl && textsEl.value ? textsEl.value.trim().split(/\n/) : []).map(s => s.trim()).filter(s => s.length > 0);
+      const linkLines = (linksEl && linksEl.value ? linksEl.value.trim().split(/\n/) : []).map(s => s.trim()).filter(s => s.length > 0);
+      const reviewLinks = linkLines.map(s => (/^https?:\/\//i.test(s) || isLikelyUrl(s)) ? (/^https?:\/\//i.test(s) ? s : 'https://' + s) : s);
+      const reviewImages = _editModalPastedImages.slice();
       const sets = getSavedSets();
-      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, reviewUrls: reviewUrls }) : s);
+      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, reviewTexts: reviewTexts, reviewLinks: reviewLinks, reviewImages: reviewImages }) : s);
       setSavedSets(updated);
       closeEditSetModal();
     }
@@ -2284,28 +2333,34 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     let _pendingReviewStart = null;
     function showReviewModal(set, questions, fromWrongBook, setId) {
-      const urls = (set && set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls : [];
-      if (urls.length === 0) {
+      const m = getReviewMaterials(set);
+      const total = m.texts.length + m.links.length + m.images.length;
+      if (total === 0) {
         startQuiz(questions, fromWrongBook, setId);
         return;
       }
       _pendingReviewStart = { questions, fromWrongBook, setId };
+      const textsWrap = document.getElementById('review-modal-texts');
       const linksEl = document.getElementById('review-modal-links');
+      const imagesEl = document.getElementById('review-modal-images');
+      const textsWrapParent = document.getElementById('review-modal-texts-wrap');
+      if (textsWrap) {
+        textsWrap.innerHTML = m.texts.length ? m.texts.map(t => '<div class="review-text-block">' + escapeHtml(t) + '</div>').join('') : '';
+        if (textsWrapParent) textsWrapParent.style.display = m.texts.length ? 'block' : 'none';
+      }
       if (linksEl) {
-        linksEl.innerHTML = urls.map(raw => {
-          const url = (raw || '').trim();
-          if (!url) return '';
-          if (/^data:image\//i.test(url)) {
-            const safeSrc = url.replace(/"/g, '&quot;');
-            return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" /></div>';
-          }
-          if (isLikelyUrl(url)) {
-            const href = /^https?:\/\//i.test(url) ? url : ('https://' + url);
-            const label = url.length > 80 ? url.slice(0, 77) + '…' : url;
-            return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
-          }
-          return '<div class="review-modal-msg">' + escapeHtml(url) + '</div>';
-        }).filter(Boolean).join('');
+        linksEl.innerHTML = m.links.map(href => {
+          const label = href.length > 80 ? href.slice(0, 77) + '…' : href;
+          return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
+        }).join('');
+        linksEl.style.display = m.links.length ? 'flex' : 'none';
+      }
+      if (imagesEl) {
+        imagesEl.innerHTML = m.images.map(dataUrl => {
+          const safeSrc = (dataUrl || '').replace(/"/g, '&quot;');
+          return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" /></div>';
+        }).join('');
+        imagesEl.style.display = m.images.length ? 'flex' : 'none';
       }
       const overlay = document.getElementById('review-modal-overlay');
       if (overlay) overlay.classList.add('show');
@@ -2754,7 +2809,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const sets = getSavedSets();
         const set = sets.find(s => String(s.id) === val);
         if (set) {
-          if (set.reviewUrls && set.reviewUrls.length) showReviewModal(set, filtered, false, set.id);
+          if (hasReviewMaterial(set)) showReviewModal(set, filtered, false, set.id);
           else startQuiz(filtered, false, set.id);
         } else {
           startQuiz(filtered);
@@ -2783,10 +2838,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const nameInput = document.getElementById('import-set-name');
         const reviewInput = document.getElementById('import-review-urls');
         const name = (nameInput && nameInput.value ? nameInput.value.trim() : '') || ('未命名 ' + formatSavedSetDate(new Date().toISOString()));
-        const reviewUrls = (reviewInput && reviewInput.value ? reviewInput.value.trim().split(/\n/) : [])
+        const rawLines = (reviewInput && reviewInput.value ? reviewInput.value.trim().split(/\n/) : [])
           .map(s => s.trim())
-          .filter(s => s.length > 0)
-          .map(s => /^https?:\/\//i.test(s) ? s : 'https://' + s);
+          .filter(s => s.length > 0);
+        const reviewTexts = [];
+        const reviewLinks = [];
+        const reviewImages = [];
+        rawLines.forEach(s => {
+          if (/^data:image\//i.test(s)) reviewImages.push(s);
+          else if (isLikelyUrl(s)) reviewLinks.push(/^https?:\/\//i.test(s) ? s : 'https://' + s);
+          else reviewTexts.push(s);
+        });
         const saved = {
           id: Date.now(),
           name: name,
@@ -2794,7 +2856,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           questions: parsed,
           practiceCount: 0,
           lastPracticedAt: null,
-          reviewUrls: reviewUrls
+          reviewTexts,
+          reviewLinks,
+          reviewImages
         };
         const all = getSavedSets();
         all.unshift(saved);
