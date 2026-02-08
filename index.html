@@ -45,8 +45,9 @@
       margin: 0;
       padding: 0;
     }
-
+    html { overflow-x: hidden; }
     body {
+      overflow-x: hidden;
       font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif;
       background: var(--bg);
       color: var(--text);
@@ -59,6 +60,7 @@
     }
 
     .container {
+      width: 100%;
       max-width: 640px;
       margin: 0 auto;
       padding: 1.5rem 1.25rem;
@@ -69,6 +71,10 @@
     }
     @media (min-width: 600px) {
       .container { padding: 2rem 1.5rem; }
+    }
+    @media (max-width: 380px) {
+      .container { padding: 1rem 0.75rem; }
+      header h1 { font-size: 1.35rem; }
     }
 
     header {
@@ -447,6 +453,14 @@
     }
     @media (max-width: 480px) {
       .options { grid-template-columns: 1fr; }
+      .question-card { padding: 1.25rem; }
+      .question-stem { font-size: 1rem; word-break: break-word; }
+      .option { padding: 0.85rem 1rem; min-height: 44px; }
+      .quiz-actions .btn { min-width: 100px; }
+    }
+    @media (max-width: 360px) {
+      .question-card { padding: 1rem; }
+      .option-letter { width: 28px; height: 28px; font-size: 0.8rem; }
     }
     .option {
       display: flex;
@@ -811,7 +825,7 @@
     }
     .format-doc-title::before { content: '▶'; font-size: 0.7rem; transition: transform 0.2s; }
     .format-doc.open .format-doc-title::before { transform: rotate(90deg); }
-    .format-doc-content { display: none; font-size: 0.8rem; line-height: 1.7; color: var(--text-muted); }
+    .format-doc-content { display: none; font-size: 0.8rem; line-height: 1.7; color: var(--text-muted); max-height: 320px; overflow-y: auto; overflow-x: hidden; }
     .format-doc.open .format-doc-content { display: block; }
     .format-doc pre {
       background: var(--bg);
@@ -841,6 +855,17 @@
       letter-spacing: 0.03em;
       margin-bottom: 0.85rem;
     }
+    .saved-sets-list-wrap {
+      max-height: 280px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin: 0 -0.25rem 0 0;
+      padding-right: 0.25rem;
+    }
+    .saved-sets-list-wrap::-webkit-scrollbar { width: 6px; }
+    .saved-sets-list-wrap::-webkit-scrollbar-track { background: transparent; border-radius: 3px; }
+    .saved-sets-list-wrap::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+    body.theme-light .saved-sets-list-wrap::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
     .saved-sets-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
     .saved-sets-item {
       display: flex;
@@ -1053,6 +1078,19 @@
         </div>
       </div>
 
+      <div class="home-section saved-sets" id="saved-sets-section">
+        <h2>我的习题集</h2>
+        <div class="saved-sets-search">
+          <div class="saved-sets-search-wrap">
+            <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" />
+          </div>
+        </div>
+        <div class="saved-sets-list-wrap">
+          <ul class="saved-sets-list" id="saved-sets-list"></ul>
+          <p class="saved-sets-empty" id="saved-sets-empty" style="display: none;">暂无保存的习题集，导入题目时填写名称即可保存。</p>
+        </div>
+      </div>
+
       <div class="home-section" id="storage-section">
         <h2>数据存到项目文件夹 / 云端同步</h2>
         <p class="storage-desc">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：保存后在项目目录执行下方命令，<strong>同时推送主仓库 + Pages 站点</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
@@ -1087,17 +1125,6 @@
         </div>
         <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
         <input type="file" id="file-import-data" accept=".json,application/json" />
-      </div>
-
-      <div class="home-section saved-sets" id="saved-sets-section">
-        <h2>我的习题集</h2>
-        <div class="saved-sets-search">
-          <div class="saved-sets-search-wrap">
-            <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" />
-          </div>
-        </div>
-        <ul class="saved-sets-list" id="saved-sets-list"></ul>
-        <p class="saved-sets-empty" id="saved-sets-empty" style="display: none;">暂无保存的习题集，导入题目时填写名称即可保存。</p>
       </div>
 
       <div class="home-section format-doc" id="format-doc">
