@@ -1092,6 +1092,27 @@
     body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
     .edit-set-append .btn { margin-top: 0.5rem; }
+    .edit-set-paste-images { margin-top: 0.75rem; }
+    .edit-set-paste-images-hint { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .edit-set-paste-zone {
+      min-height: 56px;
+      padding: 0.5rem 0.75rem;
+      border: 2px dashed rgba(255,255,255,0.2);
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .edit-set-paste-zone:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--text); }
+    .edit-set-paste-zone:focus { outline: none; border-color: var(--accent); }
+    body.theme-light .edit-set-paste-zone { border-color: rgba(0,0,0,0.15); background: var(--card); }
+    .edit-set-pasted-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+    .edit-set-pasted-item { position: relative; flex-shrink: 0; }
+    .edit-set-pasted-item img { display: block; max-width: 80px; max-height: 80px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); }
+    .edit-set-pasted-item .edit-set-pasted-remove { position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border-radius: 50%; border: none; background: rgba(0,0,0,0.6); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; }
+    .review-modal-links .review-modal-img { max-width: 100%; max-height: 280px; display: block; border-radius: var(--radius-sm); margin-top: 0.25rem; }
     .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -1352,8 +1373,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <input type="text" id="edit-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
       </div>
       <div class="edit-set-field">
-        <label for="edit-set-review-urls">练习前复习资料（可选，每行一个 URL）</label>
-        <textarea id="edit-set-review-urls" rows="4" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
+        <label for="edit-set-review-urls">练习前复习资料（可选，每行一个 URL 或一段文字）</label>
+        <textarea id="edit-set-review-urls" rows="4" placeholder="https://… 或 任意文字&#10;支持混合粘贴" autocomplete="off"></textarea>
+        <div class="edit-set-paste-images" id="edit-set-paste-images">
+          <span class="edit-set-paste-images-hint">复习图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴图片</span>
+          <div class="edit-set-paste-zone" id="edit-set-paste-zone" tabindex="0">粘贴图片到此处</div>
+          <div class="edit-set-pasted-list" id="edit-set-pasted-list"></div>
+        </div>
       </div>
       <div class="edit-set-meta" id="edit-set-meta"></div>
       <div class="edit-set-field edit-set-append">
@@ -1842,6 +1868,35 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
     let _editingSetId = null;
+    let _editModalPastedImages = [];
+    function isDataImageUrl(s) { return typeof s === 'string' && /^data:image\//i.test(s.trim()); }
+    function isLikelyUrl(str) {
+      const s = (str || '').trim();
+      if (!s) return false;
+      if (/^data:image\//i.test(s)) return false;
+      let toTry = /^https?:\/\//i.test(s) ? s : ('https://' + s);
+      try {
+        const u = new URL(toTry);
+        const host = (u.hostname || '').toLowerCase();
+        return host.length > 0 && (host.includes('.') || host === 'localhost');
+      } catch (_) { return false; }
+    }
+    function renderEditModalPastedImages() {
+      const listEl = document.getElementById('edit-set-pasted-list');
+      if (!listEl) return;
+      listEl.innerHTML = _editModalPastedImages.map((dataUrl, i) =>
+        '<div class="edit-set-pasted-item" data-index="' + i + '">' +
+        '<img src="' + dataUrl.replace(/"/g, '&quot;') + '" alt="" />' +
+        '<button type="button" class="edit-set-pasted-remove" aria-label="删除该图片">×</button></div>'
+      ).join('');
+      listEl.querySelectorAll('.edit-set-pasted-remove').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const i = parseInt(this.closest('.edit-set-pasted-item').dataset.index, 10);
+          _editModalPastedImages.splice(i, 1);
+          renderEditModalPastedImages();
+        });
+      });
+    }
     function openEditSetModal(setId) {
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === setId);
@@ -1851,8 +1906,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const urlsEl = document.getElementById('edit-set-review-urls');
       const metaEl = document.getElementById('edit-set-meta');
       if (nameEl) nameEl.value = set.name || '';
-      if (urlsEl) urlsEl.value = (set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls.join('\n') : '';
+      const reviewUrls = (set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls : [];
+      const textLines = reviewUrls.filter(u => !isDataImageUrl(u));
+      _editModalPastedImages = reviewUrls.filter(isDataImageUrl);
+      if (urlsEl) urlsEl.value = textLines.join('\n');
       if (metaEl) metaEl.textContent = set.questions ? set.questions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次' : '';
+      renderEditModalPastedImages();
       const appendEl = document.getElementById('edit-set-append-text');
       if (appendEl) appendEl.value = '';
       document.getElementById('edit-set-modal-overlay').classList.add('show');
@@ -1871,10 +1930,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         alert('请填写习题集名称。');
         return;
       }
-      const reviewUrls = (urlsEl && urlsEl.value ? urlsEl.value.trim().split(/\n/) : [])
+      const rawLines = (urlsEl && urlsEl.value ? urlsEl.value.trim().split(/\n/) : [])
         .map(s => s.trim())
-        .filter(s => s.length > 0)
-        .map(s => /^https?:\/\//i.test(s) ? s : 'https://' + s);
+        .filter(s => s.length > 0);
+      const textLines = rawLines.map(s => {
+        if (/^https?:\/\//i.test(s) || /^data:image\//i.test(s)) return s;
+        if (isLikelyUrl(s)) return /^https?:\/\//i.test(s) ? s : ('https://' + s);
+        return s;
+      });
+      const reviewUrls = textLines.concat(_editModalPastedImages);
       const sets = getSavedSets();
       const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, reviewUrls: reviewUrls }) : s);
       setSavedSets(updated);
@@ -2226,22 +2290,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         return;
       }
       _pendingReviewStart = { questions, fromWrongBook, setId };
-      function isLikelyUrl(str) {
-        const s = (str || '').trim();
-        if (!s) return false;
-        let toTry = s;
-        if (!/^https?:\/\//i.test(s)) toTry = 'https://' + s;
-        try {
-          const u = new URL(toTry);
-          const host = (u.hostname || '').toLowerCase();
-          return host.length > 0 && (host.includes('.') || host === 'localhost');
-        } catch (_) { return false; }
-      }
       const linksEl = document.getElementById('review-modal-links');
       if (linksEl) {
         linksEl.innerHTML = urls.map(raw => {
           const url = (raw || '').trim();
           if (!url) return '';
+          if (/^data:image\//i.test(url)) {
+            const safeSrc = url.replace(/"/g, '&quot;');
+            return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" /></div>';
+          }
           if (isLikelyUrl(url)) {
             const href = /^https?:\/\//i.test(url) ? url : ('https://' + url);
             const label = url.length > 80 ? url.slice(0, 77) + '…' : url;
@@ -2904,6 +2961,31 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('edit-set-modal-overlay').addEventListener('click', (e) => {
       if (e.target.id === 'edit-set-modal-overlay') closeEditSetModal();
     });
+    (function initEditSetPasteZone() {
+      const zone = document.getElementById('edit-set-paste-zone');
+      if (!zone) return;
+      zone.addEventListener('paste', function(e) {
+        const items = e.clipboardData && e.clipboardData.items;
+        if (!items) return;
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].type.indexOf('image') !== -1) {
+            e.preventDefault();
+            const file = items[i].getAsFile();
+            if (!file) continue;
+            const reader = new FileReader();
+            reader.onload = function() {
+              const dataUrl = reader.result;
+              if (dataUrl && typeof dataUrl === 'string') {
+                _editModalPastedImages.push(dataUrl);
+                renderEditModalPastedImages();
+              }
+            };
+            reader.readAsDataURL(file);
+            break;
+          }
+        }
+      });
+    })();
     document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
     document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
     document.getElementById('btn-save-to-folder').addEventListener('click', saveToProjectFolder);
