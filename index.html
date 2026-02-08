@@ -1134,6 +1134,9 @@
     .image-lightbox-overlay .image-lightbox-content img { max-width: 95vw; max-height: 95vh; width: auto; height: auto; object-fit: contain; border-radius: var(--radius-sm); box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
     .image-lightbox-overlay .image-lightbox-close { position: absolute; top: -2.5rem; right: 0; width: 2rem; height: 2rem; border: none; background: rgba(255,255,255,0.2); color: #fff; font-size: 1.25rem; line-height: 1; cursor: pointer; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 0; }
     .image-lightbox-overlay .image-lightbox-close:hover { background: rgba(255,255,255,0.35); }
+    .toast { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); padding: 0.65rem 1.25rem; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: 999px; color: var(--text); font-size: 0.9rem; z-index: 10001; box-shadow: 0 4px 20px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: opacity 0.35s, visibility 0.35s, transform 0.35s; pointer-events: none; }
+    .toast.show { opacity: 1; visibility: visible; }
+    body.theme-light .toast { border-color: rgba(0,0,0,0.1); box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
     .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -1398,6 +1401,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <button type="button" class="image-lightbox-close" id="image-lightbox-close" aria-label="关闭">×</button>
     </div>
   </div>
+
+  <div id="toast" class="toast" aria-live="polite" role="status"></div>
 
   <div class="edit-set-modal-overlay" id="edit-set-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-modal-title">
     <div class="edit-set-modal">
@@ -1764,7 +1769,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           tipEl.style.display = 'block';
           tipEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
-        alert('已保存。下方复制命令到终端执行，可同时推送主仓库和 Pages 站点。');
+        showToast('已保存');
       } catch (e) {
         console.error(e);
         alert('保存失败：' + (e.message || String(e)) + '。请重新点击「打开项目文件夹并加载」选择 french-quiz 文件夹。');
@@ -1946,6 +1951,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function hasReviewMaterial(set) {
       const m = getReviewMaterials(set);
       return m.texts.length > 0 || m.links.length > 0 || m.images.length > 0;
+    }
+    let _toastTimer = null;
+    function showToast(msg) {
+      const el = document.getElementById('toast');
+      if (!el) return;
+      if (_toastTimer) clearTimeout(_toastTimer);
+      el.textContent = msg;
+      el.classList.add('show');
+      _toastTimer = setTimeout(() => {
+        el.classList.remove('show');
+        _toastTimer = null;
+      }, 2200);
     }
     function renderEditModalPastedImages() {
       const listEl = document.getElementById('edit-set-pasted-list');
@@ -3014,7 +3031,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const cmd = document.getElementById('save-deploy-cmd');
       const text = cmd ? cmd.textContent.trim() : './scripts/sync-and-push.sh ../french-quiz-pages';
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => alert('已复制，到终端粘贴执行即可。')).catch(() => alert('复制失败'));
+        navigator.clipboard.writeText(text).then(() => showToast('复制成功')).catch(() => showToast('复制失败'));
       } else {
         try {
           const ta = document.createElement('textarea');
@@ -3025,8 +3042,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           ta.select();
           document.execCommand('copy');
           document.body.removeChild(ta);
-          alert('已复制，到终端粘贴执行即可。');
-        } catch (_) { alert('复制失败'); }
+          showToast('复制成功');
+        } catch (_) { showToast('复制失败'); }
       }
     });
     function confirmReviewStartQuiz() {

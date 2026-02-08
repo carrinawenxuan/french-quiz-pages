@@ -347,6 +347,309 @@
           ],
           "explanation": "【分类：代词配合连击】\n1. 第一空：l' 指 la lettre (阴性)。Avoir 前有 l' -> écrite。\n2. 第二空：l' 还是指 la lettre。Avoir 前有 l' -> envoyée。\n3. 注意：à Paul 是间接宾语，不影响配合，我们只看 l'。",
           "category": "B1-代词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, j'______ un excellent dîner.",
+          "options": [
+            "suis mangé",
+            "ai mangé",
+            "as mangé",
+            "est mangé"
+          ],
+          "correct": 1,
+          "explanation": "【模块1：助动词】Manger (吃) 不是位移词，也不是代动词。绝大多数动词都用 Avoir。主语 Je 缩合变成 J'ai。",
+          "category": "M1-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ à la gare à 8 heures.",
+          "options": [
+            "sont arrivées",
+            "ont arrivé",
+            "sont arrivé",
+            "ont arrivées"
+          ],
+          "correct": 0,
+          "explanation": "【模块1：助动词】Arriver (到达) 是死记硬背的“特权位移词” (Dr. Mrs. Vandertramp 列表)。必须用 Être。主语 Elles 是阴性复数，分词加 es -> sont arrivées。",
+          "category": "M1-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ jusqu'à l'école ?",
+          "options": [
+            "es couru",
+            "as couru",
+            "es marché",
+            "as marché"
+          ],
+          "correct": 1,
+          "explanation": "【模块1：助动词陷阱】Courir (跑) 和 Marcher (走) 虽然也是运动，但它们**不在** Être 的特权列表里！它们强调动作本身，用 Avoir。",
+          "category": "M1-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Napoléon ______ sur une petite île.",
+          "options": [
+            "est né",
+            "a né",
+            "est nait",
+            "a naître"
+          ],
+          "correct": 0,
+          "explanation": "【模块1：助动词】Naître (出生) 是状态变化，必须用 Être。过去分词是 né。选 est né。",
+          "category": "M1-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ le train de 8h.",
+          "options": [
+            "sommes pris",
+            "avons pris",
+            "sommes prenu",
+            "avons prenu"
+          ],
+          "correct": 1,
+          "explanation": "【模块1：助动词】Prendre (拿/乘坐) 是及物动词，用 Avoir。Nous avons pris。",
+          "category": "M1-助动词选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai _____ (faire) mes devoirs.",
+          "correct": [
+            "fait"
+          ],
+          "explanation": "【模块2：分词形式】Faire 的过去分词是特例 Fait。不能写成 fais 或 faire。",
+          "category": "M2-过去分词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a _____ (boire) trop de café.",
+          "correct": [
+            "bu"
+          ],
+          "explanation": "【模块2：分词形式】Boire (喝) 的分词是 Bu。这类以 -u 结尾的分词很多 (lire->lu, voir->vu)。",
+          "category": "M2-过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont ______ la porte.",
+          "options": [
+            "ouvert",
+            "ouvri",
+            "ouvrés",
+            "ouverts"
+          ],
+          "correct": 0,
+          "explanation": "【模块2：分词形式】Ouvrir (打开) 的分词是 Ouvert。Avoir 后面宾语 la porte 在动词后，不配合，所以不加 s/es。",
+          "category": "M2-过去分词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a _____ (devoir) partir tôt.",
+          "correct": [
+            "dû"
+          ],
+          "explanation": "【模块2：分词形式】Devoir (必须) 的分词是 Dû (带长音符，为了区分 du 'of the')。",
+          "category": "M2-过去分词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous avons _____ (prendre) le bus.",
+          "correct": [
+            "pris"
+          ],
+          "explanation": "【模块2：分词形式】Prendre 的分词是 Pris。Apprendre -> Appris, Comprendre -> Compris。",
+          "category": "M2-过去分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie est ______ hier.",
+          "options": [
+            "parti",
+            "partie",
+            "partis",
+            "parties"
+          ],
+          "correct": 1,
+          "explanation": "【模块3：性数配合】助动词是 Être (Partir)，且不是代动词。无脑配合主语 Marie (阴性单数) -> partie。",
+          "category": "M3-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté des fleurs. Elles sont ______.",
+          "options": [
+            "belle",
+            "beau",
+            "beaux",
+            "belles"
+          ],
+          "correct": 3,
+          "explanation": "【模块3：性数配合】这里的 sont 是系动词 (Elle est belle)，虽然不是复合过去时结构，但原理一样：形容词/分词与主语 Elles (阴性复数) 配合 -> belles。",
+          "category": "M3-性数配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La pomme ? Je l'ai _____ (manger). Les pommes ? Je les ai _____ (manger).",
+          "correct": [
+            "mangée",
+            "mangées"
+          ],
+          "explanation": "【模块3：性数配合】两个都是 Avoir。第一句 l' 指代 la pomme (阴单) -> mangée。第二句 les 指代 les pommes (阴复) -> mangées。宾语在动词前，必须配合。",
+          "category": "M3-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici les livres que j'ai ______.",
+          "options": [
+            "acheté",
+            "achetés",
+            "achetée",
+            "achetées"
+          ],
+          "correct": 1,
+          "explanation": "【模块3：性数配合】Que 指代 les livres (阳性复数)。Que 位于助动词 ai 之前 -> achetés。",
+          "category": "M3-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur et moi (nous), nous sommes ______ au parc.",
+          "options": [
+            "allé",
+            "allée",
+            "allés",
+            "allées"
+          ],
+          "correct": 3,
+          "explanation": "【模块3：性数配合】如果是两个女生 (Ma sœur et moi-female user)，则是阴性复数 allées。如果是混性别，用 allés。TCF 中如果没有明确我也许默认为 allés，但此处既然有 Ma sœur，通常默认为女性语境或根据选项排除。如果有 allés 和 allées 同时出现，题目通常会明确'我'的性别。此题假设'我'也是女性，或者是纯语法题中 allées 更常见于此类陷阱。注：如果'我'是男的选 allés，女的选 allées。TCF 会给上下文。这里选 allées 假设全是女性。",
+          "category": "M3-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ______ pas fini mon travail.",
+          "options": [
+            "ne ai",
+            "n'ai",
+            "ai ne",
+            "ne as"
+          ],
+          "correct": 1,
+          "explanation": "【模块4：句子结构】否定句结构：Ne + 助动词 + Pas + 过去分词。Ne 遇到元音缩合 -> N'ai pas fini。",
+          "category": "M4-句子结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ dormi.",
+          "options": [
+            "bien",
+            "bon",
+            "bonne",
+            "bien de"
+          ],
+          "correct": 0,
+          "explanation": "【模块4：句子结构】副词位置：短副词 (bien, mal, trop, beaucoup) 放在助动词 (a) 和分词 (dormi) **中间**。Elle a bien dormi (她睡得好)。",
+          "category": "M4-句子结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ______ jamais venus ici.",
+          "options": [
+            "ne sont",
+            "sont ne",
+            "n'ont",
+            "ont ne"
+          ],
+          "correct": 0,
+          "explanation": "【模块4：句子结构】否定词 Ne...jamais (从不)。Venir 是 Être 类动词。Ne 放在助动词 sont 之前 -> Ils ne sont jamais venus。",
+          "category": "M4-句子结构"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Est-ce qu'elle est _____ (sortir) ? Non, elle n'est pas _____ (sortir).",
+          "correct": [
+            "sortie",
+            "sortie"
+          ],
+          "explanation": "【模块4：句子结构】无论疑问还是否定，Sortir (出去) 用 Être，主语是 Elle，分词永远配合 -> sortie。",
+          "category": "M4-句子结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ travaillé aujourd'hui.",
+          "options": [
+            "beaucoup",
+            "beaucoup de",
+            "très",
+            "trop de"
+          ],
+          "correct": 0,
+          "explanation": "【模块4：句子结构】副词修饰动词。Beaucoup 放在中间 -> J'ai beaucoup travaillé (我工作了很多)。不需要 de (因为后面没有名词)。",
+          "category": "M4-句子结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ la poubelle ce matin.",
+          "options": [
+            "descendu",
+            "descendue",
+            "descendus",
+            "descendues"
+          ],
+          "correct": 0,
+          "explanation": "【模块5：特殊情况】Descendre 后面有宾语 la poubelle (垃圾桶) -> 用 Avoir。宾语在动词后 -> 不配合。选 descendu。",
+          "category": "M5-双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis ______ du train.",
+          "options": [
+            "descendu",
+            "descendue",
+            "descendus",
+            "descendues"
+          ],
+          "correct": 0,
+          "explanation": "【模块5：特殊情况】Descendre 后面没有直接宾语 (du train 是介词结构，从火车下来) -> 用 Être。假设 Je 是男性，选 descendu。如果是女性选 descendue。通常 TCF 没上下文默认阳性。",
+          "category": "M5-双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont ______ les mains.",
+          "options": [
+            "lavé",
+            "lavée",
+            "lavés",
+            "lavées"
+          ],
+          "correct": 0,
+          "explanation": "【模块5：特殊情况】Se laver。洗了什么？Les mains (手)。手在动词后面 -> Se 变成间接宾语 -> 过去分词不配合！选 lavé。",
+          "category": "M5-代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont ______.",
+          "options": [
+            "lavé",
+            "lavée",
+            "lavés",
+            "lavées"
+          ],
+          "correct": 3,
+          "explanation": "【模块5：特殊情况】Se laver。洗了什么？Se (她们自己)。没有其他宾语 -> Se 是直接宾语 -> 必须配合 Elles (阴复) -> lavées。",
+          "category": "M5-代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont ______ hier soir.",
+          "options": [
+            "téléphoné",
+            "téléphonés",
+            "téléphonée",
+            "téléphonées"
+          ],
+          "correct": 0,
+          "explanation": "【模块5：特殊情况】Se téléphoner (打电话) 是 TCF 必考的不配合动词。因为 Téléphoner à qqn (间接)。Se 永远是间接宾语 -> 永远不配合。选 téléphoné。",
+          "category": "M5-代词式动词"
         }
       ],
       "practiceCount": 0,
@@ -2069,5 +2372,5 @@
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T22:21:31.039Z"
+  "exportedAt": "2026-02-08T22:28:43.736Z"
 }
