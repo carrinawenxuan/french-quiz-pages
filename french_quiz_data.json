@@ -195,11 +195,168 @@
           "correct": 0,
           "explanation": "【B2 难点】Passer 表示“时光流逝”时，通常使用 Avoir (Les années ont passé) 且不配合（也有用 Être 的情况但在 TCF 考题中 Avoir passé + vite/temps 视为及物/过程或 intransitive with avoir，通常不配合）。或者更简单的逻辑：Passer 这里用 Avoir，没有宾语提前，所以不配合。选 passé。",
           "category": "语法-Passer用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie ______ en retard ce matin.",
+          "options": [
+            "est arrivé",
+            "est arrivée",
+            "a arrivé",
+            "a arrivée"
+          ],
+          "correct": 1,
+          "explanation": "【分类：基础 Être 配合】\n1. Arriver (到达) 是位移词，必须用 Être，排除 C/D。\n2. 既然用了 Être，且不是代动词，必须无脑和主语配合。\n3. 主语 Marie 是女的，所以 arrive 后面加 e -> arrivée。",
+          "category": "A1-基础位移词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ un bon film hier soir.",
+          "options": [
+            "avons vu",
+            "avons vus",
+            "sommes vu",
+            "sommes vus"
+          ],
+          "correct": 0,
+          "explanation": "【分类：基础 Avoir 不配合】\n1. Voir (看) 不是位移词，也不是代动词，用 Avoir，排除 C/D。\n2. 检查配合：动词前面有宾语吗？没有！宾语 un bon film 在后面。\n3. Avoir 后面宾语没提前，分词打死不配合。选 vu。",
+          "category": "A1-基础Avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ au Canada il y a deux ans.",
+          "options": [
+            "ont allé",
+            "sont allé",
+            "sont allées",
+            "ont allées"
+          ],
+          "correct": 2,
+          "explanation": "【分类：基础 Être 配合】\n1. Aller (去) 是位移词，用 Être，排除 A/D。\n2. 主语 Elles 是阴性复数 (女多)。\n3. 必须配合：加 e (阴性) 再加 s (复数) -> allées。",
+          "category": "A1-基础位移词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai cherché mes clés et je les ai ______.",
+          "options": [
+            "retrouvé",
+            "retrouvée",
+            "retrouvés",
+            "retrouvées"
+          ],
+          "correct": 3,
+          "explanation": "【分类：Avoir 陷阱 - 宾语提前】\n1. 助动词是 ai (Avoir)。\n2. 警报！动词前面有个 les。\n3. les 指代谁？指代 mes clés (钥匙 = 阴性复数)。\n4. 因为宾语跑到了动词前面，必须配合 -> 加 es -> retrouvées。",
+          "category": "B1-COD提前配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la chanteuse que j'ai ______ hier.",
+          "options": [
+            "entendu",
+            "entendue",
+            "entendus",
+            "entendues"
+          ],
+          "correct": 1,
+          "explanation": "【分类：Avoir 陷阱 - 关系代词 que】\n1. 助动词是 ai (Avoir)。\n2. 警报！动词前面有个 que。\n3. que 指代谁？指代 la chanteuse (女歌手 = 阴性单数)。\n4. 宾语在前面，必须配合 -> 加 e -> entendue。",
+          "category": "B1-COD提前配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma mère a ______ la poubelle.",
+          "options": [
+            "sorti",
+            "sortie",
+            "sortis",
+            "sorties"
+          ],
+          "correct": 0,
+          "explanation": "【分类：双面词 Sortir】\n1. 看语境：后面有 la poubelle (垃圾桶) 吗？有！\n2. 既然后面有东西，意思是“拿出去”，必须用 Avoir。\n3. Avoir 后面宾语在屁股后面，不配合！选 sorti。",
+          "category": "B1-双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma mère est ______ ce soir.",
+          "options": [
+            "sorti",
+            "sortie",
+            "sortis",
+            "sorties"
+          ],
+          "correct": 1,
+          "explanation": "【分类：双面词 Sortir】\n1. 看语境：后面有东西吗？ce soir 是时间，不是东西。\n2. 意思是“她出门了”，动词只涉及她自己，用 Être。\n3. Être 必须和主语 Ma mère (阴性) 配合 -> sortie。",
+          "category": "B1-双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est ______ les dents.",
+          "options": [
+            "brossé",
+            "brossée",
+            "brossés",
+            "brossées"
+          ],
+          "correct": 0,
+          "explanation": "【分类：代动词配合陷阱】\n1. 这是 Se brosser (刷)。助动词肯定用 Être。\n2. 关键点：刷了什么？刷了 les dents (牙)。\n3. 牙在动词后面！当具体的受伤/清洗部位在后面时，前面的 Se 只是“给自己”，不是直接宾语。\n4. 结论：不配合！选 brossé。",
+          "category": "B2-代动词身体部位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est ______ à 7 heures.",
+          "options": [
+            "levé",
+            "levée",
+            "levés",
+            "levées"
+          ],
+          "correct": 1,
+          "explanation": "【分类：代动词正常配合】\n1. Se lever (起床)。\n2. 起了什么？起了她自己 (Se)。后面没有别的宾语 (à 7h 是时间)。\n3. 此时 Se 就是直接宾语，必须和主语 (Elle) 配合 -> levée。",
+          "category": "A2-代动词基础"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪两个句子中的过去分词是**错误**的？",
+          "options": [
+            "Ils se sont téléphonés.",
+            "Ils se sont vus.",
+            "Elles se sont parlées.",
+            "Elles se sont regardées."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "【分类：B2 必死词表】\n1. Se voir (互相看) 和 Se regarder (互相注视) 都是直接作用于对方 -> 配合，正确。\n2. Se téléphoner (打电话给某人) 和 Se parler (说话给/对某人) 是间接的！\n3. 口诀：打电话、说话、像、取悦 (téléphoner, parler, ressembler, plaire) 永远不配合！\n4. 必须写成 téléphoné 和 parlé。",
+          "category": "B2-特殊不配合动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quels livres as-tu _____ (lire) ?",
+          "correct": [
+            "lus"
+          ],
+          "explanation": "【分类：疑问词配合】\n1. 助动词 Avoir。\n2. 往前看：Quels livres (哪些书) 在前面。\n3. Livres 是阳性复数。\n4. 因为宾语在动词前，必须配合 -> lus。",
+          "category": "B1-疑问句配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La lettre ? Oui, je l'ai _____ (écrire). Je l'ai _____ (envoyer) à Paul.",
+          "correct": [
+            "écrite",
+            "envoyée"
+          ],
+          "explanation": "【分类：代词配合连击】\n1. 第一空：l' 指 la lettre (阴性)。Avoir 前有 l' -> écrite。\n2. 第二空：l' 还是指 la lettre。Avoir 前有 l' -> envoyée。\n3. 注意：à Paul 是间接宾语，不影响配合，我们只看 l'。",
+          "category": "B1-代词配合"
         }
       ],
       "practiceCount": 0,
       "lastPracticedAt": null,
       "reviewUrls": [
+        "https://做题前请默念口诀：",
+        "https://Avoir 家族：往前看！前面没人（宾语），我就不穿衣服（不配合）；前面有人，我就跟人穿一样的衣服。",
+        "https://Être 家族：",
+        "https://走路/状态：无脑配合主语。",
+        "https://洗澡/打电话（Se...）：小心！后面有东西（手/脸），我就不配合；是“打电话/说话”，我也不配合。",
         "https://docs.google.com/document/d/1ER5t98L4niu9yFtji8zBfTZu2HdpkUXz5yImMaBGzGo/edit?tab=t.0"
       ]
     },
@@ -1945,5 +2102,5 @@
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T20:18:26.561Z"
+  "exportedAt": "2026-02-08T20:22:23.226Z"
 }
