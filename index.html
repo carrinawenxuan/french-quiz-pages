@@ -907,13 +907,13 @@
     .saved-sets-item .meta .dot { opacity: 0.5; user-select: none; }
     .saved-sets-item .actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
     .saved-sets-item .btn { padding: 0.45rem 0.9rem; font-size: 0.85rem; border-radius: 8px; }
-    .saved-sets-item .btn[data-action="rename"] { color: var(--text-muted); border-color: rgba(255,255,255,0.15); }
-    .saved-sets-item .btn[data-action="rename"]:hover { color: var(--accent); border-color: var(--accent); }
+    .saved-sets-item .btn[data-action="edit"] { color: var(--text-muted); border-color: rgba(255,255,255,0.15); }
+    .saved-sets-item .btn[data-action="edit"]:hover { color: var(--accent); border-color: var(--accent); }
     .saved-sets-item .btn[data-action="delete"] { color: var(--text-muted); border-color: rgba(255,255,255,0.1); }
     .saved-sets-item .btn[data-action="delete"]:hover { color: #f87171; border-color: rgba(248,113,113,0.5); background: rgba(248,113,113,0.08); }
     .saved-sets-item .btn[data-action="export"] { color: var(--text-muted); border-color: rgba(255,255,255,0.1); }
     .saved-sets-item .btn[data-action="export"]:hover { color: var(--accent); border-color: var(--accent); }
-    body.theme-light .saved-sets-item .btn[data-action="rename"] { border-color: rgba(0,0,0,0.15); }
+    body.theme-light .saved-sets-item .btn[data-action="edit"] { border-color: rgba(0,0,0,0.15); }
     body.theme-light .saved-sets-item .btn[data-action="delete"] { border-color: rgba(0,0,0,0.1); }
     body.theme-light .saved-sets-item .btn[data-action="export"] { border-color: rgba(0,0,0,0.1); }
     .saved-sets-empty { font-size: 0.9rem; color: var(--text-muted); padding: 1rem 0; text-align: center; }
@@ -921,6 +921,10 @@
     .import-name-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-name-wrap input { width: 100%; max-width: 320px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); }
     body.theme-light .import-name-wrap input { background: var(--bg); border-color: rgba(0,0,0,0.12); }
+    .import-review-wrap { margin-top: 0.75rem; }
+    .import-review-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .import-review-wrap textarea { width: 100%; max-width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); resize: vertical; min-height: 4rem; }
+    body.theme-light .import-review-wrap textarea { background: var(--bg); border-color: rgba(0,0,0,0.12); }
     .storage-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
     .storage-desc code { font-size: 0.75em; padding: 0.15em 0.4em; background: var(--bg); border-radius: 4px; }
     .btn-one-save {
@@ -986,6 +990,103 @@
     .storage-fallback a { color: var(--accent); text-decoration: none; }
     .storage-fallback a:hover { text-decoration: underline; }
     input[type="file"]#file-import-data { display: none; }
+
+    /* Review materials modal */
+    .review-modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .review-modal-overlay.show { display: flex; }
+    .review-modal {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 1.5rem;
+      max-width: 420px;
+      width: 100%;
+      max-height: 85vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow);
+    }
+    body.theme-light .review-modal { border-color: rgba(0,0,0,0.1); }
+    .review-modal h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--text); }
+    .review-modal-links { flex: 1; overflow-y: auto; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .review-modal-links a {
+      display: block;
+      padding: 0.6rem 0.75rem;
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      word-break: break-all;
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .review-modal-links a:hover { background: var(--accent-soft); border-color: var(--accent); }
+    body.theme-light .review-modal-links a { border-color: rgba(0,0,0,0.08); }
+    .review-modal-actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
+    .review-modal-actions .btn { flex: 1; }
+
+    /* Edit set modal */
+    .edit-set-modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1001;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .edit-set-modal-overlay.show { display: flex; }
+    .edit-set-modal {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 1.5rem;
+      max-width: 440px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow);
+    }
+    body.theme-light .edit-set-modal { border-color: rgba(0,0,0,0.1); }
+    .edit-set-modal h3 { font-size: 1rem; margin-bottom: 1.25rem; color: var(--text); }
+    .edit-set-field { margin-bottom: 1rem; }
+    .edit-set-field label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .edit-set-field input,
+    .edit-set-field textarea {
+      width: 100%;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+    }
+    .edit-set-field textarea { resize: vertical; min-height: 4.5rem; }
+    body.theme-light .edit-set-field input,
+    body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
+    .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .edit-set-actions { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
+    .edit-set-actions .btn { flex: 1; }
+    .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    body.theme-light .edit-set-extra { border-top-color: rgba(0,0,0,0.08); }
+    .edit-set-sep { color: var(--text-muted); opacity: 0.6; font-size: 0.85rem; }
+    .btn-link { background: none; border: none; color: var(--accent); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
+    .btn-link:hover { color: var(--accent-hover); }
+    .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
+    .btn-link-danger:hover { color: #f87171; }
 
     /* Screen reader only */
     .sr-only {
@@ -1064,6 +1165,10 @@
         <div class="import-name-wrap">
           <label for="import-set-name">习题集名称（保存用，填写后本次导入会加入「我的习题集」）</label>
           <input type="text" id="import-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
+        </div>
+        <div class="import-review-wrap">
+          <label for="import-review-urls">练习前复习资料（可选，每行一个 URL，开始练习前可先看）</label>
+          <textarea id="import-review-urls" rows="3" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
         </div>
         <button type="button" class="btn btn-primary" id="btn-import-parse" style="margin-top: 0.75rem;">解析并开始</button>
         </div>
@@ -1215,6 +1320,40 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     <div id="sr-announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
   </div>
 
+  <div class="review-modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="review-modal-title">
+    <div class="review-modal">
+      <h3 id="review-modal-title">是否观看复习材料？</h3>
+      <div class="review-modal-links" id="review-modal-links"></div>
+      <div class="review-modal-actions">
+        <button type="button" class="btn btn-primary" id="btn-review-start-quiz">直接开始练习</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="edit-set-modal-overlay" id="edit-set-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-modal-title">
+    <div class="edit-set-modal">
+      <h3 id="edit-set-modal-title">编辑习题集</h3>
+      <div class="edit-set-field">
+        <label for="edit-set-name">习题集名称</label>
+        <input type="text" id="edit-set-name" placeholder="例如：avoir 固定表达" autocomplete="off" />
+      </div>
+      <div class="edit-set-field">
+        <label for="edit-set-review-urls">练习前复习资料（可选，每行一个 URL）</label>
+        <textarea id="edit-set-review-urls" rows="4" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
+      </div>
+      <div class="edit-set-meta" id="edit-set-meta"></div>
+      <div class="edit-set-actions">
+        <button type="button" class="btn btn-primary" id="btn-edit-set-save">保存</button>
+        <button type="button" class="btn btn-secondary" id="btn-edit-set-cancel">取消</button>
+      </div>
+      <div class="edit-set-extra">
+        <button type="button" class="btn btn-link" id="btn-edit-set-export">导出本题集 (JSON)</button>
+        <span class="edit-set-sep">·</span>
+        <button type="button" class="btn btn-link-danger" id="btn-edit-set-delete">删除本习题集</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const LETTERS = ['A', 'B', 'C', 'D'];
     const WRONG_BOOK_KEY = 'french_quiz_wrong';
@@ -1353,6 +1492,55 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function matchFrenchAnswer(val, acceptList) {
       return acceptList.some(c => c === val) || acceptList.some(c => normalizeFrench(c) === normalizeFrench(val));
+    }
+
+    /**
+     * 判题纯函数：不读 DOM、不写存储，仅根据题目和用户答案返回对错（及填空的 details）。
+     * 用于可测试性与后续题型扩展；submitAnswer 中收集 DOM 答案后调用此函数。
+     */
+    function evaluateAnswer(q, userAnswer) {
+      if (q.type === 'single_choice') {
+        const correctIndex = Array.isArray(q.correct) ? q.correct[0] : q.correct;
+        return { correct: userAnswer.single === correctIndex };
+      }
+      if (q.type === 'multiple_choice') {
+        const correctSet = new Set(Array.isArray(q.correct) ? q.correct : [q.correct]);
+        const selected = new Set(Array.isArray(userAnswer.multiple) ? userAnswer.multiple : []);
+        const correct = selected.size === correctSet.size && [...selected].every(i => correctSet.has(i));
+        return { correct };
+      }
+      if (q.type === 'fill_blank') {
+        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+        const blankCount = (q.stem.match(/_____/g) || []).length;
+        if (blankCount >= 2 && (userAnswer.paragraph || []).length >= 2) {
+          const answers = userAnswer.paragraph.slice(0, correctArr.length);
+          const details = answers.map((val, i) => {
+            const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
+            return { ok: matchFrenchAnswer(val.trim().toLowerCase(), accept), val, accept };
+          });
+          return { correct: details.every(d => d.ok), details };
+        }
+        const val = (userAnswer.fill || '').trim().toLowerCase();
+        const accept = correctArr.map(c => String(c).toLowerCase().trim());
+        return { correct: matchFrenchAnswer(val, accept) };
+      }
+      if (q.type === 'paragraph_fill_blank') {
+        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
+        const inputs = userAnswer.paragraph || [];
+        const len = Math.min(correctArr.length, inputs.length);
+        const details = [];
+        let correct = true;
+        for (let i = 0; i < len; i++) {
+          const val = (inputs[i] || '').trim().toLowerCase();
+          const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
+          const ok = matchFrenchAnswer(val, accept);
+          details.push({ ok, val, accept });
+          if (!ok) correct = false;
+        }
+        for (let i = len; i < correctArr.length; i++) details.push({ ok: false, val: '', accept: [] });
+        return { correct, details };
+      }
+      return { correct: false };
     }
 
     const QUESTION_TYPES = { single_choice: '单选', multiple_choice: '多选', fill_blank: '填空', paragraph_fill_blank: '段落填空' };
@@ -1608,9 +1796,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           </div>
           <div class="actions">
             <button type="button" class="btn btn-primary" data-action="start">开始</button>
-            <button type="button" class="btn btn-secondary" data-action="export">导出</button>
-            <button type="button" class="btn btn-secondary" data-action="rename">重命名</button>
-            <button type="button" class="btn btn-secondary" data-action="delete">删除</button>
+            <button type="button" class="btn btn-secondary" data-action="edit">编辑</button>
           </div>
         </li>
       `;
@@ -1626,32 +1812,72 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const set = sets.find(s => String(s.id) === id);
       switch (btn.dataset.action) {
         case 'start':
-          if (set && set.questions && set.questions.length) startQuiz(set.questions, false, set.id);
-          break;
-        case 'export':
-          if (!set || !set.questions) return;
-          const name = (set.name || '习题集').replace(/[\\/:*?"<>|]/g, '_').slice(0, 50);
-          const blob = new Blob([JSON.stringify(set.questions, null, 2)], { type: 'application/json' });
-          const a = document.createElement('a');
-          a.href = URL.createObjectURL(blob);
-          a.download = (name || 'export') + '.json';
-          a.click();
-          URL.revokeObjectURL(a.href);
-          break;
-        case 'rename':
-          if (!set) return;
-          const newName = prompt('输入习题集新名称：', set.name || '');
-          if (newName == null) return;
-          const trimmed = String(newName).trim();
-          if (!trimmed) return;
-          setSavedSets(sets.map(s => String(s.id) === id ? Object.assign({}, s, { name: trimmed }) : s));
-          break;
-        case 'delete':
-          if (confirm('确定删除该习题集？')) {
-            setSavedSets(sets.filter(s => String(s.id) !== id));
+          if (set && set.questions && set.questions.length) {
+            if (set.reviewUrls && set.reviewUrls.length) showReviewModal(set, set.questions, false, set.id);
+            else startQuiz(set.questions, false, set.id);
           }
           break;
+        case 'edit':
+          if (set) openEditSetModal(id);
+          break;
       }
+    }
+    let _editingSetId = null;
+    function openEditSetModal(setId) {
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === setId);
+      if (!set) return;
+      _editingSetId = setId;
+      const nameEl = document.getElementById('edit-set-name');
+      const urlsEl = document.getElementById('edit-set-review-urls');
+      const metaEl = document.getElementById('edit-set-meta');
+      if (nameEl) nameEl.value = set.name || '';
+      if (urlsEl) urlsEl.value = (set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls.join('\n') : '';
+      if (metaEl) metaEl.textContent = set.questions ? set.questions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次' : '';
+      document.getElementById('edit-set-modal-overlay').classList.add('show');
+      requestAnimationFrame(() => { if (nameEl) nameEl.focus(); });
+    }
+    function closeEditSetModal() {
+      _editingSetId = null;
+      document.getElementById('edit-set-modal-overlay').classList.remove('show');
+    }
+    function saveEditSetModal() {
+      if (_editingSetId == null) return;
+      const nameEl = document.getElementById('edit-set-name');
+      const urlsEl = document.getElementById('edit-set-review-urls');
+      const name = nameEl ? String(nameEl.value).trim() : '';
+      if (!name) {
+        alert('请填写习题集名称。');
+        return;
+      }
+      const reviewUrls = (urlsEl && urlsEl.value ? urlsEl.value.trim().split(/\n/) : [])
+        .map(s => s.trim())
+        .filter(s => s.length > 0)
+        .map(s => /^https?:\/\//i.test(s) ? s : 'https://' + s);
+      const sets = getSavedSets();
+      const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { name: name, reviewUrls: reviewUrls }) : s);
+      setSavedSets(updated);
+      closeEditSetModal();
+    }
+    function exportFromEditModal() {
+      if (_editingSetId == null) return;
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === String(_editingSetId));
+      if (!set || !set.questions) return;
+      const name = (set.name || '习题集').replace(/[\\/:*?"<>|]/g, '_').slice(0, 50);
+      const blob = new Blob([JSON.stringify(set.questions, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = (name || 'export') + '.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+    function deleteFromEditModal() {
+      if (_editingSetId == null) return;
+      if (!confirm('确定删除该习题集？删除后无法恢复。')) return;
+      const sets = getSavedSets().filter(s => String(s.id) !== String(_editingSetId));
+      setSavedSets(sets);
+      closeEditSetModal();
     }
 
     const EBINGHAUS_INTERVALS = [1, 3, 7, 14, 30];
@@ -1940,6 +2166,30 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       showScreen(SCREEN.QUIZ);
       renderQuestion();
     }
+    let _pendingReviewStart = null;
+    function showReviewModal(set, questions, fromWrongBook, setId) {
+      const urls = (set && set.reviewUrls && Array.isArray(set.reviewUrls)) ? set.reviewUrls : [];
+      if (urls.length === 0) {
+        startQuiz(questions, fromWrongBook, setId);
+        return;
+      }
+      _pendingReviewStart = { questions, fromWrongBook, setId };
+      const linksEl = document.getElementById('review-modal-links');
+      if (linksEl) {
+        linksEl.innerHTML = urls.map(url => {
+          const href = /^https?:\/\//i.test(url) ? url : ('https://' + url);
+          const label = url.length > 60 ? url.slice(0, 57) + '…' : url;
+          return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
+        }).join('');
+      }
+      const overlay = document.getElementById('review-modal-overlay');
+      if (overlay) overlay.classList.add('show');
+    }
+    function hideReviewModal() {
+      const overlay = document.getElementById('review-modal-overlay');
+      if (overlay) overlay.classList.remove('show');
+      _pendingReviewStart = null;
+    }
     function recordSavedSetPractice(setId) {
       if (!setId) return;
       const sets = getSavedSets();
@@ -2161,15 +2411,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         correct = allRight;
       } else {
         const isMulti = q.type === 'multiple_choice';
-        const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
         const selected = Array.from(optionsEl.querySelectorAll('input:checked')).map(inp => parseInt(inp.value, 10));
-        correct = isMulti
-          ? selected.length === correctSet.size && selected.every(i => correctSet.has(i))
-          : selected.length === 1 && correctSet.has(selected[0]);
+        const userAnswer = isMulti ? { multiple: selected } : { single: selected.length === 1 ? selected[0] : undefined };
+        const result = evaluateAnswer(q, userAnswer);
+        correct = result.correct;
         state.answered = true;
         if (correct) state.score++;
         else addToWrongBook(q);
 
+        const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
         optionsEl.querySelectorAll('.option').forEach((label, i) => {
           label.classList.add('disabled');
           const inCorrect = correctSet.has(i);
@@ -2378,8 +2628,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (val !== 'default') {
         const sets = getSavedSets();
         const set = sets.find(s => String(s.id) === val);
-        if (set) startQuiz(filtered, false, set.id);
-        else startQuiz(filtered);
+        if (set) {
+          if (set.reviewUrls && set.reviewUrls.length) showReviewModal(set, filtered, false, set.id);
+          else startQuiz(filtered, false, set.id);
+        } else {
+          startQuiz(filtered);
+        }
       } else {
         startQuiz(filtered);
       }
@@ -2402,14 +2656,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (parsed.length === 0) parsed = parsePastedText(text);
       if (parsed.length > 0) {
         const nameInput = document.getElementById('import-set-name');
+        const reviewInput = document.getElementById('import-review-urls');
         const name = (nameInput && nameInput.value ? nameInput.value.trim() : '') || ('未命名 ' + formatSavedSetDate(new Date().toISOString()));
+        const reviewUrls = (reviewInput && reviewInput.value ? reviewInput.value.trim().split(/\n/) : [])
+          .map(s => s.trim())
+          .filter(s => s.length > 0)
+          .map(s => /^https?:\/\//i.test(s) ? s : 'https://' + s);
         const saved = {
           id: Date.now(),
           name: name,
           createdAt: new Date().toISOString(),
           questions: parsed,
           practiceCount: 0,
-          lastPracticedAt: null
+          lastPracticedAt: null,
+          reviewUrls: reviewUrls
         };
         const all = getSavedSets();
         all.unshift(saved);
@@ -2418,6 +2678,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         document.getElementById('import-section').style.display = 'none';
         document.getElementById('import-text').value = '';
         if (nameInput) nameInput.value = '';
+        if (reviewInput) reviewInput.value = '';
       } else {
         alert('未能解析出题目。请使用：① 含「题型：」「A) B) C) D)」「正确：」的文本，或 ② 题目数组 JSON。');
       }
@@ -2555,6 +2816,24 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           alert('已复制，到终端粘贴执行即可。');
         } catch (_) { alert('复制失败'); }
       }
+    });
+    function confirmReviewStartQuiz() {
+      if (_pendingReviewStart) {
+        const p = _pendingReviewStart;
+        hideReviewModal();
+        startQuiz(p.questions, p.fromWrongBook, p.setId);
+      }
+    }
+    document.getElementById('btn-review-start-quiz').addEventListener('click', confirmReviewStartQuiz);
+    document.getElementById('review-modal-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'review-modal-overlay') confirmReviewStartQuiz();
+    });
+    document.getElementById('btn-edit-set-save').addEventListener('click', saveEditSetModal);
+    document.getElementById('btn-edit-set-cancel').addEventListener('click', closeEditSetModal);
+    document.getElementById('btn-edit-set-export').addEventListener('click', exportFromEditModal);
+    document.getElementById('btn-edit-set-delete').addEventListener('click', deleteFromEditModal);
+    document.getElementById('edit-set-modal-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'edit-set-modal-overlay') closeEditSetModal();
     });
     document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
     document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
