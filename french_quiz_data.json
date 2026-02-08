@@ -392,7 +392,8 @@
       "reviewLinks": [
         "https://docs.google.com/document/d/1rqf_tWrBocpAVp5dL3rlXlWtM7ZnF3koSKaLAq6-4gQ/edit?tab=t.0"
       ],
-      "reviewImages": []
+      "reviewImages": [],
+      "folderId": "1770593074621"
     },
     {
       "id": 1770581556975,
@@ -1067,7 +1068,8 @@
       "reviewLinks": [
         "https://docs.google.com/document/d/1ER5t98L4niu9yFtji8zBfTZu2HdpkUXz5yImMaBGzGo/edit?tab=t.0"
       ],
-      "reviewImages": []
+      "reviewImages": [],
+      "folderId": "1770593095506"
     },
     {
       "id": 1770531013562,
@@ -1726,7 +1728,11 @@
         }
       ],
       "practiceCount": 1,
-      "lastPracticedAt": "2026-02-08T17:58:03.649Z"
+      "lastPracticedAt": "2026-02-08T17:58:03.649Z",
+      "folderId": "1770593095506",
+      "reviewTexts": [],
+      "reviewLinks": [],
+      "reviewImages": []
     },
     {
       "id": 1770520425011,
@@ -2183,7 +2189,11 @@
           "explanation": "adorer 表示对“音乐这一类”的强烈喜好，用定冠词 la。",
           "category": "定冠词"
         }
-      ]
+      ],
+      "folderId": "1770593095506",
+      "reviewTexts": [],
+      "reviewLinks": [],
+      "reviewImages": []
     },
     {
       "id": 1770514058113,
@@ -2468,7 +2478,11 @@
           "explanation": "饮料在餐厅常用 un verre de。",
           "category": "单位名词"
         }
-      ]
+      ],
+      "folderId": "1770593095506",
+      "reviewTexts": [],
+      "reviewLinks": [],
+      "reviewImages": []
     },
     {
       "id": 1770420703201,
@@ -2755,7 +2769,21 @@
           "explanation": "être 用于国籍、性格、身份；avoir 用于年龄和拥有。",
           "category": "être vs avoir"
         }
-      ]
+      ],
+      "folderId": "1770593074621",
+      "reviewTexts": [],
+      "reviewLinks": [],
+      "reviewImages": []
+    }
+  ],
+  "folders": [
+    {
+      "id": "1770593074621",
+      "name": "动词变位"
+    },
+    {
+      "id": "1770593095506",
+      "name": "语法"
     }
   ],
   "wrongBook": [],
@@ -2766,5 +2794,5 @@
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T23:22:36.573Z"
+  "exportedAt": "2026-02-08T23:26:37.443Z"
 }
