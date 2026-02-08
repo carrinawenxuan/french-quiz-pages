@@ -550,6 +550,7 @@
     }
     body.theme-light .explanation { background: rgba(52, 211, 153, 0.1); color: #059669; border-color: rgba(52, 211, 153, 0.3); }
     .wrong-book-remove-wrap { margin-top: 0.75rem; }
+    .remove-from-set-wrap { margin-top: 0.5rem; }
     .btn-sm { padding: 0.4rem 0.75rem; font-size: 0.85rem; min-height: auto; }
 
     .quiz-actions {
@@ -1152,6 +1153,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="wrong-book-remove-wrap" id="wrong-book-remove-wrap" style="display: none;">
           <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-wrong">移出错题本</button>
         </div>
+        <div class="remove-from-set-wrap" id="remove-from-set-wrap" style="display: none;">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-set">从练习集删除本题</button>
+        </div>
       </div>
       <div class="quiz-actions">
         <span id="question-counter"></span>
@@ -1503,6 +1507,27 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       renderSavedSets();
       updateStatsBar();
       updateStartPracticeSelect();
+    }
+    function removeCurrentQuestionFromSet() {
+      if (!state.practicedSetId) return;
+      const q = state.questions[state.index];
+      if (!q) return;
+      const sets = getSavedSets();
+      const setId = String(state.practicedSetId);
+      const set = sets.find(s => String(s.id) === setId);
+      if (!set || !set.questions) return;
+      const currentId = wrongBookItemId(q);
+      const newQuestions = set.questions.filter(qq => wrongBookItemId(qq) !== currentId);
+      if (newQuestions.length === set.questions.length) return;
+      const updated = sets.map(s => String(s.id) === setId ? Object.assign({}, s, { questions: newQuestions }) : s);
+      setSavedSets(updated);
+      state.questions.splice(state.index, 1);
+      if (state.questions.length === 0) {
+        showResult();
+        return;
+      }
+      if (state.index >= state.questions.length) state.index = state.questions.length - 1;
+      renderQuestion();
     }
     function updateStartPracticeSelect() {
       const sel = document.getElementById('start-practice-select');
@@ -1942,6 +1967,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       document.getElementById('explanation').textContent = q.explanation || '';
       const removeWrapEl = document.getElementById('wrong-book-remove-wrap');
       if (removeWrapEl) removeWrapEl.style.display = 'none';
+      const removeFromSetWrap = document.getElementById('remove-from-set-wrap');
+      if (removeFromSetWrap) removeFromSetWrap.style.display = state.practicedSetId ? 'block' : 'none';
       document.getElementById('answer-feedback').className = 'answer-feedback';
       document.getElementById('answer-feedback').textContent = '';
 
@@ -2079,26 +2106,30 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } else if (q.type === 'paragraph_fill_blank') {
         const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
         const inputs = document.querySelectorAll('#paragraph-blanks-wrap input');
+        const len = Math.min(correctArr.length, inputs.length);
         let allRight = true;
         const answers = [];
-        for (let i = 0; i < correctArr.length; i++) {
+        for (let i = 0; i < len; i++) {
           const val = (inputs[i] && inputs[i].value ? inputs[i].value : '').trim().toLowerCase();
           const accept = Array.isArray(correctArr[i]) ? correctArr[i].map(c => String(c).toLowerCase().trim()) : [String(correctArr[i]).toLowerCase().trim()];
           const ok = matchFrenchAnswer(val, accept);
           answers.push({ val, ok, accept });
           if (!ok) allRight = false;
         }
+        for (let i = len; i < correctArr.length; i++) { allRight = false; answers.push({ val: '', ok: false, accept: [] }); }
         state.answered = true;
         if (allRight) state.score++;
         else addToWrongBook(q);
         inputs.forEach((inp, i) => {
           inp.disabled = true;
-          inp.classList.add(answers[i].ok ? 'correct-blank' : 'wrong-blank');
+          if (answers[i]) inp.classList.add(answers[i].ok ? 'correct-blank' : 'wrong-blank');
         });
         const stemEl = document.getElementById('question-stem');
         stemEl.querySelectorAll('.blank').forEach((span, i) => {
-          span.classList.add(answers[i].ok ? 'filled' : 'wrong');
-          span.textContent = answers[i].ok ? answers[i].val : (answers[i].val || '?') + ' → ' + (Array.isArray(q.correct[i]) ? q.correct[i][0] : q.correct[i]);
+          if (answers[i]) {
+            span.classList.add(answers[i].ok ? 'filled' : 'wrong');
+            span.textContent = answers[i].ok ? answers[i].val : (answers[i].val || '?') + ' → ' + (Array.isArray(q.correct[i]) ? q.correct[i][0] : q.correct[i]);
+          }
         });
         correct = allRight;
       } else {
@@ -2178,7 +2209,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       document.getElementById('btn-submit').style.display = 'none';
-      document.getElementById('btn-next').style.display = 'inline-flex';
+      const btnNext = document.getElementById('btn-next');
+      btnNext.style.display = 'inline-flex';
+      btnNext.textContent = state.index >= state.questions.length - 1 ? '查看结果' : '下一题';
+      btnNext.setAttribute('aria-label', state.index >= state.questions.length - 1 ? '查看结果' : '下一题');
       saveQuizProgress();
     }
 
@@ -2364,6 +2398,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     document.getElementById('btn-submit').addEventListener('click', submitAnswer);
     document.getElementById('btn-next').addEventListener('click', nextQuestion);
+    document.getElementById('btn-remove-from-set').addEventListener('click', () => {
+      if (!state.practicedSetId) return;
+      if (confirm('确定从本练习集中删除这道题？删除后本题将不再出现在该练习集中。')) removeCurrentQuestionFromSet();
+    });
     document.getElementById('btn-exit-quiz').addEventListener('click', () => {
       if (confirm('确定要提前退出吗？')) {
         clearTimer();
