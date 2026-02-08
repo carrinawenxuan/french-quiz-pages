@@ -1689,30 +1689,13 @@
       ]
     }
   ],
-  "wrongBook": [
-    {
-      "type": "single_choice",
-      "stem": "Nous ______ attendre deux heures.",
-      "options": [
-        "avons devé",
-        "avons du",
-        "avons dû",
-        "sommes dû"
-      ],
-      "correct": 2,
-      "explanation": "devoir 的过去分词是 dû，带重音符号以区分介词 du。",
-      "category": "过去分词",
-      "nextReview": "2026-02-11",
-      "interval": 3,
-      "repetitions": 1
-    }
-  ],
-  "timerSeconds": 30,
+  "wrongBook": [],
+  "timerSeconds": 10,
   "dailyStats": {
     "date": "2026-02-08",
     "todayCount": 51,
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T18:11:49.369Z"
+  "exportedAt": "2026-02-08T18:53:45.618Z"
 }
