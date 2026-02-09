@@ -1305,7 +1305,22 @@
     .start-mode-modal-overlay.show { display: flex !important; }
     .start-mode-modal { width: 100%; max-width: 440px; background: var(--card); border-radius: 20px; border: 1px solid var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.35); padding: 1.5rem 1.75rem; }
     body.theme-light .start-mode-modal { border-color: var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.12); }
-    .start-mode-modal h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.35rem 0; color: var(--text); letter-spacing: -0.02em; }
+    .start-mode-modal h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.75rem 0; color: var(--text); letter-spacing: -0.02em; }
+    .start-mode-review-card { display: flex; align-items: center; gap: 0.85rem; background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.05)); border: 1.5px solid rgba(124, 58, 237, 0.2); border-radius: 14px; padding: 1rem 1.15rem; margin-bottom: 1.25rem; transition: all 0.2s; }
+    .start-mode-review-card:hover { border-color: rgba(124, 58, 237, 0.35); background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(124, 58, 237, 0.07)); }
+    body.theme-light .start-mode-review-card { background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(124, 58, 237, 0.04)); border-color: rgba(124, 58, 237, 0.25); }
+    body.theme-light .start-mode-review-card:hover { border-color: rgba(124, 58, 237, 0.35); background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.06)); }
+    .start-mode-review-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+    .start-mode-review-content { flex: 1; min-width: 0; }
+    .start-mode-review-title { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-bottom: 0.2rem; }
+    .start-mode-review-desc { font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; }
+    .start-mode-review-toggle { display: flex; align-items: center; cursor: pointer; flex-shrink: 0; }
+    .start-mode-review-toggle input { position: absolute; opacity: 0; width: 0; height: 0; }
+    .start-mode-review-switch { position: relative; width: 2.75rem; height: 1.5rem; background: var(--border-strong); border-radius: 999px; transition: background 0.2s; }
+    .start-mode-review-switch::before { content: ''; position: absolute; width: 1.25rem; height: 1.25rem; left: 0.125rem; top: 50%; transform: translateY(-50%); background: var(--card); border-radius: 50%; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+    .start-mode-review-toggle input:checked + .start-mode-review-switch { background: var(--accent); }
+    .start-mode-review-toggle input:checked + .start-mode-review-switch::before { transform: translate(1.25rem, -50%); }
+    .start-mode-review-toggle input:focus-visible + .start-mode-review-switch { outline: 2px solid var(--accent); outline-offset: 2px; }
     .start-mode-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.5; }
     .start-mode-cards { display: flex; flex-direction: column; gap: 1rem; }
     .start-mode-card { background: var(--surface); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 1.1rem 1.25rem; transition: border-color 0.2s, box-shadow 0.2s; }
@@ -1321,7 +1336,6 @@
     .start-mode-sequential-text { font-size: 0.88rem; color: var(--text-muted); }
     .start-mode-finished-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; }
     .start-mode-finished-btns .btn { flex: 1; min-width: 100px; }
-    .start-mode-review-wrap { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
     .start-mode-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); text-align: center; }
     .btn-ghost { background: none; border: none; color: var(--text-muted); font-size: 0.9rem; cursor: pointer; padding: 0.4rem 0.75rem; border-radius: 8px; }
     .btn-ghost:hover { color: var(--text); background: var(--surface); }
@@ -1658,6 +1672,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="start-mode-modal-overlay" id="start-mode-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="start-mode-modal-title" style="display: none;">
     <div class="start-mode-modal">
       <h3 id="start-mode-modal-title">选择练习方式</h3>
+      <div class="start-mode-review-card" id="start-mode-review-card" style="display: none;">
+        <div class="start-mode-review-icon">📚</div>
+        <div class="start-mode-review-content">
+          <div class="start-mode-review-title">预习内容</div>
+          <div class="start-mode-review-desc">本题集包含复习材料，建议先预习再开始练习</div>
+        </div>
+        <label class="start-mode-review-toggle">
+          <input type="checkbox" id="start-mode-review" checked />
+          <span class="start-mode-review-switch"></span>
+        </label>
+      </div>
       <p class="start-mode-desc">本题集题目较多，可选择练习方式与是否打乱顺序。</p>
       <div class="start-mode-cards">
         <div class="start-mode-card start-mode-card-full">
@@ -1686,12 +1711,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             <button type="button" class="btn btn-primary" id="btn-start-mode-full-after">练习全部</button>
           </div>
         </div>
-      </div>
-      <div class="start-mode-review-wrap" id="start-mode-review-wrap" style="display: none;">
-        <label class="start-mode-check-wrap">
-          <input type="checkbox" id="start-mode-review" checked />
-          <span>是否预习内容</span>
-        </label>
       </div>
       <div class="start-mode-footer">
         <button type="button" class="btn btn-ghost" id="btn-start-mode-cancel" aria-keyshortcuts="Escape">取消</button>
@@ -3141,7 +3160,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const fromEl = document.getElementById('start-mode-from');
       const remainEl = document.getElementById('start-mode-remain');
       const countInput = document.getElementById('start-mode-count');
-      const reviewWrap = document.getElementById('start-mode-review-wrap');
+      const reviewCard = document.getElementById('start-mode-review-card');
       const reviewCheck = document.getElementById('start-mode-review');
       if (remain <= 0) {
         if (seqBlock) seqBlock.style.display = 'none';
@@ -3159,7 +3178,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       const hasReview = hasReviewMaterial(set);
-      if (reviewWrap) reviewWrap.style.display = hasReview ? 'block' : 'none';
+      if (reviewCard) reviewCard.style.display = hasReview ? 'flex' : 'none';
       if (reviewCheck) reviewCheck.checked = hasReview;
       if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
     }
