@@ -71,6 +71,7 @@
       .btn, .storage-card, .saved-sets-item .btn, .option { min-height: 44px; }
       .btn-read-aloud { min-height: 44px; }
       .theme-toggle { min-width: 44px; min-height: 44px; }
+      .collapsible-toggle { min-height: 44px; }
     }
     @supports (-webkit-touch-callout: none) {
       /* iOS specific fixes */
@@ -211,6 +212,8 @@
     }
     @media (max-width: 480px) {
       .home-section { padding: 1rem; }
+      .wrong-book-row .home-actions { flex-direction: column; }
+      .wrong-book-row .btn { width: 100%; text-align: center; }
     }
     .home-section:hover {
       border-color: var(--border-subtle-hover);
@@ -962,6 +965,76 @@
     .result-recent ul { list-style: none; }
     .result-recent li { padding: 0.2rem 0; }
 
+    /* ── Unified collapsible / accordion system ── */
+    .collapsible-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0;
+      margin: 0 0 0.5rem;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.2s;
+      text-align: left;
+    }
+    .collapsible-toggle:hover { color: var(--text); }
+    .collapsible-toggle:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+    .collapsible-chevron {
+      display: inline-block;
+      font-size: 0.65rem;
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+    }
+    .collapsible-toggle[aria-expanded="true"] .collapsible-chevron {
+      transform: rotate(90deg);
+    }
+    .collapsible-body {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.3s ease;
+      overflow: hidden;
+    }
+    .collapsible-body > .collapsible-inner {
+      overflow: hidden;
+      min-height: 0;
+    }
+    .collapsible-body.open {
+      grid-template-rows: 1fr;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .collapsible-body { transition: none; }
+    }
+
+    /* ── Wrong book row (merged into start-practice) ── */
+    .wrong-book-row {
+      margin-top: 1rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+    .wrong-book-row-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .wrong-book-row .home-actions { gap: 0.5rem; }
+    .wrong-book-row .btn { font-size: 0.88rem; padding: 0.65rem 1rem; }
+
+    /* ── Format doc (uses collapsible system) ── */
     .format-doc {
       margin-top: 1.5rem;
       padding: 1.25rem;
@@ -970,41 +1043,17 @@
       border: 1px solid var(--border-subtle);
     }
     body.theme-light .format-doc { border-color: var(--border-subtle); }
-    .format-doc-title {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-muted);
+    .format-doc .collapsible-toggle {
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      margin-bottom: 0.75rem;
-      cursor: pointer;
-      user-select: none;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      transition: color 0.2s;
     }
-    .format-doc-title:hover { color: var(--text); }
-    .format-doc-title:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-      border-radius: 4px;
-    }
-    .format-doc-title::before { content: '▶'; font-size: 0.7rem; transition: transform 0.2s; }
-    .format-doc.open .format-doc-title::before { transform: rotate(90deg); }
     .format-doc-content { 
-      display: none; 
       font-size: 0.8rem; 
       line-height: 1.7; 
       color: var(--text-muted); 
       max-height: 320px; 
       overflow-y: auto; 
       overflow-x: hidden;
-      animation: fadeIn 0.2s ease;
-    }
-    .format-doc.open .format-doc-content { display: block; }
-    @media (prefers-reduced-motion: reduce) {
-      .format-doc-content { animation: none; }
     }
     .format-doc pre {
       background: var(--bg);
@@ -1534,27 +1583,6 @@
 
       <div class="home-section">
         <h2>开始练习</h2>
-        <div class="timer-wrap">
-          <label for="timer-seconds">每题倒计时（秒）</label>
-          <input type="number" id="timer-seconds" min="0" max="120" value="10" title="0 表示不限时" />
-          <div class="shuffle-wrap">
-            <input type="checkbox" id="shuffle-questions" />
-            <label for="shuffle-questions">打乱题目顺序</label>
-          </div>
-          <div class="shuffle-wrap">
-            <input type="checkbox" id="shuffle-options" />
-            <label for="shuffle-options">打乱选项顺序</label>
-          </div>
-        </div>
-        <div class="type-filter-wrap">
-          <span class="type-filter-label">只做以下题型（不勾选 = 全部）</span>
-          <div class="type-filter-row">
-            <label><input type="checkbox" id="filter-type-single" checked /> 单选</label>
-            <label><input type="checkbox" id="filter-type-multiple" checked /> 多选</label>
-            <label><input type="checkbox" id="filter-type-fill" checked /> 填空</label>
-            <label><input type="checkbox" id="filter-type-paragraph" checked /> 段落填空</label>
-          </div>
-        </div>
         <div class="start-select-wrap">
           <label for="start-practice-select">选择习题集</label>
           <select id="start-practice-select">
@@ -1567,10 +1595,48 @@
             <option value="">全部</option>
           </select>
         </div>
+
+        <!-- Advanced Settings (collapsed by default) -->
+        <button type="button" class="collapsible-toggle" aria-expanded="false" aria-controls="advanced-settings-body"><span class="collapsible-chevron">▶</span> 高级设置</button>
+        <div class="collapsible-body" id="advanced-settings-body" role="region"><div class="collapsible-inner">
+          <div class="timer-wrap">
+            <label for="timer-seconds">每题倒计时（秒）</label>
+            <input type="number" id="timer-seconds" min="0" max="120" value="10" title="0 表示不限时" />
+            <div class="shuffle-wrap">
+              <input type="checkbox" id="shuffle-questions" />
+              <label for="shuffle-questions">打乱题目顺序</label>
+            </div>
+            <div class="shuffle-wrap">
+              <input type="checkbox" id="shuffle-options" />
+              <label for="shuffle-options">打乱选项顺序</label>
+            </div>
+          </div>
+          <div class="type-filter-wrap">
+            <span class="type-filter-label">只做以下题型（不勾选 = 全部）</span>
+            <div class="type-filter-row">
+              <label><input type="checkbox" id="filter-type-single" checked /> 单选</label>
+              <label><input type="checkbox" id="filter-type-multiple" checked /> 多选</label>
+              <label><input type="checkbox" id="filter-type-fill" checked /> 填空</label>
+              <label><input type="checkbox" id="filter-type-paragraph" checked /> 段落填空</label>
+            </div>
+          </div>
+        </div></div>
+
         <div class="home-actions" role="group" aria-label="主要操作">
           <button type="button" class="btn btn-primary" id="btn-start-practice" aria-label="开始练习">开始练习</button>
           <button type="button" class="btn btn-secondary" id="btn-import-show" aria-expanded="false" aria-controls="import-section">导入我的题目</button>
         </div>
+
+        <!-- Wrong book merged as sub-row -->
+        <div class="wrong-book-row">
+          <div class="wrong-book-row-label">错题本</div>
+          <div class="home-actions" role="group" aria-label="错题本操作">
+            <button type="button" class="btn wrong-book-btn" id="btn-wrong-book">按计划复习 (<span id="wrong-count" aria-live="polite">0</span>)</button>
+            <button type="button" class="btn btn-secondary" id="btn-wrong-free">自由练习全部</button>
+            <button type="button" class="btn btn-secondary" id="btn-clear-wrong" aria-label="清空错题本，此操作不可恢复">清空错题本</button>
+          </div>
+        </div>
+
         <div class="import-section" id="import-section" style="display: none;" role="region" aria-labelledby="import-section-title">
         <h3 id="import-section-title">粘贴题目文本（支持你给的格式）</h3>
         <textarea id="import-text" placeholder="粘贴题目文本（见下方说明）或 JSON 数组…"></textarea>
@@ -1588,15 +1654,6 @@
         </div>
         <p class="import-dup-hint">重复题目（题干+选项+答案相同）将自动跳过，仅保留一道。</p>
         <button type="button" class="btn btn-primary" id="btn-import-parse" style="margin-top: 0.75rem;">解析并开始</button>
-        </div>
-      </div>
-
-      <div class="home-section">
-        <h2>错题本</h2>
-        <div class="home-actions" role="group" aria-label="错题本操作">
-          <button type="button" class="btn wrong-book-btn" id="btn-wrong-book">按计划复习 (<span id="wrong-count" aria-live="polite">0</span>)</button>
-          <button type="button" class="btn btn-secondary" id="btn-wrong-free">自由练习全部</button>
-          <button type="button" class="btn btn-secondary" id="btn-clear-wrong" aria-label="清空错题本，此操作不可恢复">清空错题本</button>
         </div>
       </div>
 
@@ -1619,66 +1676,71 @@
       </div>
 
       <div class="home-section" id="storage-section">
-        <h2>数据存到项目文件夹 / 云端同步</h2>
-        <p class="storage-desc">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：保存后在项目目录执行下方命令，<strong>同时推送主仓库 + Pages 站点</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
-        <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件，网页<strong>没有上传/推送功能</strong>，访客无法改写你的数据。只有你自己（或你授予写权限的 GitHub 协作者）能在本机执行脚本推送到仓库。若希望别人改动也需你同意，请勿授予仓库写权限，或在 GitHub 仓库设置中开启分支保护、要求 PR 审核后再合并。</p>
+        <h2>数据同步</h2>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
-        <div class="storage-grid">
-          <button type="button" class="storage-card" id="btn-open-folder">
-            <span class="title">打开并加载</span>
-            <span class="hint">选择 french-quiz 文件夹，读取本地 JSON</span>
-          </button>
-          <button type="button" class="storage-card" id="btn-save-to-folder">
-            <span class="title">保存到项目文件夹</span>
-            <span class="hint">覆盖 french_quiz_data.json</span>
-          </button>
-          <button type="button" class="storage-card" id="btn-export-data">
-            <span class="title">导出到项目文件夹（覆盖）</span>
-            <span class="hint">直接写入项目目录，覆盖原文件</span>
-          </button>
-          <button type="button" class="storage-card" id="btn-import-data">
-            <span class="title">从文件导入</span>
-            <span class="hint">选择本机 JSON 文件恢复数据</span>
-          </button>
-        </div>
-        <div class="save-success-tip" id="save-success-tip" style="display: none;">
-          <p class="save-success-tip-title">已保存。要同步到 GitHub（主仓库 + Pages 站点一起更新）：</p>
-          <p class="save-success-tip-desc">在项目目录打开终端，运行（或点击复制），把 <code>../french-quiz-pages</code> 换成你的公开 Pages 仓库路径：</p>
-          <div class="save-success-tip-cmd-wrap">
-            <code class="save-success-tip-cmd" id="save-deploy-cmd">./scripts/sync-and-push.sh ../french-quiz-pages</code>
-            <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-deploy-cmd">复制命令</button>
+
+        <!-- More storage options (collapsed) -->
+        <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
+        <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
+          <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：保存后在项目目录执行下方命令，<strong>同时推送主仓库 + Pages 站点</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
+          <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件，网页<strong>没有上传/推送功能</strong>，访客无法改写你的数据。只有你自己（或你授予写权限的 GitHub 协作者）能在本机执行脚本推送到仓库。</p>
+          <div class="storage-grid">
+            <button type="button" class="storage-card" id="btn-open-folder">
+              <span class="title">打开并加载</span>
+              <span class="hint">选择 french-quiz 文件夹，读取本地 JSON</span>
+            </button>
+            <button type="button" class="storage-card" id="btn-save-to-folder">
+              <span class="title">保存到项目文件夹</span>
+              <span class="hint">覆盖 french_quiz_data.json</span>
+            </button>
+            <button type="button" class="storage-card" id="btn-export-data">
+              <span class="title">导出到项目文件夹（覆盖）</span>
+              <span class="hint">直接写入项目目录，覆盖原文件</span>
+            </button>
+            <button type="button" class="storage-card" id="btn-import-data">
+              <span class="title">从文件导入</span>
+              <span class="hint">选择本机 JSON 文件恢复数据</span>
+            </button>
           </div>
-          <p class="save-success-tip-extra">只推当前仓库用 <code>./scripts/sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x scripts/sync-and-push.sh</code>。</p>
-        </div>
-        <div class="import-lock-wrap" id="import-lock-wrap">
-        <p class="import-lock-desc">导入保护：仅主人可往「我的习题集」里<strong>新增题目</strong>。PIN 由<strong>你自己在下方点击「设置主人 PIN」时设定</strong>（4～12 位），请牢记。设置后，只有通过验证才能使用「<strong>导入我的题目</strong>」和编辑习题集时的「<strong>解析并追加</strong>」；「从云端加载」「从文件导入」「打开并加载」不受限制，他人可正常同步云端更新。<br><span class="import-lock-per-device">本设置<strong>仅对当前设备/浏览器生效</strong>。若已启用下方「仅允许本机导入」，则其他设备已无法导入，本项 PIN 为<strong>可选</strong>，用于本机多人共用或临时借用时的额外保护。</span></p>
-        <div class="import-lock-status" id="import-lock-status">
-          <span id="import-lock-status-text">未启用</span>
-          <span class="import-lock-btns">
-            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-set">设置主人 PIN</button>
-            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-change" style="display:none;">修改 PIN</button>
-            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-disable" style="display:none;">关闭保护</button>
-          </span>
-        </div>
-        <div class="import-device-bind" id="import-device-bind">
-          <p class="import-lock-desc">仅允许本机「导入我的题目」与「解析并追加」：绑定后<strong>只有当前这台电脑</strong>能使用「导入我的题目」或编辑时的「解析并追加」往习题集里新增题目。其他设备仍可正常使用「从云端加载」「从文件导入」「打开并加载」获取或覆盖数据。请在电脑上点击「绑定本机」，再「一键保存」并推送到云端。</p>
-          <div class="import-lock-status">
-            <span id="device-bind-status-text">未绑定</span>
-            <span class="import-lock-btns">
-              <button type="button" class="btn btn-secondary btn-sm" id="btn-device-bind">绑定本机</button>
-              <button type="button" class="btn btn-secondary btn-sm" id="btn-device-unbind" style="display:none;">解除绑定</button>
-            </span>
+          <div class="save-success-tip" id="save-success-tip" style="display: none;">
+            <p class="save-success-tip-title">已保存。要同步到 GitHub（主仓库 + Pages 站点一起更新）：</p>
+            <p class="save-success-tip-desc">在项目目录打开终端，运行（或点击复制），把 <code>../french-quiz-pages</code> 换成你的公开 Pages 仓库路径：</p>
+            <div class="save-success-tip-cmd-wrap">
+              <code class="save-success-tip-cmd" id="save-deploy-cmd">./scripts/sync-and-push.sh ../french-quiz-pages</code>
+              <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-deploy-cmd">复制命令</button>
+            </div>
+            <p class="save-success-tip-extra">只推当前仓库用 <code>./scripts/sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x scripts/sync-and-push.sh</code>。</p>
           </div>
-        </div>
-      </div>
-        <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
-        <input type="file" id="file-import-data" accept=".json,application/json" />
+          <div class="import-lock-wrap" id="import-lock-wrap">
+            <p class="import-lock-desc">导入保护：仅主人可往「我的习题集」里<strong>新增题目</strong>。PIN 由<strong>你自己在下方点击「设置主人 PIN」时设定</strong>（4～12 位），请牢记。</p>
+            <div class="import-lock-status" id="import-lock-status">
+              <span id="import-lock-status-text">未启用</span>
+              <span class="import-lock-btns">
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-set">设置主人 PIN</button>
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-change" style="display:none;">修改 PIN</button>
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-disable" style="display:none;">关闭保护</button>
+              </span>
+            </div>
+            <div class="import-device-bind" id="import-device-bind">
+              <p class="import-lock-desc">仅允许本机导入：绑定后<strong>只有当前这台电脑</strong>能使用「导入我的题目」。</p>
+              <div class="import-lock-status">
+                <span id="device-bind-status-text">未绑定</span>
+                <span class="import-lock-btns">
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-device-bind">绑定本机</button>
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-device-unbind" style="display:none;">解除绑定</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
+          <input type="file" id="file-import-data" accept=".json,application/json" />
+        </div></div>
       </div>
 
       <div class="home-section format-doc" id="format-doc">
-        <h2 class="format-doc-title" role="button" tabindex="0" aria-expanded="false" aria-controls="format-doc-content">各题型格式说明（点开查看）</h2>
-        <div class="format-doc-content" id="format-doc-content" role="region">
+        <button type="button" class="collapsible-toggle" aria-expanded="false" aria-controls="format-doc-content"><span class="collapsible-chevron">▶</span> 各题型格式说明</button>
+        <div class="collapsible-body" id="format-doc-content" role="region"><div class="collapsible-inner"><div class="format-doc-content">
           <p><strong>通用：</strong>可直接粘贴 JSON 题目数组，或按下方文本格式粘贴。</p>
           <p><span class="type-tag">单选题 single_choice</span></p>
           <pre>{"type":"single_choice","stem":"Nous ______ une lettre.","options":["écris","écrit","écrivons","écrivent"],"correct":2,"explanation":"nous 用 écrivons。","category":"语法"}</pre>
@@ -1693,7 +1755,7 @@
 A) écris  B) écrit  C) écrivons  D) écrivent
 正确：C</pre>
           <p class="format-doc-hint"><strong>分类筛选：</strong>题目 JSON 中可带 <code>category</code> 字段（如 <code>"category":"语法"</code>），选习题集后可按分类筛题；无 <code>category</code> 时仅显示「全部」。</p>
-        </div>
+        </div></div></div>
       </div>
     </div>
 
@@ -2400,6 +2462,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const tipEl = document.getElementById('save-success-tip');
         if (tipEl) {
           tipEl.style.display = 'block';
+          /* Auto-expand storage details so the tip is visible */
+          const storageBody = document.getElementById('storage-details-body');
+          if (storageBody && !storageBody.classList.contains('open')) {
+            storageBody.classList.add('open');
+            const storageToggle = document.querySelector('[aria-controls="storage-details-body"]');
+            if (storageToggle) storageToggle.setAttribute('aria-expanded', 'true');
+          }
           tipEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
         showToast('已保存');
@@ -4162,25 +4231,23 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         } catch (_) { showToast('复制失败，请手动复制'); }
       }
     });
-    (function initFormatDoc() {
-      const formatDoc = document.getElementById('format-doc');
-      const title = formatDoc && formatDoc.querySelector('.format-doc-title');
-      if (!title) return;
-      const toggle = () => {
-        const isOpen = formatDoc.classList.contains('open');
-        formatDoc.classList.toggle('open');
-        title.setAttribute('aria-expanded', String(!isOpen));
-      };
-      formatDoc.addEventListener('click', (e) => {
-        if (e.target.closest('.format-doc-title')) toggle();
+    /* ── Unified collapsible accordion helper ── */
+    function initCollapsible(toggleEl) {
+      if (!toggleEl) return;
+      const bodyId = toggleEl.getAttribute('aria-controls');
+      const bodyEl = bodyId ? document.getElementById(bodyId) : null;
+      if (!bodyEl) return;
+      function toggle() {
+        const isOpen = bodyEl.classList.contains('open');
+        bodyEl.classList.toggle('open');
+        toggleEl.setAttribute('aria-expanded', String(!isOpen));
+      }
+      toggleEl.addEventListener('click', toggle);
+      toggleEl.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
       });
-      title.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          toggle();
-        }
-      });
-    })();
+    }
+    document.querySelectorAll('.collapsible-toggle').forEach(initCollapsible);
     const readAloudBtn = document.getElementById('btn-read-aloud');
     if (readAloudBtn) readAloudBtn.addEventListener('click', readAloudStem);
     document.addEventListener('keydown', onQuizKeydown);
