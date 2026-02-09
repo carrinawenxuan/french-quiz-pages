@@ -2267,7 +2267,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         sessionStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
           questions: state.questions, index: state.index, score: state.score,
           timerSeconds: state.timerSeconds, practicingWrongBook: state.practicingWrongBook,
-          practicedSetId: state.practicedSetId, savedAt: Date.now()
+          practicedSetId: state.practicedSetId, answerResults: state.answerResults || {},
+          savedAt: Date.now()
         }));
       } catch (_) {}
     }
@@ -2705,7 +2706,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (newQuestions.length === set.questions.length) return;
       const updated = sets.map(s => String(s.id) === setId ? Object.assign({}, s, { questions: newQuestions }) : s);
       setSavedSets(updated);
+      const removedIndex = state.index;
       state.questions.splice(state.index, 1);
+      /* Update answerResults: shift all entries after removed index */
+      const newAnswerResults = {};
+      Object.keys(state.answerResults || {}).forEach(key => {
+        const idx = parseInt(key, 10);
+        if (idx < removedIndex) {
+          newAnswerResults[idx] = state.answerResults[idx];
+        } else if (idx > removedIndex) {
+          newAnswerResults[idx - 1] = state.answerResults[idx];
+        }
+      });
+      state.answerResults = newAnswerResults;
       if (state.questions.length === 0) {
         showResult();
         return;
@@ -3345,6 +3358,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       sequentialBatch: null
     };
     let timerId = null;
+    let _pendingTimers = [];  // Track pending setTimeout/setInterval for cleanup
 
     const TIMER_CIRCUMFERENCE = 2 * Math.PI * 17; // ~106.81
     function clearTimer() {
@@ -3615,6 +3629,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     function renderQuestion() {
+      /* Clear any pending timers from previous question */
+      _pendingTimers.forEach(timer => clearTimeout(timer));
+      _pendingTimers = [];
+
       const q = state.questions[state.index];
       if (!q) {
         showResult();
@@ -3678,8 +3696,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           applyAnsweredState(q, state.answerResults[state.index]);
           return;
         }
-        document.getElementById('btn-submit').style.display = 'inline-flex';
-        document.getElementById('btn-next').style.display = 'none';
+        const btnSubmit0 = document.getElementById('btn-submit');
+        if (btnSubmit0) btnSubmit0.style.display = 'inline-flex';
+        const btnNext0 = document.getElementById('btn-next');
+        if (btnNext0) btnNext0.style.display = 'none';
         var btnPrev0 = document.getElementById('btn-prev-quiz');
         if (btnPrev0) btnPrev0.style.display = state.index > 0 ? 'inline-flex' : 'none';
         var fillExtra = (q.type === 'fill_blank' && isMultiBlank) ? blankCount * 5 : 0;
@@ -3696,8 +3716,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           applyAnsweredState(q, state.answerResults[state.index]);
           return;
         }
-        document.getElementById('btn-submit').style.display = 'inline-flex';
-        document.getElementById('btn-next').style.display = 'none';
+        const btnSubmit1 = document.getElementById('btn-submit');
+        if (btnSubmit1) btnSubmit1.style.display = 'inline-flex';
+        const btnNext1 = document.getElementById('btn-next');
+        if (btnNext1) btnNext1.style.display = 'none';
         var btnPrev1 = document.getElementById('btn-prev-quiz');
         if (btnPrev1) btnPrev1.style.display = state.index > 0 ? 'inline-flex' : 'none';
         var paraBlanks = (correctArr && correctArr.length) ? correctArr.length : 1;
@@ -3753,8 +3775,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         applyAnsweredState(q, state.answerResults[state.index]);
         return;
       }
-      document.getElementById('btn-submit').style.display = 'inline-flex';
-      document.getElementById('btn-next').style.display = 'none';
+      const btnSubmit2 = document.getElementById('btn-submit');
+      if (btnSubmit2) btnSubmit2.style.display = 'inline-flex';
+      const btnNext2 = document.getElementById('btn-next');
+      if (btnNext2) btnNext2.style.display = 'none';
       var btnPrev2 = document.getElementById('btn-prev-quiz');
       if (btnPrev2) btnPrev2.style.display = state.index > 0 ? 'inline-flex' : 'none';
       startTimer();
@@ -3887,20 +3911,33 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       /* Add card feedback animation */
       const questionCard = document.querySelector('.question-card');
       if (questionCard) {
+        const currentIndex = state.index;  // Capture current index
+        const currentQuestion = q;  // Capture current question reference
         questionCard.classList.remove('answer-correct', 'answer-wrong');
-        setTimeout(() => {
-          questionCard.classList.add(correct ? 'answer-correct' : 'answer-wrong');
-          setTimeout(() => {
-            questionCard.classList.remove('answer-correct', 'answer-wrong');
-          }, 600);
+        const timer1 = setTimeout(() => {
+          if (state.index === currentIndex && state.questions[state.index] === currentQuestion) {
+            questionCard.classList.add(correct ? 'answer-correct' : 'answer-wrong');
+            const timer2 = setTimeout(() => {
+              if (state.index === currentIndex && state.questions[state.index] === currentQuestion) {
+                questionCard.classList.remove('answer-correct', 'answer-wrong');
+              }
+              _pendingTimers = _pendingTimers.filter(t => t !== timer2);
+            }, 600);
+            _pendingTimers.push(timer2);
+          }
+          _pendingTimers = _pendingTimers.filter(t => t !== timer1);
         }, 50);
+        _pendingTimers.push(timer1);
       }
 
       const feedbackEl = document.getElementById('answer-feedback');
-      feedbackEl.textContent = correct ? '正确！' : '错误';
-      feedbackEl.className = 'answer-feedback ' + (correct ? 'correct-msg' : 'wrong-msg');
+      if (feedbackEl) {
+        feedbackEl.textContent = correct ? '正确！' : '错误';
+        feedbackEl.className = 'answer-feedback ' + (correct ? 'correct-msg' : 'wrong-msg');
+      }
 
       const explanationEl = document.getElementById('explanation');
+      if (!explanationEl) return;  // 如果关键元素不存在，提前返回
       let explanationText = q.explanation || '';
       if (!explanationText && !correct) {
         if (q.type === 'fill_blank') {
@@ -3916,7 +3953,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           explanationText = '正确答案：' + arr.map((c, i) => '第' + (i + 1) + '空 ' + (Array.isArray(c) ? c[0] : c)).join('；');
         }
       }
-      explanationEl.textContent = explanationText;
+      if (explanationEl) explanationEl.textContent = explanationText;
       var scrollWrap = document.getElementById('explanation-scroll-wrap');
       if (scrollWrap) {
         scrollWrap.style.display = 'block';
@@ -3960,11 +3997,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             btnRemove.textContent = '已移出（5秒内可撤销）';
             btnRemove.disabled = false;
             const undoTimer = setTimeout(() => {
-              btnRemove.textContent = '已移出';
-              btnRemove.disabled = true;
+              if (state.index < state.questions.length && state.questions[state.index] === q) {
+                btnRemove.textContent = '已移出';
+                btnRemove.disabled = true;
+              }
+              _pendingTimers = _pendingTimers.filter(t => t !== undoTimer);
             }, 5000);
+            _pendingTimers.push(undoTimer);
             btnRemove.onclick = () => {
               clearTimeout(undoTimer);
+              _pendingTimers = _pendingTimers.filter(t => t !== undoTimer);
               addToWrongBookDirect(removedItem);
               btnRemove.textContent = '已撤销，仍在错题本';
               btnRemove.disabled = true;
@@ -4045,11 +4087,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       var paragraphWrap = document.getElementById('paragraph-blanks-wrap');
       if (fillWrap) fillWrap.querySelectorAll('input').forEach(function(inp) { inp.disabled = true; });
       if (paragraphWrap) paragraphWrap.querySelectorAll('input').forEach(function(inp) { inp.disabled = true; });
-      document.getElementById('btn-submit').style.display = 'none';
+      const btnSubmit = document.getElementById('btn-submit');
+      if (btnSubmit) btnSubmit.style.display = 'none';
       var btnNext = document.getElementById('btn-next');
-      btnNext.style.display = 'inline-flex';
-      btnNext.textContent = state.index >= state.questions.length - 1 ? '查看结果' : '下一题';
-      btnNext.setAttribute('aria-label', state.index >= state.questions.length - 1 ? '查看结果' : '下一题');
+      if (btnNext) {
+        btnNext.style.display = 'inline-flex';
+        btnNext.textContent = state.index >= state.questions.length - 1 ? '查看结果' : '下一题';
+        btnNext.setAttribute('aria-label', state.index >= state.questions.length - 1 ? '查看结果' : '下一题');
+      }
       var btnPrev = document.getElementById('btn-prev-quiz');
       if (btnPrev) btnPrev.style.display = state.index > 0 ? 'inline-flex' : 'none';
     }
@@ -4062,6 +4107,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     function nextQuestion() {
+      if (state.answered !== true) return;  // Prevent rapid clicking
       state.index++;
       if (state.index >= state.questions.length) {
         showResult();
@@ -4069,7 +4115,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const card = document.querySelector('.question-card');
         if (card) {
           card.classList.add('animate-out');
-          setTimeout(() => {
+          const animTimer = setTimeout(() => {
+            const currentIndex = state.index;  // Capture current index
             if (typeof performance !== 'undefined' && performance.mark) performance.mark('next-question-start');
             card.classList.remove('animate-out');
             renderQuestion();
@@ -4077,13 +4124,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
               performance.mark('next-question-end');
               try { performance.measure('next-question', 'next-question-start', 'next-question-end'); } catch (_) {}
             }
-            card.classList.add('animate-in');
-            card.style.willChange = 'transform';
-            card.addEventListener('animationend', () => {
-              card.classList.remove('animate-in');
-              card.style.willChange = '';
-            }, { once: true });
+            if (state.index === currentIndex) {  // Verify still on same question
+              card.classList.add('animate-in');
+              card.style.willChange = 'transform';
+              card.addEventListener('animationend', () => {
+                card.classList.remove('animate-in');
+                card.style.willChange = '';
+              }, { once: true });
+            }
+            _pendingTimers = _pendingTimers.filter(t => t !== animTimer);
           }, 200);
+          _pendingTimers.push(animTimer);
         } else {
           renderQuestion();
         }
@@ -4776,6 +4827,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           state.timerSeconds = saved.timerSeconds;
           state.practicingWrongBook = saved.practicingWrongBook;
           state.practicedSetId = saved.practicedSetId;
+          state.answerResults = saved.answerResults || {};  // Restore answer results if available
           showScreen(SCREEN.QUIZ);
           renderQuestion();
         } else {
