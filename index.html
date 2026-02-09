@@ -721,13 +721,15 @@
       /* 模态框优化 */
       .review-modal-overlay,
       .edit-set-modal-overlay,
-      .start-mode-modal-overlay {
+      .start-mode-modal-overlay,
+      .sync-text-modal-overlay {
         padding: 0.5rem;
         align-items: flex-end;
       }
       .review-modal,
       .edit-set-modal,
-      .start-mode-modal {
+      .start-mode-modal,
+      .sync-text-modal {
         max-width: 100%;
         max-height: 90vh;
         border-radius: var(--radius) var(--radius) 0 0;
@@ -757,6 +759,28 @@
         padding: 0.75rem;
         -webkit-appearance: none;
         appearance: none;
+      }
+      /* 同步文本模态框优化 */
+      .sync-text-modal {
+        padding: 1.25rem;
+      }
+      .sync-text-modal textarea {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+        min-height: 150px;
+      }
+      .sync-text-tabs {
+        flex-direction: column;
+        gap: 0;
+      }
+      .sync-text-tab {
+        border-bottom: 1px solid var(--border-subtle);
+        border-left: 2px solid transparent;
+        text-align: left;
+      }
+      .sync-text-tab.active {
+        border-left-color: var(--accent);
+        border-bottom-color: var(--border-subtle);
       }
       .paragraph-blanks input,
       .fill-input-wrap input {
@@ -1754,6 +1778,81 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
+    /* Sync Text Modal */
+    .sync-text-modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1002;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      -webkit-overflow-scrolling: touch;
+      overflow-y: auto;
+    }
+    .sync-text-modal-overlay.show { display: flex; }
+    .sync-text-modal {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-strong);
+      padding: 1.5rem;
+      max-width: 500px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow);
+    }
+    body.theme-light .sync-text-modal { border-color: var(--border-strong); }
+    .sync-text-modal h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--text); }
+    .sync-text-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .sync-text-tab {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .sync-text-tab:hover { color: var(--text); }
+    .sync-text-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .sync-text-content { display: none; }
+    .sync-text-content.active { display: block; }
+    .sync-text-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    .sync-text-result { margin-top: 1rem; }
+    .sync-text-hint,
+    .sync-text-warning {
+      font-size: 0.85rem;
+      line-height: 1.5;
+    }
+    .sync-text-actions {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: flex-end;
+    }
+
     .start-mode-modal-overlay { 
       position: fixed; 
       inset: 0; 
@@ -2005,6 +2104,8 @@
         <h2>数据同步</h2>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-generate-sync-text" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6); margin-top: 0.75rem;">📱 生成同步文本（手机→电脑）</button>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-import-sync-text" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">💻 从同步文本导入（电脑端）</button>
 
         <!-- More storage options (collapsed) -->
         <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
@@ -2302,6 +2403,37 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <div class="preview-questions-body" id="preview-questions-body"></div>
       <div class="preview-questions-actions">
         <button type="button" class="btn btn-primary" id="btn-preview-questions-close" aria-keyshortcuts="Escape">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sync Text Modal -->
+  <div class="sync-text-modal-overlay" id="sync-text-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="sync-text-modal-title" style="display: none;">
+    <div class="sync-text-modal">
+      <h3 id="sync-text-modal-title">数据同步</h3>
+      <div class="sync-text-tabs" id="sync-text-tabs">
+        <button type="button" class="sync-text-tab active" data-tab="generate">📱 生成同步文本</button>
+        <button type="button" class="sync-text-tab" data-tab="import">💻 导入同步文本</button>
+      </div>
+      <div class="sync-text-content" id="sync-text-generate" style="display: block;">
+        <p class="sync-text-desc">点击下方按钮生成包含所有数据的同步文本，复制后可在电脑端导入。</p>
+        <button type="button" class="btn btn-primary" id="btn-generate-sync-text-inner">生成同步文本</button>
+        <div class="sync-text-result" id="sync-text-result" style="display: none;">
+          <label for="sync-text-output">同步文本（点击全选复制）：</label>
+          <textarea id="sync-text-output" readonly rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;"></textarea>
+          <button type="button" class="btn btn-secondary" id="btn-copy-sync-text" style="margin-top: 0.5rem;">📋 复制文本</button>
+          <p class="sync-text-hint" style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--text-muted);">在电脑端打开本页面，切换到「导入同步文本」标签，粘贴此文本即可同步数据。</p>
+        </div>
+      </div>
+      <div class="sync-text-content" id="sync-text-import" style="display: none;">
+        <p class="sync-text-desc">粘贴从手机端生成的同步文本，点击导入即可同步数据到电脑。</p>
+        <label for="sync-text-input">同步文本：</label>
+        <textarea id="sync-text-input" rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;" placeholder="粘贴同步文本..."></textarea>
+        <button type="button" class="btn btn-primary" id="btn-import-sync-text-inner" style="margin-top: 0.75rem;">导入数据</button>
+        <p class="sync-text-warning" style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--wrong);">⚠️ 导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）</p>
+      </div>
+      <div class="sync-text-actions">
+        <button type="button" class="btn btn-secondary" id="btn-sync-text-close">关闭</button>
       </div>
     </div>
   </div>
@@ -4971,6 +5103,108 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-export-data').addEventListener('click', saveToProjectFolder);
     document.getElementById('btn-import-data').addEventListener('click', () => document.getElementById('file-import-data').click());
     document.getElementById('link-download-json').addEventListener('click', (e) => { e.preventDefault(); exportDataDownload(); });
+    
+    // Sync Text Modal Functions
+    function openSyncTextModal(tab = 'generate') {
+      const overlay = document.getElementById('sync-text-modal-overlay');
+      if (!overlay) return;
+      overlay.classList.add('show');
+      overlay.style.display = 'flex';
+      setModalFocusTrap(overlay);
+      switchSyncTextTab(tab);
+    }
+    function closeSyncTextModal() {
+      const overlay = document.getElementById('sync-text-modal-overlay');
+      if (!overlay) return;
+      overlay.classList.remove('show');
+      overlay.style.display = 'none';
+      clearModalFocusTrap();
+    }
+    function switchSyncTextTab(tab) {
+      const tabs = document.querySelectorAll('.sync-text-tab');
+      const contents = document.querySelectorAll('.sync-text-content');
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
+      contents.forEach(c => {
+        const isActive = (tab === 'generate' && c.id === 'sync-text-generate') || 
+                         (tab === 'import' && c.id === 'sync-text-import');
+        c.style.display = isActive ? 'block' : 'none';
+        c.classList.toggle('active', isActive);
+      });
+    }
+    function generateSyncText() {
+      try {
+        const data = getDataForExport();
+        const jsonStr = JSON.stringify(data);
+        const base64 = btoa(unescape(encodeURIComponent(jsonStr)));
+        const resultDiv = document.getElementById('sync-text-result');
+        const outputTextarea = document.getElementById('sync-text-output');
+        if (resultDiv && outputTextarea) {
+          outputTextarea.value = base64;
+          resultDiv.style.display = 'block';
+          outputTextarea.select();
+          showToast('同步文本已生成，请复制');
+        }
+      } catch (e) {
+        showToast('生成失败：' + (e.message || String(e)));
+      }
+    }
+    function importSyncText() {
+      const inputTextarea = document.getElementById('sync-text-input');
+      if (!inputTextarea) return;
+      const text = inputTextarea.value.trim();
+      if (!text) {
+        showToast('请输入同步文本');
+        return;
+      }
+      if (!confirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？')) {
+        return;
+      }
+      try {
+        const jsonStr = decodeURIComponent(escape(atob(text)));
+        const data = JSON.parse(jsonStr);
+        if (!data || (data.savedSets == null && data.wrongBook == null)) {
+          throw new Error('数据格式无效');
+        }
+        loadDataFromObject(data);
+        const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
+        const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
+        showToast('已导入' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : ''));
+        inputTextarea.value = '';
+        closeSyncTextModal();
+      } catch (e) {
+        showToast('导入失败：' + (e.message || String(e)) + '。请确认同步文本是否正确。');
+      }
+    }
+    function copySyncText() {
+      const outputTextarea = document.getElementById('sync-text-output');
+      if (!outputTextarea) return;
+      outputTextarea.select();
+      try {
+        document.execCommand('copy');
+        showToast('已复制到剪贴板');
+      } catch (e) {
+        // Fallback for modern browsers
+        navigator.clipboard.writeText(outputTextarea.value).then(() => {
+          showToast('已复制到剪贴板');
+        }).catch(() => {
+          showToast('复制失败，请手动选择文本复制');
+        });
+      }
+    }
+    
+    // Sync Text Modal Event Listeners
+    document.getElementById('btn-generate-sync-text').addEventListener('click', () => openSyncTextModal('generate'));
+    document.getElementById('btn-import-sync-text').addEventListener('click', () => openSyncTextModal('import'));
+    document.getElementById('btn-sync-text-close').addEventListener('click', closeSyncTextModal);
+    document.getElementById('sync-text-modal-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'sync-text-modal-overlay') closeSyncTextModal();
+    });
+    document.querySelectorAll('.sync-text-tab').forEach(tab => {
+      tab.addEventListener('click', () => switchSyncTextTab(tab.dataset.tab));
+    });
+    document.getElementById('btn-generate-sync-text-inner').addEventListener('click', generateSyncText);
+    document.getElementById('btn-import-sync-text-inner').addEventListener('click', importSyncText);
+    document.getElementById('btn-copy-sync-text').addEventListener('click', copySyncText);
     document.getElementById('file-import-data').addEventListener('change', function() {
       const file = this.files && this.files[0];
       if (file) importDataFromFile(file);
