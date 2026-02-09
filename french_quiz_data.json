@@ -1946,6 +1946,385 @@
           ],
           "correct": 2,
           "explanation": "本题考察法语经典感叹表达 Oh là là 的多义性（由 waouh 引申）。Oh là là 是法语中最经典的感叹词，根据上下文可以表达惊讶、赞叹、甚至不满/烦躁。不是只表达一种情绪。TCF 听力中理解语气和上下文是关键。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ (tout) émue par cette nouvelle.",
+          "options": [
+            "toute",
+            "tout",
+            "toutes",
+            "tous"
+          ],
+          "correct": 1,
+          "explanation": "TCF 语法陷阱：Tout 作副词修饰形容词时，若形容词以元音或哑音 h 开头 (émue)，Tout 不变性数。",
+          "category": "语法-Tout的高级用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ (tout) petite pour son âge.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "TCF 语法陷阱：Tout 作副词修饰形容词时，若形容词以辅音开头 (petite)，Tout 必须配合性数 (toute)。",
+          "category": "语法-Tout的高级用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ (tout) contents d'être ici.",
+          "options": [
+            "tous",
+            "tout",
+            "toute",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "这里 Tout 是副词修饰形容词 contents (辅音开头，但阳性不用变，只有阴性辅音开头才变)，或者即使按连读规则，这里主要考察副词含义“非常”，通常用 tout (invariable) 或配合。但在 TCF 中，修饰阳性复数形容词通常保持 tout (或有时 tous，但在标准语法考题中倾向于考察不变性或阴性变化)。更严谨的规则：修饰辅音开头的阳性复数形容词，Tout 不变。",
+          "category": "语法-Tout的高级用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Bonjour à _____ ! (发音题)",
+          "options": [
+            "tous [tu]",
+            "tous [tus]",
+            "tout [tu]",
+            "toute [tut]"
+          ],
+          "correct": 1,
+          "explanation": "Tous 作泛指代词（大家）置于句尾时，s 必须发音 [s]。",
+          "category": "语音辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce sont de _____ (beau) enfants.",
+          "options": [
+            "beaux",
+            "beau",
+            "belles",
+            "bel"
+          ],
+          "correct": 0,
+          "explanation": "Enfants 是阳性复数，Beau 变为 Beaux。注意 des 变为 de (形容词在名词前)。",
+          "category": "语法-形容词变形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel _____ (beau) homme !",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "Homme 是哑音 h 开头的阳性单数，Beau 变为 Bel。",
+          "category": "语法-形容词变形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai une _____ (beau) surprise pour toi.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 2,
+          "explanation": "Surprise 是阴性单数，用 Belle。",
+          "category": "语法-性数配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ (Hier) soir, nous sommes allés au cinéma. Le film était _____ (excellent).",
+          "correct": [
+            "Hier",
+            "excellent"
+          ],
+          "explanation": "时间状语 Hier soir (昨晚)；Excellent 修饰阳性单数 film。",
+          "category": "词汇-综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'a dit qu'il avait terminé ce travail _____. (原话：J'ai terminé hier)",
+          "options": [
+            "hier",
+            "avant-hier",
+            "la veille",
+            "le lendemain"
+          ],
+          "correct": 2,
+          "explanation": "间接引语：主句过去时，从句中的 Hier 变为 La veille。",
+          "category": "语法-间接引语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma grand-mère pleure à _____ (chaud) larmes.",
+          "options": [
+            "chaud",
+            "chaudes",
+            "chaude",
+            "chauds"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配：Pleurer à chaudes larmes (痛哭流涕/泪如雨下)，Larmes 是阴性复数。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne t'inquiète pas, je garde ton dossier au ***.",
+          "options": [
+            "froid",
+            "chaud",
+            "tiède",
+            "sec"
+          ],
+          "correct": 1,
+          "explanation": "Garder au chaud (字面：保温；引申：妥善保管/暂存)。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est le _____ (seul) ami que j'ai.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seulement"
+          ],
+          "correct": 0,
+          "explanation": "Ami 是阳性单数，用 Seul。Seul 在名词前表示“唯一的”。",
+          "category": "语法-位置与含义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je parle _____ (seul) français. (我想说：我只会法语)",
+          "options": [
+            "seul",
+            "seulement",
+            "unique",
+            "solitaire"
+          ],
+          "correct": 1,
+          "explanation": "表示“仅仅/只”要用副词 Seulement。Seul 表示“独自”。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "*** ! (Waouh/Ouais) C'est magnifique !",
+          "options": [
+            "Ouais",
+            "Waouh",
+            "Bof",
+            "Euh"
+          ],
+          "correct": 1,
+          "explanation": "Waouh 表示惊叹/赞美。Ouais 是随意的“是”。",
+          "category": "感叹词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as faim ? - _____ (Ouais/Non), je n'ai rien mangé.",
+          "options": [
+            "Non",
+            "Ouais",
+            "Si",
+            "Pas"
+          ],
+          "correct": 1,
+          "explanation": "回答肯定且语境随意，Ouais 符合。",
+          "category": "语域"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中的 'Tout' 用法是正确的？",
+          "options": [
+            "Elle est tout heureuse.",
+            "Elle est toute heureuse.",
+            "Elle est toute contente.",
+            "Elle est tout contente."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "Heureuse (哑音h开头) -> Tout 不变；Contente (辅音开头) -> Tout 变 Toute。",
+          "category": "语法-Tout的高级用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est _____ (tout) à fait ça !",
+          "correct": [
+            "tout"
+          ],
+          "explanation": "固定短语：Tout à fait (完全是/正是)。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je l'ai croisé _____ (hier).",
+          "options": [
+            "hier",
+            "demain",
+            "après-demain",
+            "bientôt"
+          ],
+          "correct": 0,
+          "explanation": "Croisé (复合过去时) 表示动作已发生，只能选过去时间状语 Hier。",
+          "category": "时态配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un _____ (magasin) de chaussures.",
+          "options": [
+            "magazine",
+            "magasin",
+            "magazin",
+            "magasine"
+          ],
+          "correct": 1,
+          "explanation": "拼写检查：Magasin (商店)。",
+          "category": "拼写"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Pour le _____ (dessert), je voudrais une part de _____ (gâteau).",
+          "correct": [
+            "dessert",
+            "gâteau"
+          ],
+          "explanation": "Dessert (甜点)；Gâteau (蛋糕)。注意区分拼写和语境。",
+          "category": "词汇-饮食"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons mangé des _____ (pâtes) hier soir.",
+          "options": [
+            "pâte",
+            "pâtes",
+            "patte",
+            "pattes"
+          ],
+          "correct": 1,
+          "explanation": "Pâtes (意面) 必须复数。",
+          "category": "词汇-单复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ (beau) dire, personne ne le croit.",
+          "options": [
+            "beau",
+            "bon",
+            "bien",
+            "mal"
+          ],
+          "correct": 0,
+          "explanation": "Avoir beau dire (尽管怎么说/枉费口舌)。",
+          "category": "B2-高频习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aime me promener _____ (seul) dans la forêt.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seulement"
+          ],
+          "correct": 0,
+          "explanation": "假设主语 Je 为阳性（默认），用 Seul 形容词作同位语，表示状态。",
+          "category": "语法-形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____ (excellent) idée !",
+          "options": [
+            "excellente",
+            "excellent",
+            "excellents",
+            "excellentes"
+          ],
+          "correct": 0,
+          "explanation": "Idée 是阴性单数，Excellente。",
+          "category": "性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le professeur est sévère, ce n'est pas un _____ (cadeau) !",
+          "options": [
+            "cadeau",
+            "gâteau",
+            "plateau",
+            "château"
+          ],
+          "correct": 0,
+          "explanation": "C'est pas un cadeau (这人很难搞/这事不轻松)。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il habite une _____ (beau) maison.",
+          "options": [
+            "beau",
+            "belle",
+            "bel",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "Maison 阴性单数，用 Belle。",
+          "category": "性数配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je les ai _____ (tout) vus.",
+          "correct": [
+            "tous"
+          ],
+          "explanation": "泛指代词 Tous 指代 Les (他们)，在复合过去时中置于过去分词前，写作 Tous (读音视位置而定，此处强调数量)。",
+          "category": "语法-代词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait _____ (chaud), ouvre la fenêtre.",
+          "options": [
+            "chaud",
+            "froid",
+            "beau",
+            "mauvais"
+          ],
+          "correct": 0,
+          "explanation": "逻辑题：开窗通常是因为热 (Chaud)。",
+          "category": "逻辑推理"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ (inspecteur) sont arrivés sur les lieux.",
+          "options": [
+            "inspecteurs",
+            "inspecteur",
+            "inspection",
+            "inspectrice"
+          ],
+          "correct": 0,
+          "explanation": "复数主语 Les，用 Inspecteurs。",
+          "category": "名词复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté une _____ (pizza) quatre fromages.",
+          "options": [
+            "pizza",
+            "pizzas",
+            "pizze",
+            "tarte"
+          ],
+          "correct": 0,
+          "explanation": "Une 单数 Pizza。",
+          "category": "词汇"
         }
       ],
       "practiceCount": 0,
@@ -4476,6 +4855,15 @@
         },
         {
           "type": "fill_blank",
+          "stem": "Les enfants mangent _____ fruits.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "fruits 为复数名词，肯定句中表示吃一些水果，用 des。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
           "stem": "Je n’aime pas _____ viande.",
           "correct": [
             "la"
@@ -5391,6 +5779,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T03:07:43.002Z",
+  "exportedAt": "2026-02-09T03:24:54.876Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
