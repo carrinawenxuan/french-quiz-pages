@@ -1,6 +1,249 @@
 {
   "savedSets": [
     {
+      "id": 1770611527427,
+      "name": "Boire变位-现/复过/近将",
+      "folderId": "1770593074621",
+      "createdAt": "2026-02-09T04:32:07.427Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Au petit-déjeuner, nous ______ toujours du café.",
+          "options": [
+            "boissons",
+            "boivons",
+            "buvons",
+            "buvez"
+          ],
+          "correct": 2,
+          "explanation": "【A2 词根变形陷阱】Nous 变位必须换词根为 buv-，加上 ons。'Boissons' 是名词（饮料），'Boivons' 是错误拼写。这是 TCF 最爱考的拼写混淆。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Regarde ces hommes, ils ______ beaucoup trop d'alcool.",
+          "options": [
+            "boit",
+            "boivent",
+            "buvent",
+            "boive"
+          ],
+          "correct": 1,
+          "explanation": "【A2/B1 第三人称复数】Ils 对应的词根是 boiv-，加上 ent。'Boit' 是单数，'Buvent' 是把 nous 的词根误用到了 ils 上。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, qu'est-ce que tu as ______ ?",
+          "options": [
+            "bu",
+            "bus",
+            "bue",
+            "boiré"
+          ],
+          "correct": 0,
+          "explanation": "【A1 复合过去时基础】助动词 Avoir (as) + 过去分词 bu。这里疑问代词 Que (Qu'est-ce que) 指代的事物作为宾语虽然在前，但通常在疑问句中若非明确指代阴性复数，默认用中性/阳性单数 bu。且此处主要是考分词形态。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La soupe est chaude, je vais la ______ plus tard.",
+          "options": [
+            "bois",
+            "bu",
+            "boire",
+            "boires"
+          ],
+          "correct": 2,
+          "explanation": "【A1 最近将来时结构】Aller (vais) + 原形 (boire)。代词 la 放在原形前面，不影响原形的形式。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Des jus d'orange ? Oui, j'en ai ______ deux verres.",
+          "options": [
+            "bus",
+            "bues",
+            "bu",
+            "boire"
+          ],
+          "correct": 2,
+          "explanation": "【B2 顶级陷阱 En】这是 TCF 区分高分考生的关键。虽然 'jus' 是阳性复数，但宾语代词是 'En'。规则：En 作直接宾语时，过去分词永远不配合！必须选 bu。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette limonade ? Je l'ai ______ hier.",
+          "options": [
+            "bu",
+            "bue",
+            "bus",
+            "bues"
+          ],
+          "correct": 1,
+          "explanation": "【B1 过去分词配合】这里 l' 指代 cette limonade (阴性单数)，且放在助动词 ai 之前。过去分词必须配合，加 e → bue。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ne ______ (boire) pas de thé ?",
+          "options": [
+            "bois",
+            "boit",
+            "boies",
+            "buvez"
+          ],
+          "correct": 0,
+          "explanation": "【A1 基础变位】Tu 对应的变位是 bois (s结尾)。Boit 是 Il/Elle 的形式。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列关于 'Ils boivent' 的说法，哪些是正确的？",
+          "options": [
+            "发音中能听到 /v/ 的摩擦音",
+            "ent 不发音",
+            "和 Il boit 发音完全一样",
+            "词根是 buv-"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "【A2 语音辨析】Boivent [bwav] 有 /v/ 音，Boit [bwa] 没有。这是听力题的关键区别。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "选出语法错误的句子：",
+          "options": [
+            "Nous boissons de l'eau.",
+            "Vous buvez du vin.",
+            "Ils buvent du café.",
+            "Je bois du lait."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "【A2 拼写纠错】0 错误，应为 buvons (boissons是名词)；2 错误，应为 boivent (词根错误)。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "在最近将来时中，'Je ne vais pas en boire' 的语序为什么是对的？",
+          "options": [
+            "Pas 必须放在 Aller 后面",
+            "En 必须紧贴原形动词 boire",
+            "Pas 应该放在 boire 后面",
+            "Ne 和 Pas 包围助动词 Aller"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "【B1 否定与代词】最近将来时否定结构是 Ne + Aller + Pas + 代词 + 原形。Pas 放在 aller 后，En 放在 boire 前。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants ______ (boire) du lait tous les matins.",
+          "options": [
+            "boivent"
+          ],
+          "correct": [
+            "boivent"
+          ],
+          "explanation": "【A1 复数变位】Les enfants = Ils，变位 boivent。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quelle eau est-ce que vous avez ______ (boire) ?",
+          "options": [
+            "bue"
+          ],
+          "correct": [
+            "bue"
+          ],
+          "explanation": "【B2 疑问词配合】Quel + 名词 (eau, 阴性) 作宾语前置时，过去分词需要配合。bu -> bue。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous ______ (boire) un café avec nous ?",
+          "options": [
+            "buvez"
+          ],
+          "correct": [
+            "buvez"
+          ],
+          "explanation": "【A1 词根变换】Vous 变位用 buv- 词根 -> buvez。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Non merci, je ne vais rien ______ (boire).",
+          "options": [
+            "boire"
+          ],
+          "correct": [
+            "boire"
+          ],
+          "explanation": "【A1 否定词搭配】Rien (什么也不) 类似 Pas，放在原形之前。动词依然用原形 boire。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "D'habitude je ne _____ (boire) pas d'alcool, mais hier j'ai _____ (boire) un peu de vin.",
+          "correct": [
+            "bois",
+            "bu"
+          ],
+          "explanation": "【时态对比】第一空习惯用现在时 Je bois；第二空过去动作用复合过去时 J'ai bu (无配合)。",
+          "category": "时态综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ces bouteilles ? Nous les avons _____ (boire). Elles étaient vides quand vous êtes _____ (arriver, *注意这里是arriver但也考一下配合意识*).",
+          "correct": [
+            "bues",
+            "arrivés"
+          ],
+          "explanation": "【B2 配合综合】第一空：Les 指代 bouteilles (阴性复数) 在前 -> bues。第二空(额外赠送考点)：Vous êtes arrivés (être助动词配合)。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ (boire) son thé. Dans une minute, il va _____ (boire) son café.",
+          "correct": [
+            "boit",
+            "boire"
+          ],
+          "explanation": "【单数变位】第一空 Il boit；第二空 Il va boire。",
+          "category": "直陈式现在时 & 最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ (boire) de l'eau car nous avons _____ (boire) trop de vin hier.",
+          "correct": [
+            "buvons",
+            "bu"
+          ],
+          "explanation": "【词根与分词】第一空 Nous buvons (变词根)；第二空 avon bu (无直接宾语提前，不配合)。",
+          "category": "时态综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1wI3nabmfEmj057v2XCEEfRA0Agl-JUpxiH7pTFHsgkI/edit?tab=t.0#heading=h.eeee83w3lew5"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770611267058,
       "name": "部分冠词",
       "folderId": "1770593095506",
@@ -7804,6 +8047,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T04:27:56.550Z",
+  "exportedAt": "2026-02-09T04:32:14.925Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
