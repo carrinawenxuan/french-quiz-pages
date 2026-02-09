@@ -3613,8 +3613,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         stemHtml += escapeHtml(parts[i]);
         if (i < parts.length - 1) stemHtml += '<span class="blank" data-blank="' + i + '">( ' + (i + 1) + ' )</span>';
       }
-      document.getElementById('question-stem').innerHTML = stemHtml;
+      const stemEl = document.getElementById('question-stem');
+      if (stemEl) stemEl.innerHTML = stemHtml;
       const wrap = document.getElementById('paragraph-blanks-wrap');
+      if (!wrap) return; // 如果容器不存在，直接返回
       // 先清空并重置容器，确保旧状态不会影响新题目
       wrap.innerHTML = '';
       wrap.style.display = 'block';
@@ -3658,21 +3660,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.answered = !!state.answerResults[state.index];
       const idx = state.index + 1;
       const total = state.questions.length;
-      document.getElementById('progress-fill').style.width = (idx / total) * 100 + '%';
-      document.getElementById('question-counter').textContent = `${idx} / ${total}`;
+      const progressFillEl = document.getElementById('progress-fill');
+      if (progressFillEl) progressFillEl.style.width = (idx / total) * 100 + '%';
+      const questionCounterEl = document.getElementById('question-counter');
+      if (questionCounterEl) questionCounterEl.textContent = `${idx} / ${total}`;
       const labelEl = document.getElementById('progress-label');
       if (labelEl) labelEl.textContent = '第 ' + idx + ' / ' + total + ' 题';
       const estimateEl = document.getElementById('progress-estimate');
       if (estimateEl && idx === 1) {
         estimateEl.textContent = '共 ' + total + ' 题' + (state.timerSeconds ? '，约 ' + Math.ceil(total * state.timerSeconds / 60) + ' 分钟' : '，不限时');
       }
-      document.getElementById('question-meta').textContent = q.category ? `套路 · ${q.category}` : '';
-      document.getElementById('question-stem').innerHTML = escapeHtml(q.stem);
+      const questionMetaEl = document.getElementById('question-meta');
+      if (questionMetaEl) questionMetaEl.textContent = q.category ? `套路 · ${q.category}` : '';
+      const questionStemEl = document.getElementById('question-stem');
+      if (questionStemEl) questionStemEl.innerHTML = escapeHtml(q.stem);
       var explanationScrollWrap = document.getElementById('explanation-scroll-wrap');
       if (explanationScrollWrap) explanationScrollWrap.style.display = 'none';
       var wrongCountEl = document.getElementById('explanation-wrong-count');
       if (wrongCountEl) { wrongCountEl.textContent = ''; wrongCountEl.style.display = 'none'; }
-      document.getElementById('explanation').textContent = q.explanation || '';
+      const explanationEl = document.getElementById('explanation');
+      if (explanationEl) explanationEl.textContent = q.explanation || '';
       var notesDisplay = document.getElementById('explanation-notes-display');
       if (notesDisplay) { notesDisplay.textContent = ''; notesDisplay.style.display = 'none'; }
       var notesEdit = document.getElementById('explanation-notes-edit');
@@ -3683,8 +3690,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (removeWrapEl) removeWrapEl.style.display = 'none';
       const removeFromSetWrap = document.getElementById('remove-from-set-wrap');
       if (removeFromSetWrap) removeFromSetWrap.style.display = state.practicedSetId ? 'block' : 'none';
-      document.getElementById('answer-feedback').className = 'answer-feedback';
-      document.getElementById('answer-feedback').textContent = '';
+      const answerFeedbackEl = document.getElementById('answer-feedback');
+      if (answerFeedbackEl) {
+        answerFeedbackEl.className = 'answer-feedback';
+        answerFeedbackEl.textContent = '';
+      }
 
       const optionsEl = document.getElementById('options-container');
       const fillWrap = document.getElementById('fill-input-wrap');
@@ -4166,11 +4176,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         state.practicedSetId = null;
       }
       addTodayPractice(state.questions.length);
-      document.getElementById('result-score').textContent = `${state.score} / ${state.questions.length}`;
+      const resultScoreEl = document.getElementById('result-score');
+      if (resultScoreEl) resultScoreEl.textContent = `${state.score} / ${state.questions.length}`;
       const pct = state.questions.length ? Math.round((state.score / state.questions.length) * 100) : 0;
       const pctEl = document.getElementById('result-pct');
       if (pctEl) pctEl.textContent = '正确率 ' + pct + '%';
-      document.getElementById('result-desc').textContent = pct >= 80 ? 'Très bien !' : pct >= 60 ? 'Pas mal !' : 'Continuez à pratiquer !';
+      const resultDescEl = document.getElementById('result-desc');
+      if (resultDescEl) resultDescEl.textContent = pct >= 80 ? 'Très bien !' : pct >= 60 ? 'Pas mal !' : 'Continuez à pratiquer !';
       const celebrationEl = document.getElementById('result-celebration');
       const isFull = state.score === state.questions.length && state.questions.length > 0;
       if (celebrationEl) celebrationEl.style.display = isFull ? 'block' : 'none';
@@ -4321,7 +4333,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const parseBtn = document.getElementById('btn-import-parse');
       const origText = parseBtn ? parseBtn.textContent : '';
       if (parseBtn) { parseBtn.disabled = true; parseBtn.textContent = '解析中…'; }
-      let text = document.getElementById('import-text').value.trim();
+      const importTextEl = document.getElementById('import-text');
+      if (!importTextEl) return;
+      let text = importTextEl.value.trim();
       text = normalizeJsonPaste(text);
       let parsed = [];
       let parseError = '';

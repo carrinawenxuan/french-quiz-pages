@@ -7833,7 +7833,8 @@
   "wrongBook": [],
   "questionNotes": {
     "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "为啥有le啊\n【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。\n\n【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la",
-    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont"
+    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont",
+    "Chut ! Les enfants ______ dans la chambre.|dort|dorment|dormons|dormez|1": "这道题不能错"
   },
   "timerSeconds": 30,
   "dailyStats": {
@@ -7842,6 +7843,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T07:08:19.975Z",
+  "exportedAt": "2026-02-09T10:50:31.162Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
