@@ -481,6 +481,48 @@
     .import-pasted-item img { display: block; max-width: 80px; max-height: 80px; border-radius: 8px; border: 1px solid var(--border-strong); }
     .import-pasted-item .import-pasted-remove { position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border-radius: 50%; border: none; background: rgba(0,0,0,0.6); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; }
 
+    /* 记忆训练 */
+    .flashcard-entry-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+    #flashcard-entry-section .btn { margin-top: 0.25rem; }
+    .flashcards-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .flashcards-header .btn-back { flex-shrink: 0; }
+    .flashcards-header h2 { font-size: 1.25rem; font-weight: 600; color: var(--text); }
+    .flashcards-deck-list { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+    .flashcards-deck-item { display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; background: var(--card); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); transition: border-color 0.2s, box-shadow 0.2s; }
+    .flashcards-deck-item:hover { border-color: var(--accent); box-shadow: var(--shadow-sm); }
+    .flashcards-deck-item .name { font-weight: 500; color: var(--text); }
+    .flashcards-deck-item .meta { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem; }
+    .flashcards-deck-item .actions { display: flex; gap: 0.4rem; flex-shrink: 0; }
+    .flashcards-empty, .flashcards-cards-empty { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .flashcards-detail-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+    .flashcards-detail-header h3 { font-size: 1.1rem; font-weight: 600; color: var(--text); }
+    .flashcards-card-list { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; max-height: 50vh; overflow-y: auto; }
+    .flashcards-card-item { display: flex; align-items: flex-start; justify-content: space-between; padding: 0.6rem 0.85rem; background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); }
+    .flashcards-card-item .preview { font-size: 0.9rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+    .flashcards-card-item .btn-remove-card { flex-shrink: 0; padding: 0.25rem 0.5rem; font-size: 0.8rem; }
+    .flashcards-detail-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .flashcard-training-overlay { position: fixed; inset: 0; background: var(--bg); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
+    .flashcard-training-inner { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
+    .flashcard-training-progress { font-size: 0.85rem; color: var(--text-muted); }
+    .flashcard-card-wrap { width: 100%; min-height: 220px; perspective: 1000px; cursor: pointer; }
+    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s; transform-style: preserve-3d; }
+    .flashcard-card-inner.flipped { transform: rotateY(180deg); }
+    .flashcard-side { position: absolute; inset: 0; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 1.5rem; border-radius: var(--radius); border: 2px solid var(--border-strong); background: var(--card); color: var(--text); font-size: 1.1rem; line-height: 1.5; text-align: center; word-break: break-word; overflow: auto; }
+    .flashcard-front { border-color: var(--accent); }
+    .flashcard-back { transform: rotateY(180deg); background: var(--surface); }
+    .flashcard-training-actions { display: flex; gap: 0.75rem; }
+    .btn-close-training { margin-top: 0.5rem; }
+    .flashcard-add-card-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 1rem; box-sizing: border-box; }
+    .flashcard-add-card-modal { background: var(--card); border-radius: var(--radius); padding: 1.25rem; width: 100%; max-width: 420px; border: 1px solid var(--border-strong); box-shadow: var(--shadow-lg); }
+    .flashcard-add-card-modal h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--text); }
+    .flashcard-add-card-modal label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.35rem; margin-top: 0.75rem; }
+    .flashcard-add-card-modal label:first-of-type { margin-top: 0; }
+    .flashcard-add-card-modal textarea { width: 100%; padding: 0.6rem 0.75rem; font-size: 0.9rem; font-family: inherit; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical; box-sizing: border-box; }
+    .flashcard-add-card-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1.25rem; }
+    body.theme-light .flashcards-deck-item { background: var(--bg); border-color: var(--border-subtle); }
+    body.theme-light .flashcard-side { background: var(--card); border-color: var(--border-strong); }
+    body.theme-light .flashcard-add-card-modal { background: var(--card); border-color: var(--border-strong); }
+
     /* Quiz */
     .progress-wrap {
       margin-bottom: 1.25rem;
@@ -2201,6 +2243,12 @@
         </div>
       </div>
 
+      <div class="home-section" id="flashcard-entry-section">
+        <h2>记忆训练</h2>
+        <p class="flashcard-entry-desc">速记卡片：正面回忆、翻面核对，适合词汇与知识点记忆。</p>
+        <button type="button" class="btn btn-primary" id="btn-enter-flashcards" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">📇 进入记忆训练</button>
+      </div>
+
       <div class="home-section saved-sets" id="saved-sets-section">
         <h2>我的习题集</h2>
         <div class="saved-sets-search">
@@ -2302,6 +2350,31 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 正确：C</pre>
           <p class="format-doc-hint"><strong>分类筛选：</strong>题目 JSON 中可带 <code>category</code> 字段（如 <code>"category":"语法"</code>），选习题集后可按分类筛题；无 <code>category</code> 时仅显示「全部」。</p>
         </div></div></div>
+      </div>
+    </div>
+
+    <!-- 记忆训练（速记卡片） -->
+    <div id="screen-flashcards" class="screen">
+      <div class="flashcards-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-flashcards-back" aria-label="返回首页">← 返回</button>
+        <h2>记忆训练</h2>
+      </div>
+      <div class="flashcards-deck-list-view" id="flashcards-deck-list-view">
+        <div class="flashcards-deck-list" id="flashcards-deck-list"></div>
+        <p class="flashcards-empty" id="flashcards-empty" style="display: none;">暂无卡片组，点击下方添加。</p>
+        <button type="button" class="btn btn-primary" id="btn-flashcards-add-deck">➕ 添加卡片组</button>
+      </div>
+      <div class="flashcards-deck-detail-view" id="flashcards-deck-detail-view" style="display: none;">
+        <div class="flashcards-detail-header">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-flashcards-back-to-list" aria-label="返回列表">← 返回</button>
+          <h3 id="flashcards-deck-detail-title"></h3>
+        </div>
+        <div class="flashcards-card-list" id="flashcards-card-list"></div>
+        <p class="flashcards-cards-empty" id="flashcards-cards-empty" style="display: none;">暂无卡片，点击下方添加。</p>
+        <div class="flashcards-detail-actions">
+          <button type="button" class="btn btn-secondary" id="btn-flashcards-add-card">➕ 添加卡片</button>
+          <button type="button" class="btn btn-primary" id="btn-flashcards-start-train">开始训练</button>
+        </div>
       </div>
     </div>
 
@@ -2526,6 +2599,39 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <!-- 记忆训练：翻牌训练遮罩 -->
+  <div class="flashcard-training-overlay" id="flashcard-training-overlay" role="dialog" aria-modal="true" style="display: none;">
+    <div class="flashcard-training-inner">
+      <div class="flashcard-training-progress" id="flashcard-training-progress"></div>
+      <div class="flashcard-card-wrap" id="flashcard-card-wrap" tabindex="0">
+        <div class="flashcard-card-inner" id="flashcard-card-inner">
+          <div class="flashcard-side flashcard-front" id="flashcard-side-front"></div>
+          <div class="flashcard-side flashcard-back" id="flashcard-side-back"></div>
+        </div>
+      </div>
+      <div class="flashcard-training-actions">
+        <button type="button" class="btn btn-secondary" id="btn-flashcard-prev">上一张</button>
+        <button type="button" class="btn btn-primary" id="btn-flashcard-next">下一张</button>
+      </div>
+      <button type="button" class="btn btn-secondary btn-close-training" id="btn-flashcard-close-training" aria-label="结束训练">结束训练</button>
+    </div>
+  </div>
+
+  <!-- 记忆训练：添加卡片弹窗 -->
+  <div class="flashcard-add-card-overlay" id="flashcard-add-card-overlay" role="dialog" aria-modal="true" style="display: none;">
+    <div class="flashcard-add-card-modal">
+      <h3>添加卡片</h3>
+      <label for="flashcard-input-front">正面</label>
+      <textarea id="flashcard-input-front" rows="3" placeholder="词条、问题或提示…" autocomplete="off"></textarea>
+      <label for="flashcard-input-back">反面</label>
+      <textarea id="flashcard-input-back" rows="3" placeholder="释义、答案或补充…" autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-flashcard-cancel-card">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-flashcard-save-card">保存</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Custom Dialog Modal -->
   <div class="custom-dialog-overlay" id="custom-dialog-overlay" role="dialog" aria-modal="true" style="display: none;">
     <div class="custom-dialog">
@@ -2593,7 +2699,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
     const SEQUENTIAL_MODE_THRESHOLD = 16;
-    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result' };
+    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards' };
+    const FLASHCARD_DECKS_KEY = 'french_quiz_flashcard_decks';
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
 
@@ -3228,6 +3335,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (btn) { btn.disabled = false; if (titleEl) titleEl.textContent = origTitle; }
       };
       fr.readAsText(file);
+    }
+
+    function getFlashcardDecks() {
+      try {
+        const raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr : [];
+      } catch (_) { return []; }
+    }
+    function setFlashcardDecks(decks) {
+      localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(decks));
     }
 
     function getSavedSets() {
@@ -5010,6 +5128,201 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       sec.style.display = isExpanded ? 'none' : 'block';
       if (btn) btn.setAttribute('aria-expanded', String(!isExpanded));
     });
+
+    (function initFlashcards() {
+      let _flashcardCurrentDeckId = null;
+      let _flashcardTrainingDeck = null;
+      let _flashcardTrainingOrder = [];
+      let _flashcardTrainingIndex = 0;
+
+      function escapeHtml(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+      function escapeAttr(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
+
+      function renderFlashcardDeckList() {
+        const listEl = document.getElementById('flashcards-deck-list');
+        const emptyEl = document.getElementById('flashcards-empty');
+        if (!listEl || !emptyEl) return;
+        const decks = getFlashcardDecks();
+        if (decks.length === 0) {
+          listEl.innerHTML = '';
+          emptyEl.style.display = 'block';
+          return;
+        }
+        emptyEl.style.display = 'none';
+        listEl.innerHTML = decks.map(d => {
+          const count = (d.cards && d.cards.length) || 0;
+          return '<div class="flashcards-deck-item" data-deck-id="' + escapeAttr(String(d.id)) + '">' +
+            '<div><span class="name">' + escapeHtml(d.name || '未命名') + '</span><div class="meta">' + count + ' 张卡片</div></div>' +
+            '<div class="actions"><button type="button" class="btn btn-secondary btn-sm btn-delete-deck" aria-label="删除卡片组">删除</button></div></div>';
+        }).join('');
+        listEl.querySelectorAll('.flashcards-deck-item').forEach(el => {
+          const deckId = el.dataset.deckId;
+          el.querySelector('.name')?.closest('div')?.addEventListener('click', () => { _flashcardCurrentDeckId = deckId; showFlashcardDeckDetail(); });
+          el.querySelector('.btn-delete-deck')?.addEventListener('click', (e) => {
+            e.stopPropagation();
+            customConfirm('确定删除该卡片组？').then(ok => {
+              if (!ok) return;
+              const decks = getFlashcardDecks().filter(d => String(d.id) !== deckId);
+              setFlashcardDecks(decks);
+              renderFlashcardDeckList();
+            });
+          });
+        });
+      }
+
+      function showFlashcardDeckList() {
+        _flashcardCurrentDeckId = null;
+        document.getElementById('flashcards-deck-list-view').style.display = 'block';
+        document.getElementById('flashcards-deck-detail-view').style.display = 'none';
+        renderFlashcardDeckList();
+      }
+
+      function showFlashcardDeckDetail() {
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (!deck) { showFlashcardDeckList(); return; }
+        document.getElementById('flashcards-deck-list-view').style.display = 'none';
+        document.getElementById('flashcards-deck-detail-view').style.display = 'block';
+        document.getElementById('flashcards-deck-detail-title').textContent = deck.name || '未命名';
+        renderFlashcardCardList();
+      }
+
+      function renderFlashcardCardList() {
+        const listEl = document.getElementById('flashcards-card-list');
+        const emptyEl = document.getElementById('flashcards-cards-empty');
+        if (!listEl || !emptyEl) return;
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        const cards = (deck && deck.cards) ? deck.cards : [];
+        if (cards.length === 0) {
+          listEl.innerHTML = '';
+          emptyEl.style.display = 'block';
+          return;
+        }
+        emptyEl.style.display = 'none';
+        listEl.innerHTML = cards.map((c, i) => {
+          const frontPreview = (c.front || '').trim().slice(0, 40) + ((c.front || '').length > 40 ? '…' : '');
+          return '<div class="flashcards-card-item" data-index="' + i + '">' +
+            '<span class="preview">' + escapeHtml(frontPreview) + '</span>' +
+            '<button type="button" class="btn btn-secondary btn-sm btn-remove-card" aria-label="删除卡片">删除</button></div>';
+        }).join('');
+        listEl.querySelectorAll('.btn-remove-card').forEach(btn => {
+          const i = parseInt(btn.closest('.flashcards-card-item').dataset.index, 10);
+          btn.addEventListener('click', () => {
+            const decks = getFlashcardDecks();
+            const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+            if (!deck || !deck.cards) return;
+            deck.cards.splice(i, 1);
+            setFlashcardDecks(decks);
+            renderFlashcardCardList();
+          });
+        });
+      }
+
+      function openAddCardModal() {
+        document.getElementById('flashcard-input-front').value = '';
+        document.getElementById('flashcard-input-back').value = '';
+        document.getElementById('flashcard-add-card-overlay').style.display = 'flex';
+      }
+      function closeAddCardModal() {
+        document.getElementById('flashcard-add-card-overlay').style.display = 'none';
+      }
+      function saveFlashcardCard() {
+        const front = (document.getElementById('flashcard-input-front')?.value || '').trim();
+        const back = (document.getElementById('flashcard-input-back')?.value || '').trim();
+        if (!front && !back) { showToast('请至少填写正面或反面'); return; }
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (!deck) { closeAddCardModal(); return; }
+        if (!deck.cards) deck.cards = [];
+        deck.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front || '(空白)', back: back || '(空白)' });
+        setFlashcardDecks(decks);
+        renderFlashcardCardList();
+        closeAddCardModal();
+        showToast('已添加');
+      }
+
+      function startTraining() {
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (!deck || !deck.cards || deck.cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
+        _flashcardTrainingDeck = deck;
+        _flashcardTrainingOrder = deck.cards.map((_, i) => i).sort(() => Math.random() - 0.5);
+        _flashcardTrainingIndex = 0;
+        document.getElementById('flashcard-card-inner').classList.remove('flipped');
+        document.getElementById('flashcard-training-overlay').style.display = 'flex';
+        updateFlashcardTrainingCard();
+      }
+
+      function updateFlashcardTrainingCard() {
+        const order = _flashcardTrainingOrder;
+        const idx = order[_flashcardTrainingIndex];
+        const card = _flashcardTrainingDeck && _flashcardTrainingDeck.cards && _flashcardTrainingDeck.cards[idx];
+        const progressEl = document.getElementById('flashcard-training-progress');
+        const frontEl = document.getElementById('flashcard-side-front');
+        const backEl = document.getElementById('flashcard-side-back');
+        if (!card) {
+          if (progressEl) progressEl.textContent = '没有更多卡片';
+          if (frontEl) frontEl.textContent = '';
+          if (backEl) backEl.textContent = '';
+          return;
+        }
+        if (progressEl) progressEl.textContent = (_flashcardTrainingIndex + 1) + ' / ' + order.length;
+        if (frontEl) frontEl.textContent = card.front || '';
+        if (backEl) backEl.textContent = card.back || '';
+        document.getElementById('flashcard-card-inner').classList.remove('flipped');
+      }
+
+      function closeFlashcardTraining() {
+        document.getElementById('flashcard-training-overlay').style.display = 'none';
+        _flashcardTrainingDeck = null;
+      }
+
+      document.getElementById('btn-enter-flashcards').addEventListener('click', () => {
+        showScreen(SCREEN.FLASHCARDS);
+        showFlashcardDeckList();
+      });
+      document.getElementById('btn-flashcards-back').addEventListener('click', () => showScreen(SCREEN.HOME));
+      document.getElementById('btn-flashcards-add-deck').addEventListener('click', () => {
+        customPrompt('输入卡片组名称', '').then(name => {
+          if (name === null || !(name && name.trim())) return;
+          const decks = getFlashcardDecks();
+          const newDeck = { id: String(Date.now()), name: name.trim(), cards: [], createdAt: new Date().toISOString() };
+          decks.unshift(newDeck);
+          setFlashcardDecks(decks);
+          renderFlashcardDeckList();
+          _flashcardCurrentDeckId = newDeck.id;
+          showFlashcardDeckDetail();
+          showToast('已创建');
+        });
+      });
+      document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
+      document.getElementById('btn-flashcards-add-card').addEventListener('click', openAddCardModal);
+      document.getElementById('btn-flashcards-start-train').addEventListener('click', startTraining);
+      document.getElementById('btn-flashcard-cancel-card').addEventListener('click', closeAddCardModal);
+      document.getElementById('btn-flashcard-save-card').addEventListener('click', saveFlashcardCard);
+      document.getElementById('flashcard-card-wrap').addEventListener('click', () => {
+        document.getElementById('flashcard-card-inner').classList.toggle('flipped');
+      });
+      document.getElementById('btn-flashcard-prev').addEventListener('click', () => {
+        if (_flashcardTrainingIndex > 0) { _flashcardTrainingIndex--; updateFlashcardTrainingCard(); }
+      });
+      document.getElementById('btn-flashcard-next').addEventListener('click', () => {
+        if (_flashcardTrainingIndex < _flashcardTrainingOrder.length - 1) { _flashcardTrainingIndex++; updateFlashcardTrainingCard(); }
+        else { showToast('已是最后一张'); }
+      });
+      document.getElementById('btn-flashcard-close-training').addEventListener('click', closeFlashcardTraining);
+      document.addEventListener('keydown', function flashcardKeydown(e) {
+        if (e.key !== 'Escape') return;
+        if (document.getElementById('flashcard-training-overlay').style.display === 'flex') {
+          closeFlashcardTraining();
+          e.preventDefault();
+        } else if (document.getElementById('flashcard-add-card-overlay').style.display === 'flex') {
+          closeAddCardModal();
+          e.preventDefault();
+        }
+      });
+    })();
 
     document.getElementById('btn-import-parse').addEventListener('click', () => {
       const parseBtn = document.getElementById('btn-import-parse');
