@@ -460,6 +460,26 @@
       color: var(--text-muted);
       margin-top: 0.5rem;
     }
+    .import-paste-images { margin-top: 0.75rem; }
+    .import-paste-images-hint { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .import-paste-zone {
+      min-height: 56px;
+      padding: 0.5rem 0.75rem;
+      border: 2px dashed rgba(255,255,255,0.2);
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .import-paste-zone:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--text); }
+    .import-paste-zone:focus { outline: none; border-color: var(--accent); }
+    body.theme-light .import-paste-zone { border-color: rgba(0,0,0,0.15); background: var(--card); }
+    .import-pasted-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+    .import-pasted-item { position: relative; flex-shrink: 0; }
+    .import-pasted-item img { display: block; max-width: 80px; max-height: 80px; border-radius: 8px; border: 1px solid var(--border-strong); }
+    .import-pasted-item .import-pasted-remove { position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border-radius: 50%; border: none; background: rgba(0,0,0,0.6); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; }
 
     /* Quiz */
     .progress-wrap {
@@ -1509,9 +1529,12 @@
     .import-name-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-name-wrap input { width: 100%; max-width: 320px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); }
     .import-folder-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0.35rem; }
+    .import-description-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem; margin-bottom: 0.35rem; }
     .import-name-wrap select { max-width: 280px; padding: 0.5rem 0.75rem; font-size: 0.9rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); }
+    .import-name-wrap textarea { width: 100%; max-width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); resize: vertical; min-height: 4rem; }
     body.theme-light .import-name-wrap input { background: var(--card); border-color: var(--border-strong); }
     body.theme-light .import-name-wrap select { background: var(--card); border-color: var(--border-strong); }
+    body.theme-light .import-name-wrap textarea { background: var(--card); border-color: var(--border-strong); }
     .import-review-wrap { margin-top: 0.75rem; }
     .import-review-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-review-wrap textarea { width: 100%; max-width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); resize: vertical; min-height: 4rem; }
@@ -2161,10 +2184,17 @@
           <select id="import-set-folder">
             <option value="">未分类</option>
           </select>
+          <label for="import-set-description" class="import-description-label">习题集介绍（可选，纯文本，可作为习题集说明）</label>
+          <textarea id="import-set-description" rows="3" placeholder="粘贴或输入习题集介绍文本…" autocomplete="off"></textarea>
         </div>
         <div class="import-review-wrap">
           <label for="import-review-urls">练习前复习资料（可选，每行一个 URL，开始练习前可先看）</label>
           <textarea id="import-review-urls" rows="3" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
+          <div class="import-paste-images" id="import-paste-images">
+            <span class="import-paste-images-hint">图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴（支持多个图片）</span>
+            <div class="import-paste-zone" id="import-paste-zone" tabindex="0" role="button" aria-label="点击后按 Ctrl+V 或 Cmd+V 粘贴图片">粘贴图片到此处</div>
+            <div class="import-pasted-list" id="import-pasted-list"></div>
+          </div>
         </div>
         <p class="import-dup-hint">重复题目（题干+选项+答案相同）将自动跳过，仅保留一道。</p>
         <button type="button" class="btn btn-primary" id="btn-import-parse" style="margin-top: 0.75rem;">解析并开始</button>
@@ -3502,6 +3532,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     let _editingSetId = null;
     let _editModalPastedImages = [];
+    let _importPastedImages = [];
     function isDataImageUrl(s) { return typeof s === 'string' && /^data:image\//i.test(s.trim()); }
     function isLikelyUrl(str) {
       const s = (str || '').trim();
@@ -3564,6 +3595,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const i = parseInt(this.closest('.edit-set-pasted-item').dataset.index, 10);
           _editModalPastedImages.splice(i, 1);
           renderEditModalPastedImages();
+        });
+      });
+    }
+    function renderImportPastedImages() {
+      const listEl = document.getElementById('import-pasted-list');
+      if (!listEl) return;
+      listEl.innerHTML = _importPastedImages.map((dataUrl, i) =>
+        '<div class="import-pasted-item" data-index="' + i + '">' +
+        '<img src="' + safeImageSrc(dataUrl) + '" alt="" loading="lazy" />' +
+        '<button type="button" class="import-pasted-remove" aria-label="删除该图片">×</button></div>'
+      ).join('');
+      listEl.querySelectorAll('.import-pasted-remove').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const i = parseInt(this.closest('.import-pasted-item').dataset.index, 10);
+          _importPastedImages.splice(i, 1);
+          renderImportPastedImages();
         });
       });
     }
@@ -3681,21 +3728,31 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (textEl) textEl.focus();
         return;
       }
-      text = normalizeJsonPaste(text);
       const appendBtn = document.getElementById('btn-edit-set-append');
       const origAppendText = appendBtn ? appendBtn.textContent : '';
       if (appendBtn) { appendBtn.disabled = true; appendBtn.textContent = '解析中…'; }
       let parsed = [];
       let appendParseError = '';
       if (/^\s*[\[{]/.test(text)) {
+        // 先尝试直接解析原始文本
         try {
           const data = JSON.parse(text);
           parsed = Array.isArray(data) ? data : (data.questions || []);
         } catch (e) {
-          appendParseError = (e && (e.message || String(e))) || '';
+          // 如果失败，尝试规范化后再解析
+          const normalized = normalizeJsonPaste(text);
+          try {
+            const data = JSON.parse(normalized);
+            parsed = Array.isArray(data) ? data : (data.questions || []);
+          } catch (e2) {
+            appendParseError = (e2 && (e2.message || String(e2))) || (e && (e.message || String(e))) || '';
+          }
         }
       }
-      if (parsed.length === 0) parsed = parsePastedText(text);
+      if (parsed.length === 0) {
+        const normalized = normalizeJsonPaste(text);
+        parsed = parsePastedText(normalized);
+      }
       if (appendBtn) { appendBtn.disabled = false; appendBtn.textContent = origAppendText; }
       if (parsed.length === 0) {
         showToast(appendParseError ? 'JSON 解析失败：' + appendParseError : '未能解析出题目，请检查格式');
@@ -3973,20 +4030,89 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function normalizeJsonPaste(str) {
       if (typeof str !== 'string') return str;
-      return str
-        .replace(/\uFEFF/g, '')
-        .replace(/\u00A0/g, ' ')
-        .replace(/\u200B|\u200C|\u200D|\u2060/g, '')
-        .replace(/\u201C/g, '"')
-        .replace(/\u201D/g, '"')
-        .replace(/\u2018/g, "'")
-        .replace(/\u2019/g, "'")
-        .replace(/\uFF3B/g, '[')
-        .replace(/\uFF3D/g, ']')
-        .replace(/\uFF5B/g, '{')
-        .replace(/\uFF5D/g, '}')
-        .replace(/,(\s*[\]}])/g, '$1')
-        .trim();
+      // 先尝试直接解析，如果成功则不需要规范化
+      try {
+        JSON.parse(str);
+        // 如果解析成功，只做最基本的清理（BOM 和零宽字符）
+        return str
+          .replace(/\uFEFF/g, '')
+          .replace(/\u200B|\u200C|\u200D|\u2060/g, '')
+          .trim();
+      } catch (_) {
+        // 解析失败时才进行规范化处理
+        // 策略：在 JSON 字符串值内部，将未转义的标准引号和中文引号都转义
+        let result = str
+          .replace(/\uFEFF/g, '')
+          .replace(/\u00A0/g, ' ')
+          .replace(/\u200B|\u200C|\u200D|\u2060/g, '');
+        
+        // 使用状态机方法：遍历字符串，跟踪是否在字符串值内部
+        let inString = false;
+        let escaped = false;
+        let output = '';
+        for (let i = 0; i < result.length; i++) {
+          const char = result[i];
+          const code = char.charCodeAt(0);
+          
+          if (escaped) {
+            output += char;
+            escaped = false;
+            continue;
+          }
+          
+          if (char === '\\') {
+            output += char;
+            escaped = true;
+            continue;
+          }
+          
+          if (char === '"') {
+            if (inString) {
+              // 在字符串值内部遇到引号，需要转义（除非这是字符串的结束）
+              // 检查下一个非空白字符，如果是 : 或 , 或 } 或 ]，则这是字符串结束
+              let j = i + 1;
+              while (j < result.length && /\s/.test(result[j])) j++;
+              const nextChar = j < result.length ? result[j] : '';
+              if (nextChar === ':' || nextChar === ',' || nextChar === '}' || nextChar === ']') {
+                // 这是字符串结束引号
+                output += char;
+                inString = false;
+              } else {
+                // 这是字符串内部的引号，需要转义
+                output += '\\"';
+              }
+            } else {
+              // 字符串开始引号
+              output += char;
+              inString = true;
+            }
+            continue;
+          }
+          
+          if (inString) {
+            // 在字符串值内部，替换中文引号为转义的标准引号
+            if (code === 0x201C || code === 0x201D) {
+              output += '\\"';
+            } else if (code === 0x2018 || code === 0x2019) {
+              output += "\\'";
+            } else {
+              output += char;
+            }
+          } else {
+            // 在字符串值外部，替换结构性的 Unicode 字符
+            if (code === 0xFF3B) output += '[';
+            else if (code === 0xFF3D) output += ']';
+            else if (code === 0xFF5B) output += '{';
+            else if (code === 0xFF5D) output += '}';
+            else output += char;
+          }
+        }
+        
+        // 移除尾随逗号
+        result = output.replace(/,(\s*[\]}])/g, '$1').trim();
+        
+        return result;
+      }
     }
     function parsePastedText(text) {
       const questions = [];
@@ -4911,7 +5037,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
         const nameInput = document.getElementById('import-set-name');
         const reviewInput = document.getElementById('import-review-urls');
+        const descriptionInput = document.getElementById('import-set-description');
         const name = (nameInput && nameInput.value ? nameInput.value.trim() : '') || ('未命名 ' + formatSavedSetDate(new Date().toISOString()));
+        const description = (descriptionInput && descriptionInput.value ? descriptionInput.value.trim() : '') || undefined;
         const rawLines = (reviewInput && reviewInput.value ? reviewInput.value.trim().split(/\n/) : [])
           .map(s => s.trim())
           .filter(s => s.length > 0);
@@ -4923,6 +5051,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           else if (isLikelyUrl(s)) reviewLinks.push(/^https?:\/\//i.test(s) ? s : 'https://' + s);
           else reviewTexts.push(s);
         });
+        _importPastedImages.forEach(img => reviewImages.push(img));
         const folderSel = document.getElementById('import-set-folder');
         const folderId = (folderSel && folderSel.value) ? folderSel.value : null;
         const saved = {
@@ -4935,7 +5064,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           lastPracticedAt: null,
           reviewTexts,
           reviewLinks,
-          reviewImages
+          reviewImages,
+          description: description
         };
         const all = getSavedSets();
         all.unshift(saved);
@@ -4948,6 +5078,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (importText) importText.value = '';
         if (nameInput) nameInput.value = '';
         if (reviewInput) reviewInput.value = '';
+        if (descriptionInput) descriptionInput.value = '';
+        _importPastedImages = [];
+        renderImportPastedImages();
       } else {
         showToast('未能解析出题目，请检查格式');
       }
@@ -5307,6 +5440,39 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             break;
           }
         }
+      });
+    })();
+    (function initImportPasteZone() {
+      const zone = document.getElementById('import-paste-zone');
+      if (!zone) return;
+      zone.addEventListener('paste', function(e) {
+        const items = e.clipboardData && e.clipboardData.items;
+        if (!items) return;
+        const imageItems = [];
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].type.indexOf('image') !== -1) {
+            e.preventDefault();
+            const file = items[i].getAsFile();
+            if (file) imageItems.push(file);
+          }
+        }
+        if (imageItems.length === 0) return;
+        let loadedCount = 0;
+        imageItems.forEach(file => {
+          const reader = new FileReader();
+          reader.onload = function() {
+            const dataUrl = reader.result;
+            if (dataUrl && typeof dataUrl === 'string') {
+              _importPastedImages.push(dataUrl);
+              loadedCount++;
+              renderImportPastedImages();
+              if (loadedCount === imageItems.length && imageItems.length > 1) {
+                showToast('已粘贴 ' + imageItems.length + ' 张图片');
+              }
+            }
+          };
+          reader.readAsDataURL(file);
+        });
       });
     })();
     document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
