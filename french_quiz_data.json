@@ -4476,15 +4476,6 @@
         },
         {
           "type": "fill_blank",
-          "stem": "Les enfants mangent _____ fruits.",
-          "correct": [
-            "des"
-          ],
-          "explanation": "fruits 为复数名词，肯定句中表示吃一些水果，用 des。",
-          "category": "部分冠词"
-        },
-        {
-          "type": "fill_blank",
           "stem": "Je n’aime pas _____ viande.",
           "correct": [
             "la"

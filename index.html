@@ -1051,6 +1051,7 @@
     .import-review-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
     .import-review-wrap textarea { width: 100%; max-width: 100%; padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: inherit; background: var(--bg); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: var(--text); resize: vertical; min-height: 4rem; }
     body.theme-light .import-review-wrap textarea { background: var(--bg); border-color: rgba(0,0,0,0.12); }
+    .import-dup-hint { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem; }
     .storage-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
     .storage-desc code { font-size: 0.75em; padding: 0.15em 0.4em; background: var(--bg); border-radius: 4px; }
     .storage-security-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; padding: 0.65rem 0.85rem; background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); line-height: 1.5; }
@@ -1432,6 +1433,7 @@
           <label for="import-review-urls">练习前复习资料（可选，每行一个 URL，开始练习前可先看）</label>
           <textarea id="import-review-urls" rows="3" placeholder="https://…&#10;https://…" autocomplete="off"></textarea>
         </div>
+        <p class="import-dup-hint">重复题目（题干+选项+答案相同）将自动跳过，仅保留一道。</p>
         <button type="button" class="btn btn-primary" id="btn-import-parse" style="margin-top: 0.75rem;">解析并开始</button>
         </div>
       </div>
@@ -2747,13 +2749,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === String(_editingSetId));
       if (!set || !Array.isArray(set.questions)) return;
-      const newQuestions = set.questions.concat(parsed);
+      const existingFps = new Set(set.questions.map(q => wrongBookItemId(q)));
+      const toAdd = [];
+      let dupCount = 0;
+      for (let i = 0; i < parsed.length; i++) {
+        const fp = wrongBookItemId(parsed[i]);
+        if (existingFps.has(fp)) dupCount++; else { existingFps.add(fp); toAdd.push(parsed[i]); }
+      }
+      const newQuestions = set.questions.concat(toAdd);
       const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { questions: newQuestions }) : s);
       setSavedSets(updated);
       const metaEl = document.getElementById('edit-set-meta');
       if (metaEl) metaEl.textContent = newQuestions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次';
       if (textEl) textEl.value = '';
-      showToast('已追加 ' + parsed.length + ' 题，当前共 ' + newQuestions.length + ' 题');
+      showToast('已追加 ' + toAdd.length + ' 题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : '') + '，当前共 ' + newQuestions.length + ' 题');
     }
     function deleteFromEditModal() {
       if (_editingSetId == null) return;
@@ -3798,6 +3807,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (parsed.length === 0) parsed = parsePastedText(text);
       if (parseBtn) { parseBtn.disabled = false; parseBtn.textContent = origText; }
       if (parsed.length > 0) {
+        const seen = new Set();
+        const deduped = [];
+        let dupCount = 0;
+        for (let i = 0; i < parsed.length; i++) {
+          const fp = wrongBookItemId(parsed[i]);
+          if (seen.has(fp)) dupCount++; else { seen.add(fp); deduped.push(parsed[i]); }
+        }
         const nameInput = document.getElementById('import-set-name');
         const reviewInput = document.getElementById('import-review-urls');
         const name = (nameInput && nameInput.value ? nameInput.value.trim() : '') || ('未命名 ' + formatSavedSetDate(new Date().toISOString()));
@@ -3819,7 +3835,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           name: name,
           folderId: folderId || undefined,
           createdAt: new Date().toISOString(),
-          questions: parsed,
+          questions: deduped,
           practiceCount: 0,
           lastPracticedAt: null,
           reviewTexts,
@@ -3829,7 +3845,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const all = getSavedSets();
         all.unshift(saved);
         setSavedSets(all);
-        startQuiz(parsed);
+        startQuiz(deduped);
+        showToast('已加入 ' + deduped.length + ' 道新题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : ''));
         document.getElementById('import-section').style.display = 'none';
         document.getElementById('import-text').value = '';
         if (nameInput) nameInput.value = '';
