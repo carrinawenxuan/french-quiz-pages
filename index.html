@@ -6,13 +6,16 @@
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#0c0a14" />
   <meta name="description" content="法语练习 · TCF 填空、段落填空、单选、多选，支持错题本与习题集管理" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self';" />
   <title>Français Quiz · 法语练习</title>
   <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzZkMjhkOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiNWNmNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjgiIGZpbGw9InVybCgjYmcpIi8+PHJlY3QgeD0iOSIgeT0iOCIgd2lkdGg9IjMuMiIgaGVpZ2h0PSIxNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI5IiB5PSI4IiB3aWR0aD0iMTEiIGhlaWdodD0iMi44IiByeD0iMSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjkiIHk9IjE1IiB3aWR0aD0iNi41IiBoZWlnaHQ9IjIuNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMTguNSA2LjJsMiAyLjIiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" type="image/svg+xml" />
   <link rel="icon" href="favicon.svg?v=3" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" as="style" />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
   <style>
     :root {
       --bg: #0c0a14;
@@ -63,6 +66,9 @@
     *:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 2px;
+    }
+    @media (pointer: coarse) {
+      .btn, .storage-card, .saved-sets-item .btn, .option { min-height: 44px; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
@@ -919,6 +925,8 @@
       word-break: break-all;
     }
     .format-doc .type-tag { color: var(--accent); font-weight: 600; }
+    .format-doc-hint { margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; }
+    .format-doc-hint code { font-size: 0.75em; padding: 0.1em 0.35em; background: var(--surface); border-radius: 4px; }
 
     .saved-sets {
       margin-top: 1.5rem;
@@ -1426,7 +1434,7 @@
         <h2>我的习题集</h2>
         <div class="saved-sets-search">
           <div class="saved-sets-search-wrap">
-            <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" />
+            <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" aria-label="搜索习题集名称" />
           </div>
         </div>
         <div class="saved-sets-folders-bar" id="saved-sets-folders-bar">
@@ -1514,6 +1522,7 @@
           <pre>题型：Nous ______ une lettre à nos parents.
 A) écris  B) écrit  C) écrivons  D) écrivent
 正确：C</pre>
+          <p class="format-doc-hint"><strong>分类筛选：</strong>题目 JSON 中可带 <code>category</code> 字段（如 <code>"category":"语法"</code>），选习题集后可按分类筛题；无 <code>category</code> 时仅显示「全部」。</p>
         </div>
       </div>
     </div>
@@ -1652,7 +1661,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         </div>
         <div class="edit-set-paste-images" id="edit-set-paste-images">
           <span class="edit-set-paste-images-hint">图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴</span>
-          <div class="edit-set-paste-zone" id="edit-set-paste-zone" tabindex="0">粘贴图片到此处</div>
+          <div class="edit-set-paste-zone" id="edit-set-paste-zone" tabindex="0" role="button" aria-label="点击后按 Ctrl+V 或 Cmd+V 粘贴图片">粘贴图片到此处</div>
           <div class="edit-set-pasted-list" id="edit-set-pasted-list"></div>
         </div>
       </div>
@@ -2099,7 +2108,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
         showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : ''));
       } catch (e) {
-        showToast('加载失败，请检查网络或稍后再试');
+        showToast('加载失败，请检查网络或稍后再试。若仍失败可尝试「从文件导入」');
       }
       if (btn) { btn.disabled = false; btn.textContent = '从云端加载（手机同步习题集）'; }
     }
@@ -2197,7 +2206,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           loadDataFromObject(data);
           showToast('已从文件导入数据');
         } catch (e) {
-          showToast('文件格式错误：' + (e.message || String(e)));
+          showToast('文件格式错误，请确认是有效的 JSON：' + (e.message || String(e)));
         } finally {
           if (btn) { btn.disabled = false; if (titleEl) titleEl.textContent = origTitle; }
         }
@@ -2355,7 +2364,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const fid = String(f.id);
         const collapsed = collapsedState[fid];
         const collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
-        html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="' + escapeHtml(fid) + '" data-is-uncategorized="false">' +
+        html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="' + escapeAttr(fid) + '" data-is-uncategorized="false">' +
           '<div class="saved-sets-folder-header">' +
           '<button type="button" class="saved-sets-folder-toggle">' +
           '<span class="folder-icon-wrap">' + folderIconSvg + '</span>' +
@@ -2385,6 +2394,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (hasMore) {
         html += '<div class="saved-sets-show-more-wrap"><button type="button" class="btn btn-secondary saved-sets-show-more" id="btn-saved-sets-show-more">显示更多（共 ' + orderedSets.length + ' 套）</button></div>';
       }
+      requestAnimationFrame(() => {
       listEl.innerHTML = html;
       listEl.querySelectorAll('.saved-sets-folder-toggle').forEach(toggleBtn => {
         toggleBtn.addEventListener('click', function() {
@@ -2432,6 +2442,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _savedSetsDisplayLimit = Infinity;
         renderSavedSets();
       });
+      });
     }
     function renderFolderTags() {
       const tagsEl = document.getElementById('saved-sets-folder-tags');
@@ -2439,9 +2450,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const folders = getFolders();
       const folderIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>';
       tagsEl.innerHTML = folders.map(f => {
-        return '<span class="folder-tag" data-folder-id="' + escapeHtml(String(f.id)) + '">' +
+        return '<span class="folder-tag" data-folder-id="' + escapeAttr(String(f.id)) + '">' +
           '<span class="folder-tag-icon">' + folderIconSvg + '</span>' +
-          '<span class="folder-tag-name" title="' + escapeHtml(f.name) + '">' + escapeHtml(f.name) + '</span>' +
+          '<span class="folder-tag-name" title="' + escapeAttr(f.name) + '">' + escapeHtml(f.name) + '</span>' +
           '<button type="button" class="folder-tag-edit" aria-label="重命名">✎</button>' +
           '<button type="button" class="folder-tag-delete" aria-label="删除">×</button>' +
           '</span>';
@@ -2549,7 +2560,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!listEl) return;
       listEl.innerHTML = _editModalPastedImages.map((dataUrl, i) =>
         '<div class="edit-set-pasted-item" data-index="' + i + '">' +
-        '<img src="' + safeImageSrc(dataUrl) + '" alt="" />' +
+        '<img src="' + safeImageSrc(dataUrl) + '" alt="" loading="lazy" />' +
         '<button type="button" class="edit-set-pasted-remove" aria-label="删除该图片">×</button></div>'
       ).join('');
       listEl.querySelectorAll('.edit-set-pasted-remove').forEach(btn => {
@@ -3039,7 +3050,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         imagesEl.innerHTML = m.images.map(dataUrl => {
           const safeSrc = safeImageSrc(dataUrl);
           if (!safeSrc) return '';
-          return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" title="点击放大" /></div>';
+          return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" title="点击放大" loading="lazy" /></div>';
         }).join('');
         imagesEl.style.display = m.images.length ? 'flex' : 'none';
       }
@@ -3844,7 +3855,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       };
     }
     const searchInput = document.getElementById('saved-sets-search');
-    if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 160));
+    if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 180));
     document.getElementById('saved-sets-list').addEventListener('click', handleSavedSetsAction);
     document.getElementById('btn-add-folder').addEventListener('click', () => {
       const name = prompt('输入文件夹名称', '');
