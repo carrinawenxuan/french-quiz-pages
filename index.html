@@ -2545,7 +2545,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
       <div class="sync-text-content" id="sync-text-generate" style="display: block;">
         <p class="sync-text-desc">生成包含所有数据的同步内容。数据量大时建议用「下载为文件」，再通过微信/邮件/AirDrop 传到电脑后「从文件导入」。</p>
-        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，生成和导入时都需要输入 PIN。</p>
+        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 已启用导入保护时，仅已绑定设备可生成；未绑定设备无法导入或追加。</p>
         <button type="button" class="btn btn-primary" id="btn-generate-sync-text-inner">生成同步文本</button>
         <div class="sync-text-result" id="sync-text-result" style="display: none;">
           <label for="sync-text-output">同步文本（点击全选复制）：</label>
@@ -2559,7 +2559,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
       <div class="sync-text-content" id="sync-text-import" style="display: none;">
         <p class="sync-text-desc">粘贴从手机端生成的同步文本，点击导入即可同步数据到电脑。</p>
-        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，需要输入 PIN 才能导入。如果已绑定设备，只能在绑定的设备上导入。</p>
+        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 已启用导入保护时，仅已绑定设备可导入；绑定设备上无需输入 PIN。</p>
         <label for="sync-text-input">同步文本：</label>
         <textarea id="sync-text-input" rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;" placeholder="粘贴同步文本，或使用下方「从文件导入」选择手机传过来的文件"></textarea>
         <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
@@ -2755,16 +2755,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     async function checkImportPin() {
-      if (!canImportOnThisDevice()) {
-        showToast('仅允许在已绑定的电脑上导入，当前设备未绑定');
+      if (isImportLockEnabled() && !canImportOnThisDevice()) {
+        showToast('仅允许在已绑定的设备上导入或追加，当前设备未绑定');
         return false;
       }
       if (!isImportLockEnabled()) return true;
-      const pin = await customPromptPin('请输入主人 PIN 以继续导入');
-      if (pin === null) return false;
-      const ok = await verifyImportPin(pin);
-      if (!ok) showToast('PIN 错误');
-      return ok;
+      // 已绑定设备不再要求输入 PIN
+      return true;
     }
     function updateImportLockUI() {
       const statusText = document.getElementById('import-lock-status-text');
@@ -3088,6 +3085,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStartPracticeSelect();
     }
     async function loadFromCloud() {
+      if (isImportLockEnabled() && !canImportOnThisDevice()) {
+        showToast('仅允许在已绑定的设备上导入，当前设备未绑定');
+        return;
+      }
       let url = DATA_FILE_NAME;
       if (typeof location !== 'undefined' && location.origin) {
         const dir = location.pathname.replace(/\/[^/]*$/, '') || '/';
@@ -3202,6 +3203,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       URL.revokeObjectURL(a.href);
     }
     function importDataFromFile(file) {
+      if (isImportLockEnabled() && !canImportOnThisDevice()) {
+        showToast('仅允许在已绑定的设备上导入，当前设备未绑定');
+        return;
+      }
       const btn = document.getElementById('btn-import-data');
       const titleEl = btn && btn.querySelector('.title');
       const origTitle = titleEl ? titleEl.textContent : '';
@@ -5510,15 +5515,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
     async function generateSyncText() {
-      // 检查 PIN 保护
-      if (isImportLockEnabled()) {
-        const pin = await customPromptPin('请输入主人 PIN 以生成同步文本');
-        if (pin === null) return;
-        const ok = await verifyImportPin(pin);
-        if (!ok) {
-          showToast('PIN 错误');
-          return;
-        }
+      if (isImportLockEnabled() && !canImportOnThisDevice()) {
+        showToast('仅允许在已绑定的设备上生成同步文本，当前设备未绑定');
+        return;
       }
       try {
         const data = getDataForExport();
@@ -5546,15 +5545,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('仅允许在已绑定的设备上导入同步数据，当前设备未绑定');
         return;
       }
-      if (isImportLockEnabled()) {
-        const pin = await customPromptPin('请输入主人 PIN 以导入同步数据');
-        if (pin === null) return;
-        const ok = await verifyImportPin(pin);
-        if (!ok) {
-          showToast('PIN 错误');
-          return;
-        }
-      }
+      // 已绑定设备不再要求输入 PIN
       const confirmed = await customConfirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？');
       if (!confirmed) return;
       try {

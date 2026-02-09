@@ -261,6 +261,263 @@
           "correct": 2,
           "explanation": "【B1 极不规则】Mourir (死) 的分词是 Mort。主语是 grand-père (阳性)，所以不加 e。",
           "category": "B1-极不规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ (falloir) partir tout de suite.",
+          "options": [
+            "fallu",
+            "failli",
+            "fallé",
+            "falu"
+          ],
+          "correct": 0,
+          "explanation": "【B1 易混词】Falloir (必须) 的分词是 Fallu。Failli 是 Faillir (差点儿) 的分词。这是听力中极易混淆的一对。",
+          "category": "不规则-容易混淆"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce projet a ______ (valoir) la peine.",
+          "options": [
+            "valu",
+            "vaillé",
+            "vallu",
+            "validé"
+          ],
+          "correct": 0,
+          "explanation": "【B1 易错拼写】Valoir (值得) 的分词是 Valu。注意只有一个 l，不要和 falloir (两个 l) 搞混。",
+          "category": "不规则-拼写细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont ______ (courir) pour attraper le bus.",
+          "options": [
+            "couri",
+            "couru",
+            "cours",
+            "courru"
+          ],
+          "correct": 1,
+          "explanation": "【A2 基础不规则】Courir (跑) 的分词是 Couru。注意拼写：中间只有一个 r。",
+          "category": "不规则-u结尾"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons ______ (rire) aux larmes.",
+          "options": [
+            "rit",
+            "ri",
+            "ris",
+            "rie"
+          ],
+          "correct": 1,
+          "explanation": "【B2 陷阱】Rire (笑) 的分词极短，就是 Ri。没有 t，也没有 s。Sourire (微笑) 同理 -> Souri。",
+          "category": "不规则-极短分词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ (suivre) ses conseils.",
+          "options": [
+            "suivi",
+            "suivie",
+            "suit",
+            "suiv"
+          ],
+          "correct": 0,
+          "explanation": "【B1 易混】Suivre (跟随) 的分词是 Suivi。不要和 Être 的 Je suis (我是) 搞混。Suivre -> J'ai suivi (我跟随了)。",
+          "category": "不规则-i结尾"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont ______ (sourire).",
+          "options": [
+            "souri",
+            "souris",
+            "sourit",
+            "souries"
+          ],
+          "correct": 0,
+          "explanation": "【B2 致命杀手】Sourire 是 Rire 的衍生词。Sourire à qqn (对某人微笑) 是间接及物动词！所以 Se 是间接宾语 -> 永远不配合！选 Souri。",
+          "category": "代动词-不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est ______ (asseoir) près de moi.",
+          "options": [
+            "assis",
+            "assise",
+            "assit",
+            "asseoiré"
+          ],
+          "correct": 1,
+          "explanation": "【B2 高频难词】S'asseoir (坐下) 的分词是 Assis。这里主语是 Elle，且 Se 是直接宾语 (她把她自己安置座位上)，必须配合 -> Assise。",
+          "category": "不规则-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ (craindre) le pire.",
+          "options": [
+            "craindu",
+            "craint",
+            "craigni",
+            "crain"
+          ],
+          "correct": 1,
+          "explanation": "【B2 变位规律】Craindre (害怕) 属于 -aindre 结尾，分词变 -aint。同理：Peindre -> Peint, Éteindre (熄灭) -> Éteint。",
+          "category": "不规则-aindre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La lumière est ______ (éteindre).",
+          "options": [
+            "éteindu",
+            "éteinte",
+            "éteint",
+            "éteigne"
+          ],
+          "correct": 1,
+          "explanation": "【B2 配合】Éteindre 分词是 Éteint。这里用 Être (被动语态或形容词化：灯是熄灭的)，主语 Lumière (阴性) -> Éteinte。",
+          "category": "不规则-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont ______ (résoudre) le problème.",
+          "options": [
+            "résolu",
+            "résous",
+            "résolvé",
+            "résoudu"
+          ],
+          "correct": 0,
+          "explanation": "【C1 难词】Résoudre (解决) 的分词是 Résolu。Absoudre (赦免) -> Absous。",
+          "category": "极不规则-olu"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ (suffire) à elle-même.",
+          "options": [
+            "suffi",
+            "suffit",
+            "suffis",
+            "suffie"
+          ],
+          "correct": 0,
+          "explanation": "【B2 陷阱】Suffire (足够) 的分词是 Suffi。注意：Suffire 后面接 à，所以它是间接及物动词。如果不小心用了 Se suffire，也是不配合的。",
+          "category": "不规则-i结尾"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les fleurs que j'ai ______ (cueillir).",
+          "options": [
+            "cueilli",
+            "cueillies",
+            "cueillis",
+            "cueillite"
+          ],
+          "correct": 1,
+          "explanation": "【B1 伪装者】Cueillir (采摘) 变位像第一组 (Je cueille)，但分词是 Cueilli (像第二组)。Que 指代 fleurs (阴复)，在前 -> Cueillies。",
+          "category": "不规则-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ (convaincre) le jury.",
+          "options": [
+            "convaincu",
+            "convainc",
+            "convainqui",
+            "convainque"
+          ],
+          "correct": 0,
+          "explanation": "【B2 难词】Convaincre (说服) 分词是 Convaincu (保留 c, 变成 u)。Vaincre (战胜) -> Vaincu。",
+          "category": "不规则-re结尾"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils ont _____ (construire) une maison. Elle est _____ (construire) en bois.",
+          "correct": [
+            "construit",
+            "construite"
+          ],
+          "explanation": "【B1 动词】Construire (建造) -> Construit。第一空 Avoir 不配合，第二空 Être (被动) 配合 Elle -> Construite。",
+          "category": "不规则-uire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ (conduire) toute la nuit.",
+          "options": [
+            "condui",
+            "conduit",
+            "conduise",
+            "conduite"
+          ],
+          "correct": 1,
+          "explanation": "【B1 动词】Conduire (驾驶) -> Conduit。Produire (生产) -> Produit。Traduire (翻译) -> Traduit。口诀：所有 -uire 都是 -uit。",
+          "category": "不规则-uire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les poissons que j'ai ______ (frire).",
+          "options": [
+            "fri",
+            "frit",
+            "frits",
+            "fris"
+          ],
+          "correct": 3,
+          "explanation": "【C1 冷门词】Frire (油炸) 的分词是 Frit。Que 指代 Poissons (阳复) -> Frits。此处选项D为fris拼写可能有误，正确分词形式是 frit，阳性复数 frits。若选项是 'frits' 则选之。此题修正：Frire分词为 Frit，配合复数 -> Frits。",
+          "category": "不规则-特殊"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons ______ (croire) qu'il était malade.",
+          "options": [
+            "cru",
+            "crû",
+            "croyé",
+            "croi"
+          ],
+          "correct": 0,
+          "explanation": "【B2 辨析】Croire (相信) -> Cru (没有长音符)。Crû 是 Croître (生长) 的分词。这里是“相信”，选 Cru。",
+          "category": "不规则-辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette plante a ______ (croître) rapidement.",
+          "options": [
+            "cru",
+            "crû",
+            "croisé",
+            "crue"
+          ],
+          "correct": 1,
+          "explanation": "【B2 辨析】Croître (生长) -> Crû (带长音符，区分 Cru)。",
+          "category": "不规则-辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants ? Je les ai ______ (faire) manger.",
+          "options": [
+            "fait",
+            "faits",
+            "faite",
+            "faites"
+          ],
+          "correct": 0,
+          "explanation": "【C1 终极特例】Faire 的致使结构 (Faire + infinitive)。当 Faire 后面紧跟不定式时，即使宾语提前，Fait 也**永远不配合**！这是 TCF 的必考死角。",
+          "category": "特殊-Faire Causatif"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les chanteuses que j'ai ______ (entendre) chanter.",
+          "options": [
+            "entendu",
+            "entendues",
+            "entendus",
+            "entendent"
+          ],
+          "correct": 1,
+          "explanation": "【C1 感官动词配合】Entendre/Voir +不定式。如果宾语 (chanteuses) 发出了不定式 (chanter) 的动作（歌手在唱），则配合 -> Entendues。如果宾语没有发出动作（比如歌曲被唱），则不配合。",
+          "category": "特殊-感官动词"
         }
       ],
       "practiceCount": 0,
@@ -8113,6 +8370,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T17:33:55.619Z",
+  "exportedAt": "2026-02-09T18:03:42.837Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
