@@ -1424,15 +1424,50 @@
     .start-mode-check-wrap { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text); cursor: pointer; margin-bottom: 0.75rem; }
     .start-mode-check-wrap input { width: 1.1em; height: 1.1em; accent-color: var(--accent); cursor: pointer; }
     .start-mode-card-btn { width: 100%; justify-content: center; margin-top: 0.25rem; }
-    .start-mode-sequential-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; margin-bottom: 0.75rem; }
-    .start-mode-sequential-row input[type="number"] { width: 4rem; padding: 0.5rem 0.6rem; font-size: 0.95rem; background: var(--bg); border: 1px solid var(--border-strong); border-radius: 10px; color: var(--text); }
-    .start-mode-sequential-text { font-size: 0.88rem; color: var(--text-muted); }
+    .start-mode-sequential-wrap { margin-bottom: 0.75rem; }
+    .start-mode-sequential-label { 
+      display: block; 
+      font-size: 0.9rem; 
+      color: var(--text); 
+      margin-bottom: 0.5rem; 
+      font-weight: 500;
+    }
+    .start-mode-sequential-row { 
+      display: flex; 
+      align-items: center; 
+      gap: 0.5rem; 
+      flex-wrap: wrap;
+    }
+    .start-mode-sequential-row input[type="number"] { 
+      width: 5rem; 
+      padding: 0.6rem 0.75rem; 
+      font-size: 0.95rem; 
+      background: var(--surface); 
+      border: 1px solid var(--border-strong); 
+      border-radius: var(--radius-sm); 
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .start-mode-sequential-row input[type="number"]:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    .start-mode-sequential-text { 
+      font-size: 0.88rem; 
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
     .start-mode-finished-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; }
     .start-mode-finished-btns .btn { flex: 1; min-width: 100px; }
     .start-mode-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); text-align: center; }
     .btn-ghost { background: none; border: none; color: var(--text-muted); font-size: 0.9rem; cursor: pointer; padding: 0.4rem 0.75rem; border-radius: 8px; }
     .btn-ghost:hover { color: var(--text); background: var(--surface); }
     body.theme-light .start-mode-sequential-row input { background: var(--card); border-color: var(--border-strong); }
+    @media (max-width: 480px) {
+      .start-mode-sequential-row { flex-direction: column; align-items: flex-start; }
+      .start-mode-sequential-row input { width: 100%; max-width: 200px; }
+    }
 
     /* Screen reader only */
     .sr-only {
@@ -1783,7 +1818,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <div class="start-mode-card-title">练习全部</div>
           <p class="start-mode-card-hint">一次做完本题集全部题目。</p>
           <label class="start-mode-check-wrap">
-            <input type="checkbox" id="start-mode-shuffle" checked />
+            <input type="checkbox" id="start-mode-shuffle" />
             <span>打乱题目顺序</span>
           </label>
           <button type="button" class="btn btn-primary start-mode-card-btn" id="btn-start-mode-full">开始练习</button>
@@ -1791,11 +1826,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="start-mode-card start-mode-card-sequential" id="start-mode-sequential">
           <div class="start-mode-card-title">按顺序练一部分</div>
           <p class="start-mode-card-hint">自选题数，按顺序做；下次从剩余题目继续。</p>
-          <div class="start-mode-sequential-row">
-            <input type="number" id="start-mode-count" min="1" value="20" aria-label="题目数量" />
-            <span class="start-mode-sequential-text">题（从第 <span id="start-mode-from">1</span> 题起，剩余 <span id="start-mode-remain">0</span> 题）</span>
+          <div class="start-mode-sequential-wrap">
+            <label for="start-mode-count" class="start-mode-sequential-label">练习题目数</label>
+            <div class="start-mode-sequential-row">
+              <input type="number" id="start-mode-count" min="1" value="20" aria-label="题目数量" />
+              <span class="start-mode-sequential-text">题（从第 <span id="start-mode-from">1</span> 题起，剩余 <span id="start-mode-remain">0</span> 题）</span>
+            </div>
           </div>
-          <button type="button" class="btn btn-secondary start-mode-card-btn" id="btn-start-mode-sequential">开始按顺序练习</button>
+          <button type="button" class="btn btn-primary start-mode-card-btn" id="btn-start-mode-sequential">开始按顺序练习</button>
         </div>
         <div class="start-mode-card start-mode-finished" id="start-mode-finished" style="display: none;">
           <div class="start-mode-card-title">本套已按顺序练完</div>
@@ -4258,7 +4296,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!_pendingStartSet) return;
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
-        const shuffle = shuffleEl ? shuffleEl.checked : true;
+        const shuffle = shuffleEl ? shuffleEl.checked : false;
         const reviewCheck = document.getElementById('start-mode-review');
         const shouldReview = reviewCheck ? reviewCheck.checked : false;
         const opts = shuffle ? {} : { noShuffle: true };
@@ -4298,7 +4336,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!_pendingStartSet) return;
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
-        const shuffle = shuffleEl ? shuffleEl.checked : true;
+        const shuffle = shuffleEl ? shuffleEl.checked : false;
         const reviewCheck = document.getElementById('start-mode-review');
         const shouldReview = reviewCheck ? reviewCheck.checked : false;
         const opts = shuffle ? {} : { noShuffle: true };
