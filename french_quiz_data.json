@@ -1,6 +1,277 @@
 {
   "savedSets": [
     {
+      "id": 1770634682097,
+      "name": "过去分词变化规则",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-09T10:58:02.097Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Hier, nous avons ______ (manger) au restaurant.",
+          "options": [
+            "mange",
+            "manger",
+            "mangé",
+            "mangés"
+          ],
+          "correct": 2,
+          "explanation": "【A1 规则】第一组动词 -er 结尾，去掉 er 改成 é。Avoir 后无宾语提前，不配合。",
+          "category": "规则动词-er"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont ______ (finir) leurs devoirs.",
+          "options": [
+            "finit",
+            "fini",
+            "finis",
+            "finie"
+          ],
+          "correct": 1,
+          "explanation": "【A1 规则】第二组动词 -ir 结尾，去掉 r 变成 i。Avoir 后无宾语提前，不配合。",
+          "category": "规则动词-ir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ (attendre) le bus pendant une heure.",
+          "options": [
+            "attendu",
+            "attendi",
+            "attendé",
+            "attends"
+          ],
+          "correct": 0,
+          "explanation": "【A1 规则】第三组规则动词 -re 结尾，去掉 re 变成 u。",
+          "category": "规则动词-re"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons ______ (être) très heureux.",
+          "options": [
+            "été",
+            "étes",
+            "être",
+            "eu"
+          ],
+          "correct": 0,
+          "explanation": "【A2 必背】Être 的过去分词是 Été。注意：Eu 是 Avoir 的分词。",
+          "category": "不规则-四大金刚"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai _____ (avoir) de la chance.",
+          "correct": [
+            "eu"
+          ],
+          "explanation": "【A2 必背】Avoir 的过去分词是 Eu (发音 /y/)。",
+          "category": "不规则-四大金刚"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que vous avez ______ (faire) ?",
+          "options": [
+            "fais",
+            "fait",
+            "faisez",
+            "fairé"
+          ],
+          "correct": 1,
+          "explanation": "【A2 必背】Faire 的过去分词是 Fait (注意末尾是 t，和 Il fait 变位一样)。",
+          "category": "不规则-四大金刚"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ (dire) la vérité.",
+          "options": [
+            "di",
+            "dit",
+            "dis",
+            "dire"
+          ],
+          "correct": 1,
+          "explanation": "【A2 必背】Dire 的过去分词是 Dit。",
+          "category": "不规则-四大金刚"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ (prendre) mon sac.",
+          "options": [
+            "prendu",
+            "prené",
+            "pris",
+            "prit"
+          ],
+          "correct": 2,
+          "explanation": "【B1 陷阱】Prendre 不符合 -re 规则 (不是 Prendu!)。它是特殊变化 Pris。Comprendre -> Compris, Apprendre -> Appris。",
+          "category": "不规则-dre变体"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ (mettre) sa robe rouge.",
+          "options": [
+            "mettu",
+            "mis",
+            "mit",
+            "misse"
+          ],
+          "correct": 1,
+          "explanation": "【B1 陷阱】Mettre 的过去分词是 Mis。Mettu 是典型的 A1 错误。",
+          "category": "不规则-dre变体"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qui a ______ (ouvrir) la fenêtre ?",
+          "options": [
+            "ouvri",
+            "ouvert",
+            "ouvriré",
+            "ouvru"
+          ],
+          "correct": 1,
+          "explanation": "【B1 伪装者】Ouvrir 看起来像 Finir，但分词不是 Ouvri，而是 Ouvert。同理：Offrir -> Offert, Couvrir -> Couvert。",
+          "category": "不规则-ir特殊"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ (venir) me voir.",
+          "options": [
+            "veni",
+            "venu",
+            "vené",
+            "vient"
+          ],
+          "correct": 1,
+          "explanation": "【B1 伪装者】Venir 结尾是 ir，但分词是 Venu。同理：Tenir -> Tenu。",
+          "category": "不规则-ir特殊"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons ______ (boire) un bon vin.",
+          "options": [
+            "bu",
+            "boire",
+            "boiré",
+            "bois"
+          ],
+          "correct": 0,
+          "explanation": "【B1 不规则】Boire 的分词是 Bu。很多 -oire 结尾的变成 -u (Croire -> Cru)。",
+          "category": "不规则-oire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai ______ (voir) ce film.",
+          "options": [
+            "vu",
+            "voi",
+            "voire",
+            "vus"
+          ],
+          "correct": 0,
+          "explanation": "【B1 不规则】Voir 的分词是 Vu。",
+          "category": "不规则-oir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ (devoir) partir.",
+          "options": [
+            "du",
+            "dû",
+            "devu",
+            "dois"
+          ],
+          "correct": 1,
+          "explanation": "【B2 拼写】Devoir 的分词是 Dû。必须带长音符 (Accent circonflexe) 以区分 du (de+le)。",
+          "category": "B2-拼写细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ (pleuvoir) toute la journée.",
+          "options": [
+            "plu",
+            "pleuvu",
+            "pleuvi",
+            "pluie"
+          ],
+          "correct": 0,
+          "explanation": "【B2 易混】Pleuvoir (下雨) 的分词是 Plu。注意：Plaire (取悦) 的分词也是 Plu。",
+          "category": "B2-不规则辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Picasso a ______ (peindre) ce tableau.",
+          "options": [
+            "peindu",
+            "peint",
+            "peinti",
+            "peingné"
+          ],
+          "correct": 1,
+          "explanation": "【B2 难点】以 -eindre, -aindre, -oindre 结尾的动词，分词通常是 -int。Peindre -> Peint。Craindre -> Craint。Joindre -> Joint。",
+          "category": "B2-indre结尾"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Napoléon est ______ (naître) en Corse.",
+          "options": [
+            "naiss",
+            "né",
+            "nait",
+            "naître"
+          ],
+          "correct": 1,
+          "explanation": "【B2 极不规则】Naître 的分词是 Né。这是完全不规则变化，必须死记。",
+          "category": "B2-极不规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ (vivre) en France.",
+          "options": [
+            "vivi",
+            "vivu",
+            "vécu",
+            "vivé"
+          ],
+          "correct": 2,
+          "explanation": "【B2 极不规则】Vivre (生活) 的分词是 Vécu。很容易和 Vaincre (Vaincu) 或 Voir (Vu) 搞混。",
+          "category": "B2-极不规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont ______ (recevoir) une lettre.",
+          "options": [
+            "reçu",
+            "recevu",
+            "reci",
+            "reçus"
+          ],
+          "correct": 0,
+          "explanation": "【B1 拼写】Recevoir -> Reçu。注意必须加软音符 ç，否则读音就变了 (c 在 u 前读 k，加了 ç 读 s)。",
+          "category": "B1-拼写细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon grand-père est ______ (mourir) l'année dernière.",
+          "options": [
+            "mouri",
+            "mouru",
+            "mort",
+            "morte"
+          ],
+          "correct": 2,
+          "explanation": "【B1 极不规则】Mourir (死) 的分词是 Mort。主语是 grand-père (阳性)，所以不加 e。",
+          "category": "B1-极不规则"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1M5DhWVQdedREJ7YFV7lSMMTtTjxsCB7rNSrpVHwWJ0s/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770611527427,
       "name": "Boire变位-现/复过/近将",
       "folderId": "1770593074621",
@@ -7833,8 +8104,7 @@
   "wrongBook": [],
   "questionNotes": {
     "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "为啥有le啊\n【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。\n\n【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la",
-    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont",
-    "Chut ! Les enfants ______ dans la chambre.|dort|dorment|dormons|dormez|1": "这道题不能错"
+    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont"
   },
   "timerSeconds": 30,
   "dailyStats": {
@@ -7843,6 +8113,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T10:50:31.162Z",
+  "exportedAt": "2026-02-09T10:58:11.577Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
