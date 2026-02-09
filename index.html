@@ -4,32 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <meta name="theme-color" content="#0c0a14" />
+  <meta name="theme-color" content="#0c0a14" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f8f7fc" media="(prefers-color-scheme: light)" />
   <meta name="description" content="法语练习 · TCF 填空、段落填空、单选、多选，支持错题本与习题集管理" />
+  <meta name="keywords" content="法语,法语练习,TCF,法语考试,法语语法,填空,单选,多选,错题本" />
+  <meta name="author" content="Français Quiz" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Français Quiz · 法语练习" />
+  <meta property="og:description" content="法语练习 · TCF 填空、段落填空、单选、多选，支持错题本与习题集管理" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Français Quiz · 法语练习" />
+  <meta name="twitter:description" content="法语练习 · TCF 填空、段落填空、单选、多选，支持错题本与习题集管理" />
+  
+  <!-- Security Headers -->
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self';" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self';" />
+  
   <title>Français Quiz · 法语练习</title>
+  
+  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzZkMjhkOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiNWNmNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjgiIGZpbGw9InVybCgjYmcpIi8+PHJlY3QgeD0iOSIgeT0iOCIgd2lkdGg9IjMuMiIgaGVpZ2h0PSIxNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI5IiB5PSI4IiB3aWR0aD0iMTEiIGhlaWdodD0iMi44IiByeD0iMSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjkiIHk9IjE1IiB3aWR0aD0iNi41IiBoZWlnaHQ9IjIuNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMTguNSA2LjJsMiAyLjIiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" type="image/svg+xml" />
   <link rel="icon" href="favicon.svg?v=3" type="image/svg+xml" />
+  
+  <!-- Fonts: Preconnect + Preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" as="style" />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
   <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
+  
+  <!-- Critical CSS -->
+  <link rel="preload" href="css/styles.css" as="style" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <a href="#main" class="skip-link">跳过至主内容</a>
-  <div class="container" id="main" role="main">
-    <header>
+  <div class="container" id="main">
+    <header role="banner">
       <div class="brand">
         <h1>Français Quiz</h1>
         <p>TCF 填空 · 段落填空 · 单选 · 多选</p>
       </div>
-          <button type="button" class="theme-toggle" id="theme-toggle" title="切换深色/浅色" aria-label="切换深色或浅色主题" aria-pressed="false" aria-keyshortcuts="t">🌓</button>
+      <button type="button" class="theme-toggle" id="theme-toggle" title="切换深色/浅色" aria-label="切换深色或浅色主题" aria-pressed="false" aria-keyshortcuts="t">🌓</button>
     </header>
 
-    <div id="screen-home" class="screen active">
+    <main role="main">
+    <section id="screen-home" class="screen active" aria-label="首页">
       <div class="stats-bar" id="stats-bar" role="region" aria-label="统计数据">
         <span>今日已练 <strong id="stat-today" aria-live="polite">0</strong> 题</span>
         <span>连续 <strong id="stat-streak" aria-live="polite">0</strong> 天</span>
@@ -213,9 +238,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <p class="format-doc-hint"><strong>分类筛选：</strong>题目 JSON 中可带 <code>category</code> 字段（如 <code>"category":"语法"</code>），选习题集后可按分类筛题；无 <code>category</code> 时仅显示「全部」。</p>
         </div></div></div>
       </div>
-    </div>
+    </section>
 
-    <div id="screen-quiz" class="screen">
+    <section id="screen-quiz" class="screen" aria-label="练习中">
       <div class="progress-wrap">
         <span class="progress-estimate" id="progress-estimate"></span>
         <span class="progress-label" id="progress-label">第 1 / 1 题</span>
@@ -224,9 +249,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         </div>
       </div>
       <div class="question-card" role="region" aria-labelledby="question-stem" aria-describedby="question-meta" aria-live="polite">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;">
+        <div class="question-header">
           <div class="question-meta" id="question-meta"></div>
-          <div style="display:flex;align-items:center;gap:0.35rem;">
+          <div class="question-timer-wrap">
             <svg class="timer-ring" id="timer-ring" width="40" height="40" viewBox="0 0 40 40" style="display:none;">
               <circle cx="20" cy="20" r="17" fill="none" stroke="var(--surface)" stroke-width="3" />
               <circle class="timer-ring-fill" id="timer-ring-fill" cx="20" cy="20" r="17" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="106.81" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)" />
@@ -277,9 +302,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         </div>
       </div>
       <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认</p>
-    </div>
+    </section>
 
-    <div id="screen-result" class="screen">
+    <section id="screen-result" class="screen" aria-label="练习结果">
       <div class="result-card" id="result-card" aria-live="polite" aria-atomic="true">
         <div class="result-score" id="result-score" role="text">0/0</div>
         <p class="result-pct" id="result-pct"></p>
@@ -296,8 +321,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <p class="result-shortcut-hint" aria-hidden="true">提示：答题时按 Enter 可下一题，Esc 关闭弹窗</p>
         <div class="result-recent" id="result-recent" style="display: none;"></div>
       </div>
-    </div>
-    <div id="sr-announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+    </section>
+    </main>
+    
+    <div id="sr-announcer" class="sr-only" aria-live="assertive" aria-atomic="true" role="status"></div>
   </div>
 
   <div class="review-modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="review-modal-title">

@@ -1643,6 +1643,19 @@ body.theme-light .start-mode-sequential-row input { background: var(--card); bor
 }
 .screen { contain: layout style; }
 
+/* Utility classes to replace inline styles */
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.question-timer-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 @media print {
   .skip-link, #toast, .review-modal-overlay, .start-mode-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .preview-questions-overlay,
   header .theme-toggle, header .home-actions .btn,
