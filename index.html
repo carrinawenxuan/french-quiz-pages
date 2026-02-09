@@ -2417,6 +2417,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
       <div class="sync-text-content" id="sync-text-generate" style="display: block;">
         <p class="sync-text-desc">点击下方按钮生成包含所有数据的同步文本，复制后可在电脑端导入。</p>
+        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，生成和导入时都需要输入 PIN。</p>
         <button type="button" class="btn btn-primary" id="btn-generate-sync-text-inner">生成同步文本</button>
         <div class="sync-text-result" id="sync-text-result" style="display: none;">
           <label for="sync-text-output">同步文本（点击全选复制）：</label>
@@ -2427,6 +2428,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
       <div class="sync-text-content" id="sync-text-import" style="display: none;">
         <p class="sync-text-desc">粘贴从手机端生成的同步文本，点击导入即可同步数据到电脑。</p>
+        <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，需要输入 PIN 才能导入。如果已绑定设备，只能在绑定的设备上导入。</p>
         <label for="sync-text-input">同步文本：</label>
         <textarea id="sync-text-input" rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;" placeholder="粘贴同步文本..."></textarea>
         <button type="button" class="btn btn-primary" id="btn-import-sync-text-inner" style="margin-top: 0.75rem;">导入数据</button>
@@ -5131,7 +5133,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         c.classList.toggle('active', isActive);
       });
     }
-    function generateSyncText() {
+    async function generateSyncText() {
+      // 检查 PIN 保护
+      if (isImportLockEnabled()) {
+        const pin = prompt('请输入主人 PIN 以生成同步文本');
+        if (pin === null) return;
+        const ok = await verifyImportPin(pin);
+        if (!ok) {
+          showToast('PIN 错误');
+          return;
+        }
+      }
       try {
         const data = getDataForExport();
         const jsonStr = JSON.stringify(data);
@@ -5148,7 +5160,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('生成失败：' + (e.message || String(e)));
       }
     }
-    function importSyncText() {
+    async function importSyncText() {
       const inputTextarea = document.getElementById('sync-text-input');
       if (!inputTextarea) return;
       const text = inputTextarea.value.trim();
@@ -5156,6 +5168,24 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('请输入同步文本');
         return;
       }
+      
+      // 检查设备绑定
+      if (!canImportOnThisDevice()) {
+        showToast('仅允许在已绑定的设备上导入同步数据，当前设备未绑定');
+        return;
+      }
+      
+      // 检查 PIN 保护
+      if (isImportLockEnabled()) {
+        const pin = prompt('请输入主人 PIN 以导入同步数据');
+        if (pin === null) return;
+        const ok = await verifyImportPin(pin);
+        if (!ok) {
+          showToast('PIN 错误');
+          return;
+        }
+      }
+      
       if (!confirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？')) {
         return;
       }
