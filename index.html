@@ -1301,20 +1301,30 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
-    .start-mode-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9998; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
+    .start-mode-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.65); backdrop-filter: blur(4px); z-index: 9998; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
     .start-mode-modal-overlay.show { display: flex !important; }
-    .start-mode-modal { width: 100%; max-width: 420px; background: var(--card); border-radius: var(--radius); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-lg); padding: 1.25rem 1.5rem; }
-    body.theme-light .start-mode-modal { border-color: var(--border-strong); }
-    .start-mode-modal h3 { font-size: 1rem; margin: 0 0 1rem 0; color: var(--text); }
-    .start-mode-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
-    .start-mode-actions { display: flex; flex-direction: column; gap: 0.75rem; }
-    .start-mode-sequential { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; }
-    .start-mode-sequential input[type="number"] { width: 4rem; padding: 0.4rem 0.5rem; font-size: 0.95rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); }
-    .start-mode-sequential span { font-size: 0.9rem; color: var(--text-muted); }
-    .start-mode-finished { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
-    .start-mode-finished p { margin: 0; font-size: 0.9rem; color: var(--text-muted); width: 100%; }
-    .start-mode-footer { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
-    body.theme-light .start-mode-sequential input { background: var(--card); border-color: var(--border-strong); }
+    .start-mode-modal { width: 100%; max-width: 440px; background: var(--card); border-radius: 20px; border: 1px solid var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.35); padding: 1.5rem 1.75rem; }
+    body.theme-light .start-mode-modal { border-color: var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.12); }
+    .start-mode-modal h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.35rem 0; color: var(--text); letter-spacing: -0.02em; }
+    .start-mode-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.5; }
+    .start-mode-cards { display: flex; flex-direction: column; gap: 1rem; }
+    .start-mode-card { background: var(--surface); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 1.1rem 1.25rem; transition: border-color 0.2s, box-shadow 0.2s; }
+    .start-mode-card:hover { border-color: var(--border-subtle-hover); }
+    body.theme-light .start-mode-card { background: var(--surface); }
+    .start-mode-card-title { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-bottom: 0.25rem; }
+    .start-mode-card-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.75rem; line-height: 1.4; }
+    .start-mode-check-wrap { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text); cursor: pointer; margin-bottom: 0.75rem; }
+    .start-mode-check-wrap input { width: 1.1em; height: 1.1em; accent-color: var(--accent); cursor: pointer; }
+    .start-mode-card-btn { width: 100%; justify-content: center; margin-top: 0.25rem; }
+    .start-mode-sequential-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; margin-bottom: 0.75rem; }
+    .start-mode-sequential-row input[type="number"] { width: 4rem; padding: 0.5rem 0.6rem; font-size: 0.95rem; background: var(--bg); border: 1px solid var(--border-strong); border-radius: 10px; color: var(--text); }
+    .start-mode-sequential-text { font-size: 0.88rem; color: var(--text-muted); }
+    .start-mode-finished-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .start-mode-finished-btns .btn { flex: 1; min-width: 100px; }
+    .start-mode-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); text-align: center; }
+    .btn-ghost { background: none; border: none; color: var(--text-muted); font-size: 0.9rem; cursor: pointer; padding: 0.4rem 0.75rem; border-radius: 8px; }
+    .btn-ghost:hover { color: var(--text); background: var(--surface); }
+    body.theme-light .start-mode-sequential-row input { background: var(--card); border-color: var(--border-strong); }
 
     /* Screen reader only */
     .sr-only {
@@ -1647,25 +1657,37 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="start-mode-modal-overlay" id="start-mode-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="start-mode-modal-title" style="display: none;">
     <div class="start-mode-modal">
       <h3 id="start-mode-modal-title">选择练习方式</h3>
-      <div class="start-mode-body">
-        <p class="start-mode-desc" id="start-mode-desc">本题集题目较多，可一次练习全部（打乱顺序），或按顺序自选题目数，下次从剩余题目继续。</p>
-        <div class="start-mode-actions">
-          <button type="button" class="btn btn-primary" id="btn-start-mode-full">练习全部（打乱顺序）</button>
-          <div class="start-mode-sequential" id="start-mode-sequential">
-            <label for="start-mode-count">按顺序练习</label>
+      <p class="start-mode-desc">本题集题目较多，可选择练习方式与是否打乱顺序。</p>
+      <div class="start-mode-cards">
+        <div class="start-mode-card start-mode-card-full">
+          <div class="start-mode-card-title">练习全部</div>
+          <p class="start-mode-card-hint">一次做完本题集全部题目。</p>
+          <label class="start-mode-check-wrap">
+            <input type="checkbox" id="start-mode-shuffle" checked />
+            <span>打乱题目顺序</span>
+          </label>
+          <button type="button" class="btn btn-primary start-mode-card-btn" id="btn-start-mode-full">开始练习</button>
+        </div>
+        <div class="start-mode-card start-mode-card-sequential" id="start-mode-sequential">
+          <div class="start-mode-card-title">按顺序练一部分</div>
+          <p class="start-mode-card-hint">自选题数，按顺序做；下次从剩余题目继续。</p>
+          <div class="start-mode-sequential-row">
             <input type="number" id="start-mode-count" min="1" value="20" aria-label="题目数量" />
-            <span>题（从第 <span id="start-mode-from">1</span> 题起，剩余 <span id="start-mode-remain">0</span> 题）</span>
-            <button type="button" class="btn btn-secondary" id="btn-start-mode-sequential">开始按顺序练习</button>
+            <span class="start-mode-sequential-text">题（从第 <span id="start-mode-from">1</span> 题起，剩余 <span id="start-mode-remain">0</span> 题）</span>
           </div>
-          <div class="start-mode-finished" id="start-mode-finished" style="display: none;">
-            <p>本套已按顺序练完。</p>
+          <button type="button" class="btn btn-secondary start-mode-card-btn" id="btn-start-mode-sequential">开始按顺序练习</button>
+        </div>
+        <div class="start-mode-card start-mode-finished" id="start-mode-finished" style="display: none;">
+          <div class="start-mode-card-title">本套已按顺序练完</div>
+          <p class="start-mode-card-hint">可重置进度后重新按顺序练，或直接练习全部。</p>
+          <div class="start-mode-finished-btns">
             <button type="button" class="btn btn-secondary" id="btn-start-mode-reset">重置进度</button>
             <button type="button" class="btn btn-primary" id="btn-start-mode-full-after">练习全部</button>
           </div>
         </div>
       </div>
       <div class="start-mode-footer">
-        <button type="button" class="btn btn-secondary" id="btn-start-mode-cancel" aria-keyshortcuts="Escape">取消</button>
+        <button type="button" class="btn btn-ghost" id="btn-start-mode-cancel" aria-keyshortcuts="Escape">取消</button>
       </div>
     </div>
   </div>
@@ -3113,14 +3135,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const overlay = document.getElementById('start-mode-modal-overlay');
       if (overlay) { overlay.classList.remove('show'); overlay.style.display = 'none'; clearModalFocusTrap(); }
     }
-    function showReviewModal(set, questions, fromWrongBook, setId) {
+    function showReviewModal(set, questions, fromWrongBook, setId, startOpts) {
       const m = getReviewMaterials(set);
       const total = m.texts.length + m.links.length + m.images.length;
       if (total === 0) {
-        startQuiz(questions, fromWrongBook, setId);
+        startQuiz(questions, fromWrongBook, setId, startOpts);
         return;
       }
-      _pendingReviewStart = { questions, fromWrongBook, setId };
+      _pendingReviewStart = { questions, fromWrongBook, setId, noShuffle: startOpts && startOpts.noShuffle };
       const textsWrap = document.getElementById('review-modal-texts');
       const linksEl = document.getElementById('review-modal-links');
       const imagesEl = document.getElementById('review-modal-images');
@@ -4041,7 +4063,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (_pendingReviewStart) {
         const p = _pendingReviewStart;
         hideReviewModal();
-        startQuiz(p.questions, p.fromWrongBook, p.setId);
+        startQuiz(p.questions, p.fromWrongBook, p.setId, p.noShuffle ? { noShuffle: true } : {});
       }
     }
     document.getElementById('btn-review-start-quiz').addEventListener('click', confirmReviewStartQuiz);
@@ -4065,9 +4087,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       function doStartFull() {
         if (!_pendingStartSet) return;
         const set = _pendingStartSet;
+        const shuffleEl = document.getElementById('start-mode-shuffle');
+        const shuffle = shuffleEl ? shuffleEl.checked : true;
+        const opts = shuffle ? {} : { noShuffle: true };
         closeStartModeModal();
-        if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
-        else startQuiz(set.questions, false, set.id);
+        if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
+        else startQuiz(set.questions, false, set.id, opts);
       }
       function doStartSequential() {
         if (!_pendingStartSet || !countInput) return;
@@ -4096,8 +4121,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (btnFullAfter) btnFullAfter.addEventListener('click', function() {
         if (!_pendingStartSet) return;
         const set = _pendingStartSet;
+        const shuffleEl = document.getElementById('start-mode-shuffle');
+        const shuffle = shuffleEl ? shuffleEl.checked : true;
         closeStartModeModal();
-        startQuiz(set.questions, false, set.id);
+        startQuiz(set.questions, false, set.id, shuffle ? {} : { noShuffle: true });
       });
       if (overlay) overlay.addEventListener('click', function(e) {
         if (e.target.id === 'start-mode-modal-overlay') closeStartModeModal();
