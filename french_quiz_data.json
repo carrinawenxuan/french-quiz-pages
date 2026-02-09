@@ -1,6 +1,975 @@
 {
   "savedSets": [
     {
+      "id": 1770611267058,
+      "name": "部分冠词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-09T04:27:47.058Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je mange _____ pain tous les matins.",
+          "options": [
+            "le",
+            "du",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "吃面包用部分冠词，pain阳性不可数用du",
+          "category": "部分冠词基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle boit _____ eau minérale.",
+          "options": [
+            "de la",
+            "du",
+            "de l'",
+            "la"
+          ],
+          "correct": 2,
+          "explanation": "eau元音开头，用de l'",
+          "category": "元音省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous achetons _____ viande au marché.",
+          "options": [
+            "la",
+            "du",
+            "de la",
+            "de"
+          ],
+          "correct": 2,
+          "explanation": "viande阴性不可数，用de la",
+          "category": "部分冠词基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ légumes dans le frigo.",
+          "options": [
+            "les",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 3,
+          "explanation": "légumes复数，用des",
+          "category": "部分冠词基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu veux _____ café?",
+          "options": [
+            "le",
+            "du",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "要一些咖啡，café阳性用du",
+          "category": "部分冠词基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ argent.",
+          "options": [
+            "de l'",
+            "d'",
+            "l'",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "否定句中部分冠词变de，argent元音开头变d'",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne mange pas _____ viande.",
+          "options": [
+            "de la",
+            "la",
+            "de",
+            "du"
+          ],
+          "correct": 2,
+          "explanation": "否定句中de la变成de",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a plus _____ lait dans le frigo.",
+          "options": [
+            "du",
+            "le",
+            "de",
+            "de la"
+          ],
+          "correct": 2,
+          "explanation": "ne...plus也是否定，du变成de",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne bois jamais _____ alcool.",
+          "options": [
+            "de l'",
+            "d'",
+            "l'",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "ne...jamais否定句，alcool元音开头用d'",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce n'est pas _____ vin, c'est du jus de raisin.",
+          "options": [
+            "de",
+            "du",
+            "le",
+            "d'"
+          ],
+          "correct": 1,
+          "explanation": "être后面否定句不变，保持du",
+          "category": "être例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce ne sont pas _____ oranges, ce sont des mandarines.",
+          "options": [
+            "d'",
+            "de",
+            "des",
+            "les"
+          ],
+          "correct": 2,
+          "explanation": "être后面否定句不变，保持des",
+          "category": "être例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aime _____ chocolat.",
+          "options": [
+            "du",
+            "le",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "aimer表示喜好，用定冠词le泛指",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je mange _____ chocolat.",
+          "options": [
+            "le",
+            "du",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "manger吃东西，用部分冠词du",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle déteste _____ bière.",
+          "options": [
+            "de la",
+            "la",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "détester表示讨厌，用定冠词la泛指",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle boit _____ bière.",
+          "options": [
+            "la",
+            "de la",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "boire喝东西，用部分冠词de la",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ eau est essentielle à la vie.",
+          "options": [
+            "De l'",
+            "L'",
+            "D'",
+            "Une"
+          ],
+          "correct": 1,
+          "explanation": "泛指水这个概念，用定冠词L'",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait _____ sport tous les jours.",
+          "options": [
+            "le",
+            "du",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "faire du sport固定搭配",
+          "category": "faire+部分冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle fait _____ guitare depuis 5 ans.",
+          "options": [
+            "la",
+            "de la",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "faire de la guitare弹吉他",
+          "category": "faire+部分冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ courage, je l'admire.",
+          "options": [
+            "le",
+            "du",
+            "de",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "有一些勇气，抽象名词用部分冠词du",
+          "category": "抽象名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ patience pour apprendre.",
+          "options": [
+            "la",
+            "de la",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "需要一些耐心，patience阴性用de la",
+          "category": "抽象名词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的部分冠词?",
+          "options": [
+            "Je bois du café.",
+            "Je bois de la eau.",
+            "Il mange de la viande.",
+            "Elle a de l'argent."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "eau元音开头应该用de l'，不是de la",
+          "category": "部分冠词综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些否定句是正确的?",
+          "options": [
+            "Je n'ai pas de pain.",
+            "Je n'ai pas du pain.",
+            "Ce n'est pas du vin.",
+            "Ce n'est pas de vin."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "普通否定用de，但être后面不变",
+          "category": "否定句规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词后面用定冠词而不是部分冠词?",
+          "options": [
+            "aimer",
+            "manger",
+            "détester",
+            "boire"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "喜好动词aimer/détester用定冠词泛指",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je voudrais _____ fromage, s'il vous plaît.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "fromage阳性不可数，用du",
+          "category": "部分冠词基础"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle ne boit pas _____ café.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "否定句中du变成de",
+          "category": "否定句变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n'a pas _____ amis ici.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "否定句中des变de，amis元音开头变d'",
+          "category": "否定句变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce n'est pas _____ beurre, c'est de la margarine.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "être后面否定句不变，保持du",
+          "category": "être例外"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'adore _____ musique classique.",
+          "correct": [
+            "la"
+          ],
+          "explanation": "adorer喜好动词，用定冠词la",
+          "category": "部分冠词vs定冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il fait _____ natation le week-end.",
+          "correct": [
+            "de la"
+          ],
+          "explanation": "faire de la natation游泳",
+          "category": "faire+部分冠词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le matin, je bois _____ café et je mange _____ pain avec _____ confiture.",
+          "correct": [
+            "du",
+            "du",
+            "de la"
+          ],
+          "explanation": "café和pain阳性用du，confiture阴性用de la",
+          "category": "部分冠词综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je n'ai pas _____ temps et je n'ai pas _____ énergie aujourd'hui.",
+          "correct": [
+            "de",
+            "d'"
+          ],
+          "explanation": "否定句用de，énergie元音开头用d'",
+          "category": "否定句综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "J'aime _____ thé mais je bois _____ café ce matin.",
+          "correct": [
+            "le",
+            "du"
+          ],
+          "explanation": "aimer用定冠词le，boire用部分冠词du",
+          "category": "部分冠词vs定冠词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1C5iOzEUGdyDFo7Pz-ty9C1W9wJEjx2lZrAUoWLC5G-8/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
+      "id": 1770610870332,
+      "name": "数量副词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-09T04:21:10.332Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ bruit dans cette rue, je ne peux pas dormir.",
+          "options": [
+            "trop de",
+            "beaucoup de",
+            "assez de",
+            "un peu de"
+          ],
+          "correct": 0,
+          "explanation": "抱怨噪音过量影响睡眠，用trop de表示负面过量",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ amis à Paris, environ une vingtaine.",
+          "options": [
+            "peu d'",
+            "un peu d'",
+            "beaucoup d'",
+            "trop d'"
+          ],
+          "correct": 2,
+          "explanation": "约20个朋友是很多，客观描述用beaucoup d'，amis元音开头用d'",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ temps, ne t'inquiète pas.",
+          "options": [
+            "peu de",
+            "trop de",
+            "assez de",
+            "un peu de"
+          ],
+          "correct": 2,
+          "explanation": "不用担心说明时间足够，用assez de",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ argent, je peux t'offrir un café.",
+          "options": [
+            "peu d'",
+            "un peu d'",
+            "trop d'",
+            "beaucoup d'"
+          ],
+          "correct": 1,
+          "explanation": "能请客说明有一点钱（正面），用un peu d'",
+          "category": "un peu de vs peu de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ argent, je ne peux rien acheter.",
+          "options": [
+            "un peu d'",
+            "beaucoup d'",
+            "assez d'",
+            "peu d'"
+          ],
+          "correct": 3,
+          "explanation": "什么都买不起说明几乎没钱（负面），用peu d'",
+          "category": "un peu de vs peu de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle mange _____ sucre, ce n'est pas bon pour la santé.",
+          "options": [
+            "un peu de",
+            "assez de",
+            "trop de",
+            "peu de"
+          ],
+          "correct": 2,
+          "explanation": "对健康不好说明吃太多糖，负面过量用trop de",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ monde dans ce restaurant.",
+          "options": [
+            "beaucoup des",
+            "beaucoup de",
+            "beaucoup du",
+            "beaucoup de la"
+          ],
+          "correct": 1,
+          "explanation": "数量副词后用de，不加任何冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as _____ patience, c'est bien.",
+          "options": [
+            "beaucoup de",
+            "beaucoup des",
+            "beaucoup du",
+            "beaucoup de la"
+          ],
+          "correct": 0,
+          "explanation": "数量副词后用de，不能用des/du/de la",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a trop _____ étudiants dans cette classe.",
+          "options": [
+            "des",
+            "de",
+            "d'",
+            "de les"
+          ],
+          "correct": 2,
+          "explanation": "étudiants元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai peu _____ espoir.",
+          "options": [
+            "de",
+            "d'",
+            "de l'",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "espoir元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a un peu _____ fièvre.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "d'"
+          ],
+          "correct": 1,
+          "explanation": "数量副词后用de，fièvre辅音开头",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons assez _____ espace.",
+          "options": [
+            "de l'",
+            "de",
+            "d'",
+            "du"
+          ],
+          "correct": 2,
+          "explanation": "espace元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ temps libre, il travaille tout le temps.",
+          "options": [
+            "un peu de",
+            "beaucoup de",
+            "assez de",
+            "peu de"
+          ],
+          "correct": 3,
+          "explanation": "一直工作说明几乎没空闲时间，强调缺乏用peu de",
+          "category": "un peu de vs peu de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ questions à vous poser.",
+          "options": [
+            "quelques",
+            "beaucoup des",
+            "beaucoup de",
+            "beaucoup"
+          ],
+          "correct": 2,
+          "explanation": "beaucoup de + 名词，不能用des",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ courage pour faire ça.",
+          "options": [
+            "beaucoup du",
+            "beaucoup de",
+            "beaucoup des",
+            "beaucoup de la"
+          ],
+          "correct": 1,
+          "explanation": "数量副词后用de，不加冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu bois _____ café, ce n'est pas bon.",
+          "options": [
+            "trop de",
+            "trop du",
+            "trop des",
+            "trop de la"
+          ],
+          "correct": 0,
+          "explanation": "trop de + 名词，不加冠词，且暗示负面",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ énergie aujourd'hui.",
+          "options": [
+            "beaucoup de",
+            "beaucoup d'",
+            "beaucoup des",
+            "beaucoup de l'"
+          ],
+          "correct": 1,
+          "explanation": "énergie元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ solutions à ce problème.",
+          "options": [
+            "peu des",
+            "peu de",
+            "peu du",
+            "peu de la"
+          ],
+          "correct": 1,
+          "explanation": "数量副词后用de",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ travail cette semaine, je suis fatigué.",
+          "options": [
+            "un peu de",
+            "peu de",
+            "assez de",
+            "trop de"
+          ],
+          "correct": 3,
+          "explanation": "累了说明工作太多，负面过量用trop de",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ eau, on peut continuer.",
+          "options": [
+            "peu d'",
+            "trop d'",
+            "assez d'",
+            "un peu d'"
+          ],
+          "correct": 2,
+          "explanation": "能继续说明水足够，用assez d'",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ personnes sont venues à la fête.",
+          "options": [
+            "Peu des",
+            "Peu de",
+            "Peu du",
+            "Peu de la"
+          ],
+          "correct": 1,
+          "explanation": "peu de + 名词，不加冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a fait _____ progrès ce semestre.",
+          "options": [
+            "beaucoup des",
+            "beaucoup de",
+            "beaucoup du",
+            "beaucoup de les"
+          ],
+          "correct": 1,
+          "explanation": "beaucoup de + 名词",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais _____ lait dans mon café.",
+          "options": [
+            "un peu de",
+            "un peu du",
+            "un peu de la",
+            "un peu des"
+          ],
+          "correct": 0,
+          "explanation": "un peu de + 名词，不加冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il reste _____ places, dépêchez-vous!",
+          "options": [
+            "peu de",
+            "peu des",
+            "un peu de",
+            "beaucoup de"
+          ],
+          "correct": 0,
+          "explanation": "要快说明位置几乎没了，强调缺乏用peu de",
+          "category": "语义选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ idées pour ce projet.",
+          "options": [
+            "beaucoup d'",
+            "beaucoup des",
+            "beaucoup de les",
+            "beaucoup de l'"
+          ],
+          "correct": 0,
+          "explanation": "idées元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达是正确的?",
+          "options": [
+            "beaucoup de temps",
+            "beaucoup du temps",
+            "trop d'argent",
+            "trop de l'argent"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "数量副词后用de/d'，不加冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子表达负面含义?",
+          "options": [
+            "Il a trop de travail.",
+            "Il a beaucoup de travail.",
+            "Il a peu de temps.",
+            "Il a un peu de temps."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "trop de表示过量负面，peu de表示缺乏负面",
+          "category": "语义感情"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词前应该用d'而不是de?",
+          "options": [
+            "argent",
+            "travail",
+            "étudiants",
+            "temps"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "argent和étudiants元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "关于un peu de和peu de，下列说法正确的是?",
+          "options": [
+            "un peu de表示有一点，正面",
+            "peu de表示几乎没有，负面",
+            "两者意思相同",
+            "un peu de比peu de表示的数量更少"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "un peu de正面有一点，peu de负面几乎没有",
+          "category": "un peu de vs peu de"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是表达足够的正确方式?",
+          "options": [
+            "assez de temps",
+            "assez du temps",
+            "assez d'espace",
+            "assez de l'espace"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "assez de/d' + 名词，不加冠词",
+          "category": "de结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a beaucoup _____ monde ici.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "beaucoup de + 名词，monde辅音开头",
+          "category": "de结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai trop _____ travail cette semaine.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "trop de + 名词",
+          "category": "de结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a peu _____ amis dans cette ville.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "amis元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous avons assez _____ argent pour le voyage.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "argent元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut un peu _____ patience.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "un peu de + 名词，patience辅音开头",
+          "category": "de结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu manges trop _____ sucre.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "trop de + 名词",
+          "category": "de结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai _____ temps, je dois partir. (几乎没有)",
+          "correct": [
+            "peu de"
+          ],
+          "explanation": "强调缺乏时间用peu de",
+          "category": "语义选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai _____ temps, on peut prendre un café. (有一点)",
+          "correct": [
+            "un peu de"
+          ],
+          "explanation": "有一点时间（正面）用un peu de",
+          "category": "语义选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a beaucoup _____ étudiants dans cette université.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "étudiants元音开头，用d'",
+          "category": "元音省音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a _____ énergie aujourd'hui, elle est fatiguée. (几乎没有)",
+          "correct": [
+            "peu d'"
+          ],
+          "explanation": "疲劳说明几乎没精力，用peu d'，元音开头",
+          "category": "语义+元音"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "J'ai _____ travail mais _____ temps pour le finir.",
+          "correct": [
+            "beaucoup de",
+            "peu de"
+          ],
+          "explanation": "工作很多用beaucoup de，时间几乎没有用peu de",
+          "category": "语义综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il y a _____ bruit ici et _____ espace pour travailler.",
+          "correct": [
+            "trop de",
+            "peu d'"
+          ],
+          "explanation": "噪音太多用trop de，空间不够用peu d'，espace元音",
+          "category": "语义+元音"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle a _____ patience et _____ énergie pour ce projet.",
+          "correct": [
+            "beaucoup de",
+            "beaucoup d'"
+          ],
+          "explanation": "patience辅音用de，énergie元音用d'",
+          "category": "元音对比"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Tu as _____ argent? Oui, j'ai _____ argent, ça suffit.",
+          "correct": [
+            "assez d'",
+            "assez d'"
+          ],
+          "explanation": "询问和确认足够都用assez d'，argent元音",
+          "category": "assez de用法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il mange _____ légumes et _____ fruits, ce n'est pas équilibré.",
+          "correct": [
+            "trop de",
+            "peu de"
+          ],
+          "explanation": "蔬菜太多trop de，水果太少peu de，不平衡",
+          "category": "语义对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1lnPOFjzGWLR-Y0ZOUrbSggWl462JnSDVao4XNHP6318/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770610619208,
       "name": "数量表达 / 单位副词",
       "folderId": "1770593095506",
@@ -6835,6 +7804,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T04:17:07.324Z",
+  "exportedAt": "2026-02-09T04:27:56.550Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
