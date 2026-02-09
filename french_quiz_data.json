@@ -706,6 +706,106 @@
           "id": "1770666314831-x1j3xtmvosc",
           "front": "阴性形式的规律是什么？",
           "back": "belle, nouvelle, vieille\n都是双ll + e"
+        },
+        {
+          "id": "1770667568464-aksxunqfhc",
+          "front": "【触发】看到阳性单数+元音开头 → 用什么？",
+          "back": "立刻用 bel / nouvel / vieil\n\n记忆钩：元音撞元音，中间加个 l"
+        },
+        {
+          "id": "1770667568464-8xp7zzlk1d6",
+          "front": "【触发】看到 ami, appartement, arbre, homme, hôtel →",
+          "back": "警觉！这些是元音/哑音h开头\n→ 必须用 bel / nouvel / vieil\n\n❌ un beau ami\n✅ un bel ami"
+        },
+        {
+          "id": "1770667568464-grmt8v6i5a8",
+          "front": "【对立】un beau livre vs un bel ami",
+          "back": "livre 辅音开头 → beau\nami 元音开头 → bel\n\n判断点：看名词首字母，不是看意思"
+        },
+        {
+          "id": "1770667568464-crg2k3xsm4t",
+          "front": "【对立】un beau héros vs un bel homme",
+          "back": "héros 嘘音h → 当辅音 → beau\nhomme 哑音h → 当元音 → bel\n\n记忆钩：英雄(héros)高冷不联诵"
+        },
+        {
+          "id": "1770667568464-gqiinariy0i",
+          "front": "【陷阱】复数时还用 bel/nouvel/vieil 吗？",
+          "back": "❌ 绝对不行！\n\nbel/nouvel/vieil 只用于阳性单数\n复数永远用 beaux/nouveaux/vieux\n\n❌ de bels amis\n✅ de beaux amis"
+        },
+        {
+          "id": "1770667568464-cz4okf7ule",
+          "front": "【陷阱】des beaux appartements 对吗？",
+          "back": "❌ 错！\n\n形容词在名词前+复数 → des 必须变 de\n\n✅ de beaux appartements\n\n记忆钩：前置形容词吃掉 des 的 s"
+        },
+        {
+          "id": "1770667568464-vczlo0ou7bc",
+          "front": "【A1必会】beau 的阴性是什么？",
+          "back": "belle\n\n一个 l 变两个 ll + e\nun beau garçon → une belle fille"
+        },
+        {
+          "id": "1770667568464-87wrlhhq9",
+          "front": "【A2识别】nouveau 的五种形式",
+          "back": "nouveau (阳单辅音)\nnouvel (阳单元音/哑h)\nnouvelle (阴单)\nnouveaux (阳复)\nnouvelles (阴复)"
+        },
+        {
+          "id": "1770667568464-r0djvn1y3",
+          "front": "【B1陷阱】vieux 的阳性单数和复数一样吗？",
+          "back": "✅ 一样！都是 vieux\n\nun vieux livre\nde vieux livres\n\n但阴性不同：vieille / vieilles"
+        },
+        {
+          "id": "1770667568464-6vwnjek4qw7",
+          "front": "【B2得分】哑音h vs 嘘音h 怎么判断？",
+          "back": "哑音h（用bel）：可以联诵\n→ homme, hôtel, hôpital, hiver\n\n嘘音h（用beau）：不能联诵\n→ héros, hasard, honte, haricot\n\nTCF考这个区分B1和B2"
+        },
+        {
+          "id": "1770667568464-4i78fhz2qhs",
+          "front": "【考官视角】为什么考 bel/nouvel/vieil？",
+          "back": "区分死记硬背 vs 真正理解\n\nA2考生：只会 beau/belle\nB1考生：知道 bel 但乱用\nB2考生：能准确判断元音/哑音h"
+        },
+        {
+          "id": "1770667568464-x11v9vdblkq",
+          "front": "【一句话钩子】beau/nouveau/vieux 元音规则",
+          "back": "元音面前加个 l\nbeau → bel\nnouveau → nouvel\nvieux → vieil"
+        },
+        {
+          "id": "1770667568464-d2dmvsj7pbk",
+          "front": "【一句话钩子】复数前冠词变化",
+          "back": "前置形容词吃 des 的 s\ndes → de\n\nde beaux / de nouvelles / de vieux"
+        },
+        {
+          "id": "1770667568464-putqgo4ivh",
+          "front": "【一句话钩子】嘘音h判断",
+          "back": "英雄(héros)高冷不联诵 → 用原形\n男人(homme)亲切可联诵 → 用特殊形式"
+        },
+        {
+          "id": "1770667568464-6rzawjzqiz6",
+          "front": "【快速判断】三步决策法",
+          "back": "1⃣ 阴性？→ belle/nouvelle/vieille\n2⃣ 阳性复数？→ beaux/nouveaux/vieux + de\n3⃣ 阳性单数？→ 看首字母\n   辅音 → beau/nouveau/vieux\n   元音/哑h → bel/nouvel/vieil"
+        },
+        {
+          "id": "1770667568464-tm3fis1i9l",
+          "front": "【填空触发】un _____ été (beau)",
+          "back": "bel\n\nété 元音开头 → 必须 bel\n\n这是TCF高频考点"
+        },
+        {
+          "id": "1770667568464-grnx4unljo",
+          "front": "【填空触发】un _____ hiver (nouveau)",
+          "back": "nouvel\n\nhiver 哑音h → 当元音 → nouvel"
+        },
+        {
+          "id": "1770667568464-qv5pi0rnade",
+          "front": "【填空触发】de _____ idées (nouveau)",
+          "back": "de nouvelles idées\n\nidées 阴性复数 → nouvelles\n形容词在前 → des 变 de"
+        },
+        {
+          "id": "1770667568464-koenyljk9pm",
+          "front": "【填空触发】un _____ arbre (vieux)",
+          "back": "vieil\n\narbre 元音开头 → vieil\n\n❌ un vieux arbre"
+        },
+        {
+          "id": "1770667568464-97kecfai1np",
+          "front": "【终极记忆】三兄弟变形口诀",
+          "back": "辅音原形用\n元音加个l\n阴性双ll+e\n复数s不能省\n前置des变de"
         }
       ]
     },
@@ -2382,7 +2482,279 @@
       "reviewLinks": [
         "https://docs.google.com/document/d/1M5DhWVQdedREJ7YFV7lSMMTtTjxsCB7rNSrpVHwWJ0s/edit?tab=t.0"
       ],
-      "reviewImages": []
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1770666803337-2qw1kk8pxp",
+          "front": "être 的过去分词 (Participe Passé)",
+          "back": "été"
+        },
+        {
+          "id": "1770666803337-tx06b02yc6a",
+          "front": "avoir 的过去分词 (Participe Passé)",
+          "back": "eu (发音 /y/)"
+        },
+        {
+          "id": "1770666803337-6lm3wo98os6",
+          "front": "naître (出生) 的过去分词",
+          "back": "né (使用 être)"
+        },
+        {
+          "id": "1770666803337-ramy3ckpg3q",
+          "front": "mourir (死亡) 的过去分词",
+          "back": "mort (使用 être)"
+        },
+        {
+          "id": "1770666803337-026yx1r5oz63",
+          "front": "devoir (必须) 的过去分词",
+          "back": "dû (带长音符，为了区分 du)"
+        },
+        {
+          "id": "1770666803337-2j6awnu9gs2",
+          "front": "pouvoir (能够) 的过去分词",
+          "back": "pu"
+        },
+        {
+          "id": "1770666803337-6ikl79fnh18",
+          "front": "vouloir (想要) 的过去分词",
+          "back": "voulu"
+        },
+        {
+          "id": "1770666803337-0tfeq9d1vf79",
+          "front": "boire (喝) 的过去分词",
+          "back": "bu"
+        },
+        {
+          "id": "1770666803337-2d8scchw6wc",
+          "front": "lire (读) 的过去分词",
+          "back": "lu"
+        },
+        {
+          "id": "1770666803337-03jb5d4uvrjt",
+          "front": "voir (看) 的过去分词",
+          "back": "vu"
+        },
+        {
+          "id": "1770666803337-dx5a979g9ha",
+          "front": "vivre (生活) 的过去分词",
+          "back": "vécu"
+        },
+        {
+          "id": "1770666803337-z1uj7jutjth",
+          "front": "savoir (知道) 的过去分词",
+          "back": "su"
+        },
+        {
+          "id": "1770666803337-wkqordt9xll",
+          "front": "prendre (拿) 的过去分词",
+          "back": "pris"
+        },
+        {
+          "id": "1770666803337-lryb01zk4yi",
+          "front": "apprendre (学习) 的过去分词",
+          "back": "appris"
+        },
+        {
+          "id": "1770666803337-jg47cjjwsl",
+          "front": "comprendre (理解) 的过去分词",
+          "back": "compris"
+        },
+        {
+          "id": "1770666803337-mnx5anwcgfi",
+          "front": "mettre (放置) 的过去分词",
+          "back": "mis"
+        },
+        {
+          "id": "1770666803337-ynnqiiq50co",
+          "front": "dire (说) 的过去分词",
+          "back": "dit"
+        },
+        {
+          "id": "1770666803337-z4ef39uzyz",
+          "front": "écrire (写) 的过去分词",
+          "back": "écrit"
+        },
+        {
+          "id": "1770666803337-wjpvk96esu",
+          "front": "conduire (驾驶) 的过去分词",
+          "back": "conduit (所有 -uire 结尾都变 -uit)"
+        },
+        {
+          "id": "1770666803337-1bei48nw3nu",
+          "front": "peindre (画画) 的过去分词",
+          "back": "peint (所有 -eindre 结尾都变 -eint)"
+        },
+        {
+          "id": "1770666803337-2y88h44kx6y",
+          "front": "craindre (害怕) 的过去分词",
+          "back": "craint"
+        },
+        {
+          "id": "1770666803337-ng14kcwdbgg",
+          "front": "ouvrir (打开) 的过去分词",
+          "back": "ouvert (伪装成 -ir 的 -ert)"
+        },
+        {
+          "id": "1770666803337-6364mxvgc3w",
+          "front": "offrir (提供) 的过去分词",
+          "back": "offert"
+        },
+        {
+          "id": "1770666803337-un3j92xtjdi",
+          "front": "souffrir (忍受) 的过去分词",
+          "back": "souffert"
+        },
+        {
+          "id": "1770666803337-5kt30pa710t",
+          "front": "venir (来) 的过去分词",
+          "back": "venu (使用 être)"
+        },
+        {
+          "id": "1770666803337-zo8v98rxe5m",
+          "front": "tenir (拿/保持) 的过去分词",
+          "back": "tenu"
+        },
+        {
+          "id": "1770666803337-1ccx8wre05",
+          "front": "courir (跑) 的过去分词",
+          "back": "couru"
+        },
+        {
+          "id": "1770666803337-psawo8mbh5g",
+          "front": "pleuvoir (下雨) 的过去分词",
+          "back": "plu"
+        },
+        {
+          "id": "1770666803337-unoor52s4y8",
+          "front": "plaire (取悦) 的过去分词",
+          "back": "plu (和 pleuvoir 一样)"
+        },
+        {
+          "id": "1770666803337-3u1f63xbnow",
+          "front": "falloir (必须/需要) 的过去分词",
+          "back": "fallu"
+        },
+        {
+          "id": "1770666803337-jhohzybuyk",
+          "front": "valoir (值得) 的过去分词",
+          "back": "valu"
+        },
+        {
+          "id": "1770666803337-sw4kigod7x",
+          "front": "recevoir (收到) 的过去分词",
+          "back": "reçu (注意软音符 ç)"
+        },
+        {
+          "id": "1770666803337-4pa6s4pqcal",
+          "front": "s'asseoir (坐下) 的过去分词",
+          "back": "assis"
+        },
+        {
+          "id": "1770666803337-2mlcx9p7mrp",
+          "front": "rire (笑) 的过去分词",
+          "back": "ri"
+        },
+        {
+          "id": "1770666803337-dzsbsds92o4",
+          "front": "suivre (跟随) 的过去分词",
+          "back": "suivi"
+        },
+        {
+          "id": "1770666803337-k7y1iaakon",
+          "front": "croire (相信) 的过去分词",
+          "back": "cru"
+        },
+        {
+          "id": "1770666803337-o1195aqsp2n",
+          "front": "croître (生长) 的过去分词",
+          "back": "crû (带长音符)"
+        },
+        {
+          "id": "1770666803337-gta8ug0eqyr",
+          "front": "J'ai ___ (monter) la valise. (填分词)",
+          "back": "monté (及物用 Avoir，不配合)"
+        },
+        {
+          "id": "1770666803337-2au78wtcka",
+          "front": "Je suis ___ (monter) dans le train. (填分词，假设我是男的)",
+          "back": "monté (不及物用 Être，配合)"
+        },
+        {
+          "id": "1770666803337-znquduv6jxs",
+          "front": "Elles se sont ___ (téléphoner). (填分词)",
+          "back": "téléphoné (永远不配合，因为是间接宾语)"
+        },
+        {
+          "id": "1770666803337-m32qg4ff0nm",
+          "front": "Elles se sont ___ (laver) les mains. (填分词)",
+          "back": "lavé (不配合，因为直接宾语 mains 在后面)"
+        },
+        {
+          "id": "1770666803337-itkqe94g0sm",
+          "front": "La pomme que j'ai ___ (manger). (填分词)",
+          "back": "mangée (配合，因为 que 指代 pomme 在前)"
+        },
+        {
+          "id": "1770667488415-apn13vnvkc5",
+          "front": "【A1 核心】看到 hier / soudain / l'année dernière + 动作动词，你的第一反应时态是？",
+          "back": "Passé Composé (复合过去时)\n\n🧠 记忆钩子：这些词像快门声“咔嚓”，表示动作发生了、结束了。\n❌ 绝对不选：Imparfait (那是录像，不是照片)。"
+        },
+        {
+          "id": "1770667488415-wvhigz22en",
+          "front": "【A2 助动词判断】\nJe ___ (aller) au cinéma.\nJ'___ (voir) un film.\n👉 填空并说明判断逻辑。",
+          "back": "suis / ai\n\n🧠 记忆钩子：只有“出生入死、来去上下” (Dr. Mrs. Vandertramp) 和“自恋的” (Se...) 用 Être。\n👉 考官视角：看你是否还在用英语逻辑 (I have gone -> J'ai allé ❌)。"
+        },
+        {
+          "id": "1770667488415-0if83xau6xj",
+          "front": "【B1 陷阱】\nLa lettre ? Je l'ai ___ (écrire).\n👉 填过去分词并解释。",
+          "back": "écrite\n\n🧠 触发点：看到 Avoir 前面有 l' / le / la / les / que。\n👉 判断逻辑：宾语 (La lettre) 跑到动词前了 → 必须配合！\n❌ 易错：écrit (以为 Avoir 永远不配合)。"
+        },
+        {
+          "id": "1770667488415-ncn1p3emfs",
+          "front": "【B2 必考干扰项】\nDes pommes ? J'en ai ___ (manger).\n👉 填过去分词。",
+          "back": "mangé (不配合)\n\n🧠 记忆钩子：一看到 \"En\" → 屏蔽所有配合开关！\n👉 考官视角：这是 B1/B2 分水岭。En 代表“一部分”，虽然在前面，但从不配合。"
+        },
+        {
+          "id": "1770667488415-m5qt3880cb",
+          "front": "【B1 双面动词陷阱】\nElle est ___ (monter).\nElle a ___ (monter) la valise.\n👉 填分词并区分助动词。",
+          "back": "montée / monté\n\n🧠 触发点：动词后面有没有“东西”？\n1. 没东西 (自己上楼) → Être → 配合 (montée)。\n2. 有东西 (拿箱子) → Avoir → 不配合 (monté)。"
+        },
+        {
+          "id": "1770667488415-pxrb5h439vf",
+          "front": "【B2 语义杀手】\nJ'ai su la vérité.\n👉 这句话的准确意思是？(对比 Je savais)",
+          "back": "我（那一刻）发现了/得知了真相。\n\n🧠 记忆钩子：Passé Composé 把“知道”变成了一个动作 = 发现/获悉。\n❌ 错误理解：我以前知道 (那是 Je savais)。"
+        },
+        {
+          "id": "1770667488415-dt9y510rtd",
+          "front": "【B2 代动词配合绝杀】\nElle s'est ___ (laver).\nElle s'est ___ (laver) les mains.\n👉 填分词。",
+          "back": "lavée / lavé\n\n🧠 触发点：洗了“谁”？\n1. 洗自己 (Se) → 配合。\n2. 洗手 (les mains 在后面) → 不配合。\n👉 口诀：身体部位在后，分词不穿衣 (不加 e/s)。"
+        },
+        {
+          "id": "1770667488415-ayvgipghy87",
+          "front": "【B2 死记硬背黑名单】\nIls se sont ___ (téléphoner).\nIls se sont ___ (parler).\n👉 填分词。",
+          "back": "téléphoné / parlé\n\n🧠 记忆钩子：打电话、说话、像、取悦 (Plaire) → 永远不配合！\n👉 考官视角：赌你会惯性思维，看到 Se 就想加 s。"
+        },
+        {
+          "id": "1770667488415-jqfetsfvum",
+          "front": "【B1 拼写陷阱】\nDevoir (必须) 的过去分词是？\n(注意拼写细节)",
+          "back": "dû\n\n🧠 记忆钩子：必须戴帽子 (长音符 ^)，不然就是“的” (du)。\n👉 特例：如果是阴性/复数，帽子就摘了 (due / dus / dues)。"
+        },
+        {
+          "id": "1770667488415-o13h2hnb4x",
+          "front": "【B2 极易混淆词】\nIl a ___ (falloir) partir.\nIl a ___ (valoir) mieux.\n👉 填分词。",
+          "back": "fallu / valu\n\n🧠 记忆钩子：Falloir 是“必须”，Fallu (发撸)。Valoir 是“值得”，Valu (挖撸)。\n❌ 干扰项：Failli (是 Faillir 差点儿)。"
+        },
+        {
+          "id": "1770667488415-ij7jjm90qq8",
+          "front": "【C1 听力辨析】\nJ'ai cru... vs J'ai crû...\n👉 意思分别是什么？",
+          "back": "我以为/相信 (Croire) vs 成长/长高 (Croître)\n\n🧠 记忆钩子：树木生长需要突破泥土 (带 ^ 往上顶)。\n👉 TCF 听力常考：语境是“观点”还是“植物/数据增长”。"
+        },
+        {
+          "id": "1770667488415-q2unyyeqrjm",
+          "front": "【B2 终极配合】\nFaire + Infinitive (致使结构)\nLes enfants ? Je les ai ___ (faire) manger.\n👉 填分词。",
+          "back": "fait (永远不配合)\n\n🧠 记忆钩子：Faire 只要后面跟动词，就是“铁公鸡”，一毛不拔 (无性数变化)。\n👉 考官视角：看到 les 在前，90% 考生会写 faits，写 fait 的才是高手。"
+        }
+      ]
     },
     {
       "id": 1770611527427,
@@ -2625,7 +2997,74 @@
       "reviewLinks": [
         "https://docs.google.com/document/d/1wI3nabmfEmj057v2XCEEfRA0Agl-JUpxiH7pTFHsgkI/edit?tab=t.0#heading=h.eeee83w3lew5"
       ],
-      "reviewImages": []
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1770666883189-lj7mm1ajzh",
+          "front": "Boire - 直陈式现在时 - Je / Tu",
+          "back": "bois (词尾 s, 不发音)"
+        },
+        {
+          "id": "1770666883189-zvb9xuht2b",
+          "front": "Boire - 直陈式现在时 - Il / Elle",
+          "back": "boit (词尾 t, 不发音)"
+        },
+        {
+          "id": "1770666883189-szmhm4pld8m",
+          "front": "Boire - 直陈式现在时 - Nous (TCF高频拼写陷阱)",
+          "back": "buvons (注意：词根变为 buv-, 不要写成 boissons)"
+        },
+        {
+          "id": "1770666883189-rw26ugijymf",
+          "front": "Boire - 直陈式现在时 - Vous",
+          "back": "buvez (词根 buv-)"
+        },
+        {
+          "id": "1770666883189-i9mtrrlu8kd",
+          "front": "Boire - 直陈式现在时 - Ils / Elles (TCF听力陷阱)",
+          "back": "boivent (发音必须听到 /v/ 的摩擦音，区别于单数 boit)"
+        },
+        {
+          "id": "1770666883189-6ue69x7ici",
+          "front": "Boire - 复合过去时 - 助动词",
+          "back": "Avoir (J'ai bu)"
+        },
+        {
+          "id": "1770666883189-kwsdlble14p",
+          "front": "Boire - 复合过去时 - 过去分词",
+          "back": "bu (极短，无 s 无 t)"
+        },
+        {
+          "id": "1770666883189-lygyvwz75mi",
+          "front": "TCF考点：Les vins que j'ai _____ (boire).",
+          "back": "bus (que 指代 les vins 阳性复数，在动词前，必须配合)"
+        },
+        {
+          "id": "1770666883189-075snqnfblwa",
+          "front": "TCF考点：Des vins ? J'en ai _____ (boire).",
+          "back": "bu (绝对陷阱：En 作宾语，过去分词永远不配合)"
+        },
+        {
+          "id": "1770666883189-pyuo17bupi",
+          "front": "TCF考点：La bière ? Je l'ai _____ (boire).",
+          "back": "bue (l' 指代 la bière 阴性单数，在动词前，配合 e)"
+        },
+        {
+          "id": "1770666883189-6i6nfcdrdwn",
+          "front": "Boire - 最近将来时 - 否定结构 (Je / ne / pas / boire)",
+          "back": "Je ne vais pas boire (ne...pas 包围 aller)"
+        },
+        {
+          "id": "1770666883189-wzx7igqv3sj",
+          "front": "TCF考点：Je vais _____ (en / boire) un peu. (排序)",
+          "back": "Je vais en boire (代词 En 紧贴原形动词)"
+        },
+        {
+          "id": "1770666883189-du8w6b7nxow",
+          "front": "Nous buvons vs Nous boissons",
+          "back": "buvons 是动词；boissons 是名词(饮料)"
+        }
+      ]
     },
     {
       "id": 1770611267058,
@@ -10230,6 +10669,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T19:45:39.994Z",
+  "exportedAt": "2026-02-09T20:08:01.042Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }

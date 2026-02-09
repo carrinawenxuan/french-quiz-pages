@@ -80,6 +80,8 @@
         -webkit-appearance: none;
         appearance: none;
       }
+      /* Prevent iOS Safari zoom-on-focus */
+      input, textarea, select { font-size: 16px; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
@@ -98,7 +100,10 @@
       font-family: 'Plus Jakarta Sans', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: var(--bg);
       color: var(--text);
+      /* iOS address-bar safe viewport */
       min-height: 100vh;
+      min-height: 100dvh;
+      min-height: -webkit-fill-available;
       background-image:
         radial-gradient(ellipse 100% 60% at 50% -15%, rgba(139, 92, 246, 0.2), transparent 50%),
         radial-gradient(ellipse 70% 50% at 100% 80%, rgba(96, 165, 250, 0.12), transparent),
@@ -496,12 +501,25 @@
     .flashcards-empty, .flashcards-cards-empty { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; }
     .flashcards-detail-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
     .flashcards-detail-header h3 { font-size: 1.1rem; font-weight: 600; color: var(--text); }
-    .flashcards-card-list { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; max-height: 50vh; overflow-y: auto; }
+    .flashcards-card-list { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; max-height: 50vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
     .flashcards-card-item { display: flex; align-items: flex-start; justify-content: space-between; padding: 0.6rem 0.85rem; background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); }
     .flashcards-card-item .preview { font-size: 0.9rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
     .flashcards-card-item .btn-remove-card { flex-shrink: 0; padding: 0.25rem 0.5rem; font-size: 0.8rem; }
     .flashcards-detail-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .flashcard-training-overlay { position: fixed; inset: 0; background: var(--bg); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
+    .flashcard-training-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: max(1.25rem, env(safe-area-inset-left));
+      padding-right: max(1.25rem, env(safe-area-inset-right));
+      padding-top: max(1.25rem, env(safe-area-inset-top));
+      padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+      box-sizing: border-box;
+    }
     .flashcard-training-inner { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
     .flashcard-training-progress { font-size: 0.85rem; color: var(--text-muted); }
     .flashcard-card-wrap { width: 100%; min-height: 220px; perspective: 1000px; cursor: pointer; }
@@ -512,7 +530,20 @@
     .flashcard-back { transform: rotateY(180deg); background: var(--surface); }
     .flashcard-training-actions { display: flex; gap: 0.75rem; }
     .btn-close-training { margin-top: 0.5rem; }
-    .flashcard-add-card-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 1rem; box-sizing: border-box; }
+    .flashcard-add-card-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      padding-top: max(1rem, env(safe-area-inset-top));
+      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      box-sizing: border-box;
+    }
     .flashcard-add-card-modal { background: var(--card); border-radius: var(--radius); padding: 1.25rem; width: 100%; max-width: 420px; border: 1px solid var(--border-strong); box-shadow: var(--shadow-lg); }
     .flashcard-add-card-modal h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--text); }
     .flashcard-add-card-modal label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.35rem; margin-top: 0.75rem; }
@@ -1785,7 +1816,7 @@
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
     .edit-set-append .btn { margin-top: 0.5rem; }
     .edit-set-cards-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-    .edit-set-cards-list-wrap { max-height: 160px; overflow-y: auto; margin-bottom: 0.5rem; }
+    .edit-set-cards-list-wrap { max-height: 160px; overflow-y: auto; -webkit-overflow-scrolling: touch; margin-bottom: 0.5rem; }
     .edit-set-cards-list { display: flex; flex-direction: column; gap: 0.35rem; }
     .edit-set-card-item { display: flex; align-items: center; justify-content: space-between; padding: 0.4rem 0.6rem; background: var(--surface); border-radius: var(--radius-sm); font-size: 0.85rem; }
     .edit-set-card-item .preview { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
@@ -2290,7 +2321,7 @@
         <!-- More storage options (collapsed) -->
         <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
         <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
-          <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：保存后在项目目录执行下方命令，<strong>同时推送主仓库 + Pages 站点</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
+          <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>（含习题集与各集记忆卡）。手机要看到同一份习题集与记忆卡：保存后执行下方命令推送，手机打开本页点「<strong>从云端加载</strong>」即可同步。</p>
           <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件，网页<strong>没有上传/推送功能</strong>，访客无法改写你的数据。只有你自己（或你授予写权限的 GitHub 协作者）能在本机执行脚本推送到仓库。</p>
           <div class="storage-grid">
             <button type="button" class="storage-card" id="btn-open-folder">
@@ -2387,6 +2418,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="flashcards-detail-actions">
           <button type="button" class="btn btn-secondary" id="btn-flashcards-add-card">➕ 添加卡片</button>
           <button type="button" class="btn btn-secondary" id="btn-flashcards-import-json">📋 从 JSON 粘贴导入</button>
+          <button type="button" class="btn btn-secondary" id="btn-flashcards-clear-cards">清空卡片</button>
           <button type="button" class="btn btn-primary" id="btn-flashcards-start-train">开始训练</button>
         </div>
       </div>
@@ -2599,6 +2631,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="edit-set-cards-actions">
           <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-add-card">添加卡片</button>
           <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-import-cards-json">从 JSON 粘贴导入</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-clear-cards">清空卡片</button>
           <button type="button" class="btn btn-primary btn-sm" id="btn-edit-set-start-cards-train">开始训练</button>
         </div>
       </div>
@@ -2663,7 +2696,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" style="display: none;">
     <div class="flashcard-add-card-modal flashcard-import-json-modal">
       <h3>从 JSON 粘贴导入</h3>
-      <p class="flashcard-import-hint">粘贴 AI 生成的卡片数组，每项需包含 <code>front</code> 和 <code>back</code> 字段。将追加到当前卡片组。</p>
+      <p class="flashcard-import-hint">粘贴 AI 生成的卡片数组，每项需包含 <code>front</code> 和 <code>back</code> 字段。将追加到当前卡片组；正面+反面相同的重复卡片会自动跳过。</p>
       <textarea id="flashcard-import-json-textarea" rows="12" placeholder='[{"front":"正面1","back":"反面1"},{"front":"正面2","back":"反面2"}]' autocomplete="off"></textarea>
       <div class="flashcard-add-card-actions">
         <button type="button" class="btn btn-secondary" id="btn-flashcard-import-json-cancel">取消</button>
@@ -2951,9 +2984,35 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const nodes = container.querySelectorAll('button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])');
       return Array.prototype.filter.call(nodes, function(el) { return el.offsetParent != null; });
     }
+    /* ── Scroll lock (iOS-friendly) ── */
+    let _scrollLockCount = 0;
+    let _scrollLockY = 0;
+    function lockBodyScroll() {
+      _scrollLockCount++;
+      if (_scrollLockCount > 1) return;
+      _scrollLockY = (typeof window !== 'undefined' && window.scrollY) ? window.scrollY : 0;
+      document.body.style.position = 'fixed';
+      document.body.style.top = '-' + _scrollLockY + 'px';
+      document.body.style.left = '0';
+      document.body.style.right = '0';
+      document.body.style.width = '100%';
+    }
+    function unlockBodyScroll() {
+      if (_scrollLockCount <= 0) return;
+      _scrollLockCount--;
+      if (_scrollLockCount > 0) return;
+      const y = _scrollLockY || 0;
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.left = '';
+      document.body.style.right = '';
+      document.body.style.width = '';
+      try { window.scrollTo(0, y); } catch (_) {}
+    }
     function setModalFocusTrap(overlayEl) {
       _openModalOverlay = overlayEl;
       _modalLastFocus = document.activeElement;
+      lockBodyScroll();
       var focusable = getFocusableIn(overlayEl);
       if (focusable.length) requestAnimationFrame(function() { focusable[0].focus(); });
     }
@@ -2961,6 +3020,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (_modalLastFocus && typeof _modalLastFocus.focus === 'function') _modalLastFocus.focus();
       _modalLastFocus = null;
       _openModalOverlay = null;
+      unlockBodyScroll();
     }
 
     function getRecentSessions() {
@@ -3249,12 +3309,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据' : '请求失败');
         const data = await res.json();
         if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
-        const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集、文件夹和错题本。确定要加载并覆盖吗？');
+        const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？');
         if (!confirmed) return;
         loadDataFromObject(data);
         const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
         const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
-        showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : ''));
+        const cardCount = (data.savedSets || []).reduce((sum, s) => sum + (Array.isArray(s.cards) ? s.cards.length : 0), 0);
+        const cardStr = cardCount ? '，' + cardCount + ' 张记忆卡' : '';
+        showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : '') + cardStr);
       } catch (e) {
         showToast('加载失败，请检查网络或稍后再试。若仍失败可尝试「从文件导入」');
       }
@@ -5309,16 +5371,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         window._flashcardAddCardTarget = null;
         document.getElementById('flashcard-input-front').value = '';
         document.getElementById('flashcard-input-back').value = '';
-        document.getElementById('flashcard-add-card-overlay').style.display = 'flex';
+        const overlay = document.getElementById('flashcard-add-card-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
       }
       function closeAddCardModal() {
-        document.getElementById('flashcard-add-card-overlay').style.display = 'none';
+        const overlay = document.getElementById('flashcard-add-card-overlay');
+        overlay.style.display = 'none';
+        clearModalFocusTrap();
       }
       window.openFlashcardAddCardForSet = function(setId) {
         window._flashcardAddCardTarget = { type: 'set', setId: setId };
         document.getElementById('flashcard-input-front').value = '';
         document.getElementById('flashcard-input-back').value = '';
-        document.getElementById('flashcard-add-card-overlay').style.display = 'flex';
+        const overlay = document.getElementById('flashcard-add-card-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
       };
       function saveFlashcardCard() {
         const front = (document.getElementById('flashcard-input-front')?.value || '').trim();
@@ -5357,7 +5425,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _flashcardTrainingOrder = deck.cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
-        document.getElementById('flashcard-training-overlay').style.display = 'flex';
+        const overlay = document.getElementById('flashcard-training-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
         updateFlashcardTrainingCard();
       }
 
@@ -5381,8 +5451,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       function closeFlashcardTraining() {
-        document.getElementById('flashcard-training-overlay').style.display = 'none';
+        const overlay = document.getElementById('flashcard-training-overlay');
+        overlay.style.display = 'none';
         _flashcardTrainingDeck = null;
+        clearModalFocusTrap();
       }
 
       window.startFlashcardTrainingWithCards = function(cards) {
@@ -5391,7 +5463,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _flashcardTrainingOrder = cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
-        document.getElementById('flashcard-training-overlay').style.display = 'flex';
+        const overlay = document.getElementById('flashcard-training-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
         updateFlashcardTrainingCard();
       };
 
@@ -5416,11 +5490,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       function openImportJsonModal() {
         window._flashcardImportTarget = null;
         document.getElementById('flashcard-import-json-textarea').value = '';
-        document.getElementById('flashcard-import-json-overlay').style.display = 'flex';
+        const overlay = document.getElementById('flashcard-import-json-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
       }
       function closeImportJsonModal() {
         window._flashcardImportTarget = null;
-        document.getElementById('flashcard-import-json-overlay').style.display = 'none';
+        const overlay = document.getElementById('flashcard-import-json-overlay');
+        overlay.style.display = 'none';
+        clearModalFocusTrap();
       }
       function doImportJson() {
         const raw = (document.getElementById('flashcard-import-json-textarea')?.value || '').trim();
@@ -5433,28 +5511,30 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           showToast('JSON 格式错误：' + (e.message || String(e)));
           return;
         }
+        function cardKey(f, b) { return (f || '').trim() + '\x00' + (b || '').trim(); }
         const importTarget = window._flashcardImportTarget;
         if (importTarget && importTarget.type === 'set' && importTarget.setId != null) {
           const sets = getSavedSets();
           const set = sets.find(s => String(s.id) === String(importTarget.setId));
           if (!set) { closeImportJsonModal(); window._flashcardImportTarget = null; return; }
           if (!Array.isArray(set.cards)) set.cards = [];
-          let added = 0;
+          const existingKeys = new Set(set.cards.map(c => cardKey(c.front, c.back)));
+          let added = 0, skipped = 0;
           arr.forEach(item => {
-            if (item && (item.front != null || item.back != null)) {
-              set.cards.push({
-                id: Date.now() + '-' + Math.random().toString(36).slice(2),
-                front: (item.front != null ? String(item.front) : '').trim() || '(空白)',
-                back: (item.back != null ? String(item.back) : '').trim() || '(空白)'
-              });
-              added++;
-            }
+            if (!item || (item.front == null && item.back == null)) return;
+            const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
+            const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
+            const key = cardKey(front, back);
+            if (existingKeys.has(key)) { skipped++; return; }
+            existingKeys.add(key);
+            set.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
+            added++;
           });
           setSavedSets(sets);
           if (typeof window._flashcardOnCardsChanged === 'function') window._flashcardOnCardsChanged();
           window._flashcardImportTarget = null;
           closeImportJsonModal();
-          showToast(added ? '已导入 ' + added + ' 张卡片' : '未解析到有效卡片');
+          showToast(added ? '已导入 ' + added + ' 张' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
           return;
         }
         window._flashcardImportTarget = null;
@@ -5462,26 +5542,39 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
         if (!deck) { closeImportJsonModal(); return; }
         if (!deck.cards) deck.cards = [];
-        let added = 0;
+        const existingKeys = new Set(deck.cards.map(c => cardKey(c.front, c.back)));
+        let added = 0, skipped = 0;
         arr.forEach(item => {
-          if (item && (item.front != null || item.back != null)) {
-            deck.cards.push({
-              id: Date.now() + '-' + Math.random().toString(36).slice(2),
-              front: (item.front != null ? String(item.front) : '').trim() || '(空白)',
-              back: (item.back != null ? String(item.back) : '').trim() || '(空白)'
-            });
-            added++;
-          }
+          if (!item || (item.front == null && item.back == null)) return;
+          const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
+          const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
+          const key = cardKey(front, back);
+          if (existingKeys.has(key)) { skipped++; return; }
+          existingKeys.add(key);
+          deck.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
+          added++;
         });
         setFlashcardDecks(decks);
         renderFlashcardCardList();
         closeImportJsonModal();
-        showToast(added ? '已导入 ' + added + ' 张卡片' : '未解析到有效卡片');
+        showToast(added ? '已导入 ' + added + ' 张' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
       }
 
       document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
       document.getElementById('btn-flashcards-add-card').addEventListener('click', openAddCardModal);
       document.getElementById('btn-flashcards-import-json').addEventListener('click', openImportJsonModal);
+      document.getElementById('btn-flashcards-clear-cards').addEventListener('click', () => {
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (!deck || !deck.cards || deck.cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
+        customConfirm('确定清空当前卡片组的全部 ' + deck.cards.length + ' 张卡片？此操作不可恢复。').then(ok => {
+          if (!ok) return;
+          deck.cards = [];
+          setFlashcardDecks(decks);
+          renderFlashcardCardList();
+          showToast('已清空');
+        });
+      });
       document.getElementById('btn-flashcard-import-json-cancel').addEventListener('click', closeImportJsonModal);
       document.getElementById('btn-flashcard-import-json-do').addEventListener('click', doImportJson);
       document.getElementById('btn-flashcards-start-train').addEventListener('click', startTraining);
@@ -5905,7 +5998,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (_editingSetId == null) return;
       window._flashcardImportTarget = { type: 'set', setId: _editingSetId };
       document.getElementById('flashcard-import-json-textarea').value = '';
-      document.getElementById('flashcard-import-json-overlay').style.display = 'flex';
+      const overlay = document.getElementById('flashcard-import-json-overlay');
+      overlay.style.display = 'flex';
+      setModalFocusTrap(overlay);
     });
     document.getElementById('btn-edit-set-start-cards-train').addEventListener('click', () => {
       if (_editingSetId == null) return;
@@ -5914,6 +6009,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const cards = (set && Array.isArray(set.cards)) ? set.cards : [];
       if (cards.length === 0) { showToast('请先添加卡片'); return; }
       if (typeof window.startFlashcardTrainingWithCards === 'function') window.startFlashcardTrainingWithCards(cards);
+    });
+    document.getElementById('btn-edit-set-clear-cards').addEventListener('click', () => {
+      if (_editingSetId == null) return;
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === String(_editingSetId));
+      const count = (set && Array.isArray(set.cards)) ? set.cards.length : 0;
+      if (count === 0) { showToast('本题集没有记忆卡片'); return; }
+      customConfirm('确定清空本题集的全部 ' + count + ' 张记忆卡片？此操作不可恢复。').then(ok => {
+        if (!ok) return;
+        set.cards = [];
+        setSavedSets(sets);
+        renderEditSetCardsList();
+        showToast('已清空');
+      });
     });
     document.getElementById('btn-preview-questions-close').addEventListener('click', closePreviewQuestions);
     document.getElementById('preview-questions-overlay').addEventListener('click', (e) => {
