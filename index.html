@@ -3603,9 +3603,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const wrap = document.getElementById('paragraph-blanks-wrap');
       wrap.style.display = 'block';
       wrap.innerHTML = correctArr.map((_, i) =>
-        '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="min-width:2.5rem;">第' + (i + 1) + '空:</span><input type="text" data-blank="' + i + '" placeholder="..." autocomplete="off" aria-label="第' + (i + 1) + '空答案" /></label>'
+        '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="min-width:2.5rem;">第' + (i + 1) + '空:</span><input type="text" data-blank="' + i + '" placeholder="..." autocomplete="off" aria-label="第' + (i + 1) + '空答案" disabled="false" /></label>'
       ).join('');
       wrap.querySelectorAll('input').forEach(inp => {
+        /* Ensure input is enabled and reset state */
+        inp.disabled = false;
+        inp.classList.remove('correct-blank', 'wrong-blank');
+        inp.value = '';
         inp.addEventListener('keydown', e => { if (e.key === 'Enter') submitAnswer(); });
       });
     }
@@ -3665,6 +3669,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           fillInput.value = '';
           fillInput.placeholder = '输入答案...';
           fillInput.setAttribute('aria-label', '输入答案');
+          fillInput.disabled = false;
+          fillInput.classList.remove('correct-blank', 'wrong-blank');
           document.getElementById('paragraph-blanks-wrap').style.display = 'none';
           document.getElementById('paragraph-blanks-wrap').innerHTML = '';
         }
@@ -3700,8 +3706,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       fillWrap.style.display = 'none';
-      document.getElementById('paragraph-blanks-wrap').style.display = 'none';
-      document.getElementById('paragraph-blanks-wrap').innerHTML = '';
+      if (fillInput) {
+        fillInput.disabled = false;
+        fillInput.classList.remove('correct-blank', 'wrong-blank');
+      }
+      const paragraphWrap = document.getElementById('paragraph-blanks-wrap');
+      paragraphWrap.style.display = 'none';
+      paragraphWrap.innerHTML = '';
       const isMulti = q.type === 'multiple_choice';
       const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
       optionsEl.setAttribute('role', isMulti ? 'group' : 'radiogroup');
