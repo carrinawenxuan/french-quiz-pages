@@ -75,7 +75,10 @@
     @supports (-webkit-touch-callout: none) {
       /* iOS specific fixes */
       .container { -webkit-overflow-scrolling: touch; }
-      input, textarea, select { -webkit-appearance: none; }
+      input, textarea, select { 
+        -webkit-appearance: none;
+        appearance: none;
+      }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
