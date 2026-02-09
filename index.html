@@ -2759,9 +2759,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (ring) ring.style.display = 'none';
       if (ringFill) { ringFill.style.strokeDashoffset = '0'; ringFill.classList.remove('low'); }
     }
-    function startTimer() {
+    function startTimer(extraSeconds) {
       clearTimer();
-      const seconds = state.timerSeconds;
+      const base = state.timerSeconds || 0;
+      const seconds = base + (extraSeconds || 0);
       if (!seconds) return;
       let remain = seconds;
       const el = document.getElementById('quiz-timer');
@@ -3017,7 +3018,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         document.getElementById('btn-next').style.display = 'none';
         var btnPrev0 = document.getElementById('btn-prev-quiz');
         if (btnPrev0) btnPrev0.style.display = state.index > 0 ? 'inline-flex' : 'none';
-        startTimer();
+        var fillExtra = (q.type === 'fill_blank' && isMultiBlank) ? blankCount * 5 : 0;
+        startTimer(fillExtra);
         return;
       }
 
@@ -3034,7 +3036,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         document.getElementById('btn-next').style.display = 'none';
         var btnPrev1 = document.getElementById('btn-prev-quiz');
         if (btnPrev1) btnPrev1.style.display = state.index > 0 ? 'inline-flex' : 'none';
-        startTimer();
+        var paraBlanks = (correctArr && correctArr.length) ? correctArr.length : 1;
+        startTimer(paraBlanks * 5);
         return;
       }
 
