@@ -1778,6 +1778,95 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
+    /* Custom Dialog Modal */
+    .custom-dialog-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1003;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      -webkit-overflow-scrolling: touch;
+      overflow-y: auto;
+    }
+    .custom-dialog-overlay.show { display: flex; }
+    .custom-dialog {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-strong);
+      padding: 1.5rem;
+      max-width: 420px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow);
+    }
+    body.theme-light .custom-dialog { border-color: var(--border-strong); }
+    .custom-dialog-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 1rem 0;
+      color: var(--text);
+    }
+    .custom-dialog-body {
+      margin-bottom: 1.5rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .custom-dialog-body p {
+      margin: 0 0 0.75rem 0;
+      font-size: 0.9rem;
+    }
+    .custom-dialog-body input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      margin-top: 0.5rem;
+      min-height: 48px;
+      box-sizing: border-box;
+    }
+    .custom-dialog-body input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    body.theme-light .custom-dialog-body input {
+      background: var(--card);
+      border-color: var(--border-strong);
+    }
+    .custom-dialog-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+    }
+    .custom-dialog-actions .btn {
+      min-width: 80px;
+      min-height: 44px;
+    }
+    @media (max-width: 480px) {
+      .custom-dialog {
+        padding: 1.25rem;
+        max-width: 100%;
+        border-radius: var(--radius) var(--radius) 0 0;
+      }
+      .custom-dialog-actions {
+        flex-direction: column-reverse;
+      }
+      .custom-dialog-actions .btn {
+        width: 100%;
+      }
+    }
+
     /* Sync Text Modal */
     .sync-text-modal-overlay {
       display: none;
@@ -2407,6 +2496,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <!-- Custom Dialog Modal -->
+  <div class="custom-dialog-overlay" id="custom-dialog-overlay" role="dialog" aria-modal="true" style="display: none;">
+    <div class="custom-dialog">
+      <h3 class="custom-dialog-title" id="custom-dialog-title"></h3>
+      <div class="custom-dialog-body" id="custom-dialog-body"></div>
+      <div class="custom-dialog-actions" id="custom-dialog-actions"></div>
+    </div>
+  </div>
+
   <!-- Sync Text Modal -->
   <div class="sync-text-modal-overlay" id="sync-text-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="sync-text-modal-title" style="display: none;">
     <div class="sync-text-modal">
@@ -2532,13 +2630,100 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!allowed) return true;
       return computeFingerprint() === allowed;
     }
+    // Custom Dialog Functions (replace native prompt/confirm)
+    function showCustomDialog(title, bodyHtml, actions) {
+      return new Promise((resolve) => {
+        const overlay = document.getElementById('custom-dialog-overlay');
+        const titleEl = document.getElementById('custom-dialog-title');
+        const bodyEl = document.getElementById('custom-dialog-body');
+        const actionsEl = document.getElementById('custom-dialog-actions');
+        if (!overlay || !titleEl || !bodyEl || !actionsEl) {
+          resolve(null);
+          return;
+        }
+        titleEl.textContent = title;
+        bodyEl.innerHTML = bodyHtml;
+        actionsEl.innerHTML = '';
+        actions.forEach(action => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = action.primary ? 'btn btn-primary' : 'btn btn-secondary';
+          btn.textContent = action.label;
+          btn.addEventListener('click', () => {
+            overlay.classList.remove('show');
+            overlay.style.display = 'none';
+            clearModalFocusTrap();
+            resolve(action.value);
+          });
+          actionsEl.appendChild(btn);
+        });
+        overlay.classList.add('show');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+        // Close on overlay click
+        const closeOnOverlay = (e) => {
+          if (e.target.id === 'custom-dialog-overlay') {
+            overlay.removeEventListener('click', closeOnOverlay);
+            overlay.classList.remove('show');
+            overlay.style.display = 'none';
+            clearModalFocusTrap();
+            resolve(null);
+          }
+        };
+        overlay.addEventListener('click', closeOnOverlay);
+      });
+    }
+    function customConfirm(message) {
+      return showCustomDialog('确认', `<p>${message}</p>`, [
+        { label: '取消', value: false, primary: false },
+        { label: '确定', value: true, primary: true }
+      ]);
+    }
+    function customPrompt(message, defaultValue = '') {
+      return new Promise((resolve) => {
+        const inputId = 'custom-prompt-input-' + Date.now();
+        const bodyHtml = `<p>${message}</p><input type="text" id="${inputId}" value="${defaultValue.replace(/"/g, '&quot;')}" autocomplete="off" />`;
+        showCustomDialog('输入', bodyHtml, [
+          { label: '取消', value: null, primary: false },
+          { label: '确定', value: true, primary: true }
+        ]).then(result => {
+          if (result === true) {
+            const input = document.getElementById(inputId);
+            resolve(input ? input.value : null);
+          } else {
+            resolve(null);
+          }
+        });
+        // Focus input after modal opens
+        setTimeout(() => {
+          const input = document.getElementById(inputId);
+          if (input) {
+            input.focus();
+            input.select();
+            input.addEventListener('keydown', (e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                const overlay = document.getElementById('custom-dialog-overlay');
+                const actionsEl = document.getElementById('custom-dialog-actions');
+                const confirmBtn = actionsEl?.querySelector('.btn-primary');
+                if (confirmBtn) confirmBtn.click();
+              }
+            });
+          }
+        }, 100);
+      });
+    }
+    async function customPromptPin(message) {
+      return customPrompt(message, '');
+    }
+
     async function checkImportPin() {
       if (!canImportOnThisDevice()) {
         showToast('仅允许在已绑定的电脑上导入，当前设备未绑定');
         return false;
       }
       if (!isImportLockEnabled()) return true;
-      const pin = prompt('请输入主人 PIN 以继续导入');
+      const pin = await customPromptPin('请输入主人 PIN 以继续导入');
       if (pin === null) return false;
       const ok = await verifyImportPin(pin);
       if (!ok) showToast('PIN 错误');
@@ -2879,7 +3064,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据' : '请求失败');
         const data = await res.json();
         if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
-        if (!confirm('云端数据将覆盖当前本地的习题集、文件夹和错题本。确定要加载并覆盖吗？')) return;
+        const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集、文件夹和错题本。确定要加载并覆盖吗？');
+        if (!confirmed) return;
         loadDataFromObject(data);
         const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
         const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
@@ -3215,9 +3401,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const folders = getFolders();
           const folder = folders.find(f => String(f.id) === id);
           if (!folder) return;
-          const name = prompt('重命名文件夹', folder.name || '');
-          if (name == null || !name.trim()) return;
-          setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: name.trim() }) : f));
+          customPrompt('重命名文件夹', folder.name || '').then(name => {
+            if (name === null || !name.trim()) return;
+            setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: name.trim() }) : f));
+          });
         });
       });
       listEl.querySelectorAll('.folder-header-delete').forEach(btn => {
@@ -3226,11 +3413,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const block = this.closest('.saved-sets-folder');
           const id = block.dataset.folderId;
           if (id === '__uncategorized__') return;
-          if (!confirm('删除该文件夹？其下习题集会移到「未分类」。')) return;
-          setFolders(getFolders().filter(f => String(f.id) !== id));
-          const sets = getSavedSets();
-          const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
-          setSavedSets(updated);
+          customConfirm('删除该文件夹？其下习题集会移到「未分类」。').then(confirmed => {
+            if (!confirmed) return;
+            setFolders(getFolders().filter(f => String(f.id) !== id));
+            const sets = getSavedSets();
+            const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
+            setSavedSets(updated);
+          });
         });
       });
       var showMoreBtn = listEl.querySelector('#btn-saved-sets-show-more');
@@ -3260,23 +3449,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const folders = getFolders();
           const folder = folders.find(f => String(f.id) === id);
           if (!folder) return;
-          const name = prompt('重命名文件夹', folder.name || '');
-          if (name == null || (name && !name.trim())) return;
-          const trimmed = name.trim();
-          if (!trimmed) return;
-          setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: trimmed }) : f));
+          customPrompt('重命名文件夹', folder.name || '').then(name => {
+            if (name === null || !name.trim()) return;
+            const trimmed = name.trim();
+            if (!trimmed) return;
+            setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: trimmed }) : f));
+          });
         });
       });
       tagsEl.querySelectorAll('.folder-tag-delete').forEach(btn => {
         btn.addEventListener('click', function() {
           const tag = this.closest('.folder-tag');
           const id = tag.dataset.folderId;
-          if (!confirm('删除该文件夹？其下习题集会移到「未分类」。')) return;
-          const folders = getFolders().filter(f => String(f.id) !== id);
-          setFolders(folders);
-          const sets = getSavedSets();
-          const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
-          setSavedSets(updated);
+          customConfirm('删除该文件夹？其下习题集会移到「未分类」。').then(confirmed => {
+            if (!confirmed) return;
+            const folders = getFolders().filter(f => String(f.id) !== id);
+            setFolders(folders);
+            const sets = getSavedSets();
+            const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
+            setSavedSets(updated);
+          });
         });
       });
     }
@@ -3522,10 +3714,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function deleteFromEditModal() {
       if (_editingSetId == null) return;
-      if (!confirm('确定删除该习题集？删除后无法恢复。')) return;
-      const sets = getSavedSets().filter(s => String(s.id) !== String(_editingSetId));
-      setSavedSets(sets);
-      closeEditSetModal();
+      customConfirm('确定删除该习题集？删除后无法恢复。').then(confirmed => {
+        if (!confirmed) return;
+        const sets = getSavedSets().filter(s => String(s.id) !== String(_editingSetId));
+        setSavedSets(sets);
+        closeEditSetModal();
+        renderSavedSets();
+        updateStartPracticeSelect();
+      });
     }
 
     const EBINGHAUS_INTERVALS = [1, 3, 7, 14, 30];
@@ -4755,16 +4951,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-prev-quiz').addEventListener('click', prevQuestion);
     document.getElementById('btn-remove-from-set').addEventListener('click', () => {
       if (!state.practicedSetId) return;
-      if (confirm('确定从本练习集中删除这道题？删除后本题将不再出现在该练习集中。')) removeCurrentQuestionFromSet();
+      customConfirm('确定从本练习集中删除这道题？删除后本题将不再出现在该练习集中。').then(confirmed => {
+        if (confirmed) removeCurrentQuestionFromSet();
+      });
     });
     document.getElementById('btn-exit-quiz').addEventListener('click', () => {
-      if (confirm('确定要提前退出吗？')) {
-        clearTimer();
-        clearQuizProgress();
-        showScreen(SCREEN.HOME);
-        updateWrongCount();
-        renderSavedSets();
-      }
+      customConfirm('确定要提前退出吗？').then(confirmed => {
+        if (confirmed) {
+          clearTimer();
+          clearQuizProgress();
+          showScreen(SCREEN.HOME);
+          updateWrongCount();
+          renderSavedSets();
+        }
+      });
     });
     document.getElementById('fill-input').addEventListener('keydown', e => {
       if (e.key === 'Enter') {
@@ -4874,10 +5074,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const savedSetsList = $('saved-sets-list') || document.getElementById('saved-sets-list');
     if (savedSetsList) savedSetsList.addEventListener('click', handleSavedSetsAction);
     document.getElementById('btn-add-folder').addEventListener('click', () => {
-      const name = prompt('输入文件夹名称', '');
-      if (name == null || !name.trim()) return;
-      const trimmed = name.trim();
-      setFolders(getFolders().concat([{ id: String(Date.now()), name: trimmed }]));
+      customPrompt('输入文件夹名称', '').then(name => {
+        if (name === null || !name.trim()) return;
+        const trimmed = name.trim();
+        setFolders(getFolders().concat([{ id: String(Date.now()), name: trimmed }]));
+      });
     });
     function startWrongBookDuePractice() {
       const due = getWrongBookDue();
@@ -4909,9 +5110,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('错题本已经是空的了');
         return;
       }
-      if (confirm('确定要清空错题本吗？清空后无法恢复。')) {
-        setWrongBook([]);
-      }
+      customConfirm('确定要清空错题本吗？清空后无法恢复。').then(confirmed => {
+        if (confirmed) {
+          setWrongBook([]);
+        }
+      });
     });
     (function initTimerInput() {
       const el = document.getElementById('timer-seconds');
@@ -5136,7 +5339,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     async function generateSyncText() {
       // 检查 PIN 保护
       if (isImportLockEnabled()) {
-        const pin = prompt('请输入主人 PIN 以生成同步文本');
+        const pin = await customPromptPin('请输入主人 PIN 以生成同步文本');
         if (pin === null) return;
         const ok = await verifyImportPin(pin);
         if (!ok) {
@@ -5177,7 +5380,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       
       // 检查 PIN 保护
       if (isImportLockEnabled()) {
-        const pin = prompt('请输入主人 PIN 以导入同步数据');
+        const pin = await customPromptPin('请输入主人 PIN 以导入同步数据');
         if (pin === null) return;
         const ok = await verifyImportPin(pin);
         if (!ok) {
@@ -5186,7 +5389,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       
-      if (!confirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？')) {
+      const confirmed = await customConfirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？');
+      if (!confirmed) {
         return;
       }
       try {
@@ -5249,23 +5453,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const disableBtn = document.getElementById('btn-import-lock-disable');
       if (setBtn) setBtn.addEventListener('click', async function() {
         if (!(window.crypto && crypto.subtle)) { showToast('当前浏览器不支持设置 PIN'); return; }
-        const pin1 = prompt('请设定 4～12 位主人 PIN（由你自定，例如数字或字母，请牢记；仅本机保存）');
-        if (pin1 == null) return;
-        const pin2 = prompt('再次输入确认');
-        if (pin1 !== pin2) { showToast('两次输入不一致'); return; }
-        if (pin1.length < 4 || pin1.length > 12) { showToast('请设置 4～12 位'); return; }
-        await setImportPin(pin1);
-        updateImportLockUI();
-        showToast('已启用导入保护');
+        customPromptPin('请设定 4～12 位主人 PIN（由你自定，例如数字或字母，请牢记；仅本机保存）').then(pin1 => {
+          if (pin1 === null) return;
+          if (pin1.length < 4 || pin1.length > 12) { showToast('请设置 4～12 位'); return; }
+          customPromptPin('再次输入确认').then(pin2 => {
+            if (pin1 !== pin2) { showToast('两次输入不一致'); return; }
+            setImportPin(pin1).then(() => {
+              updateImportLockUI();
+              showToast('已启用导入保护');
+            });
+          });
+        });
       });
       if (changeBtn) changeBtn.addEventListener('click', async function() {
         if (!(window.crypto && crypto.subtle)) { showToast('当前浏览器不支持'); return; }
-        const cur = prompt('输入当前 PIN');
-        if (cur == null) return;
+        const cur = await customPromptPin('输入当前 PIN');
+        if (cur === null) return;
         if (!(await verifyImportPin(cur))) { showToast('当前 PIN 错误'); return; }
-        const pin1 = prompt('输入新 PIN（4～12 位）');
-        if (pin1 == null) return;
-        const pin2 = prompt('再次输入新 PIN');
+        const pin1 = await customPromptPin('输入新 PIN（4～12 位）');
+        if (pin1 === null) return;
+        const pin2 = await customPromptPin('再次输入新 PIN');
         if (pin1 !== pin2) { showToast('两次输入不一致'); return; }
         if (pin1.length < 4 || pin1.length > 12) { showToast('请设置 4～12 位'); return; }
         await setImportPin(pin1);
@@ -5273,8 +5480,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('已修改 PIN');
       });
       if (disableBtn) disableBtn.addEventListener('click', async function() {
-        const cur = prompt('输入当前 PIN 以关闭导入保护');
-        if (cur == null) return;
+        const cur = await customPromptPin('输入当前 PIN 以关闭导入保护');
+        if (cur === null) return;
         if (!(await verifyImportPin(cur))) { showToast('PIN 错误'); return; }
         localStorage.removeItem(IMPORT_PIN_HASH_KEY);
         updateImportLockUI();
@@ -5340,20 +5547,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     (function checkSavedProgress() {
       const saved = getQuizProgress();
       if (saved && saved.questions && saved.questions.length > 0 && saved.index < saved.questions.length) {
-        if (confirm('检测到上次未完成的练习（第 ' + (saved.index + 1) + '/' + saved.questions.length + ' 题），是否继续？')) {
-          state.questions = saved.questions;
-          state.index = saved.index;
-          state.score = saved.score;
-          state.answered = false;
-          state.timerSeconds = saved.timerSeconds;
-          state.practicingWrongBook = saved.practicingWrongBook;
-          state.practicedSetId = saved.practicedSetId;
-          state.answerResults = saved.answerResults || {};  // Restore answer results if available
-          showScreen(SCREEN.QUIZ);
-          renderQuestion();
-        } else {
-          clearQuizProgress();
-        }
+        customConfirm('检测到上次未完成的练习（第 ' + (saved.index + 1) + '/' + saved.questions.length + ' 题），是否继续？').then(confirmed => {
+          if (confirmed) {
+            state.questions = saved.questions;
+            state.index = saved.index;
+            state.score = saved.score;
+            state.answered = false;
+            state.timerSeconds = saved.timerSeconds;
+            state.practicingWrongBook = saved.practicingWrongBook;
+            state.practicedSetId = saved.practicedSetId;
+            state.answerResults = saved.answerResults || {};  // Restore answer results if available
+            showScreen(SCREEN.QUIZ);
+            renderQuestion();
+          } else {
+            clearQuizProgress();
+          }
+        });
       }
     })();
   </script>
