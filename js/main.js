@@ -49,8 +49,16 @@
     const sets = getSavedSets();
     const set = sets.find(s => String(s.id) === val);
     if (set) {
-      if (hasReviewMaterial(set)) showReviewModal(set, filtered, false, set.id);
-      else startQuiz(filtered, false, set.id);
+      // Check if we need sequential mode modal (for sets with many questions)
+      if (filtered.length > SEQUENTIAL_MODE_THRESHOLD) {
+        // Create a temporary set object with filtered questions for the modal
+        const tempSet = Object.assign({}, set, { questions: filtered });
+        openStartModeModal(tempSet);
+      } else if (hasReviewMaterial(set)) {
+        showReviewModal(set, filtered, false, set.id);
+      } else {
+        startQuiz(filtered, false, set.id);
+      }
     } else {
       startQuiz(filtered);
     }
