@@ -1,6 +1,23 @@
 'use strict';
 // ── Event Bindings & Initialization ──
 
+// Load fonts asynchronously (replaces inline onload handler)
+(function loadFonts() {
+  const fontLink = document.getElementById('fonts-stylesheet');
+  if (fontLink) {
+    // Use addEventListener instead of onload attribute to avoid CSP violation
+    fontLink.addEventListener('load', function() {
+      this.media = 'all';
+    });
+    // Fallback: if load event doesn't fire, set media after a short delay
+    setTimeout(function() {
+      if (fontLink && fontLink.media === 'print') {
+        fontLink.media = 'all';
+      }
+    }, 100);
+  }
+})();
+
 ($('btn-start-practice') || document.getElementById('btn-start-practice')).addEventListener('click', () => {
   const typeFilter = getSelectedTypeFilter();
   const sel = $('start-practice-select');
