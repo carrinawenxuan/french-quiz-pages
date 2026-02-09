@@ -576,18 +576,60 @@
     }
     .answer-feedback.correct-msg { background: rgba(52, 211, 153, 0.15); color: var(--correct); display: block; border: 1px solid rgba(52, 211, 153, 0.3); }
     .answer-feedback.wrong-msg { background: rgba(248, 113, 113, 0.15); color: var(--wrong); display: block; border: 1px solid rgba(248, 113, 113, 0.3); }
-    .explanation {
+    .explanation-scroll-wrap {
       margin-top: 1.25rem;
-      padding: 1rem 1.15rem;
-      background: rgba(52, 211, 153, 0.08);
-      border: 1px solid rgba(52, 211, 153, 0.25);
+      max-height: 40vh;
+      overflow-y: auto;
+      overflow-x: hidden;
       border-radius: var(--radius-sm);
+      border: 1px solid rgba(52, 211, 153, 0.25);
+      background: rgba(52, 211, 153, 0.08);
+    }
+    body.theme-light .explanation-scroll-wrap { border-color: rgba(52, 211, 153, 0.3); background: rgba(52, 211, 153, 0.1); }
+    .explanation {
+      padding: 1rem 1.15rem;
       font-size: 0.9rem;
       line-height: 1.65;
       color: #6ee7b7;
       white-space: pre-wrap;
     }
-    body.theme-light .explanation { background: rgba(52, 211, 153, 0.1); color: #059669; border-color: rgba(52, 211, 153, 0.3); }
+    body.theme-light .explanation { color: #059669; }
+    .explanation-notes-section { padding: 0 1.15rem 1rem; }
+    .explanation-notes-section .explanation-notes-display {
+      margin-bottom: 0.5rem;
+      padding: 0.75rem 1rem;
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: var(--text);
+      white-space: pre-wrap;
+      max-height: 20vh;
+      overflow-y: auto;
+    }
+    body.theme-light .explanation-notes-section .explanation-notes-display { background: var(--card); border-color: var(--border-strong); }
+    .explanation-notes-section .explanation-notes-display::before { content: '我的备注：'; font-weight: 600; color: var(--accent); display: block; margin-bottom: 0.35rem; }
+    .explanation-notes-edit-btn { margin-top: 0.25rem; }
+    .explanation-notes-edit { margin-top: 0.5rem; }
+    .explanation-notes-textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+      line-height: 1.55;
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      resize: vertical;
+      min-height: 100px;
+      max-height: 30vh;
+      display: block;
+      box-sizing: border-box;
+    }
+    body.theme-light .explanation-notes-textarea { background: var(--card); border-color: var(--border-strong); }
+    .explanation-notes-edit-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
     .wrong-book-remove-wrap { margin-top: 0.75rem; }
     .remove-from-set-wrap { margin-top: 0.5rem; }
     .btn-sm { padding: 0.4rem 0.75rem; font-size: 0.85rem; min-height: auto; }
@@ -1464,7 +1506,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         </div>
         <div class="paragraph-blanks" id="paragraph-blanks-wrap" style="display: none;"></div>
         <div class="answer-feedback" id="answer-feedback"></div>
-        <div class="explanation" id="explanation" style="display: none;"></div>
+        <div class="explanation-scroll-wrap" id="explanation-scroll-wrap" style="display: none;">
+          <div class="explanation" id="explanation"></div>
+          <div class="explanation-notes-section" id="explanation-notes-section">
+            <div class="explanation-notes-display" id="explanation-notes-display" style="display: none;"></div>
+            <button type="button" class="btn btn-secondary btn-sm explanation-notes-edit-btn" id="btn-edit-explanation-notes" aria-label="编辑备注">编辑备注</button>
+            <div class="explanation-notes-edit" id="explanation-notes-edit" style="display: none;">
+              <textarea id="explanation-notes-textarea" rows="4" placeholder="在此添加你的备注（纯文本）…" class="explanation-notes-textarea"></textarea>
+              <div class="explanation-notes-edit-actions">
+                <button type="button" class="btn btn-primary btn-sm" id="btn-save-explanation-notes">保存</button>
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-cancel-explanation-notes">取消</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="wrong-book-remove-wrap" id="wrong-book-remove-wrap" style="display: none;">
           <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-wrong">移出错题本</button>
         </div>
@@ -1475,6 +1530,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <div class="quiz-actions">
         <span id="question-counter"></span>
         <div class="quiz-actions-right">
+          <button type="button" class="btn btn-secondary" id="btn-prev-quiz" style="display: none;" aria-label="上一题">上一题</button>
           <button type="button" class="btn btn-secondary" id="btn-exit-quiz" aria-label="提前退出练习">提前退出</button>
           <button type="button" class="btn btn-primary" id="btn-next" style="display: none;" aria-label="下一题" aria-keyshortcuts="Enter">下一题</button>
           <button type="button" class="btn btn-primary" id="btn-submit" aria-label="确认答案" aria-keyshortcuts="Enter">确认</button>
@@ -1587,6 +1643,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
     </div>
   </div>
+
   <script>
     if (typeof performance !== 'undefined' && performance.mark) performance.mark('app-start');
     const LETTERS = ['A', 'B', 'C', 'D'];
@@ -1597,6 +1654,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const TIMER_SECONDS_KEY = 'french_quiz_timer_seconds';
     const DAILY_STATS_KEY = 'french_quiz_daily_stats';
     const RECENT_SESSIONS_KEY = 'french_quiz_recent_sessions';
+    const QUESTION_NOTES_KEY = 'french_quiz_question_notes';
     const THEME_KEY = 'french_quiz_theme';
     const DATA_FILE_NAME = 'french_quiz_data.json';
     const RECENT_SESSIONS_MAX = 10;
@@ -1615,6 +1673,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _modalLastFocus = null;
     let _openModalOverlay = null;
     let _savedSetsDisplayLimit = SAVED_SETS_DISPLAY_LIMIT;
+    let _currentQuestionIdForNotes = null;
 
     function getFocusableIn(container) {
       if (!container) return [];
@@ -1830,10 +1889,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function getDataForExport() {
       const timerEl = document.getElementById('timer-seconds');
+      let questionNotes = {};
+      try {
+        const raw = localStorage.getItem(QUESTION_NOTES_KEY);
+        if (raw) questionNotes = JSON.parse(raw);
+      } catch (_) {}
       return {
         savedSets: getSavedSets(),
         folders: getFolders(),
         wrongBook: getWrongBook(),
+        questionNotes: questionNotes,
         timerSeconds: timerEl ? Math.max(0, parseInt(timerEl.value, 10) || 10) : 10,
         dailyStats: getDailyStats(),
         exportedAt: new Date().toISOString()
@@ -1843,6 +1908,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (data.savedSets != null) setSavedSets(Array.isArray(data.savedSets) ? data.savedSets : []);
       if (data.folders != null) setFolders(Array.isArray(data.folders) ? data.folders : []);
       if (data.wrongBook != null) setWrongBook(Array.isArray(data.wrongBook) ? data.wrongBook : []);
+      if (data.questionNotes != null && typeof data.questionNotes === 'object') {
+        try {
+          localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(data.questionNotes));
+        } catch (_) {}
+      }
       if (data.timerSeconds != null) {
         const n = Math.max(0, Math.min(120, parseInt(data.timerSeconds, 10) || 10));
         const el = document.getElementById('timer-seconds');
@@ -2508,6 +2578,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _wrongBookIdCache.set(item, id);
       return id;
     }
+    function getQuestionNotes(questionId) {
+      try {
+        const raw = localStorage.getItem(QUESTION_NOTES_KEY);
+        const obj = raw ? JSON.parse(raw) : {};
+        return (obj && obj[questionId] != null) ? String(obj[questionId]) : '';
+      } catch (_) { return ''; }
+    }
+    function setQuestionNotes(questionId, text) {
+      try {
+        const raw = localStorage.getItem(QUESTION_NOTES_KEY);
+        const obj = raw ? JSON.parse(raw) : {};
+        obj[questionId] = (text || '').trim();
+        if (!obj[questionId]) delete obj[questionId];
+        localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(obj));
+      } catch (_) {}
+    }
     function getWrongBook() {
       if (!_wrongBookCacheDirty && _wrongBookCache !== null) return _wrongBookCache;
       try {
@@ -2589,45 +2675,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     const DEFAULT_QUESTIONS = [
-      {
-        type: 'single_choice',
-        category: '词干变化陷阱',
-        stem: 'Nous ______ une lettre à nos parents.',
-        options: ['écris', 'écrit', 'écrivons', 'écrivent'],
-        correct: 2,
-        explanation: 'nous/vous/ils 用词干 écriv-。A) écris → je/tu；B) écrit → il；D) écrivent → ils。正确为 C) écrivons。'
-      },
-      {
-        type: 'single_choice',
-        category: '单数人称拼写区分',
-        stem: 'Mon frère ______ un roman.',
-        options: ['écris', 'écrit', 'écrive', 'écri'],
-        correct: 1,
-        explanation: 'mon frère = il，用 écriT（-t 结尾）。记忆：je/tu → écriS；il/elle/on → écriT。C) 虚拟式；D) 不存在。'
-      },
-      {
-        type: 'single_choice',
-        category: '听力辨音',
-        stem: '听力 [ilzekʁiv]，quelle est la forme correcte ?',
-        options: ['il écrit', 'ils écrivent', 'ils écrit', 'il écrivent'],
-        correct: 1,
-        explanation: '[ekʁiv] 有 [v] 音 → 复数；联诵 [z] → ils。故 B) ils écrivent。'
-      },
-      {
-        type: 'single_choice',
-        category: '省音规则',
-        stem: '______ écris une lettre.',
-        options: ["Je", "J'", "Tu", "Il"],
-        correct: 1,
-        explanation: 'écrire 以元音开头，je + 元音 = j\'。A) Je écris 语法错误；C/D 与空格后 écris 不匹配。'
-      },
-      {
-        type: 'paragraph_fill_blank',
-        category: '段落填空',
-        stem: 'Il a _____ ans. Elle _____ (s\'appeler) Marie.',
-        correct: ['15', "s'appelle"],
-        explanation: '第一空填年龄数字；第二空 s\'appeler 第三人称单数变位为 s\'appelle。'
-      }
+      { type: 'single_choice', stem: 'En ce moment, nous ______ un film intéressant.', options: ['voions', 'voyons', 'voyez', 'voient'], correct: 1, explanation: '【A2 拼写陷阱】Nous/Vous 变位时，词根 i 必须变为 y。Nous voyons 是唯一正确形式。', category: '直陈式现在时' },
+      { type: 'single_choice', stem: 'Hier, est-ce que tu ______ tes amis ?', options: ['a vu', 'as vu', 'as vus', 'es vu'], correct: 1, explanation: '【A1 复合过去时】Tu 搭配助动词 avoir (as) + 过去分词 vu。此时没有宾语提前，vu 不配合，不用加 s。', category: '复合过去时' },
+      { type: 'single_choice', stem: 'Les fleurs ? Oui, je les ai ______.', options: ['vu', 'vue', 'vus', 'vues'], correct: 3, explanation: '【B2 过去分词配合】核心考点！les 指代 les fleurs (阴性复数)，且放在了助动词 ai 之前。过去分词 vu 必须配合，加 es → vues。', category: '复合过去时' },
+      { type: 'single_choice', stem: 'Demain, je ______ le médecin.', options: ['vais voir', 'vais vois', 'va voir', 'aller voir'], correct: 0, explanation: '【A1 最近将来时】结构：Aller (变位) +动词原形。Je vais + voir。', category: '最近将来时' },
+      { type: 'single_choice', stem: 'Non, je ne ______ pas le voir ce soir.', options: ['vais', 'va', 'vois', 'ai'], correct: 0, explanation: '【A2 否定句结构】最近将来时的否定是 Ne + Aller + Pas + 原形。Je ne *vais* pas le voir。', category: '最近将来时' },
+      { type: 'multiple_choice', stem: '下列哪些句子的变位形式在发音上完全相同（即 TCF 听力中的同音陷阱）？', options: ['Je vois', 'Tu vois', 'Il voit', 'Ils voient'], correct: [0, 1, 2, 3], explanation: '【A1 语音辨析】TCF 听力难点。vois, voit, voient 发音均为 /vwa/。只有上下文的主语能区分它们。', category: '直陈式现在时' },
+      { type: 'multiple_choice', stem: '关于复合过去时 \'J\'ai vu\'，下列哪些说法是正确的？', options: ['助动词是 être', '助动词是 avoir', '过去分词是 vu', '过去分词是 voiré'], correct: [1, 2], explanation: '【A1 基础构成】Voir 的复合过去时由 Avoir + Vu 构成。', category: '复合过去时' },
+      { type: 'multiple_choice', stem: '在最近将来时中，代词的位置哪里是正确的？', options: ['Je vais le voir.', 'Je le vais voir.', 'Nous allons les voir.', 'Nous les allons voir.'], correct: [0, 2], explanation: '【B1 代词位置】在最近将来时中，宾语代词（le, la, les, lui...）必须放在原形动词（voir）之前，不能放在 aller 之前。', category: '最近将来时' },
+      { type: 'multiple_choice', stem: '选出下列句子中语法**错误**的选项：', options: ['Ils voyent la mer.', 'Nous voions la montagne.', 'Vous voyez le problème.', 'Elles voient le chat.'], correct: [0, 1], explanation: '【A2 拼写规则】Ils 后面应为 voient (i 不变 y)；Nous 后面应为 voyons (i 必须变 y)。', category: '直陈式现在时' },
+      { type: 'multiple_choice', stem: '哪些时间标志词通常触发\'复合过去时\'？', options: ['Hier', 'La semaine dernière', 'Demain', 'Maintenant'], correct: [0, 1], explanation: '【A2 时间状语】Hier (昨天) 和 La semaine dernière (上周) 是过去时的典型标志。', category: '复合过去时' },
+      { type: 'fill_blank', stem: 'Regarde ! Ils ______ (voir) un arc-en-ciel.', options: ['voient'], correct: ['voient'], explanation: '【A1 变位】Ils (复数第三人称) 变位为 voient。', category: '直陈式现在时' },
+      { type: 'fill_blank', stem: 'C\'est la lettre que j\'ai ______ (voir).', options: ['vue'], correct: ['vue'], explanation: '【B2 配合】Que 指代 la lettre (阴性单数)，且在动词前，vu 需变成 vue。', category: '复合过去时' },
+      { type: 'fill_blank', stem: 'Nous ______ (voir) que tu es fatigué.', options: ['voyons'], correct: ['voyons'], explanation: '【A2 拼写】Nous + voir = voyons (注意 y)。', category: '直陈式现在时' },
+      { type: 'fill_blank', stem: 'Bientôt, on ______ (aller) voir le résultat.', options: ['va'], correct: ['va'], explanation: '【A1 最近将来时】On va voir。注意 On 的变位等同于 Il/Elle。', category: '最近将来时' },
+      { type: 'fill_blank', stem: 'Où sont mes lunettes ? Je ne les ai pas ______ (voir).', options: ['vues'], correct: ['vues'], explanation: '【B2 配合+否定】Les 指代 lunettes (阴性复数)，放在 ai 之前，过去分词必须配合为 vues。否定词 ne...pas 不影响配合规则。', category: '复合过去时' },
+      { type: 'paragraph_fill_blank', stem: 'Hier, j\'ai _____ un accident. Aujourd\'hui, je _____ que la police est là.', correct: ['vu', 'vois'], explanation: '【时态对比】第一空 Hier 触发复合过去时 (ai vu)；第二空 Aujourd\'hui 触发现在时 (vois)。', category: '时态综合' },
+      { type: 'paragraph_fill_blank', stem: 'Tu _____ voir ce film demain ? Non, je l\'ai déjà _____.', correct: ['vas', 'vu'], explanation: '【语境辨析】第一空 Demain 触发最近将来时 (vas voir)；第二空 déjà 触发复合过去时。注意这里 le 指代 film (阳性)，所以 vu 不变。', category: '时态综合' },
+      { type: 'paragraph_fill_blank', stem: 'Les photos ? Nous les _____ vues. Elles sont belles, vous _____ ?', correct: ['avons', 'voyez'], explanation: '【B2 助动词与变位】第一空：复合过去时助动词 nous avons (vues 已配合)；第二空：现在时 vous voyez (注意 y)。', category: '复合过去时 & 现在时' },
+      { type: 'paragraph_fill_blank', stem: 'Elles _____ (voir) mal sans lunettes. Elles vont _____ (voir) le docteur.', correct: ['voient', 'voir'], explanation: '【形似词辨析】第一空是现在时变位 voient；第二空是最近将来时，Aller 后面必须跟原形 voir。', category: '直陈式现在时 & 最近将来时' },
+      { type: 'paragraph_fill_blank', stem: 'C\'est la fille que tu as _____ ? Oui, je vais la _____ demain.', correct: ['vue', 'voir'], explanation: '【B2 综合难点】第一空：Que 指代 la fille (阴性)，as vue 需配合。第二空：最近将来时 la 放在原形 voir 之前。', category: '复合过去时 & 最近将来时' }
     ];
 
     function getCurrentSetQuestions() {
@@ -2774,6 +2841,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.index = 0;
       state.score = 0;
       state.answered = false;
+      state.answerResults = {};
       state.practicingWrongBook = !!fromWrongBook;
       state.practicedSetId = setId || null;
       showScreen(SCREEN.QUIZ);
@@ -2871,7 +2939,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         return;
       }
 
-      state.answered = false;
+      state.answered = !!state.answerResults[state.index];
       const idx = state.index + 1;
       const total = state.questions.length;
       document.getElementById('progress-fill').style.width = (idx / total) * 100 + '%';
@@ -2884,8 +2952,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       document.getElementById('question-meta').textContent = q.category ? `套路 · ${q.category}` : '';
       document.getElementById('question-stem').innerHTML = escapeHtml(q.stem);
-      document.getElementById('explanation').style.display = 'none';
+      var explanationScrollWrap = document.getElementById('explanation-scroll-wrap');
+      if (explanationScrollWrap) explanationScrollWrap.style.display = 'none';
       document.getElementById('explanation').textContent = q.explanation || '';
+      var notesDisplay = document.getElementById('explanation-notes-display');
+      if (notesDisplay) { notesDisplay.textContent = ''; notesDisplay.style.display = 'none'; }
+      var notesEdit = document.getElementById('explanation-notes-edit');
+      if (notesEdit) notesEdit.style.display = 'none';
+      var notesTextarea = document.getElementById('explanation-notes-textarea');
+      if (notesTextarea) notesTextarea.value = '';
       const removeWrapEl = document.getElementById('wrong-book-remove-wrap');
       if (removeWrapEl) removeWrapEl.style.display = 'none';
       const removeFromSetWrap = document.getElementById('remove-from-set-wrap');
@@ -2913,8 +2988,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           document.getElementById('paragraph-blanks-wrap').style.display = 'none';
           document.getElementById('paragraph-blanks-wrap').innerHTML = '';
         }
+        if (state.answerResults[state.index]) {
+          applyAnsweredState(q, state.answerResults[state.index]);
+          return;
+        }
         document.getElementById('btn-submit').style.display = 'inline-flex';
         document.getElementById('btn-next').style.display = 'none';
+        var btnPrev0 = document.getElementById('btn-prev-quiz');
+        if (btnPrev0) btnPrev0.style.display = state.index > 0 ? 'inline-flex' : 'none';
         startTimer();
         return;
       }
@@ -2924,8 +3005,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         fillWrap.style.display = 'none';
         const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
         renderParagraphBlanks(q, correctArr);
+        if (state.answerResults[state.index]) {
+          applyAnsweredState(q, state.answerResults[state.index]);
+          return;
+        }
         document.getElementById('btn-submit').style.display = 'inline-flex';
         document.getElementById('btn-next').style.display = 'none';
+        var btnPrev1 = document.getElementById('btn-prev-quiz');
+        if (btnPrev1) btnPrev1.style.display = state.index > 0 ? 'inline-flex' : 'none';
         startTimer();
         return;
       }
@@ -2969,8 +3056,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       });
 
+      if (state.answerResults[state.index]) {
+        applyAnsweredState(q, state.answerResults[state.index]);
+        return;
+      }
       document.getElementById('btn-submit').style.display = 'inline-flex';
       document.getElementById('btn-next').style.display = 'none';
+      var btnPrev2 = document.getElementById('btn-prev-quiz');
+      if (btnPrev2) btnPrev2.style.display = state.index > 0 ? 'inline-flex' : 'none';
       startTimer();
     }
 
@@ -3097,7 +3190,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       explanationEl.textContent = explanationText;
-      explanationEl.style.display = explanationText ? 'block' : 'none';
+      var scrollWrap = document.getElementById('explanation-scroll-wrap');
+      if (scrollWrap) {
+        scrollWrap.style.display = 'block';
+        var qid = wrongBookItemId(q);
+        _currentQuestionIdForNotes = qid;
+        var notes = getQuestionNotes(qid);
+        var notesDisplayEl = document.getElementById('explanation-notes-display');
+        var notesEditEl = document.getElementById('explanation-notes-edit');
+        var btnEditNotes = document.getElementById('btn-edit-explanation-notes');
+        if (notesDisplayEl) {
+          if (notes) { notesDisplayEl.textContent = notes; notesDisplayEl.style.display = 'block'; } else { notesDisplayEl.style.display = 'none'; }
+        }
+        if (notesEditEl) notesEditEl.style.display = 'none';
+        if (btnEditNotes) btnEditNotes.style.display = 'inline-flex';
+      }
 
       const announcer = document.getElementById('sr-announcer');
       if (announcer) announcer.textContent = correct ? '回答正确' : '回答错误。' + (explanationText || '');
@@ -3130,12 +3237,79 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
 
+      var saved = { correct: correct, explanationText: explanationText };
+      if (q.type === 'single_choice') {
+        var sel = Array.from(optionsEl.querySelectorAll('input:checked')).map(function(inp) { return parseInt(inp.value, 10); });
+        saved.selectedSingle = sel.length === 1 ? sel[0] : undefined;
+      }
+      if (q.type === 'multiple_choice') saved.selectedMultiple = Array.from(optionsEl.querySelectorAll('input:checked')).map(function(inp) { return parseInt(inp.value, 10); });
+      state.answerResults[state.index] = saved;
+
       document.getElementById('btn-submit').style.display = 'none';
       const btnNext = document.getElementById('btn-next');
       btnNext.style.display = 'inline-flex';
       btnNext.textContent = state.index >= state.questions.length - 1 ? '查看结果' : '下一题';
       btnNext.setAttribute('aria-label', state.index >= state.questions.length - 1 ? '查看结果' : '下一题');
+      var btnPrev = document.getElementById('btn-prev-quiz');
+      if (btnPrev) btnPrev.style.display = state.index > 0 ? 'inline-flex' : 'none';
       saveQuizProgress();
+    }
+
+    function applyAnsweredState(q, saved) {
+      state.answered = true;
+      clearTimer();
+      var feedbackEl = document.getElementById('answer-feedback');
+      feedbackEl.textContent = saved.correct ? '正确！' : '错误';
+      feedbackEl.className = 'answer-feedback ' + (saved.correct ? 'correct-msg' : 'wrong-msg');
+      feedbackEl.style.display = 'block';
+      var explanationEl = document.getElementById('explanation');
+      explanationEl.textContent = saved.explanationText || '';
+      var scrollWrap = document.getElementById('explanation-scroll-wrap');
+      if (scrollWrap) {
+        scrollWrap.style.display = 'block';
+        var qid = wrongBookItemId(q);
+        _currentQuestionIdForNotes = qid;
+        var notes = getQuestionNotes(qid);
+        var notesDisplayEl = document.getElementById('explanation-notes-display');
+        var notesEditEl = document.getElementById('explanation-notes-edit');
+        var btnEditNotes = document.getElementById('btn-edit-explanation-notes');
+        if (notesDisplayEl) {
+          if (notes) { notesDisplayEl.textContent = notes; notesDisplayEl.style.display = 'block'; } else { notesDisplayEl.style.display = 'none'; }
+        }
+        if (notesEditEl) notesEditEl.style.display = 'none';
+        if (btnEditNotes) btnEditNotes.style.display = 'inline-flex';
+      }
+      var optionsEl = document.getElementById('options-container');
+      if (optionsEl && (q.type === 'single_choice' || q.type === 'multiple_choice') && q.options) {
+        var correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
+        optionsEl.querySelectorAll('.option').forEach(function(label, i) {
+          label.classList.add('disabled');
+          var inCorrect = correctSet.has(i);
+          var wasSelected = (q.type === 'single_choice' && saved.selectedSingle === i) || (q.type === 'multiple_choice' && saved.selectedMultiple && saved.selectedMultiple.indexOf(i) !== -1);
+          if (inCorrect) label.classList.add('correct');
+          else if (wasSelected) label.classList.add('wrong');
+          var input = label.querySelector('input');
+          if (input) { input.checked = wasSelected; input.disabled = true; }
+        });
+      }
+      var fillWrap = document.getElementById('fill-input-wrap');
+      var paragraphWrap = document.getElementById('paragraph-blanks-wrap');
+      if (fillWrap) fillWrap.querySelectorAll('input').forEach(function(inp) { inp.disabled = true; });
+      if (paragraphWrap) paragraphWrap.querySelectorAll('input').forEach(function(inp) { inp.disabled = true; });
+      document.getElementById('btn-submit').style.display = 'none';
+      var btnNext = document.getElementById('btn-next');
+      btnNext.style.display = 'inline-flex';
+      btnNext.textContent = state.index >= state.questions.length - 1 ? '查看结果' : '下一题';
+      btnNext.setAttribute('aria-label', state.index >= state.questions.length - 1 ? '查看结果' : '下一题');
+      var btnPrev = document.getElementById('btn-prev-quiz');
+      if (btnPrev) btnPrev.style.display = state.index > 0 ? 'inline-flex' : 'none';
+    }
+
+    function prevQuestion() {
+      if (state.index <= 0) return;
+      state.index--;
+      state.answered = true;
+      renderQuestion();
     }
 
     function nextQuestion() {
@@ -3358,6 +3532,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     document.getElementById('btn-submit').addEventListener('click', submitAnswer);
     document.getElementById('btn-next').addEventListener('click', nextQuestion);
+    document.getElementById('btn-prev-quiz').addEventListener('click', prevQuestion);
     document.getElementById('btn-remove-from-set').addEventListener('click', () => {
       if (!state.practicedSetId) return;
       if (confirm('确定从本练习集中删除这道题？删除后本题将不再出现在该练习集中。')) removeCurrentQuestionFromSet();
@@ -3377,6 +3552,40 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         else submitAnswer();
       }
     });
+    (function initExplanationNotesEdit() {
+      var btnEdit = document.getElementById('btn-edit-explanation-notes');
+      var btnSave = document.getElementById('btn-save-explanation-notes');
+      var btnCancel = document.getElementById('btn-cancel-explanation-notes');
+      var notesDisplay = document.getElementById('explanation-notes-display');
+      var notesEdit = document.getElementById('explanation-notes-edit');
+      var notesTextarea = document.getElementById('explanation-notes-textarea');
+      if (!btnEdit || !notesEdit || !notesTextarea) return;
+      btnEdit.addEventListener('click', function() {
+        notesTextarea.value = _currentQuestionIdForNotes ? getQuestionNotes(_currentQuestionIdForNotes) : '';
+        notesDisplay.style.display = 'none';
+        btnEdit.style.display = 'none';
+        notesEdit.style.display = 'block';
+        notesTextarea.focus();
+      });
+      function closeNotesEdit() {
+        notesEdit.style.display = 'none';
+        btnEdit.style.display = 'inline-flex';
+        if (_currentQuestionIdForNotes) {
+          var notes = getQuestionNotes(_currentQuestionIdForNotes);
+          if (notes) { notesDisplay.textContent = notes; notesDisplay.style.display = 'block'; } else { notesDisplay.style.display = 'none'; }
+        }
+      }
+      if (btnSave) btnSave.addEventListener('click', function() {
+        if (_currentQuestionIdForNotes != null) {
+          setQuestionNotes(_currentQuestionIdForNotes, notesTextarea.value);
+          var notes = getQuestionNotes(_currentQuestionIdForNotes);
+          if (notes) { notesDisplay.textContent = notes; notesDisplay.style.display = 'block'; } else { notesDisplay.style.display = 'none'; }
+          showToast('备注已保存');
+        }
+        closeNotesEdit();
+      });
+      if (btnCancel) btnCancel.addEventListener('click', closeNotesEdit);
+    })();
     document.getElementById('btn-restart').addEventListener('click', () => {
       showScreen(SCREEN.HOME);
       updateWrongCount();
@@ -3636,25 +3845,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           if (entries.length > 0 && typeof performance !== 'undefined' && performance.mark) performance.mark('lcp');
         });
         lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
-      } catch (_) {}
-    }
-    if (typeof PerformanceObserver !== 'undefined') {
-      try {
-        var fidDone = false;
-        var fidObserver = new PerformanceObserver(function (list) {
-          if (fidDone) return;
-          fidDone = true;
-          var entries = list.getEntries();
-          if (entries.length > 0 && typeof performance !== 'undefined' && performance.mark) performance.mark('first-input');
-        });
-        fidObserver.observe({ type: 'first-input', buffered: true });
-      } catch (_) {}
-      try {
-        var clsObserver = new PerformanceObserver(function (list) {
-          var entries = list.getEntries();
-          if (entries.length > 0 && typeof performance !== 'undefined' && performance.mark) performance.mark('cls');
-        });
-        clsObserver.observe({ type: 'layout-shift', buffered: true });
       } catch (_) {}
     }
     const startSel = document.getElementById('start-practice-select');
