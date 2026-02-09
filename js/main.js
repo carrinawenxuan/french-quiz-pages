@@ -337,20 +337,44 @@ document.getElementById('review-modal-overlay').addEventListener('click', (e) =>
   const btnReset = document.getElementById('btn-start-mode-reset');
   const btnFullAfter = document.getElementById('btn-start-mode-full-after');
   function doStartFull() {
-    if (!_pendingStartSet) return;
+    // 先保存 _pendingStartSet，因为 closeStartModeModal() 会清空它
     const set = _pendingStartSet;
+    if (!set) {
+      console.warn('_pendingStartSet is null, cannot start quiz');
+      closeStartModeModal();
+      showToast('无法开始练习，请重新选择习题集');
+      return;
+    }
+    if (!set.questions || set.questions.length === 0) {
+      console.warn('Set has no questions', set);
+      closeStartModeModal();
+      showToast('该习题集没有题目');
+      return;
+    }
     const shuffleEl = document.getElementById('start-mode-shuffle');
     const shuffle = shuffleEl ? shuffleEl.checked : false;
     const reviewCheck = document.getElementById('start-mode-review');
     const shouldReview = reviewCheck ? reviewCheck.checked : false;
     const opts = shuffle ? {} : { noShuffle: true };
+    // 先关闭模态框（会清空 _pendingStartSet）
     closeStartModeModal();
+    // 使用保存的 set 值
     if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
     else startQuiz(set.questions, false, set.id, opts);
   }
   function doStartSequential() {
-    if (!_pendingStartSet || !countInput) return;
+    // 先保存 _pendingStartSet，因为 closeStartModeModal() 会清空它
     const set = _pendingStartSet;
+    if (!set) {
+      console.warn('_pendingStartSet is null, cannot start sequential quiz');
+      closeStartModeModal();
+      showToast('无法开始练习，请重新选择习题集');
+      return;
+    }
+    if (!countInput) {
+      console.warn('countInput is null');
+      return;
+    }
     const nextIdx = Math.max(0, parseInt(set.sequentialNextIndex, 10) || 0);
     const remain = set.questions.length - nextIdx;
     let n = Math.max(1, Math.min(remain, parseInt(countInput.value, 10) || 20));
@@ -358,7 +382,9 @@ document.getElementById('review-modal-overlay').addEventListener('click', (e) =>
     const slice = set.questions.slice(nextIdx, nextIdx + n);
     const reviewCheck = document.getElementById('start-mode-review');
     const shouldReview = reviewCheck ? reviewCheck.checked : false;
+    // 先关闭模态框（会清空 _pendingStartSet）
     closeStartModeModal();
+    // 使用保存的 set 值
     const opts = { noShuffle: true, sequentialBatch: { startIndex: nextIdx, count: slice.length } };
     if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, slice, false, set.id, opts);
     else startQuiz(slice, false, set.id, opts);
@@ -377,14 +403,22 @@ document.getElementById('review-modal-overlay').addEventListener('click', (e) =>
   if (btnCancel) btnCancel.addEventListener('click', closeStartModeModal);
   if (btnReset) btnReset.addEventListener('click', doResetProgress);
   if (btnFullAfter) btnFullAfter.addEventListener('click', function() {
-    if (!_pendingStartSet) return;
+    // 先保存 _pendingStartSet，因为 closeStartModeModal() 会清空它
     const set = _pendingStartSet;
+    if (!set) {
+      console.warn('_pendingStartSet is null, cannot start quiz');
+      closeStartModeModal();
+      showToast('无法开始练习，请重新选择习题集');
+      return;
+    }
     const shuffleEl = document.getElementById('start-mode-shuffle');
     const shuffle = shuffleEl ? shuffleEl.checked : false;
     const reviewCheck = document.getElementById('start-mode-review');
     const shouldReview = reviewCheck ? reviewCheck.checked : false;
     const opts = shuffle ? {} : { noShuffle: true };
+    // 先关闭模态框（会清空 _pendingStartSet）
     closeStartModeModal();
+    // 使用保存的 set 值
     if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
     else startQuiz(set.questions, false, set.id, opts);
   });
