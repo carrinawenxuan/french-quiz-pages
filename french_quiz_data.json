@@ -7420,7 +7420,149 @@
       "reviewLinks": [
         "https://docs.google.com/document/d/1NS55WfIouOmZi4a-QzlcCbSYjTpRpa9h6oO5Q54jrDg/edit?tab=t.0"
       ],
-      "reviewImages": []
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1770667761530-igng0jc0mv",
+          "front": "beau 在元音/哑音h前变什么形式？",
+          "back": "bel\n\n✅ un bel homme, un bel appartement, un bel hôtel\n❌ un beau homme\n\n🎯 记忆钩子：元音前，beau 脱帽变 bel"
+        },
+        {
+          "id": "1770667761530-5mynnt3i8ph",
+          "front": "看到 un ___ ami / un ___ hôtel\n空格填 beau 还是 bel？",
+          "back": "bel\n\n触发：元音/哑音h开头 → 立刻选 bel\n同类：nouveau → nouvel, vieux → vieil"
+        },
+        {
+          "id": "1770667761530-0cf8u412mdgv",
+          "front": "beau 的四种形式？",
+          "back": "阳单(辅音前): beau\n阳单(元音前): bel\n阴单: belle\n阳复: beaux\n阴复: belles\n\n发音：beau/beaux = /bo/\nbel/belle = /bɛl/"
+        },
+        {
+          "id": "1770667761530-5r7jtnq0sme",
+          "front": "「天气好」法语怎么说？",
+          "back": "Il fait beau.\n\n❌ Il est beau. (这是说某人帅)\n❌ C'est beau. (这是说某物美)\n\n🎯 天气用 Il fait + 形容词"
+        },
+        {
+          "id": "1770667761530-l31glkgrar",
+          "front": "des → de 的变化规则？\n(形容词在名词前)",
+          "back": "形容词在名词前时，des 变 de\n\n✅ de beaux yeux\n✅ de belles maisons\n❌ des beaux yeux (口语可接受，书面扣分)\n\n🎯 TCF书面：美在前，des 变 de"
+        },
+        {
+          "id": "1770667761530-o3cgvj7a12b",
+          "front": "「我热」法语怎么说？",
+          "back": "J'ai chaud.\n\n❌ Je suis chaud. (有歧义！口语指'我准备好了/我兴奋')\n\n🎯 记忆钩子：热冷饿渴 → 全用 avoir\navoir chaud/froid/faim/soif"
+        },
+        {
+          "id": "1770667761530-bs6j38gcube",
+          "front": "avoir chaud vs être chaud",
+          "back": "avoir chaud = 感觉热 ✅ 日常用法\nêtre chaud = ⚠️ 口语有歧义（兴奋/准备好）\n\n✅ J'ai très chaud.\n❌ Je suis très chaud.\n\n🎯 身体感觉 = avoir"
+        },
+        {
+          "id": "1770667761530-89ciyitmqtk",
+          "front": "chaud 阴阳性发音区别？",
+          "back": "阳性 chaud = /ʃo/ (d不发音)\n阴性 chaude = /ʃod/ (d发音)\n\n同类规则：\nfroid /fʁwa/ → froide /fʁwad/\ngrand /gʁɑ̃/ → grande /gʁɑ̃d/"
+        },
+        {
+          "id": "1770667761530-inf7idpcdo",
+          "front": "「天气热」法语怎么说？",
+          "back": "Il fait chaud.\n\n❌ Il est chaud.\n❌ C'est chaud. (这是说某物烫)\n\n🎯 天气永远 Il fait + 形容词"
+        },
+        {
+          "id": "1770667761530-me2qejwjed",
+          "front": "seul 放名词前 vs 名词后\n含义有什么区别？",
+          "back": "名词前 = 唯一的\n名词后 = 单独的/孤单的\n\n✅ la seule solution = 唯一的解决方案\n✅ Il est seul. = 他独自一人。\n\n🎯 位置决定含义！前唯一，后孤单"
+        },
+        {
+          "id": "1770667761530-q46kprmb4ja",
+          "front": "tout seul 怎么配合性数？",
+          "back": "阳单: tout seul\n阴单: toute seule\n阳复: tout seuls\n阴复: toutes seules\n\n✅ Elle a fait ça toute seule.\n❌ Elle a fait ça tout seul.\n\n🎯 tout 跟着主语变！"
+        },
+        {
+          "id": "1770667761530-wogx7iyaoj",
+          "front": "「她独自完成的」法语怎么说？",
+          "back": "Elle l'a fait toute seule.\n\n❌ Elle l'a fait tout seul. (没配合)\n\n触发：看到 seul 前有 tout → 检查主语性数"
+        },
+        {
+          "id": "1770667761530-erg66h5507o",
+          "front": "tout/toute + le/la + 名词单数\n= ?",
+          "back": "= 整个...\n\n✅ tout le monde = 所有人\n✅ toute la journée = 一整天\n✅ tout le temps = 一直\n\n🎯 tout + 定冠词 + 单数 = 整个"
+        },
+        {
+          "id": "1770667761530-dsonsn1xb2u",
+          "front": "tous les vs tout le 区别？",
+          "back": "tous les + 复数 = 所有的、每...\ntout le + 单数 = 整个...\n\n✅ tous les jours = 每天\n✅ tout le livre = 整本书\n\n🎯 复数用 tous，单数用 tout"
+        },
+        {
+          "id": "1770667761530-inkuyha2gv",
+          "front": "tous 什么时候 s 发音？",
+          "back": "形容词 tous = /tu/ (s不发音)\n代词 tous = /tus/ (s发音!)\n\n✅ tous les jours /tu le ʒuʁ/\n✅ Ils sont tous là. /tus/\n\n🎯 独立用（代词）→ s 发音"
+        },
+        {
+          "id": "1770667761530-2s4ts1nog0l",
+          "front": "cadeau 复数怎么写？",
+          "back": "cadeaux\n\n规则：-eau → -eaux\n同类：bateau → bateaux\ngâteau → gâteaux\nbeau → beaux\n\n❌ cadeaus"
+        },
+        {
+          "id": "1770667761530-l2d94n4il",
+          "front": "dessert vs désert\n拼写和含义区别？",
+          "back": "dessert /de.sɛʁ/ = 甜点 (双s)\ndésert /de.zɛʁ/ = 沙漠 (单s，有accent)\n\n🎯 甜点甜甜双 s\n沙漠孤独单 s"
+        },
+        {
+          "id": "1770667761530-eoppoeag99e",
+          "front": "「甜点你要什么？」法语怎么说？",
+          "back": "Qu'est-ce que tu prends en/comme dessert ?\n\nen dessert = 作为甜点\ncomme dessert = 作为甜点\n\n两种都对，餐厅高频句"
+        },
+        {
+          "id": "1770667761530-glyysizn0vt",
+          "front": "hier 通常搭配什么时态？",
+          "back": "复合过去时 (passé composé)\n\n✅ Hier, j'ai mangé des pâtes.\n✅ Hier soir, je me suis couché tard.\n\n🎯 触发：看到 hier → 排除现在时和将来时"
+        },
+        {
+          "id": "1770667761530-v0fqcu17r5m",
+          "front": "hier soir / hier matin\n怎么说？",
+          "back": "hier soir = 昨晚\nhier matin = 昨天早上\n\n时间线：\navant-hier → hier → aujourd'hui → demain → après-demain"
+        },
+        {
+          "id": "1770667761530-mthb4mxxj2f",
+          "front": "pâtes 用什么冠词？\n单数还是复数？",
+          "back": "几乎只用复数！\n\n✅ des pâtes\n✅ Je mange des pâtes.\n\n🎯 面条永远复数\n类似：les vacances（假期）"
+        },
+        {
+          "id": "1770667761530-8ce676xxe1",
+          "front": "excellent 阴阳性怎么变？\n发音区别？",
+          "back": "阳性: excellent /ɛk.se.lɑ̃/ (t不发音)\n阴性: excellente /ɛk.se.lɑ̃t/ (t发音)\n\n✅ une excellente idée\n❌ une excellent idée"
+        },
+        {
+          "id": "1770667761530-fl2va9d8umi",
+          "front": "faire les magasins = ?",
+          "back": "= 逛商店\n\n✅ Elle aime faire les magasins.\n她喜欢逛街。\n\n🎯 固定搭配，不是 *aller les magasins"
+        },
+        {
+          "id": "1770667761530-mejamkmu4vq",
+          "front": "à la maison vs chez moi\n区别？",
+          "back": "à la maison = 在家（泛指家这个地方）\nchez moi = 在我家（强调我的住所）\n\n两者日常可互换\n✅ Je reste à la maison.\n✅ Je reste chez moi."
+        },
+        {
+          "id": "1770667761530-9r9a9ziczfq",
+          "front": "fait maison = ?",
+          "back": "= 自制的、家做的\n\n✅ Ce gâteau est fait maison.\n这蛋糕是自制的。\n\n🎯 maison 不变，不加 e\n❌ faite maison"
+        },
+        {
+          "id": "1770667761530-ns5auonntw8",
+          "front": "ouais vs oui\n什么场合用哪个？",
+          "back": "ouais = 口语/非正式（朋友间）\noui = 正式/标准\n\n⚠️ TCF口语考试、面试 → 用 oui\n❌ 正式场合说 ouais 会扣印象分\n\n🎯 考试永远 oui"
+        },
+        {
+          "id": "1770667761530-g7ik3quz1",
+          "front": "joli vs beau vs magnifique\n程度排序？",
+          "back": "joli < beau < magnifique\n\njoli = 漂亮的（小巧/精致）\nbeau = 美丽的（通用）\nmagnifique = 壮丽的（最强）\n\n🎯 B2写作：用 magnifique 替换 beau 加分"
+        },
+        {
+          "id": "1770667761530-s5ywcl8i7y",
+          "front": "TCF 核心触发：\n元音/哑音h 开头的阳性名词前\nbeau/nouveau/vieux 怎么变？",
+          "back": "beau → bel\nnouveau → nouvel\nvieux → vieil\n\n✅ un bel ami\n✅ un nouvel appartement\n✅ un vieil homme\n\n🎯 三兄弟规则相同：元音前加 l"
+        }
+      ]
     },
     {
       "id": 1770598706736,
@@ -10669,6 +10811,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T20:08:01.042Z",
+  "exportedAt": "2026-02-09T20:09:30.480Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
