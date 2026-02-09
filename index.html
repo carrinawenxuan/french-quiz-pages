@@ -245,9 +245,22 @@
     @media (prefers-reduced-motion: reduce) {
       .screen.active,
       .question-card.animate-in,
-      .question-card.animate-out {
-        animation: none;
-        will-change: auto;
+      .question-card.animate-out,
+      .answer-feedback.correct-msg,
+      .answer-feedback.wrong-msg,
+      .option.correct,
+      .option.wrong,
+      .paragraph-blanks input.correct-blank,
+      .paragraph-blanks input.wrong-blank,
+      .fill-input-wrap input.correct-blank,
+      .fill-input-wrap input.wrong-blank,
+      .question-stem .blank.filled,
+      .question-stem .blank.wrong,
+      .question-card.answer-correct,
+      .question-card.answer-wrong {
+        animation: none !important;
+        will-change: auto !important;
+        transform: none !important;
       }
     }
     #screen-result.active {
@@ -276,18 +289,42 @@
     }
 
     /* Answer feedback animations */
+    /* ── Answer Feedback Animations ── */
     @keyframes bounceIn {
       0% { transform: scale(0.8); opacity: 0; }
-      60% { transform: scale(1.05); }
+      50% { transform: scale(1.1); }
+      70% { transform: scale(0.95); }
       100% { transform: scale(1); opacity: 1; }
     }
     @keyframes shakeX {
       0%, 100% { transform: translateX(0); }
-      20%, 60% { transform: translateX(-6px); }
-      40%, 80% { transform: translateX(6px); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-8px); }
+      20%, 40%, 60%, 80% { transform: translateX(8px); }
     }
-    .answer-feedback.correct-msg { animation: bounceIn 0.4s ease; }
-    .answer-feedback.wrong-msg { animation: shakeX 0.4s ease; }
+    @keyframes correctPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4); }
+      50% { box-shadow: 0 0 0 8px rgba(52, 211, 153, 0); }
+    }
+    @keyframes wrongPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(248, 113, 113, 0.4); }
+      50% { box-shadow: 0 0 0 8px rgba(248, 113, 113, 0); }
+    }
+    @keyframes correctGlow {
+      0%, 100% { border-color: rgba(52, 211, 153, 0.3); }
+      50% { border-color: rgba(52, 211, 153, 0.8); }
+    }
+    @keyframes wrongGlow {
+      0%, 100% { border-color: rgba(248, 113, 113, 0.3); }
+      50% { border-color: rgba(248, 113, 113, 0.8); }
+    }
+    .answer-feedback.correct-msg { 
+      animation: bounceIn 0.5s ease, correctPulse 0.6s ease 0.1s;
+      will-change: transform, opacity, box-shadow;
+    }
+    .answer-feedback.wrong-msg { 
+      animation: shakeX 0.5s ease, wrongPulse 0.6s ease 0.1s;
+      will-change: transform, box-shadow;
+    }
 
     /* Option click effect */
     @keyframes optionPulse {
@@ -466,6 +503,27 @@
       box-shadow: var(--shadow);
       position: relative;
       overflow: hidden;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .question-card.answer-correct {
+      animation: cardCorrectFeedback 0.6s ease;
+      border-color: rgba(52, 211, 153, 0.4);
+      box-shadow: 0 4px 24px rgba(52, 211, 153, 0.2);
+    }
+    .question-card.answer-wrong {
+      animation: cardWrongFeedback 0.6s ease;
+      border-color: rgba(248, 113, 113, 0.4);
+      box-shadow: 0 4px 24px rgba(248, 113, 113, 0.2);
+    }
+    @keyframes cardCorrectFeedback {
+      0% { background: var(--card); }
+      30% { background: rgba(52, 211, 153, 0.08); }
+      100% { background: var(--card); }
+    }
+    @keyframes cardWrongFeedback {
+      0%, 100% { background: var(--card); transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { background: rgba(248, 113, 113, 0.08); transform: translateX(-2px); }
+      20%, 40%, 60%, 80% { background: rgba(248, 113, 113, 0.08); transform: translateX(2px); }
     }
     .question-card::before {
       content: '';
@@ -505,10 +563,24 @@
     .question-stem .blank.filled {
       border-color: var(--correct);
       color: var(--correct);
+      animation: blankCorrectReveal 0.5s ease;
+      will-change: transform, box-shadow;
     }
     .question-stem .blank.wrong {
       border-color: var(--wrong);
       color: var(--wrong);
+      animation: blankWrongReveal 0.5s ease;
+      will-change: transform, box-shadow;
+    }
+    @keyframes blankCorrectReveal {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4); }
+      50% { transform: scale(1.05); box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.2); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+    }
+    @keyframes blankWrongReveal {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+      20%, 40%, 60%, 80% { transform: translateX(2px); }
     }
     .paragraph-blanks {
       display: flex;
@@ -538,10 +610,36 @@
     .paragraph-blanks input.correct-blank {
       border-color: var(--correct);
       background: rgba(16, 185, 129, 0.15);
+      animation: inputCorrectReveal 0.5s ease;
+      will-change: transform, box-shadow;
     }
     .paragraph-blanks input.wrong-blank {
       border-color: var(--wrong);
       background: rgba(239, 68, 68, 0.15);
+      animation: inputWrongReveal 0.5s ease;
+      will-change: transform, box-shadow;
+    }
+    @keyframes inputCorrectReveal {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.5); }
+      50% { transform: scale(1.02); box-shadow: 0 0 0 6px rgba(52, 211, 153, 0.2); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+    }
+    @keyframes inputWrongReveal {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+      20%, 40%, 60%, 80% { transform: translateX(3px); }
+    }
+    .fill-input-wrap input.correct-blank {
+      border-color: var(--correct);
+      background: rgba(16, 185, 129, 0.15);
+      animation: inputCorrectReveal 0.5s ease;
+      will-change: transform, box-shadow;
+    }
+    .fill-input-wrap input.wrong-blank {
+      border-color: var(--wrong);
+      background: rgba(239, 68, 68, 0.15);
+      animation: inputWrongReveal 0.5s ease;
+      will-change: transform, box-shadow;
     }
 
     .options {
@@ -593,10 +691,24 @@
     .option.correct {
       border-color: var(--correct);
       background: rgba(52, 211, 153, 0.12);
+      animation: optionCorrectReveal 0.5s ease;
+      will-change: transform, box-shadow;
     }
     .option.wrong {
       border-color: var(--wrong);
       background: rgba(248, 113, 113, 0.12);
+      animation: optionWrongReveal 0.5s ease;
+      will-change: transform, box-shadow;
+    }
+    @keyframes optionCorrectReveal {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.5); }
+      50% { transform: scale(1.03); box-shadow: 0 0 0 6px rgba(52, 211, 153, 0.2); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+    }
+    @keyframes optionWrongReveal {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
+      20%, 40%, 60%, 80% { transform: translateX(4px); }
     }
     .option.disabled {
       pointer-events: none;
@@ -2014,6 +2126,36 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _savedSetsDisplayLimit = SAVED_SETS_DISPLAY_LIMIT;
     let _currentQuestionIdForNotes = null;
 
+    /* ── DOM Element Cache ── */
+    const _domCache = new Map();
+    function $(id) {
+      if (!_domCache.has(id)) {
+        const el = document.getElementById(id);
+        if (el) _domCache.set(id, el);
+        return el;
+      }
+      return _domCache.get(id);
+    }
+    function clearDomCache() { _domCache.clear(); }
+
+    /* ── Error Handling ── */
+    function handleError(error, context = '') {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error('[Error' + (context ? ' in ' + context : '') + ']', error);
+      showToast('操作失败：' + message);
+      if (typeof performance !== 'undefined' && performance.mark) {
+        try { performance.mark('error-' + (context || 'unknown')); } catch (_) {}
+      }
+    }
+    function safeCall(fn, context = '', fallback = null) {
+      try {
+        return fn();
+      } catch (error) {
+        handleError(error, context);
+        return fallback;
+      }
+    }
+
     async function hashPin(pin) {
       const enc = new TextEncoder();
       const data = enc.encode(String(pin));
@@ -2381,7 +2523,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const base = dir.endsWith('/') ? dir : dir + '/';
         url = location.origin + base + DATA_FILE_NAME;
       }
-      const btn = document.getElementById('btn-load-cloud');
+      const btn = $('btn-load-cloud') || document.getElementById('btn-load-cloud');
       if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
       try {
         const res = await fetch(url + '?t=' + Date.now());
@@ -2572,7 +2714,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       renderQuestion();
     }
     function updateStartPracticeSelect() {
-      const sel = document.getElementById('start-practice-select');
+      const sel = $('start-practice-select');
       if (!sel) return;
       const saved = getSavedSets();
       const folders = getFolders();
@@ -2606,12 +2748,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const sets = getSavedSets();
       const folders = getFolders();
       const folderIds = new Set(folders.map(f => String(f.id)));
-      const searchEl = document.getElementById('saved-sets-search');
+      const searchEl = $('saved-sets-search');
       const query = (searchEl && searchEl.value ? searchEl.value : '').trim().toLowerCase();
       const filtered = query ? sets.filter(s => (s.name || '').toLowerCase().includes(query)) : sets;
-      const listEl = document.getElementById('saved-sets-list');
-      const emptyEl = document.getElementById('saved-sets-empty');
-      const tagsEl = document.getElementById('saved-sets-folder-tags');
+      const listEl = $('saved-sets-list');
+      const emptyEl = $('saved-sets-empty');
+      const tagsEl = $('saved-sets-folder-tags');
       if (!listEl || !emptyEl) return;
       renderFolderTags();
       function itemHtml(s) {
@@ -3172,7 +3314,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     ];
 
     function getCurrentSetQuestions() {
-      const sel = document.getElementById('start-practice-select');
+      const sel = $('start-practice-select');
       const val = sel ? sel.value : 'default';
       if (val === 'default') return DEFAULT_QUESTIONS;
       const sets = getSavedSets();
@@ -3182,8 +3324,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function updateCategoryFilter() {
       const questions = getCurrentSetQuestions();
       const categories = [...new Set(questions.map(q => q.category).filter(Boolean))].sort();
-      const wrap = document.getElementById('category-filter-wrap');
-      const sel = document.getElementById('filter-category');
+      const wrap = $('category-filter-wrap');
+      const sel = $('filter-category');
       if (!wrap || !sel) return;
       const currentVal = sel.value;
       sel.innerHTML = '<option value="">全部</option>' + categories.map(c => '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>').join('');
@@ -3677,6 +3819,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           state.answered = true;
           if (correct) state.score++;
           else addToWrongBook(q);
+          fillInput.disabled = true;
+          fillInput.classList.add(correct ? 'correct-blank' : 'wrong-blank');
         }
       } else if (q.type === 'paragraph_fill_blank') {
         const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
@@ -3728,6 +3872,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
+
+      /* Add card feedback animation */
+      const questionCard = document.querySelector('.question-card');
+      if (questionCard) {
+        questionCard.classList.remove('answer-correct', 'answer-wrong');
+        setTimeout(() => {
+          questionCard.classList.add(correct ? 'answer-correct' : 'answer-wrong');
+          setTimeout(() => {
+            questionCard.classList.remove('answer-correct', 'answer-wrong');
+          }, 600);
+        }, 50);
+      }
 
       const feedbackEl = document.getElementById('answer-feedback');
       feedbackEl.textContent = correct ? '正确！' : '错误';
@@ -4020,9 +4176,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
 
-    document.getElementById('btn-start-practice').addEventListener('click', () => {
+    ($('btn-start-practice') || document.getElementById('btn-start-practice')).addEventListener('click', () => {
       const typeFilter = getSelectedTypeFilter();
-      const sel = document.getElementById('start-practice-select');
+      const sel = $('start-practice-select');
       const val = sel ? sel.value : 'default';
       let questions = [];
       if (val === 'default') {
@@ -4037,7 +4193,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         questions = set.questions;
       }
       let filtered = filterQuestionsByType(questions, typeFilter);
-      const categoryEl = document.getElementById('filter-category');
+      const categoryEl = $('filter-category');
       const categoryVal = categoryEl && categoryEl.value ? categoryEl.value.trim() : '';
       if (categoryVal) {
         filtered = filtered.filter(q => q && q.category === categoryVal);
@@ -4061,10 +4217,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     });
 
-    document.getElementById('btn-import-show').addEventListener('click', async () => {
+    ($('btn-import-show') || document.getElementById('btn-import-show')).addEventListener('click', async () => {
       if (!(await checkImportPin())) return;
-      const sec = document.getElementById('import-section');
-      const btn = document.getElementById('btn-import-show');
+      const sec = $('import-section');
+      const btn = $('btn-import-show');
       const isExpanded = sec.style.display !== 'none';
       sec.style.display = isExpanded ? 'none' : 'block';
       if (btn) btn.setAttribute('aria-expanded', String(!isExpanded));
@@ -4130,8 +4286,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         setSavedSets(all);
         startQuiz(deduped);
         showToast('已加入 ' + deduped.length + ' 道新题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : ''));
-        document.getElementById('import-section').style.display = 'none';
-        document.getElementById('import-text').value = '';
+        const importSec = $('import-section');
+        if (importSec) importSec.style.display = 'none';
+        const importText = $('import-text');
+        if (importText) importText.value = '';
         if (nameInput) nameInput.value = '';
         if (reviewInput) reviewInput.value = '';
       } else {
@@ -4258,9 +4416,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         t = setTimeout(fn, ms);
       };
     }
-    const searchInput = document.getElementById('saved-sets-search');
+    const searchInput = $('saved-sets-search') || document.getElementById('saved-sets-search');
     if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 180));
-    document.getElementById('saved-sets-list').addEventListener('click', handleSavedSetsAction);
+    const savedSetsList = $('saved-sets-list') || document.getElementById('saved-sets-list');
+    if (savedSetsList) savedSetsList.addEventListener('click', handleSavedSetsAction);
     document.getElementById('btn-add-folder').addEventListener('click', () => {
       const name = prompt('输入文件夹名称', '');
       if (name == null || !name.trim()) return;
@@ -4560,7 +4719,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (meta) meta.content = document.body.classList.contains('theme-light') ? '#f8f7fc' : '#0c0a14';
       }
       setThemeColorMeta();
-      const btn = document.getElementById('theme-toggle');
+      const btn = $('theme-toggle');
       if (btn) {
         btn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
         btn.addEventListener('click', () => {
@@ -4591,7 +4750,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
       } catch (_) {}
     }
-    const startSel = document.getElementById('start-practice-select');
+    const startSel = $('start-practice-select') || document.getElementById('start-practice-select');
     if (startSel) startSel.addEventListener('change', updateCategoryFilter);
 
     // Restore in-progress quiz
