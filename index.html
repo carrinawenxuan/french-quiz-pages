@@ -1321,6 +1321,7 @@
     .start-mode-sequential-text { font-size: 0.88rem; color: var(--text-muted); }
     .start-mode-finished-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; }
     .start-mode-finished-btns .btn { flex: 1; min-width: 100px; }
+    .start-mode-review-wrap { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
     .start-mode-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); text-align: center; }
     .btn-ghost { background: none; border: none; color: var(--text-muted); font-size: 0.9rem; cursor: pointer; padding: 0.4rem 0.75rem; border-radius: 8px; }
     .btn-ghost:hover { color: var(--text); background: var(--surface); }
@@ -1685,6 +1686,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             <button type="button" class="btn btn-primary" id="btn-start-mode-full-after">练习全部</button>
           </div>
         </div>
+      </div>
+      <div class="start-mode-review-wrap" id="start-mode-review-wrap" style="display: none;">
+        <label class="start-mode-check-wrap">
+          <input type="checkbox" id="start-mode-review" checked />
+          <span>是否预习内容</span>
+        </label>
       </div>
       <div class="start-mode-footer">
         <button type="button" class="btn btn-ghost" id="btn-start-mode-cancel" aria-keyshortcuts="Escape">取消</button>
@@ -3134,6 +3141,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const fromEl = document.getElementById('start-mode-from');
       const remainEl = document.getElementById('start-mode-remain');
       const countInput = document.getElementById('start-mode-count');
+      const reviewWrap = document.getElementById('start-mode-review-wrap');
+      const reviewCheck = document.getElementById('start-mode-review');
       if (remain <= 0) {
         if (seqBlock) seqBlock.style.display = 'none';
         if (finishedBlock) finishedBlock.style.display = 'flex';
@@ -3149,6 +3158,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           countInput.value = Math.min(20, remain);
         }
       }
+      const hasReview = hasReviewMaterial(set);
+      if (reviewWrap) reviewWrap.style.display = hasReview ? 'block' : 'none';
+      if (reviewCheck) reviewCheck.checked = hasReview;
       if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
     }
     function closeStartModeModal() {
@@ -4115,9 +4127,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
         const shuffle = shuffleEl ? shuffleEl.checked : true;
+        const reviewCheck = document.getElementById('start-mode-review');
+        const shouldReview = reviewCheck ? reviewCheck.checked : false;
         const opts = shuffle ? {} : { noShuffle: true };
         closeStartModeModal();
-        if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
+        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
         else startQuiz(set.questions, false, set.id, opts);
       }
       function doStartSequential() {
@@ -4128,8 +4142,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         let n = Math.max(1, Math.min(remain, parseInt(countInput.value, 10) || 20));
         if (n > remain) n = remain;
         const slice = set.questions.slice(nextIdx, nextIdx + n);
+        const reviewCheck = document.getElementById('start-mode-review');
+        const shouldReview = reviewCheck ? reviewCheck.checked : false;
         closeStartModeModal();
-        startQuiz(slice, false, set.id, { noShuffle: true, sequentialBatch: { startIndex: nextIdx, count: slice.length } });
+        const opts = { noShuffle: true, sequentialBatch: { startIndex: nextIdx, count: slice.length } };
+        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, slice, false, set.id, opts);
+        else startQuiz(slice, false, set.id, opts);
       }
       function doResetProgress() {
         if (!_pendingStartSet) return;
@@ -4149,8 +4167,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
         const shuffle = shuffleEl ? shuffleEl.checked : true;
+        const reviewCheck = document.getElementById('start-mode-review');
+        const shouldReview = reviewCheck ? reviewCheck.checked : false;
+        const opts = shuffle ? {} : { noShuffle: true };
         closeStartModeModal();
-        startQuiz(set.questions, false, set.id, shuffle ? {} : { noShuffle: true });
+        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
+        else startQuiz(set.questions, false, set.id, opts);
       });
       if (overlay) overlay.addEventListener('click', function(e) {
         if (e.target.id === 'start-mode-modal-overlay') closeStartModeModal();
