@@ -3615,13 +3615,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       document.getElementById('question-stem').innerHTML = stemHtml;
       const wrap = document.getElementById('paragraph-blanks-wrap');
+      // 先清空并重置容器，确保旧状态不会影响新题目
+      wrap.innerHTML = '';
       wrap.style.display = 'block';
+      // 创建新的输入框（注意：不要设置 disabled 属性，因为它是布尔属性，存在即禁用）
       wrap.innerHTML = correctArr.map((_, i) =>
-        '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="min-width:2.5rem;">第' + (i + 1) + '空:</span><input type="text" data-blank="' + i + '" placeholder="..." autocomplete="off" aria-label="第' + (i + 1) + '空答案" disabled="false" /></label>'
+        '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="min-width:2.5rem;">第' + (i + 1) + '空:</span><input type="text" data-blank="' + i + '" placeholder="..." autocomplete="off" aria-label="第' + (i + 1) + '空答案" /></label>'
       ).join('');
+      // 显式启用所有输入框并重置状态
       wrap.querySelectorAll('input').forEach(inp => {
-        /* Ensure input is enabled and reset state */
         inp.disabled = false;
+        inp.removeAttribute('disabled'); // 确保移除 disabled 属性
         inp.classList.remove('correct-blank', 'wrong-blank');
         inp.value = '';
         inp.addEventListener('keydown', e => { if (e.key === 'Enter') submitAnswer(); });
@@ -3632,6 +3636,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       /* Clear any pending timers from previous question */
       _pendingTimers.forEach(timer => clearTimeout(timer));
       _pendingTimers = [];
+
+      /* Clear paragraph blanks container to ensure clean state for new question */
+      const paragraphWrap = document.getElementById('paragraph-blanks-wrap');
+      if (paragraphWrap) {
+        paragraphWrap.innerHTML = '';
+        paragraphWrap.style.display = 'none';
+        // 确保所有旧的输入框都被移除和清理
+        paragraphWrap.querySelectorAll('input').forEach(inp => {
+          inp.disabled = false;
+          inp.removeAttribute('disabled');
+        });
+      }
 
       const q = state.questions[state.index];
       if (!q) {
@@ -4269,8 +4285,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const sets = getSavedSets();
         const set = sets.find(s => String(s.id) === val);
         if (set) {
-          if (hasReviewMaterial(set)) showReviewModal(set, filtered, false, set.id);
-          else startQuiz(filtered, false, set.id);
+          // 统一逻辑：如果题目数量超过阈值，显示"选择练习方式"模态框
+          // 否则如果有复习材料，显示复习材料模态框
+          // 否则直接开始
+          if (filtered.length > SEQUENTIAL_MODE_THRESHOLD) {
+            // 创建一个临时的 set 对象，包含筛选后的题目，用于传递给模态框
+            // 重置 sequentialNextIndex 为 0，因为这是筛选后的题目列表，应该从第一题开始
+            const tempSet = { ...set, questions: filtered, sequentialNextIndex: 0 };
+            openStartModeModal(tempSet);
+          } else if (hasReviewMaterial(set)) {
+            showReviewModal(set, filtered, false, set.id);
+          } else {
+            startQuiz(filtered, false, set.id);
+          }
         } else {
           startQuiz(filtered);
         }
