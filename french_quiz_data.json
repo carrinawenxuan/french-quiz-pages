@@ -1,6 +1,279 @@
 {
   "savedSets": [
     {
+      "id": 1770598706736,
+      "name": "Dormir变位-现/复过/近将",
+      "folderId": "1770593074621",
+      "createdAt": "2026-02-09T00:58:26.736Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Chut ! Les enfants ______ dans la chambre.",
+          "options": [
+            "dort",
+            "dorment",
+            "dormons",
+            "dormez"
+          ],
+          "correct": 1,
+          "explanation": "【A1 词根变化】主语 Les enfants (复数 Ils) 对应的词根必须保留 m，即 dorment。dort 是单数形式。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, Marie ______ très tard.",
+          "options": [
+            "est dormi",
+            "a dormi",
+            "est dormie",
+            "a dormie"
+          ],
+          "correct": 1,
+          "explanation": "【A2 助动词与配合】Dormir 在复合过去时使用 Avoir 助动词 (a)；且因为是不及物动词，过去分词 dormi 永远不配合 (无 e/s)。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, nous ______ dormir à l'hôtel.",
+          "options": [
+            "allons",
+            "avons",
+            "sommes",
+            "vont"
+          ],
+          "correct": 0,
+          "explanation": "【A1 最近将来时】结构：Aller (nous allons) + 原形 (dormir)。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ne ______ pas assez, tu es fatigué.",
+          "options": [
+            "dors",
+            "dort",
+            "dormes",
+            "dormir"
+          ],
+          "correct": 0,
+          "explanation": "【A1 变位形式】Tu 的变位是 dors (s结尾)。dort 是 Il/Elle 的形式。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles sont fatiguées, elles ont mal ______.",
+          "options": [
+            "dormies",
+            "dormie",
+            "dormis",
+            "dormi"
+          ],
+          "correct": 3,
+          "explanation": "【B2 绝对陷阱】Dormir 是不及物动词，没有直接宾语，所以过去分词永远不配合！不管主语 Elles 多么阴性复数，答案永远是 dormi。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的语法是**完全正确**的？",
+          "options": [
+            "Je dors bien.",
+            "Nous dormons ensemble.",
+            "Ils dorment tard.",
+            "Vous dormez ici."
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "【A1 全面变位】这四个选项展示了 Dormir 变位的完整正确形式：单数去 m (dors)，复数留 m (dormons, dorment, dormez)。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "在复合过去时中，哪些动词的助动词选择是**不同**的？",
+          "options": [
+            "Dormir (睡觉)",
+            "Partir (离开)",
+            "Sortir (出去)",
+            "Manger (吃)"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "【B1 助动词辨析】Dormir 和 Manger 用 Avoir；而 Partir 和 Sortir (位移动词) 用 Être。TCF 常考这种分组。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "关于 'Il dort' 和 'Ils dorment'，下列说法正确的是？",
+          "options": [
+            "Il dort 的 t 不发音",
+            "Ils dorment 的 ent 不发音，但 m 发音",
+            "听力中无法区分两者",
+            "听力中通过 m 的发音区分"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "【A2 语音规则】Il dort [dɔr] (无尾音) vs Ils dorment [dɔrm] (有 /m/ 尾音)。这是听力题的关键。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些时间状语通常与 'Je vais dormir' 连用？",
+          "options": [
+            "Hier",
+            "Bientôt",
+            "Tout de suite",
+            "La semaine dernière"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "【A2 时间标志】Bientôt (很快) 和 Tout de suite (马上) 指向将来；Hier 和 La semaine dernière 指向过去。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "选出错误的句子（TCF 常见错题）：",
+          "options": [
+            "Elle a dormie toute la nuit.",
+            "Nous sommes dormis.",
+            "Tu as dormi ?",
+            "Ils ont dormi."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "【B1 纠错】0 错在配合 (dormir 不配合)；1 错在助动词 (dormir 用 avoir)。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le chat ______ (dormir) sur le canapé en ce moment.",
+          "options": [
+            "dort"
+          ],
+          "correct": [
+            "dort"
+          ],
+          "explanation": "【A1 单数变位】Le chat = Il，变位为 dort (去 m 加 t)。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que vous avez bien ______ (dormir) ?",
+          "options": [
+            "dormi"
+          ],
+          "correct": [
+            "dormi"
+          ],
+          "explanation": "【A1 过去分词】Avoir + dormi。无配合。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Non, je ne vais pas ______ (dormir) maintenant.",
+          "options": [
+            "dormir"
+          ],
+          "correct": [
+            "dormir"
+          ],
+          "explanation": "【A1 最近将来时】Aller + 原形。否定词不影响原形的使用。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ______ (dormir) 8 heures par nuit.",
+          "options": [
+            "dormons"
+          ],
+          "correct": [
+            "dormons"
+          ],
+          "explanation": "【A1 复数变位】Nous 对应的词根保留 m，词尾 ons。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles ont ______ (dormir) tout le week-end.",
+          "options": [
+            "dormi"
+          ],
+          "correct": [
+            "dormi"
+          ],
+          "explanation": "【B2 配合陷阱】再次强调：Elles (阴性复数) 做主语，但 Dormir 不及物且用 Avoir，分词 dormi 绝不变化。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, j'ai mal _____ (dormir), mais ce soir, je vais bien _____ (dormir).",
+          "correct": [
+            "dormi",
+            "dormir"
+          ],
+          "explanation": "【时态对比】第一空复合过去时 (ai dormi)；第二空最近将来时 (vais dormir)。",
+          "category": "时态综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "D'habitude, il _____ (dormir) à 22h, mais hier il a _____ (dormir) à minuit.",
+          "correct": [
+            "dort",
+            "dormi"
+          ],
+          "explanation": "【习惯 vs 过去】D'habitude 触发现在时 (dort)；Hier 触发复合过去时 (a dormi)。",
+          "category": "时态综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Vous _____ (dormir) ? Non, nous allons _____ (dormir) bientôt.",
+          "correct": [
+            "dormez",
+            "dormir"
+          ],
+          "explanation": "【对话语境】第一空现在时询问状态 (dormez)；第二空回答将来的打算 (allons dormir)。",
+          "category": "直陈式现在时 & 最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Les bébés _____ (dormir). Ne fais pas de bruit ! Ils ont _____ (dormir) toute la journée.",
+          "correct": [
+            "dorment",
+            "dormi"
+          ],
+          "explanation": "【单复数与分词】第一空现在时复数 (dorment, 发音有 m)；第二空复合过去时 (ont dormi, 无配合)。",
+          "category": "时态综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Tu _____ (dormir) ? Oui, j'ai _____ (dormir) une heure.",
+          "correct": [
+            "dors",
+            "dormi"
+          ],
+          "explanation": "【基础变位】第一空 Tu dors；第二空 J'ai dormi。",
+          "category": "直陈式现在时 & 复合过去时"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1WqEItTsWfORz4fpu8vAdKflkVz1lmpgM0GxeGXC8m1c/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770592633695,
       "name": "Voir变位-现/复过/近将",
       "createdAt": "2026-02-08T23:17:13.695Z",
@@ -3003,5 +3276,5 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T00:55:08.891Z"
+  "exportedAt": "2026-02-09T00:58:39.120Z"
 }
