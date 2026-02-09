@@ -263,6 +263,170 @@
           ],
           "explanation": "【基础变位】第一空 Tu dors；第二空 J'ai dormi。",
           "category": "直陈式现在时 & 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Regarde ces chats, ils ______ paisiblement.",
+          "options": [
+            "dort",
+            "dorment",
+            "dormes",
+            "dormir"
+          ],
+          "correct": 1,
+          "explanation": "【A1 听力/拼写辨析】主语 Ils (复数) 对应词根 dorm-，词尾 ent。听力中能听到 /m/ 的音，写作 dorment。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien d'heures est-ce que tu as ______ hier ?",
+          "options": [
+            "dormi",
+            "dormie",
+            "dormis",
+            "dormies"
+          ],
+          "correct": 0,
+          "explanation": "【B2 高阶陷阱】这里询问'多少小时'。注意：Dormir 是不及物动词，表示持续时间的词（heures）是时间状语而非直接宾语。因此过去分词 dormi 永远不配合，没有任何性数变化。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Chut ! Bébé ______ (dormir).",
+          "options": [
+            "dors",
+            "dort",
+            "dorme",
+            "dormir"
+          ],
+          "correct": 1,
+          "explanation": "【A1 基础变位】Bébé = Il (第三人称单数)，变位为 dort (去 m 加 t)。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ (aller) dormir tôt ce soir.",
+          "options": [
+            "allons",
+            "sommes",
+            "avons",
+            "vont"
+          ],
+          "correct": 0,
+          "explanation": "【A1 最近将来时构成】必须用 Aller (nous allons) + 原形。不要混淆成 Avoir 或 Être。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ______ (partir) en vacances, mais ils ont mal ______ (dormir) dans l'avion.",
+          "options": [
+            "sont partis / dormi",
+            "ont partis / dormi",
+            "sont partis / dormis",
+            "ont parti / dormi"
+          ],
+          "correct": 0,
+          "explanation": "【B1 助动词大乱斗】Partir 是位移动词，用 Être (sont partis)；Dormir 必须用 Avoir (ont dormi)。这是 TCF 最经典的混合考点。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列关于 'Je dors' 和 'Je vais dormir' 的区别，哪些描述正确？",
+          "options": [
+            "前者是现在时，表示当前状态或习惯",
+            "后者是最近将来时，表示即将发生的动作",
+            "两者变位动词完全一样",
+            "Je vais dormir 强调动作还未发生"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "【A2 时态语意】TCF 阅读理解常考。现在时 (dors) 侧重当下；最近将来时 (vais dormir) 侧重即将发生的计划。",
+          "category": "时态语意辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "选出所有**错误**的复合过去时形式：",
+          "options": [
+            "Elle a dormie.",
+            "Nous sommes dormis.",
+            "Ils ont dormi.",
+            "Tu as dormi."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "【B1 纠错】0 错在配合 (dormir 无宾语不配合)；1 错在助动词 (不能用 être)。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu ______ (dormir) bien la nuit ?",
+          "options": [
+            "dors"
+          ],
+          "correct": [
+            "dors"
+          ],
+          "explanation": "【A1 习惯用法】询问日常习惯用现在时。Tu dors。",
+          "category": "直陈式现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants sont fatigués, ils vont ______ (dormir) tout de suite.",
+          "options": [
+            "dormir"
+          ],
+          "correct": [
+            "dormir"
+          ],
+          "explanation": "【A1 结构】Aller + 原形。Tout de suite 是最近将来时的典型标志。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quelle mauvaise nuit ! J'ai très peu ______ (dormir).",
+          "options": [
+            "dormi"
+          ],
+          "correct": [
+            "dormi"
+          ],
+          "explanation": "【A2 副词干扰】peu (很少) 是副词，不影响结构。Dormir 过去分词依然是 dormi。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "D'habitude, vous _____ (dormir) tard, mais hier vous avez _____ (dormir) tôt.",
+          "correct": [
+            "dormez",
+            "dormi"
+          ],
+          "explanation": "【时态切换】D'habitude (通常) -> 现在时 vous dormez；Hier (昨天) -> 复合过去时 vous avez dormi。",
+          "category": "时态综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le chien _____ (dormir) ? Non, il va _____ (dormir).",
+          "correct": [
+            "dort",
+            "dormir"
+          ],
+          "explanation": "【状态 vs 动作】第一空询问'正在睡吗'(dort)；第二空回答'正要去睡'(va dormir)。",
+          "category": "直陈式现在时 & 最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ (dormir) ici ce soir. Et vous, où est-ce que vous avez _____ (dormir) ?",
+          "correct": [
+            "dormons",
+            "dormi"
+          ],
+          "explanation": "【语境判断】第一空 ce soir (今晚) 既可用将来时也可用现在时表示计划，此处填变位 dormons；第二空询问过去 locations (avez dormi)。",
+          "category": "时态综合"
         }
       ],
       "practiceCount": 0,
@@ -3276,5 +3440,5 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T00:58:39.120Z"
+  "exportedAt": "2026-02-09T01:03:58.223Z"
 }
