@@ -2757,16 +2757,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const origAppendText = appendBtn ? appendBtn.textContent : '';
       if (appendBtn) { appendBtn.disabled = true; appendBtn.textContent = '解析中…'; }
       let parsed = [];
+      let appendParseError = '';
       if (/^\s*[\[{]/.test(text)) {
         try {
           const data = JSON.parse(text);
           parsed = Array.isArray(data) ? data : (data.questions || []);
-        } catch (_) {}
+        } catch (e) {
+          appendParseError = (e && (e.message || String(e))) || '';
+        }
       }
       if (parsed.length === 0) parsed = parsePastedText(text);
       if (appendBtn) { appendBtn.disabled = false; appendBtn.textContent = origAppendText; }
       if (parsed.length === 0) {
-        showToast('未能解析出题目，请检查格式');
+        showToast(appendParseError ? 'JSON 解析失败：' + appendParseError : '未能解析出题目，请检查格式');
         return;
       }
       const sets = getSavedSets();
@@ -3038,10 +3041,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (typeof str !== 'string') return str;
       return str
         .replace(/\uFEFF/g, '')
+        .replace(/\u00A0/g, ' ')
+        .replace(/\u200B|\u200C|\u200D|\u2060/g, '')
         .replace(/\u201C/g, '"')
         .replace(/\u201D/g, '"')
         .replace(/\u2018/g, "'")
-        .replace(/\u2019/g, "'");
+        .replace(/\u2019/g, "'")
+        .replace(/\uFF3B/g, '[')
+        .replace(/\uFF3D/g, ']')
+        .replace(/\uFF5B/g, '{')
+        .replace(/\uFF5D/g, '}')
+        .replace(/,(\s*[\]}])/g, '$1')
+        .trim();
     }
     function parsePastedText(text) {
       const questions = [];
@@ -3831,13 +3842,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       let text = document.getElementById('import-text').value.trim();
       text = normalizeJsonPaste(text);
       let parsed = [];
+      let parseError = '';
       if (/^\s*[\[{]/.test(text)) {
         try {
           const data = JSON.parse(text);
           parsed = Array.isArray(data) ? data : (data.questions || []);
-        } catch (_) {}
+        } catch (e) {
+          parseError = (e && (e.message || String(e))) || '';
+        }
       }
       if (parsed.length === 0) parsed = parsePastedText(text);
+      if (parsed.length === 0 && parseError) showToast('JSON 解析失败：' + parseError);
       if (parseBtn) { parseBtn.disabled = false; parseBtn.textContent = origText; }
       if (parsed.length > 0) {
         const seen = new Set();
