@@ -1509,7 +1509,7 @@
           <p class="save-success-tip-extra">只推当前仓库用 <code>./scripts/sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x scripts/sync-and-push.sh</code>。</p>
         </div>
         <div class="import-lock-wrap" id="import-lock-wrap">
-        <p class="import-lock-desc">导入保护：仅主人可往「我的习题集」里<strong>新增题目</strong>。PIN 由<strong>你自己在下方点击「设置主人 PIN」时设定</strong>（4～12 位），请牢记。设置后，只有通过验证才能使用「<strong>导入我的题目</strong>」；「从云端加载」「从文件导入」「打开并加载」不受限制，他人可正常同步云端更新。<br><span class="import-lock-per-device">本设置<strong>仅对当前设备/浏览器生效</strong>。若已启用下方「仅允许本机导入」，则其他设备已无法导入，本项 PIN 为<strong>可选</strong>，用于本机多人共用或临时借用时的额外保护。</span></p>
+        <p class="import-lock-desc">导入保护：仅主人可往「我的习题集」里<strong>新增题目</strong>。PIN 由<strong>你自己在下方点击「设置主人 PIN」时设定</strong>（4～12 位），请牢记。设置后，只有通过验证才能使用「<strong>导入我的题目</strong>」和编辑习题集时的「<strong>解析并追加</strong>」；「从云端加载」「从文件导入」「打开并加载」不受限制，他人可正常同步云端更新。<br><span class="import-lock-per-device">本设置<strong>仅对当前设备/浏览器生效</strong>。若已启用下方「仅允许本机导入」，则其他设备已无法导入，本项 PIN 为<strong>可选</strong>，用于本机多人共用或临时借用时的额外保护。</span></p>
         <div class="import-lock-status" id="import-lock-status">
           <span id="import-lock-status-text">未启用</span>
           <span class="import-lock-btns">
@@ -1519,7 +1519,7 @@
           </span>
         </div>
         <div class="import-device-bind" id="import-device-bind">
-          <p class="import-lock-desc">仅允许本机「导入我的题目」：绑定后<strong>只有当前这台电脑</strong>能使用「导入我的题目」往我的习题集里新增题目。其他设备仍可正常使用「从云端加载」「从文件导入」「打开并加载」获取或覆盖数据。请在电脑上点击「绑定本机」，再「一键保存」并推送到云端。</p>
+          <p class="import-lock-desc">仅允许本机「导入我的题目」与「解析并追加」：绑定后<strong>只有当前这台电脑</strong>能使用「导入我的题目」或编辑时的「解析并追加」往习题集里新增题目。其他设备仍可正常使用「从云端加载」「从文件导入」「打开并加载」获取或覆盖数据。请在电脑上点击「绑定本机」，再「一键保存」并推送到云端。</p>
           <div class="import-lock-status">
             <span id="device-bind-status-text">未绑定</span>
             <span class="import-lock-btns">
@@ -4138,7 +4138,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-edit-set-save').addEventListener('click', saveEditSetModal);
     document.getElementById('btn-edit-set-cancel').addEventListener('click', closeEditSetModal);
     document.getElementById('btn-edit-set-export').addEventListener('click', exportFromEditModal);
-    document.getElementById('btn-edit-set-append').addEventListener('click', appendToEditSetModal);
+    document.getElementById('btn-edit-set-append').addEventListener('click', async () => {
+      if (!(await checkImportPin())) return;
+      appendToEditSetModal();
+    });
     document.getElementById('btn-edit-set-preview').addEventListener('click', () => {
       if (_editingSetId == null) return;
       const sets = getSavedSets();
