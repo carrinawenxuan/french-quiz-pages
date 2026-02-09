@@ -2746,12 +2746,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function appendToEditSetModal() {
       if (_editingSetId == null) return;
       const textEl = document.getElementById('edit-set-append-text');
-      const text = textEl ? textEl.value.trim() : '';
+      let text = textEl ? textEl.value.trim() : '';
       if (!text) {
         showToast('请先粘贴要追加的题目（JSON 或含题型/选项的文本）');
         if (textEl) textEl.focus();
         return;
       }
+      text = normalizeJsonPaste(text);
       const appendBtn = document.getElementById('btn-edit-set-append');
       const origAppendText = appendBtn ? appendBtn.textContent : '';
       if (appendBtn) { appendBtn.disabled = true; appendBtn.textContent = '解析中…'; }
@@ -3033,6 +3034,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
 
+    function normalizeJsonPaste(str) {
+      if (typeof str !== 'string') return str;
+      return str
+        .replace(/\uFEFF/g, '')
+        .replace(/\u201C/g, '"')
+        .replace(/\u201D/g, '"')
+        .replace(/\u2018/g, "'")
+        .replace(/\u2019/g, "'");
+    }
     function parsePastedText(text) {
       const questions = [];
       // 按「套路 N」或「题型：」分块，保证每块里有一道题
@@ -3818,7 +3828,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const parseBtn = document.getElementById('btn-import-parse');
       const origText = parseBtn ? parseBtn.textContent : '';
       if (parseBtn) { parseBtn.disabled = true; parseBtn.textContent = '解析中…'; }
-      const text = document.getElementById('import-text').value.trim();
+      let text = document.getElementById('import-text').value.trim();
+      text = normalizeJsonPaste(text);
       let parsed = [];
       if (/^\s*[\[{]/.test(text)) {
         try {
