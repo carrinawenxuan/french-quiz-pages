@@ -1094,6 +1094,858 @@
           ],
           "correct": 1,
           "explanation": "本题考察由 pizza 引申出的饮食话题词汇。restauration rapide = 快餐（行业/概念），是标准法语表达。pizza rapide ❌ 不自然；nourriture vite ❌ 语法错误（vite 不能修饰名词）；manger rapide ❌ 不是名词短语。TCF B2 阅读中饮食文化话题可能出现 restauration rapide / malbouffe（垃圾食品）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : C'est un _____ homme.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 beau 在元音/哑音h开头的阳性名词前变 bel。homme 以哑音 h 开头，所以 beau → bel。beau homme ❌ 发音不顺；belle 是阴性；beaux 是复数。TCF A2-B1 经典考点。口诀：元音前面 beau 变 bel。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Hier, il a fait _____.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 il fait beau（天气好）的固定表达。这是固定搭配，不变形，永远用 beau。bel ❌ 只在元音开头的阳性名词前用；belle ❌ 阴性；beaux ❌ 复数。TCF 听力和口语中天气描述是高频场景。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'ai beau étudier, je ne comprends pas. » signifie :",
+          "options": [
+            "我学习很认真，我理解了。",
+            "我有一本漂亮的学习书。",
+            "尽管我学了，我还是不懂。",
+            "我很漂亮地学习了。"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 avoir beau + inf. 的引申义。avoir beau = 尽管……却……，表示让步关系，和'漂亮'完全没关系。A 理解反了；B 和 D 是字面直译的陷阱。TCF B1-B2 阅读中最经典的词汇陷阱之一。口诀：avoir beau ≠ 有漂亮的，= 尽管。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : C'est un _____ appartement avec vue sur la mer.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 bel 在元音开头阳性名词前的用法。appartement 以元音 a 开头，阳性单数，所以用 bel。beau appartement ❌ 两个元音相遇不顺畅；belle ❌ 阴性；beaux ❌ 复数。TCF 拼写/语法必考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« C'est bel et bien fini. » signifie :",
+          "options": [
+            "C'est beau et c'est bien.",
+            "C'est vraiment fini, sans aucun doute.",
+            "C'est presque fini.",
+            "C'est beau quand c'est fini."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 bel et bien 的固定表达。bel et bien = 确确实实、真的，表示强调。不是'漂亮且好'的字面意思。C 说'快结束了'不对，bel et bien 强调已经确定；D 是字面误读。TCF 阅读和听力中高频出现。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a de _____ (beau) yeux verts.",
+          "correct": [
+            "beaux"
+          ],
+          "explanation": "本题考察 beau 的阳性复数形式。yeux 是阳性复数，所以用 beaux。注意 beau 的复数加 -x 不加 -s（和 cadeau → cadeaux 一样）。TCF 性数一致考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ils ont beau , rien ne change.",
+          "options": [
+            "promettent des réformes",
+            "promettre des réformes",
+            "promis des réformes",
+            "de promettre des réformes"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 avoir beau + 动词不定式的结构。avoir beau 后面必须接动词原形（infinitif），不是变位动词也不是过去分词。promettent ❌ 已变位；promis ❌ 过去分词；de promettre ❌ 不需要介词 de。TCF B2 语法考点。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Dans quelles phrases « beau » est-il utilisé correctement ?",
+          "options": [
+            "un beau jour, il est parti",
+            "un beau homme",
+            "elle est très belle",
+            "il fait beau dehors"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "本题考察 beau 各形式的正确使用。A ✅ un beau jour = 某一天（叙事表达）；B ❌ homme 前应该用 bel（un bel homme）；C ✅ elle est belle 阴性正确；D ✅ il fait beau 固定表达。TCF 出题套路：把正确和错误形式混在一起考辨别力。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : J' chaud, ouvre la fenêtre s'il te plaît.",
+          "options": [
+            "suis",
+            "ai",
+            "fais",
+            "est"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 avoir chaud（觉得热）的固定搭配。法语中表示人'觉得热'用 avoir chaud，不用 être chaud。Je suis chaud ❌ 在口语中意思是'我准备好了/我兴奋'，有暧昧含义；fais ❌ il fait chaud 是天气热，不用于人；est ❌ 第三人称不搭配 je。TCF 最经典的错误之一。口诀：感觉热用 avoir，不用 être。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il fait chaud » et « J'ai chaud » — quelle est la différence ?",
+          "options": [
+            "Il fait chaud = 我觉得热, J'ai chaud = 天气热",
+            "Il fait chaud = 天气热, J'ai chaud = 我（身体）觉得热",
+            "Il fait chaud = 过去时, J'ai chaud = 现在时",
+            "Aucune différence."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 il fait chaud vs j'ai chaud 的区别。il fait chaud = 天气热（客观描述环境温度）；j'ai chaud = 我觉得热（主观身体感受）。A 说反了；C 和时态无关；D 说没区别是错的。TCF 听力中天气和身体感受是两个不同的考点场景。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Réagir à chaud » signifie :",
+          "options": [
+            "在热天里做出反应",
+            "趁热吃东西",
+            "在事情刚发生时立即反应",
+            "慢慢地、冷静地反应"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 à chaud 的引申义。réagir à chaud = 事情刚发生时立即反应（没有经过冷静思考）。反义表达是 réagir à froid（冷静后再反应）。A 和 B 是字面理解的陷阱；D 是反义。TCF B1-B2 阅读中新闻评论常见此表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« L'examen était chaud ! » Dans le langage familier, cela signifie :",
+          "options": [
+            "考试在很热的教室里进行。",
+            "考试很容易。",
+            "考试很难/很紧张。",
+            "考试被取消了。"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 chaud 的口语引申义。C'est chaud = 口语中表示'很难/很紧张/很危险'。不是说温度。A 是字面理解；B 说反了；D 无关。TCF 听力中如果听到 c'est chaud，要根据上下文判断是温度还是引申义。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Attention, la soupe est très _____. Ne te brûle pas !",
+          "correct": [
+            "chaude"
+          ],
+          "explanation": "本题考察 chaud 的阴性一致。soupe 是阴性名词，所以用 chaude。注意发音区别：chaud /ʃo/ → chaude /ʃod/，阴性时 d 发音。TCF 听力中能否听出 chaud 和 chaude 的发音差异是考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il ne faut pas réagir _____ chaud, il vaut mieux prendre du recul.",
+          "options": [
+            "au",
+            "à",
+            "en",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 à chaud 的介词搭配。réagir à chaud = 趁热/立即反应，是固定搭配，介词用 à。au ❌（à + le = au，但 chaud 前没有冠词）；en ❌ 不搭配；de ❌ 不搭配。TCF B2 介词搭配考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte pour dire « 我觉得冷 » ?",
+          "options": [
+            "Je suis froid.",
+            "J'ai froid.",
+            "Je fais froid.",
+            "Il a froid."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 avoir froid（和 avoir chaud 对比记忆）。avoir froid = 觉得冷，和 avoir chaud 规则一样。Je suis froid ❌（意思变成'我冷淡/我冷漠'）；Je fais froid ❌ 不存在；Il a froid = 他觉得冷（第三人称，不是'我'）。TCF 出题套路：avoir chaud/froid/faim/soif 系列感觉表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Pleurer à chaudes larmes » signifie :",
+          "options": [
+            "流下热的眼泪",
+            "大哭/痛哭",
+            "因为热而流泪",
+            "假装哭"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 à chaudes larmes 的固定表达。pleurer à chaudes larmes = 热泪盈眶/大哭/痛哭，是文学性表达。A 是字面翻译但不是真正含义；C 理解错了；D 是假哭（pleurer des larmes de crocodile）。TCF B2 阅读中文学性文本可能出现。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « excellent » peut-il avoir un comparatif (plus excellent) ?",
+          "options": [
+            "Oui, on dit « plus excellent ».",
+            "Oui, on dit « meilleur ».",
+            "Non, excellent est déjà un superlatif absolu.",
+            "Oui, on dit « excellenter »."
+          ],
+          "correct": 2,
+          "explanation": "本题考察 excellent 没有比较级。excellent 本身已经是最高程度，不能再加 plus。和英语一样不说 more excellent。如果要加强可以说 vraiment excellent / absolument excellent。B 的 meilleur 是 bon 的比较级，不是 excellent 的；D 的 excellenter 不存在。TCF B1 语法考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : C'est un _____ professeur, les étudiants l'adorent.",
+          "options": [
+            "excellent",
+            "excellente",
+            "excellents",
+            "excellement"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 excellent 做前置形容词 + 阳性单数。professeur 是阳性单数（即使指女老师，传统上 professeur 仍常用阳性），所以用 excellent。excellente ❌ 阴性；excellents ❌ 复数；excellement ❌ 不存在此副词形式（副词是 excellemment，但这里需要形容词）。TCF 出题套路：词性混淆。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase utilise « excellent » correctement ?",
+          "options": [
+            "Ce film est plus excellent que l'autre.",
+            "Elle a fait un travail excellent.",
+            "C'est le plus excellent restaurant de la ville.",
+            "Il cuisine excellemment bien."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 excellent 的正确用法。B ✅ un travail excellent 正确（excellent 也可后置）。A ❌ plus excellent 不存在比较级；C ❌ le plus excellent 不存在最高级；D 的 excellemment bien 虽然 excellemment 存在但 bien 多余，不过语法勉强可以 — 但本题最佳答案是 B。TCF 出题套路：用不存在的比较级/最高级做干扰。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « bon » et « excellent » ?",
+          "options": [
+            "Bon est plus fort qu'excellent.",
+            "Excellent est plus fort que bon.",
+            "Les deux mots ont exactement le même sens.",
+            "Bon est formel, excellent est familier."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 bon vs excellent 的程度区分。excellent 比 bon 程度更强（好 vs 非常好/极好）。A 说反了；C 不对，程度不同；D 不对，如果有区别的话 excellent 反而更正式一些。TCF 词汇辨析题：近义词程度差异。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La cuisine de ce restaurant est _____. (excellent, féminin singulier)",
+          "correct": [
+            "excellente"
+          ],
+          "explanation": "本题考察 excellent 的阴性形式。cuisine 是阴性单数，所以用 excellente。注意发音：excellent /ɛk.se.lɑ̃/ → excellente /ɛk.se.lɑ̃t/，阴性时 t 发音。TCF 听力中能否听出阴阳性发音差异是考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour renforcer « excellent » sans utiliser de comparatif, on peut dire :",
+          "options": [
+            "plus excellent",
+            "très excellent",
+            "vraiment excellent",
+            "le plus excellent"
+          ],
+          "correct": 2,
+          "explanation": "本题考察如何加强 excellent 的程度。vraiment excellent = 真的很棒，是正确的加强方式。plus excellent ❌ 和 le plus excellent ❌ 不存在比较级最高级；très excellent ❌ 虽然有人说但语法上不推荐（excellent 已是极致程度，très 多余），TCF 中 vraiment / absolument 是安全选择。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : la _____ solution possible.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seules"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 seul 的性数一致 + 前置含义。solution 是阴性单数，所以用 seule。seul 放在名词前面 = 唯一的。la seule solution = 唯一的解决办法。seul ❌ 阳性不配合 solution；seuls/seules ❌ 复数。TCF 出题套路：形容词性数一致 + 位置决定含义。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « le seul ami » et « un ami seul » ?",
+          "options": [
+            "Aucune différence.",
+            "Le seul ami = 唯一的朋友, un ami seul = 孤独的朋友",
+            "Le seul ami = 孤独的朋友, un ami seul = 唯一的朋友",
+            "Le seul ami est plus familier."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 seul 前置 vs 后置的含义差异。seul 在名词前 = 唯一的（le seul ami = 唯一的朋友）；seul 在名词后 = 孤独的/独自的（un ami seul = 一个孤独的朋友）。TCF 最经典的形容词位置考点之一。口诀：前唯一，后孤单。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle est la _____ à comprendre ce problème.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seulement"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 seul(e) à + inf.（唯一做某事的人）结构。elle 是阴性，所以用 seule。seul ❌ 阳性；seuls ❌ 复数；seulement 是副词'仅仅'，不能做表语。la seule à + inf. 是 TCF B1 阅读中的高频结构。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle a fait ce gâteau toute _____.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seules"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tout(e) seul(e) 的性数一致。elle 是阴性单数，所以用 toute seule。seul ❌ 阳性；seuls/seules ❌ 复数。tout(e) seul(e) = 完全独自/自己一个人。TCF 出题套路：两个词都要和主语性数一致。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« À elle seule, cette ville représente 20% de la population. » signifie :",
+          "options": [
+            "这座城市很孤独。",
+            "仅凭这座城市一个就占了20%的人口。",
+            "她独自住在这座城市。",
+            "这座城市只有20%的人口。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 à lui/elle seul(e) 的 B2 用法。à elle seule = 仅凭它/她自己就……，表示'单独就'。A 字面误读；C 把主语搞错了（主语是 ville 不是 elle 这个人）；D 理解反了。TCF B2 阅读中统计数据类文本常见。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n'y a pas _____ seul magasin ouvert dans cette rue. (冠词)",
+          "correct": [
+            "un"
+          ],
+          "explanation": "本题考察 pas un seul（一个也没有）的强调结构。pas un seul + 名词 = 一个都没有。这里 magasin 是阳性，所以用 un。整句意思：这条街上一家店都没开。TCF B1 阅读中的强调否定结构。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Le seul fait d'y penser me fatigue. » signifie :",
+          "options": [
+            "唯一的事实让我累。",
+            "仅仅是想想就让我累了。",
+            "孤独地思考让我累。",
+            "只有一个想法让我疲倦。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 le seul fait de + inf. 的 B2 表达。le seul fait de = 仅仅因为……这个事实就……。A 是字面翻译但不自然；C 把 seul 理解成'孤独'，但这里是前置用法表示'唯一/仅仅'；D 理解有偏差。TCF B2 写作中非常好用的句式。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot peut remplacer « seul » dans le sens de « 孤独的 » à un niveau B2 ?",
+          "options": [
+            "unique",
+            "solitaire",
+            "premier",
+            "simple"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 seul 的 B2 替换词。solitaire = 孤独的（更文学化），可以替换后置 seul 的含义。unique = 唯一的（替换前置 seul 的含义，不是'孤独'）；premier = 第一个，不对；simple = 简单的，不对。TCF B2 写作中词汇多样性是加分点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____ les jours, il va au magasin.",
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tous les jours（每天）的性数选择。jours 是阳性复数 → tous。tout ❌ 阳性单数；toute ❌ 阴性单数；toutes ❌ 阴性复数。口诀：看后面名词的性和数 → les jours（阳复）→ tous。TCF A1-A2 必考搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle a travaillé _____ la journée.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 toute la journée（一整天）的性数选择。journée 是阴性单数 → toute。tout ❌ 阳性单数；tous ❌ 阳性复数；toutes ❌ 阴性复数。TCF 出题套路：用不同性数的名词考 tout 的四种形式。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____ le monde est là.",
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 tout le monde 的固定搭配。monde 是阳性单数 → tout le monde（所有人）。⚠️ 不要因为'世界上有很多人'就用复数 tous ❌。tout le monde 是固定搭配，动词用第三人称单数。TCF 经典考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « Ils sont tous là », comment prononce-t-on « tous » ?",
+          "options": [
+            "/tu/ — le s est muet",
+            "/tus/ — le s se prononce",
+            "/tuz/ — avec liaison",
+            "/to/ — comme « taux »"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tous 做代词时 s 发音。当 tous 做代词（他们都在）时，s 发音 /tus/。而做形容词时（tous les jours），s 不发音 /tu/。C 的 /tuz/ 不对，没有联诵成 z；D 完全不对。TCF 听力核心考点：能否听出 /tu/ 和 /tus/ 的区别。口诀：形容词不发s，代词要发s。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle est _____ contente de son résultat.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tout 做副词修饰阴性形容词时的特殊变化。contente 是阴性，以辅音 c 开头，所以 tout → toute。规则：tout 做副词时，如果后面阴性形容词以辅音或嘘音h开头 → 变 toute/toutes。tout ❌ 不变形只用于阳性或以元音开头的阴性形容词前。TCF B1-B2 语法难点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle est _____ étonnée.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 tout 做副词修饰以元音开头的阴性形容词时不变。étonnée 是阴性，但以元音 é 开头，所以 tout 不变，仍为 tout。toute ❌ 只在辅音开头时变。这是 tout 做副词最难的规则。TCF B1-B2 语法考点。记忆规则：阴性+辅音开头 → toute；阴性+元音开头 → tout 不变。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tout en écoutant de la musique, il travaille. » signifie :",
+          "options": [
+            "他只听音乐不工作。",
+            "他一边听音乐一边工作。",
+            "他工作结束后听音乐。",
+            "他听完音乐再工作。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tout en + 现在分词（一边……一边……）的 B2 结构。tout en écoutant = 一边听着，表示两个动作同时进行。A 说只听不工作，理解反了；C 和 D 是先后关系，不是同时。TCF B2 写作中非常有用的句式。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : De _____ façon, je ne peux pas venir.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 de toute façon（无论如何）的固定搭配。façon 是阴性单数 → toute。de toute façon = 不管怎样，和 en tout cas 意思接近但更口语。tout ❌ 阳性；tous/toutes ❌ 复数。TCF 听力和口语中极高频表达。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles contiennent « tout » utilisé comme pronom ?",
+          "options": [
+            "Tout va bien.",
+            "Tous les jours.",
+            "C'est tout.",
+            "Ils sont tous là."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "本题考察 tout 做代词 vs 做形容词的区分。A ✅ Tout va bien → tout = 一切（代词做主语）；B ❌ tous les jours → tous 是形容词（修饰 jours）；C ✅ C'est tout → tout = 全部/就这些（代词做表语）；D ✅ tous là → tous 是代词（代指'他们所有人'，s 发音）。TCF 出题套路：同一个词不同词性的辨别。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Malgré tout, il continue. » — « tout » ici signifie :",
+          "options": [
+            "所有人",
+            "所有东西",
+            "尽管如此（一切困难）",
+            "整天"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 malgré tout 的含义。malgré tout = 尽管如此/尽管一切困难，tout 在这里做代词表示'一切（困难/障碍）'。A 是'所有人'（tout le monde）；B 太字面；D 是'整天'（toute la journée）。TCF B2 阅读和口语中高频表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____ compte fait, je préfère rester ici.",
+          "options": [
+            "Tout",
+            "Toute",
+            "Tous",
+            "Toutes"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 tout compte fait（仔细想想/总的来说）的固定表达。这是固定搭配，用 tout（不变）。toute/tous/toutes ❌ 都不对。tout compte fait 相当于 après réflexion。TCF B2 口语和写作中的加分表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment prononce-t-on « hier » ?",
+          "options": [
+            "两个音节 /i.ɛʁ/",
+            "一个音节 /jɛʁ/",
+            "两个音节 /hi.e/",
+            "一个音节 /iʁ/"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 hier 的发音。hier 只有一个音节 /jɛʁ/，h 不发音。很多中国学生读成两个音节 hi-er ❌。英语背景学生容易受 here 影响。TCF 口语和听力基础考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____, j'ai mangé des pâtes au restaurant.",
+          "options": [
+            "Demain",
+            "Hier",
+            "Aujourd'hui",
+            "Après-demain"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 hier + 过去时态的搭配。j'ai mangé 是 passé composé（过去时），所以时间词应该是 hier（昨天）。demain = 明天（未来）；aujourd'hui 虽然也可以配过去时但语境不如 hier 合适；après-demain = 后天（未来）。TCF 出题套路：时间副词和时态必须匹配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le contraire de « hier » dans la série temporelle ?",
+          "options": [
+            "aujourd'hui",
+            "demain",
+            "avant-hier",
+            "la veille"
+          ],
+          "correct": 1,
+          "explanation": "本题考察时间词的对称关系。hier（昨天）的对称词是 demain（明天），一个指过去一天，一个指未来一天。aujourd'hui 是今天（中间点）；avant-hier 是前天（更远的过去）；la veille 是间接引语中的'前一天'，不是直接对称关系。TCF 出题套路：时间词系列对比。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment dit-on « 前天 » en français ?",
+          "options": [
+            "après-hier",
+            "avant-hier",
+            "hier matin",
+            "dernier hier"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 avant-hier（前天）的正确拼写。avant-hier 中间有连字符。après-hier ❌ 不存在（après-demain 是后天）；hier matin = 昨天早上；dernier hier ❌ 不存在。TCF 出题套路：用不存在的词做干扰项。口诀：avant-hier 前天，après-demain 后天。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je suis malade _____ hier.",
+          "options": [
+            "pour",
+            "pendant",
+            "depuis",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 depuis hier（从昨天开始）的固定搭配。depuis + 时间点 = 从……开始一直到现在。pour ❌ 用于未来持续时间；pendant ❌ 用于过去一段时间长度；dans ❌ 用于未来某个时间点。TCF A2-B1 高频考点：depuis 的用法。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Le journal d'hier » signifie :",
+          "options": [
+            "明天的报纸",
+            "昨天的报纸",
+            "今天的报纸",
+            "旧报纸"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 d'hier（昨天的）做后置修饰语。le journal d'hier = 昨天的报纸。de + hier = d'hier。TCF 阅读中经常出现这种 nom + d'hier 的结构。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je ne suis pas né d'hier ! » signifie :",
+          "options": [
+            "我不是昨天出生的（字面意思）。",
+            "我不是傻瓜/我有经验。",
+            "我很年轻。",
+            "我忘记了昨天的事。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 ne pas être né d'hier 的引申义。这个表达意思是'我又不是三岁小孩/我不傻/我有经验'。A 是字面翻译但不是真正含义；C 和 D 无关。TCF B1 听力中口语表达可能出现。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le discours indirect, « hier » devient :",
+          "options": [
+            "demain",
+            "le lendemain",
+            "la veille",
+            "avant-hier"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 hier → la veille 的间接引语转换。直接引语中的 hier 在间接引语中变成 la veille（前一天）。例：Il a dit : « J'ai travaillé hier. » → Il a dit qu'il avait travaillé la veille. demain → le lendemain；le lendemain 是 demain 的转换不是 hier 的。TCF B2 经典语法考点。口诀：直接 hier → 间接 la veille。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez le discours indirect : Elle a dit : « J'ai vu Pierre _____.» → Elle a dit qu'elle avait vu Pierre .",
+          "options": [
+            "hier → hier",
+            "hier → la veille",
+            "hier → le lendemain",
+            "hier → avant-hier"
+          ],
+          "correct": 1,
+          "explanation": "本题考察间接引语中 hier 的实际转换。直接引语中说 hier，转成间接引语要变为 la veille。hier → hier ❌ 不变是错的；le lendemain 是 demain 的转换；avant-hier 是前天，无关。TCF B2 必考题型。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": " soir, nous avons regardé un excellent film.",
+          "correct": [
+            "Hier"
+          ],
+          "explanation": "本题考察 hier soir（昨天晚上）的使用。nous avons regardé 是过去时，搭配 hier soir 最合适。注意 hier soir 是最常用的时间搭配之一，TCF 听力中日常对话高频出现。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les méthodes d'hier ne fonctionnent plus. » — « hier » ici signifie :",
+          "options": [
+            "昨天（字面意思，24小时前）",
+            "过去/以前（比喻用法）",
+            "前天",
+            "很久以前"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 hier 在 B2 文本中的比喻用法。d'hier 在这里不是指字面的'昨天'，而是比喻'过去的/旧时的'。TCF B2 阅读中社会评论文章经常用 hier 比喻'过去'，和 aujourd'hui/demain（现在/未来）形成对比。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel temps utilise-t-on normalement avec « hier » ?",
+          "options": [
+            "le futur simple",
+            "le présent",
+            "le passé composé ou l'imparfait",
+            "le conditionnel"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 hier 搭配的时态。hier = 昨天，描述过去发生的事，所以用过去时态：passé composé（复合过去时）或 imparfait（未完成过去时）。futur ❌ 未来时不搭配昨天；présent ❌ 现在时一般不搭配昨天；conditionnel ❌ 条件式不是描述过去事实。TCF 基础语法：时间词和时态匹配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tout va bien. » — « tout » est ici :",
+          "options": [
+            "un adjectif",
+            "un adverbe",
+            "un pronom",
+            "un nom"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 tout 在 Tout va bien 中的词性。这里 tout = 一切（代词做主语），指代所有事物。不是形容词（没有修饰名词）；不是副词（不是修饰动词/形容词）；不是名词（虽然 tout 可做名词但这里是代词用法）。TCF 出题套路：同一个词不同词性的辨别。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Vous désirez autre chose ? — Non, c'est _____.",
+          "options": [
+            "tous",
+            "toute",
+            "tout",
+            "toutes"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 C'est tout（就这些了）的固定表达。tout 做代词表示'全部'，不变形。tous ❌ 复数代词不用在 c'est 后面；toute ❌ 阴性不对；toutes ❌ 复数不对。TCF 听力中购物/点菜场景的经典对话。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je n'aime _____ du tout ce film.",
+          "options": [
+            "rien",
+            "pas",
+            "plus",
+            "jamais"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pas du tout（完全不）的固定搭配。ne...pas du tout = 完全不。ne...rien = 什么都不；ne...plus = 不再；ne...jamais = 从不。这些都是否定结构但意思不同。⚠️ 注意是 pas du tout，不是 pas de tout ❌。TCF A2-B1 否定表达高频考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Pas du tout » s'écrit :",
+          "options": [
+            "pas de tout",
+            "pas du tout",
+            "pas des tout",
+            "pas de tous"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pas du tout 的正确拼写。du 是缩合冠词（de + le），固定搭配不能拆开。pas de tout ❌ 最常见的拼写错误；pas des tout ❌ 和 pas de tous ❌ 都不存在。TCF 拼写考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Après tout, c'est ta décision. » signifie :",
+          "options": [
+            "在所有事情之后",
+            "毕竟，这是你的决定。",
+            "最后，这是你的决定。",
+            "关于所有事情，这是你的决定。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 après tout（毕竟）的含义。après tout = 毕竟/话说回来，用于补充一个让步性的观点。A 是字面翻译但不自然；C 的'最后'应该是 finalement；D 无关。TCF B1 口语和阅读中常见。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Malgré tout » signifie :",
+          "options": [
+            "因为一切",
+            "尽管如此",
+            "和所有人一起",
+            "对所有事情"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 malgré tout（尽管如此）的含义。malgré = 尽管，tout = 一切 → 尽管一切/尽管如此。A 是'因为'（à cause de）；C 是'和大家一起'（avec tout le monde）；D 不自然。TCF B2 写作和口语中的高频让步表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Avant tout, il faut comprendre le problème. » — « avant tout » signifie :",
+          "options": [
+            "在所有人之前",
+            "在一切之前/首先/最重要的是",
+            "以前",
+            "在所有时间之前"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 avant tout（首先/最重要的是）的含义。avant tout = 在一切之前 → 引申为'首先/最重要的是'。A 字面化了（所有人应该是 avant tout le monde）；C 的'以前'是 avant/autrefois；D 不存在这种表达。TCF B1-B2 写作中非常好用的开头表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Surtout » est formé de « sur + tout ». Que signifie-t-il ?",
+          "options": [
+            "在上面",
+            "关于一切",
+            "尤其/特别是",
+            "超过一切"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 surtout（尤其）的含义。surtout = 尤其/特别是/主要是。虽然构成是 sur + tout，但意思不是字面的'在一切之上'。例：J'aime les fruits, surtout les fraises.（我喜欢水果，尤其是草莓。）TCF 各级别都超高频的副词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tout de même, c'est bizarre. » signifie :",
+          "options": [
+            "一切都一样，这很奇怪。",
+            "还是/毕竟，这挺奇怪的。",
+            "所有东西都一样奇怪。",
+            "完全一样地奇怪。"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 tout de même（还是/毕竟/尽管如此）的含义。tout de même 用于表示一种让步或轻微的惊讶/不满。A 和 C 是字面误读；D 不对。和 quand même 意思非常接近。TCF 听力中口语对话常见。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'aime les fruits, _____ les fraises.",
+          "correct": [
+            "surtout"
+          ],
+          "explanation": "本题考察 surtout（尤其）的实际运用。整句：我喜欢水果，尤其是草莓。surtout 用来在一个大类中突出强调某个具体事物。TCF 各级别的阅读和口语中极高频。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le contraire de « tout » (代词, 一切) ?",
+          "options": [
+            "tous",
+            "personne",
+            "rien",
+            "jamais"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 tout（一切）的反义代词。tout（一切）↔ rien（什么都没有）。tous 是'所有人'的代词形式，不是反义；personne 是'没有人'（是 tout le monde 的反义）；jamais 是'从不'（是 toujours 的反义）。TCF 出题套路：代词反义对考辨析。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ouais » est l'équivalent familier de :",
+          "options": [
+            "non",
+            "oui",
+            "peut-être",
+            "merci"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 ouais 的含义。ouais 就是口语/非正式中 oui（是的）的说法。non = 不；peut-être = 也许；merci = 谢谢。TCF 听力中法国人日常对话可能说 ouais 而不是 oui，要能听懂。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans un examen oral du TCF, faut-il dire « ouais » ou « oui » ?",
+          "options": [
+            "Ouais, c'est plus naturel.",
+            "Oui, car ouais est trop familier pour un examen.",
+            "Les deux sont acceptables.",
+            "Ni l'un ni l'autre, il faut dire « si »."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 ouais 的语域限制。在 TCF 口语考试中应该用 oui，因为 ouais 太随意/非正式，会被扣语域分。A ❌ 自然不等于合适；C ❌ 不都可以；D ❌ si 只用于回答否定问题。TCF 考官视角：语域选择直接影响评分。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour répondre affirmativement à une question négative, on utilise :",
+          "options": [
+            "oui",
+            "ouais",
+            "si",
+            "non"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 oui vs si 的区别（由 ouais 引申）。回答否定问题时用 si。例：Tu n'aimes pas le chocolat ? — Si ! (= 不，我喜欢！)。oui 用于回答肯定问题；ouais 是 oui 的口语版；non 表示否定。TCF A2-B1 经典考点。口诀：肯定问题用 oui/ouais，否定问题用 si。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ouais, bof... » exprime :",
+          "options": [
+            "un grand enthousiasme",
+            "une indifférence / un manque d'intérêt",
+            "une colère intense",
+            "une grande surprise"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 ouais + bof 的语气组合。ouais, bof = 嗯，随便吧/不怎么样，表示不太在乎/不太感兴趣。不是热情（enthousiasme）也不是愤怒（colère）或惊讶（surprise）。TCF 听力中理解说话人语气和态度是重要考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Waouh, c'est magnifique ! » — « waouh » exprime :",
+          "options": [
+            "la déception",
+            "l'admiration et la surprise",
+            "la colère",
+            "l'ennui"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 waouh 表达的情感。waouh = 哇！表示惊叹和赞美。déception = 失望；colère = 愤怒；ennui = 无聊。TCF 听力中能判断感叹词表达的情感是理解对话的基础。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans un contexte B2, quelle expression est préférable à « waouh » pour exprimer l'admiration ?",
+          "options": [
+            "Waouh, trop bien !",
+            "C'est impressionnant !",
+            "Oh mon Dieu !",
+            "Grave !"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 waouh 的 B2 正式替换。C'est impressionnant !（令人印象深刻！）更适合 B2 口语考试。A 的 waouh 太随意；C 的 Oh mon Dieu 虽然常用但偏口语；D 的 Grave 是年轻人俚语，非常不正式。TCF B2 口语中语域选择是评分标准。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles sont appropriées dans un examen oral TCF pour exprimer l'admiration ?",
+          "options": [
+            "Waouh !",
+            "C'est remarquable !",
+            "C'est impressionnant !",
+            "C'est magnifique !"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "本题考察 TCF 口语中表达赞美的合适表达。C'est remarquable ✅ / C'est impressionnant ✅ / C'est magnifique ✅ 都是中性或稍正式的赞美，适合考试。Waouh ❌ 太随意/口语化，会被扣语域分。TCF 考官视角：口语考试中选择合适语域的表达是加分关键。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Oh là là ! » est une exclamation française qui peut exprimer :",
+          "options": [
+            "uniquement la joie",
+            "uniquement la colère",
+            "la surprise, l'admiration, ou même l'agacement selon le contexte",
+            "uniquement la tristesse"
+          ],
+          "correct": 2,
+          "explanation": "本题考察法语经典感叹表达 Oh là là 的多义性（由 waouh 引申）。Oh là là 是法语中最经典的感叹词，根据上下文可以表达惊讶、赞叹、甚至不满/烦躁。不是只表达一种情绪。TCF 听力中理解语气和上下文是关键。"
         }
       ],
       "practiceCount": 0,
@@ -4548,6 +5400,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T02:58:50.774Z",
+  "exportedAt": "2026-02-09T03:07:43.002Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }

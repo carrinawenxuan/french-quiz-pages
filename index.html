@@ -1300,6 +1300,21 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
+    .start-mode-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9998; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
+    .start-mode-modal-overlay.show { display: flex !important; }
+    .start-mode-modal { width: 100%; max-width: 420px; background: var(--card); border-radius: var(--radius); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-lg); padding: 1.25rem 1.5rem; }
+    body.theme-light .start-mode-modal { border-color: var(--border-strong); }
+    .start-mode-modal h3 { font-size: 1rem; margin: 0 0 1rem 0; color: var(--text); }
+    .start-mode-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
+    .start-mode-actions { display: flex; flex-direction: column; gap: 0.75rem; }
+    .start-mode-sequential { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; }
+    .start-mode-sequential input[type="number"] { width: 4rem; padding: 0.4rem 0.5rem; font-size: 0.95rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); }
+    .start-mode-sequential span { font-size: 0.9rem; color: var(--text-muted); }
+    .start-mode-finished { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+    .start-mode-finished p { margin: 0; font-size: 0.9rem; color: var(--text-muted); width: 100%; }
+    .start-mode-footer { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
+    body.theme-light .start-mode-sequential input { background: var(--card); border-color: var(--border-strong); }
+
     /* Screen reader only */
     .sr-only {
       position: absolute;
@@ -1333,7 +1348,7 @@
     .screen { contain: layout style; }
 
     @media print {
-      .skip-link, #toast, .review-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .preview-questions-overlay,
+      .skip-link, #toast, .review-modal-overlay, .start-mode-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .preview-questions-overlay,
       header .theme-toggle, header .home-actions .btn,
       .result-actions, .result-shortcut-hint, .result-recent { display: none !important; }
       body { background: #fff; color: #111; }
@@ -1627,6 +1642,32 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <div class="start-mode-modal-overlay" id="start-mode-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="start-mode-modal-title" style="display: none;">
+    <div class="start-mode-modal">
+      <h3 id="start-mode-modal-title">选择练习方式</h3>
+      <div class="start-mode-body">
+        <p class="start-mode-desc" id="start-mode-desc">本题集题目较多，可一次练习全部（打乱顺序），或按顺序自选题目数，下次从剩余题目继续。</p>
+        <div class="start-mode-actions">
+          <button type="button" class="btn btn-primary" id="btn-start-mode-full">练习全部（打乱顺序）</button>
+          <div class="start-mode-sequential" id="start-mode-sequential">
+            <label for="start-mode-count">按顺序练习</label>
+            <input type="number" id="start-mode-count" min="1" value="20" aria-label="题目数量" />
+            <span>题（从第 <span id="start-mode-from">1</span> 题起，剩余 <span id="start-mode-remain">0</span> 题）</span>
+            <button type="button" class="btn btn-secondary" id="btn-start-mode-sequential">开始按顺序练习</button>
+          </div>
+          <div class="start-mode-finished" id="start-mode-finished" style="display: none;">
+            <p>本套已按顺序练完。</p>
+            <button type="button" class="btn btn-secondary" id="btn-start-mode-reset">重置进度</button>
+            <button type="button" class="btn btn-primary" id="btn-start-mode-full-after">练习全部</button>
+          </div>
+        </div>
+      </div>
+      <div class="start-mode-footer">
+        <button type="button" class="btn btn-secondary" id="btn-start-mode-cancel" aria-keyshortcuts="Escape">取消</button>
+      </div>
+    </div>
+  </div>
+
   <div class="image-lightbox-overlay" id="image-lightbox-overlay" role="dialog" aria-modal="true" aria-label="放大查看图片">
     <div class="image-lightbox-content">
       <img id="image-lightbox-img" src="" alt="放大图" />
@@ -1712,6 +1753,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const IMPORT_ALLOWED_FINGERPRINT_KEY = 'french_quiz_import_allowed_device';
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
+    const SEQUENTIAL_MODE_THRESHOLD = 16;
     const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result' };
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
@@ -2495,7 +2537,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       switch (btn.dataset.action) {
         case 'start':
           if (set && set.questions && set.questions.length) {
-            if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
+            if (set.questions.length > SEQUENTIAL_MODE_THRESHOLD) openStartModeModal(set);
+            else if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
             else startQuiz(set.questions, false, set.id);
           }
           break;
@@ -2894,7 +2937,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       answered: false,
       timerSeconds: 10,
       practicingWrongBook: false,
-      practicedSetId: null
+      practicedSetId: null,
+      sequentialBatch: null
     };
     let timerId = null;
 
@@ -2993,18 +3037,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return questions;
     }
 
-    function startQuiz(questions, fromWrongBook, setId) {
+    function startQuiz(questions, fromWrongBook, setId, opts) {
       if (!questions || questions.length === 0) {
         showToast(fromWrongBook ? '没有到期需要复习的错题，明天再来' : '没有可用的题目，请检查导入或使用默认题目');
         return;
       }
+      opts = opts || {};
       if (typeof performance !== 'undefined' && performance.mark) performance.mark('quiz-start');
       const timerInput = document.getElementById('timer-seconds');
       state.timerSeconds = timerInput ? Math.max(0, parseInt(timerInput.value, 10) || 10) : 10;
-      let list = document.getElementById('shuffle-questions') && document.getElementById('shuffle-questions').checked
-        ? shuffleArray(questions)
-        : questions;
-      if (document.getElementById('shuffle-options') && document.getElementById('shuffle-options').checked) {
+      const noShuffle = !!opts.noShuffle;
+      let list = (noShuffle || !(document.getElementById('shuffle-questions') && document.getElementById('shuffle-questions').checked))
+        ? questions.slice()
+        : shuffleArray(questions);
+      if (!noShuffle && document.getElementById('shuffle-options') && document.getElementById('shuffle-options').checked) {
         list = list.map(shuffleQuestionOptions);
       }
       state.questions = list;
@@ -3014,6 +3060,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.answerResults = {};
       state.practicingWrongBook = !!fromWrongBook;
       state.practicedSetId = setId || null;
+      state.sequentialBatch = opts.sequentialBatch || null;
       showScreen(SCREEN.QUIZ);
       if (typeof performance !== 'undefined' && performance.mark) performance.mark('quiz-first-render-start');
       renderQuestion();
@@ -3023,6 +3070,40 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
     let _pendingReviewStart = null;
+    let _pendingStartSet = null;
+    function openStartModeModal(set) {
+      _pendingStartSet = set;
+      const total = set.questions.length;
+      const nextIdx = Math.max(0, parseInt(set.sequentialNextIndex, 10) || 0);
+      const remain = total - nextIdx;
+      const overlay = document.getElementById('start-mode-modal-overlay');
+      const seqBlock = document.getElementById('start-mode-sequential');
+      const finishedBlock = document.getElementById('start-mode-finished');
+      const fromEl = document.getElementById('start-mode-from');
+      const remainEl = document.getElementById('start-mode-remain');
+      const countInput = document.getElementById('start-mode-count');
+      if (remain <= 0) {
+        if (seqBlock) seqBlock.style.display = 'none';
+        if (finishedBlock) finishedBlock.style.display = 'flex';
+        if (fromEl) fromEl.textContent = '1';
+        if (remainEl) remainEl.textContent = total;
+      } else {
+        if (seqBlock) seqBlock.style.display = 'flex';
+        if (finishedBlock) finishedBlock.style.display = 'none';
+        if (fromEl) fromEl.textContent = nextIdx + 1;
+        if (remainEl) remainEl.textContent = remain;
+        if (countInput) {
+          countInput.max = remain;
+          countInput.value = Math.min(20, remain);
+        }
+      }
+      if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
+    }
+    function closeStartModeModal() {
+      _pendingStartSet = null;
+      const overlay = document.getElementById('start-mode-modal-overlay');
+      if (overlay) { overlay.classList.remove('show'); overlay.style.display = 'none'; clearModalFocusTrap(); }
+    }
     function showReviewModal(set, questions, fromWrongBook, setId) {
       const m = getReviewMaterials(set);
       const total = m.texts.length + m.links.length + m.images.length;
@@ -3590,6 +3671,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       pushRecentSession(state.questions.length, state.score);
+      if (state.sequentialBatch && state.practicedSetId) {
+        const sets = getSavedSets();
+        const nextIdx = state.sequentialBatch.startIndex + state.sequentialBatch.count;
+        const updated = sets.map(s => String(s.id) === String(state.practicedSetId)
+          ? Object.assign({}, s, { sequentialNextIndex: nextIdx })
+          : s);
+        setSavedSets(updated);
+        state.sequentialBatch = null;
+      }
       const recentEl = document.getElementById('result-recent');
       if (recentEl) {
         const sessions = getRecentSessions();
@@ -3947,6 +4037,55 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       if (e.target.id === 'review-modal-overlay') confirmReviewStartQuiz();
     });
+    (function initStartModeModal() {
+      const overlay = document.getElementById('start-mode-modal-overlay');
+      const btnFull = document.getElementById('btn-start-mode-full');
+      const btnSequential = document.getElementById('btn-start-mode-sequential');
+      const countInput = document.getElementById('start-mode-count');
+      const btnCancel = document.getElementById('btn-start-mode-cancel');
+      const btnReset = document.getElementById('btn-start-mode-reset');
+      const btnFullAfter = document.getElementById('btn-start-mode-full-after');
+      function doStartFull() {
+        if (!_pendingStartSet) return;
+        const set = _pendingStartSet;
+        closeStartModeModal();
+        if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
+        else startQuiz(set.questions, false, set.id);
+      }
+      function doStartSequential() {
+        if (!_pendingStartSet || !countInput) return;
+        const set = _pendingStartSet;
+        const nextIdx = Math.max(0, parseInt(set.sequentialNextIndex, 10) || 0);
+        const remain = set.questions.length - nextIdx;
+        let n = Math.max(1, Math.min(remain, parseInt(countInput.value, 10) || 20));
+        if (n > remain) n = remain;
+        const slice = set.questions.slice(nextIdx, nextIdx + n);
+        closeStartModeModal();
+        startQuiz(slice, false, set.id, { noShuffle: true, sequentialBatch: { startIndex: nextIdx, count: slice.length } });
+      }
+      function doResetProgress() {
+        if (!_pendingStartSet) return;
+        const set = _pendingStartSet;
+        const sets = getSavedSets();
+        const updated = sets.map(s => String(s.id) === String(set.id) ? Object.assign({}, s, { sequentialNextIndex: 0 }) : s);
+        setSavedSets(updated);
+        closeStartModeModal();
+        showToast('已重置进度，下次可从第 1 题起按顺序练习');
+      }
+      if (btnFull) btnFull.addEventListener('click', doStartFull);
+      if (btnSequential) btnSequential.addEventListener('click', doStartSequential);
+      if (btnCancel) btnCancel.addEventListener('click', closeStartModeModal);
+      if (btnReset) btnReset.addEventListener('click', doResetProgress);
+      if (btnFullAfter) btnFullAfter.addEventListener('click', function() {
+        if (!_pendingStartSet) return;
+        const set = _pendingStartSet;
+        closeStartModeModal();
+        startQuiz(set.questions, false, set.id);
+      });
+      if (overlay) overlay.addEventListener('click', function(e) {
+        if (e.target.id === 'start-mode-modal-overlay') closeStartModeModal();
+      });
+    })();
     document.getElementById('image-lightbox-close').addEventListener('click', closeImageLightbox);
     document.getElementById('image-lightbox-overlay').addEventListener('click', (e) => {
       if (e.target.id === 'image-lightbox-overlay') closeImageLightbox();
@@ -3974,6 +4113,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (e.key === 'Escape' && _openModalOverlay) {
         var id = _openModalOverlay.id;
         if (id === 'review-modal-overlay') confirmReviewStartQuiz();
+        else if (id === 'start-mode-modal-overlay') closeStartModeModal();
         else if (id === 'edit-set-modal-overlay') closeEditSetModal();
         else if (id === 'preview-questions-overlay') closePreviewQuestions();
         else if (id === 'image-lightbox-overlay') closeImageLightbox();
