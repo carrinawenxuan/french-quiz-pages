@@ -519,6 +519,9 @@
     .flashcard-add-card-modal label:first-of-type { margin-top: 0; }
     .flashcard-add-card-modal textarea { width: 100%; padding: 0.6rem 0.75rem; font-size: 0.9rem; font-family: inherit; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical; box-sizing: border-box; }
     .flashcard-add-card-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1.25rem; }
+    .flashcard-import-hint { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+    .flashcard-import-hint code { background: var(--surface); padding: 0.15em 0.4em; border-radius: 4px; }
+    .flashcard-import-json-modal textarea { font-family: ui-monospace, monospace; font-size: 0.85rem; }
     body.theme-light .flashcards-deck-item { background: var(--bg); border-color: var(--border-subtle); }
     body.theme-light .flashcard-side { background: var(--card); border-color: var(--border-strong); }
     body.theme-light .flashcard-add-card-modal { background: var(--card); border-color: var(--border-strong); }
@@ -2373,6 +2376,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <p class="flashcards-cards-empty" id="flashcards-cards-empty" style="display: none;">暂无卡片，点击下方添加。</p>
         <div class="flashcards-detail-actions">
           <button type="button" class="btn btn-secondary" id="btn-flashcards-add-card">➕ 添加卡片</button>
+          <button type="button" class="btn btn-secondary" id="btn-flashcards-import-json">📋 从 JSON 粘贴导入</button>
           <button type="button" class="btn btn-primary" id="btn-flashcards-start-train">开始训练</button>
         </div>
       </div>
@@ -2628,6 +2632,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <div class="flashcard-add-card-actions">
         <button type="button" class="btn btn-secondary" id="btn-flashcard-cancel-card">取消</button>
         <button type="button" class="btn btn-primary" id="btn-flashcard-save-card">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 记忆训练：从 JSON 粘贴导入 -->
+  <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" style="display: none;">
+    <div class="flashcard-add-card-modal flashcard-import-json-modal">
+      <h3>从 JSON 粘贴导入</h3>
+      <p class="flashcard-import-hint">粘贴 AI 生成的卡片数组，每项需包含 <code>front</code> 和 <code>back</code> 字段。将追加到当前卡片组。</p>
+      <textarea id="flashcard-import-json-textarea" rows="12" placeholder='[{"front":"正面1","back":"反面1"},{"front":"正面2","back":"反面2"}]' autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-flashcard-import-json-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-flashcard-import-json-do">导入</button>
       </div>
     </div>
   </div>
@@ -5296,8 +5313,50 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           showToast('已创建');
         });
       });
+      function openImportJsonModal() {
+        document.getElementById('flashcard-import-json-textarea').value = '';
+        document.getElementById('flashcard-import-json-overlay').style.display = 'flex';
+      }
+      function closeImportJsonModal() {
+        document.getElementById('flashcard-import-json-overlay').style.display = 'none';
+      }
+      function doImportJson() {
+        const raw = (document.getElementById('flashcard-import-json-textarea')?.value || '').trim();
+        if (!raw) { showToast('请粘贴 JSON 内容'); return; }
+        let arr;
+        try {
+          const parsed = JSON.parse(raw);
+          arr = Array.isArray(parsed) ? parsed : (parsed.cards || []);
+        } catch (e) {
+          showToast('JSON 格式错误：' + (e.message || String(e)));
+          return;
+        }
+        const decks = getFlashcardDecks();
+        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (!deck) { closeImportJsonModal(); return; }
+        if (!deck.cards) deck.cards = [];
+        let added = 0;
+        arr.forEach(item => {
+          if (item && (item.front != null || item.back != null)) {
+            deck.cards.push({
+              id: Date.now() + '-' + Math.random().toString(36).slice(2),
+              front: (item.front != null ? String(item.front) : '').trim() || '(空白)',
+              back: (item.back != null ? String(item.back) : '').trim() || '(空白)'
+            });
+            added++;
+          }
+        });
+        setFlashcardDecks(decks);
+        renderFlashcardCardList();
+        closeImportJsonModal();
+        showToast(added ? '已导入 ' + added + ' 张卡片' : '未解析到有效卡片');
+      }
+
       document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
       document.getElementById('btn-flashcards-add-card').addEventListener('click', openAddCardModal);
+      document.getElementById('btn-flashcards-import-json').addEventListener('click', openImportJsonModal);
+      document.getElementById('btn-flashcard-import-json-cancel').addEventListener('click', closeImportJsonModal);
+      document.getElementById('btn-flashcard-import-json-do').addEventListener('click', doImportJson);
       document.getElementById('btn-flashcards-start-train').addEventListener('click', startTraining);
       document.getElementById('btn-flashcard-cancel-card').addEventListener('click', closeAddCardModal);
       document.getElementById('btn-flashcard-save-card').addEventListener('click', saveFlashcardCard);
@@ -5319,6 +5378,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           e.preventDefault();
         } else if (document.getElementById('flashcard-add-card-overlay').style.display === 'flex') {
           closeAddCardModal();
+          e.preventDefault();
+        } else if (document.getElementById('flashcard-import-json-overlay').style.display === 'flex') {
+          closeImportJsonModal();
           e.preventDefault();
         }
       });
