@@ -2514,22 +2514,29 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <button type="button" class="sync-text-tab" data-tab="import">💻 导入同步文本</button>
       </div>
       <div class="sync-text-content" id="sync-text-generate" style="display: block;">
-        <p class="sync-text-desc">点击下方按钮生成包含所有数据的同步文本，复制后可在电脑端导入。</p>
+        <p class="sync-text-desc">生成包含所有数据的同步内容。数据量大时建议用「下载为文件」，再通过微信/邮件/AirDrop 传到电脑后「从文件导入」。</p>
         <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，生成和导入时都需要输入 PIN。</p>
         <button type="button" class="btn btn-primary" id="btn-generate-sync-text-inner">生成同步文本</button>
         <div class="sync-text-result" id="sync-text-result" style="display: none;">
           <label for="sync-text-output">同步文本（点击全选复制）：</label>
           <textarea id="sync-text-output" readonly rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;"></textarea>
-          <button type="button" class="btn btn-secondary" id="btn-copy-sync-text" style="margin-top: 0.5rem;">📋 复制文本</button>
-          <p class="sync-text-hint" style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--text-muted);">在电脑端打开本页面，切换到「导入同步文本」标签，粘贴此文本即可同步数据。</p>
+          <div class="sync-text-actions-inline" style="margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button type="button" class="btn btn-secondary" id="btn-copy-sync-text">📋 复制文本</button>
+            <button type="button" class="btn btn-secondary" id="btn-download-sync-file">📥 下载为文件</button>
+          </div>
+          <p class="sync-text-hint" style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--text-muted);">复制或下载后，用微信/邮件/AirDrop 等传到电脑，在电脑端「从文件导入」或粘贴导入即可。</p>
         </div>
       </div>
       <div class="sync-text-content" id="sync-text-import" style="display: none;">
         <p class="sync-text-desc">粘贴从手机端生成的同步文本，点击导入即可同步数据到电脑。</p>
         <p class="sync-text-warning" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">🔒 如果已启用导入保护，需要输入 PIN 才能导入。如果已绑定设备，只能在绑定的设备上导入。</p>
         <label for="sync-text-input">同步文本：</label>
-        <textarea id="sync-text-input" rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;" placeholder="粘贴同步文本..."></textarea>
-        <button type="button" class="btn btn-primary" id="btn-import-sync-text-inner" style="margin-top: 0.75rem;">导入数据</button>
+        <textarea id="sync-text-input" rows="8" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem; font-family: monospace; font-size: 0.85rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical;" placeholder="粘贴同步文本，或使用下方「从文件导入」选择手机传过来的文件"></textarea>
+        <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <button type="button" class="btn btn-primary" id="btn-import-sync-text-inner">导入数据</button>
+          <button type="button" class="btn btn-secondary" id="btn-import-sync-file">📂 从文件导入</button>
+        </div>
+        <input type="file" id="sync-file-import" accept=".txt,.json,text/plain,application/json" style="display: none;">
         <p class="sync-text-warning" style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--wrong);">⚠️ 导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）</p>
       </div>
       <div class="sync-text-actions">
@@ -5363,22 +5370,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast('生成失败：' + (e.message || String(e)));
       }
     }
-    async function importSyncText() {
-      const inputTextarea = document.getElementById('sync-text-input');
-      if (!inputTextarea) return;
-      const text = inputTextarea.value.trim();
-      if (!text) {
-        showToast('请输入同步文本');
+    async function doImportSyncText(text) {
+      const t = (typeof text === 'string' && text.trim()) ? text.trim() : '';
+      if (!t) {
+        showToast('同步内容为空');
         return;
       }
-      
-      // 检查设备绑定
       if (!canImportOnThisDevice()) {
         showToast('仅允许在已绑定的设备上导入同步数据，当前设备未绑定');
         return;
       }
-      
-      // 检查 PIN 保护
       if (isImportLockEnabled()) {
         const pin = await customPromptPin('请输入主人 PIN 以导入同步数据');
         if (pin === null) return;
@@ -5388,13 +5389,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return;
         }
       }
-      
       const confirmed = await customConfirm('导入将覆盖当前本地的所有数据（习题集、错题本、统计数据等）。确定要继续吗？');
-      if (!confirmed) {
-        return;
-      }
+      if (!confirmed) return;
       try {
-        const jsonStr = decodeURIComponent(escape(atob(text)));
+        const jsonStr = decodeURIComponent(escape(atob(t)));
         const data = JSON.parse(jsonStr);
         if (!data || (data.savedSets == null && data.wrongBook == null)) {
           throw new Error('数据格式无效');
@@ -5403,11 +5401,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
         const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
         showToast('已导入' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : ''));
-        inputTextarea.value = '';
+        const inputTextarea = document.getElementById('sync-text-input');
+        if (inputTextarea) inputTextarea.value = '';
         closeSyncTextModal();
       } catch (e) {
-        showToast('导入失败：' + (e.message || String(e)) + '。请确认同步文本是否正确。');
+        showToast('导入失败：' + (e.message || String(e)) + '。请确认同步文本或文件是否正确。');
       }
+    }
+    async function importSyncText() {
+      const inputTextarea = document.getElementById('sync-text-input');
+      if (!inputTextarea) return;
+      const text = inputTextarea.value.trim();
+      if (!text) {
+        showToast('请粘贴同步文本或使用「从文件导入」选择文件');
+        return;
+      }
+      await doImportSyncText(text);
     }
     function copySyncText() {
       const outputTextarea = document.getElementById('sync-text-output');
@@ -5417,13 +5426,27 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         document.execCommand('copy');
         showToast('已复制到剪贴板');
       } catch (e) {
-        // Fallback for modern browsers
         navigator.clipboard.writeText(outputTextarea.value).then(() => {
           showToast('已复制到剪贴板');
         }).catch(() => {
           showToast('复制失败，请手动选择文本复制');
         });
       }
+    }
+    function downloadSyncTextAsFile() {
+      const outputTextarea = document.getElementById('sync-text-output');
+      if (!outputTextarea || !outputTextarea.value) {
+        showToast('请先点击「生成同步文本」');
+        return;
+      }
+      const blob = new Blob([outputTextarea.value], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'french-quiz-sync.txt';
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast('已下载，可用微信/邮件/AirDrop 传到电脑后「从文件导入」');
     }
     
     // Sync Text Modal Event Listeners
@@ -5439,6 +5462,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-generate-sync-text-inner').addEventListener('click', generateSyncText);
     document.getElementById('btn-import-sync-text-inner').addEventListener('click', importSyncText);
     document.getElementById('btn-copy-sync-text').addEventListener('click', copySyncText);
+    document.getElementById('btn-download-sync-file').addEventListener('click', downloadSyncTextAsFile);
+    document.getElementById('btn-import-sync-file').addEventListener('click', () => document.getElementById('sync-file-import').click());
+    document.getElementById('sync-file-import').addEventListener('change', function() {
+      const file = this.files && this.files[0];
+      this.value = '';
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        const text = (reader.result && typeof reader.result === 'string') ? reader.result.trim() : '';
+        if (text) doImportSyncText(text);
+        else showToast('文件为空或格式不对');
+      };
+      reader.onerror = () => showToast('读取文件失败');
+      reader.readAsText(file, 'UTF-8');
+    });
     document.getElementById('file-import-data').addEventListener('change', function() {
       const file = this.files && this.files[0];
       if (file) importDataFromFile(file);
