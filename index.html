@@ -1044,6 +1044,9 @@
     body.theme-light .import-review-wrap textarea { background: var(--bg); border-color: rgba(0,0,0,0.12); }
     .storage-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
     .storage-desc code { font-size: 0.75em; padding: 0.15em 0.4em; background: var(--bg); border-radius: 4px; }
+    .storage-security-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; padding: 0.65rem 0.85rem; background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); line-height: 1.5; }
+    .storage-security-hint strong { color: var(--text); }
+    body.theme-light .storage-security-hint { background: var(--surface); border-color: var(--border-subtle); }
     .btn-one-save {
       width: 100%;
       margin-bottom: 1rem;
@@ -1431,6 +1434,7 @@
       <div class="home-section" id="storage-section">
         <h2>数据存到项目文件夹 / 云端同步</h2>
         <p class="storage-desc">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>。手机要看到同一份习题集：保存后在项目目录执行下方命令，<strong>同时推送主仓库 + Pages 站点</strong>，手机打开本页后点「<strong>从云端加载</strong>」即可同步。</p>
+        <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件，网页<strong>没有上传/推送功能</strong>，访客无法改写你的数据。只有你自己（或你授予写权限的 GitHub 协作者）能在本机执行脚本推送到仓库。若希望别人改动也需你同意，请勿授予仓库写权限，或在 GitHub 仓库设置中开启分支保护、要求 PR 审核后再合并。</p>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
         <div class="storage-grid">
@@ -1955,6 +1959,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据' : '请求失败');
         const data = await res.json();
         if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
+        if (!confirm('云端数据将覆盖当前本地的习题集、文件夹和错题本。确定要加载并覆盖吗？')) return;
         loadDataFromObject(data);
         const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
         const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
