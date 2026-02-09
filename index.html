@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#0c0a14" />
   <meta name="description" content="法语练习 · TCF 填空、段落填空、单选、多选，支持错题本与习题集管理" />
   <title>Français Quiz · 法语练习</title>
@@ -1106,6 +1107,12 @@
     }
     body.theme-light .save-success-tip-cmd { background: var(--surface); }
     .save-success-tip-extra { font-size: 0.8rem; color: var(--text-muted); }
+    .import-lock-wrap { margin-top: 1rem; padding: 0.75rem 0.9rem; background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); }
+    .import-lock-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; line-height: 1.45; }
+    .import-lock-status { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; }
+    .import-lock-status #import-lock-status-text { font-size: 0.85rem; color: var(--text-muted); }
+    .import-lock-btns { display: flex; gap: 0.4rem; }
+    body.theme-light .import-lock-wrap { background: var(--surface); border-color: var(--border-subtle); }
     .storage-fallback { margin-top: 0.75rem; font-size: 0.8rem; color: var(--text-muted); }
     .storage-fallback a { color: var(--accent); text-decoration: none; }
     .storage-fallback a:hover { text-decoration: underline; }
@@ -1464,6 +1471,17 @@
           </div>
           <p class="save-success-tip-extra">只推当前仓库用 <code>./scripts/sync-and-push.sh</code>；同时更新主仓库+Pages 用 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code>。首次需 <code>chmod +x scripts/sync-and-push.sh</code>。</p>
         </div>
+        <div class="import-lock-wrap" id="import-lock-wrap">
+        <p class="import-lock-desc">导入保护：仅主人可导入数据。PIN 由<strong>你自己在下方点击「设置主人 PIN」时设定</strong>（4～12 位），请牢记；未设置则任何人可导入。设置后，「从文件导入」「从云端加载」「打开并加载」均需输入该 PIN。</p>
+        <div class="import-lock-status" id="import-lock-status">
+          <span id="import-lock-status-text">未启用</span>
+          <span class="import-lock-btns">
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-set">设置主人 PIN</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-change" style="display:none;">修改 PIN</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-import-lock-disable" style="display:none;">关闭保护</button>
+          </span>
+        </div>
+      </div>
         <p class="storage-fallback">无法选择文件夹？<a href="#" id="link-download-json">下载 JSON 到电脑</a></p>
         <input type="file" id="file-import-data" accept=".json,application/json" />
       </div>
@@ -1669,6 +1687,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const QUESTION_NOTES_KEY = 'french_quiz_question_notes';
     const THEME_KEY = 'french_quiz_theme';
     const DATA_FILE_NAME = 'french_quiz_data.json';
+    const IMPORT_PIN_HASH_KEY = 'french_quiz_import_pin_hash';
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
     const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result' };
@@ -1686,6 +1705,42 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _openModalOverlay = null;
     let _savedSetsDisplayLimit = SAVED_SETS_DISPLAY_LIMIT;
     let _currentQuestionIdForNotes = null;
+
+    async function hashPin(pin) {
+      const enc = new TextEncoder();
+      const data = enc.encode(String(pin));
+      const hash = await crypto.subtle.digest('SHA-256', data);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+    function isImportLockEnabled() { return !!localStorage.getItem(IMPORT_PIN_HASH_KEY); }
+    async function setImportPin(pin) { localStorage.setItem(IMPORT_PIN_HASH_KEY, await hashPin(pin)); }
+    async function verifyImportPin(pin) { return (await hashPin(pin)) === localStorage.getItem(IMPORT_PIN_HASH_KEY); }
+    async function checkImportPin() {
+      if (!isImportLockEnabled()) return true;
+      const pin = prompt('请输入主人 PIN 以继续导入');
+      if (pin === null) return false;
+      const ok = await verifyImportPin(pin);
+      if (!ok) showToast('PIN 错误');
+      return ok;
+    }
+    function updateImportLockUI() {
+      const statusText = document.getElementById('import-lock-status-text');
+      const setBtn = document.getElementById('btn-import-lock-set');
+      const changeBtn = document.getElementById('btn-import-lock-change');
+      const disableBtn = document.getElementById('btn-import-lock-disable');
+      if (!statusText) return;
+      if (isImportLockEnabled()) {
+        statusText.textContent = '已启用';
+        if (setBtn) setBtn.style.display = 'none';
+        if (changeBtn) changeBtn.style.display = 'inline-flex';
+        if (disableBtn) disableBtn.style.display = 'inline-flex';
+      } else {
+        statusText.textContent = '未启用';
+        if (setBtn) setBtn.style.display = 'inline-flex';
+        if (changeBtn) changeBtn.style.display = 'none';
+        if (disableBtn) disableBtn.style.display = 'none';
+      }
+    }
 
     function getFocusableIn(container) {
       if (!container) return [];
@@ -1916,27 +1971,43 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         exportedAt: new Date().toISOString()
       };
     }
+    function sanitizeImportedData(data) {
+      if (!data || typeof data !== 'object') return {};
+      const DANGEROUS_KEYS = ['__proto__', 'constructor', 'prototype'];
+      function stripDangerousKeys(val) {
+        if (val === null || typeof val !== 'object') return val;
+        if (Array.isArray(val)) return val.map(stripDangerousKeys);
+        const out = {};
+        for (const k of Object.keys(val)) {
+          if (DANGEROUS_KEYS.includes(k)) continue;
+          out[k] = stripDangerousKeys(val[k]);
+        }
+        return out;
+      }
+      return stripDangerousKeys(data);
+    }
     function loadDataFromObject(data) {
-      if (data.savedSets != null) setSavedSets(Array.isArray(data.savedSets) ? data.savedSets : []);
-      if (data.folders != null) setFolders(Array.isArray(data.folders) ? data.folders : []);
-      if (data.wrongBook != null) setWrongBook(Array.isArray(data.wrongBook) ? data.wrongBook : []);
-      if (data.questionNotes != null && typeof data.questionNotes === 'object') {
+      const safe = sanitizeImportedData(data);
+      if (safe.savedSets != null) setSavedSets(Array.isArray(safe.savedSets) ? safe.savedSets : []);
+      if (safe.folders != null) setFolders(Array.isArray(safe.folders) ? safe.folders : []);
+      if (safe.wrongBook != null) setWrongBook(Array.isArray(safe.wrongBook) ? safe.wrongBook : []);
+      if (safe.questionNotes != null && typeof safe.questionNotes === 'object') {
         try {
-          localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(data.questionNotes));
+          localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes));
         } catch (_) {}
       }
-      if (data.timerSeconds != null) {
-        const n = Math.max(0, Math.min(120, parseInt(data.timerSeconds, 10) || 10));
+      if (safe.timerSeconds != null) {
+        const n = Math.max(0, Math.min(120, parseInt(safe.timerSeconds, 10) || 10));
         const el = document.getElementById('timer-seconds');
         if (el) { el.value = n; localStorage.setItem(TIMER_SECONDS_KEY, String(n)); }
       }
-      if (data.dailyStats != null && data.dailyStats.date) {
+      if (safe.dailyStats != null && safe.dailyStats && safe.dailyStats.date) {
         try {
           localStorage.setItem(DAILY_STATS_KEY, JSON.stringify({
-            date: data.dailyStats.date,
-            todayCount: data.dailyStats.todayCount || 0,
-            lastDate: data.dailyStats.lastDate || data.dailyStats.date,
-            streak: data.dailyStats.streak || 0
+            date: safe.dailyStats.date,
+            todayCount: safe.dailyStats.todayCount || 0,
+            lastDate: safe.dailyStats.lastDate || safe.dailyStats.date,
+            streak: safe.dailyStats.streak || 0
           }));
         } catch (_) {}
         updateStatsBar();
@@ -1946,6 +2017,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStartPracticeSelect();
     }
     async function loadFromCloud() {
+      if (!(await checkImportPin())) return;
       let url = DATA_FILE_NAME;
       if (typeof location !== 'undefined' && location.origin) {
         const dir = location.pathname.replace(/\/[^/]*$/, '') || '/';
@@ -1970,6 +2042,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (btn) { btn.disabled = false; btn.textContent = '从云端加载（手机同步习题集）'; }
     }
     async function pickFolderAndLoad() {
+      if (!(await checkImportPin())) return;
       if (!('showDirectoryPicker' in window)) {
         alert('当前浏览器不支持选择文件夹，请用 Chrome 或 Edge，或使用下方「从文件导入数据」选择 JSON 文件。');
         return;
@@ -2108,7 +2181,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function renderFolderSelects() {
       const folders = getFolders();
-      const opts = '<option value="">未分类</option>' + folders.map(f => '<option value="' + escapeHtml(String(f.id)) + '">' + escapeHtml(f.name) + '</option>').join('');
+      const opts = '<option value="">未分类</option>' + folders.map(f => '<option value="' + escapeAttr(String(f.id)) + '">' + escapeHtml(f.name) + '</option>').join('');
       const editSel = document.getElementById('edit-set-folder');
       if (editSel) { editSel.innerHTML = opts; }
       const importSel = document.getElementById('import-set-folder');
@@ -2146,12 +2219,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const inFolder = saved.filter(s => String(s.folderId || '') === String(f.id));
         if (inFolder.length === 0) return;
         html += '<optgroup label="' + escapeHtml(f.name) + '">' +
-          inFolder.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+          inFolder.map(s => '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
       });
       const uncategorized = saved.filter(s => !s.folderId || !folderIds.has(String(s.folderId)));
       if (uncategorized.length > 0) {
         html += '<optgroup label="未分类">' +
-          uncategorized.map(s => '<option value="' + s.id + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+          uncategorized.map(s => '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
       }
       const currentVal = sel.value;
       sel.innerHTML = html;
@@ -2181,7 +2254,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       function itemHtml(s) {
         const count = s.practiceCount || 0;
         const lastStr = s.lastPracticedAt ? '最近 ' + formatSavedSetDate(s.lastPracticedAt) : '未练习';
-        return '<li class="saved-sets-item" data-id="' + String(s.id) + '">' +
+        return '<li class="saved-sets-item" data-id="' + escapeAttr(String(s.id)) + '">' +
           '<div class="saved-sets-item-content">' +
           '<span class="name">' + escapeHtml(s.name) + '</span>' +
           '<div class="meta">' +
@@ -2415,7 +2488,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!listEl) return;
       listEl.innerHTML = _editModalPastedImages.map((dataUrl, i) =>
         '<div class="edit-set-pasted-item" data-index="' + i + '">' +
-        '<img src="' + dataUrl.replace(/"/g, '&quot;') + '" alt="" />' +
+        '<img src="' + safeImageSrc(dataUrl) + '" alt="" />' +
         '<button type="button" class="edit-set-pasted-remove" aria-label="删除该图片">×</button></div>'
       ).join('');
       listEl.querySelectorAll('.edit-set-pasted-remove').forEach(btn => {
@@ -2897,13 +2970,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (linksEl) {
         linksEl.innerHTML = m.links.map(href => {
           const label = href.length > 80 ? href.slice(0, 77) + '…' : href;
-          return '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a>';
+          return '<a href="' + safeHref(href) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(label) + '</a>';
         }).join('');
         linksEl.style.display = m.links.length ? 'flex' : 'none';
       }
       if (imagesEl) {
         imagesEl.innerHTML = m.images.map(dataUrl => {
-          const safeSrc = (dataUrl || '').replace(/"/g, '&quot;');
+          const safeSrc = safeImageSrc(dataUrl);
+          if (!safeSrc) return '';
           return '<div class="review-modal-msg"><img src="' + safeSrc + '" alt="复习图片" class="review-modal-img" title="点击放大" /></div>';
         }).join('');
         imagesEl.style.display = m.images.length ? 'flex' : 'none';
@@ -3097,8 +3171,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     function escapeHtml(s) {
+      if (s == null) return '';
       _escapeDiv.textContent = s;
       return _escapeDiv.innerHTML;
+    }
+    function escapeAttr(s) {
+      if (s == null) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+    function safeHref(href) {
+      const u = (href || '').trim();
+      if (!/^https?:\/\//i.test(u) && !/^\/[^/]/.test(u) && u !== '#') return '#';
+      return escapeAttr(u);
+    }
+    function safeImageSrc(url) {
+      const u = (url || '').trim();
+      if (!/^data:image\//i.test(u)) return '';
+      return escapeAttr(u);
     }
 
     function submitAnswer() {
@@ -3852,13 +3946,56 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
     document.getElementById('btn-save-to-folder').addEventListener('click', saveToProjectFolder);
     document.getElementById('btn-export-data').addEventListener('click', saveToProjectFolder);
-    document.getElementById('btn-import-data').addEventListener('click', () => document.getElementById('file-import-data').click());
+    document.getElementById('btn-import-data').addEventListener('click', async () => {
+      if (!(await checkImportPin())) return;
+      document.getElementById('file-import-data').click();
+    });
     document.getElementById('link-download-json').addEventListener('click', (e) => { e.preventDefault(); exportDataDownload(); });
     document.getElementById('file-import-data').addEventListener('change', function() {
       const file = this.files && this.files[0];
       if (file) importDataFromFile(file);
       this.value = '';
     });
+
+    (function initImportLock() {
+      updateImportLockUI();
+      const setBtn = document.getElementById('btn-import-lock-set');
+      const changeBtn = document.getElementById('btn-import-lock-change');
+      const disableBtn = document.getElementById('btn-import-lock-disable');
+      if (setBtn) setBtn.addEventListener('click', async function() {
+        if (!(window.crypto && crypto.subtle)) { showToast('当前浏览器不支持设置 PIN'); return; }
+        const pin1 = prompt('请设定 4～12 位主人 PIN（由你自定，例如数字或字母，请牢记；仅本机保存）');
+        if (pin1 == null) return;
+        const pin2 = prompt('再次输入确认');
+        if (pin1 !== pin2) { showToast('两次输入不一致'); return; }
+        if (pin1.length < 4 || pin1.length > 12) { showToast('请设置 4～12 位'); return; }
+        await setImportPin(pin1);
+        updateImportLockUI();
+        showToast('已启用导入保护');
+      });
+      if (changeBtn) changeBtn.addEventListener('click', async function() {
+        if (!(window.crypto && crypto.subtle)) { showToast('当前浏览器不支持'); return; }
+        const cur = prompt('输入当前 PIN');
+        if (cur == null) return;
+        if (!(await verifyImportPin(cur))) { showToast('当前 PIN 错误'); return; }
+        const pin1 = prompt('输入新 PIN（4～12 位）');
+        if (pin1 == null) return;
+        const pin2 = prompt('再次输入新 PIN');
+        if (pin1 !== pin2) { showToast('两次输入不一致'); return; }
+        if (pin1.length < 4 || pin1.length > 12) { showToast('请设置 4～12 位'); return; }
+        await setImportPin(pin1);
+        updateImportLockUI();
+        showToast('已修改 PIN');
+      });
+      if (disableBtn) disableBtn.addEventListener('click', async function() {
+        const cur = prompt('输入当前 PIN 以关闭导入保护');
+        if (cur == null) return;
+        if (!(await verifyImportPin(cur))) { showToast('PIN 错误'); return; }
+        localStorage.removeItem(IMPORT_PIN_HASH_KEY);
+        updateImportLockUI();
+        showToast('已关闭导入保护');
+      });
+    })();
 
     (function initTheme() {
       const theme = localStorage.getItem(THEME_KEY) || 'dark';
