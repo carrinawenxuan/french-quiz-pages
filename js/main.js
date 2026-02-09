@@ -571,6 +571,32 @@ if (typeof PerformanceObserver !== 'undefined') {
 const startSel = $('start-practice-select') || document.getElementById('start-practice-select');
 if (startSel) startSel.addEventListener('change', updateCategoryFilter);
 
+// Initialize: Ensure all modals are closed and show home screen
+(function initializePage() {
+  // Close all modals explicitly
+  const modals = [
+    'start-mode-modal-overlay',
+    'review-modal-overlay',
+    'edit-set-modal-overlay',
+    'preview-questions-overlay',
+    'image-lightbox-overlay'
+  ];
+  modals.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.classList.remove('show');
+      el.style.display = 'none';
+      // Also remove any inline styles that might override
+      if (id === 'start-mode-modal-overlay') {
+        el.style.display = 'none';
+      }
+    }
+  });
+  
+  // Ensure home screen is shown (will be overridden by checkSavedProgress if needed)
+  showScreen(SCREEN.HOME);
+})();
+
 // Restore in-progress quiz
 (function checkSavedProgress() {
   const saved = getQuizProgress();
@@ -588,6 +614,8 @@ if (startSel) startSel.addEventListener('change', updateCategoryFilter);
       renderQuestion();
     } else {
       clearQuizProgress();
+      // Ensure we're on home screen after clearing progress
+      showScreen(SCREEN.HOME);
     }
   }
 })();
