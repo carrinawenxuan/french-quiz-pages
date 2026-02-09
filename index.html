@@ -1513,7 +1513,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             <div class="explanation-notes-display" id="explanation-notes-display" style="display: none;"></div>
             <button type="button" class="btn btn-secondary btn-sm explanation-notes-edit-btn" id="btn-edit-explanation-notes" aria-label="编辑备注">编辑备注</button>
             <div class="explanation-notes-edit" id="explanation-notes-edit" style="display: none;">
-              <textarea id="explanation-notes-textarea" rows="4" placeholder="在此添加你的备注（纯文本）…" class="explanation-notes-textarea"></textarea>
+              <textarea id="explanation-notes-textarea" rows="4" placeholder="在此添加你的备注（纯文本），Enter 换行" class="explanation-notes-textarea"></textarea>
               <div class="explanation-notes-edit-actions">
                 <button type="button" class="btn btn-primary btn-sm" id="btn-save-explanation-notes">保存</button>
                 <button type="button" class="btn btn-secondary btn-sm" id="btn-cancel-explanation-notes">取消</button>
@@ -3408,6 +3408,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!document.getElementById('screen-quiz').classList.contains('active')) return;
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
       if (tag === 'INPUT' || tag === 'TEXTAREA') {
+        if (e.key === 'Enter' && (e.target.id === 'explanation-notes-textarea' || e.target.closest('#explanation-notes-edit'))) return;
         if (e.key === 'Enter') { e.preventDefault(); if (state.answered) nextQuestion(); else submitAnswer(); }
         return;
       }

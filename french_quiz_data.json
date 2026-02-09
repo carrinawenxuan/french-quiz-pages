@@ -2786,13 +2786,65 @@
       "name": "语法"
     }
   ],
-  "wrongBook": [],
+  "wrongBook": [
+    {
+      "type": "single_choice",
+      "stem": "Les fleurs ? Oui, je les ai ______.",
+      "options": [
+        "vu",
+        "vue",
+        "vus",
+        "vues"
+      ],
+      "correct": 3,
+      "explanation": "【B2 过去分词配合】核心考点！les 指代 les fleurs (阴性复数)，且放在了助动词 ai 之前。过去分词 vu 必须配合，加 es → vues。",
+      "category": "复合过去时",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    },
+    {
+      "type": "single_choice",
+      "stem": "Demain, je ______ le médecin.",
+      "options": [
+        "vais voir",
+        "vais vois",
+        "va voir",
+        "aller voir"
+      ],
+      "correct": 0,
+      "explanation": "【A1 最近将来时】结构：Aller (变位) +动词原形。Je vais + voir。",
+      "category": "最近将来时",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    },
+    {
+      "type": "single_choice",
+      "stem": "Non, je ne ______ pas le voir ce soir.",
+      "options": [
+        "vais",
+        "va",
+        "vois",
+        "ai"
+      ],
+      "correct": 0,
+      "explanation": "【A2 否定句结构】最近将来时的否定是 Ne + Aller + Pas + 原形。Je ne *vais* pas le voir。",
+      "category": "最近将来时",
+      "nextReview": "2026-02-09",
+      "interval": 1,
+      "repetitions": 0
+    }
+  ],
+  "questionNotes": {
+    "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la"
+  },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-08",
-    "todayCount": 51,
+    "date": "2026-02-09",
+    "todayCount": 0,
     "lastDate": "2026-02-08",
     "streak": 0
   },
-  "exportedAt": "2026-02-08T23:26:37.443Z"
+  "exportedAt": "2026-02-09T00:23:41.968Z"
 }
