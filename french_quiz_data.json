@@ -1,6 +1,1110 @@
 {
   "savedSets": [
     {
+      "id": 1770604905883,
+      "name": "Leçon 18 Il est comment 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-09T02:41:45.883Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Après le repas, je voudrais prendre une glace en _____.",
+          "options": [
+            "desert",
+            "désert",
+            "dessert",
+            "desser"
+          ],
+          "correct": 2,
+          "explanation": "考查拼写与词义。Dessert (甜点) 双 s，Désert (沙漠) 单 s。语境为饭后。",
+          "category": "词汇-名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention à la prononciation : 'Le Sahara est un grand _____' vs 'Ce gâteau est un bon _____'.",
+          "options": [
+            "dessert / désert",
+            "désert / dessert",
+            "désert / désert",
+            "dessert / dessert"
+          ],
+          "correct": 1,
+          "explanation": "Désert (沙漠) 发音 [z]，Dessert (甜点) 发音 [s]。",
+          "category": "语音辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce train ne _____ pas la ville de Lyon, il passe sans s'arrêter.",
+          "options": [
+            "dessert",
+            "désert",
+            "décide",
+            "descend"
+          ],
+          "correct": 0,
+          "explanation": "B2 考点：Desservir (通达/停靠) 的变位 il dessert。易混淆项 désert (荒芜的)。",
+          "category": "词汇-动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour mon anniversaire, il m'a offert un joli _____ (cadeau).",
+          "correct": [
+            "cadeau"
+          ],
+          "explanation": "Cadeau 阳性单数形式。",
+          "category": "词汇-拼写"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列关于 'Cadeau' 的复数形式和搭配，哪些是正确的？",
+          "options": [
+            "Des cadeaus",
+            "Des cadeaux",
+            "Offrir un cadeau",
+            "Donner un cadeau (较少用)"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "Cadeau 复数加 x (cadeaux)。Offrir un cadeau 是最地道搭配。",
+          "category": "语法-复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce dossier est très difficile, ce n'est vraiment pas un _____ !",
+          "options": [
+            "gâteau",
+            "château",
+            "cadeau",
+            "plateau"
+          ],
+          "correct": 2,
+          "explanation": "习语：Ce n'est pas un cadeau (这可不是件轻松差事/礼物)。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai besoin d'acheter du lait, je vais au _____.",
+          "options": [
+            "magazine",
+            "magasin",
+            "magazin",
+            "magasine"
+          ],
+          "correct": 1,
+          "explanation": "Magasin (商店)。Magazine (杂志) 是假朋友。拼写注意 s 不是 z。",
+          "category": "词汇-拼写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "(听力理解) 听到背景有收银机声音，男士说 'C'est cher'。问题：Où sont-ils ?",
+          "options": [
+            "Dans un magazine",
+            "Dans un magasin",
+            "Dans une mairie",
+            "Dans une main"
+          ],
+          "correct": 1,
+          "explanation": "Magasin (商店) 符合购物场景。",
+          "category": "听力场景"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce samedi, je vais faire les _____ (boutique/magasin) dans un grand _____ (magasin).",
+          "correct": [
+            "magasins",
+            "magasin"
+          ],
+          "explanation": "Faire les magasins (逛街/购物，常用复数)；Grand magasin (百货公司)。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce soir, on mange des _____ à la carbonara.",
+          "options": [
+            "pâte",
+            "pâtes",
+            "patte",
+            "pattes"
+          ],
+          "correct": 1,
+          "explanation": "Pâtes 指意大利面时必须用复数。Pattes 是爪子。",
+          "category": "词汇-区分"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour faire du pain, il faut bien pétrir la _____.",
+          "options": [
+            "pâtes",
+            "pâte",
+            "patte",
+            "pâté"
+          ],
+          "correct": 1,
+          "explanation": "指“面团”时用单数 Pâte。",
+          "category": "词汇-单复数义变"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde doit mettre la main à la _____ pour finir ce projet.",
+          "options": [
+            "poche",
+            "pâte",
+            "tête",
+            "bouche"
+          ],
+          "correct": 1,
+          "explanation": "习语：Mettre la main à la pâte (亲自帮忙/动手)。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma mère a acheté une tarte aux pommes fait _____.",
+          "options": [
+            "maison",
+            "immeuble",
+            "cuisine",
+            "chez"
+          ],
+          "correct": 0,
+          "explanation": "Fait maison (自制的) 是固定形容词短语。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il travaille pour une grande _____ d'édition.",
+          "options": [
+            "maison",
+            "appartement",
+            "pièce",
+            "chambre"
+          ],
+          "correct": 0,
+          "explanation": "Maison d'édition (出版社)。Maison 在此指机构/公司。",
+          "category": "一词多义"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Demain, je reste à la _____ (maison) pour me reposer.",
+          "correct": [
+            "maison"
+          ],
+          "explanation": "À la maison (在家里)。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'_____ Gadget est un personnage de dessin animé célèbre.",
+          "options": [
+            "Inspecteur",
+            "Inspecteure",
+            "Inspection",
+            "Inspecter"
+          ],
+          "correct": 0,
+          "explanation": "Inspecteur (探长/检查员) 阳性名词。",
+          "category": "词汇-职业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ de l'Éducation nationale visitent les écoles.",
+          "options": [
+            "inspecteurs",
+            "spectateurs",
+            "facteurs",
+            "acteurs"
+          ],
+          "correct": 0,
+          "explanation": "Inspecteurs (视察员) 符合教育语境。",
+          "category": "词汇-语境"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On commande une _____ pour le dîner ?",
+          "options": [
+            "pizzas",
+            "pizza",
+            "pièce",
+            "place"
+          ],
+          "correct": 1,
+          "explanation": "Une pizza (单数)。",
+          "category": "词汇-饮食"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "关于 'Pizza' 的正确说法：",
+          "options": [
+            "C'est un mot féminin (une pizza).",
+            "C'est un mot masculin (un pizza).",
+            "Pluriel : des pizzas.",
+            "Pluriel : des pizze (意大利语原形，法语少用)."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "法语中 Pizza 是阴性，复数加 s。",
+          "category": "语法-性数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait très _____ aujourd'hui, n'oublie pas ton manteau. (注意：此处设陷阱，看后半句)",
+          "options": [
+            "beau",
+            "chaud",
+            "froid",
+            "mauvais"
+          ],
+          "correct": 2,
+          "explanation": "逻辑题。后面说“别忘带大衣”，说明天气冷 (froid)。虽然 beau/chaud 语法正确，但逻辑不通。",
+          "category": "逻辑推理"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention, l'assiette est _____, ne la touche pas !",
+          "options": [
+            "chaude",
+            "froide",
+            "tiède",
+            "bonne"
+          ],
+          "correct": 0,
+          "explanation": "Chaud (烫的)。警告语境通常指烫。",
+          "category": "语境理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas le temps, le planning est _____ !",
+          "options": [
+            "froid",
+            "chaud",
+            "tiède",
+            "glacé"
+          ],
+          "correct": 1,
+          "explanation": "口语 B2：C'est chaud (时间紧/难办)。",
+          "category": "口语俚语"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "En été il fait _____ (chaud), mais en hiver j'ai souvent _____ (froid).",
+          "correct": [
+            "chaud",
+            "froid"
+          ],
+          "explanation": "Il fait + 天气；Avoir + 感觉。",
+          "category": "语法-无人称句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a acheté un _____ appartement dans le centre.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "Appartement 是元音开头的阳性单数名词，Beau 变为 Bel。",
+          "category": "语法-形容词变形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ lui expliquer, il ne comprend rien.",
+          "options": [
+            "beau",
+            "bon",
+            "bien",
+            "mal"
+          ],
+          "correct": 0,
+          "explanation": "Avoir beau + inf. (枉费/虽然...但是)。",
+          "category": "B2-高频短语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles sont _____ (tout) contentes de nous voir.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 3,
+          "explanation": "Tout 作副词修饰辅音开头的阴性形容词 (contente) 时，需性数配合 -> toutes。",
+          "category": "语法-Tout的高级用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ (tout) venus à la fête.",
+          "options": [
+            "tout",
+            "tous",
+            "toutes",
+            "toute"
+          ],
+          "correct": 1,
+          "explanation": "作代词指代所有人 (Ils)，用 Tous (发音 [s])。",
+          "category": "语法-泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a dit qu'il avait vu ce film _____. (原句：J'ai vu ce film hier)",
+          "options": [
+            "hier",
+            "la veille",
+            "demain",
+            "le lendemain"
+          ],
+          "correct": 1,
+          "explanation": "间接引语中，主句过去时，Hier 变为 La veille。",
+          "category": "语法-间接引语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il habite _____ (seul) dans une grande maison.",
+          "options": [
+            "seul",
+            "seule",
+            "seuls",
+            "seulement"
+          ],
+          "correct": 0,
+          "explanation": "主语 Il 是阳性单数，形容词用 Seul。",
+          "category": "语法-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un homme _____, il n'a pas d'amis.",
+          "options": [
+            "seul",
+            "unique",
+            "premier",
+            "dernier"
+          ],
+          "correct": 0,
+          "explanation": "Homme seul (形容词后置) = 孤独的人。Seul homme (形容词前置) = 唯一的人。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce film est _____, je l'adore !",
+          "options": [
+            "bon",
+            "bien",
+            "excellent",
+            "moyen"
+          ],
+          "correct": 2,
+          "explanation": "表示程度极高 (adore)，用 Excellent 最贴切。Bien/Bon 程度较弱。",
+          "category": "词汇-程度"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu viens avec nous ? - _____ ! (Informel)",
+          "options": [
+            "Oui",
+            "Ouais",
+            "Non",
+            "Si"
+          ],
+          "correct": 1,
+          "explanation": "Ouais 是 Oui 的口语形式 (Informel)。",
+          "category": "语域"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il m'a _____ un beau cadeau pour mon anniversaire.",
+          "options": [
+            "donné",
+            "offert",
+            "envoyé",
+            "apporté"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 cadeau 的高频动词搭配。正确答案是 offert（offrir un cadeau à qqn = 送礼物给某人），这是 TCF 中最标准的搭配。donné 语法上可以但不是最佳搭配；envoyé 是'寄送'，不是'赠送'；apporté 是'带来'，语义不对。TCF 出题套路：用近义动词做干扰，考你是否知道 offrir 才是 cadeau 的最佳搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel correct de « cadeau » ?",
+          "options": [
+            "cadeaus",
+            "cadeaux",
+            "cadeauxs",
+            "cadeau"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 cadeau 的复数形式。以 -eau 结尾的名词，复数加 -x 而不是 -s。cadeaus ❌（不加s）；cadeauxs ❌（多余的s）；cadeau ❌（没变复数）。TCF 出题套路：拼写题中 -eau 结尾的复数变化是经典考点。口诀：-eau → -eaux。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« C'est cadeau ! » signifie :",
+          "options": [
+            "C'est un beau cadeau.",
+            "C'est gratuit.",
+            "C'est cher.",
+            "C'est inutile."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 cadeau 的口语引申义。C'est cadeau ! 在法语口语中意思是'免费的/这个送你'，不是字面的'这是礼物'。选项 A 是字面理解，错误；C'est cher = 贵，无关；C'est inutile = 没用，无关。TCF 听力中可能出现此表达，要能听懂引申义。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : J'ai acheté du _____ pour emballer le cadeau.",
+          "options": [
+            "papier cadeau",
+            "papier cadeaux",
+            "papiers cadeau",
+            "papiers cadeaux"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 papier cadeau 这个固定搭配中 cadeau 是否变复数。正确答案是 papier cadeau，cadeau 在这里相当于形容词修饰 papier，不变复数。papier cadeaux ❌（cadeau 不变）；papiers cadeau 语法上表示多张包装纸，但这里用 du（不可数），所以单数；papiers cadeaux ❌ 双重错误。TCF 出题套路：名词做修饰语时不变复数。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Cet examen, ce n'est pas un cadeau ! » signifie :",
+          "options": [
+            "Cet examen est un cadeau pour les étudiants.",
+            "Cet examen est très facile.",
+            "Cet examen est très difficile.",
+            "Cet examen est gratuit."
+          ],
+          "correct": 2,
+          "explanation": "本题考察 ce n'est pas un cadeau 的引申义。这个表达意思是'这可不轻松/这很难'，是反语用法。A 和 B 是字面理解的陷阱；D（免费）与语境无关。TCF 阅读中遇到这种引申表达，不要按字面翻译。口诀：pas un cadeau = 不容易。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour Noël, nous avons acheté des _____ (cadeau) pour toute la famille.",
+          "correct": [
+            "cadeaux"
+          ],
+          "explanation": "本题考察 cadeau 的复数拼写。des 后面要用复数，cadeau 复数是 cadeaux（加 -x 不加 -s）。TCF 填空题中 -eau 复数是高频考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Elle m'a envoyé un cadeau d'anniversaire.",
+            "Elle m'a offert un cadeau d'anniversaire.",
+            "Elle m'a pris un cadeau d'anniversaire.",
+            "Elle m'a acheté un cadeau d'anniversaire pour elle-même."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 offrir un cadeau 的标准搭配。B 是最标准最自然的说法。A 的 envoyer 是'寄送'，如果是邮寄也可以但不是最佳搭配；C 的 prendre 是'拿'，搭配不对；D 说'给她自己买了礼物'，逻辑不通（是送给我的）。TCF 判断口诀：送礼物首选 offrir。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles contiennent le mot « cadeau » avec un sens courant en français ?",
+          "options": [
+            "carte cadeau",
+            "idée cadeau",
+            "cadeau empoisonné",
+            "C'est cadeau !"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "本题考察 cadeau 的常见搭配认知。四个全部是法语中真实常用的表达：carte cadeau（礼品卡）、idée cadeau（送礼建议）、cadeau empoisonné（烫手礼物/看似好实则麻烦的事）、C'est cadeau!（免费送你）。TCF 阅读中这些表达都可能出现，要全部认识。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment s'écrit le mot qui signifie « 甜点 » ?",
+          "options": [
+            "désert",
+            "dessert",
+            "déssert",
+            "desert"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 dessert（甜点）vs désert（沙漠）的拼写区分。dessert 有两个 s，意思是甜点。désert 只有一个 s，意思是沙漠。déssert ❌ 不存在；desert ❌ 是英语拼写。TCF 经典拼写陷阱：双 s = 甜点，单 s = 沙漠。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« En dessert, j'ai pris une mousse au chocolat. » signifie :",
+          "options": [
+            "Avant le plat principal, j'ai mangé une mousse au chocolat.",
+            "Comme dessert, j'ai choisi une mousse au chocolat.",
+            "Dans le désert, j'ai mangé une mousse au chocolat.",
+            "Sans dessert, j'ai mangé une mousse au chocolat."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 en dessert 的含义。en dessert = 作为甜点，表示在甜点环节选了什么。A 说的是主菜前（应该是 en entrée）；C 把 dessert 理解成 désert（沙漠）；D 说的是没有甜点，与原句矛盾。TCF 出题套路：用 en dessert / au dessert 的介词区别设干扰。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est l'ordre correct d'un repas français ?",
+          "options": [
+            "dessert → plat → entrée",
+            "entrée → dessert → plat",
+            "entrée → plat → dessert",
+            "plat → entrée → dessert"
+          ],
+          "correct": 2,
+          "explanation": "本题考察法国用餐顺序中 dessert 的位置。正确顺序是：entrée（前菜）→ plat principal（主菜）→ dessert（甜点）。TCF 阅读中餐厅菜单类文本会考这个常识。口诀：前菜→主菜→甜点。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Qu'est-ce que vous prenez comme _____ ? — Une tarte aux fraises, s'il vous plaît.",
+          "correct": [
+            "dessert"
+          ],
+          "explanation": "本题考察点菜场景中 dessert 的使用。服务员问'您甜点要什么？'，回答是草莓塔，所以空格填 dessert。TCF 听力中餐厅点菜场景是高频考点。注意拼写两个 s。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « dessert » et « désert » ?",
+          "options": [
+            "Dessert = 沙漠, désert = 甜点",
+            "Dessert = 甜点, désert = 沙漠",
+            "Les deux mots ont le même sens.",
+            "Dessert = 动词, désert = 名词"
+          ],
+          "correct": 1,
+          "explanation": "本题直接考察 dessert vs désert 的含义区分。dessert（两个s）= 甜点；désert（一个s）= 沙漠。发音也不同：dessert 的 ss 读 /s/，désert 的 s 读 /z/。TCF 核心拼写考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Au dessert, il a annoncé la nouvelle. » signifie :",
+          "options": [
+            "Il a annoncé la nouvelle avant de manger.",
+            "Il a annoncé la nouvelle pendant qu'on mangeait le dessert.",
+            "Il a annoncé la nouvelle dans un restaurant désert.",
+            "Il a annoncé la nouvelle après avoir quitté le restaurant."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 au dessert 的含义。au dessert = 到了吃甜点的时候/在甜点环节，表示时间点。A 是吃饭前，时间不对；C 把 dessert 混淆成 désert；D 是离开餐厅后，不对。TCF 出题套路：au dessert 考时间概念，en dessert 考选择概念。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous avons terminé le repas _____ un dessert léger.",
+          "options": [
+            "avec",
+            "par",
+            "pour",
+            "dans"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 terminer par + dessert 的固定搭配。terminer par = 以……结束，是 B2 写作中的常用表达。avec 语法可以但不够地道；pour 和 dans 在这里语义不通。TCF 出题套路：介词搭配是 B1-B2 阅读中的经典干扰项。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « dessert » est :",
+          "options": [
+            "féminin",
+            "masculin",
+            "les deux",
+            "invariable"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 dessert 的阴阳性。dessert 是阳性名词（n.m.），用 un dessert / le dessert。很多学生不确定以 -ert 结尾的词的性别。TCF 基础考点：名词性别。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le féminin de « inspecteur » ?",
+          "options": [
+            "inspecteuse",
+            "inspecteure",
+            "inspectrice",
+            "inspectresse"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 inspecteur 的阴性变化。正确是 inspectrice（不规则变化）。inspecteuse ❌ 不存在；inspecteure ❌ 这是加拿大法语中某些职业的阴性写法但不适用于 inspecteur；inspectresse ❌ 不存在。TCF 出题套路：-teur → -trice 的不规则阴性变化是经典考点。同类词：acteur → actrice, directeur → directrice。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Un inspecteur de police » est :",
+          "options": [
+            "un policier en uniforme",
+            "un détective privé",
+            "un policier en civil qui mène des enquêtes",
+            "un gardien de prison"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 inspecteur de police 的含义。便衣警察/刑事警探，即穿便装进行调查的警察。A 穿制服的是普通 policier；B 私人侦探是 détective privé；D 狱警是 gardien de prison。TCF 阅读中新闻类文本可能出现此职业。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'_____ (inspecteur, féminin) a interrogé le suspect pendant deux heures.",
+          "correct": [
+            "inspectrice"
+          ],
+          "explanation": "本题考察 inspecteur 阴性形式的实际运用。句子主语是女性（由题目提示 féminin），所以用 inspectrice。注意不是 inspecteuse。TCF 填空中词形变化是基础考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot désigne un inspecteur qui contrôle les conditions de travail ?",
+          "options": [
+            "inspecteur de police",
+            "inspecteur d'académie",
+            "inspecteur du travail",
+            "inspecteur des finances"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 inspecteur 的不同搭配含义。inspecteur du travail = 劳动监察员，负责检查工作条件。inspecteur de police = 便衣警察；inspecteur d'académie = 学区督学；inspecteur des finances = 财务检查员。TCF B2 阅读中社会话题可能出现这些职业。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : L'inspectrice _____ l'enquête depuis trois mois.",
+          "options": [
+            "mène",
+            "fait",
+            "prend",
+            "donne"
+          ],
+          "correct": 0,
+          "explanation": "本题考察和 inspecteur/inspectrice 搭配的动词。mener une enquête = 主导/进行调查，是最标准的搭配。faire une enquête 也可以但不如 mener 正式；prendre 和 donne 在这里搭配不对。TCF 出题套路：职业名词 + 相关动词的固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La transformation correcte de « directeur → directrice » suit la même règle que :",
+          "options": [
+            "chanteur → chanteuse",
+            "inspecteur → inspectrice",
+            "serveur → serveuse",
+            "danseur → danseuse"
+          ],
+          "correct": 1,
+          "explanation": "本题考察阴性变化规则的归类。directeur → directrice 和 inspecteur → inspectrice 遵循同一规则：-teur → -trice。而 chanteur/serveur/danseur 的阴性变化是 -eur → -euse，是另一种规则。TCF 语法考点：阴性后缀 -trice vs -euse 的区分。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« L'inspecteur a constaté plusieurs infractions. » — Que signifie « constaté » ici ?",
+          "options": [
+            "ignoré",
+            "remarqué et noté officiellement",
+            "réparé",
+            "causé"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 B2 搭配 constater + infraction。constater = 发现并正式记录。ignoré = 忽略；réparé = 修复；causé = 造成。constater 是正式用语，常与 inspecteur 搭配出现在行政/法律文本中。TCF B2 阅读中的高频动词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « inspecteur » est d'abord apparu dans quel contexte ?",
+          "options": [
+            "l'éducation",
+            "la cuisine",
+            "la police et l'administration",
+            "le sport"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 inspecteur 一词的使用语境认知。inspecteur 最早和最核心的使用场景是警察和行政系统（inspect = 检查）。虽然也有 inspecteur d'académie（教育），但最基础的语境是执法/行政。TCF 阅读中新闻报道和行政文本最常见此词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Magasin » en français signifie :",
+          "options": [
+            "杂志",
+            "商店",
+            "仓库",
+            "市场"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 magasin 的词义，防止英语干扰。magasin = 商店，不是英语 magazine（杂志）。法语的杂志是 magazine 或 revue。仓库是 entrepôt；市场是 marché。TCF 出题套路：利用英法假朋友（faux amis）设干扰项。口诀：magasin = 商店，magazine = 杂志。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Le samedi, elle aime _____ les magasins.",
+          "options": [
+            "aller",
+            "visiter",
+            "faire",
+            "regarder"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 faire les magasins（逛街）这个固定搭配。faire les magasins = 逛商店/购物。aller 需要加介词 aux（aller aux magasins 也可以但不是固定搭配）；visiter 用于参观景点；regarder 是看。TCF 出题套路：动词搭配题中用近义动词做干扰。口诀：逛街 = faire les magasins。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Un grand magasin » désigne :",
+          "options": [
+            "un supermarché très grand",
+            "un centre commercial",
+            "un magasin de type Galeries Lafayette, qui vend vêtements, cosmétiques, etc.",
+            "une grande surface comme Carrefour"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 grand magasin 的准确含义。grand magasin = 百货商场（如老佛爷），卖服装、化妆品等。supermarché = 超市（卖食品）；centre commercial = 购物中心（包含多家店）；grande surface = 大型超市如家乐福。TCF 阅读中购物话题经常考这些词的区分。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ce produit est disponible _____ magasin et en ligne.",
+          "options": [
+            "au",
+            "dans",
+            "en",
+            "du"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 en magasin（在实体店）这个固定搭配。en magasin = 在实体店（和 en ligne 在线 对应）。au magasin = 在某个具体商店里；dans 不搭配；du 是 de+le，不对。TCF 出题套路：介词选择题，en magasin 是固定表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « magasin » et « boutique » ?",
+          "options": [
+            "Magasin est plus petit que boutique.",
+            "Boutique est un mot plus familier.",
+            "Magasin est le terme général, boutique désigne plutôt un petit commerce spécialisé.",
+            "Il n'y a aucune différence."
+          ],
+          "correct": 2,
+          "explanation": "本题考察 magasin 和 boutique 的区别。magasin 是通用词，指各种商店；boutique 更指小型精品店/专卖店。A 说反了；B 不准确，boutique 不一定更口语；D 说没区别是错的。TCF B1-B2 词汇辨析题经常考近义词差异。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle travaille dans un _____ de chaussures au centre-ville.",
+          "correct": [
+            "magasin"
+          ],
+          "explanation": "本题考察 magasin de + 商品类型 的搭配。magasin de chaussures = 鞋店。这是 A2 级别的基础搭配。TCF 听力中购物场景经常出现 magasin de vêtements / magasin de chaussures 等表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les grands magasins proposent souvent des réductions en fin de saison. » — Que signifie « réductions » ?",
+          "options": [
+            "增加",
+            "打折",
+            "退货",
+            "关门"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 B2 级别表达中 réductions 的含义。réductions = 折扣/打折。增加是 augmentations；退货是 retours；关门是 fermetures。这是一句 B2 安全加分表达，TCF 阅读中商业广告类文本高频出现 réduction/promotion/soldes 等词。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles sont correctes ?",
+          "options": [
+            "faire les magasins",
+            "faire le magasin",
+            "aller au magasin",
+            "aller aux magasins"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "本题考察 magasin 的搭配正确性。faire les magasins ✅（逛街，固定用复数）；faire le magasin ❌（不存在这个搭配）；aller au magasin ✅（去商店，单数表示去某个具体商店）；aller aux magasins ❌（虽然语法上不算错，但不自然，法国人不这么说）。TCF 出题套路：单复数+介词的组合干扰。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Maison » est un nom :",
+          "options": [
+            "masculin",
+            "féminin",
+            "masculin ou féminin",
+            "invariable"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 maison 的阴阳性。maison 是阴性名词（n.f.），用 une maison / la maison。很多学生因为 maison 以 -on 结尾而误认为阳性（如 garçon 是阳性），但 maison 是阴性。TCF 基础考点：名词性别。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je suis _____ la maison.",
+          "options": [
+            "dans",
+            "à",
+            "en",
+            "chez"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 à la maison（在家）的固定搭配。à la maison = 在家（泛指），是最标准的表达。dans la maison = 在房子里面（强调物理空间内部，不是'在家'的自然说法）；en la maison ❌ 不存在；chez 后面要接人称代词或人名（chez moi）。TCF 出题套路：介词选择题，à la maison 是固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « à la maison » et « chez moi » ?",
+          "options": [
+            "À la maison est plus familier.",
+            "Chez moi insiste sur l'appartenance (我的家), à la maison est plus neutre.",
+            "Chez moi est utilisé seulement à l'écrit.",
+            "Il n'y a aucune différence."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 à la maison vs chez moi 的区别。chez moi 强调'我的家'（归属感），à la maison 更中性泛指'在家'。A 说 à la maison 更口语是不准确的，两者都可以口语书面用；C 说 chez moi 只用于书面是错的；D 说没区别也不准确。TCF 听力中两者都会出现，要能理解细微差异。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Un gâteau fait maison » signifie :",
+          "options": [
+            "un gâteau acheté dans une maison",
+            "un gâteau en forme de maison",
+            "un gâteau préparé chez soi, de manière artisanale",
+            "un gâteau très grand comme une maison"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 fait maison 的含义。fait maison = 自制的/手工做的，指在家里自己做的而非工厂批量生产的。A 是字面误读；B 是形状误读；D 是夸张误读。TCF 阅读中餐厅菜单和食品标签上 fait maison 极其常见。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Des tartes faites maison » — pourquoi « maison » ne change pas ?",
+          "options": [
+            "Parce que maison est un adverbe ici.",
+            "Parce que maison est utilisé comme adjectif invariable.",
+            "Parce que maison est toujours au singulier.",
+            "Parce que c'est une erreur de grammaire."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 fait maison 中 maison 不变性数的语法原因。maison 在这里做不变形容词（adjectif invariable），无论前面的名词是阴阳性还是单复数，maison 都不变。faites maisones ❌ faites maisons ❌。TCF B1 语法考点：名词转做形容词时不变形。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Une maison de retraite » est :",
+          "options": [
+            "une maison de vacances",
+            "une maison pour les personnes âgées",
+            "une maison abandonnée",
+            "une maison de campagne"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 maison de retraite 的含义。maison de retraite = 养老院，是为老年人提供居住和照护的地方。maison de vacances = 度假屋；maison abandonnée = 废弃房屋；maison de campagne = 乡村别墅。TCF B2 阅读中社会话题可能出现此表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ce restaurant est réputé pour ses plats _____ maison.",
+          "options": [
+            "fait",
+            "faits",
+            "faites",
+            "faisants"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 fait maison 中 fait 的性数一致。plats 是阳性复数，所以 fait 要变成 faits（过去分词和主语性数一致）。⚠️ 但 maison 不变！fait → 变，maison → 不变。faites 是阴性复数形式（用于 des tartes faites maison）；faisants ❌ 不存在此形式。TCF 出题套路：fait 变但 maison 不变，两个变化规则同时考。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle ne veut pas vivre dans un appartement, elle préfère une _____.",
+          "correct": [
+            "maison"
+          ],
+          "explanation": "本题考察 maison（独栋住宅）vs appartement（公寓）的对比。语境明确说不想住公寓，所以更喜欢住独栋房子（maison）。TCF 阅读和听力中住房话题经常考 maison vs appartement 的区分。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans un contexte B2, quel mot peut remplacer « maison » pour dire « 家 » de façon plus formelle ?",
+          "options": [
+            "famille",
+            "domicile",
+            "chambre",
+            "appartement"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 maison 的 B2 正式替换词。domicile = 住所/家（正式用语，常用于行政、法律文本）。famille = 家人/家庭，不是'家'这个地方；chambre = 房间；appartement = 公寓，是具体住宅类型。TCF B2 写作中用 domicile 替换 maison 可以加分。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression signifie « la spécialité du restaurant » ?",
+          "options": [
+            "la maison spéciale",
+            "la spécialité fait maison",
+            "la spécialité maison",
+            "la maison de spécialité"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 maison 做形容词表示'本店的/招牌的'。la spécialité maison = 本店招牌特色。maison 在这里做不变形容词，放在名词后面。A 和 D 语序错误不自然；B 的 fait maison 意思是'自制的'，和'招牌的'含义不同。TCF 阅读中餐厅菜单常见。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'adore les pâtes » signifie :",
+          "options": [
+            "我喜欢蛋糕",
+            "我喜欢面条",
+            "我喜欢爪子",
+            "我喜欢面团"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pâtes（复数）的基本含义。les pâtes = 面条/意大利面。蛋糕是 gâteaux；爪子是 pattes（没有 accent circonflexe）；面团是 pâte（单数）。TCF 基础词义考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « pâtes » et « pattes » ?",
+          "options": [
+            "Pâtes = 面条, pattes = 爪子",
+            "Pâtes = 爪子, pattes = 面条",
+            "Les deux mots ont le même sens.",
+            "Pâtes = 面团, pattes = 面条"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 pâtes vs pattes 的区分。pâtes（有 â）= 面条；pattes（没有 â）= 爪子/脚掌。拼写上只差一个 accent circonflexe（ˆ），但意思完全不同。TCF 拼写经典考点。口诀：戴帽子（ˆ）的是吃的，不戴帽子的是动物的。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le singulier de « pâtes » (面条) et que signifie-t-il ?",
+          "options": [
+            "pâte = 面条（单数）",
+            "pâte = 面团 / 糊状物",
+            "patte = 面条（单数）",
+            "Il n'existe pas de singulier."
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pâtes（复数=面条）vs pâte（单数=面团）的关系。表示'面条'时几乎总是用复数 pâtes；单数 pâte 意思变成'面团/糊状物'（如 pâte à crêpes 可丽饼面糊）。C 是 pattes 的单数（爪子）；D 不对，单数形式存在但意思不同。TCF B1 词汇辨析考点。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce soir, je fais cuire des _____ pour le dîner.",
+          "correct": [
+            "pâtes"
+          ],
+          "explanation": "本题考察 faire cuire des pâtes（煮面条）的固定搭配。注意拼写：pâtes 有 â，不要写成 pattes。TCF 填空中拼写准确性是评分点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : J'ai préparé une _____ à crêpes pour le goûter.",
+          "options": [
+            "pâtes",
+            "pâte",
+            "pattes",
+            "patte"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pâte（单数=面糊）的用法。pâte à crêpes = 可丽饼面糊，这里用单数表示'面糊/面团'。pâtes 是复数面条；pattes/patte 是爪子。TCF 出题套路：pâte 单数和 pâtes 复数的含义差异。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les pâtes fraîches sont meilleures que les pâtes industrielles. » — Que signifie « fraîches » ici ?",
+          "options": [
+            "冷冻的",
+            "新鲜的/手工的",
+            "凉的",
+            "过期的"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pâtes fraîches 的搭配含义。pâtes fraîches = 新鲜手工面（现做的），和 pâtes industrielles（工业/工厂生产的面）相对。冷冻的是 surgelées；凉的是 froides；过期的是 périmées。TCF 阅读中食品话题可能出现。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « pâtes » (面条) est :",
+          "options": [
+            "masculin singulier",
+            "féminin singulier",
+            "masculin pluriel",
+            "féminin pluriel"
+          ],
+          "correct": 3,
+          "explanation": "本题考察 pâtes 的性和数。pâtes（面条）是阴性复数（n.f.pl.）。用 des pâtes / les pâtes，形容词配合阴性复数形式。TCF 基础考点：名词性数判断。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles utilisent « pâte » au singulier correctement ?",
+          "options": [
+            "pâte à modeler",
+            "pâte feuilletée",
+            "pâte à crêpes",
+            "pâte au fromage"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "本题考察 pâte 单数的正确搭配。pâte à modeler = 橡皮泥 ✅；pâte feuilletée = 酥皮面团 ✅；pâte à crêpes = 可丽饼面糊 ✅。pâte au fromage ❌ 不自然，说面条配芝士应该用复数 pâtes au fromage。TCF 出题套路：单复数决定含义和搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « pizza » est :",
+          "options": [
+            "masculin",
+            "féminin",
+            "masculin ou féminin",
+            "neutre"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pizza 的阴阳性。pizza 是阴性名词（n.f.），用 une pizza / la pizza。很多学生以 -a 结尾就不确定性别，但 pizza 确实是阴性。不要说 un pizza ❌。TCF 基础考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « pizza » en français ?",
+          "options": [
+            "pizze",
+            "pizzas",
+            "pizza",
+            "pizzi"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pizza 的法语复数。在法语中 pizza 的复数直接加 -s → pizzas（法语化复数）。pizze 是意大利语复数形式，法语不用；pizza 不变是错的；pizzi 不存在。TCF 出题套路：外来词的法语化复数规则。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je voudrais une _____ de pizza, s'il vous plaît.",
+          "options": [
+            "morceau",
+            "tranche",
+            "part",
+            "pièce"
+          ],
+          "correct": 2,
+          "explanation": "本题考察'一片比萨'的正确说法。une part de pizza = 一片比萨，是最标准的说法。tranche 更用于切片的面包、火腿等；morceau 用于蛋糕、面包的一块；pièce 用于可数整件物品。TCF 出题套路：量词搭配题。口诀：比萨用 part，面包用 tranche/morceau。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Une pizza à emporter » signifie :",
+          "options": [
+            "une pizza à manger sur place",
+            "une pizza à livrer chez soi",
+            "une pizza que l'on prend et mange ailleurs",
+            "une pizza surgelée"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 à emporter 的含义。à emporter = 外带/打包带走。A 是 sur place（堂食）；B 是 livraison（配送到家）；D 是 surgelée（冷冻的）。TCF 听力中餐厅/快餐场景的经典表达：Sur place ou à emporter ?（堂食还是外带？）"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On commande _____ pizza ou on mange au restaurant ?",
+          "correct": [
+            "une"
+          ],
+          "explanation": "本题考察 pizza 的冠词使用。pizza 是阴性，所以不定冠词用 une。如果写 un 就错了。TCF 基础考点：阴性名词的冠词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : La _____ de pizzas est gratuite à partir de 20 euros.",
+          "options": [
+            "commande",
+            "livraison",
+            "vente",
+            "part"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 livraison de pizzas（比萨外送）的搭配。livraison = 配送/外送，整句意思是'满20欧免费配送'。commande = 订单，语义不通（订单不会免费）；vente = 销售，不合语境；part = 一片，搭配不对。TCF 阅读中广告类文本常见 livraison gratuite。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Je n'aime pas la pizza », pourquoi utilise-t-on « la » ?",
+          "options": [
+            "Parce qu'on parle d'une pizza spécifique.",
+            "Parce qu'en français, on utilise l'article défini pour exprimer un goût général.",
+            "Parce que pizza est toujours défini.",
+            "Parce que c'est une erreur, il faut dire « de pizza »."
+          ],
+          "correct": 1,
+          "explanation": "本题考察法语中表达喜好时用定冠词的规则。J'aime la pizza / Je n'aime pas la pizza → 表达对某类事物的整体喜好时，法语用定冠词 le/la/les。A 不对，不是指某一个具体的比萨；C 不对，pizza 不是'总是定指'；D 不对，不是错误。TCF A1-A2 语法经典考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot est le plus approprié pour parler de « 快餐 » en français ?",
+          "options": [
+            "pizza rapide",
+            "restauration rapide",
+            "nourriture vite",
+            "manger rapide"
+          ],
+          "correct": 1,
+          "explanation": "本题考察由 pizza 引申出的饮食话题词汇。restauration rapide = 快餐（行业/概念），是标准法语表达。pizza rapide ❌ 不自然；nourriture vite ❌ 语法错误（vite 不能修饰名词）；manger rapide ❌ 不是名词短语。TCF B2 阅读中饮食文化话题可能出现 restauration rapide / malbouffe（垃圾食品）。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1NS55WfIouOmZi4a-QzlcCbSYjTpRpa9h6oO5Q54jrDg/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770598706736,
       "name": "Dormir变位-现/复过/近将",
       "folderId": "1770593074621",
@@ -3221,6 +4325,10 @@
     {
       "id": "1770593095506",
       "name": "语法"
+    },
+    {
+      "id": "1770604921596",
+      "name": "A1词汇"
     }
   ],
   "wrongBook": [
@@ -3440,6 +4548,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T01:11:09.935Z",
+  "exportedAt": "2026-02-09T02:58:50.774Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
