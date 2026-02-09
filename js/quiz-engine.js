@@ -61,9 +61,19 @@ function startTimer(extraSeconds) {
 
 
 function showScreen(id) {
+  if (!id) {
+    console.error('showScreen: id is required');
+    return;
+  }
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   const screen = document.getElementById(id);
+  if (!screen) {
+    console.error('showScreen: screen not found for id:', id);
+    return;
+  }
   screen.classList.add('active');
+  // Force display style to ensure visibility
+  screen.style.display = '';
   requestAnimationFrame(() => {
     if (id === SCREEN.QUIZ) {
       const first = screen.querySelector('.option, input[type="text"], .btn-primary');
@@ -91,6 +101,13 @@ function startQuiz(questions, fromWrongBook, setId, opts) {
   if (!noShuffle && document.getElementById('shuffle-options') && document.getElementById('shuffle-options').checked) {
     list = list.map(shuffleQuestionOptions);
   }
+  
+  // Ensure we have valid questions before proceeding
+  if (!list || list.length === 0) {
+    showToast('题目处理失败，请重试');
+    return;
+  }
+  
   state.questions = list;
   state.index = 0;
   state.score = 0;
@@ -99,7 +116,18 @@ function startQuiz(questions, fromWrongBook, setId, opts) {
   state.practicingWrongBook = !!fromWrongBook;
   state.practicedSetId = setId || null;
   state.sequentialBatch = opts.sequentialBatch || null;
+  
+  // Switch to quiz screen BEFORE rendering
   showScreen(SCREEN.QUIZ);
+  
+  // Verify screen switch was successful
+  const quizScreen = document.getElementById(SCREEN.QUIZ);
+  if (!quizScreen || !quizScreen.classList.contains('active')) {
+    console.error('Failed to switch to quiz screen');
+    showToast('无法切换到练习界面，请刷新页面重试');
+    return;
+  }
+  
   if (typeof performance !== 'undefined' && performance.mark) performance.mark('quiz-first-render-start');
   renderQuestion();
   if (typeof performance !== 'undefined' && performance.mark) {
@@ -237,9 +265,25 @@ function renderQuestion() {
   _pendingTimers.forEach(timer => clearTimeout(timer));
   _pendingTimers = [];
 
+  // Safety check: ensure state.questions exists and has items
+  if (!state.questions || state.questions.length === 0) {
+    console.error('renderQuestion: state.questions is empty or undefined');
+    showToast('题目数据异常，请重新开始');
+    showScreen(SCREEN.HOME);
+    return;
+  }
+
   const q = state.questions[state.index];
   if (!q) {
-    showResult();
+    // If index is out of bounds, show result
+    if (state.index >= state.questions.length) {
+      showResult();
+      return;
+    }
+    // Otherwise, there's a data issue
+    console.error('renderQuestion: question at index', state.index, 'is undefined');
+    showToast('题目数据异常，请重新开始');
+    showScreen(SCREEN.HOME);
     return;
   }
 

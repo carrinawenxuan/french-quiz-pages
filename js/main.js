@@ -359,8 +359,16 @@ document.getElementById('review-modal-overlay').addEventListener('click', (e) =>
     // 先关闭模态框（会清空 _pendingStartSet）
     closeStartModeModal();
     // 使用保存的 set 值
-    if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
-    else startQuiz(set.questions, false, set.id, opts);
+    if (shouldReview && hasReviewMaterial(set)) {
+      showReviewModal(set, set.questions, false, set.id, opts);
+    } else {
+      // Ensure questions array is valid before starting
+      if (!Array.isArray(set.questions) || set.questions.length === 0) {
+        showToast('该习题集没有可用题目');
+        return;
+      }
+      startQuiz(set.questions, false, set.id, opts);
+    }
   }
   function doStartSequential() {
     // 先保存 _pendingStartSet，因为 closeStartModeModal() 会清空它
@@ -626,6 +634,16 @@ if (startSel) startSel.addEventListener('change', updateCategoryFilter);
       }
     }
   });
+  
+  // Ensure import section is collapsed by default
+  const importSection = document.getElementById('import-section');
+  if (importSection) {
+    importSection.style.display = 'none';
+  }
+  const importBtn = document.getElementById('btn-import-show');
+  if (importBtn) {
+    importBtn.setAttribute('aria-expanded', 'false');
+  }
   
   // Ensure home screen is shown (will be overridden by checkSavedProgress if needed)
   showScreen(SCREEN.HOME);
