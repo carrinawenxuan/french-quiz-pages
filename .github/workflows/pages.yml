@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true  # 取消进行中的部署，加快新部署
 
 jobs:
   deploy:
@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 只拉取最新提交，加快速度
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -34,6 +36,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+          # 排除不必要的文件，只上传需要的
+          exclude-paths: |
+            .git
+            .github
+            README.md
+            .gitignore
       
       - name: Deploy to GitHub Pages
         id: deployment
