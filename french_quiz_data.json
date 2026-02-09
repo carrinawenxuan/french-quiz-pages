@@ -1,6 +1,1058 @@
 {
   "savedSets": [
     {
+      "id": 1770610619208,
+      "name": "数量表达 / 单位副词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-09T04:16:59.208Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais une bouteille _____ eau.",
+          "options": [
+            "de l'",
+            "d'",
+            "de la",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "元音开头用d'，数量表达后不加冠词",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a acheté deux kilos _____ pommes.",
+          "options": [
+            "des",
+            "de",
+            "du",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "数量+单位+de+名词，不加冠词",
+          "category": "数量表达基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je prends un verre _____ vin rouge.",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "un verre de+名词，不用部分冠词",
+          "category": "数量表达基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a beaucoup _____ monde dans la rue.",
+          "options": [
+            "du",
+            "de",
+            "des",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "beaucoup de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu veux une tasse _____ café?",
+          "options": [
+            "du",
+            "de la",
+            "de",
+            "d'"
+          ],
+          "correct": 2,
+          "explanation": "une tasse de+名词，café辅音开头用de",
+          "category": "数量表达基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai trop _____ travail cette semaine.",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "trop de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien _____ personnes viennent ce soir?",
+          "options": [
+            "des",
+            "de",
+            "de la",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "combien de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle mange un morceau _____ fromage.",
+          "options": [
+            "du",
+            "de la",
+            "de",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "un morceau de+名词",
+          "category": "切片部分类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut un litre _____ lait pour cette recette.",
+          "options": [
+            "du",
+            "de la",
+            "de",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "un litre de+名词",
+          "category": "重量体积类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais une tranche _____ jambon.",
+          "options": [
+            "du",
+            "de la",
+            "de",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "une tranche de+名词",
+          "category": "切片部分类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons peu _____ temps.",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "peu de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il boit beaucoup _____ alcool.",
+          "options": [
+            "de l'",
+            "d'",
+            "de",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "alcool元音开头，beaucoup d'alcool",
+          "category": "数量副词+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Donnez-moi 500 grammes _____ farine.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "500 grammes de+名词",
+          "category": "重量体积类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a assez _____ argent pour acheter cette voiture.",
+          "options": [
+            "de l'",
+            "d'",
+            "de",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "argent元音开头，assez d'argent",
+          "category": "数量副词+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais un paquet _____ biscuits.",
+          "options": [
+            "des",
+            "de",
+            "du",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "un paquet de+名词",
+          "category": "包装容器类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a moins _____ problèmes maintenant.",
+          "options": [
+            "des",
+            "de",
+            "du",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "moins de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as combien _____ enfants?",
+          "options": [
+            "des",
+            "d'",
+            "de la",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "enfants元音开头，combien d'enfants",
+          "category": "数量副词+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une boîte _____ conserves, s'il vous plaît.",
+          "options": [
+            "des",
+            "de",
+            "du",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "une boîte de+名词",
+          "category": "包装容器类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté trois bouteilles _____ vin.",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "trois bouteilles de+名词",
+          "category": "数量表达基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut plus _____ patience.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "plus de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je mange _____ fromage. (没有具体数量)",
+          "options": [
+            "de",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "无数量时用部分冠词du",
+          "category": "部分冠词vs数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je mange un morceau _____ fromage. (有具体数量)",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "有数量时用de，不加冠词",
+          "category": "部分冠词vs数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle boit _____ eau. (没有具体数量)",
+          "options": [
+            "d'",
+            "de l'",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "无数量时用部分冠词de l'",
+          "category": "部分冠词vs数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle boit une bouteille _____ eau. (有具体数量)",
+          "options": [
+            "de l'",
+            "d'",
+            "de",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "有数量时用d'，不加冠词",
+          "category": "部分冠词vs数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un kilo _____ oranges coûte 3 euros.",
+          "options": [
+            "des",
+            "d'",
+            "de",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "oranges元音开头，un kilo d'oranges",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais un pot _____ confiture.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "un pot de+名词",
+          "category": "包装容器类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a un peu _____ fièvre.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "un peu de+名词，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons besoin _____ huile.",
+          "options": [
+            "de l'",
+            "d'",
+            "de",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "huile哑音h开头，用d'",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une douzaine _____ œufs, s'il vous plaît.",
+          "options": [
+            "des",
+            "d'",
+            "de",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "œufs元音开头，une douzaine d'œufs",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il reste un bout _____ pain.",
+          "options": [
+            "du",
+            "de",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "un bout de+名词",
+          "category": "切片部分类"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达是正确的?",
+          "options": [
+            "une bouteille d'eau",
+            "une bouteille de l'eau",
+            "deux kilos de pommes",
+            "deux kilos des pommes"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "数量表达后用de/d'，不加冠词",
+          "category": "数量表达规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中de的用法正确?",
+          "options": [
+            "beaucoup de travail",
+            "beaucoup du travail",
+            "trop d'argent",
+            "trop de l'argent"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "数量副词后用de/d'，不加冠词",
+          "category": "数量副词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "哪些名词前应该用d'而不是de?",
+          "options": [
+            "eau",
+            "vin",
+            "oranges",
+            "café"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "eau和oranges元音开头，用d'",
+          "category": "元音规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是正确的数量表达?",
+          "options": [
+            "un verre de vin",
+            "une tasse du café",
+            "un kilo d'oranges",
+            "beaucoup des amis"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "数量后用de/d'，不加冠词",
+          "category": "数量表达综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je voudrais une bouteille _____ eau minérale.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "eau元音开头，用d'",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a acheté trois kilos _____ tomates.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "数量+de+名词，tomates辅音开头",
+          "category": "数量表达基础"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle boit beaucoup _____ café.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "beaucoup de+名词，café辅音开头",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Combien _____ frères as-tu?",
+          "correct": [
+            "de"
+          ],
+          "explanation": "combien de+名词",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je prends un morceau _____ gâteau.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "un morceau de+名词",
+          "category": "切片部分类"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a trop _____ bruit ici.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "trop de+名词",
+          "category": "数量副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Une tasse _____ thé, s'il vous plaît.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "une tasse de+名词",
+          "category": "包装容器类"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai peu _____ amis dans cette ville.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "amis元音开头，peu d'amis",
+          "category": "数量副词+元音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "500 grammes _____ beurre pour cette recette.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "500 grammes de+名词",
+          "category": "重量体积类"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut un litre _____ huile.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "huile哑音h开头，用d'",
+          "category": "数量表达+元音"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Au marché, j'ai acheté deux kilos _____ pommes et une bouteille _____ huile.",
+          "correct": [
+            "de",
+            "d'"
+          ],
+          "explanation": "pommes辅音用de，huile哑音h用d'",
+          "category": "数量表达综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Pour la fête, il faut beaucoup _____ boissons et assez _____ place.",
+          "correct": [
+            "de",
+            "de"
+          ],
+          "explanation": "beaucoup de和assez de后都不加冠词",
+          "category": "数量副词综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je voudrais un verre _____ vin et une tasse _____ café.",
+          "correct": [
+            "de",
+            "de"
+          ],
+          "explanation": "单位词后用de",
+          "category": "包装容器类"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Combien _____ temps faut-il? Il y a trop _____ monde.",
+          "correct": [
+            "de",
+            "de"
+          ],
+          "explanation": "combien de和trop de后不加冠词",
+          "category": "数量副词综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle a moins _____ problèmes et plus _____ énergie maintenant.",
+          "correct": [
+            "de",
+            "d'"
+          ],
+          "explanation": "problèmes辅音用de，énergie元音用d'",
+          "category": "数量副词+元音"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Gy7idDEOr_stCmbI0VHRGoeGQgOd_f6JZs99KnDTkeE/edit?tab=t.0#heading=h.12o4nde6isn3"
+      ],
+      "reviewImages": []
+    },
+    {
+      "id": 1770610284204,
+      "name": "Il Faut 句型",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-09T04:11:24.204Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Pour réussir l'examen, il _____ beaucoup étudier.",
+          "options": [
+            "faut",
+            "fais",
+            "doit",
+            "fait"
+          ],
+          "correct": 0,
+          "explanation": "il faut + 动词原形表示必须",
+          "category": "il faut + 原形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ partir maintenant.",
+          "options": [
+            "Je faut",
+            "Tu faut",
+            "Il faut",
+            "Nous faut"
+          ],
+          "correct": 2,
+          "explanation": "falloir是无人称动词，只有il faut",
+          "category": "il faut无人称"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ patience pour apprendre.",
+          "options": [
+            "la",
+            "de la",
+            "une",
+            "patience"
+          ],
+          "correct": 1,
+          "explanation": "il faut + 部分冠词 + 名词",
+          "category": "il faut + 名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ temps pour finir.",
+          "options": [
+            "le",
+            "du",
+            "un",
+            "temps"
+          ],
+          "correct": 1,
+          "explanation": "temps是阳性不可数名词用du",
+          "category": "il faut + 名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que tu _____ à l'heure.",
+          "options": [
+            "es",
+            "sois",
+            "être",
+            "soit"
+          ],
+          "correct": 1,
+          "explanation": "il faut que后接虚拟式，être的tu形式是sois",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que nous _____ ce travail.",
+          "options": [
+            "finissons",
+            "finissions",
+            "finir",
+            "finirons"
+          ],
+          "correct": 1,
+          "explanation": "finir的虚拟式nous finissions",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut qu'elle _____ ses devoirs.",
+          "options": [
+            "fait",
+            "fasse",
+            "faire",
+            "fera"
+          ],
+          "correct": 1,
+          "explanation": "faire的虚拟式elle fasse",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que vous _____ demain.",
+          "options": [
+            "venez",
+            "veniez",
+            "viendrez",
+            "venir"
+          ],
+          "correct": 1,
+          "explanation": "venir的虚拟式vous veniez",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que je _____ avant 8 heures.",
+          "options": [
+            "pars",
+            "parte",
+            "partir",
+            "partirai"
+          ],
+          "correct": 1,
+          "explanation": "partir的虚拟式je parte",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ fumer ici.",
+          "options": [
+            "faut ne pas",
+            "ne faut pas",
+            "ne pas faut",
+            "faut pas"
+          ],
+          "correct": 1,
+          "explanation": "否定结构ne + faut + pas",
+          "category": "il faut否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne faut pas répondre signifie:",
+          "options": [
+            "不必回答",
+            "禁止回答",
+            "可以回答",
+            "应该回答"
+          ],
+          "correct": 1,
+          "explanation": "il ne faut pas表示禁止，不是不必",
+          "category": "il ne faut pas含义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, il _____ attendre deux heures.",
+          "options": [
+            "faut",
+            "a fallu",
+            "est fallu",
+            "fallait"
+          ],
+          "correct": 1,
+          "explanation": "falloir复合过去时用avoir: il a fallu",
+          "category": "il faut时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, il _____ se lever tôt.",
+          "options": [
+            "faut",
+            "fallait",
+            "faudra",
+            "a fallu"
+          ],
+          "correct": 2,
+          "explanation": "简单将来时il faudra",
+          "category": "il faut时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ réfléchir avant de décider.",
+          "options": [
+            "faut",
+            "faudra",
+            "faudrait",
+            "fallait"
+          ],
+          "correct": 2,
+          "explanation": "il faudrait表示委婉建议",
+          "category": "il faudrait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que Marie _____ ce soir.",
+          "options": [
+            "vient",
+            "vienne",
+            "viendra",
+            "venir"
+          ],
+          "correct": 1,
+          "explanation": "venir的虚拟式elle vienne",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour ce voyage, il faut _____ argent.",
+          "options": [
+            "l'",
+            "de l'",
+            "un",
+            "argent"
+          ],
+          "correct": 1,
+          "explanation": "argent元音开头用de l'",
+          "category": "il faut + 名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut qu'ils _____ leurs erreurs.",
+          "options": [
+            "comprennent",
+            "comprendent",
+            "comprenent",
+            "comprennient"
+          ],
+          "correct": 0,
+          "explanation": "comprendre的虚拟式ils comprennent",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'est pas nécessaire de répondre signifie:",
+          "options": [
+            "禁止回答",
+            "必须回答",
+            "不必回答",
+            "应该回答"
+          ],
+          "correct": 2,
+          "explanation": "il n'est pas nécessaire de表示不必",
+          "category": "不必vs禁止"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que j'_____ à la banque.",
+          "options": [
+            "vais",
+            "aille",
+            "irai",
+            "aller"
+          ],
+          "correct": 1,
+          "explanation": "aller的虚拟式j'aille",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut que tu _____ la vérité.",
+          "options": [
+            "sais",
+            "saches",
+            "savoir",
+            "sauras"
+          ],
+          "correct": 1,
+          "explanation": "savoir的虚拟式tu saches",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是il faut的正确用法?",
+          "options": [
+            "Il faut partir.",
+            "Je faut partir.",
+            "Il faut que tu partes.",
+            "Tu faut partir."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "falloir只能用il作主语",
+          "category": "il faut用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子表示禁止?",
+          "options": [
+            "Il ne faut pas fumer.",
+            "Il n'est pas nécessaire de fumer.",
+            "Il ne faut pas entrer.",
+            "Il n'est pas obligatoire de venir."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "il ne faut pas表示禁止",
+          "category": "禁止vs不必"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "il faut que后面可以接哪些形式?",
+          "options": [
+            "动词原形",
+            "直陈式现在时",
+            "虚拟式",
+            "简单将来时"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "il faut que后面必须接虚拟式",
+          "category": "il faut que结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是falloir的正确时态变化?",
+          "options": [
+            "il a fallu",
+            "il est fallu",
+            "il faudra",
+            "il faudrait"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "falloir用avoir，没有il est fallu",
+          "category": "il faut时态"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour réussir, il _____ travailler dur.",
+          "correct": [
+            "faut"
+          ],
+          "explanation": "il faut + 动词原形",
+          "category": "il faut + 原形"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut que tu _____ (être) patient.",
+          "correct": [
+            "sois"
+          ],
+          "explanation": "être的虚拟式tu sois",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut que nous _____ (faire) attention.",
+          "correct": [
+            "fassions"
+          ],
+          "explanation": "faire的虚拟式nous fassions",
+          "category": "il faut que + 虚拟式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Hier, il _____ (falloir) attendre longtemps.",
+          "correct": [
+            "a fallu"
+          ],
+          "explanation": "falloir的复合过去时il a fallu",
+          "category": "il faut时态"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (falloir) partir maintenant.",
+          "correct": [
+            "faudrait"
+          ],
+          "explanation": "条件式il faudrait表示委婉建议",
+          "category": "il faudrait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut _____ courage pour dire la vérité.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "courage是阳性不可数名词用du",
+          "category": "il faut + 名词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Pour vivre au Canada, il _____ bien préparer ton dossier. Il faut que tu _____ (avoir) tous les documents.",
+          "correct": [
+            "faut",
+            "aies"
+          ],
+          "explanation": "第一空il faut + 原形，第二空avoir的虚拟式tu aies",
+          "category": "il faut综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il ne _____ pas fumer ici. Il _____ aller dehors.",
+          "correct": [
+            "faut",
+            "faut"
+          ],
+          "explanation": "否定il ne faut pas和肯定il faut",
+          "category": "il faut综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Demain, il _____ (falloir) partir tôt. Il faut que nous _____ (être) à l'aéroport à 6h.",
+          "correct": [
+            "faudra",
+            "soyons"
+          ],
+          "explanation": "将来时il faudra，être的虚拟式nous soyons",
+          "category": "il faut综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il faut _____ patience et _____ temps pour apprendre.",
+          "correct": [
+            "de la",
+            "du"
+          ],
+          "explanation": "patience阴性用de la，temps阳性用du",
+          "category": "il faut + 名词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ que je _____ (partir) maintenant.",
+          "correct": [
+            "faut",
+            "parte"
+          ],
+          "explanation": "partir的虚拟式je parte",
+          "category": "il faut que + 虚拟式"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1xEm2UCJ390XOR9IsLptirKpFaIl9_GgoGxus2mxtndI/edit?tab=t.0"
+      ],
+      "reviewImages": []
+    },
+    {
       "id": 1770604905883,
       "name": "Leçon 18 Il est comment 词汇",
       "folderId": "1770604921596",
@@ -5783,6 +6835,6 @@
     "lastDate": "2026-02-09",
     "streak": 1
   },
-  "exportedAt": "2026-02-09T03:51:55.645Z",
+  "exportedAt": "2026-02-09T04:17:07.324Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
