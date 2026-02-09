@@ -3748,9 +3748,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         fillInput.disabled = false;
         fillInput.classList.remove('correct-blank', 'wrong-blank');
       }
-      const paragraphWrap = document.getElementById('paragraph-blanks-wrap');
-      paragraphWrap.style.display = 'none';
-      paragraphWrap.innerHTML = '';
+      // paragraphWrap 已在函数开头声明，这里直接使用
+      if (paragraphWrap) {
+        paragraphWrap.style.display = 'none';
+        paragraphWrap.innerHTML = '';
+      }
       const isMulti = q.type === 'multiple_choice';
       const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
       optionsEl.setAttribute('role', isMulti ? 'group' : 'radiogroup');
