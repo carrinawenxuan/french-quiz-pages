@@ -3342,9 +3342,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const btn = $('btn-load-cloud') || document.getElementById('btn-load-cloud');
       if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
       try {
-        const res = await fetch(url + '?t=' + Date.now());
-        if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据' : '请求失败');
-        const data = await res.json();
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 30000);
+        const res = await fetch(url + '?t=' + Date.now(), {
+          cache: 'no-store',
+          signal: controller.signal,
+          headers: { 'Accept': 'application/json' }
+        });
+        clearTimeout(timeoutId);
+        if (!res.ok) throw new Error(res.status === 404 ? '未找到云端数据文件 (404)' : '请求失败 (' + res.status + ')');
+        const text = await res.text();
+        let data;
+        try { data = JSON.parse(text); } catch (parseErr) {
+          throw new Error('JSON 解析失败，文件可能不完整（收到 ' + text.length + ' 字符）');
+        }
         if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
         const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？');
         if (!confirmed) return;
@@ -3355,7 +3366,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const cardStr = cardCount ? '，' + cardCount + ' 张记忆卡' : '';
         showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : '') + cardStr);
       } catch (e) {
-        showToast('加载失败，请检查网络或稍后再试。若仍失败可尝试「从文件导入」');
+        const msg = e && e.name === 'AbortError' ? '加载超时（30秒），请检查网络后重试' : '加载失败：' + (e && e.message ? e.message : '未知错误') + '。若仍失败可尝试「从文件导入」或「从同步文本导入」';
+        showToast(msg);
+        console.error('[loadFromCloud]', e);
       }
       if (btn) { btn.disabled = false; btn.textContent = '从云端加载（手机同步习题集）'; }
     }
