@@ -2299,11 +2299,7 @@
           <div class="saved-sets-search-wrap">
             <input type="text" id="saved-sets-search" placeholder="搜索习题集名称…" autocomplete="off" aria-label="搜索习题集名称" />
           </div>
-        </div>
-        <div class="saved-sets-folders-bar" id="saved-sets-folders-bar">
-          <span class="saved-sets-folders-label">文件夹</span>
-          <button type="button" class="btn btn-secondary btn-sm" id="btn-add-folder">添加文件夹</button>
-          <div class="saved-sets-folder-tags" id="saved-sets-folder-tags"></div>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-add-folder" style="margin-top: 0.5rem;">添加文件夹</button>
         </div>
         <div class="saved-sets-list-wrap">
           <div id="saved-sets-list"></div>
@@ -3562,9 +3558,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const filtered = query ? sets.filter(s => (s.name || '').toLowerCase().includes(query)) : sets;
       const listEl = $('saved-sets-list');
       const emptyEl = $('saved-sets-empty');
-      const tagsEl = $('saved-sets-folder-tags');
       if (!listEl || !emptyEl) return;
-      renderFolderTags();
       function itemHtml(s) {
         const count = s.practiceCount || 0;
         const lastStr = s.lastPracticedAt ? '最近 ' + formatSavedSetDate(s.lastPracticedAt) : '未练习';
@@ -3613,7 +3607,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           '<div class="saved-sets-folder-header">' +
           '<button type="button" class="saved-sets-folder-toggle">' +
           '<span class="folder-icon-wrap">' + folderIconSvg + '</span>' +
-          '<span class="saved-sets-folder-name">' + escapeHtml(f.name) + '</span>' +
+          '<span class="saved-sets-folder-name">' + escapeHtml(f.name) + ' (' + inFolder.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
           '<button type="button" class="folder-header-edit" aria-label="重命名">✎</button>' +
@@ -3630,7 +3624,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           '<div class="saved-sets-folder-header">' +
           '<button type="button" class="saved-sets-folder-toggle">' +
           '<span class="folder-icon-wrap">' + folderIconSvg + '</span>' +
-          '<span class="saved-sets-folder-name">未分类</span>' +
+          '<span class="saved-sets-folder-name">未分类 (' + uncategorized.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
           '</div>' +
@@ -3690,49 +3684,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _savedSetsDisplayLimit = Infinity;
         renderSavedSets();
       });
-      });
-    }
-    function renderFolderTags() {
-      const tagsEl = document.getElementById('saved-sets-folder-tags');
-      if (!tagsEl) return;
-      const folders = getFolders();
-      const folderIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>';
-      tagsEl.innerHTML = folders.map(f => {
-        return '<span class="folder-tag" data-folder-id="' + escapeAttr(String(f.id)) + '">' +
-          '<span class="folder-tag-icon">' + folderIconSvg + '</span>' +
-          '<span class="folder-tag-name" title="' + escapeAttr(f.name) + '">' + escapeHtml(f.name) + '</span>' +
-          '<button type="button" class="folder-tag-edit" aria-label="重命名">✎</button>' +
-          '<button type="button" class="folder-tag-delete" aria-label="删除">×</button>' +
-          '</span>';
-      }).join('');
-      tagsEl.querySelectorAll('.folder-tag-edit').forEach(btn => {
-        btn.addEventListener('click', function() {
-          const tag = this.closest('.folder-tag');
-          const id = tag.dataset.folderId;
-          const folders = getFolders();
-          const folder = folders.find(f => String(f.id) === id);
-          if (!folder) return;
-          customPrompt('重命名文件夹', folder.name || '').then(name => {
-            if (name === null || !name.trim()) return;
-            const trimmed = name.trim();
-            if (!trimmed) return;
-            setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: trimmed }) : f));
-          });
-        });
-      });
-      tagsEl.querySelectorAll('.folder-tag-delete').forEach(btn => {
-        btn.addEventListener('click', function() {
-          const tag = this.closest('.folder-tag');
-          const id = tag.dataset.folderId;
-          customConfirm('删除该文件夹？其下习题集会移到「未分类」。').then(confirmed => {
-            if (!confirmed) return;
-            const folders = getFolders().filter(f => String(f.id) !== id);
-            setFolders(folders);
-            const sets = getSavedSets();
-            const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
-            setSavedSets(updated);
-          });
-        });
       });
     }
     function handleSavedSetsAction(e) {
@@ -5819,6 +5770,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (name === null || !name.trim()) return;
         const trimmed = name.trim();
         setFolders(getFolders().concat([{ id: String(Date.now()), name: trimmed }]));
+        if (typeof renderSavedSets === 'function') renderSavedSets();
+        showToast('已添加文件夹');
       });
     });
     function startWrongBookDuePractice() {
