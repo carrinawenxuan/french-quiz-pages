@@ -785,11 +785,16 @@
         font-size: 0.95rem; 
         gap: 0.75rem;
       }
-      .shuffle-wrap input[type="checkbox"] { 
+      .shuffle-wrap input[type="checkbox"]:not(.shuffle-checkbox) { 
         width: 22px; 
         height: 22px; 
         min-width: 22px; 
         min-height: 22px; 
+      }
+      .shuffle-btn { 
+        min-height: 48px; 
+        padding: 0.75rem 1rem; 
+        font-size: 1rem; 
       }
       .type-filter-row { 
         gap: 0.5rem; 
@@ -1173,6 +1178,16 @@
       min-height: 18px; 
       flex-shrink: 0;
     }
+    .shuffle-checkbox {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
     .shuffle-wrap label { 
       font-size: 0.85rem; 
       color: var(--text-muted); 
@@ -1183,6 +1198,24 @@
       align-items: center; 
       -webkit-tap-highlight-color: transparent;
     }
+    .shuffle-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: background-color 0.2s, border-color 0.2s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .shuffle-btn:hover { background: var(--accent-soft); border-color: var(--border-subtle-hover); }
+    .shuffle-btn.selected { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 1px var(--accent); }
+    .shuffle-btn:active { background: var(--accent-soft); }
     .type-filter-wrap { margin-top: 0.75rem; }
     .type-filter-wrap .type-filter-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem; }
     .type-filter-row { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center; }
@@ -2269,12 +2302,12 @@
             <label for="timer-seconds">每题倒计时（秒）</label>
             <input type="number" id="timer-seconds" min="0" max="120" value="10" title="0 表示不限时" />
             <div class="shuffle-wrap">
-              <input type="checkbox" id="shuffle-questions" />
-              <label for="shuffle-questions">打乱题目顺序</label>
+              <input type="checkbox" id="shuffle-questions" class="shuffle-checkbox" aria-hidden="true" tabindex="-1" />
+              <button type="button" class="shuffle-btn" data-for="shuffle-questions" aria-pressed="false">打乱题目顺序</button>
             </div>
             <div class="shuffle-wrap">
-              <input type="checkbox" id="shuffle-options" />
-              <label for="shuffle-options">打乱选项顺序</label>
+              <input type="checkbox" id="shuffle-options" class="shuffle-checkbox" aria-hidden="true" tabindex="-1" />
+              <button type="button" class="shuffle-btn" data-for="shuffle-options" aria-pressed="false">打乱选项顺序</button>
             </div>
           </div>
           <div class="type-filter-wrap">
@@ -5935,6 +5968,23 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.querySelectorAll('.collapsible-toggle').forEach(initCollapsible);
     (function initTypeFilterButtons() {
       document.querySelectorAll('.type-filter-btn').forEach(function(btn) {
+        var id = btn.getAttribute('data-for');
+        var cb = id ? document.getElementById(id) : null;
+        if (!cb) return;
+        function sync() {
+          var on = cb.checked;
+          btn.classList.toggle('selected', on);
+          btn.setAttribute('aria-pressed', String(on));
+        }
+        btn.addEventListener('click', function() {
+          cb.checked = !cb.checked;
+          sync();
+        });
+        sync();
+      });
+    })();
+    (function initShuffleButtons() {
+      document.querySelectorAll('.shuffle-btn').forEach(function(btn) {
         var id = btn.getAttribute('data-for');
         var cb = id ? document.getElementById(id) : null;
         if (!cb) return;
