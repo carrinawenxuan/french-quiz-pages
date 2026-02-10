@@ -9,7 +9,6 @@
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self';" />
   <title>Français Quiz · 法语练习</title>
-  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzZkMjhkOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiNWNmNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjgiIGZpbGw9InVybCgjYmcpIi8+PHJlY3QgeD0iOSIgeT0iOCIgd2lkdGg9IjMuMiIgaGVpZ2h0PSIxNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI5IiB5PSI4IiB3aWR0aD0iMTEiIGhlaWdodD0iMi44IiByeD0iMSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjkiIHk9IjE1IiB3aWR0aD0iNi41IiBoZWlnaHQ9IjIuNiIgcng9IjEiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMTguNSA2LjJsMiAyLjIiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" type="image/svg+xml" />
   <link rel="icon" href="favicon.svg?v=3" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,7 +61,7 @@
       margin: 0;
       padding: 0;
     }
-    *:focus { outline: none; }
+    *:focus:not(:focus-visible) { outline: none; }
     *:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 2px;
@@ -108,7 +107,7 @@
         radial-gradient(ellipse 100% 60% at 50% -15%, rgba(139, 92, 246, 0.2), transparent 50%),
         radial-gradient(ellipse 70% 50% at 100% 80%, rgba(96, 165, 250, 0.12), transparent),
         radial-gradient(ellipse 50% 30% at 0% 60%, rgba(139, 92, 246, 0.08), transparent);
-      transition: background 0.3s, color 0.3s;
+      transition: color 0.3s;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -172,7 +171,7 @@
       align-items: center;
       justify-content: center;
       font-size: 1.2rem;
-      transition: all 0.2s;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
     }
     .theme-toggle:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
     body.theme-light .theme-toggle { border-color: var(--border-subtle-hover); background: var(--surface); }
@@ -241,7 +240,6 @@
     .screen.active {
       display: block;
       animation: fadeIn 0.35s ease;
-      will-change: opacity, transform;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
@@ -937,7 +935,7 @@
       border: 2px solid var(--border-subtle);
       border-radius: var(--radius-sm);
       cursor: pointer;
-      transition: all 0.2s;
+      transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
     }
     .option:hover {
       background: var(--accent-soft);
@@ -953,13 +951,11 @@
       border-color: var(--correct);
       background: rgba(52, 211, 153, 0.12);
       animation: optionCorrectReveal 0.5s ease;
-      will-change: transform, box-shadow;
     }
     .option.wrong {
       border-color: var(--wrong);
       background: rgba(248, 113, 113, 0.12);
       animation: optionWrongReveal 0.5s ease;
-      will-change: transform, box-shadow;
     }
     @keyframes optionCorrectReveal {
       0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.5); }
@@ -1258,7 +1254,7 @@
       background: var(--surface);
       color: var(--text-muted);
       cursor: pointer;
-      transition: all 0.2s;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
     }
     .btn-read-aloud:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
     body.theme-light .btn-read-aloud { background: var(--card); border-color: var(--border-strong); }
@@ -1571,7 +1567,7 @@
       border: 1px solid var(--border-subtle);
       background: var(--surface);
       flex-wrap: wrap;
-      transition: all 0.2s;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
     }
     .saved-sets-item:hover {
       border-color: rgba(139, 92, 246, 0.35);
@@ -1658,7 +1654,7 @@
       border: 1px solid var(--border-subtle);
       background: var(--surface);
       cursor: pointer;
-      transition: all 0.2s;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
       font-family: inherit;
     }
     body.theme-light .storage-card { border-color: var(--border-subtle-hover); background: var(--card); }
@@ -2081,7 +2077,7 @@
     .start-mode-modal { width: 100%; max-width: 440px; background: var(--card); border-radius: 20px; border: 1px solid var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.35); padding: 1.5rem 1.75rem; }
     body.theme-light .start-mode-modal { border-color: var(--border-subtle); box-shadow: 0 24px 48px rgba(0,0,0,0.12); }
     .start-mode-modal h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.75rem 0; color: var(--text); letter-spacing: -0.02em; }
-    .start-mode-review-card { display: flex; align-items: center; gap: 0.85rem; background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.05)); border: 1.5px solid rgba(124, 58, 237, 0.2); border-radius: 14px; padding: 1rem 1.15rem; margin-bottom: 1.25rem; transition: all 0.2s; }
+    .start-mode-review-card { display: flex; align-items: center; gap: 0.85rem; background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.05)); border: 1.5px solid rgba(124, 58, 237, 0.2); border-radius: 14px; padding: 1rem 1.15rem; margin-bottom: 1.25rem; transition: border-color 0.2s, background 0.2s; }
     .start-mode-review-card:hover { border-color: rgba(124, 58, 237, 0.35); background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(124, 58, 237, 0.07)); }
     body.theme-light .start-mode-review-card { background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(124, 58, 237, 0.04)); border-color: rgba(124, 58, 237, 0.25); }
     body.theme-light .start-mode-review-card:hover { border-color: rgba(124, 58, 237, 0.35); background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.06)); }
@@ -2197,7 +2193,7 @@
 </head>
 <body>
   <a href="#main" class="skip-link">跳过至主内容</a>
-  <div class="container" id="main" role="main">
+  <main class="container" id="main">
     <header>
       <div class="brand">
         <h1>Français Quiz</h1>
@@ -2501,7 +2497,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     <div id="screen-result" class="screen">
       <div class="result-card" id="result-card" aria-live="polite" aria-atomic="true">
-        <div class="result-score" id="result-score" role="text">0/0</div>
+        <div class="result-score" id="result-score" aria-label="得分">0/0</div>
         <p class="result-pct" id="result-pct"></p>
         <p class="result-desc" id="result-desc">完成练习</p>
         <p class="result-celebration" id="result-celebration" style="display: none;">🎉 全对！</p>
@@ -2518,7 +2514,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       </div>
     </div>
     <div id="sr-announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
-  </div>
+  </main>
 
   <div class="review-modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="review-modal-title">
     <div class="review-modal">
@@ -2590,12 +2586,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
   <div class="image-lightbox-overlay" id="image-lightbox-overlay" role="dialog" aria-modal="true" aria-label="放大查看图片">
     <div class="image-lightbox-content">
-      <img id="image-lightbox-img" src="" alt="放大图" />
+      <img id="image-lightbox-img" alt="放大图" />
       <button type="button" class="image-lightbox-close" id="image-lightbox-close" aria-label="关闭" aria-keyshortcuts="Escape">×</button>
     </div>
   </div>
 
-  <div id="toast" class="toast" aria-live="polite" role="status"></div>
+  <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"></div>
 
   <div class="edit-set-modal-overlay" id="edit-set-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-modal-title">
     <div class="edit-set-modal">
@@ -2671,7 +2667,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   </div>
 
   <!-- 记忆训练：翻牌训练遮罩 -->
-  <div class="flashcard-training-overlay" id="flashcard-training-overlay" role="dialog" aria-modal="true" style="display: none;">
+  <div class="flashcard-training-overlay" id="flashcard-training-overlay" role="dialog" aria-modal="true" aria-label="记忆卡片训练" style="display: none;">
     <div class="flashcard-training-inner">
       <div class="flashcard-training-progress" id="flashcard-training-progress"></div>
       <div class="flashcard-card-wrap" id="flashcard-card-wrap" tabindex="0">
@@ -2689,9 +2685,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   </div>
 
   <!-- 记忆训练：添加卡片弹窗 -->
-  <div class="flashcard-add-card-overlay" id="flashcard-add-card-overlay" role="dialog" aria-modal="true" style="display: none;">
+  <div class="flashcard-add-card-overlay" id="flashcard-add-card-overlay" role="dialog" aria-modal="true" aria-labelledby="flashcard-add-card-title" style="display: none;">
     <div class="flashcard-add-card-modal">
-      <h3>添加卡片</h3>
+      <h3 id="flashcard-add-card-title">添加卡片</h3>
       <label for="flashcard-input-front">正面</label>
       <textarea id="flashcard-input-front" rows="3" placeholder="词条、问题或提示…" autocomplete="off"></textarea>
       <label for="flashcard-input-back">反面</label>
@@ -2730,9 +2726,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
-  <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" style="display: none;">
+  <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" aria-labelledby="flashcard-import-json-title" style="display: none;">
     <div class="flashcard-add-card-modal flashcard-import-json-modal">
-      <h3>从 JSON 粘贴导入</h3>
+      <h3 id="flashcard-import-json-title">从 JSON 粘贴导入</h3>
       <p class="flashcard-import-hint">粘贴 AI 生成的卡片数组，每项需包含 <code>front</code> 和 <code>back</code> 字段。将追加到当前卡片组；正面+反面相同的重复卡片会自动跳过。</p>
       <textarea id="flashcard-import-json-textarea" rows="12" placeholder='[{"front":"正面1","back":"反面1"},{"front":"正面2","back":"反面2"}]' autocomplete="off"></textarea>
       <div class="flashcard-add-card-actions">
@@ -2863,6 +2859,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const IDB_VERSION = 1;
     const IDB_STORE = 'kv';
     let _idb = null;
+    let _storageReady = false;
 
     function openIDB() {
       return new Promise(function(resolve, reject) {
@@ -2978,6 +2975,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (e) { console.warn('[initStorage] questionNotes migration error', e); }
 
       console.log('[initStorage] IndexedDB ready, localStorage big keys cleaned up');
+      _storageReady = true;
     }
 
     async function hashPin(pin) {
@@ -3470,7 +3468,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const base = dir.endsWith('/') ? dir : dir + '/';
         url = location.origin + base + DATA_FILE_NAME;
       }
-      const btn = $('btn-load-cloud') || document.getElementById('btn-load-cloud');
+      const btn = $('btn-load-cloud');
       if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
       try {
         const controller = new AbortController();
@@ -4219,8 +4217,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const sets = getSavedSets().filter(s => String(s.id) !== String(_editingSetId));
         setSavedSets(sets);
         closeEditSetModal();
-        renderSavedSets();
-        updateStartPracticeSelect();
       });
     }
 
@@ -4478,10 +4474,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }, 1000);
     }
 
-    function showScreen(id) {
+    let _currentScreen = SCREEN.HOME;
+    function showScreen(id, pushState) {
       document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
       const screen = document.getElementById(id);
       screen.classList.add('active');
+      _currentScreen = id;
+      // Push browser history so back button returns to home
+      if (pushState !== false && id !== SCREEN.HOME) {
+        try { history.pushState({ screen: id }, ''); } catch (_) {}
+      }
       requestAnimationFrame(() => {
         if (id === SCREEN.QUIZ) {
           const first = screen.querySelector('.option, input[type="text"], .btn-primary');
@@ -4492,6 +4494,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       });
     }
+    window.addEventListener('popstate', function(e) {
+      if (_currentScreen !== SCREEN.HOME) {
+        showScreen(SCREEN.HOME, false);
+      }
+    });
 
     function normalizeJsonPaste(str) {
       if (typeof str !== 'string') return str;
@@ -5320,8 +5327,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function showResult() {
       clearQuizProgress();
-      if (state.practicedSetId) {
-        recordSavedSetPractice(state.practicedSetId);
+      var finishedSetId = state.practicedSetId;
+      if (finishedSetId) {
+        recordSavedSetPractice(finishedSetId);
         state.practicedSetId = null;
       }
       addTodayPractice(state.questions.length);
@@ -5352,10 +5360,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       pushRecentSession(state.questions.length, state.score);
-      if (state.sequentialBatch && state.practicedSetId) {
+      if (state.sequentialBatch && finishedSetId) {
         const sets = getSavedSets();
         const nextIdx = state.sequentialBatch.startIndex + state.sequentialBatch.count;
-        const updated = sets.map(s => String(s.id) === String(state.practicedSetId)
+        const updated = sets.map(s => String(s.id) === String(finishedSetId)
           ? Object.assign({}, s, { sequentialNextIndex: nextIdx })
           : s);
         setSavedSets(updated);
@@ -5417,7 +5425,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
 
-    ($('btn-start-practice') || document.getElementById('btn-start-practice')).addEventListener('click', () => {
+    $('btn-start-practice').addEventListener('click', () => {
+      if (!_storageReady) { showToast('数据加载中，请稍候…'); return; }
       const typeFilter = getSelectedTypeFilter();
       const sel = $('start-practice-select');
       const val = sel ? sel.value : 'default';
@@ -5469,7 +5478,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     });
 
-    ($('btn-import-show') || document.getElementById('btn-import-show')).addEventListener('click', async () => {
+    $('btn-import-show').addEventListener('click', async () => {
       if (!(await checkImportPin())) return;
       const sec = $('import-section');
       const btn = $('btn-import-show');
@@ -6160,9 +6169,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         t = setTimeout(fn, ms);
       };
     }
-    const searchInput = $('saved-sets-search') || document.getElementById('saved-sets-search');
+    const searchInput = $('saved-sets-search');
     if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 180));
-    const savedSetsList = $('saved-sets-list') || document.getElementById('saved-sets-list');
+    const savedSetsList = $('saved-sets-list');
     if (savedSetsList) savedSetsList.addEventListener('click', handleSavedSetsAction);
     document.getElementById('btn-add-folder').addEventListener('click', () => {
       customPrompt('输入文件夹名称', '').then(name => {
@@ -6706,6 +6715,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (e) {
         console.warn('[initApp] initStorage failed, using localStorage fallback', e);
       }
+      _storageReady = true;
       updateWrongCount();
       renderSavedSets();
       updateStatsBar();
@@ -6725,7 +6735,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
         } catch (_) {}
       }
-      var startSel = $('start-practice-select') || document.getElementById('start-practice-select');
+      var startSel = $('start-practice-select');
       if (startSel) startSel.addEventListener('change', updateCategoryFilter);
 
       // Restore in-progress quiz
