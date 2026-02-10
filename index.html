@@ -553,6 +553,10 @@
     .flashcard-import-hint { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem; }
     .flashcard-import-hint code { background: var(--surface); padding: 0.15em 0.4em; border-radius: 4px; }
     .flashcard-import-json-modal textarea { font-family: ui-monospace, monospace; font-size: 0.85rem; }
+    .edit-question-modal { max-width: 480px; }
+    .edit-question-modal #edit-question-options-list { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.35rem; }
+    .edit-question-modal #edit-question-options-list input { width: 100%; padding: 0.5rem 0.6rem; font-size: 0.9rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); box-sizing: border-box; }
+    .edit-question-modal #edit-question-correct-fill { width: 100%; padding: 0.5rem 0.6rem; font-size: 0.9rem; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); box-sizing: border-box; }
     body.theme-light .flashcards-deck-item { background: var(--bg); border-color: var(--border-subtle); }
     body.theme-light .flashcard-side { background: var(--card); border-color: var(--border-strong); }
     body.theme-light .flashcard-add-card-modal { background: var(--card); border-color: var(--border-strong); }
@@ -1104,7 +1108,7 @@
     body.theme-light .explanation-notes-textarea { background: var(--card); border-color: var(--border-strong); }
     .explanation-notes-edit-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
     .wrong-book-remove-wrap { margin-top: 0.75rem; }
-    .remove-from-set-wrap { margin-top: 0.5rem; }
+    .remove-from-set-wrap { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .btn-sm { padding: 0.4rem 0.75rem; font-size: 0.85rem; min-height: auto; }
 
     .quiz-actions {
@@ -2469,6 +2473,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-wrong">移出错题本</button>
         </div>
         <div class="remove-from-set-wrap" id="remove-from-set-wrap" style="display: none;">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-question-in-set">编辑本题</button>
           <button type="button" class="btn btn-secondary btn-sm" id="btn-remove-from-set">从练习集删除本题</button>
         </div>
       </div>
@@ -2689,6 +2694,32 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   </div>
 
   <!-- 记忆训练：从 JSON 粘贴导入 -->
+  <!-- 练习中编辑本题 -->
+  <div class="flashcard-add-card-overlay" id="edit-question-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-question-title" style="display: none;">
+    <div class="flashcard-add-card-modal edit-question-modal">
+      <h3 id="edit-question-title">编辑本题</h3>
+      <div id="edit-question-form">
+        <label for="edit-question-stem">题干</label>
+        <textarea id="edit-question-stem" rows="3" placeholder="题干内容" autocomplete="off"></textarea>
+        <div id="edit-question-options-wrap" style="display: none;">
+          <label>选项（可修改以去重或改错）</label>
+          <div id="edit-question-options-list"></div>
+          <label for="edit-question-correct-single">正确选项</label>
+          <select id="edit-question-correct-single" style="display: none;"></select>
+          <div id="edit-question-correct-multi" style="display: none;"></div>
+        </div>
+        <div id="edit-question-fill-wrap" style="display: none;">
+          <label for="edit-question-correct-fill">参考答案</label>
+          <input type="text" id="edit-question-correct-fill" placeholder="填空答案，多个用英文逗号分隔" autocomplete="off" />
+        </div>
+      </div>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-edit-question-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-edit-question-save">保存</button>
+      </div>
+    </div>
+  </div>
+
   <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" style="display: none;">
     <div class="flashcard-add-card-modal flashcard-import-json-modal">
       <h3>从 JSON 粘贴导入</h3>
@@ -5647,6 +5678,108 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (confirmed) removeCurrentQuestionFromSet();
       });
     });
+
+    function closeEditQuestionModal() {
+      const overlay = document.getElementById('edit-question-overlay');
+      if (overlay) { overlay.style.display = 'none'; clearModalFocusTrap(); }
+    }
+    function openEditQuestionModal() {
+      if (!state.practicedSetId) return;
+      const q = state.questions[state.index];
+      if (!q) return;
+      const overlay = document.getElementById('edit-question-overlay');
+      const stemEl = document.getElementById('edit-question-stem');
+      const optionsWrap = document.getElementById('edit-question-options-wrap');
+      const optionsList = document.getElementById('edit-question-options-list');
+      const correctSingle = document.getElementById('edit-question-correct-single');
+      const correctMulti = document.getElementById('edit-question-correct-multi');
+      const fillWrap = document.getElementById('edit-question-fill-wrap');
+      const correctFill = document.getElementById('edit-question-correct-fill');
+      if (!stemEl || !overlay) return;
+      stemEl.value = q.stem || '';
+      optionsWrap.style.display = 'none';
+      fillWrap.style.display = 'none';
+      correctSingle.style.display = 'none';
+      correctMulti.style.display = 'none';
+      if (q.type === 'single_choice' || q.type === 'multiple_choice') {
+        optionsWrap.style.display = 'block';
+        const opts = Array.isArray(q.options) ? q.options.slice() : [];
+        while (opts.length < 4) opts.push('');
+        optionsList.innerHTML = opts.map((text, i) => {
+          const letter = String.fromCharCode(65 + i);
+          return '<label style="display:flex;align-items:center;gap:0.5rem;"><span style="width:1.2rem;">' + letter + '.</span><input type="text" data-opt-index="' + i + '" value="' + escapeAttr(text) + '" placeholder="选项' + (i + 1) + '" /></label>';
+        }).join('');
+        const correctVal = q.correct;
+        if (q.type === 'single_choice') {
+          correctSingle.style.display = 'block';
+          correctSingle.innerHTML = opts.map((_, i) => '<option value="' + i + '"' + (Number(correctVal) === i ? ' selected' : '') + '>' + String.fromCharCode(65 + i) + '</option>').join('');
+          correctMulti.innerHTML = '';
+        } else {
+          correctMulti.style.display = 'block';
+          const arr = Array.isArray(correctVal) ? correctVal : [correctVal];
+          correctMulti.innerHTML = opts.map((_, i) => '<label style="display:flex;align-items:center;gap:0.35rem;margin-bottom:0.25rem;"><input type="checkbox" data-correct-index="' + i + '"' + (arr.indexOf(i) >= 0 ? ' checked' : '') + ' /><span>' + String.fromCharCode(65 + i) + '</span></label>').join('');
+        }
+      } else if (q.type === 'fill_blank' || q.type === 'paragraph_fill_blank') {
+        fillWrap.style.display = 'block';
+        const c = q.correct;
+        correctFill.value = Array.isArray(c) ? c.map(function(x) { return String(x).trim(); }).join(', ') : (c != null ? String(c) : '');
+      }
+      overlay.style.display = 'flex';
+      setModalFocusTrap(overlay);
+    }
+    function saveEditQuestion() {
+      const q = state.questions[state.index];
+      if (!q || !state.practicedSetId) return;
+      const stemEl = document.getElementById('edit-question-stem');
+      const stem = (stemEl && stemEl.value) ? stemEl.value.trim() : '';
+      if (!stem) { showToast('请填写题干'); return; }
+      let updated = Object.assign({}, q, { stem: stem });
+      if (q.type === 'single_choice' || q.type === 'multiple_choice') {
+        const inputs = document.querySelectorAll('#edit-question-options-list input[data-opt-index]');
+        const opts = [];
+        inputs.forEach(function(inp) {
+          const idx = parseInt(inp.getAttribute('data-opt-index'), 10);
+          const v = (inp.value || '').trim();
+          if (idx >= opts.length) opts.length = idx + 1;
+          opts[idx] = v;
+        });
+        for (let i = 0; i < opts.length; i++) if (opts[i] === undefined) opts[i] = '';
+        updated.options = opts;
+        if (q.type === 'single_choice') {
+          const sel = document.getElementById('edit-question-correct-single');
+          updated.correct = sel ? parseInt(sel.value, 10) : 0;
+        } else {
+          const checked = document.querySelectorAll('#edit-question-correct-multi input:checked');
+          updated.correct = Array.from(checked).map(function(c) { return parseInt(c.getAttribute('data-correct-index'), 10); });
+        }
+      } else if (q.type === 'fill_blank' || q.type === 'paragraph_fill_blank') {
+        const fillEl = document.getElementById('edit-question-correct-fill');
+        const raw = (fillEl && fillEl.value) ? fillEl.value.trim() : '';
+        updated.correct = raw.indexOf(',') >= 0 ? raw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : raw;
+      }
+      const currentId = wrongBookItemId(q);
+      const sets = getSavedSets();
+      const setId = String(state.practicedSetId);
+      const set = sets.find(function(s) { return String(s.id) === setId; });
+      if (set && set.questions) {
+        const idxInSet = set.questions.findIndex(function(qq) { return wrongBookItemId(qq) === currentId; });
+        if (idxInSet >= 0) set.questions[idxInSet] = updated;
+        const updatedSets = sets.map(function(s) { return String(s.id) === setId ? Object.assign({}, s, { questions: set.questions }) : s; });
+        setSavedSets(updatedSets);
+      }
+      state.questions[state.index] = updated;
+      _wrongBookIdCache.delete(q);
+      closeEditQuestionModal();
+      renderQuestion();
+      showToast('已保存修改');
+    }
+
+    document.getElementById('btn-edit-question-in-set').addEventListener('click', openEditQuestionModal);
+    document.getElementById('btn-edit-question-cancel').addEventListener('click', closeEditQuestionModal);
+    document.getElementById('btn-edit-question-save').addEventListener('click', saveEditQuestion);
+    document.getElementById('edit-question-overlay').addEventListener('click', function(e) {
+      if (e.target.id === 'edit-question-overlay') closeEditQuestionModal();
+    });
     document.getElementById('btn-exit-quiz').addEventListener('click', () => {
       customConfirm('确定要提前退出吗？').then(confirmed => {
         if (confirmed) {
@@ -5992,6 +6125,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         else if (id === 'edit-set-modal-overlay') closeEditSetModal();
         else if (id === 'preview-questions-overlay') closePreviewQuestions();
         else if (id === 'image-lightbox-overlay') closeImageLightbox();
+        else if (id === 'edit-question-overlay') closeEditQuestionModal();
         e.preventDefault();
         return;
       }
