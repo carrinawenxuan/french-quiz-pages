@@ -1008,6 +1008,12 @@
       margin: 0;
       accent-color: var(--accent);
     }
+    .option input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
     .option-label {
       flex: 1;
     }
@@ -4717,6 +4723,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const input = label.querySelector('input');
           if (isMulti) {
             input.checked = !input.checked;
+            optionsEl.querySelectorAll('.option').forEach(l => {
+              const inp = l.querySelector('input');
+              if (inp && inp.checked) l.classList.add('selected'); else l.classList.remove('selected');
+            });
           } else {
             optionsEl.querySelectorAll('.option').forEach(l => l.classList.remove('selected'));
             optionsEl.querySelectorAll('input').forEach(inp => { inp.checked = false; });
@@ -5793,6 +5803,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     });
     document.getElementById('fill-input').addEventListener('keydown', e => {
       if (e.key === 'Enter') {
+        e.preventDefault();
+        e.stopPropagation();
         if (state.answered) nextQuestion();
         else submitAnswer();
       }
