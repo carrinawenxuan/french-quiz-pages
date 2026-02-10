@@ -1,6 +1,718 @@
 {
   "savedSets": [
     {
+      "id": 1770690169088,
+      "name": "复合过去时Avoir vs Être",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-10T02:22:49.088Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Hier, Marie _____ au cinéma.",
+          "options": [
+            "a allé",
+            "est allé",
+            "est allée",
+            "a allée"
+          ],
+          "correct": 2,
+          "explanation": "aller用être，Marie女性要配合+e",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ un bon film la semaine dernière.",
+          "options": [
+            "avons vu",
+            "sommes vus",
+            "avons vus",
+            "sommes vu"
+          ],
+          "correct": 0,
+          "explanation": "voir用avoir，avoir不配合主语",
+          "category": "avoir动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ très tôt ce matin.",
+          "options": [
+            "ont levé",
+            "se sont levé",
+            "se sont levés",
+            "s'ont levés"
+          ],
+          "correct": 2,
+          "explanation": "se lever代词式动词用être，没有s'ont，配合复数+s",
+          "category": "代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ ses clés hier.",
+          "options": [
+            "a perdu",
+            "est perdue",
+            "a perdues",
+            "est perdu"
+          ],
+          "correct": 0,
+          "explanation": "perdre用avoir，avoir不配合主语",
+          "category": "avoir动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ en France l'année dernière.",
+          "options": [
+            "ont resté",
+            "sont restés",
+            "ont restés",
+            "sont resté"
+          ],
+          "correct": 1,
+          "explanation": "rester用être，ils复数配合+s",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur _____ médecin.",
+          "options": [
+            "a devenu",
+            "est devenu",
+            "est devenue",
+            "a devenue"
+          ],
+          "correct": 2,
+          "explanation": "devenir用être，sœur女性配合+e",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ à quelle heure, mesdames?",
+          "options": [
+            "êtes arrivés",
+            "êtes arrivées",
+            "avez arrivé",
+            "avez arrivées"
+          ],
+          "correct": 1,
+          "explanation": "arriver用être，mesdames女复配合+es",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre et Marie _____ tard hier soir.",
+          "options": [
+            "sont rentrées",
+            "sont rentrés",
+            "ont rentré",
+            "ont rentrés"
+          ],
+          "correct": 1,
+          "explanation": "rentrer无宾语用être，混合复数用阳性+s",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ pendant trois heures.",
+          "options": [
+            "a dormi",
+            "est dormi",
+            "a dormie",
+            "est dormie"
+          ],
+          "correct": 0,
+          "explanation": "dormir用avoir，avoir不配合主语",
+          "category": "avoir动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les filles _____ dans le parc.",
+          "options": [
+            "ont tombé",
+            "sont tombés",
+            "sont tombées",
+            "ont tombées"
+          ],
+          "correct": 2,
+          "explanation": "tomber用être，filles女复配合+es",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon grand-père _____ en 1920.",
+          "options": [
+            "a né",
+            "est né",
+            "a naît",
+            "est naît"
+          ],
+          "correct": 1,
+          "explanation": "naître用être，过去分词是né",
+          "category": "être动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ ce matin à 7 heures.",
+          "options": [
+            "a levé",
+            "s'est levé",
+            "s'est levée",
+            "s'a levée"
+          ],
+          "correct": 2,
+          "explanation": "se lever代词式用être，没有s'a，女性+e",
+          "category": "代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ beaucoup de chance.",
+          "options": [
+            "sommes eu",
+            "avons eu",
+            "avons eus",
+            "sommes eus"
+          ],
+          "correct": 1,
+          "explanation": "avoir用avoir作助动词，不配合",
+          "category": "avoir动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et Julie _____ à Paris.",
+          "options": [
+            "sont allés",
+            "sont allées",
+            "ont allé",
+            "ont allées"
+          ],
+          "correct": 1,
+          "explanation": "aller用être，两个女性配合+es",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ par la fenêtre.",
+          "options": [
+            "a sorti",
+            "est sorti",
+            "a sortie",
+            "est sortie"
+          ],
+          "correct": 1,
+          "explanation": "sortir无宾语用être，il阳性不变",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ les poubelles.",
+          "options": [
+            "a sorti",
+            "est sortie",
+            "a sortie",
+            "est sorti"
+          ],
+          "correct": 0,
+          "explanation": "sortir有宾语(les poubelles)用avoir，不配合",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ les valises au 3e étage.",
+          "options": [
+            "suis monté",
+            "ai monté",
+            "suis montée",
+            "ai montée"
+          ],
+          "correct": 1,
+          "explanation": "monter有宾语(les valises)用avoir",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ au 3e étage.",
+          "options": [
+            "a monté",
+            "a montée",
+            "est montée",
+            "est monté"
+          ],
+          "correct": 2,
+          "explanation": "monter无宾语用être，女性配合+e",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ un examen difficile.",
+          "options": [
+            "est passé",
+            "a passé",
+            "est passée",
+            "a passée"
+          ],
+          "correct": 1,
+          "explanation": "passer un examen有宾语用avoir",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ par Paris.",
+          "options": [
+            "a passé",
+            "est passé",
+            "a passée",
+            "est passée"
+          ],
+          "correct": 3,
+          "explanation": "passer par无直接宾语用être，女性+e",
+          "category": "双面动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ les mains avant de manger.",
+          "options": [
+            "se sont lavées",
+            "se sont lavé",
+            "s'ont lavé",
+            "s'ont lavées"
+          ],
+          "correct": 1,
+          "explanation": "有身体部位les mains不配合，没有s'ont",
+          "category": "代词式例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ ce matin.",
+          "options": [
+            "s'est lavé",
+            "s'est lavée",
+            "s'a lavée",
+            "s'a lavé"
+          ],
+          "correct": 1,
+          "explanation": "无身体部位，配合主语+e，没有s'a",
+          "category": "代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ très surpris.",
+          "options": [
+            "ont été",
+            "sont été",
+            "ont étés",
+            "sont étés"
+          ],
+          "correct": 0,
+          "explanation": "être用avoir：ont été，不是sont été",
+          "category": "être特殊"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ malade la semaine dernière.",
+          "options": [
+            "est été",
+            "a été",
+            "a étée",
+            "est étée"
+          ],
+          "correct": 1,
+          "explanation": "être用avoir作助动词：a été",
+          "category": "être特殊"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les touristes _____ par cette rue.",
+          "options": [
+            "ont passé",
+            "sont passé",
+            "sont passés",
+            "ont passés"
+          ],
+          "correct": 2,
+          "explanation": "passer par无宾语用être，复数+s",
+          "category": "双面动词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词用être作助动词？",
+          "options": [
+            "aller",
+            "manger",
+            "venir",
+            "dormir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "aller和venir是14个être动词之一",
+          "category": "être动词识别"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Elle est arrivée.",
+            "Elle a arrivé.",
+            "Elle s'est levée.",
+            "Elle s'a levée."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "arriver用être，代词式用être没有s'a",
+          "category": "avoir vs être"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是双面动词（avoir/être都可能）？",
+          "options": [
+            "monter",
+            "aller",
+            "sortir",
+            "venir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "monter和sortir有宾语用avoir，无宾语用être",
+          "category": "双面动词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些配合是正确的？",
+          "options": [
+            "Elles sont allées.",
+            "Elles sont allés.",
+            "Elle a mangé.",
+            "Elle a mangée."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "être配合女复+es，avoir不配合主语",
+          "category": "配合规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "代词式动词的正确形式是？",
+          "options": [
+            "Elle s'est habillée.",
+            "Elle s'a habillée.",
+            "Ils se sont levés.",
+            "Ils s'ont levés."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "代词式用être：s'est/se sont，没有s'a/s'ont",
+          "category": "代词式动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Marie _____ (arriver) hier soir.",
+          "correct": [
+            "est arrivée"
+          ],
+          "explanation": "arriver用être，Marie女性配合+e",
+          "category": "être动词配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (manger) au restaurant.",
+          "correct": [
+            "avons mangé"
+          ],
+          "explanation": "manger用avoir，不配合主语",
+          "category": "avoir动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (partir) à 8 heures.",
+          "correct": [
+            "sont parties"
+          ],
+          "explanation": "partir用être，elles女复配合+es",
+          "category": "être动词配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (se lever) tôt ce matin.",
+          "correct": [
+            "s'est levée"
+          ],
+          "explanation": "代词式用être，女性配合+e",
+          "category": "代词式动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (monter) les escaliers. (有宾语)",
+          "correct": [
+            "a monté"
+          ],
+          "explanation": "monter有宾语用avoir",
+          "category": "双面动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (monter) au 5e étage. (无宾语)",
+          "correct": [
+            "est montée"
+          ],
+          "explanation": "monter无宾语用être，女性+e",
+          "category": "双面动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (être) très content.",
+          "correct": [
+            "a été"
+          ],
+          "explanation": "être用avoir作助动词：a été",
+          "category": "être特殊"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pierre et Marie _____ (rentrer) tard.",
+          "correct": [
+            "sont rentrés"
+          ],
+          "explanation": "rentrer用être，混合复数用阳性+s",
+          "category": "être动词配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (se laver) les mains.",
+          "correct": [
+            "s'est lavé"
+          ],
+          "explanation": "有身体部位les mains不配合",
+          "category": "代词式例外"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les filles _____ (tomber) dans la rue.",
+          "correct": [
+            "sont tombées"
+          ],
+          "explanation": "tomber用être，女复配合+es",
+          "category": "être动词配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, Marie _____ (aller) au cinéma et elle _____ (voir) un film.",
+          "correct": [
+            "est allée",
+            "a vu"
+          ],
+          "explanation": "aller用être配合，voir用avoir不配合",
+          "category": "avoir vs être"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Les enfants _____ (se réveiller) tôt et ils _____ (prendre) le petit-déjeuner.",
+          "correct": [
+            "se sont réveillés",
+            "ont pris"
+          ],
+          "explanation": "代词式用être配合，prendre用avoir",
+          "category": "综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle _____ (sortir) les poubelles puis elle _____ (sortir) de la maison.",
+          "correct": [
+            "a sorti",
+            "est sortie"
+          ],
+          "explanation": "有宾语用avoir，无宾语用être配合",
+          "category": "双面动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ (naître) en 1990 et il _____ (devenir) médecin en 2015.",
+          "correct": [
+            "est né",
+            "est devenu"
+          ],
+          "explanation": "naître和devenir都用être",
+          "category": "être动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elles _____ (se laver) puis elles _____ (s'habiller).",
+          "correct": [
+            "se sont lavées",
+            "se sont habillées"
+          ],
+          "explanation": "代词式用être，无身体部位配合女复+es",
+          "category": "代词式动词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1nSirDk-Y31MT5KCkqQadwkyAgu-xUbV7Nh6xrZCALAw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1770690757245-wk4ssdka3j",
+          "front": "【触发】看到 aller, venir, arriver, partir →",
+          "back": "立刻用 être！\n\n这是14个être动词中的核心4个\n\n✅ Elle est allée.\n❌ Elle a allé."
+        },
+        {
+          "id": "1770690757245-rni1fli1ra",
+          "front": "【触发】看到 se + 动词（代词式）→",
+          "back": "立刻用 être！\n\n没有 s'a / s'ont\n只有 s'est / se sont\n\n✅ Elle s'est levée.\n❌ Elle s'a levée."
+        },
+        {
+          "id": "1770690757245-t33cdspvcpr",
+          "front": "【触发】看到 monter/descendre/sortir + 宾语 →",
+          "back": "用 avoir！（双面动词）\n\n有宾语 = avoir\n无宾语 = être\n\n✅ J'ai monté les valises.\n✅ Je suis monté."
+        },
+        {
+          "id": "1770690757245-gdradykdwww",
+          "front": "【铁律】avoir vs être 配合规则",
+          "back": "avoir = 不配合主语\nêtre = 必须配合主语\n\navoir: Elle a mangé. (不加e)\nêtre: Elle est arrivée. (加e)"
+        },
+        {
+          "id": "1770690757245-rgjaebge1z",
+          "front": "【14个être动词】人生轨迹记忆法",
+          "back": "出生：naître\n成长：devenir\n移动：aller/venir/arriver/partir\n进出：entrer/sortir\n上下：monter/descendre\n留/返：rester/retourner/rentrer\n经过：passer\n摔倒：tomber\n死亡：mourir"
+        },
+        {
+          "id": "1770690757245-9kdy7s0ng9s",
+          "front": "【口诀】DR MRS VANDERTRAMP",
+          "back": "D-Devenir R-Rester\nM-Monter R-Retourner S-Sortir\nV-Venir A-Aller N-Naître\nD-Descendre E-Entrer R-Rentrer\nT-Tomber R-Retourner\nA-Arriver M-Mourir P-Partir/Passer"
+        },
+        {
+          "id": "1770690757245-4xgnkpt8auq",
+          "front": "【陷阱】Elle a arrivé 对吗？",
+          "back": "❌ 错！\n\narriver 是14个être动词之一\n\n✅ Elle est arrivée.\n\n记忆钩：到达是状态变化，用être"
+        },
+        {
+          "id": "1770690757245-bbv3p06x00u",
+          "front": "【陷阱】Elle s'a levée 对吗？",
+          "back": "❌ 错！没有 s'a！\n\n代词式动词永远用 être\n\n✅ Elle s'est levée.\n✅ Ils se sont levés.\n\n记忆钩：se + être = s'est/se sont"
+        },
+        {
+          "id": "1770690757245-4cagn4kg5bt",
+          "front": "【陷阱】Elles sont arrivés 对吗？",
+          "back": "❌ 错！女复用 -es，不是 -s\n\n✅ Elles sont arrivées.\n\n配合规则：\n女单 +e\n男复 +s\n女复 +es"
+        },
+        {
+          "id": "1770690757245-qvr77iu57h",
+          "front": "【陷阱】être的复合过去时怎么说？",
+          "back": "用 avoir！不是 être！\n\n❌ Il est été malade.\n✅ Il a été malade.\n\n记忆钩：être叛变，投靠avoir"
+        },
+        {
+          "id": "1770690757245-ar1uq9qggk7",
+          "front": "【双面动词】monter",
+          "back": "有宾语 → avoir（不配合）\nJ'ai monté les valises.\n\n无宾语 → être（配合）\nJe suis monté(e).\n\n判断：看后面有没有东西"
+        },
+        {
+          "id": "1770690757245-ulzc8cmc7kn",
+          "front": "【双面动词】sortir",
+          "back": "有宾语 → avoir\nJ'ai sorti les poubelles.\n\n无宾语 → être\nJe suis sorti(e).\n\n记忆钩：拿出东西=avoir，出去=être"
+        },
+        {
+          "id": "1770690757245-zj6xpwbqork",
+          "front": "【双面动词】passer",
+          "back": "passer + 宾语 → avoir\nJ'ai passé un examen.\n\npasser par → être\nJe suis passé(e) par Paris.\n\n记忆钩：考试=avoir，经过=être"
+        },
+        {
+          "id": "1770690757245-ewnfs6algfm",
+          "front": "【双面动词】descendre",
+          "back": "有宾语 → avoir\nJ'ai descendu l'escalier.\n\n无宾语 → être\nJe suis descendu(e).\n\n判断铁律：有宾语=avoir"
+        },
+        {
+          "id": "1770690757245-rvrckv55wtr",
+          "front": "【代词式例外】有身体部位时",
+          "back": "不配合！\n\n❌ Elle s'est lavée les mains.\n✅ Elle s'est lavé les mains.\n\n原因：les mains是直接宾语\nse变成间接宾语"
+        },
+        {
+          "id": "1770690757245-v16jbcn9sxg",
+          "front": "【对比】se laver 配合 vs 不配合",
+          "back": "无身体部位 → 配合\nElle s'est lavée.\n\n有身体部位 → 不配合\nElle s'est lavé les mains.\n\n判断：后面有没有身体部位"
+        },
+        {
+          "id": "1770690757245-01crysd7auxs",
+          "front": "【混合复数】Pierre et Marie",
+          "back": "混合性别 = 用阳性复数\n\n✅ Pierre et Marie sont allés.\n❌ Pierre et Marie sont allées.\n\n记忆钩：有男就用男"
+        },
+        {
+          "id": "1770690757245-v14qsr3mtv",
+          "front": "【être配合表】",
+          "back": "男单：不变 (allé)\n女单：+e (allée)\n男复：+s (allés)\n女复：+es (allées)\n混合：+s (allés)"
+        },
+        {
+          "id": "1770690757245-80cufljlf4n",
+          "front": "【avoir配合规则】",
+          "back": "通常不配合主语！\n\n✅ Elle a mangé.\n❌ Elle a mangée.\n\n例外：直接宾语前置才配合\nLa pomme que j'ai mangée."
+        },
+        {
+          "id": "1770690757245-tp5ib29wast",
+          "front": "【快速判断三步法】",
+          "back": "1⃣ se动词？→ être\n2⃣ 14个位移动词？\n   有宾语 → avoir\n   无宾语 → être\n3⃣ 其他 → avoir"
+        },
+        {
+          "id": "1770690757245-3lhvl7fc6vx",
+          "front": "【考官视角】为什么考 avoir vs être？",
+          "back": "区分等级：\nA2：知道avoir\nB1：知道14个être\nB2：能判断双面动词\n\n最大筛人点：代词式动词s'a陷阱"
+        },
+        {
+          "id": "1770690757245-m28bhqk9gw",
+          "front": "【一句话钩子】助动词选择",
+          "back": "默认 avoir\n位移用 être\nse动词 être\n有宾语 avoir"
+        },
+        {
+          "id": "1770690757245-4ay881na8tt",
+          "front": "【一句话钩子】配合规则",
+          "back": "avoir 不配合\nêtre 必配合\n女加e 复加s"
+        },
+        {
+          "id": "1770690757245-fh64n5ewusg",
+          "front": "【一句话钩子】代词式动词",
+          "back": "没有 s'a\n只有 s'est\n身体部位不配合"
+        },
+        {
+          "id": "1770690757245-qy1voufnt9",
+          "front": "【一句话钩子】双面动词",
+          "back": "有宾语用 avoir\n无宾语用 être\n\nmonter/descendre/sortir/rentrer/passer/retourner"
+        },
+        {
+          "id": "1770690757245-r2zc9s3gboo",
+          "front": "【填空练习】Elle _____ (aller) au marché.",
+          "back": "est allée\n\naller = être动词\nElle = 女性 → +e"
+        },
+        {
+          "id": "1770690757245-03icxhouq4u2",
+          "front": "【填空练习】Il _____ (manger) une pomme.",
+          "back": "a mangé\n\nmanger = avoir动词\navoir不配合主语"
+        },
+        {
+          "id": "1770690757245-5s9rgdazwy3",
+          "front": "【填空练习】Elles _____ (partir) hier.",
+          "back": "sont parties\n\npartir = être动词\nElles = 女复 → +es"
+        },
+        {
+          "id": "1770690757245-lc59wpedfym",
+          "front": "【填空练习】Elle _____ (se lever) tôt.",
+          "back": "s'est levée\n\n代词式 = être\n女性 → +e\n没有s'a！"
+        },
+        {
+          "id": "1770690757245-dt1vexkblit",
+          "front": "【填空练习】J'_____ (monter) les valises.",
+          "back": "ai monté\n\n有宾语les valises\n双面动词有宾语 = avoir"
+        }
+      ]
+    },
+    {
       "id": 1770683666431,
       "name": "特殊过去分词",
       "folderId": "1770593095506",
@@ -10986,6 +11698,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-10T01:11:43.452Z",
+  "exportedAt": "2026-02-10T02:32:44.566Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }

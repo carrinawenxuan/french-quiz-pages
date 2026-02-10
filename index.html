@@ -4791,6 +4791,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         label.addEventListener('click', () => {
           if (state.answered) return;
           const input = label.querySelector('input');
+          if (!input) return;
           if (isMulti) {
             input.checked = !input.checked;
             optionsEl.querySelectorAll('.option').forEach(l => {
@@ -5077,11 +5078,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.answered = true;
       clearTimer();
       var feedbackEl = document.getElementById('answer-feedback');
-      feedbackEl.textContent = saved.correct ? '正确！' : '错误';
-      feedbackEl.className = 'answer-feedback ' + (saved.correct ? 'correct-msg' : 'wrong-msg');
-      feedbackEl.style.display = 'block';
+      if (feedbackEl) {
+        feedbackEl.textContent = saved.correct ? '正确！' : '错误';
+        feedbackEl.className = 'answer-feedback ' + (saved.correct ? 'correct-msg' : 'wrong-msg');
+        feedbackEl.style.display = 'block';
+      }
       var explanationEl = document.getElementById('explanation');
-      explanationEl.textContent = saved.explanationText || '';
+      if (explanationEl) explanationEl.textContent = saved.explanationText || '';
       var scrollWrap = document.getElementById('explanation-scroll-wrap');
       if (scrollWrap) {
         scrollWrap.style.display = 'block';
