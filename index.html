@@ -2819,6 +2819,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _savedSetsCacheDirty = true;
     let _wrongBookCache = null;
     let _wrongBookCacheDirty = true;
+    let _flashcardDecksCache = null;
+    let _questionNotesCache = null;
     const _escapeDiv = document.createElement('div');
     const _wrongBookIdCache = new WeakMap();
     let _modalLastFocus = null;
@@ -2854,6 +2856,128 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         handleError(error, context);
         return fallback;
       }
+    }
+
+    /* ── IndexedDB Storage Layer ── */
+    const IDB_NAME = 'french_quiz_idb';
+    const IDB_VERSION = 1;
+    const IDB_STORE = 'kv';
+    let _idb = null;
+
+    function openIDB() {
+      return new Promise(function(resolve, reject) {
+        if (!window.indexedDB) { reject(new Error('IndexedDB not supported')); return; }
+        var req = indexedDB.open(IDB_NAME, IDB_VERSION);
+        req.onupgradeneeded = function() { req.result.createObjectStore(IDB_STORE); };
+        req.onsuccess = function() { _idb = req.result; resolve(_idb); };
+        req.onerror = function() { reject(req.error); };
+      });
+    }
+    function idbGet(key) {
+      if (!_idb) return Promise.resolve(undefined);
+      return new Promise(function(resolve, reject) {
+        var tx = _idb.transaction(IDB_STORE, 'readonly');
+        var req = tx.objectStore(IDB_STORE).get(key);
+        req.onsuccess = function() { resolve(req.result); };
+        req.onerror = function() { reject(req.error); };
+      });
+    }
+    function idbSet(key, value) {
+      if (!_idb) return Promise.resolve();
+      return new Promise(function(resolve, reject) {
+        var tx = _idb.transaction(IDB_STORE, 'readwrite');
+        tx.objectStore(IDB_STORE).put(value, key);
+        tx.oncomplete = function() { resolve(); };
+        tx.onerror = function() { reject(tx.error); };
+      });
+    }
+    function idbDelete(key) {
+      if (!_idb) return Promise.resolve();
+      return new Promise(function(resolve, reject) {
+        var tx = _idb.transaction(IDB_STORE, 'readwrite');
+        tx.objectStore(IDB_STORE).delete(key);
+        tx.oncomplete = function() { resolve(); };
+        tx.onerror = function() { reject(tx.error); };
+      });
+    }
+
+    async function initStorage() {
+      try {
+        await openIDB();
+      } catch (e) {
+        console.warn('[initStorage] IndexedDB unavailable, using localStorage fallback', e);
+        return;
+      }
+
+      // savedSets: IDB → cache, or migrate from localStorage → IDB
+      try {
+        var val = await idbGet('savedSets');
+        if (val !== undefined) {
+          _savedSetsCache = Array.isArray(val) ? val : [];
+          _savedSetsCacheDirty = false;
+          try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
+        } else {
+          var raw = localStorage.getItem(SAVED_SETS_KEY);
+          if (raw) {
+            _savedSetsCache = JSON.parse(raw);
+            _savedSetsCacheDirty = false;
+            await idbSet('savedSets', _savedSetsCache);
+            try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
+          }
+        }
+      } catch (e) { console.warn('[initStorage] savedSets migration error', e); }
+
+      // wrongBook
+      try {
+        val = await idbGet('wrongBook');
+        if (val !== undefined) {
+          _wrongBookCache = Array.isArray(val) ? val : [];
+          _wrongBookCacheDirty = false;
+          try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
+        } else {
+          var raw = localStorage.getItem(WRONG_BOOK_KEY);
+          if (raw) {
+            _wrongBookCache = JSON.parse(raw);
+            _wrongBookCacheDirty = false;
+            await idbSet('wrongBook', _wrongBookCache);
+            try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
+          }
+        }
+      } catch (e) { console.warn('[initStorage] wrongBook migration error', e); }
+
+      // flashcardDecks
+      try {
+        val = await idbGet('flashcardDecks');
+        if (val !== undefined) {
+          _flashcardDecksCache = Array.isArray(val) ? val : [];
+          try { localStorage.removeItem(FLASHCARD_DECKS_KEY); } catch (_) {}
+        } else {
+          var raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
+          if (raw) {
+            _flashcardDecksCache = JSON.parse(raw);
+            await idbSet('flashcardDecks', _flashcardDecksCache);
+            try { localStorage.removeItem(FLASHCARD_DECKS_KEY); } catch (_) {}
+          }
+        }
+      } catch (e) { console.warn('[initStorage] flashcardDecks migration error', e); }
+
+      // questionNotes
+      try {
+        val = await idbGet('questionNotes');
+        if (val !== undefined) {
+          _questionNotesCache = (val && typeof val === 'object' && !Array.isArray(val)) ? val : {};
+          try { localStorage.removeItem(QUESTION_NOTES_KEY); } catch (_) {}
+        } else {
+          var raw = localStorage.getItem(QUESTION_NOTES_KEY);
+          if (raw) {
+            _questionNotesCache = JSON.parse(raw);
+            await idbSet('questionNotes', _questionNotesCache);
+            try { localStorage.removeItem(QUESTION_NOTES_KEY); } catch (_) {}
+          }
+        }
+      } catch (e) { console.warn('[initStorage] questionNotes migration error', e); }
+
+      console.log('[initStorage] IndexedDB ready, localStorage big keys cleaned up');
     }
 
     async function hashPin(pin) {
@@ -3259,10 +3383,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function getDataForExport() {
       const timerEl = document.getElementById('timer-seconds');
       let questionNotes = {};
-      try {
-        const raw = localStorage.getItem(QUESTION_NOTES_KEY);
-        if (raw) questionNotes = JSON.parse(raw);
-      } catch (_) {}
+      if (_questionNotesCache !== null) {
+        questionNotes = _questionNotesCache;
+      } else {
+        try {
+          const raw = localStorage.getItem(QUESTION_NOTES_KEY);
+          if (raw) questionNotes = JSON.parse(raw);
+        } catch (_) {}
+      }
       const out = {
         savedSets: getSavedSets(),
         folders: getFolders(),
@@ -3297,9 +3425,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (safe.folders != null) setFolders(Array.isArray(safe.folders) ? safe.folders : []);
       if (safe.wrongBook != null) setWrongBook(Array.isArray(safe.wrongBook) ? safe.wrongBook : []);
       if (safe.questionNotes != null && typeof safe.questionNotes === 'object') {
-        try {
-          localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes));
-        } catch (_) {}
+        _questionNotesCache = safe.questionNotes;
+        if (_idb) {
+          idbSet('questionNotes', _questionNotesCache).catch(function(e) { console.error('[loadDataFromObject] IDB questionNotes error', e); });
+        } else {
+          try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes)); } catch (_) {}
+        }
       }
       if (safe.timerSeconds != null) {
         const n = Math.max(0, Math.min(120, parseInt(safe.timerSeconds, 10) || 10));
@@ -3366,7 +3497,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const cardStr = cardCount ? '，' + cardCount + ' 张记忆卡' : '';
         showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : '') + cardStr);
       } catch (e) {
-        const msg = e && e.name === 'AbortError' ? '加载超时（30秒），请检查网络后重试' : '加载失败：' + (e && e.message ? e.message : '未知错误') + '。若仍失败可尝试「从文件导入」或「从同步文本导入」';
+        let msg;
+        if (e && e.name === 'AbortError') {
+          msg = '加载超时（30秒），请检查网络后重试';
+        } else if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message || ''))) {
+          msg = '存储空间不足。请先清理不需要的习题集后重试';
+        } else {
+          msg = '加载失败：' + (e && e.message ? e.message : '未知错误') + '。若仍失败可尝试「从文件导入」或「从同步文本导入」';
+        }
         showToast(msg);
         console.error('[loadFromCloud]', e);
       }
@@ -3490,14 +3628,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     function getFlashcardDecks() {
+      if (_flashcardDecksCache !== null) return _flashcardDecksCache;
       try {
         const raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
-        const arr = raw ? JSON.parse(raw) : [];
-        return Array.isArray(arr) ? arr : [];
+        _flashcardDecksCache = raw ? JSON.parse(raw) : [];
+        return Array.isArray(_flashcardDecksCache) ? _flashcardDecksCache : [];
       } catch (_) { return []; }
     }
     function setFlashcardDecks(decks) {
-      localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(decks));
+      _flashcardDecksCache = decks;
+      if (_idb) {
+        idbSet('flashcardDecks', decks).catch(function(e) {
+          console.error('[setFlashcardDecks] IDB write error', e);
+        });
+      } else {
+        try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(decks)); } catch (_) {}
+      }
     }
 
     function getSavedSets() {
@@ -3512,7 +3658,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function setSavedSets(arr) {
       _savedSetsCache = arr;
       _savedSetsCacheDirty = false;
-      localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
+      if (_idb) {
+        idbSet('savedSets', arr).catch(function(e) {
+          console.error('[setSavedSets] IDB write error', e);
+          showToast('数据保存异常，请刷新页面重试');
+        });
+      } else {
+        try {
+          localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
+        } catch (e) {
+          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
+            showToast('存储空间不足，数据可能未完全保存。请清理不需要的习题集后重试');
+            console.error('[setSavedSets] QuotaExceeded', e);
+          } else { throw e; }
+        }
+      }
       renderSavedSets();
       updateStatsBar();
       updateStartPracticeSelect();
@@ -4081,6 +4241,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return id;
     }
     function getQuestionNotes(questionId) {
+      if (_questionNotesCache !== null) {
+        return (_questionNotesCache[questionId] != null) ? String(_questionNotesCache[questionId]) : '';
+      }
       try {
         const raw = localStorage.getItem(QUESTION_NOTES_KEY);
         const obj = raw ? JSON.parse(raw) : {};
@@ -4088,13 +4251,25 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (_) { return ''; }
     }
     function setQuestionNotes(questionId, text) {
-      try {
-        const raw = localStorage.getItem(QUESTION_NOTES_KEY);
-        const obj = raw ? JSON.parse(raw) : {};
-        obj[questionId] = (text || '').trim();
-        if (!obj[questionId]) delete obj[questionId];
-        localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(obj));
-      } catch (_) {}
+      if (_questionNotesCache === null) {
+        try {
+          const raw = localStorage.getItem(QUESTION_NOTES_KEY);
+          _questionNotesCache = raw ? JSON.parse(raw) : {};
+        } catch (_) { _questionNotesCache = {}; }
+      }
+      const trimmed = (text || '').trim();
+      if (trimmed) {
+        _questionNotesCache[questionId] = trimmed;
+      } else {
+        delete _questionNotesCache[questionId];
+      }
+      if (_idb) {
+        idbSet('questionNotes', _questionNotesCache).catch(function(e) {
+          console.error('[setQuestionNotes] IDB write error', e);
+        });
+      } else {
+        try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(_questionNotesCache)); } catch (_) {}
+      }
     }
     function getWrongBook() {
       if (!_wrongBookCacheDirty && _wrongBookCache !== null) return _wrongBookCache;
@@ -4108,7 +4283,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function setWrongBook(arr) {
       _wrongBookCache = arr;
       _wrongBookCacheDirty = false;
-      localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
+      if (_idb) {
+        idbSet('wrongBook', arr).catch(function(e) {
+          console.error('[setWrongBook] IDB write error', e);
+          showToast('错题本保存异常，请刷新页面重试');
+        });
+      } else {
+        try {
+          localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
+        } catch (e) {
+          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
+            showToast('存储空间不足，错题本可能未保存');
+            console.error('[setWrongBook] QuotaExceeded', e);
+          } else { throw e; }
+        }
+      }
       updateWrongCount();
       updateStatsBar();
     }
@@ -6510,33 +6699,39 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
     })();
-    updateWrongCount();
-    renderSavedSets();
-    updateStatsBar();
-    updateStartPracticeSelect();
-    renderFolderSelects();
-    updateCategoryFilter();
-    if (typeof performance !== 'undefined' && performance.mark) {
-      performance.mark('app-ready');
-      try { performance.measure('app-init', 'app-start', 'app-ready'); } catch (_) {}
-    }
-    if (typeof PerformanceObserver !== 'undefined') {
+    // Initialize IndexedDB, migrate from localStorage, then render
+    (async function initApp() {
       try {
-        var lcpObserver = new PerformanceObserver(function (list) {
-          var entries = list.getEntries();
-          if (entries.length > 0 && typeof performance !== 'undefined' && performance.mark) performance.mark('lcp');
-        });
-        lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
-      } catch (_) {}
-    }
-    const startSel = $('start-practice-select') || document.getElementById('start-practice-select');
-    if (startSel) startSel.addEventListener('change', updateCategoryFilter);
+        await initStorage();
+      } catch (e) {
+        console.warn('[initApp] initStorage failed, using localStorage fallback', e);
+      }
+      updateWrongCount();
+      renderSavedSets();
+      updateStatsBar();
+      updateStartPracticeSelect();
+      renderFolderSelects();
+      updateCategoryFilter();
+      if (typeof performance !== 'undefined' && performance.mark) {
+        performance.mark('app-ready');
+        try { performance.measure('app-init', 'app-start', 'app-ready'); } catch (_) {}
+      }
+      if (typeof PerformanceObserver !== 'undefined') {
+        try {
+          var lcpObserver = new PerformanceObserver(function (list) {
+            var entries = list.getEntries();
+            if (entries.length > 0 && typeof performance !== 'undefined' && performance.mark) performance.mark('lcp');
+          });
+          lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
+        } catch (_) {}
+      }
+      var startSel = $('start-practice-select') || document.getElementById('start-practice-select');
+      if (startSel) startSel.addEventListener('change', updateCategoryFilter);
 
-    // Restore in-progress quiz
-    (function checkSavedProgress() {
-      const saved = getQuizProgress();
+      // Restore in-progress quiz
+      var saved = getQuizProgress();
       if (saved && saved.questions && saved.questions.length > 0 && saved.index < saved.questions.length) {
-        customConfirm('检测到上次未完成的练习（第 ' + (saved.index + 1) + '/' + saved.questions.length + ' 题），是否继续？').then(confirmed => {
+        customConfirm('检测到上次未完成的练习（第 ' + (saved.index + 1) + '/' + saved.questions.length + ' 题），是否继续？').then(function(confirmed) {
           if (confirmed) {
             state.questions = saved.questions;
             state.index = saved.index;
@@ -6545,7 +6740,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             state.timerSeconds = saved.timerSeconds;
             state.practicingWrongBook = saved.practicingWrongBook;
             state.practicedSetId = saved.practicedSetId;
-            state.answerResults = saved.answerResults || {};  // Restore answer results if available
+            state.answerResults = saved.answerResults || {};
             showScreen(SCREEN.QUIZ);
             renderQuestion();
           } else {
