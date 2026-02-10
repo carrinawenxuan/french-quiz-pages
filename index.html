@@ -1203,7 +1203,9 @@
       min-width: 20px; 
       min-height: 20px; 
       flex-shrink: 0;
+      pointer-events: none;
     }
+    .type-filter-row label { pointer-events: auto; }
     .start-select-wrap { margin-bottom: 0.75rem; }
     .category-filter-wrap { margin-bottom: 0.75rem; }
     .category-filter-wrap label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.35rem; }
@@ -5896,6 +5898,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
     document.querySelectorAll('.collapsible-toggle').forEach(initCollapsible);
+    (function initTypeFilterTouch() {
+      const row = document.querySelector('.type-filter-row');
+      if (!row) return;
+      row.addEventListener('click', function(e) {
+        var label = e.target && e.target.closest('label');
+        if (!label || !row.contains(label)) return;
+        var cb = label.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        e.preventDefault();
+        cb.checked = !cb.checked;
+      });
+    })();
     const readAloudBtn = document.getElementById('btn-read-aloud');
     if (readAloudBtn) readAloudBtn.addEventListener('click', readAloudStem);
     document.addEventListener('keydown', onQuizKeydown);
