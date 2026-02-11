@@ -12,9 +12,9 @@
   <link rel="icon" href="favicon.svg?v=3" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" as="style" />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;700&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet" /></noscript>
   <style>
     :root {
       --bg: #0c0a14;
@@ -146,7 +146,7 @@
     }
     header h1 {
       font-size: 1.75rem;
-      font-weight: 800;
+      font-weight: 700;
       letter-spacing: -0.02em;
       background: linear-gradient(135deg, #c4b5fd 0%, #a78bfa 50%, #818cf8 100%);
       -webkit-background-clip: text;
@@ -1323,7 +1323,7 @@
     }
     .result-score {
       font-size: 3.25rem;
-      font-weight: 800;
+      font-weight: 700;
       letter-spacing: -0.03em;
       background: linear-gradient(135deg, #c4b5fd, #a78bfa 40%, #818cf8);
       -webkit-background-clip: text;
@@ -2815,6 +2815,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _savedSetsCacheDirty = true;
     let _wrongBookCache = null;
     let _wrongBookCacheDirty = true;
+    let _wrongBookIndex = null; // Map<wrongBookItemId, array index> for O(1) lookups
     let _flashcardDecksCache = null;
     let _questionNotesCache = null;
     const _escapeDiv = document.createElement('div');
@@ -2930,12 +2931,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (val !== undefined) {
           _wrongBookCache = Array.isArray(val) ? val : [];
           _wrongBookCacheDirty = false;
+          _rebuildWrongBookIndex();
           try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
         } else {
           var raw = localStorage.getItem(WRONG_BOOK_KEY);
           if (raw) {
             _wrongBookCache = JSON.parse(raw);
             _wrongBookCacheDirty = false;
+            _rebuildWrongBookIndex();
             await idbSet('wrongBook', _wrongBookCache);
             try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
           }
@@ -3195,7 +3198,23 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       localStorage.setItem(RECENT_SESSIONS_KEY, JSON.stringify(sessions.slice(-RECENT_SESSIONS_MAX)));
     }
 
+    var _saveProgressTimer = null;
     function saveQuizProgress() {
+      if (_saveProgressTimer) clearTimeout(_saveProgressTimer);
+      _saveProgressTimer = setTimeout(function() {
+        _saveProgressTimer = null;
+        try {
+          sessionStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
+            questions: state.questions, index: state.index, score: state.score,
+            timerSeconds: state.timerSeconds, practicingWrongBook: state.practicingWrongBook,
+            practicedSetId: state.practicedSetId, answerResults: state.answerResults || {},
+            savedAt: Date.now()
+          }));
+        } catch (_) {}
+      }, 2000);
+    }
+    function saveQuizProgressNow() {
+      if (_saveProgressTimer) { clearTimeout(_saveProgressTimer); _saveProgressTimer = null; }
       try {
         sessionStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
           questions: state.questions, index: state.index, score: state.score,
@@ -3205,7 +3224,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }));
       } catch (_) {}
     }
-    function clearQuizProgress() { try { sessionStorage.removeItem(QUIZ_PROGRESS_KEY); } catch (_) {} }
+    function clearQuizProgress() {
+      if (_saveProgressTimer) { clearTimeout(_saveProgressTimer); _saveProgressTimer = null; }
+      try { sessionStorage.removeItem(QUIZ_PROGRESS_KEY); } catch (_) {}
+    }
     function getQuizProgress() {
       try {
         const raw = sessionStorage.getItem(QUIZ_PROGRESS_KEY);
@@ -3257,26 +3279,34 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       localStorage.setItem(DAILY_STATS_KEY, JSON.stringify(st));
       updateStatsBar();
     }
-    function animateStatChange(el, newValue) {
-      if (!el) return;
-      const oldText = el.textContent;
-      el.textContent = newValue;
-      if (oldText !== String(newValue)) {
-        el.classList.remove('updated');
-        void el.offsetWidth;
-        el.classList.add('updated');
-      }
-    }
     function updateStatsBar() {
-      const st = getDailyStats();
-      const elToday = document.getElementById('stat-today');
-      const elWrong = document.getElementById('stat-wrong');
-      const elSets = document.getElementById('stat-sets');
-      const elStreak = document.getElementById('stat-streak');
-      animateStatChange(elToday, st.todayCount || 0);
-      animateStatChange(elWrong, getWrongBook().length);
-      animateStatChange(elSets, getSavedSets().length);
-      animateStatChange(elStreak, st.streak || 0);
+      var st = getDailyStats();
+      var elToday = $('stat-today');
+      var elWrong = $('stat-wrong');
+      var elSets = $('stat-sets');
+      var elStreak = $('stat-streak');
+      var vals = [
+        { el: elToday, v: String(st.todayCount || 0) },
+        { el: elWrong, v: String(getWrongBook().length) },
+        { el: elSets, v: String(getSavedSets().length) },
+        { el: elStreak, v: String(st.streak || 0) }
+      ];
+      // Batch: read all old values first
+      var changed = [];
+      for (var i = 0; i < vals.length; i++) {
+        if (vals[i].el && vals[i].el.textContent !== vals[i].v) changed.push(vals[i]);
+      }
+      if (changed.length === 0) return;
+      // Batch: write all new values
+      for (var i = 0; i < changed.length; i++) {
+        changed[i].el.textContent = changed[i].v;
+        changed[i].el.classList.remove('updated');
+      }
+      // Single forced reflow, then add animation class
+      if (changed[0].el) void changed[0].el.offsetWidth;
+      for (var i = 0; i < changed.length; i++) {
+        changed[i].el.classList.add('updated');
+      }
     }
     function shuffleArray(arr) {
       const a = arr.slice();
@@ -3731,26 +3761,38 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       renderQuestion();
     }
     function updateStartPracticeSelect() {
-      const sel = $('start-practice-select');
+      var sel = $('start-practice-select');
       if (!sel) return;
-      const saved = getSavedSets();
-      const folders = getFolders();
-      const folderIds = new Set(folders.map(f => String(f.id)));
-      let html = '<option value="default">默认题目</option>';
-      folders.forEach(f => {
-        const inFolder = saved.filter(s => String(s.folderId || '') === String(f.id));
+      var saved = getSavedSets();
+      var folders = getFolders();
+      var folderIds = new Set(folders.map(function(f) { return String(f.id); }));
+      // Single-pass grouping O(N)
+      var grouped = new Map();
+      var uncatList = [];
+      for (var i = 0; i < saved.length; i++) {
+        var s = saved[i];
+        var fid = String(s.folderId || '');
+        if (fid && folderIds.has(fid)) {
+          if (!grouped.has(fid)) grouped.set(fid, []);
+          grouped.get(fid).push(s);
+        } else {
+          uncatList.push(s);
+        }
+      }
+      var html = '<option value="default">默认题目</option>';
+      folders.forEach(function(f) {
+        var inFolder = grouped.get(String(f.id)) || [];
         if (inFolder.length === 0) return;
         html += '<optgroup label="' + escapeHtml(f.name) + '">' +
-          inFolder.map(s => '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+          inFolder.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>'; }).join('') + '</optgroup>';
       });
-      const uncategorized = saved.filter(s => !s.folderId || !folderIds.has(String(s.folderId)));
-      if (uncategorized.length > 0) {
+      if (uncatList.length > 0) {
         html += '<optgroup label="未分类">' +
-          uncategorized.map(s => '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>').join('') + '</optgroup>';
+          uncatList.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name) + ' (' + s.questions.length + ' 题)</option>'; }).join('') + '</optgroup>';
       }
-      const currentVal = sel.value;
+      var currentVal = sel.value;
       sel.innerHTML = html;
-      if (currentVal && (currentVal === 'default' || saved.some(s => String(s.id) === currentVal))) sel.value = currentVal;
+      if (currentVal && (currentVal === 'default' || saved.some(function(s) { return String(s.id) === currentVal; }))) sel.value = currentVal;
     }
     function formatSavedSetDate(iso) {
       const d = new Date(iso);
@@ -3792,14 +3834,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       emptyEl.style.display = 'none';
       if (query) _savedSetsDisplayLimit = SAVED_SETS_DISPLAY_LIMIT;
+      // Single-pass grouping: O(N) instead of O(F*N)
+      const grouped = new Map();
+      const uncatList = [];
+      for (var i = 0; i < filtered.length; i++) {
+        var s = filtered[i];
+        var fid = String(s.folderId || '');
+        if (fid && folderIds.has(fid)) {
+          if (!grouped.has(fid)) grouped.set(fid, []);
+          grouped.get(fid).push(s);
+        } else {
+          uncatList.push(s);
+        }
+      }
+      // Build ordered list for limit/pagination
       const orderedSets = [];
-      folders.forEach(f => {
-        orderedSets.push(...filtered.filter(s => String(s.folderId || '') === String(f.id)));
-      });
-      orderedSets.push(...filtered.filter(s => !s.folderId || !folderIds.has(String(s.folderId))));
+      folders.forEach(function(f) { var g = grouped.get(String(f.id)); if (g) orderedSets.push.apply(orderedSets, g); });
+      orderedSets.push.apply(orderedSets, uncatList);
       const limit = _savedSetsDisplayLimit;
       const toShow = orderedSets.slice(0, limit);
-      const toShowSet = new Set(toShow.map(s => String(s.id)));
+      const toShowSet = new Set(toShow.map(function(s) { return String(s.id); }));
       const hasMore = orderedSets.length > limit;
       let collapsedState = {};
       try {
@@ -3808,105 +3862,104 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (_) {}
       const folderIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>';
       let html = '';
-      folders.forEach(f => {
-        const inFolder = filtered.filter(s => String(s.folderId || '') === String(f.id));
-        const inFolderShow = inFolder.filter(s => toShowSet.has(String(s.id)));
+      folders.forEach(function(f) {
+        var fid = String(f.id);
+        var inFolder = grouped.get(fid) || [];
+        var inFolderShow = inFolder.filter(function(s) { return toShowSet.has(String(s.id)); });
         if (inFolderShow.length === 0) return;
-        const fid = String(f.id);
-        const collapsed = collapsedState[fid];
-        const collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
+        var collapsed = collapsedState[fid];
+        var collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
         html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="' + escapeAttr(fid) + '" data-is-uncategorized="false">' +
           '<div class="saved-sets-folder-header">' +
-          '<button type="button" class="saved-sets-folder-toggle">' +
+          '<button type="button" class="saved-sets-folder-toggle" data-action="toggle-folder">' +
           '<span class="folder-icon-wrap">' + folderIconSvg + '</span>' +
           '<span class="saved-sets-folder-name">' + escapeHtml(f.name) + ' (' + inFolder.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
-          '<button type="button" class="folder-header-edit" aria-label="重命名">✎</button>' +
-          '<button type="button" class="folder-header-delete" aria-label="删除">×</button>' +
+          '<button type="button" class="folder-header-edit" data-action="edit-folder" aria-label="重命名">✎</button>' +
+          '<button type="button" class="folder-header-delete" data-action="delete-folder" aria-label="删除">×</button>' +
           '</div>' +
           '<div class="saved-sets-folder-body"><ul class="saved-sets-list">' + inFolderShow.map(itemHtml).join('') + '</ul></div></div>';
       });
-      const uncategorized = filtered.filter(s => !s.folderId || !folderIds.has(String(s.folderId)));
-      const uncategorizedShow = uncategorized.filter(s => toShowSet.has(String(s.id)));
+      var uncategorizedShow = uncatList.filter(function(s) { return toShowSet.has(String(s.id)); });
       if (uncategorizedShow.length > 0) {
-        const collapsed = collapsedState['__uncategorized__'];
-        const collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
+        var collapsed = collapsedState['__uncategorized__'];
+        var collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
         html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="__uncategorized__" data-is-uncategorized="true">' +
           '<div class="saved-sets-folder-header">' +
-          '<button type="button" class="saved-sets-folder-toggle">' +
+          '<button type="button" class="saved-sets-folder-toggle" data-action="toggle-folder">' +
           '<span class="folder-icon-wrap">' + folderIconSvg + '</span>' +
-          '<span class="saved-sets-folder-name">未分类 (' + uncategorized.length + ')</span>' +
+          '<span class="saved-sets-folder-name">未分类 (' + uncatList.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
           '</div>' +
           '<div class="saved-sets-folder-body"><ul class="saved-sets-list">' + uncategorizedShow.map(itemHtml).join('') + '</ul></div></div>';
       }
       if (hasMore) {
-        html += '<div class="saved-sets-show-more-wrap"><button type="button" class="btn btn-secondary saved-sets-show-more" id="btn-saved-sets-show-more">显示更多（共 ' + orderedSets.length + ' 套）</button></div>';
+        html += '<div class="saved-sets-show-more-wrap"><button type="button" class="btn btn-secondary saved-sets-show-more" data-action="show-more">显示更多（共 ' + orderedSets.length + ' 套）</button></div>';
       }
-      requestAnimationFrame(() => {
-      listEl.innerHTML = html;
-      listEl.querySelectorAll('.saved-sets-folder-toggle').forEach(toggleBtn => {
-        toggleBtn.addEventListener('click', function() {
-          const block = this.closest('.saved-sets-folder');
-          const fid = block.dataset.folderId;
-          block.classList.toggle('saved-sets-folder-collapsed');
-          const collapsed = block.classList.contains('saved-sets-folder-collapsed');
-          try {
-            const raw = localStorage.getItem(FOLDER_COLLAPSED_KEY);
-            const state = raw ? JSON.parse(raw) : {};
-            state[fid] = collapsed;
-            localStorage.setItem(FOLDER_COLLAPSED_KEY, JSON.stringify(state));
-          } catch (_) {}
-        });
-      });
-      listEl.querySelectorAll('.folder-header-edit').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-          e.stopPropagation();
-          const block = this.closest('.saved-sets-folder');
-          const id = block.dataset.folderId;
-          if (id === '__uncategorized__') return;
-          const folders = getFolders();
-          const folder = folders.find(f => String(f.id) === id);
-          if (!folder) return;
-          customPrompt('重命名文件夹', folder.name || '').then(name => {
-            if (name === null || !name.trim()) return;
-            setFolders(folders.map(f => String(f.id) === id ? Object.assign({}, f, { name: name.trim() }) : f));
-          });
-        });
-      });
-      listEl.querySelectorAll('.folder-header-delete').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-          e.stopPropagation();
-          const block = this.closest('.saved-sets-folder');
-          const id = block.dataset.folderId;
-          if (id === '__uncategorized__') return;
-          customConfirm('删除该文件夹？其下习题集会移到「未分类」。').then(confirmed => {
-            if (!confirmed) return;
-            setFolders(getFolders().filter(f => String(f.id) !== id));
-            const sets = getSavedSets();
-            const updated = sets.map(s => String(s.folderId || '') === id ? Object.assign({}, s, { folderId: undefined }) : s);
-            setSavedSets(updated);
-          });
-        });
-      });
-      var showMoreBtn = listEl.querySelector('#btn-saved-sets-show-more');
-      if (showMoreBtn) showMoreBtn.addEventListener('click', function() {
-        _savedSetsDisplayLimit = Infinity;
-        renderSavedSets();
-      });
-      });
+      requestAnimationFrame(function() { listEl.innerHTML = html; });
     }
     function handleSavedSetsAction(e) {
       const btn = e.target.closest('[data-action]');
       if (!btn) return;
+      const action = btn.dataset.action;
+      // Folder-level actions (delegated, no per-render binding needed)
+      if (action === 'toggle-folder') {
+        var block = btn.closest('.saved-sets-folder');
+        if (!block) return;
+        var fid = block.dataset.folderId;
+        block.classList.toggle('saved-sets-folder-collapsed');
+        try {
+          var raw = localStorage.getItem(FOLDER_COLLAPSED_KEY);
+          var cState = raw ? JSON.parse(raw) : {};
+          cState[fid] = block.classList.contains('saved-sets-folder-collapsed');
+          localStorage.setItem(FOLDER_COLLAPSED_KEY, JSON.stringify(cState));
+        } catch (_) {}
+        return;
+      }
+      if (action === 'edit-folder') {
+        e.stopPropagation();
+        var block = btn.closest('.saved-sets-folder');
+        if (!block) return;
+        var fid = block.dataset.folderId;
+        if (fid === '__uncategorized__') return;
+        var allFolders = getFolders();
+        var folder = allFolders.find(function(f) { return String(f.id) === fid; });
+        if (!folder) return;
+        customPrompt('重命名文件夹', folder.name || '').then(function(name) {
+          if (name === null || !name.trim()) return;
+          setFolders(allFolders.map(function(f) { return String(f.id) === fid ? Object.assign({}, f, { name: name.trim() }) : f; }));
+        });
+        return;
+      }
+      if (action === 'delete-folder') {
+        e.stopPropagation();
+        var block = btn.closest('.saved-sets-folder');
+        if (!block) return;
+        var fid = block.dataset.folderId;
+        if (fid === '__uncategorized__') return;
+        customConfirm('删除该文件夹？其下习题集会移到「未分类」。').then(function(confirmed) {
+          if (!confirmed) return;
+          setFolders(getFolders().filter(function(f) { return String(f.id) !== fid; }));
+          var sets = getSavedSets();
+          var updated = sets.map(function(s) { return String(s.folderId || '') === fid ? Object.assign({}, s, { folderId: undefined }) : s; });
+          setSavedSets(updated);
+        });
+        return;
+      }
+      if (action === 'show-more') {
+        _savedSetsDisplayLimit = Infinity;
+        renderSavedSets();
+        return;
+      }
+      // Set-level actions
       const item = btn.closest('.saved-sets-item');
       if (!item) return;
       const id = item.dataset.id;
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === id);
-      switch (btn.dataset.action) {
+      switch (action) {
         case 'start':
           if (set && set.questions && set.questions.length) {
             if (set.questions.length > SEQUENTIAL_MODE_THRESHOLD) openStartModeModal(set);
@@ -4101,18 +4154,38 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const explanation = (q.explanation && q.explanation.trim()) ? '<div class="preview-q-explanation">解析：' + escapeHtml(q.explanation.trim()) + '</div>' : '';
       return '<div class="preview-q"><div class="preview-q-head">' + head + '</div>' + stem + options + correct + explanation + '</div>';
     }
+    var _previewBatchSize = 50;
+    var _previewQuestions = null;
+    var _previewRendered = 0;
     function showPreviewQuestions(set) {
       if (!set || !set.questions || !set.questions.length) {
         showToast('本题集暂无题目，无法预览');
         return;
       }
-      const titleEl = document.getElementById('preview-questions-title');
-      const bodyEl = document.getElementById('preview-questions-body');
-      if (titleEl) titleEl.textContent = '习题预览：' + (set.name || '未命名');
-      if (bodyEl) bodyEl.innerHTML = set.questions.map((q, i) => formatQuestionForPreview(q, i)).join('');
-      const prevOverlay = document.getElementById('preview-questions-overlay');
-      prevOverlay.classList.add('show');
-      setModalFocusTrap(prevOverlay);
+      var titleEl = $('preview-questions-title');
+      var bodyEl = $('preview-questions-body');
+      if (titleEl) titleEl.textContent = '习题预览：' + (set.name || '未命名') + '（' + set.questions.length + ' 题）';
+      _previewQuestions = set.questions;
+      _previewRendered = 0;
+      if (bodyEl) {
+        bodyEl.innerHTML = '';
+        _renderPreviewBatch(bodyEl);
+      }
+      var prevOverlay = $('preview-questions-overlay');
+      if (prevOverlay) { prevOverlay.classList.add('show'); setModalFocusTrap(prevOverlay); }
+    }
+    function _renderPreviewBatch(bodyEl) {
+      if (!_previewQuestions || _previewRendered >= _previewQuestions.length) return;
+      var end = Math.min(_previewRendered + _previewBatchSize, _previewQuestions.length);
+      var html = '';
+      for (var i = _previewRendered; i < end; i++) {
+        html += formatQuestionForPreview(_previewQuestions[i], i);
+      }
+      if (_previewRendered < _previewQuestions.length && end < _previewQuestions.length) {
+        html += '<button type="button" class="btn btn-secondary" style="width:100%;margin-top:0.5rem" onclick="this.remove();_previewRendered=' + end + ';_renderPreviewBatch(this.parentElement || document.getElementById(\'preview-questions-body\'))">加载更多（已显示 ' + end + ' / ' + _previewQuestions.length + '）</button>';
+      }
+      bodyEl.insertAdjacentHTML('beforeend', html);
+      _previewRendered = end;
     }
     function closePreviewQuestions() {
       clearModalFocusTrap();
@@ -4267,18 +4340,27 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(_questionNotesCache)); } catch (_) {}
       }
     }
+    function _rebuildWrongBookIndex() {
+      var book = _wrongBookCache || [];
+      _wrongBookIndex = new Map();
+      for (var i = 0; i < book.length; i++) {
+        _wrongBookIndex.set(wrongBookItemId(book[i]), i);
+      }
+    }
     function getWrongBook() {
       if (!_wrongBookCacheDirty && _wrongBookCache !== null) return _wrongBookCache;
       try {
         const raw = localStorage.getItem(WRONG_BOOK_KEY);
         _wrongBookCache = raw ? JSON.parse(raw) : [];
         _wrongBookCacheDirty = false;
+        _rebuildWrongBookIndex();
         return _wrongBookCache;
       } catch (_) { return []; }
     }
     function setWrongBook(arr) {
       _wrongBookCache = arr;
       _wrongBookCacheDirty = false;
+      _rebuildWrongBookIndex();
       if (_idb) {
         idbSet('wrongBook', arr).catch(function(e) {
           console.error('[setWrongBook] IDB write error', e);
@@ -4300,8 +4382,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function removeFromWrongBook(q) {
       const book = getWrongBook();
       const id = wrongBookItemId(q);
-      const next = book.filter(item => wrongBookItemId(item) !== id);
-      if (next.length < book.length) setWrongBook(next);
+      if (_wrongBookIndex && _wrongBookIndex.has(id)) {
+        const next = book.filter(item => wrongBookItemId(item) !== id);
+        setWrongBook(next);
+      }
     }
     function getWrongBookDue() {
       const book = getWrongBook();
@@ -4317,7 +4401,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function addToWrongBook(q) {
       const book = getWrongBook();
       const id = wrongBookItemId(q);
-      const idx = book.findIndex(item => wrongBookItemId(item) === id);
+      const idx = (_wrongBookIndex && _wrongBookIndex.has(id)) ? _wrongBookIndex.get(id) : -1;
       if (idx >= 0) {
         book[idx] = Object.assign({}, book[idx], { wrongCount: (book[idx].wrongCount || 0) + 1 });
       } else {
@@ -4329,14 +4413,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function addToWrongBookDirect(item) {
       const book = getWrongBook();
       const id = wrongBookItemId(item);
-      if (book.some(i => wrongBookItemId(i) === id)) return;
+      if (_wrongBookIndex && _wrongBookIndex.has(id)) return;
       book.push(item);
       setWrongBook(book);
     }
     function updateWrongBookAfterAnswer(item, correct) {
       const book = getWrongBook();
       const id = wrongBookItemId(item);
-      const idx = book.findIndex(i => wrongBookItemId(i) === id);
+      const idx = (_wrongBookIndex && _wrongBookIndex.has(id)) ? _wrongBookIndex.get(id) : -1;
       if (idx === -1) return;
       const today = todayString();
       if (correct) {
@@ -4364,8 +4448,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!q) return 0;
       const book = getWrongBook();
       const id = wrongBookItemId(q);
-      const item = book.find(i => wrongBookItemId(i) === id);
-      return (item && item.wrongCount != null) ? item.wrongCount : 0;
+      if (_wrongBookIndex && _wrongBookIndex.has(id)) {
+        var item = book[_wrongBookIndex.get(id)];
+        return (item && item.wrongCount != null) ? item.wrongCount : 0;
+      }
+      return 0;
     }
     function updateWrongCount() {
       const el = document.getElementById('wrong-count');
@@ -4498,6 +4585,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (_currentScreen !== SCREEN.HOME) {
         showScreen(SCREEN.HOME, false);
       }
+    });
+    window.addEventListener('beforeunload', function() {
+      if (_saveProgressTimer) saveQuizProgressNow();
     });
 
     function normalizeJsonPaste(str) {
@@ -4789,15 +4879,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _pendingTimers = [];
 
       /* Clear paragraph blanks container to ensure clean state for new question */
-      const paragraphWrap = document.getElementById('paragraph-blanks-wrap');
+      var paragraphWrap = $('paragraph-blanks-wrap');
       if (paragraphWrap) {
         paragraphWrap.innerHTML = '';
         paragraphWrap.style.display = 'none';
-        // 确保所有旧的输入框都被移除和清理
-        paragraphWrap.querySelectorAll('input').forEach(inp => {
-          inp.disabled = false;
-          inp.removeAttribute('disabled');
-        });
       }
 
       const q = state.questions[state.index];
@@ -4809,45 +4894,45 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.answered = !!state.answerResults[state.index];
       const idx = state.index + 1;
       const total = state.questions.length;
-      const progressFillEl = document.getElementById('progress-fill');
+      var progressFillEl = $('progress-fill');
       if (progressFillEl) progressFillEl.style.width = (idx / total) * 100 + '%';
-      const questionCounterEl = document.getElementById('question-counter');
-      if (questionCounterEl) questionCounterEl.textContent = `${idx} / ${total}`;
-      const labelEl = document.getElementById('progress-label');
+      var questionCounterEl = $('question-counter');
+      if (questionCounterEl) questionCounterEl.textContent = idx + ' / ' + total;
+      var labelEl = $('progress-label');
       if (labelEl) labelEl.textContent = '第 ' + idx + ' / ' + total + ' 题';
-      const estimateEl = document.getElementById('progress-estimate');
+      var estimateEl = $('progress-estimate');
       if (estimateEl && idx === 1) {
         estimateEl.textContent = '共 ' + total + ' 题' + (state.timerSeconds ? '，约 ' + Math.ceil(total * state.timerSeconds / 60) + ' 分钟' : '，不限时');
       }
-      const questionMetaEl = document.getElementById('question-meta');
-      if (questionMetaEl) questionMetaEl.textContent = q.category ? `套路 · ${q.category}` : '';
-      const questionStemEl = document.getElementById('question-stem');
+      var questionMetaEl = $('question-meta');
+      if (questionMetaEl) questionMetaEl.textContent = q.category ? '套路 · ' + q.category : '';
+      var questionStemEl = $('question-stem');
       if (questionStemEl) questionStemEl.innerHTML = escapeHtml(q.stem);
-      var explanationScrollWrap = document.getElementById('explanation-scroll-wrap');
+      var explanationScrollWrap = $('explanation-scroll-wrap');
       if (explanationScrollWrap) explanationScrollWrap.style.display = 'none';
-      var wrongCountEl = document.getElementById('explanation-wrong-count');
+      var wrongCountEl = $('explanation-wrong-count');
       if (wrongCountEl) { wrongCountEl.textContent = ''; wrongCountEl.style.display = 'none'; }
-      const explanationEl = document.getElementById('explanation');
+      var explanationEl = $('explanation');
       if (explanationEl) explanationEl.textContent = q.explanation || '';
-      var notesDisplay = document.getElementById('explanation-notes-display');
+      var notesDisplay = $('explanation-notes-display');
       if (notesDisplay) { notesDisplay.textContent = ''; notesDisplay.style.display = 'none'; }
-      var notesEdit = document.getElementById('explanation-notes-edit');
+      var notesEdit = $('explanation-notes-edit');
       if (notesEdit) notesEdit.style.display = 'none';
-      var notesTextarea = document.getElementById('explanation-notes-textarea');
+      var notesTextarea = $('explanation-notes-textarea');
       if (notesTextarea) notesTextarea.value = '';
-      const removeWrapEl = document.getElementById('wrong-book-remove-wrap');
+      var removeWrapEl = $('wrong-book-remove-wrap');
       if (removeWrapEl) removeWrapEl.style.display = 'none';
-      const removeFromSetWrap = document.getElementById('remove-from-set-wrap');
+      var removeFromSetWrap = $('remove-from-set-wrap');
       if (removeFromSetWrap) removeFromSetWrap.style.display = state.practicedSetId ? 'flex' : 'none';
-      const answerFeedbackEl = document.getElementById('answer-feedback');
+      var answerFeedbackEl = $('answer-feedback');
       if (answerFeedbackEl) {
         answerFeedbackEl.className = 'answer-feedback';
         answerFeedbackEl.textContent = '';
       }
 
-      const optionsEl = document.getElementById('options-container');
-      const fillWrap = document.getElementById('fill-input-wrap');
-      const fillInput = document.getElementById('fill-input');
+      var optionsEl = $('options-container');
+      var fillWrap = $('fill-input-wrap');
+      var fillInput = $('fill-input');
 
       if (q.type === 'fill_blank') {
         optionsEl.innerHTML = '';
@@ -4865,17 +4950,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           fillInput.disabled = false;
           fillInput.classList.remove('correct-blank', 'wrong-blank');
           document.getElementById('paragraph-blanks-wrap').style.display = 'none';
-          document.getElementById('paragraph-blanks-wrap').innerHTML = '';
+          if (paragraphWrap) paragraphWrap.innerHTML = '';
         }
         if (state.answerResults[state.index]) {
           applyAnsweredState(q, state.answerResults[state.index]);
           return;
         }
-        const btnSubmit0 = document.getElementById('btn-submit');
+        var btnSubmit0 = $('btn-submit');
         if (btnSubmit0) btnSubmit0.style.display = 'inline-flex';
-        const btnNext0 = document.getElementById('btn-next');
+        var btnNext0 = $('btn-next');
         if (btnNext0) btnNext0.style.display = 'none';
-        var btnPrev0 = document.getElementById('btn-prev-quiz');
+        var btnPrev0 = $('btn-prev-quiz');
         if (btnPrev0) btnPrev0.style.display = state.index > 0 ? 'inline-flex' : 'none';
         var fillExtra = (q.type === 'fill_blank' && isMultiBlank) ? blankCount * 5 : 0;
         startTimer(fillExtra);
@@ -4891,11 +4976,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           applyAnsweredState(q, state.answerResults[state.index]);
           return;
         }
-        const btnSubmit1 = document.getElementById('btn-submit');
+        var btnSubmit1 = $('btn-submit');
         if (btnSubmit1) btnSubmit1.style.display = 'inline-flex';
-        const btnNext1 = document.getElementById('btn-next');
+        var btnNext1 = $('btn-next');
         if (btnNext1) btnNext1.style.display = 'none';
-        var btnPrev1 = document.getElementById('btn-prev-quiz');
+        var btnPrev1 = $('btn-prev-quiz');
         if (btnPrev1) btnPrev1.style.display = state.index > 0 ? 'inline-flex' : 'none';
         var paraBlanks = (correctArr && correctArr.length) ? correctArr.length : 1;
         startTimer(paraBlanks * 5);
@@ -4957,11 +5042,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         applyAnsweredState(q, state.answerResults[state.index]);
         return;
       }
-      const btnSubmit2 = document.getElementById('btn-submit');
+      var btnSubmit2 = $('btn-submit');
       if (btnSubmit2) btnSubmit2.style.display = 'inline-flex';
-      const btnNext2 = document.getElementById('btn-next');
+      var btnNext2 = $('btn-next');
       if (btnNext2) btnNext2.style.display = 'none';
-      var btnPrev2 = document.getElementById('btn-prev-quiz');
+      var btnPrev2 = $('btn-prev-quiz');
       if (btnPrev2) btnPrev2.style.display = state.index > 0 ? 'inline-flex' : 'none';
       startTimer();
     }
@@ -5400,7 +5485,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       speechSynthesis.speak(u);
     }
     function onQuizKeydown(e) {
-      if (!document.getElementById('screen-quiz').classList.contains('active')) return;
+      if (_currentScreen !== SCREEN.QUIZ) return;
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
       if (tag === 'INPUT' || tag === 'TEXTAREA') {
         if (e.key === 'Enter' && (e.target.id === 'explanation-notes-textarea' || e.target.closest('#explanation-notes-edit'))) return;
