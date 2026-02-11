@@ -2788,7 +2788,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   </div>
 
   <script>
+    /* =============================================================================
+     * 架构说明（单文件应用，按逻辑分层，便于维护）
+     * 1. 常量 → 2. 全局状态与缓存 → 3. DOM 缓存 / 工具 / 错误处理
+     * 4. IndexedDB 存储层与 initStorage → 5. 导入锁 / 设备绑定 / 自定义弹窗
+     * 6. 模态框焦点陷阱与滚动锁 → 7. 会话 / 进度 / 每日统计
+     * 8. 判题与题型工具（evaluateAnswer, shuffle 等）→ 9. 数据导入导出与云端
+     * 10. 习题集与文件夹（getSavedSets, renderSavedSets, handleSavedSetsAction）
+     * 11. 编辑习题集弹窗 → 12. 错题本（索引 Map + 增删查）
+     * 13. 答题流程（计时器 / 切屏 / startQuiz / 复习弹窗）→ 14. 题目渲染与作答
+     * 15. 结果页 / 下一题 / 保存进度 → 16. 事件绑定与 initApp 启动
+     * ============================================================================= */
     if (typeof performance !== 'undefined' && performance.mark) performance.mark('app-start');
+
+    /* ========== 1. 常量 ========== */
     const LETTERS = ['A', 'B', 'C', 'D'];
     const WRONG_BOOK_KEY = 'french_quiz_wrong';
     const SAVED_SETS_KEY = 'french_quiz_saved_sets';
@@ -2810,6 +2823,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
 
+    /* ========== 2. 全局状态与缓存 ========== */
     let projectFolderHandle = null;
     let _savedSetsCache = null;
     let _savedSetsCacheDirty = true;
@@ -2981,6 +2995,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _storageReady = true;
     }
 
+    /* ========== 5. 导入锁 / 设备绑定 / 自定义弹窗 ========== */
     async function hashPin(pin) {
       const enc = new TextEncoder();
       const data = enc.encode(String(pin));
@@ -3185,6 +3200,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       unlockBodyScroll();
     }
 
+    /* ========== 7. 会话 / 进度 / 每日统计 ========== */
     function getRecentSessions() {
       try {
         const raw = localStorage.getItem(RECENT_SESSIONS_KEY);
@@ -3381,6 +3397,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     const QUESTION_TYPES = { single_choice: '单选', multiple_choice: '多选', fill_blank: '填空', paragraph_fill_blank: '段落填空' };
+    /* ========== 8. 判题与题型工具（evaluateAnswer, typeFilter, shuffle 等） ========== */
     function getSelectedTypeFilter() {
       const single = document.getElementById('filter-type-single');
       const multiple = document.getElementById('filter-type-multiple');
@@ -3408,6 +3425,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return Object.assign({}, q, { options: newOptions, correct: newCorrect });
     }
 
+    /* ========== 9. 数据导入导出与云端 ========== */
     function getDataForExport() {
       const timerEl = document.getElementById('timer-seconds');
       let questionNotes = {};
@@ -3760,6 +3778,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (state.index >= state.questions.length) state.index = state.questions.length - 1;
       renderQuestion();
     }
+    /* ========== 10. 习题集与文件夹（列表渲染 + 事件委托） ========== */
     function updateStartPracticeSelect() {
       var sel = $('start-practice-select');
       if (!sel) return;
@@ -4067,6 +4086,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       });
     }
+    /* ========== 11. 编辑习题集弹窗 ========== */
     function openEditSetModal(setId) {
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === setId);
@@ -4303,6 +4323,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       d.setDate(d.getDate() + days);
       return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
     }
+    /* ========== 12. 错题本（索引 Map + 增删查） ========== */
     function wrongBookItemId(item) {
       if (_wrongBookIdCache.has(item)) return _wrongBookIdCache.get(item);
       const id = (item.stem || '') + '|' + (item.options ? item.options.join('|') : '') + '|' + String(item.correct != null ? item.correct : '');
@@ -4517,6 +4538,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _pendingTimers = [];  // Track pending setTimeout/setInterval for cleanup
 
     const TIMER_CIRCUMFERENCE = 2 * Math.PI * 17; // ~106.81
+    /* ========== 13. 答题流程：计时器 / 切屏 / startQuiz ========== */
     function clearTimer() {
       if (timerId) clearInterval(timerId);
       timerId = null;
@@ -4873,6 +4895,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
 
+    /* ========== 14. 题目渲染与作答 ========== */
     function renderQuestion() {
       /* Clear any pending timers from previous question */
       _pendingTimers.forEach(timer => clearTimeout(timer));
@@ -6793,6 +6816,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
     })();
+    /* ========== 16. 事件绑定与启动 ========== */
     // Initialize IndexedDB, migrate from localStorage, then render
     (async function initApp() {
       try {
