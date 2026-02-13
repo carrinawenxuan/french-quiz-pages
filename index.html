@@ -2787,41 +2787,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <script src="js/constants.js"></script>
+  <script src="js/quiz-utils.js"></script>
   <script>
     /* =============================================================================
-     * 架构说明（单文件应用，按逻辑分层，便于维护）
-     * 1. 常量 → 2. 全局状态与缓存 → 3. DOM 缓存 / 工具 / 错误处理
-     * 4. IndexedDB 存储层与 initStorage → 5. 导入锁 / 设备绑定 / 自定义弹窗
-     * 6. 模态框焦点陷阱与滚动锁 → 7. 会话 / 进度 / 每日统计
-     * 8. 判题与题型工具（evaluateAnswer, shuffle 等）→ 9. 数据导入导出与云端
-     * 10. 习题集与文件夹（getSavedSets, renderSavedSets, handleSavedSetsAction）
-     * 11. 编辑习题集弹窗 → 12. 错题本（索引 Map + 增删查）
-     * 13. 答题流程（计时器 / 切屏 / startQuiz / 复习弹窗）→ 14. 题目渲染与作答
-     * 15. 结果页 / 下一题 / 保存进度 → 16. 事件绑定与 initApp 启动
+     * 架构说明（Phase 3 已抽离 constants.js / quiz-utils.js；此处为主应用脚本）
+     * 2. 全局状态与缓存 → 3. DOM 缓存 / 工具 / 错误处理
+     * 4. IndexedDB 存储层与 initStorage → … → 16. 事件绑定与 initApp 启动
      * ============================================================================= */
     if (typeof performance !== 'undefined' && performance.mark) performance.mark('app-start');
-
-    /* ========== 1. 常量 ========== */
-    const LETTERS = ['A', 'B', 'C', 'D'];
-    const WRONG_BOOK_KEY = 'french_quiz_wrong';
-    const SAVED_SETS_KEY = 'french_quiz_saved_sets';
-    const FOLDERS_KEY = 'french_quiz_folders';
-    const FOLDER_COLLAPSED_KEY = 'french_quiz_folder_collapsed';
-    const TIMER_SECONDS_KEY = 'french_quiz_timer_seconds';
-    const DAILY_STATS_KEY = 'french_quiz_daily_stats';
-    const RECENT_SESSIONS_KEY = 'french_quiz_recent_sessions';
-    const QUESTION_NOTES_KEY = 'french_quiz_question_notes';
-    const THEME_KEY = 'french_quiz_theme';
-    const DATA_FILE_NAME = 'french_quiz_data.json';
-    const IMPORT_PIN_HASH_KEY = 'french_quiz_import_pin_hash';
-    const IMPORT_ALLOWED_FINGERPRINT_KEY = 'french_quiz_import_allowed_device';
-    const RECENT_SESSIONS_MAX = 10;
-    const SAVED_SETS_DISPLAY_LIMIT = 30;
-    const SEQUENTIAL_MODE_THRESHOLD = 16;
-    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards' };
-    const FLASHCARD_DECKS_KEY = 'french_quiz_flashcard_decks';
-
-    const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
 
     /* ========== 2. 全局状态与缓存 ========== */
     let projectFolderHandle = null;
@@ -2869,10 +2843,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
 
-    /* ── IndexedDB Storage Layer ── */
-    const IDB_NAME = 'french_quiz_idb';
-    const IDB_VERSION = 1;
-    const IDB_STORE = 'kv';
+    /* ── IndexedDB Storage Layer（IDB_* 见 constants.js）── */
     let _idb = null;
     let _storageReady = false;
 
@@ -3324,80 +3295,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         changed[i].el.classList.add('updated');
       }
     }
-    function shuffleArray(arr) {
-      const a = arr.slice();
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    function normalizeFrench(str) {
-      return str
-        .trim()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/\u0153/g, 'oe')
-        .replace(/\u00e6/g, 'ae')
-        .replace(/\s+/g, ' ');
-    }
-    function matchFrenchAnswer(val, acceptList) {
-      return acceptList.some(c => c === val) || acceptList.some(c => normalizeFrench(c) === normalizeFrench(val));
-    }
-
-    /**
-     * 判题纯函数：不读 DOM、不写存储，仅根据题目和用户答案返回对错（及填空的 details）。
-     * 用于可测试性与后续题型扩展；submitAnswer 中收集 DOM 答案后调用此函数。
-     */
-    function evaluateAnswer(q, userAnswer) {
-      if (q.type === 'single_choice') {
-        const correctIndex = Array.isArray(q.correct) ? q.correct[0] : q.correct;
-        return { correct: userAnswer.single === correctIndex };
-      }
-      if (q.type === 'multiple_choice') {
-        const correctSet = new Set(Array.isArray(q.correct) ? q.correct : [q.correct]);
-        const selected = new Set(Array.isArray(userAnswer.multiple) ? userAnswer.multiple : []);
-        const correct = selected.size === correctSet.size && [...selected].every(i => correctSet.has(i));
-        return { correct };
-      }
-      if (q.type === 'fill_blank') {
-        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
-        const blankCount = (q.stem.match(/_____/g) || []).length;
-        if (blankCount >= 2 && (userAnswer.paragraph || []).length >= 2) {
-          const answers = userAnswer.paragraph.slice(0, correctArr.length);
-          const details = answers.map((val, i) => {
-            const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
-            return { ok: matchFrenchAnswer(val.trim().toLowerCase(), accept), val, accept };
-          });
-          return { correct: details.every(d => d.ok), details };
-        }
-        const val = (userAnswer.fill || '').trim().toLowerCase();
-        const accept = correctArr.map(c => String(c).toLowerCase().trim());
-        return { correct: matchFrenchAnswer(val, accept) };
-      }
-      if (q.type === 'paragraph_fill_blank') {
-        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
-        const inputs = userAnswer.paragraph || [];
-        const len = Math.min(correctArr.length, inputs.length);
-        const details = [];
-        let correct = true;
-        for (let i = 0; i < len; i++) {
-          const val = (inputs[i] || '').trim().toLowerCase();
-          const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
-          const ok = matchFrenchAnswer(val, accept);
-          details.push({ ok, val, accept });
-          if (!ok) correct = false;
-        }
-        for (let i = len; i < correctArr.length; i++) details.push({ ok: false, val: '', accept: [] });
-        return { correct, details };
-      }
-      return { correct: false };
-    }
-
-    const QUESTION_TYPES = { single_choice: '单选', multiple_choice: '多选', fill_blank: '填空', paragraph_fill_blank: '段落填空' };
-    /* ========== 8. 判题与题型工具（evaluateAnswer, typeFilter, shuffle 等） ========== */
+    /* evaluateAnswer, filterQuestionsByType, shuffleArray, getWrongBookDueFromBook 等见 js/quiz-utils.js */
+    /* ========== 8. 判题与题型工具（getSelectedTypeFilter 读 DOM，其余用 quiz-utils） ========== */
     function getSelectedTypeFilter() {
       const single = document.getElementById('filter-type-single');
       const multiple = document.getElementById('filter-type-multiple');
@@ -3409,20 +3308,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (fill && fill.checked) types.push('fill_blank');
       if (paragraph && paragraph.checked) types.push('paragraph_fill_blank');
       return types.length === 0 ? null : types;
-    }
-    function filterQuestionsByType(questions, typeFilter) {
-      if (!questions || !typeFilter || typeFilter.length === 0) return questions || [];
-      return questions.filter(q => q && typeFilter.includes(q.type));
-    }
-    function shuffleQuestionOptions(q) {
-      if (!q || (q.type !== 'single_choice' && q.type !== 'multiple_choice') || !q.options || !q.options.length) return q;
-      const perm = shuffleArray(q.options.map((_, i) => i));
-      const newOptions = perm.map(i => q.options[i]);
-      const oldCorrect = Array.isArray(q.correct) ? q.correct : [q.correct];
-      const newCorrect = q.type === 'single_choice'
-        ? perm.indexOf(oldCorrect[0])
-        : oldCorrect.map(c => perm.indexOf(c)).sort((a, b) => a - b);
-      return Object.assign({}, q, { options: newOptions, correct: newCorrect });
     }
 
     /* ========== 9. 数据导入导出与云端 ========== */
@@ -3692,6 +3577,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
 
+    /* ========== Storage 层（Phase 1：持久化与缓存封装，供业务只读 get/set） ========== */
     function getSavedSets() {
       if (!_savedSetsCacheDirty && _savedSetsCache !== null) return _savedSetsCache;
       try {
@@ -4313,16 +4199,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
 
-    const EBINGHAUS_INTERVALS = [1, 3, 7, 14, 30];
-    function todayString() {
-      const d = new Date();
-      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-    }
-    function addDays(dayStr, days) {
-      const d = new Date(dayStr + 'T12:00:00');
-      d.setDate(d.getDate() + days);
-      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-    }
+    /* EBINGHAUS_INTERVALS, todayString, addDays 见 constants.js / quiz-utils.js */
     /* ========== 12. 错题本（索引 Map + 增删查） ========== */
     function wrongBookItemId(item) {
       if (_wrongBookIdCache.has(item)) return _wrongBookIdCache.get(item);
@@ -4409,15 +4286,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
     function getWrongBookDue() {
-      const book = getWrongBook();
-      const today = todayString();
-      return book
-        .filter(item => {
-          const next = item.nextReview;
-          if (!next) return true;
-          return next <= today;
-        })
-        .sort((a, b) => (a.nextReview || '').localeCompare(b.nextReview || ''));
+      return getWrongBookDueFromBook(getWrongBook(), todayString());
     }
     function addToWrongBook(q) {
       const book = getWrongBook();
@@ -4504,8 +4373,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     ];
 
     function getCurrentSetQuestions() {
-      const sel = $('start-practice-select');
-      const val = sel ? sel.value : 'default';
+      const val = homeState.setId;
       if (val === 'default') return DEFAULT_QUESTIONS;
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === val);
@@ -4534,6 +4402,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       practicedSetId: null,
       sequentialBatch: null
     };
+    /** Phase 2：首页「当前选 set/题型/分类」单一数据源，开始练习时只读此对象不读 DOM */
+    let homeState = { setId: 'default', typeFilter: null, categoryFilter: '' };
+    function syncHomeStateFromDOM() {
+      const sel = $('start-practice-select');
+      homeState.setId = sel ? sel.value : 'default';
+      homeState.typeFilter = getSelectedTypeFilter();
+      const cat = $('filter-category');
+      homeState.categoryFilter = cat && cat.value ? cat.value.trim() : '';
+    }
     let timerId = null;
     let _pendingTimers = [];  // Track pending setTimeout/setInterval for cleanup
 
@@ -5535,9 +5412,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     $('btn-start-practice').addEventListener('click', () => {
       if (!_storageReady) { showToast('数据加载中，请稍候…'); return; }
-      const typeFilter = getSelectedTypeFilter();
-      const sel = $('start-practice-select');
-      const val = sel ? sel.value : 'default';
+      syncHomeStateFromDOM();
+      const typeFilter = homeState.typeFilter;
+      const val = homeState.setId;
+      const categoryVal = homeState.categoryFilter;
       let questions = [];
       if (val === 'default') {
         questions = DEFAULT_QUESTIONS;
@@ -5551,8 +5429,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         questions = set.questions;
       }
       let filtered = filterQuestionsByType(questions, typeFilter);
-      const categoryEl = $('filter-category');
-      const categoryVal = categoryEl && categoryEl.value ? categoryEl.value.trim() : '';
       if (categoryVal) {
         filtered = filtered.filter(q => q && q.category === categoryVal);
       }
@@ -6291,6 +6167,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     });
     function startWrongBookDuePractice() {
+      syncHomeStateFromDOM();
       const due = getWrongBookDue();
       if (due.length === 0) {
         const total = getWrongBook().length;
@@ -6298,15 +6175,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         else showToast('没有到期需要复习的错题，错题本共 ' + total + ' 题');
         return;
       }
-      const typeFilter = getSelectedTypeFilter();
+      const typeFilter = homeState.typeFilter;
       const filtered = filterQuestionsByType(due, typeFilter);
       if (filtered.length === 0) { showToast('当前选题型下没有到期的错题，改天再试'); return; }
       startQuiz(filtered, true);
     }
     function startWrongBookFreePractice() {
+      syncHomeStateFromDOM();
       const book = getWrongBook();
       if (book.length === 0) { showToast('错题本还是空的，做错题后会自动加入'); return; }
-      const typeFilter = getSelectedTypeFilter();
+      const typeFilter = homeState.typeFilter;
       const filtered = filterQuestionsByType(book, typeFilter);
       if (filtered.length === 0) { showToast('当前选题型下没有错题，请勾选更多题型'); return; }
       startQuiz(filtered, true);
@@ -6845,7 +6723,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         } catch (_) {}
       }
       var startSel = $('start-practice-select');
-      if (startSel) startSel.addEventListener('change', updateCategoryFilter);
+      if (startSel) startSel.addEventListener('change', function() { syncHomeStateFromDOM(); updateCategoryFilter(); });
+      var filterCategory = $('filter-category');
+      if (filterCategory) filterCategory.addEventListener('change', syncHomeStateFromDOM);
+      var typeFilterWrap = document.querySelector('.type-filter-wrap');
+      if (typeFilterWrap) typeFilterWrap.addEventListener('change', syncHomeStateFromDOM);
+      syncHomeStateFromDOM();
 
       // Restore in-progress quiz
       var saved = getQuizProgress();
