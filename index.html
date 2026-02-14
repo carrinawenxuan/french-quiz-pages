@@ -2587,7 +2587,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
   <div class="review-modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="review-modal-title">
     <div class="review-modal">
-      <h3 id="review-modal-title">是否观看复习材料？</h3>
+      <h3 id="review-modal-title">预习资料</h3>
       <div class="review-modal-body">
         <div class="review-modal-texts-wrap" id="review-modal-texts-wrap">
           <div class="review-modal-texts roll" id="review-modal-texts"></div>
@@ -2596,7 +2596,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="review-modal-images" id="review-modal-images"></div>
       </div>
       <div class="review-modal-actions">
-        <button type="button" class="btn btn-primary" id="btn-review-start-quiz">直接开始练习</button>
+        <button type="button" class="btn btn-primary" id="btn-review-start-quiz">跳过，直接练习</button>
       </div>
     </div>
   </div>
@@ -4059,8 +4059,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       switch (action) {
         case 'start':
           if (set && set.questions && set.questions.length) {
-            if (set.questions.length > SEQUENTIAL_MODE_THRESHOLD) openStartModeModal(set);
-            else if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
+            if (hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id);
+            else if (set.questions.length > SEQUENTIAL_MODE_THRESHOLD) openStartModeModal(set);
             else startQuiz(set.questions, false, set.id);
           }
           break;
@@ -4913,9 +4913,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           countInput.value = Math.min(20, remain);
         }
       }
-      const hasReview = hasReviewMaterial(set);
-      if (reviewCard) reviewCard.style.display = hasReview ? 'flex' : 'none';
-      if (reviewCheck) reviewCheck.checked = hasReview;
+      if (reviewCard) reviewCard.style.display = 'none';
       if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
     }
     function closeStartModeModal() {
@@ -4931,7 +4929,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         startQuiz(questions, fromWrongBook, setId, startOpts);
         return;
       }
-      _pendingReviewStart = { questions, fromWrongBook, setId, noShuffle: startOpts && startOpts.noShuffle };
+      _pendingReviewStart = { set, questions, fromWrongBook, setId, noShuffle: startOpts && startOpts.noShuffle };
       const textsWrap = document.getElementById('review-modal-texts');
       const linksEl = document.getElementById('review-modal-links');
       const imagesEl = document.getElementById('review-modal-images');
@@ -6667,11 +6665,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     });
     function confirmReviewStartQuiz() {
-      if (_pendingReviewStart) {
-        const p = _pendingReviewStart;
-        hideReviewModal();
-        startQuiz(p.questions, p.fromWrongBook, p.setId, p.noShuffle ? { noShuffle: true } : {});
-      }
+      if (!_pendingReviewStart) return;
+      const p = _pendingReviewStart;
+      hideReviewModal();
+      const opts = p.noShuffle ? { noShuffle: true } : {};
+      if (p.set && p.set.questions.length > SEQUENTIAL_MODE_THRESHOLD) openStartModeModal(p.set);
+      else startQuiz(p.questions, p.fromWrongBook, p.setId, opts);
     }
     document.getElementById('btn-review-start-quiz').addEventListener('click', confirmReviewStartQuiz);
     document.getElementById('review-modal-overlay').addEventListener('click', (e) => {
@@ -6696,12 +6695,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
         const shuffle = shuffleEl ? shuffleEl.checked : false;
-        const reviewCheck = document.getElementById('start-mode-review');
-        const shouldReview = reviewCheck ? reviewCheck.checked : false;
         const opts = shuffle ? {} : { noShuffle: true };
         closeStartModeModal();
-        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
-        else startQuiz(set.questions, false, set.id, opts);
+        startQuiz(set.questions, false, set.id, opts);
       }
       function doStartSequential() {
         if (!_pendingStartSet || !countInput) return;
@@ -6711,12 +6707,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         let n = Math.max(1, Math.min(remain, parseInt(countInput.value, 10) || 20));
         if (n > remain) n = remain;
         const slice = set.questions.slice(nextIdx, nextIdx + n);
-        const reviewCheck = document.getElementById('start-mode-review');
-        const shouldReview = reviewCheck ? reviewCheck.checked : false;
         closeStartModeModal();
         const opts = { noShuffle: true, sequentialBatch: { startIndex: nextIdx, count: slice.length } };
-        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, slice, false, set.id, opts);
-        else startQuiz(slice, false, set.id, opts);
+        startQuiz(slice, false, set.id, opts);
       }
       function doResetProgress() {
         if (!_pendingStartSet) return;
@@ -6736,12 +6729,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const set = _pendingStartSet;
         const shuffleEl = document.getElementById('start-mode-shuffle');
         const shuffle = shuffleEl ? shuffleEl.checked : false;
-        const reviewCheck = document.getElementById('start-mode-review');
-        const shouldReview = reviewCheck ? reviewCheck.checked : false;
         const opts = shuffle ? {} : { noShuffle: true };
         closeStartModeModal();
-        if (shouldReview && hasReviewMaterial(set)) showReviewModal(set, set.questions, false, set.id, opts);
-        else startQuiz(set.questions, false, set.id, opts);
+        startQuiz(set.questions, false, set.id, opts);
       });
       if (overlay) overlay.addEventListener('click', function(e) {
         if (e.target.id === 'start-mode-modal-overlay') closeStartModeModal();
