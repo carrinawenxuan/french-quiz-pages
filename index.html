@@ -521,8 +521,14 @@
     .flashcard-training-inner { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
     .flashcard-training-progress { font-size: 0.85rem; color: var(--text-muted); }
     .flashcard-card-wrap { width: 100%; min-height: 220px; perspective: 1000px; cursor: pointer; }
-    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d; }
+    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     .flashcard-card-inner.flipped { transform: rotateY(180deg); }
+    .flashcard-card-inner.flip-shadow { animation: flashcardFlipShadow 0.5s ease-out both; }
+    @keyframes flashcardFlipShadow {
+      0% { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+      50% { box-shadow: 0 1px 24px rgba(0,0,0,0.4); }
+      100% { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    }
     .flashcard-side { position: absolute; inset: 0; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 1.5rem; border-radius: var(--radius); border: 2px solid var(--border-strong); background: var(--card); color: var(--text); font-size: 1.1rem; line-height: 1.5; text-align: center; word-break: break-word; overflow: auto; }
     .flashcard-front { border-color: var(--accent); }
     .flashcard-back { transform: rotateY(180deg); background: var(--surface); }
@@ -1380,7 +1386,12 @@
       color: var(--text-muted);
       font-size: 1.05rem;
       font-weight: 500;
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .result-streak {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
     }
     .result-confetti {
       position: absolute;
@@ -2531,7 +2542,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-primary" id="btn-submit" aria-label="确认答案" aria-keyshortcuts="Enter">确认</button>
         </div>
       </div>
-      <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认</p>
+      <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认，Esc 提前退出</p>
     </div>
 
     <div id="screen-result" class="screen">
@@ -2539,6 +2550,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="result-score" id="result-score" aria-label="得分">0/0</div>
         <p class="result-pct" id="result-pct"></p>
         <p class="result-desc" id="result-desc">完成练习</p>
+        <p class="result-streak" id="result-streak" style="display: none;"></p>
         <p class="result-celebration" id="result-celebration" style="display: none;">🎉 全对！</p>
         <div class="result-confetti" id="result-confetti" aria-hidden="true"></div>
         <div class="result-actions">
@@ -4582,6 +4594,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       practicedSetId: null,
       sequentialBatch: null,
       consecutiveCorrect: 0,
+      maxConsecutiveCorrect: 0,
       animatingTransition: false
     };
     let timerId = null;
@@ -4839,6 +4852,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.answered = false;
       state.answerResults = {};
       state.consecutiveCorrect = 0;
+      state.maxConsecutiveCorrect = 0;
       state.practicingWrongBook = !!fromWrongBook;
       state.practicedSetId = setId || null;
       state.sequentialBatch = opts.sequentialBatch || null;
@@ -5200,7 +5214,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         el.style.display = 'none';
       }
     }
+    function playComboSound() {
+      try {
+        var C = typeof window !== 'undefined' && window.AudioContext || window.webkitAudioContext;
+        if (!C) return;
+        var ctx = playComboSound._ctx;
+        if (!ctx) { ctx = new C(); playComboSound._ctx = ctx; }
+        if (ctx.state === 'suspended') ctx.resume();
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.frequency.setValueAtTime(880, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(1200, ctx.currentTime + 0.08);
+        osc.type = 'sine';
+        gain.gain.setValueAtTime(0.15, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.15);
+      } catch (_) {}
+    }
     function triggerComboEffect(n) {
+      playComboSound();
       const comboEl = document.getElementById('quiz-combo');
       if (comboEl) {
         comboEl.textContent = '连击 ' + n + '！';
@@ -5332,6 +5367,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
       if (correct) {
         state.consecutiveCorrect = (state.consecutiveCorrect || 0) + 1;
+        if (state.consecutiveCorrect > (state.maxConsecutiveCorrect || 0)) state.maxConsecutiveCorrect = state.consecutiveCorrect;
         updateComboDisplay();
         if ([3, 5, 10].indexOf(state.consecutiveCorrect) !== -1) triggerComboEffect(state.consecutiveCorrect);
       } else {
@@ -5615,6 +5651,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       const resultDescEl = document.getElementById('result-desc');
       if (resultDescEl) resultDescEl.textContent = pct >= 80 ? 'Très bien !' : pct >= 60 ? 'Pas mal !' : 'Continuez à pratiquer !';
+      const streakEl = document.getElementById('result-streak');
+      if (streakEl) {
+        var maxStreak = state.maxConsecutiveCorrect || 0;
+        if (maxStreak > 0) {
+          streakEl.textContent = '本次连续答对最多 ' + maxStreak + ' 题';
+          streakEl.style.display = 'block';
+        } else {
+          streakEl.textContent = '';
+          streakEl.style.display = 'none';
+        }
+      }
       const celebrationEl = document.getElementById('result-celebration');
       const isFull = state.score === state.questions.length && state.questions.length > 0;
       if (celebrationEl) celebrationEl.style.display = isFull ? 'block' : 'none';
@@ -5679,6 +5726,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function onQuizKeydown(e) {
       if (_currentScreen !== SCREEN.QUIZ) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        if (confirm('确定要提前退出吗？')) {
+          clearTimer();
+          clearQuizProgress();
+          showScreen(SCREEN.HOME);
+          updateWrongCount();
+          renderSavedSets();
+        }
+        return;
+      }
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
       if (tag === 'INPUT' || tag === 'TEXTAREA') {
         if (e.key === 'Enter' && (e.target.id === 'explanation-notes-textarea' || e.target.closest('#explanation-notes-edit'))) return;
@@ -6101,6 +6159,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         var inner = document.getElementById('flashcard-card-inner');
         _flashcardFlipLock = true;
         inner.classList.toggle('flipped');
+        inner.classList.add('flip-shadow');
+        setTimeout(function() { inner.classList.remove('flip-shadow'); }, 500);
         inner.addEventListener('transitionend', function unlock() { _flashcardFlipLock = false; }, { once: true });
       });
       document.getElementById('btn-flashcard-prev').addEventListener('click', () => {
@@ -6120,6 +6180,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             var inner = document.getElementById('flashcard-card-inner');
             _flashcardFlipLock = true;
             inner.classList.toggle('flipped');
+            inner.classList.add('flip-shadow');
+            setTimeout(function() { inner.classList.remove('flip-shadow'); }, 500);
             inner.addEventListener('transitionend', function unlock() { _flashcardFlipLock = false; }, { once: true });
             return;
           }
