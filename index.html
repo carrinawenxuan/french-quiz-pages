@@ -1942,33 +1942,51 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
-    /* Custom Dialog Modal */
+    /* Custom Dialog Modal — 居中弹窗 */
     .custom-dialog-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
       z-index: 1003;
       align-items: center;
       justify-content: center;
-      padding: 1rem;
-      padding-left: max(1rem, env(safe-area-inset-left));
-      padding-right: max(1rem, env(safe-area-inset-right));
-      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      padding: 1.5rem;
+      padding-left: max(1.5rem, env(safe-area-inset-left));
+      padding-right: max(1.5rem, env(safe-area-inset-right));
+      padding-top: max(1.5rem, env(safe-area-inset-top));
+      padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
       -webkit-overflow-scrolling: touch;
       overflow-y: auto;
+      box-sizing: border-box;
     }
-    .custom-dialog-overlay.show { display: flex; }
+    .custom-dialog-overlay.show {
+      display: flex;
+      animation: customDialogOverlayIn 0.2s ease;
+    }
+    @keyframes customDialogOverlayIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
     .custom-dialog {
       background: var(--card);
       border-radius: var(--radius);
       border: 1px solid var(--border-strong);
-      padding: 1.5rem;
+      padding: 1.5rem 1.75rem;
       max-width: 420px;
       width: 100%;
       max-height: 90vh;
       overflow-y: auto;
-      box-shadow: var(--shadow);
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.04);
+      margin: auto;
+      flex-shrink: 0;
+      animation: customDialogIn 0.25s ease;
+    }
+    @keyframes customDialogIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
     }
     body.theme-light .custom-dialog { border-color: var(--border-strong); }
     .custom-dialog-title {
@@ -5728,13 +5746,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (_currentScreen !== SCREEN.QUIZ) return;
       if (e.key === 'Escape') {
         e.preventDefault();
-        if (confirm('确定要提前退出吗？')) {
-          clearTimer();
-          clearQuizProgress();
-          showScreen(SCREEN.HOME);
-          updateWrongCount();
-          renderSavedSets();
-        }
+        customConfirm('确定要提前退出吗？').then(function(confirmed) {
+          if (confirmed) {
+            clearTimer();
+            clearQuizProgress();
+            showScreen(SCREEN.HOME);
+            updateWrongCount();
+            renderSavedSets();
+          }
+        });
         return;
       }
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
