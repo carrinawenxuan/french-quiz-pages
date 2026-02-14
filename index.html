@@ -521,13 +521,22 @@
     .flashcard-training-inner { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
     .flashcard-training-progress { font-size: 0.85rem; color: var(--text-muted); }
     .flashcard-card-wrap { width: 100%; min-height: 220px; perspective: 1000px; cursor: pointer; }
-    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s; transform-style: preserve-3d; }
+    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     .flashcard-card-inner.flipped { transform: rotateY(180deg); }
+    .flashcard-card-inner.flip-shadow { animation: flashcardFlipShadow 0.5s ease-out both; }
+    @keyframes flashcardFlipShadow {
+      0% { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+      50% { box-shadow: 0 1px 24px rgba(0,0,0,0.4); }
+      100% { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    }
     .flashcard-side { position: absolute; inset: 0; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 1.5rem; border-radius: var(--radius); border: 2px solid var(--border-strong); background: var(--card); color: var(--text); font-size: 1.1rem; line-height: 1.5; text-align: center; word-break: break-word; overflow: auto; }
     .flashcard-front { border-color: var(--accent); }
     .flashcard-back { transform: rotateY(180deg); background: var(--surface); }
     .flashcard-training-actions { display: flex; gap: 0.75rem; }
     .btn-close-training { margin-top: 0.5rem; }
+    .flashcard-complete-wrap { text-align: center; padding: 1rem 0; }
+    .flashcard-complete-msg { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 1.25rem; }
+    .flashcard-complete-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; }
     .flashcard-add-card-overlay {
       position: fixed;
       inset: 0;
@@ -590,6 +599,41 @@
       transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
       will-change: width;
+    }
+    .quiz-combo {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 0.35rem;
+      min-height: 1.25rem;
+      transition: opacity 0.2s;
+    }
+    .quiz-combo.combo-pop {
+      animation: comboPop 0.55s ease;
+    }
+    @keyframes comboPop {
+      0% { transform: scale(0.6); opacity: 0; }
+      45% { transform: scale(1.25); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .quiz-combo-burst {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      border-radius: inherit;
+    }
+    .quiz-combo-burst span {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      animation: comboBurst 1.2s ease-out forwards;
+    }
+    @keyframes comboBurst {
+      0% { transform: translate(0, 0) scale(1); opacity: 1; }
+      100% { transform: translate(var(--dx, 0), var(--dy, -40px)) scale(0); opacity: 0; }
     }
 
     .question-card {
@@ -1342,7 +1386,12 @@
       color: var(--text-muted);
       font-size: 1.05rem;
       font-weight: 500;
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .result-streak {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
     }
     .result-confetti {
       position: absolute;
@@ -1893,33 +1942,51 @@
     .btn-link-danger { background: none; border: none; color: var(--text-muted); font-size: 0.85rem; cursor: pointer; padding: 0.35rem 0; text-decoration: underline; }
     .btn-link-danger:hover { color: #f87171; }
 
-    /* Custom Dialog Modal */
+    /* Custom Dialog Modal — 居中弹窗 */
     .custom-dialog-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
       z-index: 1003;
       align-items: center;
       justify-content: center;
-      padding: 1rem;
-      padding-left: max(1rem, env(safe-area-inset-left));
-      padding-right: max(1rem, env(safe-area-inset-right));
-      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      padding: 1.5rem;
+      padding-left: max(1.5rem, env(safe-area-inset-left));
+      padding-right: max(1.5rem, env(safe-area-inset-right));
+      padding-top: max(1.5rem, env(safe-area-inset-top));
+      padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
       -webkit-overflow-scrolling: touch;
       overflow-y: auto;
+      box-sizing: border-box;
     }
-    .custom-dialog-overlay.show { display: flex; }
+    .custom-dialog-overlay.show {
+      display: flex;
+      animation: customDialogOverlayIn 0.2s ease;
+    }
+    @keyframes customDialogOverlayIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
     .custom-dialog {
       background: var(--card);
       border-radius: var(--radius);
       border: 1px solid var(--border-strong);
-      padding: 1.5rem;
+      padding: 1.5rem 1.75rem;
       max-width: 420px;
       width: 100%;
       max-height: 90vh;
       overflow-y: auto;
-      box-shadow: var(--shadow);
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.04);
+      margin: auto;
+      flex-shrink: 0;
+      animation: customDialogIn 0.25s ease;
+    }
+    @keyframes customDialogIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
     }
     body.theme-light .custom-dialog { border-color: var(--border-strong); }
     .custom-dialog-title {
@@ -2437,6 +2504,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="progress-bar">
           <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
         </div>
+        <span id="quiz-combo" class="quiz-combo" aria-live="polite"></span>
       </div>
       <div class="question-card" role="region" aria-labelledby="question-stem" aria-describedby="question-meta" aria-live="polite">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;">
@@ -2492,7 +2560,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-primary" id="btn-submit" aria-label="确认答案" aria-keyshortcuts="Enter">确认</button>
         </div>
       </div>
-      <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认</p>
+      <p class="quiz-shortcut-hint" aria-hidden="true">快捷键：1–4 选选项，Enter 确认，Esc 提前退出</p>
     </div>
 
     <div id="screen-result" class="screen">
@@ -2500,6 +2568,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <div class="result-score" id="result-score" aria-label="得分">0/0</div>
         <p class="result-pct" id="result-pct"></p>
         <p class="result-desc" id="result-desc">完成练习</p>
+        <p class="result-streak" id="result-streak" style="display: none;"></p>
         <p class="result-celebration" id="result-celebration" style="display: none;">🎉 全对！</p>
         <div class="result-confetti" id="result-confetti" aria-hidden="true"></div>
         <div class="result-actions">
@@ -2669,18 +2738,27 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <!-- 记忆训练：翻牌训练遮罩 -->
   <div class="flashcard-training-overlay" id="flashcard-training-overlay" role="dialog" aria-modal="true" aria-label="记忆卡片训练" style="display: none;">
     <div class="flashcard-training-inner">
-      <div class="flashcard-training-progress" id="flashcard-training-progress"></div>
-      <div class="flashcard-card-wrap" id="flashcard-card-wrap" tabindex="0">
-        <div class="flashcard-card-inner" id="flashcard-card-inner">
-          <div class="flashcard-side flashcard-front" id="flashcard-side-front"></div>
-          <div class="flashcard-side flashcard-back" id="flashcard-side-back"></div>
+      <div class="flashcard-training-content" id="flashcard-training-content">
+        <div class="flashcard-training-progress" id="flashcard-training-progress"></div>
+        <div class="flashcard-card-wrap" id="flashcard-card-wrap" tabindex="0">
+          <div class="flashcard-card-inner" id="flashcard-card-inner">
+            <div class="flashcard-side flashcard-front" id="flashcard-side-front"></div>
+            <div class="flashcard-side flashcard-back" id="flashcard-side-back"></div>
+          </div>
+        </div>
+        <div class="flashcard-training-actions">
+          <button type="button" class="btn btn-secondary" id="btn-flashcard-prev">上一张</button>
+          <button type="button" class="btn btn-primary" id="btn-flashcard-next">下一张</button>
+        </div>
+        <button type="button" class="btn btn-secondary btn-close-training" id="btn-flashcard-close-training" aria-label="结束训练">结束训练</button>
+      </div>
+      <div class="flashcard-complete-wrap" id="flashcard-complete-wrap" style="display: none;">
+        <p class="flashcard-complete-msg" id="flashcard-complete-msg"></p>
+        <div class="flashcard-complete-actions">
+          <button type="button" class="btn btn-primary" id="btn-flashcard-complete-restart">再练一遍</button>
+          <button type="button" class="btn btn-secondary" id="btn-flashcard-complete-back">返回列表</button>
         </div>
       </div>
-      <div class="flashcard-training-actions">
-        <button type="button" class="btn btn-secondary" id="btn-flashcard-prev">上一张</button>
-        <button type="button" class="btn btn-primary" id="btn-flashcard-next">下一张</button>
-      </div>
-      <button type="button" class="btn btn-secondary btn-close-training" id="btn-flashcard-close-training" aria-label="结束训练">结束训练</button>
     </div>
   </div>
 
@@ -4532,7 +4610,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       timerSeconds: 10,
       practicingWrongBook: false,
       practicedSetId: null,
-      sequentialBatch: null
+      sequentialBatch: null,
+      consecutiveCorrect: 0,
+      maxConsecutiveCorrect: 0,
+      animatingTransition: false
     };
     let timerId = null;
     let _pendingTimers = [];  // Track pending setTimeout/setInterval for cleanup
@@ -4733,6 +4814,40 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return questions;
     }
 
+    function preloadNextQuestionAssets(questions, fromIndex) {
+      if (!questions || !questions.length) return;
+      var to = Math.min(fromIndex + 3, questions.length);
+      for (var i = fromIndex; i < to; i++) {
+        var q = questions[i];
+        if (!q) continue;
+        var audioUrl = q.audio || q.pronunciation;
+        if (typeof audioUrl === 'string' && audioUrl.trim()) {
+          try {
+            var a = new Audio(audioUrl);
+            a.preload = 'auto';
+            a.load();
+          } catch (_) {}
+        }
+        var imgUrl = q.image || (q.stemImage && q.stemImage.url);
+        if (typeof imgUrl === 'string' && imgUrl.trim()) {
+          try {
+            var img = new Image();
+            img.src = imgUrl;
+          } catch (_) {}
+        }
+      }
+    }
+    function preloadReviewImages(urls) {
+      if (!urls || !urls.length) return;
+      urls.forEach(function(url) {
+        if (typeof url !== 'string' || !url.trim()) return;
+        try {
+          var img = new Image();
+          img.src = url;
+        } catch (_) {}
+      });
+    }
+
     function startQuiz(questions, fromWrongBook, setId, opts) {
       if (!questions || questions.length === 0) {
         showToast(fromWrongBook ? '没有到期需要复习的错题，明天再来' : '没有可用的题目，请检查导入或使用默认题目');
@@ -4754,10 +4869,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       state.score = 0;
       state.answered = false;
       state.answerResults = {};
+      state.consecutiveCorrect = 0;
+      state.maxConsecutiveCorrect = 0;
       state.practicingWrongBook = !!fromWrongBook;
       state.practicedSetId = setId || null;
       state.sequentialBatch = opts.sequentialBatch || null;
       showScreen(SCREEN.QUIZ);
+      preloadNextQuestionAssets(state.questions, 0);
       if (typeof performance !== 'undefined' && performance.mark) performance.mark('quiz-first-render-start');
       renderQuestion();
       if (typeof performance !== 'undefined' && performance.mark) {
@@ -4807,6 +4925,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function showReviewModal(set, questions, fromWrongBook, setId, startOpts) {
       const m = getReviewMaterials(set);
+      if (m.images && m.images.length) preloadReviewImages(m.images);
       const total = m.texts.length + m.links.length + m.images.length;
       if (total === 0) {
         startQuiz(questions, fromWrongBook, setId, startOpts);
@@ -4952,6 +5071,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         answerFeedbackEl.className = 'answer-feedback';
         answerFeedbackEl.textContent = '';
       }
+      updateComboDisplay();
+      preloadNextQuestionAssets(state.questions, state.index);
 
       var optionsEl = $('options-container');
       var fillWrap = $('fill-input-wrap');
@@ -5099,6 +5220,70 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return escapeAttr(u);
     }
 
+    function updateComboDisplay() {
+      const el = document.getElementById('quiz-combo');
+      if (!el) return;
+      const n = state.consecutiveCorrect || 0;
+      if (n >= 2) {
+        el.textContent = '连击 ' + n;
+        el.style.display = 'inline-block';
+      } else {
+        el.textContent = '';
+        el.style.display = 'none';
+      }
+    }
+    function playComboSound() {
+      try {
+        var C = typeof window !== 'undefined' && window.AudioContext || window.webkitAudioContext;
+        if (!C) return;
+        var ctx = playComboSound._ctx;
+        if (!ctx) { ctx = new C(); playComboSound._ctx = ctx; }
+        if (ctx.state === 'suspended') ctx.resume();
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.frequency.setValueAtTime(880, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(1200, ctx.currentTime + 0.08);
+        osc.type = 'sine';
+        gain.gain.setValueAtTime(0.15, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.15);
+      } catch (_) {}
+    }
+    function triggerComboEffect(n) {
+      playComboSound();
+      const comboEl = document.getElementById('quiz-combo');
+      if (comboEl) {
+        comboEl.textContent = '连击 ' + n + '！';
+        comboEl.classList.remove('combo-pop');
+        void comboEl.offsetWidth;
+        comboEl.classList.add('combo-pop');
+      }
+      const card = document.querySelector('.question-card');
+      if (!card) return;
+      const burst = document.createElement('div');
+      burst.className = 'quiz-combo-burst';
+      const colors = ['#8b5cf6', '#34d399', '#fbbf24', '#60a5fa', '#f87171'];
+      for (let i = 0; i < 10; i++) {
+        const s = document.createElement('span');
+        s.style.left = (30 + Math.random() * 40) + '%';
+        s.style.top = (40 + Math.random() * 30) + '%';
+        s.style.background = colors[i % colors.length];
+        const dx = (Math.random() - 0.5) * 80;
+        const dy = -30 - Math.random() * 50;
+        s.style.setProperty('--dx', dx + 'px');
+        s.style.setProperty('--dy', dy + 'px');
+        s.style.animationDelay = (Math.random() * 0.15) + 's';
+        burst.appendChild(s);
+      }
+      card.appendChild(burst);
+      setTimeout(function() {
+        if (burst.parentNode) burst.parentNode.removeChild(burst);
+      }, 1300);
+    }
+
     function submitAnswer() {
       clearTimer();
       if (state.answered) return;
@@ -5197,6 +5382,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
+
+      if (correct) {
+        state.consecutiveCorrect = (state.consecutiveCorrect || 0) + 1;
+        if (state.consecutiveCorrect > (state.maxConsecutiveCorrect || 0)) state.maxConsecutiveCorrect = state.consecutiveCorrect;
+        updateComboDisplay();
+        if ([3, 5, 10].indexOf(state.consecutiveCorrect) !== -1) triggerComboEffect(state.consecutiveCorrect);
+      } else {
+        state.consecutiveCorrect = 0;
+        updateComboDisplay();
+        if (typeof navigator !== 'undefined' && navigator.vibrate) navigator.vibrate(50);
+      }
 
       /* Add card feedback animation */
       const questionCard = document.querySelector('.question-card');
@@ -5400,8 +5596,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function nextQuestion() {
       if (state.answered !== true) return;  // Prevent rapid clicking
+      if (state.animatingTransition) return;
+      state.animatingTransition = true;
       state.index++;
       if (state.index >= state.questions.length) {
+        state.animatingTransition = false;
         showResult();
       } else {
         const card = document.querySelector('.question-card');
@@ -5422,15 +5621,34 @@ A) écris  B) écrit  C) écrivons  D) écrivent
               card.addEventListener('animationend', () => {
                 card.classList.remove('animate-in');
                 card.style.willChange = '';
+                state.animatingTransition = false;
               }, { once: true });
+            } else {
+              state.animatingTransition = false;
             }
             _pendingTimers = _pendingTimers.filter(t => t !== animTimer);
           }, 200);
           _pendingTimers.push(animTimer);
         } else {
           renderQuestion();
+          state.animatingTransition = false;
         }
       }
+    }
+
+    function animateResultPct(el, targetPct, durationMs) {
+      if (!el || durationMs <= 0) return;
+      var start = performance.now();
+      function tick(now) {
+        var elapsed = now - start;
+        var t = elapsed >= durationMs ? 1 : elapsed / durationMs;
+        var eased = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+        var current = Math.round(eased * targetPct);
+        el.textContent = '正确率 ' + current + '%';
+        if (elapsed < durationMs) requestAnimationFrame(tick);
+        else el.textContent = '正确率 ' + targetPct + '%';
+      }
+      requestAnimationFrame(tick);
     }
 
     function showResult() {
@@ -5445,9 +5663,23 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (resultScoreEl) resultScoreEl.textContent = `${state.score} / ${state.questions.length}`;
       const pct = state.questions.length ? Math.round((state.score / state.questions.length) * 100) : 0;
       const pctEl = document.getElementById('result-pct');
-      if (pctEl) pctEl.textContent = '正确率 ' + pct + '%';
+      if (pctEl) {
+        pctEl.textContent = '正确率 0%';
+        animateResultPct(pctEl, pct, 600);
+      }
       const resultDescEl = document.getElementById('result-desc');
       if (resultDescEl) resultDescEl.textContent = pct >= 80 ? 'Très bien !' : pct >= 60 ? 'Pas mal !' : 'Continuez à pratiquer !';
+      const streakEl = document.getElementById('result-streak');
+      if (streakEl) {
+        var maxStreak = state.maxConsecutiveCorrect || 0;
+        if (maxStreak > 0) {
+          streakEl.textContent = '本次连续答对最多 ' + maxStreak + ' 题';
+          streakEl.style.display = 'block';
+        } else {
+          streakEl.textContent = '';
+          streakEl.style.display = 'none';
+        }
+      }
       const celebrationEl = document.getElementById('result-celebration');
       const isFull = state.score === state.questions.length && state.questions.length > 0;
       if (celebrationEl) celebrationEl.style.display = isFull ? 'block' : 'none';
@@ -5455,16 +5687,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (confettiEl) {
         confettiEl.innerHTML = '';
         if (isFull) {
-          const colors = ['#8b5cf6', '#34d399', '#fbbf24', '#60a5fa', '#f87171'];
-          for (let i = 0; i < 14; i++) {
-            const s = document.createElement('span');
-            s.style.left = (10 + Math.random() * 80) + '%';
-            s.style.top = (60 + Math.random() * 35) + '%';
-            s.style.background = colors[i % colors.length];
-            s.style.animationDelay = (Math.random() * 0.6) + 's';
-            s.style.animationDuration = (2 + Math.random() * 1.2) + 's';
-            confettiEl.appendChild(s);
-          }
+          setTimeout(function() {
+            if (!confettiEl.parentNode) return;
+            const colors = ['#8b5cf6', '#34d399', '#fbbf24', '#60a5fa', '#f87171'];
+            for (let i = 0; i < 14; i++) {
+              const s = document.createElement('span');
+              s.style.left = (10 + Math.random() * 80) + '%';
+              s.style.top = (60 + Math.random() * 35) + '%';
+              s.style.background = colors[i % colors.length];
+              s.style.animationDelay = (Math.random() * 0.6) + 's';
+              s.style.animationDuration = (2 + Math.random() * 1.2) + 's';
+              confettiEl.appendChild(s);
+            }
+          }, 650);
         }
       }
       pushRecentSession(state.questions.length, state.score);
@@ -5509,6 +5744,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function onQuizKeydown(e) {
       if (_currentScreen !== SCREEN.QUIZ) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        customConfirm('确定要提前退出吗？').then(function(confirmed) {
+          if (confirmed) {
+            clearTimer();
+            clearQuizProgress();
+            showScreen(SCREEN.HOME);
+            updateWrongCount();
+            renderSavedSets();
+          }
+        });
+        return;
+      }
       const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
       if (tag === 'INPUT' || tag === 'TEXTAREA') {
         if (e.key === 'Enter' && (e.target.id === 'explanation-notes-textarea' || e.target.closest('#explanation-notes-edit'))) return;
@@ -5600,6 +5848,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       let _flashcardTrainingDeck = null;
       let _flashcardTrainingOrder = [];
       let _flashcardTrainingIndex = 0;
+      let _flashcardFlipLock = false;
 
       function escapeHtml(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
       function escapeAttr(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
@@ -5743,6 +5992,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _flashcardTrainingOrder = deck.cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
+        const contentEl = document.getElementById('flashcard-training-content');
+        const completeEl = document.getElementById('flashcard-complete-wrap');
+        if (contentEl) contentEl.style.display = '';
+        if (completeEl) completeEl.style.display = 'none';
         const overlay = document.getElementById('flashcard-training-overlay');
         overlay.style.display = 'flex';
         setModalFocusTrap(overlay);
@@ -5774,6 +6027,25 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _flashcardTrainingDeck = null;
         clearModalFocusTrap();
       }
+      function showFlashcardDeckComplete(count) {
+        const contentEl = document.getElementById('flashcard-training-content');
+        const completeEl = document.getElementById('flashcard-complete-wrap');
+        const msgEl = document.getElementById('flashcard-complete-msg');
+        if (contentEl) contentEl.style.display = 'none';
+        if (completeEl) completeEl.style.display = 'block';
+        if (msgEl) msgEl.textContent = '🎉 本组 ' + count + ' 张已看完';
+        var btnRestart = document.getElementById('btn-flashcard-complete-restart');
+        var btnBack = document.getElementById('btn-flashcard-complete-back');
+        if (btnRestart) btnRestart.onclick = function() {
+          if (contentEl) contentEl.style.display = '';
+          if (completeEl) completeEl.style.display = 'none';
+          startTraining();
+        };
+        if (btnBack) btnBack.onclick = function() {
+          closeFlashcardTraining();
+          showFlashcardDeckList();
+        };
+      }
 
       window.startFlashcardTrainingWithCards = function(cards) {
         if (!cards || cards.length === 0) { showToast('没有可训练的卡片'); return; }
@@ -5781,6 +6053,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _flashcardTrainingOrder = cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
+        var contentEl = document.getElementById('flashcard-training-content');
+        var completeEl = document.getElementById('flashcard-complete-wrap');
+        if (contentEl) contentEl.style.display = '';
+        if (completeEl) completeEl.style.display = 'none';
         const overlay = document.getElementById('flashcard-training-overlay');
         overlay.style.display = 'flex';
         setModalFocusTrap(overlay);
@@ -5899,17 +6175,48 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       document.getElementById('btn-flashcard-cancel-card').addEventListener('click', closeAddCardModal);
       document.getElementById('btn-flashcard-save-card').addEventListener('click', saveFlashcardCard);
       document.getElementById('flashcard-card-wrap').addEventListener('click', () => {
-        document.getElementById('flashcard-card-inner').classList.toggle('flipped');
+        if (_flashcardFlipLock) return;
+        var inner = document.getElementById('flashcard-card-inner');
+        _flashcardFlipLock = true;
+        inner.classList.toggle('flipped');
+        inner.classList.add('flip-shadow');
+        setTimeout(function() { inner.classList.remove('flip-shadow'); }, 500);
+        inner.addEventListener('transitionend', function unlock() { _flashcardFlipLock = false; }, { once: true });
       });
       document.getElementById('btn-flashcard-prev').addEventListener('click', () => {
         if (_flashcardTrainingIndex > 0) { _flashcardTrainingIndex--; updateFlashcardTrainingCard(); }
       });
       document.getElementById('btn-flashcard-next').addEventListener('click', () => {
         if (_flashcardTrainingIndex < _flashcardTrainingOrder.length - 1) { _flashcardTrainingIndex++; updateFlashcardTrainingCard(); }
-        else { showToast('已是最后一张'); }
+        else { showFlashcardDeckComplete(_flashcardTrainingOrder.length); }
       });
       document.getElementById('btn-flashcard-close-training').addEventListener('click', closeFlashcardTraining);
       document.addEventListener('keydown', function flashcardKeydown(e) {
+        var trainingOverlay = document.getElementById('flashcard-training-overlay');
+        if (trainingOverlay && trainingOverlay.style.display === 'flex') {
+          if (e.key === ' ') {
+            e.preventDefault();
+            if (_flashcardFlipLock) return;
+            var inner = document.getElementById('flashcard-card-inner');
+            _flashcardFlipLock = true;
+            inner.classList.toggle('flipped');
+            inner.classList.add('flip-shadow');
+            setTimeout(function() { inner.classList.remove('flip-shadow'); }, 500);
+            inner.addEventListener('transitionend', function unlock() { _flashcardFlipLock = false; }, { once: true });
+            return;
+          }
+          if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            if (_flashcardTrainingIndex > 0) { _flashcardTrainingIndex--; updateFlashcardTrainingCard(); }
+            return;
+          }
+          if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            if (_flashcardTrainingIndex < _flashcardTrainingOrder.length - 1) { _flashcardTrainingIndex++; updateFlashcardTrainingCard(); }
+            else { showFlashcardDeckComplete(_flashcardTrainingOrder.length); }
+            return;
+          }
+        }
         if (e.key !== 'Escape') return;
         if (document.getElementById('flashcard-training-overlay').style.display === 'flex') {
           closeFlashcardTraining();
