@@ -1,6 +1,171 @@
 {
   "savedSets": [
     {
+      "id": 1771470143502,
+      "name": "C'est un moulin à paroles",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-19T03:02:23.502Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la signification de l'expression « C'est un moulin à paroles » ?",
+          "options": [
+            "C'est une personne très silencieuse.",
+            "C'est une personne qui parle énormément.",
+            "C'est une personne qui travaille beaucoup.",
+            "C'est une personne très intelligente."
+          ],
+          "correct": 1,
+          "explanation": "Un moulin à paroles désigne une personne très bavarde, qui parle sans arrêt.",
+          "category": "习语含义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est correcte ?",
+          "options": [
+            "Il est moulin à paroles.",
+            "C'est un moulin de paroles.",
+            "C'est un vrai moulin à paroles.",
+            "C'est un moulin pour paroles."
+          ],
+          "correct": 2,
+          "explanation": "La structure correcte est « moulin à + nom » (comme moulin à café). L'article est maintenu dans l'expression figée, et « vrai » renforce l'effet.",
+          "category": "结构用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression a un sens PROCHE de « moulin à paroles » ?",
+          "options": [
+            "avoir la tête dans les nuages",
+            "avoir la langue bien pendue",
+            "avoir les pieds sur terre",
+            "avoir le cœur sur la main"
+          ],
+          "correct": 1,
+          "explanation": "Avoir la langue bien pendue = être très bavard, capable de parler facilement et beaucoup. Attention : cette expression peut être légèrement positive (éloquent), contrairement à « moulin à paroles » qui est davantage péjoratif.",
+          "category": "近义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le registre de l'expression « C'est un moulin à paroles » ?",
+          "options": [
+            "Registre soutenu, utilisé à l'écrit formel",
+            "Registre familier, utilisé à l'oral entre amis",
+            "Registre scientifique",
+            "Registre administratif"
+          ],
+          "correct": 1,
+          "explanation": "Cette expression appartient au registre familier/oral. On ne l'utiliserait pas dans un rapport officiel ou une lettre formelle.",
+          "category": "语域判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mon professeur parle sans arrêt en classe. C'est un vrai _____ à paroles !",
+          "correct": [
+            "moulin"
+          ],
+          "explanation": "La structure est fixe : moulin à paroles. Le mot clé est « moulin ».",
+          "category": "填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour exprimer qu'une personne est très bavarde en français familier, on peut dire : « C'est un moulin _____ paroles. »",
+          "correct": [
+            "à"
+          ],
+          "explanation": "La préposition à est obligatoire dans cette structure. Ne pas confondre avec « de » — moulin DE paroles est incorrect.",
+          "category": "介词辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles peuvent décrire une personne qui parle trop ?",
+          "options": [
+            "C'est un moulin à paroles.",
+            "Il a la langue bien pendue.",
+            "Il a les pieds sur terre.",
+            "Il parle à tort et à travers."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "« Avoir les pieds sur terre » signifie être réaliste, pas bavard. Les trois autres expressions décrivent toutes une personne qui parle beaucoup (avec des nuances : moulin à paroles = péjoratif ; langue bien pendue = neutre/léger positif ; parler à tort et à travers = parler sans réfléchir).",
+          "category": "多选辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ma voisine, c'est un vrai moulin à _____ ! Elle _____ (parler) sans arrêt du matin au soir. Impossible de placer un _____ quand elle est là.",
+          "correct": [
+            "paroles",
+            "parle",
+            "mot"
+          ],
+          "explanation": "① moulin à paroles : structure figée. ② parle : présent de l'indicatif, 3e personne du singulier. ③ placer un mot = réussir à dire quelque chose — expression idiomatique complémentaire.",
+          "category": "段落综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1dpAf0Xd1xWVqlgyQFMRIvlUbnFx2-azUxos9_nLMiz0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771470201181-hmfu9h8j9fr",
+          "front": "un moulin à paroles",
+          "back": "习语，字面：话语磨坊\n实际含义：话痨，喋喋不休的人\n语域：口语，略带贬义\n例：C'est un vrai moulin à paroles !"
+        },
+        {
+          "id": "1771470201181-5v7ak71u9am",
+          "front": "moulin à paroles 中的介词是？",
+          "back": "à\n结构：moulin à + nom（表功能）\n✅ moulin à paroles\n❌ moulin de paroles"
+        },
+        {
+          "id": "1771470201181-lta19509mvo",
+          "front": "「C'est un moulin à paroles.」怎么翻译？",
+          "back": "他/她是个话痨。\n= 这个人非常话多，喋喋不休。"
+        },
+        {
+          "id": "1771470201181-arcw6lyqtj",
+          "front": "moulin à paroles 的记忆钩子",
+          "back": "🎡 风车叶片不停转 → 嘴巴不停说\nBLA! BLA! BLA! = 话语磨坊永不停转"
+        },
+        {
+          "id": "1771470201181-u5owprctsuq",
+          "front": "un moulin à paroles 的同义表达（2个）",
+          "back": "① avoir la langue bien pendue\n（能说会道，略褒义）\n② parler à tort et à travers\n（乱说话，贬义）"
+        },
+        {
+          "id": "1771470201181-t5qdovq56g",
+          "front": "avoir la langue bien pendue vs moulin à paroles，区别？",
+          "back": "moulin à paroles：话多且烦人，贬义为主\navoir la langue bien pendue：口才好、能说，有时是褒义\n⚠️ TCF 辨析常考！"
+        },
+        {
+          "id": "1771470201181-xef3zsqkwg",
+          "front": "用 moulin à paroles 造一个 B1 级句子",
+          "back": "Mon collègue, c'est un vrai moulin à paroles — impossible de placer un mot !\n我同事是个话痨，根本插不上嘴！"
+        },
+        {
+          "id": "1771470201181-6z8o7dkmypy",
+          "front": "placer un mot 是什么意思？",
+          "back": "字面：放进一个词\n实际：（在对话中）插上嘴、说上话\n常与 impossible 搭配：\nImpossible de placer un mot !"
+        },
+        {
+          "id": "1771470201181-u4x015lf9m",
+          "front": "bavard(e) 和 moulin à paroles 的区别？",
+          "back": "bavard(e)：形容词，通用，中性→轻微负面\nun moulin à paroles：名词习语，口语，更生动调侃\n写作/口语中用后者更能展示地道度（TCF 加分）"
+        },
+        {
+          "id": "1771470201181-tr5531azbgm",
+          "front": "以下哪个正确？\nA. Il est moulin à paroles.\nB. C'est un moulin à paroles.\nC. C'est un moulin de paroles.",
+          "back": "✅ B. C'est un moulin à paroles.\n❌ A：习语中需保留冠词 un\n❌ C：介词必须用 à，不用 de"
+        }
+      ]
+    },
+    {
       "id": 1771125614723,
       "name": "描述传统节日",
       "folderId": "1770698300033",
@@ -18471,11 +18636,11 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-15",
+    "date": "2026-02-19",
     "todayCount": 0,
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-15T03:20:41.845Z",
+  "exportedAt": "2026-02-19T03:03:46.253Z",
   "importAllowedDeviceFingerprint": "179tbd3"
 }
