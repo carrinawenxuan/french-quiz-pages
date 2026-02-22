@@ -1,6 +1,702 @@
 {
   "savedSets": [
     {
+      "id": 1771803784208,
+      "name": "Leçon 25 Enquête词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-22T23:43:04.208Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je _____ la musique classique à la musique pop.",
+          "options": [
+            "adore",
+            "préfère",
+            "déteste",
+            "aime"
+          ],
+          "correct": 1,
+          "explanation": "préférer A à B 表示比较偏好，此处有比较对象，用 préférer。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ faire la vaisselle. C'est sa tâche préférée !",
+          "options": [
+            "déteste",
+            "préfère",
+            "adore",
+            "refuse"
+          ],
+          "correct": 2,
+          "explanation": "tâche préférée 说明她喜爱，adorer 表强烈喜爱，符合语境。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon acteur _____, c'est Gérard Depardieu.",
+          "options": [
+            "préféré",
+            "préférer",
+            "préfère",
+            "préférée"
+          ],
+          "correct": 0,
+          "explanation": "acteur 阳性，形容词用阳性形式 préféré。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ attendre le bus sous la pluie.",
+          "options": [
+            "adorent",
+            "préfèrent",
+            "détestent",
+            "aiment"
+          ],
+          "correct": 2,
+          "explanation": "在雨中等车是不愉快的体验，détester 表厌恶，语境最合理。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour trouver cette information, cherche sur _____.",
+          "options": [
+            "un Internet",
+            "le Internet",
+            "Internet",
+            "d'Internet"
+          ],
+          "correct": 2,
+          "explanation": "Internet 是专有名词，sur Internet 不加冠词，这是固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ le cinéma. On y va tous les week-ends !",
+          "options": [
+            "préférons",
+            "adorons",
+            "détestons",
+            "préfèrons"
+          ],
+          "correct": 1,
+          "explanation": "adorons 是 adorer 的 nous 变位，且每周都去说明是热爱。注意 *préfèrons 拼写错误，nous 保留 é。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (préférer) rester à la maison plutôt que de sortir.",
+          "correct": [
+            "préfère"
+          ],
+          "explanation": "je 对应 préfère，é→è 变音规则，TCF 高频考点。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (détester) le bruit. Il travaille toujours dans le silence.",
+          "correct": [
+            "déteste"
+          ],
+          "explanation": "il 对应 déteste，第一组规则动词，词干 détest- + e。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (préférer) le café ou le thé ?",
+          "correct": [
+            "préférez"
+          ],
+          "explanation": "vous 对应 préférez，保留 é，不变音。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？",
+          "options": [
+            "Je préfère le thé au café.",
+            "Je préfère le thé que le café.",
+            "Elle adore danser.",
+            "Il déteste de travailler."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "préférer A à B 是正确结构，不用 que；détester 直接接不定式，不加 de。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Bonjour ! Je m'appelle Lucas. Aujourd'hui je remplis un _____ sur mes loisirs. Comme _____, j'adore aller au _____. Je _____ (préférer) le cinéma au théâtre. Par contre, je _____ faire du sport. C'est ma _____ préférée !",
+          "correct": [
+            "questionnaire",
+            "activité",
+            "cinéma",
+            "préfère",
+            "adore",
+            "activité"
+          ],
+          "explanation": "段落综合考查本课全部核心词汇及 préférer 变位。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu aimes le théâtre ?\n— Non, je le _____. Je n'y vais jamais.",
+          "options": [
+            "adore",
+            "préfère",
+            "déteste",
+            "aime mieux"
+          ],
+          "correct": 2,
+          "explanation": "从不去剧院，说明厌恶，用 détester。je le déteste，le 代替 le théâtre。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma chanson _____, c'est « La Vie en rose » d'Édith Piaf.",
+          "options": [
+            "préférer",
+            "préférée",
+            "préféré",
+            "préfères"
+          ],
+          "correct": 1,
+          "explanation": "chanson 是阴性名词，形容词 préféré 需加 -e 变为 préférée。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ le sport à la télévision plutôt que de le pratiquer.",
+          "options": [
+            "préfèrent",
+            "préférent",
+            "préférons",
+            "préfèrons"
+          ],
+          "correct": 0,
+          "explanation": "ils 对应 préfèrent，é→è 变音，词尾 -ent。*préférent 和 *préfèrons 均为错误拼写。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour faire ce questionnaire, tu dois indiquer ton _____ : masculin ou féminin.",
+          "options": [
+            "théâtre",
+            "activité",
+            "sexe",
+            "Internet"
+          ],
+          "correct": 2,
+          "explanation": "问卷中填写性别，用 sexe，这是本词在表格语境中的标准用法。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le week-end, ma _____ préférée, c'est aller au cinéma avec mes amis.",
+          "options": [
+            "questionnaire",
+            "activité",
+            "Internet",
+            "discothèque"
+          ],
+          "correct": 1,
+          "explanation": "activité n.f. 活动，此处指周末最喜欢的活动，语境最合适。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle cherche toujours les réponses sur _____ avant de demander à quelqu'un.",
+          "options": [
+            "un Internet",
+            "le Internet",
+            "d'Internet",
+            "Internet"
+          ],
+          "correct": 3,
+          "explanation": "sur Internet，专有名词不加冠词，固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qu'est-ce que tu fais ce soir ?\n— Je _____ rester chez moi. Je suis fatigué.",
+          "options": [
+            "préfère",
+            "préférer",
+            "préfères",
+            "préfèrent"
+          ],
+          "correct": 0,
+          "explanation": "主语 je，préférer 变位为 préfère（é→è），接不定式 rester。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ les activités en plein air aux activités à l'intérieur.",
+          "options": [
+            "adorons",
+            "détestons",
+            "préférons",
+            "préfèrons"
+          ],
+          "correct": 2,
+          "explanation": "préférer A à B，nous 对应 préférons，保留 é，不变音。*préfèrons 为错误拼写。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (adorer) la discothèque, n'est-ce pas ?",
+          "correct": [
+            "adores"
+          ],
+          "explanation": "tu 对应 adores，第一组规则动词，词干 ador- + es。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mes parents _____ (détester) le bruit. Ils habitent à la campagne.",
+          "correct": [
+            "détestent"
+          ],
+          "explanation": "ils/mes parents 对应 détestent，词干 détest- + ent。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je préfère le théâtre _____ cinéma.",
+          "correct": [
+            "au"
+          ],
+          "explanation": "préférer A à B，à + le = au，固定结构，TCF 填空必考介词缩合。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est mon actrice _____ (préféré). Je la trouve extraordinaire.",
+          "correct": [
+            "préférée"
+          ],
+          "explanation": "actrice 为阴性名词，形容词 préféré 加 -e 变为 préférée。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的 préférer 变位？",
+          "options": [
+            "Je préfère le jazz au rock.",
+            "Ils préférent sortir le soir.",
+            "Nous préférons rester ici.",
+            "Tu préfères le café ou le thé ?"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "*préférent 错误，ils 应为 préfèrent（é→è + ent）。其余三句变位均正确。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 discothèque 的口语替换表达？",
+          "options": [
+            "boîte de nuit",
+            "questionnaire",
+            "boîte",
+            "théâtre"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "boîte de nuit 和 boîte 都是迪斯科/夜店的口语说法，TCF 口语题可能出现。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Salut ! Je m'appelle Camille. _____ (aujourd'hui), je réponds à un _____ sur mes loisirs préférés.\nComme _____ (activité), j'_____ (adorer) aller au _____. Par contre, je _____ (détester) la _____, car j'aime le calme. Je _____ (préférer) les sorties culturelles aux soirées bruyantes.",
+          "correct": [
+            "Aujourd'hui",
+            "questionnaire",
+            "activité",
+            "adore",
+            "théâtre",
+            "déteste",
+            "discothèque",
+            "préfère"
+          ],
+          "explanation": "综合考查本课全部词汇及三个动词的正确变位，注意 adorer/détester/préférer 各自对应 je 的变位形式。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1CJ-fvQLwD5efFDK5S5DeBP4RXTVS3WFpyg2GgYJpp1w/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771803825457-p2w2pjk7dan",
+          "front": "activité",
+          "back": "n.f. 活动\n复数：des activités\n搭配：faire une activité / activité physique / activité professionnelle"
+        },
+        {
+          "id": "1771803825457-851bqwucold",
+          "front": "adorer 的现在时变位（全部）",
+          "back": "j'adore / tu adores / il adore\nnous adorons / vous adorez / ils adorent"
+        },
+        {
+          "id": "1771803825457-ewhuqnorrxv",
+          "front": "adorer 怎么接动词？",
+          "back": "adorer + 不定式\nEx : Elle adore danser. / J'adore regarder des films."
+        },
+        {
+          "id": "1771803825457-fsvipb3u1wm",
+          "front": "情感强度从弱到强排列：aimer / adorer / détester",
+          "back": "détester（厌恶）← ne pas aimer ← aimer → adorer（热爱）\nadorer 和 détester 是绝对评价，préférer 是相对比较"
+        },
+        {
+          "id": "1771803825457-fdrkf7hciu",
+          "front": "aujourd'hui",
+          "back": "adv. 今天\n固定搭配：aujourd'hui matin / aujourd'hui soir\n加分表达：les jeunes d'aujourd'hui（当代年轻人）"
+        },
+        {
+          "id": "1771803825457-t15njrvufe",
+          "front": "détester 的现在时变位（全部）",
+          "back": "je déteste / tu détestes / il déteste\nnous détestons / vous détestez / ils détestent"
+        },
+        {
+          "id": "1771803825457-1dbz5kvbxzj",
+          "front": "détester 怎么接动词？",
+          "back": "détester + 不定式（不加 de）\nEx : Je déteste attendre. / Il déteste faire la queue."
+        },
+        {
+          "id": "1771803825457-t91fdiw0vk",
+          "front": "discothèque",
+          "back": "n.f. 迪斯科舞厅\n口语替换：boîte de nuit / boîte\n词尾 -èque 为阴性（cf. bibliothèque）"
+        },
+        {
+          "id": "1771803825457-4ue872kjkh8",
+          "front": "Internet",
+          "back": "n.m. 因特网（专有名词，首字母大写）\n搭配：sur Internet（不加冠词）\nnaviquer sur Internet（上网）"
+        },
+        {
+          "id": "1771803825457-nigidqwo7h",
+          "front": "préféré(e)",
+          "back": "adj. 最受人喜爱的（préférer 的过去分词形容词化）\n变化：préféré（阳）/ préférée（阴）/ préférés / préférées\nEx : mon film préféré / mon actrice préférée"
+        },
+        {
+          "id": "1771803825457-fgxhoyuu64b",
+          "front": "préférer 的现在时变位（全部）⚠️ é→è 变音",
+          "back": "je préfère / tu préfères / il préfère\nnous préférons / vous préférez / ils préfèrent\n⚠️ nous/vous 保留 é，其余 é→è"
+        },
+        {
+          "id": "1771803825457-xzbyd8h36kk",
+          "front": "préférer A à B",
+          "back": "比起 B 更喜欢 A\nEx : Je préfère le thé au café.\n⚠️ 不用 que，不用 plus"
+        },
+        {
+          "id": "1771803825457-uf09563xl",
+          "front": "préférer + 不定式",
+          "back": "Ex : Je préfère rester à la maison.\npréférer que + 虚拟式（B2）：Je préfère que tu viennes."
+        },
+        {
+          "id": "1771803825457-ci7761njdh",
+          "front": "questionnaire",
+          "back": "n.m. 调查问卷\n搭配：remplir un questionnaire（填写问卷）\nrépondre à un questionnaire（回答问卷）"
+        },
+        {
+          "id": "1771803825457-xx7qjojctk8",
+          "front": "sexe",
+          "back": "n.m. 性别\n搭配：le sexe masculin / féminin\n现代替换：genre（性别认同，更中性）"
+        },
+        {
+          "id": "1771803825457-m5z5804wqdi",
+          "front": "théâtre",
+          "back": "n.m. 三个含义：\n① 剧场（场所）：aller au théâtre\n② 戏剧文学：le théâtre de Molière\n③ 戏剧艺术：faire du théâtre\n加分：une pièce de théâtre"
+        },
+        {
+          "id": "1771803825457-ato9h0t4iml",
+          "front": "TCF 口语万能模板（兴趣爱好）",
+          "back": "En ce qui concerne les loisirs, je préfère le cinéma au théâtre parce que j'adore les effets spéciaux, et je déteste rester assis trop longtemps dans une salle inconfortable."
+        },
+        {
+          "id": "1771803825457-6ivgfvwtr2u",
+          "front": "adorer / préférer / détester 的关键区别",
+          "back": "préférer = 比较概念，需要参照对象（A à B）\nadorer / détester = 绝对评价，无需比较对象\nEx : J'adore le cinéma. ✅\nJe préfère le cinéma au théâtre. ✅"
+        }
+      ]
+    },
+    {
+      "id": 1771803404222,
+      "name": "Ce / Ça / Cela 三词辨析",
+      "folderId": "1770698300033",
+      "createdAt": "2026-02-22T23:36:44.222Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ est important de bien se préparer avant un entretien.",
+          "options": [
+            "Ça",
+            "Cela",
+            "Ce",
+            "Il"
+          ],
+          "correct": 2,
+          "explanation": "Ce + être 固定搭配，此处用 C'est。注意原句是倒装强调形式，正常应为 C'est important de...，此处 Ce 接 est。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as vu le film hier soir ? — Oui, _____ m'a beaucoup plu !",
+          "options": [
+            "ce",
+            "c'",
+            "ça",
+            "cela"
+          ],
+          "correct": 2,
+          "explanation": "口语对话，动词是 plaire（非 être），主语用 ça。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans son rapport, l'auteur souligne que _____ constitue un enjeu majeur pour l'avenir.",
+          "options": [
+            "ça",
+            "ce",
+            "c'",
+            "cela"
+          ],
+          "correct": 3,
+          "explanation": "书面语（rapport），动词 constitue 非 être，必须用 cela 而非 ça。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont des questions très complexes qui méritent une analyse approfondie.",
+          "options": [
+            "C'",
+            "Ça",
+            "Cela",
+            "Ce"
+          ],
+          "correct": 3,
+          "explanation": "主语复数（des questions），être 变位为 sont，用 Ce sont。注意：C'est des questions 是 B2 常见陷阱，复数必须用 Ce sont。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Comment tu trouves mon idée ? — Honnêtement, _____ ne m'intéresse pas vraiment.",
+          "options": [
+            "ce",
+            "c'",
+            "cela",
+            "il"
+          ],
+          "correct": 2,
+          "explanation": "口语对话，动词 intéresser 非 être，做主语用 ça。但此处 options 给的是 cela（index 2），在口语中 ça 更地道，但 cela 语法正确。实际考试中两者均可，cela 在此选项中是唯一语法正确且符合非être动词的选项。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ dépend vraiment de la situation et des circonstances.",
+          "options": [
+            "C'",
+            "Ce",
+            "Il",
+            "Ça"
+          ],
+          "correct": 3,
+          "explanation": "dépendre 是非 être 动词，口语场景，用 ça。固定表达 Ça dépend 是 TCF 口语高频。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans cette étude, _____ a été démontré que le stress affecte la productivité.",
+          "options": [
+            "ça",
+            "cela",
+            "ce",
+            "ç'"
+          ],
+          "correct": 1,
+          "explanation": "书面学术语境，用 cela。注意 ça a été 在书面中不可接受。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确且语域适当？",
+          "options": [
+            "C'est une excellente initiative de la part du gouvernement.",
+            "Ça est vraiment important pour nous.",
+            "Cela implique des changements significatifs dans notre approche.",
+            "Ce prend beaucoup de temps d'apprendre une langue."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确：Ce + être。C正确：书面语，cela + 非être动词。B错误：不能说 Ça est，应为 C'est。D错误：Ce 不能接非 être 动词。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些表达适合在 TCF 书面写作（Production écrite）中使用？",
+          "options": [
+            "Cela soulève une question fondamentale.",
+            "Ça pose un vrai problème.",
+            "Cela étant dit, il convient de nuancer.",
+            "C'est un sujet qui mérite réflexion."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A、C、D均为书面表达。B中 ça 是口语词，书面写作禁用，应换为 cela。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Ça va ? — Oui, _____ va, merci !",
+          "correct": [
+            "ça",
+            "Ça"
+          ],
+          "explanation": "固定口语对话 Ça va，用 ça 回应。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ sont mes deux meilleurs amis, Pierre et Sophie.",
+          "correct": [
+            "Ce",
+            "ce"
+          ],
+          "explanation": "介绍人物 + être 复数，用 Ce sont。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Dans son discours, le ministre a affirmé que _____ représentait un tournant historique pour le pays.",
+          "correct": [
+            "cela",
+            "Cela"
+          ],
+          "explanation": "书面/正式语境，动词 représenter 非 être，必须用 cela。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Tu as goûté la tarte ? — Oui ! _____ était délicieux ! _____ m'a donné envie d'en reprendre une part. En tout cas, _____ est sûr : tu sais vraiment cuisiner !",
+          "correct": [
+            "C'",
+            "Ça",
+            "c'"
+          ],
+          "explanation": "第一空：être（était）做谓语，用 C'。第二空：口语，动词 donner 非 être，用 Ça。第三空：C'est sûr 是固定表达，Ce + être。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Dans son analyse, la chercheuse explique que _____ pose un défi considérable. _____ dit, _____ est indéniable que des progrès ont été réalisés.",
+          "correct": [
+            "cela",
+            "Cela",
+            "c'"
+          ],
+          "explanation": "第一空：书面，poser 非 être，用 cela。第二空：固定表达 Cela dit（书面语，话虽如此）。第三空：C'est indéniable que，Ce + être 固定结构。",
+          "category": "ce/ça/cela"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte pour une lettre de motivation :",
+          "options": [
+            "Ça m'a permis de développer de nombreuses compétences.",
+            "Cela m'a permis de développer de nombreuses compétences.",
+            "Ce m'a permis de développer de nombreuses compétences.",
+            "C'est m'a permis de développer de nombreuses compétences."
+          ],
+          "correct": 1,
+          "explanation": "书面正式文体（lettre de motivation），动词 permettre 非 être，主语用 cela。A 的 ça 是口语，C/D 语法错误。",
+          "category": "ce/ça/cela"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1txBSAimX2Koqgn_QAJcypN63Z3nB9-eOmQXkjlpQFaY/edit?tab=t.0#heading=h.l5sfzlg1vq0y"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771803463750-wthnktea95",
+          "front": "ce / c' 的核心规则是什么？",
+          "back": "Ce (c') 几乎只和 être 连用。\n公式：Ce + être = C'est / Ce sont\n例：C'est une bonne idée."
+        },
+        {
+          "id": "1771803463750-7zbklgqytp2",
+          "front": "C'est 还是 Ce sont？\nCe sont ___ mes amis.",
+          "back": "Ce sont mes amis. ✅\n主语补语是复数名词时，必须用 Ce sont，不能用 C'est。\n⚠️ C'est des amis. ← B2 高频陷阱，错误！"
+        },
+        {
+          "id": "1771803463750-sxkbsbjxaf",
+          "front": "ça 可以和 être 连用吗？",
+          "back": "❌ 不能说 Ça est。\n✅ 必须用 C'est。\n例：C'est important.（不能写 Ça est important）"
+        },
+        {
+          "id": "1771803463750-qs0nr3svge8",
+          "front": "ça 的核心定位（一句话）",
+          "back": "口语万能代词，接除 être 以外的几乎所有动词，可做主语或宾语。\n⚠️ 书面写作禁用！"
+        },
+        {
+          "id": "1771803463750-uy87wqwsm2",
+          "front": "ça 做主语，举两个例句",
+          "back": "Ça prend du temps.（这需要时间。）\nÇa me plaît.（我喜欢这个。）\n→ 动词均非 être"
+        },
+        {
+          "id": "1771803463750-e5ns2vgwiwg",
+          "front": "ça 做宾语，举两个例句",
+          "back": "Je ne connais pas ça.（我不了解这个。）\nDonne-moi ça.（把那个给我。）"
+        },
+        {
+          "id": "1771803463750-y4q3ztj6k7h",
+          "front": "口语高频固定表达：Ça ___?",
+          "back": "Ça va ?（你好吗？）\nÇa marche.（好的/没问题。）\nÇa dépend.（这得看情况。）\nÇa suffit.（够了。）"
+        },
+        {
+          "id": "1771803463750-lq6jhv1jayo",
+          "front": "cela 的核心定位（一句话）",
+          "back": "cela = ça 的书面语版本，功能完全相同，但用于正式写作。\nTCF 作文/邮件/论述必须用 cela，不能用 ça。"
+        },
+        {
+          "id": "1771803463750-rrvlvgbc0fd",
+          "front": "书面写作中，ça 要换成什么？",
+          "back": "换成 cela。\n例：\n口语：Ça pose un problème.\n书面：Cela pose un problème. ✅"
+        },
+        {
+          "id": "1771803463750-yanzi101gsd",
+          "front": "cela + être 怎么处理？",
+          "back": "cela est 语法正确但略显生硬。\n实际写作中更常用 C'est 替代。\n✅ C'est indispensable.（比 Cela est indispensable. 更自然）"
+        },
+        {
+          "id": "1771803463750-xt5qszg3gm",
+          "front": "3秒判断法：该用 ce、ça 还是 cela？",
+          "back": "① 后面是 être 变位？→ 用 ce（C'est / Ce sont）\n② 口语 / 对话？→ 用 ça\n③ 书面 / 正式写作？→ 用 cela"
+        },
+        {
+          "id": "1771803463750-70ttp9u9dys",
+          "front": "Ce ___（填 être 变位）+ 形容词 + de + 不定式",
+          "back": "C'est + 形容词 + de + 不定式\n例：C'est important de bien dormir.\n例：C'est difficile d'apprendre le français.\n⚠️ 此结构只用 ce，不用 ça 或 cela"
+        },
+        {
+          "id": "1771803463750-6dzts4bf4kb",
+          "front": "强调结构：C'est...qui/que",
+          "back": "用于强调句子某个成分。\n例：C'est lui qui a décidé.（是他做的决定。）\nC'est toi que je cherche.（我找的就是你。）"
+        },
+        {
+          "id": "1771803463750-8s9wk6nc2ya",
+          "front": "TCF 写作加分表达：Cela étant dit",
+          "back": "Cela étant dit, ...（话虽如此，……）\n= Cela dit, ...\n用于转折，书面论述高分表达。"
+        },
+        {
+          "id": "1771803463750-robzxk1p7ur",
+          "front": "TCF 写作加分表达：Cela soulève / implique",
+          "back": "Cela soulève une question fondamentale.（这引发了一个根本性的问题。）\nCela implique des changements significatifs.（这意味着重大变化。）"
+        },
+        {
+          "id": "1771803463750-3v1200oy3o7",
+          "front": "下列哪句有错？\nA. C'est une bonne idée.\nB. Ça est vraiment bien.\nC. Cela me semble juste.",
+          "back": "B 有错：❌ Ça est → 不能说\n✅ 应改为：C'est vraiment bien.\nA 和 C 均正确。"
+        },
+        {
+          "id": "1771803463750-g0fyud7u6q5",
+          "front": "lettre de motivation（求职信）中，如何替换 ça？",
+          "back": "将所有 ça 替换为 cela。\n例：\n❌ Ça m'a permis de développer mes compétences.\n✅ Cela m'a permis de développer mes compétences."
+        }
+      ]
+    },
+    {
       "id": 1771803081443,
       "name": "副代词 en",
       "folderId": "1770593095506",
@@ -19306,6 +20002,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-22T23:31:51.238Z",
+  "exportedAt": "2026-02-22T23:45:36.859Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
