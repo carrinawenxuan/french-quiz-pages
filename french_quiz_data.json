@@ -1,6 +1,337 @@
 {
   "savedSets": [
     {
+      "id": 1771803081443,
+      "name": "副代词 en",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-22T23:31:21.443Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Tu as beaucoup de devoirs ? — Oui, j'_____ ai beaucoup.",
+          "options": [
+            "y",
+            "le",
+            "en",
+            "la"
+          ],
+          "correct": 2,
+          "explanation": "代替「beaucoup de devoirs」，用 en；数量词 beaucoup 保留。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a trois enfants ? — Oui, elle _____ a trois.",
+          "options": [
+            "les",
+            "en",
+            "y",
+            "leur"
+          ],
+          "correct": 1,
+          "explanation": "代替「trois enfants」，用 en；数字 trois 必须保留。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu veux du thé ? — Non, je n'_____ veux pas.",
+          "options": [
+            "le",
+            "y",
+            "en",
+            "la"
+          ],
+          "correct": 2,
+          "explanation": "代替「du thé」（部分冠词+名词），用 en。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il parle de son projet. → Il _____ parle.",
+          "options": [
+            "lui",
+            "leur",
+            "y",
+            "en"
+          ],
+          "correct": 3,
+          "explanation": "parler de + 事物，用 en 替代。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as besoin de ce livre ? → Tu _____ as besoin ?",
+          "options": [
+            "le",
+            "y",
+            "lui",
+            "en"
+          ],
+          "correct": 3,
+          "explanation": "avoir besoin de + 事物，用 en 替代。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il parle de Marie. → Il _____ parle.",
+          "options": [
+            "en",
+            "lui",
+            "y",
+            "leur"
+          ],
+          "correct": 1,
+          "explanation": "parler de + 人，不用 en，用 lui（间接宾语代词）。",
+          "category": "副代词en – 替代人不用en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté des pommes. → J'_____ ai acheté.",
+          "options": [
+            "en ai acheté",
+            "ai acheté en",
+            "en acheté ai",
+            "ai en acheté"
+          ],
+          "correct": 0,
+          "explanation": "复合过去时：en 紧贴助动词 avoir 前面，过去分词在最后。",
+          "category": "副代词en – 位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais acheter du pain. → Je vais _____ acheter.",
+          "options": [
+            "le",
+            "en",
+            "y",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "最近将来时：en 放在不定式前，即 vais + en + acheter。",
+          "category": "副代词en – 位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'_____ achète pas. (du fromage)",
+          "options": [
+            "le",
+            "la",
+            "en",
+            "y"
+          ],
+          "correct": 2,
+          "explanation": "否定句结构：ne + en + 动词 + pas。",
+          "category": "副代词en – 否定句"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 en 的使用是正确的？",
+          "options": [
+            "J'en ai trois.",
+            "Il en parle de son ami.",
+            "Elle en a besoin.",
+            "Je l'en ai acheté."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确：数字保留，en替代名词。C正确：avoir besoin de+事物用en。B错：替代人不用en。D错：复合过去时en应在助动词前，且此处代词叠加有误。",
+          "category": "副代词en – 综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "哪些动词搭配中的 de + 名词（事物）可以用 en 替代？",
+          "options": [
+            "parler de qch",
+            "avoir besoin de qch",
+            "téléphoner à qn",
+            "avoir envie de qch"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "parler de、avoir besoin de、avoir envie de 均为 de+事物，用 en。téléphoner à 用 lui/leur，不用 en。",
+          "category": "副代词en – 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu manges de la soupe ? — Oui, j'_____ mange.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "代替「de la soupe」（部分冠词+名词），用 en，紧贴动词前。",
+          "category": "副代词en"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous avez des questions ? — Oui, nous _____ avons deux.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "代替「des questions」，数字 deux 保留，en 替代名词。",
+          "category": "副代词en"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il se souvient de ce voyage. → Il _____ souvient.",
+          "correct": [
+            "s'en"
+          ],
+          "explanation": "se souvenir de + 事物，代词 en 插入反身动词结构：s'en souvient。",
+          "category": "副代词en – 反身动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "A : Tu as combien de frères ? B : J'_____ ai deux. A : Et tu as besoin d'argent ? B : Oui, j'_____ ai besoin. A : Tu vas acheter des vêtements ? B : Oui, je vais _____ acheter.",
+          "correct": [
+            "en",
+            "en",
+            "en"
+          ],
+          "explanation": "三空均用 en：①代替 frères，数字保留；②avoir besoin de+事物；③最近将来时 en 在不定式前。",
+          "category": "副代词en – 综合段落"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu manges la pizza que j'ai faite ? → Tu _____ manges ?",
+          "options": [
+            "en",
+            "y",
+            "la",
+            "lui"
+          ],
+          "correct": 2,
+          "explanation": "定冠词 la + 特指名词，用 la 而非 en。en 只替代部分/数量，不替代特指。",
+          "category": "副代词en vs le/la/les"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte au passé composé avec en :",
+          "options": [
+            "J'ai en mangé beaucoup.",
+            "J'en mange beaucoup.",
+            "J'en ai mangé beaucoup.",
+            "En j'ai mangé beaucoup."
+          ],
+          "correct": 2,
+          "explanation": "复合过去时正确语序：en + 助动词 + 过去分词；数量词 beaucoup 保留在句末。",
+          "category": "副代词en – 位置陷阱"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1uNKTNi-BN2mWpb4kbe1ANVMyBL_6LFfRs1rUcbQCfSk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771803102009-rhgwzqv93",
+          "front": "副代词 en 的核心作用",
+          "back": "替代「de + 名词」结构，包括：\n① 数量词+名词\n② 部分冠词(du/de la/des)+名词\n③ 固定搭配 de+名词（事物）"
+        },
+        {
+          "id": "1771803102009-l1dwyqg2i4f",
+          "front": "Tu as combien de portables ?\n→ 用 en 怎么回答？",
+          "back": "J'en ai deux.\n⚠️ 数字/数量词必须保留，en 只替代名词"
+        },
+        {
+          "id": "1771803102009-6f51jb0bad9",
+          "front": "Tu as beaucoup de travail ?\n→ 用 en 回答",
+          "back": "Oui, j'en ai beaucoup.\n⚠️ beaucoup 保留，不能省略"
+        },
+        {
+          "id": "1771803102009-niw73bjt3z",
+          "front": "Tu veux du café ?\n→ 用 en 回答（肯定）",
+          "back": "Oui, j'en veux.\n（无数量限定，en 直接替代，不留任何词）"
+        },
+        {
+          "id": "1771803102009-w0095g29id",
+          "front": "Tu veux du thé ?\n→ 用 en 回答（否定）",
+          "back": "Non, je n'en veux pas.\n结构：ne + en + 动词 + pas"
+        },
+        {
+          "id": "1771803102009-d8dwkk0b7x",
+          "front": "parler de qch → 用 en 替代",
+          "back": "Il parle de son travail. → Il en parle.\n✅ de + 事物 → en\n❌ de + 人 → lui/leur（不用 en）"
+        },
+        {
+          "id": "1771803102009-8nifwantwe5",
+          "front": "avoir besoin de qch → 用 en 替代",
+          "back": "Tu as besoin de ce livre ? → Tu en as besoin ?\n固定搭配 de+事物，用 en"
+        },
+        {
+          "id": "1771803102009-ovlc2no32b",
+          "front": "avoir envie de qch → 用 en 替代",
+          "back": "Elle a envie de vacances. → Elle en a envie."
+        },
+        {
+          "id": "1771803102009-mhfbrxh555",
+          "front": "se souvenir de qch → 用 en 替代",
+          "back": "Je me souviens de ce film. → Je m'en souviens.\n注意反身结构：m'en"
+        },
+        {
+          "id": "1771803102009-ye46duppcre",
+          "front": "Il parle de Marie. → 用代词替代",
+          "back": "Il parle de lui. ✅\n❌ 不用 en，因为 Marie 是人\n规则：de + 人 → lui / leur"
+        },
+        {
+          "id": "1771803102009-nyfodezyyfj",
+          "front": "en 的位置规则（总原则）",
+          "back": "en 永远紧贴动词（或助动词）的前面\n✅ J'en achète.\n❌ J'achète en."
+        },
+        {
+          "id": "1771803102009-6skednbxmqu",
+          "front": "现在时：en 的位置",
+          "back": "J'en achète.\nen 直接放在动词前"
+        },
+        {
+          "id": "1771803102009-wzoxi7jxeoi",
+          "front": "否定句：en 的位置",
+          "back": "Je n'en achète pas.\n结构：ne + en + 动词 + pas"
+        },
+        {
+          "id": "1771803102009-2ribq5pgc42",
+          "front": "复合过去时：en 的位置",
+          "back": "J'en ai acheté.\n✅ en + 助动词 avoir/être\n❌ J'ai acheté en.（en 不能跑到句尾）"
+        },
+        {
+          "id": "1771803102009-ygo05xp1yo",
+          "front": "最近将来时：en 的位置",
+          "back": "Je vais en acheter.\n✅ en 放在不定式前\n结构：vais + en + 不定式"
+        },
+        {
+          "id": "1771803102009-oxhrr5m4km",
+          "front": "复合过去时 en 的超高频陷阱",
+          "back": "过去分词永远不与 en 配合！\n✅ J'en ai acheté.\n❌ J'ai acheté en.\n❌ J'en acheté ai."
+        },
+        {
+          "id": "1771803102009-m8e2xih8iwp",
+          "front": "en vs le/la/les — 如何区分？",
+          "back": "en：替代「部分/数量」→ de + 名词\nle/la/les：替代「特指」→ 定冠词 + 名词\n\n例：Tu manges de la pizza ? → J'en mange.\n例：Tu manges la pizza que j'ai faite ? → Je la mange."
+        },
+        {
+          "id": "1771803102009-1pzbmh2rnra",
+          "front": "「我需要它。」（avoir besoin de + 事物）",
+          "back": "J'en ai besoin.\n⚠️ besoin 留在句中，en 放在 ai 前"
+        },
+        {
+          "id": "1771803102009-wmll1t8byhs",
+          "front": "「他谈论它。」（parler de + 事物）",
+          "back": "Il en parle.\nen 紧贴动词 parle 前"
+        },
+        {
+          "id": "1771803102009-mu46d8izbag",
+          "front": "「我准备买一些。」（最近将来时）",
+          "back": "Je vais en acheter.\nen 插在 vais 和 acheter 之间"
+        }
+      ]
+    },
+    {
       "id": 1771788071407,
       "name": "mettre变位",
       "folderId": "1770593074621",
@@ -18975,6 +19306,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-22T19:22:05.459Z",
+  "exportedAt": "2026-02-22T23:31:51.238Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
