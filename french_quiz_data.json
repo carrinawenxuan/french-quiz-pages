@@ -1,6 +1,340 @@
 {
   "savedSets": [
     {
+      "id": 1771788071407,
+      "name": "mettre变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-02-22T19:21:11.407Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je _____ mon téléphone sur la table tous les soirs.",
+          "options": [
+            "met",
+            "mets",
+            "mettons",
+            "mettez"
+          ],
+          "correct": 1,
+          "explanation": "主语 je，现在时用 mets（单数 j/tu 只有一个 t，词尾 -s）。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ son manteau et sort de la maison.",
+          "options": [
+            "mets",
+            "mettons",
+            "met",
+            "mettent"
+          ],
+          "correct": 2,
+          "explanation": "主语 il，现在时用 met，注意无词尾 -s，这是单数第三人称的特殊之处。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ la table avant le dîner.",
+          "options": [
+            "mettons",
+            "mettez",
+            "mettent",
+            "mets"
+          ],
+          "correct": 0,
+          "explanation": "主语 nous，现在时用 mettons，恢复双 tt。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ votre sac sur la chaise, s'il vous plaît.",
+          "options": [
+            "Mettons",
+            "Mettez",
+            "Mettent",
+            "Mets"
+          ],
+          "correct": 1,
+          "explanation": "礼貌命令对 vous 用 mettez。",
+          "category": "变位-命令式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ une heure pour finir ses devoirs hier soir.",
+          "options": [
+            "met",
+            "mettait",
+            "a mis",
+            "va mettre"
+          ],
+          "correct": 2,
+          "explanation": "hier soir 表示过去已完成的动作，用复合过去时 a mis。",
+          "category": "变位-复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ mes clés dans mon sac ce matin, mais je ne les trouve plus.",
+          "options": [
+            "mets",
+            "ai mis",
+            "vais mettre",
+            "mettais"
+          ],
+          "correct": 1,
+          "explanation": "ce matin 指今早已完成的动作，用复合过去时 ai mis。",
+          "category": "变位-复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ les chaises dans le jardin pour la fête de demain.",
+          "options": [
+            "ont mis",
+            "mettent",
+            "vont mettre",
+            "mettaient"
+          ],
+          "correct": 2,
+          "explanation": "pour la fête de demain 指将来，用最近将来时 vont mettre。",
+          "category": "变位-最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu vas _____ combien de temps pour arriver à l'aéroport ?",
+          "options": [
+            "mis",
+            "mets",
+            "mettre",
+            "mettant"
+          ],
+          "correct": 2,
+          "explanation": "futur proche 结构：aller + 动词原形，所以用 mettre。",
+          "category": "变位-最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce matin, Sophie _____ une robe rouge pour aller au bureau.",
+          "options": [
+            "porte",
+            "a mis",
+            "met",
+            "portait"
+          ],
+          "correct": 1,
+          "explanation": "描述今早穿上衣服的动作（已完成），用复合过去时 a mis。若是描述状态「穿着」则用 porter。",
+          "category": "用法-mettre vs porter"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la photo, elle _____ un chapeau blanc et une veste bleue.",
+          "options": [
+            "a mis",
+            "met",
+            "porte",
+            "va mettre"
+          ],
+          "correct": 2,
+          "explanation": "照片里描述持续穿着的状态，用 porter 而非 mettre。这是 TCF 最高频陷阱之一。",
+          "category": "用法-mettre vs porter"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ 45 minutes pour aller au travail en métro.",
+          "options": [
+            "passe",
+            "prends",
+            "mets",
+            "fais"
+          ],
+          "correct": 2,
+          "explanation": "「花时间」句型：mettre + 时间 + pour + inf.，是 TCF 口语/写作加分表达。",
+          "category": "用法-花费时间"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien de temps est-ce que tu _____ pour apprendre une nouvelle langue ?",
+          "options": [
+            "passes",
+            "mets",
+            "prends",
+            "fais"
+          ],
+          "correct": 1,
+          "explanation": "固定句型 mettre + temps + pour，主语 tu 现在时用 mets。",
+          "category": "用法-花费时间"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ à pleuvoir juste quand nous sommes sortis.",
+          "options": [
+            "a commencé",
+            "s'est mis",
+            "a mis",
+            "vient de mettre"
+          ],
+          "correct": 1,
+          "explanation": "se mettre à + inf. 表示「突然开始做某事」，是 B2 高频表达。复合过去时反身动词用 être，所以是 s'est mis。",
+          "category": "用法-se mettre à"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 mettre 的用法是正确且地道的？",
+          "options": [
+            "Je mets mon réveil à 7h00.",
+            "Elle met une robe pour la soirée.",
+            "Il porte son chapeau sur la tête ce matin.",
+            "Nous avons mis deux heures pour finir le projet."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "① mettre le réveil = 设定闹钟 ✓；② mettre une robe = 穿上裙子（动作）✓；③ porter 表状态本身没错，但「ce matin 戴上」应用 mettre ；④ mettre du temps pour = 花时间 ✓。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (se mettre) à pleurer en entendant la nouvelle.",
+          "correct": [
+            "s'est mise"
+          ],
+          "explanation": "se mettre à + inf. 突然开始；复合过去时反身动词助动词用 être，主语 elle 阴性，过去分词加 -e → mise。",
+          "category": "用法-se mettre à"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (mettre) combien de temps pour venir ici aujourd'hui ?",
+          "correct": [
+            "avez mis",
+            "mettez"
+          ],
+          "explanation": "问今天花了多少时间（已完成）→ avez mis；若是泛指习惯 → mettez，两者均可接受。",
+          "category": "变位-综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce matin, Lucas _____ (mettre) son manteau et _____ (se mettre) en route à 8h. Il _____ (mettre) toujours 20 minutes pour arriver à l'école. Demain, il va _____ (mettre) son nouveau pull rouge.",
+          "correct": [
+            "a mis",
+            "s'est mis",
+            "met",
+            "mettre"
+          ],
+          "explanation": "①过去已完成动作 → a mis；②se mettre en route = 出发，复合过去时 → s'est mis；③泛指习惯，现在时 → met；④futur proche结构 aller + inf. → mettre。",
+          "category": "综合-段落填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1TiFpSPfHYgrtzeotK201UwWmYLyWH-yDrCkjsAI5nv8/edit?tab=t.0#heading=h.gt9755c0wd6z"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771788121200-4kgytes14th",
+          "front": "mettre（现在时）je / tu",
+          "back": "je mets / tu mets\n⚠️ 只有一个 t，词尾 -s"
+        },
+        {
+          "id": "1771788121200-ayzlucbcvqh",
+          "front": "mettre（现在时）il / elle / on",
+          "back": "il met\n⚠️ 无词尾 -s，只有一个 t"
+        },
+        {
+          "id": "1771788121200-v83tasenpf",
+          "front": "mettre（现在时）nous",
+          "back": "nous mettons\n恢复双 tt"
+        },
+        {
+          "id": "1771788121200-hh7ieznfndl",
+          "front": "mettre（现在时）vous",
+          "back": "vous mettez\n恢复双 tt"
+        },
+        {
+          "id": "1771788121200-o43ax7g0eci",
+          "front": "mettre（现在时）ils / elles",
+          "back": "ils mettent\n恢复双 tt，-ent 不发音"
+        },
+        {
+          "id": "1771788121200-c9o4bzap6gf",
+          "front": "mettre 的过去分词是？",
+          "back": "mis（不规则）\n助动词：avoir\n例：j'ai mis, elle a mis"
+        },
+        {
+          "id": "1771788121200-exw2003z3nk",
+          "front": "mettre 最近将来时结构？",
+          "back": "aller（变位）+ mettre\n例：Je vais mettre mon manteau."
+        },
+        {
+          "id": "1771788121200-o7z0al6u08",
+          "front": "mettre 用法①：放置",
+          "back": "put / place\n例：Mettez votre sac ici.\nIl a mis les fleurs dans un vase."
+        },
+        {
+          "id": "1771788121200-ia0r3iu7oq",
+          "front": "mettre 用法②：穿戴（动作）",
+          "back": "put on（瞬间动作）\n例：Elle a mis des lunettes de soleil.\n⚠️ 对比 porter = 穿着（持续状态）"
+        },
+        {
+          "id": "1771788121200-qgfnm8zoj4",
+          "front": "mettre vs porter 怎么区分？",
+          "back": "mettre = 穿上（动作）→ Je mets mon manteau.\nporter = 穿着（状态）→ Elle porte une robe rouge.\nTCF 看照片描述 → 用 porter"
+        },
+        {
+          "id": "1771788121200-44jvyrz1t3b",
+          "front": "mettre 用法③：花费时间",
+          "back": "句型：mettre + 时间 + pour + infinitif\n例：Je mets 30 minutes pour aller au travail."
+        },
+        {
+          "id": "1771788121200-ykq2l7ggcs",
+          "front": "「你花多少时间学法语？」法语怎么说？",
+          "back": "Combien de temps est-ce que tu mets pour apprendre le français ?"
+        },
+        {
+          "id": "1771788121200-0cp7yo5y7k6t",
+          "front": "se mettre à + inf. 是什么意思？",
+          "back": "突然开始做某事\n例：Il s'est mis à pleuvoir.\n例：Elle s'est mise à pleurer."
+        },
+        {
+          "id": "1771788121200-vxcj2r8g1pg",
+          "front": "se mettre à 复合过去时注意点？",
+          "back": "反身动词用 être 做助动词\n过去分词与主语性数配合\n例：elle s'est mise / il s'est mis"
+        },
+        {
+          "id": "1771788121200-tmqfhqidyj",
+          "front": "mettre en place",
+          "back": "建立、实施（制度/计划）\n例：Le gouvernement a mis en place un nouveau système."
+        },
+        {
+          "id": "1771788121200-ect3ji0cezp",
+          "front": "mettre en valeur",
+          "back": "突出、展现优势\n例：Cette couleur met en valeur tes yeux."
+        },
+        {
+          "id": "1771788121200-yyjv6o908ug",
+          "front": "se mettre en colère",
+          "back": "发火、生气\n例：Il s'est mis en colère quand il a appris la nouvelle."
+        },
+        {
+          "id": "1771788121200-0qcomofws21",
+          "front": "mettre le réveil",
+          "back": "设定闹钟\n例：Je mets mon réveil à 7h00 tous les matins."
+        },
+        {
+          "id": "1771788121200-mfi9mtogcmr",
+          "front": "se mettre en route",
+          "back": "出发、启程\n例：Nous nous sommes mis en route à 8h."
+        },
+        {
+          "id": "1771788121200-shc6h83l0b",
+          "front": "TCF 陷阱：她戴着太阳镜（照片描述）",
+          "back": "✅ Elle porte des lunettes de soleil.\n❌ Elle met des lunettes de soleil.\n照片 = 持续状态 → porter"
+        }
+      ]
+    },
+    {
       "id": 1771470143502,
       "name": "C'est un moulin à paroles",
       "folderId": "1770661225895",
@@ -18641,6 +18975,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-22T19:19:58.227Z",
+  "exportedAt": "2026-02-22T19:22:05.459Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
