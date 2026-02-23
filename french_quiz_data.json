@@ -1,6 +1,1018 @@
 {
   "savedSets": [
     {
+      "id": 1771805775406,
+      "name": "connaître变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-02-23T00:16:15.406Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la bonne conjugaison de « connaître » à la troisième personne du singulier au présent ?",
+          "options": [
+            "Il connais",
+            "Il connait",
+            "Il connaît",
+            "Il connaiss"
+          ],
+          "correct": 2,
+          "explanation": "il/elle/on 的变位是 connaît，î 是必须的，不能省略重音符号。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ très bien ce quartier depuis notre enfance.",
+          "options": [
+            "connaissons",
+            "connaissez",
+            "connaissent",
+            "connaisont"
+          ],
+          "correct": 0,
+          "explanation": "nous 对应 connaissons，词根为 connaiss-（双s）。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est correcte ?",
+          "options": [
+            "Je sais Marie depuis longtemps.",
+            "Je connais nager.",
+            "Je connais Marie depuis longtemps.",
+            "Je sais à Marie."
+          ],
+          "correct": 2,
+          "explanation": "connaître 接人/地点/作品；savoir 接不定式或从句。Je connais Marie 是正确搭配。",
+          "category": "用法辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu connais cette chanson ? — Oui, je _____ connais.",
+          "options": [
+            "la",
+            "le",
+            "les",
+            "lui"
+          ],
+          "correct": 0,
+          "explanation": "chanson 是阴性名词，直宾代词用 la，放在变位动词前。",
+          "category": "代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce film _____ un grand succès l'année dernière.",
+          "options": [
+            "a su",
+            "a connu",
+            "est connu",
+            "a été connu"
+          ],
+          "correct": 1,
+          "explanation": "connaître un grand succès 是固定搭配，表示「取得巨大成功」，用 avoir 构成复合过去。",
+          "category": "搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ à l'université il y a dix ans.",
+          "options": [
+            "se sont connus",
+            "se sont connues",
+            "s'ont connus",
+            "ont connu"
+          ],
+          "correct": 0,
+          "explanation": "se connaître 用 être 构成复合过去；主语 ils 为阳性复数，过去分词用 connus。",
+          "category": "自反动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ ma connaissance, il n'y a pas de problème.",
+          "options": [
+            "Selon",
+            "Par",
+            "À",
+            "Dans"
+          ],
+          "correct": 2,
+          "explanation": "固定表达 à ma connaissance，意为「据我所知」，介词固定用 à。",
+          "category": "搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La région _____ une forte croissance économique ces dernières années.",
+          "options": [
+            "sait",
+            "connaît",
+            "reconnaît",
+            "se connaît"
+          ],
+          "correct": 1,
+          "explanation": "地区/国家等抽象主语 + connaître = 经历、经受，相当于 traverser/vivre。",
+          "category": "用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces phrases utilisent « connaître » correctement ?",
+          "options": [
+            "Il connaît bien le cinéma français.",
+            "Je connais parler anglais.",
+            "Nous nous connaissons depuis longtemps.",
+            "Elle connaît que tu mens."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "connaître 不接不定式（排除B）；connaître 不接 que 从句（排除D，应用 savoir）。A和C都是正确用法。",
+          "category": "用法辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles sont des formes correctes du présent de « connaître » ?",
+          "options": [
+            "je connais",
+            "il connait",
+            "vous connaissez",
+            "ils connaissent"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "il connait（B）缺少 î，是拼写错误。其余三个形式均正确。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Est-ce que vous connaissez ce nouveau professeur ? — Non, je ne _____ connais pas.",
+          "correct": [
+            "le"
+          ],
+          "explanation": "代词替换 ce nouveau professeur（阳性），用直宾代词 le，放在变位动词前。",
+          "category": "代词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (connaître, passé composé) cet acteur quand elle vivait à Paris.",
+          "correct": [
+            "a connu"
+          ],
+          "explanation": "connaître 复合过去 = avoir + connu，主语 elle，助动词用 a。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour prendre cette décision, il faut agir en _____ de cause.",
+          "correct": [
+            "connaissance"
+          ],
+          "explanation": "固定表达 en connaissance de cause，意为「在知情的情况下」。",
+          "category": "搭配"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ (se connaître, passé composé) lors d'un voyage. Depuis, nous _____ (connaître, présent) les mêmes amis et nous _____ (aller + connaître, futur proche) bientôt sa famille.",
+          "correct": [
+            "nous sommes connus",
+            "connaissons",
+            "allons connaître"
+          ],
+          "explanation": "①se connaître 用 être，nous 对应 sommes，过去分词 connus；②présent nous → connaissons；③futur proche = allons + infinitif connaître。",
+          "category": "综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce pays _____ (connaître, présent) de grandes difficultés économiques. Le gouvernement _____ (ne pas connaître, présent) encore la solution. À ma _____, personne n'a trouvé de réponse.",
+          "correct": [
+            "connaît",
+            "ne connaît pas",
+            "connaissance"
+          ],
+          "explanation": "①抽象主语 + connaît；②否定结构 ne...pas 包裹变位动词；③固定表达 à ma connaissance。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu vas connaître mes parents ce soir ? — Oui, je _____ vais connaître.",
+          "options": [
+            "les",
+            "leur",
+            "eux",
+            "y"
+          ],
+          "correct": 0,
+          "explanation": "mes parents 是直接宾语，代词用 les，放在 vais 前。注意不用 leur（间接宾语）。",
+          "category": "代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases exprime correctement « se connaître » au passé composé avec un sujet féminin pluriel ?",
+          "options": [
+            "Elles se sont connu.",
+            "Elles se sont connues.",
+            "Elles ont connu.",
+            "Elles se sont connaissées."
+          ],
+          "correct": 1,
+          "explanation": "se connaître 用 être，主语 elles 为阴性复数，过去分词配合性数变化：connues。",
+          "category": "自反动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ cette ville, je peux te guider sans problème.",
+          "options": [
+            "Je sais",
+            "Je connais",
+            "Je connais bien",
+            "Comme je connais bien"
+          ],
+          "correct": 2,
+          "explanation": "connaître + 地点表示熟悉，Je connais bien cette ville 是完整正确的结构。选项D语序错误作为独立句。",
+          "category": "用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte :",
+          "options": [
+            "Je sais cette règle par cœur.",
+            "Je connais cette règle par cœur.",
+            "Je connais réciter cette règle.",
+            "Je sais de cette règle."
+          ],
+          "correct": 1,
+          "explanation": "connaître + 名词宾语（une règle）表示了解/掌握某规则；savoir par cœur 也可用但须直接跟名词，此处 A 实际也可接受，但 B 更自然。savoir 不加介词 de（排除D）；connaître 不接不定式（排除C）。",
+          "category": "用法辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Depuis quand est-ce que vous vous connaissez ? — Nous _____ depuis 2018.",
+          "options": [
+            "nous connaissons",
+            "se connaissons",
+            "nous connaissez",
+            "connaissons nous"
+          ],
+          "correct": 0,
+          "explanation": "se connaître 现在时 nous 形式：nous nous connaissons，第一个 nous 是主语，第二个是自反代词。",
+          "category": "自反动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le secteur technologique _____ une transformation rapide ces dernières années.",
+          "options": [
+            "sait",
+            "se connaît",
+            "connaît",
+            "a su"
+          ],
+          "correct": 2,
+          "explanation": "抽象主语（secteur）+ connaître = 经历/经受，现在时 il → connaît。",
+          "category": "用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ connu il y a longtemps, quand il était encore étudiant.",
+          "options": [
+            "l'ai",
+            "lui ai",
+            "l'avais",
+            "le suis"
+          ],
+          "correct": 0,
+          "explanation": "直宾代词 le 缩写为 l' 置于助动词 ai 前，构成 je l'ai connu。connaître 复合过去用 avoir。",
+          "category": "代词+变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces phrases sont correctes et naturelles en français ?",
+          "options": [
+            "À ma connaissance, il n'est pas encore arrivé.",
+            "Ils se sont connus en voyage.",
+            "Je connais qu'elle est intelligente.",
+            "Ce roman a connu un grand succès mondial."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "C 错误：connaître 不接 que 从句，应改为 Je sais qu'elle est intelligente。A、B、D 均正确。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Dans lesquelles de ces phrases, « connaître » signifie « traverser / subir » (经历) ?",
+          "options": [
+            "Elle connaît très bien Marie.",
+            "Le pays connaît une grave crise.",
+            "Tu connais ce quartier ?",
+            "Cette industrie connaît des difficultés."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "B和D的主语是抽象事物（pays、industrie），connaître 在此表示「经历/经受」。A和C是「认识/熟悉」的普通用法。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (connaître, futur proche) les résultats demain matin.",
+          "correct": [
+            "allons connaître"
+          ],
+          "explanation": "futur proche = aller（变位）+ infinitif；nous → allons，后接原形 connaître。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a agi en _____ de cause : il savait exactement ce qu'il faisait.",
+          "correct": [
+            "connaissance"
+          ],
+          "explanation": "固定表达 en connaissance de cause（在知情的情况下），书面语 B2 必备。",
+          "category": "搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Est-ce que tu connais ses parents ? — Oui, je _____ ai connus l'année dernière.",
+          "correct": [
+            "les"
+          ],
+          "explanation": "ses parents 是直宾复数，代词 les 置于助动词 ai 前；过去分词 connus 随前置直宾配合性数（阳性复数）。",
+          "category": "代词+过去分词配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie et Sophie _____ (se connaître, passé composé) lors d'un stage. Maintenant, elles _____ (connaître, présent) les mêmes personnes et elles _____ (aller + connaître, futur proche) bientôt les parents l'une de l'autre.",
+          "correct": [
+            "se sont connues",
+            "connaissent",
+            "vont connaître"
+          ],
+          "explanation": "①elles（阴性复数）+ se connaître + être → se sont connues；②présent elles → connaissent；③futur proche elles → vont + connaître。",
+          "category": "综合变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1gTu0McfKuDqWagjiUD_gt1QdySeJsGs9FHXN62tUkcI/edit?tab=t.0#heading=h.sdu3dzcr7rr8",
+        "https://docs.google.com/document/d/1qPXeLE7xoV-qdfWOcD_2hLbHmrX8hqWR12_3t38fXwg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771805854818-9mymnkieifi",
+          "front": "connaître — je/tu（现在时）",
+          "back": "je connais / tu connais\n⚠️ 词尾 -ais，无 î"
+        },
+        {
+          "id": "1771805854818-k3julvh124s",
+          "front": "connaître — il/elle/on（现在时）",
+          "back": "il connaît\n⚠️ 必须有 î，不能省略！"
+        },
+        {
+          "id": "1771805854818-6kranbs79wn",
+          "front": "connaître — nous（现在时）",
+          "back": "nous connaissons\n⚠️ 词根变 connaiss-（双s）"
+        },
+        {
+          "id": "1771805854818-h1wt2ujqhmn",
+          "front": "connaître — vous（现在时）",
+          "back": "vous connaissez\n⚠️ 词根 connaiss-（双s）"
+        },
+        {
+          "id": "1771805854818-cdfmv9j8nn",
+          "front": "connaître — ils/elles（现在时）",
+          "back": "ils connaissent\n⚠️ 词根 connaiss-，词尾 -ent 不发音"
+        },
+        {
+          "id": "1771805854818-mslsnu56yvo",
+          "front": "connaître 的复合过去时结构",
+          "back": "avoir + connu\n例：j'ai connu / nous avons connu\n⚠️ 用 avoir，不用 être"
+        },
+        {
+          "id": "1771805854818-flbcin7xwou",
+          "front": "connaître 的过去分词",
+          "back": "connu\n⚠️ 不随主语变化（除非直宾前置）"
+        },
+        {
+          "id": "1771805854818-1byzyyxbh9c",
+          "front": "connaître 的最近将来时结构",
+          "back": "aller（变位）+ connaître\n例：je vais connaître / ils vont connaître"
+        },
+        {
+          "id": "1771805854818-jd81l5yj7vc",
+          "front": "se connaître 的复合过去时",
+          "back": "用 être！\n例：ils se sont connus / elles se sont connues\n⚠️ 过去分词随主语性数变化"
+        },
+        {
+          "id": "1771805854818-dpccrej5x6b",
+          "front": "connaître vs savoir — 核心区别",
+          "back": "connaître = 熟悉感（人/地点/作品）\nsavoir = 掌握技能/事实（接不定式或从句）\n✅ Je connais Marie.\n✅ Je sais nager."
+        },
+        {
+          "id": "1771805854818-l7zohyhucr",
+          "front": "connaître + 不定式？",
+          "back": "❌ 错误！\nconnaître 不接不定式\n✅ 正确：Je sais nager.\n❌ 错误：Je connais nager."
+        },
+        {
+          "id": "1771805854818-oguggakf9d",
+          "front": "connaître + que 从句？",
+          "back": "❌ 错误！\nconnaître 不接 que 从句\n✅ 正确：Je sais qu'elle est intelligente.\n❌ 错误：Je connais qu'elle est intelligente."
+        },
+        {
+          "id": "1771805854818-o0xxkroicw8",
+          "front": "直宾代词替换 connaître 的宾语",
+          "back": "代词置于变位动词前\n✅ Je le connais.\n✅ Je ne la connais pas.\n✅ Je l'ai connu.（复合过去放在助动词前）"
+        },
+        {
+          "id": "1771805854818-poefd9ck17c",
+          "front": "connaître 现在时 vs 复合过去的语义差异",
+          "back": "现在时：Je le connais.（我现在认识他）\n复合过去：Je l'ai connu.（我结识了他，强调相识的起点）"
+        },
+        {
+          "id": "1771805854818-7mnox6xhucb",
+          "front": "固定搭配：据我所知",
+          "back": "à ma connaissance\n例：À ma connaissance, il n'est pas encore arrivé.\n语域：中性/正式，B2 加分"
+        },
+        {
+          "id": "1771805854818-8b0fu0fdm33",
+          "front": "固定搭配：在知情的情况下",
+          "back": "en connaissance de cause\n例：Il a agi en connaissance de cause.\n语域：书面语，C1"
+        },
+        {
+          "id": "1771805854818-0j0cekkczi14",
+          "front": "固定搭配：与…结识",
+          "back": "faire connaissance (avec quelqu'un)\n例：J'ai fait connaissance avec mes voisins.\n语域：中性/正式"
+        },
+        {
+          "id": "1771805854818-gqzthdb0n",
+          "front": "connaître un grand succès",
+          "back": "取得巨大成功\n例：Ce film a connu un grand succès en France.\n⚠️ 主语可以是事物，B2 写作加分"
+        },
+        {
+          "id": "1771805854818-dmc7dkvdn0g",
+          "front": "connaître + 抽象名词（B2用法）",
+          "back": "= 经历、经受（≈ traverser / subir）\n例：Le pays connaît une crise économique.\n例：Cette industrie connaît des difficultés.\n主语是地区/国家/行业等抽象事物"
+        },
+        {
+          "id": "1771805854818-pzh6auqrz6n",
+          "front": "nous nous connaissons — 为什么两个 nous？",
+          "back": "第一个 nous = 主语\n第二个 nous = 自反代词\n结构：主语 + 自反代词 + 变位动词\n✅ Nous nous connaissons depuis 2018."
+        }
+      ]
+    },
+    {
+      "id": 1771804742586,
+      "name": "语法讲解：表达原因和结果",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-22T23:59:02.586Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je suis en retard _____ les embouteillages.",
+          "options": [
+            "grâce à",
+            "parce que",
+            "à cause des",
+            "car"
+          ],
+          "correct": 2,
+          "explanation": "后接名词短语且语义负面（堵车迟到），用 à cause de。注意收缩冠词 à cause des（de + les）。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai réussi mon examen _____ mon professeur.",
+          "options": [
+            "à cause de",
+            "parce que",
+            "donc",
+            "grâce à"
+          ],
+          "correct": 3,
+          "explanation": "后接名词且语义正面（多亏了老师），用 grâce à。à cause de 虽然也接名词，但语义负面，此处语境为正面结果。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Pourquoi tu es fatigué ? — _____ j'ai mal dormi.",
+          "options": [
+            "Car",
+            "Donc",
+            "Parce que",
+            "Grâce à"
+          ],
+          "correct": 2,
+          "explanation": "回答 pourquoi 问句只能用 parce que，不能用 car（car 不用于直接回答问句）。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il aime ce restaurant, _____ la cuisine y est excellente.",
+          "options": [
+            "parce qu'",
+            "car",
+            "à cause de",
+            "grâce à"
+          ],
+          "correct": 1,
+          "explanation": "后接完整句子，且处于书面/正式语境，用 car。注意 car 前有逗号，且不能放句首。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ il est malade qu'il ne peut pas venir.",
+          "options": [
+            "C'est parce que",
+            "C'est car",
+            "C'est à cause de",
+            "C'est grâce à"
+          ],
+          "correct": 0,
+          "explanation": "强调原因的固定句式是 C'est parce que...，不能替换为 car。",
+          "category": "原因强调句式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le match a été annulé _____ mauvais temps.",
+          "options": [
+            "à cause du",
+            "grâce au",
+            "parce que le",
+            "car le"
+          ],
+          "correct": 0,
+          "explanation": "mauvais temps 是名词短语，且语义负面（取消比赛），用 à cause de。注意收缩冠词：à cause du（de + le）。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ une bonne préparation, il a décroché le poste.",
+          "options": [
+            "À cause d'",
+            "Parce qu'",
+            "Grâce à une",
+            "Donc"
+          ],
+          "correct": 2,
+          "explanation": "正面原因+后接名词，用 grâce à。注意此处 grâce à 放句首完全合法（与 car 不同）。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il pleut, _____ je prends mon parapluie.",
+          "options": [
+            "car",
+            "parce que",
+            "grâce à",
+            "donc"
+          ],
+          "correct": 3,
+          "explanation": "前因后果，表结果用 donc。car 和 parce que 表原因，方向相反。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le centre est fermé. _____ l'entretien est annulé.",
+          "options": [
+            "Donc",
+            "Par conséquent,",
+            "Alors",
+            "C'est pour ça que"
+          ],
+          "correct": 1,
+          "explanation": "书面语境（正式通知），用 Par conséquent。注意 Par conséquent 后面必须加逗号。Donc 虽然也对，但书面正式程度不够。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai raté mon bus, _____ j'ai pris un taxi.",
+          "options": [
+            "par conséquent",
+            "du coup",
+            "car",
+            "grâce à"
+          ],
+          "correct": 1,
+          "explanation": "口语语境+临时应对的结果，用 du coup。par conséquent 是书面语，此处过于正式。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je veux vivre au Canada, _____ j'apprends le français.",
+          "options": [
+            "c'est pourquoi que",
+            "c'est pour ça",
+            "c'est pourquoi",
+            "donc que"
+          ],
+          "correct": 2,
+          "explanation": "强调结果的固定句式：c'est pourquoi + 主语 + 动词。注意：c'est pourquoi 后面不加 que，这是最常见的错误。",
+          "category": "结果强调句式"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？",
+          "options": [
+            "Car il est fatigué, il reste chez lui.",
+            "Il reste chez lui, car il est fatigué.",
+            "— Pourquoi tu pars ? — Car j'ai un rendez-vous.",
+            "J'aime Paris, car cette ville est magnifique."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "car 不能放句首（排除A），不能用于回答 pourquoi 问句（排除C）。B和D均为正确的书面语用法。",
+          "category": "car用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些情况应该用 grâce à 而非 à cause de？",
+          "options": [
+            "因为罢工，火车取消了",
+            "多亏了团队努力，项目成功了",
+            "因为噪音，我无法集中注意力",
+            "多亏了这项新政策，污染减少了"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "grâce à 用于正面原因（成功、减少污染），à cause de 用于负面原因（取消、无法集中）。",
+          "category": "grâce à vs à cause de"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai réussi l'entretien _____ _____ mon ami qui m'a bien conseillé.",
+          "correct": [
+            "grâce à"
+          ],
+          "explanation": "正面结果追溯原因，后接名词，用 grâce à。",
+          "category": "原因表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est souvent absent _____ _____ sa maladie.",
+          "correct": [
+            "à cause de"
+          ],
+          "explanation": "负面原因+后接名词，用 à cause de。",
+          "category": "原因表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Pourquoi vous étudiez le français ? — _____ je veux travailler au Canada.",
+          "correct": [
+            "Parce que"
+          ],
+          "explanation": "回答 pourquoi 问句唯一正确选择是 parce que，首字母大写因为在句首。",
+          "category": "原因表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le projet a été un succès _____ _____ l'équipe. Nous avons travaillé dur, _____ les résultats sont excellents. Ce n'est pas _____ _____ nous avons eu de la chance _____ nous avons réussi — c'est _____ notre travail acharné.",
+          "correct": [
+            "grâce à",
+            "donc",
+            "parce que",
+            "que",
+            "grâce à"
+          ],
+          "explanation": "1) 正面原因+名词→grâce à；2) 表结果→donc；3) 强调否定原因句式 ce n'est pas parce que...que；4) 正面原因→grâce à。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est la plus appropriée dans un texte formel ?",
+          "options": [
+            "Du coup, la réunion a été annulée.",
+            "Alors, la réunion a été annulée.",
+            "Par conséquent, la réunion a été annulée.",
+            "C'est pour ça que la réunion a été annulée."
+          ],
+          "correct": 2,
+          "explanation": "书面/正式文体中表结果首选 par conséquent。du coup 和 c'est pour ça que 是口语表达，alors 可用但正式程度不及 par conséquent。",
+          "category": "语域判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1USQonkd_nl7UUungvgV7NsF1jMvquvcvdjU24lxBN1I/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771804823097-y83w03z2ter",
+          "front": "parce que vs car\n两者最关键的区别是什么？",
+          "back": "parce que：口语书面通用，可回答 pourquoi 问句\ncar：仅书面，不能放句首，不能回答 pourquoi 问句\n✅ — Pourquoi ? — Parce que...\n❌ — Pourquoi ? — Car..."
+        },
+        {
+          "id": "1771804823098-yi2r12kouw",
+          "front": "à cause de\n后接什么？语义倾向？",
+          "back": "后接【名词/名词短语】\n语义：负面原因（麻烦、问题、障碍）\n✅ en retard à cause des embouteillages\n记忆钩子：「因为坏事」"
+        },
+        {
+          "id": "1771804823098-kcnxtejqf2n",
+          "front": "grâce à\n后接什么？语义倾向？",
+          "back": "后接【名词/名词短语】\n语义：正面原因（多亏了、托福）\n✅ J'ai réussi grâce à mon ami.\n记忆钩子：「多亏好事」"
+        },
+        {
+          "id": "1771804823098-be8fhepn8yq",
+          "front": "à cause de / grâce à\n遇到 le / les 怎么变？",
+          "back": "à cause de + le → à cause du\nà cause de + les → à cause des\ngrâce à + le → grâce au\ngrâce à + les → grâce aux\n⚠️ à cause de la / grâce à la → 不变"
+        },
+        {
+          "id": "1771804823098-lzka1164fu",
+          "front": "car 的三条硬性禁令",
+          "back": "❌ 不能放句首\n❌ 不能回答 pourquoi 问句\n❌ 不能用于口语对话\n✅ 只用于书面，放在逗号之后"
+        },
+        {
+          "id": "1771804823098-elym17l8xsu",
+          "front": "parce que + 元音开头的词怎么处理？",
+          "back": "parce que → parce qu'\n✅ parce qu'il, parce qu'elle, parce qu'on\n❌ parce que il（经典送分陷阱）"
+        },
+        {
+          "id": "1771804823098-ee0ubqdwdnr",
+          "front": "ce n'est pas parce que... _____ ...\n这个句式怎么完成？",
+          "back": "ce n'est pas parce que + 原因 + que + 结果\n✅ Ce n'est pas parce qu'il est riche qu'il est heureux.\n译：不是因为他有钱他就幸福。"
+        },
+        {
+          "id": "1771804823098-w75o5j3ljd",
+          "front": "donc\n在句中可以放哪些位置？",
+          "back": "1. 两分句之间：Il pleut, donc je reste.\n2. 句首（口语追问）：Donc, tu ne viens pas ?\n3. 句子内部（书面）：Il est, donc, impossible de continuer.\n⚠️ donc 表结果，不表原因！"
+        },
+        {
+          "id": "1771804823098-mvkknz4pty",
+          "front": "du coup\n语域？语感？",
+          "back": "语域：非常口语，❌写作绝对不用\n语感：意外/临时情况导致的结果\n✅ J'ai raté mon bus, du coup j'ai pris un taxi.\n记忆钩子：「事情突然就这样了」"
+        },
+        {
+          "id": "1771804823098-bz1se91q818",
+          "front": "c'est pourquoi vs c'est pour ça que\n区别？后面加不加 que？",
+          "back": "意思完全相同，都是「这就是为什么」\nc'est pourquoi → 略书面\nc'est pour ça que → 略口语\n⚠️ 最大陷阱：c'est pourquoi 后面【不加 que】\n❌ c'est pourquoi que je... \n✅ c'est pourquoi je..."
+        },
+        {
+          "id": "1771804823098-pf9a1gip8ua",
+          "front": "par conséquent\n用在什么场合？位置？标点？",
+          "back": "场合：书面语、议论文、正式邮件\n位置：句首\n标点：后面必须加逗号\n✅ Par conséquent, l'entretien est annulé.\n近义词：en conséquence / ainsi / de ce fait"
+        },
+        {
+          "id": "1771804823098-zi2mh11nt4s",
+          "front": "书面语「因此」四兄弟",
+          "back": "par conséquent\nen conséquence\nainsi\nde ce fait\n→ 写作中交替使用，展示词汇多样性，TCF加分"
+        },
+        {
+          "id": "1771804823098-oiolrg5kre",
+          "front": "表结果语域对比\n口语 vs 书面",
+          "back": "口语：alors / du coup / donc\n口语强调：c'est pour ça que\n书面：donc（通用）/ par conséquent / en conséquence\n书面强调：c'est pourquoi / ainsi / de ce fait"
+        },
+        {
+          "id": "1771804823098-z0fzp1vtlus",
+          "front": "3秒排除法：后面跟的是名词还是句子？",
+          "back": "后接【名词】→ à cause de 或 grâce à（看褒贬）\n后接【完整句子】→ parce que（通用）或 car（书面）\n⚠️ 绝对不能：à cause de + 完整句子"
+        },
+        {
+          "id": "1771804823098-tgp9d8u4mec",
+          "front": "grâce à 放句首合法吗？",
+          "back": "✅ 完全合法！\nGrâce à une bonne préparation, il a décroché le poste.\n对比：car ❌ 不能放句首\n记忆：grâce à 位置灵活，car 位置受限"
+        }
+      ]
+    },
+    {
+      "id": 1771804231024,
+      "name": "Leçon 25 Enquête课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-02-22T23:50:31.024Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quelles sont vos activités _____ ?",
+          "options": [
+            "préférer",
+            "préféré",
+            "préférées",
+            "préférés"
+          ],
+          "correct": 2,
+          "explanation": "activités 是阴性复数名词，形容词 préféré 必须配合：阴性复数加 -es → préférées。",
+          "category": "形容词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le week-end, elle _____ rester chez elle plutôt que de sortir.",
+          "options": [
+            "préfère",
+            "préfèrent",
+            "préférons",
+            "préférez"
+          ],
+          "correct": 0,
+          "explanation": "主语 elle 是第三人称单数，préférer 变位为 préfère（注意重音符 è）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je préfère le thé _____ café.",
+          "options": [
+            "de",
+            "du",
+            "à",
+            "au"
+          ],
+          "correct": 3,
+          "explanation": "préférer A à B，介词用 à；à + le = au，缩合冠词不可省略。",
+          "category": "句型结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Faites-vous du sport ? — Non, je ne fais pas _____ sport.",
+          "options": [
+            "du",
+            "de",
+            "des",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "否定句中，部分冠词 du/de la/des 一律变为 de（d'）。",
+          "category": "否定句冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils préfèrent aller au cinéma _____ regarder la télévision.",
+          "options": [
+            "que",
+            "à",
+            "plutôt que de",
+            "de"
+          ],
+          "correct": 2,
+          "explanation": "préférer + inf. 与另一动作对比时，常用 plutôt que de + inf.，这是 B1/B2 加分表达。",
+          "category": "句型升级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le week-end, vous sortez _____ ?",
+          "options": [
+            "beaucoup / un peu / pas du tout",
+            "beaucoup / un peu / pas de tout",
+            "très / un peu / pas du tout",
+            "très beaucoup / un peu / pas du tout"
+          ],
+          "correct": 0,
+          "explanation": "固定程度副词三连：beaucoup / un peu / pas du tout。très 不能修饰 beaucoup，pas de tout 不存在。",
+          "category": "副词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (préférer) Paul à André.",
+          "correct": [
+            "préfère"
+          ],
+          "explanation": "主语 elle，第三人称单数，préférer → préfère（茎元音 é → è）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je préfère le café _____ thé.",
+          "correct": [
+            "au"
+          ],
+          "explanation": "préférer A à B；à + le = au，缩合冠词。",
+          "category": "句型结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous faisons _____ vélo le dimanche.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "faire de + 活动：de + le = du；肯定句用部分冠词。",
+          "category": "faire de + 活动"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？",
+          "options": [
+            "Je préfère aller à la campagne.",
+            "Elle préfère le cinéma à la télévision.",
+            "Il préfère le sport de la lecture.",
+            "Nous préférons sortir en famille."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "选项C错误：préférer A à B，介词应为 à，不是 de。其余三句结构均正确。",
+          "category": "综合判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le week-end, Marc _____ (sortir) souvent avec ses amis. Il _____ (préférer) aller dans les musées _____ dans les discothèques. En général, ils _____ (dîner) au restaurant.",
+          "correct": [
+            "sort",
+            "préfère",
+            "plutôt que",
+            "dînent"
+          ],
+          "explanation": "①sortir/il → sort；②préférer/il → préfère；③对比结构用 plutôt que；④dîner/ils → dînent。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1GFwC6sArUJDUy4RNNU8_0PYii_GUD0r1dx5xaJNPK_E/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771804287565-az12ws3q1jf",
+          "front": "préféré / préférée / préférés / préférées",
+          "back": "形容词「最喜爱的」，必须与名词性数配合。\n例：mes activités préférées（阴性复数）\n    mon roman préféré（阳性单数）"
+        },
+        {
+          "id": "1771804287565-byi4josf4ri",
+          "front": "activités préférées\n为什么是 -ées？",
+          "back": "activités = 阴性复数\n形容词 préféré 配合：加 -e（阴性）+ -s（复数）→ préférées\n⚠️ TCF 高频陷阱：漏写 e 或 s 均扣分"
+        },
+        {
+          "id": "1771804287565-qsrh5itg2f",
+          "front": "préférer + 动词不定式",
+          "back": "意为「宁愿做某事 / 更喜欢做某事」\n例：Je préfère aller à la campagne.\n结构：préférer + inf.（直接跟动词原形，不加 de）"
+        },
+        {
+          "id": "1771804287565-ce8je42ysz6",
+          "front": "préférer A à B",
+          "back": "意为「喜欢A胜于B / 宁要A不要B」\n⚠️ A 和 B 必须都是名词\n例：Je préfère le café au thé.\n     Elle préfère Paul à André."
+        },
+        {
+          "id": "1771804287565-gjzjhjeh9qg",
+          "front": "Je préfère le café ___ thé.",
+          "back": "au\n（à + le = au，缩合冠词）\n口诀：à + le → au；à + les → aux"
+        },
+        {
+          "id": "1771804287565-rfg0huv7qxc",
+          "front": "Faites-vous du sport ?\n否定回答怎么说？",
+          "back": "Non, je ne fais pas de sport.\n⚠️ 否定句：du / de la / des → de（d'）\n肯定：Je fais du sport. ✅\n否定：Je ne fais pas de sport. ✅"
+        },
+        {
+          "id": "1771804287565-a4ohdcaf5wk",
+          "front": "faire de + 活动（肯定句）",
+          "back": "faire du vélo（骑车）\nfaire de la natation（游泳）\nfaire de l'escalade（攀岩，元音前用 de l'）\nfaire du sport（做运动）"
+        },
+        {
+          "id": "1771804287565-5d66mzz78wn",
+          "front": "sortir 现在时变位",
+          "back": "je sors\ntu sors\nil/elle sort\nnous sortons\nvous sortez\nils/elles sortent"
+        },
+        {
+          "id": "1771804287565-kp5xajfaly",
+          "front": "beaucoup / un peu / pas du tout",
+          "back": "程度副词三级递减：\n很多 → 一点 → 完全不\n⚠️ 错误写法：pas de tout ❌\n正确：pas du tout ✅"
+        },
+        {
+          "id": "1771804287565-5w6blhd8riq",
+          "front": "en famille vs avec votre famille",
+          "back": "两者都表示「和家人一起」\nen famille = 更地道的口语/书面表达\navec votre famille = 较直白，问卷中常见\nTCF 写作建议用 en famille 加分"
+        },
+        {
+          "id": "1771804287565-xbilsh5c17q",
+          "front": "dans les discothèques\n口语怎么说？",
+          "back": "en boîte（de nuit）\n例：On sort en boîte le samedi soir.\n⚠️ TCF 口语/听力常见，避免只认识正式书面形式"
+        },
+        {
+          "id": "1771804287565-jz53t6zq3d",
+          "front": "Quelles sont vos activités préférées ?\n改写为 est-ce que 句型",
+          "back": "Est-ce que vous avez des activités préférées ?\n或：Qu'est-ce que vous aimez faire comme activités ?\n⚠️ TCF 常考同义改写，不能机械照搬原句"
+        },
+        {
+          "id": "1771804287565-4twhp79e7et",
+          "front": "en général = ？",
+          "back": "= généralement（副词）\n意为「一般来说 / 通常」\n口语多用 en général\n书面/考试两种均可，généralement 更正式"
+        },
+        {
+          "id": "1771804287565-v6ckbbai5c",
+          "front": "préférer 第三人称单数变位\n注意什么？",
+          "back": "il/elle préfère\n⚠️ 茎元音变化：é → è（重音符方向改变）\n对比：nous préférons（保持 é）\n这类动词：espérer, répéter, célébrer 同规则"
+        },
+        {
+          "id": "1771804287565-rk5t85kzkfp",
+          "front": "「宁愿A而不是B（两个动作对比）」B1/B2 加分句型",
+          "back": "préférer + inf. plutôt que de + inf.\n例：Je préfère aller au cinéma plutôt que de rester chez moi.\n⚠️ 第二个动词前必须加 de，不可省略"
+        }
+      ]
+    },
+    {
       "id": 1771803784208,
       "name": "Leçon 25 Enquête词汇",
       "folderId": "1770604921596",
@@ -19997,11 +21009,11 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-22",
+    "date": "2026-02-23",
     "todayCount": 0,
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-22T23:45:36.859Z",
+  "exportedAt": "2026-02-23T00:17:39.207Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
