@@ -1,158 +1,697 @@
 {
   "savedSets": [
     {
-      "id": 1771871970026,
+      "id": 1771877709450,
       "name": "Leçon 26 Quitter Paris课文",
       "folderId": "1770747190002",
-      "createdAt": "2026-02-23T18:39:30.026Z",
+      "createdAt": "2026-02-23T20:15:09.450Z",
       "questions": [
         {
           "type": "single_choice",
-          "stem": "Céline et son mari ont décidé de quitter Paris parce que _____.",
+          "stem": "Ils ont décidé de _____ Paris pour s'installer à la campagne.",
           "options": [
-            "ils n'aiment pas les théâtres et les cinémas",
-            "Paris est trop bruyant et pollué",
-            "ils veulent connaître leurs voisins en ville",
-            "Paris n'a pas de magasins ouverts le dimanche"
+            "quitter",
+            "partir",
+            "quitter de",
+            "partir à"
           ],
-          "correct": 1,
-          "explanation": "文中明确列举：trop de voitures, trop de pollution, trop bruyant。选项C是乡村的优势，不是离开的原因。",
-          "category": "理解"
+          "correct": 0,
+          "explanation": "quitter 是直接及物动词，直接接宾语，不加介词。partir 是不及物动词，不能直接接地点宾语（需要 partir de Paris）。",
+          "category": "词汇辨析"
         },
         {
           "type": "single_choice",
-          "stem": "— Pourquoi est-ce que vous _____ à la campagne ?\n— Parce qu'à Paris il y a trop de pollution.",
+          "stem": "Nous avons acheté une maison _____ campagne.",
           "options": [
-            "quittez",
-            "partez",
-            "sortez",
-            "habitez"
-          ],
-          "correct": 1,
-          "explanation": "partir à la campagne 是固定搭配。quitter 是及物动词，后直接跟地点宾语（quitter Paris），不能说 quitter à la campagne。",
-          "category": "语法"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Ils _____ une maison à côté d'Albi le mois dernier.",
-          "options": [
-            "achètent",
-            "ont acheté",
-            "vont acheter",
-            "achetaient"
-          ],
-          "correct": 1,
-          "explanation": "le mois dernier 是过去时间标志，表示已完成的具体事件，用复合过去时。",
-          "category": "语法"
-        },
-        {
-          "type": "single_choice",
-          "stem": "À Paris, il n'y a pas _____ espaces verts.",
-          "options": [
-            "trop de",
-            "beaucoup de",
-            "assez d'",
-            "trop d'"
+            "en",
+            "dans la",
+            "à la",
+            "sur la"
           ],
           "correct": 2,
-          "explanation": "文中原句 il n'y a pas assez d'espaces verts。assez de + 名词 = 足够多的……，否定形式表示不够。",
-          "category": "语法"
+          "explanation": "固定搭配：à la campagne（在乡下）。不说 dans la campagne 也不说 en campagne（后者是军事用语\"在战场上\"）。",
+          "category": "介词搭配"
         },
         {
           "type": "single_choice",
-          "stem": "« Tout le monde se connaît à la campagne. » Dans cette phrase, le verbe est au _____.",
+          "stem": "Le bureau est _____ la boulangerie.",
           "options": [
-            "pluriel, car tout le monde = les gens",
-            "singulier, car tout le monde est toujours sujet singulier",
-            "pluriel, car se connaître est réciproque",
-            "singulier, car la campagne est singulier"
+            "à côté",
+            "à côté de",
+            "au côté",
+            "au côté de"
           ],
           "correct": 1,
-          "explanation": "tout le monde 永远接第三人称单数动词，这是法语高频语法陷阱。",
-          "category": "语法"
+          "explanation": "à côté de + 地点 = 在……旁边。à côté 后面如果接名词必须加 de。",
+          "category": "介词搭配"
         },
         {
-          "type": "fill_blank",
-          "stem": "Moi, je ne _____ plus vivre à Paris, c'est trop bruyant !",
-          "correct": [
-            "peux"
+          "type": "single_choice",
+          "stem": "Demain, on _____ habiter dans le sud.",
+          "options": [
+            "va",
+            "allons",
+            "vont",
+            "irons"
           ],
-          "explanation": "ne...plus 否定结构，pouvoir 现在时第一人称单数为 peux。",
-          "category": "语法"
+          "correct": 0,
+          "explanation": "on 做主语时动词按第三人称单数变位。futur proche = aller (présent) + infinitif → on va habiter。",
+          "category": "语法·最近将来时"
         },
         {
-          "type": "fill_blank",
-          "stem": "Céline est _____ accord avec son mari : elle préfère partir.",
-          "correct": [
-            "d'"
+          "type": "single_choice",
+          "stem": "_____ est-ce que vous déménagez ? — Parce qu'il y a trop de bruit.",
+          "options": [
+            "Comment",
+            "Quand",
+            "Pourquoi",
+            "Où"
           ],
-          "explanation": "être d'accord avec 是固定搭配，d' 不可省略。",
-          "category": "词汇"
+          "correct": 2,
+          "explanation": "回答用 parce que（因为），所以提问用 pourquoi（为什么）。这是 TCF 听力经典配对。",
+          "category": "疑问词"
         },
         {
-          "type": "fill_blank",
-          "stem": "À Paris, on peut sortir tous les jours _____ boîte ou dans les bars.",
-          "correct": [
+          "type": "single_choice",
+          "stem": "À Paris, il y a trop _____ pollution.",
+          "options": [
+            "de la",
+            "de",
+            "des",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "trop de + 名词（不加冠词）。所有数量副词（beaucoup de, assez de, peu de, trop de）后面都直接用 de，不用冠词。",
+          "category": "语法·数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a pas assez _____ espaces verts dans cette ville.",
+          "options": [
+            "des",
+            "de",
+            "d'",
+            "les"
+          ],
+          "correct": 2,
+          "explanation": "pas assez de + 名词。espaces 以元音开头，de 缩合为 d'。",
+          "category": "语法·数量表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne peux _____ vivre dans cette ville bruyante.",
+          "options": [
+            "pas",
+            "jamais",
+            "plus",
+            "rien"
+          ],
+          "correct": 2,
+          "explanation": "ne… plus = 不再。语境是\"我再也不能住在这个嘈杂的城市了\"，表示状态的终止。",
+          "category": "否定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il va au bar _____ les samedis, et elle sort en _____ le vendredi.",
+          "options": [
+            "tout / boîte",
+            "tous / boîte",
+            "tout / discothèque",
+            "tous / club"
+          ],
+          "correct": 1,
+          "explanation": "tous les samedis = 每周六（tous 修饰复数名词）。sortir en boîte = 去夜店（固定搭配）。",
+          "category": "搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les magasins sont ouverts _____ dimanche dans ce quartier.",
+          "options": [
+            "en",
+            "au",
+            "le",
+            "un"
+          ],
+          "correct": 2,
+          "explanation": "le + 星期 = 每个（该星期几）。le dimanche = 每周日。不加冠词的 dimanche 指\"这个周日\"。",
+          "category": "冠词·时间表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ le monde est prêt ? On peut commencer.",
+          "options": [
+            "Tous",
+            "Tout",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 1,
+          "explanation": "tout le monde（所有人）是固定搭配，tout 不变。虽然意思是\"所有人\"，但语法上是单数第三人称。",
+          "category": "语法·tout le monde"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans ce village, tout le monde se _____.",
+          "options": [
+            "connaît",
+            "connaissent",
+            "connaîtent",
+            "connait"
+          ],
+          "correct": 0,
+          "explanation": "tout le monde 做主语，动词用第三人称单数。se connaître → il/tout le monde se connaît。",
+          "category": "语法·动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que pensez-vous _____ cette décision ?",
+          "options": [
+            "à",
+            "de",
+            "sur",
+            "pour"
+          ],
+          "correct": 1,
+          "explanation": "penser de qqch = 对某事有什么看法/评价。penser à qqch = 想到某事（含义不同）。",
+          "category": "介词辨析·penser"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as vu le nouveau film ? Qu'est-ce que tu _____ penses ?",
+          "options": [
+            "y",
+            "en",
+            "le",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "en 代替 de + 事物。原句 = Que penses-tu de ce film → Qu'en penses-tu。penser de → en。",
+          "category": "代词·en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu connais la nouvelle directrice ? Que penses-tu _____ ?",
+          "options": [
+            "en",
+            "d'elle",
+            "de lui",
+            "y"
+          ],
+          "correct": 1,
+          "explanation": "当 penser de 后面是人时，不能用 en 代替，必须用 de + 重读代词。la directrice（女）→ d'elle。",
+          "category": "代词·de+重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie _____ que tout ira bien. Elle en est certaine.",
+          "options": [
+            "imagine",
+            "s'imagine",
+            "a imaginé",
+            "imaginait"
+          ],
+          "correct": 1,
+          "explanation": "s'imaginer 比 imaginer 多了一层\"深信不疑\"的含义——主语认为自己想象的事是真的。语境中\"她确信一切会好\"正合此意。",
+          "category": "词汇辨析·imaginer"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je me sens _____ bien du tout aujourd'hui.",
+          "options": [
+            "ne pas",
+            "pas",
+            "ne",
+            "n'"
+          ],
+          "correct": 1,
+          "explanation": "口语中 ne 常省略。pas… du tout = 一点也不。完整形式：Je ne me sens pas bien du tout。口语省略 ne 后只保留 pas。",
+          "category": "否定·pas du tout"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est d'accord _____ moi, elle veut aussi déménager.",
+          "options": [
+            "de",
+            "à",
+            "avec",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "être d'accord avec qqn = 与某人意见一致。固定搭配，介词用 avec。",
+          "category": "搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu n'aimes pas ce restaurant ? — Non. — Moi .",
+          "options": [
+            "aussi",
+            "non plus",
+            "non aussi",
+            "plus"
+          ],
+          "correct": 1,
+          "explanation": "否定句中表示\"我也不\"用 moi non plus。肯定句才用 moi aussi（我也是）。",
+          "category": "语法·aussi vs non plus"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ raison de quitter cette ville polluée.",
+          "options": [
+            "sont",
+            "font",
+            "ont",
+            "prennent"
+          ],
+          "correct": 2,
+          "explanation": "avoir raison (de + inf.) = 做某事是对的。固定搭配用 avoir，不用 être 也不用 faire。",
+          "category": "搭配·avoir raison"
+        },
+        {
+          "type": "single_choice",
+          "stem": " vous avez raison, mais je préfère rester ici.",
+          "options": [
+            "Peut être",
+            "Peut-être",
+            "Peu être",
+            "Peux-être"
+          ],
+          "correct": 1,
+          "explanation": "peut-être（也许）有连字符。peut être（没有连字符）= 能够是，意思完全不同。",
+          "category": "拼写辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a beaucoup de choses _____ faire à la campagne.",
+          "options": [
+            "de",
+            "pour",
+            "à",
             "en"
           ],
-          "explanation": "en boîte 是固定口语表达，意为去夜店，不用 à 或 dans。",
-          "category": "词汇"
+          "correct": 2,
+          "explanation": "名词 + à + 不定式 = 要做的……。des choses à faire = 要做的事情。quelque chose à manger = 吃的东西。",
+          "category": "语法·à + inf."
         },
         {
           "type": "multiple_choice",
-          "stem": "D'après le dialogue, quels sont les avantages de Paris mentionnés ?",
+          "stem": "下列哪些句子中 on 相当于 nous？（多选）",
           "options": [
-            "des théâtres et des cinémas",
-            "des espaces verts",
-            "des magasins ouverts le dimanche",
-            "une vie de quartier chaleureuse"
+            "On a acheté une maison.",
+            "On peut sortir tous les jours.",
+            "On va habiter là-bas.",
+            "On dit que Paris est belle."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "前三句的 on 都是口语中代替 nous（我们）。第四句 On dit que = 人们说/据说，on 指泛指的\"人们\"。",
+          "category": "语法·on的用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu connais mes voisins ? — Oui, je _____ connais tous.",
+          "correct": [
+            "les"
+          ],
+          "explanation": "connaître 是直接及物动词，mes voisins 是直接宾语，用直接宾语代词 les 代替。",
+          "category": "代词·COD"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne pouvons _____ supporter ce bruit.",
+          "correct": [
+            "plus"
+          ],
+          "explanation": "ne… plus = 不再。我们再也受不了这个噪音了。",
+          "category": "否定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous quittez Paris ? — Oui, nous _____ quittons la semaine prochaine.",
+          "options": [
+            "en",
+            "y",
+            "le",
+            "la"
+          ],
+          "correct": 3,
+          "explanation": "quitter 是直接及物动词，Paris 是阴性城市名（la ville de Paris），用直接宾语代词 la 代替。注意：不能用 en（en 代替 de + qqch）也不能用 y（y 代替 à + 地点，但 quitter 不用介词）。",
+          "category": "代词·COD vs y vs en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur pense souvent _____ son enfance à la campagne.",
+          "options": [
+            "de",
+            "en",
+            "à",
+            "sur"
+          ],
+          "correct": 2,
+          "explanation": "penser à qqch = 想到/想念某事。penser de qqch = 对某事有看法。语境是\"经常想到她的童年\"，用 à。",
+          "category": "介词辨析·penser à vs de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur pense souvent à son enfance. Elle _____ pense avec nostalgie.",
+          "options": [
+            "en",
+            "y",
+            "la",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "penser à + 事物 → 用 y 代替。注意：penser à + 人 → 用 à + 重读代词（不用 y）。但此处 son enfance 是事物，所以用 y。",
+          "category": "代词·y vs en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul pense souvent à Marie. Il pense souvent _____.",
+          "options": [
+            "y",
+            "en",
+            "à elle",
+            "d'elle"
+          ],
+          "correct": 2,
+          "explanation": "penser à + 人 → 不能用 y 代替，必须保留 à + 重读代词。Il pense souvent à elle。这是 TCF B2 经典陷阱：y 只代替 à + 事物/地点，不代替 à + 人。",
+          "category": "代词·à + 重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu _____ de notre nouveau voisin ? — Je _____ trouve sympathique.",
+          "options": [
+            "en penses / le",
+            "penses / en",
+            "y penses / le",
+            "en penses / en"
+          ],
+          "correct": 0,
+          "explanation": "第一空：penser de qqn → 人用 de + 重读代词？不，这里 nouveau voisin 虽然是人，但 Qu'est-ce que tu en penses 在口语中常用于泛指评价（把人当\"话题\"而非\"对象\"）。第二空：trouver qqn + adj. 是直接及物，用 le。",
+          "category": "代词综合·高级陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ gens du quartier se plaignent du bruit.",
+          "options": [
+            "vieux",
+            "vieilles",
+            "vieil",
+            "vieils"
+          ],
+          "correct": 1,
+          "explanation": "形容词在 gens 前面时，gens 视为阴性 → 形容词用阴性复数形式。les vieilles gens = 老人们。放在后面则为阳性：les gens vieux。",
+          "category": "语法·gens 阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce sont des gens très .",
+          "options": [
+            "intelligente",
+            "intelligents",
+            "intelligentes",
+            "intelligent"
+          ],
+          "correct": 1,
+          "explanation": "形容词在 gens 后面时，gens 为阳性 → 用阳性复数形式 intelligents。对比前一题：前置用阴性，后置用阳性。",
+          "category": "语法·gens 阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je m'imagine qu'il _____ demain. J'en suis certain.",
+          "options": [
+            "vient",
+            "viendra",
+            "est venu",
+            "venait"
+          ],
+          "correct": 1,
+          "explanation": "s'imaginer que + 从句：主句表达\"深信\"，从句内容是\"他明天会来\"，指向未来 → 用简单将来时 viendra。présent (vient) 也勉强可以表将来，但配合 demain + 确信语气，将来时最准确。",
+          "category": "时态·s'imaginer + 从句"
+        },
+        {
+          "type": "single_choice",
+          "stem": " tu t'imagines ! On ne peut pas tout changer en un jour.",
+          "options": [
+            "Qu'est-ce que",
+            "Qu'est-ce qui",
+            "Ce que",
+            "Que"
+          ],
+          "correct": 0,
+          "explanation": "Qu'est-ce que tu t'imagines ! 感叹/反问句 = 你在想什么呢！que 做 imaginer 的直接宾语 → 用 qu'est-ce que（宾语疑问）。qu'est-ce qui 用于主语疑问。",
+          "category": "语法·疑问句结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde _____ bien amusé à la fête hier.",
+          "options": [
+            "s'est",
+            "se sont",
+            "s'ont",
+            "se a"
+          ],
+          "correct": 0,
+          "explanation": "tout le monde = 单数第三人称。s'amuser 用 être 做助动词。→ tout le monde s'est bien amusé。考生常误用 se sont（复数），这是 TCF 经典陷阱。",
+          "category": "语法·tout le monde + passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne connaît pas _____ ses voisins. Elle n'en connaît _____.",
+          "options": [
+            "tous / aucun",
+            "tout / aucun",
+            "tous / rien",
+            "tout / personne"
+          ],
+          "correct": 0,
+          "explanation": "第一空：ses voisins 是复数阳性 → tous（代词/形容词，修饰复数）。第二空：ne… aucun = 一个也没有（代替复数人/物中的\"没有任何一个\"）。rien = 没有东西，personne = 没有人（不搭配 en）。",
+          "category": "否定·aucun vs rien vs personne"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une ville où il fait bon .",
+          "options": [
+            "vivre",
+            "de vivre",
+            "à vivre",
+            "y vivre"
+          ],
+          "correct": 0,
+          "explanation": "il fait bon + 不定式 = 做某事很舒适/惬意。直接接不定式，不加介词。il fait bon vivre = 生活很惬意。",
+          "category": "句型·il fait bon + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": " il y ait moins de pollution, les gens ne quitteront pas la ville.",
+          "options": [
+            "À moins qu'",
+            "Parce qu'",
+            "Bien qu'",
+            "Pour qu'"
+          ],
+          "correct": 0,
+          "explanation": "À moins que + subjonctif = 除非。语境：除非污染减少，否则人们不会离开城市。Bien que（虽然）和 Pour que（为了）语义不合。Parce que 后接直陈式，且逻辑不通。",
+          "category": "连词·B2 从句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On a acheté cette maison il y a trois ans. On _____ habite depuis.",
+          "options": [
+            "l'",
+            "en",
+            "y",
+            "la"
+          ],
+          "correct": 2,
+          "explanation": "habiter + 地点 → 用 y 代替（代替 dans/à + 地点）。cette maison 是地点概念，用 y。不用 l' 或 la（habiter 此处为不及物用法，maison 是地点而非直接宾语）。",
+          "category": "代词·y 代替地点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je préfère partir _____ rester dans cette ville polluée.",
+          "options": [
+            "que",
+            "plutôt que",
+            "à",
+            "plutôt de"
+          ],
+          "correct": 2,
+          "explanation": "préférer A à B = 比起 B 更喜欢 A。préférer partir à rester。注意：préférer + inf. à + inf. 是标准结构。plutôt que de + inf. 也正确但此处选项是 plutôt que（缺少 de），不完整。",
+          "category": "语法·préférer A à B"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a _____ d'intéressant à faire dans ce village.",
+          "options": [
+            "pas rien",
+            "rien",
+            "quelque chose",
+            "personne"
+          ],
+          "correct": 1,
+          "explanation": "rien de + 形容词 = 没有什么……的东西。Il n'y a rien d'intéressant = 没有什么有趣的事。注意：ne… rien 中 rien 代替 pas quelque chose，不能写 pas rien（双重否定错误）。",
+          "category": "否定·rien de + adj."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Peut-être _____ raison de vouloir déménager.",
+          "options": [
+            "vous avez",
+            "avez-vous",
+            "vous ayez",
+            "ayez-vous"
+          ],
+          "correct": 1,
+          "explanation": "peut-être 放句首，正式法语中要求主谓倒装：Peut-être avez-vous raison。口语中可以用 Peut-être que vous avez raison（加 que 则不倒装）。",
+          "category": "语法·peut-être 倒装"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ en Chine il y a dix ans.",
+          "options": [
+            "connu",
+            "connus",
+            "connues",
+            "connaître"
+          ],
+          "correct": 1,
+          "explanation": "se connaître（相互认识）用 être 做助动词，过去分词要与主语性数配合。Ils = 阳性复数 → connus。如果主语是 Elles → connues。",
+          "category": "语法·代词式动词 passé composé 配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "À Paris, il y a trop _____ voitures et pas assez _____ transports en commun. _____ le monde se plaint, mais personne ne fait _____.",
+          "correct": [
+            "de",
+            "de",
+            "Tout",
+            "rien"
+          ],
+          "explanation": "trop de + 名词（无冠词）；pas assez de + 名词（无冠词）；tout le monde（单数）；ne… rien = 什么也不做。四个空覆盖数量表达、固定搭配和否定词。",
+          "category": "综合填空"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的代词使用是正确的？（多选）",
+          "options": [
+            "Que penses-tu de ce film ? — J'en pense du bien.",
+            "Que penses-tu de Marie ? — J'en pense du bien.",
+            "Il pense à ses vacances. — Il y pense.",
+            "Il pense à sa mère. — Il y pense."
           ],
           "correct": [
             0,
             2
           ],
-          "explanation": "文中乙方列举的巴黎优势是剧院/电影院（A）和周日营业的商店（C）。绿地不足是缺点，邻里温情是乡村优势。",
-          "category": "理解"
-        },
-        {
-          "type": "multiple_choice",
-          "stem": "Lesquelles de ces phrases sont grammaticalement correctes ?",
-          "options": [
-            "Je vais quitter Paris demain.",
-            "Je vais partir de Paris demain.",
-            "Je vais quitter à Paris demain.",
-            "Tout le monde se connaissent ici."
-          ],
-          "correct": [
-            0,
-            1
-          ],
-          "explanation": "quitter 是及物动词直接加宾语（A正确）；partir de + lieu（B正确）；C错误，quitter 不加介词；D错误，tout le monde 接单数动词。",
-          "category": "语法"
-        },
-        {
-          "type": "paragraph_fill_blank",
-          "stem": "À Paris, il y a _____ de voitures et il n'y a pas _____ d'espaces verts. C'est pour ça qu'on _____ (aller) habiter à la campagne.",
-          "correct": [
-            "trop",
-            "assez",
-            "va"
-          ],
-          "explanation": "trop de + nom；pas assez de + nom；on va = futur proche，on 接第三人称单数。",
-          "category": "综合"
+          "explanation": "A 正确：en 代替 de + 事物（ce film）。B 错误：Marie 是人，应该说 Je pense du bien d'elle（不用 en 代人）。C 正确：y 代替 à + 事物（ses vacances）。D 错误：sa mère 是人，应该说 Il pense à elle（不用 y 代人）。这是 TCF B2 最经典的代词陷阱。",
+          "category": "代词·人 vs 物 综合辨析"
         },
         {
           "type": "single_choice",
-          "stem": "« Vous avez peut-être raison. » Quelle phrase a le même sens ?",
+          "stem": "【对话 1】\n— Tu sais que Marc et Julie quittent Paris ?\n— Non ! Pourquoi ?\n— Parce qu'ils en ont marre du bruit et de la pollution. Ils ont acheté une maison à côté de Toulouse.\n— Et ils vont faire quoi là-bas ?\n— Marc va travailler à distance, et Julie, elle, elle va ouvrir une petite boulangerie.\n\nQuestion : Pourquoi Marc et Julie quittent-ils Paris ?",
           "options": [
-            "Vous n'avez certainement pas raison.",
-            "Il est possible que vous ayez raison.",
-            "Vous avez sûrement tort.",
-            "Je suis d'accord avec vous."
+            "Parce qu'ils ont trouvé un meilleur travail à Toulouse.",
+            "Parce qu'ils ne supportent plus le bruit et la pollution.",
+            "Parce que leur famille habite près de Toulouse.",
+            "Parce que les loyers sont trop chers à Paris."
           ],
           "correct": 1,
-          "explanation": "peut-être = il est possible que（后接虚拟式，B2表达）。注意C是反义，D语气过于肯定，与 peut-être 的不确定语气不符。",
-          "category": "同义改写"
+          "explanation": "对话明确说 ils en ont marre du bruit et de la pollution（他们受够了噪音和污染）。A（找到更好工作）、C（家人住那边）、D（房租太贵）均为无中生有的干扰项。TCF 套路：用合理但文中未提及的信息做干扰。",
+          "category": "听力·原因判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【同一对话 1 · 第二题】\nQuestion : Que va faire Julie après le déménagement ?",
+          "options": [
+            "Elle va travailler à distance comme Marc.",
+            "Elle va chercher un emploi à Toulouse.",
+            "Elle va ouvrir un commerce.",
+            "Elle va rester à la maison."
+          ],
+          "correct": 2,
+          "explanation": "Julie va ouvrir une petite boulangerie = 开一家小面包店 = 开一个商铺（un commerce）。A 是 Marc 的计划（干扰：张冠李戴）。B 和 D 是无中生有。TCF 套路：用同义改写考你是否真正理解。boulangerie → commerce。",
+          "category": "听力·细节+同义改写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【对话 2】\n— Moi, je ne comprends pas les gens qui partent à la campagne. Il n'y a rien à faire !\n— Tu exagères. On peut se promener, faire du vélo… Et puis l'air est pur, c'est calme…\n— Oui, mais les magasins ferment à 18 heures, il n'y a pas de cinéma, pas de théâtre…\n— Peut-être, mais au moins on connaît ses voisins. Ici, dans mon immeuble, personne ne se dit bonjour.\n\nQuestion : Quelle est la position de la deuxième personne ?",
+          "options": [
+            "Elle préfère la vie en ville.",
+            "Elle pense que la campagne n'a aucun avantage.",
+            "Elle reconnaît des avantages à la vie à la campagne.",
+            "Elle veut déménager immédiatement à la campagne."
+          ],
+          "correct": 2,
+          "explanation": "第二个人列举了乡下的好处（散步、骑车、空气好、安静、认识邻居），但没有说要立刻搬家。C = 她承认乡下有好处。D 是过度推断。TCF 套路：区分\"认可优点\"和\"做出决定\"。",
+          "category": "听力·态度判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【同一对话 2 · 第二题】\nQuestion : Selon la deuxième personne, quel est le problème de la vie en ville ?",
+          "options": [
+            "Les magasins ferment trop tôt.",
+            "Il y a trop de pollution.",
+            "Les gens ne se connaissent pas.",
+            "Les loyers sont trop élevés."
+          ],
+          "correct": 2,
+          "explanation": "第二个人说 personne ne se dit bonjour（没人打招呼），强调的是城市里人与人之间的冷漠/互不认识。A 是第一个人对乡下的抱怨（张冠李戴）。B 和 D 文中未提。",
+          "category": "听力·观点归属"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【独白】\nJe m'appelle Sophie. J'habitais à Lyon depuis quinze ans, et l'année dernière, mon mari et moi, on a décidé de tout quitter pour s'installer dans un petit village en Ardèche. Au début, c'était difficile : pas de transports en commun, le supermarché le plus proche est à vingt minutes en voiture. Mais maintenant, je ne regrette rien. Les enfants jouent dehors, on mange les légumes du jardin, et surtout, on a du temps. À Lyon, on courait tout le temps. Ici, on vit.\n\nQuestion : Qu'est-ce que Sophie regrette ?",
+          "options": [
+            "Elle regrette d'avoir quitté Lyon.",
+            "Elle regrette le manque de transports.",
+            "Elle regrette que les enfants ne puissent pas jouer dehors.",
+            "Elle ne regrette rien."
+          ],
+          "correct": 3,
+          "explanation": "Sophie 明确说 je ne regrette rien（我什么都不后悔）。B 虽然她提到了交通不便，但这不是\"后悔\"，只是描述困难。TCF 套路：用文中提到的负面信息做干扰，诱导你选\"她后悔\"。",
+          "category": "听力·关键词抓取"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【同一独白 · 第二题】\nQuestion : Que signifie « À Lyon, on courait tout le temps. Ici, on vit » ?",
+          "options": [
+            "À Lyon, elle faisait du sport ; ici, elle ne fait plus rien.",
+            "À Lyon, la vie était stressante et pressée ; ici, elle profite vraiment de la vie.",
+            "À Lyon, elle avait peur ; ici, elle se sent en sécurité.",
+            "À Lyon, elle travaillait ; ici, elle est au chômage."
+          ],
+          "correct": 1,
+          "explanation": "courir tout le temps 字面是\"一直在跑\"，实际是比喻\"生活节奏太快、总是在赶\"。on vit = 我们真正在生活。对比表达的是忙碌 vs 享受生活。TCF 高分题：考你是否能理解比喻义/言外之意。",
+          "category": "听力·言外之意"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【对话 3】\n— Alors, tu as visité l'appartement ?\n— Oui. Il est pas mal du tout. Trois pièces, un balcon, et c'est calme.\n— Et le quartier ?\n— Eh bien, il y a tout à côté : une boulangerie, une pharmacie, un parc… Et les voisins ont l'air sympa.\n— Et le loyer ?\n— Huit cents euros par mois, charges comprises.\n— Ah, c'est raisonnable. Tu vas le prendre ?\n— Je crois bien que oui.\n\nQuestion : Quelle est l'opinion de la personne sur l'appartement ?",
+          "options": [
+            "Elle le trouve trop cher.",
+            "Elle le trouve globalement satisfaisant.",
+            "Elle hésite à cause du quartier.",
+            "Elle n'aime pas les voisins."
+          ],
+          "correct": 1,
+          "explanation": "她说 pas mal du tout（挺好的）、列举了各种优点、最后说 je crois bien que oui（我应该会要）。整体态度是满意的。其余选项与文本矛盾。",
+          "category": "听力·综合判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【同一对话 3 · 第二题】\nQuestion : Que signifie « charges comprises » ?",
+          "options": [
+            "Le prix inclut les meubles.",
+            "Le prix inclut les frais d'entretien et les services collectifs.",
+            "Le prix n'inclut pas l'électricité.",
+            "Le prix est négociable."
+          ],
+          "correct": 1,
+          "explanation": "charges comprises = 包含物业费/杂费（水费、公共区域维护费、垃圾费等）。这是租房场景必知表达。A（包含家具）= meublé。C 和 D 无关。TCF 常考生活场景词汇。",
+          "category": "听力·生活词汇"
         }
       ],
       "practiceCount": 0,
@@ -164,89 +703,404 @@
       "reviewImages": [],
       "cards": [
         {
-          "id": "1771872030629-0gdon68wjn48",
-          "front": "quitter（动词）怎么用？及物还是介词？",
-          "back": "及物动词，直接加地点宾语，无需介词\n✅ quitter Paris\n❌ quitter à Paris / quitter de Paris"
+          "id": "1771878082402-p4v33ynwb7",
+          "front": "quitter（词性 + 核心用法）",
+          "back": "v.t. 直接及物动词，直接接宾语，不加介词。\nquitter Paris ✅\nquitter de Paris ❌"
         },
         {
-          "id": "1771872030629-r5ocy65j8vj",
-          "front": "partir 去某地 / 离开某地，介词怎么用？",
-          "back": "去某地：partir à/en + lieu\n离开某地：partir de + lieu\n✅ partir à la campagne\n✅ partir de Paris"
+          "id": "1771878082402-tmpcdtf42m",
+          "front": "quitter vs partir 区别",
+          "back": "quitter + 宾语（直接及物）：quitter Paris\npartir（不及物）+ de/à/pour：partir de Paris, partir pour Lyon\n⚠️ 不能说 quitter de"
         },
         {
-          "id": "1771872030629-ci7zx8yeoeh",
-          "front": "quitter vs partir 核心区别",
-          "back": "quitter = 及物，后直接跟宾语（人或地点）\npartir = 不及物，后跟介词 à / de / pour\n口诀：quitter 不要介词，partir 离不开介词"
+          "id": "1771878082402-nvbpec3k8ae",
+          "front": "à la campagne",
+          "back": "在乡下 / 去乡下（固定搭配）\n反义：en ville（在城里）\n⚠️ 不说 dans la campagne"
         },
         {
-          "id": "1771872030629-afcy4ideje",
-          "front": "trop de + 名词 怎么用？",
-          "back": "trop de + 名词（无冠词）= 太多……\n✅ trop de voitures / trop de pollution\n❌ trop des voitures"
+          "id": "1771878082402-7sgy1oiqbsg",
+          "front": "à côté de + 地点",
+          "back": "在……旁边（复合介词）\nLa pharmacie est à côté de la boulangerie.\n元音前缩合：à côté d'Albi"
         },
         {
-          "id": "1771872030629-r42acoqko59",
-          "front": "pas assez de + 名词 怎么用？",
-          "back": "pas assez de + 名词（无冠词）= 不够多……\n✅ il n'y a pas assez d'espaces verts\n对比：assez de + 名词 = 足够多的……"
+          "id": "1771878082402-xbjqosma3e8",
+          "front": "on = ?（口语用法）",
+          "back": "口语中 on = nous（我们）\n但动词按第三人称单数变位：\non a acheté, on va habiter"
         },
         {
-          "id": "1771872030629-k274u74avv",
-          "front": "ne...plus 是什么意思？plus 怎么发音？",
-          "back": "ne...plus = 不再……\n✅ Je ne peux plus vivre ici.\n发音：plus 在否定结构中 [s] 不发音，读 [ply]"
+          "id": "1771878082402-09lh69j5y6do",
+          "front": "on 的泛指用法",
+          "back": "on = 人们、大家（泛指）\nOn dit que Paris est belle. = 人们说巴黎很美。\n⚠️ 区分 on = nous 还是 on = 泛指"
         },
         {
-          "id": "1771872030629-6mb42ft8136",
-          "front": "tout le monde 后接单数还是复数动词？",
-          "back": "永远接第三人称单数动词！\n✅ Tout le monde se connaît.\n❌ Tout le monde se connaissent.\n（高频 TCF 陷阱）"
+          "id": "1771878082402-424fsawz1w2",
+          "front": "passé composé 构成",
+          "back": "助动词（avoir/être 现在时）+ 过去分词\non a acheté（avoir + acheté）\n第一组动词过去分词：-er → -é"
         },
         {
-          "id": "1771872030629-dp3a0kpannq",
-          "front": "être d'accord avec 怎么用？",
-          "back": "être d'accord avec + 人/意见 = 同意……\n✅ Elle est d'accord avec moi.\n注意：d' 不可省略，avec 不可换成 de"
+          "id": "1771878082402-numle4a87pj",
+          "front": "acheter 现在时变位特殊之处",
+          "back": "词干元音变化 e → è：\nj'achète, tu achètes, il achète\nnous achetons, vous achetez\nils achètent\n（重音音节 e → è）"
         },
         {
-          "id": "1771872030629-etudjzzkh1o",
-          "front": "avoir raison / avoir tort",
-          "back": "avoir raison = 说得对，有道理\navoir tort = 说错了，没道理\n✅ Vous avez peut-être raison.\n升级表达：ne pas avoir tort（双重否定，B2加分）"
+          "id": "1771878082402-ql490ba1vvj",
+          "front": "futur proche 最近将来时",
+          "back": "aller（现在时）+ 动词不定式\non va habiter = 我们将要住\n表示即将发生、已决定的事"
         },
         {
-          "id": "1771872030629-jee4qacip7e",
-          "front": "on 在口语中等于什么？动词怎么变？",
-          "back": "口语中 on = nous，但动词接第三人称单数\n✅ On a acheté une maison.（= Nous avons acheté）\n✅ On va habiter là-bas."
+          "id": "1771878082402-hdlmvha86gl",
+          "front": "habiter 的介词用法",
+          "back": "habiter Paris / habiter à Paris 都可以\nhabiter + 地点（可直接接或加 à）\n第一组规则动词"
         },
         {
-          "id": "1771872030629-jbsijh67s",
-          "front": "en boîte 是什么意思？",
-          "back": "en boîte = 去夜店（boîte de nuit 的口语缩略）\n✅ sortir en boîte\n介词固定用 en，不用 à 或 dans"
+          "id": "1771878082402-ty9bhx4d8j9",
+          "front": "là-bas vs ici vs là",
+          "back": "ici = 这里（近）\nlà = 那里（较近）\nlà-bas = 那边（远）"
         },
         {
-          "id": "1771872030629-c4d7f239ilr",
-          "front": "à côté de 什么意思？同类介词短语还有哪些？",
-          "back": "à côté de = 在……旁边\n同类：\nprès de = 在……附近\nen face de = 在……对面\nloin de = 离……很远\naux environs de = 在……周边（B2升级）"
+          "id": "1771878082402-vuuic41y42",
+          "front": "attends!（命令式语气词用法）",
+          "back": "attendre 命令式 tu 形式\nMais attends! = 等等！慢着！\n不是真让人等，而是表示惊讶、打断"
         },
         {
-          "id": "1771872030629-j3j24j4j2f",
-          "front": "il y a des choses à faire 是什么结构？",
-          "back": "il y a + 名词 + à + 动词不定式 = 有……要做\n表示「待完成的事」\n✅ Il y a des choses à faire.\n✅ J'ai des lettres à écrire."
+          "id": "1771878082402-qsermc9uqpj",
+          "front": "comprendre 现在时变位",
+          "back": "je comprends, tu comprends, il comprend\nnous comprenons, vous comprenez\nils comprennent\n过去分词：compris"
         },
         {
-          "id": "1771872030629-jk1fu028jaj",
-          "front": "Comment ! 作感叹词是什么意思？",
-          "back": "Comment ! = 什么！（表示惊讶）\n≠ Comment = 怎么（疑问词）\n✅ Comment ! Vous quittez Paris ?\n语气相当于中文「什么？！」"
+          "id": "1771878082402-b3fe62ql2ka",
+          "front": "Pourquoi…? → Parce que…",
+          "back": "Pourquoi（为什么）→ 用 Parce que（因为）回答\nTCF 听力经典配对"
         },
         {
-          "id": "1771872030629-vpvgc0zkdjo",
-          "front": "se connaître 是什么意思？和 connaître 有什么区别？",
-          "back": "connaître = 认识（某人）\nse connaître = 互相认识（反身/相互动词）\n✅ Tout le monde se connaît ici.\n✅ Je connais mes voisins."
+          "id": "1771878082402-qrnwun4ud2g",
+          "front": "partir 现在时变位",
+          "back": "je pars, tu pars, il part\nnous partons, vous partez, ils partent\n不及物动词，后接 à/de/pour"
         },
         {
-          "id": "1771872030629-xhwo8o4nug",
-          "front": "peut-être 放句中和句首有什么区别？",
-          "back": "句中：无需倒装\n✅ Vous avez peut-être raison.\n句首：需要主谓倒装\n✅ Peut-être avez-vous raison.\n❌ Peut-être vous avez raison.（书面语错误）"
+          "id": "1771878082402-pngagvjv6ub",
+          "front": "parce que + 元音 →",
+          "back": "parce qu'（缩合）\nparce qu'à Paris = 因为在巴黎"
         },
         {
-          "id": "1771872030629-txckgks8i29",
-          "front": "pas du tout 和 ne...pas 有什么区别？",
-          "back": "ne...pas = 普通否定（不……）\nne...pas du tout = 强调否定（完全不……）\n✅ Je ne connais pas du tout mes voisins.\n语气强度：pas du tout > pas"
+          "id": "1771878082402-5kou7g7j17g",
+          "front": "trop de / beaucoup de / assez de / peu de + 名词",
+          "back": "数量副词 + de + 名词（不加冠词）\ntrop de voitures（太多车）\nbeaucoup d'avantages（很多好处）\npas assez d'espaces verts（绿地不够）"
+        },
+        {
+          "id": "1771878082402-2hp41d7n5ig",
+          "front": "il n'y a pas assez de → 否定中 des 变什么？",
+          "back": "否定句中不定冠词 des → de/d'\nil n'y a pas assez d'espaces verts\n⚠️ 元音前 de → d'"
+        },
+        {
+          "id": "1771878082402-qs7zglph5s8",
+          "front": "Et puis",
+          "back": "而且、再说（口语追加理由）\nEt puis, c'est trop bruyant ! = 而且太吵了！"
+        },
+        {
+          "id": "1771878082402-xsnxhe1wjtb",
+          "front": "bruyant(e)",
+          "back": "adj. 嘈杂的、吵闹的\nc'est trop bruyant = 太吵了\n反义：calme, silencieux"
+        },
+        {
+          "id": "1771878082402-5vc1y1cbmxy",
+          "front": "ne… plus",
+          "back": "不再（否定，表状态终止）\nje ne peux plus vivre ici = 我不能再住这里了\n语序：ne + 变位动词 + plus + 不定式"
+        },
+        {
+          "id": "1771878082402-h9k4p5poip9",
+          "front": "Moi, tu comprends, je…（口语结构）",
+          "back": "Moi = 重读代词，强调“我这个人”\ntu comprends = 你知道（语气插入语）\n不需翻译为真正的提问"
+        },
+        {
+          "id": "1771878082402-h0ad88fptlg",
+          "front": "écoute!（命令式）",
+          "back": "écouter 命令式 tu 形式\n第一组 -er 动词命令式 tu 去掉 -s：\ntu écoutes → écoute!\n= 听我说！"
+        },
+        {
+          "id": "1771878082402-7psownadb9i",
+          "front": "sortir 现在时变位",
+          "back": "je sors, tu sors, il sort\nnous sortons, vous sortez, ils sortent\n不规则第三组动词"
+        },
+        {
+          "id": "1771878082402-2qwcj2i3o98",
+          "front": "sortir en boîte",
+          "back": "去夜店（固定搭配）\nboîte (de nuit) = 夜总会\n注意：用 en 不用 dans"
+        },
+        {
+          "id": "1771878082402-gydpbu5o3yv",
+          "front": "le dimanche vs dimanche",
+          "back": "le dimanche = 每周日（习惯性）\ndimanche = 这个周日（一次性）\nTCF 常考：定冠词 + 星期 = 每个"
+        },
+        {
+          "id": "1771878082402-nxdfg9nzk7",
+          "front": "ouvert(e)",
+          "back": "adj. 开着的（ouvrir 的过去分词做形容词）\ndes magasins ouverts = 开门的商店\n反义：fermé(e)"
+        },
+        {
+          "id": "1771878082402-3tsodvgtt8y",
+          "front": "qu'est-ce que tu t'imagines!",
+          "back": "你在想什么呢！（惊讶/责备语气）\ns'imaginer = 以为、想象（深信不疑）\n比 imaginer 多了“确信”的含义"
+        },
+        {
+          "id": "1771878082402-spq7ux06o7d",
+          "front": "s'imaginer vs imaginer",
+          "back": "imaginer = 想象\ns'imaginer = 想象且深信为真\nJe m'imagine que je réussirai = 我想象（确信）我会成功"
+        },
+        {
+          "id": "1771878082402-iipqraymma",
+          "front": "名词 + à + 不定式",
+          "back": "要做的……\ndes choses à faire = 要做的事\nquelque chose à manger = 吃的东西\nrien à dire = 没什么可说的"
+        },
+        {
+          "id": "1771878082402-c25ri06qukc",
+          "front": "tout le monde + 动词用什么人称？",
+          "back": "第三人称单数！\nTout le monde est prêt. ✅\nTout le monde sont prêts. ❌\n虽然意思是“所有人”，但语法是单数"
+        },
+        {
+          "id": "1771878082402-1o0pdl4f5n3",
+          "front": "se connaître 两层含义",
+          "back": "① 相互义：Ils se connaissent = 他们互相认识\n② 自反义：Il ne se connaît pas = 他不了解自己"
+        },
+        {
+          "id": "1771878082402-fqs9j8e7qbo",
+          "front": "connaître 现在时第三人称",
+          "back": "il connaît（注意 î 的拼写）\nils connaissent\n过去分词：connu"
+        },
+        {
+          "id": "1771878082402-h5k4pme4yup",
+          "front": "je trouve ça + adj.",
+          "back": "我觉得这……（口语常用）\nje trouve ça pas mal du tout = 我觉得这挺好的\ntrouver ça intéressant = 觉得这有趣"
+        },
+        {
+          "id": "1771878082402-tuphz5x21ib",
+          "front": "pas du tout",
+          "back": "一点也不（强调否定）\nje ne connais pas du tout mes voisins\n= 我完全不认识我的邻居\n比 ne…pas 语气强得多"
+        },
+        {
+          "id": "1771878082402-nutwxtzapbr",
+          "front": "gens 的阴阳性规则",
+          "back": "形容词在 gens 前 → 阴性：les vieilles gens\n形容词在 gens 后 → 阳性：les gens sots\nde 引导表性质/职业 → 阳性：gens d'affaires"
+        },
+        {
+          "id": "1771878082402-w1r8iihn79c",
+          "front": "penser de vs penser à",
+          "back": "penser de qqch = 对……有什么看法（评价）\npenser à qqch = 想到/想念……\nQue penses-tu de ce film? vs Je pense à mes vacances."
+        },
+        {
+          "id": "1771878082402-f2mu58t2r24",
+          "front": "en 代词用法（代 de + 事物）",
+          "back": "Que penses-tu de ce film? → Qu'en penses-tu?\nen = de + ce film\n⚠️ de + 人 → 不用 en，用 de + 重读代词"
+        },
+        {
+          "id": "1771878082402-t9nqpybr6cj",
+          "front": "penser de + 人 → 代词怎么说？",
+          "back": "不能用 en！用 de + 重读代词：\nQue penses-tu de Marie? → Que penses-tu d'elle?\npenser à + 人 → 也不用 y，用 à + 重读代词"
+        },
+        {
+          "id": "1771878082402-hqqe31vk1ae",
+          "front": "être d'accord avec qqn",
+          "back": "与某人意见一致 / 同意某人\nElle est d'accord avec moi.\n介词用 avec，不用 de/à"
+        },
+        {
+          "id": "1771878199818-2shgw1hr7wg",
+          "front": "aussi vs non plus",
+          "back": "肯定句：Moi aussi = 我也是\n否定句：Moi non plus = 我也不\n⚠️ 不能在否定语境说 moi aussi"
+        },
+        {
+          "id": "1771878199818-xdeu7jmtd2",
+          "front": "préférer + inf.",
+          "back": "更喜欢做某事\nElle préfère partir. = 她更想离开。\npréférer A à B = 比起B更喜欢A"
+        },
+        {
+          "id": "1771878199818-cc6rzk55c3",
+          "front": "préférer 现在时变位",
+          "back": "je préfère, tu préfères, il préfère\nnous préférons, vous préférez\nils préfèrent\n（词干 é → è 在重音音节）"
+        },
+        {
+          "id": "1771878199818-4970diynido",
+          "front": "avoir raison",
+          "back": "有道理、是对的\n+ de + inf. = 做某事是对的\nIls ont raison de quitter Paris.\n反义：avoir tort"
+        },
+        {
+          "id": "1771878199818-jww38tgwyui",
+          "front": "peut-être（副词）",
+          "back": "也许、可能\n⚠️ 有连字符：peut-être（也许）\n无连字符：peut être = 能够是（完全不同！）"
+        },
+        {
+          "id": "1771878199818-dbmmvgpbj09",
+          "front": "peut-être 放句首的语序",
+          "back": "正式：peut-être + 主谓倒装\nPeut-être avez-vous raison.\n口语：peut-être que + 正常语序\nPeut-être que vous avez raison."
+        },
+        {
+          "id": "1771878199818-lkev8y1rae",
+          "front": "il y a + 名词",
+          "back": "有……（存在句型）\nil y a des théâtres = 有剧院\n否定：il n'y a pas de théâtres"
+        },
+        {
+          "id": "1771878199818-xdyh8vf3eb",
+          "front": "tous les jours",
+          "back": "每天（固定表达）\nOn peut sortir tous les jours.\ntous les + 时间名词复数 = 每……"
+        },
+        {
+          "id": "1771878199818-k14cq38i4ht",
+          "front": "immeuble (n.m.)",
+          "back": "公寓楼、大楼\ndans mon immeuble = 在我住的楼里\n注意是阳性名词"
+        },
+        {
+          "id": "1771878199818-dlx4kva1tm8",
+          "front": "voisin / voisine",
+          "back": "邻居（阳/阴）\nmes voisins = 我的邻居们\nje ne connais pas mes voisins = 我不认识邻居"
+        },
+        {
+          "id": "1771878199818-86ro1mqb9kk",
+          "front": "tous [tus] 做代词时 s 发音吗？",
+          "back": "发音！\nje les connais tous [tus]\ntous 做代词（同位语强调\"全部\"）时，s 发音\ntous 做形容词（tous les jours）时，s 不发音 [tu]"
+        },
+        {
+          "id": "1771878199818-4o7nqk3u99",
+          "front": "ensemble",
+          "back": "adv. 一起\non parle ensemble = 我们一起聊天\n注意：是副词，不是形容词"
+        },
+        {
+          "id": "1771878199818-z2ie6k3xsus",
+          "front": "ça（指示代词）",
+          "back": "这个 / 这种情况（口语极高频）\nje n'aime pas ça = 我不喜欢这样\nje trouve ça bien = 我觉得这不错"
+        },
+        {
+          "id": "1771878199818-xi85yuy8m3r",
+          "front": "le monde entier vs tout le monde",
+          "back": "le monde entier = 全世界\ntout le monde = 所有人、大家\n⚠️ 意思完全不同，不要混淆"
+        },
+        {
+          "id": "1771878199818-humsh0fpxr",
+          "front": "ne… rien",
+          "back": "什么也不……\nje ne regrette rien = 我什么都不后悔\nrien 在复合时态中位于助动词和过去分词之间：\nje n'ai rien fait"
+        },
+        {
+          "id": "1771878199818-kn3h7c7lalb",
+          "front": "ne… personne",
+          "back": "没有人……\npersonne ne se dit bonjour = 没人打招呼\n⚠️ personne 做主语时放句首：Personne ne vient.\n做宾语时放动词后：Je ne connais personne."
+        },
+        {
+          "id": "1771878199818-hawg6ykz8s",
+          "front": "ne… aucun(e)",
+          "back": "一个也没有……\nElle ne connaît aucun voisin.\n= 她一个邻居都不认识\naucun 要与名词性数一致"
+        },
+        {
+          "id": "1771878199818-5r60dd6rmtu",
+          "front": "rien de + adj.",
+          "back": "没有什么……的东西\nil n'y a rien d'intéressant = 没什么有趣的\n⚠️ 形容词用阳性单数，前加 de"
+        },
+        {
+          "id": "1771878199818-lm1zg48arbn",
+          "front": "quelque chose à + inf.",
+          "back": "有什么东西要……\nquelque chose à manger = 吃的东西\nquelque chose à faire = 做的事"
+        },
+        {
+          "id": "1771878199818-c3b2pinxzhd",
+          "front": "se dire bonjour",
+          "back": "互相问好、互相打招呼\nPersonne ne se dit bonjour.\n= 没人互相打招呼（城市冷漠感）"
+        },
+        {
+          "id": "1771878199818-59ydrnbigl5",
+          "front": "en avoir marre de",
+          "back": "受够了……（口语）\nIls en ont marre du bruit.\n= 他们受够了噪音。\nmarre 只用于此搭配"
+        },
+        {
+          "id": "1771878199818-bsk7awnuy3g",
+          "front": "faire monter les prix",
+          "back": "使价格上涨（使役结构）\nfaire + inf. = 让/使……做\nLes nouveaux arrivants font monter les prix."
+        },
+        {
+          "id": "1771878199818-9yr17yfp87d",
+          "front": "s'habituer à",
+          "back": "习惯于……\nOn s'est habitués à la vie à la campagne.\n= 我们习惯了乡下生活\n⚠️ 介词用 à"
+        },
+        {
+          "id": "1771878199818-s9r7pb4o8zi",
+          "front": "s'intégrer dans",
+          "back": "融入……\nla difficulté à s'intégrer dans une communauté\n= 难以融入一个社区\n介词用 dans"
+        },
+        {
+          "id": "1771878199818-51f0rcau6jj",
+          "front": "le télétravail",
+          "back": "n.m. 远程办公\ntravailler en télétravail / faire du télétravail\n= 远程工作"
+        },
+        {
+          "id": "1771878199818-a9bj0d0n0al",
+          "front": "travailler à distance",
+          "back": "远程工作（= télétravail 的另一种说法）\nMarc va travailler à distance.\nà distance = 远程地"
+        },
+        {
+          "id": "1771878199818-3zndywnitbi",
+          "front": "le cadre de vie",
+          "back": "n.m. 生活环境、生活框架\nun cadre de vie agréable = 宜人的生活环境\n常出现在城市 vs 乡村话题中"
+        },
+        {
+          "id": "1771878199818-1gq58g8y4gi",
+          "front": "l'immobilier (n.m.)",
+          "back": "房地产\nle coût de l'immobilier = 房价/房地产成本\nle marché immobilier = 房地产市场"
+        },
+        {
+          "id": "1771878199818-46pax6uxc7p",
+          "front": "charges comprises",
+          "back": "包含杂费/物业费（租房用语）\n800 euros par mois, charges comprises\n= 每月800欧，含物业费"
+        },
+        {
+          "id": "1771878199818-9qo7qywly2",
+          "front": "le loyer",
+          "back": "n.m. 房租\nLe loyer est de 800 euros.\npayer le loyer = 付房租"
+        },
+        {
+          "id": "1771878199818-z2tk8jwihsf",
+          "front": "代词 y 代替什么？",
+          "back": "y = à/dans/en + 地点或事物\nOn y habite. = 我们住在那里。（y = dans cette maison）\nJ'y pense. = 我想着这事。（y = à cette chose）\n⚠️ 不能代替 à + 人"
+        },
+        {
+          "id": "1771878199818-1v0kvl2e3xb",
+          "front": "代词 en 代替什么？",
+          "back": "en = de + 事物/数量\nQu'en penses-tu? = 你觉得怎么样？（en = de ça）\nJ'en veux trois. = 我要三个。\n⚠️ 不能代替 de + 人"
+        },
+        {
+          "id": "1771878199818-vd829heit1",
+          "front": "à + 人 → 代词怎么处理？",
+          "back": "不用 y！用 à + 重读代词：\nIl pense à Marie. → Il pense à elle.\nJe parle à Paul. → Je parle à lui.\n（间接宾语代词 lui/leur 也可以，但 penser à 特殊，只能用重读代词）"
+        },
+        {
+          "id": "1771878199818-cd1ptx2zxjh",
+          "front": "de + 人 → 代词怎么处理？",
+          "back": "不用 en！用 de + 重读代词：\nQue penses-tu de Marie? → Que penses-tu d'elle?\n⚠️ TCF B2 经典陷阱"
+        },
+        {
+          "id": "1771878199818-oyhfs8ky32k",
+          "front": "tout le monde + passé composé",
+          "back": "单数！用 s'est 不用 se sont：\nTout le monde s'est bien amusé. ✅\nTout le monde se sont amusés. ❌"
+        },
+        {
+          "id": "1771878199818-ss7ec5tfnve",
+          "front": "se connaître passé composé 配合",
+          "back": "用 être 做助动词，过去分词与主语配合：\nIls se sont connus en Chine.（阳性复数 → connus）\nElles se sont connues à Paris.（阴性复数 → connues）"
+        },
+        {
+          "id": "1771878199818-1ylrua755t2",
+          "front": "il fait bon + inf.",
+          "back": "做某事很舒适/惬意\nil fait bon vivre ici = 在这里生活很惬意\n⚠️ 直接接不定式，不加介词"
+        },
+        {
+          "id": "1771878199818-06bq3h3omjpn",
+          "front": "nuancé(e)",
+          "back": "adj. 有分寸的、平衡的、细致的\n（TCF 阅读常考：判断作者态度）\nun point de vue nuancé = 一个平衡的观点\n= 既讲优点也讲缺点"
+        },
+        {
+          "id": "1771878199818-ct68109rr5n",
+          "front": "néo-ruraux",
+          "back": "新农村居民（从城市搬到乡下的人）\nnéo- = 新的 + ruraux = 乡村的\nTCF 阅读话题高频词"
+        },
+        {
+          "id": "1771878199818-b6j5cs2380t",
+          "front": "Ça fait + 时间 + que…",
+          "back": "做某事已经……（时间）了\nÇa fait six mois qu'on a quitté Paris.\n= 我们离开巴黎已经六个月了。\n= Il y a six mois que…（同义结构）"
         }
       ]
     },
@@ -25319,6 +26173,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T20:06:33.857Z",
+  "exportedAt": "2026-02-23T20:23:26.245Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
