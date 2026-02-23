@@ -1,6 +1,544 @@
 {
   "savedSets": [
     {
+      "id": 1771870523213,
+      "name": "Leçon 26 Quitter Paris单词",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-23T18:15:23.213Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Le prix de l'hôtel _____ le petit-déjeuner et le dîner.",
+          "options": [
+            "comprend",
+            "prend",
+            "entend",
+            "apprend"
+          ],
+          "correct": 0,
+          "explanation": "comprendre 有「包含」之意，此处表示价格含早餐和晚餐。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ de voitures en ville. C'est une vraie _____ !",
+          "options": [
+            "trop / pollution",
+            "beaucoup / problème",
+            "très / pollution",
+            "trop / avantage"
+          ],
+          "correct": 0,
+          "explanation": "trop de + 名词表示「过多的」；pollution（污染）阴性名词，符合语境。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Pourquoi tu n'es pas venu hier ? — _____ j'étais trop fatigué.",
+          "options": [
+            "Puisque",
+            "Car",
+            "Parce que",
+            "Pour que"
+          ],
+          "correct": 2,
+          "explanation": "parce que 用于直接回答 pourquoi 的提问，给出原因。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ avec un médecin canadien l'année dernière.",
+          "options": [
+            "a marié",
+            "s'est mariée",
+            "est mariée avec",
+            "s'est marié"
+          ],
+          "correct": 1,
+          "explanation": "se marier 是代词式动词，复合过去时用 être，且过去分词与主语（elle）性数一致，加 -e。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu penses _____ ce nouveau quartier ?",
+          "options": [
+            "à",
+            "sur",
+            "de",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "penser de qch = 对某事有看法/评价。penser à = 心里想着（情感）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as raison ou tu as tort ? — Non, je pense que c'est toi qui as _____.",
+          "options": [
+            "raison",
+            "une raison",
+            "tort",
+            "le droit"
+          ],
+          "correct": 2,
+          "explanation": "avoir tort = 是错的，与 avoir raison（是对的）对立。注意两者均不加冠词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tous les _____ sont invités à la réunion de demain.",
+          "options": [
+            "monde",
+            "gens",
+            "personnes",
+            "tout"
+          ],
+          "correct": 1,
+          "explanation": "gens 是复数名词，此处后置形容词不体现，选 gens。tout le monde 后接单数动词，此处搭配 tous les，选 gens。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ venus à la fête, sans exception.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 2,
+          "explanation": "tous 作代词独立使用时，s 发音 /tus/，指代复数阳性或混合性别的人。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas assez d'_____ pour acheter cette voiture.",
+          "options": [
+            "monnaie",
+            "argent liquide",
+            "sous",
+            "argent"
+          ],
+          "correct": 3,
+          "explanation": "argent 泛指「钱」，是最自然的答案。monnaie = 零钱，liquide 是修饰词，sous 是俚语。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce logement a l'_____ d'être proche du métro.",
+          "options": [
+            "avantage",
+            "inconvénient",
+            "raison",
+            "pour"
+          ],
+          "correct": 0,
+          "explanation": "avoir l'avantage de + inf. = 有…的优势。固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut peser le _____ et le _____ avant de prendre une décision.",
+          "options": [
+            "bien / mal",
+            "pour / contre",
+            "avantage / tort",
+            "raison / problème"
+          ],
+          "correct": 1,
+          "explanation": "le pour et le contre = 利与弊，是法语论述文的核心固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le musée est _____ tous les jours sauf le mardi.",
+          "options": [
+            "fermé",
+            "ouvert",
+            "libre",
+            "disponible"
+          ],
+          "correct": 1,
+          "explanation": "ouvert = 开门营业的，是 TCF 听力中描述场所状态的高频词。反义词是 fermé。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'attends qu'il _____ avant de partir.",
+          "options": [
+            "vient",
+            "viendra",
+            "vienne",
+            "est venu"
+          ],
+          "correct": 2,
+          "explanation": "attendre que + 虚拟式。vienne 是 venir 的虚拟式现在时第三人称单数。TCF B2 高频考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ tu insistes, je vais accepter.",
+          "options": [
+            "Parce que",
+            "Car",
+            "Puisque",
+            "Pour que"
+          ],
+          "correct": 2,
+          "explanation": "puisque = 既然，用于原因对双方已知的情况，含让步/接受语气。≠ parce que（回答 pourquoi）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ fatiguée pour continuer à travailler.",
+          "options": [
+            "très",
+            "beaucoup",
+            "trop",
+            "si"
+          ],
+          "correct": 2,
+          "explanation": "trop... pour + inf. = 太…以至于不能做某事。固定结构，B1 必会。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ trois ans à Lyon avant de venir à Montréal.",
+          "options": [
+            "habité",
+            "vivé",
+            "vécu",
+            "resté"
+          ],
+          "correct": 2,
+          "explanation": "vivre 的过去分词是 vécu（不规则），表示在某地生活过一段时间。❌ vivé 不存在。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment est-ce qu'il _____ sa vie ? Il est musicien.",
+          "options": [
+            "gagne",
+            "perd",
+            "dépense",
+            "voyage"
+          ],
+          "correct": 0,
+          "explanation": "gagner sa vie = 谋生。固定表达，此处语境（音乐家）完全吻合。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ la pollution, les habitants ont décidé de manifester.",
+          "options": [
+            "À cause de",
+            "En raison de",
+            "Parce que",
+            "Puisque"
+          ],
+          "correct": 1,
+          "explanation": "en raison de + 名词，正式书面表达「由于…」。parce que / puisque 后接从句，不接名词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ en Provence l'été prochain.",
+          "options": [
+            "voyagons",
+            "voyagerons",
+            "voyageons",
+            "allons voyager"
+          ],
+          "correct": 3,
+          "explanation": "futur proche（aller + inf.）表达近期计划最自然。voyagerons 是简单将来时，也正确但选项中 3 最口语化；注意 nous voyageons（现在时 -ger 动词加 e）拼写也需掌握。",
+          "category": "变位+语境"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le magasin n'est pas _____ le dimanche. Revenez lundi.",
+          "correct": [
+            "ouvert"
+          ],
+          "explanation": "ouvert = 开门营业的。此处否定句表示周日不营业。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il nous a accueillis à bras _____.",
+          "correct": [
+            "ouverts"
+          ],
+          "explanation": "à bras ouverts = 张开双臂，热情欢迎。ouverts 与 bras（阳性复数）一致。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je pense _____ toi tous les jours.",
+          "correct": [
+            "à"
+          ],
+          "explanation": "penser à qn = 心里想着某人（情感，非评价）。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tout le monde _____ (être) prêt ? On commence !",
+          "correct": [
+            "est"
+          ],
+          "explanation": "tout le monde 视为单数，动词用第三人称单数。est ✅，sont ❌。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est trop jeune pour _____ (se marier).",
+          "correct": [
+            "se marier"
+          ],
+          "explanation": "trop... pour + infinitif。代词式动词不定式保留代词 se。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (voyager) en train demain matin.",
+          "correct": [
+            "voyageons",
+            "allons voyager"
+          ],
+          "explanation": "现在时表近期计划：nous voyageons；futur proche：nous allons voyager。两者均可接受。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La vie en ville a des _____ et des _____. D'un côté, on peut _____ du temps grâce aux transports en commun. De l'autre, la _____ et le bruit sont de vrais problèmes. Il faut peser le _____ et le _____ avant de choisir.",
+          "correct": [
+            "avantages",
+            "inconvénients",
+            "gagner",
+            "pollution",
+            "pour",
+            "contre"
+          ],
+          "explanation": "城市生活利弊论述的完整段落，覆盖本课六个核心词汇及固定搭配。TCF 写作模板。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中「tous」的 s 需要发音？",
+          "options": [
+            "Ils sont tous arrivés.",
+            "Tous les jours, je travaille.",
+            "Nous sommes tous fatigués.",
+            "Tous mes amis sont là."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "tous 作独立代词时 s 发音（/tus/）：选项0和2。tous 作限定词修饰名词时 s 不发音（/tu/）：选项1和3。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达「有钱/缺钱」是正确的？",
+          "options": [
+            "avoir de l'argent",
+            "manquer d'argent",
+            "avoir des monnaies",
+            "être riche en sous"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "avoir de l'argent（有钱）和 manquer d'argent（缺钱）是标准表达。avoir des monnaies 不自然；sous 是俚语，être riche en sous 不是固定搭配。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？",
+          "options": [
+            "Elle s'est mariée avec un ingénieur.",
+            "Il s'est marié à une Française.",
+            "Nous nous sommes mariés en juin.",
+            "Ils ont marié ensemble."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "se marier avec ✅（用 avec，不用 à）；复合过去时用 être ✅；选项1介词错误；选项4缺少代词 se，助动词错误。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1R8_Xz4YloPzqZpZ2-CxGcHxeETgnmxX5oXV7rnW19YI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771870544394-ki4mu15nrto",
+          "front": "attendre（等待）→ 接 que 时，从句用什么语气？",
+          "back": "虚拟式（subjonctif）\n例：J'attends qu'il vienne.（我等他来。）"
+        },
+        {
+          "id": "1771870544394-ygxggc0tb8i",
+          "front": "attendre 的 passé composé（第一人称单数）",
+          "back": "j'ai attendu\n注意：助动词用 avoir"
+        },
+        {
+          "id": "1771870544394-w6rgalfclbi",
+          "front": "「让某人等」法语怎么说？",
+          "back": "faire attendre qn\n例：Tu me fais attendre !"
+        },
+        {
+          "id": "1771870544394-ubib4brt3ig",
+          "front": "argent — 两个含义",
+          "back": "1. 钱（日常口语）\n2. 白银（金属，文学/正式）"
+        },
+        {
+          "id": "1771870544394-xucy41jy4u",
+          "front": "「现金」法语怎么说？",
+          "back": "l'argent liquide"
+        },
+        {
+          "id": "1771870544394-2rqhlexzqki",
+          "front": "monnaie vs argent — 区别",
+          "back": "monnaie = 零钱/硬币\nargent = 钱（泛指）\n例：Vous avez de la monnaie ?（你有零钱吗？）"
+        },
+        {
+          "id": "1771870544394-cwvrw65jhv5",
+          "front": "avantage — 固定搭配：有…的优势",
+          "back": "avoir l'avantage de + infinitif\n例：Ce quartier a l'avantage d'être calme."
+        },
+        {
+          "id": "1771870544394-wd15abkltk",
+          "front": "「优缺点」法语怎么说？",
+          "back": "les avantages et les inconvénients"
+        },
+        {
+          "id": "1771870544394-5xz41rblfwh",
+          "front": "inconvénient — 「我没有异议」怎么说？",
+          "back": "Je n'y vois pas d'inconvénient.\n（B2 口语加分表达）"
+        },
+        {
+          "id": "1771870544394-m5w6c5ze5nc",
+          "front": "comprendre 的两个含义",
+          "back": "1. 理解：Je ne comprends pas.\n2. 包含：Le prix comprend le petit-déjeuner."
+        },
+        {
+          "id": "1771870544394-v05sn74ztj",
+          "front": "comprendre — nous 变位（现在时）",
+          "back": "nous comprenons\n（prendre 家族不规则动词）"
+        },
+        {
+          "id": "1771870544394-58idxnimeud",
+          "front": "comprendre 的过去分词",
+          "back": "compris\n例：J'ai compris.（我明白了。）"
+        },
+        {
+          "id": "1771870544394-k7kauh54nas",
+          "front": "gagner — 三个核心含义",
+          "back": "1. 赚钱：gagner de l'argent\n2. 赢：gagner un match\n3. 节省：gagner du temps"
+        },
+        {
+          "id": "1771870544394-9kqqjwu2jhj",
+          "front": "「谋生」法语怎么说？",
+          "back": "gagner sa vie\n例：Comment est-ce qu'il gagne sa vie ?"
+        },
+        {
+          "id": "1771870544394-lpgasyw3qw",
+          "front": "gens — 前置形容词用什么性？后置呢？",
+          "back": "前置 → 阴性：de vieilles gens ✅\n后置 → 阳性：des gens heureux ✅\n（TCF 高频陷阱！）"
+        },
+        {
+          "id": "1771870544394-7t72t4k2wr3",
+          "front": "gens vs personnes vs monde — 区别",
+          "back": "gens：泛指人们，口语\npersonnes：个体的人，正式\nmonde：人们（口语），如 il y a du monde（人很多）"
+        },
+        {
+          "id": "1771870544394-899v7ke4snk",
+          "front": "se marier — 复合过去时助动词用哪个？",
+          "back": "être（代词式动词用 être）\n例：Elle s'est mariée. / Ils se sont mariés."
+        },
+        {
+          "id": "1771870544394-qo580twdbqs",
+          "front": "「与某人结婚」介词用哪个？",
+          "back": "se marier AVEC qn ✅\n❌ 不用 à"
+        },
+        {
+          "id": "1771870544394-mhv1a5j9hnm",
+          "front": "ouvert(e) — 三层含义",
+          "back": "1. 物理打开：La fenêtre est ouverte.\n2. 营业中：Le magasin est ouvert.\n3. 思想开放：Il est ouvert d'esprit."
+        },
+        {
+          "id": "1771870544394-s82w7cn6y2j",
+          "front": "「热情欢迎/张开双臂」习语",
+          "back": "à bras ouverts\n例：Il nous a accueillis à bras ouverts."
+        },
+        {
+          "id": "1771870544394-f8153vcrzvb",
+          "front": "parce que / puisque / car — 区别",
+          "back": "parce que：回答 pourquoi，给出原因\npuisque：原因已知，含「既然」\ncar：书面语，语气稍弱"
+        },
+        {
+          "id": "1771870544394-myw4owyiwf",
+          "front": "「由于…（名词）」正式表达",
+          "back": "en raison de + n.\n例：en raison des travaux\n≈ à cause de（但更正式）"
+        },
+        {
+          "id": "1771870544394-o58n6mjicr",
+          "front": "penser à vs penser de — 区别",
+          "back": "penser À：脑子里想着（情感）→ Je pense à toi.\npenser DE：对…有评价 → Qu'est-ce que tu penses de ce film ?"
+        },
+        {
+          "id": "1771870544394-75gm6a10kyg",
+          "front": "否定 + penser que → 从句用什么语气？",
+          "back": "虚拟式（subjonctif）\n例：Je ne pense pas qu'il ait raison. ✅\n（B2 陷阱！肯定句用直陈式）"
+        },
+        {
+          "id": "1771870544394-ki15lzl2gcm",
+          "front": "pollution — 词性与性",
+          "back": "n.f. 阴性\n记忆：-ion 结尾 → 几乎全为阴性"
+        },
+        {
+          "id": "1771870544394-wl03ild2d3a",
+          "front": "「对抗污染」法语怎么说？",
+          "back": "lutter contre la pollution\n也可用：réduire / diminuer la pollution"
+        },
+        {
+          "id": "1771870544394-vlrklg9uubr",
+          "front": "「le pour et le contre」是什么意思？",
+          "back": "利与弊，正反两面\n例：Il faut peser le pour et le contre.（要权衡利弊。）"
+        },
+        {
+          "id": "1771870544394-993kn3uu7gr",
+          "front": "avoir raison vs avoir une raison — 区别",
+          "back": "avoir raison = 说得对（无冠词）\navoir une raison de... = 有…的理由\n例：J'ai raison. / J'ai une raison de partir."
+        },
+        {
+          "id": "1771870544394-g27c1h9hlnd",
+          "front": "avoir raison 的反义表达",
+          "back": "avoir tort（是错的）\n例：Tu as tort, ce n'est pas vrai."
+        },
+        {
+          "id": "1771870544394-lh38r5dz229",
+          "front": "trop — 三种句型结构",
+          "back": "trop + adj.：C'est trop cher.\ntrop de + n.：trop de pollution\ntrop... pour + inf.：Il est trop fatigué pour travailler."
+        },
+        {
+          "id": "1771870544394-q86nv3rdjoh",
+          "front": "tous（代词）vs tous（限定词）发音区别",
+          "back": "代词独立用：s 发音 /tus/ → Ils sont tous venus.\n限定词 + 名词：s 不发音 /tu/ → tous les jours\n（TCF 高频发音陷阱！）"
+        },
+        {
+          "id": "1771870544394-ww368yg49p",
+          "front": "「tout le monde」后接动词用单数还是复数？",
+          "back": "单数 ✅\n例：Tout le monde est là.（≠ sont）"
+        },
+        {
+          "id": "1771870544394-fxc87vgz3wq",
+          "front": "vivre 的过去分词（不规则）",
+          "back": "vécu\n例：J'ai vécu trois ans à Paris."
+        },
+        {
+          "id": "1771870544394-yf813it4pkb",
+          "front": "vivre vs habiter — 区别",
+          "back": "habiter：强调居住地点 → J'habite à Montréal.\nvivre：强调生活方式/体验 → Je vis ici depuis 5 ans."
+        },
+        {
+          "id": "1771870544394-1766ltm3l4r",
+          "front": "「靠…为生」法语怎么说？",
+          "back": "vivre de qch\n例：vivre de son art（靠艺术为生）"
+        },
+        {
+          "id": "1771870544394-zh4q1rks3k",
+          "front": "voyager — nous 变位为何特殊？",
+          "back": "nous voyageons（加 e 保持软音）\n-ger 动词规则：nous + -eons ✅\n❌ 不写 voyagons"
+        },
+        {
+          "id": "1771870544394-hzt7167ltd",
+          "front": "「出发旅行」法语怎么说？",
+          "back": "partir en voyage\n也可用：faire un voyage（两者均正确）"
+        }
+      ]
+    },
+    {
       "id": 1771810198330,
       "name": "身体部位词汇",
       "folderId": "1770661225895",
@@ -24256,6 +24794,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T01:31:00.071Z",
+  "exportedAt": "2026-02-23T18:15:59.313Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
