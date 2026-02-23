@@ -1,6 +1,748 @@
 {
   "savedSets": [
     {
+      "id": 1771806373348,
+      "name": "connaître vs savoir",
+      "folderId": "1770698300033",
+      "createdAt": "2026-02-23T00:26:13.348Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je _____ nager depuis l'âge de cinq ans.",
+          "options": [
+            "connais",
+            "sais",
+            "ai connu",
+            "ai connaît"
+          ],
+          "correct": 1,
+          "explanation": "技能（会游泳）用 savoir + 动词原形，je sais nager。connaître 后不接原形。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ Marie ? Elle travaille dans mon bureau.",
+          "options": [
+            "sais",
+            "savez",
+            "connais",
+            "connaît"
+          ],
+          "correct": 2,
+          "explanation": "认识某人用 connaître，主语 tu 对应 connais。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Savez-vous _____ heure commence la réunion ?",
+          "options": [
+            "quelle",
+            "quelle heure",
+            "à quelle",
+            "à quelle heure"
+          ],
+          "correct": 3,
+          "explanation": "固定结构 savoir à quelle heure + 动词，不能省略介词 à。",
+          "category": "savoir 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ bien Paris ; elle y a vécu dix ans.",
+          "options": [
+            "sait",
+            "connaît",
+            "a su",
+            "savait"
+          ],
+          "correct": 1,
+          "explanation": "对城市的熟悉度用 connaître，elle connaît bien Paris。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ qu'il est déjà à la retraite.",
+          "options": [
+            "connaissons",
+            "connaît",
+            "savons",
+            "savez"
+          ],
+          "correct": 2,
+          "explanation": "savoir + que 从句表示知道某个事实，nous 对应 savons。connaître 后不接 que 从句。",
+          "category": "savoir 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, j'_____ enfin la vérité sur cette affaire.",
+          "options": [
+            "ai connu",
+            "ai su",
+            "connais",
+            "sais"
+          ],
+          "correct": 1,
+          "explanation": "j'ai su = 我得知了（某时刻突然知道），强调信息获取的瞬间。j'ai connu 表示人生经历中认识某人/某事。",
+          "category": "passé composé 语义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est à Paris que j'_____ mon meilleur ami.",
+          "options": [
+            "ai su",
+            "ai connaît",
+            "ai connu",
+            "savais"
+          ],
+          "correct": 2,
+          "explanation": "j'ai connu = 我认识了（人生经历），表示在某地点与某人相识。",
+          "category": "passé composé 语义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ -vous où se trouve la pharmacie la plus proche ?",
+          "options": [
+            "Connaissez",
+            "Savoir",
+            "Connaître",
+            "Savez"
+          ],
+          "correct": 3,
+          "explanation": "询问信息/地点用 savoir，疑问句倒装 Savez-vous。connaître 后不接 où 从句。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne _____ pas si elle va venir à la fête.",
+          "options": [
+            "connais",
+            "connaît",
+            "sais",
+            "savons"
+          ],
+          "correct": 2,
+          "explanation": "savoir + si 从句表示不确定某事，je ne sais pas si... 是固定高频结构。",
+          "category": "savoir 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ jouer de la guitare depuis qu'il est petit.",
+          "options": [
+            "connaît",
+            "sait",
+            "a connu",
+            "connaissait"
+          ],
+          "correct": 1,
+          "explanation": "技能用 savoir + 动词原形，il sait jouer de la guitare。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils vont _____ les résultats de l'examen demain matin.",
+          "options": [
+            "connaître",
+            "savoir",
+            "connaissent",
+            "savent"
+          ],
+          "correct": 1,
+          "explanation": "futur proche：aller + 原形。知道考试结果（信息）用 savoir。connaître 也可用于此语境但 savoir 更地道。",
+          "category": "futur proche"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Tu parles bien espagnol ! — Oui, je _____ aussi l'italien.",
+          "correct": [
+            "connais"
+          ],
+          "explanation": "语言作为'掌握的技能对象'此处是名词宾语（l'italien），且含'熟悉这门语言'之意，用 connaître。注意：je sais parler l'italien（技能）也对，但此处宾语是名词，用 connaître。",
+          "category": "savoir vs connaître"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (savoir) déjà qu'il avait menti.",
+          "correct": [
+            "savions"
+          ],
+          "explanation": "上下文需要未完成过去时（imparfait），nous savions = 我们那时就已经知道。",
+          "category": "savoir 变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Que je _____ , personne n'a encore confirmé la nouvelle.",
+          "correct": [
+            "sache"
+          ],
+          "explanation": "que je sache 是固定虚拟式表达，意为「就我所知」，B2 加分句型，sache 是 savoir 的虚拟式现在时。",
+          "category": "B2 加分"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确且自然？",
+          "options": [
+            "Je connais qu'il est médecin.",
+            "Je sais qu'il est médecin.",
+            "Tu connais ce quartier ?",
+            "Tu sais ce quartier ?"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "connaître 后不接 que 从句（选项A错）；sais + 名词宾语不自然（选项D错）。正确：savoir + 从句；connaître + 名词。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 savoir / connaître 使用正确？",
+          "options": [
+            "Elle sait très bien la ville de Lyon.",
+            "Elle connaît très bien la ville de Lyon.",
+            "Savez-vous où est la gare ?",
+            "Connaissez-vous où est la gare ?"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "熟悉城市用 connaître（B正确）；询问地点信息用 savoir + 疑问词从句（C正确）。A错：sait + 名词地点不自然；D错：connaître 后不接 où 从句。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mon ami Pierre _____ (connaître) très bien Montréal. Il m'a dit qu'il _____ (savoir) où se trouvent les meilleurs restaurants. Moi, je ne _____ (savoir) pas encore si je vais y aller, mais je voudrais _____ (connaître) cette ville un jour.",
+          "correct": [
+            "connaît",
+            "sait",
+            "sais",
+            "connaître"
+          ],
+          "explanation": "1. connaître + ville（熟悉地点）→ il connaît；2. savoir + où 从句（知道信息）→ il sait；3. je ne sais pas si（不确定）→ je sais；4. voudrais + 原形，connaître 这里作原形（想了解这座城市）→ connaître。",
+          "category": "综合段落"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ZwPb9mRtCQhGv9V9-RB2C__qLVnIaoschu-tyEf6IAg/edit?tab=t.0#heading=h.tnq0qa1fxcmj"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771806444430-djb5n50a8fe",
+          "front": "savoir 的核心含义",
+          "back": "知道事实/信息，掌握技能\n后接：动词原形 / que从句 / 疑问词从句"
+        },
+        {
+          "id": "1771806444430-wmat7nxmh6",
+          "front": "connaître 的核心含义",
+          "back": "认识/熟悉（人、地点、作品）\n后接：名词（直接宾语）\n⚠️ 永远不接从句或动词原形"
+        },
+        {
+          "id": "1771806444430-idmb3l68kli",
+          "front": "je _____ nager（我会游泳）",
+          "back": "je sais nager\n技能 → savoir + 动词原形"
+        },
+        {
+          "id": "1771806444430-5buzby6hihg",
+          "front": "je _____ Marc（我认识马克）",
+          "back": "je connais Marc\n认识某人 → connaître + 人名"
+        },
+        {
+          "id": "1771806444430-610epup2odv",
+          "front": "elle _____ bien Montréal（她很了解蒙特利尔）",
+          "back": "elle connaît bien Montréal\n熟悉地点 → connaître"
+        },
+        {
+          "id": "1771806444430-5az5j53vabl",
+          "front": "nous _____ qu'il est à la retraite（我们知道他退休了）",
+          "back": "nous savons qu'il est à la retraite\nque 从句 → savoir"
+        },
+        {
+          "id": "1771806444430-ou2kbxdv0i",
+          "front": "savez-vous à quelle heure...（您知道几点...吗？）",
+          "back": "Savez-vous à quelle heure commence l'examen ?\n疑问词从句 → savoir\n⚠️ 介词 à 不能省略"
+        },
+        {
+          "id": "1771806444430-zpeizsjbb6l",
+          "front": "je ne _____ pas si elle vient（我不知道她是否来）",
+          "back": "je ne sais pas si elle vient\nsi 从句（不确定）→ savoir"
+        },
+        {
+          "id": "1771806444430-lcb37arppap",
+          "front": "savoir 的 passé composé（je）",
+          "back": "j'ai su\n含义变化：我得知了（某时刻突然获得信息）"
+        },
+        {
+          "id": "1771806444430-i7zyo8qhf9o",
+          "front": "connaître 的 passé composé（je）",
+          "back": "j'ai connu\n含义：我认识了 / 我曾经了解过（人生经历）"
+        },
+        {
+          "id": "1771806444430-simfv3tufy",
+          "front": "j'ai su vs j'ai connu — 区别",
+          "back": "j'ai su = 我得知了（信息获取瞬间）\nJ'ai su qu'il était parti.\n\nj'ai connu = 我认识了（人生经历）\nJ'ai connu Marie à Paris."
+        },
+        {
+          "id": "1771806444430-td2m1n59fgl",
+          "front": "il connaî___（拼写陷阱）",
+          "back": "il connaît\n⚠️ î 上有帽音符，结尾有 t\n常见错误：~~il connait~~（无音符）"
+        },
+        {
+          "id": "1771806444430-11fc3uvjl53e",
+          "front": "connaître 现在时变位（全）",
+          "back": "je connais\ntu connais\nil/elle connaît\nnous connaissons\nvous connaissez\nils/elles connaissent"
+        },
+        {
+          "id": "1771806444430-0oyaidjo4buk",
+          "front": "savoir 现在时变位（全）",
+          "back": "je sais\ntu sais\nil/elle sait\nnous savons\nvous savez\nils/elles savent"
+        },
+        {
+          "id": "1771806444430-phepgighvmf",
+          "front": "「就我所知」法语高级表达（虚拟式）",
+          "back": "Que je sache...\n⚠️ sache = savoir 的虚拟式现在时\nB2 加分句型"
+        },
+        {
+          "id": "1771806444430-p9iuoijm4ji",
+          "front": "下列哪个正确？\nA. Je connais qu'il est médecin.\nB. Je sais qu'il est médecin.",
+          "back": "B ✅ Je sais qu'il est médecin.\n\nconnaître 后不接 que 从句 → 永远错误"
+        },
+        {
+          "id": "1771806444430-qa55goafni",
+          "front": "下列哪个正确？\nA. Connaissez-vous où est la gare ?\nB. Savez-vous où est la gare ?",
+          "back": "B ✅ Savez-vous où est la gare ?\n\nconnaître 后不接 où 从句 → 永远错误"
+        },
+        {
+          "id": "1771806444430-mqli9dikvse",
+          "front": "「我想了解这座城市」futur proche 怎么说？",
+          "back": "Je vais connaître cette ville.\n熟悉地点 → connaître\n结构：aller + 原形"
+        }
+      ]
+    },
+    {
+      "id": 1771806114190,
+      "name": "复合过去时中的直宾/间宾代词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-23T00:21:54.190Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "La robe ? Je _____ achetée hier.",
+          "options": [
+            "l'ai",
+            "lui ai",
+            "les ai",
+            "la ai"
+          ],
+          "correct": 0,
+          "explanation": "robe 是阴性名词，直宾代词用 l'，过去分词 achetée 加 e 配合阴性。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mes sœurs ? Je _____ vues au parc.",
+          "options": [
+            "leur ai",
+            "lui ai",
+            "les ai",
+            "l'ai"
+          ],
+          "correct": 2,
+          "explanation": "mes sœurs 是阴性复数，直宾代词 les，过去分词 vues 加 es。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as téléphoné à Marie ? Oui, je _____ téléphoné ce matin.",
+          "options": [
+            "l'ai",
+            "la ai",
+            "lui ai",
+            "les ai"
+          ],
+          "correct": 2,
+          "explanation": "téléphoner à qqn 接间宾，用 lui，过去分词不配合，保持原形。",
+          "category": "间宾不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les étudiants ? Le professeur _____ expliqué la règle.",
+          "options": [
+            "les a",
+            "leur a",
+            "l'a",
+            "lui a"
+          ],
+          "correct": 1,
+          "explanation": "expliquer qch à qqn，学生是间宾，用 leur，过去分词不加 s。",
+          "category": "间宾不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette lettre, tu _____ envoyée ?",
+          "options": [
+            "lui as",
+            "leur as",
+            "l'as",
+            "les as"
+          ],
+          "correct": 2,
+          "explanation": "lettre 是阴性单数，直宾代词 l'，过去分词 envoyée 加 e。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les pommes ? Il _____ (manger) toutes ce soir. (用代词改写，注意配合)",
+          "correct": [
+            "les a toutes mangées"
+          ],
+          "explanation": "pommes 阴性复数，直宾 les 前置，过去分词 mangées 加 es。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ma mère ? Je _____ (écrire) une longue lettre. (用代词改写)",
+          "correct": [
+            "lui ai écrit"
+          ],
+          "explanation": "écrire à qqn 间宾，用 lui，过去分词 écrit 不配合。",
+          "category": "间宾不配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的过去分词形式正确？",
+          "options": [
+            "Je l'ai vue. (elle)",
+            "Je lui ai répondus.",
+            "Les livres ? Je les ai vendus.",
+            "Ma sœur ? Je lui ai parlée."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确：l' 替代阴性 elle，vue 加 e；C正确：les 替代阳复，vendus 加 s。B错：lui 是间宾，不配合，应为 répondu；D错：lui 间宾，不配合，应为 parlé。",
+          "category": "综合辨别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as vu Paul et Sophie ? — Oui, je _____ vus hier.",
+          "options": [
+            "lui ai",
+            "leur ai",
+            "les ai",
+            "l'ai"
+          ],
+          "correct": 2,
+          "explanation": "Paul et Sophie 是两人（阳+阴混合复数），直宾用 les，混合复数按阳性处理，vus 加 s。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Cette chanson, je _____ (entendre / la) mille fois. Mes parents ? Je _____ (téléphoner / leur) hier soir. Les photos ? Tu _____ (prendre / les) ce matin ?",
+          "correct": [
+            "l'ai entendue",
+            "leur ai téléphoné",
+            "les as prises"
+          ],
+          "explanation": "①chanson 阴性直宾 l'，entendue 加 e；②parents 间宾 leur，téléphoné 不配合；③photos 阴复直宾 les，prises 加 es（prendre PP = pris → pris+es）。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces filles, il _____ depuis longtemps.",
+          "options": [
+            "les a connues",
+            "leur a connues",
+            "les a connus",
+            "lui a connues"
+          ],
+          "correct": 0,
+          "explanation": "connaître qqn 直宾，filles 阴复，les a connues（connu+es）。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous avez répondu à vos clients ? — Oui, nous _____ répondu rapidement.",
+          "options": [
+            "les avons",
+            "leur avons",
+            "nous avons",
+            "l'avons"
+          ],
+          "correct": 1,
+          "explanation": "répondre à qqn 间宾，用 leur，过去分词 répondu 不配合。",
+          "category": "间宾不配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La vérité ? Il ne _____ jamais _____ (dire / la). (用代词改写复合过去否定句)",
+          "correct": [
+            "l'a jamais dite",
+            "ne l'a jamais dite"
+          ],
+          "explanation": "否定句结构：ne + 代词 + a + jamais + PP；vérité 阴性，dite 加 e。",
+          "category": "否定句+直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ton frère ? Je _____ rencontré devant la gare.",
+          "options": [
+            "l'ai rencontré",
+            "lui ai rencontré",
+            "les ai rencontré",
+            "l'ai rencontrée"
+          ],
+          "correct": 0,
+          "explanation": "frère 是阳性单数，直宾代词 l'，过去分词 rencontré 不加任何词尾（阳性单数=原形）。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as parlé à tes collègues ? — Oui, je _____ parlé ce matin.",
+          "options": [
+            "les ai",
+            "leur ai",
+            "l'ai",
+            "lui ai"
+          ],
+          "correct": 1,
+          "explanation": "parler à qqn 间宾结构，用 leur，过去分词 parlé 永不配合。",
+          "category": "间宾不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces règles, le prof _____ bien expliquées aux élèves.",
+          "options": [
+            "leur a",
+            "les a",
+            "lui a",
+            "l'a"
+          ],
+          "correct": 1,
+          "explanation": "règles 是直宾（expliquer qch），阴复直宾用 les，expliquées 加 es。注意：aux élèves 是间宾，但题目问的是 règles 对应的代词。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma grand-mère ? Je _____ rendu visite la semaine dernière.",
+          "options": [
+            "l'ai",
+            "lui ai",
+            "les ai",
+            "leur ai"
+          ],
+          "correct": 1,
+          "explanation": "rendre visite à qqn 是固定搭配，间宾结构，用 lui，过去分词 rendu 不配合。这是高频陷阱！",
+          "category": "固定搭配陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les devoirs ? Les élèves _____ finis avant midi.",
+          "options": [
+            "leur ont",
+            "lui ont",
+            "les ont",
+            "l'ont"
+          ],
+          "correct": 2,
+          "explanation": "devoirs 是直宾（finir qch），阳复直宾 les，finis 加 s。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子存在错误？",
+          "options": [
+            "Je lui ai vue hier.",
+            "Tes clés ? Tu les as trouvées ?",
+            "Il leur a répondu rapidement.",
+            "Elle m'a téléphoné ce soir."
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "A错：voir qqn 是直宾，不能用 lui，应为 Je l'ai vue；B正确：clés 阴复，les，trouvées 加 es；C正确：répondre à 间宾，leur，不配合；D正确：téléphoner à 间宾，m' 此处为间宾，不配合。",
+          "category": "错误识别"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Tu as invité Julie et Claire ? — Oui, je _____ (inviter) pour samedi.",
+          "correct": [
+            "les ai invitées"
+          ],
+          "explanation": "Julie et Claire 两位女性，阴复直宾 les，invitées 加 es。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce film ? Nous _____ (voir) trois fois cette année.",
+          "correct": [
+            "l'avons vu"
+          ],
+          "explanation": "film 是阳性单数，直宾 l'，过去分词 vu 保持原形（阳单不变）。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, j'ai rencontré mes cousines. Je _____ (inviter / les) à dîner. Elles ont accepté, alors je _____ (téléphoner / leur) pour confirmer l'heure. La table ? Je _____ (réserver / la) pour 20h.",
+          "correct": [
+            "les ai invitées",
+            "leur ai téléphoné",
+            "l'ai réservée"
+          ],
+          "explanation": "①cousines 阴复直宾，invitées 加 es；②téléphoner à 间宾，leur，不配合；③table 阴单直宾，l'，réservée 加 e。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous avez remercié vos professeurs ? — Bien sûr, nous _____ remerciés chaleureusement.",
+          "options": [
+            "leur avons",
+            "les avons",
+            "lui avons",
+            "nous avons"
+          ],
+          "correct": 1,
+          "explanation": "remercier qqn 直宾，professeurs 阳复，les avons remerciés 加 s。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette décision importante, qui _____ prise ?",
+          "options": [
+            "l'a",
+            "lui a",
+            "les a",
+            "leur a"
+          ],
+          "correct": 0,
+          "explanation": "décision 是直宾（prendre une décision），阴单用 l'，prise 加 e（pris → prise）。",
+          "category": "直宾配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mes amies m'ont envoyé des cadeaux. Je _____ (remercier) immédiatement. (用代词改写)",
+          "correct": [
+            "les ai remerciées",
+            "je les ai remerciées"
+          ],
+          "explanation": "amies 阴复，直宾 les，remerciées 加 es。注意：不能用 leur，remercier 是直宾动词。",
+          "category": "直宾 vs 间宾辨别"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1jKk5mqmedQuEMoC7qop9SQEnWMSjHU1tN_tahvxB4zk/edit?tab=t.0#heading=h.ntwc8mrktfsh"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771806183805-tcg84qgk7oa",
+          "front": "复合过去时代词位置公式",
+          "back": "主语 + 代词 + avoir + 过去分词\n例：Je l'ai fini."
+        },
+        {
+          "id": "1771806183805-hfdxuis9bgq",
+          "front": "直宾代词有哪些？",
+          "back": "me / te / le / la / nous / vous / les\n直接替代动词的宾语（无介词）"
+        },
+        {
+          "id": "1771806183805-gerj5czw4rb",
+          "front": "间宾代词有哪些？",
+          "back": "me / te / lui / nous / vous / leur\n替代 à + 人 结构"
+        },
+        {
+          "id": "1771806183805-774rwygglbi",
+          "front": "直宾前置 → 过去分词配合规则",
+          "back": "le → 不变\nla → +e\nles（阳复）→ +s\nles（阴复）→ +es"
+        },
+        {
+          "id": "1771806183805-ivedua3orjq",
+          "front": "间宾前置 → 过去分词配合规则",
+          "back": "永远不配合，保持原形\n例：Je lui ai répondu.（ma sœur，女性，但不加 e）"
+        },
+        {
+          "id": "1771806183805-5h1zh45umqr",
+          "front": "La pomme → 复合过去直宾改写",
+          "back": "Je l'ai mangée.\n（la → l'，pomme 阴性 → mangée 加 e）"
+        },
+        {
+          "id": "1771806183805-4ykb3x0b1q6",
+          "front": "Les livres → 复合过去直宾改写",
+          "back": "Je les ai vendus.\n（livres 阳复 → vendus 加 s）"
+        },
+        {
+          "id": "1771806183805-aoqntnia2zq",
+          "front": "Ton amie → 复合过去直宾改写",
+          "back": "Je l'ai vue.\n（amie 阴性 → vue 加 e）"
+        },
+        {
+          "id": "1771806183805-pby7j7b3rjj",
+          "front": "Ma sœur / répondre → 复合过去间宾改写",
+          "back": "Je lui ai répondu.\n（répondre à qqn = 间宾，不加 e）"
+        },
+        {
+          "id": "1771806183805-jhz8mpnvfkf",
+          "front": "Mes amis / écrire → 复合过去间宾改写",
+          "back": "Je leur ai écrit.\n（écrire à qqn = 间宾，复数但不加 s）"
+        },
+        {
+          "id": "1771806183805-2sttxiw49i3",
+          "front": "⚠️ 陷阱：rendre visite à qqn",
+          "back": "间宾结构！用 lui / leur，过去分词不配合\n✅ Je lui ai rendu visite.\n❌ Je l'ai rendu visite."
+        },
+        {
+          "id": "1771806183805-5iu7rx8dvbv",
+          "front": "⚠️ 陷阱：téléphoner à qqn",
+          "back": "间宾结构！用 lui / leur，不配合\n✅ Je lui ai téléphoné.\n❌ Je l'ai téléphoné."
+        },
+        {
+          "id": "1771806183805-tfjpwvmu0j",
+          "front": "⚠️ 陷阱：remercier qqn",
+          "back": "直宾结构！用 le / la / les，过去分词需配合\n✅ Je les ai remerciées.（amies）\n❌ Je leur ai remercié."
+        },
+        {
+          "id": "1771806183805-5c3sibnee8h",
+          "front": "me / te / nous / vous 如何判断直宾还是间宾？",
+          "back": "看动词：\n动词直接接人 → 直宾 → 配合\n动词接 à + 人 → 间宾 → 不配合\n例：Il m'a vu(e). vs Il m'a téléphoné."
+        },
+        {
+          "id": "1771806183805-spyg2jou80i",
+          "front": "l' 的性别如何判断配合？",
+          "back": "回溯 l' 替代的名词性别\n例：la vérité → l'a dite（阴性 +e）\n例：le film → l'a vu（阳性不变）"
+        },
+        {
+          "id": "1771806183805-8xnp8vz68hq",
+          "front": "混合复数（阳+阴）直宾配合规则",
+          "back": "按阳性复数处理 → 过去分词 +s\n例：Paul et Sophie → Je les ai vus."
+        },
+        {
+          "id": "1771806183805-i2xb9jgpm3c",
+          "front": "否定句中直宾代词位置",
+          "back": "ne + 代词 + a + pas/jamais + PP\n例：Je ne l'ai jamais dite.（la vérité）"
+        },
+        {
+          "id": "1771806183805-92ob3ynbs3",
+          "front": "直宾 vs 间宾 3秒判断法",
+          "back": "问：动词后能否直接接名词（无介词）？\n能 → 直宾 → 配合\n需要 à → 间宾 → 不配合"
+        },
+        {
+          "id": "1771806183805-0vzwm6zu0tzj",
+          "front": "prendre → 过去分词 + 阴复配合",
+          "back": "pris → prise（阴单）/ prises（阴复）\n例：Les photos ? Je les ai prises."
+        },
+        {
+          "id": "1771806183805-p4ncjw7pi",
+          "front": "écrire → 过去分词 + 配合变化",
+          "back": "écrit → écrite（阴单）/ écrits（阳复）/ écrites（阴复）\n但：écrire à qqn = 间宾 → 永不配合"
+        }
+      ]
+    },
+    {
       "id": 1771805775406,
       "name": "connaître变位",
       "folderId": "1770593074621",
@@ -21014,6 +21756,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T00:17:39.207Z",
+  "exportedAt": "2026-02-23T00:27:28.610Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
