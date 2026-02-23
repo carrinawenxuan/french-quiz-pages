@@ -1,6 +1,551 @@
 {
   "savedSets": [
     {
+      "id": 1771809911385,
+      "name": "Leçon 24 Le candidat idéal课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-02-23T01:25:11.385Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel est le sens du verbe « rechercher » par rapport à « chercher » ?",
+          "options": [
+            "Chercher au hasard",
+            "Chercher avec un but précis et de la méthode",
+            "Trouver immédiatement",
+            "Perdre quelque chose"
+          ],
+          "correct": 1,
+          "explanation": "rechercher = chercher de façon ciblée/méthodique，比 chercher 更有目的性，常用于职场/正式语境。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : « Faites attention _____ votre présentation générale. »",
+          "options": [
+            "de",
+            "sur",
+            "à",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "faire attention à 是固定搭配，介词用 à。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase signifie « Il est toujours en retard » ?",
+          "options": [
+            "Il arrive toujours à l'heure.",
+            "Il arrive toujours en avance.",
+            "Il n'arrive jamais à l'heure.",
+            "Il arrive parfois à l'heure."
+          ],
+          "correct": 2,
+          "explanation": "ne…jamais = never；en retard 对应 ne…jamais à l'heure。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Restez calme et souriant. » — Quel est le rôle grammatical de « calme » ici ?",
+          "options": [
+            "Adverbe",
+            "Complément d'objet direct",
+            "Attribut du sujet (adjectif)",
+            "Complément circonstanciel"
+          ],
+          "correct": 2,
+          "explanation": "rester 是系动词，后接形容词作表语（attribut du sujet），不能接副词。Restez calmement ❌。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « avec attention » dans « Écoutez avec attention » ?",
+          "options": [
+            "avec un stylo",
+            "attentivement",
+            "avec plaisir",
+            "rapidement"
+          ],
+          "correct": 1,
+          "explanation": "avec + 抽象名词起副词作用：avec attention = attentivement（专注地）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la forme correcte : « _____ pas de mots familiers. »",
+          "options": [
+            "Ne utilisez",
+            "N'utilisez",
+            "Utilisez ne",
+            "Vous n'utilisez"
+          ],
+          "correct": 1,
+          "explanation": "命令式否定结构：ne + 动词(elision) + pas。utilisez 以元音开头 → n'utilisez pas。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après une négation, quelle forme est correcte ?",
+          "options": [
+            "N'utilisez pas des mots familiers.",
+            "N'utilisez pas de mots familiers.",
+            "N'utilisez pas un mots familiers.",
+            "N'utilisez pas les mots familiers."
+          ],
+          "correct": 1,
+          "explanation": "否定句中不定冠词 des/un/une → de（零概念）。N'utilisez pas de mots familiers. ✅"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« les yeux » est le pluriel de :",
+          "options": [
+            "le yeu",
+            "la yeuse",
+            "un œil",
+            "l'yeux"
+          ],
+          "correct": 2,
+          "explanation": "œil（单数）→ yeux（复数），不规则复数，TCF 高频考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Posez des questions sur le travail. » — Que signifie « sur » ici ?",
+          "options": [
+            "au-dessus de",
+            "à propos de / concernant",
+            "pendant",
+            "avant"
+          ],
+          "correct": 1,
+          "explanation": "sur 在此表示「关于」= about/concerning，是介词的抽象用法。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles expressions sont synonymes de « Arrivez à l'heure » ? (2 réponses)",
+          "options": [
+            "Soyez ponctuel(le).",
+            "Arrivez en retard.",
+            "Ne soyez pas en retard.",
+            "Arrivez en avance."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "à l'heure = ponctuel(le)；ne pas être en retard 也表示准时。en avance（提前）≠ à l'heure。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles phrases utilisent correctement « avec + nom abstrait » comme adverbe ? (2 réponses)",
+          "options": [
+            "Écoutez avec attention.",
+            "Parlez avec un livre.",
+            "Répondez avec patience.",
+            "Restez avec calme et souriant."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "avec attention / avec patience = attentivement / patiemment，均为副词替换。选项4语法错误（rester后应接形容词）。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour dire « on time » en français, on dit : arriver _____ l'heure.",
+          "correct": [
+            "à"
+          ],
+          "explanation": "arriver à l'heure = arriver on time，固定搭配，介词用 à。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "« Écoutez avec attention » peut être remplacé par : « Écoutez _____ »",
+          "correct": [
+            "attentivement"
+          ],
+          "explanation": "avec attention → attentivement，副词替换，B2加分表达。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le pluriel de « un œil » est : _____ yeux.",
+          "correct": [
+            "les"
+          ],
+          "explanation": "œil → yeux（不规则复数），冠词用 les。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Transformez en synonyme : « N'utilisez pas de mots familiers » → « Employez un langage _____ »",
+          "correct": [
+            "soutenu",
+            "formel"
+          ],
+          "explanation": "mots familiers（口语词）的反义 = langage soutenu/formel（正式/书面语），TCF 同义改写高频点。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Avant l'entretien, vous devez _____ des informations sur l'entreprise et arriver _____ l'heure. Pendant l'entretien, restez calme et regardez la personne _____ face de vous. N'utilisez pas _____ mots familiers.",
+          "correct": [
+            "rechercher",
+            "à",
+            "en",
+            "de"
+          ],
+          "explanation": "1. rechercher（有目的查找）；2. à l'heure（准时）；3. en face de（在…对面）；4. pas de（否定后用de，零概念）。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Et7JAHa_V_XdpYVmTP9pWlM327db1IpEjkYZdt67Ed0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771809965255-j6ltixfkk0e",
+          "front": "Comment réussir un entretien ?",
+          "back": "如何成功通过面试？\n→ 这是本课核心主题，entretien = 面试/会谈"
+        },
+        {
+          "id": "1771809965255-tmwgn48grw",
+          "front": "rechercher vs chercher",
+          "back": "chercher = 找（泛指）\nrechercher = 有目的、有方法地搜寻（更正式）\n例：Recherchez des informations sur l'entreprise."
+        },
+        {
+          "id": "1771809965255-k33rtussefm",
+          "front": "faire attention à ___",
+          "back": "固定搭配：注意……\nFaites attention à votre présentation générale.\n介词必须用 à，不用 de/sur"
+        },
+        {
+          "id": "1771809965255-mp04n2tty5c",
+          "front": "à l'heure / en retard / en avance",
+          "back": "à l'heure = on time 准时\nen retard = late 迟到\nen avance = early 提前\n例：Arrivez à l'heure !"
+        },
+        {
+          "id": "1771809965255-r2hey01tp49",
+          "front": "la présentation générale",
+          "back": "整体仪表/外在形象\n包括：les vêtements（衣着）、les cheveux（发型）\n≠ présentation = 自我介绍"
+        },
+        {
+          "id": "1771809965255-dygqihvu8cm",
+          "front": "rester + 形容词（系动词）",
+          "back": "rester = remain/stay，后接形容词，不接副词\n✅ Restez calme et souriant(e).\n❌ Restez calmement."
+        },
+        {
+          "id": "1771809965255-tad37b0msi8",
+          "front": "les yeux / un œil",
+          "back": "un œil（单数）→ les yeux（复数）\n不规则复数！TCF 高频考点\n例：Regardez dans les yeux la personne en face de vous."
+        },
+        {
+          "id": "1771809965255-k4dnti5gcj",
+          "front": "avec + 抽象名词 → 副词功能",
+          "back": "avec attention = attentivement 专注地\navec patience = patiemment 耐心地\nwith soin = soigneusement 仔细地\nB2写作加分替换！"
+        },
+        {
+          "id": "1771809965255-yfxxewe3u47",
+          "front": "en face de",
+          "back": "在……对面\n= face à\n例：la personne en face de vous = 你对面的人"
+        },
+        {
+          "id": "1771809965255-47232ofrw0x",
+          "front": "否定句中冠词变化",
+          "back": "否定后 des/un/une → de\n✅ N'utilisez pas de mots familiers.\n❌ N'utilisez pas des mots familiers.\n规则：ne…pas de = 零概念"
+        },
+        {
+          "id": "1771809965255-ugpazsbdcfe",
+          "front": "des mots familiers",
+          "back": "口语词／俚语\n= le langage familier\n反义：un langage soutenu / formel（正式语言）"
+        },
+        {
+          "id": "1771809965255-smebmhurxie",
+          "front": "命令式否定结构",
+          "back": "ne + 动词 + pas\n元音开头动词需省音：\n✅ N'utilisez pas…\n✅ Ne racontez pas…\n主语省略，直接用动词"
+        },
+        {
+          "id": "1771809965255-gsginw2qz0v",
+          "front": "poser des questions sur ___",
+          "back": "就……提问\nsur = about/concerning（关于）\n例：Posez des questions sur le travail, les horaires, l'entreprise."
+        },
+        {
+          "id": "1771809965255-9gdy2nud5pd",
+          "front": "sur（抽象用法）",
+          "back": "sur = about / on / concerning\n例：des questions sur le travail\n≠ sur = 在……上面（物理位置）"
+        },
+        {
+          "id": "1771809965255-ci48uwf1q8",
+          "front": "同义改写：Arrivez à l'heure.",
+          "back": "→ Soyez ponctuel(le).\n→ Ne soyez pas en retard.\nTCF 阅读/写作常考同义替换"
+        },
+        {
+          "id": "1771809965255-y1wwh596wx",
+          "front": "同义改写：N'utilisez pas de mots familiers.",
+          "back": "→ Employez un langage soutenu.\n→ Parlez de façon formelle.\nTCF B2 写作加分表达"
+        },
+        {
+          "id": "1771809965255-ge8m52hv7fg",
+          "front": "同义改写：Écoutez avec attention.",
+          "back": "→ Soyez attentif/attentive.\n→ Écoutez attentivement.\nTCF 常考替换，注意形容词阴阳性变化"
+        },
+        {
+          "id": "1771809965255-lhhsmq3122",
+          "front": "Avant l'entretien — 4条建议",
+          "back": "1. Recherchez des infos sur l'entreprise.\n2. Passez une bonne nuit.\n3. Faites attention à votre présentation.\n4. Arrivez à l'heure."
+        },
+        {
+          "id": "1771809965255-zj6nehbjaq",
+          "front": "Pendant l'entretien — 核心原则",
+          "back": "✅ Restez calme et souriant(e).\n✅ Regardez dans les yeux.\n✅ Écoutez avec attention.\n✅ Répondez avec des phrases courtes.\n❌ Ne racontez pas votre vie.\n❌ N'utilisez pas de mots familiers."
+        }
+      ]
+    },
+    {
+      "id": 1771809626752,
+      "name": "Leçon 23 Qu‘est-ce qu'on lui offre课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-02-23T01:20:26.752Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ l'agence cette semaine pour partir à la retraite.",
+          "options": [
+            "part",
+            "quitte",
+            "laisse",
+            "sort"
+          ],
+          "correct": 1,
+          "explanation": "quitter 是及物动词，必须接宾语（地点/人）。partir 不及物，不能直接接 l'agence。",
+          "category": "词汇语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On ne sait pas quoi _____ pour Colette.",
+          "options": [
+            "achète",
+            "acheter",
+            "d'acheter",
+            "achetons"
+          ],
+          "correct": 1,
+          "explanation": "ne pas savoir quoi + 动词原形，固定搭配，quoi 后直接接不定式，不加 de。",
+          "category": "固定句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On cherche une idée de cadeau pour Colette. → On _____ cherche une idée de cadeau.",
+          "options": [
+            "le",
+            "la",
+            "lui",
+            "leur"
+          ],
+          "correct": 2,
+          "explanation": "pour Colette = à Colette（间接宾语），用 lui 替代，不区分性别。",
+          "category": "代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont ses goûts ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 2,
+          "explanation": "goûts 是阳性复数名词，疑问形容词用 quels。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous pouvez lui offrir un livre _____ la peinture.",
+          "options": [
+            "de",
+            "à",
+            "sur",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "介词 sur 表示「关于」，用于 livre/article/émission + sur + 主题，不用 de 或 à。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Pourquoi pas un CD de Pavarotti ? — _____, c'est une bonne idée !",
+          "options": [
+            "Voilà",
+            "Tiens",
+            "Voici",
+            "Alors"
+          ],
+          "correct": 1,
+          "explanation": "Tiens 作语气词，表示惊喜或认可，相当于「哦！诶！」",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le directeur _____ achète déjà un livre !",
+          "options": [
+            "le",
+            "la",
+            "lui",
+            "y"
+          ],
+          "correct": 2,
+          "explanation": "acheter 后接人用间接宾语，acheter quelque chose à quelqu'un，à Colette → lui。",
+          "category": "代词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne sais pas quoi _____ ce soir. (faire)",
+          "correct": [
+            "faire"
+          ],
+          "explanation": "ne pas savoir quoi + 不定式原形，固定结构。",
+          "category": "固定句型"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a décidé de prendre sa _____. Elle ne travaille plus. (退休)",
+          "correct": [
+            "retraite"
+          ],
+          "explanation": "prendre sa retraite 是「退休」的地道表达，比 partir à la retraite 更正式常用。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 sur 表示「关于」的意思？",
+          "options": [
+            "Il y a un livre sur la table.",
+            "Elle a écrit un article sur le climat.",
+            "On a vu une émission sur la peinture.",
+            "Il habite sur cette rue."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "选项B和C中 sur 均表示「关于」。选项A和D中 sur 表示空间位置「在……上面/上」。",
+          "category": "介词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Qu'est-ce qu'on _____ (offrir, présent) à Colette ?\n— On ne sait pas quoi _____  (acheter). Elle _____ (quitter) l'agence cette semaine.\n— Pourquoi pas _____ des fleurs ?",
+          "correct": [
+            "offre",
+            "acheter",
+            "quitte",
+            "lui offrir / offrir"
+          ],
+          "explanation": "1. on + offrir 现在时 → offre；2. quoi + 不定式 → acheter；3. quitter 及物，接 l'agence，on → quitte；4. Pourquoi pas + 不定式提建议，lui 为间接宾语。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Ce n'est pas très original, les fleurs… — Bon, _____ pas lui offrir un livre d'art ?",
+          "options": [
+            "comment",
+            "pourquoi",
+            "pour",
+            "quoi"
+          ],
+          "correct": 1,
+          "explanation": "Pourquoi pas + 不定式，是口语中提建议的固定句式，意为「为什么不……呢？」",
+          "category": "固定句型"
+        },
+        {
+          "front": "quitter 的用法特点",
+          "back": "及物动词，必须接宾语（人或地点）\n✅ Elle quitte l'agence.\n❌ Elle quitte. （不能单独使用）"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1HCvquaHAvQexwo4FN4p8MAs9kVQsirHKEt2Jyxr_e0s/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771809695759-e1xu56i8rf9",
+          "front": "quitter 的用法特点",
+          "back": "及物动词，必须接宾语（人或地点）\n✅ Elle quitte l'agence.\n❌ Elle quitte. （不能单独使用）"
+        },
+        {
+          "id": "1771809695759-y53m1vlokj",
+          "front": "partir 的用法特点",
+          "back": "不及物动词，可单独使用，或接 de/pour\n✅ Elle part à la retraite.\n✅ Elle part de Paris."
+        },
+        {
+          "id": "1771809695759-dqovrozetv8",
+          "front": "quitter vs partir：她离开了办公室。",
+          "back": "Elle quitte le bureau.\n（quitter + 地点宾语）"
+        },
+        {
+          "id": "1771809695759-u570ubgwn4m",
+          "front": "ne pas savoir quoi + ___",
+          "back": "接动词原形（不定式），不加 de\n✅ Je ne sais pas quoi faire.\n✅ On ne sait pas quoi acheter.\n❌ Je ne sais pas quoi de dire."
+        },
+        {
+          "id": "1771809695759-wgfl1384eb",
+          "front": "「我不知道今晚吃什么。」法语怎么说？",
+          "back": "Je ne sais pas quoi manger ce soir."
+        },
+        {
+          "id": "1771809695759-l5e3gec4obn",
+          "front": "间接宾语代词 lui 替代什么？",
+          "back": "替代 à + 人（男女通用）\nOn offre un cadeau à Colette. → On lui offre un cadeau.\n注意：lui 不区分阴阳性"
+        },
+        {
+          "id": "1771809695759-6icrv3u6kiv",
+          "front": "命令式中 lui 的位置",
+          "back": "放在动词后，加连字符\n✅ Offrez-lui des fleurs !\n❌ Lui offrez des fleurs !"
+        },
+        {
+          "id": "1771809695759-giruiso4ior",
+          "front": "介词 sur = 「关于」（非空间义）",
+          "back": "用于：livre / article / émission / documentaire + sur + 主题\n✅ un livre sur la peinture\n✅ une émission sur le climat\n❌ un livre de la peinture"
+        },
+        {
+          "id": "1771809695759-kmld0t95l6i",
+          "front": "「一本关于摄影的书」法语怎么说？",
+          "back": "un livre sur la photo(graphie)"
+        },
+        {
+          "id": "1771809695759-xj6csima0th",
+          "front": "tiens 作语气词的含义",
+          "back": "表惊喜、认可或递东西，相当于「哦！诶！给！」\nTiens, c'est une bonne idée ! = 哦，好主意！\nTiens, prends ça. = 给，拿着。"
+        },
+        {
+          "id": "1771809695759-7u60qa0m394",
+          "front": "Pourquoi pas… 的用法",
+          "back": "提建议，后接名词或动词原形\n✅ Pourquoi pas un CD ?\n✅ Pourquoi pas aller au cinéma ?\n含义：为什么不……呢？"
+        },
+        {
+          "id": "1771809695759-bln4oo0so4m",
+          "front": "「退休」最地道的法语表达",
+          "back": "prendre sa retraite ✨（最地道）\n也可说：partir à la retraite"
+        },
+        {
+          "id": "1771809695759-edjjrtagnl",
+          "front": "je n'ai pas d'autre idée 的含义",
+          "back": "我没有别的主意了。\npas d'autre = 零概念，一个都没有\n口语升级：je sèche.（我没招了）"
+        },
+        {
+          "id": "1771809695759-w0dau716av",
+          "front": "Quels sont ses goûts ? 中 quels 为何用复数？",
+          "back": "goûts 是阳性复数名词\n疑问形容词需与名词性数一致 → quels（阳性复数）"
+        },
+        {
+          "id": "1771809695759-avy2pg4xab",
+          "front": "「她有什么喜好？」三种说法",
+          "back": "1. Quels sont ses goûts ?\n2. Qu'est-ce qu'elle aime ?\n3. Quelles sont ses préférences ?"
+        },
+        {
+          "id": "1771809695759-3k12hccexiy",
+          "front": "chercher une idée 的同义表达",
+          "back": "réfléchir à une idée\ntrouver une idée\nchercher = 寻找（过程），trouver = 找到（结果）"
+        }
+      ]
+    },
+    {
       "id": 1771809187065,
       "name": "Leçon 24 Le candidat idéal词汇",
       "folderId": "1770604921596",
@@ -23425,6 +23970,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T01:14:48.373Z",
+  "exportedAt": "2026-02-23T01:26:09.731Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
