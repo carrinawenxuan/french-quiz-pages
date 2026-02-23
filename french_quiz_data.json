@@ -1,6 +1,1675 @@
 {
   "savedSets": [
     {
+      "id": 1771809187065,
+      "name": "Leçon 24 Le candidat idéal词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-23T01:13:07.065Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Tu as compris la leçon ? — Oui, j'ai fait _____ à chaque explication du professeur.",
+          "options": [
+            "attention",
+            "soin",
+            "calme",
+            "regard"
+          ],
+          "correct": 0,
+          "explanation": "faire attention à = 注意……，固定搭配，不可替换。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a travaillé _____ trois heures sans pause.",
+          "options": [
+            "depuis",
+            "pour",
+            "en",
+            "pendant"
+          ],
+          "correct": 3,
+          "explanation": "pendant 强调持续时长（已发生），此处表示连续工作了三小时。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis parti à Paris _____ une semaine.",
+          "options": [
+            "pendant",
+            "depuis",
+            "pour",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "pour 表示预计停留时长（面向未来的计划）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle habite à Montréal _____ cinq ans.",
+          "options": [
+            "pendant",
+            "pour",
+            "en",
+            "depuis"
+          ],
+          "correct": 3,
+          "explanation": "depuis 表示从过去某时间点持续到现在，常与现在时连用。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai terminé cet exercice _____ dix minutes.",
+          "options": [
+            "depuis",
+            "pendant",
+            "en",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "en 表示完成动作所花费的时间。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour l'entretien, il faut soigner sa _____ et s'habiller correctement.",
+          "options": [
+            "candidature",
+            "présentation",
+            "recherche",
+            "vie"
+          ],
+          "correct": 1,
+          "explanation": "soigner sa présentation = 注重仪表，面试场景固定表达。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ n'est venu à la réunion ce matin.",
+          "options": [
+            "Quelqu'un",
+            "Tout le monde",
+            "Personne",
+            "Une personne"
+          ],
+          "correct": 2,
+          "explanation": "Personne 作否定代词，与 ne 连用表示\"没有人\"，注意动词前必须有 ne。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le médecin a demandé au patient de _____ calme pendant l'examen.",
+          "options": [
+            "rester",
+            "avoir",
+            "faire",
+            "tenir"
+          ],
+          "correct": 0,
+          "explanation": "rester + adj. = 保持……状态，此处 rester calme = 保持冷静。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour _____ à cet examen, il faut s'entraîner tous les jours.",
+          "options": [
+            "réussir",
+            "passer",
+            "finir",
+            "rater"
+          ],
+          "correct": 0,
+          "explanation": "réussir à qch = 成功做到，réussir un examen = 通过考试。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ sa candidature pour le poste de directrice.",
+          "options": [
+            "fait",
+            "mis",
+            "posé",
+            "donné"
+          ],
+          "correct": 2,
+          "explanation": "poser sa candidature = 提交求职申请，固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour _____ une question au professeur, levez la main.",
+          "options": [
+            "dire",
+            "demander",
+            "poser",
+            "répondre"
+          ],
+          "correct": 2,
+          "explanation": "poser une question = 提问，是固定搭配，不可用 demander une question。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ à toutes les questions du formulaire.",
+          "options": [
+            "répondre",
+            "poser",
+            "raconter",
+            "utiliser"
+          ],
+          "correct": 0,
+          "explanation": "répondre à une question = 回答问题，répondre 是间接及物动词，必须带介词 à。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après l'accident, elle a dû _____ son histoire à la police.",
+          "options": [
+            "imaginer",
+            "rechercher",
+            "raconter",
+            "répondre"
+          ],
+          "correct": 2,
+          "explanation": "raconter = 讲述（经历、故事），此处讲述事故经过。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce produit _____ très bien en ce moment sur Internet.",
+          "options": [
+            "vend",
+            "se vend",
+            "est vendu",
+            "vendre"
+          ],
+          "correct": 1,
+          "explanation": "se vendre bien = 卖得好，代动词用法表示被动含义。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour avoir de bons _____, elle va chez le coiffeur chaque mois.",
+          "options": [
+            "œil",
+            "yeux",
+            "cheveu",
+            "cheveux"
+          ],
+          "correct": 3,
+          "explanation": "cheveux 永远用复数，指头发总称；un cheveu 只指单根头发。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le recruteur cherche un profil _____ : bilingue, expérimenté et disponible immédiatement.",
+          "options": [
+            "calme",
+            "idéal",
+            "court",
+            "familier"
+          ],
+          "correct": 1,
+          "explanation": "un profil idéal = 理想的应聘者形象，联动本课 candidat 场景。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce mot est trop _____, évitez de l'utiliser dans une lettre formelle.",
+          "options": [
+            "correct",
+            "idéal",
+            "familier",
+            "calme"
+          ],
+          "correct": 2,
+          "explanation": "familier = 口语化的、通俗的，用于语域标注，正式书面语中应避免。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour trouver un emploi, il faut _____ (poser) sa candidature dans plusieurs entreprises.",
+          "correct": [
+            "poser"
+          ],
+          "explanation": "poser sa candidature 是固定搭配，原形保持不变，此处提示原形即考查学生对搭配的掌握。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai deux _____ (œil) bleus. (注意填复数形式)",
+          "correct": [
+            "yeux"
+          ],
+          "explanation": "œil 的不规则复数是 yeux，绝对不能写 œils。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (réussir, passé composé) son entretien d'embauche hier.",
+          "correct": [
+            "a réussi"
+          ],
+          "explanation": "réussir 第二组动词，passé composé = avoir + réussi。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut _____ attention à la ponctuation quand on écrit une phrase.",
+          "correct": [
+            "faire"
+          ],
+          "explanation": "faire attention à = 注意……，固定搭配中动词为 faire。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (rester, passé composé) calmes malgré la situation difficile.",
+          "correct": [
+            "sommes restés"
+          ],
+          "explanation": "rester 是不及物动词，助动词用 être，nous sommes restés，主谓性数一致。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 pendant 的用法是正确的？",
+          "options": [
+            "J'ai étudié pendant deux heures.",
+            "Il reste ici pendant trois jours (预计计划).",
+            "Elle travaille pendant dix ans dans cette entreprise (持续到现在).",
+            "Nous avons attendu pendant une heure avant d'entrer."
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "A和D正确：pendant 用于描述已经发生的持续时长。B应用 pour（预计计划）；C应用 depuis（持续到现在，需与现在时连用）。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 poser 的正确搭配？",
+          "options": [
+            "poser une question",
+            "poser un problème",
+            "poser une demande",
+            "poser une réponse"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "poser une question / un problème / une candidature / une demande 均正确；poser une réponse 不存在，回答用 répondre à。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的助动词？",
+          "options": [
+            "Elle est restée à la maison.",
+            "Il a vendu sa voiture.",
+            "Nous avons resté calmes.",
+            "Ils sont réussis à l'examen."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "rester 助动词用 être → est restée ✓；vendre 用 avoir → a vendu ✓；rester 不能用 avoir；réussir 用 avoir → ont réussi，不用 être。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Bonjour, je voudrais _____ ma candidature pour le poste d'assistant. J'ai l'habitude d'_____ des logiciels professionnels et je sais _____ avec calme face aux clients difficiles. Pourriez-vous me _____ quand aura lieu l'entretien ?",
+          "correct": [
+            "poser",
+            "utiliser",
+            "rester",
+            "dire"
+          ],
+          "explanation": "四空依次：poser sa candidature（提交申请）/ utiliser des logiciels（使用软件）/ rester calme（保持冷静）/ dire quand（告知时间）。整段为求职场景，TCF 书面表达高频语境。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1t_q3ahgUHcvV4dOUHSfo4O3xC3Vf5BxFOOZkedXqvU8/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771809285730-tv8jwr7sf3j",
+          "front": "faire attention à",
+          "back": "注意……，当心……\n例：Fais attention à la voiture !"
+        },
+        {
+          "id": "1771809285730-b8nkwpejnjs",
+          "front": "avant de + 不定式",
+          "back": "在……之前\n例：avant de partir = 出发前\n⚠️ 不可用 avant de + 名词"
+        },
+        {
+          "id": "1771809285730-o4mjxlsw5an",
+          "front": "avant vs devant",
+          "back": "avant = 时间/顺序上「之前」\ndevant = 空间上「在……前面」"
+        },
+        {
+          "id": "1771809285730-q92rogh2dmj",
+          "front": "avec + 名词（表方式）",
+          "back": "用……地\n例：avec soin = 仔细地\navec plaisir = 很乐意\navec calme = 平静地"
+        },
+        {
+          "id": "1771809285730-fumfbtxzbcr",
+          "front": "calme（词汇链）",
+          "back": "calme adj. = 平静的\nle calme n.m. = 平静\nse calmer = 平息\ncalmement adv. = 平静地\ncalmer v.t. = 安抚"
+        },
+        {
+          "id": "1771809285730-pd228rj6r8",
+          "front": "rester calme",
+          "back": "保持冷静\n句型：rester + adj. = 保持……状态\n助动词用 être：il est resté calme"
+        },
+        {
+          "id": "1771809285730-h3gqojvkrku",
+          "front": "candidat / candidate",
+          "back": "阳性：candidat\n阴性：candidate\n含义：应聘者，候选人"
+        },
+        {
+          "id": "1771809285730-aa61slohcxc",
+          "front": "poser sa candidature",
+          "back": "提交求职申请\n⚠️ 固定搭配，不可用 déposer une candidature 替换（口语可以，书面首选 poser）"
+        },
+        {
+          "id": "1771809285730-t1ag4vyn5w",
+          "front": "cheveux",
+          "back": "头发（永远复数！阳性）\nun cheveu = 一根头发\n例：avoir les cheveux courts = 留短发\n洗头：se laver les cheveux（用 les，不用 ses）"
+        },
+        {
+          "id": "1771809285730-yvmdkgzmtv",
+          "front": "correctement",
+          "back": "正确地；合适地；合乎礼仪地\n构词：correct → correcte → correctement\n例：s'habiller correctement = 穿着得体"
+        },
+        {
+          "id": "1771809285730-wxiota276nj",
+          "front": "court(e) 发音区别",
+          "back": "阳性 court /kuʁ/：末尾 t 不发音\n阴性 courte /kuʁt/：t 发音\nà court de = 缺乏……"
+        },
+        {
+          "id": "1771809285730-qnq4aq54zof",
+          "front": "entreprise vs société vs compagnie",
+          "back": "entreprise = 企业（侧重经营实体）\nsociété = 公司（更正式）\ncompagnie = 公司（常用于航空等）"
+        },
+        {
+          "id": "1771809285730-npiabwej9bk",
+          "front": "exactement（口语用法）",
+          "back": "单独使用 = 正是！（强烈同意）\n等同于：Tout à fait !\n例：C'est exactement ce que je voulais dire."
+        },
+        {
+          "id": "1771809285730-od01wd445x",
+          "front": "familier(ère)",
+          "back": "口语化的；熟悉的；不拘礼节的\nun mot familier = 口语词汇\n⚠️ 有时含「过于随便」的贬义"
+        },
+        {
+          "id": "1771809285730-6lsc12kws68",
+          "front": "idéal(e) 复数变形",
+          "back": "阳性复数：idéaux 或 idéals（两者均可）\n阴性复数：idéales\n例：le candidat idéal = 理想的应聘者"
+        },
+        {
+          "id": "1771809285730-w4dl4xtclre",
+          "front": "imaginer 变位（présent）",
+          "back": "j'imagine\ntu imagines\nil imagine\nnous imaginons\nvous imaginez\nils imaginent"
+        },
+        {
+          "id": "1771809285730-rbyois1ie",
+          "front": "œil → yeux",
+          "back": "un œil /œj/ = 一只眼睛\ndes yeux /jø/ = 眼睛（复数）\n⚠️ 绝对不能说 des œils"
+        },
+        {
+          "id": "1771809285730-8xf08shh675",
+          "front": "jeter un œil sur qch",
+          "back": "瞟一眼，查看一下\n例：Jette un œil sur ce document."
+        },
+        {
+          "id": "1771809285730-r98mr43kw8m",
+          "front": "pendant vs depuis vs pour vs en",
+          "back": "pendant = 持续时长（已发生）\ndepuis = 从过去持续到现在（+现在时）\npour = 预计停留时长（未来计划）\nen = 完成动作所需时间"
+        },
+        {
+          "id": "1771809285730-1zi7wnmr8fh",
+          "front": "personne：名词 vs 否定代词",
+          "back": "名词：une personne = 一个人（阴性）\n否定代词：Personne n'est venu. = 没有人来\n⚠️ 否定代词须与 ne 连用"
+        },
+        {
+          "id": "1771809285730-uqm7vu1gee",
+          "front": "phrase vs mot",
+          "back": "un mot = 一个词\nune phrase = 一个句子\nfaire des phrases = 说废话（习语，略带贬义）"
+        },
+        {
+          "id": "1771809285730-0egqaot367sf",
+          "front": "poser une question",
+          "back": "提问\n⚠️ 固定搭配！\n错误：~~demander une question~~\n正确：poser une question à qn"
+        },
+        {
+          "id": "1771809285730-fs37qy1rtsj",
+          "front": "présentation（面试场景）",
+          "back": "soigner sa présentation = 注重仪表\nfaire une présentation = 做报告/演示\nse présenter = 自我介绍"
+        },
+        {
+          "id": "1771809285730-9vadim2y1tn",
+          "front": "raconter vs dire vs parler",
+          "back": "raconter = 讲述故事/经历\ndire = 说（信息、话语）\nparler = 说话、谈论（+ de）"
+        },
+        {
+          "id": "1771809285730-mh24yhl2wro",
+          "front": "rechercher vs chercher",
+          "back": "chercher = 一般性「找」\nrechercher = 更系统、积极地寻找（语域更正式）\nêtre à la recherche de = 正在寻找……"
+        },
+        {
+          "id": "1771809285730-bqtjlqcqjyp",
+          "front": "répondre à",
+          "back": "回答，答复\n⚠️ 间接及物动词，必须带 à\n错误：~~répondre une question~~\n正确：répondre à une question"
+        },
+        {
+          "id": "1771809285730-2pegp6n2a03",
+          "front": "répondre 变位（présent）",
+          "back": "je réponds\ntu réponds\nil répond\nnous répondons\nvous répondez\nils répondent"
+        },
+        {
+          "id": "1771809285730-geh80ho7yeg",
+          "front": "rester 助动词",
+          "back": "rester 用 être 作助动词\n例：Nous sommes restés calmes.\n⚠️ 主谓性数一致"
+        },
+        {
+          "id": "1771809285730-y31pq1tlgu",
+          "front": "réussir 变位（présent）",
+          "back": "je réussis\ntu réussis\nil réussit\nnous réussissons\nvous réussissez\nils réussissent"
+        },
+        {
+          "id": "1771809285730-02uo9b1es9rk",
+          "front": "réussir à vs réussir（用法区别）",
+          "back": "réussir un examen = 通过考试（直接及物）\nréussir à faire qch = 成功做成某事\nparvenir à = 设法做到（过程艰难，书面加分）"
+        },
+        {
+          "id": "1771809285730-s336l5nf2jo",
+          "front": "utiliser vs se servir de vs employer",
+          "back": "utiliser = 使用（中性，正式）\nse servir de = 用……来做（略正式）\nemployer = 雇用；使用（书面语）"
+        },
+        {
+          "id": "1771809285730-6rurjytgn0h",
+          "front": "vendre 变位（présent）",
+          "back": "je vends\ntu vends\nil vend\nnous vendons\nvous vendez\nils vendent\n过去分词：vendu（助动词 avoir）"
+        },
+        {
+          "id": "1771809285730-3z85w5forz7",
+          "front": "se vendre bien",
+          "back": "卖得好\n例：Ce produit se vend très bien en ligne.\n反义：se vendre mal = 卖得不好"
+        },
+        {
+          "id": "1771809285730-il69tyoz71j",
+          "front": "vie（高频搭配）",
+          "back": "la vie quotidienne = 日常生活\nla qualité de vie = 生活质量\nmener une vie active = 过积极的生活\ntoute ma vie = 我的一生"
+        }
+      ]
+    },
+    {
+      "id": 1771808734915,
+      "name": "Leçon 23 Qu‘est-ce qu'on lui offre词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-23T01:05:34.915Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Mon _____ est le 15 mars. Cette année, je fête mes 30 ans !",
+          "options": [
+            "retraite",
+            "anniversaire",
+            "idée",
+            "goût"
+          ],
+          "correct": 1,
+          "explanation": "anniversaire n.m. = 生日/周年纪念，此处语境为生日。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a beaucoup de _____ : ses vêtements sont toujours élégants et bien assortis.",
+          "options": [
+            "lieu",
+            "goût",
+            "fleur",
+            "plat"
+          ],
+          "correct": 1,
+          "explanation": "avoir du goût = 有品位，此处指穿着品味。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour son anniversaire, il lui a _____ un beau bouquet de fleurs.",
+          "options": [
+            "laissé",
+            "quitté",
+            "offert",
+            "choisi"
+          ],
+          "correct": 2,
+          "explanation": "offrir qch à qn = 赠送某物给某人，过去分词 offert（不规则）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne connais pas encore très bien mon nouveau _____. Il a commencé à travailler la semaine dernière.",
+          "options": [
+            "invité",
+            "collègue",
+            "peintre",
+            "retraité"
+          ],
+          "correct": 1,
+          "explanation": "collègue = 同事，职场语境首选。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ tu n'es pas venu à la réunion hier ?",
+          "options": [
+            "Quoi",
+            "Quand",
+            "Pourquoi",
+            "Lequel"
+          ],
+          "correct": 2,
+          "explanation": "pourquoi = 为什么，引导原因疑问句。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Au lieu de regarder la télévision, elle a décidé de faire de la _____.",
+          "options": [
+            "retraite",
+            "peinture",
+            "fleur",
+            "idée"
+          ],
+          "correct": 1,
+          "explanation": "faire de la peinture = 从事绘画，是固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après 40 ans de travail, mon père a enfin pris sa _____.",
+          "options": [
+            "retraite",
+            "peinture",
+            "idée",
+            "fleur"
+          ],
+          "correct": 0,
+          "explanation": "prendre sa retraite = 退休，固定搭配。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ son travail pour voyager autour du monde.",
+          "options": [
+            "laissé tomber",
+            "connu",
+            "quitté",
+            "tenu"
+          ],
+          "correct": 2,
+          "explanation": "quitter + lieu/emploi = 离开/辞职，带直接宾语。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une décoration très _____. Je n'ai jamais vu quelque chose comme ça !",
+          "options": [
+            "mauvaise",
+            "originale",
+            "vraie",
+            "plate"
+          ],
+          "correct": 1,
+          "explanation": "original(e) = 新颖独特的，阴性加 e，此处修饰阴性名词 décoration。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le chef vous recommande _____ du jour : un gratin de légumes maison.",
+          "options": [
+            "le lieu",
+            "le plat",
+            "le goût",
+            "le CD"
+          ],
+          "correct": 1,
+          "explanation": "le plat du jour = 今日特餐，餐厅高频词汇。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— _____ est-ce que tu penses en ce moment ? — À mes vacances !",
+          "options": [
+            "Que",
+            "Qui",
+            "À quoi",
+            "Lequel"
+          ],
+          "correct": 2,
+          "explanation": "penser à qch → 疑问时用 À quoi，quoi 接介词指物。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je tiens beaucoup _____ cette vieille photo. C'est un souvenir de famille.",
+          "options": [
+            "de",
+            "sur",
+            "à",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "tenir à qch = 重视/珍视某物，固定介词 à。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu _____ bien cette ville ? Tu y as vécu longtemps ?",
+          "options": [
+            "sais",
+            "connais",
+            "tiens",
+            "laisses"
+          ],
+          "correct": 1,
+          "explanation": "connaître = 熟悉某地/某人；savoir 后接事实从句，不接地名。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne _____ pas ton sac dans le couloir, quelqu'un pourrait trébucher.",
+          "options": [
+            "quitte",
+            "choisis",
+            "laisse",
+            "offre"
+          ],
+          "correct": 2,
+          "explanation": "laisser qch quelque part = 把某物放在某处，此处为命令式否定。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ d'intéressant dans cette exposition. Tu devrais y aller.",
+          "options": [
+            "quelque chose",
+            "une chose",
+            "quelques choses",
+            "des choses"
+          ],
+          "correct": 0,
+          "explanation": "quelque chose d'intéressant = 有趣的东西，结构固定：quelque chose + de + adj.（阳性）。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 sur 表示「关于/涉及」的含义？",
+          "options": [
+            "Le chat est sur le canapé.",
+            "Il a écrit un article sur le changement climatique.",
+            "Nous comptons sur vous pour ce projet.",
+            "J'ai lu un livre sur la peinture impressionniste."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "选项B和D中 sur = 关于（主题）；A是位置「在…上」；C是 compter sur = 依靠，固定搭配含义不同。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达含有 tenir 的固定搭配且意思正确？",
+          "options": [
+            "tenir à ses amis = 重视朋友",
+            "tenir une fleur = 拿着一朵花",
+            "tenir compte de l'avis des autres = 考虑他人意见",
+            "tenir un anniversaire = 举办生日派对"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A/B/C均正确。D错误：举办生日派对应说 fêter un anniversaire 或 organiser une fête d'anniversaire，tenir 不与 anniversaire 搭配。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "关于 quitter，下列哪些句子语法正确？",
+          "options": [
+            "Il a quitté la salle sans rien dire.",
+            "Elle a quitté son mari l'année dernière.",
+            "Nous avons quitté.",
+            "Ne quittez pas, je vous passe le directeur."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "quitter 是及物动词，必须带宾语。C句缺少宾语，不合法。D是电话用语「请稍候」，合法。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Au lieu _____ rester à la maison, ils ont décidé de sortir.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "au lieu de + infinitif = 代替做某事，固定结构，介词 de 不可省略。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est une version _____. (original, féminin singulier)",
+          "correct": [
+            "originale"
+          ],
+          "explanation": "original 阴性单数为 originale；阳性复数为 originaux（注意不是 originals）。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mon grand-père est _____ retraite depuis cinq ans.",
+          "correct": [
+            "à"
+          ],
+          "explanation": "être à la retraite = 处于退休状态，但 à la retraite 在此简化为 à retraite 时需注意：标准表达是 être à la retraite，填 à。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (offrir) une montre à son père pour son anniversaire.",
+          "correct": [
+            "a offert"
+          ],
+          "explanation": "复合过去时：avoir + offert（不规则过去分词），主语 elle 用 a。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n'ai pas le _____ de sortir ce soir. Je suis trop fatigué.",
+          "correct": [
+            "goût"
+          ],
+          "explanation": "avoir le goût de + inf. = 有心情/兴致做某事，此处否定：没心思出门。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est _____ de très beau dans cette galerie. Tu vas adorer !",
+          "correct": [
+            "quelque chose"
+          ],
+          "explanation": "quelque chose de + adj. = 某个…的东西；形容词必须用阳性形式 beau。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Tiens, c'est pour toi. — _____ ? C'est mon anniversaire aujourd'hui ?",
+          "correct": [
+            "Quoi",
+            "Ah bon"
+          ],
+          "explanation": "Quoi ? 表示惊讶（口语），或 Ah bon ? 表示「真的吗？」，两者均自然。此处 Quoi 最直接对应情境。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie est _____ (1) depuis l'année dernière. Elle _____ (2) son bureau avec beaucoup de _____ (3) : des _____ (4) fraîches et une _____ (5) originale accrochée au mur.",
+          "correct": [
+            "à la retraite",
+            "a décoré",
+            "goût",
+            "fleurs",
+            "peinture"
+          ],
+          "explanation": "(1) être à la retraite = 退休；(2) décorer au passé composé；(3) avec goût = 有品味地；(4) fleurs fraîches = 新鲜的花；(5) une peinture = 一幅画，阴性。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Pour choisir un cadeau _____ (1) pour son _____ (2), Paul a demandé à ses _____ (3) de lui donner des _____ (4). Il a finalement _____ (5) d'offrir un CD de jazz.",
+          "correct": [
+            "original",
+            "collègue",
+            "collègues",
+            "idées",
+            "choisi"
+          ],
+          "explanation": "(1) original修饰阳性名词 cadeau；(2) collègue = 同事（单数）；(3) collègues = 同事们（复数）；(4) idées = 主意们；(5) choisir de + inf. = 选择做某事，passé composé：a choisi → 主语 il，填 choisi。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est INCORRECTE ?",
+          "options": [
+            "Je sais jouer du piano.",
+            "Je connais jouer du piano.",
+            "Je connais bien ce quartier.",
+            "Je sais où il habite."
+          ],
+          "correct": 1,
+          "explanation": "connaître 不接不定式动词。「会弹钢琴」必须用 savoir + inf.：Je sais jouer du piano。connaître 后接名词（人/地/事物）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le plat principal dans un repas français traditionnel ?",
+          "options": [
+            "Le dessert servi en premier",
+            "Le plat qui suit l'entrée",
+            "Le fromage servi avant la soupe",
+            "L'apéritif du soir"
+          ],
+          "correct": 1,
+          "explanation": "le plat principal = 主菜，在法国传统餐序中跟在 l'entrée（头盘）之后。这道题同时测试 plat 的餐饮语境知识。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel adverbe correspond à l'adjectif vrai ?",
+          "options": [
+            "vraiment",
+            "vraiment",
+            "vraiement",
+            "vrément"
+          ],
+          "correct": 0,
+          "explanation": "vrai → vraiment（真地；真的），去掉 e 直接加 ment 是错误的，正确形式保留词根：vrai + ment = vraiment。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous partez déjà ? — Oui, je dois _____ le bureau avant 18h.",
+          "options": [
+            "partir",
+            "laisser",
+            "quitter",
+            "sortir"
+          ],
+          "correct": 2,
+          "explanation": "quitter + lieu = 离开某地（带宾语），此处宾语是 le bureau。partir 和 sortir 不带直接宾语。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/11L8rnnV3CR-XA-8IHlvEAz5q0-fo-IaSzRTba_Q3cMI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771808824897-pfurppqkx8",
+          "front": "anniversaire",
+          "back": "n.m. 生日；周年纪念\n记忆：anni（年）+ versaire → 每年一次的日子\n搭配：bon anniversaire！生日快乐！\nfêter son anniversaire 庆祝生日"
+        },
+        {
+          "id": "1771808824897-n9thpc1yz98",
+          "front": "bon anniversaire！怎么说？",
+          "back": "Bon anniversaire !\n注意：无冠词，直接说\n≠ bonne fête（命名日快乐）"
+        },
+        {
+          "id": "1771808824897-77l93mot87x",
+          "front": "CD",
+          "back": "n.m. 激光唱片；光盘\n全称：Compact Disc\n复数：des CDs\n阳性"
+        },
+        {
+          "id": "1771808824897-6ssokf3so46",
+          "front": "choisir",
+          "back": "v.t. 选择\n第二组规则动词（-ir）\nnous choisissons / ils choisissent\n搭配：choisir de + inf. = 选择做某事\n书面升级：opter pour"
+        },
+        {
+          "id": "1771808824897-efsnw50lx9g",
+          "front": "choisir de + inf. 造句",
+          "back": "Il a choisi de partir tôt.\n他选择早点离开。\n注意：choisir 后接动词用 de，不用 à"
+        },
+        {
+          "id": "1771808824897-m6ibqg7ivyr",
+          "front": "collègue",
+          "back": "n. 同事\nIPA：[kɔlɛɡ]\n阴阳同形：un collègue / une collègue\n≠ camarade（同学/伙伴）\n≠ associé（合伙人）"
+        },
+        {
+          "id": "1771808824897-b9wnyfw0qsj",
+          "front": "connaître vs savoir — 如何区分？",
+          "back": "connaître = 认识某人 / 熟悉某地某物\n→ Je connais Paris. / Je connais Marie.\nsavoir = 知道某事实 / 会做某事\n→ Je sais où est Paris. / Je sais nager.\n⚠️ connaître 后不接不定式！"
+        },
+        {
+          "id": "1771808824897-p0sfwseyyaf",
+          "front": "connaître 现在时变位",
+          "back": "je connais\ntu connais\nil/elle connaît（注意 î）\nnous connaissons\nvous connaissez\nils/elles connaissent\n过去分词：connu"
+        },
+        {
+          "id": "1771808824897-jszljanzul",
+          "front": "fleur",
+          "back": "n.f. 花\nIPA：[flœʀ]\n搭配：\noffrir des fleurs 送花\nun bouquet de fleurs 一束花\nêtre en fleur(s) 开花"
+        },
+        {
+          "id": "1771808824897-5530wsr4sjo",
+          "front": "goût — 三个含义",
+          "back": "1. 味道 → Ce plat a bon goût. 这道菜好吃。\n2. 爱好/兴趣 → avoir du goût pour la musique\n3. 品位 → Elle a beaucoup de goût.\n重要搭配：avoir le goût de + inf. = 有心思做…"
+        },
+        {
+          "id": "1771808824897-v8fggul4hr",
+          "front": "de bon goût / de mauvais goût",
+          "back": "de bon goût = 有品位的\nde mauvais goût = 俗气的；不得体的\n例：Cette plaisanterie est de très mauvais goût.\n这个玩笑非常不得体。"
+        },
+        {
+          "id": "1771808824897-dnhtunvcd7",
+          "front": "idée",
+          "back": "n.f. 主意；想法\nIPA：[ide]（注意不发 é 前的辅音变化）\n搭配：\navoir une bonne idée\nquelle bonne idée !\nse faire une idée de qch = 对某事形成看法"
+        },
+        {
+          "id": "1771808824897-ec9i035cwp",
+          "front": "invité(e)",
+          "back": "n. 来宾；客人\n阳：un invité / 阴：une invitée\n动词联动：inviter qn à + inf.\n→ Je t'invite à dîner. 我邀请你共进晚餐。"
+        },
+        {
+          "id": "1771808824897-415iw6g9dpq",
+          "front": "laisser — 核心用法",
+          "back": "1. laisser + n. = 留下某物\n→ Laisse ton manteau ici.\n2. laisser + qn + inf. = 让某人做某事\n→ Laisse-moi parler !\n3. laisser tomber = 放弃；算了\n→ Laisse tomber, c'est trop tard."
+        },
+        {
+          "id": "1771808824897-zs7ggaej458",
+          "front": "partir / quitter / laisser — 三词辨析",
+          "back": "partir = 自己离开，不带宾语\n→ Je pars.\nquitter + 宾语 = 离开某地/某人\n→ Je quitte Paris.\nlaisser + 宾语 = 把某人/物留在某处\n→ Je laisse mon sac ici."
+        },
+        {
+          "id": "1771808824897-26k9sqjyb96i",
+          "front": "lieu",
+          "back": "n.m. 地点；地方\n复数：des lieux（加 x！）\n核心搭配：\nau lieu de + inf. = 代替；而不是\navoir lieu = 举行；发生\nsur les lieux = 在现场"
+        },
+        {
+          "id": "1771808824897-rnu1h1jpfa",
+          "front": "avoir lieu 造句",
+          "back": "La fête a lieu samedi.\n聚会在周六举行。\n⚠️ 注意：avoir lieu 不用被动，不说 est eu lieu"
+        },
+        {
+          "id": "1771808824897-8ubrzntrmla",
+          "front": "au lieu de 造句",
+          "back": "Au lieu de regarder la télé, lis un livre.\n与其看电视，不如看书。\n结构：au lieu de + infinitif / nom"
+        },
+        {
+          "id": "1771808824897-hv4d2a3h0gh",
+          "front": "mauvais(e)",
+          "back": "adj. 坏的；不好的\n变化：mauvais / mauvaise\n位置：通常放名词前\n比较级：plus mauvais → 更差\n不规则比较级：pire（更常用，TCF加分）\n→ C'est pire qu'avant."
+        },
+        {
+          "id": "1771808824897-cwaonjtxb16",
+          "front": "offrir 现在时变位 + 过去分词",
+          "back": "j'offre / tu offres / il offre\nnous offrons / vous offrez / ils offrent\n过去分词：offert（不规则！）\n→ Il m'a offert des fleurs."
+        },
+        {
+          "id": "1771808824897-88ku77y0jh4",
+          "front": "offrir vs donner — 区别",
+          "back": "donner = 给（中性）\noffrir = 赠送（有礼物/情感色彩，更正式）\n搭配：offrir qch à qn\ns'offrir qch = 给自己买某物\n→ Je me suis offert un voyage."
+        },
+        {
+          "id": "1771808824897-xdcq1e0jybi",
+          "front": "original(e)",
+          "back": "adj. 独到的；新颖的；原版的\n⚠️ 阳性复数：originaux（不是 originals！）\n变化：original / originale / originaux / originales\n加分表达：faire preuve d'originalité"
+        },
+        {
+          "id": "1771808824897-4uujbgdljja",
+          "front": "peinture",
+          "back": "n.f. 三个含义：\n1. 绘画（艺术）→ faire de la peinture\n2. 一幅画 → une peinture de Monet\n3. 油漆 → Attention, peinture fraîche !\n关联词：peindre（画）/ peintre n.m.（画家）"
+        },
+        {
+          "id": "1771808824897-uw3ktdb61cb",
+          "front": "plat",
+          "back": "n.m. 菜肴；一道菜\n搭配：\nle plat du jour 今日特餐\nle plat principal 主菜\nun plat cuisiné 熟食\n⚠️ 也是形容词：plat/plate = 平坦的\n→ de l'eau plate 无气矿泉水"
+        },
+        {
+          "id": "1771808824897-agjoo5p15w6",
+          "front": "pourquoi — 三种问句结构",
+          "back": "正式：Pourquoi êtes-vous en retard ?\n中性：Pourquoi est-ce que tu pleures ?\n口语：Pourquoi tu es triste ?\n回答用 parce que（因为）\n≠ pour + inf.（表目的）"
+        },
+        {
+          "id": "1771808824897-hpis9ragfq",
+          "front": "quelque chose de + adj.",
+          "back": "结构固定：quelque chose + de + 形容词（永远阳性）\n✅ quelque chose d'intéressant\n❌ quelque chose intéressante\n例：J'ai quelque chose d'important à te dire."
+        },
+        {
+          "id": "1771808824897-knjusno0wll",
+          "front": "quitter",
+          "back": "v.t. 离开；与…分手；辞职\n⚠️ 必须带直接宾语！\n→ Il a quitté la ville. ✅\n→ Il a quitté. ❌\n电话用语：Ne quittez pas ! 请稍候！"
+        },
+        {
+          "id": "1771808824897-2gw14pkvl75",
+          "front": "quoi — 用法",
+          "back": "pron. interr. 什么（只指物，无性数变化）\n口语单用：Quoi ? 什么？（略粗，正式用 Pardon ?）\n接介词：De quoi parles-tu ?\nÀ quoi tu penses ?\nn'importe quoi = 什么都行；胡说"
+        },
+        {
+          "id": "1771808824897-fp74qb8qzqf",
+          "front": "que / quoi / quel — 三词辨析",
+          "back": "que / qu'est-ce que = 物，做宾语\n→ Que veux-tu ?\nquoi = 物，接介词或单独用\n→ À quoi tu penses ?\nquel(le) = 修饰名词\n→ Quel livre tu lis ?"
+        },
+        {
+          "id": "1771808824897-nxeyf5mv5k8",
+          "front": "retraite",
+          "back": "n.f. 退休\n核心搭配：\npartir à la retraite 退休\nprendre sa retraite 退休（口语）\nêtre à la retraite 已退休（状态）\nun(e) retraité(e) = 退休人员"
+        },
+        {
+          "id": "1771808824897-y2p6ugklk1f",
+          "front": "sur — 四种含义",
+          "back": "1. 位置：sur la table 在桌上\n2. 关于：un livre sur la peinture\n3. 依靠：compter sur qn\n4. 比例：8 sur 10\n重要搭配：sur le point de + inf. = 即将…"
+        },
+        {
+          "id": "1771808824898-xgrg3x6ah7",
+          "front": "tenir 现在时变位",
+          "back": "je tiens / tu tiens / il tient\nnous tenons / vous tenez / ils tiennent\n过去分词：tenu\n⚠️ 与 venir 同类型变位"
+        },
+        {
+          "id": "1771808824898-unykb9nr3e",
+          "front": "tenir — 四个核心搭配",
+          "back": "1. tenir à qch/qn = 重视/珍视\n→ Je tiens à cette photo.\n2. tenir à + inf. = 坚持要做\n→ Elle tient à venir.\n3. tenir compte de = 考虑到\n4. Tiens ! = 喏！（口语感叹）"
+        },
+        {
+          "id": "1771808824898-q7aoq1wazrp",
+          "front": "vrai(e)",
+          "back": "adj. 真实的；确实的\n变化：vrai / vraie / vrais / vraies\n位置：通常放名词前\n搭配：\nC'est vrai. 这是真的。\nà vrai dire 说实话\nVraiment ? 真的吗？"
+        },
+        {
+          "id": "1771808824898-kxk7nsgbwsp",
+          "front": "vrai / réel / correct — 三词辨析",
+          "back": "vrai = 真实的（非虚假）\n→ une histoire vraie 真实故事\nréel = 真实存在的（非虚构）\n→ un danger réel 真实的危险\ncorrect = 正确的（无错误）\n→ La réponse est correcte."
+        }
+      ]
+    },
+    {
+      "id": 1771806847832,
+      "name": "il faut 句型2",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-23T00:34:07.832Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ un passeport pour voyager à l'étranger.",
+          "options": [
+            "Il me faut",
+            "Il faut",
+            "Il lui faut",
+            "Il nous faut"
+          ],
+          "correct": 1,
+          "explanation": "泛指所有人必须，用 il faut + 名词，无需代词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour ce voyage, il _____ un nouveau passeport.",
+          "options": [
+            "me faut",
+            "faut me",
+            "faut",
+            "lui faut"
+          ],
+          "correct": 0,
+          "explanation": "表示「我需要」，代词 me 必须放在 faut 之前：il me faut。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ du repos après cette opération.",
+          "options": [
+            "lui faut",
+            "faut lui",
+            "faut",
+            "me faut"
+          ],
+          "correct": 0,
+          "explanation": "表示「他/她需要」，用 il lui faut，代词 lui 在 faut 前。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est CORRECTE ?",
+          "options": [
+            "Il faut me un taxi.",
+            "Il me faut un taxi.",
+            "Il faut moi un taxi.",
+            "Me il faut un taxi."
+          ],
+          "correct": 1,
+          "explanation": "间宾代词必须紧跟 il，放在 faut 之前：il me faut。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il vous faut acheter un nouvel ordinateur. Cette phrase signifie :",
+          "options": [
+            "Vous pouvez acheter un ordinateur.",
+            "Vous avez acheté un ordinateur.",
+            "Vous devez acheter un ordinateur.",
+            "Vous aimez acheter un ordinateur."
+          ],
+          "correct": 2,
+          "explanation": "il vous faut + 不定式 = vous devez，表示必须做某事。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces phrases sont correctes ?",
+          "options": [
+            "Il nous faut plus de temps.",
+            "Il faut nous plus de temps.",
+            "Il leur faut une solution.",
+            "Il faut leur une solution."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "间宾代词（nous / leur）必须置于 faut 之前，选项B和D语序错误。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ faut du temps pour finir ce projet. (她需要)",
+          "correct": [
+            "lui"
+          ],
+          "explanation": "第三人称单数用 lui：il lui faut。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce qu'il _____ faut vendre ton ancienne voiture pour partir ?",
+          "correct": [
+            "te"
+          ],
+          "explanation": "问对方「你」是否需要，用 te：il te faut。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ fallu trois heures pour arriver. (花了三小时——过去一次性)",
+          "correct": [
+            "a"
+          ],
+          "explanation": "一次性过去事件用 passé composé：il a fallu。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Pour ce projet, il _____ faut davantage de budget. Il _____ aussi travailler en équipe. Sans cela, il leur _____ impossible de réussir.",
+          "correct": [
+            "nous",
+            "faut",
+            "sera"
+          ],
+          "explanation": "第一空：nous（我们需要）；第二空：il faut + 不定式（泛指必须）；第三空：将来时 sera（对他们来说将是不可能的）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il me faut du repos. » est équivalent à :",
+          "options": [
+            "Je dois du repos.",
+            "J'ai besoin de repos.",
+            "Je veux du repos.",
+            "Il faut que je repose."
+          ],
+          "correct": 1,
+          "explanation": "il me faut + 名词 = avoir besoin de + 名词，是TCF高频同义改写考点。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la bonne traduction : 「以前上学必须早起。」",
+          "options": [
+            "Il faut se lever tôt pour aller à l'école.",
+            "Il fallait se lever tôt pour aller à l'école.",
+            "Il a fallu se lever tôt pour aller à l'école.",
+            "Il faudra se lever tôt pour aller à l'école."
+          ],
+          "correct": 1,
+          "explanation": "描述过去持续性习惯用未完成过去时：il fallait。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1OOWPkLtfe6nuYYiktFwAUEn5Iz-MuinjFjsbH4cR2Ck/edit?tab=t.0#heading=h.456p1o1efx0y"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771806880598-ccxiwhlpv2j",
+          "front": "il faut + 不定式",
+          "back": "必须做某事（泛指所有人）\n例：Il faut protéger l'environnement.\n（必须保护环境。）"
+        },
+        {
+          "id": "1771806880598-hrzpw2s38an",
+          "front": "il faut + 名词",
+          "back": "需要某物\n例：Il faut 200 dollars pour acheter cette table.\n（买这张桌子需要200美元。）"
+        },
+        {
+          "id": "1771806880598-tji20odxy1n",
+          "front": "il me faut",
+          "back": "我需要……\n例：Il me faut un passeport.\n（我需要一本护照。）"
+        },
+        {
+          "id": "1771806880598-nfcud9qune9",
+          "front": "il te faut",
+          "back": "你需要……\n例：Est-ce qu'il te faut de l'argent ?\n（你需要钱吗？）"
+        },
+        {
+          "id": "1771806880598-eg56l5w1vfs",
+          "front": "il lui faut",
+          "back": "他/她需要……\n例：Il lui faut du repos.\n（他/她需要休息。）"
+        },
+        {
+          "id": "1771806880598-egdl64pd0k9",
+          "front": "il nous faut",
+          "back": "我们需要……\n例：Il nous faut plus de temps.\n（我们需要更多时间。）"
+        },
+        {
+          "id": "1771806880598-1c0tlld1i6m",
+          "front": "il vous faut",
+          "back": "您/你们需要……\n例：Il vous faut acheter un ordinateur.\n（您需要买一台电脑。）"
+        },
+        {
+          "id": "1771806880598-rgq48amydua",
+          "front": "il leur faut",
+          "back": "他们需要……\n例：Il leur faut une solution.\n（他们需要一个解决方案。）"
+        },
+        {
+          "id": "1771806880598-6m81qcocqlr",
+          "front": "间宾代词在 il faut 中的位置",
+          "back": "代词必须置于 faut 之前，紧跟 il\n✅ il me faut\n❌ il faut me"
+        },
+        {
+          "id": "1771806880598-vxvxcpi3rq",
+          "front": "il me faut + 名词 的同义表达",
+          "back": "J'ai besoin de + 名词\n例：Il me faut du repos. = J'ai besoin de repos."
+        },
+        {
+          "id": "1771806880598-wd3q0pd49xe",
+          "front": "il vous faut + 不定式 的同义表达",
+          "back": "Vous devez + 不定式\n例：Il vous faut partir. = Vous devez partir."
+        },
+        {
+          "id": "1771806880598-5zugnx678wp",
+          "front": "il faut 的过去时（持续/习惯）",
+          "back": "il fallait（未完成过去时）\n例：Il fallait se lever tôt.\n（以前必须早起。）"
+        },
+        {
+          "id": "1771806880598-gg6n3lkzh9t",
+          "front": "il faut 的过去时（一次性事件）",
+          "back": "il a fallu（复合过去时）\n例：Il a fallu trois heures.\n（花了三小时。）"
+        },
+        {
+          "id": "1771806880598-id7ovsqfan",
+          "front": "il faut 的将来时",
+          "back": "il faudra\n例：Il faudra travailler dur.\n（将来必须努力工作。）"
+        },
+        {
+          "id": "1771806880598-dt8wdg1j71j",
+          "front": "il faut 的 B2 同义替换",
+          "back": "Il est nécessaire de + 不定式\n例：Il faut travailler. = Il est nécessaire de travailler."
+        }
+      ]
+    },
+    {
+      "id": 1771806694317,
+      "name": "命令式+代词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-23T00:31:34.317Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "______ ! (regarder / tu / moi)",
+          "options": [
+            "Me regarde !",
+            "Regarde-me !",
+            "Regarde-moi !",
+            "Moi regarde !"
+          ],
+          "correct": 2,
+          "explanation": "肯定命令句代词后置，me变moi。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "______ ! (donner / vous / lui / le document)",
+          "options": [
+            "Donnez-lui-le !",
+            "Donnez-le-lui !",
+            "Le-lui donnez !",
+            "Lui-le donnez !"
+          ],
+          "correct": 1,
+          "explanation": "肯定命令句双宾：直宾(le)在前，间宾(lui)在后。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne ______ pas ! (se lever / tu)",
+          "options": [
+            "te lèves",
+            "lève-toi",
+            "toi lèves",
+            "lève-te"
+          ],
+          "correct": 0,
+          "explanation": "否定命令句代词前置，te不变：Ne te lèves pas。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Va ______ tout de suite !",
+          "options": [
+            "y",
+            "là",
+            "il",
+            "en"
+          ],
+          "correct": 0,
+          "explanation": "aller + y，肯定命令式特殊形式vas-y，此处填y。正确句：Vas-y。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il reste du gâteau. Prends- ______ !",
+          "options": [
+            "y",
+            "le",
+            "lui",
+            "en"
+          ],
+          "correct": 3,
+          "explanation": "en代替de+数量，Prends-en。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Donne-le- ______ ! (à moi)",
+          "options": [
+            "me",
+            "moi",
+            "toi",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "肯定命令句间宾位置，à moi → moi（非me）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "______ ! → version négative de : Écoute-moi !",
+          "options": [
+            "Ne moi écoute pas !",
+            "Ne m'écoute pas !",
+            "Ne écoute-moi pas !",
+            "N'écoute-moi pas !"
+          ],
+          "correct": 1,
+          "explanation": "否定命令句代词前置，moi恢复me，元音前省音m'。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Parle ______ de ce problème ! (en, y, lui, leur)",
+          "options": [
+            "y",
+            "en",
+            "lui",
+            "leur"
+          ],
+          "correct": 1,
+          "explanation": "parler de qch → en；-er动词接en加s：Parles-en。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Montre-la- ______ ! (à eux)",
+          "options": [
+            "leur",
+            "lui",
+            "les",
+            "eux"
+          ],
+          "correct": 0,
+          "explanation": "à eux → leur（间宾复数）。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "______ confiance ! (avoir / tu)",
+          "options": [
+            "Aie",
+            "Avoir",
+            "As",
+            "Avez"
+          ],
+          "correct": 0,
+          "explanation": "avoir命令式(tu)特殊形：aie。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Lève- _____ ! (se lever, tu)",
+          "correct": [
+            "toi"
+          ],
+          "explanation": "代动词肯定命令句，te变toi后置。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ne _____ lève pas ! (se lever, tu)",
+          "correct": [
+            "te"
+          ],
+          "explanation": "否定命令句代词前置，恢复原形te。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Envoyez- _____ - _____ ! (le rapport / à nous)",
+          "correct": [
+            "le",
+            "nous"
+          ],
+          "explanation": "肯定命令句双宾：直宾le在前，间宾nous在后。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ne _____ _____ envoyez pas ! (le rapport / à nous)",
+          "correct": [
+            "nous",
+            "le"
+          ],
+          "explanation": "否定命令句恢复陈述顺序：间宾nous在前，直宾le在后。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu veux aller au parc ? Alors, vas- _____ !",
+          "correct": [
+            "y"
+          ],
+          "explanation": "aller + y，vas-y固定用法。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il reste des fraises. Mange- _____ !",
+          "correct": [
+            "en"
+          ],
+          "explanation": "-er动词接en加s：Manges-en。此处mangez或mange视人称，tu→Manges-en。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Répondez- _____ immédiatement ! (à elle)",
+          "correct": [
+            "lui"
+          ],
+          "explanation": "à elle → lui，间宾后置。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Tu as le livre ? Donne- _____ - _____ ! Mais s'il est à Marie, ne _____ _____ donne pas.",
+          "correct": [
+            "le",
+            "moi",
+            "le",
+            "lui"
+          ],
+          "explanation": "肯定：直宾le+间宾moi；否定：恢复陈述顺序ne le lui donne pas。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Regarde-moi !",
+            "Me regarde !",
+            "Ne me regarde pas !",
+            "Ne regarde-moi pas !"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "肯定命令句代词后置用moi；否定命令句代词前置用me。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 y/en 的用法正确？",
+          "options": [
+            "Vas-y !",
+            "Va-y !",
+            "Parles-en !",
+            "Parle-en !"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "-er动词(aller/parler)命令式(tu)接y/en时词尾加s：Vas-y，Parles-en。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是特殊动词命令式正确形式？",
+          "options": [
+            "Sois patient !",
+            "Être patient !",
+            "Aie confiance !",
+            "As confiance !"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "être命令式(tu)→sois；avoir命令式(tu)→aie。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Expliquez- _____ - _____ clairement ! (la règle / à moi)",
+          "options": [
+            "la-moi",
+            "moi-la",
+            "la-me",
+            "me-la"
+          ],
+          "correct": 0,
+          "explanation": "肯定命令句：直宾la + 间宾moi。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1PGvr29M_7Rx4Ei_AIBwYkKxVRUpoENI0Dw5V5LY8mXk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771806710465-rcdvvrtx7sq",
+          "front": "肯定命令句：代词放哪里？",
+          "back": "动词之后，用连字符连接\n例：Regarde-moi !"
+        },
+        {
+          "id": "1771806710465-j558gmpgpz",
+          "front": "否定命令句：代词放哪里？",
+          "back": "动词之前，夹在 ne 和动词之间\n例：Ne me regarde pas !"
+        },
+        {
+          "id": "1771806710465-t6vr3x3en2p",
+          "front": "肯定命令句中 me → ?",
+          "back": "moi\n例：Donne-moi de l'argent !"
+        },
+        {
+          "id": "1771806710465-1acqpdwhz5v",
+          "front": "肯定命令句中 te → ?",
+          "back": "toi\n例：Lève-toi !"
+        },
+        {
+          "id": "1771806710465-0vo9c8l8wma",
+          "front": "否定命令句中用 moi 还是 me？",
+          "back": "恢复原形 me\n例：Ne me donne pas d'argent !"
+        },
+        {
+          "id": "1771806710465-9xzm8o9l5pk",
+          "front": "否定命令句中用 toi 还是 te？",
+          "back": "恢复原形 te\n例：Ne te lève pas !"
+        },
+        {
+          "id": "1771806710465-ft2ga9z1u1s",
+          "front": "肯定命令句双宾顺序？",
+          "back": "直宾 在前，间宾 在后\n例：Donne-le-moi ! / Montre-la-lui !"
+        },
+        {
+          "id": "1771806710465-7hkxujnu3us",
+          "front": "否定命令句双宾顺序？",
+          "back": "恢复陈述句顺序：间宾在前，直宾在后\n例：Ne me le donne pas !"
+        },
+        {
+          "id": "1771806710465-p15u8jrt1c",
+          "front": "Donne-le-moi ! → 否定形式",
+          "back": "Ne me le donne pas !"
+        },
+        {
+          "id": "1771806710465-odyu6qvtp8",
+          "front": "Montre-la-lui ! → 否定形式",
+          "back": "Ne la lui montre pas !"
+        },
+        {
+          "id": "1771806710465-lzr2umqv5y",
+          "front": "Envoyez-les-nous ! → 否定形式",
+          "back": "Ne nous les envoyez pas !"
+        },
+        {
+          "id": "1771806710465-zvjq9zbxzyr",
+          "front": "aller 命令式 (tu) + y = ?",
+          "back": "Vas-y !\n⚠️ 加 s 为发音流畅，固定写法"
+        },
+        {
+          "id": "1771806710465-78184vqdlwk",
+          "front": "-er 动词命令式(tu)接 en 时怎么变？",
+          "back": "词尾加 s\n例：Mange → Manges-en ! / Parle → Parles-en !"
+        },
+        {
+          "id": "1771806710465-rr4z3j3ezz",
+          "front": "-er 动词命令式(tu)接 y 时怎么变？",
+          "back": "词尾加 s\n例：Pense → Penses-y !"
+        },
+        {
+          "id": "1771806710465-f97kd195jp",
+          "front": "en 代替什么？",
+          "back": "代替 de + 事物，或表示数量\n例：Il reste du pain. → Prends-en !"
+        },
+        {
+          "id": "1771806710465-nl3sd0grpas",
+          "front": "y 代替什么？",
+          "back": "代替 à + 地点 或 à + 事物\n例：Tu vas au bureau ? → Vas-y !"
+        },
+        {
+          "id": "1771806710465-wj364klqf6t",
+          "front": "être 命令式三个人称",
+          "back": "tu → sois\nnous → soyons\nvous → soyez"
+        },
+        {
+          "id": "1771806710465-nmeur4fym1e",
+          "front": "avoir 命令式三个人称",
+          "back": "tu → aie\nnous → ayons\nvous → ayez"
+        },
+        {
+          "id": "1771806710465-ez2qig7qb8",
+          "front": "savoir 命令式三个人称",
+          "back": "tu → sache\nnous → sachons\nvous → sachez"
+        },
+        {
+          "id": "1771806710465-rpqyfonwgum",
+          "front": "Regarde-moi ! → 否定形式",
+          "back": "Ne me regarde pas !"
+        },
+        {
+          "id": "1771806710465-z843t9y91ce",
+          "front": "Attendez-moi ! → 否定形式",
+          "back": "Ne m'attendez pas !\n⚠️ 元音前省音 me → m'"
+        },
+        {
+          "id": "1771806710465-p6c5jbtbkff",
+          "front": "Lève-toi ! → 否定形式",
+          "back": "Ne te lève pas !"
+        },
+        {
+          "id": "1771806710465-6kg53xd48kd",
+          "front": "Couchez-vous ! → 否定形式",
+          "back": "Ne vous couchez pas !"
+        },
+        {
+          "id": "1771806710465-eunlok48q6",
+          "front": "Répondez-lui ! → 否定形式",
+          "back": "Ne lui répondez pas !"
+        },
+        {
+          "id": "1771806710465-5sapgbeo3zf",
+          "front": "代动词命令式规则（肯定）",
+          "back": "反身代词后置，te → toi\n例：Se lever → Lève-toi !"
+        },
+        {
+          "id": "1771806710465-xcck95840xp",
+          "front": "代动词命令式规则（否定）",
+          "back": "反身代词前置，toi → te\n例：Ne te lève pas !"
+        },
+        {
+          "id": "1771806710465-699dcjz9bhx",
+          "front": "直宾代词有哪些？",
+          "back": "me (moi) / te (toi) / le / la / nous / vous / les"
+        },
+        {
+          "id": "1771806710465-72p8zsf2dml",
+          "front": "间宾代词有哪些？",
+          "back": "me (moi) / te (toi) / lui / nous / vous / leur"
+        },
+        {
+          "id": "1771806710465-xjdi5aslxu",
+          "front": "Explique-le-moi ! 成分分析",
+          "back": "le = 直宾（代替事物）\nmoi = 间宾（à moi）\n肯定命令句：直宾-间宾顺序"
+        }
+      ]
+    },
+    {
       "id": 1771806373348,
       "name": "connaître vs savoir",
       "folderId": "1770698300033",
@@ -21756,6 +23425,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T00:27:28.610Z",
+  "exportedAt": "2026-02-23T01:14:48.373Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
