@@ -591,6 +591,181 @@
             2
           ],
           "explanation": "se marier avec ✅（用 avec，不用 à）；复合过去时用 être ✅；选项1介词错误；选项4缺少代词 se，助动词错误。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis _____ de répéter la même chose.",
+          "options": [
+            "fatigué",
+            "fatigant",
+            "fatigue",
+            "fatiguer"
+          ],
+          "correct": 0,
+          "explanation": "fatigué de + infinitif 表示\"厌倦做某事\"，主语是人，用 fatigué。fatigant 形容事物\"令人疲倦的\"。",
+          "category": "词汇-fatigué"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce travail est vraiment _____ .",
+          "options": [
+            "fatigué",
+            "fatiguée",
+            "fatigant",
+            "fatigués"
+          ],
+          "correct": 2,
+          "explanation": "主语是 ce travail（事物），用 fatigant（令人疲倦的）。fatigué 形容人的感受。这是 TCF 经典对比考点。",
+          "category": "词汇-fatigué"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Après le marathon, elle était complètement _____ .",
+          "correct": [
+            "fatiguée",
+            "épuisée"
+          ],
+          "explanation": "主语 elle 是阴性，fatigué 要配合为 fatiguée。épuisée（精疲力竭）也可接受，是 B2 加分词。",
+          "category": "词汇-fatigué"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il s'est appuyé _____ le mur pour se reposer.",
+          "options": [
+            "à",
+            "sur",
+            "contre",
+            "avec"
+          ],
+          "correct": 2,
+          "explanation": "s'appuyer contre le mur = 靠着墙。contre 在这里表示\"紧靠、贴着\"，不是\"反对\"。",
+          "category": "词汇-contre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le résultat était positif, _____ toute attente.",
+          "options": [
+            "par",
+            "pour",
+            "contre",
+            "avec"
+          ],
+          "correct": 2,
+          "explanation": "contre toute attente = 出乎意料。固定搭配，B2 加分表达。",
+          "category": "词汇-contre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je préfère le thé. _____, mon frère adore le café.",
+          "options": [
+            "Par contre",
+            "Contre",
+            "En contre",
+            "Au contre"
+          ],
+          "correct": 0,
+          "explanation": "par contre = 然而、相反，是口语高频转折表达。没有 en contre 或 au contre 的说法。",
+          "category": "词汇-contre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ l'espace de trois mois, il a appris à conduire.",
+          "options": [
+            "Dans",
+            "En",
+            "À",
+            "Sur"
+          ],
+          "correct": 1,
+          "explanation": "en l'espace de + 时间 = 在……时间内。固定搭配，介词用 en。",
+          "category": "词汇-espace"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La ville manque d'_____ verts pour les enfants.",
+          "options": [
+            "espaces",
+            "espace",
+            "places",
+            "lieux"
+          ],
+          "correct": 0,
+          "explanation": "espaces verts = 绿地、绿化空间。这里是复数，指多处绿地。固定搭配。",
+          "category": "词汇-espace"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde _____ d'accord avec cette proposition.",
+          "options": [
+            "sont",
+            "est",
+            "ont",
+            "a"
+          ],
+          "correct": 1,
+          "explanation": "tout le monde 语法上是第三人称单数，动词必须用 est。这是 TCF 经典陷阱，很多考生误用 sont。",
+          "category": "词汇-monde"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ monde dans ce restaurant ce soir !",
+          "options": [
+            "des",
+            "du",
+            "le",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "il y a du monde = 人很多。monde 在\"人群\"义项下用部分冠词 du，不可数。",
+          "category": "词汇-monde"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ le monde est invité à la fête.",
+          "correct": [
+            "Tout"
+          ],
+          "explanation": "tout le monde = 所有人、每个人。tout 在这里是形容词，修饰 le monde。",
+          "category": "词汇-monde"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____, le projet s'est bien passé.",
+          "options": [
+            "Dans l'ensemble",
+            "Dans ensemble",
+            "En l'ensemble",
+            "À l'ensemble"
+          ],
+          "correct": 0,
+          "explanation": "dans l'ensemble = 总体上、总的来说。固定搭配，介词用 dans，别忘了冠词 l'。",
+          "category": "词汇-ensemble"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'ensemble des étudiants _____ satisfait du cours.",
+          "options": [
+            "sont",
+            "est",
+            "ont",
+            "a"
+          ],
+          "correct": 1,
+          "explanation": "l'ensemble de + 名词 作主语时，TCF 倾向用单数动词（整体概念）。est 是正确选择。",
+          "category": "词汇-ensemble"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons décidé de travailler _____ sur ce projet.",
+          "options": [
+            "ensembles",
+            "ensemble",
+            "l'ensemble",
+            "en ensemble"
+          ],
+          "correct": 1,
+          "explanation": "ensemble 作副词表示\"一起\"时，没有性数变化，不加 s。没有 en ensemble 的说法。",
+          "category": "词汇-ensemble"
         }
       ],
       "practiceCount": 0,
@@ -785,6 +960,106 @@
           "id": "1771870544394-hzt7167ltd",
           "front": "「出发旅行」法语怎么说？",
           "back": "partir en voyage\n也可用：faire un voyage（两者均正确）"
+        },
+        {
+          "id": "1771877187259-qup0wik6v2l",
+          "front": "fatigué vs fatigant 区别？",
+          "back": "fatigué = 人感到累的（être fatigué）\nfatigant = 事物令人疲倦的（Ce travail est fatigant.）"
+        },
+        {
+          "id": "1771877187259-fgjg9nmd75",
+          "front": "fatigué de + ?（厌倦……）",
+          "back": "fatigué de + nom / infinitif\nJe suis fatigué de ce travail.\nJe suis fatigué d'attendre."
+        },
+        {
+          "id": "1771877187259-r7gfi8muk",
+          "front": "fatigué 的阴性/复数形式",
+          "back": "fatigué → fatiguée (f.)\n→ fatigués (m.pl.)\n→ fatiguées (f.pl.)"
+        },
+        {
+          "id": "1771877187259-953uknrp6la",
+          "front": "「精疲力竭」比 fatigué 更强的词？",
+          "back": "épuisé(e)（B2 加分词）\n口语：crevé(e)（familier）"
+        },
+        {
+          "id": "1771877187259-t8scq3m1zbr",
+          "front": "contre 的三大义项",
+          "back": "① 反对：être contre qqch\n② 紧靠：s'appuyer contre le mur\n③ 交换：échanger A contre B"
+        },
+        {
+          "id": "1771877187259-gyfrvxv76rc",
+          "front": "s'appuyer contre le mur 什么意思？",
+          "back": "靠着墙\ncontre 在这里 = 紧靠、贴着，不是“反对”"
+        },
+        {
+          "id": "1771877187259-chyls89r3zo",
+          "front": "par contre 什么意思？更正式的替换词？",
+          "back": "par contre = 然而、相反（口语）\n更正式：en revanche"
+        },
+        {
+          "id": "1771877187259-lkm6cgskm2",
+          "front": "contre toute attente",
+          "back": "出乎意料（B2 加分表达）\nLe résultat était positif, contre toute attente."
+        },
+        {
+          "id": "1771877187259-ed4o2iromho",
+          "front": "espace 的阴阳性？",
+          "back": "日常 99% 用阳性：un espace\n阴性 une espace 仅用于印刷术语（空格）"
+        },
+        {
+          "id": "1771877187259-6v4qdg4bfuf",
+          "front": "en l'espace de + 时间",
+          "back": "在……时间内\nEn l'espace de deux ans, tout a changé.\n（B2 加分表达）"
+        },
+        {
+          "id": "1771877187259-spzule0gnsd",
+          "front": "un espace vert",
+          "back": "绿地、绿化空间\n城市规划/环境话题高频词"
+        },
+        {
+          "id": "1771877187259-u01je256btn",
+          "front": "il y a du monde",
+          "back": "人很多\nmonde 表示“人群”时用部分冠词 du，不可数"
+        },
+        {
+          "id": "1771877187259-ce2jq6d4p",
+          "front": "tout le monde 后动词用单数还是复数？",
+          "back": "单数！\nTout le monde est content. ✅\nTout le monde sont contents. ❌"
+        },
+        {
+          "id": "1771877187259-37al1tcgz53",
+          "front": "beaucoup de monde 要加 s 吗？",
+          "back": "不加！monde 在“人”义项下不可数\nbeaucoup de monde ✅\nbeaucoup de mondes ❌"
+        },
+        {
+          "id": "1771877187259-ajmw7j9276u",
+          "front": "le monde du travail",
+          "back": "职场、工作领域\nle monde du + 名词 = ……领域"
+        },
+        {
+          "id": "1771877187259-awr79rjxgwf",
+          "front": "ensemble 作副词：一起",
+          "back": "vivre ensemble / travailler ensemble\n副词无性数变化，不加 s\n位置在动词后"
+        },
+        {
+          "id": "1771877187259-5miu0cwc80v",
+          "front": "dans l'ensemble",
+          "back": "总体上、总的来说\n= en général, globalement\nDans l'ensemble, c'est bien.（B2 加分表达）"
+        },
+        {
+          "id": "1771877187259-843kfknlmov",
+          "front": "l'ensemble de + 名词，动词单数还是复数？",
+          "back": "TCF 倾向单数（整体概念）\nL'ensemble des participants est invité. ✅"
+        },
+        {
+          "id": "1771877187259-hrez97uw2a",
+          "front": "espace vs lieu vs endroit vs place 辨析",
+          "back": "espace = 空间（抽象/物理）\nlieu = 地点（具体、正式）\nendroit = 地方（口语常用）\nplace = 位置、座位"
+        },
+        {
+          "id": "1771877187259-mxltxsdy3q",
+          "front": "monde vs gens vs personnes 辨析",
+          "back": "monde = 人多（不可数，il y a du monde）\ngens = 人们（复数，不可数）\npersonnes = 人（可数，正式）"
         }
       ]
     },
@@ -25044,6 +25319,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T18:40:36.293Z",
+  "exportedAt": "2026-02-23T20:06:33.857Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
