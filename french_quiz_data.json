@@ -1,6 +1,256 @@
 {
   "savedSets": [
     {
+      "id": 1771871970026,
+      "name": "Leçon 26 Quitter Paris课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-02-23T18:39:30.026Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Céline et son mari ont décidé de quitter Paris parce que _____.",
+          "options": [
+            "ils n'aiment pas les théâtres et les cinémas",
+            "Paris est trop bruyant et pollué",
+            "ils veulent connaître leurs voisins en ville",
+            "Paris n'a pas de magasins ouverts le dimanche"
+          ],
+          "correct": 1,
+          "explanation": "文中明确列举：trop de voitures, trop de pollution, trop bruyant。选项C是乡村的优势，不是离开的原因。",
+          "category": "理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Pourquoi est-ce que vous _____ à la campagne ?\n— Parce qu'à Paris il y a trop de pollution.",
+          "options": [
+            "quittez",
+            "partez",
+            "sortez",
+            "habitez"
+          ],
+          "correct": 1,
+          "explanation": "partir à la campagne 是固定搭配。quitter 是及物动词，后直接跟地点宾语（quitter Paris），不能说 quitter à la campagne。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ une maison à côté d'Albi le mois dernier.",
+          "options": [
+            "achètent",
+            "ont acheté",
+            "vont acheter",
+            "achetaient"
+          ],
+          "correct": 1,
+          "explanation": "le mois dernier 是过去时间标志，表示已完成的具体事件，用复合过去时。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À Paris, il n'y a pas _____ espaces verts.",
+          "options": [
+            "trop de",
+            "beaucoup de",
+            "assez d'",
+            "trop d'"
+          ],
+          "correct": 2,
+          "explanation": "文中原句 il n'y a pas assez d'espaces verts。assez de + 名词 = 足够多的……，否定形式表示不够。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tout le monde se connaît à la campagne. » Dans cette phrase, le verbe est au _____.",
+          "options": [
+            "pluriel, car tout le monde = les gens",
+            "singulier, car tout le monde est toujours sujet singulier",
+            "pluriel, car se connaître est réciproque",
+            "singulier, car la campagne est singulier"
+          ],
+          "correct": 1,
+          "explanation": "tout le monde 永远接第三人称单数动词，这是法语高频语法陷阱。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Moi, je ne _____ plus vivre à Paris, c'est trop bruyant !",
+          "correct": [
+            "peux"
+          ],
+          "explanation": "ne...plus 否定结构，pouvoir 现在时第一人称单数为 peux。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Céline est _____ accord avec son mari : elle préfère partir.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "être d'accord avec 是固定搭配，d' 不可省略。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "À Paris, on peut sortir tous les jours _____ boîte ou dans les bars.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "en boîte 是固定口语表达，意为去夜店，不用 à 或 dans。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "D'après le dialogue, quels sont les avantages de Paris mentionnés ?",
+          "options": [
+            "des théâtres et des cinémas",
+            "des espaces verts",
+            "des magasins ouverts le dimanche",
+            "une vie de quartier chaleureuse"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "文中乙方列举的巴黎优势是剧院/电影院（A）和周日营业的商店（C）。绿地不足是缺点，邻里温情是乡村优势。",
+          "category": "理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces phrases sont grammaticalement correctes ?",
+          "options": [
+            "Je vais quitter Paris demain.",
+            "Je vais partir de Paris demain.",
+            "Je vais quitter à Paris demain.",
+            "Tout le monde se connaissent ici."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "quitter 是及物动词直接加宾语（A正确）；partir de + lieu（B正确）；C错误，quitter 不加介词；D错误，tout le monde 接单数动词。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "À Paris, il y a _____ de voitures et il n'y a pas _____ d'espaces verts. C'est pour ça qu'on _____ (aller) habiter à la campagne.",
+          "correct": [
+            "trop",
+            "assez",
+            "va"
+          ],
+          "explanation": "trop de + nom；pas assez de + nom；on va = futur proche，on 接第三人称单数。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Vous avez peut-être raison. » Quelle phrase a le même sens ?",
+          "options": [
+            "Vous n'avez certainement pas raison.",
+            "Il est possible que vous ayez raison.",
+            "Vous avez sûrement tort.",
+            "Je suis d'accord avec vous."
+          ],
+          "correct": 1,
+          "explanation": "peut-être = il est possible que（后接虚拟式，B2表达）。注意C是反义，D语气过于肯定，与 peut-être 的不确定语气不符。",
+          "category": "同义改写"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1euQRWhb3_hMuR_ljm1uecTe7O_oD85grM1RjTac8sP0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771872030629-0gdon68wjn48",
+          "front": "quitter（动词）怎么用？及物还是介词？",
+          "back": "及物动词，直接加地点宾语，无需介词\n✅ quitter Paris\n❌ quitter à Paris / quitter de Paris"
+        },
+        {
+          "id": "1771872030629-r5ocy65j8vj",
+          "front": "partir 去某地 / 离开某地，介词怎么用？",
+          "back": "去某地：partir à/en + lieu\n离开某地：partir de + lieu\n✅ partir à la campagne\n✅ partir de Paris"
+        },
+        {
+          "id": "1771872030629-ci7zx8yeoeh",
+          "front": "quitter vs partir 核心区别",
+          "back": "quitter = 及物，后直接跟宾语（人或地点）\npartir = 不及物，后跟介词 à / de / pour\n口诀：quitter 不要介词，partir 离不开介词"
+        },
+        {
+          "id": "1771872030629-afcy4ideje",
+          "front": "trop de + 名词 怎么用？",
+          "back": "trop de + 名词（无冠词）= 太多……\n✅ trop de voitures / trop de pollution\n❌ trop des voitures"
+        },
+        {
+          "id": "1771872030629-r42acoqko59",
+          "front": "pas assez de + 名词 怎么用？",
+          "back": "pas assez de + 名词（无冠词）= 不够多……\n✅ il n'y a pas assez d'espaces verts\n对比：assez de + 名词 = 足够多的……"
+        },
+        {
+          "id": "1771872030629-k274u74avv",
+          "front": "ne...plus 是什么意思？plus 怎么发音？",
+          "back": "ne...plus = 不再……\n✅ Je ne peux plus vivre ici.\n发音：plus 在否定结构中 [s] 不发音，读 [ply]"
+        },
+        {
+          "id": "1771872030629-6mb42ft8136",
+          "front": "tout le monde 后接单数还是复数动词？",
+          "back": "永远接第三人称单数动词！\n✅ Tout le monde se connaît.\n❌ Tout le monde se connaissent.\n（高频 TCF 陷阱）"
+        },
+        {
+          "id": "1771872030629-dp3a0kpannq",
+          "front": "être d'accord avec 怎么用？",
+          "back": "être d'accord avec + 人/意见 = 同意……\n✅ Elle est d'accord avec moi.\n注意：d' 不可省略，avec 不可换成 de"
+        },
+        {
+          "id": "1771872030629-etudjzzkh1o",
+          "front": "avoir raison / avoir tort",
+          "back": "avoir raison = 说得对，有道理\navoir tort = 说错了，没道理\n✅ Vous avez peut-être raison.\n升级表达：ne pas avoir tort（双重否定，B2加分）"
+        },
+        {
+          "id": "1771872030629-jee4qacip7e",
+          "front": "on 在口语中等于什么？动词怎么变？",
+          "back": "口语中 on = nous，但动词接第三人称单数\n✅ On a acheté une maison.（= Nous avons acheté）\n✅ On va habiter là-bas."
+        },
+        {
+          "id": "1771872030629-jbsijh67s",
+          "front": "en boîte 是什么意思？",
+          "back": "en boîte = 去夜店（boîte de nuit 的口语缩略）\n✅ sortir en boîte\n介词固定用 en，不用 à 或 dans"
+        },
+        {
+          "id": "1771872030629-c4d7f239ilr",
+          "front": "à côté de 什么意思？同类介词短语还有哪些？",
+          "back": "à côté de = 在……旁边\n同类：\nprès de = 在……附近\nen face de = 在……对面\nloin de = 离……很远\naux environs de = 在……周边（B2升级）"
+        },
+        {
+          "id": "1771872030629-j3j24j4j2f",
+          "front": "il y a des choses à faire 是什么结构？",
+          "back": "il y a + 名词 + à + 动词不定式 = 有……要做\n表示「待完成的事」\n✅ Il y a des choses à faire.\n✅ J'ai des lettres à écrire."
+        },
+        {
+          "id": "1771872030629-jk1fu028jaj",
+          "front": "Comment ! 作感叹词是什么意思？",
+          "back": "Comment ! = 什么！（表示惊讶）\n≠ Comment = 怎么（疑问词）\n✅ Comment ! Vous quittez Paris ?\n语气相当于中文「什么？！」"
+        },
+        {
+          "id": "1771872030629-vpvgc0zkdjo",
+          "front": "se connaître 是什么意思？和 connaître 有什么区别？",
+          "back": "connaître = 认识（某人）\nse connaître = 互相认识（反身/相互动词）\n✅ Tout le monde se connaît ici.\n✅ Je connais mes voisins."
+        },
+        {
+          "id": "1771872030629-xhwo8o4nug",
+          "front": "peut-être 放句中和句首有什么区别？",
+          "back": "句中：无需倒装\n✅ Vous avez peut-être raison.\n句首：需要主谓倒装\n✅ Peut-être avez-vous raison.\n❌ Peut-être vous avez raison.（书面语错误）"
+        },
+        {
+          "id": "1771872030629-txckgks8i29",
+          "front": "pas du tout 和 ne...pas 有什么区别？",
+          "back": "ne...pas = 普通否定（不……）\nne...pas du tout = 强调否定（完全不……）\n✅ Je ne connais pas du tout mes voisins.\n语气强度：pas du tout > pas"
+        }
+      ]
+    },
+    {
       "id": 1771870523213,
       "name": "Leçon 26 Quitter Paris单词",
       "folderId": "1770604921596",
@@ -24794,6 +25044,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T18:15:59.313Z",
+  "exportedAt": "2026-02-23T18:40:36.293Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
