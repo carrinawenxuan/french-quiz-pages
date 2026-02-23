@@ -1,6 +1,292 @@
 {
   "savedSets": [
     {
+      "id": 1771810198330,
+      "name": "身体部位词汇",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-23T01:29:58.330Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel irrégulier de « un œil » ?",
+          "options": [
+            "les œils",
+            "les yeux",
+            "les œilles",
+            "les œuils"
+          ],
+          "correct": 1,
+          "explanation": "un œil → les yeux，完全不规则复数，TCF必考。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces parties du corps est féminine ?",
+          "options": [
+            "le bras",
+            "le dos",
+            "la main",
+            "le genou"
+          ],
+          "correct": 2,
+          "explanation": "la main 是阴性，虽以鼻化音 -in 结尾，但为阴性，是常见陷阱。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « le genou » ?",
+          "options": [
+            "les genous",
+            "les genoux",
+            "les genoues",
+            "les genouilles"
+          ],
+          "correct": 1,
+          "explanation": "le genou → les genoux，加 x 而非 s，与 bijou/caillou/chou 同类。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte.",
+          "options": [
+            "Je lave mes mains avant de manger.",
+            "Je me lave les mains avant de manger.",
+            "Je lave les mains avant de manger.",
+            "Je me lave mes mains avant de manger."
+          ],
+          "correct": 1,
+          "explanation": "身体部位动作用代动词+定冠词，不用物主冠词：se laver les mains。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le mot « le pied », quelle lettre ne se prononce pas ?",
+          "options": [
+            "p",
+            "i",
+            "e",
+            "d"
+          ],
+          "correct": 3,
+          "explanation": "le pied 发音为 [pje]，结尾 d 不发音。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la bonne traduction de « Elle a les cheveux bouclés » ?",
+          "options": [
+            "她有一根卷发",
+            "她剪了卷发",
+            "她有卷发",
+            "她想要卷发"
+          ],
+          "correct": 2,
+          "explanation": "avoir les cheveux + 形容词 = 描述发型特征，此处表示她有卷发。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Hausser les épaules » signifie :",
+          "options": [
+            "lever les bras",
+            "montrer ses épaules",
+            "耸肩表示无所谓",
+            "se blesser à l'épaule"
+          ],
+          "correct": 2,
+          "explanation": "hausser les épaules 是固定习语，表示耸肩，含无所谓或不知道之意。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le mot « les dents » est de genre _____ (masculin/féminin).",
+          "correct": [
+            "féminin"
+          ],
+          "explanation": "les dents 是阴性复数，单数为 une dent。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez : Il _____ mal aux dents depuis hier. (avoir)",
+          "correct": [
+            "a"
+          ],
+          "explanation": "il + avoir → a，句型 avoir mal à + 身体部位表示某处疼痛。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le pluriel de « un cheveu » est _____.",
+          "correct": [
+            "les cheveux"
+          ],
+          "explanation": "cheveu → cheveux，结尾加 x；且日常说头发几乎只用复数形式。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles lettres finales ne se prononcent pas dans les mots suivants ?",
+          "options": [
+            "le nez → z",
+            "le bras → s",
+            "le genou → u",
+            "le dos → s"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "nez的z、bras的s、dos的s均不发音；genou结尾u是发音的。"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces phrases sont correctes ?",
+          "options": [
+            "Elle se brosse les dents chaque matin.",
+            "Il a levé son bras pour répondre.",
+            "Tu te coupes les cheveux toi-même ?",
+            "Nous lavons nos visages le soir."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "身体部位前用定冠词+代动词：se brosser les dents / se couper les cheveux。son bras 和 nos visages 均错，应为 le bras / nous nous lavons le visage。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "J'ai mal _____ dos. Elle se lave _____ cheveux tous les jours. Mon frère a les yeux _____ (marron, accords ?).",
+          "correct": [
+            "au",
+            "les",
+            "marron"
+          ],
+          "explanation": "au dos = à+le dos；les cheveux 定冠词；marron 作颜色词永不变化，无复数形式。"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Sah5m-fTO3HPjiI3MYOTandMNX7GH7mpUS3BjfwRgFA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771810253337-83q6gdvgfdu",
+          "front": "un œil → 复数？",
+          "back": "les yeux\n⚠️ 完全不规则，TCF必考"
+        },
+        {
+          "id": "1771810253337-ev4tojhv5e7",
+          "front": "les cheveux 用单数还是复数？",
+          "back": "恒用复数\n一根头发才说 un cheveu"
+        },
+        {
+          "id": "1771810253337-9p2yvq2zy1i",
+          "front": "le genou → 复数？",
+          "back": "les genoux（加x）\n同类：bijou→bijoux / caillou→cailloux"
+        },
+        {
+          "id": "1771810253337-373z3m186kj",
+          "front": "la main 是阴性还是阳性？",
+          "back": "阴性 f.\n⚠️ 虽以 -in 结尾，但为阴性，常见陷阱"
+        },
+        {
+          "id": "1771810253337-49bl1wbr376",
+          "front": "les dents 是阴性还是阳性？",
+          "back": "阴性 f.\n单数：une dent"
+        },
+        {
+          "id": "1771810253337-vzl0fj7n4z",
+          "front": "l'épaule 是阴性还是阳性？",
+          "back": "阴性 f.\n以元音开头，缩写为 l'"
+        },
+        {
+          "id": "1771810253337-u71xpni1qif",
+          "front": "le nez 怎么发音？",
+          "back": "[ne]\n结尾 z 不发音"
+        },
+        {
+          "id": "1771810253337-y4zz2aca27g",
+          "front": "le pied 怎么发音？",
+          "back": "[pje]\n结尾 d 不发音"
+        },
+        {
+          "id": "1771810253337-jr3t5nq0zri",
+          "front": "le bras 怎么发音？",
+          "back": "[bʁɑ]\n结尾 s 不发音，单复数同形"
+        },
+        {
+          "id": "1771810253337-gwjz49ytkxq",
+          "front": "le doigt 怎么发音？",
+          "back": "[dwa]\ng 和 t 均不发音"
+        },
+        {
+          "id": "1771810253337-n5ho6hm5pj",
+          "front": "身体部位动作用什么冠词？",
+          "back": "用定冠词，不用物主冠词\n✅ Je me lave les mains\n❌ Je lave mes mains"
+        },
+        {
+          "id": "1771810253337-wgy4frd5vv",
+          "front": "「刷牙」法语怎么说？",
+          "back": "se brosser les dents\n⚠️ 代动词 + 定冠词"
+        },
+        {
+          "id": "1771810253337-pk1yzg45d3j",
+          "front": "「剪头发」法语怎么说？",
+          "back": "se couper les cheveux\n⚠️ 代动词 + 定冠词"
+        },
+        {
+          "id": "1771810253337-1kez4goixgo",
+          "front": "「洗脸」法语怎么说？",
+          "back": "se laver le visage\n⚠️ 代动词 + 定冠词"
+        },
+        {
+          "id": "1771810253337-5jxw7yp3zcx",
+          "front": "「握手」法语怎么说？",
+          "back": "se serrer la main"
+        },
+        {
+          "id": "1771810253337-ifcaazxweif",
+          "front": "「耸肩」法语怎么说？",
+          "back": "hausser les épaules\n含义：表示无所谓/不知道"
+        },
+        {
+          "id": "1771810253337-w1a2acnh4nb",
+          "front": "「帮忙」法语习语？",
+          "back": "donner un coup de main"
+        },
+        {
+          "id": "1771810253337-dckq2e1cb4p",
+          "front": "「牙疼/背痛/肚子疼」句型？",
+          "back": "avoir mal aux dents / au dos / au ventre\n句型：avoir mal à + 身体部位"
+        },
+        {
+          "id": "1771810253337-f7rzi3cncwt",
+          "front": "marron 描述眼睛颜色时如何变化？",
+          "back": "永不变化\n✅ Il a les yeux marron（无复数 s）"
+        },
+        {
+          "id": "1771810253337-u9ete36glgm",
+          "front": "ventre 和 estomac 的区别？",
+          "back": "ventre [vɑ̃tʁ] = 腹部（外部）\nestomac [ɛstɔma] = 胃（内脏）"
+        },
+        {
+          "id": "1771810253337-sl7vwy1gmda",
+          "front": "「从头到脚」法语怎么说？",
+          "back": "de pied en cap\nB2加分表达"
+        },
+        {
+          "id": "1771810253337-hn6qzens1r5",
+          "front": "「撒腿就跑」法语习语？",
+          "back": "prendre ses jambes à son cou"
+        },
+        {
+          "id": "1771810253337-gaq8oudl5di",
+          "front": "「口耳相传」法语习语？",
+          "back": "le bouche à oreille"
+        },
+        {
+          "id": "1771810253337-uml3rd0lgf",
+          "front": "「张开双臂欢迎」法语习语？",
+          "back": "accueillir à bras ouverts"
+        }
+      ]
+    },
+    {
       "id": 1771809911385,
       "name": "Leçon 24 Le candidat idéal课文",
       "folderId": "1770747190002",
@@ -23970,6 +24256,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T01:26:09.731Z",
+  "exportedAt": "2026-02-23T01:31:00.071Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
