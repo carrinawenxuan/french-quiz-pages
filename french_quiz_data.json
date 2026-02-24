@@ -1,6 +1,529 @@
 {
   "savedSets": [
     {
+      "id": 1771962272262,
+      "name": "代词式动词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-24T19:44:32.262Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle s’est _____ (laver) les mains.",
+          "options": [
+            "lavé",
+            "lavée",
+            "lavés",
+            "lavées"
+          ],
+          "correct": 0,
+          "explanation": "se = COI，les mains = COD 在后，不配合。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ (voir) hier.",
+          "options": [
+            "vu",
+            "vus",
+            "vue",
+            "vues"
+          ],
+          "correct": 1,
+          "explanation": "se = COD（voir qn），复数阳性，配合 vus。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ (parler).",
+          "options": [
+            "parlé",
+            "parlés",
+            "parlée",
+            "parlées"
+          ],
+          "correct": 0,
+          "explanation": "parler à → se = COI，不配合。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le livre _____ bien.",
+          "options": [
+            "se vend",
+            "se vendent",
+            "est vendu",
+            "se vendre"
+          ],
+          "correct": 0,
+          "explanation": "被动意义常用 se vend（主语单数）。",
+          "category": "代词式动词-被动"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些属于绝对意义（sens absolu）？",
+          "options": [
+            "se souvenir",
+            "se laver",
+            "se moquer",
+            "se regarder"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "se souvenir, se moquer 为固定结构。",
+          "category": "代词式动词-类型判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle s’est _____ (couper) les cheveux.",
+          "correct": [
+            "coupé"
+          ],
+          "explanation": "se = COI，les cheveux = COD 在后，不配合。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous nous sommes _____ (rencontrer) au café.",
+          "correct": [
+            "rencontrés"
+          ],
+          "explanation": "se = COD（rencontrer qn），复数阳性，需配合。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils se sont _____ (écrire) pendant des années. Puis ils se sont _____ (revoir) à Paris.",
+          "correct": [
+            "écrit",
+            "revus"
+          ],
+          "explanation": "écrire à → COI 不配合；revoir qn → COD 配合 revus。",
+          "category": "代词式动词-综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle s'est _____ (laver) les mains avant de manger.",
+          "correct": [
+            "lavé"
+          ],
+          "explanation": "句中 les mains 是直接宾语（COD）且位于动词之后，自反代词 se 充当间接宾语（COI），因此过去分词不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ (sourire) en se croisant dans le couloir.",
+          "options": [
+            "souri",
+            "souris",
+            "sourit",
+            "sourirent"
+          ],
+          "correct": 0,
+          "explanation": "sourire 属于“sourire à quelqu'un”，代词 se 是间接宾语（COI），过去分词不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette vieille chanson se _____ (chanter) encore dans les villages.",
+          "options": [
+            "chante",
+            "chantent",
+            "chantes",
+            "chantez"
+          ],
+          "correct": 0,
+          "explanation": "此处为被动意义（Sens passif），主语是单数 chanson，动词用单数。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles se sont _____ (souvenir) de leur voyage à Paris.",
+          "correct": [
+            "souvenues"
+          ],
+          "explanation": "se souvenir 是绝对意义代词式动词（essentiellement pronominal），过去分词永远与主语配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont _____ (écrire) des lettres pendant des années.",
+          "options": [
+            "écrit",
+            "écrite",
+            "écrits",
+            "écrites"
+          ],
+          "correct": 0,
+          "explanation": "écrire 属于“écrire quelque chose à quelqu'un”，此处 des lettres 是 COD 且在动词后，se 是 COI，故不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子体现了代词式动词的“被动意义” (Sens passif)？",
+          "options": [
+            "Le vin blanc se boit frais.",
+            "Elle se lave le visage.",
+            "Ces appartements se sont vendus très cher.",
+            "Ils se sont rencontrés par hasard."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "选项 0 和 2 的主语（酒、公寓）是动作的承受者，逻辑上是被喝、被卖。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elles se sont _____ (voir) au marché et elles se sont _____ (dire) bonjour.",
+          "correct": [
+            "vues",
+            "dit"
+          ],
+          "explanation": "voir 是直接及物动词（se 是 COD），需配合；dire 是间接及物（dire à qn，se 是 COI），不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les décisions se sont _____ (prendre) lors de la réunion d'hier.",
+          "correct": [
+            "prises"
+          ],
+          "explanation": "被动意义代词式动词，过去分词与主语（Les décisions，阴性复数）配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est _____ (permettre) de poser une question personnelle.",
+          "options": [
+            "permis",
+            "permise",
+            "permises",
+            "permi"
+          ],
+          "correct": 0,
+          "explanation": "permettre 属于“permettre quelque chose à quelqu'un”，se 是 COI，不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ma sœur s'est _____ (imaginer) qu'elle pourrait gagner le concours.",
+          "correct": [
+            "imaginer"
+          ],
+          "explanation": "当 s'imaginer 后接 que 引导的从句时，se 被视为间接宾语（imaginer à soi-même），过去分词通常不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les clés que j'avais laissées sur la table se sont _____ (perdre).",
+          "options": [
+            "perdu",
+            "perdue",
+            "perdus",
+            "perdues"
+          ],
+          "correct": 3,
+          "explanation": "被动意义，过去分词与主语 Les clés（阴性复数）配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils se sont _____ (disputer) violemment à propos du budget.",
+          "correct": [
+            "disputés"
+          ],
+          "explanation": "相互意义（Sens réciproque），se 是 COD（disputer quelqu'un），需与主语配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces outils se sont _____ (révéler) très utiles pour les travaux.",
+          "options": [
+            "révélé",
+            "révélés",
+            "révélée",
+            "révélées"
+          ],
+          "correct": 1,
+          "explanation": "se révéler 相当于 être，属于绝对/本质意义用法，过去分词与主语 outils（阳性复数）配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles se sont _____ (promettre) de ne plus jamais se mentir.",
+          "correct": [
+            "promis"
+          ],
+          "explanation": "promettre 属于“promettre quelque chose à quelqu'un”，se 是 COI，不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est _____ (regarder) attentivement dans le miroir.",
+          "options": [
+            "regardé",
+            "regardée",
+            "regardés",
+            "regardées"
+          ],
+          "correct": 1,
+          "explanation": "自反意义，se 是直接宾语（regarder quelqu'un），与主语 Elle 配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles se sont _____ (rendre) compte que le train était déjà parti.",
+          "correct": [
+            "rendu"
+          ],
+          "explanation": "se rendre compte 是固定搭配，compte 是 COD 且在动词后，se 是 COI，分词永不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici les mains que l'infirmière s'est _____ (laver) avant l'opération.",
+          "options": [
+            "lavé",
+            "lavée",
+            "lavés",
+            "lavées"
+          ],
+          "correct": 3,
+          "explanation": "这是 C1 陷阱。虽然是代词式动词，但 COD (les mains) 通过关系代词 que 提前了，分词需与 COD 配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle s'est _____ (apercevoir) trop tard de son oubli.",
+          "correct": [
+            "aperçue"
+          ],
+          "explanation": "s'apercevoir de 意识到，是绝对意义代词式动词，分词永远随主语(Elle)配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ (nuire) mutuellement pendant toute leur carrière.",
+          "options": [
+            "nui",
+            "nuis",
+            "nuie",
+            "nuies"
+          ],
+          "correct": 0,
+          "explanation": "nuire à quelqu'un 是间接及物动词，se 是 COI，过去分词永远不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "D'abord elles se sont _____ (sourire), puis elles se sont _____ (parler).",
+          "correct": [
+            "souri",
+            "parlé"
+          ],
+          "explanation": "sourire à qn 和 parler à qn 都是间接及物，se 是 COI，均不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces fruits se sont _____ (vendre) comme des petits pains ce matin.",
+          "options": [
+            "vendu",
+            "vendue",
+            "vendus",
+            "vendues"
+          ],
+          "correct": 2,
+          "explanation": "被动意义代词式动词，分词随主语 fruits (阳性复数) 配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La directrice s'est _____ (proposer) pour diriger le nouveau projet.",
+          "correct": [
+            "proposée"
+          ],
+          "explanation": "proposer quelqu'un，此处 se 是直接宾语（她推荐她自己），分词随主语配合。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, nous _____ (se voir) devant le cinéma à huit heures.",
+          "options": [
+            "allons se voir",
+            "allons nous voir",
+            "vons nous voir",
+            "allons voir nous"
+          ],
+          "correct": 1,
+          "explanation": "最近将来时最近用法：aller 变位 + 随主语变化的自反代词 + 动词原形。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/169GiFn3k53pn3ZRD4IBqL65u1T4bWPpboYjakMWEs6Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771962485424-sguq43jq63m",
+          "front": "代词式动词的「自反意义」(sens réfléchi) 是指？",
+          "back": "主语发出的动作作用于主语自身。\n例：Je me lave. (我洗澡/洗自己)"
+        },
+        {
+          "id": "1771962485424-xemo3lgsfjc",
+          "front": "代词式动词的「相互意义」(sens réciproque) 是指？",
+          "back": "两个或多个主语之间互相发出动作。\n例：Ils se regardent. (他们互相看)"
+        },
+        {
+          "id": "1771962485424-o6srqmyyee",
+          "front": "代词式动词的「被动意义」(sens passif) 是指？",
+          "back": "动作的承受者作主语（通常主语是物），表示“被…”。\n例：Le vin se boit frais. (白葡萄酒冷藏饮用)"
+        },
+        {
+          "id": "1771962485424-gaafjqsqlye",
+          "front": "代词式动词的「绝对意义」(sens absolu) 是指？",
+          "back": "去掉代词 se 后动词无意义或意思完全改变。\n例：s'enfuir (逃跑), se souvenir de (记得)"
+        },
+        {
+          "id": "1771962485424-wn5wjndxpll",
+          "front": "TCF 陷阱：Elle s'est _____ (lavé/lavée) les mains.",
+          "back": "lavé\n解析：les mains 是直接宾语(COD)且在动词后，se 变成间接宾语(COI)，分词不配合。"
+        },
+        {
+          "id": "1771962485424-konpbbc608n",
+          "front": "TCF 陷阱：Ils se sont _____ (parlé/parlés).",
+          "back": "parlé\n解析：parler à quelqu'un，se 是间接宾语(COI)，分词不配合。"
+        },
+        {
+          "id": "1771962485424-jf9b5gk1g2f",
+          "front": "TCF 陷阱：Elles se sont _____ (souvenu/souvenues).",
+          "back": "souvenues\n解析：se souvenir 是绝对意义动词，过去分词永远与主语配合。"
+        },
+        {
+          "id": "1771962485424-xw9ywpqpn2i",
+          "front": "被动意义下的代词式动词，过去分词如何配合？",
+          "back": "永远与主语（动作承受者）进行性数配合。\n例：Les lettres se sont écrites hier. (信是昨天写的)"
+        },
+        {
+          "id": "1771962485424-jcbdstnd8j",
+          "front": "相互意义中，「se téléphoner」的过去分词如何配合？",
+          "back": "永远不配合 (Elles se sont téléphoné)。\n解析：téléphoner à quelqu'un，se 是 COI。"
+        },
+        {
+          "id": "1771962485424-ent29u4e2u",
+          "front": "「se rendre compte」(意识到) 的过去分词配合规则？",
+          "back": "永远不配合 (Elle s'est rendu compte)。\n解析：compte 是直接宾语且在动词后，se 是 COI。"
+        },
+        {
+          "id": "1771962485424-668qkldav5x",
+          "front": "「s'en aller」属于哪种意义类型？",
+          "back": "绝对意义 (Sens absolu)。\n解析：en aller 本身没有实际意义，必须配合 se 使用。"
+        },
+        {
+          "id": "1771962485424-5vgnsndh0fs",
+          "front": "如何判断自反动词的 se 是 COD 还是 COI？",
+          "back": "看动词原文是否接介词 à。接 à 则 se 是 COI（不配合）；不接介词则 se 是 COD（配合）。"
+        },
+        {
+          "id": "1771962485424-iqoorxxuefg",
+          "front": "判断：Ces fruits se _____ (vendre) bien au marché.",
+          "back": "vendent\n解析：被动意义，主语是复数 fruits，动词用复数。"
+        },
+        {
+          "id": "1771962485424-dkutl27li35",
+          "front": "判断：Nous nous sommes _____ (vu/vus) hier soir.",
+          "back": "vus\n解析：相互意义，voir 某人是直接及物，se 是 COD，需要配合。"
+        },
+        {
+          "id": "1771962485424-rfi6a6k27u",
+          "front": "TCF 高频：se moquer de (嘲笑) 的过去分词配合？",
+          "back": "与主语配合。\n例：Elle s'est moquée de moi. (绝对意义动词永远配合)"
+        },
+        {
+          "id": "1771962618152-krade0n6rn",
+          "front": "代词式动词复合时态的助动词选择？",
+          "back": "永远使用 être。\n注意：即使动词原形（如 voir）用 avoir，变代词式（se voir）后也必须用 être。"
+        },
+        {
+          "id": "1771962618152-52k8m7iqkdb",
+          "front": "TCF 必杀词：se rendre compte (意识到) 的配合规则？",
+          "back": "永远不配合！\n例：Elles se sont rendu compte.\n原因：compte 是 COD 且在动词后，se 是 COI。"
+        },
+        {
+          "id": "1771962618152-xixddrc2zt",
+          "front": "对比记忆：s'apercevoir (意识到) 的配合规则？",
+          "back": "永远随主语配合。\n例：Elles se sont aperçues de leur erreur.\n原因：这是绝对意义代词式动词。"
+        },
+        {
+          "id": "1771962618152-rcfws3oodw",
+          "front": "身体部位陷阱 1：Elle s'est _____ (lavé) les mains.",
+          "back": "lavé (不配合)\n原因：COD (les mains) 在动词后面。"
+        },
+        {
+          "id": "1771962618152-upx8k3oo86",
+          "front": "身体部位陷阱 2 (C1级)：Les mains qu'elle s'est _____ (lavé).",
+          "back": "lavées (配合)\n原因：COD (que 指代 les mains) 提前到了动词前。"
+        },
+        {
+          "id": "1771962618152-xsff5mqnh1d",
+          "front": "「COI 黑名单」：哪些动词的 se 永远是间接宾语（不配合）？",
+          "back": "se parler, se sourire, se téléphoner, se succéder, se nuire, se ressembler, se plaire, se dire.\n例：Elles se sont parlé."
+        },
+        {
+          "id": "1771962618152-r7dkndb0ges",
+          "front": "TCF 常考点：se succéder (相继/连续) 的配合？",
+          "back": "永远不配合！\n例：Les réformes se sont succédé. (succéder à qch，se 是 COI)"
+        },
+        {
+          "id": "1771962618152-vnc2aagb08",
+          "front": "被动意义：Ces livres se sont _____ (vendre) très vite.",
+          "back": "vendus (配合)\n原因：被动意义中，分词必须与主语 (livres) 配合。"
+        },
+        {
+          "id": "1771962618152-2f7ah6zvmtq",
+          "front": "绝对意义：s'enfuir (逃跑) 的过去分词配合？",
+          "back": "随主语配合。\n例：La voleuse s'est enfuie.\n原因：本质/绝对意义动词的分词始终随主语配合。"
+        },
+        {
+          "id": "1771962618152-upt1isnl3o9",
+          "front": "无人称结构：Il s'agit de (关于/涉及到) 的变位特点？",
+          "back": "只有第三人称单数形式，Il 不指代任何人。\n例：Il s'agit de vos résultats. (这关乎你的成绩)"
+        },
+        {
+          "id": "1771962618152-2yrsctarv29",
+          "front": "最近将来时位置：我们要去散步 (se promener)。",
+          "back": "Nous allons nous promener.\n代词位于 aller 变位之后，不定式动词之前，且代词必须随主语变。"
+        },
+        {
+          "id": "1771962618152-14q9wart5cr",
+          "front": "相互意义判断：Ils se sont _____ (nuire).",
+          "back": "nui (不配合)\n原因：nuire à quelqu'un，se 是 COI。"
+        },
+        {
+          "id": "1771962618152-4z32qiemnip",
+          "front": "否定句位置 (复合过去时)：她没有起床。",
+          "back": "Elle ne s'est pas levée.\nne...pas 包裹【代词 + 助动词】。"
+        },
+        {
+          "id": "1771962618152-vc5fnqmrcc",
+          "front": "s'entendre dire que... (被告知) 的配合？",
+          "back": "通常不配合。\n例：Elle s'est entendu dire qu'elle était licenciée."
+        },
+        {
+          "id": "1771962618152-3ivm0m2tpy8",
+          "front": "TCF 语法题「3秒排除法」遇到 se plaire / se complaire？",
+          "back": "直接选不带性数变化（阳性单数）的选项，因为它们永远不配合。"
+        }
+      ]
+    },
+    {
       "id": 1771960390741,
       "name": "Unit 1 PRÉSENT 第三组 -ir 动词",
       "folderId": "1771907837913",
@@ -9654,7 +10177,7 @@
     {
       "id": 1771897858344,
       "name": "trop 与 assez",
-      "folderId": "1770593095506",
+      "folderId": "1770661225895",
       "createdAt": "2026-02-24T01:50:58.344Z",
       "questions": [
         {
@@ -37574,7 +38097,7 @@
     },
     {
       "id": "1770661225895",
-      "name": "法语地道表达"
+      "name": "地道表达+专用词汇"
     },
     {
       "id": "1770698300033",
@@ -37601,6 +38124,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T19:15:39.599Z",
+  "exportedAt": "2026-02-24T20:14:11.644Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
