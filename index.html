@@ -6366,7 +6366,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       if (parsed.length === 0) parsed = parsePastedText(text);
-      if (parsed.length === 0 && parseError) showToast('JSON 解析失败：' + parseError);
+      // 保留 parseError，统一在后续根据 parsed 结果决定提示文案
       if (parseBtn) { parseBtn.disabled = false; parseBtn.textContent = origText; }
       if (parsed.length > 0) {
         const seen = new Set();
@@ -6412,7 +6412,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const all = getSavedSets();
         all.unshift(saved);
         setSavedSets(all);
-        startQuiz(deduped);
+        startQuiz(deduped, false, saved.id);
         showToast('已加入 ' + deduped.length + ' 道新题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : ''));
         const importSec = $('import-section');
         if (importSec) importSec.style.display = 'none';
@@ -6424,7 +6424,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _importPastedImages = [];
         renderImportPastedImages();
       } else {
-        showToast('未能解析出题目，请检查格式');
+        if (parseError) {
+          showToast('JSON 解析失败：' + parseError + '。如果这是普通文本题目，请去掉最外层的 [] 或 {} 后再试。');
+        } else {
+          showToast('未能解析出题目，请检查格式（题干、选项等是否符合示例模板）');
+        }
       }
     });
 
@@ -6701,7 +6705,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       };
     }
     const searchInput = $('saved-sets-search');
-    if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 180));
+    if (searchInput) {
+      let lastSearch = searchInput.value || '';
+      const debouncedRenderSavedSets = debounce(renderSavedSets, 180);
+      searchInput.addEventListener('input', () => {
+        const val = searchInput.value || '';
+        const wasEmpty = !lastSearch.trim();
+        const isEmpty = !val.trim();
+        // 从非空搜索回到完全空白时，恢复默认分页上限
+        if (!wasEmpty && isEmpty) {
+          _savedSetsDisplayLimit = SAVED_SETS_DISPLAY_LIMIT;
+        }
+        lastSearch = val;
+        debouncedRenderSavedSets();
+      });
+    }
     const savedSetsList = $('saved-sets-list');
     if (savedSetsList) {
       savedSetsList.addEventListener('click', handleSavedSetsAction);
@@ -6726,7 +6744,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       const typeFilter = getSelectedTypeFilter();
       const filtered = filterQuestionsByType(due, typeFilter);
-      if (filtered.length === 0) { showToast('当前选题型下没有到期的错题，改天再试'); return; }
+      if (filtered.length === 0) {
+        const total = getWrongBook().length;
+        showToast('当前勾选的题型下没有到期的错题（错题本共 ' + total + ' 题）');
+        return;
+      }
       startQuiz(filtered, true);
     }
     function startWrongBookFreePractice() {
@@ -6734,7 +6756,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (book.length === 0) { showToast('错题本还是空的，做错题后会自动加入'); return; }
       const typeFilter = getSelectedTypeFilter();
       const filtered = filterQuestionsByType(book, typeFilter);
-      if (filtered.length === 0) { showToast('当前选题型下没有错题，请勾选更多题型'); return; }
+      if (filtered.length === 0) {
+        showToast('当前勾选的题型下没有错题（错题本共 ' + book.length + ' 题），请勾选更多题型');
+        return;
+      }
       startQuiz(filtered, true);
     }
     document.getElementById('btn-wrong-book').addEventListener('click', startWrongBookDuePractice);
