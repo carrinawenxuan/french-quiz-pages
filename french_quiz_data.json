@@ -1,6 +1,909 @@
 {
   "savedSets": [
     {
+      "id": 1771908562028,
+      "name": "Unit 1 PRÉSENT ÊTRE",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T04:49:22.028Z",
+      "questions": [
+        {
+          "type": "short_answer",
+          "stem": "Transformez à la forme négative selon le modèle : Tu es alsacien.",
+          "correct": [
+            "Tu n'es pas alsacien."
+          ],
+          "explanation": "原题考察 être 的否定形式。在元音或哑音 h 开头的动词前，ne 需省音为 n'。结构为：主语 + n' + es + pas。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Vous ______ alsaciens ? (否定疑问句)",
+          "options": [
+            "n'êtes pas",
+            "ne sont pas",
+            "n'est pas",
+            "ne sommes pas"
+          ],
+          "correct": 0,
+          "explanation": "TCF常考主谓一致。Vous 对应 être 的变位是 êtes，否定加 n'...pas。注意 alsaciens 的复数配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trouvez le pronom qui convient : _____ est traducteur.",
+          "correct": [
+            "Il",
+            "Elle"
+          ],
+          "explanation": "根据动词变位 est 可判定主语为第三人称单数 il 或 elle。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：_____ est une excellente traductrice.",
+          "options": [
+            "Il",
+            "Elle",
+            "Ils",
+            "Elles"
+          ],
+          "correct": 1,
+          "explanation": "虽然 Il/Elle 变位相同，但表语 traductrice 是阴性单数，故主语只能选 Elle。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trouvez le pronom qui convient : _____ êtes musicien.",
+          "correct": [
+            "Vous"
+          ],
+          "explanation": "êtes 是 être 动词对应 vous 的专属变位形式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Vous ______ musiciens.",
+          "options": [
+            "êtes",
+            "est",
+            "sommes",
+            "sont"
+          ],
+          "correct": 0,
+          "explanation": "注意连音 [vuz-εt]。即使表语是复数，vous 的动词变位始终保持 êtes。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trouvez le pronom qui convient : _____ sont en voyage.",
+          "correct": [
+            "Ils",
+            "Elles"
+          ],
+          "explanation": "sont 对应第三人称复数 ils 或 elles。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Mes parents ______ en voyage d'affaires.",
+          "options": [
+            "est",
+            "êtes",
+            "sont",
+            "ont"
+          ],
+          "correct": 2,
+          "explanation": "Mes parents 等同于复数代词 ils，使用 sont。注意不要混淆 avoir (ont)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trouvez le pronom qui convient : _____ sommes en forme.",
+          "correct": [
+            "Nous"
+          ],
+          "explanation": "sommes 对应第一人称复数 nous。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Ma famille et moi, nous ______ très fatigués.",
+          "options": [
+            "sommes",
+            "êtes",
+            "sont",
+            "est"
+          ],
+          "correct": 0,
+          "explanation": "“... et moi” 结构等同于 nous，变位用 sommes。TCF常在此处设置代词干扰点。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trouvez le pronom qui convient : _____ suis triste.",
+          "correct": [
+            "Je"
+          ],
+          "explanation": "suis 对应第一人称单数 je。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Moi, je ______ content de vous voir.",
+          "options": [
+            "est",
+            "suis",
+            "ai",
+            "es"
+          ],
+          "correct": 1,
+          "explanation": "重读人称代词 Moi 起强调作用，主语仍是 je，对应 suis。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Je _____ étudiant.",
+          "correct": [
+            "suis"
+          ],
+          "explanation": "Je 对应的 être 变位为 suis。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF陷阱题：Je ne _____ pas encore prêt.",
+          "correct": [
+            "suis"
+          ],
+          "explanation": "否定句中动词变位形式不变，放在 ne...pas 中间。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Ils _____ au cinéma.",
+          "correct": [
+            "sont"
+          ],
+          "explanation": "Ils 对应的 être 变位为 sont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Où _____ tes clés ?",
+          "options": [
+            "est",
+            "sont",
+            "êtes",
+            "suis"
+          ],
+          "correct": 1,
+          "explanation": "主语是复数名词 tes clés，相当于 elles，故用 sont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Tu _____ sportif ?",
+          "correct": [
+            "es"
+          ],
+          "explanation": "Tu 对应的 être 变位为 es。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Est-ce que tu ______ à l'heure ?",
+          "options": [
+            "est",
+            "ai",
+            "es",
+            "as"
+          ],
+          "correct": 2,
+          "explanation": "疑问句不改变变位规则。注意区分 être (es) 和 avoir (as)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : On _____ à la maison.",
+          "correct": [
+            "est"
+          ],
+          "explanation": "On 作为泛指代词，动词变位等同于 il/elle，即 est。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：On ______ tous ensemble ce soir.",
+          "options": [
+            "sommes",
+            "est",
+            "sont",
+            "êtes"
+          ],
+          "correct": 1,
+          "explanation": "虽然 on 在语意上常指“我们”，但语法变位必须严格遵守单数第三人称。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Vous _____ libres, ce soir ?",
+          "correct": [
+            "êtes"
+          ],
+          "explanation": "Vous 对应的 être 变位为 êtes。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF陷阱题：_____ -vous prêt pour l'examen ?",
+          "correct": [
+            "Êtes"
+          ],
+          "explanation": "主谓倒装疑问句，首字母需大写。Êtes-vous 为固定倒装结构。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Il _____ midi et quart.",
+          "correct": [
+            "est"
+          ],
+          "explanation": "表达时间（无人称句）固定使用 Il est + 时间。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Quelle heure ______ -il ?",
+          "options": [
+            "es",
+            "est",
+            "as",
+            "a"
+          ],
+          "correct": 1,
+          "explanation": "询问时间固定句型，使用 être 的单三变位 est。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Nous _____ très contents.",
+          "correct": [
+            "sommes"
+          ],
+          "explanation": "Nous 对应的 être 变位为 sommes。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Nous ne ______ pas encore arrivés.",
+          "options": [
+            "sommes",
+            "êtes",
+            "sont",
+            "ont"
+          ],
+          "correct": 0,
+          "explanation": "Être 作为助动词构成复合过去时，nous 对应 sommes。注意过去分词的配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Elles _____ en retard.",
+          "correct": [
+            "sont"
+          ],
+          "explanation": "Elles 对应的 être 变位为 sont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Tes sœurs ______ en avance.",
+          "options": [
+            "est",
+            "sont",
+            "ont",
+            "êtes"
+          ],
+          "correct": 1,
+          "explanation": "Tes sœurs 是阴性复数名词，相当于 elles，使用 sont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Conjuguez « être » : Vous _____ pressés ?",
+          "correct": [
+            "êtes"
+          ],
+          "explanation": "Vous 对应的 être 变位为 êtes。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Pourquoi ______ -vous si fatigué ?",
+          "options": [
+            "êtes",
+            "es",
+            "est",
+            "sommes"
+          ],
+          "correct": 0,
+          "explanation": "主谓倒装，vous 对应 êtes。fatigué 单数说明此处 vous 是尊称。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Reliez : Mathilde et son frère _____ (être) mariés. Je _____ (être) italien, n'est-ce pas ?",
+          "correct": [
+            "sont",
+            "suis"
+          ],
+          "explanation": "第一空主语是复数（ils），用 sont；第二空主语是 Je，用 suis。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Léa et toi, vous ______ en colère.",
+          "options": [
+            "êtes",
+            "sont",
+            "sommes",
+            "es"
+          ],
+          "correct": 0,
+          "explanation": "“... et toi” 结构等同于 vous，变位必须用 êtes。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Complétez avec « c’est » ou « ce sont » : _____ de très bons amis.",
+          "correct": [
+            "Ce sont"
+          ],
+          "explanation": "后面跟随的是复数名词短语 (de très bons amis)，故使用 Ce sont。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：_____ mon livre et mes cahiers.",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Il est",
+            "Ils sont"
+          ],
+          "correct": 0,
+          "explanation": "当后面接一系列名词且第一个名词是单数时，习惯上用 C'est。TCF 考察用于介绍的固定表达。",
+          "category": "语法"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez à la forme négative : C’est un bel hôtel.",
+          "correct": [
+            "Ce n'est pas un bel hôtel."
+          ],
+          "explanation": "C'est 的否定形式是 Ce n'est pas。注意 n' 的省音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Transformez à la forme négative : Ce sont des fraises.",
+          "options": [
+            "Ce ne sont pas des fraises.",
+            "Ce ne sont pas de fraises.",
+            "Ce n'est pas des fraises.",
+            "Ce ne sont pas les fraises."
+          ],
+          "correct": 0,
+          "explanation": "在 être 动词的否定句中，不定冠词 (un, une, des) 不变 de。这是 A1 级别的核心陷阱点。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez avec « c'est » ou « ce sont » : _____ un film magnifique.",
+          "correct": [
+            "C'est"
+          ],
+          "explanation": "后面跟随的是单数名词短语 (un film)，用于指称或介绍，故使用 C'est。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Regardez cette photo, ______ moi !",
+          "options": [
+            "C'est",
+            "Je suis",
+            "Il est",
+            "Ce sont"
+          ],
+          "correct": 0,
+          "explanation": "在强调句或介绍自己/他人时，常用 C'est + 重读人称代词。虽然语意是“我是”，但固定搭配用 C'est moi。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez avec « c'est » ou « ce sont » : _____ nos correspondants espagnols.",
+          "correct": [
+            "Ce sont"
+          ],
+          "explanation": "后面跟随的是复数名词短语 (nos correspondants)，表示“这些是...”，故使用 Ce sont。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：______ mes parents qui arrivent.",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Ils sont",
+            "Il est"
+          ],
+          "correct": 1,
+          "explanation": "这是 C'est... qui... 强调句型。当被强调成分是复数人称时，标准法语应使用 Ce sont。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez avec « c'est » ou « ce sont » : _____ mon professeur de français.",
+          "correct": [
+            "C'est"
+          ],
+          "explanation": "后面是单数名词短语，用 C'est 表示身份介绍。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：_____ Paul ? Non, _____ Marc.",
+          "options": [
+            "Es-tu / je suis",
+            "C'est / c'est",
+            "Est-ce / il est",
+            "C'est / il est"
+          ],
+          "correct": 1,
+          "explanation": "在电话或门后询问/确认身份时，习惯用 C'est。回答也对应使用 C'est。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez avec « c'est » ou « ce sont » : _____ des fraises du Périgord.",
+          "correct": [
+            "Ce sont"
+          ],
+          "explanation": "后面是复数名词 des fraises，表示“这些是...”，使用 Ce sont。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Goûtez ces fruits ! ______ délicieux !",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Il est",
+            "Elles sont"
+          ],
+          "correct": 0,
+          "explanation": "当 C'est 用于评价整体事物（泛指）时，即使指代的是复数名词，口语中也常保持单数形式 C'est 表示“这（味道/这件事）”。",
+          "category": "语法"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez à la forme négative : Ce sont des oranges d'Espagne.",
+          "correct": [
+            "Ce ne sont pas des oranges d'Espagne."
+          ],
+          "explanation": "复数否定形式为 Ce ne sont pas。注意：être 动词后的 des 不变 de。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Ce ______ pas mon professeur.",
+          "options": [
+            "n'est",
+            "ne sont",
+            "n'es",
+            "est"
+          ],
+          "correct": 0,
+          "explanation": "注意主谓一致。虽然省略了 ne，但 mon professeur 是单数，必须匹配 n'est。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Léa, vous _____ (être) en colère ? Mathew _____ (être) informaticien.",
+          "correct": [
+            "êtes",
+            "est"
+          ],
+          "explanation": "第一空对 Léa 使用尊称 vous，变位用 êtes；第二空 Mathew 是单三，用 est。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Oriane et moi, nous ______ magnifiques sur cette photo.",
+          "options": [
+            "est",
+            "êtes",
+            "sommes",
+            "sont"
+          ],
+          "correct": 2,
+          "explanation": "TCF高频组合：A et moi = nous。对应 sommes。注意形容词 magnifiques 需做复数配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ces roses _____ (être) rouges. Marie _____ (être) blonde et petite.",
+          "correct": [
+            "sont",
+            "est"
+          ],
+          "explanation": "复数名词用 sont，单数名词用 est。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：Où ______ mes lunettes ?",
+          "options": [
+            "es",
+            "est",
+            "sont",
+            "sommes"
+          ],
+          "correct": 2,
+          "explanation": "主语在动词后（倒装）。mes lunettes（我的眼镜）是复数，必须用 sont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez à la question : Êtes-vous prêt ? (使用 Je 肯定回答)",
+          "correct": [
+            "Oui, je suis prêt.",
+            "Oui, je suis prête."
+          ],
+          "explanation": "问句使用 vous 可能是尊称。回答用 Je suis。根据性别可加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF陷阱题：_____ -vous français ?",
+          "options": [
+            "Es",
+            "Est",
+            "Êtes",
+            "Sont"
+          ],
+          "correct": 2,
+          "explanation": "主谓倒装，注意首字母大写及连音 [εt-vu]。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous _____ en retard.",
+          "options": [
+            "suis",
+            "sommes",
+            "êtes",
+            "sont"
+          ],
+          "correct": 1,
+          "explanation": "nous → sommes。être 的第一人称复数变位是 sommes。",
+          "category": "être 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Tu _____ française ?",
+          "options": [
+            "es",
+            "est",
+            "suis",
+            "êtes"
+          ],
+          "correct": 0,
+          "explanation": "tu → es。注意 es 和 est 发音相同 /ɛ/，但书面上 tu 只能搭配 es。",
+          "category": "être 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il _____ huit heures du matin.",
+          "options": [
+            "es",
+            "suis",
+            "est",
+            "sont"
+          ],
+          "correct": 2,
+          "explanation": "无人称 il 表示时间，用第三人称单数 est。",
+          "category": "être 用法-时间"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____ des étudiants étrangers.",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Il est",
+            "Ils est"
+          ],
+          "correct": 1,
+          "explanation": "后面 des étudiants 是复数名词，必须用 ce sont。c'est 只用于单数。",
+          "category": "c'est vs ce sont"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la forme négative de « Je suis content » ?",
+          "options": [
+            "Je ne pas suis content.",
+            "Je ne suis pas content.",
+            "Je suis ne pas content.",
+            "Je pas ne suis content."
+          ],
+          "correct": 1,
+          "explanation": "否定结构：ne + 变位动词 + pas → Je ne suis pas content.",
+          "category": "否定结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Vous _____ musiciens ?",
+          "options": [
+            "es",
+            "sommes",
+            "êtes",
+            "est"
+          ],
+          "correct": 2,
+          "explanation": "vous → êtes。注意连读 /vuzɛt/。",
+          "category": "être 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte :",
+          "options": [
+            "Je suis un médecin.",
+            "Je suis médecin.",
+            "Je suis le médecin.",
+            "Je suis de médecin."
+          ],
+          "correct": 1,
+          "explanation": "法语表示职业时不加冠词：Je suis médecin. 除非有形容词修饰（Je suis un bon médecin）。",
+          "category": "être 用法-职业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Marie et Sophie _____ contentes.",
+          "options": [
+            "est",
+            "sommes",
+            "êtes",
+            "sont"
+          ],
+          "correct": 3,
+          "explanation": "Marie et Sophie = elles（第三人称复数）→ sont。contentes 是阴性复数形式。",
+          "category": "être 变位+性数配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (être) à la maison ce soir.",
+          "correct": [
+            "est"
+          ],
+          "explanation": "on 按第三人称单数变位 → est。虽然 on 常指 nous，但语法上始终用单数。",
+          "category": "être 变位-on"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (être) en voyage depuis lundi.",
+          "correct": [
+            "sont"
+          ],
+          "explanation": "elles → sont。en voyage 是固定搭配，表示\"在旅途中\"。",
+          "category": "être 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez la négation : C'est un bon film. → Ce _____ un bon film.",
+          "options": [
+            "n'est pas",
+            "ne sont pas",
+            "ne suis pas",
+            "n'es pas"
+          ],
+          "correct": 0,
+          "explanation": "C'est 的否定是 Ce n'est pas。注意 ne 在元音 est 前缩写为 n'。",
+          "category": "c'est 否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je _____ être en retard demain.",
+          "options": [
+            "vais",
+            "suis",
+            "ai",
+            "va"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时 = aller（现在时变位）+ 动词原形。je → vais être。",
+          "category": "futur proche + être"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les phrases suivantes, lesquelles sont correctes ?",
+          "options": [
+            "Nous sommes contents.",
+            "Vous sont fatigués.",
+            "Elles sont américaines.",
+            "Tu suis malade."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 正确：nous→sommes。C 正确：elles→sont + américaines（阴性复数）。B 错：vous→êtes（不是 sont）。D 错：tu→es（不是 suis，suis 只用于 je）。",
+          "category": "综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Hier, j'_____ (être, passé composé) très fatigué.",
+          "correct": [
+            "ai été"
+          ],
+          "explanation": "être 的复合过去时用 avoir 作助动词：avoir + été → j'ai été。",
+          "category": "passé composé de être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « vous êtes », la liaison se prononce :",
+          "options": [
+            "/vuzɛt/",
+            "/vuɛt/",
+            "/vusɛt/",
+            "/vuzɛ/"
+          ],
+          "correct": 0,
+          "explanation": "vous êtes 必须连读，s 发 /z/ 音 → /vuzɛt/。这是 TCF 听力辨音的高频考点。",
+          "category": "发音-连读"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1gBGpY9NgAc3OiamrvBRPD4AgaJLPcclM_SSobV8frUg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771908690409-gs2irnmj6n",
+          "front": "être 变位：je",
+          "back": "suis /sɥi/"
+        },
+        {
+          "id": "1771908690409-lqyc46e11q",
+          "front": "être 变位：tu",
+          "back": "es /ɛ/"
+        },
+        {
+          "id": "1771908690409-8w8495rvmyq",
+          "front": "être 变位：il / elle / on",
+          "back": "est /ɛ/"
+        },
+        {
+          "id": "1771908690409-mt488ye4md",
+          "front": "être 变位：nous",
+          "back": "sommes /sɔm/"
+        },
+        {
+          "id": "1771908690409-n3eqqsp34tq",
+          "front": "être 变位：vous",
+          "back": "êtes /ɛt/"
+        },
+        {
+          "id": "1771908690409-2y6pvrnistt",
+          "front": "être 变位：ils / elles",
+          "back": "sont /sɔ̃/"
+        },
+        {
+          "id": "1771908690409-yxgism9vkn",
+          "front": "vous êtes 怎么连读？",
+          "back": "/vuzɛt/，s 发 /z/ 音，必须连读"
+        },
+        {
+          "id": "1771908690409-zsubb045z1s",
+          "front": "on est 怎么连读？",
+          "back": "/ɔ̃nɛ/，n 连上去（口语常见）"
+        },
+        {
+          "id": "1771908690409-buq8hwvaxe7",
+          "front": "être 表示职业时要不要加冠词？",
+          "back": "不加冠词！\nJe suis médecin. ✅\nJe suis un médecin. ❌\n（除非后有形容词修饰：Je suis un bon médecin.）"
+        },
+        {
+          "id": "1771908690409-te3hk4xu9re",
+          "front": "être en retard",
+          "back": "迟到\nIls sont en retard."
+        },
+        {
+          "id": "1771908690409-watyaeox98n",
+          "front": "être à l'heure",
+          "back": "准时\nElle est toujours à l'heure."
+        },
+        {
+          "id": "1771908690409-hafgswmn3js",
+          "front": "être en colère",
+          "back": "生气\nTu es en colère ?"
+        },
+        {
+          "id": "1771908690409-c8l59qwwl5",
+          "front": "être en forme",
+          "back": "状态好\nNous sommes en forme."
+        },
+        {
+          "id": "1771908690409-5oap3c8agqb",
+          "front": "être en voyage",
+          "back": "在旅途中\nIls sont en voyage."
+        },
+        {
+          "id": "1771908690409-8lois9ok4r",
+          "front": "être pressé(e)",
+          "back": "赶时间\nVous êtes pressés ?"
+        },
+        {
+          "id": "1771908690409-rfbcqwfuhfi",
+          "front": "用法语说“现在八点”",
+          "back": "Il est huit heures.\n（il 为无人称主语）"
+        },
+        {
+          "id": "1771908690409-3dhlhstpdb5",
+          "front": "c'est 用于什么情况？",
+          "back": "后面接单数名词\nC'est ma voiture.\nC'est un ami."
+        },
+        {
+          "id": "1771908690409-91yqos70zqe",
+          "front": "ce sont 用于什么情况？",
+          "back": "后面接复数名词\nCe sont mes enfants.\nCe sont des oranges."
+        },
+        {
+          "id": "1771908690409-lv5ci7w10q",
+          "front": "C'est un bel hôtel. 变否定",
+          "back": "Ce n'est pas un bel hôtel.\n（ne 在元音前缩为 n'）"
+        },
+        {
+          "id": "1771908690409-k2tvhuubvmd",
+          "front": "Ce sont des fruits. 变否定",
+          "back": "Ce ne sont pas des fruits."
+        },
+        {
+          "id": "1771908690409-56h5wwijyc",
+          "front": "être 的否定结构是什么？",
+          "back": "ne + être变位 + pas\nJe ne suis pas triste.\nIl n'est pas français."
+        },
+        {
+          "id": "1771908690409-4rgyc1jgszw",
+          "front": "ne 什么时候缩写为 n'？",
+          "back": "在元音前缩写\nil n'est pas / on n'est pas / elle n'est pas"
+        },
+        {
+          "id": "1771908690409-jwbjcspcqgo",
+          "front": "être 的复合过去时（passé composé）怎么构成？",
+          "back": "avoir + été\nJ'ai été malade.\nNous avons été surpris."
+        },
+        {
+          "id": "1771908690409-lnwmjolwy48",
+          "front": "être 的最近将来时（futur proche）怎么构成？",
+          "back": "aller（现在时）+ être\nJe vais être en retard.\nIls vont être contents."
+        },
+        {
+          "id": "1771908690409-1fyhy3xsv3k",
+          "front": "es 和 est 怎么区分？",
+          "back": "发音相同 /ɛ/\n书面靠主语区分：tu → es，il/elle → est"
+        },
+        {
+          "id": "1771908690409-5rewtuldm2e",
+          "front": "on 用 être 的哪个变位？",
+          "back": "est（第三人称单数）\nOn est à la maison.\n虽然 on 常指 nous，语法上用单数"
+        }
+      ]
+    },
+    {
       "id": 1771908059497,
       "name": "Unit 1 PRÉSENT AVOIR",
       "folderId": "1771907837913",
@@ -29837,10 +30740,6 @@
       "name": "A1课文"
     },
     {
-      "id": "1771907796346",
-      "name": "Con ju"
-    },
-    {
       "id": "1771907837913",
       "name": "Conjugaison训练"
     }
@@ -29857,6 +30756,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T04:44:23.947Z",
+  "exportedAt": "2026-02-24T04:54:58.537Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
