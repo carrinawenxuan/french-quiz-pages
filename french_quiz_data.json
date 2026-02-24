@@ -1,6 +1,1839 @@
 {
   "savedSets": [
     {
+      "id": 1771954325399,
+      "name": "Unit 1 PRÉSENT  情态动词：pouvoir / vouloir / devoir / falloir / savoir",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T17:32:05.399Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Reliez: Ses parents sont d'accord. Ils _____ venir au concert.",
+          "options": [
+            "peuvent",
+            "pouvons",
+            "peut",
+            "peuvez"
+          ],
+          "correct": 0,
+          "explanation": "原题 1-3/a。主语 'Ses parents' 等于复数第三人称 'Ils'，pouvoir 的变位为 peuvent。注意 ent 不发音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱 (连音测试): Ils _____ (pouvoir) arriver à l'heure.",
+          "options": [
+            "peux",
+            "peuvent",
+            "peuvent s'",
+            "peuve"
+          ],
+          "correct": 1,
+          "explanation": "TCF 常考 peuvent 后接元音开头的动词。注意 ils peuvent /pœv/ 与 il peut /pø/ 的发音区别，且变位结尾必须是 -ent。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que nous _____ (pouvoir) commencer ?",
+          "correct": [
+            "pouvons"
+          ],
+          "explanation": "原题 1-d。nous 人称对应的 pouvoir 变位是 pouvons，词根由 peu- 变为 pouv-。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱 (第一人称倒装): _____ -je (pouvoir) vous aider ?",
+          "correct": [
+            "Puis"
+          ],
+          "explanation": "TCF 高阶陷阱。在疑问句倒装中，je 后面不能用 peux-je，必须使用特殊形式 Puis-je。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Complétez: Tu _____ venir à la plage ? (vouloir)",
+          "correct": [
+            "veux"
+          ],
+          "explanation": "原题 2-1。vouloir 的单数变位以 x 结尾：je veux, tu veux。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "TCF 陷阱 (否定句): Ils ne _____ (vouloir) pas sortir ce soir.",
+          "correct": [
+            "veulent"
+          ],
+          "explanation": "注意 vouloir 的复数第三人称词根变为 veul-，结尾加 -ent。否定结构为 ne...pas 包围助动词。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "- Qu'est-ce que vous _____ faire ce soir ? - Nous _____ aller au restaurant. (vouloir)",
+          "correct": [
+            "voulez",
+            "voulons"
+          ],
+          "explanation": "原题 3 选段。vous 对应 voulez，nous 对应 voulons。注意词根中 ou 的保留。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 陷阱 (无人称句): Il _____ (falloir) réserver. Il _____ (vouloir) une table.",
+          "correct": [
+            "faut",
+            "veut"
+          ],
+          "explanation": "区分 falloir (无人称，仅 il faut) 和 vouloir (他想要 il veut)。TCF 常在段落中混淆这两个词。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Utilisez 'devoir': Vous _____ (changer) de train.",
+          "options": [
+            "dois",
+            "doit",
+            "devez",
+            "doivent"
+          ],
+          "correct": 2,
+          "explanation": "原题 4-1。vous 对应的 devoir 变位是 devez。口诀：nous/vous 词根通常回归不定式 (dev-)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱 (概率表达): Elle _____ (devoir) être malade, elle est très pâle.",
+          "options": [
+            "doive",
+            "dois",
+            "doit",
+            "devait"
+          ],
+          "correct": 2,
+          "explanation": "devoir 除了表示义务，在 TCF 中常考表示“推测/可能性”。三人称单数是 doit。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour aller à l'opéra, il _____ (falloir) prendre le métro.",
+          "correct": [
+            "faut"
+          ],
+          "explanation": "原题 4 类推。falloir 是无人称动词，只有 il faut 一种现在时形式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱 (代词混淆): _____ (Savoir) - vous où se trouve la gare ?",
+          "correct": [
+            "Savez"
+          ],
+          "explanation": "注意 savoir 的 vous 变位是 savez。注意区分 savoir (知道信息) 和 connaître (认识某人/地)。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mes parents _____ (savoir) tout faire; mon frère et moi, nous _____ (savoir) cuisiner.",
+          "correct": [
+            "savent",
+            "savons"
+          ],
+          "explanation": "原题 5 变形。mes parents (ils) 对应 savent；mon frère et moi (nous) 对应 savons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 陷阱 (读音/拼写): Nous _____ [z] un chien. Nous _____ [s] nager.",
+          "correct": [
+            "avons",
+            "savons"
+          ],
+          "explanation": "TCF 听力/语法核心陷阱：区分 avons (有) 和 savons (知道)。[z] 音对应 avons，[s] 音对应 savons。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Reliez: Tu viens avec nous ? - Je ne _____ pas sortir, je suis malade.",
+          "options": [
+            "peux",
+            "peut",
+            "pouvons",
+            "peuvent"
+          ],
+          "correct": 0,
+          "explanation": "原题 1-2/b。je 对应的 pouvoir 变位是 peux。注意以 x 结尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱 (情态动词组合): Je _____ (vouloir) _____ (sortir) ce soir.",
+          "options": [
+            "veux sors",
+            "veux sortir",
+            "voulons sortons",
+            "veut sortir"
+          ],
+          "correct": 1,
+          "explanation": "TCF 经典考点：两个动词连用，第一个变位，第二个用原形。je 对应 veux，后接原形 sortir。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez: Elle ne _____ pas prendre le métro ? (vouloir)",
+          "correct": [
+            "veut"
+          ],
+          "explanation": "原题 2-3。elle 对应的 vouloir 变位是 veut，词尾是 t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱 (同音异形): Il _____ (savoir) qu'il _____ (devoir) partir.",
+          "correct": [
+            "sait",
+            "doit"
+          ],
+          "explanation": "TCF 语法基础：savoir 和 devoir 的三人称单数均为 -t 结尾（sait / doit）。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "- On _____ dîner pour 80 F sans le vin. - Eh bien moi, je _____ bien aller à la Corniche. (pouvoir/vouloir)",
+          "correct": [
+            "peut",
+            "veux"
+          ],
+          "explanation": "原题 3 选段。on 视为单数第三人称，对应 peut；je 对应 veux。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 陷阱 (主语一致性): Tout le monde _____ (pouvoir) entrer, car ils _____ (avoir) un billet.",
+          "correct": [
+            "peut",
+            "ont"
+          ],
+          "explanation": "TCF 高频考点：Tout le monde 虽然指代多人，但语法上是单数第三人称 (il)，所以用 peut。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez: Prendre rendez-vous (Tu) -> _____",
+          "correct": [
+            "Tu dois prendre rendez-vous."
+          ],
+          "explanation": "原题 4-2。使用 devoir 表达义务：Tu 对应 dois，后面接动词原形。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "TCF 陷阱 (无人称转换): Transformez 'Tu dois partir' avec 'Falloir' -> _____",
+          "correct": [
+            "Il faut partir."
+          ],
+          "explanation": "TCF 必考转换：将人称化的 devoir (tu dois) 转换为无人称的 falloir (il faut)。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans ma famille, mes jeunes sœurs _____ (savoir) chanter.",
+          "options": [
+            "sait",
+            "savez",
+            "savent",
+            "savons"
+          ],
+          "correct": 2,
+          "explanation": "原题 5 选段。mes jeunes sœurs 是复数第三人称 (elles)，savoir 变位为 savent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱 (近将来时): Elles _____ (savoir) bientôt la vérité.",
+          "options": [
+            "vont savoir",
+            "vont savent",
+            "vas savoir",
+            "vont saura"
+          ],
+          "correct": 0,
+          "explanation": "TCF A2 考点：aller + 原形构成近将来时。elles 对应 vont，savoir 保持原形。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que tu _____ m'aider ? (pouvoir)",
+          "correct": [
+            "peux"
+          ],
+          "explanation": "原题 1-f。tu 对应的 pouvoir 变位是 peux。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱 (否定疑问): Ne _____ (pouvoir) - vous pas m'aider ?",
+          "correct": [
+            "pouvez"
+          ],
+          "explanation": "在否定疑问句倒装中，动词变位依然根据主语 vous 确定为 pouvez。",
+          "category": "TCF 语法陷阱"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在复数第一人称 (nous) 时词根包含 'uv' 或 'oul'？",
+          "options": [
+            "pouvoir",
+            "vouloir",
+            "devoir",
+            "savoir"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "nous pouvons, nous voulons, nous devons。savoir 变为 savons，不含这些字母。",
+          "category": "变位逻辑"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "TCF 辨析：哪些句子表达的是“能力 (Capacité)”而非“义务”？",
+          "options": [
+            "Il sait lire.",
+            "Il peut nager.",
+            "Il doit partir.",
+            "Il faut étudier."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "savoir + infinitif 和 pouvoir (表示物理/智力能力) 属于能力范畴；devoir 和 falloir 属于义务。",
+          "category": "TCF 语义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Est-ce que je _____ ouvrir la fenêtre ?",
+          "options": [
+            "peux",
+            "peut",
+            "pouvons",
+            "peux pas"
+          ],
+          "correct": 0,
+          "explanation": "主语 je → peux。表示请求许可 pouvoir + inf.",
+          "category": "pouvoir 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ils ne _____ pas venir ce soir.",
+          "options": [
+            "peut",
+            "pouvez",
+            "peux",
+            "peuvent"
+          ],
+          "correct": 3,
+          "explanation": "主语 ils → peuvent。否定结构 ne + peuvent + pas。",
+          "category": "pouvoir 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous _____ aller à la banque avant midi.",
+          "options": [
+            "doit",
+            "devons",
+            "doivent",
+            "dois"
+          ],
+          "correct": 1,
+          "explanation": "主语 nous → devons。表义务 devoir + inf.",
+          "category": "devoir 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte :",
+          "options": [
+            "Je faut partir maintenant.",
+            "Il faut partir maintenant.",
+            "Nous fallons partir maintenant.",
+            "Tu faut partir maintenant."
+          ],
+          "correct": 1,
+          "explanation": "falloir 是无人称动词，只有 il faut 一种形式，其他主语全部错误。",
+          "category": "falloir 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ nager depuis l'âge de 5 ans.",
+          "options": [
+            "peut",
+            "sait",
+            "veut",
+            "doit"
+          ],
+          "correct": 1,
+          "explanation": "从5岁起就会游泳——表示学会的技能，用 savoir，不用 pouvoir。elle → sait。",
+          "category": "savoir vs pouvoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous voulez un dessert ? — Oui, je _____ bien.",
+          "options": [
+            "veux",
+            "voulons",
+            "veulent",
+            "voulez"
+          ],
+          "correct": 0,
+          "explanation": "je veux bien = 礼貌接受\"好的，我愿意\"。主语 je → veux。",
+          "category": "vouloir 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase exprime une probabilité ?",
+          "options": [
+            "Il doit aller chez le médecin. (son père l'oblige)",
+            "Il doit être fatigué. (il a travaillé toute la nuit)",
+            "Il faut partir tout de suite.",
+            "Il sait conduire."
+          ],
+          "correct": 1,
+          "explanation": "doit être fatigué = 他应该是累了（推测/可能性）。A 是义务，C 是必要性，D 是技能。",
+          "category": "devoir 推测 vs 义务"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Tu _____ prendre rendez-vous chez le dentiste.",
+          "options": [
+            "doit",
+            "dois",
+            "devez",
+            "doivent"
+          ],
+          "correct": 1,
+          "explanation": "主语 tu → dois。",
+          "category": "devoir 变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 ne...pas 的位置是正确的？",
+          "options": [
+            "Je ne peux pas sortir.",
+            "Il ne faut pas toucher.",
+            "Je peux ne pas sortir.",
+            "Ils ne peuvent pas venir."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A、B、D 都是标准否定（ne 夹情态动词 pas）。C 语法上成立但意思是\"我能够不出去\"，不是对 pouvoir 的否定，在 TCF 语境下通常不是正确答案。",
+          "category": "否定结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Il faut réserver à l'avance.\" 的同义改写是：",
+          "options": [
+            "Il doit réserver à l'avance.",
+            "On doit réserver à l'avance.",
+            "Je faut réserver à l'avance.",
+            "Il veut réserver à l'avance."
+          ],
+          "correct": 1,
+          "explanation": "il faut + inf. = on doit + inf.（泛指的\"必须\"）。A 的 il doit 变成了特指\"他必须\"，语义改变。C 语法错误。D 是\"他想要\"，语义不同。",
+          "category": "falloir vs devoir 互换"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne _____ (savoir) pas où elle habite.",
+          "correct": [
+            "savons"
+          ],
+          "explanation": "主语 nous → savons。否定结构：ne savons pas。",
+          "category": "savoir 变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Qu'est-ce que vous _____ (vouloir) faire demain ?",
+          "correct": [
+            "voulez"
+          ],
+          "explanation": "主语 vous → voulez。",
+          "category": "vouloir 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Le médecin dit que tu _____ nager maintenant, ta jambe va mieux.\n— Super !",
+          "options": [
+            "sais",
+            "peux",
+            "veux",
+            "dois"
+          ],
+          "correct": 1,
+          "explanation": "医生说你现在\"可以/能\"游泳了（身体条件允许）→ pouvoir。不是 savoir（技能），不是 vouloir（意愿），不是 devoir（义务）。",
+          "category": "pouvoir vs savoir 语境辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Dans ma famille, mon père _____ (savoir) cuisiner, mes sœurs _____ (savoir) jouer du piano, et moi, je _____ (savoir) parler trois langues.",
+          "correct": [
+            "sait",
+            "savent",
+            "sais"
+          ],
+          "explanation": "mon père（单数）→ sait；mes sœurs（复数）→ savent；je → sais。",
+          "category": "savoir 多人称变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, il a _____ attendre deux heures à l'aéroport.",
+          "options": [
+            "fallu",
+            "dû",
+            "falloir",
+            "devoir"
+          ],
+          "correct": 0,
+          "explanation": "il a fallu = falloir 的复合过去时。主语是无人称 il，助动词 avoir + 过去分词 fallu。dû 也表\"不得不\"但需要具体主语（如 j'ai dû）。",
+          "category": "falloir 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ venir hier, j'étais malade.",
+          "options": [
+            "su",
+            "pu",
+            "voulu",
+            "dû"
+          ],
+          "correct": 1,
+          "explanation": "\"我昨天没能来\"——外在条件不允许（生病了），用 pouvoir 的过去分词 pu。su 是\"知道\"，voulu 是\"想要\"，dû 是\"不得不\"。",
+          "category": "pouvoir 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : On _____ dîner pour 20 euros dans ce restaurant.",
+          "options": [
+            "veut",
+            "sait",
+            "peut",
+            "doit"
+          ],
+          "correct": 2,
+          "explanation": "\"在这家餐厅可以花20欧吃饭\"——表客观可能性，用 pouvoir。on → peut。",
+          "category": "pouvoir 语境"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention ! Vous ne _____ pas confondre « nous avons » /z/ et « nous savons » /s/.",
+          "options": [
+            "devez",
+            "pouvez",
+            "savez",
+            "voulez"
+          ],
+          "correct": 0,
+          "explanation": "\"你们不应该混淆……\"——这是告诫/义务，用 devoir。vous → devez。pouvez（能力）和 savez（知道）语义不匹配。",
+          "category": "devoir 用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词的过去分词只有一个音节？",
+          "options": [
+            "pouvoir → pu",
+            "vouloir → voulu",
+            "savoir → su",
+            "devoir → dû"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "pu（1音节）、su（1音节）、dû（1音节）都是单音节。voulu 是两个音节 /vu.ly/。",
+          "category": "过去分词辨识"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu viens à la fête ?\n— Non, je ne _____ pas, je _____ travailler ce soir.",
+          "options": [
+            "peux / dois",
+            "sais / faut",
+            "veux / sais",
+            "dois / peux"
+          ],
+          "correct": 0,
+          "explanation": "\"我不能来，我今晚必须工作。\"第一空：外在条件不允许 → ne peux pas；第二空：有义务 → dois。",
+          "category": "pouvoir + devoir 综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il va _____ partir plus tôt demain.",
+          "options": [
+            "falloir",
+            "faut",
+            "fallu",
+            "fallait"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时结构：aller + 不定式。falloir 是不定式原形。il va falloir = 将必须。faut 是现在时变位形式，不能接在 aller 后面。",
+          "category": "falloir 最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon fils a 3 ans. Il ne _____ pas encore lire.",
+          "options": [
+            "peut",
+            "sait",
+            "veut",
+            "doit"
+          ],
+          "correct": 1,
+          "explanation": "3岁的孩子\"还不会\"读书——尚未习得该技能，用 savoir。不是 pouvoir（不是能力/许可问题）。",
+          "category": "savoir vs pouvoir 深度辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Qu'est-ce que tu _____ (vouloir) manger ?\n— Je ne _____ (savoir) pas... Est-ce qu'on _____ (pouvoir) commander une pizza ?\n— Oui, mais il _____ (falloir) appeler avant 22h.",
+          "correct": [
+            "veux",
+            "sais",
+            "peut",
+            "faut"
+          ],
+          "explanation": "veux（tu 的 vouloir）；sais（je 的 savoir，\"我不知道\"）；peut（on 的 pouvoir，\"咱们能不能\"）；faut（il faut，\"必须\"）。四个情态动词在同一对话中交替出现。",
+          "category": "四动词综合对话"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ parler japonais et coréen.",
+          "options": [
+            "savent",
+            "peuvent",
+            "savent pas",
+            "pouvent"
+          ],
+          "correct": 0,
+          "explanation": "会说日语和韩语——习得的语言技能，用 savoir。elles → savent。pouvent 不存在（正确形式是 peuvent），直接排除。",
+          "category": "savoir 变位 + 拼写陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ rester calme pendant tout l'examen.",
+          "options": [
+            "su",
+            "pu",
+            "dû",
+            "voulu"
+          ],
+          "correct": 0,
+          "explanation": "\"他做到了在整场考试中保持冷静\"——a su + inf. 表示\"成功做到了某事\"（强调克服困难后的成功），这是 savoir 复合过去时的特殊用法，属于 B1/B2 加分考点。pu 强调的是客观能力，dû 是被迫，voulu 是意愿。",
+          "category": "savoir 复合过去时高阶用法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1co5YklRWmUhTRfXnirzcLjd3AB12muLS_xQKm94W-lc/edit?tab=t.0#heading=h.nkzhyqlbk9lo"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771956132964-kfs4rutn3oo",
+          "front": "pouvoir 的主语 je 变位（现在时）",
+          "back": "je peux /pø/"
+        },
+        {
+          "id": "1771956132964-outcyilclpl",
+          "front": "pouvoir 的主语 tu 变位（现在时）",
+          "back": "tu peux /pø/\n⚠️ 和 je 同形！"
+        },
+        {
+          "id": "1771956132964-4h61dt16nsp",
+          "front": "pouvoir 的主语 il/elle/on 变位（现在时）",
+          "back": "il peut /pø/\n尾巴 t 不发音，联诵时发"
+        },
+        {
+          "id": "1771956132964-yax7tfb1xtb",
+          "front": "pouvoir 的主语 nous 变位（现在时）",
+          "back": "nous pouvons /pu.vɔ̃/\n词根从 peu- 变为 pouv-"
+        },
+        {
+          "id": "1771956132964-utrwzwoonr",
+          "front": "pouvoir 的主语 vous 变位（现在时）",
+          "back": "vous pouvez /pu.ve/"
+        },
+        {
+          "id": "1771956132964-iksk484tc09",
+          "front": "pouvoir 的主语 ils/elles 变位（现在时）",
+          "back": "ils peuvent /pœv/\n词根回到 peuv-，-ent 不发音"
+        },
+        {
+          "id": "1771956132964-u8lqzdo9xpb",
+          "front": "pouvoir 的过去分词",
+          "back": "pu\n助动词用 avoir → j'ai pu"
+        },
+        {
+          "id": "1771956132964-9izgbay8haq",
+          "front": "pouvoir + inf. 表示什么？",
+          "back": "1. 能力：Il peut nager seul.\n2. 许可：Est-ce que je peux ouvrir la fenêtre ?"
+        },
+        {
+          "id": "1771956132964-aphr0f1dhtc",
+          "front": "vouloir 的主语 je 变位（现在时）",
+          "back": "je veux /vø/"
+        },
+        {
+          "id": "1771956132964-gvbfug5sczn",
+          "front": "vouloir 的主语 tu 变位（现在时）",
+          "back": "tu veux /vø/"
+        },
+        {
+          "id": "1771956132964-7bs2s3ohmv2",
+          "front": "vouloir 的主语 il/elle/on 变位（现在时）",
+          "back": "il veut /vø/"
+        },
+        {
+          "id": "1771956132964-vhnxos8jg1k",
+          "front": "vouloir 的主语 nous 变位（现在时）",
+          "back": "nous voulons /vu.lɔ̃/"
+        },
+        {
+          "id": "1771956132964-kxvfq4xsm2d",
+          "front": "vouloir 的主语 vous 变位（现在时）",
+          "back": "vous voulez /vu.le/"
+        },
+        {
+          "id": "1771956132964-2mp3573hfm9",
+          "front": "vouloir 的主语 ils/elles 变位（现在时）",
+          "back": "ils veulent /vœl/\n⚠️ 不是 *voulent"
+        },
+        {
+          "id": "1771956132964-nm6oxl4zti7",
+          "front": "vouloir 的过去分词",
+          "back": "voulu\n助动词用 avoir → j'ai voulu"
+        },
+        {
+          "id": "1771956132964-m5d2qg1eqzd",
+          "front": "\"Je veux bien\" 是什么意思？",
+          "back": "= 好的，我愿意（礼貌接受）\n≠ 我很想要\nTCF 听力高频考点！"
+        },
+        {
+          "id": "1771956132964-zn7xb9tzpwb",
+          "front": "devoir 的主语 je 变位（现在时）",
+          "back": "je dois /dwa/"
+        },
+        {
+          "id": "1771956132964-lua12yyvcym",
+          "front": "devoir 的主语 tu 变位（现在时）",
+          "back": "tu dois /dwa/"
+        },
+        {
+          "id": "1771956132964-a3w08mtr55",
+          "front": "devoir 的主语 il/elle/on 变位（现在时）",
+          "back": "il doit /dwa/"
+        },
+        {
+          "id": "1771956132964-zgyrm4bfiue",
+          "front": "devoir 的主语 nous 变位（现在时）",
+          "back": "nous devons /də.vɔ̃/"
+        },
+        {
+          "id": "1771956132964-e2bx1sswhfj",
+          "front": "devoir 的主语 vous 变位（现在时）",
+          "back": "vous devez /də.ve/"
+        },
+        {
+          "id": "1771956132964-kev7e5rkmt",
+          "front": "devoir 的主语 ils/elles 变位（现在时）",
+          "back": "ils doivent /dwav/"
+        },
+        {
+          "id": "1771956132964-6708z3c4xe",
+          "front": "devoir 的过去分词",
+          "back": "dû（注意 accent circonflexe）\n阴性 due，阳复 dus，阴复 dues\n助动词 avoir → j'ai dû"
+        },
+        {
+          "id": "1771956132964-j9f5dz7ly3s",
+          "front": "devoir + inf. 的两个含义？",
+          "back": "1. 义务：Nous devons partir.（我们必须走）\n2. 推测：Elle doit être malade.（她应该是病了）"
+        },
+        {
+          "id": "1771956132964-23cfvop8yhi",
+          "front": "dû vs du 怎么区分？",
+          "back": "dû = devoir 的过去分词（有 ˆ）\ndu = de + le 的缩合冠词（无 ˆ）"
+        },
+        {
+          "id": "1771956132964-y9kmu6bbyy8",
+          "front": "falloir 怎么变位？",
+          "back": "⚠️ 只有一个形式：il faut\n无人称动词，没有其他人称"
+        },
+        {
+          "id": "1771956132964-q7jtfg2ena",
+          "front": "falloir 的过去分词",
+          "back": "fallu\n→ il a fallu + inf.\n表示“不得不……”"
+        },
+        {
+          "id": "1771956132964-c43nf9g8kg5",
+          "front": "falloir 的最近将来时",
+          "back": "il va falloir + inf.\n表示“将必须……”"
+        },
+        {
+          "id": "1771956132964-memyoct0tl",
+          "front": "il faut + inf. 的同义改写",
+          "back": "= on doit + inf.\n⚠️ il doit 变成特指“他必须”，语义不同"
+        },
+        {
+          "id": "1771956132964-nhlz4nh9hnn",
+          "front": "savoir 的主语 je 变位（现在时）",
+          "back": "je sais /sɛ/"
+        },
+        {
+          "id": "1771956132964-9xjhoe68mda",
+          "front": "savoir 的主语 tu 变位（现在时）",
+          "back": "tu sais /sɛ/"
+        },
+        {
+          "id": "1771956132964-7cc5318te78",
+          "front": "savoir 的主语 il/elle/on 变位（现在时）",
+          "back": "il sait /sɛ/"
+        },
+        {
+          "id": "1771956132964-697d4xwb0gy",
+          "front": "savoir 的主语 nous 变位（现在时）",
+          "back": "nous savons /sa.vɔ̃/\n⚠️ savons 的 s 发 /s/，不是 /z/"
+        },
+        {
+          "id": "1771956132964-e32peaaqm8",
+          "front": "savoir 的主语 vous 变位（现在时）",
+          "back": "vous savez /sa.ve/\n⚠️ savez 的 s 发 /s/\nvs vous avez 的 s 发 /z/"
+        },
+        {
+          "id": "1771956132964-k9ooh5ov4hk",
+          "front": "savoir 的主语 ils/elles 变位（现在时）",
+          "back": "ils savent /sav/"
+        },
+        {
+          "id": "1771956132964-jm2lt7mt68h",
+          "front": "savoir 的过去分词",
+          "back": "su\n助动词 avoir → j'ai su"
+        },
+        {
+          "id": "1771956132964-ef10kyh46fh",
+          "front": "savoir + inf. 表示什么？",
+          "back": "表学会的技能/知识\nElle sait conduire. 她会开车。\nIl sait où elle habite. 他知道她住哪。"
+        },
+        {
+          "id": "1771956132964-efwcnagvtc",
+          "front": "savoir vs pouvoir 怎么区分？",
+          "back": "savoir = 脑子里学过了（技能）\npouvoir = 环境/身体允许（条件）\nElle sait nager.（学过了）\nElle peut nager ici.（这里允许游）"
+        },
+        {
+          "id": "1771956132964-q9god9v0xj",
+          "front": "\"il a su + inf.\" 的特殊含义",
+          "back": "= 他成功做到了……（克服困难）\nIl a su rester calme.\nB1/B2 加分表达"
+        },
+        {
+          "id": "1771956132964-m44tl768y1b",
+          "front": "五个情态动词的句型骨架",
+          "back": "pouvoir + inf.\nvouloir + inf. / nom\ndevoir + inf. / nom\nil faut + inf. / nom\nsavoir + inf. / 从句"
+        },
+        {
+          "id": "1771956132964-z1p0p1sx6wd",
+          "front": "情态动词否定结构的 ne...pas 位置",
+          "back": "ne + 情态动词 + pas + inf.\n✅ Je ne peux pas sortir.\n✅ Il ne faut pas toucher.\n⚠️ ne...pas 夹的是情态动词本身"
+        },
+        {
+          "id": "1771956132964-af751vo9skn",
+          "front": "pouvoir/vouloir/devoir 的共同变位特征",
+          "back": "靴子动词（boot verb）：\nje/tu/il/ils → 词根 A\nnous/vous → 词根 B\n如：peux/peuvent vs pouvons/pouvez"
+        }
+      ]
+    },
+    {
+      "id": 1771953795482,
+      "name": "Unit 1 PRÉSENT  ALLER / VENIR / FAIRE",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T17:23:15.482Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ au cinéma.",
+          "correct": [
+            "vont"
+          ],
+          "explanation": "动词 aller 的第三人称复数变位为 vont。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Les enfants _____ à la bibliothèque demain.",
+          "options": [
+            "vont",
+            "allons",
+            "va",
+            "allez"
+          ],
+          "correct": 0,
+          "explanation": "主语 les enfants 等于 ils，选 vont。注意 futur proche 结构也常考。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que tu _____ bien ?",
+          "correct": [
+            "vas"
+          ],
+          "explanation": "动词 aller 的第二人称单数变位为 vas。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Comment _____ -tu ? (注意连字号与主谓倒装)",
+          "correct": [
+            "vas"
+          ],
+          "explanation": "倒装句中 tu 的变位依然保持 vas，s 不省略。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne _____ pas à l'Opéra.",
+          "correct": [
+            "vais"
+          ],
+          "explanation": "动词 aller 的第一人称单数变位为 vais。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ m'en _____ tout de suite. (s'en aller)",
+          "correct": [
+            "vais",
+            "aller"
+          ],
+          "explanation": "近将来时结构：aller(变位) + 动词原形。s'en aller 的 se 随主语变为 me。",
+          "category": "动词变位-s'en aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Jean et moi _____ à la piscine.",
+          "correct": [
+            "allons"
+          ],
+          "explanation": "Jean et moi 等于 nous，所以动词用 allons。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Toi et ta sœur _____ au Japon cet été ?",
+          "options": [
+            "vont",
+            "allez",
+            "allons",
+            "vas"
+          ],
+          "correct": 1,
+          "explanation": "Toi et ... 等于 vous，动词变位选 allez。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ à Londres en avion.",
+          "correct": [
+            "va"
+          ],
+          "explanation": "动词 aller 的第三人称单数变位为 va。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ de _____ à Londres. (venir)",
+          "correct": [
+            "vient",
+            "partir"
+          ],
+          "explanation": "最近过去时：venir de + infinitif。注意不要丢掉 de。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ au bureau à pied ?",
+          "correct": [
+            "allez"
+          ],
+          "explanation": "动词 aller 的第二人称复数变位为 allez。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que vous _____ de _____ à pied ? (venir)",
+          "correct": [
+            "venez",
+            "venir"
+          ],
+          "explanation": "考察 venir de + 动词原形。注意 venez 的词干 e 不变 ie。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ au restaurant.",
+          "correct": [
+            "va"
+          ],
+          "explanation": "代词 on 视同第三人称单数 il，变位为 va。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (faire) du sport tous les matins.",
+          "correct": [
+            "fait"
+          ],
+          "explanation": "on 等同于 il/elle，faire 的变位为 fait。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ chez des amis.",
+          "correct": [
+            "vont"
+          ],
+          "explanation": "动词 aller 的第三人称复数（阴性）变位为 vont。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (venir) de _____ (faire) les courses.",
+          "correct": [
+            "viennent",
+            "faire"
+          ],
+          "explanation": "注意 viennent 必须双写 n。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Vous êtes mexicain. (Transformez avec 'venir de')",
+          "correct": [
+            "Vous venez de Mexico ?"
+          ],
+          "explanation": "venir de + 城市名表示来源。注意 Mexico 是以 o 结尾的阳性城市名，但在表达来源时直接用 de。",
+          "category": "动词用法"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Ils sont américains. (Transformez avec 'venir de')",
+          "correct": [
+            "Ils viennent des États-Unis. / Ils viennent de Los Angeles."
+          ],
+          "explanation": "注意复数国名/地点使用 des (de+les)。",
+          "category": "动词用法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. Qui _____ à la fête ?\n2. Comment est-ce que vous _____ ?\n3. D'où est-ce que tu _____ ?\n4. Quand est-ce qu'elle _____ ?\n5. D'où _____ ces fruits ?",
+          "correct": [
+            "vient",
+            "venez",
+            "viens",
+            "vient",
+            "viennent"
+          ],
+          "explanation": "1. Qui 做主语视同单数；2. vous 对应 venez；3. tu 对应 viens；4. elle 对应 vient；5. fruits 为复数主语对应 viennent。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：D'où _____ -t-il ?",
+          "options": [
+            "vien",
+            "vienne",
+            "viens",
+            "vient"
+          ],
+          "correct": 3,
+          "explanation": "il 变位为 vient。注意倒装时的 -t- 连音符号。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je _____ la vaisselle.\nMarie _____ ses maths.\nArnaud _____ de la guitare.\nGrand-mère _____ des mots croisés.\nLes garçons _____ du bruit.\nBref, nous _____ tous quelque chose.",
+          "correct": [
+            "fais",
+            "fait",
+            "fait",
+            "fait",
+            "font",
+            "faisons"
+          ],
+          "explanation": "faire 的变位：je fais, il/elle fait, ils font, nous faisons (发音为 /fəzɔ̃/)。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Vous _____ attention à la route.",
+          "options": [
+            "faisons",
+            "faites",
+            "font",
+            "fais"
+          ],
+          "correct": 1,
+          "explanation": "vous faites 是特殊变位，不以 -ez 结尾，极易出错。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ à la montagne en février. Les enfants _____ contents de skier. Ils _____ du ski et ils _____ en forme. Les produits frais _____ de la ferme. En été je _____.",
+          "correct": [
+            "allons",
+            "sont",
+            "font",
+            "sont",
+            "viennent",
+            "vais"
+          ],
+          "explanation": "综合运用 être, aller, venir, faire。注意 nous allons, ils sont, ils font, produits viennent (复数)。",
+          "category": "综合变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que vous _____ (faire) vos devoirs ?",
+          "correct": [
+            "faites"
+          ],
+          "explanation": "再次强调 vous faites 是 A1-B1 考试中的常客，不要写成 faisez。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Est-ce que tu _____ (aller) bien ?",
+          "correct": [
+            "vas"
+          ],
+          "explanation": "aller 的第二人称单数变位为 vas。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：_____ -y ! (去吧！)",
+          "options": [
+            "Vas",
+            "Va",
+            "Vais",
+            "Allons"
+          ],
+          "correct": 1,
+          "explanation": "在命令式中，以 -er 结尾的动词（及 aller）在 tu 称下要去掉 s。但注意：如果后面接 y 或 en，为了连音会恢复 s（如 Vas-y），此处无连写则选 Va。",
+          "category": "命令式陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne _____ (aller) pas à l'Opéra.",
+          "correct": [
+            "vais"
+          ],
+          "explanation": "aller 的第一人称单数变位为 vais。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Je _____ (s'en aller) maintenant.",
+          "correct": [
+            "m'en vais"
+          ],
+          "explanation": "代词式动词 s'en aller，自反代词 se 需随主语变化，je 对应 me。",
+          "category": "代词式动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Jean et moi _____ (aller) à la piscine.",
+          "correct": [
+            "allons"
+          ],
+          "explanation": "Jean et moi 相当于 nous。",
+          "category": "主谓一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：_____ (aller)-nous au parc ?",
+          "options": [
+            "Allon",
+            "Allons",
+            "Allez",
+            "Vont"
+          ],
+          "correct": 1,
+          "explanation": "Nous 对应的变位是 allons。注意倒装句中需加连字号。",
+          "category": "疑问句变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (aller) à Londres en avion.",
+          "correct": [
+            "va"
+          ],
+          "explanation": "aller 的第三人称单数变位为 va。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：_____ (aller)-t-il au cinéma ?",
+          "options": [
+            "Va"
+          ],
+          "explanation": "第三人称单数以元音结尾，倒装时需加 -t- 以方便读音。",
+          "category": "语音变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (aller) au bureau à pied ?",
+          "correct": [
+            "allez"
+          ],
+          "explanation": "aller 的第二人称复数变位为 allez。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Comment _____ (aller)-vous ?",
+          "correct": [
+            "allez"
+          ],
+          "explanation": "注意连音 [z] 的发音，变位保持 allez。",
+          "category": "常用表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (aller) au restaurant.",
+          "correct": [
+            "va"
+          ],
+          "explanation": "On 的变位永远等同于 il/elle。",
+          "category": "主谓一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Tout le monde _____ (aller) bien.",
+          "options": [
+            "vont",
+            "va",
+            "vais",
+            "vas"
+          ],
+          "correct": 1,
+          "explanation": "Tout le monde（所有人）在语法上是单数，对应 il 的变位 va。",
+          "category": "主谓一致"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (aller) chez des amis.",
+          "correct": [
+            "vont"
+          ],
+          "explanation": "aller 的第三人称复数变位为 vont。",
+          "category": "动词变位-Aller"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Elles _____ (aller) _____ (manger) au restaurant. (近将来时)",
+          "correct": [
+            "vont",
+            "manger"
+          ],
+          "explanation": "近将来时结构：aller(变位) + 动词原形。",
+          "category": "近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "D'où _____ (venir) tu ?",
+          "correct": [
+            "viens"
+          ],
+          "explanation": "venir 的第二人称单数变位为 viens。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Tu _____ (venir) de _____ (partir). (最近过去时)",
+          "correct": [
+            "viens",
+            "partir"
+          ],
+          "explanation": "最近过去时：venir de + 动词原形。",
+          "category": "最近过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "D'où _____ (venir) ces fruits ?",
+          "correct": [
+            "viennent"
+          ],
+          "explanation": "主语 ces fruits 是复数，对应 ils 的变位 viennent（注意双写 n）。",
+          "category": "主谓一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Mes parents _____ de Paris hier.",
+          "options": [
+            "viennent",
+            "vient",
+            "venons",
+            "venez"
+          ],
+          "correct": 0,
+          "explanation": "复数主语使用 viennent。",
+          "category": "动词变位-Venir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Qu'est-ce que vous _____ (faire) ?",
+          "correct": [
+            "faites"
+          ],
+          "explanation": "faire 的第二人称复数是特殊形式 faites。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Vous _____ (faire) du ski en hiver.",
+          "options": [
+            "faisez",
+            "font",
+            "faites",
+            "faisons"
+          ],
+          "correct": 2,
+          "explanation": "绝对禁止写成 faisez，这是 TCF A1/A2 级别最高频陷阱。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les garçons _____ (faire) du bruit.",
+          "correct": [
+            "font"
+          ],
+          "explanation": "faire 的第三人称复数变位为 font。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Ils _____ (faire) _____ (jouer) les enfants. (使动用法)",
+          "correct": [
+            "font",
+            "jouer"
+          ],
+          "explanation": "faire + 动词原形表示“让某人做某事”。",
+          "category": "使动用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Bref, nous _____ (faire) tous quelque chose.",
+          "correct": [
+            "faisons"
+          ],
+          "explanation": "faire 的第一人称复数变位为 faisons。",
+          "category": "动词变位-Faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Nous _____ (faire) [发音检测].",
+          "options": [
+            "/fɛzɔ̃/",
+            "/fazɔ̃/",
+            "/fəzɔ̃/",
+            "/fɛsɔ̃/"
+          ],
+          "correct": 2,
+          "explanation": "虽然拼写是 faisons，但发音中的 ai 弱化为 /ə/。",
+          "category": "语音陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ au marché tous les samedis.",
+          "options": [
+            "va",
+            "allons",
+            "allez",
+            "vont"
+          ],
+          "correct": 1,
+          "explanation": "Nous 对应 allons。aller 现在时：je vais, tu vas, il va, nous allons, vous allez, ils vont。",
+          "category": "aller 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu ______ bien aujourd'hui ?",
+          "options": [
+            "va",
+            "vais",
+            "vas",
+            "allez"
+          ],
+          "correct": 2,
+          "explanation": "tu 对应 vas。注意 vais 是 je 的形式，别混淆。",
+          "category": "aller 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On ______ au parc cet après-midi.",
+          "options": [
+            "allons",
+            "vont",
+            "va",
+            "vas"
+          ],
+          "correct": 2,
+          "explanation": "on 在语法上等于第三人称单数，用 va。虽然 on 常指\"我们\"，但动词永远按单数变位。",
+          "category": "aller 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et Sophie ______ chez le médecin.",
+          "options": [
+            "va",
+            "allons",
+            "vont",
+            "allez"
+          ],
+          "correct": 2,
+          "explanation": "Marie et Sophie = elles = 第三人称复数，用 vont。",
+          "category": "aller 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dépêche-toi ! Le train ______ partir.",
+          "options": [
+            "vient de",
+            "va",
+            "vient",
+            "fait"
+          ],
+          "correct": 1,
+          "explanation": "aller + infinitif = futur proche（最近将来时），表示\"即将\"。Le train va partir = 火车要开了。vient de 表示\"刚刚\"，语义不符。",
+          "category": "futur proche"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne l'appelez pas, il ______ sortir.",
+          "options": [
+            "va",
+            "vient de",
+            "fait",
+            "vient"
+          ],
+          "correct": 1,
+          "explanation": "别打电话了，他\"刚刚\"出去了。venir de + infinitif = passé récent，表示刚做完某事。注意 il vient de sortir ≠ il va sortir（即将出去）。",
+          "category": "passé récent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'où ______ ces étudiants ?",
+          "options": [
+            "vient",
+            "viens",
+            "venons",
+            "viennent"
+          ],
+          "correct": 3,
+          "explanation": "ces étudiants = ils = 第三人称复数，用 viennent（双 n + ent）。venir de + 地点 = 来自。",
+          "category": "venir 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ de Montréal.",
+          "options": [
+            "venez",
+            "venons",
+            "viennent",
+            "viens"
+          ],
+          "correct": 1,
+          "explanation": "nous 对应 venons。注意词干回到 ven-，不是 vienn-。",
+          "category": "venir 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que vous ______ ce week-end ?",
+          "options": [
+            "fais",
+            "faisons",
+            "font",
+            "faites"
+          ],
+          "correct": 3,
+          "explanation": "vous 对应 faites。这是不规则形式！不是 ~~faisez~~。同类：vous dites, vous êtes。",
+          "category": "faire 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants ______ du bruit dans le jardin.",
+          "options": [
+            "fait",
+            "fais",
+            "font",
+            "faites"
+          ],
+          "correct": 2,
+          "explanation": "Les enfants = ils = 第三人称复数，用 font。faire du bruit = 发出噪音。",
+          "category": "faire 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ dîner les enfants à 19 heures.",
+          "options": [
+            "va",
+            "fait",
+            "vient",
+            "est"
+          ],
+          "correct": 1,
+          "explanation": "faire + infinitif = 使役结构，\"让某人做某事\"。Elle fait dîner les enfants = 她让孩子们吃晚饭。不是她自己吃。",
+          "category": "faire + infinitif 使役"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, je ______ allé au cinéma avec mes amis.",
+          "options": [
+            "ai",
+            "suis",
+            "a",
+            "sont"
+          ],
+          "correct": 1,
+          "explanation": "aller 用 être 做助动词！je suis allé(e)。j'ai allé 是最经典的错误，直接排除。",
+          "category": "aller passé composé 助动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ venues de Paris la semaine dernière.",
+          "options": [
+            "ont",
+            "sont",
+            "avons",
+            "êtes"
+          ],
+          "correct": 1,
+          "explanation": "venir 也用 être 做助动词。elles sont venues——过去分词 venu 加 es 配合阴性复数。",
+          "category": "venir passé composé 助动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons ______ un gâteau pour la fête.",
+          "options": [
+            "fais",
+            "fait",
+            "faits",
+            "faites"
+          ],
+          "correct": 1,
+          "explanation": "faire 用 avoir 做助动词，过去分词是 fait（不变）。注意：avoir 做助动词时，过去分词一般不跟主语配合（除非直宾前置）。",
+          "category": "faire passé composé"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il ______ beau aujourd'hui, on va à la plage !",
+          "correct": [
+            "fait"
+          ],
+          "explanation": "天气表达：Il fait + adj.（Il fait beau/chaud/froid）。主语 il 是非人称的，永远用第三人称单数 fait。",
+          "category": "faire 天气表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qui ______ à la réunion demain ?",
+          "options": [
+            "venez",
+            "viennent",
+            "viens",
+            "vient"
+          ],
+          "correct": 3,
+          "explanation": "Qui 做主语时，动词按第三人称单数变位。Qui vient = 谁来？即使回答是复数人，动词仍用 vient。",
+          "category": "venir + Qui 主语"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在 passé composé 中用 être 做助动词？",
+          "options": [
+            "aller",
+            "faire",
+            "venir",
+            "manger"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "aller 和 venir 用 être（属于\"移动类\"动词）。faire 和 manger 用 avoir。记住 Dr. & Mrs. Vandertramp 口诀。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ de la guitare le soir ?",
+          "options": [
+            "fais",
+            "fait",
+            "vas",
+            "viens"
+          ],
+          "correct": 0,
+          "explanation": "faire de la guitare = 弹吉他。tu 对应 fais。注意冠词搭配：faire + du/de la/de l'/des + 活动。",
+          "category": "faire + 活动"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Attention ! Les enfants ______ (aller) traverser la rue.",
+          "correct": [
+            "vont"
+          ],
+          "explanation": "aller + infinitif = futur proche。Les enfants = ils → vont。Les enfants vont traverser la rue = 孩子们要过马路了。",
+          "category": "futur proche"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le matin, je ______ (faire) du sport. Ensuite, je ______ (aller) au bureau. Le soir, ma femme ______ (venir) me chercher en voiture.",
+          "correct": [
+            "fais",
+            "vais",
+            "vient"
+          ],
+          "explanation": "三个动词现在时：je fais（faire）, je vais（aller）, elle vient（venir）。注意 ma femme = elle → vient。",
+          "category": "三动词综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/14j8gUEkJb6VD_oHUHmFbIwW-XZXxadhOVt4w5yrlQZk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771954014062-l0yydcz1v9o",
+          "front": "aller 现在时变位：je",
+          "back": "vais"
+        },
+        {
+          "id": "1771954014062-ewmsalurv5u",
+          "front": "aller 现在时变位：tu",
+          "back": "vas"
+        },
+        {
+          "id": "1771954014062-7essnwaidb6",
+          "front": "aller 现在时变位：il/elle/on",
+          "back": "va"
+        },
+        {
+          "id": "1771954014062-nrqdmeo265",
+          "front": "aller 现在时变位：nous",
+          "back": "allons\n⚠️ 连读：nous‿allons [nuz‿alɔ̃]"
+        },
+        {
+          "id": "1771954014062-00awx67hh1z16",
+          "front": "aller 现在时变位：vous",
+          "back": "allez\n⚠️ 连读：vous‿allez [vuz‿ale]"
+        },
+        {
+          "id": "1771954014062-5cjhojacu0s",
+          "front": "aller 现在时变位：ils/elles",
+          "back": "vont"
+        },
+        {
+          "id": "1771954014062-zayl694vij",
+          "front": "aller 的助动词是？",
+          "back": "être\n❌ 绝不是 avoir\n例：je suis allé(e)"
+        },
+        {
+          "id": "1771954014062-ru16b9fb2sh",
+          "front": "aller 的过去分词",
+          "back": "allé\n⚠️ 用 être → 跟主语性数配合\nallé / allée / allés / allées"
+        },
+        {
+          "id": "1771954014062-wmkgh217m",
+          "front": "aller + infinitif = ?",
+          "back": "futur proche（最近将来时）\n= 即将做某事\n例：Il va pleuvoir. 要下雨了。"
+        },
+        {
+          "id": "1771954014062-o595puunmq8",
+          "front": "s'en aller 的含义",
+          "back": "离开、走开（比 partir 更口语）\n例：Je m'en vais. 我走了。"
+        },
+        {
+          "id": "1771954014062-9ewwozuj1w",
+          "front": "aller à + 地点",
+          "back": "去某地\n例：Je vais à Paris.\nà + le = au → Je vais au cinéma."
+        },
+        {
+          "id": "1771954014062-7gnlkoxeq6n",
+          "front": "aller en + ?",
+          "back": "交通工具或阴性国家\n例：aller en voiture / aller en France"
+        },
+        {
+          "id": "1771954014062-ileq6hfrels",
+          "front": "aller chez + ?",
+          "back": "去某人那里\n例：Je vais chez le médecin. 我去看医生。"
+        },
+        {
+          "id": "1771954014062-pqv2i3upzya",
+          "front": "venir 现在时变位：je",
+          "back": "viens [vjɛ̃]"
+        },
+        {
+          "id": "1771954014062-adopsrxxz0o",
+          "front": "venir 现在时变位：tu",
+          "back": "viens [vjɛ̃]\n和 je 拼写、发音完全相同"
+        },
+        {
+          "id": "1771954014062-gdn9a2913kn",
+          "front": "venir 现在时变位：il/elle/on",
+          "back": "vient [vjɛ̃]\n发音和 viens 相同，拼写多一个 t"
+        },
+        {
+          "id": "1771954014062-fjiztwjs7wk",
+          "front": "venir 现在时变位：nous",
+          "back": "venons\n⚠️ 词干回到 ven-（不是 vienn-）"
+        },
+        {
+          "id": "1771954014062-qbb2r79dnbc",
+          "front": "venir 现在时变位：vous",
+          "back": "venez"
+        },
+        {
+          "id": "1771954014062-oyhh0i9zprf",
+          "front": "venir 现在时变位：ils/elles",
+          "back": "viennent\n⚠️ 双 n！词干 vienn- + ent"
+        },
+        {
+          "id": "1771954014062-oybyne1mg9",
+          "front": "venir 的\"靴子型变位\"规律",
+          "back": "单数 + ils/elles → 词干 vienn-\nnous/vous → 词干 ven-\n同族：tenir, revenir, devenir, se souvenir"
+        },
+        {
+          "id": "1771954014062-3r27tve0i9",
+          "front": "venir 的助动词是？",
+          "back": "être\n例：Elle est venue. (加 e 配合阴性)"
+        },
+        {
+          "id": "1771954014062-d5wq5sxzzxr",
+          "front": "venir 的过去分词",
+          "back": "venu\n⚠️ 用 être → 跟主语性数配合\nvenu / venue / venus / venues"
+        },
+        {
+          "id": "1771954014062-6sqmkto5lfh",
+          "front": "venir de + infinitif = ?",
+          "back": "passé récent（最近过去时）\n= 刚刚做了某事\n例：Il vient de sortir. 他刚出去。"
+        },
+        {
+          "id": "1771954014062-qgyk4zlocx8",
+          "front": "venir de + 名词 = ?",
+          "back": "来自某地\n例：Je viens de Chine. 我来自中国。\n⚠️ 和 venir de + inf.（刚刚做）区分！"
+        },
+        {
+          "id": "1771954014062-l4ddg9x04o",
+          "front": "Qui 做主语时，venir 怎么变？",
+          "back": "第三人称单数：vient\nQui vient ? = 谁来？\n即使回答是多人，动词仍用 vient"
+        },
+        {
+          "id": "1771954014062-m6tmijqekgo",
+          "front": "faire 现在时变位：je",
+          "back": "fais [fɛ]"
+        },
+        {
+          "id": "1771954014062-oo6bl8ti6u",
+          "front": "faire 现在时变位：tu",
+          "back": "fais [fɛ]\n和 je 完全相同"
+        },
+        {
+          "id": "1771954014062-0g1k8mpd9ffj",
+          "front": "faire 现在时变位：il/elle/on",
+          "back": "fait [fɛ]\n发音和 fais 相同"
+        },
+        {
+          "id": "1771954014062-cordnhj81vu",
+          "front": "faire 现在时变位：nous",
+          "back": "faisons [fəzɔ̃]\n⚠️ ai 读 [ə]，不是 [ɛ]！"
+        },
+        {
+          "id": "1771954014062-k0flhsog10g",
+          "front": "faire 现在时变位：vous",
+          "back": "faites\n⚠️ 不规则！不是 ~~faisez~~\n同类：vous dites, vous êtes"
+        },
+        {
+          "id": "1771954014062-8rw9bgvm65r",
+          "front": "faire 现在时变位：ils/elles",
+          "back": "font\n⚠️ 词干完全变化，只能硬记"
+        },
+        {
+          "id": "1771954014062-tmoqh6qfr",
+          "front": "faire 的助动词是？",
+          "back": "avoir\n例：J'ai fait un gâteau.\n⚠️ 和 aller/venir 不同！"
+        },
+        {
+          "id": "1771954014062-nebf1ga0s",
+          "front": "faire 的过去分词",
+          "back": "fait\n用 avoir → 一般不跟主语配合"
+        },
+        {
+          "id": "1771954014062-eyu1qw1atkt",
+          "front": "faire + infinitif = ?",
+          "back": "使役结构（causatif）\n= 让/使某人做某事\n例：Elle fait dîner les enfants.\n她让孩子们吃饭（不是她吃）"
+        },
+        {
+          "id": "1771954014062-2g35b0xwte6",
+          "front": "faire du/de la/des + 活动",
+          "back": "做某项运动或活动\nfaire du sport 做运动\nfaire de la guitare 弹吉他\nfaire des mots croisés 做填字游戏"
+        },
+        {
+          "id": "1771954014062-hscb28xviob",
+          "front": "Il fait + adj. = ?",
+          "back": "天气表达（非人称）\nIl fait beau. 天气好\nIl fait chaud/froid. 热/冷"
+        },
+        {
+          "id": "1771954014062-djdahpx8sgv",
+          "front": "faire la vaisselle",
+          "back": "洗碗"
+        },
+        {
+          "id": "1771954014062-1hosgf92ib9",
+          "front": "faire les courses",
+          "back": "买东西/购物"
+        },
+        {
+          "id": "1771954014062-rfx63jh00w",
+          "front": "faire du bruit",
+          "back": "发出噪音"
+        },
+        {
+          "id": "1771954014062-4206wcdh8gc",
+          "front": "faire attention (à)",
+          "back": "注意（某事）"
+        },
+        {
+          "id": "1771954014062-bop7raf6wqu",
+          "front": "三个半助动词助动词对比",
+          "back": "aller → être（配合性数）\nvenir → être（配合性数）\nfaire → avoir（一般不配合）"
+        },
+        {
+          "id": "1771954014062-3fqw9wp572o",
+          "front": "三个半助动词结构对比",
+          "back": "aller + inf. = 即将做（futur proche）\nvenir de + inf. = 刚做了（passé récent）\nfaire + inf. = 让某人做（causatif）"
+        },
+        {
+          "id": "1771954014062-yvnvchcm18s",
+          "front": "on 搭配 aller 用什么变位？",
+          "back": "va（第三人称单数）\n例：On va au restaurant.\non 虽然常指\"我们\"，动词永远按单数"
+        }
+      ]
+    },
+    {
       "id": 1771908562028,
       "name": "Unit 1 PRÉSENT ÊTRE",
       "folderId": "1771907837913",
@@ -30756,6 +32589,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T05:12:16.826Z",
+  "exportedAt": "2026-02-24T18:02:19.065Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
