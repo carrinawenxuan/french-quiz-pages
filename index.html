@@ -518,10 +518,10 @@
       padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
       box-sizing: border-box;
     }
-    .flashcard-training-inner { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
-    .flashcard-training-progress { font-size: 0.85rem; color: var(--text-muted); }
-    .flashcard-card-wrap { width: 100%; min-height: 220px; perspective: 1000px; cursor: pointer; }
-    .flashcard-card-inner { position: relative; width: 100%; min-height: 220px; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .flashcard-training-inner { width: 100%; max-width: min(92vw, 720px); display: flex; flex-direction: column; align-items: center; gap: 1.25rem; box-sizing: border-box; }
+    .flashcard-training-progress { font-size: 0.9rem; color: var(--text-muted); }
+    .flashcard-card-wrap { width: 100%; min-height: min(42vh, 280px); perspective: 1000px; cursor: pointer; }
+    .flashcard-card-inner { position: relative; width: 100%; min-height: min(42vh, 280px); transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     .flashcard-card-inner.flipped { transform: rotateY(180deg); }
     .flashcard-card-inner.flip-shadow { animation: flashcardFlipShadow 0.5s ease-out both; }
     @keyframes flashcardFlipShadow {
@@ -529,11 +529,25 @@
       50% { box-shadow: 0 1px 24px rgba(0,0,0,0.4); }
       100% { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     }
-    .flashcard-side { position: absolute; inset: 0; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 1.5rem; border-radius: var(--radius); border: 2px solid var(--border-strong); background: var(--card); color: var(--text); font-size: 1.1rem; line-height: 1.5; text-align: center; word-break: break-word; overflow: auto; }
+    .flashcard-side { position: absolute; inset: 0; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 1.5rem; border-radius: var(--radius); border: 2px solid var(--border-strong); background: var(--card); color: var(--text); font-size: 1.1rem; line-height: 1.5; text-align: center; word-break: break-word; overflow: auto; box-sizing: border-box; }
     .flashcard-front { border-color: var(--accent); }
     .flashcard-back { transform: rotateY(180deg); background: var(--surface); }
-    .flashcard-training-actions { display: flex; gap: 0.75rem; }
+    .flashcard-training-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
     .btn-close-training { margin-top: 0.5rem; }
+    @media (min-width: 600px) {
+      .flashcard-training-inner { max-width: min(85vw, 720px); gap: 1.5rem; }
+      .flashcard-card-wrap { min-height: min(52vh, 400px); }
+      .flashcard-card-inner { min-height: min(52vh, 400px); }
+      .flashcard-side { padding: 2rem; font-size: 1.25rem; line-height: 1.6; }
+      .flashcard-training-actions { gap: 1rem; }
+      .flashcard-training-actions .btn { min-height: 44px; padding: 0.5rem 1.25rem; font-size: 1rem; }
+      .btn-close-training { min-height: 44px; padding: 0.5rem 1.25rem; }
+    }
+    @media (max-width: 399px) {
+      .flashcard-card-wrap { min-height: min(38vh, 260px); }
+      .flashcard-card-inner { min-height: min(38vh, 260px); }
+      .flashcard-side { padding: 1.25rem; font-size: 1rem; }
+    }
     .flashcard-complete-wrap { text-align: center; padding: 1rem 0; }
     .flashcard-complete-msg { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 1.25rem; }
     .flashcard-complete-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; }
@@ -4023,9 +4037,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         var inFolderShow = inFolder.filter(function(s) { return toShowSet.has(String(s.id)); });
         var collapsed = collapsedState[fid];
         var collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
-        var bodyList = inFolderShow.length === 0
-          ? '<li class="saved-sets-empty-hint">暂无习题</li>'
-          : inFolderShow.map(itemHtml).join('');
+        var bodyList;
+        if (inFolderShow.length > 0) {
+          bodyList = inFolderShow.map(itemHtml).join('');
+        } else if (inFolder.length > 0) {
+          bodyList = '<li class="saved-sets-empty-hint">点击下方「显示更多」查看本文件夹习题</li>';
+        } else {
+          bodyList = '<li class="saved-sets-empty-hint">暂无习题</li>';
+        }
         html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="' + escapeAttr(fid) + '" data-is-uncategorized="false">' +
           '<div class="saved-sets-folder-header">' +
           '<button type="button" class="saved-sets-folder-toggle" data-action="toggle-folder">' +
