@@ -1,6 +1,560 @@
 {
   "savedSets": [
     {
+      "id": 1771893525966,
+      "name": "原因和结果",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-24T00:38:45.966Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi tu apprends le français ? — _____ je veux vivre au Canada.",
+          "options": [
+            "Car",
+            "Parce que",
+            "À cause de",
+            "Grâce à"
+          ],
+          "correct": 1,
+          "explanation": "回答 pourquoi 只能用 parce que，car 不能用于回答 pourquoi 提问。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai raté mon examen _____ le manque de préparation.",
+          "options": [
+            "parce que",
+            "grâce à",
+            "à cause du",
+            "car"
+          ],
+          "correct": 2,
+          "explanation": "后面接名词 le manque，必须用 à cause de；又因为是负面结果（考试没过），排除 grâce à。à cause de + le = à cause du。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a obtenu ce poste _____ ses compétences en informatique.",
+          "options": [
+            "à cause de",
+            "parce que",
+            "grâce à",
+            "du coup"
+          ],
+          "correct": 2,
+          "explanation": "获得职位是正面结果，必须用 grâce à + 名词。à cause de 用于负面原因。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne sort jamais le soir, _____ il a peur du noir.",
+          "options": [
+            "car",
+            "grâce à",
+            "à cause de",
+            "donc"
+          ],
+          "correct": 0,
+          "explanation": "此处补充原因，后接从句，且位于逗号之后，用 car 最合适（书面语体）。grâce à / à cause de 后接名词，排除。donc 表结果，语义不对。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le vol est annulé _____ la tempête.",
+          "options": [
+            "parce que",
+            "grâce à",
+            "car",
+            "à cause de"
+          ],
+          "correct": 3,
+          "explanation": "后接名词 la tempête，排除 parce que 和 car（它们接从句）。航班取消是负面事件，排除 grâce à。",
+          "category": "原因表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il pleut depuis ce matin. _____, le match de football est reporté.",
+          "options": [
+            "Du coup",
+            "Parce que",
+            "À cause de",
+            "Par conséquent"
+          ],
+          "correct": 3,
+          "explanation": "句子是书面通知语体（比赛延期），应选正式的结果连接词 par conséquent。du coup 太口语。parce que / à cause de 表原因，方向不对。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis fatigué, _____ je vais me coucher tôt.",
+          "options": [
+            "car",
+            "à cause de",
+            "parce que",
+            "donc"
+          ],
+          "correct": 3,
+          "explanation": "前因后果，需要结果连接词。donc = 所以，语义正确。car / parce que 表原因，方向反了。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La bibliothèque est fermée aujourd'hui. _____ je veux y aller demain.",
+          "options": [
+            "C'est pourquoi",
+            "Parce que",
+            "À cause de",
+            "Car"
+          ],
+          "correct": 0,
+          "explanation": "图书馆关了→所以我想明天去，这是因果中的\"结果\"。C'est pourquoi 表强调结果，正确。其余三个都表原因。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu ne viens pas ce soir ?\n— Non, je suis malade, _____ je reste chez moi.",
+          "options": [
+            "par conséquent",
+            "du coup",
+            "car",
+            "à cause de"
+          ],
+          "correct": 1,
+          "explanation": "这是口语对话场景（朋友间聊天），du coup 是口语中最自然的结果连接词。par conséquent 太正式，不适合此语境。",
+          "category": "结果表达-语域"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans une lettre formelle, quelle expression est la plus appropriée pour exprimer la cause ?",
+          "options": [
+            "parce que",
+            "du coup",
+            "car",
+            "alors"
+          ],
+          "correct": 2,
+          "explanation": "正式信件中，car 是表达原因最合适的书面连接词。du coup 和 alors 偏口语，parce que 虽通用但不如 car 正式。",
+          "category": "语域辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai pu terminer ce projet _____ l'aide de mes collègues.",
+          "options": [
+            "à cause de",
+            "grâce à",
+            "car",
+            "donc"
+          ],
+          "correct": 1,
+          "explanation": "完成项目是正面结果，后接名词 l'aide，用 grâce à。à cause de 用于负面。car/donc 后接从句。",
+          "category": "正面vs负面"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达后面必须接\"名词/代词\"而非从句？",
+          "options": [
+            "parce que",
+            "à cause de",
+            "grâce à",
+            "car"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "à cause de 和 grâce à 后接名词/代词；parce que 和 car 后接完整从句（主语+动词）。",
+          "category": "结构辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达适合用在正式书面语（如论文、正式信件）中？",
+          "options": [
+            "du coup",
+            "car",
+            "par conséquent",
+            "alors"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "car（原因）和 par conséquent（结果）是书面正式语体。du coup 和 alors 属于口语表达。",
+          "category": "语域辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a réussi son examen _____ son travail sérieux. (多亏了)",
+          "correct": [
+            "grâce à"
+          ],
+          "explanation": "考试成功=正面结果，后接名词，用 grâce à。",
+          "category": "原因表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le magasin est fermé. _____, je dois aller ailleurs. (因此，书面语)",
+          "correct": [
+            "Par conséquent"
+          ],
+          "explanation": "书面语中表达结果用 par conséquent，放句首，后加逗号。",
+          "category": "结果表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je ne peux pas sortir _____ la neige. Mon ami m'a apporté des courses, _____ je peux quand même manger ce soir.",
+          "correct": [
+            "à cause de",
+            "donc"
+          ],
+          "explanation": "第一空：不能出门是负面结果，后接名词 la neige，用 à cause de。第二空：朋友带了食物→所以能吃饭，表结果，用 donc。",
+          "category": "综合填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons déménagé. Ce n'est pas _____ le loyer, c'est _____ un nouveau travail.",
+          "options": [
+            "grâce à … à cause d'",
+            "à cause du … grâce à",
+            "à cause de … à cause d'",
+            "grâce au … grâce à"
+          ],
+          "correct": 1,
+          "explanation": "搬家的原因不是房租（负面排除→用 à cause du = à cause de + le），而是新工作（正面原因→用 grâce à）。注意缩合冠词：à cause de + le loyer = à cause du loyer。",
+          "category": "综合对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1USQonkd_nl7UUungvgV7NsF1jMvquvcvdjU24lxBN1I/edit?tab=t.0#heading=h.boy91pu0z48c"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771893588220-zv2hfak16vk",
+          "front": "parce que 后接什么？",
+          "back": "接完整从句（主语+动词）\n最万能的原因表达，可回答 pourquoi"
+        },
+        {
+          "id": "1771893588220-nlj0svmmj7k",
+          "front": "car 后接什么？能回答 pourquoi 吗？",
+          "back": "接完整从句，但：\n1. 不能放句首\n2. 不能回答 pourquoi\n3. 前面用逗号隔开\n4. 书面语体"
+        },
+        {
+          "id": "1771893588220-hw05q9uhqxk",
+          "front": "à cause de 后接什么？感情色彩？",
+          "back": "接名词/代词（不接从句）\n感情色彩：负面原因（坏事）\n例：Je suis en retard à cause des embouteillages."
+        },
+        {
+          "id": "1771893588220-4iyyyprgwpt",
+          "front": "grâce à 后接什么？感情色彩？",
+          "back": "接名词/代词（不接从句）\n感情色彩：正面原因（好事）\n例：J'ai réussi grâce à mon ami."
+        },
+        {
+          "id": "1771893588220-366syynehpj",
+          "front": "à cause de + le = ?",
+          "back": "à cause du（缩合冠词）"
+        },
+        {
+          "id": "1771893588220-nw7r88tv2ie",
+          "front": "à cause de + les = ?",
+          "back": "à cause des（缩合冠词）"
+        },
+        {
+          "id": "1771893588220-ezmmcy6a599",
+          "front": "à cause de vs grâce à 核心区别",
+          "back": "à cause de → 负面原因 ❌\ngrâce à → 正面原因 ✅\n两者都接名词，不接从句"
+        },
+        {
+          "id": "1771893588220-dj4kcti29pl",
+          "front": "parce que vs car 核心区别",
+          "back": "parce que：通用，能回答 pourquoi，可放句首\ncar：书面语，不能回答 pourquoi，不能放句首，前加逗号"
+        },
+        {
+          "id": "1771893588220-chralhdh0ts",
+          "front": "donc 是什么意思？语域？",
+          "back": "所以（最直接的结果连接词）\n通用语域，口语书面语都可\n位置灵活，可放主语前或后"
+        },
+        {
+          "id": "1771893588220-yr3bcuzht0h",
+          "front": "alors / du coup 是什么意思？语域？",
+          "back": "那么/所以\n口语中最常用的结果表达\ndu coup 比 alors 更口语化\n⚠️ 正式写作中不宜用 du coup"
+        },
+        {
+          "id": "1771893588220-sr1y70bddtl",
+          "front": "c'est pourquoi vs c'est pour ça que",
+          "back": "都表示「这就是为什么…」，强调结果\nc'est pourquoi → 口语书面语都可\nc'est pour ça que → 偏口语"
+        },
+        {
+          "id": "1771893588220-xgkkjt572sp",
+          "front": "par conséquent 是什么意思？语域？",
+          "back": "因此（= consequently）\n书面语/正式语体\n通常放句首，前面用句号或分号\nB2写作中替代 donc 可加分"
+        },
+        {
+          "id": "1771893588220-3564hpq1ukg",
+          "front": "表原因 + 从句的有哪些？",
+          "back": "parce que（通用）\ncar（书面，不能回答pourquoi）"
+        },
+        {
+          "id": "1771893588220-yf64s2giji",
+          "front": "表原因 + 名词的有哪些？",
+          "back": "à cause de（负面）\ngrâce à（正面）"
+        },
+        {
+          "id": "1771893588220-s32gvkhratl",
+          "front": "表结果的4个表达按语域排序",
+          "back": "口语 → du coup / alors\n通用 → donc / c'est pourquoi\n书面 → par conséquent"
+        },
+        {
+          "id": "1771893588220-042zx4nezct",
+          "front": "TCF 陷阱：pourquoi 提问，选 car 还是 parce que？",
+          "back": "选 parce que ✅\ncar 不能回答 pourquoi ❌"
+        },
+        {
+          "id": "1771893588220-llyevstwih",
+          "front": "TCF 写作加分：用什么替代 donc？",
+          "back": "par conséquent（书面正式）\n可显著提升文体分"
+        },
+        {
+          "id": "1771893588220-wqqsowb3q6o",
+          "front": "parce qu' 什么时候缩写？",
+          "back": "parce que 在元音前缩写\n例：parce qu'il travaille beaucoup"
+        }
+      ]
+    },
+    {
+      "id": 1771892438408,
+      "name": "Être dans la lune",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-24T00:20:38.408Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "« Elle est souvent dans la lune en classe. » Que signifie cette expression ?",
+          "options": [
+            "Elle est très intelligente.",
+            "Elle est distraite.",
+            "Elle est fatiguée.",
+            "Elle est triste."
+          ],
+          "correct": 1,
+          "explanation": "Être dans la lune = être distrait(e)，心不在焉。与智力、疲劳、悲伤无关。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression est synonyme de « être dans la lune » ?",
+          "options": [
+            "Avoir le cœur sur la main",
+            "Avoir la tête ailleurs",
+            "Tomber dans les pommes",
+            "Avoir le cafard"
+          ],
+          "correct": 1,
+          "explanation": "Avoir la tête ailleurs = 脑子在别处 = 心不在焉，与 être dans la lune 同义。其余分别表示：慷慨大方、晕倒、情绪低落。",
+          "category": "近义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Excuse-moi, j'_____ dans la lune, tu peux répéter ? »",
+          "options": [
+            "ai été",
+            "suis été",
+            "étais",
+            "avais"
+          ],
+          "correct": 2,
+          "explanation": "这里描述的是\"刚才那一刻的状态\"，用未完成过去时 étais 最自然。suis été 是典型错误（être 的复合过去时助动词是 avoir → j'ai été）。",
+          "category": "语法-时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Thomas n'a rien écouté pendant la réunion, il était complètement dans la lune. » Qu'est-ce qu'on apprend sur Thomas ?",
+          "options": [
+            "Il était malade pendant la réunion.",
+            "Il n'était pas concentré.",
+            "Il est parti avant la fin.",
+            "Il a pris beaucoup de notes."
+          ],
+          "correct": 1,
+          "explanation": "Être dans la lune = ne pas être concentré。题干说他什么都没听，完全走神了。TCF 听力常用此表达考同义理解。",
+          "category": "听力理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Mon fils est toujours dans la lune. » Comment pourrait-on reformuler cette phrase ?",
+          "options": [
+            "Mon fils est toujours perdu dans ses pensées.",
+            "Mon fils est toujours de bonne humeur.",
+            "Mon fils est toujours en retard.",
+            "Mon fils est toujours en colère."
+          ],
+          "correct": 0,
+          "explanation": "Être perdu dans ses pensées = être dans la lune，是 TCF 阅读中最常见的同义改写。",
+          "category": "同义改写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : « Il a _____ dans la lune toute la journée hier. »",
+          "options": [
+            "être",
+            "été",
+            "est",
+            "étant"
+          ],
+          "correct": 1,
+          "explanation": "复合过去时：Il a été dans la lune。être 的过去分词是 été，助动词用 avoir。",
+          "category": "语法-变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les phrases suivantes, lesquelles utilisent correctement l'expression « être dans la lune » ?",
+          "options": [
+            "Elle est dans la lune, elle n'a pas entendu la question.",
+            "J'ai mis la lune dans mon sac.",
+            "Tu vas être dans la lune pendant tout le film, je te connais !",
+            "Il fait dans la lune quand il est fatigué."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 和 C 用法正确。B 完全不是这个表达。D 的错误在于用了 faire 而非 être，这个表达固定搭配是 être dans la lune。",
+          "category": "用法判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans un contexte formel, comment remplaceriez-vous « être dans la lune » ?",
+          "options": [
+            "Être rêveur",
+            "Être distrait",
+            "Rêvasser",
+            "Planer"
+          ],
+          "correct": 1,
+          "explanation": "Être distrait 是最中性、最适合正式场合的替换。Rêvasser 和 planer 偏口语，être rêveur 强调性格特质而非一时状态。",
+          "category": "语域辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Synonyme familier de « être dans la lune » : avoir la _____ ailleurs.",
+          "correct": [
+            "tête"
+          ],
+          "explanation": "Avoir la tête ailleurs = 脑子在别处 = 心不在焉。tête 是固定搭配，不可替换为其他身体部位。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Arrête de _____ dans la lune et concentre-toi ! » Quel est le bon verbe ?",
+          "options": [
+            "faire",
+            "avoir",
+            "être",
+            "mettre"
+          ],
+          "correct": 2,
+          "explanation": "固定表达：être dans la lune。动词永远是 être，不能换成 faire / avoir / mettre。这里是命令式 arrête de + infinitif → être。",
+          "category": "固定搭配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1EC6lI1zYWNqL2ufl_0cXtAJAJx70YLaTPcd7vyYnjlA/edit?tab=t.0#heading=h.usl8l0z0827m"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771892517645-luwgj9edd0e",
+          "front": "Être dans la lune — 字面意思？",
+          "back": "在月亮里\n（实际含义：心不在焉，走神，发呆）"
+        },
+        {
+          "id": "1771892517645-xmglhnpxtj7",
+          "front": "Être dans la lune — 实际含义？",
+          "back": "être distrait(e)，心不在焉，走神\n英文：to have one's head in the clouds"
+        },
+        {
+          "id": "1771892517645-j2sr9tfn5t",
+          "front": "Être dans la lune 的语域？",
+          "back": "日常口语，非常常用，老少皆宜\n不粗俗，甚至带点可爱"
+        },
+        {
+          "id": "1771892517645-b5nj940d3es",
+          "front": "être dans la lune 的 IPA 发音？",
+          "back": "/ɛtʁ dɑ̃ la lyn/\n注意 lune 的 /y/：嘴唇圆、舌位高前，不要读成 /u/"
+        },
+        {
+          "id": "1771892517645-b7pgj1v5fbu",
+          "front": "être dans la lune 的近义表达（口语）？",
+          "back": "avoir la tête ailleurs\n（脑子在别处 = 心不在焉）"
+        },
+        {
+          "id": "1771892517645-ob3u0aq2hyi",
+          "front": "être dans la lune 的近义表达（中性/书面）？",
+          "back": "être distrait(e)\n（注意力不集中，更通用更正式）"
+        },
+        {
+          "id": "1771892517645-xcy5826dbbf",
+          "front": "être dans la lune 的近义表达（略文学化）？",
+          "back": "être perdu(e) dans ses pensées\n（沉浸在自己的思绪中）"
+        },
+        {
+          "id": "1771892517645-4t4ow90xe63",
+          "front": "\"做白日梦\"用法语动词怎么说？",
+          "back": "rêvasser\n（无目的地遐想，口语）"
+        },
+        {
+          "id": "1771892517645-k43ubvzgmzb",
+          "front": "être dans la lune — 复合过去时怎么说？\n（注意助动词！）",
+          "back": "j'ai été dans la lune\n⚠️ 助动词用 avoir，不是 être！\n不能说 je suis été"
+        },
+        {
+          "id": "1771892517645-k1cxlw3ojq",
+          "front": "être dans la lune — 最近将来时？",
+          "back": "je vais être dans la lune\nIl va être dans la lune pendant le cours."
+        },
+        {
+          "id": "1771892517645-obv8kdt1n7n",
+          "front": "Excuse-moi, j'_____ dans la lune, tu peux répéter ?\n（用什么时态最自然？）",
+          "back": "j'étais dans la lune\n用未完成过去时 (imparfait)，描述\"刚才那一刻的状态\""
+        },
+        {
+          "id": "1771892517645-5yqaoq89ebl",
+          "front": "Il est toujours dans la lune.\n用正式法语改写？",
+          "back": "Il est souvent distrait.\n（être distrait 是最适合正式场合的替换）"
+        },
+        {
+          "id": "1771892517645-2uo868al43d",
+          "front": "avoir la tête _____\n（补全固定搭配）",
+          "back": "ailleurs\navoir la tête ailleurs = 心不在焉"
+        },
+        {
+          "id": "1771892517645-36wtcj2mkhw",
+          "front": "⚠️ 易错：Il *fait* dans la lune.\n对不对？",
+          "back": "❌ 错！动词必须是 être\n✅ Il est dans la lune.\n这是固定搭配，不能换动词"
+        },
+        {
+          "id": "1771892517645-c3fng2zyx0n",
+          "front": "TCF 听力技巧：\n听到 \"dans la lune\" 要立刻联想？",
+          "back": "= distrait / pas concentré\nTCF 常考同义理解，选项里通常出现 être distrait 或 ne pas être concentré"
+        },
+        {
+          "id": "1771892517645-n6kij5i93b",
+          "front": "B2 口语加分用法：\n用 être dans la lune 描述自己的缺点",
+          "back": "Je suis souvent dans la lune.\n比 Je suis distrait 更地道，给考官好印象"
+        },
+        {
+          "id": "1771892517645-88bv4j08qtj",
+          "front": "lunatique 是什么意思？\n和 lune 有什么关系？",
+          "back": "lunatique = 心不在焉的人 / 情绪多变的人\n与 lune（月亮）同根衍生"
+        }
+      ]
+    },
+    {
       "id": 1771877709450,
       "name": "Leçon 26 Quitter Paris课文",
       "folderId": "1770747190002",
@@ -27106,6 +27660,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T00:13:32.483Z",
+  "exportedAt": "2026-02-24T00:39:52.676Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
