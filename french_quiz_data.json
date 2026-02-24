@@ -1,6 +1,771 @@
 {
   "savedSets": [
     {
+      "id": 1771898215626,
+      "name": "Tout的用法2.0",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-24T01:56:55.626Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ le monde est invité à la fête.",
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout le monde 是固定搭配，tout 不变，且动词用单数。",
+          "category": "泛指形容词-固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a travaillé _____ la journée.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 2,
+          "explanation": "la journée 是阴性单数，tout 作形容词需配合 → toute la journée（一整天）。",
+          "category": "泛指形容词-整个"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ les fenêtres sont ouvertes.",
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 3,
+          "explanation": "les fenêtres 是阴性复数 → toutes les fenêtres。",
+          "category": "泛指形容词-所有的"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il vient _____ les jours.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "les jours 是阳性复数 → tous les jours（每天）。",
+          "category": "泛指形容词-固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ question mérite une réponse.",
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute",
+            "Toutes"
+          ],
+          "correct": 2,
+          "explanation": "question 是阴性单数，无冠词 → toute question = 每一个/任何问题。",
+          "category": "泛指形容词-每一个"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde _____ content.",
+          "options": [
+            "est",
+            "sont",
+            "a",
+            "ont"
+          ],
+          "correct": 0,
+          "explanation": "tout le monde 虽表示'所有人'，但语法上是第三人称单数，动词用 est。",
+          "category": "泛指形容词-动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ venus à la réunion.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "tous 作代词替代 ils（阳性复数），放在助动词和过去分词之间。注意发音 /tus/。",
+          "category": "泛指代词-位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ compris.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout 作中性代词表示'一切'，放在助动词 ai 和过去分词 compris 之间。",
+          "category": "泛指代词-中性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles sont _____ contentes de cette nouvelle.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 3,
+          "explanation": "tout 作副词修饰阴性形容词 contentes（辅音 c 开头），必须做性数配合 → toutes contentes。",
+          "category": "副词-阴性辅音开头"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ étonnée par cette réponse.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout 作副词修饰阴性形容词 étonnée（元音开头），不变 → tout étonnée。",
+          "category": "副词-阴性元音开头"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ heureuse de te voir.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "heureuse 的 h 是 h muet（哑音h），按元音处理 → tout 不变。",
+          "category": "副词-h muet"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles sont _____ honteuses de leur erreur.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 3,
+          "explanation": "honteuses 的 h 是 h aspiré（嘘音h），按辅音处理，阴性复数 → toutes honteuses。",
+          "category": "副词-h aspiré"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ surpris par la nouvelle.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "修饰阳性形容词时，副词 tout 永远不变，无论什么开头。",
+          "category": "副词-阳性不变"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles sont _____ émues par ce discours.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "émues 是阴性复数但元音开头，副词 tout 不变 → tout émues。",
+          "category": "副词-阴性元音开头"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis _____ à fait d'accord avec toi.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout à fait 是固定副词短语，意为'完全地'，tout 永不变化。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ à coup, il a commencé à pleuvoir.",
+          "options": [
+            "Tout",
+            "Toute",
+            "Tous",
+            "Toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout à coup = 突然，固定搭配，tout 不变。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut partir _____ de suite.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 0,
+          "explanation": "tout de suite = 马上、立刻，固定搭配不变。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "De _____ façon, je ne changerai pas d'avis.",
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "façon 是阴性单数 → de toute façon（不管怎样）。注意这里 tout 是形容词，不是副词。",
+          "category": "固定搭配-形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le mot « tous » de la phrase « Ils sont tous là », comment prononce-t-on « tous » ?",
+          "options": [
+            "/tu/",
+            "/tus/",
+            "/tut/",
+            "/tuz/"
+          ],
+          "correct": 1,
+          "explanation": "tous 作代词独立使用时，s 要发音 → /tus/。作形容词（如 tous les jours）时 s 不发音 → /tu/。",
+          "category": "发音辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 tout 必须发生形式变化？",
+          "options": [
+            "Elle est tout étonnée.",
+            "Elles sont tout contentes.",
+            "Il est tout content.",
+            "Elle est tout honteuse."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "B：contentes 阴性+辅音开头 → toutes contentes；D：honteuse 阴性+h aspiré → toute honteuse。A 元音开头不变，C 阳性不变。",
+          "category": "副词变化综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a mangé _____ les gâteaux. (tout 的正确形式)",
+          "correct": [
+            "tous"
+          ],
+          "explanation": "les gâteaux 是阳性复数，tout 作形容词 → tous les gâteaux。",
+          "category": "泛指形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ est possible dans la vie. (tout 的正确形式)",
+          "correct": [
+            "Tout"
+          ],
+          "explanation": "tout 作中性代词，意为'一切'，不变。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle a lu _____ (1) le roman en _____ (2) une nuit. Elle était _____ (3) impressionnée par l'histoire.",
+          "correct": [
+            "tout",
+            "toute",
+            "tout"
+          ],
+          "explanation": "(1) le roman 阳性单数 → tout（形容词）；(2) une nuit 阴性单数 → toute（形容词）；(3) impressionnée 阴性+元音开头 → tout 不变（副词）。三个 tout 分别是形容词、形容词、副词，这是 TCF 综合辨析的典型考法。",
+          "category": "综合辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/17RzwOAPX4D5w9vbJY7VTSVGd91KgLcYTZAZ42FXS1sU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771898468538-fcm14o6oqmo",
+          "front": "tout 作形容词时的四种形式？",
+          "back": "阳单 tout / 阳复 tous / 阴单 toute / 阴复 toutes"
+        },
+        {
+          "id": "1771898468538-m4iuylzkwza",
+          "front": "tout 作形容词的位置规则？",
+          "back": "位于名词（包括其限定词）的前面\ntout/toute/tous/toutes + 限定词 + 名词"
+        },
+        {
+          "id": "1771898468538-bx9pfxp1o5p",
+          "front": "tout + 复数名词 = ？",
+          "back": "所有的、全部的\nex: tous les étudiants 所有学生"
+        },
+        {
+          "id": "1771898468538-f3kopudhblo",
+          "front": "tout + 单数名词（有冠词）= ？",
+          "back": "整个的\nex: tout le livre 整本书\nex: toute la nuit 一整夜"
+        },
+        {
+          "id": "1771898468538-5fyj92euaaw",
+          "front": "tout + 单数名词（无冠词）= ？",
+          "back": "每一个、任何一个（书面/格言语域）\nex: Tout homme est mortel. 每个人都会死。"
+        },
+        {
+          "id": "1771898468538-43cyoe4rylk",
+          "front": "tout le monde 后面动词用单数还是复数？",
+          "back": "永远用第三人称单数！\nTout le monde est content. ✅\nTout le monde sont contents. ❌"
+        },
+        {
+          "id": "1771898468538-6ghmdp7lbd4",
+          "front": "tous les jours",
+          "back": "每天（固定搭配）\nex: Je travaille tous les jours."
+        },
+        {
+          "id": "1771898468538-h3kt2q0d2ot",
+          "front": "toutes les semaines",
+          "back": "每周（固定搭配）\nex: Il vient toutes les semaines."
+        },
+        {
+          "id": "1771898468538-trab0tj8ny",
+          "front": "de toute façon",
+          "back": "不管怎样\nex: De toute façon, c'est fini."
+        },
+        {
+          "id": "1771898468538-15maz4fn7lv",
+          "front": "en tout cas",
+          "back": "无论如何\nex: En tout cas, merci."
+        },
+        {
+          "id": "1771898468538-ufzb9cwinqf",
+          "front": "à tout moment",
+          "back": "随时\nex: Il peut arriver à tout moment."
+        },
+        {
+          "id": "1771898468538-lxnybgusmmb",
+          "front": "à toute vitesse",
+          "back": "全速\nex: Il roule à toute vitesse."
+        },
+        {
+          "id": "1771898468538-l3ogwm1opal",
+          "front": "tous les deux",
+          "back": "两者都\nex: Ils sont venus tous les deux."
+        },
+        {
+          "id": "1771898468538-s2ee6w4lvvg",
+          "front": "tous 作形容词时怎么发音？",
+          "back": "/tu/，s 不发音\nex: tous les jours /tu le ʒuʁ/"
+        },
+        {
+          "id": "1771898468538-ess5oe8qee5",
+          "front": "tous 作代词时怎么发音？",
+          "back": "/tus/，s 要发音\nex: Ils sont tous là. /tus/"
+        },
+        {
+          "id": "1771898468538-2iegbva0ir4",
+          "front": "tout 作中性代词表示什么？",
+          "back": "一切、所有事物\nex: Tout est possible. 一切皆有可能。\nex: Tout va bien. 一切顺利。"
+        },
+        {
+          "id": "1771898468538-2vz0wwxkosk",
+          "front": "代词 tout 在复合时态中放在哪里？",
+          "back": "放在助动词和过去分词之间\nex: J'ai tout compris.\nex: Il a tout mangé."
+        },
+        {
+          "id": "1771898468538-eb4lpeu6id",
+          "front": "代词 tous/toutes 在复合时态中放在哪里？",
+          "back": "放在助动词和过去分词之间\nex: Ils sont tous venus.\nex: Elles sont toutes parties."
+        },
+        {
+          "id": "1771898468538-kqqka2h4b6",
+          "front": "tout 作副词是什么意思？",
+          "back": "完全地、非常\n修饰形容词或副词"
+        },
+        {
+          "id": "1771898468538-0mkhr4of9xo",
+          "front": "副词 tout 什么时候要变化？",
+          "back": "修饰阴性形容词 + 辅音开头时\n修饰阴性形容词 + h aspiré 开头时\n其他情况一律不变"
+        },
+        {
+          "id": "1771898468538-s7j66d5epf",
+          "front": "副词 tout + 阳性形容词 → ？",
+          "back": "永远不变\nex: Il est tout content.\nex: Ils sont tout surpris."
+        },
+        {
+          "id": "1771898468538-u4nxl0oydv",
+          "front": "副词 tout + 阴性 + 元音开头 → ？",
+          "back": "不变（可联诵）\nex: Elle est tout étonnée.\nex: Elles sont tout émues."
+        },
+        {
+          "id": "1771898468538-5ynadrv625f",
+          "front": "副词 tout + 阴性 + 辅音开头 → ？",
+          "back": "必须变！toute / toutes\nex: Elle est toute contente.\nex: Elles sont toutes contentes."
+        },
+        {
+          "id": "1771898468538-bjoi0dlvhye",
+          "front": "副词 tout + 阴性 + h muet → ？",
+          "back": "不变（h muet 按元音处理）\nex: Elle est tout heureuse.\n常见 h muet 词：heureuse, honnête, humble, habituée"
+        },
+        {
+          "id": "1771898468538-9ojhhw059o9",
+          "front": "副词 tout + 阴性 + h aspiré → ？",
+          "back": "必须变！toute / toutes\nex: Elle est toute honteuse.\n常见 h aspiré 词：honteuse, hardie, hautaine, handicapée"
+        },
+        {
+          "id": "1771898468538-dv9vovklf5",
+          "front": "tout à fait",
+          "back": "完全地、确实\nex: Je suis tout à fait d'accord.\n固定搭配，tout 不变"
+        },
+        {
+          "id": "1771898468538-z6e7lhmiitl",
+          "front": "tout à coup",
+          "back": "突然（= soudain）\nex: Tout à coup, il a commencé à pleuvoir.\n固定搭配，tout 不变"
+        },
+        {
+          "id": "1771898468538-75fn5yj44rk",
+          "front": "tout de suite",
+          "back": "马上、立刻\nex: Il faut partir tout de suite.\n≠ de suite（连续地，书面）"
+        },
+        {
+          "id": "1771898468538-qk7m0pwcrzq",
+          "front": "tout à l'heure",
+          "back": "刚才 / 一会儿（看上下文判断时间方向）\nex: Je l'ai vu tout à l'heure.（刚才）\nex: Je reviendrai tout à l'heure.（一会儿）"
+        },
+        {
+          "id": "1771898468538-zzdy7xpiltt",
+          "front": "tout de même",
+          "back": "还是、毕竟（= quand même）\nex: C'est tout de même étrange."
+        },
+        {
+          "id": "1771898468538-q5snr98bfqd",
+          "front": "pas du tout",
+          "back": "一点也不（完全否定）\nex: Je ne suis pas du tout fatigué."
+        },
+        {
+          "id": "1771898468538-ujufnflpaz",
+          "front": "le tout（名词）",
+          "back": "整体、全部\nex: Le tout est de bien commencer. 关键是要开好头。\nrisquer le tout pour le tout 孤注一掷"
+        },
+        {
+          "id": "1771898468538-bgjf2lpxrzk",
+          "front": "判断 tout 词性的三步法？",
+          "back": "① 后跟限定词+名词 → 形容词\n② 独立使用或替代名词 → 代词\n③ 后跟形容词/副词 → 副词"
+        },
+        {
+          "id": "1771898468538-sser0m677r",
+          "front": "Elle a lu tout le roman en toute une nuit. Elle était tout impressionnée. 三个 tout 分别是什么词性？",
+          "back": "① tout le roman → 形容词（阳单）\n② toute une nuit → 形容词（阴单）\n③ tout impressionnée → 副词（阴+元音，不变）"
+        }
+      ]
+    },
+    {
+      "id": 1771897858344,
+      "name": "trop 与 assez",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-24T01:50:58.344Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il fait _____ froid pour sortir sans manteau.",
+          "options": [
+            "assez",
+            "très",
+            "trop",
+            "beaucoup"
+          ],
+          "correct": 2,
+          "explanation": "trop…pour = 太……以至于不能。句意：天太冷了，不能不穿外套出门。",
+          "category": "trop…pour"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as _____ argent pour acheter ce livre ?",
+          "options": [
+            "assez de",
+            "assez d'",
+            "assez du",
+            "assez"
+          ],
+          "correct": 1,
+          "explanation": "assez de + 名词（零冠词）。argent 以元音开头，de 省音为 d'。assez d'argent。",
+          "category": "assez de + n."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ bruit dans cette rue.",
+          "options": [
+            "trop",
+            "trop de",
+            "trop du",
+            "trop des"
+          ],
+          "correct": 1,
+          "explanation": "trop de + 名词，零冠词。不能用 trop du（缩合冠词）或 trop des。",
+          "category": "trop de + n."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette valise est _____ lourde. Je ne peux pas la porter.",
+          "options": [
+            "assez",
+            "trop",
+            "beaucoup",
+            "très de"
+          ],
+          "correct": 1,
+          "explanation": "trop + 形容词 = 太……。très de 不存在（très 直接修饰形容词，不加 de）。",
+          "category": "trop + adj."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ grande pour comprendre la situation.",
+          "options": [
+            "trop",
+            "assez",
+            "beaucoup",
+            "peu"
+          ],
+          "correct": 1,
+          "explanation": "assez + adj. + pour + inf. = 足够……能够……。句意：她足够大了，能理解情况。",
+          "category": "assez…pour"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ mangé hier soir, il a mal au ventre.",
+          "options": [
+            "très",
+            "trop",
+            "assez",
+            "beaucoup de"
+          ],
+          "correct": 1,
+          "explanation": "动词 + trop = 做得太多。复合时态中 trop 放在助动词和过去分词之间：a trop mangé。",
+          "category": "trop + verbe"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous n'avons pas assez _____ temps pour finir ce projet.",
+          "options": [
+            "du",
+            "de",
+            "des",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "assez de + 名词，零冠词。即使是否定句，assez de 的结构不变。",
+          "category": "assez de + n."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le problème est trop compliqué pour qu'on _____ le résoudre en une heure.",
+          "options": [
+            "peut",
+            "puisse",
+            "pouvons",
+            "pourra"
+          ],
+          "correct": 1,
+          "explanation": "trop…pour que + 虚拟式（subjonctif）。pouvoir 的虚拟式第三人称：puisse。主语不同（le problème ≠ on），所以必须用 pour que + subj.。",
+          "category": "trop…pour que + subj."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ vite, je ne comprends rien.",
+          "options": [
+            "assez",
+            "très de",
+            "trop",
+            "beaucoup de"
+          ],
+          "correct": 2,
+          "explanation": "trop + 副词 = 太……。trop vite = 太快。très de 和 beaucoup de 不能修饰副词。",
+          "category": "trop + adv."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ tard pour que nous _____ encore au restaurant.",
+          "options": [
+            "trop / allons",
+            "assez / allions",
+            "trop / allions",
+            "assez / allons"
+          ],
+          "correct": 2,
+          "explanation": "trop…pour que + subjonctif。aller 的虚拟式 nous：allions。句意：太晚了，我们没法再去餐厅了。",
+          "category": "trop…pour que + subj."
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai _____ (trop/assez) dormi, je suis encore fatigué.",
+          "correct": [
+            "pas assez"
+          ],
+          "explanation": "还累 = 睡得不够。pas assez = 不够。注意：如果用 trop 则语义矛盾（睡太多不会\"还累\"在常规语境下）。这是 TCF 语义逻辑题。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a trop _____ erreurs dans ce texte.",
+          "options": [
+            "des",
+            "de",
+            "d'",
+            "les"
+          ],
+          "correct": 2,
+          "explanation": "trop de + 名词（零冠词）。erreurs 以元音开头，de 省音为 d'。trop d'erreurs。",
+          "category": "trop de + n. 省音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？",
+          "options": [
+            "Elle a trop de patience.",
+            "Il boit trop du café.",
+            "Nous avons assez d'énergie.",
+            "Tu manges trop des gâteaux."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "trop de / assez de + 名词，零冠词。B 应为 trop de café，D 应为 trop de gâteaux。du 和 des 是部分冠词/缩合冠词，在数量副词后不能出现。",
+          "category": "零冠词规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette robe est _____ jolie, mais elle n'est pas extraordinaire.",
+          "options": [
+            "trop",
+            "très",
+            "assez",
+            "beaucoup"
+          ],
+          "correct": 2,
+          "explanation": "assez = 相当、还算（≈ plutôt）。句意：这条裙子还算漂亮，但不算惊艳。注意 assez 在这里不是\"足够\"，而是\"相当\"，语气偏弱。TCF 常考这个语义差异。",
+          "category": "assez = 相当"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants sont assez grands pour _____ seuls à l'école.",
+          "options": [
+            "aillent",
+            "aller",
+            "allant",
+            "vont"
+          ],
+          "correct": 1,
+          "explanation": "assez…pour + 不定式（inf.）。主句主语和 pour 后的动作主语相同（les enfants），所以用不定式 aller，不用 pour que + subj.。",
+          "category": "assez…pour + inf."
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1qarRhnDNAbJLLz-tzOHVOX5oyD0rhN3ObbSiTIJjIGw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771897926617-xnx9dmvcmnf",
+          "front": "trop + 形容词/副词",
+          "back": "太、过于（超出合理范围）\n例：Cette valise est trop lourde. 这个箱子太重了。"
+        },
+        {
+          "id": "1771897926617-9m4mp4x3kyp",
+          "front": "assez + 形容词/副词（两个含义）",
+          "back": "① 足够地（后常接 pour）\n② 相当、还算（≈ plutôt，语气偏弱）\n例①：Il est assez grand pour comprendre.\n例②：Elle est assez jolie. 她还算漂亮。"
+        },
+        {
+          "id": "1771897926617-g32rxajplxv",
+          "front": "trop / assez 修饰动词时放在哪？",
+          "back": "放在动词后面\n例：Il mange trop. / Il travaille assez."
+        },
+        {
+          "id": "1771897926617-r9f6ok5t2lm",
+          "front": "复合时态中 trop 的位置",
+          "back": "助动词和过去分词之间\n✅ Il a trop mangé.\n❌ Il a mangé trop."
+        },
+        {
+          "id": "1771897926617-nfllcmew97h",
+          "front": "trop de + 名词 = ?",
+          "back": "太多的……（数量过多）\n例：Il y a trop de bruit. 噪音太多了。\n⚠️ de 后面零冠词！"
+        },
+        {
+          "id": "1771897926617-sy9l9osh47f",
+          "front": "assez de + 名词 = ?",
+          "back": "足够的……\n例：Tu as assez d'argent ? 你有足够的钱吗？\n⚠️ de 后面零冠词！"
+        },
+        {
+          "id": "1771897926617-keu7csn5v6e",
+          "front": "trop de 后面能加冠词吗？",
+          "back": "❌ 不能！\n✅ trop de sucre\n❌ trop du sucre\n❌ trop des problèmes\n规则：数量副词 + de + 名词（零冠词）"
+        },
+        {
+          "id": "1771897926617-kdp0bshcd1a",
+          "front": "数量副词 + de + 名词（零冠词）家族成员",
+          "back": "beaucoup de 很多\ntrop de 太多\nassez de 足够\npeu de 很少\nun peu de 一点点\npas de 没有\ncombien de 多少"
+        },
+        {
+          "id": "1771897926617-0m94jqq0mdlr",
+          "front": "trop…pour + inf. = ?",
+          "back": "太……以至于不能……\n例：Il est trop jeune pour conduire.\n他太小了，不能开车。\n注意：否定含义隐含在 trop 中"
+        },
+        {
+          "id": "1771897926617-d098akc4ra8",
+          "front": "assez…pour + inf. = ?",
+          "back": "足够……可以……\n例：Elle est assez intelligente pour comprendre.\n她足够聪明，能理解。"
+        },
+        {
+          "id": "1771897926617-7szsb6xrze5",
+          "front": "pour + inf. vs pour que + subj. 怎么选？",
+          "back": "主语相同 → pour + inf.\n主语不同 → pour que + subj.\n例：Il fait trop froid pour qu'on puisse sortir.\n（主句主语 il ≠ 从句主语 on）"
+        },
+        {
+          "id": "1771897926617-42u02uds832",
+          "front": "trop…pour que + subj. 例句",
+          "back": "Il fait trop froid pour qu'on puisse sortir.\n天太冷了，没法出门。\npour que 后面必须接虚拟式"
+        },
+        {
+          "id": "1771897926617-6e163nb5m0i",
+          "front": "assez…pour que + subj. 例句",
+          "back": "Il est assez tard pour qu'on parte.\n够晚了，我们该走了。\npartir 虚拟式：que je parte"
+        },
+        {
+          "id": "1771897926617-vnyhao84bh",
+          "front": "assez ≠ très（TCF 陷阱）",
+          "back": "assez jolie = 还算漂亮（程度一般）\ntrès jolie = 非常漂亮（程度高）\n考试中 assez 常被误解为 très，注意区分！"
+        },
+        {
+          "id": "1771897926617-ii0hinq879d",
+          "front": "très vs trop 的本质区别",
+          "back": "très = 非常（中性描述，无好坏）\ntrop = 太、过于（超标，偏负面）\ntrès cher = 非常贵\ntrop cher = 太贵了（买不起）"
+        }
+      ]
+    },
+    {
       "id": 1771893525966,
       "name": "原因和结果",
       "folderId": "1770593095506",
@@ -27660,6 +28425,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T00:39:52.676Z",
+  "exportedAt": "2026-02-24T02:01:12.314Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
