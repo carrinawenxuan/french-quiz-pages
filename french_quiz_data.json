@@ -1,6 +1,2270 @@
 {
   "savedSets": [
     {
+      "id": 1771960390741,
+      "name": "Unit 1 PRÉSENT 第三组 -ir 动词",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T19:13:10.741Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (ouvrir) tes cadeaux ?",
+          "correct": [
+            "ouvres"
+          ],
+          "explanation": "本题考察 ouvrir 动词 + 现在的时态 + tu 人称。ouvrir 虽以 -ir 结尾，但按 -er 动词变位（-e, -es, -e）。tu 对应 -es。TCF 高频陷阱点：误用第二组动词 -is 结尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Elles _____ la porte aux invités.",
+          "options": [
+            "ouvrent",
+            "ouvrisent",
+            "ouvrons",
+            "ouvre"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 ouvrir 动词复数第三人称。按第一组规则变位为 ouvrent。陷阱选项 ouvrisent 是混淆了第二组动词的变位规则。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (dormir) à l'hôtel.",
+          "correct": [
+            "dormons"
+          ],
+          "explanation": "本题考察 dormir 动词 + nous 人称。属于保留完整词根（dorm-）的复数人称变位，加 -ons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：L'enfant _____ profondément.",
+          "options": [
+            "dort",
+            "dors",
+            "dormit",
+            "dorme"
+          ],
+          "correct": 0,
+          "explanation": "考察 dormir 第三单数人称。单数人称词根脱落最后的辅音字母 m，变为 dor-，il/elle/on 词尾加 -t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (sortir) tous les deux.",
+          "correct": [
+            "sort"
+          ],
+          "explanation": "考察 sortir + on (第三人称单数)。词根 sor-，加 -t。TCF 常考 on 与 il/elle 同变位规则的掌握。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Vous _____ ce soir ?",
+          "options": [
+            "sortez",
+            "sortez",
+            "sortissez",
+            "sors"
+          ],
+          "correct": 0,
+          "explanation": "考察 sortir 的 vous 变位。复数人称保留完整词根 sort-，加 -ez。注意与第二组动词 (如 finir -> finissez) 区分。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (cueillir) des champignons.",
+          "correct": [
+            "cueillent"
+          ],
+          "explanation": "考察 cueillir + ils。cueillir 像 -er 动词一样变位，ils 加 -ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Je _____ de belles fleurs.",
+          "options": [
+            "cueille",
+            "cueillis",
+            "cueil",
+            "cueilles"
+          ],
+          "correct": 0,
+          "explanation": "考察 cueillir 单数第一人称。按 -er 动词变位，je 加 -e。极易按 -ir 结尾错加 -s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (partir) déjà ?",
+          "correct": [
+            "pars"
+          ],
+          "explanation": "考察 partir + tu。单数人称去 t，词根 par- 加 -s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Ils ne _____ jamais à l'heure.",
+          "options": [
+            "partent",
+            "parts",
+            "partons",
+            "partissent"
+          ],
+          "correct": 0,
+          "explanation": "考察 partir 否定句及 ils 变位。复数词根 part- 加 -ent。否定词 ne...jamais 不影响变位形式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (desservir) la table ?",
+          "correct": [
+            "desservez"
+          ],
+          "explanation": "考察 desservir + vous。与 servir 同理，复数词根 desserv- 加 -ez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Je _____ la table après le repas.",
+          "options": [
+            "dessers",
+            "dessert",
+            "desserve",
+            "desservis"
+          ],
+          "correct": 0,
+          "explanation": "考察 desservir 的 je 变位。单数去 v，词根 desser- 加 -s。注意与 dessert (甜点) 拼写区分。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (courir) vite.",
+          "correct": [
+            "cours"
+          ],
+          "explanation": "考察 courir + je。单数词根 cour- 加 -s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Les sportifs _____ tous les matins.",
+          "options": [
+            "courent",
+            "coursent",
+            "courrent",
+            "courissent"
+          ],
+          "correct": 0,
+          "explanation": "考察 courir 的 ils 变位。直接在原形基础上加 -ent 替换 -ir，变为 courent。注意读音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (servir) les clients.",
+          "correct": [
+            "sert"
+          ],
+          "explanation": "考察 servir + il。单数去 v，词根 ser- 加 -t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Nous _____ (servir) le dîner à 20h.",
+          "options": [
+            "servons",
+            "servissons",
+            "serons",
+            "servent"
+          ],
+          "correct": 0,
+          "explanation": "考察 servir 的 nous 变位。复数保留 v，加 -ons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (mentir) à ses parents.",
+          "correct": [
+            "ment"
+          ],
+          "explanation": "考察 mentir + il。单数去 t，词根 men- 加 -t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Vous me _____ ?",
+          "options": [
+            "mentez",
+            "mentissez",
+            "ments",
+            "mentent"
+          ],
+          "correct": 0,
+          "explanation": "考察 mentir 的 vous 变位及代词宾语连用。代词 me 不影响动词变位，vous 对应 mentez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous partez en vacances cette année ? (使用 oui 肯定回答，主语为 je)",
+          "correct": [
+            "Oui, je pars en vacances cette année.",
+            "Oui, je pars en vacances."
+          ],
+          "explanation": "考察 partir 变位转换及问答逻辑。vous 提问需用 je 回答，partir 变为 pars。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "TCF 变形题 : Est-ce qu'ils s'endorment vite ? (使用 non 否定回答)",
+          "correct": [
+            "Non, ils ne s'endorment pas vite."
+          ],
+          "explanation": "考察代词式动词的否定形式。ne 置于自反代词前，pas 置于动词后。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous vous servez du dictionnaire ? (使用 oui 肯定回答，主语为 je)",
+          "correct": [
+            "Oui, je m'en sers.",
+            "Oui, je me sers du dictionnaire."
+          ],
+          "explanation": "考察自反动词 se servir de 的 je 变位：je me sers。高级回答可用副代词 en 代替 du dictionnaire。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Elle ne _____ pas de cette machine.",
+          "options": [
+            "se sert",
+            "se sers",
+            "sert",
+            "me sert"
+          ],
+          "correct": 0,
+          "explanation": "考察 se servir 否定及第三人称单数。自反代词 se 匹配 elle，变位 sert。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Depuis que nous _____ (être) en Provence, nous _____ (se sentir) merveilleusement bien. Nous _____ (ne pas se servir) de la voiture. Le matin, nous _____ (ouvrir) les volets et nous _____ (sortir) vite: nous _____ (partir) faire des promenades et nous _____ (cueillir) toutes ces herbes qui _____ (sentir) si bon. Le soir, nous _____ (s'endormir) comme des bébés ! Malheureusement nous _____ (repartir) dans une semaine. Je _____ (courir) poster cette lettre.",
+          "correct": [
+            "sommes",
+            "nous sentons",
+            "ne nous servons pas",
+            "ouvrons",
+            "sortons",
+            "partons",
+            "cueillons",
+            "sentent",
+            "nous endormons",
+            "repartons",
+            "cours"
+          ],
+          "explanation": "综合考察 present 时态多种动词的变位应用。包括系动词、代词式动词及不规则第三组动词的复数变位规则。",
+          "category": "综合变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 变形题：Les enfants _____ (s'endormir) tôt, alors que les parents _____ (sortir) souvent. Ils ne _____ (se servir) pas de l'ordinateur.",
+          "correct": [
+            "s'endorment",
+            "sortent",
+            "se servent"
+          ],
+          "explanation": "综合测试 ils/elles 人称复数的自反动词和第三组动词变位。注意代词位置及词根的保留。",
+          "category": "综合变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (secourir) les blessés.",
+          "correct": [
+            "secourons"
+          ],
+          "explanation": "考察 secourir 的 nous 变位。secourir 与 courir 变位规则相同，保留完整词根 secour-，加 -ons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Les pompiers _____ rapidement les victimes.",
+          "options": [
+            "secourrent",
+            "secourissent",
+            "secourent",
+            "secoursent"
+          ],
+          "correct": 2,
+          "explanation": "考察 secourir 的 ils 变位。同 courir，直接在原形基础上换 -ir 为 -ent，变为 secourent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous sortez ce soir ? (使用 non 否定回答，主语为 je)",
+          "correct": [
+            "Non, je ne sors pas ce soir.",
+            "Non, je ne sors pas."
+          ],
+          "explanation": "考察 sortir 变位转换及否定结构。vous 变 je，sortir 第一人称单数变为 sors，ne...pas 包裹动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Elles ne _____ jamais le week-end.",
+          "options": [
+            "sortent",
+            "sort",
+            "sortons",
+            "sortissent"
+          ],
+          "correct": 0,
+          "explanation": "考察 sortir 复数第三人称。词根 sort- 加 -ent，注意避免按第二组动词规则变位为 sortissent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous dormez bien en ce moment ? (使用 oui 肯定回答，主语为 je)",
+          "correct": [
+            "Oui, je dors bien en ce moment.",
+            "Oui, je dors bien."
+          ],
+          "explanation": "考察 dormir 变位转换。vous 提问用 je 回答，dormir 单数词根脱落 m 变为 dor-，加 -s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Mon chat _____ sur le canapé toute la journée.",
+          "options": [
+            "dors",
+            "dort",
+            "dorme",
+            "dormit"
+          ],
+          "correct": 1,
+          "explanation": "考察 dormir 第三人称单数。主语 mon chat 等同于 il，变位加 -t 变为 dort。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous mentez parfois à vos amis ? (使用 non 否定回答，将 parfois 变为 jamais，主语为 je)",
+          "correct": [
+            "Non, je ne mens jamais à mes amis."
+          ],
+          "explanation": "考察 mentir 单数变位及频度副词否定。mentir 单数脱落 t 变为 men- 加 -s。parfois 的否定对应 ne...jamais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Pourquoi est-ce qu'il te _____ ?",
+          "options": [
+            "ment",
+            "ments",
+            "mente",
+            "mentit"
+          ],
+          "correct": 0,
+          "explanation": "考察 mentir 单数第三人称及代词位置。主语是 il，变位为 ment。te 是宾语代词，不影响动词变位。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous offrez souvent des fleurs ? (使用 oui 肯定回答，主语为 je)",
+          "correct": [
+            "Oui, j'offre souvent des fleurs."
+          ],
+          "explanation": "考察 offrir 单数变位及省音。offrir 按 -er 动词规则变位，je 对应 -e。je 遇元音开头的 offre 需省音变为 j'offre。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Nous vous _____ un verre à la santé du directeur.",
+          "options": [
+            "offrons",
+            "offrez",
+            "offrissons",
+            "offrent"
+          ],
+          "correct": 0,
+          "explanation": "考察 offrir 复数第一人称。主语是 nous，变位为 offrons。vous 是间接宾语，切勿被其干扰。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Répondez : Vous vous sentez en forme ? (使用 oui 肯定回答，主语为 je)",
+          "correct": [
+            "Oui, je me sens en forme."
+          ],
+          "explanation": "考察代词式动词 se sentir 的 je 变位。自反代词 vous 变为 me，sentir 变为 sens。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Marie _____ très fatiguée après le sport.",
+          "options": [
+            "se sent",
+            "se sens",
+            "te sens",
+            "sent"
+          ],
+          "correct": 0,
+          "explanation": "考察 se sentir 的 elle 变位。Marie 对应 elle，自反代词用 se，变位为 sent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Faites une phrase au présent : les enfants / s'endormir / devant la télévision.",
+          "correct": [
+            "Les enfants s'endorment devant la télévision."
+          ],
+          "explanation": "考察组句及 s'endormir 的 ils 变位。les enfants 对应 ils，endormir 复数词根保留 m，加 -ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Tu _____ facilement dans le train ?",
+          "options": [
+            "t'endors",
+            "t'endort",
+            "t'endormes",
+            "s'endors"
+          ],
+          "correct": 0,
+          "explanation": "考察 s'endormir 的 tu 变位。自反代词为 te (省音 t')，动词部分同 dormir，单数脱落 m 加 -s 变为 endors。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Faites une phrase au présent : les étudiants / sortir / en boîte de nuit.",
+          "correct": [
+            "Les étudiants sortent en boîte de nuit."
+          ],
+          "explanation": "考察组句及 sortir 的 ils 变位。les étudiants 对应 ils，复数保留 t，加 -ent 变为 sortent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 变形题：Nous _____ nos affaires du sac.",
+          "options": [
+            "sortons",
+            "sortissons",
+            "sortez",
+            "sortent"
+          ],
+          "correct": 0,
+          "explanation": "考察 sortir 的 nous 变位。主语为 nous，加 -ons。注意此句中 sortir 为及物动词（拿出），但变位规则相同。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle _____ la porte chaque matin à 7 heures.",
+          "options": [
+            "ouvris",
+            "ouvre",
+            "ouvrit",
+            "ouvrent"
+          ],
+          "correct": 1,
+          "explanation": "ouvrir 属于单词根动词，变位像 -er 动词。elle 对应第三人称单数，词尾 -e → ouvre。ouvris/ouvrit 是简单过去时（不在 TCF 基础考查范围），ouvrent 是复数。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous _____ très bien dans cet hôtel.",
+          "options": [
+            "dors",
+            "dormons",
+            "dormissons",
+            "dorment"
+          ],
+          "correct": 1,
+          "explanation": "dormir 是双词根动词，nous 用复数词根 dorm- + ons → dormons。dormissons 是第二组 -ir 的词尾模式（-issons），这是典型干扰项，dormir 是第三组！",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Tu _____ souvent à tes parents ?",
+          "options": [
+            "ments",
+            "mens",
+            "mentis",
+            "mentes"
+          ],
+          "correct": 1,
+          "explanation": "mentir 是双词根动词（同 partir 类），tu 用单数词根 men- + s → mens。ments 多了一个 t（常见拼写陷阱），mentes 是把它当 -er 动词变位了。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Les bénévoles _____ les réfugiés avec chaleur.",
+          "options": [
+            "accueillent",
+            "accueillissent",
+            "accueilent",
+            "accueilles"
+          ],
+          "correct": 0,
+          "explanation": "accueillir 属于 cueillir 类单词根动词，变位像 -er 动词。ils/elles 用 -ent → accueillent。accueillissent 是把它当第二组处理的错误形式，accueilent 拼写错误少了一个 l。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je _____ d'un traducteur en ligne pour mes devoirs.",
+          "options": [
+            "sers",
+            "me sers",
+            "me serves",
+            "sert"
+          ],
+          "correct": 1,
+          "explanation": "se servir de qqch（使用某物）是固定搭配。je 对应 me sers（单数词根 ser- + s，加自反代词 me）。sers 没有自反代词，语义变成「我端上」。",
+          "category": "用法搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Hier, Marie _____ à 6 heures du matin.",
+          "options": [
+            "a parti",
+            "est partie",
+            "est parti",
+            "a partie"
+          ],
+          "correct": 1,
+          "explanation": "partir 不及物，复合过去时用 être 做助动词。Marie 是阴性单数，过去分词要配合 → partie。est parti 没有阴性配合，a parti/a partie 用了错误的助动词 avoir。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous avons _____ la fenêtre ce matin.",
+          "options": [
+            "ouvri",
+            "ouvré",
+            "ouvert",
+            "ouvris"
+          ],
+          "correct": 2,
+          "explanation": "ouvrir 的过去分词是 ouvert（不规则！）。这是 TCF 超高频陷阱，很多考生凭直觉写 ouvri，但 ouvrir 族的过去分词全部是 -ert：ouvert, offert, couvert, découvert, souffert。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il _____ les valises du coffre hier soir.",
+          "options": [
+            "est sorti",
+            "a sorti",
+            "a parti",
+            "est parti"
+          ],
+          "correct": 1,
+          "explanation": "sortir 在这里是及物动词（sortir qqch = 拿出某物），及物时用 avoir → a sorti。如果是「他出去了」（不及物）才用 être。partir 不能带直接宾语，排除。",
+          "category": "复合过去时-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Ça sert à quoi ? », que signifie « servir à » ?",
+          "options": [
+            "端上",
+            "服务",
+            "用于",
+            "使用"
+          ],
+          "correct": 2,
+          "explanation": "servir à qqch / à faire qqch = 用于……，有……用途。servir qqn = 服务某人/端上。se servir de = 使用。三个搭配含义完全不同，TCF 常考辨析。",
+          "category": "用法辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Il [paʁ] demain. » Combien de personnes partent ?",
+          "options": [
+            "Une seule personne",
+            "Plusieurs personnes",
+            "On ne peut pas savoir",
+            "Deux personnes"
+          ],
+          "correct": 0,
+          "explanation": "[paʁ] 末尾没有辅音 [t] 发音 → 这是单数形式 il part。如果是复数 ils partent，发音应为 [paʁt]，末尾的 t 会发音。这是 TCF 听力辨别单复数的关键技巧。",
+          "category": "听力辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants _____ (s'endormir) devant la télévision tous les soirs.",
+          "correct": [
+            "s'endorment"
+          ],
+          "explanation": "s'endormir 是双词根动词（同 dormir），ils 用复数词根 endorm- + ent → s'endorment。注意自反代词 s' 不能丢。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle nous a _____ (offrir) un magnifique bouquet de fleurs.",
+          "correct": [
+            "offert"
+          ],
+          "explanation": "offrir 的过去分词是 offert（不规则，同 ouvrir → ouvert）。不是 offri！ouvrir 族过去分词一律 -ert。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词的复合过去时用 être 做助动词？（不及物用法）",
+          "options": [
+            "partir",
+            "dormir",
+            "sortir",
+            "courir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "partir 和 sortir（不及物时）属于「17 个移动不及物动词」，用 être。dormir 和 courir 用 avoir。注意 sortir 及物时（如 sortir les poubelles）转用 avoir。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ce soir, nous _____ faire une longue promenade.",
+          "options": [
+            "allons",
+            "irons",
+            "partons",
+            "vont"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时结构：aller（现在时）+ 不定式。nous → allons + faire。irons 是简单将来时，不符合最近将来时结构。partons 是 partir 现在时，语法上不构成将来时。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce matin, Pierre _____ (ouvrir) les volets, puis il _____ (sortir) acheter du pain. Il _____ (courir) parce qu'il était en retard.",
+          "correct": [
+            "a ouvert",
+            "est sorti",
+            "a couru"
+          ],
+          "explanation": "三个动词的复合过去时：ouvrir → a ouvert（avoir + 不规则过去分词）；sortir 此处不及物（出去买面包）→ est sorti（être + 配合阳性单数）；courir → a couru（avoir + 规则过去分词）。",
+          "category": "复合过去时综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1FOpSmDVRXdjaTajadPVt97gs9Pi5MUSdMuLxYWOtmUU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771960535782-63esk1unnu",
+          "front": "ouvrir 现在时变位像哪一组？",
+          "back": "像第一组 -er 动词：j'ouvre, tu ouvres, il ouvre, nous ouvrons, vous ouvrez, ils ouvrent\n词尾：-e, -es, -e, -ons, -ez, -ent"
+        },
+        {
+          "id": "1771960535782-mjqny2vk6qa",
+          "front": "ouvrir 的过去分词",
+          "back": "ouvert ⚠️ 不规则！\n不是 ouvri"
+        },
+        {
+          "id": "1771960535782-8n6tx31nkm5",
+          "front": "offrir 的过去分词",
+          "back": "offert ⚠️\nouvrir 族过去分词一律 -ert"
+        },
+        {
+          "id": "1771960535782-zq84c8cowxt",
+          "front": "couvrir 的过去分词",
+          "back": "couvert\n同族：découvrir → découvert"
+        },
+        {
+          "id": "1771960535782-psvp6v95woa",
+          "front": "souffrir 的过去分词",
+          "back": "souffert\n搭配：souffrir de qqch（受……之苦）"
+        },
+        {
+          "id": "1771960535782-so5emprqjjm",
+          "front": "ouvrir 族有哪些同族动词？",
+          "back": "rouvrir, entrouvrir, couvrir, découvrir, recouvrir, offrir, souffrir\n全部像 -er 动词变位，过去分词 -ert"
+        },
+        {
+          "id": "1771960535782-ierqlivsef",
+          "front": "cueillir 现在时 ils",
+          "back": "ils cueillent\n单词根，像 -er 动词：-e, -es, -e, -ons, -ez, -ent"
+        },
+        {
+          "id": "1771960535782-7wql3ro0hc",
+          "front": "accueillir 现在时 nous",
+          "back": "nous accueillons\n单词根 accueill- + ons"
+        },
+        {
+          "id": "1771960535782-9z4l4sds16k",
+          "front": "courir 现在时变位词尾",
+          "back": "-s, -s, -t, -ons, -ez, -ent\n⚠️ 和 ouvrir/cueillir 不同，courir 用标准第三组词尾"
+        },
+        {
+          "id": "1771960535782-sk45odzddg",
+          "front": "courir 现在时 je/tu/il",
+          "back": "je cours, tu cours, il court\n词根 cour- 全人称通用（单词根）"
+        },
+        {
+          "id": "1771960535782-qpy5v4dpm7q",
+          "front": "dormir 的两个词根",
+          "back": "单数词根：dor-（去掉最后三个字母 mir）\n复数词根：dorm-（去掉 -ir）"
+        },
+        {
+          "id": "1771960535782-080utb0iy8cv",
+          "front": "dormir 现在时完整变位",
+          "back": "je dors, tu dors, il dort\nnous dormons, vous dormez, ils dorment"
+        },
+        {
+          "id": "1771960535782-vhmjxcbr1jl",
+          "front": "partir 的两个词根",
+          "back": "单数词根：par-\n复数词根：part-"
+        },
+        {
+          "id": "1771960535782-efwi1szuewb",
+          "front": "partir 现在时完整变位",
+          "back": "je pars, tu pars, il part\nnous partons, vous partez, ils partent"
+        },
+        {
+          "id": "1771960535782-9cv81zkaep4",
+          "front": "servir 的两个词根",
+          "back": "单数词根：ser-\n复数词根：serv-"
+        },
+        {
+          "id": "1771960535782-oamc71uhgf",
+          "front": "se servir 现在时 je",
+          "back": "je me sers\n单数词根 ser- + s，别忘自反代词 me"
+        },
+        {
+          "id": "1771960535782-eq0pjhkn38r",
+          "front": "mentir 现在时 tu",
+          "back": "tu mens\n单数词根 men-（不是 ments！没有 t）"
+        },
+        {
+          "id": "1771960535782-9ime4jse8lw",
+          "front": "sentir 现在时 ils",
+          "back": "ils sentent\n复数词根 sent- + ent"
+        },
+        {
+          "id": "1771960535782-3n0wruwdott",
+          "front": "如何区分第二组和第三组 -ir 动词？",
+          "back": "看 nous 形式：\n有 -issons → 第二组（如 finissons）\n没有 -iss- → 第三组（如 dormons）"
+        },
+        {
+          "id": "1771960535782-dnbph81nzch",
+          "front": "partir 复合过去时用什么助动词？",
+          "back": "être ⚠️\nje suis parti(e)\n过去分词要与主语性数配合"
+        },
+        {
+          "id": "1771960535782-sjrom6ho2de",
+          "front": "sortir 复合过去时的助动词怎么选？",
+          "back": "不及物（出去）→ être：je suis sorti(e)\n及物（拿出）→ avoir：j'ai sorti les valises"
+        },
+        {
+          "id": "1771960535782-m0xupjzu87a",
+          "front": "dormir 复合过去时",
+          "back": "j'ai dormi（用 avoir）\n过去分词 dormi（规则）"
+        },
+        {
+          "id": "1771960535782-dpkpk69ram4",
+          "front": "courir 复合过去时",
+          "back": "j'ai couru（用 avoir）\n过去分词 couru（规则）"
+        },
+        {
+          "id": "1771960535782-4c449mabqzq",
+          "front": "最近将来时的构成",
+          "back": "aller（现在时）+ 动词不定式\nje vais dormir / tu vas partir / il va ouvrir"
+        },
+        {
+          "id": "1771960535782-4xy22uyigoy",
+          "front": "offrir 的搭配",
+          "back": "offrir qqch à qqn\n送某物给某人\nIl m'offre un cadeau."
+        },
+        {
+          "id": "1771960535782-o5nyqfgkmu",
+          "front": "se servir de 的含义",
+          "back": "使用某物\nJe me sers d'un dictionnaire.\n≠ servir（端上/服务）"
+        },
+        {
+          "id": "1771960535782-k5vemp2ih48",
+          "front": "servir à 的含义",
+          "back": "用于……，有……用途\nÇa sert à quoi ? 这有什么用？"
+        },
+        {
+          "id": "1771960535782-7n57jvr0dx",
+          "front": "partir 的常用搭配",
+          "back": "partir de + 地点（从……出发）\npartir pour/à + 地点（去……）\npartir en vacances（去度假）"
+        },
+        {
+          "id": "1771960535782-w8f8a8o7dpe",
+          "front": "mentir 的搭配",
+          "back": "mentir à qqn（对某人撒谎）\nJe ne mens jamais à mes amis."
+        },
+        {
+          "id": "1771960535782-74obhptt1xq",
+          "front": "souffrir 的搭配",
+          "back": "souffrir de qqch（受……之苦）\nElle souffre de maux de tête. 她头痛。"
+        },
+        {
+          "id": "1771960535782-8ad6chhlmfi",
+          "front": "发音：il dort vs ils dorment",
+          "back": "il dort [dɔʁ] → 末尾 m 不发音\nils dorment [dɔʁm] → m 发音\n听到辅音 = 复数"
+        },
+        {
+          "id": "1771960535782-0atr0qi68g6q",
+          "front": "发音：il part vs ils partent",
+          "back": "il part [paʁ] → 末尾 t 不发音\nils partent [paʁt] → t 发音\n听到辅音 = 复数"
+        },
+        {
+          "id": "1771960535782-zdnj3fjlm9",
+          "front": "发音：il sert vs ils servent",
+          "back": "il sert [sɛʁ] → 末尾 v 不发音\nils servent [sɛʁv] → v 发音"
+        },
+        {
+          "id": "1771960535782-f3yifi9oq6j",
+          "front": "TCF 陷阱：ouvrir 现在时 je",
+          "back": "j'ouvre ✅（像 -er 动词）\nj'ouvris ❌（简单过去时）\nj'ouvrit ❌"
+        },
+        {
+          "id": "1771960535782-nkf8x5u6cla",
+          "front": "TCF 陷阱：dormir nous 变位",
+          "back": "nous dormons ✅\nnous dormissons ❌（这是第二组 -issons 的错误类推）"
+        },
+        {
+          "id": "1771960535782-s598o6j5quq",
+          "front": "s'endormir 现在时 ils",
+          "back": "ils s'endorment\n复数词根 endorm- + ent\n含义：他们入睡"
+        },
+        {
+          "id": "1771960535782-zwaz9wc37rk",
+          "front": "parcourir 的含义和用法",
+          "back": "浏览/走遍\nparcourir un livre（浏览一本书）\nparcourir le monde（走遍世界）"
+        },
+        {
+          "id": "1771960535782-k7y1l9l6rjd",
+          "front": "secourir 的含义和用法",
+          "back": "救助\nsecourir les blessés（救助伤员）\n现在时 nous：nous secourons"
+        },
+        {
+          "id": "1771960535782-73ysfd1ksyd",
+          "front": "dormir comme un bébé",
+          "back": "睡得很香（像婴儿一样）\n同义：dormir comme un loir（像睡鼠一样）"
+        },
+        {
+          "id": "1771960535782-rtbyascgyd9",
+          "front": "17个用 être 的动词中，本课涉及哪些？",
+          "back": "partir → parti\nsortir → sorti（不及物时）\nrepartir → reparti\n⚠️ 过去分词要与主语性数配合"
+        }
+      ]
+    },
+    {
+      "id": 1771959767603,
+      "name": "Unit 1 PRÉSENT 第二组动词（-IR + -ISS-）",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T19:02:47.603Z",
+      "questions": [
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complétez au présent : Elle _____ (rougir) facilement. Elles _____. Je _____.",
+          "correct": [
+            "rougit",
+            "rougissent",
+            "rougis"
+          ],
+          "explanation": "本题考察第二组动词 rougir（脸红）的现在时变位。词干 roug-，单数词尾加 -is, -is, -it，复数加 -issons, -issez, -issent。正确答案依次为 rougit (elle), rougissent (elles), rougis (je)。TCF 陷阱：混淆复数形式的 -iss- 扩展，容易漏掉双 s。判断口诀：第二组动词复数找 iss。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne sois pas timide, tu ne _____ jamais quand tu parles à tes amis.",
+          "options": [
+            "rougit",
+            "rougisse",
+            "rougis",
+            "rougissez"
+          ],
+          "correct": 2,
+          "explanation": "本题为 TCF 陷阱变形题。考察否定结构及人称代词 tu 的变位。正确答案是 rougis。TCF 高频陷阱点：在复杂句式中，考生容易受否定词 ne...jamais 或从句主语干扰。此处主句主语明确为 tu，词尾必须是 -is。A 是 il/elle，B 是虚拟式/第一组动词混淆，D 是 vous。判断口诀：tu 永远带 s (除命令式第一组个别情况)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complétez au présent : Tu _____ (choisir) ce pull ? Vous _____ ? Elles _____ ?",
+          "correct": [
+            "choisis",
+            "choisissez",
+            "choisissent"
+          ],
+          "explanation": "本题考察第二组核心动词 choisir 现在时变位。正确答案：choisis (tu), choisissez (vous), choisissent (elles)。考察重点是区分单复数的词形变化。第二组动词 vous 和 ils/elles 变位必须包含 -iss-。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Monsieur, vous ne _____ pas la bonne réponse, réfléchissez encore !",
+          "options": [
+            "choisisez",
+            "choisissez",
+            "choissisez",
+            "choisissons"
+          ],
+          "correct": 1,
+          "explanation": "本题为 TCF 拼写陷阱题。考察 vous 配合 choisir 变位拼写。正确答案 choisissez。TCF 高频陷阱点：听力或阅读词汇辨析中，极易出现 s 和 ss 的混淆。A 少了一个 s 导致发音变为 [z]，C 的 s 位置错乱，D 是 nous 的变位。判断口诀：第二组 vous 结尾永远是 -issez（双 s，z 结尾）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (haïr) l'hypocrisie.",
+          "correct": [
+            "hait"
+          ],
+          "explanation": "本题考察极特殊第二组动词 haïr（仇恨）的第三人称单数。正确答案 hait。TCF 极高频考点。haïr 在单数三人称（je, tu, il/elle）变位时脱落分音符（tréma），变成 je hais, tu hais, il hait。且 h 为嘘音 h，不省音不联诵。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi ces conjugaisons du verbe « haïr » au présent, lesquelles sont correctes ?",
+          "options": [
+            "Ils haïssent",
+            "Nous haisons",
+            "Tu haïs",
+            "Il hait"
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "本题为 TCF 综合判断陷阱题。正确答案为 A 和 D。B 错误（应为 haïssons，需分音符且双 s，haisons 会发成 [z] 音），C 错误（单数 tu hais 无分音符）。判断口诀：haïr 单数变位像普通词无两点，复数加 iss 且带两点。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le public _____ (applaudir) quand la pièce est finie.",
+          "correct": [
+            "applaudit"
+          ],
+          "explanation": "本题考察 applaudir 的变位及集合名词主语。正确答案 applaudit。le public 形式上是单数第三人称（il），因此动词词尾用 -it。TCF 常见陷阱：看到 public 会主观联想到“一群人”而误用复数 applaudissent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde _____ chaleureusement à la fin du spectacle ce soir.",
+          "options": [
+            "applaudis",
+            "applaudissent",
+            "applaudit",
+            "applaudisse"
+          ],
+          "correct": 2,
+          "explanation": "本题为 TCF 主语一致性陷阱变形题。正确答案 applaudit。TCF 高频陷阱点：tout le monde 意为“大家、所有人”，但在法语语法中必须视为单数第三人称（il）。选项 B 是最常见的考生错选。判断口诀：tout le monde 永远接 il 的变位。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le groupe _____ (se réunir) tous les samedis. Ils _____ (réfléchir) au programme et ils _____ (finir) souvent tard.",
+          "correct": [
+            "se réunit",
+            "réfléchissent",
+            "finissent"
+          ],
+          "explanation": "本题考察段落中主语人称的频繁切换及代词式动词。正确答案依次为 se réunit (le groupe = il), réfléchissent (ils), finissent (ils)。陷阱在于第一个主语是单数集合名词，后文立即切换为复数代词 ils，做题时必须紧盯最近的主语并正确拼写 -iss-。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que vous _____ souvent dans ce café pour discuter des projets ?",
+          "options": [
+            "se réunissez",
+            "vous réunissez",
+            "vous réunisez",
+            "réunissez"
+          ],
+          "correct": 1,
+          "explanation": "本题为 TCF 代词式动词变形陷阱题。正确答案 vous réunissez。TCF 高频陷阱：代词式动词的自反代词必须与主语一致，且第二组动词词尾要拼对。A 错在自反代词未变（se），C 错在少了一个 s（发音错误），D 漏掉了自反代词 vous。判断口诀：代词式动词变位先变代词，再变动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Faites un verbe en « -ir » (2e groupe) à partir de l'adjectif « grand » et conjuguez-le avec « les enfants » au présent.",
+          "correct": [
+            "Les enfants grandissent.",
+            "les enfants grandissent"
+          ],
+          "explanation": "本题考察形容词派生第二组动词及变位。grand 派生出 grandir。与 les enfants (复数第三人称) 连用，变为 grandissent。TCF 中经常通过词性转换来考察词汇量及变位功底。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Quel est le verbe du 2e groupe dérivé de l'adjectif « vieux » ? Conjuguez ce verbe au présent avec le pronom « nous ».",
+          "correct": [
+            "Nous vieillissons.",
+            "nous vieillissons"
+          ],
+          "explanation": "本题为 TCF 不规则派生变形陷阱题。正确答案 Nous vieillissons。TCF 高频陷阱：vieux 的词根变化极为特殊，变为 vieill-，再加 -ir 构成 vieillir。变位时加复数词尾 -issons。拼写非常容易出错（双 l，双 s）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complétez au présent : Je _____ (grossir) trop. Ils _____. Vous ***.",
+          "correct": [
+            "grossis",
+            "grossissent",
+            "grossissez"
+          ],
+          "explanation": "本题考察第二组动词 grossir（发胖）的现在时变位。词根为 gross-，单数第一人称 je 加 -is，复数第三人称 ils 加 -issent，复数第二人称 vous 加 -issez。第二组动词的核心在于复数人称的 -iss- 扩展。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si vous mangez trop de gâteaux tous les jours, vous _____ très vite !",
+          "options": [
+            "grossissez",
+            "grossisez",
+            "grossez",
+            "grossiez"
+          ],
+          "correct": 0,
+          "explanation": "本题为 TCF 拼写陷阱题。考察 grossir 的 vous 变位。正确答案 grossissez。TCF 高频陷阱点：极易在拼写中漏掉 s。B 选项发音会变成 [z]（两个元音字母中间一个 s 发 z），C 选项错当成第一组动词，D 选项是未完成过去时（imparfait）。判断口诀：第二组 vous 结尾必定是 ss 加上 ez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les voitures _____ (ralentir) puis s'arrêtent au feu rouge.",
+          "correct": [
+            "ralentissent"
+          ],
+          "explanation": "本题考察 ralentir（减速）。主语是复数名词 les voitures，等同于 elles，因此第二组动词词尾必须使用复数形式的 -issent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Sur cette route dangereuse, la plupart des voitures _____ à l'approche du virage.",
+          "options": [
+            "ralentit",
+            "ralentissent",
+            "ralentis",
+            "ralenti"
+          ],
+          "correct": 1,
+          "explanation": "本题为 TCF 数量词主语陷阱题。正确答案 ralentissent。TCF 高频陷阱点：当主语是 \"La plupart des + 复数名词\" 时，谓语动词必须与后面的复数名词保持一致，用复数形式（elles）。很多考生会受 la plupart 单数形式干扰错选 A。",
+          "category": "语法与变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Attention quand on le lave à l'eau chaude, ce pull _____ (rétrécir).",
+          "correct": [
+            "rétrécit"
+          ],
+          "explanation": "本题考察 rétrécir（缩水）。主语 ce pull 是第三人称单数 (il)，第二组动词单数第三人称词尾加 -it。正确变位为 rétrécit。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis très déçu, mes chemises en coton _____ toujours au premier lavage en machine.",
+          "options": [
+            "rétrécit",
+            "rétrécis",
+            "rétrécissent",
+            "rétrécisses"
+          ],
+          "correct": 2,
+          "explanation": "本题为 TCF 主语单复数变形陷阱。正确答案 rétrécissent。主语变为 mes chemises (elles，复数)。考生容易因为前面的单数 je 产生视觉残留，或者忘记第二组动词复数的 -iss-。D 选项带有 s 是虚拟式或第一组动词 tu 的误用。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le président _____ (définir) l'emploi du temps. Le secrétaire de séance _____ (éclaircir) les points obscurs.",
+          "correct": [
+            "définit",
+            "éclaircit"
+          ],
+          "explanation": "本题考察 définir (定义) 和 éclaircir (阐明) 两个第二组动词的单数第三人称变位。主语 le président 和 le secrétaire 均为 il，词尾均加 -it。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquels de ces verbes sont correctement conjugués au présent avec le pronom « nous » ?",
+          "options": [
+            "Nous définissons",
+            "Nous éclaircissons",
+            "Nous définisons",
+            "Nous éclaircit"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "本题为 TCF 变位多选识别陷阱题。正确答案是 A 和 B。définir 和 éclaircir 的 nous 变位必须包含完整的 -iss- 扩展。C 选项少了一个 s，发音变成 [z]，是典型的拼写陷阱；D 选项是 il 的变位形式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Faites un verbe en « -ir » (2e groupe) à partir de l'adjectif « mince » et conjuguez-le avec « elle » au présent.",
+          "correct": [
+            "Elle mincit.",
+            "elle mincit"
+          ],
+          "explanation": "本题考察词性派生及变位。形容词 mince 派生出第二组动词 mincir（变瘦）。单数第三人称 elle 的变位为 mincit。",
+          "category": "词汇与变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Depuis qu'elle fait du sport et mange sainement, elle _____ à vue d'œil.",
+          "options": [
+            "mince",
+            "mincit",
+            "minci",
+            "mincisse"
+          ],
+          "correct": 1,
+          "explanation": "本题为 TCF 词性混淆陷阱题。正确答案 mincit。TCF 常见陷阱：在填空题中混淆同根的形容词和动词。此处缺少谓语动词，必须用 mincit。A (mince) 是形容词或第一组动词错觉，C (minci) 是过去分词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Faites un verbe en « -ir » à partir de l'adjectif « épais » et conjuguez-le avec « la soupe » au présent.",
+          "correct": [
+            "La soupe épaissit.",
+            "la soupe épaissit"
+          ],
+          "explanation": "本题考察特殊派生动词。形容词 épais (厚的/浓稠的) 派生出 épaissir。la soupe 等同于 elle，变位为 épaissit。",
+          "category": "词汇与变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour que la sauce soit meilleure, nous l'*** (épaissir) avec un peu de farine.",
+          "correct": [
+            "épaississons"
+          ],
+          "explanation": "本题为 TCF 宾语代词干扰陷阱题。正确答案 épaississons。TCF 高频陷阱：动词前出现直接宾语代词 l' 或 les 时，考生极易受其单复数干扰。此处真正的主语是 nous，动词必须根据 nous 变位为 épaississons。判断口诀：找准主语，无视提前的宾语代词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ tous les samedis pour discuter du projet.",
+          "options": [
+            "réunissons",
+            "se réunissons",
+            "nous réunissons",
+            "nous réunons"
+          ],
+          "correct": 2,
+          "explanation": "se réunir 是代词式动词，nous 对应 nous réunissons。选项0缺少代词，选项1代词形式错误（应为nous非se），选项3缺少-iss-。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les feuilles _____ en automne.",
+          "options": [
+            "jaunis",
+            "jaunissent",
+            "jaunient",
+            "jaunit"
+          ],
+          "correct": 1,
+          "explanation": "les feuilles 是第三人称复数，第二组动词复数插入-iss-：jaunissent。jaunis是je/tu的形式，jaunit是il/elle的形式，jaunient不存在。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ l'hypocrisie plus que tout.",
+          "options": [
+            "haït",
+            "hait",
+            "haïs",
+            "haïssent"
+          ],
+          "correct": 1,
+          "explanation": "haïr 在单数三人称时不加 tréma：il/elle hait [ɛ]。haït是常见错误写法（严格语法），haïs是je/tu形式，haïssent是复数。",
+          "category": "变位+haïr特殊规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a enfin _____ à obtenir son diplôme.",
+          "options": [
+            "réussi de",
+            "réussi à",
+            "réussit à",
+            "réussi"
+          ],
+          "correct": 1,
+          "explanation": "réussir à + inf. 是固定搭配，passé composé 用 avoir + réussi。选项0介词错误（de），选项2是现在时形式非过去分词，选项3缺少介词。",
+          "category": "介词搭配+passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention, ce pull _____ à l'eau chaude !",
+          "options": [
+            "rétrécit",
+            "rétrécissent",
+            "rétréci",
+            "rétrécis"
+          ],
+          "correct": 0,
+          "explanation": "ce pull 是第三人称单数 → rétrécit。rétrécissent是复数，rétréci是过去分词，rétrécis是je/tu形式。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ de honte quand le professeur les a interrogées.",
+          "options": [
+            "ont rougit",
+            "ont rougi",
+            "ont rougies",
+            "sont rougies"
+          ],
+          "correct": 1,
+          "explanation": "rougir 用 avoir 作助动词，过去分词 rougi。avoir 作助动词时过去分词不与主语配合（无前置COD），所以不加-es。rougit是现在时形式不是过去分词。",
+          "category": "passé composé"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词属于第二组动词（-iss- 变位）？",
+          "options": [
+            "partir",
+            "grossir",
+            "dormir",
+            "applaudir"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "grossir → nous grossissons ✅；applaudir → nous applaudissons ✅。partir → nous partons（第三组）；dormir → nous dormons（第三组）。判断标准：nous 形式是否有 -issons。",
+          "category": "动词分组"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a _____ par accepter notre proposition. (finir, passé composé)",
+          "correct": [
+            "fini"
+          ],
+          "explanation": "finir par + inf. = 最终做了……。passé composé：a fini par accepter。过去分词 fini 不变（avoir 作助动词，无前置COD）。",
+          "category": "句型+passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le secrétaire _____ les points obscurs avant chaque réunion.",
+          "options": [
+            "éclaircissent",
+            "éclairci",
+            "éclaircit",
+            "éclaircis"
+          ],
+          "correct": 2,
+          "explanation": "Le secrétaire 是第三人称单数 → éclaircit。éclaircissent是复数形式，éclairci是过去分词，éclaircis是je/tu形式。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ne _____ pas toujours à résoudre les problèmes.",
+          "options": [
+            "aboutons",
+            "aboutissons",
+            "aboutissions",
+            "aboutissent"
+          ],
+          "correct": 1,
+          "explanation": "nous + 第二组动词 aboutir → aboutissons。aboutons 缺少 -iss-（第三组的假变位），aboutissions 是虚拟式/未完成过去时，aboutissent 是 ils 的形式。注意：aboutir à qch。",
+          "category": "变位+介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu vas _____ si tu continues à manger autant.",
+          "options": [
+            "grossis",
+            "grossir",
+            "grossi",
+            "grossissant"
+          ],
+          "correct": 1,
+          "explanation": "futur proche = aller + 不定式（infinitif）。tu vas grossir。grossis是现在时je/tu，grossi是过去分词，grossissant是现在分词。",
+          "category": "futur proche"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les voitures _____ puis s'arrêtent au feu rouge.",
+          "options": [
+            "ralentit",
+            "ralentissent",
+            "ralentis",
+            "ralentissons"
+          ],
+          "correct": 1,
+          "explanation": "les voitures 第三人称复数 → ralentissent。ralentit是单数il/elle，ralentis是je/tu，ralentissons是nous。",
+          "category": "变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, les enfants _____ (grandir, passé composé) de plusieurs centimètres. Le médecin _____ (définir, passé composé) un nouveau régime alimentaire. Demain, ils _____ (grossir, futur proche) encore un peu.",
+          "correct": [
+            "ont grandi",
+            "a défini",
+            "vont grossir"
+          ],
+          "explanation": "grandir → ont grandi（avoir + grandi，les enfants 复数但 avoir 不配合）；définir → a défini（le médecin 单数）；grossir → vont grossir（futur proche：aller 现在时 + inf.，ils → vont）。三个时态综合考察。",
+          "category": "三时态综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些搭配的介词是正确的？",
+          "options": [
+            "réussir à + inf.",
+            "finir de + inf.",
+            "réfléchir de + qch",
+            "choisir à + inf."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "réussir à + inf. ✅（成功做到）；finir de + inf. ✅（做完）；réfléchir 应该是 réfléchir à qch ✗（介词应为à非de）；choisir 应该是 choisir de + inf. ✗（介词应为de非à）。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont _____ tous les dimanches pendant un an.",
+          "options": [
+            "réuni",
+            "réunis",
+            "réunie",
+            "réunies"
+          ],
+          "correct": 3,
+          "explanation": "se réunir 用 être 作助动词，过去分词与主语配合。Elles = 阴性复数 → réunies。réuni无配合，réunis是阳性复数，réunie是阴性单数。这是 TCF 高频陷阱。",
+          "category": "passé composé 性数配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1FZHwHiQrTAzlBMu0_I0b7sD8BOmxiuTqsZhPouyr-1Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771959875302-05epvxuwfpj",
+          "front": "第二组动词的判定标准是什么？",
+          "back": "nous 的现在时形式含 -issons 就是第二组。\n例：finir → nous finissons ✅\nsortir → nous sortons ❌（第三组）"
+        },
+        {
+          "id": "1771959875302-8qyavg421b",
+          "front": "第二组动词现在时词尾公式",
+          "back": "词根 + -is, -is, -it, -issons, -issez, -issent\n单数无 -iss-，复数有 -iss-"
+        },
+        {
+          "id": "1771959875302-5n6o0nawb9f",
+          "front": "finir 现在时六人称",
+          "back": "je finis, tu finis, il finit\nnous finissons, vous finissez, ils finissent"
+        },
+        {
+          "id": "1771959875302-bgbnzj8f4zb",
+          "front": "haïr 现在时的特殊之处",
+          "back": "1. 单数无 tréma：je hais, tu hais, il hait [ɛ]\n2. 复数有 tréma：nous haïssons [a.i.sɔ̃]\n3. h aspiré → 不省音不联诵：je hais（非 j'hais）"
+        },
+        {
+          "id": "1771959875302-3ejtdcbvokz",
+          "front": "haïr 现在时六人称",
+          "back": "je hais, tu hais, il hait\nnous haïssons, vous haïssez, ils haïssent"
+        },
+        {
+          "id": "1771959875302-jvkw1ei8jcc",
+          "front": "第二组动词 passé composé 公式",
+          "back": "avoir + 过去分词（-i）\nfinir → j'ai fini\nchoisir → j'ai choisi\n去掉 -r 就是过去分词"
+        },
+        {
+          "id": "1771959875302-fhagfrekcbu",
+          "front": "代词式第二组动词的 passé composé",
+          "back": "用 être 作助动词，过去分词与主语配合\nElles se sont réunies.\nIl s'est enrichi."
+        },
+        {
+          "id": "1771959875302-rtaolf5gx6o",
+          "front": "第二组动词 futur proche 公式",
+          "back": "aller（现在时）+ 不定式\nje vais finir, tu vas choisir\n难点在 aller 变位：vais/vas/va/allons/allez/vont"
+        },
+        {
+          "id": "1771959875302-m5xqm26rwld",
+          "front": "réussir 的介词搭配",
+          "back": "réussir à + inf.（成功做到……）\n✅ Elle réussit à comprendre.\n⚠️ 介词是 à，不是 de！"
+        },
+        {
+          "id": "1771959875302-xw8fugkzqp",
+          "front": "finir 的三个重要搭配",
+          "back": "1. finir qch（完成某事）\n2. finir de + inf.（做完……）\n3. finir par + inf.（最终……）← B2加分\n例：Elle a fini par accepter."
+        },
+        {
+          "id": "1771959875302-9bvqk2hn2rj",
+          "front": "choisir 的介词搭配",
+          "back": "choisir de + inf.（选择做……）\nIl a choisi de partir.\n⚠️ 介词是 de，不是 à"
+        },
+        {
+          "id": "1771959875302-u2qnrpglz8f",
+          "front": "réfléchir 的介词搭配",
+          "back": "réfléchir à qch（思考某事）\nIls réfléchissent au programme.\n⚠️ 介词是 à，不是 de/sur"
+        },
+        {
+          "id": "1771959875302-7nfwqw2vye",
+          "front": "aboutir 的介词搭配",
+          "back": "aboutir à qch（达成某结果）\nIls aboutissent à une solution.\n介词是 à"
+        },
+        {
+          "id": "1771959875302-pc1kz59bn6",
+          "front": "punir 的句型",
+          "back": "punir qn de qch / pour qch（因某事惩罚某人）\npunir qn de + inf.（因做某事惩罚某人）\nOn l'a puni d'avoir menti."
+        },
+        {
+          "id": "1771959875302-423i13dhp0b",
+          "front": "il s'agit de 是什么意思？",
+          "back": "无人称表达，意为「涉及、关于」\nIl s'agit d'un problème grave.\n⚠️ 只用 il 作主语，不变人称"
+        },
+        {
+          "id": "1771959875302-rixbqx8l69",
+          "front": "blanc → ?（第二组动词）",
+          "back": "blanchir（变白/漂白）\nLe linge blanchit au soleil."
+        },
+        {
+          "id": "1771959875302-3qaolgaflce",
+          "front": "rouge → ?（第二组动词）",
+          "back": "rougir（变红/脸红）\nrougir de + 名词 = 因……脸红\nElle rougit de honte."
+        },
+        {
+          "id": "1771959875302-tnjircqu63b",
+          "front": "gros → ?（第二组动词）",
+          "back": "grossir（变胖）\nIl a grossi de 5 kilos.\n不及物动词，不带直接宾语"
+        },
+        {
+          "id": "1771959875302-0tcd25e4om9",
+          "front": "grand → ?（第二组动词）",
+          "back": "grandir（长大/长高）\nLes enfants grandissent vite.\n不及物动词"
+        },
+        {
+          "id": "1771959875302-5h0m017t2jk",
+          "front": "jaune → ?（第二组动词）",
+          "back": "jaunir（变黄）\nLes feuilles jaunissent en automne."
+        },
+        {
+          "id": "1771959875302-zdkjt14pi2",
+          "front": "vieux → ?（第二组动词）",
+          "back": "vieillir（变老）\nLe vin rouge vieillit bien."
+        },
+        {
+          "id": "1771959875302-uiwybdrmnfp",
+          "front": "mince → ?（第二组动词）",
+          "back": "mincir（变瘦）\nElle mincit grâce au sport."
+        },
+        {
+          "id": "1771959875302-2hb29zny8y9",
+          "front": "épais → ?（第二组动词）",
+          "back": "épaissir（变厚）\nLa sauce épaissit à feu doux."
+        },
+        {
+          "id": "1771959875302-4kllda9aq2v",
+          "front": "clair → ?（第二组动词）",
+          "back": "éclaircir（变亮/澄清）\nLe secrétaire éclaircit les points obscurs."
+        },
+        {
+          "id": "1771959875302-59yo3r7ffan",
+          "front": "lent → ? (注意前缀)",
+          "back": "ralentir（减速）\nLes voitures ralentissent au feu rouge.\nra- + lent + -ir"
+        },
+        {
+          "id": "1771959875302-qqufrf68slm",
+          "front": "étroit → ? (注意前缀)",
+          "back": "rétrécir（缩水/变窄）\nCe pull rétrécit à l'eau chaude.\nré- + étréc- + -ir"
+        },
+        {
+          "id": "1771959875302-v9f9pgoyx2b",
+          "front": "choix → ?（名词派生动词）",
+          "back": "choisir（选择）\nnous choisissons"
+        },
+        {
+          "id": "1771959875302-abgxsxg1jrv",
+          "front": "terre → ?（名词派生动词）",
+          "back": "atterrir（着陆）\nL'avion atterrit à 15 heures."
+        },
+        {
+          "id": "1771959875302-eb1fn6t5rvn",
+          "front": "TCF 3秒排除法：单数还是复数？",
+          "back": "看主语 →\n单数：选短形式（-is / -it）\n复数：选长形式（-issons / -issez / -issent）"
+        },
+        {
+          "id": "1771959875302-1dwrd6ldsmw",
+          "front": "TCF 陷阱：第二组 vs 第三组怎么分？",
+          "back": "nous 有 -issons = 第二组\nnous 无 -issons = 第三组\n常见干扰：partir(3e) vs finir(2e)\ndormir(3e) vs grossir(2e)"
+        },
+        {
+          "id": "1771959875302-7ak4i2zdtmv",
+          "front": "avoir 作助动词时，过去分词配合规则",
+          "back": "不与主语配合\n只在前置直接宾语时配合\n✅ J'ai fini. / Elles ont fini.\n✅ La lettre que j'ai finie.（前置COD）"
+        },
+        {
+          "id": "1771959875302-oqfmoi3b8",
+          "front": "être 作助动词时（代词式），过去分词配合规则",
+          "back": "过去分词与主语性数配合\nElle s'est enrichie.（+e）\nElles se sont réunies.（+es）\nIls se sont réunis.（+s）"
+        }
+      ]
+    },
+    {
+      "id": 1771958441516,
+      "name": "Unit 1 PRÉSENT 第一组动词（-er）词干变化规则",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T18:40:41.516Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Vous vous levez tôt. Tu _____ tôt.",
+          "correct": [
+            "te lèves"
+          ],
+          "explanation": "本题考察代词式动词 se lever 的现在时变位。主语为 Tu，对应反身代词 te，同时 e_er 类动词在单数人称时，词干倒数第二个音节的 e 变为 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ne _____ pas tôt le dimanche.",
+          "options": [
+            "te lève",
+            "te lèves",
+            "t'lèves",
+            "te lèves-tu"
+          ],
+          "correct": 1,
+          "explanation": "TCF高频陷阱点：否定句中代词式动词的位置。ne 和 pas 需包裹反身代词和动词变位，动词形式本身不受否定影响，依然是第二人称单数 te lèves。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle emmène les enfants. J'_____ (emmener) les enfants.",
+          "correct": [
+            "emmène"
+          ],
+          "explanation": "本题考察 e_er 动词的变位与省音。主语为 Je，emmener 以元音开头需省音为 J'，第一人称单数词干 e 变为 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪个主语搭配 emmener 时，动词词干不需要变音（保持 e）？",
+          "options": [
+            "Je",
+            "Tu",
+            "Nous",
+            "Vous"
+          ],
+          "correct": [
+            2,
+            3
+          ],
+          "explanation": "TCF高频陷阱点：对于类似 lever, emmener, acheter 等动词，只有在 nous 和 vous 作主语时，词干保持不变（不加重音符），如 nous emmenons, vous emmenez。其他所有人称均需变音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous achetons les billets. Elle _____ les billets.",
+          "correct": [
+            "achète"
+          ],
+          "explanation": "本题考察 acheter 的变位。第三人称单数词干 e 变为 è，后缀为 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce qu'ils _____ des billets de train ?",
+          "options": [
+            "achetents",
+            "achètent",
+            "achetont",
+            "achètent-ils"
+          ],
+          "correct": 1,
+          "explanation": "TCF高频陷阱点：动词第三人称复数词尾为 -ent，此时由于词尾不发音，倒数第二个音节的 e 必须变音为 è。选项中经常出现拼写混淆，注意 -ent 形式前需加重音符。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle préfère sortir. Nous _____ sortir.",
+          "correct": [
+            "préférons"
+          ],
+          "explanation": "本题考察 é_er 类动词（如 préférer, espérer）。在 nous 和 vous 变位时，词干保持原样，不变成闭音符，维持 é。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mes parents _____ que je reste avec eux.",
+          "options": [
+            "préférent",
+            "prèfèrent",
+            "préfèrent",
+            "préférons"
+          ],
+          "correct": 2,
+          "explanation": "TCF高频陷阱点：名词作主语（Mes parents = ils）。é_er 类动词在复数第三人称时，倒数第二个 é 变为 è，而倒数第三个 é 保持不变，因此正确拼写为 préfèrent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je m'inquiète beaucoup. Nous _____ beaucoup.",
+          "correct": [
+            "nous inquiétons"
+          ],
+          "explanation": "本题考察代词式 é_er 动词的变位。nous 对应 nous，词干 é 保持不变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi est-ce que vous _____ autant ?",
+          "options": [
+            "vous inquiétez",
+            "vous inquiètez",
+            "inquiétez-vous",
+            "vous vous inquiétez"
+          ],
+          "correct": 3,
+          "explanation": "TCF高频陷阱点：主语是 vous 时的代词式动词。许多考生会漏掉反身代词 vous，正确形式必须双写 vous（主语+反身代词），且 est-ce que 后接正常语序。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (digérer) mal.",
+          "correct": [
+            "digère"
+          ],
+          "explanation": "考察拼写加重音符。第一人称单数时，é 变为 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez la phrase à la 2e personne du pluriel (Vous) : Je digère mal.",
+          "correct": [
+            "Vous digérez mal."
+          ],
+          "explanation": "TCF高频陷阱点：主语变换。当主语变为 Vous 时，词干 è 恢复为 é，变为 digérez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (tolérer) ça !",
+          "correct": [
+            "tolérez"
+          ],
+          "explanation": "本题考察 é_er 在 vous 后的变位，重音符保持 é。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne faut pas qu'ils _____ ce comportement.",
+          "options": [
+            "tolèrent",
+            "tolérent",
+            "tolère",
+            "tolèrents"
+          ],
+          "correct": 0,
+          "explanation": "TCF高频陷阱点：复数第三人称变位，词干必须变为 è，后缀为 -ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (peler) les pommes.",
+          "correct": [
+            "pèle"
+          ],
+          "explanation": "peler 变位同 lever，单数人称加 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ - vous ces fruits avant de les manger ?",
+          "options": [
+            "Pelez",
+            "Pélez",
+            "Pellez",
+            "Pèlez"
+          ],
+          "correct": 0,
+          "explanation": "TCF高频陷阱点：peler 在 vous 的变位下既不加重音符，也不双写 l，正确形式直接是 pelez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand le patron arrive le matin, il _____ (enlever) son manteau et il _____ (répéter) que la vie est dure. Il _____ (se promener) à travers l'étage où le silence _____ (régner). Il nous _____ (obséder) par sa mauvaise humeur. Puis il _____ (pénétrer) dans son bureau. Alors nous _____ (s'inquiéter) un peu à cause de sa nervosité qui _____ (refléter) son malaise. Nous lui _____ (suggérer) de prendre des vacances parce que nous _____ (considerer) qu'il en a besoin.",
+          "correct": [
+            "enlève",
+            "répète",
+            "se promène",
+            "règne",
+            "obsède",
+            "pénètre",
+            "nous inquiétons",
+            "reflète",
+            "suggérons",
+            "considérons"
+          ],
+          "explanation": "综合考察 -e_er/-é_er 特殊动词变位规则。第三人称单数（il/qui/le silence）时，词干全部变音为 è（enlève, répète, promène, règne, obsède, pénètre, reflète）。而在第一人称复数 nous 作主语时，词干保持不变（inquiétons, suggérons, considérons）。注意：反身动词需加 nous（nous nous inquiétons -> 空格填 nous inquiétons 结合前文），且宾语代词 nous 不改变谓语动词由 il 决定的事实（il nous obsède）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand les patrons arrivent le matin, ils _____ (enlever) leurs manteaux et ils _____ (répéter) que la vie est dure. Ils _____ (se promener) à travers l'étage où le silence _____ (régner). Ils nous _____ (obséder) par leur mauvaise humeur. Puis ils _____ (pénétrer) dans leurs bureaux. Alors nous _____ (s'inquiéter) un peu à cause de leur nervosité qui _____ (refléter) leur malaise. Nous leur _____ (suggérer) de prendre des vacances parce que nous _____ (considérer) qu'ils en ont besoin.",
+          "correct": [
+            "enlèvent",
+            "répètent",
+            "se promènent",
+            "règne",
+            "obsèdent",
+            "pénètrent",
+            "nous inquiétons",
+            "reflète",
+            "suggérons",
+            "considérons"
+          ],
+          "explanation": "TCF高频核心陷阱！主语大转换：主语变为复数 ils，大部分动词变为 -ent 结尾，且词干的 é 或 e 均变为 è（enlèvent, répètent, pénètrent）。极大陷阱在于复合从句：le silence 仍是单数，règne 不变；qui 代指 nervosité 也是单数，reflète 不变；第一人称 nous 的变位 suggérons, considérons 不受主句 ils 影响，保持复数第一人称。此题精准考察对复杂长句中真实主语的抓取能力。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous achetons les billets. Ils _____ les billets.",
+          "correct": [
+            "achètent"
+          ],
+          "explanation": "本题考察 acheter 在第三人称复数（ils）的变位。词干 e 变为 è，词尾加 -ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ne _____ pas les billets à l'avance.",
+          "options": [
+            "achètent",
+            "achetents",
+            "achetent",
+            "achètent-ils"
+          ],
+          "correct": 0,
+          "explanation": "A2阶梯陷阱：加入否定句 ne...pas。否定结构不改变动词本身的变位形态，仍为 achètent。常见错误是拼写错误（如加s或漏重音符）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ - ils les billets en ligne ?",
+          "correct": [
+            "Achètent"
+          ],
+          "explanation": "B1阶梯陷阱：变为疑问句倒装结构。首字母需大写，连字符前后的拼写保持不变，依然需要重音符。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Toi et ton frère _____ (acheter) des billets de train.",
+          "correct": [
+            "achetez"
+          ],
+          "explanation": "B2阶梯陷阱：复杂主语。'Toi et ton frère' 相当于 'vous'。在 vous 的变位下，acheter 的词干不需要加重音符，直接是 achetez。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il répète toujours la même chose. Vous _____ toujours la même chose.",
+          "correct": [
+            "répétez"
+          ],
+          "explanation": "本题考察 é_er 类动词 répéter。在 vous 变位时，词干保持原样，维持 é，不变成 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (répéter) la question, s'il te plaît ?",
+          "correct": [
+            "répètes"
+          ],
+          "explanation": "A2阶梯陷阱：tu 变位时，倒数第二个音节的 é 必须变成 è，且词尾加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne _____ pas toujours la même erreur !",
+          "options": [
+            "répètes",
+            "répétez",
+            "répète",
+            "répètez"
+          ],
+          "correct": 1,
+          "explanation": "B1阶梯陷阱：命令式且带有否定。选项中唯有 répétez（对应 vous）拼写完全合法。若对应 tu 的命令式，应为 répète（无 s 且变 è）。",
+          "category": "语法"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez la phrase avec le pronom 'le' : Vous répétez le mot.",
+          "correct": [
+            "Vous le répétez."
+          ],
+          "explanation": "B2阶梯陷阱：加入直接宾语代词。代词需放在变位动词前，且不影响动词原本的变位规则和拼写。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (espérer) que tout va bien.",
+          "correct": [
+            "espérons"
+          ],
+          "explanation": "本题考察 espérer 在 nous 后的变位，词干的 é 保持不变，不加开口音符。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ que tu viendras à ma fête.",
+          "options": [
+            "espère",
+            "éspère",
+            "espére",
+            "éspére"
+          ],
+          "correct": 0,
+          "explanation": "A2阶梯陷阱：je 变位时，第一个元音 e 本来就不带音符，第二个 é 变为 è。常见错误是给第一个 e 误加音符或乱加重音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (espérer) trouver un bon travail rapidement.",
+          "correct": [
+            "espèrent"
+          ],
+          "explanation": "B1阶梯陷阱：第三人称复数变位，词干 é 变为 è，词尾 -ent 不发音。注意时态和人称呼应。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Qui _____ que cette situation change ?",
+          "options": [
+            "espère",
+            "espères",
+            "espèrent",
+            "espérons"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "B2阶梯陷阱：疑问代词 Qui 作主语时，谓语动词一律视为第三人称单数 il 变位。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (décongeler) du pain.",
+          "correct": [
+            "décongèle"
+          ],
+          "explanation": "本题考察 e_er 动词 décongeler。在单数第一人称 je 时，倒数第二个音节的 e 变成 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ le poisson avant de le cuisiner.",
+          "options": [
+            "décongelons",
+            "décongèlons",
+            "décongélons",
+            "decongelons"
+          ],
+          "correct": 0,
+          "explanation": "A2阶梯陷阱：nous 变位时，词干不加开口重音符，保持原有的 e，前缀的 dé 不受影响。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu ne _____ (décongeler) pas la viande au micro-ondes ?",
+          "correct": [
+            "décongèles"
+          ],
+          "explanation": "B1阶梯陷阱：否定结构中的 tu 变位。词干 e 变 è，且词尾必须有 s，不可因否定句而忽略词尾变化。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez la phrase au futur proche : Elle décongèle la pizza.",
+          "correct": [
+            "Elle va décongeler la pizza."
+          ],
+          "explanation": "B2阶梯陷阱：时态转换为近将来时 (aller + infinitif)。变回动词原形时，重音符消失，恢复为原形 décongeler。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "ramener -> Elles _____ leurs cahiers.",
+          "correct": [
+            "ramènent"
+          ],
+          "explanation": "本题考察 ramener 的复数第三人称变位。词干 e 变为 è，词尾 -ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (ramener) mon ami à la gare.",
+          "correct": [
+            "ramène"
+          ],
+          "explanation": "A2阶梯陷阱：第一人称单数基础变位，e 变 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous nous _____ à la maison ce soir ?",
+          "options": [
+            "ramenez",
+            "ramènez",
+            "raménez",
+            "ramènent"
+          ],
+          "correct": 0,
+          "explanation": "B1阶梯陷阱：主语和宾语代词连用混淆（Vous nous...）。真正的主语是 Vous，因此动词变位为 ramenez，不加任何重音符。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Posez la question avec inversion du sujet : Ils ramènent le livre.",
+          "correct": [
+            "Ramènent-ils le livre ?"
+          ],
+          "explanation": "B2阶梯陷阱：主谓倒装。第三人称复数倒装时，词尾 -ent 不变，用连字符连接主语代词即可，发音上会有联诵。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous _____ (espérer) que tout ira bien.",
+          "options": [
+            "espèrons",
+            "espérons",
+            "esperons",
+            "èspérons"
+          ],
+          "correct": 1,
+          "explanation": "nous/vous 保持原词干 é，所以是 espérons。鞋子模型：nous/vous 不变。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ils _____ (se promener) dans le parc chaque soir.",
+          "options": [
+            "se promenent",
+            "se promènent",
+            "se proménent",
+            "se promenant"
+          ],
+          "correct": 1,
+          "explanation": "ils 属于重读人称，e muet → è，所以 promènent。别忘了自反代词 se。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Tu _____ (préférer) le café ou le thé ?",
+          "options": [
+            "préfères",
+            "préferes",
+            "prefères",
+            "preferes"
+          ],
+          "correct": 0,
+          "explanation": "tu 是重读人称，但注意：第一个 é 保持不变，只有最后一个倒数第二音节的 é → è。正确写法 préfères。\n⚠️ 实际上按新拼写改革 préfères 也常写作 préfères（第一个 é 不变，第二个变 è）。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle _____ (acheter) une robe pour la fête.",
+          "options": [
+            "achete",
+            "achète",
+            "achéte",
+            "acheté"
+          ],
+          "correct": 1,
+          "explanation": "elle 重读人称，e muet → è。acheté 是过去分词，不能用在现在时。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Vous _____ (répéter) toujours la même chose !",
+          "options": [
+            "répètez",
+            "répétez",
+            "repetez",
+            "repétez"
+          ],
+          "correct": 1,
+          "explanation": "vous 不变词干，保持 é → répétez。répètez 是最常见的错误！",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je _____ (congeler) les légumes pour l'hiver.",
+          "options": [
+            "congele",
+            "congèle",
+            "congéle",
+            "congelé"
+          ],
+          "correct": 1,
+          "explanation": "je 重读人称，e → è。congèle 正确。congelé 是过去分词。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, elle _____ (se lever) très tôt pour l'examen.",
+          "options": [
+            "s'est levé",
+            "s'est levée",
+            "a levé",
+            "a levée"
+          ],
+          "correct": 1,
+          "explanation": "se lever 是代动词，passé composé 用 être。主语 elle 是阴性，过去分词加 -e → levée。",
+          "category": "passé composé-代动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ (espérer) réussir son examen l'année dernière.",
+          "options": [
+            "a espèré",
+            "a espéré",
+            "est espéré",
+            "a esperé"
+          ],
+          "correct": 1,
+          "explanation": "espérer 用 avoir；过去分词恢复 é → espéré（不是 è！）。",
+          "category": "passé composé-过去分词拼写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'espère qu'il _____ demain.",
+          "options": [
+            "vienne",
+            "vient",
+            "viendra",
+            "viendrait"
+          ],
+          "correct": 2,
+          "explanation": "espérer que + indicatif（不用虚拟式！）。这里表示将来，用 futur simple：viendra。\n⚠️ 超级陷阱：souhaiter que + subjonctif，但 espérer que + indicatif。",
+          "category": "espérer 用法-TCF陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je souhaite qu'il _____ à l'heure.",
+          "options": [
+            "vient",
+            "vienne",
+            "viendra",
+            "venait"
+          ],
+          "correct": 1,
+          "explanation": "souhaiter que + subjonctif → vienne。对比上题 espérer que + indicatif，这是 TCF 经典对比考点。",
+          "category": "espérer vs souhaiter-TCF陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Demain, nous allons _____ (se promener) au bord de la mer.",
+          "correct": [
+            "nous promener"
+          ],
+          "explanation": "futur proche 结构：aller + 原形动词。代动词的代词放在原形前：nous allons nous promener。",
+          "category": "futur proche-代动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (s'inquiéter) beaucoup pour nos enfants.",
+          "options": [
+            "nous inquiètons",
+            "nous inquiétons",
+            "nous inquietons",
+            "nous inquiètont"
+          ],
+          "correct": 1,
+          "explanation": "nous 不变词干，保持 é → nous inquiétons。inquiètons 是典型干扰项。",
+          "category": "词干变化-现在时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些变位形式是正确的？（多选）",
+          "options": [
+            "j'espère",
+            "nous espèrons",
+            "ils préfèrent",
+            "vous répètez"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "j'espère ✅（je 变 è）；nous espèrons ❌（nous 保持 é → espérons）；ils préfèrent ✅（ils 变 è）；vous répètez ❌（vous 保持 é → répétez）。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le matin, il _____ (se lever) à 7h, il _____ (enlever) son pyjama, puis nous _____ (se promener) ensemble. Nous _____ (espérer) qu'il fera beau.",
+          "correct": [
+            "se lève",
+            "enlève",
+            "nous promenons",
+            "espérons"
+          ],
+          "explanation": "il → 重读人称，词干变 è（se lève, enlève）；nous → 不变（promenons, espérons）。注意 nous 的自反代词。",
+          "category": "综合段落填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1QtaiQFNgbVcJoCZkWSMkWfkfw8MLmFREzG3aNY3pt9Q/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771958552269-1k64b6027c3",
+          "front": "鞋子模型（la botte）是什么？",
+          "back": "je, tu, il/elle, ils/elles 四个人称变词干\nnous 和 vous 保持原词干不变\n画出来像一只靴子的形状"
+        },
+        {
+          "id": "1771958552269-fwy285by2cj",
+          "front": "promener 现在时：je",
+          "back": "je promène\n（e muet → è）"
+        },
+        {
+          "id": "1771958552269-rxvmhvlbt0r",
+          "front": "promener 现在时：nous",
+          "back": "nous promenons\n（nous 不变词干）"
+        },
+        {
+          "id": "1771958552269-fvgqlrybu1",
+          "front": "acheter 现在时：j'",
+          "back": "j'achète\n（e → è）"
+        },
+        {
+          "id": "1771958552269-mcd676hynid",
+          "front": "acheter 现在时：vous",
+          "back": "vous achetez\n（vous 不变词干）"
+        },
+        {
+          "id": "1771958552269-ja5bjetqbu",
+          "front": "congeler 现在时：je",
+          "back": "je congèle\n（e → è）"
+        },
+        {
+          "id": "1771958552269-fu7ssatoo2c",
+          "front": "congeler 现在时：nous",
+          "back": "nous congelons\n（nous 不变）"
+        },
+        {
+          "id": "1771958552269-ndkw0ii53o",
+          "front": "congeler 同类动词有哪些？",
+          "back": "geler, dégeler, harceler, modeler, peler"
+        },
+        {
+          "id": "1771958552269-aszd5kj2ooj",
+          "front": "espérer 现在时：j'",
+          "back": "j'espère\n（é → è）"
+        },
+        {
+          "id": "1771958552269-xyfoc4kb5gh",
+          "front": "espérer 现在时：nous",
+          "back": "nous espérons\n（nous 保持 é）"
+        },
+        {
+          "id": "1771958552269-qs3mu0bb2f",
+          "front": "espérer 同类动词（5个）",
+          "back": "compléter, s'inquiéter, interpréter, refléter, répéter"
+        },
+        {
+          "id": "1771958552269-68athmb59si",
+          "front": "espérer 同类动词（再5个）",
+          "back": "considérer, digérer, exagérer, gérer, préférer"
+        },
+        {
+          "id": "1771958552269-in01c30lyb",
+          "front": "se lever 现在时：il",
+          "back": "il se lève\n（e → è）"
+        },
+        {
+          "id": "1771958552269-qszwovtmok",
+          "front": "se lever 现在时：vous",
+          "back": "vous vous levez\n（vous 不变）"
+        },
+        {
+          "id": "1771958552269-4pgpu8rc17r",
+          "front": "espérer que + 什么语式？",
+          "back": "espérer que + indicatif（直陈式）\nJ'espère qu'il viendra. ✅\n⚠️ 不用虚拟式！"
+        },
+        {
+          "id": "1771958552269-tn239e2pfn",
+          "front": "souhaiter que + 什么语式？",
+          "back": "souhaiter que + subjonctif（虚拟式）\nJe souhaite qu'il vienne. ✅\n与 espérer 对比记忆！"
+        },
+        {
+          "id": "1771958552269-8f5bfe9w64",
+          "front": "se lever 的 passé composé（elle）",
+          "back": "elle s'est levée\n代动词用 être，主语阴性加 -e"
+        },
+        {
+          "id": "1771958552269-vma4608bjha",
+          "front": "espérer 的 passé composé（j'）",
+          "back": "j'ai espéré\n⚠️ 过去分词恢复 é，不是 è"
+        },
+        {
+          "id": "1771958552269-dr5j8fc51bh",
+          "front": "acheter 的 passé composé（nous）",
+          "back": "nous avons acheté\n用 avoir，过去分词 acheté"
+        },
+        {
+          "id": "1771958552269-fm5kvr4bqve",
+          "front": "futur proche 代动词语序",
+          "back": "aller（现在时）+ 代词 + 动词原形\nNous allons nous promener.\nIl va se lever tôt."
+        },
+        {
+          "id": "1771958552269-5f72gew2f72",
+          "front": "préférer qqch ___ qqch（介词）",
+          "back": "préférer qqch à qqch\nJe préfère le thé au café."
+        },
+        {
+          "id": "1771958552269-l7rssuze4ge",
+          "front": "acheter qqch ___ qqn（介词）",
+          "back": "acheter qqch à qqn\n= 向某人买 / 给某人买（双义，靠语境）"
+        },
+        {
+          "id": "1771958552269-n8qyqony6a",
+          "front": "s'inquiéter ___ qqch（介词）",
+          "back": "s'inquiéter de qqch\n= 为…担忧\nNe t'inquiète pas !"
+        },
+        {
+          "id": "1771958552269-paikwjtrsi",
+          "front": "répéter 现在时：vous",
+          "back": "vous répétez\n（vous 保持 é）\n⚠️ répètez 是常见错误"
+        },
+        {
+          "id": "1771958552269-t55pj8qh5wd",
+          "front": "nous s'inquiéter 现在时",
+          "back": "nous nous inquiétons\n（nous 保持 é）\n⚠️ inquiètons 是干扰项"
+        },
+        {
+          "id": "1771958552269-td5y8wvj6tk",
+          "front": "词干变化总规则一句话",
+          "back": "重读音节（je/tu/il/ils）不能发无音 e 或闭口 é\n必须“打开”成 è\nnous/vous 永远不变词干"
+        },
+        {
+          "id": "1771958552269-xcs5nonwdna",
+          "front": "se promener 的 passé composé（je, 男性）",
+          "back": "je me suis promené\n代动词用 être"
+        },
+        {
+          "id": "1771958552269-hlnqm3a4xw",
+          "front": "répéter 现在时：tu",
+          "back": "tu répètes\n（重读人称，é → è）"
+        },
+        {
+          "id": "1771958552269-gvrcec3iyjm",
+          "front": "peler 现在时：elle",
+          "back": "elle pèle\n（e → è，同 congeler 类）"
+        },
+        {
+          "id": "1771958552269-w0e9x65jio",
+          "front": "posséder 现在时：il",
+          "back": "il possède\n（é → è，同 espérer 类）"
+        }
+      ]
+    },
+    {
       "id": 1771957954046,
       "name": "Unit 1 PRÉSENT 第一组 -er 动词中的\"假规则动词\"",
       "folderId": "1771907837913",
@@ -35337,6 +37601,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T18:38:51.980Z",
+  "exportedAt": "2026-02-24T19:15:39.599Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
