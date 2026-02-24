@@ -1,6 +1,324 @@
 {
   "savedSets": [
     {
+      "id": 1771900370558,
+      "name": "vivre动词变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-02-24T02:32:50.558Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ dans une petite ville depuis dix ans.",
+          "options": [
+            "vis",
+            "vivons",
+            "vivez",
+            "vivent"
+          ],
+          "correct": 1,
+          "explanation": "主语 nous → vivons。depuis dix ans 搭配现在时，表示持续至今的状态。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ de son travail de photographe.",
+          "options": [
+            "vis",
+            "vit",
+            "vivons",
+            "vivent"
+          ],
+          "correct": 1,
+          "explanation": "主语 elle → vit。vivre de = 靠…为生。",
+          "category": "现在时变位+用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ trois ans à Vancouver avant de déménager.",
+          "options": [
+            "vécu",
+            "vivé",
+            "vis",
+            "vivu"
+          ],
+          "correct": 0,
+          "explanation": "passé composé = avoir + vécu。过去分词是 vécu，不是 vivé（不存在）或 vivu。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les années qu'elle a _____ en Afrique l'ont beaucoup changée.",
+          "options": [
+            "vécu",
+            "vécue",
+            "vécues",
+            "vécus"
+          ],
+          "correct": 2,
+          "explanation": "直接宾语 les années（阴性复数）前置 → 过去分词配合为 vécues。这是 B2 级考点。",
+          "category": "复合过去时-过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ vivre seul pour la première fois l'année prochaine.",
+          "options": [
+            "va",
+            "vas",
+            "vais",
+            "allez"
+          ],
+          "correct": 1,
+          "explanation": "主语 tu → vas vivre（最近将来时 = aller 现在时 + 动词原形）。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne _____ pas vivre sans musique.",
+          "options": [
+            "vais",
+            "vas",
+            "va",
+            "vont"
+          ],
+          "correct": 0,
+          "explanation": "主语 je → ne vais pas vivre。否定包裹 aller：ne + aller + pas + 动词原形。",
+          "category": "最近将来时-否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Depuis mon arrivée, je _____ (vivre) avec ma sœur.",
+          "correct": [
+            "vis"
+          ],
+          "explanation": "depuis + 现在时，主语 je → vis。表示从到达起一直持续到现在的状态。",
+          "category": "现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ une expérience inoubliable pendant son voyage.",
+          "options": [
+            "a vécu",
+            "est vécu",
+            "a vivre",
+            "a vis"
+          ],
+          "correct": 0,
+          "explanation": "vivre 用 avoir 作助动词 → a vécu。vivre qch = 经历某事（及物用法）。est vécu 是最常见的错误选项。",
+          "category": "复合过去时-助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mes parents _____ à la campagne depuis leur retraite.",
+          "options": [
+            "vit",
+            "vis",
+            "vivent",
+            "vivent"
+          ],
+          "correct": 2,
+          "explanation": "主语 mes parents = ils → vivent。注意拼写：vivent 不是 vivent。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ bien dans ce quartier ?",
+          "options": [
+            "vivons",
+            "vivez",
+            "vivent",
+            "vis"
+          ],
+          "correct": 1,
+          "explanation": "主语 vous → vivez。vivre bien = 生活得好。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (vivre) mal avec un salaire aussi bas.",
+          "correct": [
+            "vit"
+          ],
+          "explanation": "on 按第三人称单数变位 → vit。vivre mal = 生活拮据/过得不好。",
+          "category": "现在时+用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous n'avons jamais _____ une telle situation.",
+          "options": [
+            "vécu",
+            "vécue",
+            "vivé",
+            "vivre"
+          ],
+          "correct": 0,
+          "explanation": "une telle situation 是直宾但在动词之后（未前置），所以过去分词不配合 → vécu。ne...jamais 包裹助动词：n'avons jamais vécu。",
+          "category": "复合过去时-否定+配合判断"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的 passé composé 形式是正确的？",
+          "options": [
+            "J'ai vécu à Paris.",
+            "Elle est vécue en Italie.",
+            "Nous avons vécu ensemble.",
+            "Il a vivre une aventure."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "vivre 用 avoir 作助动词 → ai vécu / avons vécu 正确。est vécue 错误（不用 être）；a vivre 错误（过去分词应为 vécu）。",
+          "category": "复合过去时-综合判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'année prochaine, ils _____ vivre au Canada.",
+          "options": [
+            "va",
+            "allons",
+            "vont",
+            "allez"
+          ],
+          "correct": 2,
+          "explanation": "主语 ils → vont vivre。最近将来时 = aller（现在时）+ 动词原形。",
+          "category": "最近将来时变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Avant, je _____ (vivre, passé composé) à Lyon. Maintenant, je _____ (vivre, présent) à Montréal. Et bientôt, je _____ (aller + vivre) à Ottawa.",
+          "correct": [
+            "ai vécu",
+            "vis",
+            "vais vivre"
+          ],
+          "explanation": "三个时态对比：复合过去时 ai vécu（过去完成的经历）、现在时 vis（当前状态）、最近将来时 vais vivre（即将发生的计划）。",
+          "category": "三时态综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ seul depuis mon divorce. (vivre / voir)",
+          "options": [
+            "vis",
+            "vois",
+            "vit",
+            "voit"
+          ],
+          "correct": 0,
+          "explanation": "语境是「独自生活」→ vivre → je vis [vi]。vois 是 voir（看见）的变位，意思完全不同。这是 TCF 经典混淆对：vivre je vis vs voir je vois。",
+          "category": "vivre vs voir 辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1WCT9AIJsZdWiCf91f0wOoDA6O6ELHKojIfAY4vy4Z9I/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771900461813-dmi3qyqfbpu",
+          "front": "vivre 的过去分词是什么？",
+          "back": "vécu\n助动词用 avoir → j'ai vécu"
+        },
+        {
+          "id": "1771900461813-7d8d0sx7rse",
+          "front": "vivre 现在时：je",
+          "back": "vis [vi]"
+        },
+        {
+          "id": "1771900461813-uj6tc384jmn",
+          "front": "vivre 现在时：tu",
+          "back": "vis [vi]"
+        },
+        {
+          "id": "1771900461813-lcofk2b10fd",
+          "front": "vivre 现在时：il / elle / on",
+          "back": "vit [vi]\n⚠️ 单数三人称发音完全相同"
+        },
+        {
+          "id": "1771900461813-lpxzgegd4lq",
+          "front": "vivre 现在时：nous",
+          "back": "vivons [vivɔ̃]"
+        },
+        {
+          "id": "1771900461813-k9bdsptm2uc",
+          "front": "vivre 现在时：vous",
+          "back": "vivez [vive]"
+        },
+        {
+          "id": "1771900461813-z4b2o5icb4",
+          "front": "vivre 现在时：ils / elles",
+          "back": "vivent [viv]\n注意 -ent 不发音，但 [v] 要发出来"
+        },
+        {
+          "id": "1771900461813-ba7w5t9t8bl",
+          "front": "vivre 复合过去时：je",
+          "back": "j'ai vécu\n⚠️ 不是 je suis vécu"
+        },
+        {
+          "id": "1771900461813-v84huwqedqe",
+          "front": "vivre 复合过去时：nous",
+          "back": "nous avons vécu"
+        },
+        {
+          "id": "1771900461813-yr6zknnrani",
+          "front": "vivre 复合过去时：ils",
+          "back": "ils ont vécu"
+        },
+        {
+          "id": "1771900461813-1i96ozt2j0h",
+          "front": "vivre 最近将来时：je",
+          "back": "je vais vivre\naller（现在时）+ vivre（原形）"
+        },
+        {
+          "id": "1771900461813-dpn5wxk2z1h",
+          "front": "vivre 最近将来时否定：je",
+          "back": "je ne vais pas vivre\nne...pas 包裹 aller，不包裹 vivre"
+        },
+        {
+          "id": "1771900461813-j2siilxnfr",
+          "front": "vivre de + qch 什么意思？",
+          "back": "靠……为生\nEx: Il vit de sa pension.（他靠退休金生活。）"
+        },
+        {
+          "id": "1771900461813-wadwqsj2hpl",
+          "front": "vivre avec qn 什么意思？",
+          "back": "和某人一起生活\nEx: Elle vit avec ses parents."
+        },
+        {
+          "id": "1771900461813-2rndpj004xo",
+          "front": "vivre à / en + 地点",
+          "back": "居住在……\nEx: Je vis à Montréal. / Nous vivons en France."
+        },
+        {
+          "id": "1771900461813-yujc4mp7o6h",
+          "front": "vivre qch（及物用法）什么意思？",
+          "back": "经历某事\nEx: J'ai vécu une expérience incroyable."
+        },
+        {
+          "id": "1771900461813-468jymewjw4",
+          "front": "vivre bien / mal",
+          "back": "生活好 / 生活拮据\nEx: On vit bien dans cette ville."
+        },
+        {
+          "id": "1771900461813-hk6rrt3divs",
+          "front": "⚠️ 陷阱：je vis 是 vivre 还是 voir？",
+          "back": "je vis → vivre（生活）[vi]\nje vois → voir（看见）[vwa]\n两者完全不同，TCF 经典混淆项"
+        },
+        {
+          "id": "1771900461813-k486ziqaqon",
+          "front": "⚠️ vécu 的过去分词配合规则？",
+          "back": "通常不配合（用 avoir）\n但直宾前置时要配合：\nLes années qu'elle a vécues à Paris...\n（les années 阴性复数前置 → vécues）"
+        },
+        {
+          "id": "1771900461813-l6u55hyx9ds",
+          "front": "depuis + vivre 用什么时态？",
+          "back": "用现在时！\nEx: Je vis ici depuis cinq ans.\n（我在这里住了五年了——持续到现在）"
+        }
+      ]
+    },
+    {
       "id": 1771898215626,
       "name": "Tout的用法2.0",
       "folderId": "1770593095506",
@@ -28425,6 +28743,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T02:01:12.314Z",
+  "exportedAt": "2026-02-24T02:34:29.425Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
