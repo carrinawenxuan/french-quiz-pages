@@ -1,6 +1,1095 @@
 {
   "savedSets": [
     {
+      "id": 1771957954046,
+      "name": "Unit 1 PRÉSENT 第一组 -er 动词中的\"假规则动词\"",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-24T18:32:34.046Z",
+      "questions": [
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. lancer: Je _____ le ballon. Nous _____. Ils _____.",
+          "correct": [
+            "lance",
+            "lançons",
+            "lancent"
+          ],
+          "explanation": "本题考察 lancer (-cer 动词) 现在时变位。正确答案：je lance 规则变位；nous lançons 需加 cédille (ç) 保持 [s] 音；ils lancent 规则变位。TCF高频陷阱点：-cer 动词在 nous 后面常忘记变 c 为 ç。判断口诀：遇 -cer 动词，nous 必加小尾巴 ç。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (commencer) à travailler à 8 heures.",
+          "options": [
+            "commençons",
+            "commencons",
+            "commençeons",
+            "commencent"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 commencer 的我们(nous)人称变位。正确答案：commençons。错误选项：1缺ç发音成[k]；2画蛇添足加了e；3人称不对应。TCF高频陷阱点：-cer动词在元音o前必须变c为ç。判断口诀：-cer动词逢nous必加ç。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "2. changer: Tu _____ d'avis. Nous _____. Vous _____.",
+          "correct": [
+            "changes",
+            "changeons",
+            "changez"
+          ],
+          "explanation": "本题考察 changer（-ger 动词）的现在时变位。正确答案：tu changes 规则变位；nous changeons 必须保留 e 维持 [ʒ] 音；vous changez 规则变位。TCF高频陷阱点：-ger结尾在 nous 后必须保留 e。判断口诀：-ger 动词遇 nous 留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (mélanger) les ingrédients pour le gâteau.",
+          "options": [
+            "mélangons",
+            "mélangeons",
+            "mélangent",
+            "mélangez"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 mélanger 的我们(nous)人称变位。正确答案：mélangeons。错误选项：0漏了e发音变成[g]；2和3人称错误。TCF高频陷阱点：忘记 -ger 动词的 nous 变位需保留 e。判断口诀：-ger 动词遇 nous 保留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "3. ranger: Nous _____ les affaires. Je _____. Vous _____.",
+          "correct": [
+            "rangeons",
+            "range",
+            "rangez"
+          ],
+          "explanation": "本题考察 ranger（-ger 动词）现在时。正确答案：nous rangeons 加 e；je range 规则变位；vous rangez 规则变位。TCF高频陷阱点：同上，重点记忆 nous 的拼写。判断口诀：-ger 动词遇 nous 留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (obliger) les enfants à dormir tôt.",
+          "correct": [
+            "obligent"
+          ],
+          "explanation": "本题考察 obliger 的第三人称复数变位。正确答案：obligent。TCF高频陷阱点：复数 ils/elles 结尾为 ent（不发音），不要受 nous 变位加 e 影响而多写 e。判断口诀：ils/elles 结尾 ent 且不发音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "4. rejeter: Ils _____ la proposition. Nous _____. Elle _____.",
+          "correct": [
+            "rejettent",
+            "rejetons",
+            "rejette"
+          ],
+          "explanation": "本题考察 rejeter（-eter 动词）现在时。正确答案：ils rejettent 双写 t；nous rejetons 单 t；elle rejette 双写 t。TCF高频陷阱点：-eter 动词变位时，重读 [ɛ] 音需双写 t，轻读 [ə] 音留单 t（nous/vous）。判断口诀：遇到 jeter/rejeter，nous 和 vous 找单 t，其余全双写 tt。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (jeter) les vieux papiers à la poubelle.",
+          "options": [
+            "jet",
+            "jete",
+            "jette",
+            "jettes"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 jeter 的我(je)人称变位。正确答案：jette。错误选项：0和1未双写t；3多写了s（那是tu的标志）。TCF高频陷阱点：jeter第一人称变位需双写t。判断口诀：我(je)扔东西双倍用力(tt)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "5. essayer: Vous _____ un manteau. Je _____. Nous _____.",
+          "correct": [
+            "essayez",
+            "essaie",
+            "essayons"
+          ],
+          "explanation": "本题考察 essayer（-ayer 动词）现在时。正确答案：vous essayez；je essaie (或 essaye均可)；nous essayons。TCF高频陷阱点：-ayer 动词可把 y 变为 i（nous/vous除外），也可全程保留 y。判断口诀：-ayer 动词变 i 或留 y 都对，但 nous/vous 必须留 y。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Tu _____ (payer) la facture de l'hôtel. (Choisissez les formes correctes)",
+          "options": [
+            "paies",
+            "payes",
+            "paie",
+            "payez"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "本题考察 payer 的你(tu)人称变位。正确答案：paies 或 payes 均可。错误选项：2是je/il人称；3是vous人称。TCF高频陷阱点：-ayer 结尾动词的 tu 变位两种写法均合法，但切记结尾加 s。判断口诀：-ayer 动词两种写法并行，tu 后必带 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "6. envoyer: Elle _____ des cartes postales. Vous _____. Nous _____.",
+          "correct": [
+            "envoie",
+            "envoyez",
+            "envoyons"
+          ],
+          "explanation": "本题考察 envoyer（-oyer 动词）现在时。正确答案：elle envoie 变 y 为 i；vous envoyez 留 y；nous envoyons 留 y。TCF高频陷阱点：-oyer/-uyer 动词必须变 y 为 i（除 nous/vous 外）。判断口诀：-oyer/-uyer 动词，nous/vous 留 y，其他全变 i。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ (s'ennuyer) beaucoup pendant la réunion.",
+          "options": [
+            "s'ennuient",
+            "s'ennuyent",
+            "s'ennuye",
+            "s'ennuies"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 s'ennuyer（-uyer 动词）的复数(ils)人称变位。正确答案：s'ennuient。错误选项：1未把y变i；2和3人称不对应。TCF高频陷阱点：-uyer动词遇ils必须变y为i且加ent（ent不发音）。判断口诀：复数第三人称必变 i 加 ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. S'APPELER: - Comment tu _____ ? - Je _____ Sylvie. - Et vous, comment _____-vous ? - Je _____ Paul.",
+          "correct": [
+            "t'appelles",
+            "m'appelle",
+            "vous appelez",
+            "m'appelle"
+          ],
+          "explanation": "本题考察代词动词 s'appeler 的现在时。正确答案：单数人称需双写 l (t'appelles, m'appelle)，vous 维持单 l (vous appelez)。TCF高频陷阱点：-eler 动词的双写辅音规则及反身代词搭配。判断口诀：遇到 appeler，只有 nous 和 vous 写单 l，其他全双写 ll。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous nous _____ (rappeler) de cette belle histoire.",
+          "options": [
+            "rappelons",
+            "rappellons",
+            "rappeles",
+            "rappellent"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 se rappeler 的现在时 nous 变位。正确答案：rappelons。错误选项：1多写了l；其余人称错误。TCF高频陷阱点：rappeler 规则同 appeler，nous/vous 时 l 不双写。判断口诀：nous/vous 找单 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "2. JETER: - Tu _____ ces journaux ? - Oui, je les _____, ils sont vieux. - Et ces papiers, vous les _____ ? - Nous ne les _____ pas, nous en avons besoin.",
+          "correct": [
+            "jettes",
+            "jette",
+            "jetez",
+            "jetons"
+          ],
+          "explanation": "本题考察 jeter 的日常对话变位运用。正确答案：tu jettes (双t加s); je jette (双t); vous jetez (单t); nous jetons (单t)。TCF高频陷阱点：在句子中快速判断主语并正确双写 t 或留单 t。判断口诀：nous 和 vous 找单 t，其他全双写 tt。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (projeter) de voyager au Japon l'année prochaine.",
+          "correct": [
+            "projette"
+          ],
+          "explanation": "本题考察 projeter 的第三人称单数变位。正确答案：projette。TCF高频陷阱点：projeter 规则同 jeter，单数人称需双写 t。判断口诀：同 jeter，单数人称双写 t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "3. PAYER: - Qui est-ce qui _____ ? Vous _____ ou je _____ ? - Mais non, c'est lui qui ***.",
+          "correct": [
+            "paie",
+            "payez",
+            "paie",
+            "paie"
+          ],
+          "explanation": "本题考察 payer 的对话应用（优先使用 i 拼写）。正确答案：qui(作主语相当于il) paie; vous payez; je paie; lui qui paie。TCF高频陷阱点：qui 作主语时视同第三人称单数 il。判断口诀：qui 等同于 il/elle。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (essayer) de comprendre ce texte complexe.",
+          "correct": [
+            "essayons"
+          ],
+          "explanation": "本题考察 essayer 的 nous 变位。正确答案：essayons。TCF高频陷阱点：即使 -ayer 动词允许变 i，在 nous 和 vous 后也必须保留 y。判断口诀：nous/vous 后必须留 y。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "4. ÉPELER: - Comment ***-vous votre nom ? - Je l'*** B-A-U-D-R-I, mais il y a des gens qui l'*** B-A-U-D-R-Y.",
+          "correct": [
+            "épelez",
+            "épelle",
+            "épellent"
+          ],
+          "explanation": "本题考察 épeler (-eler动词) 现在时。正确答案：vous épelez (单l); je l'épelle (双l); ils(qui) l'épellent (双l)。TCF高频陷阱点：与 appeler 一样，nous/vous 单 l，其余双 l。注意省音 l' 后的动词变位。判断口诀：重读 [ɛ] 变双 l，轻读 [ə] 留单 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (épeler) ton prénom devant la classe.",
+          "correct": [
+            "épelles"
+          ],
+          "explanation": "本题考察 épeler 的 tu 变位。正确答案：épelles。TCF高频陷阱点：拼写时容易忘记双写 l 以及词尾加 s。判断口诀：tu 后面双写 l 并且加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "5. VOYAGER: - Vous _____ souvent ? - Nous _____ deux fois par an, mais les enfants _____ plus que nous.",
+          "correct": [
+            "voyagez",
+            "voyageons",
+            "voyagent"
+          ],
+          "explanation": "本题考察 voyager 的变位。正确答案：vous voyagez; nous voyageons (留e); les enfants(ils) voyagent (ent不发音)。TCF高频陷阱点：nous 后面必留 e 以发 [ʒ] 音。判断口诀：-ger 遇 nous 留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (nager) très bien dans la piscine.",
+          "correct": [
+            "nagent"
+          ],
+          "explanation": "本题考察 nager 的 ils 变位。正确答案：nagent。TCF高频陷阱点：ils 变位直接加 ent，不需要保留 e（因为 e 在发音上已经无需用来软化 g 前的 a/o）。判断口诀：除了 nous 其他按规则变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "6. NETTOYER: - Vous _____ souvent la moquette ? - Nous la _____ deux fois par an, mais la voisine la _____ tous les mois.",
+          "correct": [
+            "nettoyez",
+            "nettoyons",
+            "nettoie"
+          ],
+          "explanation": "本题考察 nettoyer (-oyer) 的变位。正确答案：vous nettoyez (留y); nous nettoyons (留y); la voisine(elle) nettoie (y变i)。TCF高频陷阱点：-oyer 动词在第三人称必须变 y 为 i。判断口诀：nous/vous 留 y，其他变 i。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (nettoyer) la voiture chaque week-end.",
+          "correct": [
+            "nettoient"
+          ],
+          "explanation": "本题考察 nettoyer 的 ils 变位。正确答案：nettoient。TCF高频陷阱点：复数 ils 必须变 y 为 i，且结尾 ent 不发音。判断口诀：复数第三人称必变 i 加 ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Un sorcier est quelqu'un qui _____ (ensorceler) les gens.",
+          "correct": [
+            "ensorcelle"
+          ],
+          "explanation": "本题考察 ensorceler 现在时第三人称单数（由 qui 引导）。正确答案：ensorcelle。TCF高频陷阱点：ensorceler 变位同 appeler，除 nous/vous 外需双写 l。判断口诀：第三人称单数双写 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (ensorceler) le public avec cette magnifique chanson.",
+          "options": [
+            "ensorcelez",
+            "ensorcellez",
+            "ensorcelles",
+            "ensorcelons"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 ensorceler 的 vous 变位。正确答案：ensorcelez。错误选项：1错误双写了l；2和3人称错误。TCF高频陷阱点：在vous人称下回归单l。判断口诀：nous/vous 后回归单 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les patrons sont des gens qui _____ (employer) des salariés.",
+          "correct": [
+            "emploient"
+          ],
+          "explanation": "本题考察 employer 现在时第三人称复数（先行词 des gens）。正确答案：emploient。TCF高频陷阱点：-oyer 动词变 y 为 i 并在词尾加 ent。判断口诀：复数第三人称必变 i 加 ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (employer) de nouvelles méthodes de travail.",
+          "correct": [
+            "employons"
+          ],
+          "explanation": "本题考察 employer 的 nous 变位。正确答案：employons。TCF高频陷阱点：-oyer 动词在 nous 时必须保留 y。判断口诀：nous 后面必留 y。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Un mauvais payeur est une personne qui _____ (ne pas payer) ses factures.",
+          "correct": [
+            "ne paie pas",
+            "ne paye pas"
+          ],
+          "explanation": "本题考察 payer 第三人称单数否定形式。正确答案：ne paie pas 或 ne paye pas。TCF高频陷阱点：否定词 ne ... pas 包裹动词，-ayer 动词两种拼写均可。判断口诀：ne 放变位动词前，pas 放后。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (ne pas s'ennuyer) pendant ce long film.",
+          "options": [
+            "ne m'ennuie pas",
+            "ne me ennuie pas",
+            "m'ennuie pas",
+            "ne s'ennuie pas"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 s'ennuyer 的第一人称否定及省音。正确答案：ne m'ennuie pas。错误选项：1未省音；2缺ne(口语常见但语法错)；3代词用错(s')。TCF高频陷阱点：反身代词 me 遇元音省音为 m'，且与动词一起被 ne...pas 包围。判断口诀：ne + 反身代词 + 动词 + pas，遇元音必省音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les pigeons voyageurs sont des oiseaux qui _____ (envoyer) des messages.",
+          "correct": [
+            "envoient"
+          ],
+          "explanation": "本题考察 envoyer 现在时第三人称复数。正确答案：envoient。TCF高频陷阱点：qui 指代复数 oiseaux，变位必须将 y 变为 i 加 ent。判断口诀：复数第三人称必变 i 加 ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (renvoyer) le colis à l'expéditeur demain.",
+          "correct": [
+            "renvoies"
+          ],
+          "explanation": "本题考察 renvoyer (同 envoyer) 的 tu 变位。正确答案：renvoies。TCF高频陷阱点：前缀词(ren-)同原词变位规律，y变i并加s。判断口诀：tu 后必变 i 加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (placer) les chaises dans le salon.",
+          "correct": [
+            "plaçons"
+          ],
+          "explanation": "本题考察 placer (-cer动词) 的 nous 变位。正确答案：plaçons。TCF高频陷阱点：-cer结尾的动词在元音a/o前需要将c变为ç以保持[s]发音。判断口诀：逢 nous 必加 ç。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ (placer) les chaises dans le salon.",
+          "options": [
+            "placent",
+            "plaçent",
+            "place",
+            "plaçons"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 placer 的 ils 变位。正确答案：placent。错误选项：1画蛇添足加了ç；2是单数人称；3是nous的变位。TCF高频陷阱点：复数ils结尾为ent不发音，前面是e，c本来就发[s]音，绝不能加ç。判断口诀：除了nous，其他该咋变咋变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (obliger) les étudiants à lire ce livre.",
+          "correct": [
+            "obligeons"
+          ],
+          "explanation": "本题考察 obliger (-ger动词) 的 nous 变位。正确答案：obligeons。TCF高频陷阱点：-ger结尾的动词在元音a/o前需要保留e以维持[ʒ]发音。判断口诀：-ger动词遇 nous 必留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (obliger) les étudiants à lire ce livre.",
+          "options": [
+            "obligez",
+            "obligiez",
+            "obligeaz",
+            "obligeons"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 obliger 的 vous 变位。正确答案：obligez。错误选项：1是未完成过去时；2拼写错误；3是nous变位。TCF高频陷阱点：vous变位词尾是ez，e本身就能让g发[ʒ]音，无需额外加e。判断口诀：只有 nous 才留 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Ce chien _____ (effrayer) les petits enfants. (Choisissez les formes correctes)",
+          "options": [
+            "effraie",
+            "effraye",
+            "effraies",
+            "effrayes"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "本题考察 effrayer (-ayer动词) 的 il/elle 变位。正确答案：effraie 或 effraye 均可。错误选项：2和3多加了s，这是tu的特征。TCF高频陷阱点：-ayer结尾动词的单数人称有两种合法拼写，保留y或变y为i。判断口诀：-ayer 动词两种写法并行，第三人称单数不加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (effrayer) les oiseaux dans le jardin.",
+          "options": [
+            "effrayons",
+            "effraions",
+            "effraieons",
+            "effrayez"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 effrayer 的 nous 变位。正确答案：effrayons。错误选项：1和2错误地把y变成了i；3是vous变位。TCF高频陷阱点：即使 -ayer 动词允许变 i，在 nous 和 vous 后也绝对必须保留 y。判断口诀：nous/vous 后必须留 y。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je me _____ (rappeler) très bien ce jour-là.",
+          "correct": [
+            "rappelle"
+          ],
+          "explanation": "本题考察 se rappeler 的 je 变位。正确答案：rappelle。TCF高频陷阱点：rappeler 与 appeler 变位规则相同，单数人称需双写 l。判断口诀：单数人称重读，双写 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous nous _____ (rappeler) cette belle époque.",
+          "options": [
+            "rappelons",
+            "rappellons",
+            "rapelons",
+            "rappellent"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 se rappeler 的 nous 变位。正确答案：rappelons。错误选项：1错误双写了l；2漏写了p；3是ils变位。TCF高频陷阱点：在nous和vous人称下，轻读[ə]，l不双写。判断口诀：nous/vous 找单 l。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le cinéma _____ (projeter) un nouveau film ce soir.",
+          "correct": [
+            "projette"
+          ],
+          "explanation": "本题考察 projeter 的 il 变位。正确答案：projette。TCF高频陷阱点：projeter 与 jeter 变位规则相同，单数人称需双写 t 以发[ɛ]音。判断口诀：单数人称重读，双写 t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (projeter) de partir en vacances en France ?",
+          "options": [
+            "projetez",
+            "projettez",
+            "projetons",
+            "projettent"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 projeter 的 vous 变位。正确答案：projetez。错误选项：1错误双写了t；2是nous变位；3是ils变位。TCF高频陷阱点：在nous和vous人称下，轻读[ə]，t绝不双写。判断口诀：nous/vous 找单 t。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (essuyer) la table après le repas.",
+          "correct": [
+            "essuies"
+          ],
+          "explanation": "本题考察 essuyer (-uyer动词) 的 tu 变位。正确答案：essuies。TCF高频陷阱点：-uyer 动词在词尾带不发音的 e、es、ent 时，必须把 y 变为 i。判断口诀：tu 后必变 i 加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Transformez la phrase : Nous essuyons la vaisselle. (改为否定句)",
+          "correct": [
+            "Nous n'essuyons pas la vaisselle."
+          ],
+          "explanation": "本题考察否定句型及省音。正确答案：Nous n'essuyons pas la vaisselle.。TCF高频陷阱点：ne 遇到元音开头的动词必须省音为 n'，且 nous 变位必须保留 y。判断口诀：否定词包围动词，遇元音必省音。",
+          "category": "语法变位综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils se _____ (noyer) dans une montagne de travail.",
+          "correct": [
+            "noient"
+          ],
+          "explanation": "本题考察 se noyer (-oyer动词) 的 ils 变位。正确答案：noient。TCF高频陷阱点：-oyer 动词在第三人称复数必须变 y 为 i，且结尾 ent 不发音。判断口诀：复数第三人称必变 i 加 ent。",
+          "category": "动词变位"
+        },
+        {
+          "type": "short_answer",
+          "stem": "Posez la question avec l'inversion du sujet : Vous vous noyez dans ce projet.",
+          "correct": [
+            "Vous noyez-vous dans ce projet ?"
+          ],
+          "explanation": "本题考察代词动词的主谓倒装。正确答案：Vous noyez-vous dans ce projet ?。TCF高频陷阱点：代词动词倒装时，自反代词保留在动词前，主语代词倒装至动词后用连字符连接。判断口诀：自反代词不动，主语代词往后跑。",
+          "category": "语法变位综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (commencer) le cours à 8 heures.",
+          "options": [
+            "commencons",
+            "commençons",
+            "commenceons",
+            "commencons"
+          ],
+          "correct": 1,
+          "explanation": "commencer 属于 c → ç 类动词，nous 前 c + o 必须加 cédille 保持 /s/ 发音：commençons。",
+          "category": "词干变化 c→ç"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ (manger) à la cantine.",
+          "options": [
+            "mangeons",
+            "mangent",
+            "mangeent",
+            "mangont"
+          ],
+          "correct": 1,
+          "explanation": "ils/elles 用普通词尾 -ent，g + e 天然发 /ʒ/，不需要额外插 e。mangent 是正确形式。",
+          "category": "词干变化 g→ge"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (nager) tous les matins.",
+          "options": [
+            "nagons",
+            "nagens",
+            "nageons",
+            "nagerons"
+          ],
+          "correct": 2,
+          "explanation": "nager 属于 manger 类，nous 前 g + o 必须插入 e → nageons。",
+          "category": "词干变化 g→ge"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment tu _____ (s'appeler) ?",
+          "options": [
+            "t'appeles",
+            "t'appelle",
+            "t'appelles",
+            "t'appellez"
+          ],
+          "correct": 2,
+          "explanation": "tu 在靴型内，appeler 双写 ll → appelles，加上自反代词 t' → t'appelles。",
+          "category": "双写 ll"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (appeler) un taxi.",
+          "options": [
+            "appellons",
+            "appelons",
+            "appelerons",
+            "appelleons"
+          ],
+          "correct": 1,
+          "explanation": "nous 在靴型外，保持单 l → appelons。",
+          "category": "双写 ll"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ (jeter) les vieux journaux.",
+          "options": [
+            "jete",
+            "jette",
+            "jète",
+            "jettte"
+          ],
+          "correct": 1,
+          "explanation": "elle 在靴型内，jeter 双写 tt → jette。",
+          "category": "双写 tt"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (rejeter) cette proposition ?",
+          "options": [
+            "rejettez",
+            "rejetez",
+            "rejeter",
+            "rejetéz"
+          ],
+          "correct": 1,
+          "explanation": "vous 在靴型外，保持单 t → rejetez。",
+          "category": "双写 tt"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J' _____ (envoyer) un colis à ma mère.",
+          "options": [
+            "envoye",
+            "envois",
+            "envoie",
+            "envoyie"
+          ],
+          "correct": 2,
+          "explanation": "-oyer 动词，je 在靴型内，y → i 强制变化 → envoie。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (nettoyer) la maison le samedi.",
+          "options": [
+            "nettoions",
+            "nettoyons",
+            "nettoiyons",
+            "nettoyions"
+          ],
+          "correct": 1,
+          "explanation": "nous 在靴型外，保持 y → nettoyons。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ (employer) plus de 500 personnes.",
+          "options": [
+            "emploient",
+            "employent",
+            "emploiyent",
+            "employes"
+          ],
+          "correct": 0,
+          "explanation": "-oyer 动词，ils 在靴型内，y → i 强制 → emploient。employent 是最常见的错误。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (payer) par carte bancaire.",
+          "options": [
+            "paye",
+            "paie",
+            "payie",
+            "pai"
+          ],
+          "correct": 1,
+          "explanation": "-ayer 动词，y → i 可选。paye 和 paie 都正确，但本题选项中 paye 也在，注意：两者都对时看其他选项排除法。这里 paie 是标准推荐形式。实际上选项 A 和 B 都对，但考试中若只选一个，优先选 paie。",
+          "category": "y→i 可选"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 essayer 的正确现在时 je 形式？",
+          "options": [
+            "j'essaye",
+            "j'essaie",
+            "j'essaiye",
+            "j'essai"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "-ayer 动词，y → i 变化可选，所以 j'essaye 和 j'essaie 都正确。",
+          "category": "y→i 可选"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (voyager) en Europe cet été.",
+          "correct": [
+            "voyageons"
+          ],
+          "explanation": "voyager 属于 manger 类，nous 前 g + o 需插入 e → voyageons。",
+          "category": "词干变化 g→ge"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (épeler) ton nom, s'il te plaît ?",
+          "correct": [
+            "épelles"
+          ],
+          "explanation": "épeler 同 appeler 类型，tu 在靴型内 → 双写 ll → épelles。",
+          "category": "双写 ll"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (lancer) le projet demain.",
+          "options": [
+            "lancons",
+            "lançons",
+            "lanceons",
+            "lancerons"
+          ],
+          "correct": 1,
+          "explanation": "lancer 属于 commencer 类，nous 前 c + o → 加 cédille → lançons。选项 D 是简单将来时，不是现在时。",
+          "category": "词干变化 c→ç"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (commencer) à comprendre ?",
+          "options": [
+            "commençez",
+            "commencez",
+            "commenssez",
+            "commensez"
+          ],
+          "correct": 1,
+          "explanation": "vous 后面是 -ez，c + e 天然发 /s/，不需要 cédille。只有 nous (c + o) 才需要 ç。commencez 正确。选项 A 是最经典的陷阱：把 ç 扩展到 vous。",
+          "category": "c→ç 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (ranger) mes affaires.",
+          "options": [
+            "rangee",
+            "rangeons",
+            "range",
+            "ranage"
+          ],
+          "correct": 2,
+          "explanation": "je 后面是 -e，g + e 天然发 /ʒ/，不需要插入额外的 e。range 正确。rangeons 是 nous 的形式。",
+          "category": "g→ge 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ (s'ennuyer) pendant les vacances.",
+          "options": [
+            "s'ennuyent",
+            "s'ennuient",
+            "s'ennuyient",
+            "s'ennuiyent"
+          ],
+          "correct": 1,
+          "explanation": "-uyer 动词，elles 在靴型内，y → i 强制 → s'ennuient。s'ennuyent 是最高频错误。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (placer) les invités à table.",
+          "options": [
+            "placons",
+            "plaçons",
+            "plasons",
+            "placeons"
+          ],
+          "correct": 1,
+          "explanation": "placer 同 commencer 类，nous 前 c + o → ç → plaçons。",
+          "category": "c→ç"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ (projeter) de partir en France.",
+          "options": [
+            "projete",
+            "projette",
+            "projecte",
+            "projeté"
+          ],
+          "correct": 1,
+          "explanation": "projeter 同 jeter 类，il 在靴型内 → 双写 tt → projette。选项 D 是过去分词，不是现在时。",
+          "category": "双写 tt"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ (appuyer) sur le bouton rouge.",
+          "options": [
+            "appuyez",
+            "appuiez",
+            "appuyiez",
+            "appuiyez"
+          ],
+          "correct": 0,
+          "explanation": "vous 在靴型外，保持 y → appuyez。选项 B 的 appuiez 是未完成过去时的形式，不是现在时！这是 TCF 常见的时态干扰陷阱。",
+          "category": "y→i + 时态陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les vagues _____ (noyer) la plage.",
+          "options": [
+            "noyent",
+            "noient",
+            "noyient",
+            "noiyent"
+          ],
+          "correct": 1,
+          "explanation": "-oyer 动词，elles 在靴型内，y → i 强制 → noient。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些变位形式是正确的？",
+          "options": [
+            "nous mangons",
+            "nous commençons",
+            "ils envoient",
+            "vous jettez"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "A 错：nous mangeons（需插 e）。B 对：nous commençons。C 对：ils envoient（y→i 强制）。D 错：vous jetez（vous 靴型外，单 t）。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子没有错误？",
+          "options": [
+            "Je m'appele Marie.",
+            "Nous appelons le médecin.",
+            "Tu jetes tes cahiers ?",
+            "Elle emploie trois personnes."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "A 错：je m'appelle（双 ll）。B 对：nous appelons（单 l）。C 错：tu jettes（双 tt）。D 对：elle emploie（y→i 强制）。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ (manger) ensemble ce midi. Après, je _____ (envoyer) un message à Paul et nous _____ (commencer) le travail.",
+          "correct": [
+            "mangeons",
+            "envoie",
+            "commençons"
+          ],
+          "explanation": "第一空：nous + manger → g + o 插 e → mangeons。第二空：je + envoyer → -oyer 靴型内 y→i 强制 → envoie。第三空：nous + commencer → c + o 加 ç → commençons。",
+          "category": "综合段落"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Comment tu _____ (s'appeler) ? — Je _____ (s'appeler) Sophie. Et vous, vous _____ (épeler) votre nom comment ?",
+          "correct": [
+            "t'appelles",
+            "m'appelle",
+            "épelez"
+          ],
+          "explanation": "第一空：tu 靴型内 → 双 ll + 自反代词 t' → t'appelles。第二空：je 靴型内 → 双 ll + m' → m'appelle。第三空：vous 靴型外 → 单 l → épelez。",
+          "category": "代词式 + 双写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les oiseaux voyageurs _____ (envoyer) des messages.",
+          "options": [
+            "envoyent",
+            "envoient",
+            "envoyient",
+            "envoiyent"
+          ],
+          "correct": 1,
+          "explanation": "ils 在靴型内，-oyer 强制 y → i → envoient。这道题直接来自课本 Exercice 3 第 4 题。",
+          "category": "y→i 强制"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un sorcier est quelqu'un qui _____ (ensorceler) les gens.",
+          "options": [
+            "ensorcèle",
+            "ensorcelle",
+            "ensorcelé",
+            "ensorcele"
+          ],
+          "correct": 1,
+          "explanation": "ensorceler 同 appeler 类，il 在靴型内 → 双写 ll → ensorcelle。选项 A 的 è 变体是 acheter 类的规则，不适用于 appeler 类。这是高频混淆点。",
+          "category": "双写 ll vs è 辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne les _____ (jeter) pas, nous en avons besoin.",
+          "correct": [
+            "jetons"
+          ],
+          "explanation": "nous 在靴型外 → 单 t → jetons。否定结构中代词 les 在动词前，ne ... pas 包裹动词。",
+          "category": "双写 tt + 否定结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La voisine _____ (nettoyer) sa terrasse tous les jours.",
+          "options": [
+            "nettoye",
+            "nettoie",
+            "nettoyie",
+            "nettoye"
+          ],
+          "correct": 1,
+          "explanation": "elle 在靴型内，-oyer 强制 y → i → nettoie。选项 A 和 D 相同且都错（保留了 y）。",
+          "category": "y→i 强制"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1-ke5w48yaQtG-sNUUx0spEdNoPGt86qlBGYWH5uVLTk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771958326378-mw2bxqg7ld",
+          "front": "commencer 类动词（c→ç）规则是什么？",
+          "back": "当 c 后面跟 o 时，为保持 /s/ 发音，c 要变成 ç。\n只影响 nous 这一格：nous commençons\n同类：lancer, placer, déplacer, remplacer, prononcer"
+        },
+        {
+          "id": "1771958326378-mlf5cd1quka",
+          "front": "nous commencer → ?",
+          "back": "nous commençons\n（c + o → ç + o）"
+        },
+        {
+          "id": "1771958326378-hst2l4fg6zu",
+          "front": "manger 类动词（g→ge）规则是什么？",
+          "back": "当 g 后面跟 o 时，为保持 /ʒ/ 发音，要在 g 和 o 之间插入 e。\n只影响 nous 这一格：nous mangeons\n同类：changer, nager, ranger, voyager, mélanger"
+        },
+        {
+          "id": "1771958326378-45xbwd3j381",
+          "front": "nous manger → ?",
+          "back": "nous mangeons\n（g + o → ge + o）"
+        },
+        {
+          "id": "1771958326378-zgk695fbtn",
+          "front": "nous voyager → ?",
+          "back": "nous voyageons"
+        },
+        {
+          "id": "1771958326378-sdakvsfbfll",
+          "front": "nous lancer → ?",
+          "back": "nous lançons"
+        },
+        {
+          "id": "1771958326378-drji4r74xjj",
+          "front": "nous nager → ?",
+          "back": "nous nageons"
+        },
+        {
+          "id": "1771958326378-b20g1ka639",
+          "front": "nous placer → ?",
+          "back": "nous plaçons"
+        },
+        {
+          "id": "1771958326378-rce76bpz7tc",
+          "front": "appeler 类动词（l→ll）靴型规则",
+          "back": "je/tu/il/ils → 双写 ll（appelle）\nnous/vous → 单 l（appelons）\n同类：rappeler, s'appeler, épeler, ensorceler"
+        },
+        {
+          "id": "1771958326378-02owbecp07zw",
+          "front": "j'appeler → ?",
+          "back": "j'appelle（双 ll）"
+        },
+        {
+          "id": "1771958326378-gq1b5x03lcp",
+          "front": "nous appeler → ?",
+          "back": "nous appelons（单 l）"
+        },
+        {
+          "id": "1771958326378-p4scpfm98z",
+          "front": "ils appeler → ?",
+          "back": "ils appellent（双 ll）"
+        },
+        {
+          "id": "1771958326378-6kablpnur5j",
+          "front": "tu s'appeler → ?",
+          "back": "tu t'appelles（双 ll + 自反代词 t'）"
+        },
+        {
+          "id": "1771958326378-9qw59wtgijj",
+          "front": "jeter 类动词（t→tt）靴型规则",
+          "back": "je/tu/il/ils → 双写 tt（jette）\nnous/vous → 单 t（jetons）\n同类：rejeter, projeter, feuilleter"
+        },
+        {
+          "id": "1771958326378-6xj8fex2ofn",
+          "front": "elle jeter → ?",
+          "back": "elle jette（双 tt）"
+        },
+        {
+          "id": "1771958326378-op3o2u157sg",
+          "front": "vous jeter → ?",
+          "back": "vous jetez（单 t）"
+        },
+        {
+          "id": "1771958326378-jfkkms1mz7",
+          "front": "ils rejeter → ?",
+          "back": "ils rejettent（双 tt）"
+        },
+        {
+          "id": "1771958326378-gfab64ifu4j",
+          "front": "nous rejeter → ?",
+          "back": "nous rejetons（单 t）"
+        },
+        {
+          "id": "1771958326378-kbceakm4zld",
+          "front": "employer 类动词（y→i 强制）规则",
+          "back": "-oyer 和 -uyer 动词：\nje/tu/il/ils → y 强制变 i（emploie）\nnous/vous → 保持 y（employons）\n同类：envoyer, nettoyer, noyer, ennuyer, appuyer, essuyer"
+        },
+        {
+          "id": "1771958326378-6p1cxuvg5qh",
+          "front": "j'employer → ?",
+          "back": "j'emploie（y→i 强制）"
+        },
+        {
+          "id": "1771958326378-cfi6hi0lf7l",
+          "front": "nous employer → ?",
+          "back": "nous employons（保持 y）"
+        },
+        {
+          "id": "1771958326378-knjoqrf3ro",
+          "front": "ils envoyer → ?",
+          "back": "ils envoient（y→i 强制）"
+        },
+        {
+          "id": "1771958326378-u3l7zoml5b9",
+          "front": "elle nettoyer → ?",
+          "back": "elle nettoie（y→i 强制）"
+        },
+        {
+          "id": "1771958326378-amb9utvo8x",
+          "front": "nous nettoyer → ?",
+          "back": "nous nettoyons（保持 y）"
+        },
+        {
+          "id": "1771958326378-b05tullm6eg",
+          "front": "je s'ennuyer → ?",
+          "back": "je m'ennuie（y→i 强制）"
+        },
+        {
+          "id": "1771958326378-atyevjkc2ds",
+          "front": "-ayer 动词（payer/essayer）的 y→i 规则",
+          "back": "y→i 可选！两种都正确：\nje paye = je paie\nj'essaye = j'essaie\nnous/vous 始终保持 y：payons, essayez"
+        },
+        {
+          "id": "1771958326378-k65yrqkb68",
+          "front": "je payer → ?",
+          "back": "je paye 或 je paie（都正确）"
+        },
+        {
+          "id": "1771958326378-bxqjrqxrzxu",
+          "front": "j'essayer → ?",
+          "back": "j'essaye 或 j'essaie（都正确）"
+        },
+        {
+          "id": "1771958326378-ncd3ev4da3",
+          "front": "⚡ -ayer / -oyer / -uyer 三类区分",
+          "back": "-ayer（payer）→ y→i 可选\n-oyer（employer）→ y→i 强制\n-uyer（ennuyer）→ y→i 强制\n\n口诀：只有 a 心软（可选），o 和 u 铁面无私（强制）"
+        },
+        {
+          "id": "1771958326378-c658v0eqlg",
+          "front": "⚡ ç 和 ge 只管哪个人称？",
+          "back": "只管 nous！\n其他人称 c/g 后面跟的是 e，天然发 /s/ 和 /ʒ/，不需要变。\n常见陷阱：vous commençez ❌ → vous commencez ✅"
+        },
+        {
+          "id": "1771958326378-7rs5h2dn57e",
+          "front": "⚡ 靴型变位是什么？",
+          "back": "je/tu/il/ils 用“重词干”（双辅音 ll/tt 或 i）\nnous/vous 用“轻词干”（单辅音 l/t 或 y）\n形状像一只靴子，所以叫 boot pattern"
+        },
+        {
+          "id": "1771958326378-nvp5lnk93zl",
+          "front": "commencer à + inf. 用法",
+          "back": "开始做某事\nJe commence à comprendre.\n介词用 à，不用 de"
+        },
+        {
+          "id": "1771958326378-u3ccfjc9so",
+          "front": "essayer de + inf. 用法",
+          "back": "尝试做某事\nJ'essaie de dormir.\n介词用 de，不用 à"
+        },
+        {
+          "id": "1771958326378-55nss262hpx",
+          "front": "envoyer qqch à qqn 用法",
+          "back": "给某人寄/发某物\nJ'envoie une lettre à ma mère.\n双宾语结构：直接宾语 + à + 间接宾语"
+        },
+        {
+          "id": "1771958326378-q1aud64yuxf",
+          "front": "s'appeler 完整变位（现在时）",
+          "back": "je m'appelle\ntu t'appelles\nil/elle s'appelle\nnous nous appelons\nvous vous appelez\nils/elles s'appellent"
+        },
+        {
+          "id": "1771958326378-01ki8gdydo8v",
+          "front": "jeter 完整变位（现在时）",
+          "back": "je jette\ntu jettes\nil/elle jette\nnous jetons\nvous jetez\nils/elles jettent"
+        },
+        {
+          "id": "1771958326378-0s43jo7jxvik",
+          "front": "envoyer 完整变位（现在时）",
+          "back": "j'envoie\ntu envoies\nil/elle envoie\nnous envoyons\nvous envoyez\nils/elles envoient"
+        }
+      ]
+    },
+    {
       "id": 1771957327887,
       "name": "Unit 1 PRÉSENT 第一组动词（-er）特殊词干变位",
       "folderId": "1771907837913",
@@ -34248,6 +35337,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-24T18:27:00.039Z",
+  "exportedAt": "2026-02-24T18:38:51.980Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
