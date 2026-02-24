@@ -1589,6 +1589,7 @@
     .saved-sets-folder-sort { margin-left: 0.35rem; padding: 0.25rem 0.5rem; font-size: 0.75rem; border: 1px solid var(--border-strong); border-radius: 6px; background: var(--surface); color: var(--text-muted); cursor: pointer; max-width: 120px; }
     .saved-sets-folder-sort:hover { color: var(--text); border-color: var(--accent); }
     .saved-sets-folder-sort:focus { outline: none; border-color: var(--accent); }
+    .saved-sets-empty-hint { padding: 0.5rem 0.75rem; color: var(--text-muted); font-size: 0.875rem; list-style: none; }
     .saved-sets-folder-header .folder-header-edit:hover, .saved-sets-folder-header .folder-header-delete:hover { color: var(--text); }
     .saved-sets-folder-header .folder-header-delete:hover { color: #f87171; }
     .saved-sets-folder-body { border-top: 1px solid var(--border-subtle); }
@@ -4020,9 +4021,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         var fid = String(f.id);
         var inFolder = grouped.get(fid) || [];
         var inFolderShow = inFolder.filter(function(s) { return toShowSet.has(String(s.id)); });
-        if (inFolderShow.length === 0) return;
         var collapsed = collapsedState[fid];
         var collapsedClass = collapsed ? ' saved-sets-folder-collapsed' : '';
+        var bodyList = inFolderShow.length === 0
+          ? '<li class="saved-sets-empty-hint">暂无习题</li>'
+          : inFolderShow.map(itemHtml).join('');
         html += '<div class="saved-sets-folder' + collapsedClass + '" data-folder-id="' + escapeAttr(fid) + '" data-is-uncategorized="false">' +
           '<div class="saved-sets-folder-header">' +
           '<button type="button" class="saved-sets-folder-toggle" data-action="toggle-folder">' +
@@ -4039,7 +4042,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           '<button type="button" class="folder-header-edit" data-action="edit-folder" aria-label="重命名">✎</button>' +
           '<button type="button" class="folder-header-delete" data-action="delete-folder" aria-label="删除">×</button>' +
           '</div>' +
-          '<div class="saved-sets-folder-body"><ul class="saved-sets-list">' + inFolderShow.map(itemHtml).join('') + '</ul></div></div>';
+          '<div class="saved-sets-folder-body"><ul class="saved-sets-list">' + bodyList + '</ul></div></div>';
       });
       var uncategorizedShow = uncatList.filter(function(s) { return toShowSet.has(String(s.id)); });
       if (uncategorizedShow.length > 0) {
