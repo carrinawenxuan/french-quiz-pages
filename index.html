@@ -1586,6 +1586,9 @@
     .saved-sets-folder-header .folder-chevron { font-size: 0.7rem; opacity: 0.8; transition: transform 0.2s; flex-shrink: 0; }
     .saved-sets-folder-collapsed .saved-sets-folder-header .folder-chevron { transform: rotate(-90deg); }
     .saved-sets-folder-header .folder-header-edit, .saved-sets-folder-header .folder-header-delete { min-width: 44px; min-height: 44px; padding: 0 0.5rem; margin-right: 0.25rem; font-size: 0.85rem; background: none; border: none; color: var(--text-muted); cursor: pointer; border-radius: 4px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
+    .saved-sets-folder-sort { margin-left: 0.35rem; padding: 0.25rem 0.5rem; font-size: 0.75rem; border: 1px solid var(--border-strong); border-radius: 6px; background: var(--surface); color: var(--text-muted); cursor: pointer; max-width: 120px; }
+    .saved-sets-folder-sort:hover { color: var(--text); border-color: var(--accent); }
+    .saved-sets-folder-sort:focus { outline: none; border-color: var(--accent); }
     .saved-sets-folder-header .folder-header-edit:hover, .saved-sets-folder-header .folder-header-delete:hover { color: var(--text); }
     .saved-sets-folder-header .folder-header-delete:hover { color: #f87171; }
     .saved-sets-folder-body { border-top: 1px solid var(--border-subtle); }
@@ -2886,6 +2889,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const SAVED_SETS_KEY = 'french_quiz_saved_sets';
     const FOLDERS_KEY = 'french_quiz_folders';
     const FOLDER_COLLAPSED_KEY = 'french_quiz_folder_collapsed';
+    const FOLDER_SORT_KEY = 'french_quiz_folder_sort';
     const TIMER_SECONDS_KEY = 'french_quiz_timer_seconds';
     const DAILY_STATS_KEY = 'french_quiz_daily_stats';
     const RECENT_SESSIONS_KEY = 'french_quiz_recent_sessions';
@@ -3948,6 +3952,55 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           uncatList.push(s);
         }
       }
+      function getFolderSort(fid) {
+        try {
+          var raw = localStorage.getItem(FOLDER_SORT_KEY);
+          var o = raw ? JSON.parse(raw) : {};
+          var v = o[fid];
+          if (v === 'name' || v === 'createdAt' || v === 'lastPracticed' || v === 'practiceCount') return v;
+        } catch (_) {}
+        return 'createdAt';
+      }
+      function setFolderSort(fid, order) {
+        try {
+          var raw = localStorage.getItem(FOLDER_SORT_KEY);
+          var o = raw ? JSON.parse(raw) : {};
+          o[fid] = order;
+          localStorage.setItem(FOLDER_SORT_KEY, JSON.stringify(o));
+        } catch (_) {}
+      }
+      function sortSavedSets(arr, order) {
+        var list = arr.slice();
+        if (order === 'name') {
+          list.sort(function(a, b) { return (a.name || '').localeCompare(b.name || '', 'zh'); });
+        } else if (order === 'createdAt') {
+          list.sort(function(a, b) {
+            var ta = (a.createdAt && new Date(a.createdAt).getTime()) || 0;
+            var tb = (b.createdAt && new Date(b.createdAt).getTime()) || 0;
+            return tb - ta;
+          });
+        } else if (order === 'lastPracticed') {
+          list.sort(function(a, b) {
+            var ta = (a.lastPracticedAt && new Date(a.lastPracticedAt).getTime()) || 0;
+            var tb = (b.lastPracticedAt && new Date(b.lastPracticedAt).getTime()) || 0;
+            return tb - ta;
+          });
+        } else if (order === 'practiceCount') {
+          list.sort(function(a, b) {
+            var ca = a.practiceCount || 0;
+            var cb = b.practiceCount || 0;
+            return cb - ca;
+          });
+        }
+        return list;
+      }
+      folders.forEach(function(f) {
+        var fid = String(f.id);
+        if (grouped.has(fid)) grouped.set(fid, sortSavedSets(grouped.get(fid), getFolderSort(fid)));
+      });
+      var uncatSorted = sortSavedSets(uncatList.slice(), getFolderSort('__uncategorized__'));
+      uncatList.length = 0;
+      uncatList.push.apply(uncatList, uncatSorted);
       // Build ordered list for limit/pagination
       const orderedSets = [];
       folders.forEach(function(f) { var g = grouped.get(String(f.id)); if (g) orderedSets.push.apply(orderedSets, g); });
@@ -3977,6 +4030,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           '<span class="saved-sets-folder-name">' + escapeHtml(f.name) + ' (' + inFolder.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
+          '<select class="saved-sets-folder-sort" data-action="folder-sort" data-folder-id="' + escapeAttr(fid) + '" aria-label="排序">' +
+          '<option value="name"' + (getFolderSort(fid) === 'name' ? ' selected' : '') + '>按名称</option>' +
+          '<option value="createdAt"' + (getFolderSort(fid) === 'createdAt' ? ' selected' : '') + '>按创建时间</option>' +
+          '<option value="lastPracticed"' + (getFolderSort(fid) === 'lastPracticed' ? ' selected' : '') + '>按最近练习</option>' +
+          '<option value="practiceCount"' + (getFolderSort(fid) === 'practiceCount' ? ' selected' : '') + '>按练习次数</option>' +
+          '</select>' +
           '<button type="button" class="folder-header-edit" data-action="edit-folder" aria-label="重命名">✎</button>' +
           '<button type="button" class="folder-header-delete" data-action="delete-folder" aria-label="删除">×</button>' +
           '</div>' +
@@ -3993,6 +4052,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           '<span class="saved-sets-folder-name">未分类 (' + uncatList.length + ')</span>' +
           '<span class="folder-chevron" aria-hidden="true">▼</span>' +
           '</button>' +
+          '<select class="saved-sets-folder-sort" data-action="folder-sort" data-folder-id="__uncategorized__" aria-label="排序">' +
+          '<option value="name"' + (getFolderSort('__uncategorized__') === 'name' ? ' selected' : '') + '>按名称</option>' +
+          '<option value="createdAt"' + (getFolderSort('__uncategorized__') === 'createdAt' ? ' selected' : '') + '>按创建时间</option>' +
+          '<option value="lastPracticed"' + (getFolderSort('__uncategorized__') === 'lastPracticed' ? ' selected' : '') + '>按最近练习</option>' +
+          '<option value="practiceCount"' + (getFolderSort('__uncategorized__') === 'practiceCount' ? ' selected' : '') + '>按练习次数</option>' +
+          '</select>' +
           '</div>' +
           '<div class="saved-sets-folder-body"><ul class="saved-sets-list">' + uncategorizedShow.map(itemHtml).join('') + '</ul></div></div>';
       }
@@ -4002,6 +4067,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       requestAnimationFrame(function() { listEl.innerHTML = html; });
     }
     function handleSavedSetsAction(e) {
+      if (e.type === 'change' && e.target.classList.contains('saved-sets-folder-sort')) {
+        var sel = e.target;
+        var fid = sel.dataset.folderId;
+        var order = sel.value;
+        if (fid && (order === 'name' || order === 'createdAt' || order === 'lastPracticed' || order === 'practiceCount')) {
+          try {
+            var raw = localStorage.getItem(FOLDER_SORT_KEY);
+            var o = raw ? JSON.parse(raw) : {};
+            o[fid] = order;
+            localStorage.setItem(FOLDER_SORT_KEY, JSON.stringify(o));
+          } catch (_) {}
+          renderSavedSets();
+        }
+        return;
+      }
       const btn = e.target.closest('[data-action]');
       if (!btn) return;
       const action = btn.dataset.action;
@@ -6589,7 +6669,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const searchInput = $('saved-sets-search');
     if (searchInput) searchInput.addEventListener('input', debounce(renderSavedSets, 180));
     const savedSetsList = $('saved-sets-list');
-    if (savedSetsList) savedSetsList.addEventListener('click', handleSavedSetsAction);
+    if (savedSetsList) {
+      savedSetsList.addEventListener('click', handleSavedSetsAction);
+      savedSetsList.addEventListener('change', handleSavedSetsAction);
+    }
     document.getElementById('btn-add-folder').addEventListener('click', () => {
       customPrompt('输入文件夹名称', '').then(name => {
         if (name === null || !name.trim()) return;

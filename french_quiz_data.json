@@ -1620,6 +1620,337 @@
           "correct": 1,
           "explanation": "ensemble 作副词表示\"一起\"时，没有性数变化，不加 s。没有 en ensemble 的说法。",
           "category": "词汇-ensemble"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ le bus depuis 20 minutes.",
+          "options": [
+            "attends",
+            "entends",
+            "apprends",
+            "comprends"
+          ],
+          "correct": 0,
+          "explanation": "attendre = 等待。entendre = 听见，apprendre = 学习，comprendre = 理解。语境是\"等公交车\"，用 attends。attendre 直接跟宾语，不加介词。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'a pas _____ argent pour acheter cette voiture.",
+          "options": [
+            "de l'",
+            "d'",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "否定句中部分冠词 de l' 变为 d'。肯定句：Il a de l'argent → 否定句：Il n'a pas d'argent。",
+          "category": "冠词/argent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quels sont les _____ et les _____ de vivre en ville ?",
+          "options": [
+            "avantages / inconvénients",
+            "raisons / pollutions",
+            "espaces / argents",
+            "voyages / fatigues"
+          ],
+          "correct": 0,
+          "explanation": "讨论利弊的经典词对：les avantages et les inconvénients。这是 TCF 议论文体裁的核心搭配。",
+          "category": "词汇搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est-ce que tu vas à l'école ?",
+          "options": [
+            "Combien",
+            "Comment",
+            "Quand",
+            "Pourquoi"
+          ],
+          "correct": 2,
+          "explanation": "问\"什么时候\"用 quand。comment 问方式，combien 问数量，pourquoi 问原因。语境\"你什么时候去学校\"→ quand。",
+          "category": "疑问词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne _____ pas cette phrase, elle est trop difficile.",
+          "options": [
+            "comprend",
+            "comprends",
+            "comprenons",
+            "comprennent"
+          ],
+          "correct": 1,
+          "explanation": "主语 je，comprendre 现在时变位：je comprends（第一人称单数带 -s）。",
+          "category": "变位/comprendre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout le monde _____ d'accord avec cette décision.",
+          "options": [
+            "sont",
+            "est",
+            "êtes",
+            "sommes"
+          ],
+          "correct": 1,
+          "explanation": "tout le monde 虽然意思是\"所有人\"，但语法上是第三人称单数，动词用 est。这是经典陷阱。",
+          "category": "语法/monde"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est _____ avec un médecin l'année dernière.",
+          "options": [
+            "marié",
+            "mariée",
+            "mariés",
+            "mariées"
+          ],
+          "correct": 1,
+          "explanation": "se marier 用 être 作助动词，过去分词与主语性数配合。主语 elle（阴性单数）→ mariée。",
+          "category": "代词式动词/配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pense _____ toi chaque jour.",
+          "options": [
+            "de",
+            "à",
+            "pour",
+            "sur"
+          ],
+          "correct": 1,
+          "explanation": "penser à qn = 想念/想到某人。penser de qn = 对某人有什么看法。语境是\"每天想你\"→ penser à。",
+          "category": "介词/penser"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu penses _____ ce nouveau film ?",
+          "options": [
+            "à",
+            "de",
+            "pour",
+            "sur"
+          ],
+          "correct": 1,
+          "explanation": "penser de qch = 对某事有什么看法。提问观点时用 de。与上题对比：penser à = 想到，penser de = 看法。",
+          "category": "介词/penser"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ bruit dans cette rue, je ne peux pas dormir.",
+          "options": [
+            "très",
+            "trop de",
+            "trop des",
+            "beaucoup"
+          ],
+          "correct": 1,
+          "explanation": "trop de + 名词（表\"太多\"），de 不变，不用 des。très 只能修饰形容词/副词，不能直接加名词。beaucoup 后面也需要 de。",
+          "category": "副词/trop"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La porte est . Tu peux entrer.",
+          "options": [
+            "ouvert",
+            "ouverte",
+            "ouverts",
+            "ouvertes"
+          ],
+          "correct": 1,
+          "explanation": "la porte 是阴性单数，形容词 ouvert 需配合为 ouverte。阳性不发 t，阴性发 t。",
+          "category": "形容词配合/ouvert"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ ensemble depuis trois ans.",
+          "options": [
+            "vivons",
+            "vivez",
+            "vivent",
+            "vis"
+          ],
+          "correct": 0,
+          "explanation": "主语 nous，vivre 现在时变位：nous vivons。vivre 是不规则动词，单数为 vis/vis/vit。",
+          "category": "变位/vivre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ en Afrique pendant dix ans.",
+          "options": [
+            "vécu",
+            "vivé",
+            "vivu",
+            "vivré"
+          ],
+          "correct": 0,
+          "explanation": "vivre 的过去分词是 vécu（不规则），不是 *vivé。passé composé：j'ai vécu。",
+          "category": "过去分词/vivre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est très _____ après cette longue journée de travail.",
+          "options": [
+            "fatigué",
+            "fatiguée",
+            "fatigués",
+            "fatiguées"
+          ],
+          "correct": 1,
+          "explanation": "主语 elle（阴性单数），形容词 fatigué 配合为 fatiguée。四种形式发音相同但拼写不同。",
+          "category": "形容词配合/fatigué"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je reste à la maison _____ il pleut.",
+          "options": [
+            "parce qu'",
+            "parce que",
+            "car que",
+            "pour que"
+          ],
+          "correct": 0,
+          "explanation": "parce que 在元音前省音为 parce qu'。il 以元音开头 → parce qu'il pleut。car 后面不加 que，pour que 表目的不表原因。",
+          "category": "连词/parce que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a _____ beaucoup d'argent avec ce travail.",
+          "options": [
+            "perdu",
+            "gagné",
+            "dépensé",
+            "voyagé"
+          ],
+          "correct": 1,
+          "explanation": "gagner de l'argent = 赚钱。perdre = 丢失/输，dépenser = 花费，voyager = 旅行。语境\"通过这份工作赚了很多钱\"→ gagné。",
+          "category": "词汇辨析/gagner"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ dans la rue sont très contents aujourd'hui.",
+          "options": [
+            "gens",
+            "gents",
+            "gen",
+            "monde"
+          ],
+          "correct": 0,
+          "explanation": "gens 恒复数，拼写无变化，不存在 *gents 或 *gen。monde 作\"人们\"时用 tout le monde（单数概念），不能直接替换。",
+          "category": "拼写/gens"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous voyag souvent en été.",
+          "options": [
+            "ons",
+            "eons",
+            "ions",
+            "eons"
+          ],
+          "correct": 1,
+          "explanation": "-ger 动词在 nous 前加 e 保持 /ʒ/ 发音：nous voyageons。此规则适用于所有 -ger 动词（manger → mangeons）。注意选项 0 和 3 的区别：voyagons 会让 g 发 /g/ 而非 /ʒ/。",
+          "category": "拼写规则/voyager"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je travaille dur pour que mes enfants _____ étudier.",
+          "options": [
+            "peuvent",
+            "puissent",
+            "pouvaient",
+            "pourront"
+          ],
+          "correct": 1,
+          "explanation": "pour que + subjonctif（主语不同时用 pour que）。pouvoir 的虚拟式：puissent。主语相同则用 pour + inf.，不需要 pour que。",
+          "category": "语法/pour que + subj."
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de la pluie, le match est annulé.",
+          "options": [
+            "En raison",
+            "À cause",
+            "Parce que",
+            "Grâce à"
+          ],
+          "correct": 0,
+          "explanation": "en raison de = 由于（正式书面语，B2 表达）。à cause de 也表原因但偏口语且常带负面意味，但此处缺少 de 所以语法不完整。parce que 后跟从句不跟名词。grâce à 表正面原因。",
+          "category": "原因表达/raison"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ là, personne ne manque.",
+          "options": [
+            "tout",
+            "tous",
+            "toute",
+            "toutes"
+          ],
+          "correct": 1,
+          "explanation": "tous 做代词指代 ils（阳性复数），且此时 s 发音 /tus/。做形容词时 s 不发音。",
+          "category": "tout 的变化"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些搭配是正确的？",
+          "options": [
+            "se marier avec qn",
+            "épouser avec qn",
+            "attendre pour qn",
+            "penser à qn"
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "se marier avec qn ✓；épouser 直接跟宾语，不加 avec ✗；attendre 直接跟宾语，不加 pour ✗；penser à qn = 想到某人 ✓。",
+          "category": "介词搭配综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Dans cette ville, il y a beaucoup d'_____ verts pour se promener.",
+          "correct": [
+            "espaces"
+          ],
+          "explanation": "espace vert = 绿地/绿化区。复数形式 espaces verts。注意 espace 是阳性名词。",
+          "category": "词汇/espace vert"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu as _____. C'est exactement comme tu dis.",
+          "correct": [
+            "raison"
+          ],
+          "explanation": "avoir raison = 有道理，是对的。固定搭配，不加冠词。反义：avoir tort。",
+          "category": "固定搭配/avoir raison"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Par _____, je pense que cette solution est meilleure.",
+          "options": [
+            "contre",
+            "pour",
+            "ailleurs",
+            "exemple"
+          ],
+          "correct": 0,
+          "explanation": "par contre = 相反地，另一方面。用于转折。par ailleurs = 此外，par exemple = 例如。语境是转折→ par contre。",
+          "category": "连接词/contre"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous travaillons _____ (ensemble) depuis 5 ans. Nous avons _____ (gagner, passé composé) plusieurs prix. Mais il y a _____ (trop) de pression dans ce métier.",
+          "correct": [
+            "ensemble",
+            "gagné",
+            "trop"
+          ],
+          "explanation": "ensemble 是副词不加 s；gagner 的过去分词 gagné（规则）；trop de + 名词表\"太多的\"。",
+          "category": "综合填空"
         }
       ],
       "practiceCount": 0,
@@ -1914,6 +2245,246 @@
           "id": "1771877187259-mxltxsdy3q",
           "front": "monde vs gens vs personnes 辨析",
           "back": "monde = 人多（不可数，il y a du monde）\ngens = 人们（复数，不可数）\npersonnes = 人（可数，正式）"
+        },
+        {
+          "id": "1771892008662-ujo5cj27j7",
+          "front": "attendre 的用法陷阱",
+          "back": "直接及物动词，不加介词！\nattendre qn/qch ✓\nattendre pour qn ✗\n例：J'attends le bus."
+        },
+        {
+          "id": "1771892008662-o48hqzifhro",
+          "front": "attendre 的代词式用法（B2）",
+          "back": "s'attendre à qch = 预料到某事\n例：Je m'attendais à cette réponse."
+        },
+        {
+          "id": "1771892008662-vjix7ov9ok",
+          "front": "attendre passé composé",
+          "back": "j'ai attendu（助动词 avoir）\n过去分词：attendu（规则）"
+        },
+        {
+          "id": "1771892008662-7g3tp5irytw",
+          "front": "argent 是什么性？",
+          "back": "阳性 n.m.\n两个意思：① 银，白银 ② 钱"
+        },
+        {
+          "id": "1771892008662-7ferwmm5jx9",
+          "front": "argent 的部分冠词变化",
+          "back": "肯定：J'ai de l'argent.\n否定：Je n'ai pas d'argent.\n（否定句 de l' → d'）"
+        },
+        {
+          "id": "1771892008662-g0lsjuxeg9g",
+          "front": "gagner de l'argent",
+          "back": "赚钱\n相关：dépenser de l'argent（花钱）\nargent de poche（零花钱）"
+        },
+        {
+          "id": "1771892008662-1fwv5b4tovm",
+          "front": "avantage ↔ inconvénient",
+          "back": "avantage n.m. 优点\ninconvénient n.m. 弊端\nles avantages et les inconvénients = 优缺点"
+        },
+        {
+          "id": "1771892008662-qzomozlzn28",
+          "front": "L'inconvénient principal, c'est que...",
+          "back": "主要弊端是……（B1 写作加分句型）\n注意 inconvénient 有 accent aigu：é"
+        },
+        {
+          "id": "1771892008662-2wtzyosw454",
+          "front": "comment 的三种提问层次",
+          "back": "口语：Tu fais comment ?\n标准：Comment est-ce que tu fais ?\n正式倒装：Comment fais-tu ?"
+        },
+        {
+          "id": "1771892008662-kvrkbsccju",
+          "front": "comment / combien / quand 区分",
+          "back": "comment → 问方式（怎么）\ncombien → 问数量（多少）\nquand → 问时间（什么时候）"
+        },
+        {
+          "id": "1771892008662-ct7y57sbc9r",
+          "front": "comprendre 现在时变位",
+          "back": "je comprends, tu comprends, il comprend\nnous comprenons, vous comprenez\nils comprennent（双 n）"
+        },
+        {
+          "id": "1771892008662-swdwozo6gwe",
+          "front": "comprendre passé composé",
+          "back": "j'ai compris（不规则过去分词）\ny compris = 包括（固定搭配，B1/B2）"
+        },
+        {
+          "id": "1771892008662-jp9vvy1d97d",
+          "front": "comprendre 和 apprendre / prendre 的关系",
+          "back": "同族动词，变位规则相同：\nprendre → pris\napprendre → appris\ncomprendre → compris"
+        },
+        {
+          "id": "1771892008662-mr210lcry8p",
+          "front": "contre 的介词用法",
+          "back": "être contre qch = 反对某事\n↔ être pour qch = 赞成某事\nlutter contre = 与……作斗争"
+        },
+        {
+          "id": "1771892008662-obwxojih7w",
+          "front": "par contre 和 en revanche",
+          "back": "par contre = 相反地（口语常用）\nen revanche = 相反地（更正式，B2 加分）\n意思相同，语域不同"
+        },
+        {
+          "id": "1771892008662-uznq5j6t2ab",
+          "front": "ensemble 是什么词性？",
+          "back": "副词 adv.（不是形容词！）\n不加 s：nous sommes ensemble ✓\nnous sommes ensembles ✗"
+        },
+        {
+          "id": "1771892008662-u7bhs8o932",
+          "front": "dans l'ensemble",
+          "back": "总体上（ensemble 作名词用法）\n例：Dans l'ensemble, c'est satisfaisant."
+        },
+        {
+          "id": "1771892008662-zuoo1914y0j",
+          "front": "espace 的性别和用法",
+          "back": "阳性 n.m.（虽然以 -e 结尾）\nespace vert = 绿地\nl'espace = 太空"
+        },
+        {
+          "id": "1771892008662-zmlhmy3oj5",
+          "front": "fatigué 的性数变化",
+          "back": "Il est fatigué\nElle est fatiguée\nIls sont fatigués\nElles sont fatiguées\n（发音完全相同，拼写不同）"
+        },
+        {
+          "id": "1771892008662-b7rtqpnzhwn",
+          "front": "fatigué de + inf.",
+          "back": "厌倦做某事\n例：Je suis fatigué de travailler.\n近义词：épuisé(e)（更强）、crevé(e)（口语）"
+        },
+        {
+          "id": "1771892008662-19hhjmlvzgg",
+          "front": "gagner 的两个意思",
+          "back": "① 赢得：gagner un match / un prix\n② 赚：gagner de l'argent / gagner sa vie\n反义词：perdre"
+        },
+        {
+          "id": "1771892008662-nn71lqh0n5",
+          "front": "gagner 发音要点",
+          "back": "/ɡa.ɲe/\ngn 发 /ɲ/（鼻化的\"尼\"），不是 /gn/"
+        },
+        {
+          "id": "1771892008662-rnf73vdynh",
+          "front": "gens 的语法特殊性",
+          "back": "恒复数 n.m.pl.，无单数形式\n不能说 un gens ✗\n不能写 gents ✗\n动词必须复数：Les gens sont contents."
+        },
+        {
+          "id": "1771892008662-aw39lcdqmci",
+          "front": "gens / personnes / monde 区分",
+          "back": "les gens = 人们（泛指，日常）\nles personnes = 人们（更正式）\ntout le monde = 大家（动词用单数！）"
+        },
+        {
+          "id": "1771892008662-3et67bco8su",
+          "front": "ici / là / là-bas",
+          "back": "ici = 这里（近）\nlà = 那里（中）\nlà-bas = 那边（远）\nd'ici deux jours = 两天之内"
+        },
+        {
+          "id": "1771892008662-r0kyu2bdix9",
+          "front": "se marier 的介词",
+          "back": "se marier avec qn ✓\nse marier à qn ✗\n对比：épouser qn（直接跟宾语，不加 avec）"
+        },
+        {
+          "id": "1771892008662-sxpfv2qbhm",
+          "front": "se marier passé composé 配合",
+          "back": "代词式动词用 être：\nIl s'est marié\nElle s'est mariée\nIls se sont mariés\nElles se sont mariées"
+        },
+        {
+          "id": "1771892008662-6bjodwbypix",
+          "front": "tout le monde + 动词",
+          "back": "动词用第三人称单数！\nTout le monde est content. ✓\nTout le monde sont contents. ✗"
+        },
+        {
+          "id": "1771892008662-6outbtd3ugh",
+          "front": "ouvert(e) 是哪个动词的过去分词？",
+          "back": "ouvrir（打开）的过去分词\nouvrir 现在时：j'ouvre, nous ouvrons\npassé composé：j'ai ouvert\n反义词：fermé(e)"
+        },
+        {
+          "id": "1771892008662-no308h8hgyq",
+          "front": "ouvert d'esprit",
+          "back": "开明的，思想开放的（B2 加分表达）\n例：C'est une personne très ouverte d'esprit."
+        },
+        {
+          "id": "1771892008662-e51k4wbalrs",
+          "front": "parce que 四大原因连词辨析",
+          "back": "parce que → 回答 pourquoi，客观原因\npuisque → 既然（对方已知）\ncar → 因为（书面，不放句首）\ncomme → 因为（放句首）"
+        },
+        {
+          "id": "1771892008662-5w1h7cb3na5",
+          "front": "parce que 拼写注意",
+          "back": "两个词，中间有空格！\nparce que ✓\nparceque ✗\n元音前省音：parce qu'il"
+        },
+        {
+          "id": "1771892008662-3cas038r0df",
+          "front": "penser à vs penser de",
+          "back": "penser à qn/qch = 想到（脑中浮现）\npenser de qn/qch = 对……有什么看法\n例：Je pense à toi. / Que penses-tu de ce film ?"
+        },
+        {
+          "id": "1771892008662-bjjkzg04nom",
+          "front": "ne pas penser que + ?",
+          "back": "否定形式后用虚拟式（B2）\nJe ne pense pas qu'il soit là.\n肯定形式用直陈式：Je pense qu'il est là."
+        },
+        {
+          "id": "1771892008662-i2k0037dlbj",
+          "front": "pollution 词族",
+          "back": "pollution n.f. 污染\npolluer v.t. 污染\npolluant n.m./adj. 污染物/污染的\n搭配：réduire / lutter contre la pollution"
+        },
+        {
+          "id": "1771892008662-3hexc8buk9k",
+          "front": "pour + inf. vs pour que + subj.",
+          "back": "主语相同 → pour + inf.\nJe travaille pour réussir.\n主语不同 → pour que + subjonctif\nJe travaille pour que tu puisses étudier."
+        },
+        {
+          "id": "1771892008662-mgr56o6lvxb",
+          "front": "le pour et le contre",
+          "back": "正反两面，利与弊\nêtre pour = 赞成\nêtre contre = 反对"
+        },
+        {
+          "id": "1771892008662-ltf1i1vu7e",
+          "front": "avoir raison ↔ avoir tort",
+          "back": "avoir raison = 有道理，是对的\navoir tort = 有错\n例：Tu as raison, c'est exactement ça."
+        },
+        {
+          "id": "1771892008662-k3djpz2vmh",
+          "front": "en raison de（B2）",
+          "back": "= 由于（正式书面语）\n例：En raison de la pluie, le match est annulé.\n比 à cause de 更高级"
+        },
+        {
+          "id": "1771892008662-oscuxru3duj",
+          "front": "trop vs très",
+          "back": "trop = 太，过量（常含负面）\ntrès = 非常（中性/正面）\nC'est très bon. ✓（好吃）\nC'est trop cher."
+        },
+        {
+          "id": "1771892008662-l0futiizol",
+          "front": "trop de + 名词",
+          "back": "trop de + 名词（不用 des/du/de la）\nIl y a trop de bruit. ✓\nIl y a trop du bruit. ✗\n同规则：beaucoup de, assez de"
+        },
+        {
+          "id": "1771892008662-rz2l1h6owm",
+          "front": "tous 发音规则",
+          "back": "形容词 tous：/tu/（s 不发音）→ tous les jours\n代词 tous：/tus/（s 发音）→ Ils sont tous là."
+        },
+        {
+          "id": "1771892008662-joii9xi8ski",
+          "front": "tout 的四种形式",
+          "back": "tout le pays（阳性单数）\ntoute la ville（阴性单数）\ntous les pays（阳性复数）\ntoutes les villes（阴性复数）"
+        },
+        {
+          "id": "1771892008662-mr34plz465f",
+          "front": "vivre 现在时变位",
+          "back": "je vis, tu vis, il vit\nnous vivons, vous vivez, ils vivent"
+        },
+        {
+          "id": "1771892008662-gyp35ae14v6",
+          "front": "vivre passé composé",
+          "back": "j'ai vécu（不规则过去分词！）\n不是 *vivé\n例：Il a vécu en Afrique pendant dix ans."
+        },
+        {
+          "id": "1771892008662-y6n78eyuov9",
+          "front": "vivre vs habiter",
+          "back": "vivre = 强调生活/存在状态\nhabiter = 强调居住地点\nJe vis en France. / J'habite à Lyon."
+        },
+        {
+          "id": "1771892008662-suh2o6ld45s",
+          "front": "voyager 拼写规则（nous）",
+          "back": "nous voyageons ✓（加 e 保持 /ʒ/ 发音）\nnous voyagons ✗\n所有 -ger 动词同理：mangeons, nageons"
+        },
+        {
+          "id": "1771892008662-xukj1216hj9",
+          "front": "voyage 词族",
+          "back": "voyager v. 旅行\nun voyage n.m. 一次旅行\nun voyageur / une voyageuse 旅行者\nfaire un voyage / partir en voyage"
         }
       ]
     },
@@ -6474,6 +7045,198 @@
             "préfère"
           ],
           "explanation": "综合考查本课全部词汇及三个动词的正确变位，注意 adorer/détester/préférer 各自对应 je 的变位形式。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est ta couleur _____ ?",
+          "options": [
+            "préféré",
+            "préférée",
+            "préférés",
+            "préférées"
+          ],
+          "correct": 1,
+          "explanation": "couleur 是阴性单数名词，形容词必须配阴性单数 préférée。",
+          "category": "性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ le café au thé.",
+          "options": [
+            "préfère",
+            "préfére",
+            "préféré",
+            "préfèrent"
+          ],
+          "correct": 0,
+          "explanation": "主语 je，préférer 现在时第一人称单数为 préfère（第二个 é 变 è）。préfére 是常见拼写陷阱，不存在这个形式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ rester à la maison ce soir.",
+          "options": [
+            "préfèrons",
+            "préférons",
+            "préferons",
+            "préférrons"
+          ],
+          "correct": 1,
+          "explanation": "nous 和 vous 保留原形词干中的 é，正确形式为 préférons。鞋底变音规则：只有 je/tu/il/ils 变 è。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ les films d'horreur, elle ne veut jamais en regarder.",
+          "options": [
+            "adore",
+            "préfère",
+            "déteste",
+            "aime"
+          ],
+          "correct": 2,
+          "explanation": "后半句\"她永远不想看\"说明态度是厌恶，只有 déteste 符合语境。",
+          "category": "词义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il cherche des informations _____ Internet.",
+          "options": [
+            "dans",
+            "à",
+            "sur",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "固定搭配：sur Internet（在网上）。不用 dans、à 或 en。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce soir, on va _____ théâtre voir une pièce de Molière.",
+          "options": [
+            "à le",
+            "au",
+            "à la",
+            "en"
+          ],
+          "correct": 1,
+          "explanation": "théâtre 是阳性名词，aller à + le = au。固定搭配 aller au théâtre。",
+          "category": "介词+冠词缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ voyager, c'est ma passion !",
+          "options": [
+            "adore",
+            "adorer",
+            "adoré",
+            "adorent"
+          ],
+          "correct": 0,
+          "explanation": "主语 j'（je），adorer 现在时第一人称 = adore。后面直接跟不定式 voyager，无需介词。",
+          "category": "动词变位+句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous devez _____ ce questionnaire avant la fin du cours.",
+          "options": [
+            "répondre",
+            "remplir",
+            "compléter à",
+            "remplir à"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配 remplir un questionnaire（填写问卷）。répondre 需要介词 à（répondre à un questionnaire），但此处宾语直接跟在动词后，所以 remplir 最合适。",
+          "category": "动词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le week-end, Marie aime aller en _____ avec ses amies pour danser.",
+          "options": [
+            "théâtre",
+            "discothèque",
+            "bibliothèque",
+            "cinéma"
+          ],
+          "correct": 1,
+          "explanation": "\"pour danser\"（为了跳舞）明确指向 discothèque（舞厅）。注意搭配：aller en discothèque（无冠词），而 aller au théâtre / au cinéma 用 au。",
+          "category": "词义+介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____, il fait très froid, il faut mettre un manteau.",
+          "options": [
+            "Hier",
+            "Demain",
+            "Aujourd'hui",
+            "Avant-hier"
+          ],
+          "correct": 2,
+          "explanation": "\"il fait très froid, il faut mettre un manteau\" 用现在时描述当下状况，只有 aujourd'hui（今天）与现在时搭配合理。",
+          "category": "时间副词+时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je préfère le thé _____ café.",
+          "options": [
+            "que le",
+            "du",
+            "de",
+            "au"
+          ],
+          "correct": 3,
+          "explanation": "préférer A à B（比起 B 更喜欢 A）。à + le café = au café。干扰项 que le 是比较级结构（plus... que），不用于 préférer。",
+          "category": "préférer 句型"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词是阴性（féminin）？",
+          "options": [
+            "activité",
+            "théâtre",
+            "discothèque",
+            "questionnaire"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "activité 以 -té 结尾 → 阴性；discothèque 以 -thèque 结尾 → 阴性。théâtre（阳性）、questionnaire（阳性）。",
+          "category": "阴阳性判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (préférer) les vacances à la montagne.",
+          "correct": [
+            "préfèrent"
+          ],
+          "explanation": "主语 ils，préférer 现在时第三人称复数 = préfèrent（è 变音 + -ent 词尾）。这是鞋底变音的四个变化人称之一。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul adore la musique. Sophie _____ la musique, elle trouve ça horrible.",
+          "options": [
+            "adore aussi",
+            "aime bien",
+            "préfère",
+            "déteste"
+          ],
+          "correct": 3,
+          "explanation": "\"elle trouve ça horrible\"（她觉得这很可怕）表明极度厌恶，与前句 adore 形成反义对比，只有 déteste 合理。",
+          "category": "语境推断+反义词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mon _____ (activité) _____ (préféré), c'est aller _____ théâtre.",
+          "correct": [
+            "activité",
+            "préférée",
+            "au"
+          ],
+          "explanation": "activité 是阴性名词，所以形容词用阴性 préférée；aller à + le théâtre = au théâtre。三个空环环相扣，考阴阳性配合+介词缩合。",
+          "category": "综合"
         }
       ],
       "practiceCount": 0,
@@ -6573,6 +7336,176 @@
           "id": "1771803825457-6ivgfvwtr2u",
           "front": "adorer / préférer / détester 的关键区别",
           "back": "préférer = 比较概念，需要参照对象（A à B）\nadorer / détester = 绝对评价，无需比较对象\nEx : J'adore le cinéma. ✅\nJe préfère le cinéma au théâtre. ✅"
+        },
+        {
+          "id": "1771891392242-x3l5cunkesp",
+          "front": "activité 的词性和阴阳性？",
+          "back": "n.f.（阴性名词）\n规律：-té 结尾 → 阴性"
+        },
+        {
+          "id": "1771891392242-g6006yplbvs",
+          "front": "une activité _____ (sportif)",
+          "back": "une activité sportive\n（阴性形式：sportif → sportive）"
+        },
+        {
+          "id": "1771891392242-5zdybd0bofh",
+          "front": "「做一项活动」法语怎么说？",
+          "back": "faire une activité\n（必须加冠词，不说 faire activité）"
+        },
+        {
+          "id": "1771891392242-q12qcsrqnfp",
+          "front": "adorer 的现在时变位（6人称）",
+          "back": "j'adore, tu adores, il adore\nnous adorons, vous adorez, ils adorent\n（第一组规则动词）"
+        },
+        {
+          "id": "1771891392242-vircqz90hcf",
+          "front": "adorer 的复合过去时（je）",
+          "back": "j'ai adoré\n（助动词 avoir + 过去分词 adoré）"
+        },
+        {
+          "id": "1771891392242-jrmabaje64",
+          "front": "adorer 后面跟动词用什么介词？",
+          "back": "无介词，直接 + 不定式\nJ'adore voyager."
+        },
+        {
+          "id": "1771891392242-3r6hdwhts9l",
+          "front": "喜欢程度排序（由弱到强）",
+          "back": "aimer → aimer bien → aimer beaucoup → adorer"
+        },
+        {
+          "id": "1771891392242-v7q4daovjym",
+          "front": "aujourd'hui 的发音？",
+          "back": "/o.ʒuʁ.dɥi/\n三个音节，au=/o/，hui 含半元音 /ɥ/"
+        },
+        {
+          "id": "1771891392242-cwqx2dc5ezu",
+          "front": "「从今天起」法语怎么说？",
+          "back": "à partir d'aujourd'hui"
+        },
+        {
+          "id": "1771891392242-lu6y86oppu",
+          "front": "aujourd'hui 拼写注意什么？",
+          "back": "中间有撇号（apostrophe）\n不可写成 aujourdhui"
+        },
+        {
+          "id": "1771891392242-pzj56xwbwte",
+          "front": "détester 后面跟动词用什么介词？",
+          "back": "无介词，直接 + 不定式\nElle déteste se lever tôt."
+        },
+        {
+          "id": "1771891392242-7u4053694ph",
+          "front": "adorer 的反义词是？",
+          "back": "détester（厌恶，憎恨）\n更极端：haïr（恨，偏文学）"
+        },
+        {
+          "id": "1771891392242-8hgjg7roz7a",
+          "front": "discothèque 的阴阳性？",
+          "back": "n.f.（阴性名词）\n规律：-thèque 结尾 → 阴性"
+        },
+        {
+          "id": "1771891392242-62uhrgbwya3",
+          "front": "discothèque 的口语替换词？",
+          "back": "boîte de nuit / boîte / club\n（TCF 听力中常做同义替换）"
+        },
+        {
+          "id": "1771891392242-eakcussnz6g",
+          "front": "「在网上」法语怎么说？",
+          "back": "sur Internet\n（不用 dans / à / en）"
+        },
+        {
+          "id": "1771891392242-37wbdrmchpd",
+          "front": "Internet 法语发音？",
+          "back": "/ɛ̃.tɛʁ.nɛt/\nIn- = /ɛ̃/（鼻化元音），不读英语 /ɪn/"
+        },
+        {
+          "id": "1771891392242-7o07bpyoonq",
+          "front": "préféré(e) 的四种性数形式？",
+          "back": "阳单 préféré\n阴单 préférée\n阳复 préférés\n阴复 préférées"
+        },
+        {
+          "id": "1771891392242-h4k7rlegfz",
+          "front": "mon film _____ (préféré)",
+          "back": "mon film préféré\n（film = 阳性，用阳性形式）"
+        },
+        {
+          "id": "1771891392242-owv3osotovs",
+          "front": "ma chanson _____ (préféré)",
+          "back": "ma chanson préférée\n（chanson = 阴性，加 -e）"
+        },
+        {
+          "id": "1771891392242-exi2gz2jda7",
+          "front": "préférer 现在时 je 的变位？",
+          "back": "je préfère\n（第二个 é 变 è，鞋底变音）"
+        },
+        {
+          "id": "1771891392242-r1tg38abmb",
+          "front": "préférer 现在时 nous 的变位？",
+          "back": "nous préférons\n（nous/vous 保留 é，不变 è）"
+        },
+        {
+          "id": "1771891392242-5mhwj5p1np6",
+          "front": "préférer 鞋底变音规则？",
+          "back": "je/tu/il/ils → é 变 è\nnous/vous → 保留 é\n同类：espérer, répéter, compléter"
+        },
+        {
+          "id": "1771891392242-jl4jh3nzd2",
+          "front": "「比起咖啡我更喜欢茶」",
+          "back": "Je préfère le thé au café.\n句型：préférer A à B\n（à + le = au）"
+        },
+        {
+          "id": "1771891392242-odcchxwo67",
+          "front": "préférer A à B 的介词是？",
+          "back": "à\n不是 que，不是 de\n干扰项：plus... que 是比较级，不用于 préférer"
+        },
+        {
+          "id": "1771891392242-aeh92odgeiw",
+          "front": "「填写问卷」法语怎么说？",
+          "back": "remplir un questionnaire\n（remplir 是最标准搭配动词）"
+        },
+        {
+          "id": "1771891392242-4bmu3i3mx6c",
+          "front": "questionnaire 的阴阳性？",
+          "back": "n.m.（阳性名词）\n注意：question 是阴性，但 questionnaire 是阳性！"
+        },
+        {
+          "id": "1771891392242-tta4n88l8hn",
+          "front": "sexe 在 TCF 中通常出现在什么场景？",
+          "back": "行政/问卷/表格场景\nnom, prénom, âge, sexe, nationalité...\n含义 = 性别（阳性名词）"
+        },
+        {
+          "id": "1771891392242-hs1rqei233m",
+          "front": "théâtre 的发音？",
+          "back": "/te.ɑtʁ/\nth = /t/（法语 th 永远读 /t/）\n-â- 长音，两个音节"
+        },
+        {
+          "id": "1771891392242-wcy4zfu3lh",
+          "front": "「去剧场」法语怎么说？",
+          "back": "aller au théâtre\n（à + le = au，不说 dans le théâtre）"
+        },
+        {
+          "id": "1771891392242-h6m4gkc5gt",
+          "front": "「演戏 / 学戏剧」法语怎么说？",
+          "back": "faire du théâtre\n（du = 部分冠词 de + le）"
+        },
+        {
+          "id": "1771891392242-l72v0l56h6h",
+          "front": "一部戏剧/话剧怎么说？",
+          "back": "une pièce de théâtre"
+        },
+        {
+          "id": "1771891392242-pgp9ef56vg",
+          "front": "四个情感动词共同语法特征？",
+          "back": "adorer / aimer / préférer / détester\n都可：+ 定冠词名词 / + 直接不定式\n（无需介词）"
+        },
+        {
+          "id": "1771891392242-ldsh4oq01pp",
+          "front": "-té 结尾的名词是什么性？",
+          "back": "阴性\nactivité, liberté, société, qualité..."
+        },
+        {
+          "id": "1771891392242-1t7jy5m5vqh",
+          "front": "-thèque 结尾的名词是什么性？",
+          "back": "阴性\ndiscothèque, bibliothèque, médiathèque..."
         }
       ]
     },
@@ -26168,11 +27101,11 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "todayCount": 0,
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-23T20:23:26.245Z",
+  "exportedAt": "2026-02-24T00:13:32.483Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
