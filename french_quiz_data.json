@@ -1,6 +1,349 @@
 {
   "savedSets": [
     {
+      "id": 1771978340065,
+      "name": "法语代词 y 和 en",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-25T00:12:20.065Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle habite à Lyon depuis 5 ans. → Elle _____ habite depuis 5 ans.",
+          "options": [
+            "en",
+            "y",
+            "la",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "à Lyon 是地点补语，用 y 替代 à + 地点。",
+          "category": "y 替代地点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as besoin de ce livre ? — Oui, j'_____ ai besoin.",
+          "options": [
+            "y",
+            "le",
+            "en",
+            "lui"
+          ],
+          "correct": 2,
+          "explanation": "avoir besoin DE qqch → en 替代 de + 事物。",
+          "category": "en 替代 de+事物"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a combien d'étudiants ? — Il _____ a vingt.",
+          "options": [
+            "y en",
+            "en y",
+            "les y",
+            "y les"
+          ],
+          "correct": 0,
+          "explanation": "il y a + 数量名词 → il y en a + 数词。顺序固定：y 在 en 前面。",
+          "category": "y + en 共存"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous pensez à votre avenir ? — Oui, nous _____ pensons souvent.",
+          "options": [
+            "en",
+            "y",
+            "le",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "penser À qqch（事物）→ y。注意：penser à qqn（人）则用 à + 重读代词。",
+          "category": "y 替代 à+事物"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a acheté des pommes. Elle _____ a acheté cinq.",
+          "options": [
+            "y",
+            "les",
+            "en",
+            "leur"
+          ],
+          "correct": 2,
+          "explanation": "des pommes（部分冠词+名词）→ en 替代，数量 cinq 保留在句尾。注意过去分词不配合。",
+          "category": "en 替代数量"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Va à la boulangerie ! → -y !",
+          "options": [
+            "Va",
+            "Vas",
+            "Alle",
+            "Allez"
+          ],
+          "correct": 1,
+          "explanation": "aller 命令式 tu 形式本来是 va，但在 vas-y 中加 s 便于发音（liaison）。",
+          "category": "命令式 + y"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中的代词使用是正确的？",
+          "options": [
+            "Je pense à Marie. → J'y pense.",
+            "Tu parles de ton voyage ? → Tu en parles ?",
+            "Il va au cinéma. → Il y va.",
+            "Elle a peur de son père. → Elle en a peur."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "A 错：penser à + 人 → penser à elle，不用 y。B 正确：parler de + 事物 → en。C 正确：à + 地点 → y。D 错：avoir peur de + 人 → avoir peur de lui，不用 en。",
+          "category": "指人 vs 指物陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Des erreurs ? Non, il n' a pas dans ce texte.",
+          "correct": [
+            "y en"
+          ],
+          "explanation": "il y a 的否定 + en 替代 des erreurs → il n'y en a pas。代词顺序：y 在 en 前。",
+          "category": "y + en + 否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu viens de la gare ? — Oui, j'_____ viens.",
+          "options": [
+            "y",
+            "en",
+            "la",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "venir DE + 地点（来源）→ en 替代。注意区分：去某地用 y（aller à），从某地来用 en（venir de）。",
+          "category": "en 替代来源地点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'intéresse à la peinture. → Elle s'_____ intéresse.",
+          "options": [
+            "en",
+            "y",
+            "la",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "s'intéresser À qqch → y。代词放在代动词的自反代词后、变位动词前。",
+          "category": "y + 代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Prends des fruits ! → -en !",
+          "options": [
+            "Prend",
+            "Prends",
+            "Prenez",
+            "Prens"
+          ],
+          "correct": 1,
+          "explanation": "prendre 命令式 tu 形式 = prends（保留 s），后接 en 用连字符：Prends-en ! 注意：只有 -er 动词才需要额外加 s（如 manges-en）。",
+          "category": "命令式 + en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne _____ va pas ! C'est dangereux.",
+          "options": [
+            "t'y",
+            "t'en",
+            "te y",
+            "te en"
+          ],
+          "correct": 0,
+          "explanation": "s'en aller = 走开，但此处是 aller à un endroit → y。否定命令式：Ne t'y va pas 不对——实际上 N'y va pas ! 但若是代词式动词 s'y rendre：Ne t'y rends pas。本题考的是 ne + y + va + pas 的语序。正确答案是 t'y（否定命令式中 te 缩写为 t'，y 紧随其后）。",
+          "category": "否定命令式语序"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Combien de frères as-tu ? — J' ai trois.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "数量结构：数词 trois + 名词 frères → en 替代名词，数词保留句尾。J'en ai trois.",
+          "category": "en + 数量残留"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Tu vas souvent à la bibliothèque ?\n— Oui, j'_____ vais tous les jours. Et toi, tu as des livres français ?\n— Oui, j'_____ ai beaucoup. Je n'ai plus besoin d'_____ emprunter.",
+          "correct": [
+            "y",
+            "en",
+            "en"
+          ],
+          "explanation": "第一空：à la bibliothèque（地点）→ y。第二空：des livres français（不定冠词+名词）→ en，数量副词 beaucoup 保留。第三空：emprunter des livres → en emprunter，en 放在不定式前。",
+          "category": "y/en 综合语境"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的过去分词处理是正确的？",
+          "options": [
+            "Des lettres ? Il en a écrit trois.",
+            "Les lettres ? Il les a écrites.",
+            "Des gâteaux ? Elle en a mangées.",
+            "La tarte ? Elle l'a mangée."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A 正确：en 作直接宾语时，过去分词不配合 → écrit。B 正确：les（阴性复数）前置直接宾语，过去分词配合 → écrites。C 错误：en 不触发配合，应该是 mangé 而非 mangées。D 正确：l'= la tarte（阴性单数），过去分词配合 → mangée。",
+          "category": "en vs les 过去分词配合"
+        },
+        {
+          "front": "y 替代什么？",
+          "back": "替代 à / dans / en / sur / chez + 地点或事物（非人）\n例：Tu vas à Paris ? → Tu y vas ?"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1uOo-myqpj2E33tX0yQtF9pjq6jfXgZsTpS-u_QUCh8I/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1771978427256-ma1j9bh92q9",
+          "front": "y 替代什么？",
+          "back": "替代 à / dans / en / sur / chez + 地点或事物（非人）\n例：Tu vas à Paris ? → Tu y vas ?"
+        },
+        {
+          "id": "1771978427256-lchh5dp1yt",
+          "front": "en 替代什么？",
+          "back": "替代 de + 事物（非人）；或 不定冠词/部分冠词/数量词 + 名词\n例：Tu veux du café ? → Tu en veux ?"
+        },
+        {
+          "id": "1771978427256-01zfph27k9pc",
+          "front": "penser à + 事物 → 用什么代词？",
+          "back": "y\n例：Je pense à mon examen. → J'y pense."
+        },
+        {
+          "id": "1771978427256-80frnjwh18v",
+          "front": "penser à + 人 → 用什么代词？",
+          "back": "不用 y！用 à + 重读代词\n例：Je pense à Marie. → Je pense à elle."
+        },
+        {
+          "id": "1771978427256-g7vapbazpc",
+          "front": "avoir besoin de + 事物 → 用什么代词？",
+          "back": "en\n例：J'ai besoin d'argent. → J'en ai besoin."
+        },
+        {
+          "id": "1771978427256-0vr224q5dwac",
+          "front": "parler de + 人 → 用什么代词？",
+          "back": "不用 en！用 de + 重读代词\n例：Je parle de Paul. → Je parle de lui."
+        },
+        {
+          "id": "1771978427256-jo1usct6e4b",
+          "front": "en 替代数量结构时，数量词怎么处理？",
+          "back": "en 吃掉名词，数量词保留在句尾\n例：Il a trois sœurs. → Il en a trois."
+        },
+        {
+          "id": "1771978427256-hni84qhzodn",
+          "front": "J'ai des amis. 用 en 改写",
+          "back": "J'en ai.\n（des 消失，无数词则不保留任何东西）"
+        },
+        {
+          "id": "1771978427256-6xnho95qq2m",
+          "front": "y 在句中放在哪里？（肯定句）",
+          "back": "放在变位动词前面\n例：J'y vais. / J'y suis allé."
+        },
+        {
+          "id": "1771978427256-jcmk0rer4f",
+          "front": "y 在不定式结构中放在哪里？",
+          "back": "放在不定式前面\n例：Je vais y aller."
+        },
+        {
+          "id": "1771978427256-g6ktjiox1xd",
+          "front": "vas-y 为什么有 s？",
+          "back": "aller 命令式 tu 形式本来是 va，加 s 是为了与 y 之间的 liaison 发音顺畅"
+        },
+        {
+          "id": "1771978427256-bflnxjnxzo6",
+          "front": "Prends-en 还是 Prend-en？",
+          "back": "Prends-en ✅\nprendre 命令式 tu = prends（保留 s）\n只有 -er 动词才需要额外加 s（如 manges-en）"
+        },
+        {
+          "id": "1771978427256-66m3nyu30ms",
+          "front": "否定命令式中 y/en 放在哪？",
+          "back": "放在动词前面（和普通否定句一样）\n例：N'y va pas ! / N'en mange pas !"
+        },
+        {
+          "id": "1771978427256-4zav5b0mbnj",
+          "front": "y 和 en 同时出现，顺序是？",
+          "back": "y 在 en 前面\n例：Il y a des erreurs. → Il y en a."
+        },
+        {
+          "id": "1771978427256-3km7mkulj34",
+          "front": "法语代词完整排列顺序",
+          "back": "me/te/se/nous/vous → le/la/les → lui/leur → y → en → 动词"
+        },
+        {
+          "id": "1771978427256-89jfrz4thsv",
+          "front": "venir de + 地点 → 用什么代词？",
+          "back": "en（表示“从那里”）\n例：Tu viens de Paris ? → Tu en viens ?"
+        },
+        {
+          "id": "1771978427256-48vtonjyom",
+          "front": "aller à + 地点 → 用什么代词？",
+          "back": "y（表示“去那里”）\n例：Tu vas à Paris ? → Tu y vas ?"
+        },
+        {
+          "id": "1771978427256-6u9wa2uebif",
+          "front": "en 作直接宾语时，过去分词配合吗？",
+          "back": "不配合！\n例：Des pommes ? J'en ai mangé. ✅\n（不写 mangées）"
+        },
+        {
+          "id": "1771978427256-54za6cjlqc5",
+          "front": "les 作直接宾语时，过去分词配合吗？",
+          "back": "配合！\n例：Les pommes ? Je les ai mangées. ✅"
+        },
+        {
+          "id": "1771978427256-yfcz7h5vg5a",
+          "front": "il y a + 数量名词，用 en 改写",
+          "back": "il y en a + 数词\n例：Il y a 20 étudiants. → Il y en a 20."
+        },
+        {
+          "id": "1771978427256-qizdj8shkc",
+          "front": "s'intéresser à qqch → 代词改写",
+          "back": "s'y intéresser\n例：Elle s'intéresse à la musique. → Elle s'y intéresse."
+        },
+        {
+          "id": "1771978427256-ttkv2dvcf7e",
+          "front": "固定表达：ça y est",
+          "back": "意思：好了、搞定了\n例：Ça y est, j'ai fini !"
+        },
+        {
+          "id": "1771978427256-7m5nyohjh0i",
+          "front": "固定表达：s'en aller",
+          "back": "意思：走开、离开\n例：Je m'en vais. = 我走了。"
+        },
+        {
+          "id": "1771978427256-fwb0wzq4uv7",
+          "front": "固定表达：en avoir marre",
+          "back": "意思：受够了\n例：J'en ai marre de ce bruit !"
+        },
+        {
+          "id": "1771978427256-pkjoahixbm",
+          "front": "固定表达：ne t'en fais pas",
+          "back": "意思：别担心\n例：Ne t'en fais pas, tout ira bien."
+        },
+        {
+          "id": "1771978427256-xgp9xedpe7l",
+          "front": "⚠️ 指人 vs 指物 速记口诀",
+          "back": "à + 事物 → y\nà + 人 → à lui/elle/eux/elles\nde + 事物 → en\nde + 人 → de lui/elle/eux/elles"
+        }
+      ]
+    },
+    {
       "id": 1771977845060,
       "name": "Unit 1 PRÉSENT 第三组：三词根RECEVOIR / (S')APERCEVOIR / (S')ÉMOUVOIR",
       "folderId": "1771907837913",
@@ -44838,6 +45181,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-25T00:09:58.696Z",
+  "exportedAt": "2026-02-25T00:15:50.983Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }

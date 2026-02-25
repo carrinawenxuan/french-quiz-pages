@@ -4469,6 +4469,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast(appendParseError ? 'JSON 解析失败：' + appendParseError : '未能解析出题目，请检查格式');
         return;
       }
+      if (looksLikeFlashcardImportArray(parsed)) {
+        showToast('检测到这是记忆训练卡的 JSON，请到该习题集的「记忆训练」或卡片组的「从 JSON 粘贴导入」中导入，不要在此处追加题目。');
+        return;
+      }
       const sets = getSavedSets();
       const set = sets.find(s => String(s.id) === String(_editingSetId));
       if (!set || !Array.isArray(set.questions)) return;
