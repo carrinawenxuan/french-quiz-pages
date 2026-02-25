@@ -18763,6 +18763,110 @@
           "correct": 1,
           "explanation": "charges comprises = 包含物业费/杂费（水费、公共区域维护费、垃圾费等）。这是租房场景必知表达。A（包含家具）= meublé。C 和 D 无关。TCF 常考生活场景词汇。",
           "category": "听力·生活词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a décidé de ______ l’entreprise après le scandale.",
+          "options": [
+            "partir",
+            "partir de",
+            "quitter",
+            "sortir"
+          ],
+          "correct": 2,
+          "explanation": "décider de + infinitif；l’entreprise 是直接宾语。quitter 是及物动词，可直接接宾语。partir 不及物，需介词；partir de 结构不符；sortir 语义不当。",
+          "category": "动词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a été ______ par son mari après dix ans de mariage.",
+          "options": [
+            "partie",
+            "quittée",
+            "sortie",
+            "laissée"
+          ],
+          "correct": 1,
+          "explanation": "被动结构 a été + 过去分词。只有 quitter 是及物动词，可构成被动。partir 不及物；sortir 不合语义；laisser 语义不同。",
+          "category": "被动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le ministre a annoncé qu’il allait ______ le pouvoir avant la fin de l’année.",
+          "options": [
+            "partir",
+            "quitter",
+            "sortir",
+            "partir de"
+          ],
+          "correct": 1,
+          "explanation": "固定表达：quitter le pouvoir。partir 不可直接接 le pouvoir；sortir 不合语境；partir de 结构错误。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ Paris demain matin à 6h.",
+          "options": [
+            "quittons",
+            "partons",
+            "partons de",
+            "quittons de"
+          ],
+          "correct": 0,
+          "explanation": "Paris 是直接宾语，无介词。quitter + 地点。partir 需 de；quittons de 错误结构。",
+          "category": "动词及物性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après la réunion, il est ______ sans dire un mot.",
+          "options": [
+            "quitté",
+            "parti",
+            "quitté de",
+            "quittant"
+          ],
+          "correct": 1,
+          "explanation": "结构 être + 过去分词（表状态）。无宾语，必须用不及物动词 partir。quitter 需要宾语。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a ______ sa femme pour une collègue plus jeune.",
+          "options": [
+            "parti",
+            "quitté",
+            "parti de",
+            "sorti"
+          ],
+          "correct": 1,
+          "explanation": "sa femme 是直接宾语，表示关系断裂，必须用及物动词 quitter。partir 不可直接接宾语。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le train va ______ la gare dans cinq minutes.",
+          "options": [
+            "quitter",
+            "partir",
+            "partir de",
+            "quitter de"
+          ],
+          "correct": 0,
+          "explanation": "la gare 是直接宾语。quitter + 地点。partir 需 de；quitter de 错误结构。",
+          "category": "动词及物性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a été difficile pour elle de ______ la scène après trente ans de carrière.",
+          "options": [
+            "partir",
+            "quitter",
+            "partir de",
+            "sortir"
+          ],
+          "correct": 1,
+          "explanation": "固定表达：quitter la scène（退出舞台）。la scène 为直接宾语。partir 不及物。",
+          "category": "固定表达"
         }
       ],
       "practiceCount": 0,
@@ -45181,6 +45285,6 @@
     "lastDate": "2026-02-10",
     "streak": 2
   },
-  "exportedAt": "2026-02-25T00:15:50.983Z",
+  "exportedAt": "2026-02-25T01:37:10.279Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
