@@ -2406,6 +2406,7 @@
         <h2>数据同步</h2>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-upload-github" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">📤 上传到 GitHub（手机→云端）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-generate-sync-text" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6); margin-top: 0.75rem;">📱 生成同步文本（手机→电脑）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-import-sync-text" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">💻 从同步文本导入（电脑端）</button>
 
@@ -2413,7 +2414,7 @@
         <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
         <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
           <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>（含习题集与各集记忆卡）。手机要看到同一份习题集与记忆卡：保存后执行下方命令推送，手机打开本页点「<strong>从云端加载</strong>」即可同步。</p>
-          <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件，网页<strong>没有上传/推送功能</strong>，访客无法改写你的数据。只有你自己（或你授予写权限的 GitHub 协作者）能在本机执行脚本推送到仓库。</p>
+          <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件。手机可用「<strong>上传到 GitHub</strong>」把本地数据（含错题与备注）推送到同一仓库，电脑端再「从云端加载」即可同步。</p>
           <div class="storage-grid">
             <button type="button" class="storage-card" id="btn-open-folder">
               <span class="title">打开并加载</span>
@@ -2884,6 +2885,34 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <!-- GitHub Upload Modal (手机上传到云端) -->
+  <div class="sync-text-modal-overlay" id="github-upload-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="github-upload-modal-title" style="display: none;">
+    <div class="sync-text-modal">
+      <h3 id="github-upload-modal-title">上传到 GitHub（手机→云端）</h3>
+      <p class="sync-text-desc">将当前数据（习题集、错题本、备注等）推送到 GitHub 仓库，电脑端点「从云端加载」即可同步。需先在 GitHub 创建 Personal Access Token（勾选 repo 权限）。</p>
+      <div class="github-upload-form">
+        <label for="github-upload-token">GitHub Token（必填）</label>
+        <input type="password" id="github-upload-token" autocomplete="off" placeholder="ghp_xxxx...（已保存时可留空直接上传）" style="width:100%;padding:0.5rem 0.75rem;margin-top:0.25rem;margin-bottom:0.5rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);box-sizing:border-box;" />
+        <label style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.75rem;">
+          <input type="checkbox" id="github-upload-remember-token" />
+          <span>记住 Token（下次无需输入，仅存于本机）</span>
+        </label>
+        <label for="github-upload-repo">仓库（owner/repo，如 username/french-quiz-pages）</label>
+        <input type="text" id="github-upload-repo" autocomplete="off" placeholder="username/french-quiz-pages" style="width:100%;padding:0.5rem 0.75rem;margin-top:0.25rem;margin-bottom:0.5rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);box-sizing:border-box;" />
+        <label for="github-upload-path">文件路径（仓库内）</label>
+        <input type="text" id="github-upload-path" value="french_quiz_data.json" style="width:100%;padding:0.5rem 0.75rem;margin-top:0.25rem;margin-bottom:0.5rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);box-sizing:border-box;" />
+        <label for="github-upload-branch">分支</label>
+        <input type="text" id="github-upload-branch" value="main" style="width:100%;padding:0.5rem 0.75rem;margin-top:0.25rem;margin-bottom:0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);box-sizing:border-box;" />
+      </div>
+      <p class="sync-text-warning" style="margin-bottom:1rem;font-size:0.85rem;color:var(--text-muted);">Token 仅用于本次上传；勾选「记住」后保存在本机，他人无法通过网页访问你的仓库。</p>
+      <div class="sync-text-actions" style="flex-wrap:wrap;gap:0.5rem;">
+        <button type="button" class="btn btn-primary" id="btn-github-upload-do">上传</button>
+        <button type="button" class="btn btn-secondary" id="btn-github-upload-clear-token">清除已保存的 Token</button>
+        <button type="button" class="btn btn-secondary" id="btn-github-upload-close">关闭</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     /* =============================================================================
      * 架构说明（单文件应用，按逻辑分层，便于维护）
@@ -2911,6 +2940,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const QUESTION_NOTES_KEY = 'french_quiz_question_notes';
     const THEME_KEY = 'french_quiz_theme';
     const DATA_FILE_NAME = 'french_quiz_data.json';
+    const GITHUB_TOKEN_KEY = 'french_quiz_github_token';
     const IMPORT_PIN_HASH_KEY = 'french_quiz_import_pin_hash';
     const IMPORT_ALLOWED_FINGERPRINT_KEY = 'french_quiz_import_allowed_device';
     const RECENT_SESSIONS_MAX = 10;
@@ -3545,6 +3575,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         questionNotes: questionNotes,
         timerSeconds: timerEl ? Math.max(0, parseInt(timerEl.value, 10) || 10) : 10,
         dailyStats: getDailyStats(),
+        flashcardDecks: getFlashcardDecks(),
         exportedAt: new Date().toISOString()
       };
       const fp = getImportAllowedFingerprint();
@@ -3599,6 +3630,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, String(safe.importAllowedDeviceFingerprint));
       } else {
         localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
+      }
+      if (safe.flashcardDecks != null && Array.isArray(safe.flashcardDecks)) {
+        _flashcardDecksCache = safe.flashcardDecks;
+        if (_idb) idbSet('flashcardDecks', _flashcardDecksCache).catch(function(e) { console.error('[loadDataFromObject] IDB flashcardDecks error', e); });
+        else try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
       }
       updateImportLockUI();
       updateDeviceBindUI();
@@ -3656,6 +3692,46 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         console.error('[loadFromCloud]', e);
       }
       if (btn) { btn.disabled = false; btn.textContent = '从云端加载（手机同步习题集）'; }
+    }
+    function getGitHubRepoFromLocation() {
+      if (typeof location === 'undefined' || !location.hostname || !location.pathname) return null;
+      const host = location.hostname;
+      const m = host.match(/^([^.]+)\.github\.io$/i);
+      if (!m) return null;
+      const owner = m[1];
+      const pathSegs = location.pathname.split('/').filter(Boolean);
+      const repo = pathSegs[0] || 'french-quiz-pages';
+      return owner + '/' + repo;
+    }
+    async function uploadToGitHub(token, ownerRepo, filePath, branch) {
+      const [owner, repo] = ownerRepo.split('/').map(s => s.trim());
+      if (!owner || !repo || !token || !filePath) throw new Error('请填写 Token、仓库（owner/repo）和文件路径');
+      const pathEnc = encodeURIComponent(filePath.replace(/^\//, ''));
+      const apiBase = 'https://api.github.com';
+      let sha = null;
+      try {
+        const getRes = await fetch(apiBase + '/repos/' + owner + '/' + repo + '/contents/' + pathEnc + '?ref=' + encodeURIComponent(branch || 'main'), {
+          headers: { 'Accept': 'application/vnd.github.v3+json', 'Authorization': 'Bearer ' + token }
+        });
+        if (getRes.ok) {
+          const getJson = await getRes.json();
+          sha = getJson.sha || null;
+        }
+      } catch (_) {}
+      const content = JSON.stringify(getDataForExport(), null, 2);
+      const base64 = btoa(unescape(encodeURIComponent(content)));
+      const body = { message: 'french-quiz: sync from device ' + new Date().toISOString().slice(0, 19), content: base64 };
+      if (sha) body.sha = sha;
+      const putRes = await fetch(apiBase + '/repos/' + owner + '/' + repo + '/contents/' + pathEnc, {
+        method: 'PUT',
+        headers: { 'Accept': 'application/vnd.github.v3+json', 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      if (!putRes.ok) {
+        const errJson = await putRes.json().catch(() => ({}));
+        const msg = (errJson && errJson.message) || putRes.statusText || '请求失败';
+        throw new Error(msg + (putRes.status === 401 ? '（Token 无效或已过期）' : putRes.status === 404 ? '（仓库或路径不存在）' : ''));
+      }
     }
     async function pickFolderAndLoad() {
       if (!('showDirectoryPicker' in window)) {
@@ -7058,6 +7134,60 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     })();
     document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
+    function openGitHubUploadModal() {
+      const repoEl = document.getElementById('github-upload-repo');
+      const tokenEl = document.getElementById('github-upload-token');
+      const pathEl = document.getElementById('github-upload-path');
+      const branchEl = document.getElementById('github-upload-branch');
+      if (repoEl && !repoEl.value.trim()) {
+        const inferred = getGitHubRepoFromLocation();
+        if (inferred) repoEl.value = inferred;
+      }
+      if (pathEl && !pathEl.value.trim()) pathEl.value = DATA_FILE_NAME;
+      if (branchEl && !branchEl.value.trim()) branchEl.value = 'main';
+      if (tokenEl) tokenEl.value = '';
+      const overlay = document.getElementById('github-upload-modal-overlay');
+      if (overlay) { overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
+    }
+    function closeGitHubUploadModal() {
+      const overlay = document.getElementById('github-upload-modal-overlay');
+      if (overlay) { overlay.style.display = 'none'; clearModalFocusTrap(); }
+    }
+    document.getElementById('btn-upload-github').addEventListener('click', openGitHubUploadModal);
+    document.getElementById('btn-github-upload-close').addEventListener('click', closeGitHubUploadModal);
+    document.getElementById('btn-github-upload-do').addEventListener('click', async () => {
+      const tokenEl = document.getElementById('github-upload-token');
+      const tokenInput = (tokenEl && tokenEl.value ? tokenEl.value.trim() : '') || '';
+      const token = tokenInput || (localStorage.getItem(GITHUB_TOKEN_KEY) || '').trim();
+      if (!token) { showToast('请填写 GitHub Token'); return; }
+      const repoEl = document.getElementById('github-upload-repo');
+      const pathEl = document.getElementById('github-upload-path');
+      const branchEl = document.getElementById('github-upload-branch');
+      const ownerRepo = (repoEl && repoEl.value ? repoEl.value.trim() : '') || '';
+      const filePath = (pathEl && pathEl.value ? pathEl.value.trim() : '') || DATA_FILE_NAME;
+      const branch = (branchEl && branchEl.value ? branchEl.value.trim() : '') || 'main';
+      const rememberEl = document.getElementById('github-upload-remember-token');
+      if (rememberEl && rememberEl.checked && tokenInput) try { localStorage.setItem(GITHUB_TOKEN_KEY, tokenInput); } catch (_) {}
+      const btn = document.getElementById('btn-github-upload-do');
+      if (btn) { btn.disabled = true; btn.textContent = '上传中…'; }
+      try {
+        await uploadToGitHub(token, ownerRepo, filePath, branch);
+        closeGitHubUploadModal();
+        showToast('已上传到 GitHub，电脑端可「从云端加载」同步');
+      } catch (e) {
+        showToast('上传失败：' + (e && e.message ? e.message : String(e)));
+      }
+      if (btn) { btn.disabled = false; btn.textContent = '上传'; }
+    });
+    document.getElementById('btn-github-upload-clear-token').addEventListener('click', () => {
+      try { localStorage.removeItem(GITHUB_TOKEN_KEY); } catch (_) {}
+      const tokenEl = document.getElementById('github-upload-token');
+      if (tokenEl) tokenEl.value = '';
+      showToast('已清除已保存的 Token');
+    });
+    document.getElementById('github-upload-modal-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'github-upload-modal-overlay') closeGitHubUploadModal();
+    });
     document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
     document.getElementById('btn-save-to-folder').addEventListener('click', saveToProjectFolder);
     document.getElementById('btn-export-data').addEventListener('click', saveToProjectFolder);
