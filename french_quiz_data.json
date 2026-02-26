@@ -15336,10 +15336,8 @@
       "questions": [
         {
           "type": "fill_blank",
-          "stem": "Nous _____ avons froid.",
-          "correct": [
-            "Nous"
-          ],
+          "stem": "_____ avons froid.",
+          "correct": "Nous",
           "explanation": "原题 1-1：根据动词变位 avons 判定主语为第一人称复数 nous。",
           "category": "动词变位"
         },
@@ -15358,10 +15356,8 @@
         },
         {
           "type": "fill_blank",
-          "stem": "J' _____ ai raison.",
-          "correct": [
-            "J'"
-          ],
+          "stem": "_____ ai raison.",
+          "correct": "J’",
           "explanation": "原题 1-2：动词 ai 是 avoir 的第一人称单数，由于以元音开头，je 必须省音变为 j'。",
           "category": "动词变位"
         },
@@ -15602,15 +15598,6 @@
         },
         {
           "type": "fill_blank",
-          "stem": "Vous n'_____ pas de stylos ?",
-          "correct": [
-            "avez"
-          ],
-          "explanation": "TCF 陷阱：考察否定句中冠词的变化，但动词变位 vous 依然对应 avez 不变。",
-          "category": "动词变位"
-        },
-        {
-          "type": "fill_blank",
           "stem": "Ils n'_____ pas le temps.",
           "correct": [
             "ont"
@@ -15706,16 +15693,6 @@
           ],
           "explanation": "TCF 陷阱：否定句中 des 变成 de (遇元音 d')。ils 对应 ont。",
           "category": "动词变位"
-        },
-        {
-          "type": "short_answer",
-          "stem": "C'est leur anniversaire : ils _____ (使用 avoir + 年龄/饥饿等短语)",
-          "correct": [
-            "ont vingt ans",
-            "ont 20 ans"
-          ],
-          "explanation": "原题 3-1：生日通常提到年龄，表达年龄用 avoir + 数字 + ans。ils 对应 ont。",
-          "category": "固定搭配"
         },
         {
           "type": "fill_blank",
@@ -16284,8 +16261,8 @@
           "category": "动词辨析"
         }
       ],
-      "practiceCount": 0,
-      "lastPracticedAt": null,
+      "practiceCount": 1,
+      "lastPracticedAt": "2026-02-25T19:13:14.583Z",
       "reviewTexts": [],
       "reviewLinks": [
         "https://docs.google.com/document/d/1gYxTOvdslOQGEzQJ1RJx3Y6XGbzJaFlz7LSrJCI2dmU/edit?tab=t.0"
@@ -16432,7 +16409,8 @@
           "front": "C'est vs Il/Elle est 怎么区分？",
           "back": "C'est + 限定词 + 名词：C'est une fille.\nIl/Elle est + 形容词/职业（无冠词）：Elle est grande."
         }
-      ]
+      ],
+      "sequentialNextIndex": 20
     },
     {
       "id": 1771900370558,
@@ -45273,18 +45251,136 @@
       "name": "Conjugaison训练"
     }
   ],
-  "wrongBook": [],
+  "wrongBook": [
+    {
+      "type": "fill_blank",
+      "stem": "_____ ai raison.",
+      "correct": "J’",
+      "explanation": "原题 1-2：动词 ai 是 avoir 的第一人称单数，由于以元音开头，je 必须省音变为 j'。",
+      "category": "动词变位",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 2
+    },
+    {
+      "type": "fill_blank",
+      "stem": "_____ (Avoir) - vous un chat ?",
+      "correct": [
+        "Avez"
+      ],
+      "explanation": "TCF 陷阱：考察首字母大写及倒装连字符。vous 对应 avez。",
+      "category": "动词变位",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "single_choice",
+      "stem": "Ils _____ une voiture, mais ils _____ espagnols.",
+      "options": [
+        "ont / ont",
+        "sont / sont",
+        "ont / sont",
+        "sont / ont"
+      ],
+      "correct": 2,
+      "explanation": "TCF 区分词：ont (avoir) 表示拥有，sont (être) 表示国籍/状态。Ils ont... 他们有车；Ils sont... 他们是西班牙人。",
+      "category": "动词辨析",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "N'***-tu pas de disques ?",
+      "correct": [
+        "as"
+      ],
+      "explanation": "TCF 陷阱：否定倒装句。ne 变为 n' 因为 as 以元音开头。tu 对应 as。",
+      "category": "否定倒装",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Y a-t-*** un piano ?",
+      "correct": [
+        "il"
+      ],
+      "explanation": "TCF 陷阱：il y a 的倒装形式。为了发音方便，在 a 和 il 之间加 -t-。",
+      "category": "固定搭配",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Tu n'_____ pas de voiture.",
+      "correct": [
+        "as"
+      ],
+      "explanation": "原题 2-11：tu 对应的变位是 as。",
+      "category": "动词变位",
+      "nextReview": "2026-02-27",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Je n'*** pas de patience.",
+      "correct": [
+        "ai"
+      ],
+      "explanation": "原题 2-12：je 对应的变位是 ai。",
+      "category": "动词变位",
+      "nextReview": "2026-02-27",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "single_choice",
+      "stem": "Je _____ très patient.",
+      "options": [
+        "ai",
+        "as",
+        "suis",
+        "est"
+      ],
+      "correct": 2,
+      "explanation": "TCF 陷阱：区分拥有耐性 (avoir de la patience) 和 处于耐心的状态 (être patient)。je 对应 suis。",
+      "category": "动词辨析",
+      "nextReview": "2026-02-27",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    }
+  ],
   "questionNotes": {
     "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "为啥有le啊\n【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。\n\n【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la",
-    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont"
+    "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont",
+    "_____ avons-nous froid ce matin ?|Pourquoi|Qu'est-ce que|Qui|Quel|0": "B. Qu’est-ce que ❌\n\n你选的这个。\n\n错在哪里？\n\nQu’est-ce que 必须接：\n\n陈述句结构\n\n比如：\n\nQu’est-ce que nous avons ?\n\n而不能接倒装：\n\n❌ Qu’est-ce que avons-nous froid ?\n\n结构冲突。\n\n⸻\n\n结构冲突原理\n\nQu’est-ce que 本身已经是“疑问结构框架”，\n后面必须：\n\n主语 + 动词\n\n而题目已经是：\n\navons-nous（倒装）\n\n两种疑问体系叠加，语法错误。\n\n⸻\n\n为什么很多人会选它？\n\n因为你脑子里触发的是：\n\n“疑问句 → 用 qu’est-ce que”\n\n这是公式化思维。\n\n但没意识到：\n\n句子已经是倒装结构。\n\n⸻\n\nC. Qui ❌\n\nQui avons-nous froid ?\n\n错误原因：\n\nQui 是“谁”\n\n但句子里主语已经是 nous。\n\n语义冲突。\n\n⸻\n\n并且：\n\nQui 直接作主语时不倒装：\n\nQui a froid ?\n\n而不是：\n\nQui avons-nous froid ?\n\n结构错 + 逻辑错。\n\n⸻\n\nD. Quel ❌\n\nQuel 是形容词。\n\n必须接名词：\n\nQuel livre…\nQuel jour…\n\n不能单独引导这个句子。\n\n而且语义也不对：\n\n“哪一个我们冷？”\n\n完全不成立。",
+    "Est-ce que je _____ raison ?|ai|as|a|avez|0": "我们拆开结构：\n\nEst-ce que\nje ai raison\n\n注意：\n\nest 属于固定表达：\n\nEst-ce que\n\n它是一个整体疑问框架。\n\n真正和 je 直接相邻的是：\n\nai\n\n不是 est。",
+    "Ils _____ une voiture, mais ils _____ espagnols.|ont / ont|sont / sont|ont / sont|sont / ont|2": "记忆判断口诀\n\n名词拥有用 avoir，\n身份状态用 être。\n\n⸻\n\n👉 强化变形小题\n\nIls _____ riches, mais ils _____ une petite maison.\n\nA. sont / ont\nB. ont / sont\nC. sont / sont\nD. ont / ont\n\n答案：A\n\nriches = 形容词 → être\nune maison = 名词 → avoir\n\n⸻\n\n以后做这种题：\n\n第一步：看空格后面第一个词是什么词性。\n第二步：再决定动词。\n\n不要先看主语。\n\n这是 TCF 的核心判断顺序。\n国籍结构：\n\nIl est français.\nIls sont espagnols.\n\n不用冠词。",
+    "N'***-tu pas de disques ?||as": "本题考察什么？\n\n✅ 语法点\n\t•\t否定结构 ne…pas\n\t•\t倒装结构\n\t•\tne 的省音（élision）\n\t•\tavoir 变位\n\n✅ TCF 等级\n\nA2 → B1\n\n✅ 出题人想区分什么能力？\n\t•\t你是否会在倒装中放对动词\n\t•\t你是否知道 ne 在元音前变 n’\n\t•\t你是否记得 tu 的变位\n\n这是典型：\n\n👉 否定倒装综合测试\n\n⸻\n\n【2】正确答案是什么？\n\n完整句子是：\n\nN’as-tu pas de disques ?\n\n意思是：\n\n“你没有唱片吗？”\n\n⸻\n\n结构拆解\n\n原句陈述句：\n\nTu n’as pas de disques.\n\n变成倒装疑问句：\n\nN’as-tu pas de disques ?\n\n⸻\n\n逐步变形逻辑\n\n1️⃣ 陈述句\nTu as des disques.\n\n2️⃣ 否定\nTu n’as pas de disques.\n（des → de，因为否定）\n\n3️⃣ 倒装\nAs-tu… → N’as-tu pas…",
+    "Y a-t-*** un piano ?||il": "TCF 出题套路\n\n考试常考：\n\nIl y a → Y a-t-il ?\n\n你只要看到：\n\nY a-t-___\n\n直接填：\n\nil\n\n因为这是固定结构。\n\n⸻\n\n【5】记忆口诀\n\nIl y a 倒装必加 t。\n\n⸻\n\n👉 强化小题\n\nIl y a des étudiants.\n\n变成倒装疑问句。\n\n答案：\n\nY a-t-il des étudiants ?\n\n⸻\n\n再帮你彻底理解一句\n\nY a-t-il un piano ?\n\n= 有钢琴吗？\n= 这里有钢琴吗？",
+    "Ils _____ le temps mais ils _____ en retard.|sont / ont|ont / sont|ont / ont|sont / sont|1": "核心判断模型\n\n第一步：看后面是不是名词。\n→ 名词通常用 avoir\n\n第二步：看是不是状态或形容词。\n→ 形容词用 être\n\n第三步：看是不是固定表达。\n→ 直接记忆\n\n⸻\n\n📌 超级压缩记忆口诀\n\n感觉多用 avoir，\n状态多用 être。\n\n⸻\n\n🚀 进阶提醒（B1）\n\n法语喜欢：\n\navoir + 名词表达感觉\nêtre + 形容词表达状态\n\n比如：\n\navoir faim（名词）\nêtre fatigué（形容词）"
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-25",
+    "date": "2026-02-26",
     "todayCount": 0,
-    "lastDate": "2026-02-10",
+    "lastDate": "2026-02-25",
     "streak": 2
   },
-  "exportedAt": "2026-02-25T01:37:10.279Z",
+  "flashcardDecks": [],
+  "exportedAt": "2026-02-26T01:03:25.997Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }

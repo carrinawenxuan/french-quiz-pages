@@ -2904,7 +2904,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <label for="github-upload-branch">分支</label>
         <input type="text" id="github-upload-branch" value="main" style="width:100%;padding:0.5rem 0.75rem;margin-top:0.25rem;margin-bottom:0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);box-sizing:border-box;" />
       </div>
-      <p class="sync-text-warning" style="margin-bottom:1rem;font-size:0.85rem;color:var(--text-muted);">Token 仅用于本次上传；勾选「记住」后保存在本机，他人无法通过网页访问你的仓库。</p>
+      <p class="sync-text-warning" style="margin-bottom:0.5rem;font-size:0.85rem;color:var(--text-muted);">Token 仅用于本次上传；勾选「记住」后保存在本机，他人无法通过网页访问你的仓库。</p>
+      <p class="sync-text-warning" style="margin-bottom:1rem;font-size:0.85rem;color:var(--text-muted);">若出现「Failed to fetch」或网络错误，多为浏览器/网络无法直连 GitHub API。请改用：<strong>「生成同步文本」</strong> → 复制或下载 → 在电脑粘贴/从文件导入后，用「一键保存」+ 本机执行 <code>./scripts/sync-and-push.sh ../french-quiz-pages</code> 推送到 GitHub。</p>
       <div class="sync-text-actions" style="flex-wrap:wrap;gap:0.5rem;">
         <button type="button" class="btn btn-primary" id="btn-github-upload-do">上传</button>
         <button type="button" class="btn btn-secondary" id="btn-github-upload-clear-token">清除已保存的 Token</button>
@@ -5227,7 +5228,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       var labelEl = $('progress-label');
       if (labelEl) labelEl.textContent = '第 ' + idx + ' / ' + total + ' 题';
       var estimateEl = $('progress-estimate');
-      if (estimateEl && idx === 1) {
+      if (estimateEl) {
         estimateEl.textContent = '共 ' + total + ' 题' + (state.timerSeconds ? '，约 ' + Math.ceil(total * state.timerSeconds / 60) + ' 分钟' : '，不限时');
       }
       var questionMetaEl = $('question-meta');
@@ -5780,13 +5781,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function nextQuestion() {
       if (state.answered !== true) return;  // Prevent rapid clicking
-      if (state.animatingTransition) return;
-      state.animatingTransition = true;
       state.index++;
       if (state.index >= state.questions.length) {
-        state.animatingTransition = false;
         showResult();
-      } else {
+        return;
+      }
+      if (state.animatingTransition) return;
+      state.animatingTransition = true;
+      {
         const card = document.querySelector('.question-card');
         if (card) {
           card.classList.add('animate-out');
@@ -5802,11 +5804,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             if (state.index === currentIndex) {  // Verify still on same question
               card.classList.add('animate-in');
               card.style.willChange = 'transform';
-              card.addEventListener('animationend', () => {
+              var cleared = false;
+              var fallbackTimer = null;
+              function unblock() {
+                if (cleared) return;
+                cleared = true;
+                if (fallbackTimer) { clearTimeout(fallbackTimer); fallbackTimer = null; }
                 card.classList.remove('animate-in');
                 card.style.willChange = '';
                 state.animatingTransition = false;
-              }, { once: true });
+              }
+              card.addEventListener('animationend', unblock, { once: true });
+              fallbackTimer = setTimeout(unblock, 600);
+              _pendingTimers = _pendingTimers.filter(t => t !== fallbackTimer);
+              _pendingTimers.push(fallbackTimer);
             } else {
               state.animatingTransition = false;
             }
@@ -7178,7 +7189,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const msg = e && e.message ? e.message : String(e);
         const isNetwork = /load failed|failed to fetch|network error|cors/i.test(msg) || (e && e.name === 'TypeError');
         showToast(isNetwork
-          ? '上传失败：网络请求未成功，请检查网络后重试（或换电脑浏览器上传）'
+          ? '上传失败：无法直连 GitHub API，请用「生成同步文本」传到电脑后执行 sync-and-push 脚本推送'
           : '上传失败：' + msg);
       }
       if (btn) { btn.disabled = false; btn.textContent = '上传'; }
