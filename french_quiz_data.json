@@ -45361,6 +45361,32 @@
       "interval": 1,
       "repetitions": 0,
       "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Elle _____ du travail.",
+      "correct": [
+        "a"
+      ],
+      "explanation": "TCF 陷阱：区分 elles (复数 ont) 和 elle (单数 a)。发音上 [õ] 与 [a] 明显不同。",
+      "category": "动词变位",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Elle n'_____ pas de dictionnaire.",
+      "correct": [
+        "a"
+      ],
+      "explanation": "原题 2-8：elle 对应的变位是 a，因否定词 ne 遇到元音变为 n'。",
+      "category": "动词变位",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
     }
   ],
   "questionNotes": {
@@ -45381,6 +45407,6 @@
     "streak": 2
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-26T01:03:25.997Z",
+  "exportedAt": "2026-02-26T01:38:47.252Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }

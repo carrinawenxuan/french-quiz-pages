@@ -5610,20 +5610,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const explanationEl = document.getElementById('explanation');
       if (!explanationEl) return;  // 如果关键元素不存在，提前返回
       let explanationText = q.explanation || '';
-      if (!explanationText && !correct) {
+      var correctAnswerLine = '';
+      if (!correct) {
         if (q.type === 'fill_blank') {
           const ans = Array.isArray(q.correct) ? q.correct : [q.correct];
-          explanationText = '正确答案：' + ans.map(a => String(a).trim()).join(' 或 ');
+          correctAnswerLine = '正确答案：' + ans.map(a => String(a).trim()).join(' 或 ');
         } else if (q.type === 'single_choice') {
-          explanationText = '正确答案：' + (q.options ? LETTERS[q.correct] + ') ' + q.options[q.correct] : LETTERS[q.correct]);
+          correctAnswerLine = '正确答案：' + (q.options ? LETTERS[q.correct] + ') ' + q.options[q.correct] : LETTERS[q.correct]);
         } else if (q.type === 'multiple_choice' && q.options) {
           const indices = Array.isArray(q.correct) ? q.correct : [q.correct];
-          explanationText = '正确答案：' + indices.map(i => LETTERS[i] + ') ' + q.options[i]).join('；');
+          correctAnswerLine = '正确答案：' + indices.map(i => LETTERS[i] + ') ' + q.options[i]).join('；');
         } else if (q.type === 'paragraph_fill_blank') {
           const arr = Array.isArray(q.correct) ? q.correct : [q.correct];
-          explanationText = '正确答案：' + arr.map((c, i) => '第' + (i + 1) + '空 ' + (Array.isArray(c) ? c[0] : c)).join('；');
+          correctAnswerLine = '正确答案：' + arr.map((c, i) => '第' + (i + 1) + '空 ' + (Array.isArray(c) ? c[0] : c)).join('；');
         }
       }
+      if (correctAnswerLine) explanationText = (explanationText ? explanationText + '\n\n' : '') + correctAnswerLine;
       if (explanationEl) explanationEl.textContent = explanationText;
       var scrollWrap = document.getElementById('explanation-scroll-wrap');
       if (scrollWrap) {
@@ -5716,7 +5718,26 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         feedbackEl.style.display = 'block';
       }
       var explanationEl = document.getElementById('explanation');
-      if (explanationEl) explanationEl.textContent = saved.explanationText || '';
+      var explanationText = saved.explanationText || '';
+      if (!saved.correct && explanationEl && explanationText.indexOf('正确答案') === -1) {
+        var correctAnswerLine = '';
+        if (q.type === 'fill_blank') {
+          const ans = Array.isArray(q.correct) ? q.correct : [q.correct];
+          correctAnswerLine = '正确答案：' + ans.map(a => String(a).trim()).join(' 或 ');
+        } else if (q.type === 'single_choice') {
+          correctAnswerLine = '正确答案：' + (q.options ? LETTERS[q.correct] + ') ' + q.options[q.correct] : LETTERS[q.correct]);
+        } else if (q.type === 'multiple_choice' && q.options) {
+          const indices = Array.isArray(q.correct) ? q.correct : [q.correct];
+          correctAnswerLine = '正确答案：' + indices.map(i => LETTERS[i] + ') ' + q.options[i]).join('；');
+        } else if (q.type === 'paragraph_fill_blank') {
+          const arr = Array.isArray(q.correct) ? q.correct : [q.correct];
+          correctAnswerLine = '正确答案：' + arr.map((c, i) => '第' + (i + 1) + '空 ' + (Array.isArray(c) ? c[0] : c)).join('；');
+        }
+        if (correctAnswerLine) explanationText = (explanationText ? explanationText + '\n\n' : '') + correctAnswerLine;
+        explanationEl.textContent = explanationText;
+      } else if (explanationEl) {
+        explanationEl.textContent = explanationText;
+      }
       var scrollWrap = document.getElementById('explanation-scroll-wrap');
       if (scrollWrap) {
         scrollWrap.style.display = 'block';
