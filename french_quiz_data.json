@@ -15704,15 +15704,6 @@
           "category": "疑问句"
         },
         {
-          "type": "short_answer",
-          "stem": "Christine reste ici : elle _____ (使用 ne pas avoir envie de sortir)",
-          "correct": [
-            "n'a pas envie de sortir"
-          ],
-          "explanation": "原题 3-2：留在家里是因为“不想出去”。elle 变位为 a，否定为 n'a pas。",
-          "category": "固定搭配"
-        },
-        {
           "type": "single_choice",
           "stem": "Elle _____ envie _____ une glace.",
           "options": [
@@ -16261,8 +16252,8 @@
           "category": "动词辨析"
         }
       ],
-      "practiceCount": 1,
-      "lastPracticedAt": "2026-02-25T19:13:14.583Z",
+      "practiceCount": 2,
+      "lastPracticedAt": "2026-02-26T01:47:20.099Z",
       "reviewTexts": [],
       "reviewLinks": [
         "https://docs.google.com/document/d/1gYxTOvdslOQGEzQJ1RJx3Y6XGbzJaFlz7LSrJCI2dmU/edit?tab=t.0"
@@ -16410,7 +16401,7 @@
           "back": "C'est + 限定词 + 名词：C'est une fille.\nIl/Elle est + 形容词/职业（无冠词）：Elle est grande."
         }
       ],
-      "sequentialNextIndex": 20
+      "sequentialNextIndex": 40
     },
     {
       "id": 1771900370558,
@@ -45360,7 +45351,7 @@
       "nextReview": "2026-02-27",
       "interval": 1,
       "repetitions": 0,
-      "wrongCount": 1
+      "wrongCount": 2
     },
     {
       "type": "fill_blank",
@@ -45373,7 +45364,7 @@
       "nextReview": "2026-02-26",
       "interval": 1,
       "repetitions": 0,
-      "wrongCount": 1
+      "wrongCount": 2
     },
     {
       "type": "fill_blank",
@@ -45383,6 +45374,23 @@
       ],
       "explanation": "原题 2-8：elle 对应的变位是 a，因否定词 ne 遇到元音变为 n'。",
       "category": "动词变位",
+      "nextReview": "2026-02-26",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "single_choice",
+      "stem": "Elle _____ envie _____ une glace.",
+      "options": [
+        "a / de",
+        "as / d'",
+        "a / d'",
+        "as / de"
+      ],
+      "correct": 2,
+      "explanation": "TCF 陷阱：avoir envie de + 名词。envie 后的 de 遇到 une 需省音为 d'。elle 对应 a。",
+      "category": "固定搭配",
       "nextReview": "2026-02-26",
       "interval": 1,
       "repetitions": 0,
@@ -45397,16 +45405,17 @@
     "Ils _____ une voiture, mais ils _____ espagnols.|ont / ont|sont / sont|ont / sont|sont / ont|2": "记忆判断口诀\n\n名词拥有用 avoir，\n身份状态用 être。\n\n⸻\n\n👉 强化变形小题\n\nIls _____ riches, mais ils _____ une petite maison.\n\nA. sont / ont\nB. ont / sont\nC. sont / sont\nD. ont / ont\n\n答案：A\n\nriches = 形容词 → être\nune maison = 名词 → avoir\n\n⸻\n\n以后做这种题：\n\n第一步：看空格后面第一个词是什么词性。\n第二步：再决定动词。\n\n不要先看主语。\n\n这是 TCF 的核心判断顺序。\n国籍结构：\n\nIl est français.\nIls sont espagnols.\n\n不用冠词。",
     "N'***-tu pas de disques ?||as": "本题考察什么？\n\n✅ 语法点\n\t•\t否定结构 ne…pas\n\t•\t倒装结构\n\t•\tne 的省音（élision）\n\t•\tavoir 变位\n\n✅ TCF 等级\n\nA2 → B1\n\n✅ 出题人想区分什么能力？\n\t•\t你是否会在倒装中放对动词\n\t•\t你是否知道 ne 在元音前变 n’\n\t•\t你是否记得 tu 的变位\n\n这是典型：\n\n👉 否定倒装综合测试\n\n⸻\n\n【2】正确答案是什么？\n\n完整句子是：\n\nN’as-tu pas de disques ?\n\n意思是：\n\n“你没有唱片吗？”\n\n⸻\n\n结构拆解\n\n原句陈述句：\n\nTu n’as pas de disques.\n\n变成倒装疑问句：\n\nN’as-tu pas de disques ?\n\n⸻\n\n逐步变形逻辑\n\n1️⃣ 陈述句\nTu as des disques.\n\n2️⃣ 否定\nTu n’as pas de disques.\n（des → de，因为否定）\n\n3️⃣ 倒装\nAs-tu… → N’as-tu pas…",
     "Y a-t-*** un piano ?||il": "TCF 出题套路\n\n考试常考：\n\nIl y a → Y a-t-il ?\n\n你只要看到：\n\nY a-t-___\n\n直接填：\n\nil\n\n因为这是固定结构。\n\n⸻\n\n【5】记忆口诀\n\nIl y a 倒装必加 t。\n\n⸻\n\n👉 强化小题\n\nIl y a des étudiants.\n\n变成倒装疑问句。\n\n答案：\n\nY a-t-il des étudiants ?\n\n⸻\n\n再帮你彻底理解一句\n\nY a-t-il un piano ?\n\n= 有钢琴吗？\n= 这里有钢琴吗？",
-    "Ils _____ le temps mais ils _____ en retard.|sont / ont|ont / sont|ont / ont|sont / sont|1": "核心判断模型\n\n第一步：看后面是不是名词。\n→ 名词通常用 avoir\n\n第二步：看是不是状态或形容词。\n→ 形容词用 être\n\n第三步：看是不是固定表达。\n→ 直接记忆\n\n⸻\n\n📌 超级压缩记忆口诀\n\n感觉多用 avoir，\n状态多用 être。\n\n⸻\n\n🚀 进阶提醒（B1）\n\n法语喜欢：\n\navoir + 名词表达感觉\nêtre + 形容词表达状态\n\n比如：\n\navoir faim（名词）\nêtre fatigué（形容词）"
+    "Ils _____ le temps mais ils _____ en retard.|sont / ont|ont / sont|ont / ont|sont / sont|1": "核心判断模型\n\n第一步：看后面是不是名词。\n→ 名词通常用 avoir\n\n第二步：看是不是状态或形容词。\n→ 形容词用 être\n\n第三步：看是不是固定表达。\n→ 直接记忆\n\n⸻\n\n📌 超级压缩记忆口诀\n\n感觉多用 avoir，\n状态多用 être。\n\n⸻\n\n🚀 进阶提醒（B1）\n\n法语喜欢：\n\navoir + 名词表达感觉\nêtre + 形容词表达状态\n\n比如：\n\navoir faim（名词）\nêtre fatigué（形容词）",
+    "Elle _____ envie _____ une glace.|a / de|as / d'|a / d'|as / de|2": "1️⃣ 固定搭配：\navoir envie de + 名词 👉 想要 / 想吃 / 想做\nJ’ai envie de chocolat.\n我想吃巧克力。\n\nElle a envie d’une glace.\n她想吃一份冰淇淋。\n\n不是 à，不是直接接名词。\n\n⸻\n\n2️⃣ 变位：\nElle → avoir → a\n\n⸻\n\n3️⃣ 为什么是 d’？\n\nde + une → d’une\n因为后面是元音（u），发生省音。"
   },
   "timerSeconds": 30,
   "dailyStats": {
     "date": "2026-02-26",
-    "todayCount": 0,
-    "lastDate": "2026-02-25",
+    "todayCount": 19,
+    "lastDate": "2026-02-26",
     "streak": 2
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-26T01:38:47.252Z",
+  "exportedAt": "2026-02-26T01:47:41.574Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
