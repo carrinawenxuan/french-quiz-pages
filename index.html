@@ -1887,6 +1887,8 @@
     body.theme-light .edit-set-field select,
     body.theme-light .edit-set-field textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .edit-set-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .edit-set-entry-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+    .edit-set-entry-row .edit-set-review-label { margin-bottom: 0; }
     .edit-set-append .btn { margin-top: 0.5rem; }
     .edit-set-cards-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
     .edit-set-cards-list-wrap { max-height: 160px; overflow-y: auto; -webkit-overflow-scrolling: touch; margin-bottom: 0.5rem; }
@@ -1941,6 +1943,16 @@
     .edit-set-actions .btn { flex: 1; }
     .edit-set-extra { padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
     .edit-set-sep { color: var(--text-muted); opacity: 0.6; font-size: 0.85rem; }
+    .edit-set-review-overlay, .edit-set-append-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 10000; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
+    .edit-set-review-overlay.show, .edit-set-append-overlay.show { display: flex; }
+    .edit-set-review-modal, .edit-set-append-modal { width: 100%; max-width: 520px; max-height: 85vh; display: flex; flex-direction: column; background: var(--card); border-radius: var(--radius); border: 1px solid var(--border-subtle-hover); box-shadow: var(--shadow-lg); padding: 1rem; }
+    body.theme-light .edit-set-review-modal, body.theme-light .edit-set-append-modal { border-color: rgba(0,0,0,0.1); }
+    .edit-set-review-modal h3, .edit-set-append-modal h3 { font-size: 1rem; margin: 0 0 0.75rem 0; }
+    .edit-set-review-modal .edit-set-field { margin-bottom: 0.75rem; }
+    .edit-set-review-modal-actions, .edit-set-append-modal-actions { margin-top: 1rem; display: flex; gap: 0.5rem; flex-shrink: 0; }
+    .edit-set-append-hint { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 0.5rem 0; }
+    .edit-set-append-modal textarea { width: 100%; padding: 0.5rem 0.75rem; font-size: 0.9rem; font-family: inherit; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text); resize: vertical; min-height: 120px; box-sizing: border-box; }
+    body.theme-light .edit-set-append-modal textarea { background: var(--card); border-color: rgba(0,0,0,0.12); }
     .preview-questions-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9999; align-items: center; justify-content: center; padding: 1.5rem; box-sizing: border-box; }
     .preview-questions-overlay.show { display: flex; }
     .preview-questions-modal { width: 100%; max-width: 560px; max-height: 85vh; display: flex; flex-direction: column; background: var(--card); border-radius: var(--radius); border: 1px solid var(--border-subtle-hover); box-shadow: var(--shadow-lg); }
@@ -2279,7 +2291,7 @@
     .screen { contain: layout style; }
 
     @media print {
-      .skip-link, #toast, .review-modal-overlay, .start-mode-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .preview-questions-overlay, .incomplete-check-overlay,
+      .skip-link, #toast, .review-modal-overlay, .start-mode-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .edit-set-review-overlay, .edit-set-append-overlay, .preview-questions-overlay, .incomplete-check-overlay,
       header .theme-toggle, header .home-actions .btn,
       .result-actions, .result-shortcut-hint, .result-recent { display: none !important; }
       body { background: #fff; color: #111; }
@@ -2802,27 +2814,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <option value="">未分类</option>
         </select>
       </div>
-      <div class="edit-set-field">
+      <div class="edit-set-field edit-set-entry-row">
         <span class="edit-set-review-label">练习前复习资料（可选）</span>
-        <div class="edit-set-review-row">
-          <label for="edit-set-review-texts">文本（每行一段，练习前可滚动查看）</label>
-          <textarea id="edit-set-review-texts" rows="3" placeholder="口诀、说明等&#10;每行一段" autocomplete="off"></textarea>
-        </div>
-        <div class="edit-set-review-row">
-          <label for="edit-set-review-links">链接（每行一个 URL）</label>
-          <textarea id="edit-set-review-links" rows="2" placeholder="https://…" autocomplete="off"></textarea>
-        </div>
-        <div class="edit-set-paste-images" id="edit-set-paste-images">
-          <span class="edit-set-paste-images-hint">图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴</span>
-          <div class="edit-set-paste-zone" id="edit-set-paste-zone" tabindex="0" role="button" aria-label="点击后按 Ctrl+V 或 Cmd+V 粘贴图片">粘贴图片到此处</div>
-          <div class="edit-set-pasted-list" id="edit-set-pasted-list"></div>
-        </div>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-open-review">编辑复习资料</button>
+      </div>
+      <div id="edit-set-review-fields-hidden" style="display: none;" aria-hidden="true">
+        <textarea id="edit-set-review-texts" rows="1" autocomplete="off"></textarea>
+        <textarea id="edit-set-review-links" rows="1" autocomplete="off"></textarea>
       </div>
       <div class="edit-set-meta" id="edit-set-meta"></div>
-      <div class="edit-set-field edit-set-append">
-        <label for="edit-set-append-text">追加题目（粘贴 JSON 数组或文本格式，会追加到本题集末尾）</label>
-        <textarea id="edit-set-append-text" rows="4" placeholder="[{&quot;type&quot;:&quot;single_choice&quot;, ...}, ...] 或 题型：... A) B) C) D) 正确：C" autocomplete="off"></textarea>
-        <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-append">解析并追加</button>
+      <div class="edit-set-field edit-set-entry-row">
+        <span class="edit-set-review-label">题目</span>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-open-append">从 JSON 或文本追加题目</button>
       </div>
       <div class="edit-set-field edit-set-cards">
         <span class="edit-set-review-label">记忆训练</span>
@@ -2852,6 +2855,41 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <button type="button" class="btn btn-link-danger" id="btn-edit-set-clear-questions">清空所有题目</button>
         <span class="edit-set-sep">·</span>
         <button type="button" class="btn btn-link-danger" id="btn-edit-set-delete">删除本习题集</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="edit-set-review-overlay" id="edit-set-review-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-review-modal-title" style="display: none;">
+    <div class="edit-set-review-modal">
+      <h3 id="edit-set-review-modal-title">编辑复习资料</h3>
+      <div class="edit-set-field">
+        <label for="edit-set-review-modal-texts">文本（每行一段，练习前可滚动查看）</label>
+        <textarea id="edit-set-review-modal-texts" rows="3" placeholder="口诀、说明等&#10;每行一段" autocomplete="off"></textarea>
+      </div>
+      <div class="edit-set-field">
+        <label for="edit-set-review-modal-links">链接（每行一个 URL）</label>
+        <textarea id="edit-set-review-modal-links" rows="2" placeholder="https://…" autocomplete="off"></textarea>
+      </div>
+      <div class="edit-set-paste-images">
+        <span class="edit-set-paste-images-hint">图片：点击下方区域后 Ctrl+V / Cmd+V 粘贴</span>
+        <div class="edit-set-paste-zone" id="edit-set-review-modal-paste-zone" tabindex="0" role="button" aria-label="粘贴图片">粘贴图片到此处</div>
+        <div class="edit-set-pasted-list" id="edit-set-review-modal-pasted-list"></div>
+      </div>
+      <div class="edit-set-review-modal-actions">
+        <button type="button" class="btn btn-primary" id="btn-edit-set-review-done">完成</button>
+        <button type="button" class="btn btn-secondary" id="btn-edit-set-review-cancel">取消</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="edit-set-append-overlay" id="edit-set-append-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-append-modal-title" style="display: none;">
+    <div class="edit-set-append-modal">
+      <h3 id="edit-set-append-modal-title">追加题目</h3>
+      <p class="edit-set-append-hint">粘贴 JSON 数组或文本格式，会追加到本题集末尾。</p>
+      <textarea id="edit-set-append-modal-text" rows="6" placeholder="[{&quot;type&quot;:&quot;single_choice&quot;, ...}, ...] 或 题型：... A) B) C) D) 正确：C" autocomplete="off"></textarea>
+      <div class="edit-set-append-modal-actions">
+        <button type="button" class="btn btn-primary" id="btn-edit-set-append-do">解析并追加</button>
+        <button type="button" class="btn btn-secondary" id="btn-edit-set-append-close">关闭</button>
       </div>
     </div>
   </div>
@@ -4448,6 +4486,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function renderEditModalPastedImages() {
       const listEl = document.getElementById('edit-set-pasted-list');
+      if (listEl) renderEditModalPastedImagesToList(listEl);
+    }
+    function renderEditModalPastedImagesToList(listEl) {
       if (!listEl) return;
       listEl.innerHTML = _editModalPastedImages.map((dataUrl, i) =>
         '<div class="edit-set-pasted-item" data-index="' + i + '">' +
@@ -4458,7 +4499,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         btn.addEventListener('click', function() {
           const i = parseInt(this.closest('.edit-set-pasted-item').dataset.index, 10);
           _editModalPastedImages.splice(i, 1);
-          renderEditModalPastedImages();
+          renderEditModalPastedImagesToList(listEl);
         });
       });
     }
@@ -4496,9 +4537,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (linksEl) linksEl.value = m.links.join('\n');
       _editModalPastedImages = m.images.slice();
       if (metaEl) metaEl.textContent = set.questions ? set.questions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次' : '';
-      renderEditModalPastedImages();
-      const appendEl = document.getElementById('edit-set-append-text');
-      if (appendEl) appendEl.value = '';
+      const appendModalEl = document.getElementById('edit-set-append-modal-text');
+      if (appendModalEl) appendModalEl.value = '';
       window._flashcardOnCardsChanged = renderEditSetCardsList;
       renderEditSetCardsList();
       const editOverlay = document.getElementById('edit-set-modal-overlay');
@@ -4541,6 +4581,42 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _editingSetId = null;
       clearModalFocusTrap();
       document.getElementById('edit-set-modal-overlay').classList.remove('show');
+      closeEditSetReviewOverlay();
+      closeEditSetAppendOverlay();
+    }
+    function openEditSetReviewOverlay() {
+      const textsEl = document.getElementById('edit-set-review-texts');
+      const linksEl = document.getElementById('edit-set-review-links');
+      const modalTexts = document.getElementById('edit-set-review-modal-texts');
+      const modalLinks = document.getElementById('edit-set-review-modal-links');
+      const listEl = document.getElementById('edit-set-review-modal-pasted-list');
+      if (modalTexts) modalTexts.value = (textsEl && textsEl.value) ? textsEl.value : '';
+      if (modalLinks) modalLinks.value = (linksEl && linksEl.value) ? linksEl.value : '';
+      if (listEl) renderEditModalPastedImagesToList(listEl);
+      const overlay = document.getElementById('edit-set-review-overlay');
+      if (overlay) { overlay.classList.add('show'); setModalFocusTrap(overlay); }
+    }
+    function closeEditSetReviewOverlay() {
+      const overlay = document.getElementById('edit-set-review-overlay');
+      if (overlay) { overlay.classList.remove('show'); clearModalFocusTrap(); }
+    }
+    function syncReviewModalToHidden() {
+      const modalTexts = document.getElementById('edit-set-review-modal-texts');
+      const modalLinks = document.getElementById('edit-set-review-modal-links');
+      const textsEl = document.getElementById('edit-set-review-texts');
+      const linksEl = document.getElementById('edit-set-review-links');
+      if (textsEl && modalTexts) textsEl.value = modalTexts.value || '';
+      if (linksEl && modalLinks) linksEl.value = modalLinks.value || '';
+    }
+    function openEditSetAppendOverlay() {
+      const overlay = document.getElementById('edit-set-append-overlay');
+      if (overlay) { overlay.classList.add('show'); setModalFocusTrap(overlay); }
+      const el = document.getElementById('edit-set-append-modal-text');
+      if (el) el.focus();
+    }
+    function closeEditSetAppendOverlay() {
+      const overlay = document.getElementById('edit-set-append-overlay');
+      if (overlay) { overlay.classList.remove('show'); clearModalFocusTrap(); }
     }
     function formatQuestionForPreview(q, index) {
       const typeLabel = QUESTION_TYPES[q.type] || q.type || '题目';
@@ -4713,16 +4789,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       a.click();
       URL.revokeObjectURL(a.href);
     }
-    function appendToEditSetModal() {
+    function appendToEditSetModal(pastedText) {
       if (_editingSetId == null) return;
-      const textEl = document.getElementById('edit-set-append-text');
-      let text = textEl ? textEl.value.trim() : '';
+      const text = (pastedText != null ? pastedText : (document.getElementById('edit-set-append-text') || {}).value || '').trim();
       if (!text) {
         showToast('请先粘贴要追加的题目（JSON 或含题型/选项的文本）');
-        if (textEl) textEl.focus();
+        var focusEl = document.getElementById('edit-set-append-modal-text') || document.getElementById('edit-set-append-text');
+        if (focusEl) focusEl.focus();
         return;
       }
-      const appendBtn = document.getElementById('btn-edit-set-append');
+      const appendBtn = document.getElementById('btn-edit-set-append-do') || document.getElementById('btn-edit-set-append');
       const origAppendText = appendBtn ? appendBtn.textContent : '';
       if (appendBtn) { appendBtn.disabled = true; appendBtn.textContent = '解析中…'; }
       let parsed = [];
@@ -4775,10 +4851,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const newQuestions = set.questions.concat(toAdd);
       const updated = sets.map(s => String(s.id) === String(_editingSetId) ? Object.assign({}, s, { questions: newQuestions }) : s);
       setSavedSets(updated);
-      const metaEl = document.getElementById('edit-set-meta');
-      if (metaEl) metaEl.textContent = newQuestions.length + ' 题 · 练习 ' + (set.practiceCount || 0) + ' 次';
-      if (textEl) textEl.value = '';
+      refreshEditSetMeta();
+      var modalAppendEl = document.getElementById('edit-set-append-modal-text');
+      if (modalAppendEl) modalAppendEl.value = '';
+      var mainAppendEl = document.getElementById('edit-set-append-text');
+      if (mainAppendEl) mainAppendEl.value = '';
       showToast('已追加 ' + toAdd.length + ' 题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : '') + (incompleteSkipped ? '，跳过 ' + incompleteSkipped + ' 道不完整' : '') + '，当前共 ' + newQuestions.length + ' 题');
+      closeEditSetAppendOverlay();
     }
     function deleteFromEditModal() {
       if (_editingSetId == null) return;
@@ -7530,10 +7609,18 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-edit-set-save').addEventListener('click', saveEditSetModal);
     document.getElementById('btn-edit-set-cancel').addEventListener('click', closeEditSetModal);
     document.getElementById('btn-edit-set-export').addEventListener('click', exportFromEditModal);
-    document.getElementById('btn-edit-set-append').addEventListener('click', async () => {
+    document.getElementById('btn-edit-set-open-review').addEventListener('click', openEditSetReviewOverlay);
+    document.getElementById('btn-edit-set-review-done').addEventListener('click', function() { syncReviewModalToHidden(); closeEditSetReviewOverlay(); });
+    document.getElementById('btn-edit-set-review-cancel').addEventListener('click', closeEditSetReviewOverlay);
+    document.getElementById('edit-set-review-overlay').addEventListener('click', function(e) { if (e.target.id === 'edit-set-review-overlay') closeEditSetReviewOverlay(); });
+    document.getElementById('btn-edit-set-open-append').addEventListener('click', openEditSetAppendOverlay);
+    document.getElementById('btn-edit-set-append-do').addEventListener('click', async function() {
       if (!(await checkImportPin())) return;
-      appendToEditSetModal();
+      var textEl = document.getElementById('edit-set-append-modal-text');
+      appendToEditSetModal(textEl ? textEl.value : '');
     });
+    document.getElementById('btn-edit-set-append-close').addEventListener('click', closeEditSetAppendOverlay);
+    document.getElementById('edit-set-append-overlay').addEventListener('click', function(e) { if (e.target.id === 'edit-set-append-overlay') closeEditSetAppendOverlay(); });
     document.getElementById('btn-edit-set-preview').addEventListener('click', () => {
       if (_editingSetId == null) return;
       const sets = getSavedSets();
@@ -7611,6 +7698,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         else if (id === 'edit-set-modal-overlay') closeEditSetModal();
         else if (id === 'preview-questions-overlay') closePreviewQuestions();
         else if (id === 'incomplete-check-overlay') closeIncompleteCheckModal();
+        else if (id === 'edit-set-review-overlay') closeEditSetReviewOverlay();
+        else if (id === 'edit-set-append-overlay') closeEditSetAppendOverlay();
         else if (id === 'image-lightbox-overlay') closeImageLightbox();
         else if (id === 'edit-question-overlay') closeEditQuestionModal();
         e.preventDefault();
@@ -7626,10 +7715,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (document.activeElement === last) { e.preventDefault(); first.focus(); }
       }
     });
-    (function initEditSetPasteZone() {
-      const zone = document.getElementById('edit-set-paste-zone');
-      if (!zone) return;
-      zone.addEventListener('paste', function(e) {
+    (function initEditSetPasteZones() {
+      function _onEditReviewPaste(e) {
         const items = e.clipboardData && e.clipboardData.items;
         if (!items) return;
         for (let i = 0; i < items.length; i++) {
@@ -7642,14 +7729,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
               const dataUrl = reader.result;
               if (dataUrl && typeof dataUrl === 'string') {
                 _editModalPastedImages.push(dataUrl);
-                renderEditModalPastedImages();
+                var listEl = document.getElementById('edit-set-review-modal-pasted-list');
+                if (listEl) renderEditModalPastedImagesToList(listEl);
               }
             };
             reader.readAsDataURL(file);
             break;
           }
         }
-      });
+      }
+      var zone = document.getElementById('edit-set-review-modal-paste-zone');
+      if (zone) zone.addEventListener('paste', _onEditReviewPaste);
     })();
     (function initImportPasteZone() {
       const zone = document.getElementById('import-paste-zone');

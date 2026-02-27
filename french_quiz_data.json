@@ -1,6 +1,738 @@
 {
   "savedSets": [
     {
+      "id": 1772234727319,
+      "name": "Unit 3 Passé Composé -DRE",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-27T23:25:27.319Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (attendre) les résultats ? (au passé composé)",
+          "correct": "as attendu",
+          "explanation": "本题考察动词 attendre + passé composé（复合过去时）。正确答案为 as attendu，因为 attendre 是以 -dre 结尾的第三组动词，过去分词规则变为 -u，即 attendu；主语是 Tu，助动词用 avoir 的变位 as。TCF 高频陷阱点：忘记助动词或将过去分词错拼为 attendi。判断口诀：-dre 结尾多变 -u，avoir 助动无配合（除 COD 提前）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Tu _____ (ne pas attendre) les résultats hier ?",
+          "options": [
+            "n'as pas attendu",
+            "ne as pas attendu",
+            "as ne pas attendu",
+            "n'a pas attendu"
+          ],
+          "correct": 0,
+          "explanation": "本题考察动词 attendre + 复合过去时的否定形式。正确答案为 n'as pas attendu。选项1错在没有省音（ne 遇元音变 n'）；选项2错在否定词位置，ne pas 应夹击助动词；选项3错在助动词变位（tu 对应 as，不是 a）。TCF 高频陷阱点：否定词 ne pas 在复合时态中的位置以及省音。判断口诀：复合过去是否定，ne pas 夹击助动词，元音相遇必省音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B1 陷阱】Les résultats qu'il _____ (attendre) avec impatience sont enfin publiés.",
+          "options": [
+            "a attendu",
+            "a attendus",
+            "ont attendus",
+            "a attendues"
+          ],
+          "correct": 1,
+          "explanation": "本题考察动词 attendre + 复合过去时过去分词的性数配合。正确答案为 a attendus。选项0错在没有进行配合；选项2错在助动词变位（主语是 il，不是 ils）；选项3错在阴阳性（résultats 是阳性复数，加 s，不是 es）。TCF 高频陷阱点：当直接宾语（COD，这里是 que 代指的 les résultats）位于动词前面时，使用 avoir 为助动词的过去分词必须与 COD 进行性数配合。判断口诀：avoir 助动看前方，COD 提前必配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B2 陷阱】Si vous m'aviez prévenu, je vous _____ (attendre) à la gare.",
+          "options": [
+            "aurais attendu",
+            "avais attendu",
+            "aurais attendus",
+            "ai attendu"
+          ],
+          "correct": "aurais attendu",
+          "explanation": "本题考察动词 attendre + conditionnel passé（条件式过去时）。正确答案为 aurais attendu。根据 Si + plus-que-parfait (aviez prévenu), 主句应使用 conditionnel passé 表示对过去非真实情况的假设。这里 vous 是直接宾语提前，但如果假设 vous 为单数尊称或没有明确复数上下文时，默认不配合（或根据严格语境），但最关键是时态形态。TCF 高频陷阱点：Si 条件句的经典时态搭配（Si+愈过去时，主句条件式过去时）。判断口诀：Si 加愈过去，主句必用条过去。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (coudre) sa robe de mariée. (au passé composé)",
+          "correct": "a cousu",
+          "explanation": "本题考察动词 coudre + passé composé。正确答案为 a cousu。coudre（缝纫）是不规则动词，过去分词特殊变形为 cousu，助动词为 avoir。TCF 高频陷阱点：考生常按发音或直觉错拼成 coudu 或 cousi。判断口诀：coudre 变 cousu，特殊记忆要牢固。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Nous _____ (coudre) ces boutons nous-mêmes.",
+          "options": [
+            "avons coudu",
+            "avons cousu",
+            "sommes cousus",
+            "ont cousu"
+          ],
+          "correct": 1,
+          "explanation": "本题考察动词 coudre + 复合过去时及主语变位。正确答案为 avons cousu。选项0错在过去分词拼写；选项2错用助动词 être（coudre 是及物动词用 avoir）；选项3错在助动词人称（nous 对应 avons）。TCF 高频陷阱点：不规则过去分词结合 nous 人称的助动词。判断口诀：及物动词找 avoir，nous 配 avons 莫选错。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Regarde cette belle robe ! C'est elle qui l'_____ (coudre).",
+          "correct": "a cousue",
+          "explanation": "本题考察动词 coudre + 过去分词性数配合。正确答案为 a cousue。直接宾语代词 l' 指代前面的 la robe（阴性单数），提前至助动词前，因此过去分词 cousu 必须加 e。TCF 高频陷阱点：代词 l' 提前时的隐蔽性数配合。判断口诀：l' 在动前需警惕，找准指代配性数。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Ces dentelles ont été _____ (coudre) à la main par un artisan.",
+          "options": [
+            "cousu",
+            "cousus",
+            "cousue",
+            "cousues"
+          ],
+          "correct": 3,
+          "explanation": "本题考察动词 coudre + 被动语态（voix passive）的性数配合。正确答案为 cousues。在被动语态中，过去分词必须与主语（Ces dentelles，阴性复数）进行严格的性数配合。选项0无配合；选项1是阳复；选项2是阴单。TCF 高频陷阱点：被动结构中 ont été 后接过去分词，极易漏掉主语配合。判断口诀：被动语态遇 être，分词必与主语配。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (peindre) des portraits. (au passé composé)",
+          "correct": "a peint",
+          "explanation": "本题考察动词 peindre + passé composé。正确答案为 a peint。以 -eindre 结尾的动词（如 peindre, éteindre, atteindre），过去分词均变为 -eint。主语 Il 对应助动词 a。TCF 高频陷阱点：错写成 peindu 或 peind。判断口诀：-eindre 结尾变 -eint，t 结尾不发音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Ils _____ (ne pas peindre) le mur du salon.",
+          "options": [
+            "ne ont pas peint",
+            "n'ont pas peintu",
+            "n'ont pas peint",
+            "n'ont peint pas"
+          ],
+          "correct": 2,
+          "explanation": "本题考察动词 peindre + 复合过去时否定形式。正确答案为 n'ont pas peint。选项0未省音；选项1过去分词错误；选项3否定词位置错误。TCF 高频陷阱点：复数主语 ils 的省音连读及分词形态。判断口诀：ils ont 遇 ne 变 n'ont，分词 peint 牢记心。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Les portraits qu'il _____ (peindre) se trouvent au musée.",
+          "correct": "a peints",
+          "explanation": "本题考察动词 peindre + 复合时态 COD 提前。正确答案为 a peints。que 指代 Les portraits（阳性复数），作直接宾语提前，因此 peint 需加 s。TCF 高频陷阱点：以 t 结尾的过去分词配合时直接加 s，发音不变但拼写必须有。判断口诀：COD 阳复前置，分词加 s 静悄悄。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Je doute qu'il _____ (peindre) ce tableau lui-même.",
+          "options": [
+            "a peint",
+            "ait peint",
+            "avait peint",
+            "aurait peint"
+          ],
+          "correct": 1,
+          "explanation": "本题考察动词 peindre + subjonctif passé（虚拟式过去时）。正确答案为 ait peint。Je doute que 表达怀疑，后接虚拟式。这里表达过去发生的动作，需用虚拟式过去时（avoir 的虚拟式现在时 ait + 过去分词 peint）。选项0是直陈式；选项2是愈过去时；选项3是条件式。TCF 高频陷阱点：情感/怀疑动词后触发虚拟式。判断口诀：douter que 后跟虚拟，过去动作配 ait/soit。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (prendre) le train. (au passé composé)",
+          "correct": "ai pris",
+          "explanation": "本题考察动词 prendre + passé composé。正确答案为 ai pris（Je 后需省音变为 J'ai pris，但填空只需助动词和分词）。prendre 的过去分词是极不规则的 pris。TCF 高频陷阱点：易与 -dre 规则动词混淆写成 prendu 或 prendi。判断口诀：prendre 家族全变 pris，apprendre/comprendre 皆同理。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Nous _____ (prendre) un bon petit déjeuner ce matin.",
+          "options": [
+            "avons prendu",
+            "sommes pris",
+            "avons pris",
+            "ont pris"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 prendre + nous 的复合时态。正确答案为 avons pris。选项0分词错误；选项1错用 être；选项3人称错配。TCF 高频陷阱点：助动词选择与正确变位。判断口诀：prendre 用 avoir，nous 配 avons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】La décision qu'elle _____ (prendre) est définitive.",
+          "correct": "a prise",
+          "explanation": "本题考察 prendre + 过去分词性数配合。正确答案为 a prise。que 代指 La décision（阴性单数）作 COD 提前，pris 需配合加 e 变 prise。TCF 高频陷阱点：以 s 结尾的过去分词加 e 后，发音从 /pri/ 变为 /priz/，口语和听力中常考。判断口诀：阴单 COD 提前，pris 加 e 读音变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Ils se sont _____ (prendre) au piège.",
+          "options": [
+            "pris",
+            "prise",
+            "prises",
+            "pris"
+          ],
+          "correct": 0,
+          "explanation": "本题考察代词式动词 se prendre + 过去分词配合。正确答案为 pris。代词式动词助动词必用 être，这里的 se 是直接宾语（把自己陷入），指代 Ils（阳性复数）。因为 pris 本身以 s 结尾，阳性复数形式不改变，依然是 pris。选项1阴单；选项2阴复。TCF 高频陷阱点：代词式动词的实质 COD 判断及本身以 s 结尾的复数形态。判断口诀：se 作 COD 需配合，s 结尾复数不叠加。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (résoudre) la question. (au passé composé)",
+          "correct": "a résolu",
+          "explanation": "本题考察动词 résoudre + passé composé。正确答案为 a résolu。résoudre 是特殊 -dre 动词，过去分词变为 résolu。TCF 高频陷阱点：常被误变为 résous 或 résoudu。判断口诀：résoudre 变 résolu，绝对特殊需硬背。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Vous _____ (ne pas résoudre) ce problème mathématique.",
+          "options": [
+            "n'avez pas résous",
+            "n'avez pas résolu",
+            "ne avez pas résolu",
+            "n'avez résolu pas"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 résoudre + 否定与人称。正确答案为 n'avez pas résolu。选项0分词错；选项2未省音；选项3否定词位置错。TCF 高频陷阱点：高阶词汇在基础否定句型中的应用。判断口诀：分词 résolu 不变，ne pas 夹准 avez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Voici les problèmes que le professeur _____ (résoudre).",
+          "correct": "a résolus",
+          "explanation": "本题考察 résoudre + COD 提前配合。正确答案为 a résolus。que 代指 les problèmes（阳性复数），提前需在 résolu 后加 s。TCF 高频陷阱点：复合时态核心规则在不规则分词上的叠加应用。判断口诀：阳复 COD 提前，特殊分词照样加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】L'Assemblée nationale a été _____ (dissoudre) par le président.",
+          "options": [
+            "dissolu",
+            "dissolue",
+            "dissous",
+            "dissoute"
+          ],
+          "correct": 3,
+          "explanation": "本题考察同源词 dissoudre + 被动语态配合。正确答案为 dissoute。注意：虽然 résoudre 的过去分词是 résolu，但其同族词 absoudre 和 dissoudre 的过去分词是 absolu/dissous(阳性) 和 absoute/dissoute(阴性)。主语 L'Assemblée（阴性单数），故用 dissoute。TCF 高频陷阱点：résoudre 与 dissoudre 过去分词规则不完全一致的究极陷阱。判断口诀：résoudre 变 lu，dissoudre 变 sous/soute 莫记混。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (rejoindre) leurs amis. (au passé composé)",
+          "correct": "ont rejoint",
+          "explanation": "本题考察动词 rejoindre + passé composé。正确答案为 ont rejoint。rejoindre 属于 -oindre 结尾，过去分词规则变为 -oint，即 rejoint。主语 Ils 对应助动词 ont。TCF 高频陷阱点：拼写时漏掉尾部的 t。判断口诀：-oindre 结尾变 -oint，t 字母不能省。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B1 陷阱】Marie nous _____ (rejoindre) au cinéma.",
+          "options": [
+            "a rejoint",
+            "a rejoints",
+            "a rejointe",
+            "est rejointe"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 rejoindre + COD 提前。正确答案为 a rejoints。nous 在这里作直接宾语（rejoindre qn），提前至助动词前。假设 nous 为包含阳性成员的群体，默认阳性复数，加 s。选项0无配合；选项2阴单；选项3错用 être 且阴单。TCF 高频陷阱点：人称代词作 COD 提前时的配合。判断口诀：人称代词也是 COD，提前必须看性数。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B2 陷阱】Les deux rivières se _____ (rejoindre) un peu plus loin, formant un lac. (au passé composé)",
+          "correct": "sont rejointes",
+          "explanation": "本题考察代词式动词 se rejoindre + 过去分词配合。正确答案为 sont rejointes。代词式动词用 être 作助动词，se 这里是相互意义（互相汇合），作直接宾语，指代 Les deux rivières（阴性复数）。因此 rejoint 需加 es 变为 rejointes。TCF 高频陷阱点：代词式动词的实质宾语分析及阴阳性判断。判断口诀：se 作直宾看主语，阴复 es 紧相随。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Tu _____ (ne pas comprendre) la leçon d'hier ?",
+          "options": [
+            "n'a pas compris",
+            "n'as pas compris",
+            "ne as pas compris",
+            "n'as compris pas"
+          ],
+          "correct": 1,
+          "explanation": "本题考察复合过去时否定形式。正确答案为 n'as pas compris。选项0助动词变位错（tu应用as）；选项2未省音；选项3否定词位置错。TCF 高频陷阱点：ne pas 必须紧紧夹击助动词，且遇到元音必省音。判断口诀：否定夹击助动词，tu配as要记清。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Les exercices qu'il _____ (comprendre) sont très difficiles. (au passé composé)",
+          "correct": "a compris",
+          "explanation": "本题考察过去分词性数配合。正确答案为 a compris。que 代指 les exercices (阳性复数) 提前作 COD，过去分词 compris 理应加 s，但由于其本身已由 s 结尾，所以形态保持不变依然是 compris。TCF 高频陷阱点：以 s 结尾的过去分词在阳性复数配合时的“隐形”变化。判断口诀：阳复配合本加s，遇s结尾则不变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Bien qu'elle _____ (comprendre) la situation, elle a refusé d'intervenir.",
+          "options": [
+            "a compris",
+            "avait compris",
+            "ait compris",
+            "aurait compris"
+          ],
+          "correct": 2,
+          "explanation": "本题考察虚拟式过去时。正确答案为 ait compris。Bien que 引导让步状语从句，后必须接虚拟式 (subjonctif)。此处表达发生在过去的动作，需用虚拟式过去时（ait compris）。选项0为直陈式；选项1为愈过去时；选项3为条件式。TCF 高频陷阱点：Bien que 等连词强制触发虚拟式的时态协同。判断口诀：Bien que 之后必虚拟，过去已发生选 ait/soit。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】_____ (prendre)-vous de bonnes décisions pour l'entreprise hier ?",
+          "options": [
+            "Avez pris",
+            "Avez-vous pris",
+            "A-vous pris",
+            "Ont-vous pris"
+          ],
+          "correct": 1,
+          "explanation": "本题考察复合过去时的主谓倒装疑问句。正确答案为 Avez-vous pris。在复合时态中，倒装只发生在助动词和主语代词之间，过去分词位置保留在后面。选项0缺主语；选项2和3助动词变位错误。TCF 高频陷阱点：倒装句中过去分词的位置。判断口诀：复合倒装移助动，连字符号不可少。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Ce sont de très bonnes décisions, je suis heureux que vous les _____ (prendre). (au passé composé)",
+          "correct": "ayez prises",
+          "explanation": "本题考察虚拟式过去时及性数配合。正确答案为 ayez prises。主句 je suis heureux que 表达情感，从句需用虚拟式。les 代指 décisions (阴性复数) 提前作 COD，过去分词 pris 需配合变为 prises。TCF 高频陷阱点：虚拟式中的过去分词配合，双重考点叠加。判断口诀：情感动词跟虚拟，阴复 COD 前置需变 es。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Ces décisions ont été _____ (prendre) à l'unanimité par le conseil d'administration.",
+          "options": [
+            "pris",
+            "prise",
+            "prises",
+            "prisses"
+          ],
+          "correct": 2,
+          "explanation": "本题考察被动语态中的过去分词配合。正确答案为 prises。在被动结构 ont été + participe passé 中，过去分词必须与主语 Ces décisions (阴性复数) 进行严格的性数配合。选项0无配合；选项1阴单；选项3拼写错误。TCF 高频陷阱点：被动语态中极易忘记向远端的主语找配合。判断口诀：被动语态跟主语，阴阳单复要对齐。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Est-ce que tu _____ (répondre) au professeur ce matin ?",
+          "options": [
+            "as répondu",
+            "a répondu",
+            "as répondis",
+            "es répondu"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 tu 人称的复合过去时。正确答案为 as répondu。选项1助动词错；选项2分词错；选项3错用 être。TCF 高频陷阱点：tu 对应的 avoir 变位是 as 而非 a。判断口诀：tu as 莫忘 s，répondre 用 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B1 陷阱】Les lettres auxquelles j'_____ (répondre) hier sont sur votre bureau.",
+          "options": [
+            "ai répondu",
+            "ai répondue",
+            "ai répondus",
+            "ai répondues"
+          ],
+          "correct": 0,
+          "explanation": "极其经典的 TCF 陷阱题！本题考察 COD 与 COI 的区别。正确答案为 ai répondu。répondre à qch 是间接及物动词，auxquelles 是间接宾语 (COI) 提前。在复合过去时中，只有直接宾语 (COD) 提前才需配合，COI 提前**不**配合。因此保持 répondu 原形。选项1,2,3均进行了错误配合。判断口诀：找准动词及物性，间宾提前不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B2 陷阱】Il m'a posé une question si complexe que je ne _____ (répondre) jamais sans ton aide. (au conditionnel passé)",
+          "correct": "n'aurais jamais répondu",
+          "explanation": "本题考察条件式过去时的否定形式。正确答案为 n'aurais jamais répondu。表达“如果没有你的帮助，我本绝不可能回答出来”的虚拟语气，主句用条件式过去时。je 对应 aurais，否定词 ne jamais 夹击助动词（注意填空时要根据题干补全不完整的否定或省音）。如果题目干已有 ne，则填 aurais jamais répondu。本题综合判定填 n'aurais jamais répondu（假设空包含全部谓语部分）。判断口诀：假设过去未发生，条件过去来救场。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Claude _____ (surprendre) sa famille. (au passé composé)",
+          "correct": "a surpris",
+          "explanation": "本题考察 surprendre 的复合过去时。正确答案为 a surpris。surprendre 是 prendre 的同根词，过去分词为 surpris。Claude 是第三人称单数，助动词为 a。TCF 高频陷阱点：复合动词的过去分词形态依附于词根。判断口诀：带 prendre 皆变 pris，第三人称配 a。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【A2 陷阱】Vous _____ (ne pas surprendre) le cambrioleur dans la maison ?",
+          "options": [
+            "n'avez pas surpris",
+            "n'avez pas surprendu",
+            "n'avez surpris pas",
+            "ne avez pas surpris"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 vous 人称的否定变位。正确答案为 n'avez pas surpris。选项1分词错；选项2否定词位置错；选项3未省音。TCF 高频陷阱点：vous avez 的省音和否定夹击。判断口诀：n'avez pas 连读对，surpris 分词不可变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "【B1 陷阱】Quelle est l'erreur que vous avez _____ (surprendre) dans ce rapport ?",
+          "correct": "surprise",
+          "explanation": "本题考察过去分词性数配合。正确答案为 surprise。que 代指 l'erreur (阴性单数)，COD 提前需配合，surpris 变为 surprise (发音由 /pri/ 变为 /priz/)。TCF 高频陷阱点：阴性配合不仅加 e，还常伴随读音的改变，在听力或变位中极易出错。判断口诀：阴单 COD 在前头，pris 加 e 读作 prise。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "【B2 陷阱】Ils se sont _____ (surprendre) à chanter la même chanson en cœur.",
+          "options": [
+            "surpris",
+            "surprise",
+            "surprises",
+            "surprendre"
+          ],
+          "correct": 0,
+          "explanation": "本题考察代词式动词 se surprendre 的配合。正确答案为 surpris。这里 se 作 COD 指代 ils (阳性复数)，表示“他们惊讶地发现自己...”。因为 surpris 本身已包含 s，所以阳性复数形态不改变，依然是 surpris。选项1是阴单；选项2是阴复。TCF 高频陷阱点：代词式动词的配合遇上本身以 s 结尾的过去分词。判断口诀：se 作直宾同主语，s 结尾复数不再加。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, Marie _____ le train de 8 heures.",
+          "options": [
+            "a prend",
+            "a pris",
+            "a prendu",
+            "a prit"
+          ],
+          "correct": 1,
+          "explanation": "prendre 的过去分词是 pris（-is 家族），不是 prendu 或 prit。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous n'avons pas _____ la question du professeur.",
+          "options": [
+            "compris",
+            "comprendu",
+            "comprenu",
+            "comprit"
+          ],
+          "correct": 0,
+          "explanation": "comprendre 属于 prendre 家族，过去分词一律是 -is → compris。comprendu 是最常见的错误。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu _____ à son message ?",
+          "options": [
+            "as répondu",
+            "as répondé",
+            "a répondu",
+            "as réponds"
+          ],
+          "correct": 0,
+          "explanation": "répondre 过去分词为 répondu（-u 家族）；主语 tu 搭配 as。注意 répondre à 的介词 à 已在题干中。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les pompiers _____ l'incendie en deux heures.",
+          "options": [
+            "ont éteint",
+            "ont éteins",
+            "ont éteindu",
+            "ont éteindre"
+          ],
+          "correct": 0,
+          "explanation": "éteindre 属于 peindre 家族（-int 结尾），过去分词为 éteint。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ rendez-vous chez le médecin.",
+          "options": [
+            "a prise",
+            "a prit",
+            "a pris",
+            "a prend"
+          ],
+          "correct": 2,
+          "explanation": "prendre rendez-vous 固定搭配。pris 不因 elle 而变化，因为助动词是 avoir，且直接宾语 rendez-vous 在动词后面，过去分词不配合。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On _____ dire que le restaurant allait fermer.",
+          "options": [
+            "a entendu",
+            "a entendé",
+            "a entendre",
+            "a entent"
+          ],
+          "correct": 0,
+          "explanation": "entendre → entendu（-u 家族）。entendre dire que = 听说……，TCF 高频表达。on 按第三人称单数变位 → a。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Picasso _____ ce tableau en 1937.",
+          "options": [
+            "a peint",
+            "a peindre",
+            "a peindu",
+            "a peins"
+          ],
+          "correct": 0,
+          "explanation": "peindre → peint（-int 家族）。没有 peindu 这种形式。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ vos amis au restaurant ?",
+          "options": [
+            "avez rejoint",
+            "avez rejoindre",
+            "avez rejoindu",
+            "avez rejoins"
+          ],
+          "correct": 0,
+          "explanation": "rejoindre → rejoint（-int 家族）。rejoindre qqn = 去和某人会合。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce couple _____ tous ses problèmes grâce à une thérapie.",
+          "options": [
+            "a résoudre",
+            "a résolu",
+            "a résolvé",
+            "a résoulu"
+          ],
+          "correct": 1,
+          "explanation": "résoudre → résolu（-u 家族，但注意不是简单去 -re 加 -u，而是词根变化：résou- + -lu）。grâce à = 多亏了。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas de machine à coudre, alors j'_____ les rideaux à la main.",
+          "options": [
+            "ai cousu",
+            "ai cousé",
+            "ai coudré",
+            "ai coud"
+          ],
+          "correct": 0,
+          "explanation": "coudre → cousu（-u 家族）。coudre à la main = 手工缝制。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些过去分词形式是正确的？",
+          "options": [
+            "apprendre → appris",
+            "attendre → attendis",
+            "peindre → peint",
+            "répondre → répondé"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "apprendre → appris ✅（-is 家族）；peindre → peint ✅（-int 家族）。attendre → attendu 而非 attendis；répondre → répondu 而非 répondé。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的语序是正确的？",
+          "options": [
+            "Il n'a pas compris la question.",
+            "Il n'a compris pas la question.",
+            "Nous ne avons pas pris le bus.",
+            "Nous n'avons pas pris le bus."
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "否定语序：ne + avoir变位 + pas + 过去分词。第二项 pas 位置错误；第三项 ne 在元音前必须缩合为 n'。",
+          "category": "passé composé 否定"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (surprendre) tout le monde avec cette nouvelle.",
+          "correct": [
+            "as surpris"
+          ],
+          "explanation": "surprendre → surpris（prendre 家族，-is 结尾）。主语 tu 搭配 as。",
+          "category": "passé composé -dre"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (ne pas attendre) le bus et elles sont parties à pied.",
+          "correct": [
+            "n'ont pas attendu"
+          ],
+          "explanation": "attendre → attendu；主语 elles → ont；否定形式：n'ont pas attendu。",
+          "category": "passé composé 否定"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Samedi dernier, Paul _____ (prendre) le métro, il _____ (rejoindre) ses collègues au bureau, puis il _____ (répondre) à tous ses e-mails. Le soir, il _____ (entendre) dire qu'un ami avait _____ (peindre) son portrait.",
+          "correct": [
+            "a pris",
+            "a rejoint",
+            "a répondu",
+            "a entendu",
+            "peint"
+          ],
+          "explanation": "五个空覆盖三大家族：pris（-is）、rejoint（-int）、répondu（-u）、entendu（-u）、peint（-int）。最后一空在 avait 后面，是plus-que-parfait，但过去分词形式不变。",
+          "category": "passé composé 综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/13yFu9SyERA7DJjpZnu6FbEooAzk2T2xeG5v_3T7Jt5Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772234861810-29jylzek9rn",
+          "front": "prendre 的过去分词",
+          "back": "pris\n助记：prendre 家族全部 -is"
+        },
+        {
+          "id": "1772234861810-5dgs98q4rqy",
+          "front": "apprendre 的过去分词",
+          "back": "appris\n例句：J'ai appris le français."
+        },
+        {
+          "id": "1772234861810-69k2xu4tm38",
+          "front": "comprendre 的过去分词",
+          "back": "compris\n⚠️ 不是 comprendu！"
+        },
+        {
+          "id": "1772234861810-bcmrozwyjuo",
+          "front": "reprendre 的过去分词",
+          "back": "repris"
+        },
+        {
+          "id": "1772234861810-kko85gj72u",
+          "front": "surprendre 的过去分词",
+          "back": "surpris\n例句：Claude a surpris sa famille."
+        },
+        {
+          "id": "1772234861810-g7z9s7nxxs",
+          "front": "entreprendre 的过去分词",
+          "back": "entrepris"
+        },
+        {
+          "id": "1772234861810-73zlpb9j8f4",
+          "front": "attendre 的过去分词",
+          "back": "attendu\n例句：Je t'ai attendu une heure."
+        },
+        {
+          "id": "1772234861810-olscw6bwtto",
+          "front": "entendre 的过去分词",
+          "back": "entendu\n搭配：entendre dire que… = 听说……"
+        },
+        {
+          "id": "1772234861810-vbrk6lw3jge",
+          "front": "répondre 的过去分词",
+          "back": "répondu\n⚠️ répondre à qqn/qqch（必须加 à）"
+        },
+        {
+          "id": "1772234861810-ed0j6y0576v",
+          "front": "vendre 的过去分词",
+          "back": "vendu"
+        },
+        {
+          "id": "1772234861810-vumo0z0xv7",
+          "front": "perdre 的过去分词",
+          "back": "perdu"
+        },
+        {
+          "id": "1772234861810-7kqrbkqm07u",
+          "front": "défendre 的过去分词",
+          "back": "défendu"
+        },
+        {
+          "id": "1772234861810-4aukwco75x",
+          "front": "coudre 的过去分词",
+          "back": "cousu\n例句：J'ai cousu les rideaux à la main."
+        },
+        {
+          "id": "1772234861810-swme2mvqre",
+          "front": "résoudre 的过去分词",
+          "back": "résolu\n搭配：résoudre un problème"
+        },
+        {
+          "id": "1772234861810-lweetf2rs4",
+          "front": "confondre 的过去分词",
+          "back": "confondu"
+        },
+        {
+          "id": "1772234861810-8gsc12u2ell",
+          "front": "prétendre 的过去分词",
+          "back": "prétendu"
+        },
+        {
+          "id": "1772234861810-hpeujskfzm9",
+          "front": "peindre 的过去分词",
+          "back": "peint\n例句：Picasso a peint ce tableau."
+        },
+        {
+          "id": "1772234861810-has4ox780p",
+          "front": "éteindre 的过去分词",
+          "back": "éteint\n例句：Les pompiers ont éteint l'incendie."
+        },
+        {
+          "id": "1772234861810-rjxu02vrlue",
+          "front": "atteindre 的过去分词",
+          "back": "atteint"
+        },
+        {
+          "id": "1772234861810-7xvb2rgt8s3",
+          "front": "craindre 的过去分词",
+          "back": "craint"
+        },
+        {
+          "id": "1772234861810-upxb8px7hho",
+          "front": "plaindre 的过去分词",
+          "back": "plaint"
+        },
+        {
+          "id": "1772234861810-htdpr932bu",
+          "front": "joindre 的过去分词",
+          "back": "joint"
+        },
+        {
+          "id": "1772234861810-j2jzkv7uwi",
+          "front": "rejoindre 的过去分词",
+          "back": "rejoint\n搭配：rejoindre qqn / rejoindre l'armée"
+        },
+        {
+          "id": "1772234861810-y3aqleigic",
+          "front": "passé composé 否定语序",
+          "back": "ne + avoir变位 + pas + 过去分词\n例：Il n'a pas pris les clés."
+        },
+        {
+          "id": "1772234861810-fcictkndvj",
+          "front": "attendre 后面加不加介词？",
+          "back": "不加！直接跟宾语\nattendre le bus ✅\nattendre pour le bus ❌"
+        },
+        {
+          "id": "1772234861810-tr0jfug0q0g",
+          "front": "répondre 后面加什么介词？",
+          "back": "必须加 à\nrépondre à la question ✅\nrépondre la question ❌"
+        },
+        {
+          "id": "1772234861810-4fcx66brane",
+          "front": "prendre rendez-vous 要不要加冠词？",
+          "back": "不加冠词\nJ'ai pris rendez-vous chez le médecin. ✅"
+        },
+        {
+          "id": "1772234861810-kv753rl6twj",
+          "front": "entendre dire que… 什么意思？",
+          "back": "听说……\n例：On a entendu dire qu'il émigrait au Canada."
+        },
+        {
+          "id": "1772234861810-xi0ojwn4at8",
+          "front": "-dre 过去分词三大家族速记",
+          "back": "-is 家族：prendre 及其派生词\n-u 家族：attendre, répondre, vendre, perdre, coudre, résoudre 等\n-int 家族：peindre, éteindre, craindre, joindre, rejoindre 等"
+        },
+        {
+          "id": "1772234861810-8wuclukvzo",
+          "front": "on 在 passé composé 中怎么变位？",
+          "back": "按第三人称单数：on + a + 过去分词\n例：On a entendu la nouvelle."
+        }
+      ]
+    },
+    {
       "id": 1772232626560,
       "name": "Unit 3 Passé Composé -IRE变位",
       "folderId": "1771907837913",
@@ -47339,6 +48071,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-27T23:00:19.181Z",
+  "exportedAt": "2026-02-27T23:33:28.317Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
