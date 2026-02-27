@@ -4750,7 +4750,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function closeIncompleteCheckModal() {
       _incompleteReviewList = [];
       var overlay = document.getElementById('incomplete-check-overlay');
-      if (overlay) { overlay.classList.remove('show'); clearModalFocusTrap(); }
+      if (overlay) { overlay.classList.remove('show'); overlay.style.display = ''; clearModalFocusTrap(); }
       refreshEditSetMeta();
     }
     function saveEditSetModal() {
@@ -6719,8 +6719,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           if (quizSummary) quizSummary.textContent = (unit.quizSet && unit.quizSet.length) ? '共 ' + unit.quizSet.length + ' 题。点击「开始练习」进入答题。' : '暂无题目。';
           const cardsSummary = document.getElementById('study-unit-cards-summary');
           if (cardsSummary) cardsSummary.textContent = (unit.memoryCards && unit.memoryCards.length) ? '共 ' + unit.memoryCards.length + ' 张。点击「开始训练」进入记忆卡。' : '暂无记忆卡。';
+          [ 'btn-lesson-continue', 'btn-quiz-regenerate', 'btn-cards-regenerate' ].forEach(function(id) {
+            var b = document.getElementById(id);
+            if (b) { b.disabled = true; b.title = '来自云端的学习单元无法重新生成'; }
+          });
           return;
         }
+        [ 'btn-lesson-continue', 'btn-quiz-regenerate', 'btn-cards-regenerate' ].forEach(function(id) {
+          var b = document.getElementById(id);
+          if (b) { b.disabled = false; b.title = ''; }
+        });
         api('/api/study-units/' + _currentStudyUnitId).then(unit => {
           const titleEl = document.getElementById('study-unit-detail-title');
           if (titleEl) titleEl.textContent = unit.title || '学习单元';
@@ -6783,6 +6791,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       document.getElementById('btn-study-unit-detail-back').addEventListener('click', () => { showScreen(SCREEN.STUDY_UNITS); renderStudyUnitsList(); });
       document.getElementById('btn-lesson-continue').addEventListener('click', () => {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) { showToast('该学习单元来自云端，无法继续生成讲解'); return; }
         const btn = document.getElementById('btn-lesson-continue');
         if (btn) btn.disabled = true;
         apiPost('/api/ai/lesson', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已追加一段讲解'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
@@ -6803,6 +6812,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
       document.getElementById('btn-quiz-regenerate').addEventListener('click', () => {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) { showToast('该学习单元来自云端，无法重新生成题目'); return; }
         const btn = document.getElementById('btn-quiz-regenerate');
         if (btn) btn.disabled = true;
         apiPost('/api/ai/quiz', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已重新生成题目'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
@@ -6844,6 +6854,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
       document.getElementById('btn-cards-regenerate').addEventListener('click', () => {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) { showToast('该学习单元来自云端，无法重新生成记忆卡'); return; }
         const btn = document.getElementById('btn-cards-regenerate');
         if (btn) btn.disabled = true;
         apiPost('/api/ai/cards', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已重新生成记忆卡'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
