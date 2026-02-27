@@ -2437,6 +2437,17 @@
         <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
           <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>（含习题集与各集记忆卡）。手机要看到同一份习题集与记忆卡：保存后执行下方命令推送，手机打开本页点「<strong>从云端加载</strong>」即可同步。</p>
           <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件。手机可用「<strong>上传到 GitHub</strong>」把本地数据（含错题与备注）推送到同一仓库，电脑端再「从云端加载」即可同步。</p>
+          <div class="import-lock-wrap" id="ai-api-key-wrap" style="margin-top:0.75rem;">
+            <p class="import-lock-desc"><strong>AI API Key 设置</strong>（每人用自己的 Key，防止他人占用）：Key 仅保存在<strong>本机浏览器</strong>，仅在「生成讲解/题目/记忆卡」时随请求发送给当前站点服务端，用于转发到 AI 服务商；服务端<strong>不存储、不记录</strong>。请勿在他人或公共电脑上保存。</p>
+            <div class="import-lock-status">
+              <span id="ai-api-key-status-text">未设置</span>
+              <span class="import-lock-btns">
+                <input type="password" id="ai-api-key-input" placeholder="sk-..." autocomplete="off" style="max-width:220px;padding:0.35rem 0.5rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);" />
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-ai-api-key-save">保存到本机</button>
+                <button type="button" class="btn btn-ghost btn-sm" id="btn-ai-api-key-clear">清除</button>
+              </span>
+            </div>
+          </div>
           <div class="storage-grid">
             <button type="button" class="storage-card" id="btn-open-folder">
               <span class="title">打开并加载</span>
@@ -3078,6 +3089,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _currentStudyUnitId = null;
     let _currentStudyUnitFromBundle = null;
     const STUDY_UNITS_BUNDLE_KEY = 'french_quiz_study_units_bundle';
+    const AI_API_KEY_STORAGE_KEY = 'french_quiz_ai_api_key';
     const _escapeDiv = document.createElement('div');
     const _wrongBookIdCache = new WeakMap();
     let _modalLastFocus = null;
@@ -6547,7 +6559,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return r.json();
         });
       }
-      function apiPost(path, body) { return api(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) }); }
+      function getStoredAiApiKey() { try { return (localStorage.getItem(AI_API_KEY_STORAGE_KEY) || '').trim(); } catch (_) { return ''; } }
+      function apiPost(path, body) {
+        var b = body && typeof body === 'object' ? { ...body } : {};
+        if (/\/api\/ai\//.test(path)) b.apiKey = b.apiKey !== undefined ? b.apiKey : getStoredAiApiKey();
+        return api(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(b) });
+      }
       function apiUpload(path, formData) { return fetch(path, { method: 'POST', credentials: 'same-origin', body: formData }).then(r => r.ok ? r.json() : r.json().then(j => Promise.reject(new Error(j.error || r.statusText)))); }
       function getStudyUnitsBundleFromStorage() {
         try {
@@ -7666,6 +7683,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     }
     document.getElementById('btn-load-study-units-cloud').addEventListener('click', loadStudyUnitsFromCloud);
+    function updateAiApiKeyStatus() {
+      var el = document.getElementById('ai-api-key-status-text');
+      if (!el) return;
+      el.textContent = getStoredAiApiKey() ? '已设置（仅本机）' : '未设置';
+    }
+    document.getElementById('btn-ai-api-key-save').addEventListener('click', function() {
+      var input = document.getElementById('ai-api-key-input');
+      var val = (input && input.value) ? input.value.trim() : '';
+      if (!val) { showToast('请先输入 API Key'); return; }
+      try { localStorage.setItem(AI_API_KEY_STORAGE_KEY, val); } catch (e) { showToast('保存失败'); return; }
+      if (input) input.value = '';
+      updateAiApiKeyStatus();
+      showToast('已保存到本机，仅您使用');
+    });
+    document.getElementById('btn-ai-api-key-clear').addEventListener('click', function() {
+      try { localStorage.removeItem(AI_API_KEY_STORAGE_KEY); } catch (_) {}
+      var input = document.getElementById('ai-api-key-input');
+      if (input) input.value = '';
+      updateAiApiKeyStatus();
+      showToast('已清除');
+    });
+    updateAiApiKeyStatus();
     function openGitHubUploadModal() {
       const repoEl = document.getElementById('github-upload-repo');
       const tokenEl = document.getElementById('github-upload-token');
