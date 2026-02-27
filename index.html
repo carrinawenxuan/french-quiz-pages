@@ -2838,7 +2838,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-add-card">添加卡片</button>
           <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-import-cards-json">从 JSON 粘贴导入</button>
           <button type="button" class="btn btn-secondary btn-sm" id="btn-edit-set-clear-cards">清空卡片</button>
-          <button type="button" class="btn btn-primary btn-sm" id="btn-edit-set-start-cards-train">开始训练</button>
         </div>
       </div>
       <div class="edit-set-actions">
@@ -2859,7 +2858,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
-  <div class="edit-set-review-overlay" id="edit-set-review-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-review-modal-title" style="display: none;">
+  <div class="edit-set-review-overlay" id="edit-set-review-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-review-modal-title">
     <div class="edit-set-review-modal">
       <h3 id="edit-set-review-modal-title">编辑复习资料</h3>
       <div class="edit-set-field">
@@ -2882,7 +2881,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
-  <div class="edit-set-append-overlay" id="edit-set-append-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-append-modal-title" style="display: none;">
+  <div class="edit-set-append-overlay" id="edit-set-append-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-append-modal-title">
     <div class="edit-set-append-modal">
       <h3 id="edit-set-append-modal-title">追加题目</h3>
       <p class="edit-set-append-hint">粘贴 JSON 数组或文本格式，会追加到本题集末尾。</p>
@@ -4594,11 +4593,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (modalLinks) modalLinks.value = (linksEl && linksEl.value) ? linksEl.value : '';
       if (listEl) renderEditModalPastedImagesToList(listEl);
       const overlay = document.getElementById('edit-set-review-overlay');
-      if (overlay) { overlay.classList.add('show'); setModalFocusTrap(overlay); }
+      if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
     }
     function closeEditSetReviewOverlay() {
       const overlay = document.getElementById('edit-set-review-overlay');
-      if (overlay) { overlay.classList.remove('show'); clearModalFocusTrap(); }
+      if (overlay) { overlay.classList.remove('show'); overlay.style.display = ''; clearModalFocusTrap(); }
     }
     function syncReviewModalToHidden() {
       const modalTexts = document.getElementById('edit-set-review-modal-texts');
@@ -4610,13 +4609,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function openEditSetAppendOverlay() {
       const overlay = document.getElementById('edit-set-append-overlay');
-      if (overlay) { overlay.classList.add('show'); setModalFocusTrap(overlay); }
+      if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
       const el = document.getElementById('edit-set-append-modal-text');
       if (el) el.focus();
     }
     function closeEditSetAppendOverlay() {
       const overlay = document.getElementById('edit-set-append-overlay');
-      if (overlay) { overlay.classList.remove('show'); clearModalFocusTrap(); }
+      if (overlay) { overlay.classList.remove('show'); overlay.style.display = ''; clearModalFocusTrap(); }
     }
     function formatQuestionForPreview(q, index) {
       const typeLabel = QUESTION_TYPES[q.type] || q.type || '题目';
@@ -4700,7 +4699,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       _incompleteReviewIndex = 0;
       var overlay = document.getElementById('incomplete-check-overlay');
-      if (overlay) { overlay.classList.add('show'); setModalFocusTrap(overlay); }
+      if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
       renderIncompleteCheckCurrent();
     }
     function renderIncompleteCheckCurrent() {
@@ -7654,14 +7653,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const overlay = document.getElementById('flashcard-import-json-overlay');
       overlay.style.display = 'flex';
       setModalFocusTrap(overlay);
-    });
-    document.getElementById('btn-edit-set-start-cards-train').addEventListener('click', () => {
-      if (_editingSetId == null) return;
-      const sets = getSavedSets();
-      const set = sets.find(s => String(s.id) === String(_editingSetId));
-      const cards = (set && Array.isArray(set.cards)) ? set.cards : [];
-      if (cards.length === 0) { showToast('请先添加卡片'); return; }
-      if (typeof window.startFlashcardTrainingWithCards === 'function') window.startFlashcardTrainingWithCards(cards);
     });
     document.getElementById('btn-edit-set-clear-cards').addEventListener('click', () => {
       if (_editingSetId == null) return;
