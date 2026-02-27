@@ -2849,6 +2849,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         <span class="edit-set-sep">·</span>
         <button type="button" class="btn btn-link" id="btn-edit-set-incomplete-check">一键检查</button>
         <span class="edit-set-sep">·</span>
+        <button type="button" class="btn btn-link-danger" id="btn-edit-set-clear-questions">清空所有题目</button>
+        <span class="edit-set-sep">·</span>
         <button type="button" class="btn btn-link-danger" id="btn-edit-set-delete">删除本习题集</button>
       </div>
     </div>
@@ -7539,6 +7541,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (set) showPreviewQuestions(set);
     });
     document.getElementById('btn-edit-set-incomplete-check').addEventListener('click', openIncompleteCheckModal);
+    document.getElementById('btn-edit-set-clear-questions').addEventListener('click', () => {
+      if (_editingSetId == null) return;
+      const sets = getSavedSets();
+      const set = sets.find(s => String(s.id) === String(_editingSetId));
+      const count = (set && Array.isArray(set.questions)) ? set.questions.length : 0;
+      if (count === 0) { showToast('本题集暂无题目'); return; }
+      customConfirm('确定清空本题集的全部 ' + count + ' 道题目？此操作不可恢复。').then(ok => {
+        if (!ok) return;
+        set.questions = [];
+        setSavedSets(sets);
+        refreshEditSetMeta();
+        showToast('已清空所有题目');
+      });
+    });
     document.getElementById('btn-edit-set-delete').addEventListener('click', deleteFromEditModal);
     document.getElementById('btn-edit-set-add-card').addEventListener('click', () => {
       if (_editingSetId == null) return;
