@@ -1,6 +1,312 @@
 {
   "savedSets": [
     {
+      "id": 1772235792525,
+      "name": "Unit 3 Passé Composé -AIRE / -OIRE",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-27T23:43:12.525Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (plaire) à son futur employeur.",
+          "correct": [
+            "a plu"
+          ],
+          "explanation": "本题考察 plaire 的 passé composé。主语 il，助动词 a，过去分词 plu。TCF 高频陷阱点：不规则过去分词记忆，常与 pleuvoir (下雨) 的分词混淆。判断口诀：plaire 变位无特殊，直接加 plu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et Julie se _____ dès le premier regard.",
+          "options": [
+            "sont plues",
+            "ont plu",
+            "sont plu",
+            "ont plues"
+          ],
+          "correct": 2,
+          "explanation": "本题考察代动词 se plaire 的复合过去时及分词配合。正确答案是 sont plu。代动词助动词用 être。由于 plaire à qqn，se 是间接宾语，所以过去分词绝对不配合。TCF 高频陷阱点：代动词的间宾不配合。判断口诀：plaire 永远无直宾，se plaire 永远不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (soustraire) 10 % du total.",
+          "correct": [
+            "ai soustrait"
+          ],
+          "explanation": "本题考察 soustraire 的 passé composé。主语 je，助动词 ai，过去分词 soustrait。TCF 高频陷阱点：-traire 结尾动词的分词形式。判断口诀：-traire 变 -trait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici les 10 % que j' _____ de la facture.",
+          "options": [
+            "ai soustrait",
+            "ai soustraits",
+            "ai soustraite",
+            "suis soustrait"
+          ],
+          "correct": 1,
+          "explanation": "本题考察复合过去时提前直宾的配合。正确答案是 ai soustraits。que 代指 les 10 % (阳性复数)，作为直接宾语提前，过去分词需加 s。TCF 高频陷阱点：关系代词 que 引起的性数配合。判断口诀：avoir + 提前 COD 必配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (croire) à sa promesse.",
+          "correct": [
+            "ont cru"
+          ],
+          "explanation": "本题考察 croire 的 passé composé。主语 ils，助动词 ont，过去分词 cru。TCF 高频陷阱点：croire 分词无长音符。判断口诀：croire -> cru。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le chômage a _____ ce trimestre.",
+          "options": [
+            "cru",
+            "crus",
+            "crû",
+            "croit"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 croître (增长) 与 croire (相信) 的分词区分。正确答案是 crû。表示增长时，阳性单数过去分词必须带长音符以区分 cru (相信)。TCF 高频陷阱点：croître 和 croire 的分词同音混淆。判断口诀：增长需戴帽 (crû)，相信光秃秃 (cru)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (faire) la fête ?",
+          "correct": [
+            "as fait"
+          ],
+          "explanation": "本题考察 faire 的 passé composé。tu 对应 as fait。TCF 高频陷阱点：基础不规则动词变位。判断口诀：faire -> fait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces blagues, je les _____ répéter cent fois.",
+          "options": [
+            "ai fait",
+            "ai faites",
+            "suis fait",
+            "ai faits"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 faire + 不定式的特殊配合规则。正确答案是 ai fait。当 faire 后面紧接动词不定式时，即使有提前的直接宾语 (les)，faire 的过去分词也永远不变。TCF 高频陷阱点：faire + infinitif 绝对不配合。判断口诀：faire 遇不定式，铁打不动。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "On _____ (boire) de la vodka.",
+          "correct": [
+            "a bu"
+          ],
+          "explanation": "本题考察 boire 的 passé composé。on 对应 a bu。TCF 高频陷阱点：基础分词拼写。判断口诀：boire -> bu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est malade car il a _____ trop de bières.",
+          "options": [
+            "bues",
+            "bus",
+            "bu",
+            "boit"
+          ],
+          "correct": 2,
+          "explanation": "本题考察直宾在后时的分词不配合。正确答案是 bu。trop de bières 是直接宾语，但在动词之后，所以 avoir 助动词下的过去分词不配合。TCF 高频陷阱点：看到复数名词就盲目配合。判断口诀：COD在后，分词不凑。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (satisfaire) votre demande.",
+          "correct": [
+            "avons satisfait"
+          ],
+          "explanation": "本题考察 satisfaire 的 passé composé。同 faire，分词为 satisfait。TCF 高频陷阱点：复合词变位类推。判断口诀：satisfaire 跟随 faire。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une condition que nous n'avons pas ***.",
+          "options": [
+            "satisfait",
+            "satisfaits",
+            "satisfaite",
+            "satisfaites"
+          ],
+          "correct": 2,
+          "explanation": "本题考察提前 COD 的配合 + 否定结构。正确答案是 satisfaite。que 代指 une condition (阴性单数)，且在动词前，过去分词需加 e。否定不改变该规则。TCF 高频陷阱点：否定句中的性数配合不被影响。判断口诀：有 que 找先行词，阴性加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ (manger) du caviar et nous _____ (boire) du champagne.",
+          "correct": [
+            "avons mangé",
+            "avons bu"
+          ],
+          "explanation": "本题考察第一组规则动词与不规则动词的对比。manger -> mangé, boire -> bu。TCF 高频陷阱点：平行结构中不同类型动词的变位。判断口诀：er变é，boire变bu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Les huîtres que nous _____ (manger) et l'eau que nous _____ (boire) étaient excellentes.",
+          "correct": [
+            "avons mangées",
+            "avons bue"
+          ],
+          "explanation": "本题考察双重提前 COD 的配合。正确答案是 avons mangées, avons bue。les huîtres 阴复，l'eau 阴单。TCF 高频陷阱点：连续多个定语从句的配合。判断口诀：que 前名词定性数，各自配合保平安。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La pièce m'*** (plaire), mais les décors m'_____ (déplaire).",
+          "correct": [
+            "a plu",
+            "ont déplu"
+          ],
+          "explanation": "本题考察主语单复数变化及 plaire 系动词变位。La pièce 单数 a plu，les décors 复数 ont déplu。m' 是间宾不影响变位。TCF 高频陷阱点：主语倒置或被代词干扰。判断口诀：找准主语，不受代词 m' 干扰。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces deux collègues se sont fortement ***.",
+          "options": [
+            "déplu",
+            "déplus",
+            "déplues",
+            "déplut"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 se déplaire 的配合。正确答案是 déplu。与 se plaire 相同，se 是间接宾语，所以过去分词永不配合。TCF 高频陷阱点：se déplaire 分词配合陷阱。判断口诀：plaire/déplaire 遇 se 绝不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je _____ (douter) de sa sincérité : en fait je n'*** pas _____ (croire) à son histoire.",
+          "correct": [
+            "ai douté",
+            "ai",
+            "cru"
+          ],
+          "explanation": "本题考察复合过去时中的否定结构插入位置以及规则/不规则动词。douter是规则动词变ai douté；否定词ne...pas夹在助动词两边。TCF 高频陷阱点：否定副词在 passé composé 中的位置。判断口诀：ne 助动词 pas 过去分词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une histoire à laquelle je n'ai jamais _____.",
+          "options": [
+            "cru",
+            "crus",
+            "crue",
+            "croit"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 croire à + 间接宾语时的分词不配合。正确答案是 cru。à laquelle 是间接宾语，avoir 做助动词时，过去分词不与间接宾语配合。TCF 高频陷阱点：误把 à laquelle 当成直接宾语而配合。判断口诀：croire à qch 是间宾，绝对不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "On _____ (ajouter) les taxes mais on _____ (soustraire) votre réduction.",
+          "correct": [
+            "a ajouté",
+            "a soustrait"
+          ],
+          "explanation": "本题考察 ajouter (规则) 和 soustraire (不规则) 的 passé composé。On 等同于第三人称单数。TCF 高频陷阱点：soustraire 分词形式 -trait。判断口诀：on 统一用 a，-traire 变 -trait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les réductions qu'on a _____ (soustraire) sont importantes.",
+          "correct": [
+            "soustraites"
+          ],
+          "explanation": "本题考察 soustraire 在有提前直接宾语时的配合。que 指代 les réductions (阴复)，因此 a soustrait 需加 es。TCF 高频陷阱点：不规则动词分词的阴性复数拼写。判断口诀：找准先行词 réductions，阴复加 es。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils _____ (détruire) les maisons et _____ (faire) un centre commercial.",
+          "correct": [
+            "ont détruit",
+            "ont fait"
+          ],
+          "explanation": "本题考察 détruire 和 faire 的 passé composé。第三人称复数助动词 ont。détruire -> détruit, faire -> fait。TCF 高频陷阱点：-uire 结尾动词的分词形式。判断口诀：-uire 变 -uit。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La vieille maison, ils l'ont _____ pour construire un supermarché.",
+          "options": [
+            "détruit",
+            "détruite",
+            "détruits",
+            "détruites"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 détruire 配合提前的直接宾语 l' (la vieille maison)。正确答案是 détruite。阴性单数加 e。TCF 高频陷阱点：代词 l' 的性数判定。判断口诀：l' 指代 la maison，阴单加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "- Tu _____ (croire) Joël quand il _____ (proposer) d'inviter tout le monde chez lui ?",
+          "correct": [
+            "as cru",
+            "a proposé"
+          ],
+          "explanation": "本题考察日常对话中的 passé composé。tu 对应 as cru，il 对应 a proposé。TCF 高频陷阱点：从句中主语的切换导致变位变化。判断口诀：主从句主语看仔细。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "A-t-il vraiment cru _____ (pouvoir) inviter tout le monde ?",
+          "options": [
+            "pouvoir",
+            "pu",
+            "qu'il a pu",
+            "à pouvoir"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 croire 后接动作的结构。正确答案是 pouvoir。主语相同时，croire 直接加动词不定式。TCF 高频陷阱点：croire + infinitif 表示相信自己做某事。判断口诀：同主语连用，croire 后用原型。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si je dis la vérité, j'ai peur de vous _____.",
+          "options": [
+            "déplaire",
+            "déplu",
+            "dépluerez",
+            "déplaisez"
+          ],
+          "correct": 0,
+          "explanation": "本题考察介词 de 后的动词形态。正确答案是 déplaire。de 后加动词原形。TCF 高频陷阱点：时态混合题中的基础语法（原形）。判断口诀：介词 de/à/pour/sans + 动词原形。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La dent que le dentiste lui a _____, le faisait souffrir.",
+          "options": [
+            "extrait",
+            "extraits",
+            "extraite",
+            "extraites"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 extraire 分词配合。正确答案是 extraite。que 指代 la dent (阴单)，分词需加 e。TCF 高频陷阱点：罕见动词的性数配合。判断口诀：找准先行词 la dent，阴性单数加 e。",
+          "category": "动词变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1MUo7VXQZVCPi--J5Wzk4f8_FgA7c4sQgKk1_vkCsmZ4/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
       "id": 1772234727319,
       "name": "Unit 3 Passé Composé -DRE",
       "folderId": "1771907837913",
@@ -48071,6 +48377,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-27T23:39:47.197Z",
+  "exportedAt": "2026-02-27T23:43:28.440Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
