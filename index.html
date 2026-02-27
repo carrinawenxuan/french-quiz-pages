@@ -2427,6 +2427,7 @@
         <h2>数据同步</h2>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-one-save">一键保存（覆盖到项目文件夹）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-load-cloud" style="background: linear-gradient(135deg, #059669, #0d9488);">从云端加载（手机同步习题集）</button>
+        <button type="button" class="btn btn-primary btn-one-save" id="btn-load-study-units-cloud" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">📚 从云端加载学习单元</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-upload-github" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">📤 上传到 GitHub（手机→云端）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-generate-sync-text" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6); margin-top: 0.75rem;">📱 生成同步文本（手机→电脑）</button>
         <button type="button" class="btn btn-primary btn-one-save" id="btn-import-sync-text" style="background: linear-gradient(135deg, #0d9488, #059669); margin-top: 0.5rem;">💻 从同步文本导入（电脑端）</button>
@@ -3075,6 +3076,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _flashcardDecksCache = null;
     let _questionNotesCache = null;
     let _currentStudyUnitId = null;
+    let _currentStudyUnitFromBundle = null;
+    const STUDY_UNITS_BUNDLE_KEY = 'french_quiz_study_units_bundle';
     const _escapeDiv = document.createElement('div');
     const _wrongBookIdCache = new WeakMap();
     let _modalLastFocus = null;
@@ -6546,34 +6549,81 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
       function apiPost(path, body) { return api(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) }); }
       function apiUpload(path, formData) { return fetch(path, { method: 'POST', credentials: 'same-origin', body: formData }).then(r => r.ok ? r.json() : r.json().then(j => Promise.reject(new Error(j.error || r.statusText)))); }
+      function getStudyUnitsBundleFromStorage() {
+        try {
+          const raw = localStorage.getItem(STUDY_UNITS_BUNDLE_KEY);
+          if (!raw) return null;
+          const o = JSON.parse(raw);
+          return Array.isArray(o) ? { units: o, fromCloud: true } : (o.units ? o : null);
+        } catch (_) { return null; }
+      }
+      function setStudyUnitsBundleInStorage(units) {
+        try {
+          localStorage.setItem(STUDY_UNITS_BUNDLE_KEY, JSON.stringify({ units: units || [], updatedAt: new Date().toISOString() }));
+        } catch (_) {}
+      }
+      function renderStudyUnitsListFromUnits(units, fromBundle) {
+        const listEl = document.getElementById('study-units-list');
+        const emptyEl = document.getElementById('study-units-empty');
+        if (!listEl) return;
+        if (!units || units.length === 0) {
+          listEl.innerHTML = '';
+          if (emptyEl) emptyEl.style.display = 'block';
+          return;
+        }
+        if (emptyEl) emptyEl.style.display = 'none';
+        listEl.innerHTML = units.map(u => {
+          const date = u.updatedAt || u.createdAt || '';
+          const quizCount = (u.quizSet && u.quizSet.length) || 0;
+          const cardCount = (u.memoryCards && u.memoryCards.length) || 0;
+          return '<div class="storage-card saved-sets-item" data-unit-id="' + escapeHtml(u.id) + '" data-from-bundle="' + (fromBundle ? '1' : '0') + '" style="cursor:pointer;"><span class="title">' + escapeHtml(u.title || '未命名') + '</span><span class="hint">' + (date ? new Date(date).toLocaleDateString() : '') + ' · 题 ' + quizCount + ' · 卡 ' + cardCount + '</span></div>';
+        }).join('');
+        listEl.querySelectorAll('[data-unit-id]').forEach(el => {
+          el.addEventListener('click', () => {
+            _currentStudyUnitId = el.getAttribute('data-unit-id');
+            _currentStudyUnitFromBundle = el.getAttribute('data-from-bundle') === '1' ? (units.find(function(u) { return String(u.id) === _currentStudyUnitId; }) || null) : null;
+            showScreen(SCREEN.STUDY_UNIT_DETAIL);
+            loadStudyUnitDetail();
+          });
+        });
+      }
       function renderStudyUnitsList() {
         api('/api/study-units').then(units => {
-          const listEl = document.getElementById('study-units-list');
-          const emptyEl = document.getElementById('study-units-empty');
-          if (!listEl) return;
-          if (!units || units.length === 0) {
-            listEl.innerHTML = '';
-            if (emptyEl) emptyEl.style.display = 'block';
-            return;
-          }
-          if (emptyEl) emptyEl.style.display = 'none';
-          listEl.innerHTML = units.map(u => {
-            const date = u.updatedAt || u.createdAt || '';
-            const quizCount = (u.quizSet && u.quizSet.length) || 0;
-            const cardCount = (u.memoryCards && u.memoryCards.length) || 0;
-            return '<div class="storage-card saved-sets-item" data-unit-id="' + escapeHtml(u.id) + '" style="cursor:pointer;"><span class="title">' + escapeHtml(u.title || '未命名') + '</span><span class="hint">' + (date ? new Date(date).toLocaleDateString() : '') + ' · 题 ' + quizCount + ' · 卡 ' + cardCount + '</span></div>';
-          }).join('');
-          listEl.querySelectorAll('[data-unit-id]').forEach(el => {
-            el.addEventListener('click', () => {
-              _currentStudyUnitId = el.getAttribute('data-unit-id');
-              showScreen(SCREEN.STUDY_UNIT_DETAIL);
-              loadStudyUnitDetail();
-            });
+          _currentStudyUnitFromBundle = null;
+          renderStudyUnitsListFromUnits(units, false);
+        }).catch(function() {
+          fetch('/study_units_bundle.json').then(r => r.ok ? r.json() : Promise.reject()).then(function(units) {
+            setStudyUnitsBundleInStorage(Array.isArray(units) ? units : []);
+            _currentStudyUnitFromBundle = null;
+            renderStudyUnitsListFromUnits(Array.isArray(units) ? units : [], true);
+          }).catch(function() {
+            var stored = getStudyUnitsBundleFromStorage();
+            if (stored && stored.units && stored.units.length) {
+              renderStudyUnitsListFromUnits(stored.units, true);
+            } else {
+              renderStudyUnitsListFromUnits([], false);
+              showToast('未找到学习单元（本地无 API、云端无 bundle）');
+            }
           });
-        }).catch(e => showToast('加载失败：' + (e.message || '')));
+        });
       }
       function loadStudyUnitDetail() {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) {
+          var unit = _currentStudyUnitFromBundle;
+          const titleEl = document.getElementById('study-unit-detail-title');
+          if (titleEl) titleEl.textContent = unit.title || '学习单元';
+          const lessonEl = document.getElementById('study-unit-lesson-content');
+          if (lessonEl) {
+            const chunks = unit.lessonChunks || [];
+            lessonEl.innerHTML = chunks.length ? chunks.map(c => '<div class="lesson-chunk">' + (c.content || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>') + '</div>').join('<hr/>') : '<p class="text-muted">暂无讲解（来自云端 bundle）。</p>';
+          }
+          const quizSummary = document.getElementById('study-unit-quiz-summary');
+          if (quizSummary) quizSummary.textContent = (unit.quizSet && unit.quizSet.length) ? '共 ' + unit.quizSet.length + ' 题。点击「开始练习」进入答题。' : '暂无题目。';
+          const cardsSummary = document.getElementById('study-unit-cards-summary');
+          if (cardsSummary) cardsSummary.textContent = (unit.memoryCards && unit.memoryCards.length) ? '共 ' + unit.memoryCards.length + ' 张。点击「开始训练」进入记忆卡。' : '暂无记忆卡。';
+          return;
+        }
         api('/api/study-units/' + _currentStudyUnitId).then(unit => {
           const titleEl = document.getElementById('study-unit-detail-title');
           if (titleEl) titleEl.textContent = unit.title || '学习单元';
@@ -6642,6 +6692,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
       document.getElementById('btn-study-unit-start-quiz').addEventListener('click', () => {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) {
+          var q = (_currentStudyUnitFromBundle.quizSet && _currentStudyUnitFromBundle.quizSet.length) ? _currentStudyUnitFromBundle.quizSet : [];
+          if (q.length === 0) { showToast('暂无题目'); return; }
+          startQuiz(q, false, null);
+          return;
+        }
         api('/api/study-units/' + _currentStudyUnitId).then(unit => {
           const q = (unit.quizSet && unit.quizSet.length) ? unit.quizSet : [];
           if (q.length === 0) { showToast('暂无题目'); return; }
@@ -6656,6 +6712,23 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
       document.getElementById('btn-study-unit-start-cards').addEventListener('click', () => {
         if (!_currentStudyUnitId) return;
+        if (_currentStudyUnitFromBundle) {
+          var unit = _currentStudyUnitFromBundle;
+          const cards = (unit.memoryCards && unit.memoryCards.length) ? unit.memoryCards : [];
+          if (cards.length === 0) { showToast('暂无记忆卡'); return; }
+          window._flashcardTempDeckFromStudyUnit = { id: '_study_' + _currentStudyUnitId, name: unit.title || '学习单元', cards: cards.map((c, i) => ({ id: 'c' + i, front: c.front || '', back: c.back || '' })) };
+          showScreen(SCREEN.FLASHCARDS);
+          _flashcardCurrentDeckId = window._flashcardTempDeckFromStudyUnit.id;
+          showFlashcardDeckList();
+          var decks = getFlashcardDecks();
+          if (!decks.find(d => d.id === window._flashcardTempDeckFromStudyUnit.id)) {
+            decks = [window._flashcardTempDeckFromStudyUnit].concat(decks);
+            setFlashcardDecks(decks);
+          }
+          renderFlashcardDeckList();
+          showFlashcardDeckDetail();
+          return;
+        }
         api('/api/study-units/' + _currentStudyUnitId).then(unit => {
           const cards = (unit.memoryCards && unit.memoryCards.length) ? unit.memoryCards : [];
           if (cards.length === 0) { showToast('暂无记忆卡'); return; }
@@ -7579,6 +7652,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     })();
     document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
+    function loadStudyUnitsFromCloud() {
+      const btn = document.getElementById('btn-load-study-units-cloud');
+      if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
+      fetch('/study_units_bundle.json').then(r => r.ok ? r.json() : Promise.reject(new Error('未找到云端学习单元文件'))).then(function(units) {
+        setStudyUnitsBundleInStorage(Array.isArray(units) ? units : []);
+        if (btn) { btn.disabled = false; btn.textContent = '📚 从云端加载学习单元'; }
+        showToast('已加载 ' + (Array.isArray(units) ? units.length : 0) + ' 个学习单元');
+        if (_currentScreen === SCREEN.STUDY_UNITS) renderStudyUnitsList();
+      }).catch(function(e) {
+        if (btn) { btn.disabled = false; btn.textContent = '📚 从云端加载学习单元'; }
+        showToast(e.message || '加载失败');
+      });
+    }
+    document.getElementById('btn-load-study-units-cloud').addEventListener('click', loadStudyUnitsFromCloud);
     function openGitHubUploadModal() {
       const repoEl = document.getElementById('github-upload-repo');
       const tokenEl = document.getElementById('github-upload-token');
