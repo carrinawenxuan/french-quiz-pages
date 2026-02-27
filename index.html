@@ -2396,6 +2396,13 @@
         </div>
       </div>
 
+      <div class="home-section" id="ai-study-entry-section">
+        <h2>AI 学习</h2>
+        <p class="flashcard-entry-desc">上传截图 → AI 生成 TCF 讲解、题目与记忆卡 → 自动入库，可练习、可复习。</p>
+        <button type="button" class="btn btn-primary" id="btn-enter-ai-capture" style="background: linear-gradient(135deg, #0d9488, #059669);">📷 截图→讲解→出题（AI 一键生成）</button>
+        <button type="button" class="btn btn-secondary" id="btn-enter-study-units" style="margin-top: 0.5rem;">📚 我的学习单元</button>
+      </div>
+
       <div class="home-section" id="flashcard-entry-section">
         <h2>记忆训练</h2>
         <p class="flashcard-entry-desc">速记卡片：正面回忆、翻面核对，适合词汇与知识点记忆。</p>
@@ -2527,6 +2534,80 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-secondary" id="btn-flashcards-import-json">📋 从 JSON 粘贴导入</button>
           <button type="button" class="btn btn-secondary" id="btn-flashcards-clear-cards">清空卡片</button>
           <button type="button" class="btn btn-primary" id="btn-flashcards-start-train">开始训练</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI 学习：上传截图 + 元信息 -->
+    <div id="screen-capture" class="screen">
+      <div class="flashcards-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-capture-back" aria-label="返回首页">← 返回</button>
+        <h2>AI 学习 · 上传截图</h2>
+      </div>
+      <div class="container" style="padding-top: 0.5rem;">
+        <div class="home-section">
+          <label for="capture-title">标题</label>
+          <input type="text" id="capture-title" placeholder="例如：y 和 en 的用法" autocomplete="off" />
+          <label for="capture-type">类型</label>
+          <select id="capture-type">
+            <option value="grammar">语法</option>
+            <option value="text">课文</option>
+            <option value="vocabulary">单词</option>
+            <option value="expression">表达</option>
+            <option value="conjugation">动词变位</option>
+            <option value="mixed">混合</option>
+          </select>
+          <label for="capture-level">目标等级</label>
+          <select id="capture-level">
+            <option value="">不限</option>
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+          </select>
+          <label for="capture-notes">主题/备注（可选）</label>
+          <textarea id="capture-notes" rows="2" placeholder="可写主题或给 AI 的补充说明" autocomplete="off"></textarea>
+          <label>上传截图（可多张）</label>
+          <input type="file" id="capture-files" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
+          <p id="capture-status" class="text-muted" style="margin-top: 0.5rem;"></p>
+          <div class="home-actions" style="margin-top: 1rem;">
+            <button type="button" class="btn btn-primary" id="btn-capture-run">生成讲解 + 题目 + 记忆卡</button>
+          </div>
+          <p id="capture-error" class="storage-fallback" style="color: var(--wrong); display: none;"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI 学习：学习单元列表 -->
+    <div id="screen-study-units" class="screen">
+      <div class="flashcards-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-study-units-back" aria-label="返回首页">← 返回</button>
+        <h2>我的学习单元</h2>
+      </div>
+      <div class="container" style="padding-top: 0.5rem;">
+        <div id="study-units-list" class="flashcards-deck-list"></div>
+        <p id="study-units-empty" style="display: none; color: var(--text-muted);">暂无学习单元。请先在「AI 学习」上传截图并生成。</p>
+      </div>
+    </div>
+
+    <!-- AI 学习：学习单元详情（讲解 / 题目 / 记忆卡） -->
+    <div id="screen-study-unit-detail" class="screen">
+      <div class="flashcards-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-study-unit-detail-back" aria-label="返回列表">← 返回</button>
+        <h2 id="study-unit-detail-title">学习单元</h2>
+      </div>
+      <div class="container study-unit-detail-body" style="padding-top: 0.5rem;">
+        <div class="home-section">
+          <button type="button" class="collapsible-toggle" aria-expanded="true" aria-controls="study-unit-lesson-body"><span class="collapsible-chevron">▶</span> 讲解</button>
+          <div class="collapsible-body" id="study-unit-lesson-body" role="region"><div class="collapsible-inner"><div id="study-unit-lesson-content" class="format-doc-content"></div><button type="button" class="btn btn-secondary btn-sm" id="btn-lesson-continue">继续生成讲解</button></div></div>
+          <button type="button" class="collapsible-toggle" aria-expanded="true" aria-controls="study-unit-quiz-body"><span class="collapsible-chevron">▶</span> 练习题</button>
+          <div class="collapsible-body" id="study-unit-quiz-body" role="region"><div class="collapsible-inner"><p id="study-unit-quiz-summary"></p><button type="button" class="btn btn-primary" id="btn-study-unit-start-quiz">开始练习</button><button type="button" class="btn btn-secondary btn-sm" id="btn-quiz-regenerate">重新生成题目</button></div></div>
+          <button type="button" class="collapsible-toggle" aria-expanded="true" aria-controls="study-unit-cards-body"><span class="collapsible-chevron">▶</span> 记忆卡</button>
+          <div class="collapsible-body" id="study-unit-cards-body" role="region"><div class="collapsible-inner"><p id="study-unit-cards-summary"></p><button type="button" class="btn btn-primary" id="btn-study-unit-start-cards">开始训练</button><button type="button" class="btn btn-secondary btn-sm" id="btn-cards-regenerate">重新生成记忆卡</button></div></div>
+          <div class="home-actions" style="margin-top: 1rem;">
+            <button type="button" class="btn btn-secondary" id="btn-study-unit-export-json">导出 JSON</button>
+            <button type="button" class="btn btn-secondary" id="btn-study-unit-export-md">导出 Markdown</button>
+          </div>
         </div>
       </div>
     </div>
@@ -2979,7 +3060,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
     const SEQUENTIAL_MODE_THRESHOLD = 16;
-    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards' };
+    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards', CAPTURE: 'screen-capture', STUDY_UNITS: 'screen-study-units', STUDY_UNIT_DETAIL: 'screen-study-unit-detail' };
     const FLASHCARD_DECKS_KEY = 'french_quiz_flashcard_decks';
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
@@ -2993,6 +3074,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _wrongBookIndex = null; // Map<wrongBookItemId, array index> for O(1) lookups
     let _flashcardDecksCache = null;
     let _questionNotesCache = null;
+    let _currentStudyUnitId = null;
     const _escapeDiv = document.createElement('div');
     const _wrongBookIdCache = new WeakMap();
     let _modalLastFocus = null;
@@ -6454,6 +6536,156 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         setModalFocusTrap(overlay);
         updateFlashcardTrainingCard();
       };
+
+      /* ========== AI 学习单元 API 与 UI ========== */
+      function api(path, opts) {
+        return fetch(path, { credentials: 'same-origin', ...opts }).then(r => {
+          if (!r.ok) return r.json().then(j => Promise.reject(new Error(j.error || r.statusText)));
+          return r.json();
+        });
+      }
+      function apiPost(path, body) { return api(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) }); }
+      function apiUpload(path, formData) { return fetch(path, { method: 'POST', credentials: 'same-origin', body: formData }).then(r => r.ok ? r.json() : r.json().then(j => Promise.reject(new Error(j.error || r.statusText)))); }
+      function renderStudyUnitsList() {
+        api('/api/study-units').then(units => {
+          const listEl = document.getElementById('study-units-list');
+          const emptyEl = document.getElementById('study-units-empty');
+          if (!listEl) return;
+          if (!units || units.length === 0) {
+            listEl.innerHTML = '';
+            if (emptyEl) emptyEl.style.display = 'block';
+            return;
+          }
+          if (emptyEl) emptyEl.style.display = 'none';
+          listEl.innerHTML = units.map(u => {
+            const date = u.updatedAt || u.createdAt || '';
+            const quizCount = (u.quizSet && u.quizSet.length) || 0;
+            const cardCount = (u.memoryCards && u.memoryCards.length) || 0;
+            return '<div class="storage-card saved-sets-item" data-unit-id="' + escapeHtml(u.id) + '" style="cursor:pointer;"><span class="title">' + escapeHtml(u.title || '未命名') + '</span><span class="hint">' + (date ? new Date(date).toLocaleDateString() : '') + ' · 题 ' + quizCount + ' · 卡 ' + cardCount + '</span></div>';
+          }).join('');
+          listEl.querySelectorAll('[data-unit-id]').forEach(el => {
+            el.addEventListener('click', () => {
+              _currentStudyUnitId = el.getAttribute('data-unit-id');
+              showScreen(SCREEN.STUDY_UNIT_DETAIL);
+              loadStudyUnitDetail();
+            });
+          });
+        }).catch(e => showToast('加载失败：' + (e.message || '')));
+      }
+      function loadStudyUnitDetail() {
+        if (!_currentStudyUnitId) return;
+        api('/api/study-units/' + _currentStudyUnitId).then(unit => {
+          const titleEl = document.getElementById('study-unit-detail-title');
+          if (titleEl) titleEl.textContent = unit.title || '学习单元';
+          const lessonEl = document.getElementById('study-unit-lesson-content');
+          if (lessonEl) {
+            const chunks = unit.lessonChunks || [];
+            lessonEl.innerHTML = chunks.length ? chunks.map(c => '<div class="lesson-chunk">' + (c.content || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>') + '</div>').join('<hr/>') : '<p class="text-muted">暂无讲解，可点击「继续生成讲解」或从「上传截图」页一键生成。</p>';
+          }
+          const quizSummary = document.getElementById('study-unit-quiz-summary');
+          if (quizSummary) quizSummary.textContent = (unit.quizSet && unit.quizSet.length) ? '共 ' + unit.quizSet.length + ' 题。点击「开始练习」进入答题。' : '暂无题目，可点击「重新生成题目」。';
+          const cardsSummary = document.getElementById('study-unit-cards-summary');
+          if (cardsSummary) cardsSummary.textContent = (unit.memoryCards && unit.memoryCards.length) ? '共 ' + unit.memoryCards.length + ' 张。点击「开始训练」进入记忆卡。' : '暂无记忆卡，可点击「重新生成记忆卡」。';
+        }).catch(e => showToast('加载失败：' + (e.message || '')));
+      }
+      function runCapturePipeline() {
+        const titleEl = document.getElementById('capture-title');
+        const typeEl = document.getElementById('capture-type');
+        const levelEl = document.getElementById('capture-level');
+        const notesEl = document.getElementById('capture-notes');
+        const filesEl = document.getElementById('capture-files');
+        const statusEl = document.getElementById('capture-status');
+        const errEl = document.getElementById('capture-error');
+        const btn = document.getElementById('btn-capture-run');
+        const title = (titleEl && titleEl.value) ? titleEl.value.trim() : '未命名';
+        const type = (typeEl && typeEl.value) || 'mixed';
+        const targetLevel = (levelEl && levelEl.value) || '';
+        const notes = (notesEl && notesEl.value) || '';
+        const files = filesEl && filesEl.files ? Array.from(filesEl.files) : [];
+        if (files.length === 0) { if (errEl) { errEl.textContent = '请先选择至少一张截图'; errEl.style.display = 'block'; } return; }
+        if (errEl) errEl.style.display = 'none';
+        if (statusEl) statusEl.textContent = '正在创建学习单元…';
+        if (btn) btn.disabled = true;
+        apiPost('/api/study-units', { title, type, tags: [], targetLevel, notes }).then(unit => {
+          if (statusEl) statusEl.textContent = '正在上传 ' + files.length + ' 张图片…';
+          const fd = new FormData();
+          files.forEach(f => fd.append('images', f));
+          return apiUpload('/api/study-units/' + unit.id + '/upload', fd).then(() => unit);
+        }).then(unit => {
+          if (statusEl) statusEl.textContent = '正在生成讲解、题目与记忆卡…';
+          return apiPost('/api/ai/pipeline', { unitId: unit.id }).then(data => ({ unit: data.unit || unit, data }));
+        }).then(({ unit }) => {
+          if (statusEl) statusEl.textContent = '生成完成';
+          if (btn) btn.disabled = false;
+          _currentStudyUnitId = unit.id;
+          showScreen(SCREEN.STUDY_UNIT_DETAIL);
+          loadStudyUnitDetail();
+          showToast('已生成并保存');
+        }).catch(e => {
+          if (statusEl) statusEl.textContent = '';
+          if (btn) btn.disabled = false;
+          if (errEl) { errEl.textContent = e.message || '请求失败'; errEl.style.display = 'block'; }
+          showToast(e.message || '失败');
+        });
+      }
+      document.getElementById('btn-enter-ai-capture').addEventListener('click', () => { showScreen(SCREEN.CAPTURE); });
+      document.getElementById('btn-enter-study-units').addEventListener('click', () => { showScreen(SCREEN.STUDY_UNITS); renderStudyUnitsList(); });
+      document.getElementById('btn-capture-back').addEventListener('click', () => showScreen(SCREEN.HOME));
+      document.getElementById('btn-study-units-back').addEventListener('click', () => showScreen(SCREEN.HOME));
+      document.getElementById('btn-capture-run').addEventListener('click', runCapturePipeline);
+      document.getElementById('btn-study-unit-detail-back').addEventListener('click', () => { showScreen(SCREEN.STUDY_UNITS); renderStudyUnitsList(); });
+      document.getElementById('btn-lesson-continue').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        const btn = document.getElementById('btn-lesson-continue');
+        if (btn) btn.disabled = true;
+        apiPost('/api/ai/lesson', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已追加一段讲解'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
+      });
+      document.getElementById('btn-study-unit-start-quiz').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        api('/api/study-units/' + _currentStudyUnitId).then(unit => {
+          const q = (unit.quizSet && unit.quizSet.length) ? unit.quizSet : [];
+          if (q.length === 0) { showToast('暂无题目'); return; }
+          startQuiz(q, false, null);
+        }).catch(e => showToast(e.message || ''));
+      });
+      document.getElementById('btn-quiz-regenerate').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        const btn = document.getElementById('btn-quiz-regenerate');
+        if (btn) btn.disabled = true;
+        apiPost('/api/ai/quiz', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已重新生成题目'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
+      });
+      document.getElementById('btn-study-unit-start-cards').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        api('/api/study-units/' + _currentStudyUnitId).then(unit => {
+          const cards = (unit.memoryCards && unit.memoryCards.length) ? unit.memoryCards : [];
+          if (cards.length === 0) { showToast('暂无记忆卡'); return; }
+          window._flashcardTempDeckFromStudyUnit = { id: '_study_' + _currentStudyUnitId, name: unit.title || '学习单元', cards: cards.map((c, i) => ({ id: 'c' + i, front: c.front || '', back: c.back || '' })) };
+          showScreen(SCREEN.FLASHCARDS);
+          _flashcardCurrentDeckId = window._flashcardTempDeckFromStudyUnit.id;
+          showFlashcardDeckList();
+          var decks = getFlashcardDecks();
+          if (!decks.find(d => d.id === window._flashcardTempDeckFromStudyUnit.id)) {
+            decks = [window._flashcardTempDeckFromStudyUnit].concat(decks);
+            setFlashcardDecks(decks);
+          }
+          renderFlashcardDeckList();
+          showFlashcardDeckDetail();
+        }).catch(e => showToast(e.message || ''));
+      });
+      document.getElementById('btn-cards-regenerate').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        const btn = document.getElementById('btn-cards-regenerate');
+        if (btn) btn.disabled = true;
+        apiPost('/api/ai/cards', { unitId: _currentStudyUnitId }).then(() => { loadStudyUnitDetail(); if (btn) btn.disabled = false; showToast('已重新生成记忆卡'); }).catch(e => { if (btn) btn.disabled = false; showToast(e.message || '失败'); });
+      });
+      document.getElementById('btn-study-unit-export-json').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        window.open('/api/study-units/' + _currentStudyUnitId + '/export?format=json', '_blank');
+      });
+      document.getElementById('btn-study-unit-export-md').addEventListener('click', () => {
+        if (!_currentStudyUnitId) return;
+        window.open('/api/study-units/' + _currentStudyUnitId + '/export?format=md', '_blank');
+      });
 
       document.getElementById('btn-enter-flashcards').addEventListener('click', () => {
         showScreen(SCREEN.FLASHCARDS);

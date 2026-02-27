@@ -15717,33 +15717,6 @@
           "category": "固定搭配"
         },
         {
-          "type": "short_answer",
-          "stem": "Il est midi : je _____ (使用 avoir faim)",
-          "correct": [
-            "j'ai faim"
-          ],
-          "explanation": "原题 3-3：中午了，表示饿了。je 对应 ai，需省音为 j'ai。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Transformez: J'ai faim. (否定句)",
-          "correct": [
-            "Je n'ai pas faim"
-          ],
-          "explanation": "TCF 陷阱：avoir faim 是固定搭配，否定时直接加 ne...pas，ne 变 n'。",
-          "category": "否定结构"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Il est tard : le bébé _____ (使用 avoir sommeil)",
-          "correct": [
-            "a sommeil"
-          ],
-          "explanation": "原题 3-4：晚了，宝宝困了。le bébé 相当于 il，变位为 a。",
-          "category": "固定搭配"
-        },
-        {
           "type": "single_choice",
           "stem": "Le bébé _____ sommeil, il _____ fatigué.",
           "options": [
@@ -15757,33 +15730,6 @@
           "category": "动词辨析"
         },
         {
-          "type": "short_answer",
-          "stem": "Tu es courageux : tu _____ (使用 ne pas avoir peur)",
-          "correct": [
-            "n'as pas peur"
-          ],
-          "explanation": "原题 3-5：勇敢意味着“不害怕”。tu 变位为 as，否定为 n'as pas。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "short_answer",
-          "stem": "*** - tu peur des chiens ?",
-          "correct": [
-            "As"
-          ],
-          "explanation": "TCF 陷阱：疑问句倒装，tu 对应 as。注意首字母大写。",
-          "category": "疑问句"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Nous sommes pressées : nous _____ (使用 ne pas avoir le temps)",
-          "correct": [
-            "n'avons pas le temps"
-          ],
-          "explanation": "原题 3-6：赶时间意味着“没时间”。nous 变位为 avons，否定为 n'avons pas。",
-          "category": "固定搭配"
-        },
-        {
           "type": "fill_blank",
           "stem": "_____ (Avoir) - nous le temps de manger ?",
           "correct": [
@@ -15791,15 +15737,6 @@
           ],
           "explanation": "TCF 陷阱：nous 的倒装。avons-nous。注意连字符和变位。",
           "category": "疑问句"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Ton amie est pâle : elle _____ (使用 avoir l'air malade)",
-          "correct": [
-            "a l'air malade"
-          ],
-          "explanation": "原题 3-7：脸色苍白看起来生病了。elle 变位为 a。",
-          "category": "固定搭配"
         },
         {
           "type": "single_choice",
@@ -15813,24 +15750,6 @@
           "correct": 1,
           "explanation": "TCF 语法：avoir l'air + 形容词，形容词通常与主语配合。主语 elle 是阴性单数，选 fatiguée。",
           "category": "形容词配合"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Ma montre est arrêtée : vous _____ (使用 avoir l'heure)",
-          "correct": [
-            "avez l'heure"
-          ],
-          "explanation": "原题 3-8：表停了，问别人是否有时间（知晓时刻）。vous 对应 avez。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Posez la question: Avez-vous l'heure ? (用 Est-ce que)",
-          "correct": [
-            "Est-ce que vous avez l'heure ?"
-          ],
-          "explanation": "TCF 语法：Est-ce que 引导陈述语序。vous 对应 avez。",
-          "category": "疑问句"
         },
         {
           "type": "paragraph_fill_blank",
@@ -16069,16 +15988,6 @@
           ],
           "explanation": "年龄用 avoir → a；身份/特征描述用 être → est；C'est 固定结构；grande 形容词用 être；头发用 avoir。这道题考 avoir 与 être 的区分。",
           "category": "avoir vs être 综合"
-        },
-        {
-          "type": "short_answer",
-          "stem": "Répondez à la question: Quel âge a votre meilleur(e) ami(e)? (用 elle/30 ans 回答)",
-          "correct": [
-            "Elle a 30 ans.",
-            "Elle a trente ans."
-          ],
-          "explanation": "原题 4 衍生：表达年龄必须使用 avoir 而非 être。Elle 对应变位 a。",
-          "category": "动词变位"
         },
         {
           "type": "single_choice",
@@ -45416,6 +45325,6 @@
     "streak": 2
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-26T01:47:41.574Z",
+  "exportedAt": "2026-02-26T02:26:48.230Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
