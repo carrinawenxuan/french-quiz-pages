@@ -1,1 +1,139 @@
-[]
+[
+  {
+    "id": "su_1772229793369_xw6ajn8",
+    "title": "命令式中的直接宾语人称代词",
+    "type": "grammar",
+    "tags": [],
+    "targetLevel": "",
+    "sourceImagePaths": [
+      "study_units_images/su_1772229793369_xw6ajn8/img_1772229793379_0.png"
+    ],
+    "lessonChunks": [
+      {
+        "index": 0,
+        "content": "# 命令式中的直接宾语人称代词\n\n在法语命令式中，直接宾语人称代词的位置与其在陈述句中有些区别。命令式通常用于给出指令、建议或请求。此时的宾语人称代词出现在动词之后，并通过连字符“-”与动词相连。\n\n## 规则\n\n1. **代词位置变化**：  \n   - 在肯定命令式中，代词位于动词之后，使用连字符连接。\n   - 第一人称单数和第二人称单数的代词“me”和“te”分别变为“moi”和“toi”。\n\n2. **常见代词和用法**：\n   - **écouter (听)**：écoute-moi (听我说)。\n   - **appeler (打电话)**：appelle-nous (给我们打电话)。\n   - **lever (起床)**：lève-toi (起床)。\n   - **regarder (看)**：regardez-vous (看镜子中的自己)。\n\n3. **其他代词形式保持不变**：\n   - 如第三人称单数和复数形式 (le, la, les) 没有变化。\n\n## 示例句\n\n- **Écoute-moi !**  \n  > “听我说！” 代词“moi”连接到动词“écoute”之后。\n\n- **Appelle-nous ce soir !**  \n  > “今晚给我们打电话！” 代词“nous”用于动词“appelle”之后。\n\n- **Lève-toi à 7 heures !**  \n  > “早上7点起床！” 使用“toi”代替“te”。\n\n- **Regardez-vous dans la glace !**  \n  > “照照镜子吧！” 代词“vous”连接在动词“regardez”之后。\n\n- **Excusez-le/la !**  \n  > “原谅他/她吧！” 没有代词形式变化。\n\n- **Suivons-les !**  \n  > “跟着他们/她们！” 使用“les”作为第三人称复数代词。\n\n## 考试常见陷阱\n\n- 务必注意命令式中的动词变位，特别是命令式命令以“tu”结尾时的动词变位（通常会去掉“-s”）。\n- 牢记“me”和“te”在此时的特殊形式变化为“moi”和“toi”。\n\n借助这些规则和示例，你可以更有效地掌握命令式中的直接宾语人称代词的使用，从而在法语考试中做出正确的判断。",
+        "generatedAt": "2026-02-27T22:03:29.899Z"
+      }
+    ],
+    "quizSet": [
+      {
+        "type": "single_choice",
+        "stem": "Écoute-____ (me) !",
+        "options": [
+          "moi",
+          "toi",
+          "nous",
+          "vous"
+        ],
+        "correct": 0,
+        "explanation": "命令式中，me 变为 moi，与动词连用。",
+        "category": "命令式"
+      },
+      {
+        "type": "multiple_choice",
+        "stem": "下列哪些命令中使用了连字符？",
+        "options": [
+          "Écoute-moi !",
+          "Lève-toi !",
+          "Regarde-ça !",
+          "Mange-le !"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "命令式中，直接宾语人称代词用连字符连接。"
+      },
+      {
+        "type": "fill_blank",
+        "stem": "Appelle-______ (us) ce soir !",
+        "correct": [
+          "nous"
+        ],
+        "explanation": "命令式中，nous 保持不变并与动词连用。"
+      },
+      {
+        "type": "paragraph_fill_blank",
+        "stem": "Lève-____ à 7 heures. Excusez-____.",
+        "correct": [
+          "toi",
+          "le"
+        ],
+        "explanation": "命令式中，te 变为 toi，用连字符连接；第三人称代词不变。"
+      }
+    ],
+    "memoryCards": [
+      {
+        "front": "命令式中如何表达“听我说”",
+        "back": "Écoute-moi"
+      },
+      {
+        "front": "命令式中如何表达“给我们打电话”",
+        "back": "Appelle-nous"
+      },
+      {
+        "front": "命令式中如何表达“照镜子”",
+        "back": "Regardez-vous"
+      },
+      {
+        "front": "命令式中如何表达“别担心”",
+        "back": "Ne t'inquiète pas"
+      },
+      {
+        "front": "命令式中如何表达“跟着他们”",
+        "back": "Suivons-les"
+      },
+      {
+        "front": "命令式中如何表达“原谅她”",
+        "back": "Excusez-la"
+      },
+      {
+        "front": "Tu 命令式中的“你叫醒自己”",
+        "back": "Lève-toi"
+      },
+      {
+        "front": "命令式中pronoun位置",
+        "back": "直接宾语人称代词在动词后面，用连字符连接"
+      }
+    ],
+    "status": "ready",
+    "createdAt": "2026-02-27T22:03:13.369Z",
+    "updatedAt": "2026-02-27T22:03:48.520Z",
+    "notes": ""
+  },
+  {
+    "id": "su_1772229270708_hy645n8",
+    "title": "命令式中的直接宾语人称代词",
+    "type": "grammar",
+    "tags": [],
+    "targetLevel": "",
+    "sourceImagePaths": [
+      "study_units_images/su_1772229270708_hy645n8/img_1772229270741_0.png"
+    ],
+    "lessonChunks": [],
+    "quizSet": [],
+    "memoryCards": [],
+    "status": "draft",
+    "createdAt": "2026-02-27T21:54:30.708Z",
+    "updatedAt": "2026-02-27T21:54:30.741Z",
+    "notes": ""
+  },
+  {
+    "id": "su_1772157851558_eg8ujgz",
+    "title": "命令式中直接宾语代词COD",
+    "type": "grammar",
+    "tags": [],
+    "targetLevel": "",
+    "sourceImagePaths": [
+      "study_units_images/su_1772157851558_eg8ujgz/img_1772157851570_0.png"
+    ],
+    "lessonChunks": [],
+    "quizSet": [],
+    "memoryCards": [],
+    "status": "draft",
+    "createdAt": "2026-02-27T02:04:11.558Z",
+    "updatedAt": "2026-02-27T02:04:11.570Z",
+    "notes": ""
+  }
+]
