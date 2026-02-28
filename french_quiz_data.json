@@ -1,6 +1,764 @@
 {
   "savedSets": [
     {
+      "id": 1772309887008,
+      "name": "Leçon 1 Bienvenue 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-02-28T20:18:07.008Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Bonjour, madame. Vous vous _____ comment ?",
+          "options": [
+            "appelle",
+            "appelez",
+            "appelles",
+            "appelons"
+          ],
+          "correct": 1,
+          "explanation": "vous 对应 appelez（一个 l）。appelle 是 je/il 形式，appelles 是 tu 形式。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— _____, je m'appelle Pierre. Et voici ma femme, Sophie.",
+          "options": [
+            "Bonne nuit",
+            "Bonsoir",
+            "Bonne journée",
+            "À bientôt"
+          ],
+          "correct": 1,
+          "explanation": "初次见面打招呼，晚间场合用 Bonsoir。Bonne nuit 仅用于睡前，Bonne journée/À bientôt 是告别语。",
+          "category": "问候语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qui est-ce ?\n— _____ Nicole. Elle est française.",
+          "options": [
+            "Il est",
+            "Elle est",
+            "C'est",
+            "Ce sont"
+          ],
+          "correct": 2,
+          "explanation": "c'est + 人名（专有名词）。不能用 elle est + 人名。ce sont 用于复数。",
+          "category": "c'est vs il est"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Aldo est _____. Nicole est _____.",
+          "options": [
+            "italien / française",
+            "italienne / français",
+            "italian / francaise",
+            "italien / francaise"
+          ],
+          "correct": 0,
+          "explanation": "Aldo 阳性用 italien，Nicole 阴性用 française（注意 ç 的拼写）。",
+          "category": "国籍阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu _____ Giacomo ! Tu es italien ?",
+          "options": [
+            "t'appelle",
+            "t'appelles",
+            "t'appelez",
+            "s'appelle"
+          ],
+          "correct": 1,
+          "explanation": "tu 对应 t'appelles（双写 l + es）。t'appelle 少了 s，t'appelez 是 vous 形式，s'appelle 是 il/elle 形式。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici mon _____. Il s'appelle Marc.",
+          "options": [
+            "femme",
+            "mari",
+            "madame",
+            "française"
+          ],
+          "correct": 1,
+          "explanation": "mon mari = 我的丈夫。mon + 阳性名词。femme 是阴性，应配 ma。",
+          "category": "主有形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est 22h, vous quittez un dîner chez des amis. Vous dites :",
+          "options": [
+            "Bonne journée !",
+            "Bonne nuit !",
+            "Bonne soirée !",
+            "Bonjour !"
+          ],
+          "correct": 2,
+          "explanation": "晚上告别且对方还有活动（刚离开晚宴），用 Bonne soirée。Bonne nuit 仅限睡前。Bonne journée 用于白天。",
+          "category": "问候语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous êtes monsieur Dupont ?\n— Non, je _____ Martin. Paul Martin.",
+          "options": [
+            "m'appelle",
+            "suis",
+            "m'appelles",
+            "s'appelle"
+          ],
+          "correct": 1,
+          "explanation": "je suis + 姓名，用于纠正对方的错误猜测。je m'appelle 也可以，但此处选项 suis 更自然地回应 vous êtes 的结构。m'appelles 是 tu 形式错误。",
+          "category": "自我介绍"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是正确的告别用语？（多选）",
+          "options": [
+            "À tout à l'heure",
+            "Bonsoir journée",
+            "À la prochaine",
+            "Bonne nuitée"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "À tout à l'heure = 一会儿见，À la prochaine = 下次见，均正确。Bonsoir journée 和 Bonne nuitée 是编造的表达，不存在。",
+          "category": "问候语"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous nous _____ (s'appeler) Dupont.",
+          "correct": [
+            "appelons"
+          ],
+          "explanation": "nous 对应 appelons（一个 l）。nous nous appelons 是完整的自反结构。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle est . (意大利人，阴性)",
+          "correct": [
+            "italienne"
+          ],
+          "explanation": "italien 阴性形式：italienne（双写 n + 加 e）。",
+          "category": "国籍阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— C'est votre mari ?\n— Oui, _____ Paul.",
+          "options": [
+            "c'est",
+            "il est",
+            "elle est",
+            "ce sont"
+          ],
+          "correct": 0,
+          "explanation": "c'est + 人名。虽然前面提到了 mari（阳性），但介绍人名必须用 c'est，不用 il est + 人名。",
+          "category": "c'est vs il est"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous parlez à votre professeur pour la première fois. Vous dites :",
+          "options": [
+            "Tu t'appelles comment ?",
+            "Vous vous appelez comment ?",
+            "Il s'appelle comment ?",
+            "Tu es qui ?"
+          ],
+          "correct": 1,
+          "explanation": "对老师（正式、初次见面）必须用 vous。tu 太随意，il 是问第三人。",
+          "category": "Tu vs Vous"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Bonjour, je _____ Alice. Et _____ mon mari, Pierre.\n— Bonjour, monsieur.",
+          "correct": [
+            "suis",
+            "voici"
+          ],
+          "explanation": "je suis + 名字 = 我是……；voici + 人 = 这是……（介绍身边的人）。",
+          "category": "自我介绍"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, c'est samedi. Vous dites à votre collègue en partant vendredi soir :",
+          "options": [
+            "À demain !",
+            "À lundi !",
+            "À samedi !",
+            "Bonne journée !"
+          ],
+          "correct": 1,
+          "explanation": "周五下班，下次上班是周一，所以说 À lundi。À demain 意思是明天见，但周六不上班。À samedi 除非周六有约。Bonne journée 用于白天。",
+          "category": "问候语"
+        },
+        {
+          "type": "single_choice",
+          "stem": " est française, et _____ est italien.",
+          "options": [
+            "Il / elle",
+            "Elle / il",
+            "C'est / il est",
+            "Elle / c'est"
+          ],
+          "correct": 1,
+          "explanation": "elle est française（她是法国人），il est italien（他是意大利人）。国籍做形容词，用 il/elle est + 形容词。",
+          "category": "c'est vs il est"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1nonywE2p89TBUdrrUItKfo9Tq9CDxo4Vt8O_WYSORaE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772309964187-z82brpxjlv",
+          "front": "Bonjour 用于什么场合？",
+          "back": "白天见面时的问候语，意为“你好/您好”。"
+        },
+        {
+          "id": "1772309964187-mcuc2jchar",
+          "front": "Bonsoir 用于什么场合？",
+          "back": "傍晚和晚上的见面问候及告别，意为“晚上好”。"
+        },
+        {
+          "id": "1772309964187-rmh4ofcolop",
+          "front": "Bonne journée",
+          "back": "祝你一天愉快。白天告别时使用，不用于见面。"
+        },
+        {
+          "id": "1772309964187-vwhv4u590p",
+          "front": "Bonne soirée",
+          "back": "祝你晚上愉快。晚上告别时使用（对方还有活动），不等于 bonne nuit。"
+        },
+        {
+          "id": "1772309964187-c0rdmtcgldb",
+          "front": "Bonne nuit",
+          "back": "晚安。仅用于临睡前告别。"
+        },
+        {
+          "id": "1772309964187-08hm4adryxyo",
+          "front": "À tout à l'heure",
+          "back": "一会儿见。几分钟到几小时内会再见面。"
+        },
+        {
+          "id": "1772309964187-fad7c2umya5",
+          "front": "À plus tard",
+          "back": "稍后再见。当天之内，比 à tout à l'heure 时间稍远。"
+        },
+        {
+          "id": "1772309964187-98f2ruoz8et",
+          "front": "À bientôt",
+          "back": "回头见/再见。不确定具体时间，但希望不久后再见。"
+        },
+        {
+          "id": "1772309964187-9ijru3v6yzp",
+          "front": "À demain",
+          "back": "明天见。"
+        },
+        {
+          "id": "1772309964187-whn3q4u1r8s",
+          "front": "À la prochaine",
+          "back": "下次见。不确定何时再见。"
+        },
+        {
+          "id": "1772309964187-38r4mlqccae",
+          "front": "À mercredi",
+          "back": "周三见。结构：à + 星期/日期 = XX见。"
+        },
+        {
+          "id": "1772309964187-mor1k1atwlj",
+          "front": "Vous vous appelez... ?",
+          "back": "您叫什么？（正式提问，s'appeler 的 vous 形式）"
+        },
+        {
+          "id": "1772309964187-338zpgujbns",
+          "front": "Je m'appelle + 名字",
+          "back": "我叫……（s'appeler 第一人称，自我介绍姓名）"
+        },
+        {
+          "id": "1772309964187-uhd7mh1zptq",
+          "front": "Je suis + 名字/国籍/职业",
+          "back": "我是……（être 第一人称，比 je m'appelle 更通用）"
+        },
+        {
+          "id": "1772309964187-av2vzh860gu",
+          "front": "s'appeler 的 je 变位",
+          "back": "je m'appelle（双写 l）"
+        },
+        {
+          "id": "1772309964187-u37y1lk2bgp",
+          "front": "s'appeler 的 tu 变位",
+          "back": "tu t'appelles（双写 l）"
+        },
+        {
+          "id": "1772309964187-2gnop2iodct",
+          "front": "s'appeler 的 il/elle 变位",
+          "back": "il/elle s'appelle（双写 l）"
+        },
+        {
+          "id": "1772309964187-kdfz1upb9nh",
+          "front": "s'appeler 的 nous 变位",
+          "back": "nous nous appelons（只有一个 l）"
+        },
+        {
+          "id": "1772309964187-x5crby2397f",
+          "front": "s'appeler 的 vous 变位",
+          "back": "vous vous appelez（只有一个 l）"
+        },
+        {
+          "id": "1772309964187-inkzqe8nrvn",
+          "front": "s'appeler 的 ils/elles 变位",
+          "back": "ils/elles s'appellent（双写 l）"
+        },
+        {
+          "id": "1772309964187-zmc1yc7owqn",
+          "front": "voici vs voilà 区别",
+          "back": "voici = 这是（介绍近处/即将出场的）\nvoilà = 那是（指远处/已提及的）"
+        },
+        {
+          "id": "1772309964187-66c7gpgale2",
+          "front": "Et voici ma femme.",
+          "back": "这是我的妻子。voici 用于向他人介绍身边的人。"
+        },
+        {
+          "id": "1772309964187-iczonlai1of",
+          "front": "mon mari",
+          "back": "我的丈夫。mon 用于阳性名词前。"
+        },
+        {
+          "id": "1772309964187-0qvl5ppzc7r",
+          "front": "ma femme",
+          "back": "我的妻子。ma 用于阴性名词前。femme 也可指“女人”。"
+        },
+        {
+          "id": "1772309964187-54iseax08fc",
+          "front": "Qui est-ce ?",
+          "back": "这是谁？固定疑问句型，用于询问某人身份。"
+        },
+        {
+          "id": "1772309964187-vlshznp681",
+          "front": "C'est + 人名",
+          "back": "这是……（介绍某人）。例：C'est Aldo."
+        },
+        {
+          "id": "1772309964187-l8ev574i72s",
+          "front": "c'est vs il/elle est 核心规则",
+          "back": "c'est + 名词（含冠词/人名）：C'est un médecin.\nil/elle est + 形容词/职业（无冠词）：Il est médecin."
+        },
+        {
+          "id": "1772309964187-n75ms7w40rr",
+          "front": "Il est italien. 为什么国籍小写？",
+          "back": "国籍做形容词时小写且不加冠词。做名词时大写：C'est un Italien."
+        },
+        {
+          "id": "1772309964187-znoujlgcsl",
+          "front": "italien 的阴性形式",
+          "back": "italienne（双写 n + 加 e）"
+        },
+        {
+          "id": "1772309964187-6y3r0jjusi3",
+          "front": "français 的阴性形式",
+          "back": "française（去 s 变 ç + 加 e）"
+        },
+        {
+          "id": "1772309964187-63ifo89hsw4",
+          "front": "Tu vs Vous 使用场景",
+          "back": "Tu：朋友、同龄人、非正式\nVous：初次见面、长辈、正式场合、复数"
+        },
+        {
+          "id": "1772309964187-rmqjw93852",
+          "front": "用升调+陈述语序提问（口语）",
+          "back": "Vous êtes madame Falco ?（语序不变，升调即提问）\n这是法语口语中最常见的提问方式。"
+        }
+      ]
+    },
+    {
+      "id": 1772309330195,
+      "name": "Leçon 1 Bienvenue 词汇2",
+      "folderId": "1770604921596",
+      "createdAt": "2026-02-28T20:08:50.195Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Comment _____ -vous ?",
+          "options": [
+            "appelez",
+            "appelles",
+            "appelons",
+            "appellent"
+          ],
+          "correct": 0,
+          "explanation": "vous 对应 appelez（单 l）。双写 ll 只出现在 je/tu/il/ils 形式中。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ étudiant.",
+          "options": [
+            "es",
+            "suis",
+            "est",
+            "sommes"
+          ],
+          "correct": 1,
+          "explanation": "je 对应 suis。être 的现在时：je suis, tu es, il est, nous sommes, vous êtes, ils sont。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est .",
+          "options": [
+            "français",
+            "française",
+            "françaises",
+            "Français"
+          ],
+          "correct": 1,
+          "explanation": "elle 是阴性单数，国籍形容词需变阴性 → française（小写，因为是形容词）。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": " mon passeport.",
+          "options": [
+            "C'est",
+            "Voici",
+            "Il est",
+            "Est"
+          ],
+          "correct": 1,
+          "explanation": "voici 用于向别人展示、呈递某物，'这是我的护照'（递给对方看）。c'est 也可以，但 voici 更符合呈递语境。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est italien, elle est .",
+          "options": [
+            "italiene",
+            "italien",
+            "italienne",
+            "italiennes"
+          ],
+          "correct": 2,
+          "explanation": "-ien 结尾的国籍形容词，阴性要双写 n 再加 e → italienne。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Bonjour, je _____ (s'appeler) Marie.",
+          "correct": [
+            "m'appelle"
+          ],
+          "explanation": "je + s'appeler → je m'appelle（代词 me 省音为 m'，appelle 双写 ll）。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "un homme _____ une femme",
+          "options": [
+            "est",
+            "et",
+            "es",
+            "êtes"
+          ],
+          "correct": 1,
+          "explanation": "et = 和（连词），发音 /e/。est = 是（动词），发音 /ɛ/。这里需要连词'和'。",
+          "category": "易混淆"
+        },
+        {
+          "type": "single_choice",
+          "stem": " amie est française.",
+          "options": [
+            "Ma",
+            "Mon",
+            "Mes",
+            "Me"
+          ],
+          "correct": 1,
+          "explanation": "amie 虽然是阴性名词，但以元音开头，为避免元音碰撞，用 mon 而非 ma → mon amie。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ étudiants.",
+          "options": [
+            "est",
+            "suis",
+            "sommes",
+            "êtes"
+          ],
+          "correct": 2,
+          "explanation": "nous 对应 sommes。nous sommes = 我们是。",
+          "category": "变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 être 的正确变位形式？",
+          "options": [
+            "suis",
+            "es",
+            "ais",
+            "sont"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "suis（je）、es（tu）、sont（ils/elles）都是 être 的现在时变位。ais 不是 être 的任何形式（它属于 avoir 的未完成过去时）。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____. Elle est étudiante.",
+          "options": [
+            "Français",
+            "Française",
+            "française",
+            "français"
+          ],
+          "correct": 1,
+          "explanation": "c'est + 名词（指人）→ 大写首字母：C'est une Française。而第二句 il/elle est + 形容词 → 小写：elle est étudiante。",
+          "category": "大小写规则"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Bienvenue _____ Canada !",
+          "correct": [
+            "au"
+          ],
+          "explanation": "à + le = au。Canada 是阳性国名，所以用 au Canada。",
+          "category": "介词缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu n'es pas français ?\n— _____, je suis français.",
+          "options": [
+            "Oui",
+            "Non",
+            "Si",
+            "Bien"
+          ],
+          "correct": 2,
+          "explanation": "对否定问句做肯定回答，法语用 si 而非 oui。'你不是法国人吗？' '不，我是法国人。' → Si。",
+          "category": "TCF 高频考点"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Comment tu _____ ? — Je _____ Paul. Et toi, _____ est-ce ?",
+          "correct": [
+            "t'appelles",
+            "m'appelle",
+            "qui"
+          ],
+          "explanation": "第一空：tu + s'appeler → t'appelles；第二空：je + s'appeler → m'appelle；第三空：'谁' → qui。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le pluriel de « madame » est :",
+          "options": [
+            "madames",
+            "mesdames",
+            "mesdame",
+            "dames"
+          ],
+          "correct": 1,
+          "explanation": "madame 的复数是不规则形式 mesdames（ma → mes, dame → dames）。同理 monsieur → messieurs。",
+          "category": "词汇"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1NVbzgmz7Oxjt8MmGMXPPqjSpAQOz6p4grbjdJfYsdr0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772309416590-uvotj9p6szg",
+          "front": "s'appeler 的含义",
+          "back": "名叫（代词式动词）\n英语：to call oneself"
+        },
+        {
+          "id": "1772309416590-gncx4k9upwn",
+          "front": "je + s'appeler（现在时）",
+          "back": "je m'appelle\n注意：双写 ll，me 省音为 m'"
+        },
+        {
+          "id": "1772309416590-c5h34fjgy2l",
+          "front": "tu + s'appeler（现在时）",
+          "back": "tu t'appelles\n双写 ll + 词尾 s"
+        },
+        {
+          "id": "1772309416590-ldqehgh3r1b",
+          "front": "il/elle + s'appeler（现在时）",
+          "back": "il/elle s'appelle\n双写 ll"
+        },
+        {
+          "id": "1772309416590-vabeomzqfx",
+          "front": "vous + s'appeler（现在时）",
+          "back": "vous vous appelez\n单 l，词尾 -ez"
+        },
+        {
+          "id": "1772309416590-x1a8iieojsl",
+          "front": "s'appeler 什么时候双写 ll？",
+          "back": "je / tu / il / ils 四个形式双写 ll\nnous / vous 保持单 l"
+        },
+        {
+          "id": "1772309416590-44c0mxc4nr5",
+          "front": "être 的现在时变位（全部）",
+          "back": "je suis, tu es, il/elle est\nnous sommes, vous êtes, ils/elles sont"
+        },
+        {
+          "id": "1772309416590-h2ocn4ib0yv",
+          "front": "est 和 et 的发音区别",
+          "back": "est = /ɛ/（开口音）= 是\net = /e/（闭口音）= 和\net 后面绝不连读"
+        },
+        {
+          "id": "1772309416590-akamj0e8v6f",
+          "front": "c'est 和 il est 的区别",
+          "back": "c'est + 名词：C'est un étudiant.\nil est + 形容词：Il est français."
+        },
+        {
+          "id": "1772309416590-ljdjcdy1g2",
+          "front": "voici 的用法",
+          "back": "展示/呈递某物或介绍某人\nVoici ma fille. 这是我女儿。\n比 c'est 更有'呈现'的动作感"
+        },
+        {
+          "id": "1772309416590-bbvqt6e2cac",
+          "front": "français 的阴性形式",
+          "back": "française\n规律：阳性 + e → 阴性"
+        },
+        {
+          "id": "1772309416590-yq2xbucuqxf",
+          "front": "italien 的阴性形式",
+          "back": "italienne\n规律：-ien → -ienne（双写 n + e）"
+        },
+        {
+          "id": "1772309416590-jfx4bbueay8",
+          "front": "国籍词大小写规则",
+          "back": "做形容词 → 小写：Elle est française.\n做名词指人 → 大写：C'est une Française."
+        },
+        {
+          "id": "1772309416590-jypvyq37rqn",
+          "front": "mon 还是 ma？\n—— _____ amie",
+          "back": "mon amie\n阴性名词以元音开头时用 mon（避免元音碰撞）"
+        },
+        {
+          "id": "1772309416590-b6o7uvo5nzh",
+          "front": "对否定问句做肯定回答用什么？",
+          "back": "用 si（不用 oui）\n— Tu n'es pas français ? — Si, je suis français."
+        },
+        {
+          "id": "1772309433944-s70wzw6a6km",
+          "front": "bienvenue 的词性和含义",
+          "back": "n.f. 欢迎\nBienvenue à Paris !\nBienvenue au Canada !（au = à + le）"
+        },
+        {
+          "id": "1772309433944-ssyutqpda6",
+          "front": "bienvenue 做形容词时的性数变化",
+          "back": "阳性单数：le bienvenu\n阴性单数：la bienvenue\n阳性复数：les bienvenus\n阴性复数：les bienvenues"
+        },
+        {
+          "id": "1772309433944-fxfp3qdl0r8",
+          "front": "bonjour 的使用时间段",
+          "back": "白天通用（早上到傍晚）\n晚上改用 bonsoir"
+        },
+        {
+          "id": "1772309433944-mud49w5bi8k",
+          "front": "je 在元音前怎么变？",
+          "back": "省音为 j'\n例：j'ai, j'aime, j'habite"
+        },
+        {
+          "id": "1772309433944-o4swnt94t0a",
+          "front": "tu 和 vous 怎么选？",
+          "back": "tu → 朋友、家人、孩子（非正式）\nvous → 陌生人、长辈、正式场合\nTCF 听力常用 tu/vous 暗示人物关系"
+        },
+        {
+          "id": "1772309433944-7apzzkkpogl",
+          "front": "femme 的发音",
+          "back": "/fam/\n⚠ 不读 /fɛm/\n含义：女人；妻子"
+        },
+        {
+          "id": "1772309433944-vd5n6e0t5nd",
+          "front": "monsieur 的复数",
+          "back": "messieurs\n缩写：M.（单数）/ MM.（复数）"
+        },
+        {
+          "id": "1772309433944-ge75jyx2dlt",
+          "front": "madame 的复数",
+          "back": "mesdames\n缩写：Mme（单数）/ Mmes（复数）"
+        },
+        {
+          "id": "1772309433944-s4auq88hn4",
+          "front": "nom 和 prénom 的区别",
+          "back": "nom = 姓氏（nom de famille）\nprénom = 名字\n法语顺序：prénom + nom"
+        },
+        {
+          "id": "1772309433944-62vhkzlw2n",
+          "front": "Quelle est votre nationalité ?",
+          "back": "您的国籍是什么？\nnationalité 是阴性名词（n.f.）\n用 quelle（阴性疑问形容词）"
+        },
+        {
+          "id": "1772309433944-11dgb4ydh6jq",
+          "front": "qui 的用法",
+          "back": "疑问代词，谁\nQui est-ce ? 这是谁？\nQui êtes-vous ? 您是谁？"
+        },
+        {
+          "id": "1772309433944-y81ivp8xsgi",
+          "front": "ce 做指示代词的核心用法",
+          "back": "c'est = ce + est = 这是\nC'est une pomme. 这是苹果。\nC'est la vie. 这就是生活。"
+        },
+        {
+          "id": "1772309433944-myh5tdwhzr",
+          "front": "ce / cet / cette / ces 怎么选？",
+          "back": "ce + 阳性辅音开头：ce livre\ncet + 阳性元音开头：cet homme\ncette + 阴性：cette femme\nces + 复数：ces livres"
+        },
+        {
+          "id": "1772309433944-y5o8spxez3d",
+          "front": "voici 和 voilà 的区别",
+          "back": "voici = 这是（近处）\nvoilà = 那是（远处）\n口语中 voilà 泛化，几乎可替代 voici"
+        },
+        {
+          "id": "1772309433944-qu62m4nzwm9",
+          "front": "étudiant 的阴性和复数",
+          "back": "阴性：étudiante（+e）\n阳性复数：étudiants（+s）\n阴性复数：étudiantes（+es）"
+        },
+        {
+          "id": "1772309433944-u86ef1rqvyo",
+          "front": "Nous sommes étudiants 还是 étudiant？",
+          "back": "étudiants（加 s）\n主语 nous 是复数，表语名词/形容词跟着变复数"
+        },
+        {
+          "id": "1772309433944-kuylsyg14v",
+          "front": "物主形容词「我的」三种形式",
+          "back": "mon（阳性单数）\nma（阴性单数）\nmes（复数）\n⚠ 阴性元音开头名词用 mon"
+        },
+        {
+          "id": "1772309433944-grfiy3un3kp",
+          "front": "à + le 的缩合形式",
+          "back": "au\nBienvenue au Canada !\nJe vais au cinéma."
+        },
+        {
+          "id": "1772309433944-ebf0hun5a4p",
+          "front": "oui 和 si 的使用场景",
+          "back": "oui → 回答肯定问句\nsi → 回答否定问句并表示肯定\n— Tu ne viens pas ? — Si !"
+        },
+        {
+          "id": "1772309433944-c9c5z0v8keu",
+          "front": "mari 和 femme 配对",
+          "back": "mari = 丈夫（n.m.）\nfemme = 妻子 / 女人（n.f.）\n注意 mari ≠ marié（已婚的）"
+        }
+      ]
+    },
+    {
       "id": 1772307967168,
       "name": "法语星期、月份、年份表达",
       "folderId": "1770661225895",
@@ -54117,6 +54875,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T19:47:37.723Z",
+  "exportedAt": "2026-02-28T20:19:32.736Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
