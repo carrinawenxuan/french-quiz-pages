@@ -1,6 +1,1393 @@
 {
   "savedSets": [
     {
+      "id": 1772307967168,
+      "name": "法语星期、月份、年份表达",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-28T19:46:07.168Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "« Je travaille _____ lundi. » 表示「每周一我工作」，空格处填什么？",
+          "options": [
+            "en",
+            "le",
+            "au",
+            "à"
+          ],
+          "correct": 1,
+          "explanation": "表示\"每逢/每周几\"用定冠词 le + 星期。le lundi = 每周一。",
+          "category": "星期用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la date ? — Nous sommes .",
+          "options": [
+            "le un mars",
+            "le premier mars",
+            "en premier mars",
+            "au premier mars"
+          ],
+          "correct": 1,
+          "explanation": "每月1号必须用序数词 premier，不能说 le un。正确：le premier mars。",
+          "category": "日期表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon anniversaire est _____ juillet.",
+          "options": [
+            "à",
+            "dans",
+            "en",
+            "le"
+          ],
+          "correct": 2,
+          "explanation": "「在某月」用介词 en。en juillet = 在七月。",
+          "category": "月份介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est née _____ 1995.",
+          "options": [
+            "dans",
+            "à",
+            "en",
+            "au"
+          ],
+          "correct": 2,
+          "explanation": "「在某年」用介词 en。en 1995 = 在1995年。",
+          "category": "年份介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "法语中，星期和月份的首字母应该：",
+          "options": [
+            "和英语一样大写",
+            "全部小写",
+            "只有月份大写",
+            "只有星期大写"
+          ],
+          "correct": 1,
+          "explanation": "法语中星期和月份首字母一律小写，这是与英语的重要区别，TCF 常考。",
+          "category": "书写规则"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "2025年3月15日，法语写作： 15 mars 2025。",
+          "correct": [
+            "le"
+          ],
+          "explanation": "法语日期公式：le + 基数词 + 月份 + 年份。日期前必须加定冠词 le。",
+          "category": "日期表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« _____ jour sommes-nous ? » 这个句子用来问什么？",
+          "options": [
+            "今天几号",
+            "今天星期几",
+            "现在几点",
+            "今天什么天气"
+          ],
+          "correct": 1,
+          "explanation": "Quel jour sommes-nous ? = 今天星期几？问日期则说 Quelle est la date ? 或 On est le combien ?",
+          "category": "日期问句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il arrive samedi prochain. » 这句话的意思是：",
+          "options": [
+            "他每周六到",
+            "他上周六到了",
+            "他下周六到",
+            "他这周六到了"
+          ],
+          "correct": 2,
+          "explanation": "samedi prochain = 下周六。没有 le = 不是习惯性，prochain = 下一个。",
+          "category": "星期用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达中介词使用正确？（多选）",
+          "options": [
+            "en décembre",
+            "à mars",
+            "au mois de juin",
+            "dans 2023"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "en + 月份 ✓；au mois de + 月份 ✓。不能说 à mars 或 dans 2023，月份用 en，年份也用 en。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tous les _____ , je fais du sport. » 表示\"每周二我运动\"。",
+          "options": [
+            "mardi",
+            "le mardi",
+            "mardis",
+            "les mardis"
+          ],
+          "correct": 2,
+          "explanation": "tous les + 星期复数。tous les mardis = 每周二。注意星期复数加 s。",
+          "category": "星期用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "八月的法语是 _____，其发音为 /u/ 或 /ut/。",
+          "correct": [
+            "août"
+          ],
+          "explanation": "août 是发音最特殊的月份，读 /u/ 或 /ut/，不要读成 /a.u/。",
+          "category": "月份拼写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« On est le combien ? » 的正确回答是：",
+          "options": [
+            "On est lundi.",
+            "On est le 12.",
+            "On est en mai.",
+            "On est 12."
+          ],
+          "correct": 1,
+          "explanation": "On est le combien ? 问的是几号，回答要带 le + 数字。On est le 12 = 今天12号。",
+          "category": "日期问答"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je suis né _____ 3 _____ 1998. C'était un _____.",
+          "correct": [
+            "le",
+            "avril",
+            "vendredi"
+          ],
+          "explanation": "日期公式：le + 基数词 + 月份 + 年份。le 3 avril 1998，星期前不加介词直接说。",
+          "category": "日期综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« 2000年 » 的法语读法是：",
+          "options": [
+            "vingt cent",
+            "deux milles",
+            "deux mille",
+            "mille deux"
+          ],
+          "correct": 2,
+          "explanation": "deux mille = 2000。注意 mille 作数词时永远不加 s（不写 milles）。",
+          "category": "年份读法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个句子表达「我上周日去了巴黎」？",
+          "options": [
+            "Je suis allé à Paris le dimanche.",
+            "Je suis allé à Paris dimanche dernier.",
+            "Je suis allé à Paris en dimanche.",
+            "Je suis allé à Paris au dimanche."
+          ],
+          "correct": 1,
+          "explanation": "dimanche dernier = 上周日。le dimanche = 每周日（习惯性），en/au + 星期不存在。",
+          "category": "星期用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "法语一周从 _____ 开始（写法语）。",
+          "correct": [
+            "lundi"
+          ],
+          "explanation": "法国一周从 lundi（周一）开始，不是 dimanche（周日）。日历、课表都以周一为起点。",
+          "category": "文化常识"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1xLytkcCcbmj5Idwp9CNJX3f6F60-gX3eh_ZI_15vkio/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772308054566-mz32t521aqi",
+          "front": "lundi",
+          "back": "星期一 (m.)\n/lœ̃.di/"
+        },
+        {
+          "id": "1772308054566-e4cbyou4pjr",
+          "front": "mardi",
+          "back": "星期二 (m.)\n/maʁ.di/"
+        },
+        {
+          "id": "1772308054566-5esheqmyi5x",
+          "front": "mercredi",
+          "back": "星期三 (m.)\n/mɛʁ.kʁə.di/"
+        },
+        {
+          "id": "1772308054566-dx0o9zl93eb",
+          "front": "jeudi",
+          "back": "星期四 (m.)\n/ʒø.di/"
+        },
+        {
+          "id": "1772308054566-v3v9v9tna8",
+          "front": "vendredi",
+          "back": "星期五 (m.)\n/vɑ̃.dʁə.di/"
+        },
+        {
+          "id": "1772308054566-bp49jjzzkqs",
+          "front": "samedi",
+          "back": "星期六 (m.)\n/sam.di/"
+        },
+        {
+          "id": "1772308054566-1gp3rroln7s",
+          "front": "dimanche",
+          "back": "星期日 (m.)\n/di.mɑ̃ʃ/"
+        },
+        {
+          "id": "1772308054566-jodexdfu48",
+          "front": "「每周一」怎么说？",
+          "back": "le lundi\n加定冠词 le = 每逢"
+        },
+        {
+          "id": "1772308054566-aanc20xa9we",
+          "front": "lundi vs le lundi 区别？",
+          "back": "lundi = 这周一（具体某次）\nle lundi = 每周一（习惯性）"
+        },
+        {
+          "id": "1772308054566-t1il2xxuy5h",
+          "front": "法语星期首字母大写还是小写？",
+          "back": "小写！\n与英语不同，法语星期和月份一律小写"
+        },
+        {
+          "id": "1772308054566-0yh1w0eqob2",
+          "front": "janvier",
+          "back": "一月 (m.)\n/ʒɑ̃.vje/"
+        },
+        {
+          "id": "1772308054566-wt0fdn8w5d",
+          "front": "février",
+          "back": "二月 (m.)\n/fe.vʁi.je/"
+        },
+        {
+          "id": "1772308054566-dlewhmp0omv",
+          "front": "mars",
+          "back": "三月 (m.)\n/maʁs/"
+        },
+        {
+          "id": "1772308054566-ebln8ipodvs",
+          "front": "avril",
+          "back": "四月 (m.)\n/a.vʁil/"
+        },
+        {
+          "id": "1772308054566-5uqmcyd9z7p",
+          "front": "mai",
+          "back": "五月 (m.)\n/mɛ/"
+        },
+        {
+          "id": "1772308054566-lka3fz2816",
+          "front": "juin",
+          "back": "六月 (m.)\n/ʒɥɛ̃/"
+        },
+        {
+          "id": "1772308054566-tejl897t6",
+          "front": "juillet",
+          "back": "七月 (m.)\n/ʒɥi.jɛ/"
+        },
+        {
+          "id": "1772308054566-xpe9u7iwbd",
+          "front": "août",
+          "back": "八月 (m.)\n/u/ 或 /ut/\n发音陷阱：不读 /a.u/"
+        },
+        {
+          "id": "1772308054566-m1767za5pwh",
+          "front": "septembre",
+          "back": "九月 (m.)\n/sɛp.tɑ̃bʁ/"
+        },
+        {
+          "id": "1772308054566-z8b8340gkea",
+          "front": "octobre",
+          "back": "十月 (m.)\n/ɔk.tɔbʁ/"
+        },
+        {
+          "id": "1772308054566-queub1a0sfl",
+          "front": "novembre",
+          "back": "十一月 (m.)\n/nɔ.vɑ̃bʁ/"
+        },
+        {
+          "id": "1772308054566-dh5s20pytyn",
+          "front": "décembre",
+          "back": "十二月 (m.)\n/de.sɑ̃bʁ/"
+        },
+        {
+          "id": "1772308054566-3cqc17gw7kn",
+          "front": "「在某月」用什么介词？",
+          "back": "en + 月份\nen mars = 在三月\n也可说 au mois de mars（更正式）"
+        },
+        {
+          "id": "1772308054566-sepcod2cnmn",
+          "front": "「在某年」用什么介词？",
+          "back": "en + 年份\nen 2024 = 在2024年\n⚠️ 不能说 dans 2024 / à 2024"
+        },
+        {
+          "id": "1772308054566-ep75wu2igo",
+          "front": "法语日期公式？",
+          "back": "le + 基数词 + 月份 + 年份\nle 15 mars 2025"
+        },
+        {
+          "id": "1772308054566-fcrcf81e8qm",
+          "front": "每月1号怎么说？",
+          "back": "le premier + 月份\nle premier janvier = 1月1日\n⚠️ 不能说 le un janvier"
+        },
+        {
+          "id": "1772308054566-ui19lf5q1en",
+          "front": "mille 作数词时加不加 s？",
+          "back": "永远不加 s\ndeux mille ✓\ndeux milles ✗"
+        },
+        {
+          "id": "1772308054566-8i94p4rm8qp",
+          "front": "Quelle est la date d'aujourd'hui ?",
+          "back": "今天几号？\n回答：Nous sommes le 28 février."
+        },
+        {
+          "id": "1772308054566-2yvylrko80f",
+          "front": "Quel jour sommes-nous ?",
+          "back": "今天星期几？\n回答：Nous sommes lundi."
+        },
+        {
+          "id": "1772308054566-5uaybjxa7iv",
+          "front": "On est le combien ?",
+          "back": "今天几号？（口语）\n回答：On est le 12."
+        },
+        {
+          "id": "1772308054566-pr5us8n30ac",
+          "front": "samedi prochain / dernier",
+          "back": "prochain = 下周六\ndernier = 上周六"
+        },
+        {
+          "id": "1772308054566-w3us7pf0md",
+          "front": "tous les lundis",
+          "back": "每周一\ntous les + 星期复数（加 s）"
+        },
+        {
+          "id": "1772308054566-ii7qwxzk7od",
+          "front": "法国一周从哪天开始？",
+          "back": "从 lundi（周一）开始\n不是 dimanche（周日）"
+        }
+      ]
+    },
+    {
+      "id": 1772303243890,
+      "name": "法语联诵（liaison）与连音（enchaînement）",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-28T18:27:23.890Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "在 les amis 中，联诵时 s 读作什么音？",
+          "options": [
+            "/s/",
+            "/z/",
+            "/t/",
+            "/n/"
+          ],
+          "correct": 1,
+          "explanation": "s 和 x 在联诵时一律读 /z/，这是最基本的联诵规则。les‿amis = [le-za-mi]。",
+          "category": "联诵规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "grand ami 中，d 在联诵时读作什么音？",
+          "options": [
+            "/d/",
+            "/z/",
+            "/t/",
+            "/n/"
+          ],
+          "correct": 2,
+          "explanation": "d 在联诵时读 /t/，不是 /d/。grand‿ami = [gʁã-ta-mi]。这是高频易错点。",
+          "category": "联诵规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪个属于「连音」(enchaînement) 而非「联诵」(liaison)？",
+          "options": [
+            "les‿enfants",
+            "vous‿avez",
+            "Elle aime écouter.",
+            "un‿ami"
+          ],
+          "correct": 2,
+          "explanation": "连音是指本来就发音的尾辅音与后词元音自然相连。elle 的 /l/ 本来就发音，属于连音。其余三个的尾辅音平时不发音，属于联诵。",
+          "category": "概念辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪个位置「禁止联诵」？",
+          "options": [
+            "les + amis",
+            "nous + allons",
+            "et + elle",
+            "mes + yeux"
+          ],
+          "correct": 2,
+          "explanation": "et 后面永远不联诵！这是最重要的禁止联诵规则之一。pain et‖amour，不能读成 [e-tɛl]。",
+          "category": "禁止联诵"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ acheté une maison. 联诵后 ils ont 听起来像：",
+          "options": [
+            "[il-sɔ̃]",
+            "[il-zɔ̃]",
+            "[il-tɔ̃]",
+            "[il-nɔ̃]"
+          ],
+          "correct": 1,
+          "explanation": "ils 的 s 联诵读 /z/，ils‿ont = [il-zɔ̃]。注意区分 ils ont [il-zɔ̃] 和 ils sont [il-sɔ̃]，这是 TCF 听力经典干扰项。",
+          "category": "听力辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些属于「必须联诵」的情况？（多选）",
+          "options": [
+            "限定词 + 名词：les‿enfants",
+            "et + 元音开头的词",
+            "主语代词 + 动词：nous‿allons",
+            "名词单数 + 动词：enfant‖arrive"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "限定词+名词、主语代词+动词都是必须联诵。et 后面禁止联诵；名词单数+动词也禁止联诵。",
+          "category": "联诵分类"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous avez un instant ? 这句话中有几处联诵？",
+          "options": [
+            "1处",
+            "2处",
+            "3处",
+            "0处"
+          ],
+          "correct": 1,
+          "explanation": "两处联诵：vous‿avez（s→/z/）和 un‿instant（n→/n/）。avez 和 un 之间没有联诵（可选但非必须）。",
+          "category": "联诵识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪个词前面禁止联诵？",
+          "options": [
+            "ami",
+            "enfant",
+            "héros",
+            "arbre"
+          ],
+          "correct": 2,
+          "explanation": "héros 以嘘音 h（h aspiré）开头，前面禁止联诵。les héros 读 [le-e-ʁo]，不能读 [le-ze-ʁo]。",
+          "category": "禁止联诵"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "联诵是指前词以原本不发音的 _____ 结尾，遇到后词的元音时被激活发音的现象。",
+          "correct": [
+            "辅音字母",
+            "辅音"
+          ],
+          "explanation": "联诵的核心定义：原本不发音的辅音字母（如 s, t, d, n）在遇到后词首元音时被激活。",
+          "category": "概念"
+        },
+        {
+          "type": "single_choice",
+          "stem": "petit enfant 联诵后的正确读法是：",
+          "options": [
+            "[pə-ti-dã-fã]",
+            "[pə-ti-tã-fã]",
+            "[pə-ti-zã-fã]",
+            "[pə-ti-ã-fã]"
+          ],
+          "correct": 1,
+          "explanation": "petit 的 t 联诵时读 /t/，petit‿enfant = [pə-ti-tã-fã]。形容词在名词前时必须联诵。",
+          "category": "联诵规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些辅音字母在联诵时读 /z/？（多选）",
+          "options": [
+            "s",
+            "d",
+            "x",
+            "t"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "s 和 x 在联诵时都读 /z/。例如 les‿amis（s→/z/），deux‿ans（x→/z/）。d 读 /t/，t 读 /t/。",
+          "category": "联诵规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 听力中，ils ont 和 ils sont 的区别在于：",
+          "options": [
+            "元音不同",
+            "ils ont 有联诵 /z/，ils sont 的 s 直接发 /s/",
+            "语调不同",
+            "没有区别"
+          ],
+          "correct": 1,
+          "explanation": "ils‿ont：s 联诵读 /z/ → [il-zɔ̃]；ils sont：s 是 sont 本身的首辅音 /s/ → [il-sɔ̃]。/z/ vs /s/ 是关键区别，TCF 常考。",
+          "category": "听力辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1B7PbsG7ABMnzJ1Jv7kEWWf2-PUuprm6HanmyAQwibWA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772303301954-zukjpihd5ab",
+          "front": "联诵 (liaison) 的定义是什么？",
+          "back": "前词以原本不发音的辅音字母结尾，后接元音或哑音h开头的词时，该辅音被激活发音，与后词首元音合成一个音节。"
+        },
+        {
+          "id": "1772303301954-u9pordp8eg",
+          "front": "连音 (enchaînement) 的定义是什么？",
+          "back": "前词尾辅音本来就发音，自然与后词首元音连在一起读成一个音节。不需要“激活”。"
+        },
+        {
+          "id": "1772303301954-ucrcx0j5qgl",
+          "front": "联诵和连音的核心区别？",
+          "back": "联诵：辅音平时不发音，被后词元音“激活”\n连音：辅音本来就发音，自然相连"
+        },
+        {
+          "id": "1772303301954-bvvrpgp03oe",
+          "front": "s 在联诵时读什么音？",
+          "back": "/z/\n例：les‿amis [le-za-mi]"
+        },
+        {
+          "id": "1772303301954-sfczj8r1up",
+          "front": "x 在联诵时读什么音？",
+          "back": "/z/\n例：deux‿ans [dø-zã]"
+        },
+        {
+          "id": "1772303301954-zn8t9czte7b",
+          "front": "d 在联诵时读什么音？",
+          "back": "/t/（不是 /d/！）\n例：grand‿ami [gʁã-ta-mi]"
+        },
+        {
+          "id": "1772303301954-7px7um0qgr3",
+          "front": "t 在联诵时读什么音？",
+          "back": "/t/\n例：petit‿enfant [pə-ti-tã-fã]"
+        },
+        {
+          "id": "1772303301954-4pnvkzj6s0o",
+          "front": "n 在联诵时读什么音？",
+          "back": "/n/\n例：un‿ami [œ̃-na-mi]"
+        },
+        {
+          "id": "1772303301954-5ajak308jc4",
+          "front": "必须联诵：限定词 + 名词",
+          "back": "les‿amis, mes‿enfants, un‿homme, ces‿arbres\n限定词后接元音开头的名词，必须联诵。"
+        },
+        {
+          "id": "1772303301954-lw0qla1pvas",
+          "front": "必须联诵：主语代词 + 动词",
+          "back": "nous‿allons, ils‿ont, on‿a, vous‿êtes\n主语代词后接元音开头的动词，必须联诵。"
+        },
+        {
+          "id": "1772303301954-8vqmyz1ofus",
+          "front": "必须联诵：形容词在名词前",
+          "back": "petit‿enfant, grand‿arbre, bon‿ami\n前置形容词后接元音开头的名词，必须联诵。"
+        },
+        {
+          "id": "1772303301954-7j4wm37d1g5",
+          "front": "必须联诵：单音节介词/副词 + 后词",
+          "back": "en‿été, dans‿un, très‿important, chez‿elle"
+        },
+        {
+          "id": "1772303301954-wvnhg9wnf6e",
+          "front": "禁止联诵：et + 任何词",
+          "back": "et 后面永远不联诵！\npain et‖amour ❌ 不能读 [e-ta-muʁ]"
+        },
+        {
+          "id": "1772303301954-8hv0mv8zylt",
+          "front": "禁止联诵：名词单数 + 动词",
+          "back": "l'enfant‖arrive ❌\n名词单数后面不与动词联诵。"
+        },
+        {
+          "id": "1772303301954-fowm0r8hhk",
+          "front": "禁止联诵：嘘音 h (h aspiré) 前",
+          "back": "les‖héros ❌ 读 [le-e-ʁo]\n嘘音h开头的词前面禁止联诵。"
+        },
+        {
+          "id": "1772303301954-wqkfswsdgf",
+          "front": "禁止联诵：数词 onze 前",
+          "back": "les‖onze ❌\nonze 前面不联诵。"
+        },
+        {
+          "id": "1772303301954-02s9djy4yu4r",
+          "front": "TCF 听力陷阱：ils ont vs ils sont",
+          "back": "ils‿ont = [il-zɔ̃]（s联诵读/z/）\nils sont = [il-sɔ̃]（s是sont本身的/s/）\n区别：/z/ vs /s/"
+        },
+        {
+          "id": "1772303301954-0scfg6nwbq0b",
+          "front": "Elle aime écouter. 是联诵还是连音？",
+          "back": "连音 (enchaînement)\nelle 的 /l/ 本来就发音，自然与 aime 的元音相连。"
+        },
+        {
+          "id": "1772303301954-huq5lksf5sq",
+          "front": "les‿amis 是联诵还是连音？",
+          "back": "联诵 (liaison)\nles 的 s 平时不发音，遇到 amis 的元音被激活读 /z/。"
+        },
+        {
+          "id": "1772303301954-rqlp8ubwaq",
+          "front": "可选联诵 (liaison facultative) 什么时候用？",
+          "back": "正式场合倾向做，口语中常省略。\nTCF 听力两种情况都可能出现。B2口语中适当使用可加分。"
+        }
+      ]
+    },
+    {
+      "id": 1772302891055,
+      "name": "法语数字",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-28T18:21:31.055Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Écrivez en lettres : 80 personnes",
+          "options": [
+            "quatre-vingt personnes",
+            "quatre-vingts personnes",
+            "quatres-vingt personnes",
+            "quatres-vingts personnes"
+          ],
+          "correct": 1,
+          "explanation": "80 独立使用（后接名词而非数字）→ vingt 加 s。quatre 永远不加 s。",
+          "category": "基数词·80规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Écrivez en lettres : 83 élèves",
+          "options": [
+            "quatre-vingts-trois élèves",
+            "quatre-vingt-trois élèves",
+            "quatre-vingts trois élèves",
+            "quatre-vingt trois élèves"
+          ],
+          "correct": 1,
+          "explanation": "80 后面跟了 trois → vingt 不加 s。数字间用连字符。",
+          "category": "基数词·80规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Écrivez en lettres : 200 euros",
+          "options": [
+            "deux cent euros",
+            "deux cents euros",
+            "deux-cents euros",
+            "deux-cent euros"
+          ],
+          "correct": 1,
+          "explanation": "整百且后面不跟其他数字 → cent 加 s。cent 前不加连字符。",
+          "category": "基数词·cent规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Écrivez en lettres : 205 pages",
+          "options": [
+            "deux cents cinq pages",
+            "deux-cent-cinq pages",
+            "deux cent cinq pages",
+            "deux-cents-cinq pages"
+          ],
+          "correct": 2,
+          "explanation": "cent 后面跟了 cinq → cent 不加 s。",
+          "category": "基数词·cent规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Écrivez en lettres : 3 000 habitants",
+          "options": [
+            "trois milles habitants",
+            "trois-mille habitants",
+            "trois mille habitants",
+            "troi mille habitants"
+          ],
+          "correct": 2,
+          "explanation": "mille 作数词永远不变，永远不加 s。",
+          "category": "基数词·mille规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment dit-on 6 000 000 de Chinois ?",
+          "options": [
+            "six million de Chinois",
+            "six millions Chinois",
+            "six millions de Chinois",
+            "six million des Chinois"
+          ],
+          "correct": 2,
+          "explanation": "million 是名词 → 复数加 s；后接名词必须加 de。",
+          "category": "基数词·million规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Il y a trois millions deux cent mille de habitants.",
+            "Il y a trois millions deux cent milles habitants.",
+            "Il y a trois millions deux cent mille habitants.",
+            "Il y a trois million deux cents mille habitants."
+          ],
+          "correct": 2,
+          "explanation": "million 后直接跟数字（deux cent mille）→ 不加 de。mille 不加 s。cent 后跟 mille → 不加 s。",
+          "category": "基数词·大数组合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le numéro de téléphone est 06 91 72 85. Comment lit-on « 91 » ?",
+          "options": [
+            "nonante et un",
+            "quatre-vingt-onze",
+            "neuvante et un",
+            "quatre-vingts-onze"
+          ],
+          "correct": 1,
+          "explanation": "法国标准法语 91 = quatre-vingt-onze。vingt 后接数字不加 s。nonante 仅用于比利时/瑞士。",
+          "category": "70-99·电话号码"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment lit-on « 9 heures » à voix haute ?",
+          "options": [
+            "[nœf œʁ]",
+            "[nœv œʁ]",
+            "[nœf ɛʁ]",
+            "[nœv ɛʁ]"
+          ],
+          "correct": 1,
+          "explanation": "neuf 在 heures 和 ans 前发生联诵变音，f 读作 /v/ → /nœ.vœʁ/。这是 TCF 听力经典考点。",
+          "category": "发音·neuf变音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est l'article correct devant « onze » ?",
+          "options": [
+            "l'onze novembre",
+            "le onze novembre",
+            "les onzes novembre",
+            "l'onzième novembre"
+          ],
+          "correct": 1,
+          "explanation": "onze 是 h aspiré 类词，前面不做 élision（不用 l'）也不做 liaison。必须用 le onze。",
+          "category": "发音·onze陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment dit-on « 1er mars » ?",
+          "options": [
+            "le un mars",
+            "le premier mars",
+            "le première mars",
+            "le unième mars"
+          ],
+          "correct": 1,
+          "explanation": "每月1号用序数词 premier。其他日期都用基数词（le deux, le trois...）。",
+          "category": "序数词·日期"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est l'ordinal correct de « cinq » ?",
+          "options": [
+            "cinqième",
+            "cinquème",
+            "cinquième",
+            "cinqème"
+          ],
+          "correct": 2,
+          "explanation": "cinq → cinqu + ième = cinquième。必须加 u 以保持 /k/ 的发音。",
+          "category": "序数词·构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est l'ordinal correct de « neuf » ?",
+          "options": [
+            "neufième",
+            "neuvième",
+            "nouvième",
+            "neufème"
+          ],
+          "correct": 1,
+          "explanation": "neuf → neuv + ième = neuvième。f 变 v，与 neuf heures 的变音同源。",
+          "category": "序数词·构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase utilise correctement « second » ?",
+          "options": [
+            "C'est le second chapitre du livre de dix chapitres.",
+            "La Seconde Guerre mondiale a duré six ans.",
+            "Il habite au second étage d'un immeuble de dix étages.",
+            "C'est ma seconde visite sur cinq prévues."
+          ],
+          "correct": 1,
+          "explanation": "second 只用于总数为二的情况。世界大战只有两次，所以用 Seconde。其他选项总数超过二，应用 deuxième。",
+          "category": "序数词·second vs deuxième"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment dit-on « une heure et trente minutes » ?",
+          "options": [
+            "une heure et demi",
+            "une heure et demie",
+            "une heure demie",
+            "une demie heure"
+          ],
+          "correct": 1,
+          "explanation": "demi 放在名词后面，用 et 连接，且与前面的名词配合阴阳性。heure 是阴性 → demie。",
+          "category": "分数·demi规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la forme correcte ?",
+          "options": [
+            "une demie-heure",
+            "une demi-heure",
+            "une demie heure",
+            "un demi-heure"
+          ],
+          "correct": 1,
+          "explanation": "demi 放在名词前，用连字符连接，不变化（不加 e）。heure 是阴性，所以冠词用 une。",
+          "category": "分数·demi规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment lit-on « 3,75 % » en français ?",
+          "options": [
+            "trois point soixante-quinze pour cent",
+            "trois virgule soixante-quinze pour cent",
+            "trois virgule sept cinq pour cent",
+            "trois et soixante-quinze pour cent"
+          ],
+          "correct": 1,
+          "explanation": "法语小数用 virgule（逗号），小数部分整体读：soixante-quinze。百分比用 pour cent。",
+          "category": "小数·百分比"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Le prix a augmenté d'une fois. » Cela signifie que le nouveau prix est :",
+          "options": [
+            "1,5 fois l'ancien prix",
+            "2 fois l'ancien prix",
+            "3 fois l'ancien prix",
+            "le même prix"
+          ],
+          "correct": 1,
+          "explanation": "une fois plus = 两倍（double）。法语中「多一倍」就是「是原来的两倍」。TCF 阅读统计题的经典陷阱。",
+          "category": "倍数·增减"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est 8h45. Comment dit-on ?",
+          "options": [
+            "Il est huit heures quarante-cinq.",
+            "Il est huit heures moins le quart.",
+            "Il est neuf heures moins le quart.",
+            "A et C sont corrects."
+          ],
+          "correct": 3,
+          "explanation": "8h45 可以说 huit heures quarante-cinq（A），也可以说 neuf heures moins le quart（C）。B 错误（huit heures moins le quart = 7h45）。",
+          "category": "时间·报时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment dit-on « midi et 30 minutes » ?",
+          "options": [
+            "midi et demi",
+            "midi et demie",
+            "midis et demi",
+            "midi demi"
+          ],
+          "correct": 0,
+          "explanation": "midi 是阳性 → demi 不加 e。用 et 连接。",
+          "category": "时间·midi"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Trois millions cinq cent _____ habitants vivent dans cette ville. (mille 的正确形式)",
+          "correct": [
+            "mille"
+          ],
+          "explanation": "mille 作数词时永远不变，不加 s，无论前面数字多大。",
+          "category": "基数词·mille"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a des _____ de manifestants dans la rue. (millier 的正确形式)",
+          "correct": [
+            "milliers"
+          ],
+          "explanation": "millier 是名词（约千），可以加 s → des milliers de + 名词。注意与 mille（数词不变）的区别。",
+          "category": "基数词·millier vs mille"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles sont correctes ?",
+          "options": [
+            "quatre-vingts euros",
+            "deux cents personnes",
+            "trois cents vingt habitants",
+            "quatre-vingts-un ans"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "A：80 独立 → vingts ✅。B：200 整百 → cents ✅。C：cent 后跟 vingt → 不加 s，应为 trois cent vingt ❌。D：vingt 后跟 un → 不加 s，应为 quatre-vingt-un ❌。",
+          "category": "综合·s规则"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles phrases sont correctes concernant « million » ?",
+          "options": [
+            "Deux millions personnes sont touchées.",
+            "Deux millions de personnes sont touchées.",
+            "Il gagne deux millions trois cent mille euros.",
+            "Il gagne deux millions de trois cent mille euros."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "B：million + 名词 → 必须加 de ✅。C：million 后跟具体数字 → 不加 de ✅。A 缺 de ❌。D 多了 de ❌。",
+          "category": "基数词·million + de"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le vol numéro _____ (71) part à _____ (9h00) du matin.",
+          "correct": [
+            "soixante et onze",
+            "neuf heures"
+          ],
+          "explanation": "71 = soixante et onze（注意有 et）。9h00 = neuf heures。",
+          "category": "综合·听力场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez à la radio : « La population de cette ville est de quatre-vingt-dix-sept mille cinq cents. » Quel est ce nombre ?",
+          "options": [
+            "87 500",
+            "97 500",
+            "90 750",
+            "97 050"
+          ],
+          "correct": 1,
+          "explanation": "quatre-vingt-dix-sept mille = 97 000，cinq cents = 500 → 97 500。听到 quatre-vingt-dix 开头要反应为 90+，不要和 quatre-vingts (80) 混淆。",
+          "category": "听力·大数辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un message téléphonique dit : « Rappelez-moi au zéro six, soixante-dix-huit, quatre-vingt-quinze, treize. » Quel est le numéro ?",
+          "options": [
+            "06 68 85 13",
+            "06 78 95 13",
+            "06 70 80 13",
+            "06 78 85 13"
+          ],
+          "correct": 1,
+          "explanation": "soixante-dix-huit = 78，quatre-vingt-quinze = 95，treize = 13 → 06 78 95 13。",
+          "category": "听力·电话号码"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À la gare, on annonce : « Le train numéro sept cent quatre-vingt-onze à destination de Lyon partira à quatorze heures cinquante-cinq. » Quel train et quelle heure ?",
+          "options": [
+            "Train 781, 14h55",
+            "Train 791, 14h55",
+            "Train 791, 4h55",
+            "Train 781, 15h55"
+          ],
+          "correct": 1,
+          "explanation": "sept cent = 700，quatre-vingt-onze = 91 → 791。quatorze heures cinquante-cinq = 14h55。",
+          "category": "听力·综合场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'agent immobilier dit : « L'appartement fait soixante-douze virgule cinq mètres carrés, au deuxième étage, pour deux cent soixante-quinze mille euros. » Quelle surface et quel prix ?",
+          "options": [
+            "72,5 m², 265 000 €",
+            "62,5 m², 275 000 €",
+            "72,5 m², 275 000 €",
+            "72,5 m², 270 500 €"
+          ],
+          "correct": 2,
+          "explanation": "soixante-douze virgule cinq = 72,5。deux cent soixante-quinze mille = 275 000。cent 后跟数字不加 s。",
+          "category": "听力·房产场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le médecin dit : « Prenez ce médicament trois fois par jour pendant vingt et un jours. » Combien de prises au total ?",
+          "options": [
+            "42",
+            "63",
+            "21",
+            "60"
+          ],
+          "correct": 1,
+          "explanation": "3 fois/jour × 21 jours = 63 prises。vingt et un = 21（注意 et 的存在表示 21 而非 20+其他）。",
+          "category": "听力·医疗场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le journaliste annonce : « Le taux de chômage a diminué de zéro virgule huit pour cent, passant de cinq virgule trois à quatre virgule cinq pour cent. » La baisse est de :",
+          "options": [
+            "0,3 %",
+            "0,5 %",
+            "0,8 %",
+            "8 %"
+          ],
+          "correct": 2,
+          "explanation": "diminué de zéro virgule huit pour cent = 下降了 0,8%。5,3 − 4,5 = 0,8 验证正确。注意 virgule 是小数点。",
+          "category": "听力·统计新闻"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles lectures de « six » sont correctes ?",
+          "options": [
+            "six → /sis/ quand il est isolé",
+            "six enfants → /siz ɑ̃fɑ̃/",
+            "six personnes → /si pɛʁsɔn/",
+            "six → /siz/ quand il est isolé"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "six 独立读 /sis/；元音前联诵读 /siz/（six enfants）；辅音前读 /si/（six personnes）。D 错误，独立时是 /sis/ 不是 /siz/。",
+          "category": "发音·六的三种读音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles phrases sont correctes ?",
+          "options": [
+            "le onze mai",
+            "l'onze mai",
+            "les onze candidats (avec liaison)",
+            "les onze candidats (sans liaison)"
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "onze 属于特殊词，前面不做 élision（不用 l'）→ B 错。不做 liaison → C 错（不联诵）。正确为 le onze（A）和 les / onze 无联诵（D）。",
+          "category": "发音·onze特殊规则"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Dans cette entreprise, le chiffre d'affaires a _____ en cinq ans. (tripler 的 passé composé, 主语 le chiffre d'affaires)",
+          "correct": [
+            "triplé",
+            "a triplé"
+          ],
+          "explanation": "tripler 用 avoir 做助动词：le chiffre d'affaires a triplé（营业额翻了三倍）。倍数动词的 passé composé 是 TCF 阅读商业文章高频结构。",
+          "category": "倍数·动词用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Neuf personnes sur _____ préfèrent le télétravail. (用法语字母写出数字 10)",
+          "correct": [
+            "dix"
+          ],
+          "explanation": "X sur Y 是分数的通用表达。neuf sur dix = 9/10 = 90%。CLB 9 阅读调查报告常见。",
+          "category": "分数·sur表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le billet d'avion coûte _____ (1 280) euros. L'hôtel, c'est _____ (95) euros la nuit pour _____ (21) nuits, soit un total de _____ (1 995) euros pour l'hébergement.",
+          "correct": [
+            "mille deux cent quatre-vingts",
+            "quatre-vingt-quinze",
+            "vingt et une",
+            "mille neuf cent quatre-vingt-quinze"
+          ],
+          "explanation": "1280：mille deux cent quatre-vingts（vingts 加 s，因为后面直接接名词 euros，而非其他数字）。95：quatre-vingt-quinze（vingt 后跟数字不加 s）。21 nuits：vingt et une（nuit 阴性，un → une）。1995：mille neuf cent quatre-vingt-quinze（vingt 后跟数字不加 s，cent 后跟数字不加 s）。",
+          "category": "综合·旅行预算场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les deux premières semaines » est correct. Comment dit-on « les 3 dernières semaines » ?",
+          "options": [
+            "les trois dernières semaines",
+            "les trois dernier semaines",
+            "les troisièmes dernières semaines",
+            "les trois derniers semaines"
+          ],
+          "correct": 0,
+          "explanation": "基数词 + 序数型形容词 + 名词。dernière 配合 semaines（阴性复数）→ dernières。不需要把 trois 变成序数词。",
+          "category": "序数词·与形容词搭配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1-1EdwHBzc8TLwaZ5W6wFGjp6PlVAm2FuKX4yV3lIuHA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772303007470-gfht63o1doj",
+          "front": "80 的法语写法（独立使用）",
+          "back": "quatre-vingts\n独立或后接名词时 vingt 加 s"
+        },
+        {
+          "id": "1772303007470-5izoh3utmfv",
+          "front": "81 的法语写法",
+          "back": "quatre-vingt-un\n后跟数字时 vingt 不加 s"
+        },
+        {
+          "id": "1772303007470-0gxof244km4q",
+          "front": "200 的法语写法（独立使用）",
+          "back": "deux cents\n整百且不后接数字 → cent 加 s"
+        },
+        {
+          "id": "1772303007470-7kb8kty9y0f",
+          "front": "205 的法语写法",
+          "back": "deux cent cinq\ncent 后跟数字 → 不加 s"
+        },
+        {
+          "id": "1772303007470-xqglo8668xr",
+          "front": "mille 复数加不加 s？",
+          "back": "永远不加 s\ndeux mille, dix mille, cent mille"
+        },
+        {
+          "id": "1772303007470-009o1pasue9c6",
+          "front": "million 后接名词要不要加 de？",
+          "back": "要！\ntrois millions DE personnes\n但后接数字不加 de：trois millions deux cent mille"
+        },
+        {
+          "id": "1772303007470-1zbuv6f7jq9",
+          "front": "milliard 是阳性还是阴性？复数？",
+          "back": "阳性名词，复数加 s\nun milliard → deux milliards"
+        },
+        {
+          "id": "1772303007470-u1ie0t1y3l",
+          "front": "millier 和 mille 的区别",
+          "back": "mille = 数词，不变\nmillier = 名词（约千），可加 s\ndes milliers de personnes"
+        },
+        {
+          "id": "1772303007470-2tabilc5gcc",
+          "front": "neuf heures 怎么发音？",
+          "back": "/nœ.vœʁ/\nneuf 在 heures 和 ans 前 f → /v/"
+        },
+        {
+          "id": "1772303007470-vzly2fr20qb",
+          "front": "neuf personnes 怎么发音？",
+          "back": "/nœf pɛʁsɔn/\n只在 heures 和 ans 前变 /v/，其他词前仍读 /f/"
+        },
+        {
+          "id": "1772303007470-it4emt8c4cl",
+          "front": "onze 前面要不要做 élision？",
+          "back": "不要！\nle onze（不是 l'onze）\n也不做 liaison：les / onze"
+        },
+        {
+          "id": "1772303007470-2rhgxnsb2tl",
+          "front": "six 的三种发音",
+          "back": "独立：/sis/\n元音前联诵：/siz/（six enfants）\n辅音前：/si/（six personnes）"
+        },
+        {
+          "id": "1772303007470-aht5osvff8j",
+          "front": "dix 的三种发音",
+          "back": "独立：/dis/\n元音前联诵：/diz/（dix ans）\n辅音前：/di/（dix personnes）"
+        },
+        {
+          "id": "1772303007470-nfuvlpki7i",
+          "front": "70 的法语",
+          "back": "soixante-dix（60+10）"
+        },
+        {
+          "id": "1772303007470-4i3zpiu9l7j",
+          "front": "71 的法语",
+          "back": "soixante et onze\n注意有 et"
+        },
+        {
+          "id": "1772303007470-b71v31wd4uf",
+          "front": "90 的法语",
+          "back": "quatre-vingt-dix（4×20+10）\nvingt 不加 s"
+        },
+        {
+          "id": "1772303007470-plolcgeonjr",
+          "front": "91 的法语",
+          "back": "quatre-vingt-onze"
+        },
+        {
+          "id": "1772303007470-bnqaicb5vfu",
+          "front": "99 的法语",
+          "back": "quatre-vingt-dix-neuf"
+        },
+        {
+          "id": "1772303007470-oojkt76ren",
+          "front": "21 nuits 怎么写？",
+          "back": "vingt et une nuits\nun 是唯一有阴阳性的基数词，nuit 阴性 → une"
+        },
+        {
+          "id": "1772303007470-rwnx7l7clhi",
+          "front": "premier 的阴性形式",
+          "back": "première\n唯一不规则的序数词"
+        },
+        {
+          "id": "1772303007470-gr2onnb53uh",
+          "front": "cinq 的序数词",
+          "back": "cinquième\n加 u 保持 /k/ 发音"
+        },
+        {
+          "id": "1772303007470-5687rfm1zn4",
+          "front": "neuf 的序数词",
+          "back": "neuvième\nf → v"
+        },
+        {
+          "id": "1772303007470-i8uqqcx7k6q",
+          "front": "second 和 deuxième 的区别",
+          "back": "second：总数为二时用\n（la Seconde Guerre mondiale）\ndeuxième：总数超过二时用"
+        },
+        {
+          "id": "1772303007470-1smf4foue0wh",
+          "front": "每月1号怎么说？",
+          "back": "le premier + 月份\nle premier mars\n唯一用序数词的日期，其他都用基数词"
+        },
+        {
+          "id": "1772303007470-hnf3ef8xpk9",
+          "front": "国王编号规则",
+          "back": "只有一世用序数词：François Ier（Premier）\n其他用基数词：Louis XIV（quatorze）"
+        },
+        {
+          "id": "1772303007470-8phhve09734",
+          "front": "demi 放名词前的规则",
+          "back": "用连字符，不变化\nune demi-heure, un demi-litre"
+        },
+        {
+          "id": "1772303007470-jz7vfsquwdk",
+          "front": "demi 放名词后的规则",
+          "back": "用 et 连接，配合阴阳性\nune heure et demie（阴）\nmidi et demi（阳）"
+        },
+        {
+          "id": "1772303007470-bki0lt2mi3d",
+          "front": "1/3 法语怎么说？",
+          "back": "un tiers\n专有词，不用序数词"
+        },
+        {
+          "id": "1772303007470-rvn8gi80l",
+          "front": "1/4 法语怎么说？",
+          "back": "un quart\n专有词"
+        },
+        {
+          "id": "1772303007470-iq4cz7fk8ek",
+          "front": "2/5 法语怎么说？",
+          "back": "deux cinquièmes\n从 1/5 起用序数词做分母，分母加 s"
+        },
+        {
+          "id": "1772303007470-8fglojjmbcu",
+          "front": "分数的通用表达法",
+          "back": "X sur Y\nneuf sur dix = 9/10"
+        },
+        {
+          "id": "1772303007470-t095lit4li8",
+          "front": "法语小数用什么符号？",
+          "back": "virgule（逗号）\n3,14 → trois virgule quatorze"
+        },
+        {
+          "id": "1772303007470-2726v2v9xx1",
+          "front": "百分比怎么说？",
+          "back": "数字 + pour cent\n3,5 % → trois virgule cinq pour cent"
+        },
+        {
+          "id": "1772303007470-ij23lti8k1j",
+          "front": "une fois plus grand 等于几倍？",
+          "back": "2 倍（double）\n法语「多一倍」=「是两倍」"
+        },
+        {
+          "id": "1772303007470-5ksmk7rv49b",
+          "front": "augmenter de 的用法",
+          "back": "augmenter de + 数字/百分比\n增长了…\nLe prix a augmenté de 20 %."
+        },
+        {
+          "id": "1772303007470-jcva6vrojxp",
+          "front": "diminuer de 的用法",
+          "back": "diminuer de + 数字/百分比\n减少了…\nLe taux a diminué de 0,5 %."
+        },
+        {
+          "id": "1772303007470-4qtn5bbwyzu",
+          "front": "double / tripler / quadrupler",
+          "back": "2倍 double(r) / 3倍 triple(r) / 4倍 quadruple(r)\n5倍 quintuple(r)"
+        },
+        {
+          "id": "1772303007470-kbsivijblw9",
+          "front": "8h15 怎么说？",
+          "back": "Il est huit heures et quart."
+        },
+        {
+          "id": "1772303007470-w7llq6hkilj",
+          "front": "8h30 怎么说？",
+          "back": "Il est huit heures et demie.\ndemie 加 e（heure 阴性）"
+        },
+        {
+          "id": "1772303007470-ko37i9lhhn",
+          "front": "8h45 怎么说？",
+          "back": "Il est neuf heures moins le quart.\n或 huit heures quarante-cinq"
+        },
+        {
+          "id": "1772303007470-wkbqnjicz0o",
+          "front": "midi et 30 分钟",
+          "back": "midi et demi\nmidi 阳性 → demi 不加 e"
+        },
+        {
+          "id": "1772303007470-e0syq2srfaw",
+          "front": "法语电话号码怎么读？",
+          "back": "两位一组读\n06 78 95 13 →\nzéro six / soixante-dix-huit / quatre-vingt-quinze / treize"
+        },
+        {
+          "id": "1772303007470-8w8wv9ww9sh",
+          "front": "年份 2025 怎么读？",
+          "back": "deux mille vingt-cinq\n不是 vingt cents vingt-cinq"
+        },
+        {
+          "id": "1772303007470-if33bklnpx",
+          "front": "2 + 3 = 5 用法语怎么说？",
+          "back": "deux plus trois égale cinq"
+        },
+        {
+          "id": "1772303007470-z1bu6b7u9gq",
+          "front": "20 ÷ 5 = 4 用法语怎么说？",
+          "back": "vingt divisé par cinq égale quatre"
+        },
+        {
+          "id": "1772303007470-nsvbp4uzoml",
+          "front": "1 280 的完整法语写法",
+          "back": "mille deux cent quatre-vingts\nvingts 加 s（后面直接接名词，非数字）"
+        },
+        {
+          "id": "1772303007470-yliyh9ecry",
+          "front": "1 995 的完整法语写法",
+          "back": "mille neuf cent quatre-vingt-quinze\ncent 后跟数字不加 s，vingt 后跟数字不加 s"
+        },
+        {
+          "id": "1772303007470-nvgwse4e69b",
+          "front": "序数词缩写规则",
+          "back": "1er / 1re / 2e / 3e\n不是 1ère，不是 2ème（正式写法）"
+        }
+      ]
+    },
+    {
       "id": 1772257912628,
       "name": "Avoir un coup de foudre",
       "folderId": "1770661225895",
@@ -52730,6 +54117,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T06:06:40.346Z",
+  "exportedAt": "2026-02-28T19:47:37.723Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
