@@ -1,6 +1,1082 @@
 {
   "savedSets": [
     {
+      "id": 1772246571974,
+      "name": "Unit 3 Passé Composé 代词式动词",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-28T02:42:51.974Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (se réveiller).",
+          "correct": [
+            "nous sommes réveillés"
+          ],
+          "explanation": "本题考察代动词的复合过去时。代动词助动词一律用 être。se réveiller 的自反代词 se 为直接宾语，过去分词需与主语（即 se 指代的对象）配合。nous 默认为阳性复数，加 s。TCF 高频陷阱点：代动词忘记变位自反代词。判断口诀：代动词全找 être，主语宾语同一人，分词配合主语走。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Elles ne _____ pas _____ à 7 heures.",
+          "options": [
+            "se sont, réveillée",
+            "se sont, réveillées",
+            "sont se, réveillées",
+            "se ont, réveillées"
+          ],
+          "correct": 1,
+          "explanation": "本题考察代动词否定句及阴性复数配合。否定词 ne...pas 必须包围自反代词和助动词（ne se sont pas）。主语 Elles 为阴性复数，过去分词加 es。TCF 高频陷阱点：代动词否定结构的词序。判断口诀：ne 跟着主语走，pas 在助动词后，阴复 es 不能丢。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce matin-là, elle _____ (se lever) comme d'habitude et _____ (se préparer) un café.",
+          "correct": [
+            "s'est levée",
+            "s'est préparé"
+          ],
+          "explanation": "本题是经典 TCF 考点：代动词的过去分词配合。第一空 se lever，se 是直接宾语，与主语 elle 配合加 e。第二空 se préparer un café，直接宾语是 un café（在动词后），因此 se 退化为间接宾语（为自己准备），过去分词绝对不配合！TCF 高频陷阱点：看到代动词和 être 就无脑配合。判断口诀：代动词后有直宾，分词绝对不配合！",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Les cafés qu'elle _____ (se préparer) ce matin étaient délicieux.",
+          "correct": [
+            "s'est préparés"
+          ],
+          "explanation": "本题考察代动词与提前直接宾语的配合。se préparer 的直接宾语是 que（指代 les cafés，阳性复数），且位于动词前！因此过去分词必须与提前的直接宾语配合，加 s。se 依然是间接宾语。TCF 高频陷阱点：关系代词 que 提前引发的性数配合。判断口诀：直宾提前要配合，管它是 avoir 还是代动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle _____ (se laver) les cheveux et elle _____ (se brosser) les dents.",
+          "correct": [
+            "s'est lavé",
+            "s'est brossé"
+          ],
+          "explanation": "本题巩固身体部位的代动词配合。les cheveux 和 les dents 是明确的直接宾语且位于动词后，此时 se 为间接宾语，过去分词 lavé 和 brossé 均不配合主语 elle！TCF 高频陷阱点：身体部位词做直宾阻断代动词配合。判断口诀：洗脸刷牙洗头发，直宾在后不加 e/s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Ils _____ les mains avant de manger ?",
+          "options": [
+            "se sont lavés",
+            "se sont lavé",
+            "ont lavé",
+            "se sont lavées"
+          ],
+          "correct": 1,
+          "explanation": "本题再次测试身体部位作后置直宾。les mains 是直接宾语在后，se 是间接宾语，过去分词 lavé 无需与主语 ils 配合。TCF 高频陷阱点：复数主语导致考生强行给分词加 s。判断口诀：见到身体部位在后，分词原形就对了。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils _____ (s'arrêter) à la boulangerie où ils _____ (s'acheter) des croissants.",
+          "correct": [
+            "se sont arrêtés",
+            "se sont acheté"
+          ],
+          "explanation": "本题考察两种代动词的对比。第一空 s'arrêter (停下) 为意义上的绝对代动词，se 是直宾，与主语 ils 配合加 s。第二空 s'acheter des croissants，des croissants 是后置直宾，se 是间宾（给自己买），因此 acheté 不配合！TCF 高频陷阱点：同一句话中混合配合与不配合的代动词。判断口诀：无宾配合看主语，有宾在后不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils se sont _____ (rencontrer) et ils se sont _____ (sourire).",
+          "correct": [
+            "rencontrés",
+            "souri"
+          ],
+          "explanation": "本题考察相互代动词。rencontrer qqn (遇见某人)，se 是直宾，配合加 s。sourire à qqn (对某人微笑)，se 是间接宾语，因此 souri 绝对不配合！TCF 高频陷阱点：sourire, parler, téléphoner 等带 à 的动词变代动词时不配合。判断口诀：遇到 sourire, parler, téléphoner，间宾代词不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Ces deux collègues ne se sont jamais _____ .",
+          "options": [
+            "parlés",
+            "parlé",
+            "parlée",
+            "parlées"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 parler à qqn 的代动词形式。parler 是间接及物动词（parler à），变成 se parler 时，se 永远是间接宾语，所以过去分词永远不配合，保持 parlé。TCF 高频陷阱点：误认为相互动作都要加 s。判断口诀：相互说话/打电话 (se parler/se téléphoner)，分词永远不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (se plaire) tout de suite.",
+          "correct": [
+            "nous sommes plu"
+          ],
+          "explanation": "本题是 B2 级别高频词。plaire à qqn（让某人喜欢），se plaire 意为“互相喜欢/相处融洽”。因为带介词 à，所以 se 是间接宾语，过去分词 plu 绝对不配合！TCF 高频陷阱点：plaire 是不规则动词且代动词形式不配合。判断口诀：plaire 变 plu，带 à 间宾不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Elles _____ (se rendre) compte de leur erreur.",
+          "correct": [
+            "se sont rendu"
+          ],
+          "explanation": "本题是固定搭配陷阱。se rendre compte de (意识到...) 是一个固定词组，compte 充当了直接宾语，因此 se 实际上是间接宾语。过去分词 rendu 永远不配合！TCF 高频陷阱点：固定搭配 se rendre compte 中的隐藏直宾。判断口诀：se rendre compte 永不配合，记住 rendu 不加 e/s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle _____ (se perdre) et elle _____ (se croire) en pleine jungle.",
+          "correct": [
+            "s'est perdue",
+            "s'est crue"
+          ],
+          "explanation": "本题考察代动词直接宾语（COD）的配合。se perdre 和 se croire 这里的 se 都是直接宾语，表示“迷失自己”、“认为自己”，所以过去分词要与主语 elle 配合，分别加 e。TCF 高频陷阱点：判断自反代词 se 是 COD 还是 COI。判断口诀：把 se 放到动词后，perdre qui? perdre elle-même -> COD，必须配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Elles _____ (se rendre) compte qu'elles s'étaient perdues.",
+          "correct": [
+            "se sont rendu"
+          ],
+          "explanation": "本题考察固定搭配中的代动词配合。se rendre compte de (意识到...) 是一个固定短语，compte 充当了直接宾语，因此 se 实际上是间接宾语。过去分词 rendu 永远不配合！TCF 高频陷阱点：固定搭配中的隐藏直宾导致分词不配合。判断口诀：se rendre compte 永远不配合，rendu 保持原形不加 e/s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous nous _____ (se tromper) et nous nous _____ (s'excuser).",
+          "correct": [
+            "sommes trompés",
+            "sommes excusés"
+          ],
+          "explanation": "本题考察意义代动词的配合。se tromper（犯错）是本质代动词（或引申义代动词），主语配合加 s；s'excuser（道歉），se 是直接宾语（原谅自己），配合加 s（默认 nous 为阳性复数）。TCF 高频陷阱点：本质/引申义代动词的识别与主语配合。判断口诀：se tromper, s'excuser 这种自带 se 的动作，统统跟主语配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：De cette histoire, elle ne s'en _____ (se souvenir) plus.",
+          "correct": [
+            "est souvenue"
+          ],
+          "explanation": "本题考察本质代动词遇到代词 en 时的配合。se souvenir de qch 是本质代动词（verbe toujours pronominal），过去分词必须与主语 elle 配合加 e。代词 en 在这里不影响本质代动词的配合规则。TCF 高频陷阱点：代词 en 干扰判断。判断口诀：本质代动词死死跟住主语，se souvenir 阴单加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ils _____ (se battre) puis ils _____ (se parler).",
+          "correct": [
+            "se sont battus",
+            "se sont parlé"
+          ],
+          "explanation": "本题考察同一句中不同配合规则的对比。se battre（打架），se 视为直接宾语，配合加 s。se parler（互相说话），来源于 parler à qqn，se 是间接宾语（COI），因此 parlé 绝对不配合！TCF 高频陷阱点：混淆所有相互代动词都要配合。判断口诀：se battre 要配合，se parler / se téléphoner 永远不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Les longues lettres qu'ils _____ (s'écrire) pendant la guerre.",
+          "correct": [
+            "se sont écrites"
+          ],
+          "explanation": "本题考察相互代动词与提前直接宾语的配合。écrire à qqn，se 是间接宾语。但是，这里有提前的直接宾语关系代词 que（指代 Les longues lettres，阴性复数）。因此过去分词 écrites 必须与提前的直接宾语配合，加 es。TCF 高频陷阱点：相互代动词遇到 que 引导的直宾提前。判断口诀：相互动词先找直宾，直宾提前坚决配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elle _____ (se faire) mal et elle _____ (se soigner).",
+          "correct": [
+            "s'est fait",
+            "s'est soignée"
+          ],
+          "explanation": "本题考察 se faire 的特殊情况。se faire mal（弄伤自己），mal 充当固定用法中的直宾成分，se 是间接宾语，因此 fait 不配合。se soigner（治疗自己），se 是直接宾语，soignée 与 elle 配合加 e。TCF 高频陷阱点：se faire 结构的配合。判断口诀：se faire mal 不配合，se soigner 加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Elle _____ (se casser) la cheville en skiant.",
+          "correct": [
+            "s'est cassé"
+          ],
+          "explanation": "本题考察身体部位词作后置直接宾语。se casser la cheville（摔断脚踝），直接宾语 la cheville 明确位于动词之后，因此过去分词 cassé 绝对不与主语 elle 配合。TCF 高频陷阱点：主语为阴性，但因后置直宾阻断配合。判断口诀：动作作用在身体部位上，直宾在后，分词原形不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le bus _____ (s'arrêter). Ils _____ (s'asseoir).",
+          "correct": [
+            "s'est arrêté",
+            "se sont assis"
+          ],
+          "explanation": "本题考察 s'asseoir 的特殊分词。s'arrêter 配合，bus 阳单不加 e/s；s'asseoir 配合，ils 阳复加 s。assis 本身的过去分词就带 s，所以复数形式依然是 assis。TCF 高频陷阱点：s'asseoir 的过去分词是 assis。判断口诀：s'asseoir 变 assis，阳性复数自带 s 不用改。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Les filles, où vous _____ -vous _____ (s'asseoir) hier ?",
+          "correct": [
+            "êtes",
+            "assises"
+          ],
+          "explanation": "本题考察 s'asseoir 遇到阴性复数主语时的变化。主语虽然是 vous，但前面的呼语 Les filles 明确了 vous 指代的是阴性复数。assis 变阴性加 e (发 /z/ 音)，复数再加 s，变成 assises。TCF 高频陷阱点：assis 的阴性复数拼写 assises。判断口诀：assis 变阴性加 e 发音，复数再加 s 看清主语身份。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (s'habituer) très vite à cette nouvelle vie.",
+          "correct": [
+            "s'est habituée"
+          ],
+          "explanation": "本题考察带 à 介词代动词的直宾判定。s'habituer à... 是代动词，se 是直接宾语（使自己习惯于...），因此过去分词与主语 elle 配合加 e。TCF 高频陷阱点：误以为后面有介词 à，se 就是间接宾语。判断口诀：s'habituer à 别被 à 迷惑，se 是直宾必须加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Nos parents _____ dans cette petite maison de campagne.",
+          "options": [
+            "se sont plus",
+            "se sont plût",
+            "se sont plu",
+            "se sont plue"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 plaire 的代动词配合。plaire à qqn（让某人喜欢），se 是间接宾语（COI）。因此 se plaire（互相喜欢，或在某处感觉良好）的过去分词 plu 永远不配合。主语 parents 是阳复，plu 依然不变。TCF 高频陷阱点：se plaire 过去分词永不配合。判断口诀：se plaire 记心间，plu 永远是原形不改变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la forme correcte : Elle _____ ce matin à 7 heures.",
+          "options": [
+            "s'est réveillé",
+            "s'est réveillée",
+            "s'est réveillés",
+            "s'est réveillées"
+          ],
+          "correct": 1,
+          "explanation": "se réveiller 自反动词，se = COD，与主语 elle（阴性单数）配合 → réveillée。",
+          "category": "代词式动词-配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la forme correcte : Elles _____ les mains avant de manger.",
+          "options": [
+            "se sont lavées",
+            "se sont lavés",
+            "se sont lavé",
+            "se sont lavée"
+          ],
+          "correct": 2,
+          "explanation": "les mains 是 COD，放在动词后面 → se = COI → 过去分词不配合，lavé 不变。",
+          "category": "代词式动词-身体部位陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ pendant deux heures au téléphone.",
+          "options": [
+            "se sont parlés",
+            "se sont parlé",
+            "se sont parlées",
+            "se sont parler"
+          ],
+          "correct": 1,
+          "explanation": "parler à qqn → se = COI → 不配合，parlé 不变。TCF 经典陷阱。",
+          "category": "代词式动词-COI不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ la cheville en courant.",
+          "options": [
+            "s'est cassée",
+            "s'est cassé",
+            "s'est cassés",
+            "s'est casser"
+          ],
+          "correct": 1,
+          "explanation": "la cheville 是 COD 且在动词后面 → se = COI → cassé 不配合。和 se laver les mains 同一规律。",
+          "category": "代词式动词-身体部位陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ devant le cinéma. (se rencontrer, nous = 阳性)",
+          "options": [
+            "nous sommes rencontré",
+            "nous sommes rencontrés",
+            "nous sommes rencontrées",
+            "nous sommes rencontrer"
+          ],
+          "correct": 1,
+          "explanation": "rencontrer qqn → se = COD → 与 nous（阳性复数）配合 → rencontrés。",
+          "category": "代词式动词-互反配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ de cette histoire. (se souvenir)",
+          "options": [
+            "se sont souvenu",
+            "se sont souvenues",
+            "se sont souvenus",
+            "se sont souvenir"
+          ],
+          "correct": 1,
+          "explanation": "se souvenir 是纯代词式动词（toujours pronominal）→ 过去分词始终与主语配合 → elles = 阴性复数 → souvenues。",
+          "category": "纯代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La forme négative correcte est :",
+          "options": [
+            "Elle ne s'est pas habituée.",
+            "Elle ne s'pas est habituée.",
+            "Elle s'est pas n'habituée.",
+            "Elle s'est ne pas habituée."
+          ],
+          "correct": 0,
+          "explanation": "否定结构：ne + 代词 + être + pas + 过去分词。ne 在代词前，pas 在 être 后。",
+          "category": "代词式动词-否定形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ pendant la réunion. (se plaire)",
+          "options": [
+            "se sont plues",
+            "se sont plu",
+            "se sont plus",
+            "se sont plue"
+          ],
+          "correct": 1,
+          "explanation": "plaire à qqn → se = COI → 过去分词不配合，plu 不变。和 se parler 同理。",
+          "category": "代词式动词-COI不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et Sophie _____ des messages hier soir. (s'écrire)",
+          "options": [
+            "se sont écrites",
+            "se sont écrit",
+            "se sont écrits",
+            "se sont écrite"
+          ],
+          "correct": 1,
+          "explanation": "écrire à qqn → se = COI → 不配合。和 se parler / se téléphoner / se plaire 属于同一族，必须背死。",
+          "category": "代词式动词-COI不配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ dans le parc. (s'enfuir)",
+          "options": [
+            "se sont enfui",
+            "se sont enfuis",
+            "se sont enfuies",
+            "se sont enfuir"
+          ],
+          "correct": 1,
+          "explanation": "s'enfuir 是纯代词式动词 → 过去分词与主语配合。les enfants = 阳性复数（混合或默认阳性）→ enfuis。",
+          "category": "纯代词式动词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的过去分词配合是正确的？",
+          "options": [
+            "Elles se sont téléphoné.",
+            "Elle s'est lavée les cheveux.",
+            "Ils se sont battus.",
+            "Nous nous sommes plu."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A: téléphoner à → COI → 不配合 ✅ B: les cheveux 是 COD 在后 → 应该是 lavé 不配合 ❌ C: battre qqn → COD → 配合 ✅ D: plaire à → COI → 不配合 ✅",
+          "category": "代词式动词-综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (s'apercevoir) de son erreur trop tard.",
+          "correct": [
+            "s'est aperçue"
+          ],
+          "explanation": "s'apercevoir de qqch：虽然带 de，但 s'apercevoir 属于纯代词式动词（不能说 *apercevoir qqn de qqch）→ 过去分词与主语配合 → elle → aperçue。注意 ç 的拼写。",
+          "category": "纯代词式动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (se taire) quand le professeur est entré. (nous = 阴性)",
+          "correct": [
+            "nous sommes tues"
+          ],
+          "explanation": "se taire 是纯代词式动词 → 与主语配合。nous（阴性复数）→ tues。注意 taire 的过去分词是 tu。",
+          "category": "纯代词式动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce matin, Marie _____ (se lever) à 6h. Elle _____ (se brosser) les dents, puis elle _____ (se préparer) un thé. Ensuite, elle _____ (se dépêcher) de partir.",
+          "correct": [
+            "s'est levée",
+            "s'est brossé",
+            "s'est préparé",
+            "s'est dépêchée"
+          ],
+          "explanation": "levée：se = COD → 配合 elle。brossé：les dents 是 COD 在后 → 不配合。préparé：un thé 是 COD 在后 → 不配合。dépêchée：se = COD → 配合 elle。四空考了两种情况，这就是 TCF 的典型综合段落题。",
+          "category": "代词式动词-综合段落"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases est INCORRECTE ?",
+          "options": [
+            "Ils se sont souri.",
+            "Elles se sont reconnues.",
+            "Nous nous sommes écrit.",
+            "Elles se sont téléphonées."
+          ],
+          "correct": 3,
+          "explanation": "sourire à → COI → souri 不变 ✅ reconnaître qqn → COD → reconnues ✅ écrire à → COI → écrit 不变 ✅ téléphoner à → COI → 应该是 téléphoné 不变，téléphonées 是错误的 ❌",
+          "category": "代词式动词-找错题"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1wVFvBrdI0kXDaS6Sc7KmLuKUIFjqeOJks5kDSerj58Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772246825848-1bi937fu6ixj",
+          "front": "代词式动词复合过去时用哪个助动词？",
+          "back": "全部用 être，没有例外。"
+        },
+        {
+          "id": "1772246825848-3n1c7sw0ntr",
+          "front": "代词式动词复合过去时的结构公式？",
+          "back": "主语 + 代词(me/te/se/nous/vous/se) + être变位 + 过去分词"
+        },
+        {
+          "id": "1772246825848-j2j6fuwm87f",
+          "front": "代词式动词否定形式的语序？",
+          "back": "ne + 代词 + être + pas + 过去分词\n例：Je ne me suis pas dépêché(e)."
+        },
+        {
+          "id": "1772246825848-ef47eg3egui",
+          "front": "自反动词过去分词什么时候配合？",
+          "back": "代词(se)是 COD 且在动词前 → 与主语配合\n判断法：去掉 se，看动词能否直接接人（不带介词）"
+        },
+        {
+          "id": "1772246825848-cfzv569a8rt",
+          "front": "se laver les mains → 过去分词配合吗？",
+          "back": "不配合。les mains 是 COD 在动词后面 → se = COI → lavé 不变\nElle s'est lavé les mains."
+        },
+        {
+          "id": "1772246825848-378hwxihmwb",
+          "front": "se casser la jambe → 过去分词配合吗？",
+          "back": "不配合。la jambe 是 COD 在后 → se = COI\nElle s'est cassé la jambe."
+        },
+        {
+          "id": "1772246825848-cmjuquxgfv",
+          "front": "se brosser les dents → 过去分词配合吗？",
+          "back": "不配合。les dents 是 COD 在后 → se = COI\nElle s'est brossé les dents."
+        },
+        {
+          "id": "1772246825848-6zm1boa0rqv",
+          "front": "se préparer un café → 过去分词配合吗？",
+          "back": "不配合。un café 是 COD 在后 → se = COI\nElle s'est préparé un café."
+        },
+        {
+          "id": "1772246825848-zv456ci29n",
+          "front": "se lever（无其他宾语）→ 配合吗？",
+          "back": "配合。se = COD → 与主语配合\nElle s'est levée."
+        },
+        {
+          "id": "1772246825848-m8rciwpo6w",
+          "front": "se dépêcher → 配合吗？",
+          "back": "配合。se = COD → 与主语配合\nIls se sont dépêchés."
+        },
+        {
+          "id": "1772246825848-rof4pns2yka",
+          "front": "se parler → 过去分词配合吗？",
+          "back": "不配合。parler à qqn → se = COI\nIls se sont parlé.（永远不加 s）"
+        },
+        {
+          "id": "1772246825848-578ehdfbnif",
+          "front": "se téléphoner → 过去分词配合吗？",
+          "back": "不配合。téléphoner à qqn → se = COI\nElles se sont téléphoné."
+        },
+        {
+          "id": "1772246825848-5muid43qxxr",
+          "front": "se plaire → 过去分词配合吗？",
+          "back": "不配合。plaire à qqn → se = COI\nNous nous sommes plu.（永远不变）"
+        },
+        {
+          "id": "1772246825848-bt7o4brsw4",
+          "front": "s'écrire → 过去分词配合吗？",
+          "back": "不配合。écrire à qqn → se = COI\nElles se sont écrit."
+        },
+        {
+          "id": "1772246825848-yymyiyinhem",
+          "front": "se sourire → 过去分词配合吗？",
+          "back": "不配合。sourire à qqn → se = COI\nIls se sont souri."
+        },
+        {
+          "id": "1772246825848-hfa3y0xuivt",
+          "front": "COI 不配合的动词口诀（5个）",
+          "back": "parler à / téléphoner à / écrire à / plaire à / sourire à\n这五个互反时过去分词永远不变。"
+        },
+        {
+          "id": "1772246825848-qqalreyvsj",
+          "front": "什么是纯代词式动词（toujours pronominaux）？",
+          "back": "只能以代词形式存在的动词，不能去掉 se。\n如：s'enfuir, s'évanouir, se souvenir, se méfier, se taire"
+        },
+        {
+          "id": "1772246825848-qo4ijfm4x",
+          "front": "纯代词式动词的配合规则？",
+          "back": "过去分词始终与主语配合，不需要分析 COD/COI。\nElles se sont souvenues.\nElle s'est évanouie."
+        },
+        {
+          "id": "1772246825848-zv73z7np3qg",
+          "front": "se souvenir → passé composé (elles)",
+          "back": "Elles se sont souvenues.\n纯代词式 → 与主语配合 → 阴性复数加 es"
+        },
+        {
+          "id": "1772246825848-aaurhe2lf07",
+          "front": "s'enfuir → passé composé (ils)",
+          "back": "Ils se sont enfuis.\n纯代词式 → 与主语配合 → 阳性复数加 s"
+        },
+        {
+          "id": "1772246825848-j09k2b87udq",
+          "front": "se taire → passé composé (nous, 阴性)",
+          "back": "Nous nous sommes tues.\n纯代词式 → 与主语配合。注意过去分词是 tu。"
+        },
+        {
+          "id": "1772246825848-vqyyeb2i3yc",
+          "front": "s'apercevoir → passé composé (elle)",
+          "back": "Elle s'est aperçue.\n纯代词式 → 与主语配合。注意 ç 的拼写。"
+        },
+        {
+          "id": "1772246825848-2bkl86em65i",
+          "front": "互反动词（réciproques）存在于哪些人称？",
+          "back": "只存在于复数人称：nous / vous / ils / elles\n表示“互相”的含义。"
+        },
+        {
+          "id": "1772246825848-8cntamfkz2u",
+          "front": "se rencontrer → passé composé (nous, 阳性)",
+          "back": "Nous nous sommes rencontrés.\nrencontrer qqn → se = COD → 配合"
+        },
+        {
+          "id": "1772246825848-ulr17zx7js",
+          "front": "se battre → passé composé (ils)",
+          "back": "Ils se sont battus.\nbattre qqn → se = COD → 配合"
+        },
+        {
+          "id": "1772246825848-0hzjyzkltyu",
+          "front": "判断配合的三步口诀",
+          "back": "① 去掉 se，还原动词\n② 看动词接不接 à\n③ 有 à → COI → 不配合；没 à → COD → 配合\n例外：COD 在后面（身体部位）也不配合；纯代词式无脑跟主语配合。"
+        }
+      ]
+    },
+    {
+      "id": 1772245771185,
+      "name": "Unit 3 Passé Composé -u 和 -ort",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-28T02:29:31.185Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (venir) te voir, dimanche ?",
+          "correct": [
+            "est venu"
+          ],
+          "explanation": "本题考察动词 venir 的复合过去时。venir 表示位移，助动词必须用 être。主语 il 是阳性单数，过去分词 venu 无需额外配合。TCF 高频陷阱点：忘记 venir 搭配 être。判断口诀：位移变化找 être。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Elle _____ te voir hier soir ?",
+          "options": [
+            "a venu",
+            "est venu",
+            "est venue",
+            "a venue"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 venir + être 以及主语阴性配合。主语是 Elle，所以分词必须加 e 变成 venue。TCF 高频陷阱点：主语为阴性时的性数配合。判断口诀：être 作助动词，主谓配合不分家。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (devenir) célèbre.",
+          "correct": [
+            "est devenue"
+          ],
+          "explanation": "本题考察 devenir 的复合过去时。devenir 表示状态改变，从属于 venir 家族，助动词用 être。主语 Elle 为阴性单数，所以 devenir 的过去分词 devenu 需加 e。TCF 高频陷阱点：遗漏阴性配合。判断口诀：状态改变用 être，阴性别忘加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Mes amis et moi _____ (devenir) de grands médecins.",
+          "correct": [
+            "sommes devenus"
+          ],
+          "explanation": "本题考察复合主语配合。Mes amis et moi 相当于 nous（阳性复数，默认含阳性），助动词用 être，过去分词 devenu 需加 s。TCF 高频陷阱点：无法将并列主语转换为正确的人称代词。判断口诀：包含 moi 就是 nous，复数主语必加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (mourir) d'un cancer.",
+          "correct": [
+            "est mort"
+          ],
+          "explanation": "本题考察 mourir 的复合过去时。mourir 表示生死状态变化，助动词必须用 être。过去分词为特殊变位 mort。主语 il 阳性单数，无需额外配合。TCF 高频陷阱点：不规则过去分词拼写。判断口诀：生死动词必跟 être，mourir 变 mort 记心间。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Ces grandes figures historiques _____ en 1990.",
+          "options": [
+            "sont mort",
+            "ont mortes",
+            "sont morts",
+            "sont mortes"
+          ],
+          "correct": 3,
+          "explanation": "本题考察 mourir 的阴性复数配合。figures 是阴性复数名词（une figure），因此必须使用 être + mortes。TCF 高频陷阱点：名词性别的误判导致过去分词配合错误。判断口诀：配合先辨阴阳性，复数结尾 s 要看清。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (descendre) au sous-sol.",
+          "correct": [
+            "sont descendus"
+          ],
+          "explanation": "本题考察 descendre 的复合过去时。descendre 在此作不及物动词（下到地下室），无直接宾语，助动词用 être。主语 Ils 阳性复数，分词加 s。TCF 高频陷阱点：descendre 的及物/不及物两用性。判断口诀：无直宾用 être，有直宾换 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Ils _____ les valises au sous-sol hier matin.",
+          "options": [
+            "sont descendus",
+            "ont descendu",
+            "sont descendu",
+            "ont descendus"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 descendre 作及物动词时的时态。句中有直接宾语 les valises，descendre 必须使用 avoir 作助动词，且直接宾语在动词后，不配合。TCF 高频陷阱点：看到 descendre 就惯性选 être。判断口诀：动作作用在宾语上，助动词必须换 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (revenir) quel jour ?",
+          "correct": [
+            "êtes revenus",
+            "êtes revenu",
+            "êtes revenues",
+            "êtes revenue"
+          ],
+          "explanation": "本题考察 revenir 的时态及 vous 的配合。revenir 助动词用 être。vous 可能指单数尊称或复数，因此 revenu/venus/venue/venues 均可。TCF 高频陷阱点：vous 的多重身份配合。判断口诀：vous 配合看语境，无语境则皆可行。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Madame, à quelle heure _____ -vous _____ (revenir) hier ?",
+          "correct": [
+            "êtes",
+            "revenue"
+          ],
+          "explanation": "本题考察语境限定下的 vous 配合。称呼为 Madame，说明 vous 是单数阴性尊称。因此助动词用 être，过去分词加 e。TCF 高频陷阱点：忽略称谓词带来的性别和数量提示。判断口诀：尊称 vous 是纸老虎，本质还是单数看男女。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (prévenir) tes parents ?",
+          "correct": [
+            "as prévenu"
+          ],
+          "explanation": "本题考察 prévenir 的复合过去时。虽然以 venir 结尾，但 prévenir 意为“通知”，及物动词，需用 avoir 作助动词！直宾在后，不配合。TCF 高频陷阱点：误把所有 -venir 结尾动词都用 être。判断口诀：prévenir 找 avoir，直宾在后不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Ces risques, tu les _____ ?",
+          "options": [
+            "as prévenu",
+            "es prévenu",
+            "as prévenus",
+            "es prévenus"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 avoir 助动词时的提前直接宾语配合。prévenir 用 avoir，直接宾语 les (指代 Ces risques，阳性复数) 在动词前，因此过去分词必须配合加 s。TCF 高频陷阱点：avoir 助动词直宾提前的性数配合。判断口诀：avoir 遇直宾提前，分词配合看直宾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：La poubelle ? Je ne l'_____ pas ***.",
+          "options": [
+            "suis, descendue",
+            "ai, descendu",
+            "suis, descendu",
+            "ai, descendue"
+          ],
+          "correct": 3,
+          "explanation": "本题考察 descendre 及物用法 + 直宾提前配合 + 否定。descendre la poubelle，用 avoir；la poubelle (l') 提前，过去分词必须配合加 e。TCF 高频陷阱点：直宾提前的复合结构否定。判断口诀：descendre 带宾用 avoir，直宾提前加 e/s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 陷阱题：C'est faux, elles ne _____ jamais _____ célèbres ! (devenir, passé composé)",
+          "correct": [
+            "sont",
+            "devenues"
+          ],
+          "explanation": "本题考察 ne...jamais 否定以及 devenir 配合。elles 阴复，助动词 être，分词 devenues。jamais 替代 pas 包围助动词。TCF 高频陷阱点：特殊否定词 ne...jamais/rien/plus 的位置。判断口诀：特殊否定也一样，紧紧抱住助动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：La situation _____ de plus en plus difficile.",
+          "options": [
+            "a devenu",
+            "est devenue",
+            "a devenue",
+            "est devenu"
+          ],
+          "correct": 1,
+          "explanation": "本题考察阴性名词配合。La situation 阴性单数，助动词 être，过去分词加 e 变 devenue。TCF 高频陷阱点：抽象名词阴阳性判断。-tion 结尾通常为阴性。判断口诀：-tion 结尾多阴性，être 配合别忘记。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "TCF 陷阱题：Malheureusement, toutes ces plantes _____ _____ pendant l'hiver. (mourir, passé composé)",
+          "correct": [
+            "sont",
+            "mortes"
+          ],
+          "explanation": "本题考察 mourir 的阴性复数。plantes 阴性复数，助动词 être，分词 mortes。TCF 高频陷阱点：植物生死同样用 mourir/être，并需配合。判断口诀：万物生死皆用 être，阴阳单复看仔细。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre et Marie sont _____ te dire bonjour hier.",
+          "options": [
+            "venu",
+            "venus",
+            "venues",
+            "venue"
+          ],
+          "correct": 1,
+          "explanation": "Pierre et Marie = 阴阳混合复数，按法语规则取阳性复数 → venus。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu as _____ tes parents ?",
+          "options": [
+            "prévenue",
+            "prévenu",
+            "prévenus",
+            "prévenues"
+          ],
+          "correct": 1,
+          "explanation": "prévenir 用助动词 avoir，无前置 COD → 过去分词不配合，保持原形 prévenu。",
+          "category": "avoir/être 选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ les bagages à 7 heures du matin.",
+          "options": [
+            "est descendue",
+            "a descendu",
+            "est descendu",
+            "a descendue"
+          ],
+          "correct": 1,
+          "explanation": "descendre + 直接宾语 les bagages → 用 avoir。无前置 COD → 不配合 → a descendu。",
+          "category": "descendre 双助动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ dans un bel hôtel.",
+          "options": [
+            "a descendu",
+            "a descendue",
+            "est descendu",
+            "est descendue"
+          ],
+          "correct": 3,
+          "explanation": "descendre 无直接宾语 → 用 être → 主语 elle 阴性单数 → est descendue。",
+          "category": "descendre 双助动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Indira Gandhi _____ en 1984.",
+          "options": [
+            "est mort",
+            "est morte",
+            "a mort",
+            "a morte"
+          ],
+          "correct": 1,
+          "explanation": "mourir 用 être；Indira Gandhi 女性 → 过去分词 +e → est morte。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je suis morte de fatigue » 中 morte 的词性是？",
+          "options": [
+            "过去分词（passé composé）",
+            "形容词（adjectif）",
+            "名词（nom）",
+            "副词（adverbe）"
+          ],
+          "correct": 1,
+          "explanation": "这里 morte de fatigue 表示\"累死了\"，morte 是形容词作表语，不是复合过去时。",
+          "category": "TCF 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les syndicats _____ à un accord.",
+          "options": [
+            "ont parvenu",
+            "sont parvenus",
+            "sont parvenu",
+            "ont parvenus"
+          ],
+          "correct": 1,
+          "explanation": "parvenir 用 être；les syndicats 阳性复数 → parvenus。",
+          "category": "être 动词家族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand il a vu le feu, il _____ ses voisins.",
+          "options": [
+            "est prévenu",
+            "a prévenu",
+            "est prevenu",
+            "a prevenu"
+          ],
+          "correct": 1,
+          "explanation": "prévenir = 通知，用 avoir → a prévenu。注意 é 的拼写。",
+          "category": "prévenir 用 avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Michèle _____ déjeuner à midi hier.",
+          "options": [
+            "est revenu",
+            "est revenue",
+            "a revenu",
+            "a revenue"
+          ],
+          "correct": 1,
+          "explanation": "revenir 用 être；Michèle 女性 → revenue (+e)。revenir 不用 avoir。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ de manger, je n'ai plus faim.",
+          "options": [
+            "vais",
+            "viens",
+            "suis venu",
+            "ai venu"
+          ],
+          "correct": 1,
+          "explanation": "venir de + inf. = 刚刚做了某事（最近过去时）。Je viens de manger = 我刚吃完。这不是 passé composé。",
+          "category": "venir de + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "1 500 Français _____ dans des accidents de la route l'année dernière.",
+          "options": [
+            "sont mort",
+            "sont morts",
+            "ont mort",
+            "ont morts"
+          ],
+          "correct": 1,
+          "explanation": "mourir 用 être；1 500 Français 阳性复数 → morts (+s)。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette actrice _____ très célèbre après ce film.",
+          "options": [
+            "a devenu",
+            "a devenue",
+            "est devenu",
+            "est devenue"
+          ],
+          "correct": 3,
+          "explanation": "devenir 用 être；actrice 阴性单数 → est devenue。",
+          "category": "être 动词家族"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (descendre) à cet hôtel la semaine dernière.",
+          "correct": [
+            "sommes descendu(e)s",
+            "sommes descendus",
+            "sommes descendues"
+          ],
+          "explanation": "descendre 无直接宾语 → être。nous 复数 → descendu(e)s。具体阴阳取决于主语性别。",
+          "category": "descendre 双助动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le Premier ministre _____ (intervenir) dans les négociations.",
+          "correct": [
+            "est intervenu"
+          ],
+          "explanation": "intervenir 是 venir 的派生词，用 être。Le Premier ministre 阳性单数 → intervenu 不加。",
+          "category": "être 动词家族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ne _____ pas _____ à le joindre.（parvenir, passé composé）",
+          "options": [
+            "avez … parvenu",
+            "êtes … parvenu(e)(s)",
+            "avez … parvenus",
+            "êtes … parvenir"
+          ],
+          "correct": 1,
+          "explanation": "parvenir 用 être；否定形式：ne + être + pas + 过去分词。过去分词与 vous 配合。",
+          "category": "否定形式 + être"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Les filles sont _____ (descendre) de la voiture. Puis elles sont _____ (revenir) chercher leurs sacs.",
+          "correct": [
+            "descendues",
+            "revenues"
+          ],
+          "explanation": "两个动词都用 être；les filles 阴性复数 → descendues (+es)，revenues (+es)。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在 passé composé 中用 avoir 作助动词？",
+          "options": [
+            "prévenir",
+            "revenir",
+            "contrevenir",
+            "devenir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "prévenir 和 contrevenir 虽然从 venir 派生，但它们用 avoir。revenir 和 devenir 用 être。这是 TCF 高频陷阱。",
+          "category": "avoir/être 辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1DE-idSb7I0u97IkzwfXNUhkrDjomLyMBq8SBmEIfUXs/edit?tab=t.0#heading=h.byqcaxfeokon"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772245937294-d8e8kbiq31",
+          "front": "venir 的助动词是？",
+          "back": "être\nje suis venu(e), tu es venu(e), il est venu..."
+        },
+        {
+          "id": "1772245937294-g1t3kwy1wcl",
+          "front": "venir 现在时变位（6人称）",
+          "back": "je viens, tu viens, il vient\nnous venons, vous venez, ils viennent\n注意：单数 vien-，nous/vous ven-，ils vienn-(双n)"
+        },
+        {
+          "id": "1772245937294-hafvyjtadm",
+          "front": "venir de + inf. 表示什么？",
+          "back": "刚刚做了某事（最近过去时）\nJe viens de manger. = 我刚吃完。\n⚠️ 不是 passé composé！"
+        },
+        {
+          "id": "1772245937294-ma190tmgzy",
+          "front": "venir + inf. 表示什么？",
+          "back": "来做某事\nIl vient chercher ses photos. = 他来取照片。"
+        },
+        {
+          "id": "1772245937294-yb83bsj2xzr",
+          "front": "descendre 什么时候用 être？",
+          "back": "不及物（无直接宾语）时用 être\nElle est descendue dans un bel hôtel."
+        },
+        {
+          "id": "1772245937294-byozrawcrm",
+          "front": "descendre 什么时候用 avoir？",
+          "back": "及物（有直接宾语 COD）时用 avoir\nElle a descendu les bagages."
+        },
+        {
+          "id": "1772245937294-6429xhbyr4f",
+          "front": "mourir 的过去分词是？",
+          "back": "mort(e)(s)\nIl est mort. / Elle est morte.\n用 être 作助动词"
+        },
+        {
+          "id": "1772245937294-t2ejriztsvh",
+          "front": "mourir 现在时变位（6人称）",
+          "back": "je meurs, tu meurs, il meurt\nnous mourons, vous mourez, ils meurent\n单数+三复 meur-，nous/vous mour-"
+        },
+        {
+          "id": "1772245937294-2sg2d2djexj",
+          "front": "« Je suis morte de fatigue » 是 passé composé 吗？",
+          "back": "不是！这里 morte 是形容词，意思是“累死了”\n判断方法：看是否表示真正的死亡事件"
+        },
+        {
+          "id": "1772245937294-nlbclfijyqd",
+          "front": "revenir 的 passé composé（以 elle 为例）",
+          "back": "Elle est revenue.\n用 être，阴性单数 +e"
+        },
+        {
+          "id": "1772245937294-1fvdq6dkxkz",
+          "front": "devenir 的 passé composé（以 elle 为例）",
+          "back": "Elle est devenue célèbre.\n用 être，阴性单数 +e\ndevenir + 形容词/名词 = 变成"
+        },
+        {
+          "id": "1772245937294-p0o7sixw7t",
+          "front": "parvenir 的 passé composé（以 ils 为例）",
+          "back": "Ils sont parvenus à un accord.\n用 être，阳性复数 +s\nparvenir à + nom/inf. = 到达/成功做到"
+        },
+        {
+          "id": "1772245937294-m44nb2tlmlr",
+          "front": "intervenir 的 passé composé（以 il 为例）",
+          "back": "Il est intervenu.\n用 être，阳性单数不加"
+        },
+        {
+          "id": "1772245937294-tlj0hr3q6qg",
+          "front": "⚠️ prévenir 用什么助动词？",
+          "back": "avoir ！不是 être！\nIl a prévenu ses voisins.\n虽然从 venir 派生，但 prévenir = 通知/预防，是及物动词"
+        },
+        {
+          "id": "1772245937294-z5lipn8gebp",
+          "front": "⚠️ contrevenir / circonvenir 用什么助动词？",
+          "back": "avoir ！和 prévenir 一样\n虽然形态上是 venir 的派生词，但都用 avoir"
+        },
+        {
+          "id": "1772245937294-lxhb4dpmpoe",
+          "front": "être 作助动词时，过去分词怎么配合？",
+          "back": "与主语性数一致：\n阳单 不变：Il est venu\n阴单 +e：Elle est venue\n阳复 +s：Ils sont venus\n阴复 +es：Elles sont venues\n阴阳混合 +s：Pierre et Marie sont venus"
+        },
+        {
+          "id": "1772245937294-blekhsrlvgt",
+          "front": "avoir 作助动词时，过去分词怎么配合？",
+          "back": "默认不配合\n只有前置 COD 时才配合（本课暂不涉及）\nIl a prévenu ses voisins. → prévenu 不变"
+        },
+        {
+          "id": "1772245937294-6p1jn7lxj7p",
+          "front": "TCF 3秒排除法：看到 venir 系动词怎么判断助动词？",
+          "back": "venir/revenir/devenir/parvenir/intervenir → être\nprévenir/contrevenir/circonvenir → avoir\n⚠️ descendre 看有没有 COD"
+        },
+        {
+          "id": "1772245937294-92h2qsuk49",
+          "front": "passé composé 否定形式的语序？",
+          "back": "ne + être/avoir + pas + 过去分词\nElle n'est pas venue.\nIl n'a pas prévenu ses parents."
+        },
+        {
+          "id": "1772245937294-jpqhcf9mg8",
+          "front": "阴阳混合复数的过去分词配合规则？",
+          "back": "取阳性复数（+s，不加e）\nPierre et Marie sont venus.\n⚠️ 不是 venues"
+        }
+      ]
+    },
+    {
       "id": 1772237292528,
       "name": "Unit 3 Passé Composé 助动词être",
       "folderId": "1771907837913",
@@ -50498,6 +51574,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T00:11:25.166Z",
+  "exportedAt": "2026-02-28T02:47:07.812Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
