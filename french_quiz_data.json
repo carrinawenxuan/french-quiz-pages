@@ -1,6 +1,232 @@
 {
   "savedSets": [
     {
+      "id": 1772257912628,
+      "name": "Avoir un coup de foudre",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-28T05:51:52.628Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'ai visité Paris pour la première fois, j'_____ un coup de foudre pour cette ville.",
+          "options": [
+            "ai eu",
+            "a eu",
+            "avais",
+            "suis eu"
+          ],
+          "correct": 0,
+          "explanation": "复合过去时，avoir的过去分词是eu，主语是je，所以助动词变位为ai，结合起来是 j'ai eu。",
+          "category": "语法/变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont eu un coup de foudre _____ ce magnifique appartement.",
+          "options": [
+            "à",
+            "de",
+            "pour",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "“对...一见钟情”的固定搭配介词是 pour：avoir un coup de foudre pour qch/qn。",
+          "category": "词汇/搭配"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达与“爱情/心动”有关？",
+          "options": [
+            "avoir un coup de foudre",
+            "avoir le mal de mer",
+            "tomber amoureux",
+            "avoir le cafard"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "avoir un coup de foudre (一见钟情) 和 tomber amoureux (坠入爱河) 与爱情相关。avoir le mal de mer 是晕船，avoir le cafard 是情绪低落。",
+          "category": "词汇/辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est le vrai _____ de foudre !",
+          "correct": [
+            "coup"
+          ],
+          "explanation": "固定表达 coup de foudre。",
+          "category": "词汇"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Dès qu'il l'a vue, il _____ (avoir) un coup de foudre _____ elle.",
+          "correct": [
+            "a eu",
+            "pour"
+          ],
+          "explanation": "第一空为复合过去时 a eu（瞬间发生的动作），第二空搭配介词 pour。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand Paul a vu cette voiture de collection, il _____ un coup de foudre.",
+          "options": [
+            "est eu",
+            "a eu",
+            "avait",
+            "était"
+          ],
+          "correct": 1,
+          "explanation": "(A2) 表示瞬间发生的动作，使用复合过去时（Passé composé），avoir 的助动词也是 avoir。",
+          "category": "语法/时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la maison _____ j'ai eu un coup de foudre.",
+          "options": [
+            "que",
+            "dont",
+            "pour laquelle",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "(B2) 考察复合关系代词。固定搭配是 avoir un coup de foudre POUR qch，先行词是 la maison（阴性单数），因此必须用介词 pour + laquelle。",
+          "category": "语法/关系代词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "TCF 听力/阅读题：以下哪些表达说明说话人体验了“瞬间的强烈好感/一见钟情”？",
+          "options": [
+            "Je suis tombé sous son charme immédiatement.",
+            "J'ai eu un véritable coup de foudre.",
+            "J'en ai eu ras le bol.",
+            "J'ai été d'emblée conquis par cette ville."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "(B2) tomber sous le charme (立刻被迷住) 和 être d'emblée conquis (立刻被征服) 是 B2/C1 级别替换 coup de foudre 的极佳表达。avoir ras le bol 意思是受够了。",
+          "category": "词汇/同义替换"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il ne croyait pas à l'amour, jusqu'au jour où il a _____ un coup de foudre.",
+          "correct": [
+            "eu"
+          ],
+          "explanation": "(B1) 考查固定词组 avoir un coup de foudre 的过去分词 eu，在 TCF 填空题中极易忽略动词原形。",
+          "category": "词汇/变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Bien qu'il _____ un coup de foudre pour elle, il n'a rien osé dire.",
+          "options": [
+            "a eu",
+            "avait eu",
+            "ait eu",
+            "aura eu"
+          ],
+          "correct": 2,
+          "explanation": "(B2) 考查虚拟式（Subjonctif）。Bien que (虽然/尽管) 必须接虚拟式，这里表示主句动作发生时，从句动作也已发生/正在发生，avoir 的虚拟式现在时第三人称单数是 ait。",
+          "category": "语法/虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si je n'étais pas allé à cette soirée, je n'_____ jamais eu de coup de foudre pour toi.",
+          "options": [
+            "ai",
+            "avais",
+            "aurais",
+            "aurai"
+          ],
+          "correct": 2,
+          "explanation": "(B2/C1) 考查条件式过去时 (Conditionnel passé) 用于表达与过去事实相反的假设。Si + 愈过去时，主句必须用条件式过去时 (aurais + participe passé)。",
+          "category": "语法/条件式"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "C'est un véritable coup de _____ ! Je l'ai eu _____ cette ville dès mon arrivée.",
+          "correct": [
+            "foudre",
+            "pour"
+          ],
+          "explanation": "(A2/B1) 第一空考查词汇 foudre 的拼写，第二空考查核心搭配介词 pour。",
+          "category": "词汇/介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous parlez à l'examinateur du TCF : « J'ai visité le Québec et franchement, j'_____ suis tombé amoureux tout de suite, un vrai coup de foudre ! » (填入合适的代词)",
+          "options": [
+            "y",
+            "en",
+            "le",
+            "lui"
+          ],
+          "correct": 1,
+          "explanation": "(B1/B2) tomber amoureux DE qch -> 用代词 en 替代 de + 名词 (le Québec)。注意，对人一见钟情或坠入爱河时，重读人称代词更常见 (Je suis tombé amoureux d'elle)，但对物/地点常用 en。",
+          "category": "语法/代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ eu un coup de foudre pour ce projet, l'investisseur a immédiatement signé le contrat.",
+          "options": [
+            "Ayant",
+            "Avoir",
+            "Eu",
+            "En ayant"
+          ],
+          "correct": 0,
+          "explanation": "(B2) 考查现在分词 (Participe présent) 表示原因。“因为对这个项目一见钟情”，相当于 Comme il a eu...，用 Ayant 引导分词短语提升句子高级感。",
+          "category": "语法/分词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Dès que nos regards se sont croisés, ça a _____ (être) un coup de foudre.",
+          "correct": [
+            "été"
+          ],
+          "explanation": "(B1) 表达“这（场相遇）是一见钟情”，ça a été (passé composé) 是非常地道的口语表达，注意 être 的过去分词是 été。",
+          "category": "语法/变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1mAhCMuCLBUqoT6-LIvr94KSYg8cOYdIR8ZoPgnzJ6Z4/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772257943561-zzieotggvpd",
+          "front": "「一见钟情」法语怎么说？(地道表达)",
+          "back": "avoir un coup de foudre"
+        },
+        {
+          "id": "1772257943561-y3hoduiqr5f",
+          "front": "avoir un coup de foudre 的字面意思？",
+          "back": "被雷劈了 (coup = 击打，foudre = 闪电/雷)"
+        },
+        {
+          "id": "1772257943561-v0rklqh138",
+          "front": "「对某人/某物一见钟情」搭配哪个介词？",
+          "back": "pour (avoir un coup de foudre pour qn / qch)"
+        },
+        {
+          "id": "1772257943561-dcuvcjreirf",
+          "front": "【造句 / B1】我对这座城市一见钟情。(passé composé)",
+          "back": "J'ai eu un coup de foudre pour cette ville."
+        },
+        {
+          "id": "1772257943561-c03gc99hun",
+          "front": "辨析：tomber amoureux vs avoir un coup de foudre",
+          "back": "tomber amoureux (坠入爱河，是一个过程) \nvs \navoir un coup de foudre (一见钟情，强调瞬间、强烈、毫无防备)"
+        }
+      ]
+    },
+    {
       "id": 1772257424104,
       "name": "Avoir la main verte",
       "folderId": "1770661225895",
@@ -52455,6 +52681,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T05:44:32.713Z",
+  "exportedAt": "2026-02-28T05:52:31.290Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
