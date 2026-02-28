@@ -1,6 +1,543 @@
 {
   "savedSets": [
     {
+      "id": 1772310448202,
+      "name": "主语人称代词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-28T20:27:28.202Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ habite à Montréal depuis trois ans.",
+          "options": [
+            "Je",
+            "J'",
+            "Tu",
+            "Il"
+          ],
+          "correct": 1,
+          "explanation": "habite 以元音开头，je 必须省音为 j'。J'habite 是唯一正确写法。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et Sophie sont fatiguées. _____ vont au cinéma ce soir.",
+          "options": [
+            "Ils",
+            "Elles",
+            "Nous",
+            "On"
+          ],
+          "correct": 1,
+          "explanation": "Marie 和 Sophie 全部是阴性，没有阳性成员，所以用 elles。如果有任何一个阳性就必须用 ils。",
+          "category": "ils/elles选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre, Marc et Julie arrivent demain. _____ prennent le train.",
+          "options": [
+            "Elles",
+            "Ils",
+            "Nous",
+            "Vous"
+          ],
+          "correct": 1,
+          "explanation": "三人中有 Pierre 和 Marc（阳性），混合组合必须用 ils，哪怕阴性占少数也一样。",
+          "category": "ils/elles选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Madame, _____ êtes prête ?",
+          "options": [
+            "tu",
+            "vous",
+            "elle",
+            "on"
+          ],
+          "correct": 1,
+          "explanation": "对一位女士用正式称呼，单数尊称用 vous。注意 prête 是阴性单数形式，说明 vous 指一个人。",
+          "category": "tu/vous"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ parlent français très bien.",
+          "options": [
+            "Il",
+            "Elle",
+            "Ils",
+            "Tu"
+          ],
+          "correct": 2,
+          "explanation": "parlent 词尾 -ent 是第三人称复数标记，只有 ils/elles 匹配。选项中只有 ils 是复数。",
+          "category": "动词词尾反推主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "En France, _____ mange du pain tous les jours.",
+          "options": [
+            "nous",
+            "on",
+            "ils",
+            "je"
+          ],
+          "correct": 1,
+          "explanation": "泛指'人们在法国吃面包'，用 on 表示泛指。on 的动词变位同第三人称单数：mange。",
+          "category": "on的用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些代词后面动词词尾可以是 -ez ？",
+          "options": [
+            "nous",
+            "vous",
+            "tu",
+            "ils"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "只有 vous 对应词尾 -ez（vous parlez, vous finissez）。nous 对应 -ons，tu 对应 -es/-s，ils 对应 -ent。",
+          "category": "变位词尾"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La table est sale. _____ est sale.（用代词替代 la table）",
+          "correct": [
+            "Elle"
+          ],
+          "explanation": "la table 是阴性名词（la），用 elle 替代。法语没有 it，非人类事物也用 il/elle。",
+          "category": "il/elle指代物"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous êtes étudiants ? 这句话中 vous 表示：",
+          "options": [
+            "单数尊称（您）",
+            "复数（你们）",
+            "泛指（人们）",
+            "第一人称"
+          ],
+          "correct": 1,
+          "explanation": "étudiants 带了复数 -s，说明 vous 在这里指多个人 = 你们。如果是单数尊称会写 étudiant（无s）。",
+          "category": "vous单复数判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ trois chats.",
+          "options": [
+            "a",
+            "ont",
+            "avons",
+            "as"
+          ],
+          "correct": 1,
+          "explanation": "ils 对应 avoir 的第三人称复数变位：ont。a → il/elle, avons → nous, as → tu。",
+          "category": "avoir变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ avons un rendez-vous à 15 heures.",
+          "correct": [
+            "Nous"
+          ],
+          "explanation": "avons 是 avoir 的 nous 形式（第一人称复数），所以主语必须是 nous。",
+          "category": "动词词尾反推主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu 和 vous 都可以表示\"你\"，在以下哪个场景应该用 tu ？",
+          "options": [
+            "面试官对你提问",
+            "你和好朋友聊天",
+            "你在银行柜台办事",
+            "你第一次见房东"
+          ],
+          "correct": 1,
+          "explanation": "好朋友之间关系亲近，用 tu（tutoiement）。其余场景均为正式或陌生关系，应用 vous。",
+          "category": "tu/vous语境"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1z0J7jfdYZgPasHv52AQqIVLqe1t63p-kcB2oq2F_WFM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772310481909-5glj5og1hqn",
+          "front": "法语“我”怎么说？元音前呢？",
+          "back": "je → 元音/哑音h前省音为 j'\n例：j'ai, j'habite"
+        },
+        {
+          "id": "1772310481909-upxusuzd9tg",
+          "front": "tu 用于什么场景？",
+          "back": "非正式/亲密关系：家人、朋友、同龄人、小孩\n单数"
+        },
+        {
+          "id": "1772310481909-02csovbusrzm",
+          "front": "vous 有几种用法？",
+          "back": "两种：\n1. 单数尊称（您）→ 上司、陌生人、长辈\n2. 复数（你们）→ 无论正式非正式"
+        },
+        {
+          "id": "1772310481909-e17dtogn2np",
+          "front": "如何判断 vous 是单数还是复数？",
+          "back": "看形容词/过去分词：\nVous êtes prêt（单数阳性）\nVous êtes prêtes（复数阴性）\n看名词是否带 -s"
+        },
+        {
+          "id": "1772310481909-x2cd1w58xu",
+          "front": "il 和 elle 只能指人吗？",
+          "back": "不！法语没有 it。\nil 替代阳性名词（le livre → il）\nelle 替代阴性名词（la table → elle）"
+        },
+        {
+          "id": "1772310481909-g8hvq24imj6",
+          "front": "ils 和 elles 怎么选？",
+          "back": "全阴性 → elles\n有任何一个阳性 → ils\n（99女+1男 = ils）"
+        },
+        {
+          "id": "1772310481909-266m9cmvpw5",
+          "front": "on 有哪三种含义？",
+          "back": "1. 口语中的 nous（我们）→ On va au cinéma ?\n2. 泛指“人们”→ On parle français ici.\n3. 被动替代 → On m'a dit..."
+        },
+        {
+          "id": "1772310481909-x4e1p7jexoh",
+          "front": "on 的动词变位跟谁一样？",
+          "back": "跟 il/elle 一样，第三人称单数\nOn parle, on a, on est"
+        },
+        {
+          "id": "1772310481909-5xcihxxllj",
+          "front": "ils parlent 的 -ent 怎么读？",
+          "back": "不发音！\nils parlent = /il paʁl/\n-ent 作动词词尾永远静音"
+        },
+        {
+          "id": "1772310481909-yosjpq933no",
+          "front": "-er 动词六个人称词尾",
+          "back": "je -e / tu -es / il -e\nnous -ons / vous -ez / ils -ent"
+        },
+        {
+          "id": "1772310481909-oqjnpl709r",
+          "front": "nous 连读规则",
+          "back": "nous + 元音开头 → z 连读\nnous avons /nu.z‿a.vɔ̃/\nnous allons /nu.z‿a.lɔ̃/"
+        },
+        {
+          "id": "1772310481909-aib03agb967",
+          "front": "je 什么时候必须省音？",
+          "back": "后面动词以元音或哑音 h 开头时强制省音\nje → j'\n写 je ai ✗ → j'ai ✓"
+        },
+        {
+          "id": "1772310481909-ph6jhgnukxj",
+          "front": "vous 对应的动词词尾是？",
+          "back": "-ez\nvous parlez, vous finissez, vous vendez\n唯一例外：vous êtes, vous faites, vous dites"
+        },
+        {
+          "id": "1772310481909-wphanh0hbi",
+          "front": "nous 对应的动词词尾是？",
+          "back": "-ons\nnous parlons, nous finissons\n唯一例外：nous sommes"
+        },
+        {
+          "id": "1772310481909-9tjhkdzadh",
+          "front": "TCF 听力中怎么判断 tu/vous 关系？",
+          "back": "听到 tu → 亲近关系\n听到 vous → 正式或多人\n中途从 vous 变 tu → 关系拉近的信号"
+        }
+      ]
+    },
+    {
+      "id": 1772310201721,
+      "name": "法语省音 (L'élision)",
+      "folderId": "1770593095506",
+      "createdAt": "2026-02-28T20:23:21.721Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ ami de Pierre est arrivé.",
+          "options": [
+            "Le",
+            "L'",
+            "La",
+            "Un"
+          ],
+          "correct": 1,
+          "explanation": "ami 以元音开头，le 必须省音为 l'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ école est grande.",
+          "options": [
+            "La",
+            "Le",
+            "L'",
+            "Les"
+          ],
+          "correct": 2,
+          "explanation": "école 以元音开头，la 必须省音为 l'。注意 l' 可以是 le 或 la 的省音形式。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ aime le chocolat.",
+          "options": [
+            "Je",
+            "J'",
+            "Me",
+            "Moi"
+          ],
+          "correct": 1,
+          "explanation": "aime 以元音开头，je 必须省音为 j'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ appelles comment ?",
+          "options": [
+            "te",
+            "t'",
+            "se",
+            "s'"
+          ],
+          "correct": 1,
+          "explanation": "appelles 以元音开头，te 省音为 t'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ habille rapidement.",
+          "options": [
+            "se",
+            "s'",
+            "me",
+            "m'"
+          ],
+          "correct": 1,
+          "explanation": "habille 以哑音h开头，se 省音为 s'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ ai pas de frères.",
+          "options": [
+            "ne",
+            "n'",
+            "na",
+            "ni"
+          ],
+          "correct": 1,
+          "explanation": "ai 以元音开头，ne 省音为 n'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est mon professeur.",
+          "options": [
+            "Ce",
+            "C'",
+            "Ca",
+            "Ça"
+          ],
+          "correct": 1,
+          "explanation": "est 以元音开头，ce 省音为 c'。C'est 是最高频的省音形式之一。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ il pleut, on reste à la maison.",
+          "options": [
+            "Si",
+            "S'",
+            "Qu'",
+            "Se"
+          ],
+          "correct": 1,
+          "explanation": "si 在 il 前必须省音为 s'il。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est ce _____ elle veut.",
+          "options": [
+            "que",
+            "qu'",
+            "qui",
+            "quoi"
+          ],
+          "correct": 1,
+          "explanation": "que 后接 elle（元音开头），必须省音为 qu'elle。注意 qui 永远不省音。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a beaucoup _____ eau.",
+          "options": [
+            "de",
+            "d'",
+            "des",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "eau 以元音开头，de 省音为 d'。beaucoup de + 名词，遇元音开头省音。",
+          "category": "省音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (m'/me) habille à 7 heures.",
+          "correct": [
+            "m'"
+          ],
+          "explanation": "habille 以哑音h开头，me 必须省音为 m'。",
+          "category": "省音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (n'/ne) est pas content.",
+          "correct": [
+            "n'"
+          ],
+          "explanation": "est 以元音开头，ne 省音为 n'。",
+          "category": "省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ elle vient, on sera contents.",
+          "options": [
+            "S'",
+            "Si",
+            "Qu'",
+            "Se"
+          ],
+          "correct": 1,
+          "explanation": "⚠️ 陷阱题！si 只在 il/ils 前省音。si + elle 不省音，所以正确答案是 Si elle，不是 S'elle。",
+          "category": "省音-陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le _____ est un légume vert.",
+          "options": [
+            "l'haricot",
+            "haricot",
+            "aricot",
+            "h'aricot"
+          ],
+          "correct": 1,
+          "explanation": "haricot 是嘘音h（h aspiré），不省音！所以是 le haricot，不是 l'haricot。",
+          "category": "省音-嘘音h陷阱"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些省音形式是正确的？",
+          "options": [
+            "l'histoire",
+            "l'héros",
+            "j'ai",
+            "s'elle"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "l'histoire ✓（histoire 是哑音h）；j'ai ✓（je + ai）。l'héros ✗（héros 是嘘音h，应为 le héros）；s'elle ✗（si 只跟 il/ils 省音）。",
+          "category": "省音-综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ aime _____ école. _____ est une bonne élève. Elle _____ habille vite et elle _____ arrive jamais en retard.",
+          "correct": [
+            "J'",
+            "l'",
+            "C'",
+            "s'",
+            "n'"
+          ],
+          "explanation": "J'aime（je+aime）；l'école（la+école）；C'est（ce+est）；s'habille（se+habille，哑音h）；n'arrive（ne+arrive）。五个省音全部覆盖。",
+          "category": "省音-综合段落"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1bxn6gIYq_6GDQIH3WHxVdhzJE68qcQytn4kyY5GBzOE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772310243137-mxx89qi2ae",
+          "front": "le 在什么情况下省音？省音后变成什么？",
+          "back": "le 后接元音或哑音h开头的词时省音，变成 l'\n例：l'ami, l'étudiant, l'hôtel"
+        },
+        {
+          "id": "1772310243137-9y1o8h8258",
+          "front": "la 省音后变成什么？举例",
+          "back": "la → l'\n例：l'école (la école ✗), l'histoire (la histoire ✗)"
+        },
+        {
+          "id": "1772310243137-hw97qqkl0q",
+          "front": "je 省音后变成什么？举例",
+          "back": "je → j'\n例：j'aime, j'habite, j'ai"
+        },
+        {
+          "id": "1772310243137-nfe4bkpxx2r",
+          "front": "me 省音后变成什么？举例",
+          "back": "me → m'\n例：Je m'appelle Lina. / m'habiller"
+        },
+        {
+          "id": "1772310243137-69vbcfzqer",
+          "front": "te 省音后变成什么？举例",
+          "back": "te → t'\n例：Tu t'appelles comment ? / t'inviter"
+        },
+        {
+          "id": "1772310243137-y9msiwquef",
+          "front": "se 省音后变成什么？举例",
+          "back": "se → s'\n例：Il s'appelle Marc. / s'habiller"
+        },
+        {
+          "id": "1772310243137-jj9unbwteb",
+          "front": "de 省音后变成什么？举例",
+          "back": "de → d'\n例：d'accord, d'accueil, d'eau"
+        },
+        {
+          "id": "1772310243137-49j1qdo1g42",
+          "front": "ne 省音后变成什么？举例",
+          "back": "ne → n'\n例：Je n'ai pas faim. / Il n'est pas là."
+        },
+        {
+          "id": "1772310243137-lkcr9eyz8xb",
+          "front": "ce 省音后变成什么？举例",
+          "back": "ce → c'\n例：c'est (ce est ✗), c'était"
+        },
+        {
+          "id": "1772310243137-y5lwvf3hcwg",
+          "front": "que 省音后变成什么？举例",
+          "back": "que → qu'\n例：qu'il, qu'elle / C'est ce qu'il veut."
+        },
+        {
+          "id": "1772310243137-tjoyqitte3n",
+          "front": "si 什么时候省音？什么时候不省音？",
+          "back": "si 只在 il / ils 前省音 → s'il, s'ils\nsi elle / si on / si un 不省音"
+        },
+        {
+          "id": "1772310243137-itflv5t37td",
+          "front": "什么是嘘音h（h aspiré）？省音吗？",
+          "back": "嘘音h不省音、不联诵\n例：le haricot ✓ (不说 l'haricot)\nle héros ✓ (不说 l'héros)"
+        },
+        {
+          "id": "1772310243137-5dn2j7rsxmd",
+          "front": "l'ami 是阳性还是阴性？l'amie 呢？",
+          "back": "l'ami = 阳性 (le ami)\nl'amie = 阴性 (la amie)\n省音后形式相同，靠上下文判断"
+        },
+        {
+          "id": "1772310243137-1eaie1mtz2p",
+          "front": "省音的本质定义（一句话）",
+          "back": "以元音结尾的单音节词 + 元音/哑音h开头的词 → 删前者元音，用撇号 ' 连写"
+        },
+        {
+          "id": "1772310243137-dtqg1trtds8",
+          "front": "省音口诀：哪10个词+1个特殊词？",
+          "back": "le, la, je, me, te, se, de, ne, ce, que\n+ 特殊：si（仅 s'il / s'ils）"
+        }
+      ]
+    },
+    {
       "id": 1772309887008,
       "name": "Leçon 1 Bienvenue 课文",
       "folderId": "1770747190002",
@@ -54875,6 +55412,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T20:19:32.736Z",
+  "exportedAt": "2026-02-28T20:28:20.348Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
