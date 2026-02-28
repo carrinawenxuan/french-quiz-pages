@@ -1,6 +1,1821 @@
 {
   "savedSets": [
     {
+      "id": 1772237292528,
+      "name": "Unit 3 Passé Composé 助动词être",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-28T00:08:12.528Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "aller / Aurélia, tu _____ à la poste ?",
+          "correct": [
+            "es allée"
+          ],
+          "explanation": "本题考察 être 作助动词的复合过去时与主语性数配合。Aurélia 是女性，第二人称单数 tu 对应的 être 变位为 es，过去分词 aller 必须加 e。TCF高频陷阱点：忘记根据主语性别进行过去分词的性配合。判断口诀：助动词用 être，分词必跟主语变。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Aurélia et sa sœur, _____ à la poste hier ?",
+          "options": [
+            "sont allés",
+            "sont allées",
+            "ont allé",
+            "ont allées"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 être 助动词与阴性复数主语的配合。Aurélia et sa sœur 相当于 elles，助动词用 sont，过去分词加 es。TCF高频陷阱：混合主语的性数判断或错用 avoir 作助动词。判断口诀：aller 永远用 être，全阴主语必加 es。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "entrer - sortir / Ils _____ dans la banque et ils _____ leur revolver.",
+          "correct": [
+            "sont entrés",
+            "ont sorti"
+          ],
+          "explanation": "本题考察同一主语下，动词作不及物与及物时的助动词切换。第一空 entrer 表示位移，用 être，主语 ils (阳复) 加 s；第二空 sortir 后接直接宾语 leur revolver，助动词必须换成 avoir，且分词不配合。TCF高频陷阱点：死记 sortir 用 être，忽略后接 COD 时必须用 avoir。判断口诀：身后无宾用 être 配合，身后有宾用 avoir 不变。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La voiture qu'il _____ du garage est toute neuve.",
+          "options": [
+            "est sorti",
+            "est sortie",
+            "a sorti",
+            "a sortie"
+          ],
+          "correct": 3,
+          "explanation": "本题考察 sortir 作及物动词时的 COD 提前配合陷阱。正确答案 a sortie。sortir 此处意为“把...拿出”，助动词用 avoir。que 代指 la voiture (阴单) 并提前，因此过去分词 sorti 必须加 e。TCF极高频陷阱：双重陷阱，先要判断出用 avoir，再要发现 COD 提前需要配合。判断口诀：有宾语必用 avoir，宾语提前分词变。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "sortir - monter / Elle _____ des sacs de la voiture et elle les _____ chez elle.",
+          "correct": [
+            "a sorti",
+            "a montés"
+          ],
+          "explanation": "本题考察 sortir 和 monter 接直接宾语时的用法。第一空 sortir 后接 des sacs，用 avoir，无提前 COD，不配合；第二空 monter 后接代词 les (代指 des sacs，阳复) 且在动词前，用 avoir，且分词加 s 配合。TCF高频陷阱点：monter/sortir 等两用动词的助动词选择及代词提前配合。判断口诀：代词作宾放动前，分词性数看代词。",
+          "category": "综合运用"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Sélectionnez les phrases correctes :",
+          "options": [
+            "Elles sont montées au premier étage.",
+            "Elles ont monté les valises.",
+            "Les valises qu'elles ont montées sont lourdes.",
+            "Elles ont montées les valises."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "本题全面考察 monter 的助动词及配合陷阱。正确选项为 0, 1, 2。0 无宾语表位移用 être 并配合；1 有宾语用 avoir 不配合；2 宾语提前用 avoir 并配合。4 错在宾语在后却进行了配合。TCF高频陷阱：死背 monter 用 être，或者乱加性数配合。判断口诀：位移 être 必配合，及物 avoir 看前宾。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "passer - rentrer / On _____ 3 heures à discuter et on _____ fatigués.",
+          "correct": [
+            "a passé",
+            "est rentrés"
+          ],
+          "explanation": "本题考察 passer 表度过时间以及 on 作主语的配合特例。第一空 passer du temps 助动词永远用 avoir；第二空 rentrer 表状态变化用 être。句末 fatigués (阳复) 提示这里的 On 泛指我们，因此 rentré 必须加 s 配合。TCF高频陷阱点：On 表“我们”时，助动词为 être 的过去分词需要随实际指代对象进行复数配合。判断口诀：passer 时间用 avoir，On 表我们 être 要加 s。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie et moi, on _____ par le parc pour rentrer.",
+          "options": [
+            "a passé",
+            "est passé",
+            "est passés",
+            "sommes passés"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 passer 表“经过”与主语 on 的配合陷阱。正确选项 est passés。passer par 表位移，助动词用 être。主语是 on，动词变位用第三人称单数 est，但 Marie et moi 代表“我们”，过去分词需要加 s。TCF高频陷阱：on 变位用单数，但表“我们”时分词必须配合！判断口诀：on 作我们看语境，动词单数分词复数。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après le déjeuner, elles _____ immédiatement au bureau.",
+          "options": [
+            "ont reparti",
+            "sont repartie",
+            "sont reparties",
+            "ont reparties"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 partir 的派生词 repartir 复合过去时及主语配合陷阱。正确答案 sont reparties。repartir 和 partir 一样，完全使用 être 作助动词。主语 elles 要求过去分词加 es。TCF高频陷阱：忽略派生词与词根助动词的一致性。判断口诀：partir 家族用 être，复数主语别忘 s。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "arriver / Nous _____ il y a 3 jours.",
+          "correct": [
+            "sommes arrivés"
+          ],
+          "explanation": "本题考察 arriver 的复合过去时与第一人称复数 nous。正确答案为 sommes arrivés（默认阳性复数，若全为女性则为 sommes arrivées）。arriver 表示位移，必须使用 être 作助动词。TCF高频陷阱点：受英语思维影响误用 avoir，或者忘记动词过去分词的性数配合。判断口诀：位移动词助 être，主语复数分词加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie, Julie et Paul _____ en retard à la réunion.",
+          "options": [
+            "sont arrivées",
+            "sont arrivés",
+            "ont arrivé",
+            "ont arrivés"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 être 助动词复合过去时的混合性别主语配合陷阱。正确选项 sont arrivés。错误解析：主语包含至少一名男性（Paul）时，整体遵循阳性复数规则，因此过去分词不能加 e（1错）；arriver 必须用 être（3、4错）。TCF高频陷阱：看到连续的女性名字就习惯性选阴性复数。判断口诀：男女混合算阳性，être 配合别忘 s。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "naître / Il _____ en 1971.",
+          "correct": [
+            "est né"
+          ],
+          "explanation": "本题考察 naître 的复合过去时。正确答案为 est né。naître 表示状态改变，复合过去时助动词固定为 être。TCF高频陷阱点：naître 的过去分词是不规则的 né，且极易和 nager 等词混淆。判断口诀：出生 naître 变 né，助动词永远是 être。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les jumelles de mon voisin _____ la semaine dernière.",
+          "options": [
+            "sont nées",
+            "sont nés",
+            "ont né",
+            "ont nées"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 naître 的阴性复数主语配合陷阱。正确选项 sont nées。主语 les jumelles（双胞胎女孩）为阴性复数，因此助动词 être 后的分词 né 必须加 es。TCF高频陷阱：忽视 jumelles 的阴性属性或错用 avoir。判断口诀：找准主语阴阳性，出生永远跟主语变。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "retourner / Vous _____ chez vous ?",
+          "correct": [
+            "êtes retournés"
+          ],
+          "explanation": "本题考察 retourner 的复合过去时。正确答案为 êtes retournés（假设 vous 指代复数阳性）。retourner 表位移“返回”时，助动词用 être。TCF高频陷阱点：retourner 也可以作及物动词（翻转），需根据语境 chez vous（回家）判断为不及物位移。判断口诀：回家位移用 être，分词跟着主语走。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce matin, elle _____ le matelas pour le nettoyer.",
+          "options": [
+            "est retournée",
+            "a retourné",
+            "est retourné",
+            "a retournée"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 retourner 作及物动词的助动词陷阱。正确选项 a retourné。当 retourner 后面有直接宾语 le matelas（床垫），意思是“翻转”，助动词必须变成 avoir！且 COD 在动词之后，分词不配合。TCF高频陷阱：死记 retourner 用 être，不看身后有没有直接宾语。判断口诀：身后有物用 avoir，翻转东西不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Biographie de Gabriel : Enfance heureuse qu'il _____ (avoir). Baccalauréat qu'il _____ (passer) en 1983.",
+          "correct": [
+            "a eue",
+            "a passé"
+          ],
+          "explanation": "本题考察传记语境下的复合过去时及 COD 提前配合。第一空 avoir 的分词 eu 因 enfance (阴单) 提前需配合变为 eue；第二空 passer 的分词 passé 因 baccalauréat (阳单) 提前，无需额外加字母。TCF高频陷阱点：que 引导从句时，即使是 avoir 自身的变位也要进行分词配合。判断口诀：que 代前词作宾语，分词性数看仔细。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les examens difficiles qu'il _____ à Sciences Po l'ont épuisé.",
+          "options": [
+            "a passé",
+            "a passés",
+            "est passé",
+            "sont passés"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 passer 作及物动词且 COD 提前的配合陷阱。正确答案 a passés。passer les examens 意为“参加考试”，作及物动词，助动词用 avoir。先行词 les examens（阳复）提前，所以 passé 必须加 s。TCF极高频陷阱：混淆 passer 表位移（être）和表度过/参加（avoir）。判断口诀：考过试度过时用 avoir，宾语提前必加 s。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Biographie : Maladie, il _____ (tomber) malade. Retour en France, il _____ (rentrer) en mai.",
+          "correct": [
+            "est tombé",
+            "est rentré"
+          ],
+          "explanation": "本题考察 tomber 和 rentrer 的复合过去时。两者均表示状态改变或位移，且句中无直接宾语，助动词必须用 être。主语 il 是阳性单数，分词不加任何后缀。TCF高频陷阱点：死背单词却不理解语境，容易在长句中选错助动词。判断口诀：生病倒下用 être，回家位移也用 être。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait froid dehors, alors elle _____ ses plantes dans le salon.",
+          "options": [
+            "est rentrée",
+            "a rentrée",
+            "a rentré",
+            "est rentré"
+          ],
+          "correct": 2,
+          "explanation": "本题考察 rentrer 作及物动词的助动词转换陷阱。正确答案 a rentré。rentrer 意为“把...搬进”，后接直接宾语 ses plantes，因此助动词必须从 être 切换为 avoir！宾语在动词后，分词不配合。TCF高频陷阱：死记 rentrer 用 être，导致在“搬回某物”的语境中翻车。判断口诀：身后带物搬进来，助动词秒变 avoir。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "arriver - repartir / Elles _____ à 18 h et elles _____ à 20 h.",
+          "correct": [
+            "sont arrivées",
+            "sont reparties"
+          ],
+          "explanation": "本题考察 arriver 和 repartir 的连续动作变位。两个词均表示位移，助动词均用 être。主语 elles 要求过去分词加 es。正确答案 sont arrivées, sont reparties。TCF高频陷阱点：只给第一个动词配合，忘记给后半句的动词也进行配合。判断口诀：同一主语连着走，动词配合别遗漏。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Malgré la pluie, ils _____ de zéro pour reconstruire leur maison.",
+          "options": [
+            "ont reparti",
+            "sont reparti",
+            "ont repartis",
+            "sont repartis"
+          ],
+          "correct": 3,
+          "explanation": "本题考察 repartir 的助动词及派生陷阱。正确答案 sont repartis。repartir（重新出发/从头开始）是不及物动词，与 partir 一样永远只用 être 作助动词，主语 ils 要求加 s。TCF高频陷阱：误把 repartir 和 répartir（分配，第二组动词，助动词 avoir）混淆。判断口诀：repartir 跟着 partir 走，助动词 être 别回头。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "passer - arriver / Nous _____ par l'autoroute et nous _____ tôt.",
+          "correct": [
+            "sommes passés",
+            "sommes arrivés"
+          ],
+          "explanation": "本题考察 passer 表经过时的用法。第一空 passer par 表示“从...经过”，是不及物位移，助动词用 être；第二空 arriver 也是位移，用 être。nous 要求加 s。正确答案 sommes passés, sommes arrivés。TCF高频陷阱点：看到 passer 就想填 avoir，忽略了 par 引导的路径。判断口诀：passer 加上 par，助动词必用 être。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ le pont rapidement et nous _____ dans la forêt.",
+          "options": [
+            "avons passé / sommes arrivés",
+            "sommes passés / sommes arrivés",
+            "avons passé / avons arrivé",
+            "sommes passés / avons arrivé"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 passer 极具迷惑性的及物/不及物转换陷阱。正确选项0。第一空 passer le pont 意为“穿过桥”，le pont 是直接宾语，因此助动词必须用 avoir！第二空 arriver 永远用 être。TCF极高频陷阱：passer 即使表示位移，只要直接加地点名词（无介词），就视作及物动词用 avoir。判断口诀：passer 身后直接加地点，助动词用 avoir；中间隔着介词 par，助动词换 être。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie ______ à Paris hier soir.",
+          "options": [
+            "est arrivé",
+            "est arrivée",
+            "a arrivé",
+            "a arrivée"
+          ],
+          "correct": 1,
+          "explanation": "arriver 用 être，Marie 是阴性 → arrivée。a arrivé/a arrivée 错在助动词选错。",
+          "category": "助动词选择+性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ au cinéma samedi dernier.",
+          "options": [
+            "avons allé",
+            "sommes allés",
+            "sommes allé",
+            "avons allés"
+          ],
+          "correct": 1,
+          "explanation": "aller 用 être，nous 复数 → allés。avoir + aller 不存在。sommes allé 漏了复数 s。",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ de la maison à 8 heures.",
+          "options": [
+            "ont sorti",
+            "sont sorti",
+            "sont sorties",
+            "ont sorties"
+          ],
+          "correct": 2,
+          "explanation": "sortir 无宾语 → 用 être；elles 阴性复数 → sorties。ont sorties 助动词错。",
+          "category": "两栖动词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ les valises au 3e étage.",
+          "options": [
+            "est monté",
+            "a monté",
+            "est montées",
+            "a montées"
+          ],
+          "correct": 1,
+          "explanation": "monter + COD (les valises) → 用 avoir → a monté。COD 在动词后面，不配合。",
+          "category": "两栖动词 avoir/être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les lettres qu'elle ______ étaient importantes.",
+          "options": [
+            "a sorti",
+            "a sorties",
+            "est sortie",
+            "est sorties"
+          ],
+          "correct": 1,
+          "explanation": "sortir + COD (les lettres) → avoir；COD que(les lettres，阴复) 提前 → 必须配合 → a sorties。",
+          "category": "avoir+COD提前配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ chez toi à quelle heure, Sophie ?",
+          "options": [
+            "es rentré",
+            "es rentrée",
+            "as rentrée",
+            "as rentré"
+          ],
+          "correct": 1,
+          "explanation": "rentrer 无宾语 → être；Sophie 是女性 → rentrée。as rentré/rentrée 助动词错。",
+          "category": "être+阴性配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pierre et Julie ______ (naître) en 1990.",
+          "correct": [
+            "sont nés"
+          ],
+          "explanation": "naître 用 être；Pierre et Julie 混合性别 → 阳性复数 nés。",
+          "category": "混合性别配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle ______ (passer) trois heures à étudier.",
+          "correct": [
+            "a passé"
+          ],
+          "explanation": "passer + COD (trois heures) → avoir → a passé。不是 est passée。",
+          "category": "两栖动词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On ______ tard et on était fatigués.",
+          "options": [
+            "est rentrés",
+            "est rentré",
+            "a rentrés",
+            "a rentré"
+          ],
+          "correct": 0,
+          "explanation": "rentrer 无宾语 → être；on 这里 = nous，实际指多人 → 过去分词按复数配合 rentrés。est rentré 语法上可接受但语境暗示复数。",
+          "category": "on的配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mes sœurs ______ en Italie l'été dernier.",
+          "options": [
+            "sont allés",
+            "sont allées",
+            "ont allé",
+            "ont allées"
+          ],
+          "correct": 1,
+          "explanation": "aller 用 être；mes sœurs 阴性复数 → allées。allés 是阳性复数，性别错。",
+          "category": "阴性复数配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的助动词选择是正确的？",
+          "options": [
+            "Elle a sortie de la maison.",
+            "Elle est sortie de la maison.",
+            "Il a monté l'escalier.",
+            "Il est monté l'escalier."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "sortir 无宾语 → être → est sortie ✓；monter + COD (l'escalier) → avoir → a monté ✓。a sortie 助动词错；est monté l'escalier 有宾语却用了 être。",
+          "category": "两栖动词综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les photos qu'il ______ (sortir) de son sac étaient magnifiques.",
+          "correct": [
+            "a sorties"
+          ],
+          "explanation": "sortir + COD；COD que(les photos，阴复) 提前 → avoir + 配合 → a sorties。",
+          "category": "avoir+COD提前配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ à quelle heure, madame ?",
+          "options": [
+            "êtes arrivé",
+            "êtes arrivée",
+            "avez arrivé",
+            "avez arrivée"
+          ],
+          "correct": 1,
+          "explanation": "arriver 用 être；madame = 阴性单数 → arrivée。vous 敬称指一位女性。",
+          "category": "vous敬称+阴性"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Elles ______ (entrer) dans le magasin et elles ______ (sortir) leurs portefeuilles.",
+          "correct": [
+            "sont entrées",
+            "ont sorti"
+          ],
+          "explanation": "entrer 无宾语 → être → elles 阴复 → entrées；sortir + COD (leurs portefeuilles) → avoir → ont sorti，COD 在后不配合。",
+          "category": "双动词être/avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma mère ______ en 1960 à Lyon.",
+          "options": [
+            "est né",
+            "est née",
+            "a né",
+            "a née"
+          ],
+          "correct": 1,
+          "explanation": "naître 用 être；ma mère 阴性 → née。a né/a née 助动词全错，naître 永远用 être。",
+          "category": "naître配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, Paul ______ (passer) par la boulangerie, puis il ______ (monter) les courses au 4e étage.",
+          "correct": [
+            "est passé",
+            "a monté"
+          ],
+          "explanation": "passer par（无 COD，介词短语）→ être → est passé；monter + COD (les courses) → avoir → a monté。",
+          "category": "综合辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1R_7Nu1Ti55-2-7xFijOuwayOY-9pupNtS6Khs0gtaU4/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772237483277-bru2zyixtu4",
+          "front": "passé composé 用 être 的动词有哪些？",
+          "back": "DR MRS VANDERTRAMP：\nDevenir, Revenir, Monter, Retourner, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Rester, Arriver, Mourir, Partir\n+ 所有代词式动词"
+        },
+        {
+          "id": "1772237483277-nor65e99dp",
+          "front": "passé composé 用 être 时，过去分词配合规则？",
+          "back": "过去分词必须与主语做性数配合：\n阴性 +e，复数 +s，阴性复数 +es\n例：Elle est arrivée / Ils sont partis"
+        },
+        {
+          "id": "1772237483277-2wes648w9fq",
+          "front": "aller 的 passé composé (je, 男)",
+          "back": "je suis allé"
+        },
+        {
+          "id": "1772237483277-m6lz2wn6rl",
+          "front": "aller 的 passé composé (je, 女)",
+          "back": "je suis allée"
+        },
+        {
+          "id": "1772237483277-fm00nz64nnv",
+          "front": "arriver 的 passé composé (elles)",
+          "back": "elles sont arrivées\n（阴性复数 → +es）"
+        },
+        {
+          "id": "1772237483277-kkne2v1qrsi",
+          "front": "naître 的 passé composé (il)",
+          "back": "il est né"
+        },
+        {
+          "id": "1772237483277-2n0j2naelmj",
+          "front": "naître 的 passé composé (elle)",
+          "back": "elle est née"
+        },
+        {
+          "id": "1772237483277-0iquhyrcbk3a",
+          "front": "partir 的 passé composé (nous, 男)",
+          "back": "nous sommes partis"
+        },
+        {
+          "id": "1772237483277-lexh5l6wq7j",
+          "front": "sortir 的 passé composé (elles)",
+          "back": "elles sont sorties"
+        },
+        {
+          "id": "1772237483277-fdir462nz9",
+          "front": "entrer 的 passé composé (ils)",
+          "back": "ils sont entrés"
+        },
+        {
+          "id": "1772237483277-wy4x0lpg5b",
+          "front": "rentrer 的 passé composé (tu, 女)",
+          "back": "tu es rentrée"
+        },
+        {
+          "id": "1772237483277-u44h91currr",
+          "front": "tomber 的 passé composé (il)",
+          "back": "il est tombé"
+        },
+        {
+          "id": "1772237483277-3lmdylrjshi",
+          "front": "retourner 的 passé composé (vous, 阴复)",
+          "back": "vous êtes retournées"
+        },
+        {
+          "id": "1772237483277-w86ud93gyeb",
+          "front": "monter/sortir/passer 等动词什么时候用 avoir？",
+          "back": "当后面带直接宾语（COD）时改用 avoir。\n例：Elle est montée au 2e étage.（无宾语→être）\nElle a monté les valises.（有宾语→avoir）"
+        },
+        {
+          "id": "1772237483277-at1f64nixn",
+          "front": "Nous sommes montés. vs Nous avons monté les valises. 区别？",
+          "back": "无宾语 → être → montés（与主语配合）\n有宾语 les valises → avoir → monté（COD在后不配合）"
+        },
+        {
+          "id": "1772237483277-sghplntg2j",
+          "front": "Elle a sorti les papiers. 为什么用 avoir？",
+          "back": "sortir + COD (les papiers) → 用 avoir\n过去分词不与主语配合"
+        },
+        {
+          "id": "1772237483277-vv3m16clnre",
+          "front": "Les valises qu'elle a montées — 为什么 montées 加了 es？",
+          "back": "avoir + COD 提前规则：\nCOD \"les valises\"（阴复）通过 que 提前到动词前\n→ 过去分词必须与 COD 配合 → montées"
+        },
+        {
+          "id": "1772237483277-4e51pel37jb",
+          "front": "on 在 passé composé 中的配合规则？",
+          "back": "动词用第三人称单数（on est）\n但 on = nous 时，过去分词可按实际人数做复数配合\n例：On est rentrés fatigués."
+        },
+        {
+          "id": "1772237483277-e49pmb6d77m",
+          "front": "-er 动词的过去分词怎么变？",
+          "back": "去 -er 加 -é\narriver → arrivé\naller → allé\nentrer → entré"
+        },
+        {
+          "id": "1772237483277-0q4dfkita6m9",
+          "front": "partir 的过去分词是什么？",
+          "back": "parti（不是 parté！）\n-ir 动词常见过去分词为 -i"
+        },
+        {
+          "id": "1772237483277-25zah96l695",
+          "front": "sortir 的过去分词是什么？",
+          "back": "sorti（不是 sorté！）"
+        },
+        {
+          "id": "1772237483277-eovsuyvdtdi",
+          "front": "naître 的过去分词是什么？",
+          "back": "né（特殊形式，需记忆）"
+        },
+        {
+          "id": "1772237483277-ipb11la5t",
+          "front": "Elle est passée me voir. vs Elle a passé 3 heures à lire. 区别？",
+          "back": "est passée：无COD，表经过/来访 → être\na passé：有COD (3 heures) → avoir"
+        },
+        {
+          "id": "1772237483277-2nlf4xa75ms",
+          "front": "avoir 的 passé composé 配合规则？",
+          "back": "正常情况不配合。\n仅当 COD 提前到动词前时，过去分词与 COD 配合。\n例：Les photos qu'il a sorties.（que=les photos，阴复）"
+        }
+      ]
+    },
+    {
+      "id": 1772236997795,
+      "name": "Unit 3 Passé Composé -OIR",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-28T00:03:17.795Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "pouvoir / Nous _____ le voir.",
+          "correct": [
+            "avons pu"
+          ],
+          "explanation": "本题考察 pouvoir 的复合过去时与第一人称复数 nous。正确答案为 avons pu。TCF高频陷阱点：助动词选择 avoir，过去分词为 pu，极易拼错或与 devoir (dû) / pleuvoir (plu) 混淆。判断口诀：pouvoir 变 pu，助动词用 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ le voir, mais il était déjà parti.",
+          "options": [
+            "sommes pu",
+            "avons pu",
+            "avons pouvoir",
+            "sommes pouvoir"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 pouvoir 的复合过去时助动词陷阱。正确选项 avons pu。错误选项：pouvoir 不使用 être 作助动词，故 sommes pu 错；复合过去时必须用过去分词，不能用原形，故 avons pouvoir 错。TCF高频陷阱：情态动词的复合过去时助动词一律使用 avoir。判断口诀：情态动词助 avoir，原形绝不进时态。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "pleuvoir / Il _____ toute la journée.",
+          "correct": [
+            "a plu"
+          ],
+          "explanation": "本题考察无人称动词 pleuvoir 的复合过去时。正确答案为 a plu。pleuvoir 仅有第三人称单数 il 的形式。TCF高频陷阱点：过去分词 plu 极易与 plaire 的过去分词 plu 混淆，但在 il a plu (下雨) 的无人称语境中不发生任何性数配合。判断口诀：下雨只有 il a plu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Sélectionnez les phrases correctes :",
+          "options": [
+            "Il a plu hier soir.",
+            "Il est plu toute la nuit.",
+            "Les pluies qu'il a plu ont inondé la rue.",
+            "Il a plu beaucoup de neige."
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "本题考察 pleuvoir 复合过去时的助动词与配合陷阱。正确答案选0。错误解析：pleuvoir 助动词是 avoir (2错)；作为无人称动词，其过去分词 plu 永远不进行性数配合，即使有前置的 les pluies (3错)；下雪动词是 neiger，不能用 pleuvoir de la neige (4错)。TCF极高频陷阱：无人称动词的分词绝对不配合。判断口诀：下雨用 avoir，无人称永不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "savoir / Tu _____ lui parler.",
+          "correct": [
+            "as su"
+          ],
+          "explanation": "本题考察 savoir 的复合过去时与第二人称单数 tu。正确答案为 as su。TCF高频陷阱点：savoir 的过去分词是 su，注意发音和拼写，不要与 suivre (suivi) 混淆。判断口诀：savoir 变 su，助动词选 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ la vérité quand elle te l'a dite ?",
+          "options": [
+            "as su",
+            "a su",
+            "as sus",
+            "es su"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 savoir 复合过去时的过去分词性数配合陷阱。正确答案为 as su。虽然句中有 la vérité（阴性），但在复合过去时中，COD 在动词之后，过去分词不配合，因此 as sus 是错误的。TCF高频陷阱：看到阴性或复数名词就强行给过去分词加 s/e。判断口诀：COD在后不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "recevoir / Je _____ une réponse.",
+          "correct": [
+            "ai reçu"
+          ],
+          "explanation": "本题考察 recevoir 的复合过去时与第一人称单数 je。正确答案为 ai reçu。TCF高频陷阱点：recevoir 的过去分词 reçu 必须带有软音符 ç，否则 c 在 u 前发 /k/ 音，属于严重拼写错误。判断口诀：recevoir 变 reçu，无 ç 必错。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les lettres que j'_____ étaient très importantes.",
+          "options": [
+            "ai reçu",
+            "ai reçues",
+            "suis reçu",
+            "ai reçus"
+          ],
+          "correct": 1,
+          "explanation": "本题考察 recevoir 复合过去时的 COD 前置配合陷阱。正确答案 ai reçues。关系代词 que 代指 les lettres (阴性复数)，且放在动词 ai reçu 之前，故过去分词必须加 es 配合。TCF高频陷阱：忘记 que 引导的从句中需要进行性数配合。判断口诀：que前找先行词，阴阳单复要看清。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "devoir / Ils _____ partir.",
+          "correct": [
+            "ont dû"
+          ],
+          "explanation": "本题考察 devoir 的复合过去时与第三人称复数 ils。正确答案为 ont dû。TCF高频陷阱点：devoir 的过去分词阳性单数形式必须有长音符 û (dû) 以区分部分冠词 du。判断口诀：devoir 变 dû，头上必须带个帽。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les sommes qu'ils ont _____ payer étaient énormes.",
+          "options": [
+            "dû",
+            "dûs",
+            "due",
+            "dues"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 devoir 复合过去时的配合特例陷阱。正确答案 dû。当 devoir 后面紧跟动词不定式(payer)时，即使有前置 COD (les sommes qu'...)，其过去分词也永远不配合！这是TCF极高频的丢分点。判断口诀：devoir+原形，分词永远是 dû 不配合。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "ne pas pouvoir - ne pas voir / Tu _____ entrer au cinéma ? Tu _____ le film ?",
+          "correct": [
+            "n'as pas pu",
+            "n'as pas vu"
+          ],
+          "explanation": "本题考察 pouvoir 和 voir 的否定复合过去时。正确答案依次为 n'as pas pu, n'as pas vu。否定词 ne...pas 必须包围助动词 avoir。TCF高频陷阱点：否定词位置错乱（如 as ne pas pu）以及助动词省音忽略（ne as -> n'as）。判断口诀：ne 助 pas 分词，遇到元音必省音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi est-ce que tu _____ le directeur ce matin ?",
+          "options": [
+            "n'as pas pu voir",
+            "n'a pas pu voir",
+            "as ne pas pu voir",
+            "n'as pu pas voir"
+          ],
+          "correct": 0,
+          "explanation": "本题考察双动词结构（情态动词复合过去时 + 不定式）的否定陷阱。正确答案 n'as pas pu voir。在复合过去时中，ne...pas 包围助动词 avoir，而实义动词 voir 保持原形放在最后。TCF高频陷阱：pas 的位置错位，放到原形动词前后。判断口诀：ne 助 pas 分词 + 原形。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "ne pas vouloir - falloir / Ils _____ rester : il _____ les raccompagner.",
+          "correct": [
+            "n'ont pas voulu",
+            "a fallu"
+          ],
+          "explanation": "本题考察 vouloir 的否定复合过去时和 falloir 的复合过去时。正确答案为 n'ont pas voulu 和 a fallu。falloir 是无人称动词，只有第三人称单数 il a fallu。TCF高频陷阱点：错把 falloir 当成普通动词变位，或混淆 falloir 和 vouloir 的分词。判断口诀：falloir 只用 il，过去分词是 fallu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour finir ce projet à temps, il _____ travailler toute la nuit.",
+          "options": [
+            "a fallu",
+            "a fallut",
+            "est fallu",
+            "ont fallu"
+          ],
+          "correct": 0,
+          "explanation": "本题考察 falloir 的拼写及助动词陷阱。正确答案 a fallu。错误解析：falloir 只能用第三人称单数 il，且助动词为 avoir，过去分词无 t。TCF高频陷阱：受现在时 il faut 影响给 fallu 加上 t，或者误用 être 作助动词。判断口诀：il a fallu，没 t 没 s 永远不变。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "- Je _____ (ne pas voir) Adrienne depuis une éternité ! J' _____ (essayer) de l'appeler plusieurs fois chez elle mais personne n' _____ (répondre).",
+          "correct": [
+            "n'ai pas vu",
+            "ai essayé",
+            "a répondu"
+          ],
+          "explanation": "本题考察日常对话中动词复合过去时的综合运用。第一空 voir 否定形式 n'ai pas vu；第二空 essayer 第一组动词变位 ai essayé；第三空 personne 作为主语，动词用第三人称单数 a répondu。TCF高频陷阱：personne 作主语时视作 il 单数，且 ne...personne 结构中动词后绝对不加 pas。判断口诀：personne 单数对，否定不加 pas。",
+          "category": "综合运用"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Sélectionnez les phrases correctes :",
+          "options": [
+            "Personne n'a venu.",
+            "Personne n'est venu.",
+            "Il n'a rien vu.",
+            "Il n'a vu rien."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "本题考察不定代词 personne 和 rien 在复合过去时中的位置与助动词陷阱。正确答案 Personne n'est venu (venir 助动词用 être) 和 Il n'a rien vu (rien 放在助动词和过去分词之间)。错误选项：venir 需要 être 作助动词；rien 不能像 personne 那样放在分词之后。TCF极高频陷阱：rien和personne在复合时态中的位置差异。判断口诀：rien 卡中间，personne 放最后或作主语。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle _____ partir avant la fin du spectacle.",
+          "options": [
+            "a du",
+            "a dû",
+            "a dù",
+            "a dûe"
+          ],
+          "correct": 1,
+          "explanation": "devoir 的过去分词阳性单数是 dû（带 accent circonflexe），用于和冠词 du 区分。主语 elle 不影响 avoir 做助动词时的过去分词配合，所以不写 dûe。",
+          "category": "拼写陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous n'avons pas _____ trouver la solution.",
+          "options": [
+            "pû",
+            "pu",
+            "pus",
+            "peu"
+          ],
+          "correct": 1,
+          "explanation": "pouvoir 的过去分词是 pu，没有重音符，没有复数变化（avoir 做助动词，无前置直接宾语）。peu 是副词\"少\"，干扰性极强。",
+          "category": "拼写陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ une lettre de l'université hier.",
+          "options": [
+            "ai recu",
+            "ai reçu",
+            "ai reçû",
+            "ai reçue"
+          ],
+          "correct": 1,
+          "explanation": "recevoir → reçu，必须保留 cédille（ç）。reçue 只在直接宾语前置且为阴性时才用，这里 une lettre 在动词后面，不配合。",
+          "category": "拼写陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ toute la nuit ; les rues sont inondées.",
+          "options": [
+            "a plu",
+            "a pu",
+            "a fallu",
+            "a voulu"
+          ],
+          "correct": 0,
+          "explanation": "pleuvoir（下雨）无人称动词，passé composé 只有 il a plu。语境\"整夜+街道被淹\"明确指向下雨。a pu（能够）是经典干扰项，因为 pu 和 plu 仅差一个字母。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu n'as pas _____ répondre à sa question ?",
+          "options": [
+            "su",
+            "vu",
+            "pu",
+            "dû"
+          ],
+          "correct": 0,
+          "explanation": "语境是\"你不知道怎么回答他的问题吗\"，savoir + 不定式 = 知道怎么做。pouvoir 表示\"能力/许可\"，savoir 表示\"掌握了如何做\"。TCF 最爱考这两个的区别。",
+          "category": "pouvoir vs savoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont été obligés de rester. = Ils _____ rester.",
+          "options": [
+            "ont vu",
+            "ont su",
+            "ont dû",
+            "ont voulu"
+          ],
+          "correct": 2,
+          "explanation": "être obligé de = devoir，同义替换。ont dû = 不得不，完美对应。这是 TCF 阅读理解的经典替换题型。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Personne ne _____ la vérité avant ce matin.",
+          "options": [
+            "a su",
+            "a vu",
+            "a pu",
+            "a reçu"
+          ],
+          "correct": 0,
+          "explanation": "savoir 在 passé composé 中表示\"得知\"（= apprendre/découvrir）。语境是\"今天早上之前没人知道真相\"。voir 是\"看到\"，语义不符。",
+          "category": "savoir passé composé 含义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais _____ partir plus tôt demain.",
+          "options": [
+            "dû",
+            "devoir",
+            "dois",
+            "devrai"
+          ],
+          "correct": 1,
+          "explanation": "futur proche = aller（现在时）+ 动词原形。所以是 je vais devoir，不是 *je vais dû（过去分词不能用在这里）。这是 TCF 混淆时态构成的经典陷阱。",
+          "category": "futur proche 陷阱"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Sa remarque nous a beaucoup _____ . (émouvoir)",
+          "correct": [
+            "émus",
+            "émues"
+          ],
+          "explanation": "émouvoir → p.p. ému。这里 nous 是前置直接宾语，avoir 做助动词时需要性数配合：如果 nous = 男性/混合 → émus；nous = 全女性 → émues。两个答案都可接受。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, il _____ annuler tous les vols à cause de la tempête.",
+          "options": [
+            "a fallu",
+            "a plu",
+            "a voulu",
+            "a dû"
+          ],
+          "correct": 0,
+          "explanation": "falloir 是无人称动词，il a fallu = 必须/不得不（客观必要性）。a dû 也表示\"不得不\"，但主语必须是人。这里主语是 il（无人称），只能用 falloir。",
+          "category": "falloir vs devoir"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些过去分词的拼写是正确的？",
+          "options": [
+            "reçu",
+            "dû（阴性复数 dûes）",
+            "conçu",
+            "prévu"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "reçu ✅、conçu ✅、prévu ✅ 都正确。dû 的阴性复数是 dues（不是 dûes），重音符只出现在阳性单数 dû 上。",
+          "category": "拼写辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu connais ce film ? — Oui, je l'_____ la semaine dernière.",
+          "options": [
+            "ai su",
+            "ai vu",
+            "ai pu",
+            "ai voulu"
+          ],
+          "correct": 1,
+          "explanation": "看电影用 voir → j'ai vu。le (l') 指代 ce film，是前置直接宾语，但 film 是阳性，vu 不需要加 e。savoir 不能搭配电影。",
+          "category": "voir 用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous n'avons pas _____ (recevoir) votre message.",
+          "correct": [
+            "reçu"
+          ],
+          "explanation": "recevoir → reçu，保留 ç。votre message 在动词后面（非前置），不做性数配合。",
+          "category": "变位填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle n'a pas _____ venir parce qu'elle était malade.",
+          "options": [
+            "su",
+            "dû",
+            "voulu",
+            "pu"
+          ],
+          "correct": 3,
+          "explanation": "因为生病\"没能来\"→ ne pas pouvoir = 没有能力/条件做到。ne pas vouloir = 不愿意（主观），ne pas savoir = 不知道怎么做，语义都不对。生病是客观阻碍 → pouvoir。",
+          "category": "语义辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, il _____ (pleuvoir) toute la journée. Nous _____ (ne pas pouvoir) sortir, alors nous _____ (devoir) rester à la maison. Heureusement, j'_____ (recevoir) un bon livre la veille.",
+          "correct": [
+            "a plu",
+            "n'avons pas pu",
+            "avons dû",
+            "avais reçu"
+          ],
+          "explanation": "第一空：pleuvoir 无人称 → il a plu。第二空：我们没能出门 → n'avons pas pu。第三空：我们不得不待在家 → avons dû。第四空：前一天收到（比 passé composé 更早的动作）→ 严格说应该用 plus-que-parfait: avais reçu；但如果题目限定 passé composé 则 ai reçu 也可接受。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1GgdeanGaUIQoyRt4Wxg_vZuyFFWiTT3XKymmMGK8Jlw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772237115855-lfreasqst2i",
+          "front": "pouvoir 的过去分词",
+          "back": "pu\n无重音符，无性数变化"
+        },
+        {
+          "id": "1772237115855-fnfthlzkmcg",
+          "front": "vouloir 的过去分词",
+          "back": "voulu"
+        },
+        {
+          "id": "1772237115855-erokziw4wn6",
+          "front": "devoir 的过去分词（阳性单数）",
+          "back": "dû\n⚠ 带 accent circonflexe，区别于冠词 du"
+        },
+        {
+          "id": "1772237115855-agewiz9xzni",
+          "front": "devoir 的过去分词（阴性/复数）",
+          "back": "due, dus, dues\n重音符消失！只有阳性单数 dû 戴帽子"
+        },
+        {
+          "id": "1772237115855-fxy6gy6cio",
+          "front": "savoir 的过去分词",
+          "back": "su"
+        },
+        {
+          "id": "1772237115855-q1bu6mw4vw9",
+          "front": "voir 的过去分词",
+          "back": "vu"
+        },
+        {
+          "id": "1772237115855-bz2nrttqb0e",
+          "front": "recevoir 的过去分词",
+          "back": "reçu\n⚠ 保留 cédille（ç），否则 cu 会读成 [ky]"
+        },
+        {
+          "id": "1772237115855-1q82uc2y9z7",
+          "front": "émouvoir 的过去分词",
+          "back": "ému"
+        },
+        {
+          "id": "1772237115855-h0x5ofn2pje",
+          "front": "pleuvoir 的过去分词",
+          "back": "plu\n无人称：il a plu（天下雨了）"
+        },
+        {
+          "id": "1772237115855-2haz7zl1e5a",
+          "front": "falloir 的过去分词",
+          "back": "fallu\n无人称：il a fallu（必须……了）"
+        },
+        {
+          "id": "1772237115855-vw4hkf7vgsq",
+          "front": "prévoir 的过去分词",
+          "back": "prévu"
+        },
+        {
+          "id": "1772237115855-58pvzvn7ja7",
+          "front": "apercevoir 的过去分词",
+          "back": "aperçu（保留 ç）"
+        },
+        {
+          "id": "1772237115855-bavoqf8v62n",
+          "front": "décevoir 的过去分词",
+          "back": "déçu（保留 ç）"
+        },
+        {
+          "id": "1772237115855-li8flxgo16",
+          "front": "concevoir 的过去分词",
+          "back": "conçu（保留 ç）"
+        },
+        {
+          "id": "1772237115855-vmcugmsimi",
+          "front": "revoir 的过去分词",
+          "back": "revu"
+        },
+        {
+          "id": "1772237115855-btqnwonjavd",
+          "front": "valoir 的过去分词",
+          "back": "valu"
+        },
+        {
+          "id": "1772237115855-834pazf7yih",
+          "front": "passé composé 的否定结构",
+          "back": "ne + avoir变位 + pas + 过去分词\n例：Je n'ai pas pu venir.\n⚠ ne...pas 夹住助动词，不是过去分词"
+        },
+        {
+          "id": "1772237115855-5kcqirmuhdv",
+          "front": "être obligé de = 哪个 -OIR 动词？",
+          "back": "devoir\n例：Il a été obligé de partir. = Il a dû partir."
+        },
+        {
+          "id": "1772237115855-91c6sjdtme",
+          "front": "être capable de = 哪个 -OIR 动词？",
+          "back": "pouvoir\n例：Ils ont été capables de répondre. = Ils ont pu répondre."
+        },
+        {
+          "id": "1772237115855-2bx2h0dwzfl",
+          "front": "savoir 在 passé composé 中的特殊含义",
+          "back": "表示「得知、发现」= apprendre / découvrir\n例：J'ai su la vérité. 我知道了真相。"
+        },
+        {
+          "id": "1772237115855-8y1f0tqd34t",
+          "front": "pouvoir 在 passé composé 中的特殊含义",
+          "back": "表示「成功做到了」= réussir à\n例：J'ai pu ouvrir la porte. 我（终于）打开了门。"
+        },
+        {
+          "id": "1772237115855-2thh2ei1kcu",
+          "front": "devoir 在 passé composé 中的含义",
+          "back": "表示「不得不做了某事」（已完成的义务）\n例：J'ai dû partir tôt. 我不得不早走。"
+        },
+        {
+          "id": "1772237115855-9i2npglr4be",
+          "front": "falloir vs devoir 在 passé composé 中的区别",
+          "back": "il a fallu：无人称，客观必要性\nil/elle a dû：有人称主语，某人不得不\n例：Il a fallu annuler. vs Elle a dû annuler."
+        },
+        {
+          "id": "1772237115855-z29s8nrglf",
+          "front": "pouvoir vs savoir + 不定式 的区别",
+          "back": "pouvoir：有能力/条件/许可做\nsavoir：掌握了如何做（技能）\n例：Je peux nager.（我被允许游泳）\nJe sais nager.（我会游泳）"
+        },
+        {
+          "id": "1772237115855-jo3wwkbsjm",
+          "front": "futur proche 中 -OIR 动词怎么用？",
+          "back": "aller（现在时）+ 动词原形\n例：Je vais devoir partir.\n⚠ 不能写 *je vais dû（过去分词不能放这里）"
+        },
+        {
+          "id": "1772237115855-erwia2rkwr7",
+          "front": "avoir 做助动词时，过去分词什么时候配合？",
+          "back": "当直接宾语在动词前面时配合\n例：La lettre que j'ai reçue.（reçue 配合 lettre，阴性）\n如果直接宾语在后面，不配合：J'ai reçu une lettre."
+        },
+        {
+          "id": "1772237115855-vw7m51u0w",
+          "front": "TCF 三秒排除法：看到「不得不」",
+          "back": "→ 找 devoir（dû）或 falloir（fallu）"
+        },
+        {
+          "id": "1772237115855-5557nxom5f5",
+          "front": "TCF 三秒排除法：看到「没能」",
+          "back": "→ 找 pouvoir 否定：n'a pas pu"
+        },
+        {
+          "id": "1772237115855-0ufp3bwwnskf",
+          "front": "TCF 三秒排除法：看到「得知/发现」",
+          "back": "→ 找 savoir：a su"
+        },
+        {
+          "id": "1772237115855-nvuo84yump",
+          "front": "TCF 三秒排除法：看到无人称 il + 天气",
+          "back": "→ pleuvoir：il a plu"
+        },
+        {
+          "id": "1772237115855-fu7miaiqr8k",
+          "front": "TCF 陷阱：pu vs peu",
+          "back": "pu = pouvoir 的过去分词（能够了）\npeu = 副词，意思是「少」\n发音相同，拼写题必考！"
+        }
+      ]
+    },
+    {
+      "id": 1772236653405,
+      "name": "Unit 3 Passé Composé -TRE / -VRE / -URE / -PRE / -CRE动词",
+      "folderId": "1771907837913",
+      "createdAt": "2026-02-27T23:57:33.405Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (suivre) les instructions.",
+          "correct": [
+            "ont suivi"
+          ],
+          "explanation": "本题考察动词 suivre 的复合过去时。suivre 搭配助动词 avoir，过去分词为 suivi。主语 ils 对应助动词 ont。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ne les _____ (suivre) jamais, ces instructions.",
+          "options": [
+            "ont pas suivi",
+            "n'ont pas suivies",
+            "ont pas suivies",
+            "n'ont pas suivis"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：否定结构 ne...pas 包围助动词 (n'ont pas) + 提前的直接宾语代词 les (指代 instructions，阴性复数)，过去分词 suivi 需配合加 es。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (conclure) le marché.",
+          "correct": [
+            "a conclu"
+          ],
+          "explanation": "本题考察 conclure 的复合过去时。助动词为 avoir (il a)，过去分词为 conclu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ notre discours par des remerciements.",
+          "options": [
+            "conclus",
+            "conclu",
+            "conclut",
+            "conclue"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：conclure 的过去分词是 conclu，不带 t（易与直陈式现在时的 il conclut 混淆）。此处无提前直接宾语，不配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (connaître) son mari en Suisse.",
+          "correct": [
+            "a connu"
+          ],
+          "explanation": "本题考察 connaître。助动词用 avoir，过去分词为 connu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette actrice, je l'_____ à Paris l'année dernière.",
+          "options": [
+            "ai connu",
+            "ai connue",
+            "a connue",
+            "suis connue"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：提前的直宾代词 l' 指代 actrice (阴性单数)，因此过去分词 connu 需变阴性 connue。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (vivre) 20 ans ensemble.",
+          "correct": [
+            "avons vécu"
+          ],
+          "explanation": "本题考察 vivre。助动词用 avoir，过去分词为 vécu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les belles années que nous avons ***, je ne les oublierai jamais.",
+          "options": [
+            "vécu",
+            "vécues",
+            "vécus",
+            "vécue"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：que 引导的关系从句中，直接宾语 les belles années (阴性复数) 提前，过去分词 vécu 需配合变 vécues。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (mettre) le couvert.",
+          "correct": [
+            "ai mis"
+          ],
+          "explanation": "本题考察 mettre。助动词用 avoir，过去分词为 mis。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où sont les clés ? Tu ne les _____ pas _____ sur la table ?",
+          "options": [
+            "as / mis",
+            "a / mis",
+            "as / mises",
+            "es / mises"
+          ],
+          "correct": 2,
+          "explanation": "TCF 高频陷阱：否定疑问句 + 直宾代词 les (指代 clés，阴性复数) 提前，过去分词 mis 需变阴性复数 mises。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (convaincre) les autres ?",
+          "correct": [
+            "avez convaincu"
+          ],
+          "explanation": "本题考察 convaincre。助动词用 avoir，过去分词为 convaincu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La directrice s'est _____ de la nécessité de ce projet.",
+          "options": [
+            "convaincue",
+            "convaincu",
+            "convaincues",
+            "convaincus"
+          ],
+          "correct": 0,
+          "explanation": "TCF 高频陷阱：代词式动词 se convaincre，se 为直接宾语且代表 la directrice (阴性单数)，助动词用 être，过去分词配合加 e。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mettez au passé composé: Dans cette école, on _____ (remettre) le dossier de l'élève aux professeurs. Ils _____ (émettre) un avis, puis _____ (transmettre) le dossier au directeur. Celui-ci l'*** (examiner) et _____ (soumettre) le candidat à un entretien.",
+          "correct": [
+            "a remis",
+            "ont émis",
+            "ont transmis",
+            "a examiné",
+            "a soumis"
+          ],
+          "explanation": "本题考察 -mettre 及其派生动词的复合过去时，全部使用 avoir 助动词，过去分词以 -is 结尾。examiner 为第一组动词，分词为 examiné。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ces dossiers, le directeur les _____ (examiner) attentivement, puis il les _____ (transmettre) au comité qui les _____ (soumettre) à un vote.",
+          "correct": [
+            "a examinés",
+            "a transmis",
+            "a soumis"
+          ],
+          "explanation": "TCF 高频陷阱：所有空都涉及提前的直宾 les (指代 ces dossiers，阳性复数)。examiné 配合加 s 变 examinés；而 transmis 和 soumis 原型已经以 s 结尾，阳性复数不再加 s。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "En 1998, les Français _____ (suivre) avec intérêt la Coupe du monde de football. Ils _____ (vivre) des moments inoubliables : leur équipe _____ (vaincre) le Brésil !",
+          "correct": [
+            "ont suivi",
+            "ont vécu",
+            "a vaincu"
+          ],
+          "explanation": "本题考察段落中多个第三人称的复合过去时。les Français 用 ont suivi；Ils 用 ont vécu；leur équipe (单数集合名词) 用 a vaincu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les difficultés que nous avons _____ pendant ce projet nous ont rendus plus forts.",
+          "options": [
+            "vaincus",
+            "vaincues",
+            "vaincu",
+            "vaincue"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：que 引导关系从句，直接宾语 les difficultés (阴性复数) 提前，过去分词 vaincu 需配合变 vaincues。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "L'article _____ (paraître) dans la presse lundi dernier : l'entreprise _____ (ne pas accroître) sa production. Le P-DG _____ (commettre) des erreurs de gestion, mais _____ (ne pas reconnaître) qu'il avait tort. Il _____ (compromettre) gravement sa carrière.",
+          "correct": [
+            "a paru",
+            "n'a pas accru",
+            "a commis",
+            "n'a pas reconnu",
+            "a compromis"
+          ],
+          "explanation": "本题考察不规则动词变位。依据语法书，paraître 强调动作发生(lundi dernier)时助动词用 avoir (a paru)；accroître 分词为 accru (不带脱帽符)；commettre / compromettre 分词为 commis / compromis；reconnaître 分词为 reconnu。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les phrases suivantes, lesquelles sont grammaticalement correctes ?",
+          "options": [
+            "La revue est parue lundi dernier.",
+            "La revue a parue lundi dernier.",
+            "Ils ont accru leur capital.",
+            "Ils sont accrus leur capital."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "TCF 高频陷阱：paraître 表出版时，助动词既可用 avoir 也可用 être。用 être 时需与主语配合(est parue)，用 avoir 时不配合(a paru，而非 a parue)；accroître 作为及物动词，助动词必须用 avoir，过去分词为 accru，不与主语配合。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ le dossier au directeur hier matin.",
+          "options": [
+            "transmis",
+            "transmettu",
+            "transmettis",
+            "transmis"
+          ],
+          "correct": 0,
+          "explanation": "transmettre 属于 mettre 家族，过去分词为 transmis。",
+          "category": "passé composé - mettre 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ de respecter les règles de l'entreprise.",
+          "options": [
+            "promettis",
+            "promis",
+            "promettu",
+            "promit"
+          ],
+          "correct": 1,
+          "explanation": "promettre → promis。promit 是简单过去时（passé simple），不是过去分词。",
+          "category": "passé composé - mettre 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les étudiants ont _____ un cours de littérature ce semestre.",
+          "options": [
+            "suivu",
+            "suivi",
+            "suis",
+            "suivis"
+          ],
+          "correct": 1,
+          "explanation": "suivre → suivi。suivis 是简单过去时形式，不要混淆。",
+          "category": "passé composé - suivre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as _____ à Paris pendant cinq ans, n'est-ce pas ?",
+          "options": [
+            "vivé",
+            "vivu",
+            "vécu",
+            "vivré"
+          ],
+          "correct": 2,
+          "explanation": "vivre → vécu，不规则过去分词，必须死记。",
+          "category": "passé composé - vivre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le jury a _____ que l'accusé était innocent.",
+          "options": [
+            "conclu",
+            "conclué",
+            "conclus",
+            "conclut"
+          ],
+          "correct": 0,
+          "explanation": "conclure → conclu（无 -s）。conclus 是现在时 je/tu 的形式。",
+          "category": "passé composé - conclure"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans ce prix, nous avons _____ les frais de transport.",
+          "options": [
+            "exclu",
+            "inclu",
+            "inclus",
+            "inclut"
+          ],
+          "correct": 2,
+          "explanation": "inclure → inclus（有 -s！）。这是 conclure 家族的例外，TCF 经典陷阱。exclure → exclu（无 s），但 inclure → inclus（有 s）。",
+          "category": "passé composé - inclure vs exclure"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Son discours a _____ tout le public.",
+          "options": [
+            "convainquis",
+            "convaincé",
+            "convaincu",
+            "convaincru"
+          ],
+          "correct": 2,
+          "explanation": "convaincre → convaincu。没有 convainquis 这个形式。",
+          "category": "passé composé - vaincre 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le professeur ne vous a pas _____ de sortir.",
+          "options": [
+            "permis",
+            "permité",
+            "permetis",
+            "permetu"
+          ],
+          "correct": 0,
+          "explanation": "permettre → permis，mettre 家族统一规律。",
+          "category": "passé composé - mettre 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce livre _____ en 2020 et il est toujours en librairie.",
+          "options": [
+            "a paru",
+            "est paru",
+            "a parû",
+            "est paré"
+          ],
+          "correct": 1,
+          "explanation": "paraître 在强调「结果状态」（书已出版且现在仍在售）时用 être 做助动词。est paru 强调状态，a paru 强调动作。此句有 il est toujours en librairie 表明强调状态。",
+          "category": "passé composé - paraître 助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne l'ai pas _____ tout de suite, il avait beaucoup changé.",
+          "options": [
+            "reconnaitu",
+            "reconnu",
+            "reconnaissé",
+            "reconnû"
+          ],
+          "correct": 1,
+          "explanation": "reconnaître → reconnu（connaître 家族，过去分词 -u）。",
+          "category": "passé composé - connaître 族"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils ont _____ (interrompre) la réunion à cause de l'alarme incendie.",
+          "correct": [
+            "interrompu"
+          ],
+          "explanation": "interrompre → interrompu（rompre 家族，过去分词 -ompu）。",
+          "category": "passé composé - rompre 族"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le scandale a _____ (compromettre) sa carrière politique.",
+          "correct": [
+            "compromis"
+          ],
+          "explanation": "compromettre → compromis（mettre 家族，-mis）。",
+          "category": "passé composé - mettre 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ la natation à l'âge de 5 ans.",
+          "options": [
+            "a su",
+            "a connu",
+            "a su nager",
+            "a connu nager"
+          ],
+          "correct": 0,
+          "explanation": "savoir + inf. 表示「学会某技能」。connaître 后面不能直接接动词不定式。在 passé composé 中 savoir 可表示「学会了」。注意 connaître + 名词，savoir + inf./从句。",
+          "category": "connaître vs savoir 辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, on _____ (remettre) les diplômes aux étudiants. Le directeur _____ (émettre) un discours, puis il _____ (admettre) trois nouveaux candidats.",
+          "correct": [
+            "a remis",
+            "a émis",
+            "a admis"
+          ],
+          "explanation": "三个动词全部属于 mettre 家族：remettre → remis，émettre → émis，admettre → admis。",
+          "category": "passé composé - mettre 族综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些过去分词拼写是正确的？",
+          "options": [
+            "inclus",
+            "exclu",
+            "conclu",
+            "conclut"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "inclure → inclus（有 s），exclure → exclu（无 s），conclure → conclu（无 s）。conclut 是现在时第三人称形式，不是过去分词。",
+          "category": "过去分词拼写辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les résultats n'ont pas _____ le directeur, il veut recommencer l'étude.",
+          "options": [
+            "satisfait",
+            "satisfis",
+            "satisfé",
+            "satisfu"
+          ],
+          "correct": 0,
+          "explanation": "satisfaire → satisfait（faire 家族，过去分词以 -ait 结尾）。satisfis 是简单过去时，不是过去分词。",
+          "category": "passé composé - faire 族"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand il a vu la pluie, il _____ à courir.",
+          "options": [
+            "s'est mis",
+            "s'a mis",
+            "s'est metté",
+            "s'est mit"
+          ],
+          "correct": 0,
+          "explanation": "se mettre à + inf. 表示「开始做某事」。代词式动词用 être 做助动词：il s'est mis。mis 是过去分词，mit 是简单过去时。",
+          "category": "se mettre à 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon grand-père a _____ à la Seconde Guerre mondiale.",
+          "options": [
+            "survécu",
+            "survéçu",
+            "survivé",
+            "survicu"
+          ],
+          "correct": 0,
+          "explanation": "survivre → survécu（vivre 家族，过去分词 vécu/survécu）。注意 survivre à qqch 固定搭配，介词用 à。",
+          "category": "passé composé - vivre 族"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'entreprise n'a pas _____ (accroître) ses bénéfices cette année.",
+          "correct": [
+            "accru"
+          ],
+          "explanation": "accroître → accru。croître 家族的过去分词以 -u 结尾（crû 有 accent 以区别 cru）。accroître 的过去分词 accru 没有 accent。",
+          "category": "passé composé - croître 族"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "En 2010, notre équipe _____ (vaincre) tous ses adversaires. Les médias _____ (suivre) l'événement en direct. Les journalistes _____ (conclure) que c'était une victoire historique. Malheureusement, un scandale _____ (corrompre) la réputation du capitaine et le public ne l'_____ (reconnaître) plus comme un héros.",
+          "correct": [
+            "a vaincu",
+            "ont suivi",
+            "ont conclu",
+            "a corrompu",
+            "a reconnu"
+          ],
+          "explanation": "vaincre → vaincu，suivre → suivi，conclure → conclu，corrompre → corrompu，reconnaître → reconnu。五个动词分属不同家族，这是 TCF 综合考法。注意最后一空是否定句 ne l'a reconnu plus（实际语序：ne l'a plus reconnu）。",
+          "category": "passé composé 综合段落填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/10YpazWv0TNUZ0g_o7RkKSFQybOwgkNWuw66Plnnh5LU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772236802950-in6ihtff4o",
+          "front": "mettre 的过去分词",
+          "back": "mis\n助动词 avoir：j'ai mis"
+        },
+        {
+          "id": "1772236802950-ce9do5csfft",
+          "front": "promettre 的过去分词",
+          "back": "promis\nEx: Il a promis de venir."
+        },
+        {
+          "id": "1772236802950-zgfr7mkxh3",
+          "front": "permettre 的过去分词",
+          "back": "permis\nEx: On ne m'a pas permis d'entrer."
+        },
+        {
+          "id": "1772236802950-da9tjpk46if",
+          "front": "admettre 的过去分词",
+          "back": "admis\nEx: Il a été admis à l'université."
+        },
+        {
+          "id": "1772236802950-yfxldxthlv",
+          "front": "transmettre 的过去分词",
+          "back": "transmis\nEx: Ils ont transmis le dossier."
+        },
+        {
+          "id": "1772236802950-b4a7yoyqvip",
+          "front": "soumettre 的过去分词",
+          "back": "soumis\nEx: Elle a soumis sa candidature."
+        },
+        {
+          "id": "1772236802950-20lu5ypdbp2",
+          "front": "émettre 的过去分词",
+          "back": "émis\nEx: La banque a émis de nouveaux billets."
+        },
+        {
+          "id": "1772236802950-84kwjtwfhx4",
+          "front": "commettre 的过去分词",
+          "back": "commis\nEx: Il a commis une erreur grave."
+        },
+        {
+          "id": "1772236802950-l5ubosgm4p",
+          "front": "compromettre 的过去分词",
+          "back": "compromis\nEx: Ce scandale a compromis sa carrière."
+        },
+        {
+          "id": "1772236802950-7flsqgtlvi4",
+          "front": "remettre 的过去分词",
+          "back": "remis\nEx: On a remis les diplômes aux étudiants."
+        },
+        {
+          "id": "1772236802950-pcfwb8mlarn",
+          "front": "mettre 家族过去分词的统一规律是什么？",
+          "back": "全部以 -mis 结尾\nmettre→mis, promettre→promis, permettre→permis, admettre→admis, transmettre→transmis, soumettre→soumis, émettre→émis, commettre→commis, compromettre→compromis, remettre→remis"
+        },
+        {
+          "id": "1772236802950-zqgwdbuo9se",
+          "front": "suivre 的过去分词",
+          "back": "suivi\nEx: J'ai suivi un cours de français."
+        },
+        {
+          "id": "1772236802950-lb1jcmmh94o",
+          "front": "poursuivre 的过去分词",
+          "back": "poursuivi\nEx: La police a poursuivi le voleur."
+        },
+        {
+          "id": "1772236802950-bkxoez41pvf",
+          "front": "connaître 的过去分词",
+          "back": "connu\nEx: J'ai connu Marie à Paris."
+        },
+        {
+          "id": "1772236802950-hyesjmfd84f",
+          "front": "reconnaître 的过去分词",
+          "back": "reconnu\nEx: Je ne l'ai pas reconnu."
+        },
+        {
+          "id": "1772236802950-ymh2ulm3cqm",
+          "front": "paraître 的过去分词",
+          "back": "paru\nEx: Ce livre a paru en 2020."
+        },
+        {
+          "id": "1772236802950-qqeuj5kecxi",
+          "front": "apparaître 的过去分词",
+          "back": "apparu\nEx: Un problème est apparu."
+        },
+        {
+          "id": "1772236802950-c04cq9t2akq",
+          "front": "disparaître 的过去分词",
+          "back": "disparu\nEx: Mon chat a disparu hier."
+        },
+        {
+          "id": "1772236802950-x5hr9yk8fqo",
+          "front": "vivre 的过去分词",
+          "back": "vécu\nEx: Elle a vécu en France pendant 10 ans."
+        },
+        {
+          "id": "1772236802950-4vrdecaz3ei",
+          "front": "survivre 的过去分词",
+          "back": "survécu\nEx: Il a survécu à l'accident.\n注意固定搭配：survivre à qqch"
+        },
+        {
+          "id": "1772236802950-c1680agkx7",
+          "front": "conclure 的过去分词",
+          "back": "conclu（⚠️ 无 -s）\nEx: Ils ont conclu un accord."
+        },
+        {
+          "id": "1772236802950-9tjmisu4yh4",
+          "front": "exclure 的过去分词",
+          "back": "exclu（⚠️ 无 -s）\nEx: On l'a exclu du groupe."
+        },
+        {
+          "id": "1772236802950-0xofy6jd2g1e",
+          "front": "⚠️ inclure 的过去分词",
+          "back": "inclus（⚠️ 有 -s！与 conclu/exclu 不同）\nEx: Nous avons inclus les frais de transport."
+        },
+        {
+          "id": "1772236802950-t5pj7doaxf",
+          "front": "TCF 陷阱：inclus vs exclu 拼写区别",
+          "back": "inclure → inclus（有 s）\nexclure → exclu（无 s）\nconclure → conclu（无 s）\n只有 inclus 有 s，这是经典考点"
+        },
+        {
+          "id": "1772236802950-a2vg4fntxq9",
+          "front": "vaincre 的过去分词",
+          "back": "vaincu\nEx: Notre équipe a vaincu le Brésil."
+        },
+        {
+          "id": "1772236802950-zff43ninm6f",
+          "front": "convaincre 的过去分词",
+          "back": "convaincu\nEx: Son discours a convaincu tout le monde."
+        },
+        {
+          "id": "1772236802950-cep4fg3l4ma",
+          "front": "interrompre 的过去分词",
+          "back": "interrompu\nEx: Tu as interrompu la réunion."
+        },
+        {
+          "id": "1772236802950-g7nwcowlpml",
+          "front": "corrompre 的过去分词",
+          "back": "corrompu\nEx: L'argent a corrompu cet homme."
+        },
+        {
+          "id": "1772236802950-kisw1c1yimj",
+          "front": "satisfaire 的过去分词",
+          "back": "satisfait（faire 家族 → -ait）\nEx: Les résultats ont satisfait le client."
+        },
+        {
+          "id": "1772236802950-9cwg8il6elj",
+          "front": "accroître 的过去分词",
+          "back": "accru\nEx: L'entreprise a accru sa production."
+        },
+        {
+          "id": "1772236802950-xtemkfffje",
+          "front": "battre 的过去分词",
+          "back": "battu\nEx: Il a battu le record du monde."
+        },
+        {
+          "id": "1772236802950-s6g8fjmh6kf",
+          "front": "paraître 用 avoir 还是 être？",
+          "back": "强调动作 → avoir：Ce livre a paru en 1998.\n强调结果状态 → être：Ce livre est paru et il est disponible."
+        },
+        {
+          "id": "1772236802950-1htnifj3beu",
+          "front": "connaître vs savoir 的核心区别",
+          "back": "connaître + 名词（人/地点/事物）：Je connais Paris.\nsavoir + inf. / que 从句：Je sais nager. / Je sais qu'il est parti.\n⛔ 永远不说 Je connais nager"
+        },
+        {
+          "id": "1772236802950-ddd11jxbhx4",
+          "front": "se mettre à + inf. 是什么意思？",
+          "back": "开始做某事\nEx: Il s'est mis à pleuvoir.（开始下雨了。）\n代词式动词，passé composé 用 être"
+        },
+        {
+          "id": "1772236802950-5f2gbhu42x5",
+          "front": "mettre du temps à + inf. 是什么意思？",
+          "back": "花时间做某事\nEx: J'ai mis deux heures à finir ce travail."
+        },
+        {
+          "id": "1772236802950-nkcs50v99e",
+          "front": "suivre un cours",
+          "back": "上课/选课\nEx: Elle a suivi des cours de cuisine."
+        },
+        {
+          "id": "1772236802950-4eqpkbzsxkd",
+          "front": "suivre un régime",
+          "back": "节食\nEx: Il suit un régime depuis un mois."
+        },
+        {
+          "id": "1772236802950-44xb0al9plv",
+          "front": "conclure un accord",
+          "back": "达成协议\nEx: Ils ont conclu un accord commercial."
+        },
+        {
+          "id": "1772236802950-t0mmsubvs6",
+          "front": "vivre de + 名词",
+          "back": "靠……为生\nEx: Elle vit de la musique.（她靠音乐为生。）"
+        }
+      ]
+    },
+    {
       "id": 1772235792525,
       "name": "Unit 3 Passé Composé -AIRE / -OIRE",
       "folderId": "1771907837913",
@@ -295,6 +2110,211 @@
           "correct": 2,
           "explanation": "本题考察 extraire 分词配合。正确答案是 extraite。que 指代 la dent (阴单)，分词需加 e。TCF 高频陷阱点：罕见动词的性数配合。判断口诀：找准先行词 la dent，阴性单数加 e。",
           "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ce film m'_____ beaucoup.",
+          "options": [
+            "a plu",
+            "a bu",
+            "a cru",
+            "a fait"
+          ],
+          "correct": 0,
+          "explanation": "plaire à qqn = 使某人喜欢。Ce film m'a plu = 这部电影让我很喜欢。",
+          "category": "plaire 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ toute la journée, on est restés à la maison.",
+          "options": [
+            "a plu (plaire)",
+            "a plu (pleuvoir)",
+            "a bu",
+            "a cru"
+          ],
+          "correct": 1,
+          "explanation": "语境是天气（toute la journée + rester à la maison），所以 plu = pleuvoir（下雨），不是 plaire。",
+          "category": "plu 歧义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ du champagne pour fêter la nouvelle.",
+          "options": [
+            "avons bu",
+            "avons plu",
+            "avons cru",
+            "avons fait"
+          ],
+          "correct": 0,
+          "explanation": "boire du champagne = 喝香槟。部分冠词 du + 阳性名词。",
+          "category": "boire 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ de café ce matin.",
+          "options": [
+            "bu",
+            "boire",
+            "bus",
+            "bû"
+          ],
+          "correct": 0,
+          "explanation": "否定句中部分冠词变 de，过去分词 bu 不变（没有性数配合，因为直接宾语在后面）。",
+          "category": "boire 否定句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ à ses promesses pendant longtemps.",
+          "options": [
+            "a cru",
+            "a crû",
+            "a crue",
+            "a crus"
+          ],
+          "correct": 0,
+          "explanation": "croire à = 相信。croire 的过去分词是 cru（无 accent）。crû 是 croître（增长）的过去分词。",
+          "category": "cru vs crû"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ les courses avec leur mère.",
+          "options": [
+            "ont fait",
+            "ont bu",
+            "ont plu",
+            "ont cru"
+          ],
+          "correct": 0,
+          "explanation": "faire les courses = 购物。faire 的复合过去时：avoir + fait。",
+          "category": "faire 搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le directeur _____ tous les clients avec son discours.",
+          "options": [
+            "a satisfait",
+            "a satisfu",
+            "a satisfaire",
+            "a satisfais"
+          ],
+          "correct": 0,
+          "explanation": "satisfaire 是 faire 的派生动词，过去分词 satisfait，和 fait 同模式。",
+          "category": "派生动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ que c'était une bonne idée ?",
+          "options": [
+            "as cru",
+            "as croit",
+            "as croire",
+            "as bu"
+          ],
+          "correct": 0,
+          "explanation": "croire que + 从句 = 认为。复合过去时：tu as cru。",
+          "category": "croire que 结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词的过去分词以 -u 结尾？",
+          "options": [
+            "plaire",
+            "faire",
+            "boire",
+            "croire"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "plaire → plu, boire → bu, croire → cru，都是 -u 结尾。faire → fait，是 -ait 结尾。",
+          "category": "过去分词分组"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 croire 的用法是正确的？",
+          "options": [
+            "J'ai cru à son histoire.",
+            "J'ai cru en toi.",
+            "J'ai cru de partir.",
+            "J'ai cru qu'il avait raison."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "croire à = 相信某事；croire en = 信任/信仰某人；croire que + 从句 = 认为。不存在 croire de + inf. 的结构。",
+          "category": "croire 三种结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 faire 的派生动词，且过去分词以 -ait 结尾？",
+          "options": [
+            "satisfaire",
+            "distraire",
+            "déplaire",
+            "défaire"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "satisfaire → satisfait, distraire → distrait, défaire → défait，都以 -ait 结尾。déplaire 是 plaire 的派生词，过去分词是 déplu（-u 结尾）。",
+          "category": "派生动词分组"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les températures _____ (croître) de manière inquiétante cette année.",
+          "correct": [
+            "ont crû"
+          ],
+          "explanation": "croître 的过去分词是 crû（有 accent circonflexe），区别于 croire 的 cru（无 accent）。",
+          "category": "cru vs crû"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Cette robe lui _____ (déplaire) dès le premier regard.",
+          "correct": [
+            "a déplu"
+          ],
+          "explanation": "déplaire à qqn = 使某人不高兴。déplaire 和 plaire 同模式，过去分词 déplu。lui 是间接宾语，过去分词不配合。",
+          "category": "déplaire 用法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le chirurgien _____ (extraire) la balle de son épaule.",
+          "correct": [
+            "a extrait"
+          ],
+          "explanation": "extraire 是 faire 家族的派生动词，过去分词 extrait。",
+          "category": "派生动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier soir, Marie _____ (faire) un gâteau. Ses amis _____ (boire) du vin et tout le monde _____ (croire) que la fête allait durer toute la nuit. Malheureusement, la musique _____ (déplaire) aux voisins.",
+          "correct": [
+            "a fait",
+            "ont bu",
+            "a cru",
+            "a déplu"
+          ],
+          "explanation": "faire → a fait；boire → ont bu（主语 ses amis 复数，avoir 用 ont）；croire que → a cru（主语 tout le monde 单数）；déplaire à → a déplu（aux voisins 是间接宾语）。",
+          "category": "综合段落填空"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "On _____ (soustraire) les frais de livraison. Le résultat nous _____ (plaire). Ensuite, le comptable _____ (satisfaire) toutes nos demandes.",
+          "correct": [
+            "a soustrait",
+            "a plu",
+            "a satisfait"
+          ],
+          "explanation": "soustraire → a soustrait（-ait 组）；plaire à → a plu（nous 是间接宾语，-u 组）；satisfaire → a satisfait（faire 家族，-ait 组）。三道题同时考 -u 和 -ait 两组分类。",
+          "category": "综合段落填空"
         }
       ],
       "practiceCount": 0,
@@ -304,7 +2324,108 @@
         "https://docs.google.com/document/d/1MUo7VXQZVCPi--J5Wzk4f8_FgA7c4sQgKk1_vkCsmZ4/edit?tab=t.0"
       ],
       "reviewImages": [],
-      "cards": []
+      "cards": [
+        {
+          "id": "1772236477295-75tqlrxyy3q",
+          "front": "plaire 的过去分词",
+          "back": "plu\n助动词：avoir\n例：Ce film m'a plu."
+        },
+        {
+          "id": "1772236477295-de4cheemzft",
+          "front": "boire 的过去分词",
+          "back": "bu\n助动词：avoir\n例：J'ai bu du café."
+        },
+        {
+          "id": "1772236477295-p21muc6s4lf",
+          "front": "croire 的过去分词",
+          "back": "cru（无 accent）\n助动词：avoir\n例：J'ai cru à son histoire."
+        },
+        {
+          "id": "1772236477295-3y8fgsa56tu",
+          "front": "faire 的过去分词",
+          "back": "fait\n助动词：avoir\n例：Elle a fait les courses."
+        },
+        {
+          "id": "1772236477295-eeuw8d1za4w",
+          "front": "soustraire 的过去分词",
+          "back": "soustrait\n助动词：avoir\n例：J'ai soustrait 10 % du total."
+        },
+        {
+          "id": "1772236477295-rs41liy52mi",
+          "front": "plu 是哪个动词的过去分词？（有歧义）",
+          "back": "1. plaire（使高兴）：Ce film m'a plu.\n2. pleuvoir（下雨）：Il a plu toute la journée.\n靠语境区分！"
+        },
+        {
+          "id": "1772236477295-a3huik2wqc4",
+          "front": "cru vs crû 怎么区分？",
+          "back": "cru（无accent）= croire 相信\ncrû（有accent）= croître 增长\n例：Le chômage s'est accru."
+        },
+        {
+          "id": "1772236477295-daqq630dtsn",
+          "front": "croire 的三种核心结构",
+          "back": "1. croire qqn = 相信某人\n2. croire à = 相信某事物存在\n3. croire que + 从句 = 认为"
+        },
+        {
+          "id": "1772236477295-r6by0uskk4",
+          "front": "croire à vs croire en 区别",
+          "back": "croire à：相信某事物的存在\n→ Il croit aux fantômes.\ncroire en：信任/信仰\n→ Je crois en toi."
+        },
+        {
+          "id": "1772236477295-akr3kaldl7",
+          "front": "plaire 的句型结构",
+          "back": "qqch plaire à qqn\n= 某物让某人喜欢\n例：Cette robe m'a plu.\n⚠️ 不说「某人 plaire 某物」"
+        },
+        {
+          "id": "1772236477295-k0qeb33n6j",
+          "front": "boire 否定句中冠词变化",
+          "back": "肯定：J'ai bu du café.\n否定：Je n'ai pas bu de café.\n部分冠词 du/de la → de"
+        },
+        {
+          "id": "1772236477295-s2yn1r4ln4r",
+          "front": "faire 家族派生动词过去分词（4个）",
+          "back": "satisfaire → satisfait\ndéfaire → défait\ndistraire → distrait\nextraire → extrait\n全部以 -ait 结尾"
+        },
+        {
+          "id": "1772236477295-btja3ij10w5",
+          "front": "faire les courses",
+          "back": "购物\n例：Elle a fait les courses au supermarché."
+        },
+        {
+          "id": "1772236477295-r3konyj049",
+          "front": "faire sensation",
+          "back": "引起轰动\n例：Il a fait sensation à la fête."
+        },
+        {
+          "id": "1772236477295-pk1lwbvv4bo",
+          "front": "faire + infinitif（使役结构）",
+          "back": "让某人做某事\n例：J'ai fait réparer ma voiture.\n= 我让人修了我的车"
+        },
+        {
+          "id": "1772236477295-mof9dhfb82",
+          "front": "-aire/-oire 动词过去分词分两组，怎么分？",
+          "back": "-u 组：plaire(plu), boire(bu), croire(cru)\n-ait 组：faire(fait), soustraire(soustrait)\n口诀：「喝了信了也高兴了」→ 全 -u"
+        },
+        {
+          "id": "1772236477295-6e051yf696",
+          "front": "se soustraire à 什么意思？",
+          "back": "逃避\n例：Il s'est soustrait à ses obligations.\n= 他逃避了他的义务"
+        },
+        {
+          "id": "1772236477295-gc1qqhmlssp",
+          "front": "déplaire 的过去分词",
+          "back": "déplu\n和 plaire 同模式\n例：Cette idée m'a déplu."
+        },
+        {
+          "id": "1772236477295-lsw5kdbtkx",
+          "front": "复合过去时三秒排除法（-aire/-oire动词）",
+          "back": "第1秒：助动词 = avoir（这组全用avoir）\n第2秒：过去分词是 -u 还是 -ait？\n第3秒：检查 avoir 变位是否匹配主语人称"
+        },
+        {
+          "id": "1772236477295-7056y9dnkih",
+          "front": "boire 现在时 nous/vous 形式",
+          "back": "nous buvons / vous buvez\n⚠️ 词干 buv- 和过去分词 bu 差别大，别混淆"
+        }
+      ]
     },
     {
       "id": 1772234727319,
@@ -48371,12 +50492,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-27",
-    "todayCount": 4,
+    "date": "2026-02-28",
+    "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-27T23:43:28.440Z",
+  "exportedAt": "2026-02-28T00:11:25.166Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
