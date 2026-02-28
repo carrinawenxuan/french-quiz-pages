@@ -1,6 +1,228 @@
 {
   "savedSets": [
     {
+      "id": 1772257424104,
+      "name": "Avoir la main verte",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-28T05:43:44.104Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ma grand-mère _____ la main verte, son jardin est superbe.",
+          "options": [
+            "est",
+            "a",
+            "fait",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配 avoir la main verte，核心动词是 avoir，不是 être。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « avoir la main verte » ?",
+          "options": [
+            "Être très généreux",
+            "Être bon en cuisine",
+            "Être doué pour le jardinage",
+            "Avoir les mains sales"
+          ],
+          "correct": 2,
+          "explanation": "avoir la main verte = 擅长园艺/养花。avoir le cœur sur la main 才是慷慨。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Nous _____ la main verte dans la famille.",
+          "options": [
+            "sommes",
+            "avons",
+            "faisons",
+            "allons"
+          ],
+          "correct": 1,
+          "explanation": "nous avons la main verte。avoir 的 nous 变位是 avons。",
+          "category": "习语-变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Elle a une main verte.",
+            "Elle est la main verte.",
+            "Elle a la main verte.",
+            "Elle fait la main verte."
+          ],
+          "correct": 2,
+          "explanation": "固定搭配中冠词必须用定冠词 la，动词必须用 avoir。",
+          "category": "习语-搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez la négation : Je _____ pas la main verte, mes plantes meurent toujours.",
+          "options": [
+            "n'ai",
+            "ne suis",
+            "n'est",
+            "ne fais"
+          ],
+          "correct": 0,
+          "explanation": "否定形式：ne + ai + pas → n'ai pas la main verte。",
+          "category": "习语-否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon voisin a la main verte. Cela veut dire que :",
+          "options": [
+            "Il peint ses murs en vert",
+            "Il est écologiste",
+            "Il réussit à faire pousser des plantes",
+            "Il a une maladie de peau"
+          ],
+          "correct": 2,
+          "explanation": "avoir la main verte = 种植物很成功，不要被字面意思误导。",
+          "category": "习语-理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Contrairement à moi, ma sœur _____ la main verte.",
+          "correct": [
+            "a"
+          ],
+          "explanation": "主语 ma sœur（第三人称单数），avoir → a。",
+          "category": "习语-变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Au passé composé : Elle _____ toujours _____ la main verte.",
+          "options": [
+            "a … eu",
+            "est … eue",
+            "a … avoir",
+            "est … eu"
+          ],
+          "correct": 0,
+          "explanation": "avoir 的复合过去时：助动词 avoir + eu。Elle a toujours eu la main verte.",
+          "category": "习语-时态"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi ces expressions, lesquelles utilisent le mot « main » ?",
+          "options": [
+            "Avoir la main verte",
+            "Avoir le cœur sur la main",
+            "Mettre la main à la pâte",
+            "Avoir le cafard"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "前三个都含 main。avoir le cafard = 心情低落，与 main 无关。",
+          "category": "习语-辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Avoir le cœur sur la main » signifie :",
+          "options": [
+            "Être doué pour le jardinage",
+            "Être très généreux",
+            "Avoir mal au cœur",
+            "Être courageux"
+          ],
+          "correct": 1,
+          "explanation": "avoir le cœur sur la main = 慷慨大方，注意和 avoir la main verte 区分。",
+          "category": "习语-对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1-_8LrdpUUglxuJHDQfIkdjCCyjQMl10_5Ktzq2rafRE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772257466324-o60cnr7feq",
+          "front": "avoir la main verte（字面意思）",
+          "back": "有一只绿色的手"
+        },
+        {
+          "id": "1772257466324-1rxsp8ttgos",
+          "front": "avoir la main verte（实际含义）",
+          "back": "擅长园艺/养花，种什么活什么"
+        },
+        {
+          "id": "1772257466324-uf9yi3sqnn",
+          "front": "avoir la main verte 用的动词是？",
+          "back": "avoir（不是 être，不是 faire）"
+        },
+        {
+          "id": "1772257466324-pu2e4bqaxup",
+          "front": "avoir la main verte 中 la 能换成 une 吗？",
+          "back": "不能。固定搭配，冠词必须用定冠词 la"
+        },
+        {
+          "id": "1772257466324-nx3dmkyvhc",
+          "front": "verte 为什么不写成 vert？",
+          "back": "因为 main 是阴性名词，形容词要配阴性形式 verte"
+        },
+        {
+          "id": "1772257466324-uh5720u4h8h",
+          "front": "J'_____ la main verte.",
+          "back": "ai（avoir 第一人称单数）"
+        },
+        {
+          "id": "1772257466324-so2w5apfhrl",
+          "front": "Elle _____ la main verte.",
+          "back": "a（avoir 第三人称单数）"
+        },
+        {
+          "id": "1772257466324-yv6sy4rjgf",
+          "front": "Nous _____ la main verte.",
+          "back": "avons（avoir 第一人称复数）"
+        },
+        {
+          "id": "1772257466324-qjp7vwyrmv",
+          "front": "avoir la main verte 否定形式",
+          "back": "ne pas avoir la main verte\n例：Je n'ai pas la main verte."
+        },
+        {
+          "id": "1772257466324-9cav2zohkk",
+          "front": "avoir la main verte 复合过去时（elle）",
+          "back": "Elle a eu la main verte.\n助动词 avoir + 过去分词 eu"
+        },
+        {
+          "id": "1772257466324-fcqibv6fkwb",
+          "front": "avoir le cœur sur la main 是什么意思？",
+          "back": "慷慨大方（注意区分 avoir la main verte）"
+        },
+        {
+          "id": "1772257466324-copu4u4jvet",
+          "front": "mettre la main à la pâte 是什么意思？",
+          "back": "亲自动手干活"
+        },
+        {
+          "id": "1772257466324-qf650h6aqi",
+          "front": "英语中对应 avoir la main verte 的表达",
+          "back": "to have a green thumb"
+        },
+        {
+          "id": "1772257466324-5uo4aqvjgf6",
+          "front": "TCF 听力陷阱：听到 main verte 怎么理解？",
+          "back": "不要按字面理解“绿色的手”，直接锁定“擅长园艺”"
+        },
+        {
+          "id": "1772257466324-kmvrmf4ufpf",
+          "front": "用 avoir la main verte 造一个 B1 句子",
+          "back": "Je n'ai vraiment pas la main verte, toutes mes plantes finissent par mourir."
+        }
+      ]
+    },
+    {
       "id": 1772256866984,
       "name": "Avoir vs Être 用法区分",
       "folderId": "1770698300033",
@@ -52233,6 +52455,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T05:36:11.317Z",
+  "exportedAt": "2026-02-28T05:44:32.713Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
