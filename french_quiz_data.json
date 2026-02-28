@@ -1,6 +1,356 @@
 {
   "savedSets": [
     {
+      "id": 1772311156529,
+      "name": "词汇：圣诞节表达",
+      "folderId": "1770661225895",
+      "createdAt": "2026-02-28T20:39:16.529Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « un cadeau » ?",
+          "options": [
+            "des cadeaus",
+            "des cadeaux",
+            "des cadeauxs",
+            "des cadaux"
+          ],
+          "correct": 1,
+          "explanation": "以 -eau 结尾的名词，复数加 x → cadeaux。这是 TCF 高频考点。",
+          "category": "词汇-复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : « _____ houx est une plante typique de Noël. »",
+          "options": [
+            "L'",
+            "Le",
+            "La",
+            "Du"
+          ],
+          "correct": 1,
+          "explanation": "houx 的 h 是 h aspiré（嘘音），不做省音缩合，所以用 le 而不是 l'。",
+          "category": "语法-h aspiré"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Elle était comme un enfant le matin de Noël. » Que signifie cette expression ?",
+          "options": [
+            "Elle était fatiguée.",
+            "Elle était très excitée et joyeuse.",
+            "Elle se comportait de manière immature.",
+            "Elle attendait le père Noël."
+          ],
+          "correct": 1,
+          "explanation": "这个习语表示\"非常兴奋、充满期待\"，像孩子圣诞早上拆礼物的状态。干扰项 C 利用 enfant 做字面误导。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il fait un froid de canard » signifie :",
+          "options": [
+            "Il fait légèrement frais.",
+            "Il fait un temps de chasse.",
+            "Il fait extrêmement froid.",
+            "Il y a beaucoup de canards dehors."
+          ],
+          "correct": 2,
+          "explanation": "faire un froid de canard = 天气极冷、刺骨。B 和 D 是字面干扰项。",
+          "category": "习语理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ Noël ! (圣诞快乐)",
+          "correct": [
+            "Joyeux"
+          ],
+          "explanation": "Noël 是阳性名词，形容词用阳性形式 joyeux。如果是 fêtes（阴性复数）则用 joyeuses。",
+          "category": "词汇-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le Réveillon de Noël, c'est :",
+          "options": [
+            "le repas du 25 décembre à midi",
+            "le grand repas festif du soir du 24 décembre",
+            "la messe de Noël",
+            "le dessert traditionnel de Noël"
+          ],
+          "correct": 1,
+          "explanation": "le Réveillon de Noël 指的是 12 月 24 日平安夜的大餐，源自 réveiller（守夜到午夜弥撒）。",
+          "category": "文化常识"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les mots suivants, lesquels sont féminins ?",
+          "options": [
+            "une étoile",
+            "un sapin",
+            "une guirlande",
+            "un traîneau"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "étoile（星星）和 guirlande（花环）是阴性；sapin（冷杉）和 traîneau（雪橇）是阳性。",
+          "category": "词汇-阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce n'est pas Noël tous les jours » veut dire :",
+          "options": [
+            "Noël n'arrive qu'une fois par an.",
+            "On ne peut pas toujours avoir ce qu'on veut.",
+            "Les fêtes de Noël sont trop courtes.",
+            "Il faut profiter de chaque jour."
+          ],
+          "correct": 1,
+          "explanation": "这句谚语意思是\"好事不会天天有\"，不能总期待奇迹。A 是字面意思的陷阱。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Elle ressemble à un sapin de Noël. » Cela signifie :",
+          "options": [
+            "Elle est très grande et mince.",
+            "Elle porte des vêtements verts.",
+            "Elle est habillée de manière trop voyante.",
+            "Elle sent bon comme un sapin."
+          ],
+          "correct": 2,
+          "explanation": "ressembler à un sapin de Noël = 穿得花里胡哨、过于夸张。C 中 voyant(e) = 惹眼的、花哨的。A/B/D 都是字面干扰项。",
+          "category": "习语理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour Noël, les enfants accrochent leurs _____ à la cheminée.",
+          "correct": [
+            "chaussettes"
+          ],
+          "explanation": "圣诞传统：孩子们把袜子（chaussettes）挂在壁炉上等圣诞老人放礼物。注意用复数。",
+          "category": "词汇-文化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle préposition suit le verbe « ressembler » ?",
+          "options": [
+            "de",
+            "en",
+            "à",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "ressembler À qqn/qqch 是固定搭配，介词 à 不能省略也不能替换。TCF 语法题常考动词+介词搭配。",
+          "category": "语法-介词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le père Noël arrive sur son _____ tiré par des _____. Il passe par la _____ pour déposer les _____ sous le _____ de Noël.",
+          "correct": [
+            "traîneau",
+            "rennes",
+            "cheminée",
+            "cadeaux",
+            "sapin"
+          ],
+          "explanation": "圣诞老人乘雪橇（traîneau），由驯鹿（rennes，复数）拉着，从烟囱（cheminée）进来，把礼物（cadeaux，复数）放在圣诞树（sapin）下。注意 rennes 和 cadeaux 的复数形式。",
+          "category": "词汇-综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Avoir l'esprit de Noël » signifie :",
+          "options": [
+            "Croire au père Noël",
+            "Être généreux et bienveillant pendant les fêtes",
+            "Penser uniquement à Noël",
+            "Décorer sa maison pour Noël"
+          ],
+          "correct": 1,
+          "explanation": "avoir l'esprit de Noël = 有圣诞精神，即慷慨善良、充满节日温情。A 是字面干扰，C/D 过于狭隘。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment prononce-t-on « Noël » ?",
+          "options": [
+            "/nwɛl/",
+            "/nɔ.ɛl/",
+            "/nɔl/",
+            "/nu.ɛl/"
+          ],
+          "correct": 1,
+          "explanation": "Noël 上的 tréma (ë) 表示 o 和 e 必须分开读：/nɔ.ɛl/，两个音节。不是 /nwɛl/。",
+          "category": "语音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles expressions utilisent le mot « Noël » pour parler de quelque chose qui n'a PAS de rapport direct avec la fête ?",
+          "options": [
+            "Joyeux Noël !",
+            "Ce n'est pas Noël tous les jours.",
+            "Ressembler à un sapin de Noël.",
+            "Bonne année et bonne santé !"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "B「好事不会天天有」和 C「穿得花里胡哨」虽含 Noël 但实际含义与圣诞节本身无关，属于引申义习语。A 是直接祝福，D 与 Noël 无关但也不含这个词。",
+          "category": "习语辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/11jOiwlUw9Y0Xr7jK48Ew18O9X8vC_sJ4V1F07lBk8gg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772311180110-ark8x65rea7",
+          "front": "une étoile",
+          "back": "n.f. 星星\n/e.twal/\nex: une étoile de Noël 圣诞星"
+        },
+        {
+          "id": "1772311180110-dftn4es80nw",
+          "front": "un cadeau (复数？)",
+          "back": "n.m. 礼物\n复数：des cadeaux（-eau → -eaux）\nex: offrir un cadeau 送礼物"
+        },
+        {
+          "id": "1772311180110-i6plz1hehn",
+          "front": "une bougie",
+          "back": "n.f. 蜡烛\n/bu.ʒi/\nex: allumer une bougie 点蜡烛"
+        },
+        {
+          "id": "1772311180110-vsn001m046c",
+          "front": "une chaussette",
+          "back": "n.f. 袜子\n/ʃo.sɛt/\nex: accrocher une chaussette à la cheminée 把袜子挂在壁炉上"
+        },
+        {
+          "id": "1772311180110-jr74zspsesn",
+          "front": "une boule",
+          "back": "n.f. 球/圣诞球\nune boule de Noël 圣诞装饰球"
+        },
+        {
+          "id": "1772311180111-bz9y9gxtx0h",
+          "front": "une cheminée",
+          "back": "n.f. 壁炉/烟囱\n/ʃə.mi.ne/\nLe père Noël passe par la cheminée. 圣诞老人从烟囱进来。"
+        },
+        {
+          "id": "1772311180111-o9g82q4slc8",
+          "front": "une guirlande",
+          "back": "n.f. 花环/彩灯串\n/ɡiʁ.lɑ̃d/\nex: une guirlande lumineuse 彩灯串"
+        },
+        {
+          "id": "1772311180111-o6u3agrw79j",
+          "front": "du houx — 冠词为什么不用 de l'？",
+          "back": "n.m. 冬青\nhoux 的 h 是 h aspiré（嘘音h），不做缩合也不联诵\n→ le houx, du houx（不能写 l'houx）"
+        },
+        {
+          "id": "1772311180111-tx9nc5yo20g",
+          "front": "un ange",
+          "back": "n.m. 天使\n/ɑ̃ʒ/\nex: un ange au sommet du sapin 树顶的天使"
+        },
+        {
+          "id": "1772311180111-7wfnktm3694",
+          "front": "un sapin",
+          "back": "n.m. 冷杉/圣诞树\n/sa.pɛ̃/\nun sapin de Noël 圣诞树\ndécorer le sapin 装饰圣诞树"
+        },
+        {
+          "id": "1772311180111-qll1lgg4hma",
+          "front": "une église",
+          "back": "n.f. 教堂\n/e.ɡliz/\nex: aller à l'église 去教堂"
+        },
+        {
+          "id": "1772311180111-a8yw33rhz0i",
+          "front": "une cloche",
+          "back": "n.f. 钟\n/klɔʃ/\nex: Les cloches sonnent à minuit. 钟在午夜敲响。"
+        },
+        {
+          "id": "1772311180111-8fvqbvh65ap",
+          "front": "un bonhomme en pain d'épices",
+          "back": "n.m. 姜饼人\npain d'épices = 香料面包\népice n.f. 香料"
+        },
+        {
+          "id": "1772311180111-u1mjrm3rlxi",
+          "front": "un renne",
+          "back": "n.m. 驯鹿\n/ʁɛn/\n注意区分：renne（驯鹿）vs reine（女王）"
+        },
+        {
+          "id": "1772311180111-ehrg70mic2d",
+          "front": "un traîneau",
+          "back": "n.m. 雪橇\n/tʁɛ.no/\nle traîneau du père Noël 圣诞老人的雪橇"
+        },
+        {
+          "id": "1772311180111-34nkz3sg6nb",
+          "front": "le père Noël",
+          "back": "n.m. 圣诞老人\nNoël 的 ë（tréma）表示 o 和 e 分开读 /nɔ.ɛl/"
+        },
+        {
+          "id": "1772311180111-lf1wc7zq63",
+          "front": "une couronne",
+          "back": "n.f. 花冠/花环\n/ku.ʁɔn/\nune couronne de Noël 圣诞花环"
+        },
+        {
+          "id": "1772311180111-4dz6mwv0r2o",
+          "front": "une canne en sucre d'orge",
+          "back": "n.f. 拐杖糖\nsucre d'orge = 大麦糖\ncanne = 拐杖/手杖"
+        },
+        {
+          "id": "1772311180111-aymuaizskh9",
+          "front": "Joyeux Noël vs Joyeuses fêtes — 为什么形容词形式不同？",
+          "back": "Noël 阳性单数 → joyeux\nfêtes 阴性复数 → joyeuses\n形容词要做性数配合"
+        },
+        {
+          "id": "1772311180111-sxmmg7w77m",
+          "front": "Bonne année et bonne santé !",
+          "back": "新年好，身体健康！\n用于元旦/新年祝福"
+        },
+        {
+          "id": "1772311180111-ea7hr4lzktk",
+          "front": "Avoir une faim de loup",
+          "back": "饿极了（像狼一样饿）\nex: Après le ski, j'ai une faim de loup !\n记忆：狼=饥饿的象征"
+        },
+        {
+          "id": "1772311180111-s107pdck35",
+          "front": "le Réveillon",
+          "back": "平安夜/跨年夜大餐\n来自 réveiller（唤醒）→ 守夜到午夜\nle Réveillon de Noël 平安夜\nle Réveillon du Nouvel An 跨年夜"
+        },
+        {
+          "id": "1772311180111-0bhwhatij7e",
+          "front": "Noël au balcon, Pâques au tison.",
+          "back": "圣诞暖，复活节冷。\n≈ 暖冬必有倒春寒\ntison = 余烬/火把"
+        },
+        {
+          "id": "1772311180111-383jxla16fa",
+          "front": "Être comme un enfant le matin de Noël",
+          "back": "非常兴奋、充满期待\n画面：小孩圣诞早上跑去拆礼物"
+        },
+        {
+          "id": "1772311180111-sf1b8ikoxn",
+          "front": "Ce n'est pas Noël tous les jours.",
+          "back": "好事不会天天有。\n≈ 天上不会天天掉馅饼\n带劝诫语气"
+        },
+        {
+          "id": "1772311180111-krxo03cs0sj",
+          "front": "Avoir l'esprit de Noël",
+          "back": "有圣诞精神（慷慨、善良）\n句型：avoir l'esprit de + n.\navoir l'esprit d'équipe 团队精神"
+        },
+        {
+          "id": "1772311180111-mp6332he0od",
+          "front": "Ressembler à un sapin de Noël",
+          "back": "穿得花里胡哨/珠光宝气\n带幽默讽刺语气\n语法：ressembler À qqn/qqch（别忘介词 à）"
+        },
+        {
+          "id": "1772311180111-14uza4s93dz",
+          "front": "Faire un froid de canard",
+          "back": "天气极冷、刺骨\nex: Il fait un froid de canard !\n来源：猎鸭季节在严寒中等待"
+        }
+      ]
+    },
+    {
       "id": 1772310448202,
       "name": "主语人称代词",
       "folderId": "1770593095506",
@@ -1297,7 +1647,7 @@
     },
     {
       "id": 1772307967168,
-      "name": "法语星期、月份、年份表达",
+      "name": "词汇：法语星期、月份、年份表达",
       "folderId": "1770661225895",
       "createdAt": "2026-02-28T19:46:07.168Z",
       "questions": [
@@ -2684,7 +3034,7 @@
     },
     {
       "id": 1772257912628,
-      "name": "Avoir un coup de foudre",
+      "name": "习语：Avoir un coup de foudre",
       "folderId": "1770661225895",
       "createdAt": "2026-02-28T05:51:52.628Z",
       "questions": [
@@ -2910,7 +3260,7 @@
     },
     {
       "id": 1772257424104,
-      "name": "Avoir la main verte",
+      "name": "习语：Avoir la main verte",
       "folderId": "1770661225895",
       "createdAt": "2026-02-28T05:43:44.104Z",
       "questions": [
@@ -10194,7 +10544,7 @@
     },
     {
       "id": 1771978340065,
-      "name": "法语代词 y 和 en",
+      "name": "词汇：法语代词 y 和 en",
       "folderId": "1770661225895",
       "createdAt": "2026-02-25T00:12:20.065Z",
       "questions": [
@@ -27304,7 +27654,7 @@
     {
       "id": 1771897858344,
       "name": "trop 与 assez",
-      "folderId": "1770661225895",
+      "folderId": "1770698300033",
       "createdAt": "2026-02-24T01:50:58.344Z",
       "questions": [
         {
@@ -27912,7 +28262,7 @@
     },
     {
       "id": 1771892438408,
-      "name": "Être dans la lune",
+      "name": "习语：Être dans la lune",
       "folderId": "1770661225895",
       "createdAt": "2026-02-24T00:20:38.408Z",
       "questions": [
@@ -30735,7 +31085,7 @@
     },
     {
       "id": 1771810198330,
-      "name": "身体部位词汇",
+      "name": "词汇：身体部位词汇",
       "folderId": "1770661225895",
       "createdAt": "2026-02-23T01:29:58.330Z",
       "questions": [
@@ -36712,7 +37062,7 @@
     },
     {
       "id": 1771470143502,
-      "name": "C'est un moulin à paroles",
+      "name": "习语：C'est un moulin à paroles",
       "folderId": "1770661225895",
       "createdAt": "2026-02-19T03:02:23.502Z",
       "questions": [
@@ -37117,7 +37467,7 @@
     },
     {
       "id": 1771125018457,
-      "name": "Avoir un cœur d'artichaut",
+      "name": "习语：Avoir un cœur d'artichaut",
       "folderId": "1770661225895",
       "createdAt": "2026-02-15T03:10:18.457Z",
       "questions": [
@@ -46606,7 +46956,7 @@
     },
     {
       "id": 1770662576532,
-      "name": "Tenir la chandelle",
+      "name": "习语：Tenir la chandelle",
       "folderId": "1770661225895",
       "createdAt": "2026-02-09T18:42:56.532Z",
       "questions": [
@@ -46776,7 +47126,7 @@
     },
     {
       "id": 1770662304913,
-      "name": "Être pistonné*",
+      "name": "习语：Être pistonné*",
       "folderId": "1770661225895",
       "createdAt": "2026-02-09T18:38:24.913Z",
       "questions": [
@@ -46946,7 +47296,7 @@
     },
     {
       "id": 1770661285247,
-      "name": "Tomber dans les pommes",
+      "name": "习语：Tomber dans les pommes",
       "folderId": "1770661225895",
       "createdAt": "2026-02-09T18:21:25.247Z",
       "questions": [
@@ -55412,6 +55762,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T20:28:20.348Z",
+  "exportedAt": "2026-02-28T20:40:44.563Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }

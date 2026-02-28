@@ -438,6 +438,8 @@
       color: var(--text-muted);
       margin-bottom: 0.75rem;
     }
+    .import-section .import-mode-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .import-section .import-mode-buttons .btn { font-size: 0.875rem; padding: 0.4rem 0.75rem; }
     .import-section textarea {
       width: 100%;
       min-height: 140px;
@@ -2388,6 +2390,10 @@
 
         <div class="import-section" id="import-section" style="display: none;" role="region" aria-labelledby="import-section-title">
         <h3 id="import-section-title">粘贴题目文本（支持你给的格式）</h3>
+        <div class="import-mode-buttons" aria-label="导入方式">
+          <button type="button" class="btn btn-secondary" id="btn-import-flashcard-home">记忆卡导入</button>
+          <button type="button" class="btn btn-secondary" id="btn-import-append-home">题目追加导入</button>
+        </div>
         <textarea id="import-text" placeholder="粘贴题目文本（见下方说明）或 JSON 数组…"></textarea>
         <div class="import-name-wrap">
           <label for="import-set-name">习题集名称（保存用，填写后本次导入会加入「我的习题集」）</label>
@@ -2889,6 +2895,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="edit-set-append-overlay" id="edit-set-append-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-set-append-modal-title">
     <div class="edit-set-append-modal">
       <h3 id="edit-set-append-modal-title">追加题目</h3>
+      <div class="edit-set-append-from-home-row" id="edit-set-append-from-home-row" style="display: none; margin-bottom: 0.75rem;">
+        <label for="edit-set-append-target-set">追加到习题集</label>
+        <select id="edit-set-append-target-set" class="edit-set-append-target-select" style="width:100%;padding:0.4rem 0.6rem;margin-top:0.25rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);">
+          <option value="">请选择习题集</option>
+        </select>
+      </div>
       <p class="edit-set-append-hint">粘贴 JSON 数组或文本格式，会追加到本题集末尾。</p>
       <textarea id="edit-set-append-modal-text" rows="6" placeholder="[{&quot;type&quot;:&quot;single_choice&quot;, ...}, ...] 或 题型：... A) B) C) D) 正确：C" autocomplete="off"></textarea>
       <div class="edit-set-append-modal-actions">
@@ -2996,6 +3008,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
   <div class="flashcard-add-card-overlay" id="flashcard-import-json-overlay" role="dialog" aria-modal="true" aria-labelledby="flashcard-import-json-title" style="display: none;">
     <div class="flashcard-add-card-modal flashcard-import-json-modal">
       <h3 id="flashcard-import-json-title">从 JSON 粘贴导入</h3>
+      <div class="flashcard-import-from-home-row" id="flashcard-import-from-home-row" style="display: none; margin-bottom: 0.75rem;">
+        <label for="flashcard-import-target-set">导入到习题集</label>
+        <select id="flashcard-import-target-set" class="flashcard-import-target-select" style="width:100%;padding:0.4rem 0.6rem;margin-top:0.25rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);">
+          <option value="">请选择习题集</option>
+        </select>
+      </div>
       <p class="flashcard-import-hint">粘贴 AI 生成的卡片数组，每项需包含 <code>front</code> 和 <code>back</code> 字段。将追加到当前卡片组；正面+反面相同的重复卡片会自动跳过。</p>
       <textarea id="flashcard-import-json-textarea" rows="12" placeholder='[{"front":"正面1","back":"反面1"},{"front":"正面2","back":"反面2"}]' autocomplete="off"></textarea>
       <div class="flashcard-add-card-actions">
@@ -4671,12 +4689,34 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (linksEl && modalLinks) linksEl.value = modalLinks.value || '';
     }
     function openEditSetAppendOverlay() {
+      window._appendFromHome = false;
+      var homeRow = document.getElementById('edit-set-append-from-home-row');
+      if (homeRow) homeRow.style.display = 'none';
       const overlay = document.getElementById('edit-set-append-overlay');
       if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
       const el = document.getElementById('edit-set-append-modal-text');
       if (el) el.focus();
     }
+    function openEditSetAppendOverlayFromHome() {
+      window._appendFromHome = true;
+      var homeRow = document.getElementById('edit-set-append-from-home-row');
+      var sel = document.getElementById('edit-set-append-target-set');
+      if (homeRow) homeRow.style.display = 'block';
+      if (sel) {
+        var sets = getSavedSets();
+        sel.innerHTML = '<option value="">请选择习题集</option>' + sets.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name || ('习题集 ' + s.id)) + '</option>'; }).join('');
+        sel.value = '';
+      }
+      var textEl = document.getElementById('edit-set-append-modal-text');
+      if (textEl) textEl.value = '';
+      const overlay = document.getElementById('edit-set-append-overlay');
+      if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
+      if (textEl) textEl.focus();
+    }
     function closeEditSetAppendOverlay() {
+      window._appendFromHome = false;
+      var homeRow = document.getElementById('edit-set-append-from-home-row');
+      if (homeRow) homeRow.style.display = 'none';
       const overlay = document.getElementById('edit-set-append-overlay');
       if (overlay) { overlay.classList.remove('show'); overlay.style.display = ''; clearModalFocusTrap(); }
     }
@@ -7014,18 +7054,40 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       });
       function openImportJsonModal() {
+        window._flashcardImportFromHome = false;
         if (_flashcardCurrentSetId != null) {
           window._flashcardImportTarget = { type: 'set', setId: _flashcardCurrentSetId };
         } else {
           window._flashcardImportTarget = null;
         }
+        var homeRow = document.getElementById('flashcard-import-from-home-row');
+        if (homeRow) homeRow.style.display = 'none';
         document.getElementById('flashcard-import-json-textarea').value = '';
         const overlay = document.getElementById('flashcard-import-json-overlay');
         overlay.style.display = 'flex';
         setModalFocusTrap(overlay);
       }
+      function openImportJsonModalFromHome() {
+        window._flashcardImportFromHome = true;
+        window._flashcardImportTarget = null;
+        var homeRow = document.getElementById('flashcard-import-from-home-row');
+        var sel = document.getElementById('flashcard-import-target-set');
+        if (homeRow) homeRow.style.display = 'block';
+        if (sel) {
+          var sets = getSavedSets();
+          sel.innerHTML = '<option value="">请选择习题集</option>' + sets.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name || ('习题集 ' + s.id)) + '</option>'; }).join('');
+          sel.value = '';
+        }
+        document.getElementById('flashcard-import-json-textarea').value = '';
+        var overlay = document.getElementById('flashcard-import-json-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+      }
       function closeImportJsonModal() {
         window._flashcardImportTarget = null;
+        window._flashcardImportFromHome = false;
+        var homeRow = document.getElementById('flashcard-import-from-home-row');
+        if (homeRow) homeRow.style.display = 'none';
         const overlay = document.getElementById('flashcard-import-json-overlay');
         overlay.style.display = 'none';
         clearModalFocusTrap();
@@ -7040,6 +7102,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         } catch (e) {
           showToast('JSON 格式错误：' + (e.message || String(e)));
           return;
+        }
+        if (window._flashcardImportFromHome && !window._flashcardImportTarget) {
+          var sel = document.getElementById('flashcard-import-target-set');
+          if (sel && sel.value) window._flashcardImportTarget = { type: 'set', setId: sel.value };
+          if (!window._flashcardImportTarget) { showToast('请选择要导入到的习题集'); return; }
         }
         function cardKey(f, b) { return (f || '').trim() + '\x00' + (b || '').trim(); }
         const importTarget = window._flashcardImportTarget;
@@ -7095,6 +7162,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
       document.getElementById('btn-flashcards-add-card').addEventListener('click', openAddCardModal);
       document.getElementById('btn-flashcards-import-json').addEventListener('click', openImportJsonModal);
+      (function() {
+        var btn = document.getElementById('btn-import-flashcard-home');
+        if (btn) btn.addEventListener('click', async function() {
+          if (typeof checkImportPin === 'function' && !(await checkImportPin())) return;
+          openImportJsonModalFromHome();
+        });
+      })();
       document.getElementById('btn-flashcards-clear-cards').addEventListener('click', function() {
         if (_flashcardCurrentSetId != null) {
           var sets = getSavedSets();
@@ -7753,10 +7827,28 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('btn-edit-set-review-cancel').addEventListener('click', closeEditSetReviewOverlay);
     document.getElementById('edit-set-review-overlay').addEventListener('click', function(e) { if (e.target.id === 'edit-set-review-overlay') closeEditSetReviewOverlay(); });
     document.getElementById('btn-edit-set-open-append').addEventListener('click', openEditSetAppendOverlay);
+    (function() {
+      var btn = document.getElementById('btn-import-append-home');
+      if (btn) btn.addEventListener('click', async function() {
+        if (!(await checkImportPin())) return;
+        openEditSetAppendOverlayFromHome();
+      });
+    })();
     document.getElementById('btn-edit-set-append-do').addEventListener('click', async function() {
       if (!(await checkImportPin())) return;
       var textEl = document.getElementById('edit-set-append-modal-text');
+      var fromHome = window._appendFromHome;
+      if (fromHome) {
+        var sel = document.getElementById('edit-set-append-target-set');
+        if (!sel || !sel.value) { showToast('请选择要追加到的习题集'); return; }
+        _editingSetId = sel.value;
+      }
       appendToEditSetModal(textEl ? textEl.value : '');
+      if (fromHome) {
+        _editingSetId = null;
+        window._appendFromHome = false;
+        closeEditSetAppendOverlay();
+      }
     });
     document.getElementById('btn-edit-set-append-close').addEventListener('click', closeEditSetAppendOverlay);
     document.getElementById('edit-set-append-overlay').addEventListener('click', function(e) { if (e.target.id === 'edit-set-append-overlay') closeEditSetAppendOverlay(); });
