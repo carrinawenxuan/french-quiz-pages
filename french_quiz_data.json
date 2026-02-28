@@ -52661,7 +52661,55 @@
       "name": "Conjugaison训练"
     }
   ],
-  "wrongBook": [],
+  "wrongBook": [
+    {
+      "type": "multiple_choice",
+      "stem": "下列哪些表达与“爱情/心动”有关？",
+      "options": [
+        "avoir un coup de foudre",
+        "avoir le mal de mer",
+        "tomber amoureux",
+        "avoir le cafard"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "avoir un coup de foudre (一见钟情) 和 tomber amoureux (坠入爱河) 与爱情相关。avoir le mal de mer 是晕船，avoir le cafard 是情绪低落。",
+      "category": "词汇/辨析",
+      "nextReview": "2026-03-01",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "C'est le vrai _____ de foudre !",
+      "correct": [
+        "coup"
+      ],
+      "explanation": "固定表达 coup de foudre。",
+      "category": "词汇",
+      "nextReview": "2026-03-01",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "paragraph_fill_blank",
+      "stem": "Dès qu'il l'a vue, il _____ (avoir) un coup de foudre _____ elle.",
+      "correct": [
+        "a eu",
+        "pour"
+      ],
+      "explanation": "第一空为复合过去时 a eu（瞬间发生的动作），第二空搭配介词 pour。",
+      "category": "综合",
+      "nextReview": "2026-03-01",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    }
+  ],
   "questionNotes": {
     "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "为啥有le啊\n【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。\n\n【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la",
     "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont",
@@ -52671,7 +52719,8 @@
     "N'***-tu pas de disques ?||as": "本题考察什么？\n\n✅ 语法点\n\t•\t否定结构 ne…pas\n\t•\t倒装结构\n\t•\tne 的省音（élision）\n\t•\tavoir 变位\n\n✅ TCF 等级\n\nA2 → B1\n\n✅ 出题人想区分什么能力？\n\t•\t你是否会在倒装中放对动词\n\t•\t你是否知道 ne 在元音前变 n’\n\t•\t你是否记得 tu 的变位\n\n这是典型：\n\n👉 否定倒装综合测试\n\n⸻\n\n【2】正确答案是什么？\n\n完整句子是：\n\nN’as-tu pas de disques ?\n\n意思是：\n\n“你没有唱片吗？”\n\n⸻\n\n结构拆解\n\n原句陈述句：\n\nTu n’as pas de disques.\n\n变成倒装疑问句：\n\nN’as-tu pas de disques ?\n\n⸻\n\n逐步变形逻辑\n\n1️⃣ 陈述句\nTu as des disques.\n\n2️⃣ 否定\nTu n’as pas de disques.\n（des → de，因为否定）\n\n3️⃣ 倒装\nAs-tu… → N’as-tu pas…",
     "Y a-t-*** un piano ?||il": "TCF 出题套路\n\n考试常考：\n\nIl y a → Y a-t-il ?\n\n你只要看到：\n\nY a-t-___\n\n直接填：\n\nil\n\n因为这是固定结构。\n\n⸻\n\n【5】记忆口诀\n\nIl y a 倒装必加 t。\n\n⸻\n\n👉 强化小题\n\nIl y a des étudiants.\n\n变成倒装疑问句。\n\n答案：\n\nY a-t-il des étudiants ?\n\n⸻\n\n再帮你彻底理解一句\n\nY a-t-il un piano ?\n\n= 有钢琴吗？\n= 这里有钢琴吗？",
     "Ils _____ le temps mais ils _____ en retard.|sont / ont|ont / sont|ont / ont|sont / sont|1": "核心判断模型\n\n第一步：看后面是不是名词。\n→ 名词通常用 avoir\n\n第二步：看是不是状态或形容词。\n→ 形容词用 être\n\n第三步：看是不是固定表达。\n→ 直接记忆\n\n⸻\n\n📌 超级压缩记忆口诀\n\n感觉多用 avoir，\n状态多用 être。\n\n⸻\n\n🚀 进阶提醒（B1）\n\n法语喜欢：\n\navoir + 名词表达感觉\nêtre + 形容词表达状态\n\n比如：\n\navoir faim（名词）\nêtre fatigué（形容词）",
-    "Elle _____ envie _____ une glace.|a / de|as / d'|a / d'|as / de|2": "1️⃣ 固定搭配：\navoir envie de + 名词 👉 想要 / 想吃 / 想做\nJ’ai envie de chocolat.\n我想吃巧克力。\n\nElle a envie d’une glace.\n她想吃一份冰淇淋。\n\n不是 à，不是直接接名词。\n\n⸻\n\n2️⃣ 变位：\nElle → avoir → a\n\n⸻\n\n3️⃣ 为什么是 d’？\n\nde + une → d’une\n因为后面是元音（u），发生省音。"
+    "Elle _____ envie _____ une glace.|a / de|as / d'|a / d'|as / de|2": "1️⃣ 固定搭配：\navoir envie de + 名词 👉 想要 / 想吃 / 想做\nJ’ai envie de chocolat.\n我想吃巧克力。\n\nElle a envie d’une glace.\n她想吃一份冰淇淋。\n\n不是 à，不是直接接名词。\n\n⸻\n\n2️⃣ 变位：\nElle → avoir → a\n\n⸻\n\n3️⃣ 为什么是 d’？\n\nde + une → d’une\n因为后面是元音（u），发生省音。",
+    "Dès qu'il l'a vue, il _____ (avoir) un coup de foudre _____ elle.||a eu,pour": "1️⃣ 第一空为什么是 a eu？\n\n因为：\n\n前面已经是过去时：\n\nDès qu’il l’a vue\n（他一看到她）\n\n这是一个完成的过去动作（passé composé）。\n\n后面发生的是：\n\n“他爱上她”——也是一个瞬间发生的动作。\n\n👉 瞬间动作 + 已完成 → 用 passé composé\n\n所以：\n\nil a eu un coup de foudre\n\n不是：\n\nil a\n不是：il avait\n不是：il aura\n\n⸻\n\n2️⃣ 为什么不是现在时 a？\n\n因为时间已经在过去。\n\n“他一看到她，他就爱上她。”\n\n两个动作都发生在过去。\n\n法语里：\n\n过去 + 瞬间结果 → 复合过去时。\n\n⸻\n\n3️⃣ 第二空为什么是 pour？\n\n固定搭配：\n\navoir un coup de foudre pour quelqu’un\n\n= 对某人一见钟情\n\n不能用 à\n不能用 de\n\n必须：\n\npour\n\n⸻\n\n4️⃣ 整句翻译\n\nDès qu’il l’a vue, il a eu un coup de foudre pour elle.\n\n= 他一看到她，就对她一见钟情。\n\n⸻\n\n5️⃣ 超简记忆\n\n瞬间过去 → passé composé\ncoup de foudre → pour"
   },
   "timerSeconds": 30,
   "dailyStats": {
@@ -52681,6 +52730,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T05:52:31.290Z",
+  "exportedAt": "2026-02-28T06:06:40.346Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
