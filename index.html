@@ -3805,9 +3805,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function loadDataFromObject(data) {
       const safe = sanitizeImportedData(data);
-      if (safe.savedSets != null) setSavedSets(Array.isArray(safe.savedSets) ? safe.savedSets : []);
-      if (safe.folders != null) setFolders(Array.isArray(safe.folders) ? safe.folders : []);
-      if (safe.wrongBook != null) setWrongBook(Array.isArray(safe.wrongBook) ? safe.wrongBook : []);
+      // 仅当云端数据为有效数组时才覆盖，避免误清空
+      if (safe.savedSets != null && Array.isArray(safe.savedSets)) setSavedSets(safe.savedSets);
+      if (safe.folders != null && Array.isArray(safe.folders)) setFolders(safe.folders);
+      if (safe.wrongBook != null && Array.isArray(safe.wrongBook)) setWrongBook(safe.wrongBook);
       if (safe.questionNotes != null && typeof safe.questionNotes === 'object') {
         _questionNotesCache = safe.questionNotes;
         try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes)); } catch (_) {}
@@ -3847,6 +3848,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateWrongCount();
       renderSavedSets();
       updateStartPracticeSelect();
+      // 强制再写一遍 localStorage，确保「从云端加载」后刷新不丢（部分环境首次写入可能未落盘）
+      try {
+        localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(getSavedSets()));
+        localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(getWrongBook()));
+        if (_idb) {
+          idbSet('savedSets', getSavedSets()).catch(function(e) { console.error('[loadDataFromObject] idbSet savedSets', e); });
+          idbSet('wrongBook', getWrongBook()).catch(function(e) { console.error('[loadDataFromObject] idbSet wrongBook', e); });
+        }
+      } catch (e) {
+        console.error('[loadDataFromObject] force persist after load', e);
+      }
     }
     async function loadFromCloud() {
       if (isImportLockEnabled() && !canImportOnThisDevice()) {
@@ -3880,10 +3892,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？');
         if (!confirmed) return;
         loadDataFromObject(data);
-        const setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
-        const wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
-        const cardCount = (data.savedSets || []).reduce((sum, s) => sum + (Array.isArray(s.cards) ? s.cards.length : 0), 0);
-        const cardStr = cardCount ? '，' + cardCount + ' 张记忆卡' : '';
+        // 延迟再写一次 localStorage，确保刷新后能读到（部分浏览器首次写入可能未持久化）
+        setTimeout(function() {
+          try {
+            localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(getSavedSets()));
+            localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(getWrongBook()));
+          } catch (e) { console.error('[loadFromCloud] defer persist', e); }
+        }, 100);
+        var setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
+        var wrongCount = data.wrongBook && data.wrongBook.length ? data.wrongBook.length : 0;
+        var cardCount = (data.savedSets || []).reduce(function(sum, s) { return sum + (Array.isArray(s.cards) ? s.cards.length : 0); }, 0);
+        var cardStr = cardCount ? '，' + cardCount + ' 张记忆卡' : '';
         showToast('已加载' + (setCount ? ' ' + setCount + ' 套习题集' : '') + (wrongCount ? '，' + wrongCount + ' 道错题' : '') + cardStr);
       } catch (e) {
         let msg;
@@ -4091,8 +4110,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (e) {
         if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
           showToast('存储空间不足，数据可能未完全保存。请清理不需要的习题集后重试');
-          console.error('[setSavedSets] QuotaExceeded', e);
-        } else { throw e; }
+        }
+        console.error('[setSavedSets] localStorage error', e);
       }
       if (_idb) {
         idbSet('savedSets', arr).catch(function(e) {
@@ -5027,8 +5046,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } catch (e) {
         if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
           showToast('存储空间不足，错题本可能未保存');
-          console.error('[setWrongBook] QuotaExceeded', e);
-        } else { throw e; }
+        }
+        console.error('[setWrongBook] localStorage error', e);
       }
       if (_idb) {
         idbSet('wrongBook', arr).catch(function(e) {

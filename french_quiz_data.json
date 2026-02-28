@@ -1,6 +1,665 @@
 {
   "savedSets": [
     {
+      "id": 1772256866984,
+      "name": "Avoir vs Être 用法区分",
+      "folderId": "1770698300033",
+      "createdAt": "2026-02-28T05:34:26.984Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ arrivée hier soir.",
+          "options": [
+            "a",
+            "est",
+            "va",
+            "fait"
+          ],
+          "correct": 1,
+          "explanation": "arriver 是 17 个用 être 做助动词的动词之一，且无直接宾语，用 est。注意过去分词 arrivée 与主语 elle 配合加 -e。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ mangé au restaurant.",
+          "options": [
+            "sommes",
+            "avons",
+            "sont",
+            "êtes"
+          ],
+          "correct": 1,
+          "explanation": "manger 不属于 17 个 être 动词，也不是代词式动词，用 avoir。nous → avons。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ 30 ans aujourd'hui.",
+          "options": [
+            "est",
+            "a",
+            "fait",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "法语中表示年龄用 avoir，不用 être。Il a 30 ans.",
+          "category": "avoir固定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se _____ rencontrées à Paris.",
+          "options": [
+            "ont",
+            "avons",
+            "sont",
+            "est"
+          ],
+          "correct": 2,
+          "explanation": "se rencontrer 是代词式动词，一律用 être 做助动词。elles → sont。se 是直接宾语，过去分词配合加 -es。",
+          "category": "代词式动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ monté les valises au 3e étage.",
+          "options": [
+            "est",
+            "a",
+            "sont",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "monter 后面有直接宾语 les valises，属于「双面间谍」动词的及物用法，用 avoir。",
+          "category": "双面间谍动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai très _____ , je veux boire de l'eau.",
+          "options": [
+            "soif",
+            "froid",
+            "sommeil",
+            "peur"
+          ],
+          "correct": 0,
+          "explanation": "「渴」= avoir soif。想喝水 → 选 soif。注意都用 avoir，不用 être。",
+          "category": "avoir固定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ passé chez le médecin ce matin.",
+          "options": [
+            "a",
+            "est",
+            "va",
+            "sont"
+          ],
+          "correct": 1,
+          "explanation": "passer 此处无直接宾语（chez le médecin 是介词短语），表示「经过/去过」，不及物用法 → 用 être。",
+          "category": "双面间谍动词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子的助动词选择是正确的？",
+          "options": [
+            "Elle a sortie de la maison.",
+            "Ils sont venus hier.",
+            "Nous avons descendu au sous-sol.",
+            "Elle s'est lavé les mains."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "A 错：sortir 无直接宾语应用 être → Elle est sortie。B 对：venir 用 être，venus 与 ils 配合。C 错：descendre 此处无直接宾语（au sous-sol 是介词短语）应用 être → Nous sommes descendus。D 对：se laver 用 être，les mains 是 COD 而非 se，所以过去分词不与主语配合，lavé 不加 e。",
+          "category": "综合判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les lettres que j'ai _____ sont sur la table.",
+          "options": [
+            "écrit",
+            "écrite",
+            "écrites",
+            "écrits"
+          ],
+          "correct": 2,
+          "explanation": "avoir 做助动词时，直接宾语 les lettres（阴性复数）前置（由 que 引导），过去分词必须与 COD 配合 → écrites。",
+          "category": "COD前置配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ sortie à 8 heures.",
+          "options": [
+            "a",
+            "est",
+            "va",
+            "sont"
+          ],
+          "correct": 1,
+          "explanation": "sortir 此处无直接宾语，表示「出门了」，不及物 → 用 être。sortie 与 elle 配合加 -e。",
+          "category": "双面间谍动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ froid, ferme la fenêtre s'il te plaît.",
+          "options": [
+            "suis",
+            "ai",
+            "fais",
+            "vas"
+          ],
+          "correct": 1,
+          "explanation": "「我冷」= J'ai froid（avoir froid）。Je suis froid = 我性格冷淡，意思完全不同。",
+          "category": "avoir/être固定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ au téléphone pendant une heure.",
+          "options": [
+            "parlé",
+            "parlés",
+            "parlée",
+            "parlées"
+          ],
+          "correct": 0,
+          "explanation": "se parler：parler à qqn，se 是间接宾语（CIO），不是直接宾语。用 être 做助动词但过去分词不配合 → parlé 不变。",
+          "category": "代词式动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Être 的复合过去时用哪个助动词？",
+          "options": [
+            "être",
+            "avoir",
+            "两者皆可",
+            "不构成复合过去时"
+          ],
+          "correct": 1,
+          "explanation": "être 自身的复合过去时用 avoir → J'ai été, tu as été, il a été... 这是经典混淆点。",
+          "category": "基础概念"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ descendu l'escalier très vite.",
+          "options": [
+            "est",
+            "a",
+            "sont",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "descendre 后面有直接宾语 l'escalier → 及物用法 → 用 avoir。注意此时过去分词不与主语配合（COD 在后面），所以是 descendu 不加 -e。",
+          "category": "双面间谍动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous nous sommes _____ (lever) à 6 heures ce matin.",
+          "correct": [
+            "levés"
+          ],
+          "explanation": "se lever 是代词式动词，用 être。se 是直接宾语（lever soi-même），过去分词与主语 nous 配合。如果 nous 是阳性或混合性别 → levés（加 -s）。",
+          "category": "代词式动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La robe qu'elle s'est _____ est très belle.",
+          "options": [
+            "acheté",
+            "achetée",
+            "achetés",
+            "achetées"
+          ],
+          "correct": 1,
+          "explanation": "s'acheter qqch：这里 que 引导的 la robe 是直接宾语且前置，se 是间接宾语（acheter qqch à qqn → s'acheter = acheter à soi）。过去分词与前置的 COD la robe（阴性单数）配合 → achetée。",
+          "category": "代词式动词+COD前置"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在复合过去时中始终只用 être 做助动词（即没有及物/不及物双重用法）？",
+          "options": [
+            "naître",
+            "monter",
+            "tomber",
+            "sortir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "naître 和 tomber 只有不及物用法，始终用 être。monter 和 sortir 是「双面间谍」：有直接宾语时用 avoir（monter les bagages / sortir les poubelles），无直接宾语时用 être。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, Marie _____ (être) en retard. Elle _____ (avoir) très faim parce qu'elle n'avait pas mangé. Elle _____ (partir) de chez elle à 9h et elle _____ (arriver) au bureau à 10h.",
+          "correct": [
+            "a été",
+            "avait",
+            "est partie",
+            "est arrivée"
+          ],
+          "explanation": "第一空：être 的复合过去时用 avoir → a été。第二空：avoir 的未完成过去时（描述背景状态）→ avait。第三空：partir 用 être → est partie（与 elle 配合）。第四空：arriver 用 être → est arrivée（与 elle 配合）。",
+          "category": "综合时态+助动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'est fait _____ les cheveux.",
+          "options": [
+            "coupé",
+            "coupée",
+            "couper",
+            "coupés"
+          ],
+          "correct": 2,
+          "explanation": "se faire + 不定式 结构中，faire 后面跟动词原形（infinitif）。而且 se faire 的过去分词 fait 在此结构中永远不变，不配合。所以是 se est fait couper。",
+          "category": "se faire + inf"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y _____ beaucoup de monde au concert hier.",
+          "options": [
+            "est",
+            "a eu",
+            "a",
+            "avait"
+          ],
+          "correct": 3,
+          "explanation": "il y a 的未完成过去时 = il y avait（描述过去的状态/场景）。如果选 a eu，表示「突然有了」的瞬间事件，语境不符。hier + 描述场景 → 用未完成过去时 avait。",
+          "category": "il y a 时态变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les photos que nous avons _____ (prendre) sont magnifiques.",
+          "correct": [
+            "prises"
+          ],
+          "explanation": "avoir 做助动词，COD les photos（阴性复数）通过 que 前置 → 过去分词与 COD 配合 → prises（prendre 的过去分词 pris + es）。",
+          "category": "COD前置配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, elle _____ très tard.",
+          "options": [
+            "a rentré",
+            "est rentrée",
+            "a rentrée",
+            "est rentré"
+          ],
+          "correct": 1,
+          "explanation": "rentrer 是表示移动的词，无直接宾语时助动词用 être，主语 elle 为阴性单数，过去分词配合加 -e。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ de bonnes vacances en France.",
+          "options": [
+            "passés",
+            "passé",
+            "passées",
+            "passer"
+          ],
+          "correct": 1,
+          "explanation": "passer 后面有直接宾语 de bonnes vacances，强调动作作用于某物，助动词用 avoir，过去分词默认不与主语配合。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ferme la fenêtre s'il te plaît, j'_____ (avoir) froid !",
+          "correct": [
+            "ai"
+          ],
+          "explanation": "表达“冷”等生理感受必须用 avoir 的现在时，主语是 je，所以是 ai。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici les lettres qu'il a .",
+          "options": [
+            "écrit",
+            "écrits",
+            "écrite",
+            "écrites"
+          ],
+          "correct": 3,
+          "explanation": "助动词 avoir，直接宾语 les lettres (阴性复数) 由 que 引导提前，过去分词需与提前的 COD 配合加 -es。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont _____ les mains avant le repas.",
+          "options": [
+            "lavé",
+            "lavés",
+            "lavée",
+            "lavées"
+          ],
+          "correct": 0,
+          "explanation": "代词式动词 se laver 虽用 être，但其后直接跟了直接宾语 (les mains)，因此取消过去分词配合！这是 C1 级别陷阱。",
+          "category": "语法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在复合过去时（无直接宾语时）必须使用 être 作为助动词？",
+          "options": [
+            "aller",
+            "pouvoir",
+            "devenir",
+            "prendre"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "aller 和 devenir (venir 的派生词) 属于“être 之家”的动词。",
+          "category": "变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "L'année dernière, je _____ (aller) à Paris et j' (avoir) beaucoup de chance avec la météo. (注：主语 je 为男性)",
+          "correct": [
+            "suis allé",
+            "ai eu"
+          ],
+          "explanation": "aller 用 être 作助动词；avoir 的复合过去时助动词也是 avoir，过去分词是 eu。两空依次对应。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que vous _____ en train de faire ?",
+          "options": [
+            "avez",
+            "êtes",
+            "font",
+            "faites"
+          ],
+          "correct": 1,
+          "explanation": "固定表达 être en train de + inf. 表示正在做某事，vous 对应 êtes。不能受中文思维影响选 avoir。",
+          "category": "习语"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Marc _____ sorti le chien ce matin.",
+          "correct": [
+            "a"
+          ],
+          "explanation": "sortir 是双面间谍词，后面带有直接宾语 le chien (把狗带出去)，助动词必须从 être 切换为 avoir。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ne manges pas ? Non, je n'ai pas _____.",
+          "options": [
+            "faim",
+            "soif",
+            "peur",
+            "raison"
+          ],
+          "correct": 0,
+          "explanation": "语境是“你不吃吗？”，对应回答应是“我不饿 (avoir faim)”。",
+          "category": "词汇"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1-anD9RUjhPmqdfNpzzV4U9BKuBqc0pmvkGzkYCZCUH0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772256903615-k8alpcz7o7",
+          "front": "法语表示年龄用哪个动词？",
+          "back": "avoir\nJ'ai 25 ans.（不用 être！）"
+        },
+        {
+          "id": "1772256903615-c7661nf0ye",
+          "front": "J'ai froid 是什么意思？",
+          "back": "我（身体感觉）冷\n⚠️ Je suis froid = 我性格冷淡"
+        },
+        {
+          "id": "1772256903615-80dfv1tpxvt",
+          "front": "J'ai chaud 是什么意思？",
+          "back": "我（身体感觉）热\n⚠️ Je suis chaud = 有色情含义，慎用！"
+        },
+        {
+          "id": "1772256903615-jhi3jcqcv2r",
+          "front": "avoir faim",
+          "back": "饿了\nJ'ai faim. 我饿了。"
+        },
+        {
+          "id": "1772256903615-yhtzp7ppzf8",
+          "front": "avoir soif",
+          "back": "渴了\nJ'ai soif. 我渴了。"
+        },
+        {
+          "id": "1772256903615-c9eon9ogpj",
+          "front": "avoir raison / avoir tort",
+          "back": "对 / 错\nTu as raison. 你说得对。"
+        },
+        {
+          "id": "1772256903615-5i5iwjb610n",
+          "front": "avoir besoin de",
+          "back": "需要\nJ'ai besoin d'aide. 我需要帮助。"
+        },
+        {
+          "id": "1772256903615-nsqw3z77jyl",
+          "front": "avoir envie de",
+          "back": "想要\nJ'ai envie de dormir. 我想睡觉。"
+        },
+        {
+          "id": "1772256903615-iv4iasixnr9",
+          "front": "avoir peur de",
+          "back": "害怕\nElle a peur du noir. 她怕黑。"
+        },
+        {
+          "id": "1772256903615-g43xogxkle",
+          "front": "avoir l'air + adj",
+          "back": "看起来……\nElle a l'air contente. 她看起来很高兴。"
+        },
+        {
+          "id": "1772256903615-x3zqropbmhg",
+          "front": "avoir lieu",
+          "back": "发生、举行\nLa réunion a lieu à 14h. 会议14点举行。"
+        },
+        {
+          "id": "1772256903615-7vbg31jiy97",
+          "front": "il y a",
+          "back": "有（存在句）\nIl y a un chat dans le jardin. 花园里有只猫。"
+        },
+        {
+          "id": "1772256903615-alr3f3q9sk9",
+          "front": "être en train de + inf",
+          "back": "正在做……\nJe suis en train de manger. 我正在吃饭。"
+        },
+        {
+          "id": "1772256903615-uvev88ak9qq",
+          "front": "être sur le point de + inf",
+          "back": "即将做……\nIl est sur le point de partir. 他即将出发。"
+        },
+        {
+          "id": "1772256903615-ud703j6u7b",
+          "front": "être d'accord",
+          "back": "同意\nJe suis d'accord avec toi. 我同意你。"
+        },
+        {
+          "id": "1772256903615-me300dcaitg",
+          "front": "être en retard / en avance",
+          "back": "迟到 / 早到\nElle est en retard. 她迟到了。"
+        },
+        {
+          "id": "1772256903615-1ltp9t4te0w",
+          "front": "复合过去时用 être 的动词有哪些？（口诀）",
+          "back": "DR & MRS VANDERTRAMP\n17个：aller, venir, revenir, arriver, partir, sortir, entrer, rentrer, retourner, passer, monter, descendre, tomber, naître, mourir, rester, devenir"
+        },
+        {
+          "id": "1772256903615-zbmqoyq7q3",
+          "front": "代词式动词（se + v）的复合过去时用什么助动词？",
+          "back": "一律用 être\nElle s'est levée.\nIls se sont rencontrés."
+        },
+        {
+          "id": "1772256903615-s0w2jzqpzbb",
+          "front": "7 个「双面间谍」动词是哪些？",
+          "back": "monter, descendre, sortir, rentrer, retourner, passer, entrer\n有直接宾语 → avoir\n无直接宾语 → être"
+        },
+        {
+          "id": "1772256903615-79o148nbdg8",
+          "front": "monter: être vs avoir 怎么区分？",
+          "back": "être: Elle est montée au 3e étage.（上楼，无COD）\navoir: Elle a monté les valises.（搬行李，有COD）"
+        },
+        {
+          "id": "1772256903615-r37g5xl2ztb",
+          "front": "sortir: être vs avoir 怎么区分？",
+          "back": "être: Elle est sortie.（出去了，无COD）\navoir: Elle a sorti son téléphone.（掏出手机，有COD）"
+        },
+        {
+          "id": "1772256903615-mxe5om3li69",
+          "front": "descendre: être vs avoir 怎么区分？",
+          "back": "être: Il est descendu.（下来了，无COD）\navoir: Il a descendu l'escalier.（走下楼梯，有COD）"
+        },
+        {
+          "id": "1772256903615-ifff2teigwo",
+          "front": "passer: être vs avoir 怎么区分？",
+          "back": "être: Il est passé chez moi.（路过我家，无COD）\navoir: Il a passé un examen.（参加考试，有COD）"
+        },
+        {
+          "id": "1772256903615-mtml8yyykta",
+          "front": "用 être 时，过去分词怎么配合？",
+          "back": "与主语性数配合\nIl est parti → Elle est partie\nIls sont partis → Elles sont parties"
+        },
+        {
+          "id": "1772256903615-6j236mjtphn",
+          "front": "用 avoir 时，过去分词什么时候配合？",
+          "back": "只有当直接宾语（COD）前置时才配合\nLa lettre que j'ai écrite.（que = la lettre，阴单，+e）\n通常不变：J'ai écrit une lettre."
+        },
+        {
+          "id": "1772256903615-5egwdrcpxz",
+          "front": "代词式动词过去分词配合规则",
+          "back": "se 是直接宾语 → 配合主语：Elle s'est lavée.\nse 是间接宾语 → 不配合：Elle s'est lavé les mains.\n判断：看 se 后面还有没有另一个直接宾语"
+        },
+        {
+          "id": "1772256903615-kg2l7wlckbd",
+          "front": "se parler 的过去分词变不变？",
+          "back": "不变！→ Ils se sont parlé.\nparler à qqn → se 是间接宾语（CIO）"
+        },
+        {
+          "id": "1772256903615-11u6ymkbew8",
+          "front": "se faire + inf 的过去分词变不变？",
+          "back": "永远不变！\nElle s'est fait couper les cheveux.\nfait 在此结构中不配合。"
+        },
+        {
+          "id": "1772256903615-jngc36hfezl",
+          "front": "être 自身的复合过去时用什么助动词？",
+          "back": "用 avoir！\nJ'ai été, tu as été, il a été...\n⚠️ 不是 je suis été！"
+        },
+        {
+          "id": "1772256903615-518al2mn4x5",
+          "front": "avoir 自身的复合过去时用什么助动词？",
+          "back": "用 avoir！\nJ'ai eu, tu as eu, il a eu...\n过去分词：eu [y]"
+        },
+        {
+          "id": "1772256903615-hmng9bmba6h",
+          "front": "il y a 的未完成过去时是什么？",
+          "back": "il y avait\nIl y avait beaucoup de monde.（描述过去场景/状态）"
+        },
+        {
+          "id": "1772256903615-mh9320hs6y8",
+          "front": "TCF 3 秒判断流程：avoir 还是 être？",
+          "back": "① 代词式动词（se…）？→ être\n② 17个动词之一？→ 默认 être，但检查有无 COD → 有 COD 则 avoir\n③ 以上都不是 → avoir"
+        },
+        {
+          "id": "1772256903615-d1qo626lr4g",
+          "front": "futur proche 的结构是什么？",
+          "back": "aller（现在时变位）+ 不定式\nJe vais avoir 30 ans.\nElle va être en retard."
+        },
+        {
+          "id": "1772256965065-lx24cwojg9j",
+          "front": "avoir 的直陈式现在时 (Présent)",
+          "back": "j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont"
+        },
+        {
+          "id": "1772256965065-i8r8nbsxa7q",
+          "front": "être 的直陈式现在时 (Présent)",
+          "back": "je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont"
+        },
+        {
+          "id": "1772256965065-ysr364h733i",
+          "front": "avoir 的复合过去时助动词和过去分词是什么？",
+          "back": "助动词：avoir (j'ai eu...)\n过去分词：eu"
+        },
+        {
+          "id": "1772256965065-ksr7ng4v6er",
+          "front": "être 的复合过去时助动词和过去分词是什么？",
+          "back": "助动词：avoir (j'ai été...)\n过去分词：été"
+        },
+        {
+          "id": "1772256965065-hutp7i9gv54",
+          "front": "哪两类动词的复合过去时必须用 être 作助动词？",
+          "back": "1. 代词式动词 (带有 se)\n2. 表示位置移动或状态改变的特定动词 (如 aller, venir, devenir 等)"
+        },
+        {
+          "id": "1772256965065-b981ndkzlpc",
+          "front": "6个“双面间谍”动词 (如 sortir, passer) 选 être 还是 avoir 的判断标准是什么？",
+          "back": "看是否有直接宾语 (COD)。\n无 COD (强调动作本身) ➡️ 用 être\n有 COD (强调作用于某物) ➡️ 用 avoir"
+        },
+        {
+          "id": "1772256965065-out3xx75a7i",
+          "front": "翻译并判断助动词：她出去了。",
+          "back": "Elle est sortie.\n(无直接宾语，用 être，需与主语性数配合)"
+        },
+        {
+          "id": "1772256965065-8kp5qjeef3m",
+          "front": "翻译并判断助动词：她把垃圾拿出来了。",
+          "back": "Elle a sorti les poubelles.\n(有直接宾语 les poubelles，助动词变回 avoir，不与主语配合)"
+        },
+        {
+          "id": "1772256965065-rmge2f17db",
+          "front": "表达生理感觉（饿、渴、冷、热、困）在法语中用 avoir 还是 être？",
+          "back": "必须用 avoir。\n如：avoir faim / soif / froid / chaud / sommeil"
+        },
+        {
+          "id": "1772256965065-84mmi4y832u",
+          "front": "法语翻译：需要... / 渴望... / 习惯于...",
+          "back": "avoir besoin de\navoir envie de\navoir l'habitude de"
+        },
+        {
+          "id": "1772256965065-9siktjaundv",
+          "front": "法语翻译：正在做某事 / 同意",
+          "back": "être en train de + inf.\nêtre d'accord (avec)"
+        },
+        {
+          "id": "1772256965065-pkk8ceder9",
+          "front": "过去分词配合规则：助动词为 être 时，规则是什么？",
+          "back": "过去分词必须和【主语】保持性数一致。"
+        },
+        {
+          "id": "1772256965065-gmklxhh1xk7",
+          "front": "过去分词配合规则：助动词为 avoir 时，基础规则是什么？",
+          "back": "绝对不与主语配合。"
+        },
+        {
+          "id": "1772256965065-1c300m9st5b",
+          "front": "过去分词配合规则：助动词为 avoir 时，什么情况下需要配合？",
+          "back": "只有当直接宾语 (COD) 【提前】到动词前面时，过去分词才与【提前的 COD】进行性数配合。"
+        },
+        {
+          "id": "1772256965065-j7dasj4hkro",
+          "front": "判断正误：Elles ont mangées des pommes.",
+          "back": "错误。应为：Elles ont mangé des pommes。\n(助动词是 avoir，不与主语 elles 配合)"
+        },
+        {
+          "id": "1772256965065-ic67eghns8b",
+          "front": "填空 (注意配合)：Les lettres qu'il a _____ (écrire).",
+          "back": "écrites。\n(助动词 avoir，但直接宾语 les lettres 被 que 引导提前，阴性复数加 -es)"
+        },
+        {
+          "id": "1772256965065-vwm5jj2q6oj",
+          "front": "TCF C1 级陷阱：Elle s'est lavé les mains. 为什么 lavé 没有加 -e 或 -es？",
+          "back": "虽然代词式动词用 être 作助动词，但如果其后【直接跟了直接宾语】(这里是 les mains)，则取消配合。"
+        }
+      ]
+    },
+    {
       "id": 1772246571974,
       "name": "Unit 3 Passé Composé 代词式动词",
       "folderId": "1771907837913",
@@ -51574,6 +52233,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T02:47:07.812Z",
+  "exportedAt": "2026-02-28T05:36:11.317Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
