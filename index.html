@@ -1503,6 +1503,9 @@
     .collapsible-body.open {
       grid-template-rows: 1fr;
     }
+    .collapsible-body.open .collapsible-inner {
+      pointer-events: auto;
+    }
     @media (prefers-reduced-motion: reduce) {
       .collapsible-body { transition: none; }
     }
@@ -3215,80 +3218,108 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         await openIDB();
       } catch (e) {
         console.warn('[initStorage] IndexedDB unavailable, using localStorage fallback', e);
+        // Load from localStorage into cache so data persists across refresh
+        try {
+          var raw = localStorage.getItem(SAVED_SETS_KEY);
+          _savedSetsCache = raw ? JSON.parse(raw) : [];
+          _savedSetsCacheDirty = false;
+        } catch (_) { _savedSetsCache = []; _savedSetsCacheDirty = false; }
+        try {
+          raw = localStorage.getItem(WRONG_BOOK_KEY);
+          _wrongBookCache = raw ? JSON.parse(raw) : [];
+          _wrongBookCacheDirty = false;
+          _rebuildWrongBookIndex();
+        } catch (_) { _wrongBookCache = []; _wrongBookCacheDirty = false; _rebuildWrongBookIndex(); }
+        try {
+          raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
+          _flashcardDecksCache = raw ? JSON.parse(raw) : [];
+        } catch (_) { _flashcardDecksCache = []; }
+        try {
+          raw = localStorage.getItem(QUESTION_NOTES_KEY);
+          if (raw) {
+            var parsed = JSON.parse(raw);
+            _questionNotesCache = (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) ? parsed : {};
+          } else { _questionNotesCache = {}; }
+        } catch (_) { _questionNotesCache = {}; }
+        _storageReady = true;
         return;
       }
 
-      // savedSets: IDB → cache, or migrate from localStorage → IDB
+      // Prefer localStorage (written first on every save) so refresh never loses the latest; sync to IDB for capacity/backup
+      // savedSets
       try {
-        var val = await idbGet('savedSets');
-        if (val !== undefined) {
-          _savedSetsCache = Array.isArray(val) ? val : [];
+        var raw = localStorage.getItem(SAVED_SETS_KEY);
+        if (raw) {
+          _savedSetsCache = JSON.parse(raw);
           _savedSetsCacheDirty = false;
-          try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
+          await idbSet('savedSets', _savedSetsCache);
         } else {
-          var raw = localStorage.getItem(SAVED_SETS_KEY);
-          if (raw) {
-            _savedSetsCache = JSON.parse(raw);
-            _savedSetsCacheDirty = false;
-            await idbSet('savedSets', _savedSetsCache);
-            try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
-          }
+          var val = await idbGet('savedSets');
+          _savedSetsCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          _savedSetsCacheDirty = false;
+          try { localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(_savedSetsCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] savedSets migration error', e); }
 
       // wrongBook
       try {
-        val = await idbGet('wrongBook');
-        if (val !== undefined) {
-          _wrongBookCache = Array.isArray(val) ? val : [];
+        raw = localStorage.getItem(WRONG_BOOK_KEY);
+        if (raw) {
+          _wrongBookCache = JSON.parse(raw);
           _wrongBookCacheDirty = false;
           _rebuildWrongBookIndex();
-          try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
+          await idbSet('wrongBook', _wrongBookCache);
         } else {
-          var raw = localStorage.getItem(WRONG_BOOK_KEY);
-          if (raw) {
-            _wrongBookCache = JSON.parse(raw);
-            _wrongBookCacheDirty = false;
-            _rebuildWrongBookIndex();
-            await idbSet('wrongBook', _wrongBookCache);
-            try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
-          }
+          val = await idbGet('wrongBook');
+          _wrongBookCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          _wrongBookCacheDirty = false;
+          _rebuildWrongBookIndex();
+          try { localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(_wrongBookCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] wrongBook migration error', e); }
 
       // flashcardDecks
       try {
-        val = await idbGet('flashcardDecks');
-        if (val !== undefined) {
-          _flashcardDecksCache = Array.isArray(val) ? val : [];
-          try { localStorage.removeItem(FLASHCARD_DECKS_KEY); } catch (_) {}
+        raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
+        if (raw) {
+          _flashcardDecksCache = JSON.parse(raw);
+          await idbSet('flashcardDecks', _flashcardDecksCache);
         } else {
-          var raw = localStorage.getItem(FLASHCARD_DECKS_KEY);
-          if (raw) {
-            _flashcardDecksCache = JSON.parse(raw);
-            await idbSet('flashcardDecks', _flashcardDecksCache);
-            try { localStorage.removeItem(FLASHCARD_DECKS_KEY); } catch (_) {}
-          }
+          val = await idbGet('flashcardDecks');
+          _flashcardDecksCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] flashcardDecks migration error', e); }
 
       // questionNotes
       try {
-        val = await idbGet('questionNotes');
-        if (val !== undefined) {
-          _questionNotesCache = (val && typeof val === 'object' && !Array.isArray(val)) ? val : {};
-          try { localStorage.removeItem(QUESTION_NOTES_KEY); } catch (_) {}
+        raw = localStorage.getItem(QUESTION_NOTES_KEY);
+        if (raw) {
+          var parsed = JSON.parse(raw);
+          _questionNotesCache = (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) ? parsed : {};
+          await idbSet('questionNotes', _questionNotesCache);
         } else {
-          var raw = localStorage.getItem(QUESTION_NOTES_KEY);
-          if (raw) {
-            _questionNotesCache = JSON.parse(raw);
-            await idbSet('questionNotes', _questionNotesCache);
-            try { localStorage.removeItem(QUESTION_NOTES_KEY); } catch (_) {}
-          }
+          val = await idbGet('questionNotes');
+          _questionNotesCache = (val && typeof val === 'object' && !Array.isArray(val)) ? val : {};
+          try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(_questionNotesCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] questionNotes migration error', e); }
 
-      console.log('[initStorage] IndexedDB ready, localStorage big keys cleaned up');
+      // importAllowedFingerprint (设备绑定): 双写并优先 localStorage，刷新后从 IDB 恢复
+      try {
+        raw = localStorage.getItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
+        if (raw !== null && raw !== '') {
+          await idbSet('importAllowedFingerprint', raw);
+        } else {
+          val = await idbGet('importAllowedFingerprint');
+          if (val !== undefined && val !== null && String(val)) {
+            var fp = String(val);
+            try { localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, fp); } catch (_) {}
+          }
+        }
+      } catch (e) { console.warn('[initStorage] importAllowedFingerprint error', e); }
+
+      console.log('[initStorage] IndexedDB ready, localStorage kept as backup');
       _storageReady = true;
     }
 
@@ -3315,7 +3346,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return (h >>> 0).toString(36);
     }
     function getImportAllowedFingerprint() { return localStorage.getItem(IMPORT_ALLOWED_FINGERPRINT_KEY) || ''; }
-    function setImportAllowedFingerprintToThisDevice() { localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, computeFingerprint()); }
+    function setImportAllowedFingerprintToThisDevice() {
+      var fp = computeFingerprint();
+      try { localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, fp); } catch (_) {}
+      if (_idb) idbSet('importAllowedFingerprint', fp).catch(function(e) { console.error('[setImportAllowedFingerprint] IDB error', e); });
+    }
     function canImportOnThisDevice() {
       const allowed = getImportAllowedFingerprint();
       if (!allowed) return true;
@@ -3726,6 +3761,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     /* ========== 9. 数据导入导出与云端 ========== */
+    // 导出会写入 french_quiz_data.json，可能被同步到公开仓库（如 french-quiz-pages）。
+    // 严禁包含：主人 PIN（IMPORT_PIN_HASH_KEY）、AI API Key（AI_API_KEY_STORAGE_KEY）——仅存于浏览器 localStorage，永不导出。
     function getDataForExport() {
       const timerEl = document.getElementById('timer-seconds');
       let questionNotes = {};
@@ -3773,11 +3810,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (safe.wrongBook != null) setWrongBook(Array.isArray(safe.wrongBook) ? safe.wrongBook : []);
       if (safe.questionNotes != null && typeof safe.questionNotes === 'object') {
         _questionNotesCache = safe.questionNotes;
-        if (_idb) {
-          idbSet('questionNotes', _questionNotesCache).catch(function(e) { console.error('[loadDataFromObject] IDB questionNotes error', e); });
-        } else {
-          try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes)); } catch (_) {}
-        }
+        try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(safe.questionNotes)); } catch (_) {}
+        if (_idb) idbSet('questionNotes', _questionNotesCache).catch(function(e) { console.error('[loadDataFromObject] IDB questionNotes error', e); });
       }
       if (safe.timerSeconds != null) {
         const n = Math.max(0, Math.min(120, parseInt(safe.timerSeconds, 10) || 10));
@@ -3796,14 +3830,17 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         updateStatsBar();
       }
       if (safe.importAllowedDeviceFingerprint != null && String(safe.importAllowedDeviceFingerprint)) {
-        localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, String(safe.importAllowedDeviceFingerprint));
+        var fpVal = String(safe.importAllowedDeviceFingerprint);
+        try { localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, fpVal); } catch (_) {}
+        if (_idb) idbSet('importAllowedFingerprint', fpVal).catch(function(e) { console.error('[loadDataFromObject] IDB importAllowedFingerprint error', e); });
       } else {
-        localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
+        try { localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY); } catch (_) {}
+        if (_idb) idbDelete('importAllowedFingerprint').catch(function(e) { console.error('[loadDataFromObject] IDB delete importAllowedFingerprint error', e); });
       }
       if (safe.flashcardDecks != null && Array.isArray(safe.flashcardDecks)) {
         _flashcardDecksCache = safe.flashcardDecks;
+        try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
         if (_idb) idbSet('flashcardDecks', _flashcardDecksCache).catch(function(e) { console.error('[loadDataFromObject] IDB flashcardDecks error', e); });
-        else try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
       }
       updateImportLockUI();
       updateDeviceBindUI();
@@ -4029,12 +4066,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
     function setFlashcardDecks(decks) {
       _flashcardDecksCache = decks;
+      try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(decks)); } catch (_) {}
       if (_idb) {
         idbSet('flashcardDecks', decks).catch(function(e) {
           console.error('[setFlashcardDecks] IDB write error', e);
         });
-      } else {
-        try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(decks)); } catch (_) {}
       }
     }
 
@@ -4050,20 +4086,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function setSavedSets(arr) {
       _savedSetsCache = arr;
       _savedSetsCacheDirty = false;
+      try {
+        localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
+      } catch (e) {
+        if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
+          showToast('存储空间不足，数据可能未完全保存。请清理不需要的习题集后重试');
+          console.error('[setSavedSets] QuotaExceeded', e);
+        } else { throw e; }
+      }
       if (_idb) {
         idbSet('savedSets', arr).catch(function(e) {
           console.error('[setSavedSets] IDB write error', e);
           showToast('数据保存异常，请刷新页面重试');
         });
-      } else {
-        try {
-          localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
-        } catch (e) {
-          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
-            showToast('存储空间不足，数据可能未完全保存。请清理不需要的习题集后重试');
-            console.error('[setSavedSets] QuotaExceeded', e);
-          } else { throw e; }
-        }
       }
       renderSavedSets();
       updateStatsBar();
@@ -4959,12 +4994,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       } else {
         delete _questionNotesCache[questionId];
       }
+      try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(_questionNotesCache)); } catch (_) {}
       if (_idb) {
         idbSet('questionNotes', _questionNotesCache).catch(function(e) {
           console.error('[setQuestionNotes] IDB write error', e);
         });
-      } else {
-        try { localStorage.setItem(QUESTION_NOTES_KEY, JSON.stringify(_questionNotesCache)); } catch (_) {}
       }
     }
     function _rebuildWrongBookIndex() {
@@ -4988,20 +5022,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _wrongBookCache = arr;
       _wrongBookCacheDirty = false;
       _rebuildWrongBookIndex();
+      try {
+        localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
+      } catch (e) {
+        if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
+          showToast('存储空间不足，错题本可能未保存');
+          console.error('[setWrongBook] QuotaExceeded', e);
+        } else { throw e; }
+      }
       if (_idb) {
         idbSet('wrongBook', arr).catch(function(e) {
           console.error('[setWrongBook] IDB write error', e);
           showToast('错题本保存异常，请刷新页面重试');
         });
-      } else {
-        try {
-          localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
-        } catch (e) {
-          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
-            showToast('存储空间不足，错题本可能未保存');
-            console.error('[setWrongBook] QuotaExceeded', e);
-          } else { throw e; }
-        }
       }
       updateWrongCount();
       updateStatsBar();
@@ -6414,6 +6447,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     (function initFlashcards() {
       let _flashcardCurrentDeckId = null;
+      let _flashcardCurrentSetId = null;
       let _flashcardTrainingDeck = null;
       let _flashcardTrainingOrder = [];
       let _flashcardTrainingIndex = 0;
@@ -6427,43 +6461,79 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const emptyEl = document.getElementById('flashcards-empty');
         if (!listEl || !emptyEl) return;
         const decks = getFlashcardDecks();
-        if (decks.length === 0) {
+        const setsWithCards = getSavedSets().filter(function(s) { return s.cards && s.cards.length > 0; });
+        var html = '';
+        decks.forEach(function(d) {
+          var count = (d.cards && d.cards.length) || 0;
+          html += '<div class="flashcards-deck-item" data-deck-id="' + escapeAttr(String(d.id)) + '" data-source="deck">' +
+            '<div><span class="name">' + escapeHtml(d.name || '未命名') + '</span><div class="meta">' + count + ' 张卡片</div></div>' +
+            '<div class="actions"><button type="button" class="btn btn-secondary btn-sm btn-delete-deck" aria-label="删除卡片组">删除</button></div></div>';
+        });
+        setsWithCards.forEach(function(s) {
+          var count = (s.cards && s.cards.length) || 0;
+          html += '<div class="flashcards-deck-item" data-set-id="' + escapeAttr(String(s.id)) + '" data-source="set">' +
+            '<div><span class="name">习题集：' + escapeHtml(s.name || '未命名') + '</span><div class="meta">' + count + ' 张卡片</div></div>' +
+            '<div class="actions"></div></div>';
+        });
+        if (html === '') {
           listEl.innerHTML = '';
           emptyEl.style.display = 'block';
+          emptyEl.textContent = '暂无卡片组。可在「我的习题集」里为某习题集添加记忆卡，或点击下方添加独立卡片组。';
           return;
         }
         emptyEl.style.display = 'none';
-        listEl.innerHTML = decks.map(d => {
-          const count = (d.cards && d.cards.length) || 0;
-          return '<div class="flashcards-deck-item" data-deck-id="' + escapeAttr(String(d.id)) + '">' +
-            '<div><span class="name">' + escapeHtml(d.name || '未命名') + '</span><div class="meta">' + count + ' 张卡片</div></div>' +
-            '<div class="actions"><button type="button" class="btn btn-secondary btn-sm btn-delete-deck" aria-label="删除卡片组">删除</button></div></div>';
-        }).join('');
-        listEl.querySelectorAll('.flashcards-deck-item').forEach(el => {
-          const deckId = el.dataset.deckId;
-          el.querySelector('.name')?.closest('div')?.addEventListener('click', () => { _flashcardCurrentDeckId = deckId; showFlashcardDeckDetail(); });
-          el.querySelector('.btn-delete-deck')?.addEventListener('click', (e) => {
-            e.stopPropagation();
-            customConfirm('确定删除该卡片组？').then(ok => {
-              if (!ok) return;
-              const decks = getFlashcardDecks().filter(d => String(d.id) !== deckId);
-              setFlashcardDecks(decks);
-              renderFlashcardDeckList();
+        listEl.innerHTML = html;
+        listEl.querySelectorAll('.flashcards-deck-item').forEach(function(el) {
+          var source = el.dataset.source;
+          if (source === 'deck') {
+            var deckId = el.dataset.deckId;
+            el.querySelector('.name') && el.querySelector('.name').closest('div') && el.querySelector('.name').closest('div').addEventListener('click', function() {
+              _flashcardCurrentDeckId = deckId;
+              _flashcardCurrentSetId = null;
+              showFlashcardDeckDetail();
             });
-          });
+            var delBtn = el.querySelector('.btn-delete-deck');
+            if (delBtn) delBtn.addEventListener('click', function(e) {
+              e.stopPropagation();
+              customConfirm('确定删除该卡片组？').then(function(ok) {
+                if (!ok) return;
+                var list = getFlashcardDecks().filter(function(d) { return String(d.id) !== deckId; });
+                setFlashcardDecks(list);
+                renderFlashcardDeckList();
+              });
+            });
+          } else if (source === 'set') {
+            var setId = el.dataset.setId;
+            el.querySelector('.name') && el.querySelector('.name').closest('div') && el.querySelector('.name').closest('div').addEventListener('click', function() {
+              _flashcardCurrentDeckId = null;
+              _flashcardCurrentSetId = setId;
+              showFlashcardDeckDetail();
+            });
+          }
         });
       }
 
       function showFlashcardDeckList() {
         _flashcardCurrentDeckId = null;
+        _flashcardCurrentSetId = null;
         document.getElementById('flashcards-deck-list-view').style.display = 'block';
         document.getElementById('flashcards-deck-detail-view').style.display = 'none';
         renderFlashcardDeckList();
       }
 
       function showFlashcardDeckDetail() {
-        const decks = getFlashcardDecks();
-        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        if (_flashcardCurrentSetId != null) {
+          var sets = getSavedSets();
+          var set = sets.find(function(s) { return String(s.id) === String(_flashcardCurrentSetId); });
+          if (!set || !set.cards || set.cards.length === 0) { showFlashcardDeckList(); return; }
+          document.getElementById('flashcards-deck-list-view').style.display = 'none';
+          document.getElementById('flashcards-deck-detail-view').style.display = 'block';
+          document.getElementById('flashcards-deck-detail-title').textContent = '习题集：' + (set.name || '未命名');
+          renderFlashcardCardList();
+          return;
+        }
+        var decks = getFlashcardDecks();
+        var deck = decks.find(function(d) { return String(d.id) === String(_flashcardCurrentDeckId); });
         if (!deck) { showFlashcardDeckList(); return; }
         document.getElementById('flashcards-deck-list-view').style.display = 'none';
         document.getElementById('flashcards-deck-detail-view').style.display = 'block';
@@ -6475,9 +6545,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const listEl = document.getElementById('flashcards-card-list');
         const emptyEl = document.getElementById('flashcards-cards-empty');
         if (!listEl || !emptyEl) return;
-        const decks = getFlashcardDecks();
-        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
-        const cards = (deck && deck.cards) ? deck.cards : [];
+        var cards = [];
+        if (_flashcardCurrentSetId != null) {
+          var sets = getSavedSets();
+          var set = sets.find(function(s) { return String(s.id) === String(_flashcardCurrentSetId); });
+          cards = (set && Array.isArray(set.cards)) ? set.cards : [];
+        } else {
+          var decks = getFlashcardDecks();
+          var deck = decks.find(function(d) { return String(d.id) === String(_flashcardCurrentDeckId); });
+          cards = (deck && deck.cards) ? deck.cards : [];
+        }
         if (cards.length === 0) {
           listEl.innerHTML = '';
           emptyEl.style.display = 'block';
@@ -6490,11 +6567,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             '<span class="preview">' + escapeHtml(frontPreview) + '</span>' +
             '<button type="button" class="btn btn-secondary btn-sm btn-remove-card" aria-label="删除卡片">删除</button></div>';
         }).join('');
-        listEl.querySelectorAll('.btn-remove-card').forEach(btn => {
-          const i = parseInt(btn.closest('.flashcards-card-item').dataset.index, 10);
-          btn.addEventListener('click', () => {
-            const decks = getFlashcardDecks();
-            const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+        listEl.querySelectorAll('.btn-remove-card').forEach(function(btn) {
+          var i = parseInt(btn.closest('.flashcards-card-item').dataset.index, 10);
+          btn.addEventListener('click', function() {
+            if (_flashcardCurrentSetId != null) {
+              var sets = getSavedSets();
+              var set = sets.find(function(s) { return String(s.id) === String(_flashcardCurrentSetId); });
+              if (!set || !Array.isArray(set.cards)) return;
+              set.cards.splice(i, 1);
+              setSavedSets(sets);
+              renderFlashcardCardList();
+              renderSavedSets();
+              return;
+            }
+            var decks = getFlashcardDecks();
+            var deck = decks.find(function(d) { return String(d.id) === String(_flashcardCurrentDeckId); });
             if (!deck || !deck.cards) return;
             deck.cards.splice(i, 1);
             setFlashcardDecks(decks);
@@ -6504,7 +6591,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       function openAddCardModal() {
-        window._flashcardAddCardTarget = null;
+        if (_flashcardCurrentSetId != null) {
+          window._flashcardAddCardTarget = { type: 'set', setId: _flashcardCurrentSetId };
+        } else {
+          window._flashcardAddCardTarget = null;
+        }
         document.getElementById('flashcard-input-front').value = '';
         document.getElementById('flashcard-input-back').value = '';
         const overlay = document.getElementById('flashcard-add-card-overlay');
@@ -6538,6 +6629,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           setSavedSets(sets);
           if (typeof window._flashcardOnCardsChanged === 'function') window._flashcardOnCardsChanged();
           window._flashcardAddCardTarget = null;
+          renderFlashcardCardList();
           closeAddCardModal();
           showToast('已添加');
           return;
@@ -6554,11 +6646,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
 
       function startTraining() {
-        const decks = getFlashcardDecks();
-        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
-        if (!deck || !deck.cards || deck.cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
-        _flashcardTrainingDeck = deck;
-        _flashcardTrainingOrder = deck.cards.map((_, i) => i).sort(() => Math.random() - 0.5);
+        var cards = [];
+        if (_flashcardCurrentSetId != null) {
+          var sets = getSavedSets();
+          var set = sets.find(function(s) { return String(s.id) === String(_flashcardCurrentSetId); });
+          cards = (set && Array.isArray(set.cards)) ? set.cards : [];
+        } else {
+          var decks = getFlashcardDecks();
+          var deck = decks.find(function(d) { return String(d.id) === String(_flashcardCurrentDeckId); });
+          cards = (deck && deck.cards) ? deck.cards : [];
+        }
+        if (!cards || cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
+        _flashcardTrainingDeck = { cards: cards };
+        _flashcardTrainingOrder = cards.map(function(_, i) { return i; }).sort(function() { return Math.random() - 0.5; });
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
         const contentEl = document.getElementById('flashcard-training-content');
@@ -6887,7 +6987,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       });
       function openImportJsonModal() {
-        window._flashcardImportTarget = null;
+        if (_flashcardCurrentSetId != null) {
+          window._flashcardImportTarget = { type: 'set', setId: _flashcardCurrentSetId };
+        } else {
+          window._flashcardImportTarget = null;
+        }
         document.getElementById('flashcard-import-json-textarea').value = '';
         const overlay = document.getElementById('flashcard-import-json-overlay');
         overlay.style.display = 'flex';
@@ -6932,6 +7036,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           setSavedSets(sets);
           if (typeof window._flashcardOnCardsChanged === 'function') window._flashcardOnCardsChanged();
           window._flashcardImportTarget = null;
+          renderFlashcardCardList();
+          renderSavedSets();
           closeImportJsonModal();
           showToast(added ? '已导入 ' + added + ' 张' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
           return;
@@ -6962,11 +7068,25 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
       document.getElementById('btn-flashcards-add-card').addEventListener('click', openAddCardModal);
       document.getElementById('btn-flashcards-import-json').addEventListener('click', openImportJsonModal);
-      document.getElementById('btn-flashcards-clear-cards').addEventListener('click', () => {
-        const decks = getFlashcardDecks();
-        const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
+      document.getElementById('btn-flashcards-clear-cards').addEventListener('click', function() {
+        if (_flashcardCurrentSetId != null) {
+          var sets = getSavedSets();
+          var set = sets.find(function(s) { return String(s.id) === String(_flashcardCurrentSetId); });
+          if (!set || !Array.isArray(set.cards) || set.cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
+          customConfirm('确定清空该习题集的全部 ' + set.cards.length + ' 张卡片？此操作不可恢复。').then(function(ok) {
+            if (!ok) return;
+            set.cards = [];
+            setSavedSets(sets);
+            renderFlashcardCardList();
+            renderSavedSets();
+            showToast('已清空');
+          });
+          return;
+        }
+        var decks = getFlashcardDecks();
+        var deck = decks.find(function(d) { return String(d.id) === String(_flashcardCurrentDeckId); });
         if (!deck || !deck.cards || deck.cards.length === 0) { showToast('当前卡片组没有卡片'); return; }
-        customConfirm('确定清空当前卡片组的全部 ' + deck.cards.length + ' 张卡片？此操作不可恢复。').then(ok => {
+        customConfirm('确定清空当前卡片组的全部 ' + deck.cards.length + ' 张卡片？此操作不可恢复。').then(function(ok) {
           if (!ok) return;
           deck.cards = [];
           setFlashcardDecks(decks);
@@ -7519,25 +7639,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     })();
 
     document.getElementById('btn-one-save').addEventListener('click', saveToProjectFolder);
-    document.getElementById('btn-copy-deploy-cmd').addEventListener('click', () => {
-      const cmd = document.getElementById('save-deploy-cmd');
-      const text = cmd ? cmd.textContent.trim() : './scripts/sync-and-push.sh ../french-quiz-pages';
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => showToast('复制成功')).catch(() => showToast('复制失败'));
-      } else {
-        try {
-          const ta = document.createElement('textarea');
-          ta.value = text;
-          ta.style.position = 'fixed';
-          ta.style.opacity = '0';
-          document.body.appendChild(ta);
-          ta.select();
-          document.execCommand('copy');
-          document.body.removeChild(ta);
-          showToast('复制成功');
-        } catch (_) { showToast('复制失败'); }
-      }
-    });
+    // btn-copy-deploy-cmd 已由 storageSectionDelegation 委托处理
     function confirmReviewStartQuiz() {
       if (!_pendingReviewStart) return;
       const p = _pendingReviewStart;
@@ -7796,21 +7898,68 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (!el) return;
       el.textContent = getStoredAiApiKey() ? '已设置（仅本机）' : '未设置';
     }
-    document.getElementById('btn-ai-api-key-save').addEventListener('click', function() {
-      var input = document.getElementById('ai-api-key-input');
-      var val = (input && input.value) ? input.value.trim() : '';
-      if (!val) { showToast('请先输入 API Key'); return; }
-      try { localStorage.setItem(AI_API_KEY_STORAGE_KEY, val); } catch (e) { showToast('保存失败'); return; }
-      if (input) input.value = '';
-      updateAiApiKeyStatus();
-      showToast('已保存到本机，仅您使用');
-    });
-    document.getElementById('btn-ai-api-key-clear').addEventListener('click', function() {
-      try { localStorage.removeItem(AI_API_KEY_STORAGE_KEY); } catch (_) {}
-      var input = document.getElementById('ai-api-key-input');
-      if (input) input.value = '';
-      updateAiApiKeyStatus();
-      showToast('已清除');
+    // 更多存储选项内按钮用事件委托，避免折叠区展开后仍无法点击
+    document.body.addEventListener('click', function storageSectionDelegation(e) {
+      var t = e.target;
+      while (t && t !== document.body) {
+        if (t.id === 'btn-ai-api-key-save') {
+          var input = document.getElementById('ai-api-key-input');
+          var val = (input && input.value) ? input.value.trim() : '';
+          if (!val) { showToast('请先输入 API Key'); return; }
+          try { localStorage.setItem(AI_API_KEY_STORAGE_KEY, val); } catch (err) { showToast('保存失败'); return; }
+          if (input) input.value = '';
+          updateAiApiKeyStatus();
+          showToast('已保存到本机，仅您使用');
+          return;
+        }
+        if (t.id === 'btn-ai-api-key-clear') {
+          try { localStorage.removeItem(AI_API_KEY_STORAGE_KEY); } catch (_) {}
+          var inp = document.getElementById('ai-api-key-input');
+          if (inp) inp.value = '';
+          updateAiApiKeyStatus();
+          showToast('已清除');
+          return;
+        }
+        if (t.id === 'btn-open-folder') { pickFolderAndLoad(); return; }
+        if (t.id === 'btn-save-to-folder' || t.id === 'btn-export-data') { saveToProjectFolder(); return; }
+        if (t.id === 'btn-import-data') { var fi = document.getElementById('file-import-data'); if (fi) fi.click(); return; }
+        if (t.id === 'link-download-json') { e.preventDefault(); exportDataDownload(); return; }
+        if (t.id === 'btn-copy-deploy-cmd') {
+          var cmdEl = document.getElementById('save-deploy-cmd');
+          var text = cmdEl ? cmdEl.textContent.trim() : './scripts/sync-and-push.sh ../french-quiz-pages';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function() { showToast('复制成功'); }).catch(function() { showToast('复制失败'); });
+          } else {
+            try {
+              var ta = document.createElement('textarea');
+              ta.value = text;
+              ta.setAttribute('readonly', '');
+              ta.style.position = 'fixed';
+              ta.style.opacity = '0';
+              document.body.appendChild(ta);
+              ta.select();
+              document.execCommand('copy');
+              document.body.removeChild(ta);
+              showToast('已复制到剪贴板');
+            } catch (_) { showToast('复制失败，请手动复制'); }
+          }
+          return;
+        }
+        if (t.id === 'btn-device-bind') {
+          setImportAllowedFingerprintToThisDevice();
+          updateDeviceBindUI();
+          showToast('已绑定本机。请「一键保存」并推送到云端，其他设备将无法导入');
+          return;
+        }
+        if (t.id === 'btn-device-unbind') {
+          try { localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY); } catch (_) {}
+          if (_idb) idbDelete('importAllowedFingerprint').catch(function(err) { console.error('[unbind] IDB error', err); });
+          updateDeviceBindUI();
+          showToast('已解除绑定。请「一键保存」并推送后，所有设备均可导入');
+          return;
+        }
+        t = t.parentElement;
+      }
     });
     updateAiApiKeyStatus();
     function openGitHubUploadModal() {
@@ -7871,11 +8020,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     document.getElementById('github-upload-modal-overlay').addEventListener('click', (e) => {
       if (e.target.id === 'github-upload-modal-overlay') closeGitHubUploadModal();
     });
-    document.getElementById('btn-open-folder').addEventListener('click', pickFolderAndLoad);
-    document.getElementById('btn-save-to-folder').addEventListener('click', saveToProjectFolder);
-    document.getElementById('btn-export-data').addEventListener('click', saveToProjectFolder);
-    document.getElementById('btn-import-data').addEventListener('click', () => document.getElementById('file-import-data').click());
-    document.getElementById('link-download-json').addEventListener('click', (e) => { e.preventDefault(); exportDataDownload(); });
+    // 以上按钮已通过 storageSectionDelegation 委托处理
     
     // Sync Text Modal Functions
     function openSyncTextModal(tab = 'generate') {
@@ -7996,22 +8141,38 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       showToast('已下载，可用微信/邮件/AirDrop 传到电脑后「从文件导入」');
     }
     
-    // Sync Text Modal Event Listeners
-    document.getElementById('btn-generate-sync-text').addEventListener('click', () => openSyncTextModal('generate'));
-    document.getElementById('btn-import-sync-text').addEventListener('click', () => openSyncTextModal('import'));
-    document.getElementById('btn-sync-text-close').addEventListener('click', closeSyncTextModal);
-    document.getElementById('sync-text-modal-overlay').addEventListener('click', (e) => {
-      if (e.target.id === 'sync-text-modal-overlay') closeSyncTextModal();
+    // Sync Text Modal Event Listeners (delegation: walk up from e.target so text-node clicks work)
+    document.body.addEventListener('click', function(e) {
+      var t = e.target;
+      while (t && t !== document.body) {
+        if (t.id === 'btn-generate-sync-text') { openSyncTextModal('generate'); return; }
+        if (t.id === 'btn-import-sync-text') { openSyncTextModal('import'); return; }
+        t = t.parentElement;
+      }
     });
+    var syncOverlay = document.getElementById('sync-text-modal-overlay');
+    if (syncOverlay) {
+      syncOverlay.addEventListener('click', (e) => {
+        if (e.target.id === 'sync-text-modal-overlay') closeSyncTextModal();
+      });
+    }
+    var btnSyncTextClose = document.getElementById('btn-sync-text-close');
+    if (btnSyncTextClose) btnSyncTextClose.addEventListener('click', closeSyncTextModal);
     document.querySelectorAll('.sync-text-tab').forEach(tab => {
       tab.addEventListener('click', () => switchSyncTextTab(tab.dataset.tab));
     });
-    document.getElementById('btn-generate-sync-text-inner').addEventListener('click', generateSyncText);
-    document.getElementById('btn-import-sync-text-inner').addEventListener('click', importSyncText);
-    document.getElementById('btn-copy-sync-text').addEventListener('click', copySyncText);
-    document.getElementById('btn-download-sync-file').addEventListener('click', downloadSyncTextAsFile);
-    document.getElementById('btn-import-sync-file').addEventListener('click', () => document.getElementById('sync-file-import').click());
-    document.getElementById('sync-file-import').addEventListener('change', function() {
+    var btnGenInner = document.getElementById('btn-generate-sync-text-inner');
+    if (btnGenInner) btnGenInner.addEventListener('click', generateSyncText);
+    var btnImportInner = document.getElementById('btn-import-sync-text-inner');
+    if (btnImportInner) btnImportInner.addEventListener('click', importSyncText);
+    var btnCopy = document.getElementById('btn-copy-sync-text');
+    if (btnCopy) btnCopy.addEventListener('click', copySyncText);
+    var btnDownload = document.getElementById('btn-download-sync-file');
+    if (btnDownload) btnDownload.addEventListener('click', downloadSyncTextAsFile);
+    var btnImportFile = document.getElementById('btn-import-sync-file');
+    if (btnImportFile) btnImportFile.addEventListener('click', () => { var f = document.getElementById('sync-file-import'); if (f) f.click(); });
+    var syncFileImport = document.getElementById('sync-file-import');
+    if (syncFileImport) syncFileImport.addEventListener('change', function() {
       const file = this.files && this.files[0];
       this.value = '';
       if (!file) return;
@@ -8024,7 +8185,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       reader.onerror = () => showToast('读取文件失败');
       reader.readAsText(file, 'UTF-8');
     });
-    document.getElementById('file-import-data').addEventListener('change', function() {
+    var fileImportData = document.getElementById('file-import-data');
+    if (fileImportData) fileImportData.addEventListener('change', function() {
       const file = this.files && this.files[0];
       if (file) importDataFromFile(file);
       this.value = '';
@@ -8068,8 +8230,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const cur = await customPromptPin('输入当前 PIN 以关闭导入保护');
         if (cur === null) return;
         if (!(await verifyImportPin(cur))) { showToast('PIN 错误'); return; }
-        localStorage.removeItem(IMPORT_PIN_HASH_KEY);
-        localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
+        try { localStorage.removeItem(IMPORT_PIN_HASH_KEY); localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY); } catch (_) {}
+        if (_idb) idbDelete('importAllowedFingerprint').catch(function(e) { console.error('[disable import lock] IDB error', e); });
         updateImportLockUI();
         updateDeviceBindUI();
         showToast('已关闭导入保护');
@@ -8078,25 +8240,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (forceDisableBtn) forceDisableBtn.addEventListener('click', function() {
         customConfirm('忘记 PIN？将清除导入保护与设备绑定，确定强制关闭？').then(function(ok) {
           if (!ok) return;
-          localStorage.removeItem(IMPORT_PIN_HASH_KEY);
-          localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
+          try { localStorage.removeItem(IMPORT_PIN_HASH_KEY); localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY); } catch (_) {}
+          if (_idb) idbDelete('importAllowedFingerprint').catch(function(e) { console.error('[force disable] IDB error', e); });
           updateImportLockUI();
           updateDeviceBindUI();
           showToast('已关闭导入保护');
         });
       });
-      const bindBtn = document.getElementById('btn-device-bind');
-      const unbindBtn = document.getElementById('btn-device-unbind');
-      if (bindBtn) bindBtn.addEventListener('click', function() {
-        setImportAllowedFingerprintToThisDevice();
-        updateDeviceBindUI();
-        showToast('已绑定本机。请「一键保存」并推送到云端，其他设备将无法导入');
-      });
-      if (unbindBtn) unbindBtn.addEventListener('click', function() {
-        localStorage.removeItem(IMPORT_ALLOWED_FINGERPRINT_KEY);
-        updateDeviceBindUI();
-        showToast('已解除绑定。请「一键保存」并推送后，所有设备均可导入');
-      });
+      // 绑定本机 / 解除绑定 已由 storageSectionDelegation 委托处理
     })();
 
     (function initTheme() {
@@ -8134,6 +8285,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStartPracticeSelect();
       renderFolderSelects();
       updateCategoryFilter();
+      updateImportLockUI();
+      updateDeviceBindUI();
       if (typeof performance !== 'undefined' && performance.mark) {
         performance.mark('app-ready');
         try { performance.measure('app-init', 'app-start', 'app-ready'); } catch (_) {}
