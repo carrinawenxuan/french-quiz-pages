@@ -3134,6 +3134,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _currentStudyUnitFromBundle = null;
     const STUDY_UNITS_BUNDLE_KEY = 'french_quiz_study_units_bundle';
     const AI_API_KEY_STORAGE_KEY = 'french_quiz_ai_api_key';
+    function getStoredAiApiKey() { try { return (localStorage.getItem(AI_API_KEY_STORAGE_KEY) || '').trim(); } catch (_) { return ''; } }
     const _escapeDiv = document.createElement('div');
     const _wrongBookIdCache = new WeakMap();
     let _modalLastFocus = null;
@@ -6766,7 +6767,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return r.json();
         });
       }
-      function getStoredAiApiKey() { try { return (localStorage.getItem(AI_API_KEY_STORAGE_KEY) || '').trim(); } catch (_) { return ''; } }
       function apiPost(path, body) {
         var b = body && typeof body === 'object' ? { ...body } : {};
         if (/\/api\/ai\//.test(path)) b.apiKey = b.apiKey !== undefined ? b.apiKey : getStoredAiApiKey();
