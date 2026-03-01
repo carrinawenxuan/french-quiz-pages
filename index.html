@@ -2459,7 +2459,7 @@
         <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
         <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
           <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>（含习题集与各集记忆卡）。手机要看到同一份习题集与记忆卡：保存后执行下方命令推送，手机打开本页点「<strong>从云端加载</strong>」即可同步。</p>
-          <p class="storage-desc" style="margin-top:0.35rem; font-size:0.75rem;">数据量很大时，浏览器存储可能占满导致无法从云端加载。建议定期「生成同步文本」或导出备份，并删除不用的习题集。</p>
+          <p class="storage-desc" style="margin-top:0.35rem; font-size:0.75rem;">习题集与错题本以 IndexedDB 为主存储，数据再大也可从云端加载；建议仍定期导出备份。</p>
           <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件。手机可用「<strong>上传到 GitHub</strong>」把本地数据（含错题与备注）推送到同一仓库，电脑端再「从云端加载」即可同步。</p>
           <div class="import-lock-wrap" id="ai-api-key-wrap" style="margin-top:0.75rem;">
             <p class="import-lock-desc"><strong>AI API Key 设置</strong>（每人用自己的 Key，防止他人占用）：Key 仅保存在<strong>本机浏览器</strong>，仅在「生成讲解/题目/记忆卡」时随请求发送给当前站点服务端，用于转发到 AI 服务商；服务端<strong>不存储、不记录</strong>。请勿在他人或公共电脑上保存。</p>
@@ -3120,6 +3120,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const LETTERS = ['A', 'B', 'C', 'D'];
     const WRONG_BOOK_KEY = 'french_quiz_wrong';
     const SAVED_SETS_KEY = 'french_quiz_saved_sets';
+    /** localStorage 单键约 5–10MB 限制；超过此大小只写 IndexedDB，避免从云端加载后写入失败 */
+    const MAX_LOCALSTORAGE_PAYLOAD = 2 * 1024 * 1024;
     const FOLDERS_KEY = 'french_quiz_folders';
     const FOLDER_COLLAPSED_KEY = 'french_quiz_folder_collapsed';
     const FOLDER_SORT_KEY = 'french_quiz_folder_sort';
@@ -3267,36 +3269,49 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         return;
       }
 
-      // Prefer localStorage (written first on every save) so refresh never loses the latest; sync to IDB for capacity/backup
-      // savedSets
+      // 大数据以 IndexedDB 为主，避免 localStorage 超 5–10MB 导致无法从云端加载
+      // savedSets: 优先从 IDB 读，再回填小数据到 localStorage 以便无 IDB 时降级
       try {
-        var raw = localStorage.getItem(SAVED_SETS_KEY);
-        if (raw) {
-          _savedSetsCache = JSON.parse(raw);
+        var val = await idbGet('savedSets');
+        if (val !== undefined && Array.isArray(val)) {
+          _savedSetsCache = val;
           _savedSetsCacheDirty = false;
-          await idbSet('savedSets', _savedSetsCache);
+          var str = JSON.stringify(_savedSetsCache);
+          if (str.length <= MAX_LOCALSTORAGE_PAYLOAD) try { localStorage.setItem(SAVED_SETS_KEY, str); } catch (_) {}
         } else {
-          var val = await idbGet('savedSets');
-          _savedSetsCache = (val !== undefined && Array.isArray(val)) ? val : [];
-          _savedSetsCacheDirty = false;
-          try { localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(_savedSetsCache)); } catch (_) {}
+          var raw = localStorage.getItem(SAVED_SETS_KEY);
+          if (raw) {
+            _savedSetsCache = JSON.parse(raw);
+            _savedSetsCacheDirty = false;
+          } else {
+            _savedSetsCache = [];
+            _savedSetsCacheDirty = false;
+          }
+          await idbSet('savedSets', _savedSetsCache);
         }
       } catch (e) { console.warn('[initStorage] savedSets migration error', e); }
 
-      // wrongBook
+      // wrongBook: 同上，IDB 优先
       try {
-        raw = localStorage.getItem(WRONG_BOOK_KEY);
-        if (raw) {
-          _wrongBookCache = JSON.parse(raw);
+        val = await idbGet('wrongBook');
+        if (val !== undefined && Array.isArray(val)) {
+          _wrongBookCache = val;
           _wrongBookCacheDirty = false;
           _rebuildWrongBookIndex();
-          await idbSet('wrongBook', _wrongBookCache);
+          str = JSON.stringify(_wrongBookCache);
+          if (str.length <= MAX_LOCALSTORAGE_PAYLOAD) try { localStorage.setItem(WRONG_BOOK_KEY, str); } catch (_) {}
         } else {
-          val = await idbGet('wrongBook');
-          _wrongBookCache = (val !== undefined && Array.isArray(val)) ? val : [];
-          _wrongBookCacheDirty = false;
-          _rebuildWrongBookIndex();
-          try { localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(_wrongBookCache)); } catch (_) {}
+          raw = localStorage.getItem(WRONG_BOOK_KEY);
+          if (raw) {
+            _wrongBookCache = JSON.parse(raw);
+            _wrongBookCacheDirty = false;
+            _rebuildWrongBookIndex();
+          } else {
+            _wrongBookCache = [];
+            _wrongBookCacheDirty = false;
+            _rebuildWrongBookIndex();
+          }
+          await idbSet('wrongBook', _wrongBookCache);
         }
       } catch (e) { console.warn('[initStorage] wrongBook migration error', e); }
 
@@ -3870,17 +3885,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateWrongCount();
       renderSavedSets();
       updateStartPracticeSelect();
-      // 强制再写一遍 localStorage，确保「从云端加载」后刷新不丢（部分环境首次写入可能未落盘）
-      try {
-        localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(getSavedSets()));
-        localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(getWrongBook()));
-        if (_idb) {
-          idbSet('savedSets', getSavedSets()).catch(function(e) { console.error('[loadDataFromObject] idbSet savedSets', e); });
-          idbSet('wrongBook', getWrongBook()).catch(function(e) { console.error('[loadDataFromObject] idbSet wrongBook', e); });
-        }
-      } catch (e) {
-        console.error('[loadDataFromObject] force persist after load', e);
+      // 强制再写 IDB（大数据以 IDB 为主）；localStorage 仅在小数据时写入，避免超量
+      var sets = getSavedSets();
+      var wrong = getWrongBook();
+      if (_idb) {
+        idbSet('savedSets', sets).catch(function(e) { console.error('[loadDataFromObject] idbSet savedSets', e); });
+        idbSet('wrongBook', wrong).catch(function(e) { console.error('[loadDataFromObject] idbSet wrongBook', e); });
       }
+      try {
+        var setsStr = JSON.stringify(sets);
+        var wrongStr = JSON.stringify(wrong);
+        if (setsStr.length <= MAX_LOCALSTORAGE_PAYLOAD) localStorage.setItem(SAVED_SETS_KEY, setsStr);
+        else localStorage.removeItem(SAVED_SETS_KEY);
+        if (wrongStr.length <= MAX_LOCALSTORAGE_PAYLOAD) localStorage.setItem(WRONG_BOOK_KEY, wrongStr);
+        else localStorage.removeItem(WRONG_BOOK_KEY);
+      } catch (e) { console.error('[loadDataFromObject] force persist after load', e); }
     }
     async function loadFromCloud() {
       if (isImportLockEnabled() && !canImportOnThisDevice()) {
@@ -3916,17 +3935,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？' + sizeNote);
         if (!confirmed) return;
         loadDataFromObject(data);
-        // 延迟再写一次 localStorage + IDB，确保刷新后能读到（GitHub Pages 等环境首次写入可能未持久化）
+        // 延迟再写 IDB + 小数据时写 localStorage，确保刷新后能读到
         setTimeout(function() {
           try {
             var sets = getSavedSets();
             var wrong = getWrongBook();
-            localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(sets));
-            localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(wrong));
             if (_idb) {
               idbSet('savedSets', sets).catch(function(e) { console.error('[loadFromCloud] defer idbSet savedSets', e); });
               idbSet('wrongBook', wrong).catch(function(e) { console.error('[loadFromCloud] defer idbSet wrongBook', e); });
             }
+            var setsStr = JSON.stringify(sets);
+            var wrongStr = JSON.stringify(wrong);
+            if (setsStr.length <= MAX_LOCALSTORAGE_PAYLOAD) localStorage.setItem(SAVED_SETS_KEY, setsStr);
+            else try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
+            if (wrongStr.length <= MAX_LOCALSTORAGE_PAYLOAD) localStorage.setItem(WRONG_BOOK_KEY, wrongStr);
+            else try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
           } catch (e) { console.error('[loadFromCloud] defer persist', e); }
         }, 100);
         var setCount = data.savedSets && data.savedSets.length ? data.savedSets.length : 0;
@@ -4135,13 +4158,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function setSavedSets(arr) {
       _savedSetsCache = arr;
       _savedSetsCacheDirty = false;
-      try {
-        localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
-      } catch (e) {
-        if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
-          showToast('存储已满，数据可能未完全保存。请删除不用的习题集或导出备份后清空再试');
+      var payload = JSON.stringify(arr);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(SAVED_SETS_KEY, payload); } catch (e) {
+          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) showToast('存储已满，请删除不用的习题集或导出备份后清空再试');
+          console.error('[setSavedSets] localStorage error', e);
         }
-        console.error('[setSavedSets] localStorage error', e);
+      } else {
+        try { localStorage.removeItem(SAVED_SETS_KEY); } catch (_) {}
       }
       if (_idb) {
         idbSet('savedSets', arr).catch(function(e) {
@@ -5121,13 +5145,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       _wrongBookCache = arr;
       _wrongBookCacheDirty = false;
       _rebuildWrongBookIndex();
-      try {
-        localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(arr));
-      } catch (e) {
-        if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
-          showToast('存储空间不足，错题本可能未保存');
+      var payload = JSON.stringify(arr);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(WRONG_BOOK_KEY, payload); } catch (e) {
+          if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) showToast('存储已满，错题本可能未完全保存，请导出备份或清理后重试');
+          console.error('[setWrongBook] localStorage error', e);
         }
-        console.error('[setWrongBook] localStorage error', e);
+      } else {
+        try { localStorage.removeItem(WRONG_BOOK_KEY); } catch (_) {}
       }
       if (_idb) {
         idbSet('wrongBook', arr).catch(function(e) {
