@@ -7132,15 +7132,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           const set = sets.find(s => String(s.id) === String(importTarget.setId));
           if (!set) { closeImportJsonModal(); window._flashcardImportTarget = null; return; }
           if (!Array.isArray(set.cards)) set.cards = [];
-          const existingKeys = new Set(set.cards.map(c => cardKey(c.front, c.back)));
+          const setCardKeys = new Set(set.cards.map(c => cardKey(c.front, c.back)));
           let added = 0, skipped = 0;
           arr.forEach(item => {
             if (!item || (item.front == null && item.back == null)) return;
             const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
             const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
             const key = cardKey(front, back);
-            if (existingKeys.has(key)) { skipped++; return; }
-            existingKeys.add(key);
+            if (setCardKeys.has(key)) { skipped++; return; }
+            setCardKeys.add(key);
             set.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
             added++;
           });
@@ -7158,15 +7158,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         const deck = decks.find(d => String(d.id) === String(_flashcardCurrentDeckId));
         if (!deck) { closeImportJsonModal(); return; }
         if (!deck.cards) deck.cards = [];
-        const existingKeys = new Set(deck.cards.map(c => cardKey(c.front, c.back)));
+        const deckCardKeys = new Set(deck.cards.map(c => cardKey(c.front, c.back)));
         let added = 0, skipped = 0;
         arr.forEach(item => {
           if (!item || (item.front == null && item.back == null)) return;
           const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
           const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
           const key = cardKey(front, back);
-          if (existingKeys.has(key)) { skipped++; return; }
-          existingKeys.add(key);
+          if (deckCardKeys.has(key)) { skipped++; return; }
+          deckCardKeys.add(key);
           deck.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
           added++;
         });
