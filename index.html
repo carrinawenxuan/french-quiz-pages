@@ -4696,10 +4696,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       window._appendFromHome = false;
       var homeRow = document.getElementById('edit-set-append-from-home-row');
       if (homeRow) homeRow.style.display = 'none';
+      var textEl = document.getElementById('edit-set-append-modal-text');
+      if (textEl) textEl.value = '';
       const overlay = document.getElementById('edit-set-append-overlay');
       if (overlay) { overlay.classList.add('show'); overlay.style.display = 'flex'; setModalFocusTrap(overlay); }
-      const el = document.getElementById('edit-set-append-modal-text');
-      if (el) el.focus();
+      if (textEl) textEl.focus();
     }
     function openEditSetAppendOverlayFromHome() {
       window._appendFromHome = true;
@@ -4715,6 +4716,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       window._appendFromHome = false;
       var homeRow = document.getElementById('edit-set-append-from-home-row');
       if (homeRow) homeRow.style.display = 'none';
+      var textEl = document.getElementById('edit-set-append-modal-text');
+      if (textEl) textEl.value = '';
       const overlay = document.getElementById('edit-set-append-overlay');
       if (overlay) { overlay.classList.remove('show'); overlay.style.display = ''; clearModalFocusTrap(); }
     }
@@ -4889,8 +4892,35 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       a.click();
       URL.revokeObjectURL(a.href);
     }
+    function looksLikeFlashcardImportArray(arr) {
+      if (!Array.isArray(arr) || arr.length === 0) return false;
+      function isFlashLike(obj) {
+        if (!obj || typeof obj !== 'object') return false;
+        const hasFrontBack =
+          (typeof obj.front === 'string' && obj.front.trim().length > 0) ||
+          (typeof obj.back === 'string' && obj.back.trim().length > 0);
+        const hasQuestionFields =
+          (obj.stem && String(obj.stem).trim().length > 0) ||
+          (Array.isArray(obj.options) && obj.options.length > 0) ||
+          obj.correct != null ||
+          (obj.type && String(obj.type).trim().length > 0) ||
+          (obj.category && String(obj.category).trim().length > 0);
+        return hasFrontBack && !hasQuestionFields;
+      }
+      let checked = 0;
+      let flashLike = 0;
+      for (let i = 0; i < arr.length && checked < 5; i++) {
+        checked++;
+        if (isFlashLike(arr[i])) flashLike++;
+      }
+      if (checked === 0) return false;
+      return flashLike > 0 && flashLike >= Math.ceil(checked * 0.6);
+    }
     function appendToEditSetModal(pastedText) {
-      if (_editingSetId == null) return;
+      if (_editingSetId == null) {
+        showToast('当前未在编辑习题集，请从「我的习题集」进入编辑后再追加');
+        return;
+      }
       const text = (pastedText != null ? pastedText : (document.getElementById('edit-set-append-text') || {}).value || '').trim();
       if (!text) {
         showToast('请先粘贴要追加的题目（JSON 或含题型/选项的文本）');
@@ -7272,31 +7302,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     })();
     } catch (e) { console.error('[french-quiz] initFlashcards', e); }
-
-    function looksLikeFlashcardImportArray(arr) {
-      if (!Array.isArray(arr) || arr.length === 0) return false;
-      function isFlashLike(obj) {
-        if (!obj || typeof obj !== 'object') return false;
-        const hasFrontBack =
-          (typeof obj.front === 'string' && obj.front.trim().length > 0) ||
-          (typeof obj.back === 'string' && obj.back.trim().length > 0);
-        const hasQuestionFields =
-          (obj.stem && String(obj.stem).trim().length > 0) ||
-          (Array.isArray(obj.options) && obj.options.length > 0) ||
-          obj.correct != null ||
-          (obj.type && String(obj.type).trim().length > 0) ||
-          (obj.category && String(obj.category).trim().length > 0);
-        return hasFrontBack && !hasQuestionFields;
-      }
-      let checked = 0;
-      let flashLike = 0;
-      for (let i = 0; i < arr.length && checked < 5; i++) {
-        checked++;
-        if (isFlashLike(arr[i])) flashLike++;
-      }
-      if (checked === 0) return false;
-      return flashLike > 0 && flashLike >= Math.ceil(checked * 0.6);
-    }
 
     try {
     var _btnParse = document.getElementById('btn-import-parse');

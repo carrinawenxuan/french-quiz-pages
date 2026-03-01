@@ -1,6 +1,772 @@
 {
   "savedSets": [
     {
+      "id": 1772346329309,
+      "name": "A1阶段五时态总复习",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T06:25:29.309Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ français tous les jours.",
+          "options": [
+            "parle",
+            "parlons",
+            "parlent",
+            "parlez"
+          ],
+          "correct": 1,
+          "explanation": "主语 nous，第一组动词 parler 现在时变位：nous parlons。-ons 是 nous 的固定词尾。",
+          "category": "Présent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ______ tes devoirs maintenant.",
+          "options": [
+            "fais",
+            "fait",
+            "faites",
+            "font"
+          ],
+          "correct": 0,
+          "explanation": "主语 tu，faire 现在时：tu fais。注意 fait 是 il 的形式，faites 是 vous 的形式。",
+          "category": "Présent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ______ au cinéma ce soir.",
+          "options": [
+            "va",
+            "vais",
+            "allons",
+            "vont"
+          ],
+          "correct": 3,
+          "explanation": "主语 elles（三人称复数），aller 现在时：elles vont。va 是 il/elle 单数形式。",
+          "category": "Présent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ une grande maison.",
+          "options": [
+            "avons",
+            "avez",
+            "ont",
+            "as"
+          ],
+          "correct": 1,
+          "explanation": "主语 vous，avoir 现在时：vous avez。avons 是 nous，ont 是 ils，as 是 tu。",
+          "category": "Présent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On ______ souvent au restaurant le week-end.",
+          "options": [
+            "mangeons",
+            "manges",
+            "mange",
+            "mangent"
+          ],
+          "correct": 2,
+          "explanation": "on 的变位永远和 il/elle 一致。manger 现在时第三人称单数：mange。",
+          "category": "Présent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention ! Tu ______ tomber !",
+          "options": [
+            "va",
+            "vas",
+            "vais",
+            "allez"
+          ],
+          "correct": 1,
+          "explanation": "Futur proche：aller（现在时）+ inf.。主语 tu，aller 变位：tu vas。va 是 il/elle 的形式。",
+          "category": "Futur Proche"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ déménager le mois prochain.",
+          "options": [
+            "allons",
+            "allez",
+            "vont",
+            "va"
+          ],
+          "correct": 0,
+          "explanation": "主语 nous，aller 现在时：nous allons + déménager = 最近将来时。",
+          "category": "Futur Proche"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne ______ pas sortir ce soir.",
+          "options": [
+            "va",
+            "vais",
+            "vas",
+            "vont"
+          ],
+          "correct": 1,
+          "explanation": "主语 je，否定形式：ne + vais + pas + sortir。ne...pas 包裹 aller 的变位形式。",
+          "category": "Futur Proche"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ de téléphoner à sa mère.",
+          "options": [
+            "viens",
+            "vient",
+            "venons",
+            "viennent"
+          ],
+          "correct": 1,
+          "explanation": "Passé récent：venir（现在时）+ de + inf.。主语 elle，venir 变位：elle vient。viens 是 je/tu 的形式。",
+          "category": "Passé Récent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ______ d'arriver à la gare.",
+          "options": [
+            "vient",
+            "venez",
+            "viennent",
+            "venons"
+          ],
+          "correct": 2,
+          "explanation": "主语 ils，venir 现在时：ils viennent。注意双 n + ent。vient 是单数形式。",
+          "category": "Passé Récent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu veux un café ?\n— Non merci, je ______ d'en prendre un.",
+          "options": [
+            "vient",
+            "viens",
+            "venons",
+            "viennent"
+          ],
+          "correct": 1,
+          "explanation": "主语 je，venir 现在时：je viens de + inf.。语境：刚喝完咖啡所以拒绝，符合 passé récent 的\"刚刚\"含义。",
+          "category": "Passé Récent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ de finir l'examen.",
+          "options": [
+            "venez",
+            "venons",
+            "viennent",
+            "viens"
+          ],
+          "correct": 1,
+          "explanation": "主语 nous，venir 现在时：nous venons de + inf.。",
+          "category": "Passé Récent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, j'______ un film au cinéma.",
+          "options": [
+            "ai regardé",
+            "regarde",
+            "regardais",
+            "vais regarder"
+          ],
+          "correct": 0,
+          "explanation": "hier 是明确的过去时间点 + 看电影是一次性已完成动作 → passé composé。regarder 用 avoir：j'ai regardé。",
+          "category": "Passé Composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ à Paris la semaine dernière.",
+          "options": [
+            "est allée",
+            "a allé",
+            "va aller",
+            "allait"
+          ],
+          "correct": 0,
+          "explanation": "aller 用 être 作助动词。主语 elle（阴性）→ 过去分词加 e：est allée。a allé 是错误的助动词选择。",
+          "category": "Passé Composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ une lettre à notre professeur.",
+          "options": [
+            "avons écrit",
+            "avons écris",
+            "sommes écrit",
+            "avons écrire"
+          ],
+          "correct": 0,
+          "explanation": "écrire 的过去分词是 écrit（不是 écris）。écrire 不是位移动词，用 avoir：nous avons écrit。",
+          "category": "Passé Composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ______ à 6 heures ce matin.",
+          "options": [
+            "se sont levés",
+            "se sont levé",
+            "s'ont levés",
+            "sont se levés"
+          ],
+          "correct": 0,
+          "explanation": "se lever 是代词式动词，用 être。主语 ils（阳性复数）→ 过去分词加 s：se sont levés。代词式动词结构：主语 + se + être + p.p.。",
+          "category": "Passé Composé"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/166GVSu6R5c923B-CbHxlZuYKc2onluox6Vo-8GhyPeM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1772345868354,
+      "name": "课件1 Une journée importante à la fac课文讲解",
+      "folderId": "1772343771085",
+      "createdAt": "2026-03-01T06:17:48.354Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Ce matin, je me _____ à six heures.",
+          "options": [
+            "réveille",
+            "réveillais",
+            "suis réveillé",
+            "vais réveiller"
+          ],
+          "correct": 0,
+          "explanation": "叙述今天早上此刻的动作，用现在时。réveiller 是第一组动词，je 形式去 -er 加 -e。",
+          "category": "时态选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais étudiant, je me _____ toujours très tôt.",
+          "options": [
+            "lève",
+            "levais",
+            "suis levé",
+            "vais lever"
+          ],
+          "correct": 1,
+          "explanation": "quand j'étais + toujours 双重信号 → 过去的习惯性动作，必须用 imparfait。se lever → je me levais。",
+          "category": "PC vs Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, je _____ à l'université.",
+          "options": [
+            "vais",
+            "allais",
+            "suis allé",
+            "viens d'aller"
+          ],
+          "correct": 2,
+          "explanation": "hier 明确标记过去的一次性事件 → passé composé。aller 用 être 做助动词：je suis allé。",
+          "category": "PC vs Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pendant l'examen, tout _____ bien.",
+          "options": [
+            "s'est passé",
+            "se passait",
+            "se passe",
+            "va se passer"
+          ],
+          "correct": 1,
+          "explanation": "pendant l'examen 描述考试进行中的背景状态，不是点状事件 → imparfait。se passer → se passait。",
+          "category": "PC vs Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce matin, je _____ recevoir les résultats.",
+          "options": [
+            "vais",
+            "viens de",
+            "ai",
+            "suis"
+          ],
+          "correct": 1,
+          "explanation": "「刚刚收到」→ passé récent = venir de + infinitif。je viens de recevoir。",
+          "category": "最近过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce soir, je _____ célébrer avec mes amis.",
+          "options": [
+            "célèbre",
+            "célébrais",
+            "ai célébré",
+            "vais célébrer"
+          ],
+          "correct": 3,
+          "explanation": "ce soir 表示近期计划 → futur proche = aller + infinitif。je vais célébrer。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ un examen important hier.",
+          "options": [
+            "ai passé",
+            "passais",
+            "passe",
+            "vais passer"
+          ],
+          "correct": 0,
+          "explanation": "hier + 一次性完成的事件 → passé composé。passer 用 avoir：j'ai passé。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Passer un examen » signifie :",
+          "options": [
+            "réussir un examen",
+            "échouer à un examen",
+            "participer à un examen",
+            "préparer un examen"
+          ],
+          "correct": 2,
+          "explanation": "passer un examen = 参加考试，不等于通过（réussir）或失败（échouer）。TCF 经典陷阱！",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子应该使用 imparfait？",
+          "options": [
+            "Quand j'étais petit, je jouais dehors.",
+            "Hier, j'ai mangé une pizza.",
+            "Il faisait beau pendant les vacances.",
+            "Ce matin, je suis parti à 8h."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "选项A有 quand j'étais + 习惯动作，选项C是过去的背景天气描写，都用 imparfait。B和D是一次性完成事件 → PC。",
+          "category": "PC vs Imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce soir, nous _____ (aller) tous manger ensemble.",
+          "correct": [
+            "allons"
+          ],
+          "explanation": "futur proche 结构：主语 + aller 现在时变位 + 动词原形。nous → allons。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, je _____ (aller) à la fac et j'_____ (passer) un examen. Pendant l'examen, je _____ (répondre) aux questions avec confiance.",
+          "correct": [
+            "suis allé",
+            "ai passé",
+            "répondais"
+          ],
+          "explanation": "前两空是昨天完成的事件 → PC（aller 用 être，passer 用 avoir）；第三空是考试过程中持续的动作/背景 → imparfait。",
+          "category": "时态综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/13zJdc4hf5oMp974UhvBF5sHynhS7s24xKPSzpaWsWdE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772345864693-spyg34oeqvi",
+          "front": "se réveiller 现在时 je",
+          "back": "je me réveille\n代词式动词：se + 动词，je 形式 me 在动词前"
+        },
+        {
+          "id": "1772345864693-m97zuvv4cw",
+          "front": "se lever imparfait je",
+          "back": "je me levais\nimparfait 词干：lev- + ais"
+        },
+        {
+          "id": "1772345864693-uo2yasblxxa",
+          "front": "aller 的 passé composé (je)",
+          "back": "je suis allé(e)\n⚠️ aller 用 être 做助动词，过去分词跟主语性数配合"
+        },
+        {
+          "id": "1772345864693-1ws74q9h2v3",
+          "front": "passer un examen 是什么意思？",
+          "back": "参加考试（不是通过考试！）\n通过考试 = réussir un examen"
+        },
+        {
+          "id": "1772345864693-zo56ft78kk",
+          "front": "venir de + inf. 表示什么？",
+          "back": "最近过去时（passé récent）\n= 刚刚做了某事\n例：je viens de recevoir = 我刚收到"
+        },
+        {
+          "id": "1772345864693-dvepighftd4",
+          "front": "aller + inf. 表示什么？",
+          "back": "最近将来时（futur proche）\n= 打算/将要做某事\n例：je vais célébrer = 我要去庆祝"
+        },
+        {
+          "id": "1772345864693-0r3cbtnugler",
+          "front": "PC vs Imparfait：Hier j'ai passé un examen. Tout se passait bien.",
+          "back": "ai passé → PC：昨天考试（完成的事件）\nse passait → Imparfait：一切顺利（进行中的背景）\n事件用PC，背景用Imparfait"
+        },
+        {
+          "id": "1772345864693-tfjebhrfqko",
+          "front": "Imparfait 信号词有哪些？",
+          "back": "toujours, souvent, chaque jour, d'habitude\nquand j'étais..., pendant que...\n→ 看到这些词，90% 选 imparfait"
+        },
+        {
+          "id": "1772345864693-1ic6230r53u",
+          "front": "se passer imparfait il",
+          "back": "tout se passait\nimparfait 词干取 nous 现在时去 -ons：passons → pass- + ait"
+        },
+        {
+          "id": "1772345864693-q6zfaeftf6l",
+          "front": "aller en boîte",
+          "back": "去夜店（口语）\nboîte = boîte de nuit 的缩写\n例：Ce soir, on va en boîte !"
+        },
+        {
+          "id": "1772345864693-5d91q9x152d",
+          "front": "resto",
+          "back": "= restaurant（口语缩写）\n例：On mange au resto ce soir."
+        },
+        {
+          "id": "1772345864693-sy3d4tsplql",
+          "front": "代词式动词 passé composé 用什么助动词？",
+          "back": "永远用 être！\nje me suis réveillé(e)\nil s'est levé / elle s'est levée\n过去分词与主语性数配合"
+        }
+      ]
+    },
+    {
+      "id": 1772343854631,
+      "name": "课件1 Titanic：Passé Composé vs Imparfait 课文讲解",
+      "folderId": "1772343771085",
+      "createdAt": "2026-03-01T05:44:14.631Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "C'_____ en avril 1912.",
+          "options": [
+            "a été",
+            "était",
+            "est été",
+            "fut été"
+          ],
+          "correct": 1,
+          "explanation": "设定时间背景，描述\"那是……的时候\"，用 imparfait。c'était + 时间 是固定用法。",
+          "category": "imparfait - 时间背景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ froid et sombre cette nuit-là.",
+          "options": [
+            "a fait",
+            "faisait",
+            "fait",
+            "avait fait"
+          ],
+          "correct": 1,
+          "explanation": "描述天气状况属于背景描写，用 imparfait。Il faisait + 天气形容词 是 TCF 送分搭配。",
+          "category": "imparfait - 天气"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Jack _____ dans l'eau, tandis que Rose se reposait sur une planche.",
+          "options": [
+            "a été",
+            "était",
+            "est été",
+            "fut"
+          ],
+          "correct": 1,
+          "explanation": "tandis que 连接两个同时发生的持续状态，两边都用 imparfait。Jack 在水中是位置状态描述。",
+          "category": "imparfait - 同时状态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ pendant des heures.",
+          "options": [
+            "parlés",
+            "parlées",
+            "parlé",
+            "parler"
+          ],
+          "correct": 2,
+          "explanation": "se parler = parler à quelqu'un，是间接代词动词（COI），过去分词不做性数配合。所以 parlé 不加 s。",
+          "category": "代词式动词 - 过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Puis, Rose s'est _____.",
+          "options": [
+            "endormi",
+            "endormie",
+            "endormis",
+            "endormies"
+          ],
+          "correct": 1,
+          "explanation": "s'endormir 是直接代词式动词，过去分词要跟主语性数配合。Rose 是阴性单数，所以加 -e → endormie。",
+          "category": "代词式动词 - 过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les secours _____ un peu trop tard.",
+          "options": [
+            "ont arrivé",
+            "sont arrivés",
+            "sont arrivées",
+            "est arrivé"
+          ],
+          "correct": 1,
+          "explanation": "arriver 用 être 做助动词。les secours 是阳性复数，过去分词加 -s → arrivés。",
+          "category": "être 助动词 + 配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Jack _____ dans l'océan Atlantique.",
+          "options": [
+            "s'est noyé",
+            "s'est noyée",
+            "se noyait",
+            "s'a noyé"
+          ],
+          "correct": 0,
+          "explanation": "溺亡是一次性完成事件，用 passé composé。Jack 阳性 → noyé 不加 e。代词式动词永远用 être，不用 avoir，所以 s'a noyé 是错的。",
+          "category": "passé composé - 事件"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Rose _____ à vivre sans lui après le naufrage.",
+          "options": [
+            "continuait",
+            "a continué",
+            "continue",
+            "avait continué"
+          ],
+          "correct": 1,
+          "explanation": "这里是在叙述 Rose 人生中发生的一系列事件（时间线推进），不是描述习惯，所以用 passé composé。",
+          "category": "passé composé - 叙事推进"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ souvent triste après la mort de Jack.",
+          "options": [
+            "a été",
+            "était",
+            "est été",
+            "fut"
+          ],
+          "correct": 1,
+          "explanation": "souvent 表示反复/习惯性的状态，加上 triste 是情感描述，双重理由用 imparfait。",
+          "category": "imparfait - 习惯 + 状态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ amoureuse de Jack jusqu'à la fin de sa vie.",
+          "options": [
+            "resté",
+            "restée",
+            "restés",
+            "restées"
+          ],
+          "correct": 1,
+          "explanation": "rester 用 être 助动词，过去分词跟主语 elle（阴性单数）配合 → restée。",
+          "category": "être 助动词 + 配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand je _____ petit, je _____ au parc tous les jours.",
+          "options": [
+            "étais / allais",
+            "ai été / suis allé",
+            "étais / suis allé",
+            "ai été / allais"
+          ],
+          "correct": 0,
+          "explanation": "quand j'étais petit = 过去的持续背景（imparfait）；tous les jours = 习惯性动作（imparfait）。两个都用 imparfait。",
+          "category": "imparfait - 背景 + 习惯"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, il _____ beau et nous _____ au cinéma.",
+          "options": [
+            "faisait / sommes allés",
+            "a fait / allions",
+            "faisait / allions",
+            "a fait / sommes allés"
+          ],
+          "correct": 0,
+          "explanation": "天气是背景（imparfait: faisait）；去电影院是一个具体完成的事件（passé composé: sommes allés）。这就是经典的\"背景 + 事件\"搭配。",
+          "category": "imparfait + passé composé 混用"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词在 passé composé 中用 être 做助动词？",
+          "options": [
+            "arriver",
+            "parler",
+            "rester",
+            "finir"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "arriver 和 rester 属于 être 助动词动词（DR MRS VANDERTRAMP）。parler 和 finir 用 avoir。",
+          "category": "être vs avoir 助动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles se sont _____ (parler) au téléphone hier soir.",
+          "correct": [
+            "parlé"
+          ],
+          "explanation": "se parler = parler à quelqu'un，间接代词式动词，过去分词不配合，即使主语是阴性复数也不加 -es。",
+          "category": "代词式动词 - 间接"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce matin, il _____ (faire) beau. Marie _____ (se promener) dans le parc quand soudain elle _____ (voir) un vieil ami. Ils _____ (se parler) pendant une heure.",
+          "correct": [
+            "faisait",
+            "se promenait",
+            "a vu",
+            "se sont parlé"
+          ],
+          "explanation": "faisait: 天气背景 → imparfait；se promenait: 正在进行的动作 → imparfait；a vu: soudain 引发的突发事件 → passé composé；se sont parlé: 有时间框 pendant une heure 的完成事件 → passé composé，且间接动词不配合。",
+          "category": "综合 - imparfait vs passé composé"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1dCB4qs7pvEU5c91vXHiC6gOL1PgaQG3W8kjWMtrUEk0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772343898422-kjpi2is9e1c",
+          "front": "Imparfait 的核心功能是什么？",
+          "back": "描述过去的背景、状态、持续动作、习惯。\n相当于舞台布景，镜头静止或缓慢移动。"
+        },
+        {
+          "id": "1772343898422-8l5uju2aalk",
+          "front": "Passé composé 的核心功能是什么？",
+          "back": "叙述过去发生的具体事件、完成的动作。\n相当于电影剪辑点，咔嚓一下，事情发生了。"
+        },
+        {
+          "id": "1772343898422-ru0wuyjmd9",
+          "front": "c'était + 时间/地点\n用什么时态？",
+          "back": "Imparfait。\n设定时间或地点背景。\n例：C'était en avril 1912."
+        },
+        {
+          "id": "1772343898422-ocuu3ijbyg",
+          "front": "Il faisait + 天气形容词\n用什么时态？",
+          "back": "Imparfait。\n天气是持续的背景描写。\n例：Il faisait froid et sombre."
+        },
+        {
+          "id": "1772343898422-04uo7vdop21s",
+          "front": "tandis que / pendant que / alors que\n后面通常跟什么时态？",
+          "back": "Imparfait。\n表示两个同时进行的状态或持续动作。\n例：Jack était dans l'eau, tandis que Rose se reposait."
+        },
+        {
+          "id": "1772343898422-n44la4rr05",
+          "front": "puis / ensuite / soudain\n后面通常跟什么时态？",
+          "back": "Passé composé。\n时间推进词引出下一个具体事件。\n例：Puis, Rose s'est endormie."
+        },
+        {
+          "id": "1772343898422-vpuwc6hwong",
+          "front": "souvent / toujours / d'habitude / chaque jour\n后面通常跟什么时态？",
+          "back": "Imparfait。\n表示过去的习惯性或反复性动作/状态。\n例：Elle était souvent triste."
+        },
+        {
+          "id": "1772343898422-w2v2d3km6s",
+          "front": "pendant + 时间段（如 pendant des heures）\n搭配什么时态？",
+          "back": "Passé composé。\n时间段给了一个明确框架，说明事件从开始到结束是完整的。\n例：Ils se sont parlé pendant des heures."
+        },
+        {
+          "id": "1772343898422-ju4kriei46",
+          "front": "jusqu'à + 终点\n搭配什么时态？",
+          "back": "Passé composé。\n有明确终点 = 完成的事实。\n例：Elle est restée amoureuse jusqu'à la fin de sa vie."
+        },
+        {
+          "id": "1772343898422-e8jfu9y88mq",
+          "front": "se parler 的 passé composé\n过去分词要配合吗？",
+          "back": "不配合！\nse parler = parler à qn（间接代词动词，COI）。\n正确：Ils se sont parlé ✓\n错误：Ils se sont parlés ✗"
+        },
+        {
+          "id": "1772343898422-9ul984czdbn",
+          "front": "s'endormir 的 passé composé\n过去分词要配合吗？",
+          "back": "要配合！\ns'endormir 是直接代词式动词，过去分词跟主语性数配合。\nRose s'est endormie（加 -e）\nIls se sont endormis（加 -s）"
+        },
+        {
+          "id": "1772343898422-ub38p3dr6wj",
+          "front": "arriver 的 passé composé\n用 avoir 还是 être？",
+          "back": "用 être。\narriver 属于 DR MRS VANDERTRAMP 家族。\n过去分词跟主语配合。\n例：Les secours sont arrivés."
+        },
+        {
+          "id": "1772343898422-uo7f06lgz4q",
+          "front": "rester 的 passé composé\n用 avoir 还是 être？",
+          "back": "用 être。\n过去分词跟主语配合。\n例：Elle est restée amoureuse.（阴性加 -e）"
+        },
+        {
+          "id": "1772343898422-4je1cnrj8y",
+          "front": "se noyer 的 passé composé 怎么写？\n（以 Jack 为主语）",
+          "back": "Jack s'est noyé.\n代词式动词永远用 être，不用 avoir。\n阳性不加 -e。\n⚠ s'a noyé 是绝对错误的。"
+        },
+        {
+          "id": "1772343898422-pthw6gvjafd",
+          "front": "continuer 在叙事中用什么时态？",
+          "back": "看语境！\n叙事推进（一系列事件）→ Passé composé\n例：Rose a continué à vivre sans lui.\n描述习惯 → Imparfait\n例：Il continuait à travailler chaque jour."
+        },
+        {
+          "id": "1772343898422-3xid58xf757",
+          "front": "continuer à + inf. 是什么意思？",
+          "back": "继续做某事。\n例：Elle a continué à vivre sans lui.\n= 她继续没有他地活下去。"
+        },
+        {
+          "id": "1772343898422-yos8ef06q1a",
+          "front": "代词式动词 passé composé 配合规则\n（一句话总结）",
+          "back": "直接代词（COD在前）→ 配合主语性数\n间接代词（COI）→ 不配合\n判断方法：看动词原本是 + qn 还是 + à qn"
+        },
+        {
+          "id": "1772343898422-h2bx9h4s309",
+          "front": "判断 imparfait 还是 passé composé\n的万能问题",
+          "back": "问自己：这是“舞台布景”还是“演员做的事”？\n布景（背景/状态/天气/习惯）→ Imparfait\n演员的动作（事件/完成/推进）→ Passé composé"
+        },
+        {
+          "id": "1772343898422-ylu46vxka8",
+          "front": "être 助动词动词清单\n（助记：DR MRS VANDERTRAMP）",
+          "back": "Devenir, Revenir, Monter, Rester, Sortir,\nVenir, Aller, Naître, Descendre, Entrer,\nRetourner, Tomber, Rentrer, Arriver, Mourir, Partir\n+ 所有代词式动词"
+        },
+        {
+          "id": "1772343898422-iqf4fmqfzj",
+          "front": "en pensant à 是什么语法？",
+          "back": "副动词（gérondif）= en + 现在分词。\n表示方式、同时进行。\n例：Elle est restée amoureuse en pensant à Jack.\n= 她一边想着 Jack 一边保持着爱意。"
+        },
+        {
+          "id": "1772343898422-n5n5ybe6vu",
+          "front": "se reposer 是什么意思？\nimparfait 形式？",
+          "back": "休息（代词式动词）。\nimparfait: je me reposais, il/elle se reposait\n例：Rose se reposait sur une planche de bois."
+        },
+        {
+          "id": "1772343898422-vohv1h5eu7",
+          "front": "les secours 是什么意思？\n阴性还是阳性？",
+          "back": "救援（队）/ 急救。\n阳性复数名词（永远复数形式）。\n例：Les secours sont arrivés trop tard."
+        },
+        {
+          "id": "1772343898422-ib13nylkiz",
+          "front": "se noyer vs noyer qn\n区别是什么？",
+          "back": "se noyer = 溺水、溺亡（自己）\nnoyer qn = 淹死某人（及物，他人）\n例：Jack s'est noyé. / La tempête a noyé le village."
+        }
+      ]
+    },
+    {
       "id": 1772341543392,
       "name": "未完成过去时 (Imparfait) vs 复合过去时 (Passé composé)",
       "folderId": "1770593095506",
@@ -56744,7 +57510,7 @@
     },
     {
       "id": "1770593095506",
-      "name": "语法"
+      "name": "A1语法"
     },
     {
       "id": "1770604921596",
@@ -56765,6 +57531,14 @@
     {
       "id": "1771907837913",
       "name": "Conjugaison训练"
+    },
+    {
+      "id": "1772343771085",
+      "name": "A2课文"
+    },
+    {
+      "id": "1772343782185",
+      "name": "A2词汇"
     }
   ],
   "wrongBook": [
@@ -56836,6 +57610,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-01T05:06:56.524Z",
+  "exportedAt": "2026-03-01T06:32:07.487Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
