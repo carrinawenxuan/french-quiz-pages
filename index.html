@@ -4515,10 +4515,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _editingSetId = null;
     let _editModalPastedImages = [];
     let _importPastedImages = [];
-    /** 首页首次导入：待合并的记忆卡（与主文本框一起在「解析并开始」时写入新习题集） */
-    let _pendingImportCards = [];
-    /** 首页首次导入：待合并的追加题目（与主文本框一起在「解析并开始」时写入新习题集） */
-    let _pendingAppendQuestions = [];
+    /** 首页首次导入：待合并的记忆卡（与主文本框一起在「解析并开始」时写入新习题集），挂到 window 避免 IIFE 闭包取不到 */
+    window._pendingImportCards = [];
+    /** 首页首次导入：待合并的追加题目，挂到 window 避免 IIFE 闭包取不到 */
+    window._pendingAppendQuestions = [];
     function isDataImageUrl(s) { return typeof s === 'string' && /^data:image\//i.test(s.trim()); }
     function isLikelyUrl(str) {
       const s = (str || '').trim();
@@ -6499,8 +6499,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       el('import-set-description');
       el('import-review-urls');
       _importPastedImages = [];
-      _pendingImportCards = [];
-      _pendingAppendQuestions = [];
+      window._pendingImportCards = [];
+      window._pendingAppendQuestions = [];
       renderImportPastedImages();
     }
     $('btn-import-show').addEventListener('click', async () => {
@@ -7099,7 +7099,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
         if (window._flashcardImportFromHome && !window._flashcardImportTarget) {
           function cardKey(f, b) { return (f || '').trim() + '\x00' + (b || '').trim(); }
-          var existingKeys = new Set((typeof _pendingImportCards !== 'undefined' ? _pendingImportCards : []).map(function(c) { return cardKey(c.front, c.back); }));
+          var pending = window._pendingImportCards || [];
+          var existingKeys = new Set(pending.map(function(c) { return cardKey(c.front, c.back); }));
           var added = 0, skipped = 0;
           arr.forEach(function(item) {
             if (!item || (item.front == null && item.back == null)) return;
@@ -7108,8 +7109,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
             var key = cardKey(front, back);
             if (existingKeys.has(key)) { skipped++; return; }
             existingKeys.add(key);
-            if (typeof _pendingImportCards === 'undefined') _pendingImportCards = [];
-            _pendingImportCards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
+            if (!window._pendingImportCards) window._pendingImportCards = [];
+            window._pendingImportCards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
             added++;
           });
           window._flashcardImportTarget = null;
@@ -7311,9 +7312,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       if (parsed.length === 0) parsed = parsePastedText(text);
-      if (typeof _pendingAppendQuestions !== 'undefined' && _pendingAppendQuestions.length > 0) {
-        parsed = (parsed || []).concat(_pendingAppendQuestions);
-        _pendingAppendQuestions = [];
+      if (window._pendingAppendQuestions && window._pendingAppendQuestions.length > 0) {
+        parsed = (parsed || []).concat(window._pendingAppendQuestions);
+        window._pendingAppendQuestions = [];
       }
       // 保留 parseError，统一在后续根据 parsed 结果决定提示文案
       if (Array.isArray(parsed) && looksLikeFlashcardImportArray(parsed)) {
@@ -7355,8 +7356,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _importPastedImages.forEach(img => reviewImages.push(img));
         const folderSel = document.getElementById('import-set-folder');
         const folderId = (folderSel && folderSel.value) ? folderSel.value : null;
-        var pendingCards = (typeof _pendingImportCards !== 'undefined' && _pendingImportCards.length) ? _pendingImportCards.slice() : [];
-        if (pendingCards.length) _pendingImportCards = [];
+        var pendingCards = (window._pendingImportCards && window._pendingImportCards.length) ? window._pendingImportCards.slice() : [];
+        if (pendingCards.length) window._pendingImportCards = [];
         var saved = {
           id: Date.now(),
           name: name,
@@ -7756,7 +7757,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     })();
 
-    document.getElementById('btn-one-save').addEventListener('click', saveToProjectFolder);
+    var btnOneSave = document.getElementById('btn-one-save');
+    if (btnOneSave) btnOneSave.addEventListener('click', saveToProjectFolder);
     // btn-copy-deploy-cmd 已由 storageSectionDelegation 委托处理
     function confirmReviewStartQuiz() {
       if (!_pendingReviewStart) return;
@@ -7884,8 +7886,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           showToast(incompleteSkipped ? '没有完整题目，已跳过 ' + incompleteSkipped + ' 道' : '未能解析出题目');
           return;
         }
-        if (typeof _pendingAppendQuestions === 'undefined') _pendingAppendQuestions = [];
-        _pendingAppendQuestions = _pendingAppendQuestions.concat(parsed);
+        if (!window._pendingAppendQuestions) window._pendingAppendQuestions = [];
+        window._pendingAppendQuestions = window._pendingAppendQuestions.concat(parsed);
         if (textEl) textEl.value = '';
         window._appendFromHome = false;
         closeEditSetAppendOverlay();
@@ -8041,7 +8043,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       });
     })();
-    document.getElementById('btn-load-cloud').addEventListener('click', loadFromCloud);
+    var btnLoadCloud = document.getElementById('btn-load-cloud');
+    if (btnLoadCloud) btnLoadCloud.addEventListener('click', loadFromCloud);
     function loadStudyUnitsFromCloud() {
       const btn = document.getElementById('btn-load-study-units-cloud');
       if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
@@ -8055,7 +8058,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         showToast(e.message || '加载失败');
       });
     }
-    document.getElementById('btn-load-study-units-cloud').addEventListener('click', loadStudyUnitsFromCloud);
+    var btnLoadStudyUnits = document.getElementById('btn-load-study-units-cloud');
+    if (btnLoadStudyUnits) btnLoadStudyUnits.addEventListener('click', loadStudyUnitsFromCloud);
     function updateAiApiKeyStatus() {
       var el = document.getElementById('ai-api-key-status-text');
       if (!el) return;
@@ -8144,7 +8148,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       const overlay = document.getElementById('github-upload-modal-overlay');
       if (overlay) { overlay.style.display = 'none'; clearModalFocusTrap(); }
     }
-    document.getElementById('btn-upload-github').addEventListener('click', openGitHubUploadModal);
+    var btnUploadGh = document.getElementById('btn-upload-github');
+    if (btnUploadGh) btnUploadGh.addEventListener('click', openGitHubUploadModal);
     document.getElementById('btn-github-upload-close').addEventListener('click', closeGitHubUploadModal);
     document.getElementById('btn-github-upload-do').addEventListener('click', async () => {
       const tokenEl = document.getElementById('github-upload-token');
