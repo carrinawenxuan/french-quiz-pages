@@ -213,6 +213,183 @@
           "correct": 0,
           "explanation": "se lever 是代词式动词，用 être。主语 ils（阳性复数）→ 过去分词加 s：se sont levés。代词式动词结构：主语 + se + être + p.p.。",
           "category": "Passé Composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'______ petit, j'adorais le chocolat.",
+          "options": [
+            "étais",
+            "ai été",
+            "suis",
+            "était"
+          ],
+          "correct": 0,
+          "explanation": "描述过去的状态（小时候）→ imparfait。être 的 imparfait：j'étais。était 是 il/elle 的形式。",
+          "category": "Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ beau quand nous sommes sortis.",
+          "options": [
+            "fait",
+            "a fait",
+            "faisait",
+            "va faire"
+          ],
+          "correct": 2,
+          "explanation": "天气描写是背景 → imparfait。faire 的 imparfait 词根 fais-：il faisait。sommes sortis 是突发事件用 passé composé，faisait 铺垫背景。",
+          "category": "Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, elle ______ le bus chaque matin.",
+          "options": [
+            "a pris",
+            "prend",
+            "prenait",
+            "va prendre"
+          ],
+          "correct": 2,
+          "explanation": "avant + chaque matin = 过去的习惯 → imparfait。prendre 的 imparfait 词根 pren-：elle prenait。",
+          "category": "Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand nous ______ en France, nous mangions des croissants tous les jours.",
+          "options": [
+            "habitions",
+            "avons habité",
+            "habitons",
+            "allons habiter"
+          ],
+          "correct": 0,
+          "explanation": "tous les jours = 过去的习惯，且与后半句 mangions（imparfait）平行 → imparfait。habiter 词根 habit-：nous habitions。注意 i + ions = 不会少一个 i。",
+          "category": "Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y ______ beaucoup de monde dans la rue hier soir.",
+          "options": [
+            "a",
+            "a eu",
+            "avait",
+            "va avoir"
+          ],
+          "correct": 2,
+          "explanation": "描述过去某时刻的场景/状态 → imparfait。il y a 的 imparfait：il y avait。虽然有 hier soir，但此处是背景描写而非一次性事件。",
+          "category": "Imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ______ quand le téléphone a sonné.",
+          "options": [
+            "dors",
+            "ai dormi",
+            "dormais",
+            "vais dormir"
+          ],
+          "correct": 2,
+          "explanation": "经典 imparfait + passé composé 搭配。dormais（正在睡觉，背景持续）+ a sonné（电话突然响了，打断事件）。",
+          "category": "Imparfait + PC 综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qu'est-ce que tu vas faire demain ?\n— Je ______ mes amis.",
+          "options": [
+            "vais voir",
+            "ai vu",
+            "voyais",
+            "viens de voir"
+          ],
+          "correct": 0,
+          "explanation": "demain = 将来 → futur proche。voir 的 futur proche：je vais voir。ai vu 是过去，voyais 是 imparfait，viens de voir 是刚刚。",
+          "category": "五时态综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ d'acheter une nouvelle voiture. Regarde, elle est là !",
+          "options": [
+            "va",
+            "vient",
+            "est allée",
+            "allait"
+          ],
+          "correct": 1,
+          "explanation": "语境：车已经在那了 = 刚买完 → passé récent。venir de + inf.：elle vient d'acheter。",
+          "category": "五时态综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的 passé composé 形式？",
+          "options": [
+            "Elle est partie hier.",
+            "Il a allé au cinéma.",
+            "Nous avons fini le travail.",
+            "Ils se sont lavé les mains."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A 正确：partir 用 être，elle 阴性加 e → partie。B 错误：aller 用 être 不用 avoir，应为 il est allé。C 正确：finir 用 avoir → avons fini。D 正确：se laver 用 être，les mains 是间接宾语（洗的是手），过去分词不与 les mains 配合，保持原形 lavé。",
+          "category": "Passé Composé 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'______ 15 ans, j'______ un voyage en Italie.",
+          "options": [
+            "avais / ai fait",
+            "ai eu / faisais",
+            "avais / faisais",
+            "ai eu / ai fait"
+          ],
+          "correct": 0,
+          "explanation": "avais 15 ans = 过去状态（imparfait）。ai fait un voyage = 一次性完成的事件（passé composé）。这是 TCF 最经典的 imparfait + passé composé 搭配题型。",
+          "category": "Imparfait + PC 综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ______ (venir) de recevoir votre message.",
+          "correct": [
+            "venons"
+          ],
+          "explanation": "Passé récent：venir（现在时）+ de + inf.。主语 nous → venons。",
+          "category": "Passé Récent"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu ne ______ (aller) pas travailler demain ?",
+          "correct": [
+            "vas"
+          ],
+          "explanation": "Futur proche 否定形式：ne + vas + pas + inf.。主语 tu → vas。",
+          "category": "Futur Proche"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier soir, il ______ (faire) froid. Je ______ (lire) un livre quand mon ami ______ (arriver). Nous ______ (décider) d'aller au restaurant.",
+          "correct": [
+            "faisait",
+            "lisais",
+            "est arrivé",
+            "avons décidé"
+          ],
+          "explanation": "faisait = 天气背景（imparfait）；lisais = 持续动作背景（imparfait）；est arrivé = 突发事件（passé composé，arriver 用 être）；avons décidé = 一次性决定（passé composé，décider 用 avoir）。",
+          "category": "五时态综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dépêche-toi ! Le train ______ partir !",
+          "options": [
+            "va",
+            "vient de",
+            "vais",
+            "allait"
+          ],
+          "correct": 0,
+          "explanation": "Dépêche-toi（快点）= 火车马上要开了 → futur proche。主语 le train = il → va partir。vient de 是\"刚刚\"，语义不通。",
+          "category": "Futur Proche vs Passé Récent"
         }
       ],
       "practiceCount": 0,
@@ -222,7 +399,313 @@
         "https://docs.google.com/document/d/166GVSu6R5c923B-CbHxlZuYKc2onluox6Vo-8GhyPeM/edit?tab=t.0"
       ],
       "reviewImages": [],
-      "cards": []
+      "cards": [
+        {
+          "id": "1772346920868-bxdt89gwkd9",
+          "front": "现在时 présent 的三大功能",
+          "back": "1. 描述当前现状（Je travaille ici.）\n2. 表达普遍真理/习惯（Le soleil se lève à l'est.）\n3. 口语中替代将来时（Demain, je pars.）"
+        },
+        {
+          "id": "1772346920868-zikgzue6uja",
+          "front": "第一组 -er 动词现在时词尾",
+          "back": "-e, -es, -e, -ons, -ez, -ent\n例：parler → je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent"
+        },
+        {
+          "id": "1772346920868-lrzt6vs3l1",
+          "front": "第二组 -ir 动词现在时词尾",
+          "back": "-is, -is, -it, -issons, -issez, -issent\n例：finir → je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent"
+        },
+        {
+          "id": "1772346920868-u4pa72cwnc",
+          "front": "être 现在时六人称",
+          "back": "je suis, tu es, il est, nous sommes, vous êtes, ils sont"
+        },
+        {
+          "id": "1772346920868-im9ehvwhaza",
+          "front": "avoir 现在时六人称",
+          "back": "j'ai, tu as, il a, nous avons, vous avez, ils ont"
+        },
+        {
+          "id": "1772346920868-gibssezprlt",
+          "front": "aller 现在时六人称",
+          "back": "je vais, tu vas, il va, nous allons, vous allez, ils vont"
+        },
+        {
+          "id": "1772346920868-dlwge2cjypl",
+          "front": "faire 现在时六人称",
+          "back": "je fais, tu fais, il fait, nous faisons, vous faites, ils font\n⚠️ vous faites（不是 faisez）"
+        },
+        {
+          "id": "1772346920868-h9xkzgcs7wr",
+          "front": "venir 现在时六人称",
+          "back": "je viens, tu viens, il vient, nous venons, vous venez, ils viennent\n规律：单数 vien-，复数 ven-，三复 vienn-"
+        },
+        {
+          "id": "1772346920868-kut5l71wmn",
+          "front": "pouvoir 现在时六人称",
+          "back": "je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent"
+        },
+        {
+          "id": "1772346920868-rxj9v04t33",
+          "front": "vouloir 现在时六人称",
+          "back": "je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent"
+        },
+        {
+          "id": "1772346920868-zxexyk1hfid",
+          "front": "devoir 现在时六人称",
+          "back": "je dois, tu dois, il doit, nous devons, vous devez, ils doivent"
+        },
+        {
+          "id": "1772346920868-lzpe6gwohod",
+          "front": "prendre 现在时六人称",
+          "back": "je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent"
+        },
+        {
+          "id": "1772346920868-jhogh01flf",
+          "front": "-ger 动词现在时 nous 的拼写陷阱",
+          "back": "加 e 保持 /ʒ/ 音\nmanger → nous mangeons\nvoyager → nous voyageons"
+        },
+        {
+          "id": "1772346920868-r0ne08zmm8k",
+          "front": "-cer 动词现在时 nous 的拼写陷阱",
+          "back": "c 变 ç 保持 /s/ 音\ncommencer → nous commençons"
+        },
+        {
+          "id": "1772346920868-mszkrz8kmi",
+          "front": "on 的动词变位规则",
+          "back": "on 永远和 il/elle 用同一个变位\non parle, on fait, on va, on mange"
+        },
+        {
+          "id": "1772346920868-0r3eo5zmmy29",
+          "front": "现在时的时间标志词",
+          "back": "maintenant, en ce moment, aujourd'hui, tous les jours, chaque semaine, d'habitude, souvent, toujours"
+        },
+        {
+          "id": "1772346920868-732ytos2f5h",
+          "front": "Futur Proche 构成公式",
+          "back": "aller（现在时变位）+ 动词原形\n= 马上要做 / 打算做"
+        },
+        {
+          "id": "1772346920868-i7762bju5te",
+          "front": "Futur Proche 完整变位示例",
+          "back": "je vais manger\ntu vas manger\nil va manger\nnous allons manger\nvous allez manger\nils vont manger"
+        },
+        {
+          "id": "1772346920868-i977t4f0mcn",
+          "front": "Futur Proche 否定形式",
+          "back": "ne...pas 包裹 aller，不包裹原形\n✅ Je ne vais pas manger.\n❌ Je vais ne pas manger."
+        },
+        {
+          "id": "1772346920868-u87b388rkt",
+          "front": "Futur Proche 代词位置",
+          "back": "代词放在原形动词前面\nJe vais le faire.\nElle va s'habiller."
+        },
+        {
+          "id": "1772346920868-q28v4u4zsu",
+          "front": "aller + 地点 vs aller + 动词原形",
+          "back": "Je vais à Paris. = 去巴黎（实义动词）\nJe vais manger. = 打算吃（助动词，futur proche）"
+        },
+        {
+          "id": "1772346920868-x0m5exferqq",
+          "front": "Futur Proche 时间标志词",
+          "back": "bientôt, tout à l'heure, demain, ce soir, la semaine prochaine"
+        },
+        {
+          "id": "1772346920868-sdl4swj5s8",
+          "front": "Passé Récent 构成公式",
+          "back": "venir（现在时变位）+ de + 动词原形\n= 刚刚做完"
+        },
+        {
+          "id": "1772346920868-zurkmh0n5e",
+          "front": "Passé Récent 完整变位示例",
+          "back": "je viens de manger\ntu viens de manger\nil vient de manger\nnous venons de manger\nvous venez de manger\nils viennent de manger"
+        },
+        {
+          "id": "1772346920868-gl30xbnt03r",
+          "front": "Passé Récent 中 de 遇元音的缩合",
+          "back": "de + 元音 → d'\nvenir d'arriver ✅\nvenir de arriver ❌"
+        },
+        {
+          "id": "1772346920868-knx0rypasb9",
+          "front": "Passé Récent 否定形式",
+          "back": "ne...pas 包裹 venir\n✅ Je ne viens pas de manger.\n❌ Je viens de ne pas manger."
+        },
+        {
+          "id": "1772346920868-ump7wft221",
+          "front": "venir de + inf. vs venir + 地点",
+          "back": "Je viens de Paris. = 我从巴黎来\nJe viens de manger. = 我刚吃完\n结构相同，意义完全不同"
+        },
+        {
+          "id": "1772346920868-ggor7njgsve",
+          "front": "Passé Récent vs Passé Composé 区别",
+          "back": "Récent：强调“刚刚”，时间非常近\nComposé：泛指过去已完成，不强调刚刚\nJe viens de manger.（刚吃完）\nJ'ai mangé à midi.（中午吃了）"
+        },
+        {
+          "id": "1772346920868-k83dagb0jh",
+          "front": "Passé Récent 时间标志词",
+          "back": "juste, à l'instant, il y a cinq minutes"
+        },
+        {
+          "id": "1772346920868-feqhcwqwoqg",
+          "front": "Passé Composé 构成公式",
+          "back": "avoir 或 être（现在时）+ 过去分词\n= 过去已经完成的动作"
+        },
+        {
+          "id": "1772346920868-yyu3gkew2cp",
+          "front": "规则动词过去分词构成",
+          "back": "第一组 -er → -é（parlé, mangé）\n第二组 -ir → -i（fini, choisi）\n第三组 -re → -u（vendu, attendu）"
+        },
+        {
+          "id": "1772346920868-yjifenansyg",
+          "front": "不规则过去分词：être / avoir / faire",
+          "back": "être → été\navoir → eu\nfaire → fait"
+        },
+        {
+          "id": "1772346920868-8dltf20yh7m",
+          "front": "不规则过去分词：dire / écrire / prendre",
+          "back": "dire → dit\nécrire → écrit\nprendre → pris"
+        },
+        {
+          "id": "1772346920868-o9nnq9q6qp8",
+          "front": "不规则过去分词：mettre / voir / lire",
+          "back": "mettre → mis\nvoir → vu\nlire → lu"
+        },
+        {
+          "id": "1772346920868-p3e0cxh96j9",
+          "front": "不规则过去分词：boire / pouvoir / vouloir",
+          "back": "boire → bu\npouvoir → pu\nvouloir → voulu"
+        },
+        {
+          "id": "1772346920868-utgg30l9pfr",
+          "front": "不规则过去分词：savoir / devoir / venir",
+          "back": "savoir → su\ndevoir → dû\nvenir → venu"
+        },
+        {
+          "id": "1772346920868-rdaedbmr16f",
+          "front": "不规则过去分词：naître / mourir / vivre",
+          "back": "naître → né\nmourir → mort\nvivre → vécu"
+        },
+        {
+          "id": "1772346920868-7jxzjsthzbn",
+          "front": "不规则过去分词：connaître / croire / recevoir",
+          "back": "connaître → connu\ncroire → cru\nrecevoir → reçu"
+        },
+        {
+          "id": "1772346920868-t1uk5zctzh",
+          "front": "Passé Composé 用 être 的动词口诀",
+          "back": "6进出：entrer, rentrer, sortir, partir, arriver, aller\n4上下：monter, descendre, tomber, passer\n生死留变来回：naître, mourir, rester, devenir, venir, revenir, retourner"
+        },
+        {
+          "id": "1772346920868-mgcers9kcuh",
+          "front": "用 être 时过去分词的性数配合",
+          "back": "过去分词与主语性数一致\nElle est allée.（阴性+e）\nIls sont partis.（阳复+s）\nElles sont venues.（阴复+es）"
+        },
+        {
+          "id": "1772346920868-812m44a8vo",
+          "front": "6个双助动词动词（有宾语用avoir）",
+          "back": "monter, descendre, sortir, passer, rentrer, retourner\n无直接宾语 → être：Elle est montée.\n有直接宾语 → avoir：Elle a monté les valises."
+        },
+        {
+          "id": "1772346920868-b9d5kunbq9v",
+          "front": "代词式动词的 passé composé",
+          "back": "永远用 être\nJe me suis levé(e).\nIls se sont rencontrés.\n结构：主语 + se + être + p.p."
+        },
+        {
+          "id": "1772346920868-lsuij45wagj",
+          "front": "Passé Composé 否定形式",
+          "back": "ne...pas 包裹助动词\n✅ Je n'ai pas mangé.\n❌ Je n'ai mangé pas."
+        },
+        {
+          "id": "1772346920868-xro5pk2xa3f",
+          "front": "Passé Composé 代词位置",
+          "back": "代词放在助动词前面\nJe l'ai vu.\nElle s'est lavée."
+        },
+        {
+          "id": "1772346920868-bm3ijp39t5o",
+          "front": "Passé Composé 时间标志词",
+          "back": "hier, la semaine dernière, il y a trois jours, lundi dernier, déjà, ce matin（事已完成时）"
+        },
+        {
+          "id": "1772346920868-x5pf6rk1y7",
+          "front": "Imparfait 构成公式",
+          "back": "nous 现在时词根（去 -ons）+ -ais, -ais, -ait, -ions, -iez, -aient\n唯一例外：être → 词根 ét-"
+        },
+        {
+          "id": "1772346920868-1z4bg58v5rl",
+          "front": "Imparfait 词尾（固定无例外）",
+          "back": "-ais, -ais, -ait, -ions, -iez, -aient\n发音：-ais/-ais/-ait/-aient 全部读 /ɛ/"
+        },
+        {
+          "id": "1772346920868-xqlkzcuf099",
+          "front": "être 的 imparfait 六人称",
+          "back": "j'étais, tu étais, il était\nnous étions, vous étiez, ils étaient\n⚠️ 唯一不从 nous sommes 取词根的动词"
+        },
+        {
+          "id": "1772346920868-4tfmnwj3k2y",
+          "front": "avoir 的 imparfait 六人称",
+          "back": "j'avais, tu avais, il avait\nnous avions, vous aviez, ils avaient\n词根 av-（来自 nous avons）"
+        },
+        {
+          "id": "1772346920868-3dm0xikla13",
+          "front": "faire 的 imparfait 六人称",
+          "back": "je faisais, tu faisais, il faisait\nnous faisions, vous faisiez, ils faisaient\n词根 fais-（来自 nous faisons）"
+        },
+        {
+          "id": "1772346920868-htwuculug4p",
+          "front": "Imparfait 三大功能",
+          "back": "1. 过去的状态/背景（Il faisait beau.）\n2. 过去的习惯（Je jouais au foot tous les jours.）\n3. 为突发事件铺垫背景（Je dormais quand...）"
+        },
+        {
+          "id": "1772346920868-vloy3p7kanm",
+          "front": "Imparfait 的时间标志词",
+          "back": "quand j'étais jeune, avant, autrefois, à cette époque, chaque jour, tous les matins, d'habitude, souvent"
+        },
+        {
+          "id": "1772346920868-18a2fxji8ja",
+          "front": "Imparfait + Passé Composé 经典搭配",
+          "back": "Imparfait = 背景/持续动作\nPassé Composé = 突发/打断事件\nJe dormais quand le téléphone a sonné."
+        },
+        {
+          "id": "1772346920868-q3e8twpi4fk",
+          "front": "Imparfait vs PC：判断标准",
+          "back": "有明确完成点/一次性 → PC\n无完成点/持续/习惯/背景 → Imparfait\n画面感：慢镜头=Imparfait，快切=PC"
+        },
+        {
+          "id": "1772346920868-y7c9qk6xsjl",
+          "front": "描述过去场景三大固定表达",
+          "back": "C'était magnifique.（评价/感受）\nIl y avait beaucoup de monde.（存在）\nIl faisait froid.（天气）\n全部用 imparfait"
+        },
+        {
+          "id": "1772346920868-hf7pyorpzhg",
+          "front": "Imparfait 拼写陷阱：manger",
+          "back": "je mangeais（保留 e）\nnous mangions（不需 e，i 已软化 g）"
+        },
+        {
+          "id": "1772346920868-i0wv5j03ji",
+          "front": "Imparfait 拼写陷阱：étudier",
+          "back": "nous étudiions（双 i！）\n现在时 nous étudions（单 i）+ -ions → ii"
+        },
+        {
+          "id": "1772346920868-uhl8tiaz5d",
+          "front": "五大时态否定句统一规律",
+          "back": "ne...pas 永远包裹第一个变位动词\nPrésent：ne parle pas\nFP：ne vais pas parler\nPR：ne viens pas de parler\nPC：n'ai pas parlé\nImpf：ne parlais pas"
+        },
+        {
+          "id": "1772346920868-i4b34nqsob",
+          "front": "TCF 3秒判断法 第一步",
+          "back": "看时间标志词：\nmaintenant → Présent\ndemain/bientôt → Futur Proche\njuste/à l'instant → Passé Récent\nhier/il y a... → Passé Composé\nd'habitude/quand j'étais... → Imparfait"
+        },
+        {
+          "id": "1772346920868-4rrylk2qj2k",
+          "front": "TCF 3秒判断法 第二步",
+          "back": "看动作性质：\n有完成点、一次性 → Passé Composé\n无完成点、持续/习惯/背景 → Imparfait"
+        },
+        {
+          "id": "1772346920868-ntlp2m4pcrc",
+          "front": "TCF 3秒判断法 第三步",
+          "back": "看句子结构：\naller + inf. → Futur Proche\nvenir de + inf. → Passé Récent\navoir/être + p.p. → Passé Composé\n动词 + -ais/-ait → Imparfait"
+        }
+      ]
     },
     {
       "id": 1772345868354,
@@ -57610,6 +58093,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-01T06:32:07.487Z",
+  "exportedAt": "2026-03-01T06:38:02.692Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }

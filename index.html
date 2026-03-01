@@ -2459,6 +2459,7 @@
         <button type="button" class="collapsible-toggle" style="margin-top:0.75rem;" aria-expanded="false" aria-controls="storage-details-body"><span class="collapsible-chevron">▶</span> 更多存储选项与说明</button>
         <div class="collapsible-body" id="storage-details-body" role="region"><div class="collapsible-inner">
           <p class="storage-desc" style="margin-top:0.5rem;">电脑：一键保存到项目里的 <code>french_quiz_data.json</code>（含习题集与各集记忆卡）。手机要看到同一份习题集与记忆卡：保存后执行下方命令推送，手机打开本页点「<strong>从云端加载</strong>」即可同步。</p>
+          <p class="storage-desc" style="margin-top:0.35rem; font-size:0.75rem;">数据量很大时，浏览器存储可能占满导致无法从云端加载。建议定期「生成同步文本」或导出备份，并删除不用的习题集。</p>
           <p class="storage-security-hint">安全说明：云端习题集来自当前网站里的静态文件。手机可用「<strong>上传到 GitHub</strong>」把本地数据（含错题与备注）推送到同一仓库，电脑端再「从云端加载」即可同步。</p>
           <div class="import-lock-wrap" id="ai-api-key-wrap" style="margin-top:0.75rem;">
             <p class="import-lock-desc"><strong>AI API Key 设置</strong>（每人用自己的 Key，防止他人占用）：Key 仅保存在<strong>本机浏览器</strong>，仅在「生成讲解/题目/记忆卡」时随请求发送给当前站点服务端，用于转发到 AI 服务商；服务端<strong>不存储、不记录</strong>。请勿在他人或公共电脑上保存。</p>
@@ -3910,7 +3911,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           throw new Error('JSON 解析失败，文件可能不完整（收到 ' + text.length + ' 字符）');
         }
         if (!data || (data.savedSets == null && data.wrongBook == null)) throw new Error('数据格式无效');
-        const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？');
+        const sizeMb = (text.length / (1024 * 1024)).toFixed(1);
+        const sizeNote = text.length > 3 * 1024 * 1024 ? '（当前约 ' + sizeMb + ' MB，存储占满时可能无法加载，建议定期导出备份）' : '';
+        const confirmed = await customConfirm('云端数据将覆盖当前本地的习题集（含记忆卡）、文件夹和错题本。确定要加载并覆盖吗？' + sizeNote);
         if (!confirmed) return;
         loadDataFromObject(data);
         // 延迟再写一次 localStorage + IDB，确保刷新后能读到（GitHub Pages 等环境首次写入可能未持久化）
@@ -3936,7 +3939,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (e && e.name === 'AbortError') {
           msg = '加载超时（30秒），请检查网络后重试';
         } else if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message || ''))) {
-          msg = '存储空间不足。请先清理不需要的习题集后重试';
+          msg = '存储已满，无法写入。请删除不用的习题集，或先「生成同步文本」/ 导出备份后清空部分数据再试';
         } else {
           msg = '加载失败：' + (e && e.message ? e.message : '未知错误') + '。若仍失败可尝试「从文件导入」或「从同步文本导入」';
         }
@@ -4136,7 +4139,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         localStorage.setItem(SAVED_SETS_KEY, JSON.stringify(arr));
       } catch (e) {
         if (e && (e.name === 'QuotaExceededError' || /quota/i.test(e.message))) {
-          showToast('存储空间不足，数据可能未完全保存。请清理不需要的习题集后重试');
+          showToast('存储已满，数据可能未完全保存。请删除不用的习题集或导出备份后清空再试');
         }
         console.error('[setSavedSets] localStorage error', e);
       }
