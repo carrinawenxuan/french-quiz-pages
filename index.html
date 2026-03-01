@@ -7133,16 +7133,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           if (!set) { closeImportJsonModal(); window._flashcardImportTarget = null; return; }
           if (!Array.isArray(set.cards)) set.cards = [];
           const setCardKeys = new Set(set.cards.map(c => cardKey(c.front, c.back)));
-          let added = 0, skipped = 0;
+          let addedSet = 0, skippedSet = 0;
           arr.forEach(item => {
             if (!item || (item.front == null && item.back == null)) return;
             const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
             const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
             const key = cardKey(front, back);
-            if (setCardKeys.has(key)) { skipped++; return; }
+            if (setCardKeys.has(key)) { skippedSet++; return; }
             setCardKeys.add(key);
             set.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
-            added++;
+            addedSet++;
           });
           setSavedSets(sets);
           if (typeof window._flashcardOnCardsChanged === 'function') window._flashcardOnCardsChanged();
@@ -7150,7 +7150,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           renderFlashcardCardList();
           renderSavedSets();
           closeImportJsonModal();
-          showToast(added ? '已导入 ' + added + ' 张' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
+          showToast(addedSet ? '已导入 ' + addedSet + ' 张' + (skippedSet ? '，跳过 ' + skippedSet + ' 张重复' : '') : (skippedSet ? '跳过 ' + skippedSet + ' 张重复' : '未解析到有效卡片'));
           return;
         }
         window._flashcardImportTarget = null;
@@ -7159,21 +7159,21 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (!deck) { closeImportJsonModal(); return; }
         if (!deck.cards) deck.cards = [];
         const deckCardKeys = new Set(deck.cards.map(c => cardKey(c.front, c.back)));
-        let added = 0, skipped = 0;
+        let addedDeck = 0, skippedDeck = 0;
         arr.forEach(item => {
           if (!item || (item.front == null && item.back == null)) return;
           const front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
           const back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
           const key = cardKey(front, back);
-          if (deckCardKeys.has(key)) { skipped++; return; }
+          if (deckCardKeys.has(key)) { skippedDeck++; return; }
           deckCardKeys.add(key);
           deck.cards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
-          added++;
+          addedDeck++;
         });
         setFlashcardDecks(decks);
         renderFlashcardCardList();
         closeImportJsonModal();
-        showToast(added ? '已导入 ' + added + ' 张' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
+        showToast(addedDeck ? '已导入 ' + addedDeck + ' 张' + (skippedDeck ? '，跳过 ' + skippedDeck + ' 张重复' : '') : (skippedDeck ? '跳过 ' + skippedDeck + ' 张重复' : '未解析到有效卡片'));
       }
 
       document.getElementById('btn-flashcards-back-to-list').addEventListener('click', showFlashcardDeckList);
