@@ -1,6 +1,1249 @@
 {
   "savedSets": [
     {
+      "id": 1772390444825,
+      "name": "定冠词 vs 不定冠词 vs 部分冠词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T18:40:44.825Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'aime _____ musique classique.",
+          "options": [
+            "de la",
+            "la",
+            "une",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "aimer 表达偏好，后接定冠词。J'aime la musique classique.",
+          "category": "定冠词 vs 部分冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle boit _____ eau every matin.",
+          "options": [
+            "l'",
+            "de l'",
+            "la",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "eau 不可数，喝一些水 → 部分冠词 de l'eau。注意不是定冠词 l'，因为不是特指。",
+          "category": "部分冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a pas _____ lait dans le frigo.",
+          "options": [
+            "du",
+            "de",
+            "le",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "否定句中部分冠词 du → de。Il n'y a pas de lait.",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce sont _____ belles maisons.",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "des + 形容词前 → de。de belles maisons 是书面语必须遵守的规则。",
+          "category": "des→de 规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne mange pas _____ gâteau que tu as préparé.",
+          "options": [
+            "de",
+            "du",
+            "le",
+            "un"
+          ],
+          "correct": 2,
+          "explanation": "特指「你做的那个蛋糕」→ 定冠词 le，否定句中定冠词不变。",
+          "category": "否定句+定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il mange _____ riz tous les jours.",
+          "options": [
+            "des",
+            "le",
+            "du",
+            "un"
+          ],
+          "correct": 2,
+          "explanation": "riz 不可数，吃一些米饭 → 部分冠词 du。不是 des（des 用于可数复数）。",
+          "category": "部分冠词 vs 不定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ frère.",
+          "options": [
+            "un",
+            "de",
+            "le",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "否定句中不定冠词 un → de。Je n'ai pas de frère.",
+          "category": "否定句变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ liberté est un droit fondamental.",
+          "options": [
+            "Une",
+            "La",
+            "De la",
+            "Des"
+          ],
+          "correct": 1,
+          "explanation": "liberté 是抽象概念，用定冠词 la 表示全称/泛指。",
+          "category": "定冠词+抽象概念"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ chance incroyable.",
+          "options": [
+            "la",
+            "une",
+            "de la",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "这里 chance 被形容词 incroyable 修饰，表示「一份令人难以置信的运气」，是具体化的一次运气 → 不定冠词 une。对比：Elle a de la chance.（她运气好，泛指一些运气）",
+          "category": "不定冠词 vs 部分冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les Français adorent _____ fromage.",
+          "options": [
+            "du",
+            "de",
+            "le",
+            "un"
+          ],
+          "correct": 2,
+          "explanation": "adorer 和 aimer 一样是偏好动词，后接定冠词。Les Français adorent le fromage.",
+          "category": "偏好动词+定冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce n'est pas _____ problème.",
+          "options": [
+            "de",
+            "un",
+            "du",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "être 后面的不定冠词在否定句中不变！Ce n'est pas un problème. 这是唯一例外。",
+          "category": "être 后否定例外"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中冠词使用正确？",
+          "options": [
+            "Je voudrais du café.",
+            "Je préfère du thé.",
+            "Il n'a pas des amis.",
+            "Il y a de jolies fleurs."
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "A 正确：想要一些咖啡 → du。B 错误：préférer 是偏好动词 → le thé。C 错误：否定句 des → de，应为 pas d'amis。D 正确：des + 形容词前 → de。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je voudrais _____ (pain), s'il vous plaît.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "pain 不可数，想要一些面包 → 部分冠词 du pain.",
+          "category": "部分冠词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n'achète jamais _____ (fleurs) pour elle.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "jamais 是否定词，否定句中 des → de。Il n'achète jamais de fleurs.",
+          "category": "否定句变化"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le matin, je bois _____ café et je mange _____ croissants. Mais aujourd'hui, je n'ai pas _____ café, alors je bois _____ thé.",
+          "correct": [
+            "du",
+            "des",
+            "de",
+            "du"
+          ],
+          "explanation": "第一空：咖啡不可数，一些 → du。第二空：可颂可数复数，一些 → des。第三空：否定句 du → de。第四空：肯定句，茶不可数，一些 → du。",
+          "category": "综合填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai mal à _____ tête.",
+          "options": [
+            "ma",
+            "la",
+            "une",
+            "de la"
+          ],
+          "correct": 1,
+          "explanation": "身体部位疼痛用 avoir mal à + 定冠词，不用物主代词。J'ai mal à la tête.",
+          "category": "定冠词+身体部位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/13h1ZjhgIsW0vAX8zGkdJwCApHdx_2gqgkpfcnL-xueE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772390492753-8vb5ycbtge3",
+          "front": "aimer / préférer / détester / adorer 后接什么冠词？",
+          "back": "永远接定冠词 le / la / les\n例：J'aime le café. ✅\nJ'aime du café. ❌"
+        },
+        {
+          "id": "1772390492753-8e9fxwaasaq",
+          "front": "部分冠词有哪些形式？",
+          "back": "阳性：du (de l')\n阴性：de la (de l')\n⚠️ 没有复数形式！des 是不定冠词复数"
+        },
+        {
+          "id": "1772390492753-uzg4uvrnbm9",
+          "front": "否定句中 un / une / des / du / de la 变成什么？",
+          "back": "全部变成 de / d'\n例：J'ai un chat. → Je n'ai pas de chat.\nJe bois du lait. → Je ne bois pas de lait."
+        },
+        {
+          "id": "1772390492753-ujv7lmxdn5r",
+          "front": "否定句中定冠词 le / la / les 变不变？",
+          "back": "不变！\n例：Je n'aime pas le café.\nJe ne mange pas le gâteau que tu as fait."
+        },
+        {
+          "id": "1772390492753-pm378hsxb",
+          "front": "être 后的冠词在否定句中变不变？",
+          "back": "不变！这是例外。\nC'est un problème. → Ce n'est pas un problème.\nun 保持不变"
+        },
+        {
+          "id": "1772390492753-9ejpc5n69i",
+          "front": "des + 形容词前 → ？",
+          "back": "des → de\n例：de belles maisons ✅\ndes belles maisons ❌\nTCF 书面语必须遵守"
+        },
+        {
+          "id": "1772390492753-0l5wufd2y8w",
+          "front": "du café vs le café 区别？",
+          "back": "du café = 我在喝/要一些咖啡（具体的量，部分冠词）\nle café = 咖啡这种东西（全称/偏好，定冠词）"
+        },
+        {
+          "id": "1772390492753-5x0qi361sp2",
+          "front": "部分冠词用于什么名词？",
+          "back": "不可数名词取一部分时\n物质：du pain, de la viande, de l'eau\n抽象：du courage, de la chance, de la patience"
+        },
+        {
+          "id": "1772390492753-8zrlh8zou4u",
+          "front": "des pommes vs du riz — 为什么冠词不同？",
+          "back": "pommes 可数 → 不定冠词复数 des\nriz 不可数 → 部分冠词 du\n判断标准：能不能数？能数用 des，不能数用 du/de la"
+        },
+        {
+          "id": "1772390492753-mplteq4was",
+          "front": "身体部位疼痛用什么冠词？",
+          "back": "avoir mal à + 定冠词\nJ'ai mal à la tête. ✅\nJ'ai mal à ma tête. ❌\n法语身体部位不用物主代词"
+        },
+        {
+          "id": "1772390492753-6xepk6na5rl",
+          "front": "de l' 什么时候是部分冠词，什么时候是定冠词？",
+          "back": "部分冠词 de l'：de l'eau（一些水）, de l'argent（一些钱）→ 不可数取部分\n定冠词 l'：l'enfant（那个孩子）→ 元音开头的特指名词\n看语境：取一部分 vs 特指"
+        },
+        {
+          "id": "1772390492753-c7yocvcu8po",
+          "front": "否定词 ne...jamais / ne...plus 中冠词也变吗？",
+          "back": "是的！所有否定结构中 un/une/des/du/de la 都变 de\nIl n'achète jamais de fleurs.\nElle ne mange plus de viande."
+        },
+        {
+          "id": "1772390492753-07cmitygakm9",
+          "front": "泛指整个类别用什么冠词？",
+          "back": "定冠词 le / la / les\nLes Français aiment le fromage.\nLa liberté est importante.\n表示「……这种东西」「所有的……」"
+        },
+        {
+          "id": "1772390492753-f5z646a0ga8",
+          "front": "首次提及某个可数事物用什么冠词？",
+          "back": "不定冠词 un / une\nJ'ai acheté un livre.（某一本书，听话人不知道是哪本）\n第二次再提到 → 定冠词 le livre"
+        },
+        {
+          "id": "1772390492753-it05dojbgwc",
+          "front": "3秒决策树：名词前选冠词",
+          "back": "① 特指/已知/偏好动词后 → le/la/les\n② 可数+某一个 → un/une\n③ 可数+一些 → des（形容词前变de）\n④ 不可数+一些 → du/de la/de l'\n⑤ 否定句 → ②③④全变de（①不变）"
+        }
+      ]
+    },
+    {
+      "id": 1772390337255,
+      "name": "不定冠词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T18:38:57.255Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté _____ robe pour ma sœur.",
+          "options": [
+            "un",
+            "une",
+            "des",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "robe 是阴性单数名词，所以用 une。",
+          "category": "不定冠词-性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a pas _____ solution à ce problème.",
+          "options": [
+            "une",
+            "de",
+            "des",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "否定句中，不定冠词 une 变为 de。Il n'y a pas de solution.",
+          "category": "不定冠词-否定变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce n'est pas _____ erreur, c'est une catastrophe !",
+          "options": [
+            "d'",
+            "de",
+            "une",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "être 的否定句中，不定冠词保持不变。Ce n'est pas une erreur.",
+          "category": "不定冠词-être例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ bons amis à Paris.",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "un"
+          ],
+          "correct": 1,
+          "explanation": "des + 前置形容词 → de。de bons amis。",
+          "category": "不定冠词-des变de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons _____ questions à vous poser.",
+          "options": [
+            "un",
+            "une",
+            "des",
+            "de la"
+          ],
+          "correct": 2,
+          "explanation": "questions 是可数名词复数，泛指\"一些问题\"，用 des。",
+          "category": "不定冠词-des用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne mange pas _____ viande le vendredi.",
+          "options": [
+            "de la",
+            "de",
+            "la",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "否定句中，部分冠词 de la 也变为 de。注意这里 viande 是不可数名词，肯定句用部分冠词 de la，否定后统一变 de。",
+          "category": "否定句冠词变化"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中的不定冠词使用是正确的？",
+          "options": [
+            "J'ai de grandes maisons.",
+            "Je n'ai pas des amis.",
+            "Ce n'est pas un problème.",
+            "Il y a des belles fleurs."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确：des + 前置形容词grandes → de grandes maisons。B错误：否定句应为 pas d'amis。C正确：être否定句保留 un。D错误：des + 前置形容词belles → de belles fleurs。",
+          "category": "综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a _____ étudiants dans la bibliothèque.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "étudiants 是可数名词复数，泛指，用 des。注意 des étudiants 不连读 /z/（实际要连读：/de.ze.ty.djɑ̃/）。",
+          "category": "不定冠词-des"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma fille veut devenir _____ médecin.",
+          "options": [
+            "un",
+            "une",
+            "de",
+            "des"
+          ],
+          "correct": 0,
+          "explanation": "médecin 传统上是阳性名词（即使指女性），且此处表示职业身份，用 un。注意：在 C'est/Ce sont 结构中表职业需加冠词，但 être + 职业名词时通常不加冠词（Elle est médecin），这是另一个考点。",
+          "category": "不定冠词-职业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai jamais eu _____ problème avec cette voiture.",
+          "options": [
+            "un",
+            "de",
+            "des",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "ne...jamais 也是否定结构，不定冠词 un 变为 de。Je n'ai jamais eu de problème.",
+          "category": "否定句-jamais"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il porte _____ lunettes depuis l'âge de 10 ans.",
+          "options": [
+            "un",
+            "une",
+            "des",
+            "de"
+          ],
+          "correct": 2,
+          "explanation": "lunettes（眼镜）是阴性复数名词，泛指用 des。",
+          "category": "不定冠词-复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous avez _____ jolies chaussures !",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "des + 前置形容词 jolies → de jolies chaussures。",
+          "category": "des变de-前置形容词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, j'ai rencontré _____ homme dans la rue. Il portait _____ vieux chapeau et _____ chaussures noires.",
+          "correct": [
+            "un",
+            "un",
+            "des"
+          ],
+          "explanation": "第一空：homme 阳性单数首次提及，用 un。第二空：vieux 是前置形容词，但这里是单数，un 不受影响，仍然用 un vieux chapeau。第三空：chaussures 复数 + noires 后置形容词，des 不变，用 des chaussures noires。",
+          "category": "综合填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a besoin _____ conseils pour son examen.",
+          "options": [
+            "des",
+            "de",
+            "de les",
+            "d'un"
+          ],
+          "correct": 1,
+          "explanation": "avoir besoin de + 名词，介词 de 后面的 des 被吞掉，直接用 de conseils。",
+          "category": "介词de吞冠词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列句子中，哪些 des 是不定冠词（而不是 de+les 的缩合形式）？",
+          "options": [
+            "J'ai des amis en France.",
+            "Je parle des problèmes du quartier.",
+            "Il y a des fleurs sur la table.",
+            "Elle s'occupe des enfants."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A: des amis = 不定冠词，\"一些朋友\"。B: parler des = parler de + les，缩合定冠词，\"谈论那些问题\"。C: des fleurs = 不定冠词，\"一些花\"。D: s'occuper des = s'occuper de + les，缩合定冠词，\"照顾那些孩子\"。",
+          "category": "des辨析-高频陷阱"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1KwR-GoJeA-UK-Zp8aTZEEf8mIsjhJaYeCvpoYcHrlYM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772390403083-0dp2traac8qn",
+          "front": "不定冠词的三个形式？",
+          "back": "un（阳性单数）、une（阴性单数）、des（所有复数，不分阴阳）"
+        },
+        {
+          "id": "1772390403083-joan2ggqgss",
+          "front": "不定冠词的核心功能？",
+          "back": "泛指：首次提到或不确定的人/事物\n相当于英语 a / an / some"
+        },
+        {
+          "id": "1772390403083-5ygisyvsica",
+          "front": "un 的发音 (IPA)",
+          "back": "/œ̃/\n鼻化元音，嘴唇圆突\nun ami 连读 → /œ̃.na.mi/"
+        },
+        {
+          "id": "1772390403083-e4kwtoaix7s",
+          "front": "une 的发音 (IPA)",
+          "back": "/yn/\n口腔元音 /y/ + /n/\nune amie → /y.na.mi/"
+        },
+        {
+          "id": "1772390403083-d2caag0ry4h",
+          "front": "des 在元音前怎么连读？",
+          "back": "s 读 /z/\ndes amis → /de.za.mi/"
+        },
+        {
+          "id": "1772390403083-rnq4yqvnadd",
+          "front": "否定句中 un/une/des 变成什么？",
+          "back": "全部变成 de（元音前 d'）\nJ'ai un chat → Je n'ai pas de chat\nJ'ai des amis → Je n'ai pas d'amis"
+        },
+        {
+          "id": "1772390403083-z11mhrz5j7c",
+          "front": "否定句冠词变化的唯一例外？",
+          "back": "être 的否定句中，不定冠词保持不变\nCe n'est pas un problème ✅\n（不变成 de）"
+        },
+        {
+          "id": "1772390403083-ujffr1pks9",
+          "front": "des + 前置形容词 → ？",
+          "back": "des → de\nde bons amis\nde grandes maisons\nde belles fleurs"
+        },
+        {
+          "id": "1772390403083-6gcllkw0wtt",
+          "front": "des + 后置形容词变不变？",
+          "back": "不变！\ndes livres intéressants ✅\ndes chaussures noires ✅"
+        },
+        {
+          "id": "1772390403083-hekijlhp32o",
+          "front": "avoir besoin de + 名词，冠词怎么处理？",
+          "back": "介词 de 吞掉不定冠词\nJ'ai besoin de conseils\n（不是 des conseils）"
+        },
+        {
+          "id": "1772390403083-dds1f07l7qk",
+          "front": "beaucoup de / peu de / trop de 后面加冠词吗？",
+          "back": "不加！直接 + 名词\nbeaucoup de livres\npeu de temps\ntrop de travail"
+        },
+        {
+          "id": "1772390403083-h260a08tjk6",
+          "front": "如何区分两种 des？",
+          "back": "① 不定冠词 des = \"一些\"（泛指）\nJ'ai des amis = I have some friends\n② 缩合形式 des = de + les（特指）\nJe parle des problèmes = I talk about the problems"
+        },
+        {
+          "id": "1772390403083-wiu52xdri3",
+          "front": "un livre 还是 une livre？",
+          "back": "un livre（一本书）→ 阳性\n注意：une livre = 一磅（重量单位），阴性\n同形异义，性别不同！"
+        },
+        {
+          "id": "1772390403083-9f1lcihtqzt",
+          "front": "表示职业时：Elle est médecin vs C'est...",
+          "back": "Elle est médecin（不加冠词）\nC'est un médecin（必须加冠词）\nêtre + 职业 → 不加冠词\nC'est/Ce sont + 职业 → 加冠词"
+        },
+        {
+          "id": "1772390403083-fk1qeyk1hpw",
+          "front": "ne...jamais 中冠词怎么变？",
+          "back": "和 ne...pas 规则相同\n不定冠词 → de\nJe n'ai jamais eu de problème"
+        }
+      ]
+    },
+    {
+      "id": 1772390034071,
+      "name": "aller变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-03-01T18:33:54.071Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Hier, Marie _____ au cinéma avec ses amies.",
+          "options": [
+            "a allé",
+            "est allée",
+            "est allé",
+            "a allée"
+          ],
+          "correct": 1,
+          "explanation": "aller 用 être 做助动词，Marie 是女性单数，过去分词加 -e → est allée。a allé/a allée 用了 avoir，秒排。",
+          "category": "passé composé 助动词+配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ visiter le musée demain.",
+          "options": [
+            "allons",
+            "vont",
+            "allez",
+            "vas"
+          ],
+          "correct": 0,
+          "explanation": "nous 对应 allons。这里是 futur proche 结构：nous allons + 动词原形。",
+          "category": "futur proche 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ bien aujourd'hui ?",
+          "options": [
+            "va",
+            "vais",
+            "vas",
+            "allez"
+          ],
+          "correct": 2,
+          "explanation": "tu 对应 vas。va 是 il/elle，vais 是 je，allez 是 vous。",
+          "category": "présent 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ en France l'année dernière.",
+          "options": [
+            "sont allé",
+            "sont allés",
+            "ont allés",
+            "ont allé"
+          ],
+          "correct": 1,
+          "explanation": "aller 用 être，ils 是阳性复数 → sont allés（加 -s）。avoir 做助动词直接排除。",
+          "category": "passé composé 配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ chez le médecin cet après-midi.",
+          "options": [
+            "va aller",
+            "va alle",
+            "aller va",
+            "vais aller"
+          ],
+          "correct": 0,
+          "explanation": "futur proche = aller 现在时 + 动词原形。elle → va，后接原形 aller → va aller。注意 aller 本身也可以用 futur proche。",
+          "category": "futur proche 结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ au Canada l'été prochain.",
+          "options": [
+            "vais à",
+            "vais au",
+            "vais en",
+            "vais"
+          ],
+          "correct": 1,
+          "explanation": "Canada 是阳性国家，介词用 au（= à + le）。en 用于阴性国家，à 用于城市。",
+          "category": "aller + 介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles ne _____ pas parties hier soir.",
+          "options": [
+            "sont",
+            "ont",
+            "est",
+            "va"
+          ],
+          "correct": 0,
+          "explanation": "partir 和 aller 一样用 être 做助动词。elles → sont。否定结构：ne + sont + pas + parties。",
+          "category": "être 动词家族"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (aller) à la bibliothèque ce matin ?",
+          "correct": [
+            "êtes allé",
+            "êtes allée",
+            "êtes allés",
+            "êtes allées"
+          ],
+          "explanation": "passé composé，aller 用 être。vous 的过去分词配合取决于实际性别和人数，四种形式均可接受。",
+          "category": "passé composé 填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ pleuvoir, prends ton parapluie !",
+          "options": [
+            "va",
+            "est",
+            "vais",
+            "fait"
+          ],
+          "correct": 0,
+          "explanation": "futur proche 表示即将发生：il va pleuvoir = 要下雨了。il 为无人称主语，对应 va。",
+          "category": "futur proche 无人称"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ne _____ pas manger au restaurant ce soir.",
+          "options": [
+            "allons",
+            "vont",
+            "sommes",
+            "avons"
+          ],
+          "correct": 0,
+          "explanation": "futur proche 否定式：ne + aller 变位 + pas + 动词原形。nous → allons。ne...pas 包裹 allons。",
+          "category": "futur proche 否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ à l'école en bus.",
+          "options": [
+            "va",
+            "vont",
+            "allons",
+            "vas"
+          ],
+          "correct": 1,
+          "explanation": "les enfants = ils → vont。va 是单数第三人称，这里是复数。",
+          "category": "présent 单复数辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Comment _____-vous ? — Je _____ très bien, merci.",
+          "correct": [
+            "allez",
+            "vais"
+          ],
+          "explanation": "第一空：vous → allez；第二空：je → vais。这是法语最基础的问候句型。",
+          "category": "问候用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Samedi dernier, nous _____ au marché.",
+          "options": [
+            "avons allé",
+            "sommes allé",
+            "sommes allés",
+            "allons"
+          ],
+          "correct": 2,
+          "explanation": "passé composé，aller 用 être。nous → sommes，过去分词配合复数 → allés。avons allé 用了 avoir，秒排。",
+          "category": "passé composé nous"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ faire tes devoirs maintenant.",
+          "options": [
+            "va",
+            "vais",
+            "vas",
+            "allez"
+          ],
+          "correct": 2,
+          "explanation": "futur proche：tu vas + 动词原形。tu 对应 vas，不是 va（il/elle）也不是 vais（je）。",
+          "category": "futur proche tu"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur est _____ en Chine pendant les vacances.",
+          "options": [
+            "allé",
+            "allée",
+            "allés",
+            "allées"
+          ],
+          "correct": 1,
+          "explanation": "ma sœur 是女性单数，aller 用 être，过去分词必须配合 → allée（加 -e）。",
+          "category": "过去分词性数配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1a_ZyYSTsI4eOJmbnHSpVMvQ7Bet0Y_65GNS75GCDfAM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772390081391-cuo7qwmqlhb",
+          "front": "aller 的直陈式现在时 (je)",
+          "back": "je vais\n发音：/vɛ/（开口 e，不是 /ve/）"
+        },
+        {
+          "id": "1772390081391-nnalxb0s0rs",
+          "front": "aller 的直陈式现在时 (tu)",
+          "back": "tu vas\n发音：/va/"
+        },
+        {
+          "id": "1772390081391-tzw7f2d49li",
+          "front": "aller 的直陈式现在时 (il/elle/on)",
+          "back": "il/elle/on va\n发音：/va/"
+        },
+        {
+          "id": "1772390081391-qcv9q6rh1xc",
+          "front": "aller 的直陈式现在时 (nous)",
+          "back": "nous allons\n发音：/a.lɔ̃/，联诵 /nu.z‿a.lɔ̃/"
+        },
+        {
+          "id": "1772390081391-naxgu3qf9c",
+          "front": "aller 的直陈式现在时 (vous)",
+          "back": "vous allez\n发音：/a.le/，联诵 /vu.z‿a.le/"
+        },
+        {
+          "id": "1772390081391-mybaw2tcilh",
+          "front": "aller 的直陈式现在时 (ils/elles)",
+          "back": "ils/elles vont\n发音：/vɔ̃/"
+        },
+        {
+          "id": "1772390081391-944ls31usg5",
+          "front": "aller 的复合过去时用哪个助动词？",
+          "back": "用 être（不是 avoir！）\n\"j'ai allé\" 永远是错的"
+        },
+        {
+          "id": "1772390081391-szjxr5kpqeg",
+          "front": "aller 的复合过去时 (je, 男性)",
+          "back": "je suis allé"
+        },
+        {
+          "id": "1772390081391-09907cye6opy",
+          "front": "aller 的复合过去时 (je, 女性)",
+          "back": "je suis allée\n过去分词加 -e"
+        },
+        {
+          "id": "1772390081391-vcgnyo7rrw",
+          "front": "aller 的复合过去时 (ils)",
+          "back": "ils sont allés\n过去分词加 -s"
+        },
+        {
+          "id": "1772390081391-db6oxm1lmy7",
+          "front": "aller 的复合过去时 (elles)",
+          "back": "elles sont allées\n过去分词加 -es"
+        },
+        {
+          "id": "1772390081391-h5hezrwv255",
+          "front": "aller 复合过去时的否定形式怎么写？",
+          "back": "ne + être + pas + allé(e)(s)\n例：Je ne suis pas allé(e)."
+        },
+        {
+          "id": "1772390081391-w7hzbtbayns",
+          "front": "什么是最近将来时（futur proche）？",
+          "back": "aller 现在时变位 + 动词原形\n= 即将做某事\n例：Je vais manger. 我要吃饭了。"
+        },
+        {
+          "id": "1772390081391-2jey54bdtic",
+          "front": "futur proche 的否定形式",
+          "back": "ne + aller 变位 + pas + 动词原形\n例：Je ne vais pas manger."
+        },
+        {
+          "id": "1772390081391-tijb7lam0z",
+          "front": "futur proche 后面的动词要变位吗？",
+          "back": "不要！必须保持原形（infinitif）\n❌ Je vais mange\n✅ Je vais manger"
+        },
+        {
+          "id": "1772390081391-4a39v9knkl1",
+          "front": "aller + 城市用什么介词？",
+          "back": "à\n例：Je vais à Paris."
+        },
+        {
+          "id": "1772390081391-q4zpc2dvpfj",
+          "front": "aller + 阳性国家用什么介词？",
+          "back": "au（= à + le）\n例：Il va au Canada.\n❌ Il va à Canada."
+        },
+        {
+          "id": "1772390081391-x6ikw87w8fm",
+          "front": "aller + 阴性国家/元音开头国家用什么介词？",
+          "back": "en\n例：Elle va en France. / en Iran."
+        },
+        {
+          "id": "1772390081391-f0frj1mx37",
+          "front": "aller + 复数国家用什么介词？",
+          "back": "aux（= à + les）\n例：Nous allons aux États-Unis."
+        },
+        {
+          "id": "1772390081391-vlo2n0hxm97",
+          "front": "aller + 某人家用什么介词？",
+          "back": "chez\n例：Tu vas chez le médecin."
+        },
+        {
+          "id": "1772390081391-edt3nokwzlq",
+          "front": "Comment allez-vous ? 怎么回答？",
+          "back": "Je vais bien, merci.\nJe vais très bien.\n（正式问候）"
+        },
+        {
+          "id": "1772390081391-7h2rq6a0bly",
+          "front": "Ça va ? 是什么意思？",
+          "back": "你好吗？（非正式问候）\n回答：Ça va bien. / Ça va très bien."
+        },
+        {
+          "id": "1772390081391-99ce5ck9dmu",
+          "front": "TCF 秒排法：看到 aller + avoir 怎么判断？",
+          "back": "直接排除！\naller 的复合过去时只用 être\n\"j'ai allé\" 永远错"
+        },
+        {
+          "id": "1772390081391-ocsrm7a7yqh",
+          "front": "TCF 秒排法：futur proche 后动词变了位怎么判断？",
+          "back": "直接排除！\nfutur proche 后面必须是原形\n❌ Je vais mange → ✅ Je vais manger"
+        },
+        {
+          "id": "1772390081391-s6k69iaip3",
+          "front": "il va vs ils vont 怎么区分？",
+          "back": "il va /va/（单数）\nils vont /vɔ̃/（复数）\n听力中靠元音区分：/a/ vs /ɔ̃/"
+        }
+      ]
+    },
+    {
+      "id": 1772388736350,
+      "name": "Leçon 3 Ça va bien 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-01T18:12:16.350Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "在法语中，朋友之间非正式打招呼应该说：",
+          "options": [
+            "Bonjour, comment allez-vous ?",
+            "Salut, tu vas bien ?",
+            "Bonsoir, madame.",
+            "Au revoir, monsieur."
+          ],
+          "correct": 1,
+          "explanation": "Salut + tu 是非正式问候，用于朋友之间。Bonjour + vous 是正式场合。",
+          "category": "tu/vous区分"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Comment vas-tu ? – Je _____ bien, merci.",
+          "options": [
+            "suis",
+            "vais",
+            "ai",
+            "fais"
+          ],
+          "correct": 1,
+          "explanation": "aller 表示身体状况：je vais bien。不能用 suis（être）。",
+          "category": "动词aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ 20 ans.",
+          "options": [
+            "est",
+            "va",
+            "a",
+            "fait"
+          ],
+          "correct": 2,
+          "explanation": "法语表达年龄用 avoir：Il a 20 ans。不用 être，这是经典考点。",
+          "category": "avoir表年龄"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'habite _____ Montréal.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "城市前用介词 à：habiter à + 城市名。au 用于阳性国家，en 用于阴性国家。",
+          "category": "介词+地点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ Canada avec sa femme.",
+          "options": [
+            "à",
+            "en",
+            "au",
+            "dans le"
+          ],
+          "correct": 2,
+          "explanation": "le Canada 是阳性国家，à + le = au。所以是 au Canada。",
+          "category": "介词+国家"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est _____ adresse ?（对朋友说）",
+          "options": [
+            "ta",
+            "ton",
+            "votre",
+            "sa"
+          ],
+          "correct": 1,
+          "explanation": "adresse 是阴性名词，但以元音 a 开头，所以用 ton（不用 ta）来避免元音碰撞。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Comment allez-vous ? 这句话最可能对谁说？",
+          "options": [
+            "你的好朋友",
+            "你的小狗",
+            "你刚认识的邻居",
+            "你3岁的侄子"
+          ],
+          "correct": 2,
+          "explanation": "Comment allez-vous 使用 vous，是正式问候，适用于不太熟悉的人或需要礼貌的场合。",
+          "category": "tu/vous区分"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il parle _____ maintenant.（他现在说法语了）",
+          "correct": [
+            "français"
+          ],
+          "explanation": "parler + 语言，日常口语中不加冠词：parler français。",
+          "category": "parler+语言"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Bonne journée\" 最适合在什么时候说？",
+          "options": [
+            "晚上见面时",
+            "白天道别时",
+            "早上刚见面时",
+            "深夜告别时"
+          ],
+          "correct": 1,
+          "explanation": "Bonne journée 用于白天道别，意为\"祝你有美好的一天\"。晚上道别用 bonne soirée。",
+          "category": "日常表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Et votre bébé ? 这里 votre 可以替换为：",
+          "options": [
+            "ton（对朋友说）",
+            "son（谈论第三人）",
+            "mon（谈论自己）",
+            "leur（谈论他们）"
+          ],
+          "correct": 0,
+          "explanation": "votre 是 vous 的物主形容词。如果换成 tu 的语境，就变成 ton bébé。bébé 是阳性名词。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Tu as son adresse ?\" 中 son 指的是：",
+          "options": [
+            "你的地址",
+            "我的地址",
+            "他/她的地址",
+            "您的地址"
+          ],
+          "correct": 2,
+          "explanation": "son = 他的/她的。上下文中指 Luis 的地址。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些是 avoir 的正确变位？",
+          "options": [
+            "j'ai",
+            "tu es",
+            "il a",
+            "nous avons"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "tu es 是 être 的变位，不是 avoir。avoir：j'ai, tu as, il a, nous avons。",
+          "category": "avoir变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "法语地址格式正确的是：",
+          "options": [
+            "Montréal, 35 rue Notre-Dame",
+            "35, rue Notre-Dame, à Montréal",
+            "rue Notre-Dame, Montréal, 35",
+            "à Montréal, Notre-Dame rue, 35"
+          ],
+          "correct": 1,
+          "explanation": "法语地址格式：门牌号 + rue + 街名, à + 城市。",
+          "category": "文化常识"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "– C'est un garçon ou une fille ? – Ah ! _____ garçon.",
+          "correct": [
+            "un"
+          ],
+          "explanation": "回答\"是男孩还是女孩\"时，用不定冠词：un garçon。",
+          "category": "冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Ça va\" 在不同语境下可以表示：",
+          "options": [
+            "只能表示\"你好吗\"",
+            "只能表示\"我很好\"",
+            "既可以用来提问，也可以用来回答",
+            "只能用于正式场合"
+          ],
+          "correct": 2,
+          "explanation": "Ça va ? = 你好吗？（提问）；Ça va. = 还行/还好（回答）。非常灵活的日常表达。",
+          "category": "日常表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "– Salut, tu _____ bien ? – Oui, ça va. Et _____ ? – Je vais bien. J'habite _____ Paris maintenant.",
+          "correct": [
+            "vas",
+            "toi",
+            "à"
+          ],
+          "explanation": "tu vas（aller变位）；Et toi（tu的重读形式反问）；habiter à + 城市。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/137mZSs7PWJM5qW5uFRA_2A9p7MANjOkaVql3N2iasfU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772388847941-04s5l1yz6z5",
+          "front": "Salut 是什么语域？",
+          "back": "非正式问候，用于朋友/家人之间。相当于“嘿、你好”。"
+        },
+        {
+          "id": "1772388847941-eyzun3k4l3l",
+          "front": "Comment allez-vous ?",
+          "back": "您好吗？（正式，用 vous）\n对朋友说：Comment vas-tu ? 或 Tu vas bien ?"
+        },
+        {
+          "id": "1772388847941-aumxa6620x9",
+          "front": "Et toi ? / Et vous ?",
+          "back": "你呢？/ 您呢？\ntoi = tu 的重读形式；vous 本身就是重读形式。"
+        },
+        {
+          "id": "1772388847941-o8h22w9ijrd",
+          "front": "aller 现在时变位（全）",
+          "back": "je vais\ntu vas\nil/elle va\nnous allons\nvous allez\nils/elles vont"
+        },
+        {
+          "id": "1772388847941-lv4gia8ley",
+          "front": "avoir 现在时变位（全）",
+          "back": "j'ai\ntu as\nil/elle a\nnous avons\nvous avez\nils/elles ont"
+        },
+        {
+          "id": "1772388847941-lr9qfqy0x1g",
+          "front": "法语怎么问年龄？",
+          "back": "Tu as quel âge ? / Il a quel âge ?\n⚠️ 用 avoir，不用 être！"
+        },
+        {
+          "id": "1772388847941-izh4xr9j1oh",
+          "front": "Il a un an.",
+          "back": "他一岁了。\navoir + 数字 + an(s) = ……岁"
+        },
+        {
+          "id": "1772388847941-bispn4abgnd",
+          "front": "habiter à + ?",
+          "back": "habiter à + 城市名\nJ'habite à Montréal. / Il est à Paris."
+        },
+        {
+          "id": "1772388847941-6xkxq85b5nl",
+          "front": "au Canada 为什么用 au？",
+          "back": "le Canada = 阳性国家\nà + le = au\n所以：au Canada"
+        },
+        {
+          "id": "1772388847942-da610pgcu79",
+          "front": "en France 为什么用 en？",
+          "back": "la France = 阴性国家\n阴性国家前用 en\n所以：en France"
+        },
+        {
+          "id": "1772388847942-ug4ay713jdl",
+          "front": "ton adresse（不是 ta adresse）为什么？",
+          "back": "adresse 是阴性，但以元音 a 开头。\n为避免元音碰撞，阴性也用 mon/ton/son。\n同理：mon amie（不是 ma amie）"
+        },
+        {
+          "id": "1772388847942-5ncddeaxxn",
+          "front": "物主形容词：我的（阳/阴/复）",
+          "back": "mon（阳性）/ ma（阴性）/ mes（复数）\n⚠️ 阴性元音开头用 mon：mon adresse"
+        },
+        {
+          "id": "1772388847942-rmx5m25rvek",
+          "front": "物主形容词：你的 tu（阳/阴/复）",
+          "back": "ton / ta / tes\n⚠️ 阴性元音开头用 ton"
+        },
+        {
+          "id": "1772388847942-vf43ffq9e2",
+          "front": "物主形容词：您的 vous（阳/阴/复）",
+          "back": "votre / votre / vos\n阳性阴性同形！"
+        },
+        {
+          "id": "1772388847942-o3u4mo60g9",
+          "front": "parler français 还是 parler le français？",
+          "back": "日常口语：parler français（不加冠词）\n书面/强调：parler le français\nTCF 听力中常见不加冠词的形式。"
+        },
+        {
+          "id": "1772388847942-xqn53l908hr",
+          "front": "Quelle est ton adresse ?",
+          "back": "你的地址是什么？\nquelle = 哪个/什么（阴性形式，因为 adresse 是阴性）"
+        },
+        {
+          "id": "1772388847942-rat9i9aajql",
+          "front": "法语地址格式",
+          "back": "门牌号 + rue + 街名, à + 城市\n例：35, rue Notre-Dame, à Montréal"
+        },
+        {
+          "id": "1772388847942-psimnn9axtc",
+          "front": "@ 在法语中怎么读？",
+          "back": "arobase [a.ʁɔ.baz]\n读邮箱：ddelage arobase hotmail point com"
+        },
+        {
+          "id": "1772388847942-xpahx2oy09",
+          "front": "Bonne journée vs Au revoir",
+          "back": "Bonne journée = 祝你今天愉快（白天道别，更温暖）\nAu revoir = 再见（通用正式道别）"
+        },
+        {
+          "id": "1772388847942-zccho6v3o6l",
+          "front": "Ça va 的双重用法",
+          "back": "提问：Ça va ? = 你好吗？\n回答：Ça va. = 还行/挺好的。\n非常灵活的万能表达。"
+        },
+        {
+          "id": "1772388847942-xv19viws6h",
+          "front": "C'est un garçon ou une fille ?",
+          "back": "是男孩还是女孩？\nC'est + un/une + 名词 = 这是……\n用于介绍/说明身份"
+        },
+        {
+          "id": "1772388847942-jj11jmyjsof",
+          "front": "moi, je… 是什么用法？",
+          "back": "口语强调主语。\nOh ! oui, moi, je vais bien.\n= 哦！我呀，我很好。\nmoi = je 的重读形式"
+        }
+      ]
+    },
+    {
       "id": 1772388461043,
       "name": "Leçon 3 Ça va bien 词汇",
       "folderId": "1770604921596",
@@ -60603,6 +61846,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-01T18:08:46.147Z",
+  "exportedAt": "2026-03-01T18:41:35.079Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
