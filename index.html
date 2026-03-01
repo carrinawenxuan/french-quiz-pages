@@ -6437,7 +6437,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }
     }
 
-    $('btn-start-practice').addEventListener('click', () => {
+    function runBindingsAndInit() {
+      try {
+    var _btnStart = $('btn-start-practice');
+    if (_btnStart) _btnStart.addEventListener('click', () => {
       if (!_storageReady) { showToast('数据加载中，请稍候…'); return; }
       const typeFilter = getSelectedTypeFilter();
       const sel = $('start-practice-select');
@@ -6489,6 +6492,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         startQuiz(filtered);
       }
     });
+    } catch (e) { console.error('[french-quiz] btn-start-practice bind', e); }
 
     function clearImportForm() {
       const id = (x) => document.getElementById(x);
@@ -6503,7 +6507,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       window._pendingAppendQuestions = [];
       renderImportPastedImages();
     }
-    $('btn-import-show').addEventListener('click', async () => {
+    var _btnImportShow = $('btn-import-show');
+    if (_btnImportShow) _btnImportShow.addEventListener('click', async () => {
       if (!(await checkImportPin())) return;
       const sec = $('import-section');
       const btn = $('btn-import-show');
@@ -6513,6 +6518,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (btn) btn.setAttribute('aria-expanded', String(!isExpanded));
     });
 
+    try {
     (function initFlashcards() {
       let _flashcardCurrentDeckId = null;
       let _flashcardCurrentSetId = null;
@@ -7267,6 +7273,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       });
     })();
+    } catch (e) { console.error('[french-quiz] initFlashcards', e); }
 
     function looksLikeFlashcardImportArray(arr) {
       if (!Array.isArray(arr) || arr.length === 0) return false;
@@ -7293,7 +7300,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       return flashLike > 0 && flashLike >= Math.ceil(checked * 0.6);
     }
 
-    document.getElementById('btn-import-parse').addEventListener('click', () => {
+    try {
+    var _btnParse = document.getElementById('btn-import-parse');
+    if (_btnParse) _btnParse.addEventListener('click', () => {
       const parseBtn = document.getElementById('btn-import-parse');
       const origText = parseBtn ? parseBtn.textContent : '';
       if (parseBtn) { parseBtn.disabled = true; parseBtn.textContent = '解析中…'; }
@@ -7756,6 +7765,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
     })();
+    } catch (e) { console.error('[french-quiz] bindings before storage', e); }
 
     var btnOneSave = document.getElementById('btn-one-save');
     if (btnOneSave) btnOneSave.addEventListener('click', saveToProjectFolder);
@@ -8492,6 +8502,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
     })();
+      } catch (e) { console.error('[french-quiz] runBindingsAndInit', e); }
+    }
+    if (typeof document !== 'undefined') {
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', runBindingsAndInit);
+      else runBindingsAndInit();
+    } else {
+      runBindingsAndInit();
+    }
   </script>
 </body>
 </html>
