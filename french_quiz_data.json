@@ -1,6 +1,2516 @@
 {
   "savedSets": [
     {
+      "id": 1772388461043,
+      "name": "Leçon 3 Ça va bien 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-01T18:07:41.043Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel âge _____ tu ?",
+          "options": [
+            "es",
+            "as",
+            "vas",
+            "fais"
+          ],
+          "correct": 1,
+          "explanation": "法语用 avoir 表达年龄，tu as quel âge。不能用 être。",
+          "category": "avoir 年龄表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ au Canada l'année dernière.",
+          "options": [
+            "a allé",
+            "est allé",
+            "est allée",
+            "a allée"
+          ],
+          "correct": 2,
+          "explanation": "aller 用 être 做助动词，主语 elle 是阴性，过去分词加 -e → est allée。",
+          "category": "aller passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ France cet été.",
+          "options": [
+            "à",
+            "au",
+            "en",
+            "aux"
+          ],
+          "correct": 2,
+          "explanation": "France 是阴性国名，用 en。au 用于阳性国名（au Canada），à 用于城市。",
+          "category": "aller + 介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment est-ce que tu t'_____ ?",
+          "options": [
+            "appelle",
+            "appelles",
+            "appele",
+            "appels"
+          ],
+          "correct": 1,
+          "explanation": "s'appeler 与 tu 搭配：tu t'appelles（双写 l + es 词尾）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ amis ici.",
+          "options": [
+            "des",
+            "les",
+            "de",
+            "d'"
+          ],
+          "correct": 3,
+          "explanation": "否定句中 des → de/d'。amis 以元音开头，所以用 d'amis。",
+          "category": "否定句冠词变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est votre adresse, s'il vous plaît ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 1,
+          "explanation": "adresse 是阴性单数名词，疑问形容词用 quelle。",
+          "category": "quel 的性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est _____ amie. Elle s'appelle Marie.",
+          "options": [
+            "ma",
+            "mon",
+            "sa",
+            "ta"
+          ],
+          "correct": 1,
+          "explanation": "amie 是阴性但以元音开头，为避免元音冲突，用 mon 而非 ma。",
+          "category": "主有形容词 + 元音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il va _____ le médecin demain.",
+          "options": [
+            "à",
+            "au",
+            "chez",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "去看某人（人）用 chez：aller chez le médecin。à/au/en 用于地点。",
+          "category": "aller + 介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ trois enfants.",
+          "options": [
+            "sont",
+            "ont",
+            "font",
+            "vont"
+          ],
+          "correct": 1,
+          "explanation": "表达\"有\"用 avoir。ils ont trois enfants. sont = être, font = faire, vont = aller。",
+          "category": "avoir 基础用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu viens avec _____ ?",
+          "options": [
+            "je",
+            "me",
+            "moi",
+            "mon"
+          ],
+          "correct": 2,
+          "explanation": "介词 avec 后面必须用重读代词。je 的重读形式是 moi。",
+          "category": "重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ français couramment.",
+          "options": [
+            "le",
+            "du",
+            "en",
+            "—（不填）"
+          ],
+          "correct": 3,
+          "explanation": "parler + 语言，标准用法不加冠词：parler français。",
+          "category": "parler 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ à Paris maintenant.",
+          "options": [
+            "sommes allés",
+            "allons",
+            "vont",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "nous 对应 allons。sommes allés 是 passé composé，与 maintenant 矛盾；vont/va 人称不对。",
+          "category": "aller 现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai très . Je veux de l'eau.",
+          "options": [
+            "chaud",
+            "soif",
+            "faim",
+            "peur"
+          ],
+          "correct": 1,
+          "explanation": "想喝水 = 渴了 = avoir soif。chaud = 热，faim = 饿，peur = 怕。注意 avoir + 名词，不加冠词。",
+          "category": "avoir + 身体感觉"
+        },
+        {
+          "type": "single_choice",
+          "stem": ", tu viens ou pas ?",
+          "options": [
+            "Alors",
+            "Avec",
+            "Bien",
+            "Comment"
+          ],
+          "correct": 0,
+          "explanation": "Alors 在口语中用于引出话题/催促：\"那么，你来不来？\"",
+          "category": "alors 用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 aller 的 passé composé 正确形式？",
+          "options": [
+            "il a allé",
+            "elle est allée",
+            "nous sommes allés",
+            "ils ont allés"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "aller 用 être 做助动词。il a allé（用了 avoir）和 ils ont allés（用了 avoir）都是错误的。",
+          "category": "aller passé composé"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 son 的用法正确？",
+          "options": [
+            "son adresse (她的地址)",
+            "sa ami (他的朋友)",
+            "son école (她的学校)",
+            "sa garçon (她的男孩)"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "adresse 和 école 都是阴性但以元音开头，必须用 son 避免元音冲突。sa ami 应为 mon/son ami；sa garçon 错误，garçon 是阳性应该用 son。",
+          "category": "主有形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Merci beaucoup !\n— _____ !",
+          "correct": [
+            "De rien",
+            "Je vous en prie",
+            "Il n'y a pas de quoi"
+          ],
+          "explanation": "回应 merci 的常见说法：De rien（最常用）、Je vous en prie（正式）、Il n'y a pas de quoi。",
+          "category": "日常表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (aller) manger au restaurant ce soir.",
+          "correct": [
+            "vais"
+          ],
+          "explanation": "最近将来时：aller（现在时变位）+ 动词原形。je vais manger = 我今晚要去餐厅吃饭。",
+          "category": "futur proche"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Bonjour ! Je _____ (avoir) 22 ans. J'habite _____ Montréal. Je _____ (parler) français et anglais.",
+          "correct": [
+            "ai",
+            "à",
+            "parle"
+          ],
+          "explanation": "avoir 年龄用 ai；城市前用 à；parler 第一人称 je parle。",
+          "category": "综合填空"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ (quel) est ton adresse ? Tu habites dans _____ (quel) rue ? Et tes amis, ils habitent dans _____ (quel) quartier ?",
+          "correct": [
+            "Quelle",
+            "quelle",
+            "quel"
+          ],
+          "explanation": "adresse 阴性单数 → Quelle；rue 阴性单数 → quelle；quartier 阳性单数 → quel。",
+          "category": "quel 性数配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1jEanKXRUuw1C9yhBcsJsP0Gj1SgkFmtNVXZFrQrYZZk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772388524083-pmnohmn11w",
+          "front": "adresse (词性 + 含义)",
+          "back": "n.f. 地址，住址\nune adresse / l'adresse\nQuelle est votre adresse ?"
+        },
+        {
+          "id": "1772388524083-j5fbaoyoxv",
+          "front": "âge (词性 + 含义)",
+          "back": "n.m. 年龄，年纪\n⚠️ 用 avoir 表达年龄：J'ai 25 ans.\n不能说 Je suis 25 ans"
+        },
+        {
+          "id": "1772388524083-s08a5kmw71",
+          "front": "aller — 现在时变位",
+          "back": "je vais, tu vas, il va\nnous allons, vous allez, ils vont"
+        },
+        {
+          "id": "1772388524083-h13zg36aq2u",
+          "front": "aller — passé composé",
+          "back": "用 être 做助动词！\nje suis allé(e), tu es allé(e)\nil est allé, elle est allée\nnous sommes allé(e)s\n⚠️ 过去分词要性数配合"
+        },
+        {
+          "id": "1772388524083-k1w7udlywhm",
+          "front": "aller — 介词搭配",
+          "back": "à + 城市：aller à Paris\nen + 阴性国名：aller en France\nau + 阳性国名：aller au Canada\naux + 复数国名：aller aux États-Unis\nchez + 人：aller chez le médecin"
+        },
+        {
+          "id": "1772388524083-x4cxw3pu068",
+          "front": "aller + 动词原形 = ?",
+          "back": "最近将来时 (futur proche)\nJe vais manger. 我要去吃饭了。"
+        },
+        {
+          "id": "1772388524083-crhzgqmpt66",
+          "front": "alors (三层含义)",
+          "back": "1. 因此/所以 (= donc)\n2. 那么/然后（连接话题）\n3. 口语感叹：Ça alors !"
+        },
+        {
+          "id": "1772388524083-ehdlio6sln5",
+          "front": "ami(e) — 阴阳性 + 注意点",
+          "back": "阳 un ami / 阴 une amie\n⚠️ 元音开头，阴性也说 mon amie（不是 ma amie）"
+        },
+        {
+          "id": "1772388524083-tggvp6us2j",
+          "front": "avec (含义 + 反义词)",
+          "back": "prép. 和……一起\n反义：sans（没有）\navec 后接重读代词：avec moi/toi/lui/elle"
+        },
+        {
+          "id": "1772388524083-9yyb9qhjt3o",
+          "front": "avoir — 现在时变位",
+          "back": "j'ai, tu as, il a\nnous avons, vous avez, ils ont"
+        },
+        {
+          "id": "1772388524083-zqi00sc1a9a",
+          "front": "avoir — passé composé",
+          "back": "j'ai eu, tu as eu, il a eu\nnous avons eu, vous avez eu, ils ont eu"
+        },
+        {
+          "id": "1772388524083-14hl4bntdo9g",
+          "front": "avoir 的特殊用法（身体感觉）",
+          "back": "avoir faim 饿 / avoir soif 渴\navoir chaud 热 / avoir froid 冷\navoir peur 害怕 / avoir raison 有道理\n⚠️ 不加冠词！"
+        },
+        {
+          "id": "1772388524083-ghdlnsh178o",
+          "front": "bébé (词性注意点)",
+          "back": "n.m. 婴儿，宝宝\n⚠️ 永远阳性，即使指女婴也说 un bébé"
+        },
+        {
+          "id": "1772388524083-dg99vp9ynyu",
+          "front": "bien vs bon 区别",
+          "back": "bien = 副词，修饰动词：Elle chante bien.\nbon = 形容词，修饰名词：un bon livre.\nC'est bien（做得对）≠ C'est bon（好吃/可以了）"
+        },
+        {
+          "id": "1772388524083-mai4p93blr",
+          "front": "ça (= ?) + 常用表达",
+          "back": "= cela 的口语形式\nÇa va ? 你好吗？\nÇa marche ! 没问题！\nÇa dépend. 看情况。\nÇa y est ! 搞定了！"
+        },
+        {
+          "id": "1772388524083-kg3iglhq4ue",
+          "front": "Canada — 介词搭配",
+          "back": "n.m. 阳性国名\n在/去：au Canada\n来自：du Canada\n对比：en France（阴性用 en）"
+        },
+        {
+          "id": "1772388524083-j5whr68cvph",
+          "front": "comment (高频句型)",
+          "back": "adv.interr. 如何，怎么\nComment allez-vous ? 您好吗？\nComment tu t'appelles ? 你叫什么？\nComment ça s'écrit ? 怎么拼写？"
+        },
+        {
+          "id": "1772388524083-2ol5jtrg8h",
+          "front": "e-mail 的魁北克说法",
+          "back": "e-mail = courriel (n.m.)\n魁北克法语更常用 courriel\nTCF Canada 两个都可能出现"
+        },
+        {
+          "id": "1772388524083-orfm79l1s5g",
+          "front": "fille 的双重含义",
+          "back": "n.f.\n1. 女孩：une fille\n2. 女儿：ma fille\n3. 小女孩/孙女：une petite fille"
+        },
+        {
+          "id": "1772388524083-f0y8hk4nolo",
+          "front": "fils 怎么发音？",
+          "back": "发 /fis/，末尾 -ls 发音！\n不是 /fil/（fil = 线）\nmon fils 我的儿子"
+        },
+        {
+          "id": "1772388524083-yescj56481",
+          "front": "garçon 的发音和注意点",
+          "back": "n.m. /ɡaʁ.sɔ̃/ 男孩，小伙子\nç 发 /s/\n旧时也指“服务员”，但现在不礼貌，用 serveur"
+        },
+        {
+          "id": "1772388524083-eepkn55xsg8",
+          "front": "jour vs journée 区别",
+          "back": "jour = 计数单位：trois jours 三天\njournée = 强调持续过程：toute la journée 一整天\nBonne journée ! 祝你今天过得好！\n同类：an/année, matin/matinée, soir/soirée"
+        },
+        {
+          "id": "1772388524083-pnc5mmmhr79",
+          "front": "maintenant 的同义替换",
+          "back": "adv. 现在，目前\n= actuellement / à présent / en ce moment\nà partir de maintenant 从现在起\njusqu'à maintenant 直到现在"
+        },
+        {
+          "id": "1772388524083-8l8p8l76fyr",
+          "front": "merci — 如何回应？",
+          "back": "De rien. 不客气（最常用）\nJe vous en prie. 不客气（正式）\nIl n'y a pas de quoi. 不必客气"
+        },
+        {
+          "id": "1772388524083-ega4xobh8z7",
+          "front": "parler 的介词搭配",
+          "back": "parler de qqch 谈论某事\nparler à qqn 跟某人说话\nparler français 讲法语（不加冠词！）\n⚠️ je parle/il parle/ils parlent 发音相同"
+        },
+        {
+          "id": "1772388524083-vjdugznqks",
+          "front": "parler — 现在时变位",
+          "back": "je parle, tu parles, il parle\nnous parlons, vous parlez, ils parlent\n-er 动词的标准模板"
+        },
+        {
+          "id": "1772388524083-53mqvwf9ymc",
+          "front": "quel(le) 的四种形式",
+          "back": "阳单 quel / 阴单 quelle\n阳复 quels / 阴复 quelles\n发音全部相同：/kɛl/\nQuel âge avez-vous ?\nQuelle est votre adresse ?"
+        },
+        {
+          "id": "1772388524083-ltb3rznr6w",
+          "front": "重读代词完整表",
+          "back": "je→moi, tu→toi, il→lui, elle→elle\nnous→nous, vous→vous\nils→eux, elles→elles\n用于：介词后、强调、单独回答"
+        },
+        {
+          "id": "1772388524083-ch7o04xn9vg",
+          "front": "rue (词性 + 搭配)",
+          "back": "n.f. 街，街道\ndans la rue 在街上\ntraverser la rue 过马路\nune rue piétonne 步行街"
+        },
+        {
+          "id": "1772388524083-f8wd2wr1jzh",
+          "front": "salut 的双重用法",
+          "back": "interj. 口语/非正式\n1. 打招呼：嗨！\n2. 告别：拜！\n⚠️ 只对朋友用，不对老板/陌生人用"
+        },
+        {
+          "id": "1772388524083-37yqpqrwctc",
+          "front": "son/sa/ses 看什么来决定？",
+          "back": "看后面名词的阴阳性，不看所有者性别！\nson livre = 他的书 或 她的书\n⚠️ 元音开头阴性名词用 son：son adresse（不是 sa adresse）"
+        },
+        {
+          "id": "1772388524083-oplzkg39z9",
+          "front": "ton/ta/tes vs votre/vos",
+          "back": "ton/ta/tes = 你的（tu 的主有形容词）\nvotre/vos = 您的/你们的（vous 的主有形容词）\nvotre 阴阳同形！"
+        },
+        {
+          "id": "1772388524083-an17mjbfjfg",
+          "front": "un/une 否定句中变什么？",
+          "back": "un/une/des → de/d'\nJ'ai un chat. → Je n'ai pas de chat.\nElle a des amis. → Elle n'a pas d'amis."
+        },
+        {
+          "id": "1772388524083-p3bvn5bdil",
+          "front": "toi 的四种使用场景",
+          "back": "1. 强调：Toi, tu parles français ?\n2. 介词后：avec toi, chez toi\n3. 单独回答：Et toi ?\n4. 命令句宾语：Regarde-toi !"
+        },
+        {
+          "id": "1772388524083-q12pys0c9i",
+          "front": "vous 的双重身份",
+          "back": "1. 尊称单数（您）\n2. 复数（你们）\nTCF Canada：正式场景用 vous，日常 tu 更多"
+        }
+      ]
+    },
+    {
+      "id": 1772387263644,
+      "name": "疑问形容词 quel + 年龄表达",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T17:47:43.644Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ heure est-il ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 1,
+          "explanation": "heure 是阴性单数名词，所以用 quelle。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont vos passe-temps ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 2,
+          "explanation": "passe-temps 是阳性复数，用 quels。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ langues parlez-vous ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 3,
+          "explanation": "langues 是阴性复数，用 quelles。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est votre nom ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 0,
+          "explanation": "nom 是阳性单数，用 quel。",
+          "category": "quel + être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est la date aujourd'hui ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 1,
+          "explanation": "date 是阴性单数，用 quelle。",
+          "category": "quel + être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ âge avez-vous ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 0,
+          "explanation": "âge 是阳性单数名词，用 quel。",
+          "category": "年龄表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'_____ vingt ans.",
+          "options": [
+            "suis",
+            "ai",
+            "est",
+            "as"
+          ],
+          "correct": 1,
+          "explanation": "法语年龄用 avoir，不用 être。主语 je → j'ai。",
+          "category": "年龄表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ trente-deux ans.",
+          "options": [
+            "est",
+            "a",
+            "as",
+            "ai"
+          ],
+          "correct": 1,
+          "explanation": "Elle + avoir → a。法语年龄必须用 avoir。",
+          "category": "年龄表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ livres as-tu lus ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 2,
+          "explanation": "livres 是阳性复数，用 quels。注意过去分词 lus 也做了复数配合。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ train prends-tu ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 0,
+          "explanation": "train 是阳性单数，用 quel。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a neuf ans. 这句话中 neuf ans 的正确发音是：",
+          "options": [
+            "/nœf ɑ̃/",
+            "/nœv ɑ̃/",
+            "/nœ ɑ̃/",
+            "/nøf ɑ̃/"
+          ],
+          "correct": 1,
+          "explanation": "neuf 在 ans 和 heures 前，f 变为 /v/ 音，读 /nœvɑ̃/。这是法语特殊联诵规则。",
+          "category": "发音联诵"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ quinze ans.",
+          "options": [
+            "sommes",
+            "avons",
+            "sont",
+            "avez"
+          ],
+          "correct": 1,
+          "explanation": "年龄用 avoir，nous → avons。",
+          "category": "年龄表达"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Quel est votre nom ?",
+            "Quelle âge as-tu ?",
+            "J'ai vingt ans.",
+            "Je suis dix-huit ans."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "B 错：âge 是阳性，应为 quel âge。D 错：年龄用 avoir 不用 être。",
+          "category": "综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ est votre nationalité ?",
+          "correct": [
+            "Quelle"
+          ],
+          "explanation": "nationalité 是阴性单数名词，用 quelle。",
+          "category": "quel + être"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu as _____ âge ?",
+          "correct": [
+            "quel"
+          ],
+          "explanation": "âge 是阳性单数，用 quel。这是陈述语序的口语问法。",
+          "category": "年龄表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ sont vos sports préférés ? — J'_____ trente _____.",
+          "correct": [
+            "Quels",
+            "ai",
+            "ans"
+          ],
+          "explanation": "sports 阳性复数 → quels；年龄用 avoir → j'ai；年龄单位 ans 不能省。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1OEpXu5HPpFc3aqboBXmqJ0KuTmyzNvvvYwvMqdFRvUw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772387294823-nlkrpmr5lq",
+          "front": "quel 的本质是什么？",
+          "back": "疑问形容词（adjectif interrogatif），相当于英语 which/what，必须与名词搭配，且性数一致。"
+        },
+        {
+          "id": "1772387294823-6362qg0nvx",
+          "front": "quel 的四种形式",
+          "back": "quel（阳单）、quelle（阴单）、quels（阳复）、quelles（阴复）\n发音全部相同：/kɛl/"
+        },
+        {
+          "id": "1772387294823-66ljiczjifa",
+          "front": "quel 阴性怎么变？",
+          "back": "加 -le → quelle / quelles\n和普通形容词规则一致：阴性加e，复数加s"
+        },
+        {
+          "id": "1772387294823-lg2hb8hyydh",
+          "front": "Quel train prends-tu ? 为什么用 quel？",
+          "back": "train 是阳性单数名词 → 用 quel"
+        },
+        {
+          "id": "1772387294823-lhdjlb5yoeh",
+          "front": "Quelle heure est-il ? 为什么用 quelle？",
+          "back": "heure 是阴性单数名词 → 用 quelle\n⚠️ quel heure 是常见错误"
+        },
+        {
+          "id": "1772387294823-xdwtjppmz6",
+          "front": "Quels livres as-tu lus ?",
+          "back": "livres 阳性复数 → quels\n注意 lus 也做了过去分词的复数配合"
+        },
+        {
+          "id": "1772387294823-o0gzbcd0lul",
+          "front": "Quelles langues parlez-vous ?",
+          "back": "langues 阴性复数 → quelles\n意思：您说哪些语言？"
+        },
+        {
+          "id": "1772387306914-hg3okbyiqh",
+          "front": "quel 用法 A 的结构",
+          "back": "Quel(le)(s) + 名词 + 动词\n用途：询问具体信息\n例：Quel train prends-tu ?"
+        },
+        {
+          "id": "1772387306914-whdbw2ohao",
+          "front": "quel 用法 B 的结构",
+          "back": "Quel(le)(s) + est/sont + ...\n用途：询问定义、身份、选择\n例：Quel est votre nom ?"
+        },
+        {
+          "id": "1772387306914-84e8gu2wznl",
+          "front": "用法 A 和 B 的区别",
+          "back": "A：quel 直接修饰名词，问具体信息（哪个…？）\nB：quel 与 être 连用，问定义/身份（…是什么？）"
+        },
+        {
+          "id": "1772387306914-19zqkkamtlu",
+          "front": "Quel est votre nom ? 中 quel 修饰谁？",
+          "back": "修饰 nom（阳性单数）→ 用 quel\n⚠️ 不要被 votre 干扰，votre 无性的区分"
+        },
+        {
+          "id": "1772387306914-8e42a93z14l",
+          "front": "Quelle est la date ?",
+          "back": "date 阴性单数 → quelle\n意思：今天几号？"
+        },
+        {
+          "id": "1772387306914-yu4ipxj2ed",
+          "front": "Quels sont vos passe-temps ?",
+          "back": "passe-temps 阳性复数 → quels\n意思：您的爱好是什么？"
+        },
+        {
+          "id": "1772387306914-4y5piy856go",
+          "front": "法语年龄用哪个动词？",
+          "back": "用 avoir（有），不用 être（是）！\n字面意思：你「有」几岁\n❌ Je suis 18 ans → ✅ J'ai 18 ans"
+        },
+        {
+          "id": "1772387306914-0vprs652vw1b",
+          "front": "怎么问年龄？（正式）",
+          "back": "Quel âge avez-vous ?\nQuel âge as-tu ?\n（倒装语序，更正式）"
+        },
+        {
+          "id": "1772387306914-7qxu7fetxbi",
+          "front": "怎么问年龄？（口语）",
+          "back": "Vous avez quel âge ?\nTu as quel âge ?\n（陈述语序，更口语）"
+        },
+        {
+          "id": "1772387306914-dbcej66r6ob",
+          "front": "年龄回答结构",
+          "back": "主语 + avoir + 数字 + an(s)\nJ'ai dix-huit ans.\n⚠️ 1岁用 un an（单数），2岁以上用 ans（复数）"
+        },
+        {
+          "id": "1772387306914-we98p536ud",
+          "front": "neuf ans 怎么发音？",
+          "back": "/nœvɑ̃/\nf → /v/（特殊规则，只在 neuf + ans/heures 时发生）\nTCF 听力高频考点！"
+        },
+        {
+          "id": "1772387306914-r7lykf5z3om",
+          "front": "deux/trois/six/dix ans 的联诵",
+          "back": "尾辅音都读 /z/\ndeux ans /døzɑ̃/\ntrois ans /tʁwazɑ̃/\nsix ans /sizɑ̃/\ndix ans /dizɑ̃/"
+        },
+        {
+          "id": "1772387306914-4ud9q130jet",
+          "front": "cinq ans 的联诵",
+          "back": "/sɛ̃kɑ̃/\nq → /k/ 音连读"
+        },
+        {
+          "id": "1772387306914-2jiivq4r559",
+          "front": "huit ans 的联诵",
+          "back": "/ɥitɑ̃/\nt → /t/ 音连读"
+        },
+        {
+          "id": "1772387306914-d2qz73qfp65",
+          "front": "quel vs qu'elle 区别",
+          "back": "quel = 疑问形容词（哪个/什么）\nqu'elle = que + elle（她…的事）\nTCF 语法题常考这个对比"
+        },
+        {
+          "id": "1772387306914-1dqmgdr7vgv",
+          "front": "TCF 陷阱：年龄忘记 ans",
+          "back": "❌ J'ai dix-huit.\n✅ J'ai dix-huit ans.\nans 不能省略！"
+        },
+        {
+          "id": "1772387306914-wb53c8yumx9",
+          "front": "TCF 陷阱：年龄用 être",
+          "back": "❌ Je suis vingt ans.\n✅ J'ai vingt ans.\n法语年龄只能用 avoir"
+        }
+      ]
+    },
+    {
+      "id": 1772386896521,
+      "name": "词汇：国籍、国家、语言、城市",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-01T17:41:36.521Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je viens _____ Chine.",
+          "options": [
+            "de la",
+            "de",
+            "du",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "阴性国家用 venir de + 国名，冠词省略。la Chine 是阴性，所以是 de Chine。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle vient _____ Canada.",
+          "options": [
+            "de",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "le Canada 是阳性单数国家，venir du (= de + le) Canada。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il vient _____ États-Unis.",
+          "options": [
+            "de",
+            "du",
+            "de les",
+            "des"
+          ],
+          "correct": 3,
+          "explanation": "les États-Unis 是复数国家，venir des (= de + les) États-Unis。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ France cet été.",
+          "options": [
+            "au",
+            "à la",
+            "en",
+            "aux"
+          ],
+          "correct": 2,
+          "explanation": "阴性国家用 aller en + 国名。la France 是阴性。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu vas _____ Japon l'année prochaine ?",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "aux"
+          ],
+          "correct": 1,
+          "explanation": "le Japon 是阳性单数，aller au (= à + le) Japon。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie vient _____ Italie.",
+          "options": [
+            "de l'",
+            "d'",
+            "du",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "l'Italie 是阴性国家且元音开头，de 在元音前省略为 d'。Je viens d'Italie。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon ami vient _____ Mexique.",
+          "options": [
+            "de",
+            "du",
+            "de la",
+            "d'"
+          ],
+          "correct": 1,
+          "explanation": "le Mexique 虽以 -e 结尾，但它是阳性国家（例外），所以用 du Mexique。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ des Philippines.",
+          "options": [
+            "vient",
+            "viens",
+            "viennent",
+            "venons"
+          ],
+          "correct": 2,
+          "explanation": "ils 对应 viennent（第三人称复数，双 n）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ du Brésil hier.",
+          "options": [
+            "venu",
+            "venue",
+            "venus",
+            "venues"
+          ],
+          "correct": 1,
+          "explanation": "venir 用 être 做助动词，elle 是阴性单数，过去分词加 -e → venue。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ de manger, je n'ai plus faim.",
+          "options": [
+            "vais",
+            "viens",
+            "suis",
+            "ai"
+          ],
+          "correct": 1,
+          "explanation": "venir de + inf. = 刚刚做了某事（passé récent）。Je viens de manger = 我刚吃完。",
+          "category": "最近过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (venir) de Russie.",
+          "correct": [
+            "venons"
+          ],
+          "explanation": "nous 对应 venons。la Russie 是阴性国家，用 de。",
+          "category": "变位+介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elles sont _____ (venir, passé composé) des Pays-Bas.",
+          "correct": [
+            "venues"
+          ],
+          "explanation": "elles 是阴性复数，être 助动词，过去分词 venu + e + s = venues。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre va _____ États-Unis pour ses études.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "aux"
+          ],
+          "correct": 3,
+          "explanation": "les États-Unis 是复数，aller aux (= à + les) États-Unis。",
+          "category": "国家介词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Je viens de la France.",
+            "Je viens de France.",
+            "Il vient du Japon.",
+            "Elle va en Canada."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "阴性国家用 de + 国名（不加冠词），所以 de France 正确，de la France 错。du Japon 正确（阳性单数）。aller en Canada 错，应为 au Canada（阳性单数）。",
+          "category": "综合判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mon père vient _____ Maroc et ma mère vient _____ Espagne. Maintenant, nous habitons _____ Canada.",
+          "correct": [
+            "du",
+            "d'",
+            "au"
+          ],
+          "explanation": "le Maroc 阳性单数 → du；l'Espagne 阴性+元音 → d'；le Canada 阳性单数+habiter → au。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/10p1PLnsoMHUYSgviJESyiG-pijPKsTrqTtoFLb21JqQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1772386374948,
+      "name": "Leçon 2 Qui est-ce 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-01T17:32:54.948Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Qui est-ce ?\n— _____ Naoko.",
+          "options": [
+            "Il est",
+            "Elle est",
+            "C'est",
+            "Est-ce"
+          ],
+          "correct": 2,
+          "explanation": "介绍/确认某人身份用 C'est + 名字。不能用 Il/Elle est + 名字。",
+          "category": "C'est vs Il est"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Naoko est _____. Elle étudie le français.",
+          "options": [
+            "étudiant",
+            "étudiante",
+            "une étudiante",
+            "l'étudiante"
+          ],
+          "correct": 1,
+          "explanation": "Il/Elle est + 职业，不加冠词。étudiante 是阴性形式，因为主语是女性。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle habite _____ Suisse, _____ Genève.",
+          "options": [
+            "au / à",
+            "en / à",
+            "en / en",
+            "à / à"
+          ],
+          "correct": 1,
+          "explanation": "Suisse 是阴性国家 → en Suisse；Genève 是城市 → à Genève。",
+          "category": "国家城市介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Luigi est _____.",
+          "options": [
+            "italienne",
+            "italien",
+            "italie",
+            "italiens"
+          ],
+          "correct": 1,
+          "explanation": "Luigi 是男性，国籍形容词用阳性单数 italien。阴性为 italienne。",
+          "category": "国籍阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est Émilie Constant. _____ est assistante.",
+          "options": [
+            "C'est",
+            "Il est",
+            "Elle est",
+            "Ce sont"
+          ],
+          "correct": 2,
+          "explanation": "后跟无冠词职业，用 Elle est（不用 C'est）。",
+          "category": "C'est vs Il est"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Carlos est espagnol et Lin est _____.",
+          "options": [
+            "chinois",
+            "chinoise",
+            "chinoises",
+            "chinese"
+          ],
+          "correct": 1,
+          "explanation": "Lin 是女性，chinois 的阴性形式为 chinoise。",
+          "category": "国籍阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle habite _____ Japon.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans"
+          ],
+          "correct": 1,
+          "explanation": "Japon 是阳性国家，辅音开头 → au Japon。",
+          "category": "国家介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Et _____, qui est-ce ?\n— C'est Pierre.",
+          "options": [
+            "il",
+            "elle",
+            "lui",
+            "le"
+          ],
+          "correct": 2,
+          "explanation": "强调代词 lui 用于句首强调，相当于\"那他呢\"。不能用主语代词 il。",
+          "category": "强调代词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "C'est une étudiante.",
+            "Elle est étudiante.",
+            "Elle est une étudiante.",
+            "C'est étudiante."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "C'est + une + 职业 ✅；Elle est + 职业（无冠词）✅。Elle est une étudiante ❌（il/elle est 后不加不定冠词+职业）。C'est étudiante ❌（C'est 后需要限定词）。",
+          "category": "C'est vs Il est"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Anna est belge. Pierre est _____. (professeur 的正确形式)",
+          "correct": [
+            "professeur"
+          ],
+          "explanation": "professeur 传统上只有阳性形式，Pierre 是男性，直接用 professeur。",
+          "category": "职业词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Elle est sympa ?\n— Oui, elle est très _____.",
+          "options": [
+            "sympa",
+            "sympas",
+            "sympathiques",
+            "sympathie"
+          ],
+          "correct": 0,
+          "explanation": "sympa 是 sympathique 的口语缩写，修饰单数主语不变形。sympathie 是名词\"好感\"，不对。",
+          "category": "形容词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Naoko est _____. Elle habite _____ Suisse. Elle est dans le cours _____ français.",
+          "correct": [
+            "japonaise",
+            "en",
+            "de"
+          ],
+          "explanation": "第一空：女性用 japonaise；第二空：阴性国家用 en；第三空：le cours de français 固定搭配。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1BwVqBUEb067gYIOyz6Hbz_TIp3TW_OL-WLgl_CPNzZk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772386397210-a779ndc6qc",
+          "front": "Qui est-ce ? 是什么意思？怎么回答？",
+          "back": "意思：这是谁？\n回答：C'est + 名字/身份\n例：C'est Naoko. C'est une étudiante."
+        },
+        {
+          "id": "1772386397210-he14f9q729",
+          "front": "C'est vs Il/Elle est 怎么区分？",
+          "back": "C'est + 限定词+名词：C'est une étudiante.\nIl/Elle est + 形容词/无冠词职业：Elle est étudiante.\n❌ Elle est une étudiante."
+        },
+        {
+          "id": "1772386397210-ja2mnzzpeic",
+          "front": "Elle est étudiante. 为什么没有冠词？",
+          "back": "Il/Elle est + 职业时不加冠词。\n但 C'est + un/une + 职业：C'est une étudiante."
+        },
+        {
+          "id": "1772386397210-08opvysk8s65",
+          "front": "法国 → 用什么介词？",
+          "back": "en France（阴性国家 → en）"
+        },
+        {
+          "id": "1772386397210-qlku2767297",
+          "front": "日本 → 用什么介词？",
+          "back": "au Japon（阳性辅音开头国家 → au）"
+        },
+        {
+          "id": "1772386397210-lplpik8k5qn",
+          "front": "城市前用什么介词？",
+          "back": "à + 城市名\n例：à Genève, à Paris, à Tokyo"
+        },
+        {
+          "id": "1772386397210-im9wvm6zjtd",
+          "front": "en / au / aux 选择规则",
+          "back": "en + 阴性国家或元音开头：en France, en Italie\nau + 阳性辅音开头：au Japon, au Canada\naux + 复数：aux États-Unis"
+        },
+        {
+          "id": "1772386397210-h3dezt96ikg",
+          "front": "japonais 的阴性形式？",
+          "back": "japonaise（加 e）"
+        },
+        {
+          "id": "1772386397210-tvdmopdpr3",
+          "front": "italien 的阴性形式？",
+          "back": "italienne（-en → -enne，双写 n 加 e）"
+        },
+        {
+          "id": "1772386397210-8dl7ri9rjfs",
+          "front": "espagnol 的阴性形式？",
+          "back": "espagnole（加 e）"
+        },
+        {
+          "id": "1772386397210-i9e2x2xwsli",
+          "front": "chinois 的阴性形式？",
+          "back": "chinoise（加 e）"
+        },
+        {
+          "id": "1772386397210-1i43qvtiq7h",
+          "front": "belge 的阴性形式？",
+          "back": "belge（阴阳同形）"
+        },
+        {
+          "id": "1772386397210-g7obdlo9zr",
+          "front": "sympa 是什么词？什么意思？",
+          "back": "形容词，sympathique 的口语缩写\n意思：友好的、讨人喜欢的\n阴阳同形"
+        },
+        {
+          "id": "1772386397210-z5se5g957lt",
+          "front": "professeur 的阴性？",
+          "back": "传统只有阳性 professeur\n现代法语也接受 professeure"
+        },
+        {
+          "id": "1772386397210-a9lwio0mhy",
+          "front": "secrétaire 的阴阳性？",
+          "back": "阴阳同形：un secrétaire / une secrétaire"
+        },
+        {
+          "id": "1772386397210-kyj814u5a9d",
+          "front": "directeur 的阴性？",
+          "back": "directrice（-teur → -trice）"
+        },
+        {
+          "id": "1772386397210-1vqrdf4ps5m",
+          "front": "assistant 的阴性？",
+          "back": "assistante（加 e）"
+        },
+        {
+          "id": "1772386397210-8mbtkybd66u",
+          "front": "lui / elle 作强调代词的用法？",
+          "back": "用于句首强调或介词后\nEt lui, qui est-ce ?\nEt elle, c'est la secrétaire."
+        },
+        {
+          "id": "1772386397210-h2qsqegssnf",
+          "front": "Café ? Thé ? 完整句是什么？",
+          "back": "Vous voulez du café ou du thé ?\n口语中常省略为 Café ? Thé ?"
+        },
+        {
+          "id": "1772386397210-t2ajvrwz59",
+          "front": "le cours de français",
+          "back": "法语课\ncours /kuʁ/（s 不发音）\n介词用 de"
+        }
+      ]
+    },
+    {
+      "id": 1772385208326,
+      "name": "Leçon 2 Qui est-ce 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-01T17:13:28.326Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'habite _____ Paris.",
+          "options": [
+            "en",
+            "à",
+            "au",
+            "dans"
+          ],
+          "correct": 1,
+          "explanation": "城市前用 à。en 用于阴性国名，au 用于阳性国名，dans 强调封闭空间内部。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle travaille _____ France.",
+          "options": [
+            "à",
+            "au",
+            "en",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "France 是阴性国名，用 en。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il habite _____ Japon.",
+          "options": [
+            "en",
+            "à",
+            "au",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "Japon 是阳性国名（辅音开头），用 au（= à + le）。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous sommes _____ le cours de français.",
+          "options": [
+            "à",
+            "en",
+            "dans",
+            "au"
+          ],
+          "correct": 2,
+          "explanation": "dans + le + 名词，强调在课程内部/进行中。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu veux du café _____ du thé ?",
+          "options": [
+            "et",
+            "ou",
+            "où",
+            "mais"
+          ],
+          "correct": 1,
+          "explanation": "ou = 或者，表选择。où = 哪里（有重音符）。et = 和。",
+          "category": "连词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est le directeur de l'école ?",
+          "options": [
+            "Ou",
+            "Où",
+            "Ou est-ce que",
+            "Au"
+          ],
+          "correct": 1,
+          "explanation": "où（带重音符）= 哪里。ou（无重音符）= 或者。",
+          "category": "ou vs où"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mon père est _____ (中国的，阳性).",
+          "correct": [
+            "chinois"
+          ],
+          "explanation": "形容词做表语，阳性形式 chinois，小写。",
+          "category": "国籍形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ma mère est _____ (中国的，阴性).",
+          "correct": [
+            "chinoise"
+          ],
+          "explanation": "阴性加 -e → chinoise，尾音出现 /z/。",
+          "category": "国籍形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le médecin reçoit _____.",
+          "options": [
+            "sur rendez-vous",
+            "à rendez-vous",
+            "en rendez-vous",
+            "dans rendez-vous"
+          ],
+          "correct": 0,
+          "explanation": "sur rendez-vous 是固定搭配，意为\"需预约\"。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est très _____. Tout le monde l'aime bien.",
+          "options": [
+            "sympa",
+            "sympas",
+            "sympathiques",
+            "sympathique"
+          ],
+          "correct": 0,
+          "explanation": "口语中 sympa 阴阳同形、不变。sympathique 也正确但题干语境偏口语，sympa 最自然。注意 sympa 没有复数变化（修饰单数主语时）。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'habite _____ Suisse.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "Suisse 是阴性国名，用 en。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____. Il vient de Bruxelles.",
+          "options": [
+            "Belge",
+            "belge",
+            "belgique",
+            "Belgian"
+          ],
+          "correct": 1,
+          "explanation": "做表语形容词用小写 belge。做名词指人时大写 Belge。",
+          "category": "国籍大小写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un assistant → 阴性形式是？",
+          "options": [
+            "une assistante",
+            "une assistente",
+            "une assistrice",
+            "une assistant"
+          ],
+          "correct": 0,
+          "explanation": "以 -ant 结尾的名词，阴性加 -e → assistante。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un directeur → 阴性形式是？",
+          "options": [
+            "une directeuse",
+            "une directeure",
+            "une directrice",
+            "une directe"
+          ],
+          "correct": 2,
+          "explanation": "-teur → -trice 是一类重要的阴性变化规则。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je m'appelle Yuki. Je suis _____ (日本的，阴性). J'habite _____ Tokyo. J'étudie _____ français à l'université.",
+          "correct": [
+            "japonaise",
+            "à",
+            "le"
+          ],
+          "explanation": "阴性国籍 japonaise；城市用 à；语言名用 le français。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ywU_JPxa-ltTudqvX1KYDliXgUmCbb9xqFa6mi5rs9E/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772385429204-0hh6o2czsklc",
+          "front": "à + 城市 = ？",
+          "back": "表示“在/去某城市”\nà Paris, à Shanghai, à Genève"
+        },
+        {
+          "id": "1772385429204-6mya3p7n83q",
+          "front": "en + ？ = 在某国",
+          "back": "en + 阴性国名 / 元音开头阳性国名\nen France, en Chine, en Iran"
+        },
+        {
+          "id": "1772385429204-0tbk37c57hkm",
+          "front": "au + ？ = 在某国",
+          "back": "au + 阳性辅音开头国名\nau Japon, au Canada\n（au = à + le）"
+        },
+        {
+          "id": "1772385429204-mmotvz2gojq",
+          "front": "aux + ？ = 在某国",
+          "back": "aux + 复数国名\naux États-Unis\n（aux = à + les）"
+        },
+        {
+          "id": "1772385429204-qiz5jhzn12e",
+          "front": "dans 的核心含义？",
+          "back": "在……里面（强调封闭空间内部）\nNous sommes dans le cours de français."
+        },
+        {
+          "id": "1772385429204-b3qqkw4dfkp",
+          "front": "ou vs où",
+          "back": "ou（无重音符）= 或者，表选择\noù（有重音符）= 哪里，表地点/疑问"
+        },
+        {
+          "id": "1772385429204-hng0n08sl2w",
+          "front": "café (n.m.) 两个含义",
+          "back": "1. 咖啡（饮品）：un café noir\n2. 咖啡馆（场所）：au café（注意 à+le=au）"
+        },
+        {
+          "id": "1772385429204-sau9jpmmddj",
+          "front": "thé (n.m.) 的性别？“红茶”怎么说？",
+          "back": "阳性：le thé\n红茶 = un thé noir（法语说“黑茶”）\n绿茶 = un thé vert"
+        },
+        {
+          "id": "1772385429204-n7qv5rv8i4b",
+          "front": "chinois → 阴性？",
+          "back": "chinoise\n尾音多出 /z/\n听力技巧：有 /z/ = 阴性"
+        },
+        {
+          "id": "1772385429204-hbu1smttjk",
+          "front": "assistant → 阴性？",
+          "back": "assistante\n规则：-ant → -ante（加 -e）"
+        },
+        {
+          "id": "1772385429204-9j1wzizv8hu",
+          "front": "directeur → 阴性？",
+          "back": "directrice\n规则：-teur → -trice\n同类：acteur → actrice"
+        },
+        {
+          "id": "1772385429204-la2hivmabi",
+          "front": "secrétaire 的阴阳性？",
+          "back": "阴阳同形：un secrétaire / une secrétaire\n靠冠词区分性别"
+        },
+        {
+          "id": "1772385429204-hh8c3jbhz3r",
+          "front": "sympa 的全称？阴阳性变化？",
+          "back": "全称：sympathique\nsympa 口语缩写，阴阳同形不变\nIl est sympa. / Elle est sympa."
+        },
+        {
+          "id": "1772385429204-x3g6dkw0srl",
+          "front": "habiter + 城市 用什么介词？",
+          "back": "habiter à + 城市\nJ'habite à Paris."
+        },
+        {
+          "id": "1772385429204-ot8ltv0yiy",
+          "front": "habiter + 阴性国名 用什么介词？",
+          "back": "habiter en + 阴性国名\nJ'habite en France."
+        },
+        {
+          "id": "1772385429204-yh6miemsnqm",
+          "front": "habiter + 阳性国名 用什么介词？",
+          "back": "habiter au + 阳性辅音开头国名\nJ'habite au Japon."
+        },
+        {
+          "id": "1772385429204-ssoqv0okdkj",
+          "front": "rendez-vous 的固定搭配“需预约”",
+          "back": "sur rendez-vous\nLe médecin reçoit sur rendez-vous.\n医生需预约就诊"
+        },
+        {
+          "id": "1772385429204-f5of54j143",
+          "front": "prendre rendez-vous",
+          "back": "预约\nJe voudrais prendre rendez-vous avec le docteur.\n我想和医生预约。"
+        },
+        {
+          "id": "1772385429204-unnxhr89ng",
+          "front": "s'il vous plaît vs s'il te plaît",
+          "back": "s'il vous plaît = 请您（敬语 vous）\ns'il te plaît = 请你（非正式 tu）\n听力中可判断对话双方关系"
+        },
+        {
+          "id": "1772385429204-em28d0m8u0n",
+          "front": "professeur 比英语 professor 范围？",
+          "back": "更广义：可指中学教师、大学教授、教练\n口语缩写：un/une prof"
+        },
+        {
+          "id": "1772385429204-omyubvve4f8",
+          "front": "cours (n.m.) 易混词",
+          "back": "cours = 课程 /kuʁ/\ncourse = 跑步/购物\ncour = 院子\n一字之差，意思完全不同"
+        },
+        {
+          "id": "1772385429204-5s24yaq0us2",
+          "front": "belge 做形容词 vs 做名词",
+          "back": "形容词（小写）：Il est belge.\n名词指人（大写）：un Belge, une Belge\n国名：la Belgique → en Belgique"
+        },
+        {
+          "id": "1772385429204-cmebfir1zv8",
+          "front": "国籍词三重身份规则",
+          "back": "1. 形容词 → 小写：la cuisine française\n2. 名词（人）→ 大写：un Français\n3. 语言名 → 小写阳性：le français"
+        },
+        {
+          "id": "1772385429204-21cq3ghhehl",
+          "front": "Suisse 的性别？用什么介词？",
+          "back": "la Suisse（阴性）\n→ en Suisse\nJ'habite en Suisse."
+        },
+        {
+          "id": "1772385429204-p2c4rtjfabk",
+          "front": "France 的性别？用什么介词？",
+          "back": "la France（阴性）\n→ en France\nJ'habite en France."
+        },
+        {
+          "id": "1772385429204-hb3wl0myzlk",
+          "front": "Japon 的性别？用什么介词？",
+          "back": "le Japon（阳性，辅音开头）\n→ au Japon\nJ'habite au Japon."
+        }
+      ]
+    },
+    {
+      "id": 1772383809653,
+      "name": "词汇：国籍、国家、语言、城市",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-01T16:50:09.653Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle habite _____ France.",
+          "options": [
+            "au",
+            "en",
+            "à la",
+            "aux"
+          ],
+          "correct": 1,
+          "explanation": "La France 是阴性国家，去/在阴性国家用 en，且不加冠词。en France。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ Japon cet été.",
+          "options": [
+            "en",
+            "au",
+            "à le",
+            "aux"
+          ],
+          "correct": 1,
+          "explanation": "Le Japon 是阳性国家，辅音开头，用 au（= à + le）。注意 à le 不存在，必须缩合为 au。",
+          "category": "介词/缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils voyagent _____ États-Unis.",
+          "options": [
+            "en",
+            "au",
+            "à les",
+            "aux"
+          ],
+          "correct": 3,
+          "explanation": "Les États-Unis 是复数国家，à + les = aux。à les 不合法，必须缩合。",
+          "category": "介词/缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur vit _____ Italie depuis trois ans.",
+          "options": [
+            "au",
+            "à l'",
+            "en",
+            "dans la"
+          ],
+          "correct": 2,
+          "explanation": "L'Italie 虽然以元音开头用 l'，但它是阴性国家，所以用 en Italie。",
+          "category": "介词/阴性元音陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ Allemagne, on boit beaucoup de bière.",
+          "options": [
+            "Au",
+            "À l'",
+            "Dans l'",
+            "En"
+          ],
+          "correct": 3,
+          "explanation": "L'Allemagne 是阴性国家，在某国 = en。En Allemagne。",
+          "category": "介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ .",
+          "options": [
+            "Canadien",
+            "canadien",
+            "un canadien",
+            "le canadien"
+          ],
+          "correct": 1,
+          "explanation": "国籍做表语（跟在 être 后）时用小写形容词，不加冠词。Il est canadien.",
+          "category": "国籍形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____ .",
+          "options": [
+            "japonais",
+            "japonaise",
+            "Japonaise",
+            "Japonais"
+          ],
+          "correct": 2,
+          "explanation": "C'est un/une + 名词结构，国籍做名词时大写首字母。女性 → Japonaise。",
+          "category": "国籍形容词大小写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ . Elle vient de Séoul.",
+          "options": [
+            "coréen",
+            "coréenne",
+            "Coréenne",
+            "coréènne"
+          ],
+          "correct": 1,
+          "explanation": "Elle → 阴性形容词 coréenne（双写 n + e）。做表语用小写。coréènne 拼写错误。",
+          "category": "国籍形容词阴性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon ami parle _____ .",
+          "options": [
+            "le chinois",
+            "chinois",
+            "en chinois",
+            "de chinois"
+          ],
+          "correct": 1,
+          "explanation": "parler + 语言名（不加冠词）是最常见的用法：parler français, parler chinois。parler le chinois 也对但更正式。此题选 B 最自然。",
+          "category": "语言表达"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些国家使用介词 en？（多选）",
+          "options": [
+            "La Chine",
+            "Le Japon",
+            "L'Espagne",
+            "Les États-Unis"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "La Chine（阴性）→ en Chine；L'Espagne（阴性）→ en Espagne。Le Japon（阳性辅音头）→ au Japon；Les États-Unis（复数）→ aux États-Unis。",
+          "category": "介词分类"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些国籍形容词的阴性形式需要双写 n？（多选）",
+          "options": [
+            "français → ?",
+            "coréen → ?",
+            "canadien → ?",
+            "espagnol → ?"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "coréen → coréenne，canadien → canadienne（-en 结尾双写 n + e）。français → française（加 e），espagnol → espagnole（加 e）。",
+          "category": "国籍形容词变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je vais _____ Canada pour étudier.",
+          "correct": [
+            "au"
+          ],
+          "explanation": "Le Canada 是阳性国家，à + le = au。au Canada。",
+          "category": "介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle est _____ (Italy 的国籍，阴性形式).",
+          "correct": [
+            "italienne"
+          ],
+          "explanation": "italien → italienne（双写 n + e）。",
+          "category": "国籍形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ Corée, on mange beaucoup de riz.",
+          "correct": [
+            "En"
+          ],
+          "explanation": "La Corée 是阴性国家，在某国 = en。En Corée。",
+          "category": "介词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il habite _____ Espagne. Sa femme est _____ (西班牙国籍，阴性). Ils parlent _____ à la maison.",
+          "correct": [
+            "en",
+            "espagnole",
+            "espagnol"
+          ],
+          "explanation": "阴性国家用 en；国籍形容词做表语小写，阴性加 -e；语言名用阳性形式 espagnol。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Il va à le Japon.",
+            "Il va au Japon.",
+            "Il va en Japon.",
+            "Il va le Japon."
+          ],
+          "correct": 1,
+          "explanation": "à + le 必须缩合为 au。à le 不合法；en 用于阴性国家或元音开头的阳性国家，Le Japon 辅音开头不适用。",
+          "category": "缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle habite _____ Montréal.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "城市前一律用 à，不看阴阳性。",
+          "category": "介词à+城市"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ Tokyo la semaine prochaine.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans le"
+          ],
+          "correct": 2,
+          "explanation": "Tokyo 是城市，用 à。不要被 le Tokyo（不存在）误导。",
+          "category": "介词à+城市"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon frère habite _____ Canada.",
+          "options": [
+            "à",
+            "en",
+            "au",
+            "aux"
+          ],
+          "correct": 2,
+          "explanation": "Canada 是阳性国家（le Canada），à + le = au。",
+          "category": "介词+国家"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis née _____ France.",
+          "options": [
+            "à",
+            "au",
+            "en",
+            "à la"
+          ],
+          "correct": 2,
+          "explanation": "France 是阴性国家（la France），阴性国家用 en。",
+          "category": "介词+国家"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Bienvenue _____ Vancouver !",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "Bienvenue à + 城市，固定搭配。",
+          "category": "介词à+城市"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils vivent _____ États-Unis depuis 2010.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "aux"
+          ],
+          "correct": 3,
+          "explanation": "États-Unis 是复数国家（les États-Unis），à + les = aux。",
+          "category": "介词+国家"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle vient _____ Paris.",
+          "options": [
+            "à",
+            "de",
+            "du",
+            "en"
+          ],
+          "correct": 1,
+          "explanation": "表示来自某城市，用 de + 城市，不加冠词。venir de Paris。",
+          "category": "de+城市"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il travaille _____ Caire.",
+          "options": [
+            "à",
+            "au",
+            "en",
+            "dans"
+          ],
+          "correct": 1,
+          "explanation": "Le Caire 是含定冠词的城市名，à + le = au Caire。",
+          "category": "含冠词城市"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ma famille habite _____ Chine.",
+          "correct": [
+            "en"
+          ],
+          "explanation": "Chine 是阴性国家（la Chine），用 en。",
+          "category": "介词+国家"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pars _____ Nice demain matin.",
+          "options": [
+            "à",
+            "pour",
+            "en",
+            "au"
+          ],
+          "correct": 1,
+          "explanation": "partir 搭配城市更常用 pour（不是 à）。Je pars pour Nice.",
+          "category": "partir+城市"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/10p1PLnsoMHUYSgviJESyiG-pijPKsTrqTtoFLb21JqQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772383882278-t94nn7gyzwi",
+          "front": "阴性国家用什么介词表示“去/在”？",
+          "back": "en（不加冠词）\n例：en France, en Chine, en Italie"
+        },
+        {
+          "id": "1772383882278-r2n765t9o4q",
+          "front": "阳性国家（辅音开头）用什么介词？",
+          "back": "au（= à + le）\n例：au Japon, au Canada"
+        },
+        {
+          "id": "1772383882278-1mfzt3y8bs7",
+          "front": "复数国家用什么介词？",
+          "back": "aux（= à + les）\n例：aux États-Unis, aux Pays-Bas"
+        },
+        {
+          "id": "1772383882278-wqaqdmnfyo",
+          "front": "如何判断国家是阴性？",
+          "back": "国家名以 -e 结尾 → 通常阴性\n例外：le Mexique, le Mozambique"
+        },
+        {
+          "id": "1772383882278-uea2x7rhi3f",
+          "front": "元音开头的阳性国家用什么介词？",
+          "back": "用 en（和阴性一样）\n例：en Iran, en Irak"
+        },
+        {
+          "id": "1772383882278-m96trcodhkt",
+          "front": "L'Italie 是阳性还是阴性？",
+          "back": "阴性！l' 是因为元音省音，不影响性别\n→ en Italie"
+        },
+        {
+          "id": "1772383882278-7pysln2nkbp",
+          "front": "à + le = ?",
+          "back": "au\n缩合冠词，不可拆写为 à le"
+        },
+        {
+          "id": "1772383882278-8ibvcekchmn",
+          "front": "à + les = ?",
+          "back": "aux\n缩合冠词，不可拆写为 à les"
+        },
+        {
+          "id": "1772383882278-fu4dvw4pcn5",
+          "front": "coréen 的阴性形式？",
+          "back": "coréenne（双写 n + e）\n规则：-en 结尾 → -enne"
+        },
+        {
+          "id": "1772383882278-19rpk7mkzig",
+          "front": "canadien 的阴性形式？",
+          "back": "canadienne（双写 n + e）"
+        },
+        {
+          "id": "1772383882278-ewtcwzl6dnr",
+          "front": "français 的阴性形式？",
+          "back": "française\n注意：ç 保留，加 -e，发音变为 /fʁɑ̃sɛz/"
+        },
+        {
+          "id": "1772383882278-uitn1sv0ig",
+          "front": "chinois 的阴性形式？",
+          "back": "chinoise\n加 -e 后，s 发 /z/ 音"
+        },
+        {
+          "id": "1772383882278-39hd7i75s72",
+          "front": "国籍形容词做表语时大小写？",
+          "back": "小写，不加冠词\n例：Il est français. Elle est japonaise."
+        },
+        {
+          "id": "1772383882278-meftbjw5twq",
+          "front": "国籍做名词时大小写？",
+          "back": "大写首字母，加冠词\n例：C'est un Français. C'est une Japonaise."
+        },
+        {
+          "id": "1772383882278-ph18rk90dlq",
+          "front": "parler + 语言的三种说法？",
+          "back": "1. parler français（最常用）\n2. parler le français（较正式）\n3. parler en français（强调用法语这种方式）"
+        },
+        {
+          "id": "1772383882278-7mixnnv915f",
+          "front": "La France → 在法国",
+          "back": "en France"
+        },
+        {
+          "id": "1772383882278-7jeegjppc15",
+          "front": "Le Japon → 在日本",
+          "back": "au Japon"
+        },
+        {
+          "id": "1772383882278-5d9hr41y3b",
+          "front": "Les États-Unis → 在美国",
+          "back": "aux États-Unis"
+        },
+        {
+          "id": "1772383882278-c4ofl20vhcs",
+          "front": "L'Allemagne → 在德国",
+          "back": "en Allemagne（阴性国家）"
+        },
+        {
+          "id": "1772383882278-86qvffh1fr8",
+          "front": "L'Espagne → 在西班牙",
+          "back": "en Espagne（阴性国家）"
+        },
+        {
+          "id": "1772384072698-ntfta9nzwud",
+          "front": "城市前用什么介词？",
+          "back": "一律用 à\n例：à Paris, à Montréal, à Shanghai"
+        },
+        {
+          "id": "1772384072698-490gaq4up4k",
+          "front": "阴性国家（以-e结尾）用什么介词？",
+          "back": "en\n例：en France, en Chine, en Italie"
+        },
+        {
+          "id": "1772384072698-svz6w7p2ro",
+          "front": "阳性国家（辅音开头）用什么介词？",
+          "back": "au（= à + le）\n例：au Canada, au Japon, au Brésil"
+        },
+        {
+          "id": "1772384072698-vqv3snw33pc",
+          "front": "Le Mexique 用 en 还是 au？",
+          "back": "au Mexique\n虽然以 -e 结尾，但它是阳性国家"
+        },
+        {
+          "id": "1772384072698-y4vwyz1ehu",
+          "front": "habiter + 城市，介词怎么用？",
+          "back": "habiter à + 城市（推荐）\n也可以 habiter + 城市（省略 à，口语）"
+        },
+        {
+          "id": "1772384072698-5f682wnrp6",
+          "front": "aller à + 城市 造句",
+          "back": "Je vais à Lyon.\n去某城市 = aller à + 城市名"
+        },
+        {
+          "id": "1772384072698-z6sbus7af6",
+          "front": "Bienvenue à + ?",
+          "back": "Bienvenue à + 城市名\n例：Bienvenue à Toronto !"
+        },
+        {
+          "id": "1772384072698-uc0l0bzpnm",
+          "front": "表示「来自某城市」用什么？",
+          "back": "venir de + 城市\n例：Je viens de Paris.（无冠词）"
+        },
+        {
+          "id": "1772384072698-ho9ndjkmk",
+          "front": "Le Caire 前用什么介词？",
+          "back": "au Caire（à + le = au）\n含定冠词 le 的城市用 au"
+        },
+        {
+          "id": "1772384072698-k5inj3pf4fe",
+          "front": "partir 去某城市用 à 还是 pour？",
+          "back": "更常用 pour\n例：Je pars pour Nice demain."
+        },
+        {
+          "id": "1772384072698-arc3qf799d",
+          "front": "阳性国家+元音开头用什么？",
+          "back": "en（不用 au）\n例：en Iran, en Irak"
+        },
+        {
+          "id": "1772384072698-68p3qe0adiu",
+          "front": "Je vis en Paris 对吗？",
+          "back": "❌ 错！城市永远不用 en\n正确：Je vis à Paris."
+        },
+        {
+          "id": "1772384072698-6bqwx3gkg13",
+          "front": "自我介绍模板（居住地）",
+          "back": "J'habite à + 城市, au/en + 国家\n例：J'habite à Vancouver, au Canada."
+        },
+        {
+          "id": "1772384072698-x2g73zry91",
+          "front": "de + 含冠词城市怎么说？",
+          "back": "du + 城市\n例：Je viens du Caire.（de + le = du）"
+        },
+        {
+          "id": "1772386961848-7uaewmpmo18",
+          "front": "阴性国家「来自」用什么介词？",
+          "back": "venir de + 国名（无冠词）\n例：Je viens de France."
+        },
+        {
+          "id": "1772386961848-vz0a5hj68wc",
+          "front": "阳性单数国家「来自」用什么介词？",
+          "back": "venir du + 国名\ndu = de + le\n例：Il vient du Canada."
+        },
+        {
+          "id": "1772386961848-2zxjg293hmp",
+          "front": "复数国家「来自」用什么介词？",
+          "back": "venir des + 国名\ndes = de + les\n例：Elle vient des États-Unis."
+        },
+        {
+          "id": "1772386961848-ez4p7fleqwe",
+          "front": "阴性国家「去」用什么介词？",
+          "back": "aller en + 国名（无冠词）\n例：Je vais en France."
+        },
+        {
+          "id": "1772386961848-tylcb5l8qrc",
+          "front": "阳性单数国家「去」用什么介词？",
+          "back": "aller au + 国名\nau = à + le\n例：Il va au Japon."
+        },
+        {
+          "id": "1772386961848-yxcilx3pdw",
+          "front": "复数国家「去」用什么介词？",
+          "back": "aller aux + 国名\naux = à + les\n例：Elle va aux États-Unis."
+        },
+        {
+          "id": "1772386961848-0jmgwsaie5a5",
+          "front": "Je viens de Chine.\n对比「去」怎么说？",
+          "back": "Je vais en Chine.\n阴性国家：来 de / 去 en"
+        },
+        {
+          "id": "1772386961848-uanp3styxb",
+          "front": "Elle vient du Canada.\n对比「去」怎么说？",
+          "back": "Elle va au Canada.\n阳性单数：来 du / 去 au"
+        },
+        {
+          "id": "1772386961848-hr00bp0svia",
+          "front": "Il vient des États-Unis.\n对比「去」怎么说？",
+          "back": "Il va aux États-Unis.\n复数：来 des / 去 aux"
+        },
+        {
+          "id": "1772386961848-tpux9zdb23h",
+          "front": "⚠️ le Mexique 是什么性？",
+          "back": "阳性！虽然以 -e 结尾，但是例外。\nvenir du Mexique / aller au Mexique"
+        },
+        {
+          "id": "1772386961848-5jvgxbh1ikx",
+          "front": "阴性国家 + 元音开头怎么处理？",
+          "back": "de → d'\n例：Je viens d'Italie. / d'Allemagne. / d'Espagne."
+        },
+        {
+          "id": "1772386961848-5sjd6x6piq8",
+          "front": "❌ Je viens de la Chine. 对吗？",
+          "back": "❌ 错！阴性国家前冠词省略。\n✅ Je viens de Chine."
+        },
+        {
+          "id": "1772386961848-jyjtn3j6ieg",
+          "front": "城市「来自」用什么？",
+          "back": "venir de + 城市名（无冠词）\n例：Je viens de Paris.\n例外：du Caire（因为 Le Caire 带冠词）"
+        },
+        {
+          "id": "1772386961848-l88np8asieh",
+          "front": "venir 现在时变位\nje / tu / il",
+          "back": "je viens\ntu viens\nil/elle/on vient"
+        },
+        {
+          "id": "1772386961848-fdpmp4fgw9h",
+          "front": "venir 现在时变位\nnous / vous / ils",
+          "back": "nous venons\nvous venez\nils/elles viennent\n（注意 ils 双 n！）"
+        },
+        {
+          "id": "1772386961848-jlwfr2krek",
+          "front": "venir 的复合过去时用哪个助动词？",
+          "back": "être！过去分词 venu，需性数配合。\nElle est venue. / Ils sont venus."
+        },
+        {
+          "id": "1772386961848-k29o2jxxj9c",
+          "front": "Elle est venu___ hier.\n填什么？",
+          "back": "venue（加 -e）\nvenir 用 être，主语阴性单数 → venue"
+        },
+        {
+          "id": "1772386961848-evmlnuoefxb",
+          "front": "Elles sont venu___ des Pays-Bas.\n填什么？",
+          "back": "venues（加 -es）\n阴性复数 → venu + e + s"
+        },
+        {
+          "id": "1772386961848-m1gzvwy16am",
+          "front": "venir de + 不定式 是什么意思？",
+          "back": "刚刚做了某事（passé récent 最近过去时）\nJe viens de manger. = 我刚吃完。\n⚠️ 不要和「来自某国」的 venir de 混淆！"
+        },
+        {
+          "id": "1772386961848-8zijh38bdzi",
+          "front": "futur proche 怎么说「他将从日本来」？",
+          "back": "Il va venir du Japon.\naller（现在时）+ venir（原形）+ du Japon"
+        },
+        {
+          "id": "1772386961848-9qzq891fcll",
+          "front": "法语中大多数以 -e 结尾的国家是什么性？\n有哪些重要例外？",
+          "back": "大多数是阴性。\n重要例外（阳性）：le Mexique, le Cambodge, le Mozambique"
+        },
+        {
+          "id": "1772386961848-nwpew9603w",
+          "front": "les Pays-Bas 是什么国家？用什么介词？",
+          "back": "荷兰（复数国家）\n来自：des Pays-Bas\n去：aux Pays-Bas"
+        },
+        {
+          "id": "1772386961848-4yhfg6nm3jr",
+          "front": "habiter + 国家用什么介词？",
+          "back": "和 aller 一样！\n阴性：en France\n阳性单数：au Canada\n复数：aux États-Unis"
+        }
+      ]
+    },
+    {
+      "id": 1772383264784,
+      "name": "定冠词 le, la, l', les",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T16:41:04.784Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'aime _____ musique classique.",
+          "options": [
+            "une",
+            "de la",
+            "la",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "aimer + 泛指类别 → 定冠词。musique 是阴性，所以用 la。",
+          "category": "定冠词-泛指"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ homme est très gentil.",
+          "options": [
+            "Le",
+            "La",
+            "L'",
+            "Un"
+          ],
+          "correct": 2,
+          "explanation": "homme 以哑音 h 开头（h muet），单数必须省音用 l'。",
+          "category": "定冠词-省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais _____ cinéma ce soir.",
+          "options": [
+            "à le",
+            "au",
+            "à la",
+            "aux"
+          ],
+          "correct": 1,
+          "explanation": "à + le 必须缩合为 au。cinéma 是阳性单数。",
+          "category": "定冠词-缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est le livre _____ professeur.",
+          "options": [
+            "de le",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "de + le 必须缩合为 du。",
+          "category": "定冠词-缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ héros de ce film est courageux.",
+          "options": [
+            "L'",
+            "Le",
+            "La",
+            "Les"
+          ],
+          "correct": 1,
+          "explanation": "héros 是嘘音 h（h aspiré），不能省音，阳性用 le。这是 TCF 经典陷阱。",
+          "category": "定冠词-h aspiré"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ enfants dans la cour.",
+          "options": [
+            "à les",
+            "aux",
+            "à des",
+            "à la"
+          ],
+          "correct": 1,
+          "explanation": "à + les 必须缩合为 aux。enfants 是复数。",
+          "category": "定冠词-缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ lundi, il va à la piscine.",
+          "options": [
+            "Le",
+            "Un",
+            "Ce",
+            "En"
+          ],
+          "correct": 0,
+          "explanation": "Le + 星期 = 每逢…。Le lundi = 每周一。",
+          "category": "定冠词-习惯性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai mal _____ tête.",
+          "options": [
+            "à ma",
+            "à la",
+            "de la",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "法语表达身体部位疼痛用 avoir mal à + 定冠词，不用物主代词。à la tête。",
+          "category": "定冠词-身体部位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est _____ (the school) où j'étudie.",
+          "correct": [
+            "l'école"
+          ],
+          "explanation": "école 以元音开头，阴性单数，定冠词必须省音为 l'。",
+          "category": "定冠词-省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je déteste _____ violence.",
+          "options": [
+            "une",
+            "de la",
+            "la",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "détester + 泛指抽象概念 → 定冠词。violence 是阴性，用 la。",
+          "category": "定冠词-泛指"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ États-Unis cet été.",
+          "options": [
+            "au",
+            "en",
+            "aux",
+            "à les"
+          ],
+          "correct": 2,
+          "explanation": "à + les = aux。Les États-Unis 是复数，所以用 aux。",
+          "category": "定冠词-缩合+国家"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中定冠词的使用是正确的？",
+          "options": [
+            "J'aime le café.",
+            "Je bois le café. (表示我在喝一些咖啡)",
+            "Le soleil est beau aujourd'hui.",
+            "J'ai mal à ma tête."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 正确：aimer+泛指用定冠词。B 错误：表示\"喝一些\"应该用部分冠词 du café。C 正确：太阳独一无二。D 错误：身体部位用 à la tête，不用物主代词。",
+          "category": "定冠词-综合辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La maison _____ voisins est grande.",
+          "correct": [
+            "des"
+          ],
+          "explanation": "de + les = des。邻居们的房子。",
+          "category": "定冠词-缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle étudie _____ mathématiques à l'université.",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "la"
+          ],
+          "correct": 2,
+          "explanation": "学科名词前用定冠词表泛指。mathématiques 是复数，用 les。",
+          "category": "定冠词-泛指+学科"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il va _____ gare et elle va _____ marché.",
+          "correct": [
+            "à la",
+            "au"
+          ],
+          "explanation": "gare 是阴性 → à la gare（不缩合）。marché 是阳性 → à + le = au marché。",
+          "category": "定冠词-缩合对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1OCKHStU4fO9MU-ZLgNVl7uM_7n8cI3zuhqQu_xOvCxA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772383318962-mxqma0i3jyf",
+          "front": "le 用在什么名词前？",
+          "back": "阳性单数名词前\n例：le garçon（男孩）"
+        },
+        {
+          "id": "1772383318962-f1wzl6og0fe",
+          "front": "la 用在什么名词前？",
+          "back": "阴性单数名词前\n例：la fille（女孩）"
+        },
+        {
+          "id": "1772383318962-x5a9oq4gcy",
+          "front": "l' 什么时候用？",
+          "back": "元音或哑音 h（h muet）开头的单数名词前，不分阴阳\n例：l'ami, l'école, l'homme"
+        },
+        {
+          "id": "1772383318962-x2qmtmvunvk",
+          "front": "les 用在什么名词前？",
+          "back": "所有复数名词前，不分阴阳\n例：les garçons, les filles"
+        },
+        {
+          "id": "1772383318962-9j98sv2zyk",
+          "front": "aimer / détester / préférer 后面的名词用什么冠词？",
+          "back": "定冠词 le/la/les（泛指整个类别）\n例：J'aime le café."
+        },
+        {
+          "id": "1772383318962-b5h3cr5w9m9",
+          "front": "à + le = ?",
+          "back": "au\n例：Je vais au cinéma."
+        },
+        {
+          "id": "1772383318962-u8n11ay25x",
+          "front": "à + les = ?",
+          "back": "aux\n例：Je parle aux enfants."
+        },
+        {
+          "id": "1772383318962-qbory328o3",
+          "front": "de + le = ?",
+          "back": "du\n例：C'est le livre du professeur."
+        },
+        {
+          "id": "1772383318962-gsv0npt0u0q",
+          "front": "de + les = ?",
+          "back": "des\n例：C'est la maison des voisins."
+        },
+        {
+          "id": "1772383318962-zr4ps8ku3h",
+          "front": "à + la / à + l' 要缩合吗？",
+          "back": "不缩合，保持原样\n例：à la gare, à l'école"
+        },
+        {
+          "id": "1772383318962-1xwwou5kycg",
+          "front": "héros 前面用 l' 还是 le？",
+          "back": "le héros\nhéros 是嘘音 h（h aspiré），不省音"
+        },
+        {
+          "id": "1772383318962-7k1zsdsvvre",
+          "front": "homme 前面用 l' 还是 le？",
+          "back": "l'homme\nhomme 是哑音 h（h muet），必须省音"
+        },
+        {
+          "id": "1772383318962-0x72g29c6vjh",
+          "front": "法语说“我头疼”怎么说？",
+          "back": "J'ai mal à la tête.\n用定冠词，不用物主代词 ma"
+        },
+        {
+          "id": "1772383318962-kvu78iuiw2",
+          "front": "Le lundi vs Lundi 有什么区别？",
+          "back": "Le lundi = 每周一（习惯性）\nLundi = 这周一（特指某一次）"
+        },
+        {
+          "id": "1772383318962-s50hhqeqij",
+          "front": "J'aime le café vs Je bois du café 的区别？",
+          "back": "le café = 泛指咖啡这个类别（喜好）\ndu café = 部分冠词，表示喝一些咖啡（具体动作）"
+        },
+        {
+          "id": "1772383318962-996csvjeysr",
+          "front": "学科名词前用什么冠词？",
+          "back": "定冠词 le/les\n例：J'étudie le français. / Les mathématiques sont difficiles."
+        },
+        {
+          "id": "1772383318962-i3lx2e9em4",
+          "front": "去法国 / 去加拿大怎么说？",
+          "back": "en France（阴性国家用 en）\nau Canada（阳性国家用 au = à + le）"
+        },
+        {
+          "id": "1772383318962-wn2jp8dspa7",
+          "front": "定冠词用法五大场景口诀",
+          "back": "1. 回指（前面提过的）\n2. 共知（双方都知道的）\n3. 受限定（de Paul, 关系从句）\n4. 泛指类别（aimer类动词后）\n5. 独一无二（La Terre, Le soleil）"
+        }
+      ]
+    },
+    {
       "id": 1772346329309,
       "name": "A1阶段五时态总复习",
       "folderId": "1770593095506",
@@ -4626,7 +7136,7 @@
     {
       "id": 1772302891055,
       "name": "法语数字",
-      "folderId": "1770593095506",
+      "folderId": "1770661225895",
       "createdAt": "2026-02-28T18:21:31.055Z",
       "questions": [
         {
@@ -51230,7 +53740,7 @@
     {
       "id": 1770610870332,
       "name": "数量副词",
-      "folderId": "1770593095506",
+      "folderId": "1770661225895",
       "createdAt": "2026-02-09T04:21:10.332Z",
       "questions": [
         {
@@ -51790,7 +54300,7 @@
     {
       "id": 1770610619208,
       "name": "数量表达 / 单位副词",
-      "folderId": "1770593095506",
+      "folderId": "1770661225895",
       "createdAt": "2026-02-09T04:16:59.208Z",
       "questions": [
         {
@@ -58093,6 +60603,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-01T06:48:53.691Z",
+  "exportedAt": "2026-03-01T18:08:46.147Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
