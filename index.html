@@ -6438,7 +6438,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     }
 
     function runBindingsAndInit() {
-      try {
     var _btnStart = $('btn-start-practice');
     if (_btnStart) _btnStart.addEventListener('click', () => {
       if (!_storageReady) { showToast('数据加载中，请稍候…'); return; }
@@ -6492,7 +6491,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         startQuiz(filtered);
       }
     });
-    } catch (e) { console.error('[french-quiz] btn-start-practice bind', e); }
 
     function clearImportForm() {
       const id = (x) => document.getElementById(x);
@@ -8502,7 +8500,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
     })();
-      } catch (e) { console.error('[french-quiz] runBindingsAndInit', e); }
     }
     if (typeof document !== 'undefined') {
       if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', runBindingsAndInit);
