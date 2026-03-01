@@ -4515,6 +4515,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _editingSetId = null;
     let _editModalPastedImages = [];
     let _importPastedImages = [];
+    /** 首页首次导入：待合并的记忆卡（与主文本框一起在「解析并开始」时写入新习题集） */
+    let _pendingImportCards = [];
+    /** 首页首次导入：待合并的追加题目（与主文本框一起在「解析并开始」时写入新习题集） */
+    let _pendingAppendQuestions = [];
     function isDataImageUrl(s) { return typeof s === 'string' && /^data:image\//i.test(s.trim()); }
     function isLikelyUrl(str) {
       const s = (str || '').trim();
@@ -4700,13 +4704,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function openEditSetAppendOverlayFromHome() {
       window._appendFromHome = true;
       var homeRow = document.getElementById('edit-set-append-from-home-row');
-      var sel = document.getElementById('edit-set-append-target-set');
-      if (homeRow) homeRow.style.display = 'block';
-      if (sel) {
-        var sets = getSavedSets();
-        sel.innerHTML = '<option value="">请选择习题集</option>' + sets.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name || ('习题集 ' + s.id)) + '</option>'; }).join('');
-        sel.value = '';
-      }
+      if (homeRow) homeRow.style.display = 'none';
       var textEl = document.getElementById('edit-set-append-modal-text');
       if (textEl) textEl.value = '';
       const overlay = document.getElementById('edit-set-append-overlay');
@@ -6501,6 +6499,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       el('import-set-description');
       el('import-review-urls');
       _importPastedImages = [];
+      _pendingImportCards = [];
+      _pendingAppendQuestions = [];
       renderImportPastedImages();
     }
     $('btn-import-show').addEventListener('click', async () => {
@@ -7071,13 +7071,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         window._flashcardImportFromHome = true;
         window._flashcardImportTarget = null;
         var homeRow = document.getElementById('flashcard-import-from-home-row');
-        var sel = document.getElementById('flashcard-import-target-set');
-        if (homeRow) homeRow.style.display = 'block';
-        if (sel) {
-          var sets = getSavedSets();
-          sel.innerHTML = '<option value="">请选择习题集</option>' + sets.map(function(s) { return '<option value="' + escapeAttr(String(s.id)) + '">' + escapeHtml(s.name || ('习题集 ' + s.id)) + '</option>'; }).join('');
-          sel.value = '';
-        }
+        if (homeRow) homeRow.style.display = 'none';
         document.getElementById('flashcard-import-json-textarea').value = '';
         var overlay = document.getElementById('flashcard-import-json-overlay');
         overlay.style.display = 'flex';
@@ -7104,9 +7098,25 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return;
         }
         if (window._flashcardImportFromHome && !window._flashcardImportTarget) {
-          var sel = document.getElementById('flashcard-import-target-set');
-          if (sel && sel.value) window._flashcardImportTarget = { type: 'set', setId: sel.value };
-          if (!window._flashcardImportTarget) { showToast('请选择要导入到的习题集'); return; }
+          function cardKey(f, b) { return (f || '').trim() + '\x00' + (b || '').trim(); }
+          var existingKeys = new Set((typeof _pendingImportCards !== 'undefined' ? _pendingImportCards : []).map(function(c) { return cardKey(c.front, c.back); }));
+          var added = 0, skipped = 0;
+          arr.forEach(function(item) {
+            if (!item || (item.front == null && item.back == null)) return;
+            var front = (item.front != null ? String(item.front) : '').trim() || '(空白)';
+            var back = (item.back != null ? String(item.back) : '').trim() || '(空白)';
+            var key = cardKey(front, back);
+            if (existingKeys.has(key)) { skipped++; return; }
+            existingKeys.add(key);
+            if (typeof _pendingImportCards === 'undefined') _pendingImportCards = [];
+            _pendingImportCards.push({ id: Date.now() + '-' + Math.random().toString(36).slice(2), front: front, back: back });
+            added++;
+          });
+          window._flashcardImportTarget = null;
+          window._flashcardImportFromHome = false;
+          closeImportJsonModal();
+          showToast(added ? '已加入 ' + added + ' 张记忆卡待导入' + (skipped ? '，跳过 ' + skipped + ' 张重复' : '') + '，填写习题集名称并点击「解析并开始」即可一起保存' : (skipped ? '跳过 ' + skipped + ' 张重复' : '未解析到有效卡片'));
+          return;
         }
         function cardKey(f, b) { return (f || '').trim() + '\x00' + (b || '').trim(); }
         const importTarget = window._flashcardImportTarget;
@@ -7301,6 +7311,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         }
       }
       if (parsed.length === 0) parsed = parsePastedText(text);
+      if (typeof _pendingAppendQuestions !== 'undefined' && _pendingAppendQuestions.length > 0) {
+        parsed = (parsed || []).concat(_pendingAppendQuestions);
+        _pendingAppendQuestions = [];
+      }
       // 保留 parseError，统一在后续根据 parsed 结果决定提示文案
       if (Array.isArray(parsed) && looksLikeFlashcardImportArray(parsed)) {
         if (parseBtn) { parseBtn.disabled = false; parseBtn.textContent = origText; }
@@ -7341,7 +7355,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         _importPastedImages.forEach(img => reviewImages.push(img));
         const folderSel = document.getElementById('import-set-folder');
         const folderId = (folderSel && folderSel.value) ? folderSel.value : null;
-        const saved = {
+        var pendingCards = (typeof _pendingImportCards !== 'undefined' && _pendingImportCards.length) ? _pendingImportCards.slice() : [];
+        if (pendingCards.length) _pendingImportCards = [];
+        var saved = {
           id: Date.now(),
           name: name,
           folderId: folderId || undefined,
@@ -7353,13 +7369,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           reviewLinks,
           reviewImages,
           description: description,
-          cards: []
+          cards: pendingCards.map(function(c) { return c.id ? c : Object.assign({}, c, { id: Date.now() + '-' + Math.random().toString(36).slice(2) }); })
         };
         const all = getSavedSets();
         all.unshift(saved);
         setSavedSets(all);
         startQuiz(deduped, false, saved.id);
-        showToast('已加入 ' + deduped.length + ' 道新题' + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : '') + (incompleteSkipped ? '，跳过 ' + incompleteSkipped + ' 道不完整（仅有题干无答案）' : ''));
+        var cardStr = saved.cards && saved.cards.length ? '，' + saved.cards.length + ' 张记忆卡' : '';
+        showToast('已加入 ' + deduped.length + ' 道新题' + cardStr + (dupCount ? '，跳过 ' + dupCount + ' 道重复' : '') + (incompleteSkipped ? '，跳过 ' + incompleteSkipped + ' 道不完整（仅有题干无答案）' : ''));
         const importSec = $('import-section');
         if (importSec) importSec.style.display = 'none';
         const importText = $('import-text');
@@ -7839,16 +7856,43 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       var textEl = document.getElementById('edit-set-append-modal-text');
       var fromHome = window._appendFromHome;
       if (fromHome) {
-        var sel = document.getElementById('edit-set-append-target-set');
-        if (!sel || !sel.value) { showToast('请选择要追加到的习题集'); return; }
-        _editingSetId = sel.value;
-      }
-      appendToEditSetModal(textEl ? textEl.value : '');
-      if (fromHome) {
-        _editingSetId = null;
+        var text = (textEl && textEl.value ? textEl.value : '').trim();
+        if (!text) { showToast('请先粘贴要追加的题目（JSON 或含题型/选项的文本）'); return; }
+        var appendBtn = document.getElementById('btn-edit-set-append-do');
+        var origText = appendBtn ? appendBtn.textContent : '';
+        if (appendBtn) { appendBtn.disabled = true; appendBtn.textContent = '解析中…'; }
+        var parsed = [];
+        var normalized = normalizeJsonPaste(text);
+        if (/^\s*[\[{]/.test(normalized)) {
+          try {
+            var data = JSON.parse(normalized);
+            parsed = Array.isArray(data) ? data : (data.questions || []);
+          } catch (e) {
+            try { data = JSON.parse(text); parsed = Array.isArray(data) ? data : (data.questions || []); } catch (_) {}
+          }
+        }
+        if (parsed.length === 0) parsed = parsePastedText(normalized);
+        if (appendBtn) { appendBtn.disabled = false; appendBtn.textContent = origText; }
+        if (parsed.length === 0) { showToast('未能解析出题目，请检查格式'); return; }
+        if (looksLikeFlashcardImportArray(parsed)) {
+          showToast('检测到这是记忆卡 JSON，请用「记忆卡导入」按钮导入');
+          return;
+        }
+        var incompleteSkipped = 0;
+        parsed = parsed.filter(function(q) { if (isQuestionComplete(q)) return true; incompleteSkipped++; return false; });
+        if (parsed.length === 0) {
+          showToast(incompleteSkipped ? '没有完整题目，已跳过 ' + incompleteSkipped + ' 道' : '未能解析出题目');
+          return;
+        }
+        if (typeof _pendingAppendQuestions === 'undefined') _pendingAppendQuestions = [];
+        _pendingAppendQuestions = _pendingAppendQuestions.concat(parsed);
+        if (textEl) textEl.value = '';
         window._appendFromHome = false;
         closeEditSetAppendOverlay();
+        showToast('已加入 ' + parsed.length + ' 题待导入，点击「解析并开始」即可与上方题目合并保存');
+        return;
       }
+      appendToEditSetModal(textEl ? textEl.value : '');
     });
     document.getElementById('btn-edit-set-append-close').addEventListener('click', closeEditSetAppendOverlay);
     document.getElementById('edit-set-append-overlay').addEventListener('click', function(e) { if (e.target.id === 'edit-set-append-overlay') closeEditSetAppendOverlay(); });

@@ -1,6 +1,1080 @@
 {
   "savedSets": [
     {
+      "id": 1772341543392,
+      "name": "未完成过去时 (Imparfait) vs 复合过去时 (Passé composé)",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T05:05:43.392Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand je _____ (être) petit, je jouais au football tous les jours.",
+          "options": [
+            "ai été",
+            "étais",
+            "suis été",
+            "était"
+          ],
+          "correct": 1,
+          "explanation": "「我小时候」描述过去持续的状态/背景，用 imparfait。être 的 imparfait 第一人称单数是 étais。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, nous _____ (regarder) la télé quand le téléphone a sonné.",
+          "options": [
+            "avons regardé",
+            "regardons",
+            "regardions",
+            "avions regardé"
+          ],
+          "correct": 2,
+          "explanation": "「正在看电视」是被电话打断的背景动作，用 imparfait。nous → regardions。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ (tomber) dans la rue parce qu'il faisait très froid.",
+          "options": [
+            "tombait",
+            "est tombé",
+            "a tombé",
+            "est tombée"
+          ],
+          "correct": 3,
+          "explanation": "「摔倒了」是单次完成事件，用 passé composé。tomber 用助动词 être，主语 elle 为阴性，过去分词加 -e → est tombée。注意选项 C「a tombé」错误，tomber 不用 avoir。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'habitude, ils _____ (prendre) le bus pour aller au travail.",
+          "options": [
+            "ont pris",
+            "prenaient",
+            "prennent",
+            "avaient pris"
+          ],
+          "correct": 1,
+          "explanation": "d'habitude（通常）表示过去的习惯性动作，用 imparfait。ils → prenaient。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout à coup, un chien _____ (courir) vers nous.",
+          "options": [
+            "courait",
+            "a couru",
+            "courrait",
+            "avait couru"
+          ],
+          "correct": 1,
+          "explanation": "tout à coup（突然）引出突发事件，用 passé composé。courir 用 avoir → a couru。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ (faire) beau et les enfants _____ (jouer) dans le jardin.",
+          "options": [
+            "faisait / jouaient",
+            "a fait / ont joué",
+            "faisait / ont joué",
+            "a fait / jouaient"
+          ],
+          "correct": 0,
+          "explanation": "两个动作都是背景描写（天气好 + 孩子们在玩），没有突发事件打断，全部用 imparfait。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Soudain, elle _____ (voir) son ancien professeur au supermarché.",
+          "options": [
+            "voyait",
+            "a vu",
+            "avait vu",
+            "voit"
+          ],
+          "correct": 1,
+          "explanation": "soudain（突然）标志突发事件，用 passé composé。voir → a vu。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'_____ (arriver) à la gare, le train était déjà parti.",
+          "options": [
+            "arrivais",
+            "suis arrivé(e)",
+            "ai arrivé",
+            "arrivai"
+          ],
+          "correct": 1,
+          "explanation": "「到达车站」是一个完成的单次动作，用 passé composé。arriver 用 être → suis arrivé(e)。选项 C 错误：arriver 不用 avoir。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, elle _____ (aller) à l'école à pied, mais ce matin elle _____ (prendre) le bus.",
+          "options": [
+            "allait / a pris",
+            "est allée / prenait",
+            "allait / prenait",
+            "est allée / a pris"
+          ],
+          "correct": 0,
+          "explanation": "avant（以前）表示过去的习惯 → imparfait（allait）；ce matin（今天早上）是单次完成动作 → passé composé（a pris）。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pendant qu'il _____ (dormir), quelqu'un a frappé à la porte.",
+          "options": [
+            "a dormi",
+            "dormait",
+            "dort",
+            "avait dormi"
+          ],
+          "correct": 1,
+          "explanation": "pendant que 引导的是背景/正在进行的动作，几乎永远用 imparfait。il → dormait。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne _____ (savoir) pas la réponse, mais quand j'ai lu l'article, j'_____ (comprendre) tout.",
+          "options": [
+            "savais / ai compris",
+            "ai su / comprenais",
+            "savais / comprenais",
+            "ai su / ai compris"
+          ],
+          "correct": 0,
+          "explanation": "「不知道答案」是持续状态 → imparfait（savais）；「读了文章后全明白了」是瞬间完成 → passé composé（ai compris）。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子应该用 imparfait？",
+          "options": [
+            "Chaque été, nous (aller) à la mer.",
+            "Hier, il (pleuvoir) toute la journée — 强调「下了一整天」这件事已结束。",
+            "Il (faire) nuit et tout (être) calme.",
+            "Soudain, un homme (entrer) dans la pièce."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A：chaque été 表示每年的习惯 → imparfait。C：夜晚 + 安静 = 纯背景描写 → imparfait。B：虽然有 toute la journée，但强调「下了一整天」这个已完成的事实，可用 passé composé。D：soudain 引出突发事件 → passé composé。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tandis qu'elle _____ (lire) un livre, son fils a cassé un verre.",
+          "correct": [
+            "lisait"
+          ],
+          "explanation": "tandis que 引导背景动作，和 pendant que 一样用 imparfait。elle → lisait。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (vouloir) partir, mais il a commencé à pleuvoir.",
+          "correct": [
+            "voulions"
+          ],
+          "explanation": "「想走」是当时持续的意愿/状态 → imparfait。nous → voulions。如果用 passé composé（avons voulu），则变成「我们决定要走了」，语义不同。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand ils _____ (être) jeunes, ils _____ (habiter) à Lyon. Un jour, leur père _____ (décider) de déménager à Paris.",
+          "correct": [
+            "étaient",
+            "habitaient",
+            "a décidé"
+          ],
+          "explanation": "前两空：「年轻时」「住在里昂」都是过去持续的背景/状态 → imparfait（étaient, habitaient）。第三空：un jour 引出单次事件「决定搬家」→ passé composé（a décidé）。",
+          "category": "imparfait vs passé composé"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1n36e7mgPWxgJwy-j83qui0Kehjihm1adieuVBxc2Jsc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772341595355-t3lnk72ohy",
+          "front": "Imparfait 的本质功能是什么？",
+          "back": "描述过去未完成的、持续的、重复的状态或动作。\n相当于电影里的「背景长镜头」。"
+        },
+        {
+          "id": "1772341595355-p1ydtysjufi",
+          "front": "Passé composé 的本质功能是什么？",
+          "back": "描述过去已完成的、一次性的、有明确起止的事件。\n相当于电影里的「特写剪辑动作」。"
+        },
+        {
+          "id": "1772341595355-6c1yed12o26",
+          "front": "Imparfait 的变位规则",
+          "back": "取 nous 现在时词干 + 词尾：\n-ais, -ais, -ait, -ions, -iez, -aient\n唯一例外：être → 词干 ét-"
+        },
+        {
+          "id": "1772341595355-vpcnqfka0w",
+          "front": "Passé composé 的构成",
+          "back": "助动词 avoir/être（现在时）+ 过去分词\n大多数动词用 avoir；移动/状态变化动词及代词式动词用 être。"
+        },
+        {
+          "id": "1772341595355-39tpk20tbqx",
+          "front": "用 être 做助动词时要注意什么？",
+          "back": "过去分词必须与主语进行性数配合。\nEx: Elle est arrivée. / Ils sont partis."
+        },
+        {
+          "id": "1772341595355-dlh646v7qpv",
+          "front": "Imparfait 用法①：背景/环境描写",
+          "back": "Il faisait beau et les oiseaux chantaient.\n天气好，鸟儿在唱歌。（纯背景）"
+        },
+        {
+          "id": "1772341595355-1dc028njrq",
+          "front": "Imparfait 用法②：习惯性/重复动作",
+          "back": "Je jouais souvent au parc.\n我以前经常在公园玩。\n标志词：souvent, toujours, d'habitude, chaque jour"
+        },
+        {
+          "id": "1772341595355-8g6viz08sbk",
+          "front": "Imparfait 用法③：持续的状态/情感",
+          "back": "Elle était fatiguée.\n她当时很累。（状态没有终点）"
+        },
+        {
+          "id": "1772341595355-pgbbi1aapj8",
+          "front": "Imparfait 用法④：正在进行的动作（被打断）",
+          "back": "Ils étudiaient quand leur ami est arrivé.\n他们正在学习，这时朋友到了。"
+        },
+        {
+          "id": "1772341595355-rh8iub66bqr",
+          "front": "Passé composé 用法①：单次完成事件",
+          "back": "J'ai joué au parc hier.\n我昨天去公园玩了。（一次，完了）"
+        },
+        {
+          "id": "1772341595355-o04klqf5o2h",
+          "front": "Passé composé 用法②：突发动作",
+          "back": "Soudain, un oiseau a volé vers moi.\n突然，一只鸟飞向了我。"
+        },
+        {
+          "id": "1772341595355-tx65qmhey2i",
+          "front": "Passé composé 用法③：打断背景的动作",
+          "back": "Ils écoutaient la radio quand ils ont entendu cette nouvelle.\n正在听广播（背景）→ 听到了消息（打断）"
+        },
+        {
+          "id": "1772341595355-ulgskz8huw",
+          "front": "经典搭配模式①：背景 + 突发",
+          "back": "Imparfait（正在做）+ Passé composé（突然发生）\nEx: Il dormait quand le téléphone a sonné."
+        },
+        {
+          "id": "1772341595355-747kqmt2jc6",
+          "front": "经典搭配模式②：状态/原因 → 结果/决定",
+          "back": "Imparfait（状态）→ Passé composé（动作）\nEx: Elles étaient fatiguées, alors elles ont pris une pause."
+        },
+        {
+          "id": "1772341595355-mlrfo163x",
+          "front": "经典搭配模式③：双背景（全用 imparfait）",
+          "back": "两个动作都是背景/习惯，无突发事件。\nEx: Nous y allions souvent quand nous étions enfants."
+        },
+        {
+          "id": "1772341595355-64e7lwkqtn6",
+          "front": "pendant que / tandis que 后面用什么时态？",
+          "back": "几乎永远用 imparfait（引导背景动作）。\nEx: Pendant qu'il dormait, quelqu'un a frappé à la porte."
+        },
+        {
+          "id": "1772341595355-agywz635jdk",
+          "front": "tout à coup / soudain 后面用什么时态？",
+          "back": "用 passé composé（引出突发事件）。\nEx: Tout à coup, un chien a couru vers nous."
+        },
+        {
+          "id": "1772341595355-rkq3c2hupsa",
+          "front": "倾向 Imparfait 的时间标志词",
+          "back": "souvent, toujours, d'habitude\nchaque jour/semaine/année\nquand j'étais petit(e)\nautrefois, à l'époque"
+        },
+        {
+          "id": "1772341595355-n8jzr1kfn2",
+          "front": "倾向 Passé composé 的时间标志词",
+          "back": "hier, la semaine dernière\nsoudain, tout à coup\nun jour, une fois\nce matin, ce soir"
+        },
+        {
+          "id": "1772341595355-v346n2mzdo",
+          "front": "3秒判断法：第一步",
+          "back": "这个动作/状态有没有「完」？\n完了 → passé composé\n没完/持续中 → imparfait"
+        },
+        {
+          "id": "1772341595355-5xgktz003qj",
+          "front": "3秒判断法：第二步",
+          "back": "是不是背景、天气、情感、外貌描写？\n是 → imparfait"
+        },
+        {
+          "id": "1772341595355-ts4homar09",
+          "front": "3秒判断法：第三步",
+          "back": "是不是「经常、总是、以前」的习惯？\n是 → imparfait"
+        },
+        {
+          "id": "1772341595355-dzgo208ny2i",
+          "front": "3秒判断法：第四步",
+          "back": "两个动作同时出现，一个被另一个打断？\n正在进行的 → imparfait\n打断的那个 → passé composé"
+        },
+        {
+          "id": "1772341595355-oaggnhrij98",
+          "front": "陷阱：savoir 的 imparfait vs passé composé",
+          "back": "Je savais = 我（一直）知道（状态）\nJ'ai su = 我（突然）得知了（瞬间变化）"
+        },
+        {
+          "id": "1772341595355-c58rkdy3bg",
+          "front": "陷阱：connaître 的 imparfait vs passé composé",
+          "back": "Je connaissais cette ville = 我（一直）了解这座城市\nJ'ai connu cette ville = 我（初次）认识了这座城市"
+        },
+        {
+          "id": "1772341595355-j5q9dfy1wx",
+          "front": "陷阱：vouloir 的 imparfait vs passé composé",
+          "back": "Je voulais partir = 我（当时）想走（持续意愿）\nJ'ai voulu partir = 我（下定决心）要走了"
+        },
+        {
+          "id": "1772341595355-l4asbnd6hvm",
+          "front": "陷阱：quand 后面用什么时态？",
+          "back": "两种都可能！取决于动作性质。\nQuand j'étais petit...（背景 → imparfait）\nQuand il est arrivé...（完成 → passé composé）"
+        }
+      ]
+    },
+    {
+      "id": 1772339228284,
+      "name": "L'imparfait 未完成过去时-9个不规则",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T04:27:08.284Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'_____ petit, je jouais dans le jardin.",
+          "options": [
+            "étais",
+            "était",
+            "avais",
+            "ai été"
+          ],
+          "correct": 0,
+          "explanation": "描述过去的状态用 imparfait，je 搭配 étais。étais 是 être 的 imparfait，不是 avoir。「当我小的时候」= Quand j'étais petit。",
+          "category": "imparfait - être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ très froid hier soir.",
+          "options": [
+            "faisait",
+            "a fait",
+            "faisais",
+            "fait"
+          ],
+          "correct": 0,
+          "explanation": "描述过去的天气状况（背景描写）用 imparfait。faire 的 il 形式：faisait。注意 fais- 中 ai 读 /ə/。",
+          "category": "imparfait - faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À cette époque, nous _____ 15 ans.",
+          "options": [
+            "avons",
+            "avions",
+            "avaient",
+            "avais"
+          ],
+          "correct": 1,
+          "explanation": "过去的年龄 = 过去的状态，用 imparfait。nous → avions。avons 是现在时，avaient 是 ils 的形式，avais 是 je/tu 的形式。",
+          "category": "imparfait - avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, elle _____ le bus pour aller au travail.",
+          "options": [
+            "a pris",
+            "prenait",
+            "prend",
+            "prenais"
+          ],
+          "correct": 1,
+          "explanation": "Avant（以前）+ 过去的习惯 → imparfait。elle → prenait。a pris 是 passé composé 表一次性事件，prenais 是 je/tu 的形式。",
+          "category": "imparfait - prendre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ vous demander un service.",
+          "options": [
+            "veux",
+            "voulais",
+            "ai voulu",
+            "voulait"
+          ],
+          "correct": 1,
+          "explanation": "vouloir 的 imparfait 表达礼貌请求：Je voulais... = 我想（请问）……。这是 TCF 口语加分句型。voulait 是 il/elle 的形式。",
+          "category": "imparfait - vouloir（礼貌）"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais jeune, je _____ courir très vite.",
+          "options": [
+            "peux",
+            "ai pu",
+            "pouvais",
+            "pouvait"
+          ],
+          "correct": 2,
+          "explanation": "过去持续的能力 → imparfait。je → pouvais。ai pu 表示「一次性做到了」，pouvait 是 il/elle 的形式。",
+          "category": "imparfait - pouvoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'habitude, ils _____ leurs amis le dimanche.",
+          "options": [
+            "voient",
+            "voyaient",
+            "ont vu",
+            "voyais"
+          ],
+          "correct": 1,
+          "explanation": "D'habitude（通常）= 过去的习惯 → imparfait。ils → voyaient。voient 是现在时，voyais 是 je/tu 的形式。",
+          "category": "imparfait - voir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ bien français quand tu habitais à Paris.",
+          "options": [
+            "parles",
+            "as parlé",
+            "parlais",
+            "parlait"
+          ],
+          "correct": 2,
+          "explanation": "quand tu habitais = 过去的时间段，描述持续状态 → imparfait。tu → parlais。parlait 是 il/elle 的形式。",
+          "category": "imparfait - parler"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les étudiants _____ (finir) toujours leurs devoirs avant minuit.",
+          "correct": [
+            "finissaient"
+          ],
+          "explanation": "ils/elles + finir 的 imparfait = finissaient。词干是 finiss-（来自 nous finissons），不是 fin-。toujours 提示习惯性动作 → imparfait。",
+          "category": "imparfait - finir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (faire) du sport chaque matin, mais un jour je _____ (tomber).",
+          "options": [
+            "faisais / suis tombé",
+            "ai fait / tombais",
+            "faisais / tombais",
+            "ai fait / suis tombé"
+          ],
+          "correct": 0,
+          "explanation": "chaque matin = 习惯 → imparfait (faisais)；un jour = 一次性事件 → passé composé (suis tombé)。这是 TCF 经典的 imparfait vs PC 搭配题。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些时间标志词通常搭配 imparfait 使用？",
+          "options": [
+            "toujours",
+            "soudain",
+            "d'habitude",
+            "tout à coup"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "toujours（总是）、d'habitude（通常）= 习惯 → imparfait。soudain（突然）、tout à coup（忽然）= 突发事件 → passé composé。",
+          "category": "时间标志词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si j'_____ le temps, je voyagerais en France.",
+          "options": [
+            "ai",
+            "avais",
+            "aurais",
+            "aurai"
+          ],
+          "correct": 1,
+          "explanation": "Si + imparfait → conditionnel présent，这是法语假设句的基本结构。si j'avais = 如果我有（虚拟）。注意 si 后面永远不用 conditionnel。",
+          "category": "si + imparfait"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand nous _____ (être) en vacances, il _____ (faire) beau et nous _____ (voir) la mer tous les jours.",
+          "correct": [
+            "étions",
+            "faisait",
+            "voyions"
+          ],
+          "explanation": "三个空都是过去的背景描写 → 全用 imparfait。nous étions / il faisait / nous voyions。注意 voyions 中 y + ions 的拼写。",
+          "category": "imparfait 综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Êtr 的 imparfait 词干是 ét-，它的特殊之处在于：",
+          "options": [
+            "词尾和其他动词不同",
+            "它是唯一不从 nous 现在时取词干的动词",
+            "它没有 nous 和 vous 的形式",
+            "它的发音和现在时完全相同"
+          ],
+          "correct": 1,
+          "explanation": "所有动词的 imparfait 都从 nous 的现在时词干变来（nous parlons → parl-），唯一的例外是 être（nous sommes → 但词干是 ét-，不是 somm-）。这是 TCF 常考的知识点。",
+          "category": "规则辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1uaKCO7eRXDcqzvlgD4KQCKAIO-MsjmXbsXMgl8xjwsA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772339246004-q2d9eg3u5n",
+          "front": "être → imparfait 词干",
+          "back": "ét-\n唯一不从 nous 现在时取词干的动词\nnous sommes → 但词干是 ét-"
+        },
+        {
+          "id": "1772339246004-uu7jn6eacuq",
+          "front": "être imparfait 完整变位",
+          "back": "j'étais\ntu étais\nil/elle/on était\nnous étions\nvous étiez\nils/elles étaient"
+        },
+        {
+          "id": "1772339246004-ilspdnb40lh",
+          "front": "avoir → imparfait 词干",
+          "back": "av-\n来自 nous avons"
+        },
+        {
+          "id": "1772339246004-0fzhn1whuf5u",
+          "front": "avoir imparfait 完整变位",
+          "back": "j'avais\ntu avais\nil/elle/on avait\nnous avions\nvous aviez\nils/elles avaient"
+        },
+        {
+          "id": "1772339246004-670qxi850a2",
+          "front": "faire → imparfait 词干",
+          "back": "fais-\n来自 nous faisons\n⚠️ fais 中 ai 读 /ə/，不读 /ɛ/"
+        },
+        {
+          "id": "1772339246004-zvtmxdx7vb",
+          "front": "faire imparfait 完整变位",
+          "back": "je faisais\ntu faisais\nil/elle/on faisait\nnous faisions\nvous faisiez\nils/elles faisaient"
+        },
+        {
+          "id": "1772339246004-4mykzn6iji6",
+          "front": "prendre → imparfait 词干",
+          "back": "pren-\n来自 nous prenons\n同族：apprendre → appren- / comprendre → compren-"
+        },
+        {
+          "id": "1772339246004-ti351n14boj",
+          "front": "prendre imparfait 完整变位",
+          "back": "je prenais\ntu prenais\nil/elle/on prenait\nnous prenions\nvous preniez\nils/elles prenaient"
+        },
+        {
+          "id": "1772339246004-tp0xcnatpj",
+          "front": "voir → imparfait 词干",
+          "back": "voy-\n来自 nous voyons"
+        },
+        {
+          "id": "1772339246004-2ogbavk9bdq",
+          "front": "voir imparfait 完整变位",
+          "back": "je voyais\ntu voyais\nil/elle/on voyait\nnous voyions\nvous voyiez\nils/elles voyaient"
+        },
+        {
+          "id": "1772339246004-1d894ohoj7t",
+          "front": "vouloir → imparfait 词干",
+          "back": "voul-\n来自 nous voulons"
+        },
+        {
+          "id": "1772339246004-shmq5re55n",
+          "front": "vouloir imparfait 完整变位",
+          "back": "je voulais\ntu voulais\nil/elle/on voulait\nnous voulions\nvous vouliez\nils/elles voulaient"
+        },
+        {
+          "id": "1772339246004-ofo1mcbj5wm",
+          "front": "pouvoir → imparfait 词干",
+          "back": "pouv-\n来自 nous pouvons"
+        },
+        {
+          "id": "1772339246004-5hsnkrip137",
+          "front": "pouvoir imparfait 完整变位",
+          "back": "je pouvais\ntu pouvais\nil/elle/on pouvait\nnous pouvions\nvous pouviez\nils/elles pouvaient"
+        },
+        {
+          "id": "1772339246004-38ij5d62ov8",
+          "front": "parler → imparfait 词干",
+          "back": "parl-\n来自 nous parlons\n规则 -er 动词，所有 -er 动词同理"
+        },
+        {
+          "id": "1772339246004-w8ev76whsm7",
+          "front": "parler imparfait 完整变位",
+          "back": "je parlais\ntu parlais\nil/elle/on parlait\nnous parlions\nvous parliez\nils/elles parlaient"
+        },
+        {
+          "id": "1772339246004-wzbmbs4e2ti",
+          "front": "finir → imparfait 词干",
+          "back": "finiss-\n来自 nous finissons\n⚠️ 不是 fin-！所有第二组 -ir 动词同理"
+        },
+        {
+          "id": "1772339246004-3rygxahlfft",
+          "front": "finir imparfait 完整变位",
+          "back": "je finissais\ntu finissais\nil/elle/on finissait\nnous finissions\nvous finissiez\nils/elles finissaient"
+        },
+        {
+          "id": "1772339246004-tnwj2b7s1q",
+          "front": "Imparfait 的 6 个词尾",
+          "back": "-ais (je)\n-ais (tu)\n-ait (il/elle/on)\n-ions (nous)\n-iez (vous)\n-aient (ils/elles)\n所有动词通用，无例外"
+        },
+        {
+          "id": "1772339246004-9vuc243mp",
+          "front": "Imparfait 发音陷阱",
+          "back": "je -ais / tu -ais / il -ait / ils -aient\n四个发音完全相同 → /ɛ/\nTCF 听力靠上下文判断人称"
+        },
+        {
+          "id": "1772339246004-2s2zkjv8a7c",
+          "front": "Imparfait 的构成公式",
+          "back": "nous 现在时词干 + imparfait 词尾\n唯一例外：être（词干 ét-）"
+        },
+        {
+          "id": "1772339246004-9aaqbgh3uf6",
+          "front": "Imparfait 用法①",
+          "back": "过去的习惯\n标志词：toujours, souvent, chaque jour, d'habitude\n例：Avant, je faisais du yoga."
+        },
+        {
+          "id": "1772339246004-3yh5z1m5ny4",
+          "front": "Imparfait 用法②",
+          "back": "过去的状态 / 背景描写\n例：Il faisait froid, les rues étaient vides."
+        },
+        {
+          "id": "1772339246004-l6d4ezkpw6j",
+          "front": "Imparfait 用法③",
+          "back": "与 passé composé 搭配\nimparfait = 背景，PC = 事件\n例：Je lisais quand il est entré."
+        },
+        {
+          "id": "1772339246004-8g9s7pbi3fx",
+          "front": "Imparfait 用法④",
+          "back": "礼貌表达\nJe voulais vous demander…\nJe voulais savoir si…\nTCF 口语/写作加分句型"
+        },
+        {
+          "id": "1772339246004-rdastgpul2",
+          "front": "Imparfait 用法⑤",
+          "back": "假设句 si + imparfait\nSi j'avais le temps, je voyagerais.\n⚠️ si 后面永远不用 conditionnel"
+        },
+        {
+          "id": "1772339246004-ds2c30bcvpi",
+          "front": "Imparfait vs PC 如何区分？",
+          "back": "Imparfait = 背景、习惯、状态、描写\nPassé composé = 事件、动作、变化、一次性\n例：Je dormais (背景) quand le téléphone a sonné (事件)"
+        },
+        {
+          "id": "1772339246004-124pm92a4zgi",
+          "front": "搭配 imparfait 的时间标志词",
+          "back": "toujours, souvent, chaque jour/matin/soir\nd'habitude, autrefois, à cette époque\nquand j'étais petit"
+        },
+        {
+          "id": "1772339246004-pgv5tle07q",
+          "front": "搭配 passé composé 的时间标志词",
+          "back": "hier, soudain, tout à coup\nun jour, à ce moment-là\n（突发、一次性事件）"
+        },
+        {
+          "id": "1772339246004-0v0k2gxtizx",
+          "front": "je pouvais vs j'ai pu 区别",
+          "back": "je pouvais = 过去持续的能力（我以前能……）\nj'ai pu = 一次性做到了（我成功……了）\n例：Je pouvais courir vite. vs J'ai pu finir à temps."
+        },
+        {
+          "id": "1772339246004-x4ai3bjgexh",
+          "front": "Il faisait beau. 是什么意思？",
+          "back": "当时天气很好。\nfaire 的 imparfait 描述过去天气\nTCF 超高频表达"
+        },
+        {
+          "id": "1772339246004-y6mt9eakda",
+          "front": "J'avais 10 ans. 是什么意思？",
+          "back": "我当时10岁。\navoir 的 imparfait 描述过去年龄\n年龄 = 状态 → 用 imparfait"
+        }
+      ]
+    },
+    {
+      "id": 1772338631805,
+      "name": "L'imparfait 未完成过去时",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T04:17:11.805Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'_____ petit, je jouais au foot tous les jours.",
+          "options": [
+            "ai été",
+            "étais",
+            "suis été",
+            "serai"
+          ],
+          "correct": 1,
+          "explanation": "描述过去的状态「我小时候」，用 être 的 imparfait：j'étais。ai été 是 passé composé，不符合「习惯性背景」语境。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, je _____ un film quand mon ami a téléphoné.",
+          "options": [
+            "regardais",
+            "ai regardé",
+            "regarde",
+            "regarderai"
+          ],
+          "correct": 0,
+          "explanation": "「正在看电影」是背景动作，用 imparfait；「朋友打电话」是突发事件，用 passé composé。经典 imparfait + passé composé 搭配。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ dans le jardin pendant que leur mère préparait le dîner.",
+          "options": [
+            "ont joué",
+            "jouent",
+            "jouaient",
+            "joueront"
+          ],
+          "correct": 2,
+          "explanation": "pendant que 引导两个同时进行的背景动作，两边都用 imparfait。jouaient 与 préparait 平行。",
+          "category": "imparfait 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ souvent au restaurant quand nous habitions à Paris.",
+          "options": [
+            "allons",
+            "sommes allés",
+            "allions",
+            "irons"
+          ],
+          "correct": 2,
+          "explanation": "souvent + quand nous habitions = 过去的习惯，用 imparfait。nous allions。注意 allions 不是 subjonctif，这里是 imparfait。",
+          "category": "过去的习惯"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ ses devoirs quand la lumière s'est éteinte.",
+          "options": [
+            "finissait",
+            "a fini",
+            "finit",
+            "finissais"
+          ],
+          "correct": 0,
+          "explanation": "「正在做作业」= 背景动作 → imparfait。注意第二组动词 finir 的 imparfait 词干是 finiss-，第三人称单数 finissait。finissais 是 je/tu 的形式，主语 elle 不匹配。",
+          "category": "第二组动词 imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quand j'étais jeune, je _____ (prendre) le bus tous les matins.",
+          "correct": [
+            "prenais"
+          ],
+          "explanation": "过去的习惯 → imparfait。prendre 词干 pren-，je 加 -ais → prenais。",
+          "category": "第三组动词 imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ beau et les oiseaux chantaient.",
+          "options": [
+            "a fait",
+            "faisait",
+            "fait",
+            "fera"
+          ],
+          "correct": 1,
+          "explanation": "天气描写 + 与另一个 imparfait（chantaient）并列 = 过去的场景铺设，用 imparfait。faire 词干 fais-，il faisait。",
+          "category": "场景描写"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子应该使用 imparfait？（多选）",
+          "options": [
+            "D'habitude, elle se levait tôt.",
+            "Soudain, il a crié.",
+            "Il pleuvait quand je suis sorti.",
+            "Hier, j'ai acheté un livre."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A: d'habitude = 习惯 → imparfait ✅\nB: soudain = 突发事件 → passé composé ✗\nC: il pleuvait = 背景描写（下雨时我出门）→ imparfait ✅\nD: hier + 一次性事件 → passé composé ✗",
+          "category": "imparfait 判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ vous demander un petit service.",
+          "options": [
+            "veux",
+            "voulais",
+            "ai voulu",
+            "voudrais"
+          ],
+          "correct": 1,
+          "explanation": "imparfait 的礼貌/委婉用法。Je voulais vous demander... = 我想请您……。voudrais（条件式）也可以，但本题选项中 voulais 是标准 imparfait 委婉表达，且题目考察的是 imparfait 用法。",
+          "category": "imparfait 礼貌用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si tu _____ le temps, tu pourrais m'aider.",
+          "options": [
+            "as",
+            "avais",
+            "auras",
+            "aies"
+          ],
+          "correct": 1,
+          "explanation": "si + imparfait → conditionnel présent，表达与现在事实相反的假设。avoir 的 imparfait：tu avais。注意 si 后面永远不能接 conditionnel。",
+          "category": "si + imparfait 假设"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, nous _____ (manger) à la cantine tous les midis.",
+          "options": [
+            "mangeons",
+            "avons mangé",
+            "mangions",
+            "mangeions"
+          ],
+          "correct": 2,
+          "explanation": "过去的习惯 → imparfait。manger 词干 mange-，加 -ions → mangions（不是 mangeions）。nous/vous 形式中 i 已经让 g 发 /ʒ/，所以 e 消失。",
+          "category": "拼写变化动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand elle était jeune, elle _____ (commencer) ses cours à 8 heures.",
+          "options": [
+            "commençait",
+            "commencait",
+            "a commencé",
+            "commençais"
+          ],
+          "correct": 0,
+          "explanation": "过去习惯 → imparfait。commencer 词干 commenç-，il/elle 加 -ait → commençait。注意必须保留 ç 使 c 发 /s/。commencait 少了 cédille，拼写错误。commençais 是 je/tu 形式，主语不匹配。",
+          "category": "拼写变化 + cédille"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ (finir) toujours leurs devoirs avant le dîner.",
+          "options": [
+            "finissaient",
+            "finisaient",
+            "ont fini",
+            "finaient"
+          ],
+          "correct": 0,
+          "explanation": "toujours = 习惯 → imparfait。finir 是第二组动词，词干必须是 finiss-（不是 finis- 或 fin-），加 -aient → finissaient。这是 TCF 高频陷阱：第二组动词 imparfait 丢 -iss-。",
+          "category": "第二组动词陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ (voir) mes grands-parents chaque été.",
+          "options": [
+            "voyais",
+            "voiyais",
+            "ai vu",
+            "voyais"
+          ],
+          "correct": 0,
+          "explanation": "chaque été = 每个夏天，过去习惯 → imparfait。voir 词干 voy-（nous voyons → 去 -ons），je 加 -ais → voyais。voiyais 是编造的错误拼写。",
+          "category": "第三组不规则动词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand j'_____ (être) enfant, ma famille _____ (habiter) à Lyon. Mon père _____ (travailler) dans une usine et ma mère _____ (faire) de la couture à la maison.",
+          "correct": [
+            "étais",
+            "habitait",
+            "travaillait",
+            "faisait"
+          ],
+          "explanation": "整段都是过去的背景描写和习惯 → 全部用 imparfait。\nêtre → j'étais（唯一不规则）\nhabiter → ma famille habitait（第一组常规）\ntravailler → mon père travaillait（第一组常规）\nfaire → ma mère faisait（词干 fais-）",
+          "category": "段落综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tout à coup, le téléphone a sonné. Marie _____ dans la cuisine.",
+          "options": [
+            "a été",
+            "était",
+            "est",
+            "sera"
+          ],
+          "correct": 1,
+          "explanation": "tout à coup 后的 a sonné 是突发事件（passé composé）。Marie 在厨房 = 事件发生时的背景状态 → imparfait：était。这是典型的「前景事件 + 背景状态」搭配。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些动词的 imparfait 词干包含 -iss-？（多选）",
+          "options": [
+            "finir",
+            "choisir",
+            "partir",
+            "réussir"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "finir（finiss-）、choisir（choisis-）、réussir（réussiss-）都是第二组动词（-ir + nous -issons），imparfait 词干含 -iss-。\npartir 是第三组动词（nous partons → 词干 part-），没有 -iss-。",
+          "category": "动词分组辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ (étudier) le français quand nous étions à l'université.",
+          "options": [
+            "étudions",
+            "étudiions",
+            "avons étudié",
+            "étudiiez"
+          ],
+          "correct": 1,
+          "explanation": "过去习惯 → imparfait。étudier 词干 étudi-（nous étudions → 去 -ons），加 -ions → étudiions（双 i！第一个 i 属于词干，第二个属于 imparfait 词尾）。这是 TCF 拼写陷阱。étudiiez 是 vous 的形式，主语不匹配。",
+          "category": "双 i 拼写陷阱"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/158qCl4_BQDK29ZGBja3MORLKWlRtByaWrpIY5wI2jNw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772338657611-7f1smwx7jg",
+          "front": "L'imparfait 的构成步骤是什么？",
+          "back": "1. 取 nous 的直陈式现在时形式\n2. 去掉 -ons\n3. 加词尾：-ais, -ais, -ait, -ions, -iez, -aient"
+        },
+        {
+          "id": "1772338657611-kqqkhcyryh",
+          "front": "L'imparfait 的六个人称词尾",
+          "back": "je: -ais\ntu: -ais\nil/elle/on: -ait\nnous: -ions\nvous: -iez\nils/elles: -aient"
+        },
+        {
+          "id": "1772338657611-1ym5cuicxq1",
+          "front": "L'imparfait 唯一不规则动词是哪个？词干是什么？",
+          "back": "être，词干为 ét-\nj'étais, tu étais, il était, nous étions, vous étiez, ils étaient"
+        },
+        {
+          "id": "1772338657611-rztbsiyszhf",
+          "front": "parler → imparfait 词干？",
+          "back": "parl-（nous parlons → 去 -ons）"
+        },
+        {
+          "id": "1772338657611-lr1jtgxft4",
+          "front": "finir → imparfait 词干？",
+          "back": "finiss-（nous finissons → 去 -ons）\n⚠️ 第二组动词必须保留 -iss-"
+        },
+        {
+          "id": "1772338657611-g4kepe7drtf",
+          "front": "prendre → imparfait 词干？",
+          "back": "pren-（nous prenons → 去 -ons）"
+        },
+        {
+          "id": "1772338657611-ipefuke3x6",
+          "front": "faire → imparfait 词干及 je 的变位",
+          "back": "词干 fais-（nous faisons → 去 -ons）\nje faisais"
+        },
+        {
+          "id": "1772338657611-xafb05z754g",
+          "front": "aller → imparfait 词干及 je 的变位",
+          "back": "词干 all-（nous allons → 去 -ons）\nj'allais"
+        },
+        {
+          "id": "1772338657611-175g76scbwf",
+          "front": "voir → imparfait 词干及 nous 的变位",
+          "back": "词干 voy-（nous voyons → 去 -ons）\nnous voyions（注意双 i）"
+        },
+        {
+          "id": "1772338657611-gf0xnuk9x2b",
+          "front": "manger → imparfait 拼写注意什么？",
+          "back": "je mangeais（保留 e 使 g 发 /ʒ/）\n但 nous mangions（i 已让 g 发 /ʒ/，e 消失）"
+        },
+        {
+          "id": "1772338657611-s7plv5xc1rb",
+          "front": "commencer → imparfait 拼写注意什么？",
+          "back": "je commençais（保留 ç 使 c 发 /s/）\n但 nous commencions（i 已让 c 发 /s/，ç 变回 c）"
+        },
+        {
+          "id": "1772338657611-53qrtj6gphs",
+          "front": "imparfait 用法 1：过去的状态/描写",
+          "back": "描写过去的场景、天气、情绪、外貌等\n例：Il faisait beau. Elle était fatiguée."
+        },
+        {
+          "id": "1772338657611-avr68zvvqoq",
+          "front": "imparfait 用法 2：过去的习惯",
+          "back": "过去反复做的事 = used to\n例：Je regardais la télé tous les soirs.\n标志词：toujours, souvent, chaque jour, d'habitude"
+        },
+        {
+          "id": "1772338657611-h7e9js2wej",
+          "front": "imparfait 用法 3：与 passé composé 搭配",
+          "back": "imparfait = 背景/正在进行\npassé composé = 突发事件\n例：Je dormais quand il a téléphoné."
+        },
+        {
+          "id": "1772338657611-5p3szwpb3mk",
+          "front": "imparfait 用法 4：礼貌/委婉",
+          "back": "用 imparfait 替代 présent 表委婉\n例：Je voulais vous demander un service."
+        },
+        {
+          "id": "1772338657611-tqa5zf2csq",
+          "front": "si + imparfait 表达什么？",
+          "back": "与现在事实相反的假设\nsi + imparfait → conditionnel présent\n例：Si j'avais de l'argent, j'achèterais une maison."
+        },
+        {
+          "id": "1772338657611-0h7n6w26na47",
+          "front": "如何区分用 imparfait 还是 passé composé？",
+          "back": "能回答「几次/多久」→ passé composé\n不能回答、只描述状态或持续动作 → imparfait"
+        },
+        {
+          "id": "1772338657611-2tomv2cdg6w",
+          "front": "imparfait 的标志词有哪些？",
+          "back": "toujours, souvent, chaque jour/soir, d'habitude, autrefois, pendant que, quand (+ 背景)"
+        },
+        {
+          "id": "1772338657611-45g8upx4rgr",
+          "front": "passé composé 的标志词有哪些？",
+          "back": "hier, soudain, tout à coup, une fois, en 2020, à ce moment-là"
+        },
+        {
+          "id": "1772338657611-go77eveoht",
+          "front": "je parlais / il parlait / ils parlaient 发音相同吗？",
+          "back": "是的！都读 /paʁlɛ/\n只有 nous parlions 和 vous parliez 发音不同"
+        },
+        {
+          "id": "1772338657611-qlih5hjmjam",
+          "front": "avoir → imparfait 全变位",
+          "back": "j'avais, tu avais, il avait\nnous avions, vous aviez, ils avaient"
+        },
+        {
+          "id": "1772338657611-vdm5hhpzi3",
+          "front": "vouloir → imparfait 词干及 je 的变位",
+          "back": "词干 voul-（nous voulons → 去 -ons）\nje voulais"
+        },
+        {
+          "id": "1772338657611-4b6mn3jkwpw",
+          "front": "pouvoir → imparfait 词干及 je 的变位",
+          "back": "词干 pouv-（nous pouvons → 去 -ons）\nje pouvais"
+        },
+        {
+          "id": "1772338657611-uriw87lkly",
+          "front": "devoir → imparfait 词干及 je 的变位",
+          "back": "词干 dev-（nous devons → 去 -ons）\nje devais"
+        },
+        {
+          "id": "1772338657611-rvvitr4q3ak",
+          "front": "J'avais faim vs J'ai eu faim 区别？",
+          "back": "J'avais faim = 当时处于饿的状态（imparfait，背景）\nJ'ai eu faim = 突然感到饿了（passé composé，事件）"
+        }
+      ]
+    },
+    {
       "id": 1772311156529,
       "name": "词汇：圣诞节表达",
       "folderId": "1770661225895",
@@ -55756,12 +56830,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-02-28",
+    "date": "2026-03-01",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-02-28T20:40:44.563Z",
+  "exportedAt": "2026-03-01T05:06:56.524Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
