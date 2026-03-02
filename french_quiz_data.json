@@ -1,6 +1,2118 @@
 {
   "savedSets": [
     {
+      "id": 1772475269469,
+      "name": "Leçon 6 Portrait-robot课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-02T18:14:29.469Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Ils sont grands ? — Non, ils sont _____.",
+          "options": [
+            "petit",
+            "petite",
+            "petits",
+            "petites"
+          ],
+          "correct": 2,
+          "explanation": "主语 ils 是阳性复数，形容词必须用阳性复数 petits。",
+          "category": "形容词性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ homme blond.",
+          "options": [
+            "une",
+            "un",
+            "des",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "homme 是阳性名词，不定冠词用 un。il y a + 不定冠词。",
+          "category": "il y a + 冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce qu'ils ont des lunettes ? — Non, ils n'ont pas _____ lunettes.",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "否定句中 des → de，这是 A1 核心规则。",
+          "category": "否定句冠词变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'homme blond _____ un tee-shirt blanc.",
+          "options": [
+            "est",
+            "a",
+            "porte",
+            "fait"
+          ],
+          "correct": 2,
+          "explanation": "描述穿着用动词 porter。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Sa chemise est .",
+          "options": [
+            "vert",
+            "verts",
+            "verte",
+            "vertes"
+          ],
+          "correct": 2,
+          "explanation": "chemise 是阴性单数，形容词用阴性单数 verte。",
+          "category": "颜色形容词性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": " blouson est rouge.",
+          "options": [
+            "Sa",
+            "Son",
+            "Ses",
+            "Leur"
+          ],
+          "correct": 1,
+          "explanation": "blouson 是阳性单数名词，所有格形容词用 son（不看人的性别，看名词的阴阳性）。",
+          "category": "所有格形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ah ! _____ des baskets.",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Il est",
+            "Ils sont"
+          ],
+          "correct": 1,
+          "explanation": "baskets 是复数，判断句用 ce sont，不用 c'est。",
+          "category": "c'est vs ce sont"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'autre homme, il est petit et _____.（深色头发的）",
+          "correct": [
+            "brun"
+          ],
+          "explanation": "brun = 深色头发的（阳性形式）。",
+          "category": "外貌词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Et _____ chaussures ?",
+          "options": [
+            "son",
+            "sa",
+            "ses",
+            "leur"
+          ],
+          "correct": 2,
+          "explanation": "chaussures 是复数名词，所有格形容词用 ses。",
+          "category": "所有格形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un pantalon . (蓝色)",
+          "options": [
+            "bleu",
+            "bleue",
+            "bleus",
+            "bleues"
+          ],
+          "correct": 0,
+          "explanation": "pantalon 是阳性单数，颜色形容词用阳性单数 bleu。",
+          "category": "颜色形容词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词在法语中通常以复数形式出现？",
+          "options": [
+            "lunettes",
+            "pantalon",
+            "chaussures",
+            "blouson"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "lunettes（眼镜）和 chaussures（鞋子）通常用复数形式。pantalon 和 blouson 用单数。",
+          "category": "名词单复数"
+        },
+        {
+          "type": "fill_blank",
+          "stem": " couleur est son blouson ?（什么颜色）",
+          "correct": [
+            "De quelle"
+          ],
+          "explanation": "De quelle couleur = 什么颜色，固定问法。",
+          "category": "疑问表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il y a _____ homme grand et blond. L'autre homme, il est _____ et brun. Ils n'ont pas _____ lunettes.",
+          "correct": [
+            "un",
+            "petit",
+            "de"
+          ],
+          "explanation": "第一空：il y a + un；第二空：矮的 petit；第三空：否定句 des → de。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____.（金发的，女性）",
+          "options": [
+            "blond",
+            "blonde",
+            "blonds",
+            "blondes"
+          ],
+          "correct": 1,
+          "explanation": "主语 elle 是阴性单数，形容词用阴性单数 blonde。",
+          "category": "形容词阴性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'homme brun, _____, il a un blouson.",
+          "options": [
+            "il",
+            "lui",
+            "elle",
+            "eux"
+          ],
+          "correct": 1,
+          "explanation": "lui 是阳性强调代词，用于对比强调。",
+          "category": "强调代词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1AIyshkJD_QU7daLyLH1gR0x8CpVMvePjTnnUZk5Zsdg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772475353545-j3zd45vm71",
+          "front": "grand (阳性复数)",
+          "back": "grands\n形容词随主语性数变化：ils sont grands"
+        },
+        {
+          "id": "1772475353545-9o7w1p97nb",
+          "front": "petit (阴性单数)",
+          "back": "petite\n例：elle est petite"
+        },
+        {
+          "id": "1772475353545-a9feasn52z",
+          "front": "blond / blonde",
+          "back": "金发的\n阳性 blond，阴性 blonde"
+        },
+        {
+          "id": "1772475353545-hzoaf4c7i7g",
+          "front": "brun / brune",
+          "back": "深色头发的/棕发的\n阳性 brun，阴性 brune"
+        },
+        {
+          "id": "1772475353545-krvwc0qlj48",
+          "front": "les lunettes (词性+特点)",
+          "back": "n.f.pl. 眼镜\n永远复数，搭配 des/les"
+        },
+        {
+          "id": "1772475353545-w0u9i395hal",
+          "front": "porter",
+          "back": "穿着（动词）\nIl porte un tee-shirt blanc."
+        },
+        {
+          "id": "1772475353545-fasjfrrzacc",
+          "front": "否定句中 des 变成什么？",
+          "back": "de\n例：ils n'ont pas de lunettes"
+        },
+        {
+          "id": "1772475353545-9tx4707ccw5",
+          "front": "son 还是 sa？→ blouson",
+          "back": "son blouson\nblouson 是阳性名词，用 son（不看人的性别）"
+        },
+        {
+          "id": "1772475353545-kfy7jx4njpt",
+          "front": "son 还是 sa？→ chemise",
+          "back": "sa chemise\nchemise 是阴性名词，用 sa"
+        },
+        {
+          "id": "1772475353545-9cvun0o9pjc",
+          "front": "ses 用在什么情况？",
+          "back": "后面名词是复数时\n例：ses chaussures, ses lunettes"
+        },
+        {
+          "id": "1772475353545-jz1iz90ygl9",
+          "front": "leur vs leurs",
+          "back": "leur + 单数名词：leur fils\nleurs + 复数名词：leurs vêtements"
+        },
+        {
+          "id": "1772475353545-g7t8b0iizi",
+          "front": "c'est vs ce sont",
+          "back": "c'est + 单数：C'est un jean.\nce sont + 复数：Ce sont des baskets."
+        },
+        {
+          "id": "1772475353545-3fkh5odk65a",
+          "front": "De quelle couleur ?",
+          "back": "什么颜色？（固定疑问表达）"
+        },
+        {
+          "id": "1772475353545-zs100jm2mo9",
+          "front": "blanc (阴性)",
+          "back": "blanche\n例：une chemise blanche"
+        },
+        {
+          "id": "1772475353545-on58t4q2mo",
+          "front": "vert (阴性)",
+          "back": "verte\n例：sa chemise est verte"
+        },
+        {
+          "id": "1772475353545-6mb8uh7jm5k",
+          "front": "rouge (阴性)",
+          "back": "rouge（阴阳同形）\n例：un blouson rouge"
+        },
+        {
+          "id": "1772475353545-95wqot7oly",
+          "front": "bleu (阴性)",
+          "back": "bleue\n例：une chemise bleue"
+        },
+        {
+          "id": "1772475353545-tjicwuv07u",
+          "front": "noir (阴性)",
+          "back": "noire\n例：une chaussure noire"
+        },
+        {
+          "id": "1772475353545-fv35g6wxijf",
+          "front": "un pantalon（注意点）",
+          "back": "裤子，法语用单数\n≠ 英语 pants（复数）"
+        },
+        {
+          "id": "1772475353545-xftuewngin",
+          "front": "les baskets",
+          "back": "n.f.pl. 运动鞋\nCe sont des baskets."
+        },
+        {
+          "id": "1772475353545-rqn6tw597b",
+          "front": "un blouson",
+          "back": "n.m. 夹克/短外套"
+        },
+        {
+          "id": "1772475353545-p88pxri8twk",
+          "front": "une chemise",
+          "back": "n.f. 衬衫"
+        },
+        {
+          "id": "1772475353545-y6wmupwbdx",
+          "front": "les chaussures",
+          "back": "n.f.pl. 鞋子（常用复数）"
+        },
+        {
+          "id": "1772475353545-w4ki9oxoaz9",
+          "front": "un tee-shirt",
+          "back": "n.m. T恤"
+        },
+        {
+          "id": "1772475353545-h661vwlmdv6",
+          "front": "les vêtements",
+          "back": "n.m.pl. 衣服（常用复数）"
+        },
+        {
+          "id": "1772475353545-eaqbcxshykj",
+          "front": "il y a",
+          "back": "有（存在句）\nIl y a un homme grand."
+        },
+        {
+          "id": "1772475353545-x6kt5d20uhb",
+          "front": "autre chose",
+          "back": "其他东西/还有别的吗？\n口语高频表达"
+        },
+        {
+          "id": "1772475353545-vqssm76e0oj",
+          "front": "c'est ça",
+          "back": "就是这样/没错\n口语确认用语"
+        },
+        {
+          "id": "1772475353545-lnv8o9b7wvm",
+          "front": "lui（强调代词用法）",
+          "back": "用于对比强调“他呢”\n例：L'homme brun, lui, il a un blouson."
+        },
+        {
+          "id": "1772475353545-bic241xxedj",
+          "front": "est-ce que",
+          "back": "一般疑问句结构（口语常用）\nEst-ce qu'ils ont des lunettes ?"
+        }
+      ]
+    },
+    {
+      "id": 1772473445768,
+      "name": "词汇：颜色",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-02T17:44:05.768Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle porte une robe _____.",
+          "options": [
+            "orange",
+            "oranges",
+            "orangee",
+            "orangée"
+          ],
+          "correct": 0,
+          "explanation": "orange 源自水果名词，做颜色形容词时性数不变，永远写 orange。",
+          "category": "颜色不变规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Ses yeux sont _____.",
+          "options": [
+            "marrons",
+            "marron",
+            "marronne",
+            "marronnes"
+          ],
+          "correct": 1,
+          "explanation": "marron 做颜色形容词时性数不变。des yeux marron。",
+          "category": "颜色不变规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : J'ai acheté des chaussures _____.",
+          "options": [
+            "blancs",
+            "blanche",
+            "blanches",
+            "blanc"
+          ],
+          "correct": 2,
+          "explanation": "chaussures 是阴性复数，blanc → blanche（阴性）→ blanches（阴性复数）。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : La porte est _____.",
+          "options": [
+            "gris",
+            "grise",
+            "grises",
+            "gris.e"
+          ],
+          "correct": 1,
+          "explanation": "porte 是阴性单数，gris 的阴性形式为 grise。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il a les cheveux _____.",
+          "options": [
+            "blonde",
+            "blondes",
+            "blonds",
+            "blond"
+          ],
+          "correct": 2,
+          "explanation": "cheveux 是阳性复数，blond → blonds。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle a une jupe _____.",
+          "options": [
+            "violette",
+            "violet",
+            "violets",
+            "violettes"
+          ],
+          "correct": 0,
+          "explanation": "jupe 是阴性单数，violet → violette（双写 t + e）。",
+          "category": "特殊阴性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "J'aime vert et bleu.",
+            "J'aime le vert et le bleu.",
+            "J'aime un vert et un bleu.",
+            "J'aime de vert et de bleu."
+          ],
+          "correct": 1,
+          "explanation": "颜色做名词时，需加阳性定冠词 le。J'aime le vert et le bleu.",
+          "category": "颜色做名词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elles portent des robes .",
+          "options": [
+            "bleu clair",
+            "bleus clairs",
+            "bleues claires",
+            "bleue claire"
+          ],
+          "correct": 0,
+          "explanation": "复合颜色形容词（bleu clair）性数完全不变，无论名词是什么。",
+          "category": "复合颜色不变规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": " est la couleur de ton manteau ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 1,
+          "explanation": "couleur 是阴性名词，所以疑问形容词用阴性单数 quelle。",
+          "category": "询问颜色句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— De quelle couleur est ta voiture ?\n— _____.",
+          "options": [
+            "Elle est une rouge.",
+            "Elle est rouge.",
+            "Elle est la rouge.",
+            "C'est une rouge."
+          ],
+          "correct": 1,
+          "explanation": "回答颜色用 il/elle est + 颜色形容词（无冠词）。Elle est rouge.",
+          "category": "询问颜色句型"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les murs de ma chambre sont _____ (vert).",
+          "correct": [
+            "verts"
+          ],
+          "explanation": "murs 是阳性复数，vert → verts。",
+          "category": "阴阳性变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Sa chemise est _____ (blanc).",
+          "correct": [
+            "blanche"
+          ],
+          "explanation": "chemise 是阴性单数，blanc 阴性形式为 blanche（c → che）。",
+          "category": "特殊阴性变化"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些颜色形容词性数不变？",
+          "options": [
+            "orange",
+            "rouge",
+            "marron",
+            "bleu"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "orange 和 marron 源自名词，做颜色形容词时永不变化。rouge 和 bleu 正常变化（rouges, bleus/bleue/bleues）。",
+          "category": "颜色不变规则"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ma sœur a les yeux _____ (bleu) et les cheveux _____ (noir). Elle porte souvent une écharpe _____ (orange).",
+          "correct": [
+            "bleus",
+            "noirs",
+            "orange"
+          ],
+          "explanation": "yeux 阳性复数 → bleus；cheveux 阳性复数 → noirs；orange 永不变。",
+          "category": "综合运用"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1x9E_gcIkKQhvgOJY1tSr0kAbG9XdOlfT7yNDvLPZ_Hk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772473462432-dbxk76t476v",
+          "front": "bleu 的阴性形式？",
+          "back": "bleue\nex: une robe bleue"
+        },
+        {
+          "id": "1772473462432-pcc032dtko",
+          "front": "vert 的阴性形式？",
+          "back": "verte\nex: une pomme verte\n注意：阴性时尾辅音 t 发音 [vɛʁt]"
+        },
+        {
+          "id": "1772473462432-cewd8zmgifa",
+          "front": "noir 的阴性形式？",
+          "back": "noire\nex: une voiture noire"
+        },
+        {
+          "id": "1772473462432-jcax1f7zatk",
+          "front": "gris 的阴性形式？",
+          "back": "grise\nex: une souris grise"
+        },
+        {
+          "id": "1772473462432-6mjz3msyb87",
+          "front": "blanc 的阴性形式？",
+          "back": "blanche\n特殊变化：c → che\nex: une chemise blanche"
+        },
+        {
+          "id": "1772473462432-8yt4d3m0zd7",
+          "front": "violet 的阴性形式？",
+          "back": "violette\n特殊变化：双写 t + e\nex: une fleur violette"
+        },
+        {
+          "id": "1772473462432-s1d9s2xk3xp",
+          "front": "brun 的阴性形式？",
+          "back": "brune\nex: une fille brune"
+        },
+        {
+          "id": "1772473462432-bz4dbks4hh5",
+          "front": "blond 的阴性形式？",
+          "back": "blonde\nex: une femme blonde"
+        },
+        {
+          "id": "1772473462432-8qdi9mlntpe",
+          "front": "orange 做颜色形容词时变不变？",
+          "back": "永不变！（源自水果名词）\n✅ des robes orange\n❌ des robes oranges"
+        },
+        {
+          "id": "1772473462432-92zn01wdhlh",
+          "front": "marron 做颜色形容词时变不变？",
+          "back": "永不变！（源自栗子名词）\n✅ des yeux marron\n❌ des yeux marrons"
+        },
+        {
+          "id": "1772473462432-waqgboko9is",
+          "front": "rouge/jaune/rose 阴阳性变吗？",
+          "back": "阴阳同形（词尾已有 -e）\n复数加 -s：rouges, jaunes, roses\n但 orange 虽以 -e 结尾也不变！"
+        },
+        {
+          "id": "1772473462432-6n3frwfjsgq",
+          "front": "复合颜色形容词（如 bleu clair）变不变？",
+          "back": "完全不变！\n✅ des yeux bleu clair\n❌ des yeux bleus clairs"
+        },
+        {
+          "id": "1772473462432-5zvnmqhc3y7",
+          "front": "颜色做名词时怎么用？",
+          "back": "加阳性定冠词 le\nJ'aime le vert et le bleu.\nLe bleu est une couleur froide."
+        },
+        {
+          "id": "1772473462432-g4juloq800b",
+          "front": "正式问颜色怎么说？",
+          "back": "Quelle est la couleur de + 名词 ?\nex: Quelle est la couleur de votre voiture ?"
+        },
+        {
+          "id": "1772473462432-f877qqw1tye",
+          "front": "标准/日常问颜色怎么说？",
+          "back": "De quelle couleur est + 名词 ?\nex: De quelle couleur est votre sac ?"
+        },
+        {
+          "id": "1772473462432-28bbeu0bjls",
+          "front": "口语问颜色怎么说？",
+          "back": "C'est de quelle couleur ?\nex: Ton vélo, c'est de quelle couleur ?"
+        },
+        {
+          "id": "1772473462432-9msjuagyks",
+          "front": "回答颜色时用什么结构？",
+          "back": "Il/Elle est + 颜色（无冠词）\n✅ Elle est rouge.\n❌ Elle est une rouge."
+        },
+        {
+          "id": "1772473462432-3hsrv0klf7k",
+          "front": "法语颜色形容词放在名词的哪边？",
+          "back": "后置！（和英语相反）\n✅ une robe rouge\n❌ une rouge robe"
+        },
+        {
+          "id": "1772473462432-rxug30zojlm",
+          "front": "怎么区分 vert [vɛʁ] 和 verte [vɛʁt]？",
+          "back": "阳性 vert：尾辅音 t 不发音\n阴性 verte：尾辅音 t 发音\n听力技巧：听到尾辅音 → 阴性"
+        },
+        {
+          "id": "1772473462432-mxrqgf5rsy",
+          "front": "blanc [blɑ̃] 和 blanche [blɑ̃ʃ] 发音区别？",
+          "back": "blanc：鼻化元音 [ɑ̃]，无尾辅音\nblanche：加 [ʃ] 音\n听到 [ʃ] → 阴性 blanche"
+        }
+      ]
+    },
+    {
+      "id": 1772473202074,
+      "name": "Leçon 6 Portrait-robot单词",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-02T17:40:02.074Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la phrase correcte ?",
+          "options": [
+            "Il porte un chemise blanc.",
+            "Il porte une chemise blanche.",
+            "Il porte une chemise blanc.",
+            "Il porte un chemise blanche."
+          ],
+          "correct": 1,
+          "explanation": "chemise 是阴性名词，用 une；blanche 是 blanc 的阴性形式，配合 chemise。",
+          "category": "阴阳性+颜色配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle porte _____ lunettes noires.",
+          "options": [
+            "un",
+            "une",
+            "des",
+            "de"
+          ],
+          "correct": 2,
+          "explanation": "lunettes 是永远复数的阴性名词，肯定句用不定冠词 des。",
+          "category": "名词单复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne porte pas _____ lunettes.",
+          "options": [
+            "des",
+            "de",
+            "les",
+            "une"
+          ],
+          "correct": 1,
+          "explanation": "否定句中，不定冠词 des 变为 de。ne...pas + de + 名词。",
+          "category": "否定句冠词变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un _____ arbre.",
+          "options": [
+            "vert grand",
+            "grand vert",
+            "grand verte",
+            "vert grande"
+          ],
+          "correct": 1,
+          "explanation": "grand 放名词前（BANGS 规则），vert 放名词后。arbre 是阳性，所以用 grand vert。但注意这里两个形容词：un grand arbre vert。题目只有一个空，答案是 grand（放名词前的那个）。实际上此题考 grand 的位置，选 grand vert 表示先 grand 后名词后 vert。",
+          "category": "形容词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils habitent avec _____ enfants.",
+          "options": [
+            "leur",
+            "leurs",
+            "ses",
+            "son"
+          ],
+          "correct": 1,
+          "explanation": "enfants 是复数，所以用 leurs（他们的+复数名词）。leur 用于单数名词。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "De quelle couleur est la jupe ? — Elle est _____.",
+          "options": [
+            "vert",
+            "verte",
+            "verts",
+            "vertes"
+          ],
+          "correct": 1,
+          "explanation": "jupe 是阴性单数，形容词 vert 要配合为阴性单数 verte。",
+          "category": "颜色配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais _____ pantalon noir.",
+          "options": [
+            "un",
+            "une",
+            "des",
+            "de"
+          ],
+          "correct": 0,
+          "explanation": "pantalon 是阳性单数名词（法语里一条裤子用单数），用 un。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a les cheveux _____.",
+          "options": [
+            "blond",
+            "blonde",
+            "blonds",
+            "blondes"
+          ],
+          "correct": 2,
+          "explanation": "cheveux 是阳性复数，所以 blond 配合为阳性复数 blonds。",
+          "category": "形容词性数配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu veux _____ _____ ? (something)",
+          "correct": [
+            "quelque chose"
+          ],
+          "explanation": "quelque chose = 某物/某事，固定搭配。",
+          "category": "固定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ des manteaux en hiver.",
+          "options": [
+            "porte",
+            "portes",
+            "portons",
+            "portent"
+          ],
+          "correct": 2,
+          "explanation": "nous 对应 porter 的现在时变位 portons（第一组 -er 动词规则变位）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les tee-shirts _____ sont jolis.",
+          "options": [
+            "rouge",
+            "rouges",
+            "rougee",
+            "rougees"
+          ],
+          "correct": 1,
+          "explanation": "rouge 阳阴同形，复数只加 s → rouges。没有 rougee 这个形式。",
+          "category": "颜色配合陷阱"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词是阴性？",
+          "options": [
+            "chemise",
+            "pantalon",
+            "basket",
+            "jean"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "chemise（阴性，une chemise）和 basket（阴性，une basket）是阴性名词。pantalon 和 jean 是阳性。",
+          "category": "阴阳性辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a une _____ personne dans la salle.",
+          "options": [
+            "autre",
+            "autres",
+            "autrement",
+            "autrui"
+          ],
+          "correct": 0,
+          "explanation": "autre 放名词前，修饰单数名词 personne 不变形。une autre personne = 另一个人。",
+          "category": "形容词位置+用法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie _____ (porter) une jupe _____ (blanc) et des chaussures _____ (noir).",
+          "correct": [
+            "porte",
+            "blanche",
+            "noires"
+          ],
+          "explanation": "porter 第三人称单数 porte；jupe 是阴性单数→blanche；chaussures 是阴性复数→noires。",
+          "category": "动词变位+颜色配合综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— On va au cinéma ce soir ? — _____!",
+          "options": [
+            "D'accord",
+            "De accord",
+            "Da cord",
+            "Daccord"
+          ],
+          "correct": 0,
+          "explanation": "d'accord 是固定写法，d' 是 de 的省略形式。注意撇号的位置。",
+          "category": "固定表达"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1z1nWagd56tf9817LYz3pf6S8JLkHFRpQmmYRI6gYIS4/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772473260565-k9prf04fahl",
+          "front": "un vêtement",
+          "back": "n.m. 衣服、服装\n复数 des vêtements 更常用\nun magasin de vêtements 服装店"
+        },
+        {
+          "id": "1772473260565-rol2jdi5ik",
+          "front": "une chemise",
+          "back": "n.f. 男式衬衫\n⚠️ 阴性名词！\nIl porte une chemise blanche."
+        },
+        {
+          "id": "1772473260565-bdjfwh8lht",
+          "front": "un tee-shirt",
+          "back": "n.m. T恤衫\n也写作 t-shirt\nJe préfère un tee-shirt rouge."
+        },
+        {
+          "id": "1772473260565-7iwxxr6a0eu",
+          "front": "un pantalon",
+          "back": "n.m. 裤子\n⚠️ 法语用单数表示一条裤子\nIl achète un pantalon noir."
+        },
+        {
+          "id": "1772473260565-etzjjvfn45t",
+          "front": "un jean",
+          "back": "n.m. 牛仔裤\n发音 /dʒin/\nElle porte un jean bleu."
+        },
+        {
+          "id": "1772473260565-avk8jh766",
+          "front": "une chaussure",
+          "back": "n.f. 鞋\n常用复数 des chaussures\nune paire de chaussures 一双鞋"
+        },
+        {
+          "id": "1772473260565-osb8ag6n0b",
+          "front": "une basket",
+          "back": "n.f. 运动鞋、篮球鞋\n⚠️ 阴性，几乎永远用复数 des baskets\nJ'adore mes baskets blanches."
+        },
+        {
+          "id": "1772473260565-r2cmbav55jh",
+          "front": "des lunettes",
+          "back": "n.f.pl. 眼镜\n⚠️ 永远复数，无单数形式\ndes lunettes de soleil 太阳镜"
+        },
+        {
+          "id": "1772473260565-ugbjv8i20yh",
+          "front": "un manteau",
+          "back": "n.m. 大衣、外套\n复数：des manteaux（加 -x）\nEn hiver, je porte un manteau chaud."
+        },
+        {
+          "id": "1772473260565-xxb46u2jjfr",
+          "front": "une jupe",
+          "back": "n.f. 裙子\nElle porte une jupe verte."
+        },
+        {
+          "id": "1772473260565-lb04g79sfas",
+          "front": "blanc → 阴性？",
+          "back": "blanche\nun pantalon blanc / une chemise blanche\n发音：/blɑ̃/ → /blɑ̃ʃ/"
+        },
+        {
+          "id": "1772473260565-pw51rse8au",
+          "front": "bleu → 阴性？",
+          "back": "bleue\nun jean bleu / une jupe bleue"
+        },
+        {
+          "id": "1772473260565-0qjjszwm8jyf",
+          "front": "noir → 阴性？",
+          "back": "noire\nun manteau noir / une chaussure noire"
+        },
+        {
+          "id": "1772473260565-rz8n08ml4x",
+          "front": "vert → 阴性？",
+          "back": "verte\nun tee-shirt vert / une jupe verte\n发音：/vɛʁ/ → /vɛʁt/"
+        },
+        {
+          "id": "1772473260565-393nfvv5xvm",
+          "front": "rouge 阴性怎么变？",
+          "back": "不变！阳阴同形\nun tee-shirt rouge / une jupe rouge\n复数加 s → rouges"
+        },
+        {
+          "id": "1772473260565-scw6k8pe7o",
+          "front": "grand(e) 放在名词的哪个位置？",
+          "back": "放在名词前面（BANGS 规则）\nun grand arbre / une grande maison\n发音：/ɡʁɑ̃/ → /ɡʁɑ̃d/"
+        },
+        {
+          "id": "1772473260565-ik4bx3m2ev",
+          "front": "petit(e) 放在名词的哪个位置？",
+          "back": "放在名词前面（BANGS 规则）\nun petit garçon / une petite fille\n发音：/pə.ti/ → /pə.tit/"
+        },
+        {
+          "id": "1772473260565-6881v5afrt9",
+          "front": "autre 怎么用？",
+          "back": "adj. 另一个、其他的，放名词前\nun autre garçon / une autre personne\nles autres = 其他人"
+        },
+        {
+          "id": "1772473260565-dhnfbzrtko5",
+          "front": "leur vs leurs 怎么区分？",
+          "back": "看后面名词的单复数：\nleur maison（单数名词）\nleurs enfants（复数名词）\n不是看“他们”有几个人"
+        },
+        {
+          "id": "1772473260565-9b8bgeg4s7t",
+          "front": "porter",
+          "back": "v.t. 穿戴、佩戴（第一组 -er 动词）\n穿衣服、戴眼镜都用 porter\nElle porte un manteau et des lunettes."
+        },
+        {
+          "id": "1772473260565-ixifpoaw8r",
+          "front": "porter 现在时变位",
+          "back": "je porte\ntu portes\nil/elle porte\nnous portons\nvous portez\nils/elles portent"
+        },
+        {
+          "id": "1772473260565-vtys0ix288q",
+          "front": "porter vs mettre 区别？",
+          "back": "porter = 穿着（状态）\nmettre = 穿上（动作）\nElle porte une jupe.（她穿着裙子）\nElle met une jupe.（她穿上裙子）"
+        },
+        {
+          "id": "1772473260565-xabq5vymi",
+          "front": "ne...pas 否定句中冠词怎么变？",
+          "back": "不定冠词 un/une/des → de\nIl porte des lunettes.\n→ Il ne porte pas de lunettes."
+        },
+        {
+          "id": "1772473260565-as2mb78a35",
+          "front": "une chose",
+          "back": "n.f. 事情、事物\nquelque chose = 某物/某事\n⚠️ quelque chose 是阳性"
+        },
+        {
+          "id": "1772473260565-bk73omfyrmi",
+          "front": "une couleur",
+          "back": "n.f. 颜色\nDe quelle couleur est... ? ...是什么颜色的？"
+        },
+        {
+          "id": "1772473260565-6ugf0ts3pz5",
+          "front": "d'accord",
+          "back": "loc.adv. 同意、好的、行\nêtre d'accord avec qqn 同意某人\nJe suis d'accord avec vous."
+        },
+        {
+          "id": "1772473260565-6tfipu3nzz",
+          "front": "un homme",
+          "back": "n.m. 男人、人\n发音 /ɔm/，h 不发音\n联诵：les hommes /le.zɔm/"
+        },
+        {
+          "id": "1772473260565-gbqvbei6jp7",
+          "front": "un portrait-robot",
+          "back": "n.m.（警方）模拟画像\n复数：des portraits-robots"
+        },
+        {
+          "id": "1772473260565-5e91bkg7n9u",
+          "front": "BANGS 规则是什么？",
+          "back": "放名词前的形容词类别：\nB = Beauté (beau)\nA = Age (jeune/vieux)\nN = Nombre (premier)\nG = Goodness (bon/mauvais)\nS = Size (grand/petit)"
+        },
+        {
+          "id": "1772473260565-69vpa8dhejv",
+          "front": "法语颜色形容词放哪里？",
+          "back": "放在名词后面\nune jupe verte ✓\nune verte jupe ✗"
+        }
+      ]
+    },
+    {
+      "id": 1772473006026,
+      "name": "否定式ne pas",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-02T17:36:46.026Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la forme correcte : Elle _____ française.",
+          "options": [
+            "ne est pas",
+            "n'est pas",
+            "ne pas est",
+            "n'pas est"
+          ],
+          "correct": 1,
+          "explanation": "est 以元音开头，ne 必须省音为 n'。正确结构：n'est pas。",
+          "category": "否定式 ne...pas 省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a un chien. → 否定句为：",
+          "options": [
+            "Il n'a pas un chien.",
+            "Il ne a pas de chien.",
+            "Il n'a pas de chien.",
+            "Il n'a pas du chien."
+          ],
+          "correct": 2,
+          "explanation": "avoir 以元音开头 → n'；不定冠词 un 在否定句中变为 de（零概念）。",
+          "category": "绝对否定 ne pas de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ au restaurant ce soir.",
+          "options": [
+            "n'allons pas",
+            "ne allons pas",
+            "allons ne pas",
+            "ne pas allons"
+          ],
+          "correct": 0,
+          "explanation": "allons 以元音开头 → n'allons pas。ne...pas 夹住变位动词。",
+          "category": "否定式 ne...pas 省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle aime le café. → 否定句为：",
+          "options": [
+            "Elle n'aime pas de café.",
+            "Elle n'aime pas le café.",
+            "Elle n'aime pas du café.",
+            "Elle ne aime pas café."
+          ],
+          "correct": 1,
+          "explanation": "le 是定冠词，否定句中不变！只有不定冠词 un/une/des 才变为 de。",
+          "category": "定冠词 vs 不定冠词否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a des fleurs dans le jardin. → 否定句为：",
+          "options": [
+            "Il n'y a pas des fleurs dans le jardin.",
+            "Il y a ne pas de fleurs dans le jardin.",
+            "Il n'y a pas de fleurs dans le jardin.",
+            "Il ne y a pas fleurs dans le jardin."
+          ],
+          "correct": 2,
+          "explanation": "il y a 结构否定为 il n'y a pas；des → de（零概念）。",
+          "category": "il y a 否定 + 零概念"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (ne pas / parler) anglais.",
+          "correct": [
+            "ne parles pas"
+          ],
+          "explanation": "ne + 变位动词 parles（tu） + pas。parler 以辅音开头，ne 不省音。",
+          "category": "否定式基本结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (ne pas / avoir) de sœur.",
+          "correct": [
+            "n'ai pas"
+          ],
+          "explanation": "avoir 以元音开头 → n'ai pas。une sœur 在否定句中已变为 de sœur。",
+          "category": "省音 + 零概念"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous avez des enfants ? — Non, nous _____ d'enfants.",
+          "options": [
+            "n'avons pas",
+            "ne avons pas",
+            "n'avons",
+            "avons ne pas"
+          ],
+          "correct": 0,
+          "explanation": "avons 元音开头 → n'；des → d'（de + 元音省音）。完整：nous n'avons pas d'enfants。",
+          "category": "否定回答 + 零概念"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些否定句是正确的？（多选）",
+          "options": [
+            "Je n'aime pas la musique.",
+            "Il n'a pas un ami.",
+            "Nous ne mangeons pas de viande.",
+            "Elle ne habite pas ici."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 正确：定冠词 la 不变。B 错误：un 应变为 de → pas d'ami。C 正确：des → de。D 错误：habite 元音开头应为 n'habite。",
+          "category": "综合判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie _____ (ne pas / être) étudiante. Elle _____ (ne pas / avoir) de livres. Elle _____ (ne pas / aller) à l'université.",
+          "correct": [
+            "n'est pas",
+            "n'a pas",
+            "ne va pas"
+          ],
+          "explanation": "être/avoir 元音开头 → n'；aller 的 va 以辅音开头 → ne va pas，不省音。",
+          "category": "综合否定变换"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Z4BLLjRt4wFpX2iQaCiCEQiUEbryQWORX9j-HSpQYF0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772473049599-10iqu8947gro",
+          "front": "法语否定句基本结构是什么？",
+          "back": "ne + 动词 + pas\n例：Je ne parle pas français."
+        },
+        {
+          "id": "1772473049599-8ys469kak9x",
+          "front": "ne 什么时候要省音为 n' ？",
+          "back": "当后面的动词以元音或哑音 h 开头时\n例：n'aime, n'habite, n'est, n'a"
+        },
+        {
+          "id": "1772473049599-vowxkpkg98l",
+          "front": "Je aime → 否定句",
+          "back": "Je n'aime pas\n（aime 元音开头，ne → n'）"
+        },
+        {
+          "id": "1772473049599-tss0dh8euc8",
+          "front": "Il habite à Paris. → 否定句",
+          "back": "Il n'habite pas à Paris.\n（habite 哑音h开头，ne → n'）"
+        },
+        {
+          "id": "1772473049599-clsp0tehoad",
+          "front": "否定句中 un/une/des 变成什么？",
+          "back": "变成 de（零概念）\nJ'ai un frère → Je n'ai pas de frère"
+        },
+        {
+          "id": "1772473049599-2e1d2eo5wav",
+          "front": "J'ai une voiture. → 否定句",
+          "back": "Je n'ai pas de voiture.\n（une → de）"
+        },
+        {
+          "id": "1772473049599-h598b8s5ajs",
+          "front": "Il y a des fleurs. → 否定句",
+          "back": "Il n'y a pas de fleurs.\n（des → de）"
+        },
+        {
+          "id": "1772473049599-2yxgn4najdf",
+          "front": "否定句中 le/la/les 变不变？",
+          "back": "不变！定冠词否定句中保留原样\nJ'aime le café → Je n'aime pas le café ✅\n（不是 de café ❌）"
+        },
+        {
+          "id": "1772473049599-9b1bta76am4",
+          "front": "为什么 le/la/les 否定时不变？",
+          "back": "定冠词表特指或泛指整体概念，否定的是动作，不是事物的存在\naimer le chocolat → 否定“喜欢”，巧克力依然存在"
+        },
+        {
+          "id": "1772473049599-96z26n1j3ak",
+          "front": "Ont-ils des lunettes? → 否定回答",
+          "back": "Non, ils n'ont pas de lunettes.\n（des → de，零概念 = 一点也没有）"
+        },
+        {
+          "id": "1772473049599-s2i2u4t5ham",
+          "front": "Nous allons au cinéma. → 否定句",
+          "back": "Nous n'allons pas au cinéma.\n（allons 元音开头 → n'）"
+        },
+        {
+          "id": "1772473049599-0n6kdylwirbf",
+          "front": "J'écoute cette chanson. → 否定句",
+          "back": "Je n'écoute pas cette chanson.\n（écoute 元音开头 → n'；cette 指示形容词不变）"
+        },
+        {
+          "id": "1772473049599-fbyw6wh40t9",
+          "front": "Elle va à l'école. → 否定句",
+          "back": "Elle ne va pas à l'école.\n（va 辅音开头，ne 不省音）"
+        },
+        {
+          "id": "1772473049599-iauanxilb2s",
+          "front": "TCF 排除法：看到 ne + 元音开头动词",
+          "back": "一定错！必须是 n' + 动词\n排除所有写 \"ne aime\" \"ne est\" 的选项"
+        },
+        {
+          "id": "1772473049599-n8f2wkfpc5b",
+          "front": "TCF 排除法：否定句中出现 un/une/des",
+          "back": "大概率错！应该是 de\n但注意：le/la/les 保留不变"
+        },
+        {
+          "id": "1772473049599-1rmwryfbp5y",
+          "front": "Il y a une table dans ma chambre. → 否定句",
+          "back": "Il n'y a pas de table dans ma chambre.\n（une → de）"
+        },
+        {
+          "id": "1772473049599-sdhtven4g9i",
+          "front": "de + 元音开头名词 → ?",
+          "back": "de → d'\n例：pas de + enfants → pas d'enfants"
+        }
+      ]
+    },
+    {
+      "id": 1772472741224,
+      "name": "重读人称代词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-02T17:32:21.224Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____, je n'aime pas le chocolat.",
+          "options": [
+            "Je",
+            "Moi",
+            "Me",
+            "Mon"
+          ],
+          "correct": 1,
+          "explanation": "句首强调位必须用重读代词 moi，后面再跟主语代词 je。",
+          "category": "强调主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce cadeau est pour _____.",
+          "options": [
+            "il",
+            "lui",
+            "le",
+            "son"
+          ],
+          "correct": 1,
+          "explanation": "介词 pour 后面跟人必须用重读代词。il 是主语代词，不能放在介词后面。lui 是 il 的重读形式。",
+          "category": "介词+重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qui a mangé mon gâteau ? — _____ !",
+          "options": [
+            "Il",
+            "Lui",
+            "Le",
+            "Son"
+          ],
+          "correct": 1,
+          "explanation": "独立回答时不能用主语代词，必须用重读代词 lui。",
+          "category": "独立使用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous allons chez _____ ce soir.",
+          "options": [
+            "ils",
+            "eux",
+            "les",
+            "leurs"
+          ],
+          "correct": 1,
+          "explanation": "chez 是介词，后跟人用重读代词。ils 的重读形式是 eux。",
+          "category": "介词+重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est _____ qui avons raison.",
+          "options": [
+            "nous",
+            "on",
+            "nos",
+            "notre"
+          ],
+          "correct": 0,
+          "explanation": "c'est... qui 强调结构中用重读代词。nous 的重读形式还是 nous。注意动词 avons 与 nous 配合。",
+          "category": "c'est...qui 结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est partie sans _____.",
+          "options": [
+            "je",
+            "moi",
+            "me",
+            "ma"
+          ],
+          "correct": 1,
+          "explanation": "介词 sans 后面跟人 → 重读代词 moi。je 是主语代词，me 是宾语代词，都不能跟在介词后。",
+          "category": "介词+重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu veux du café ? — Oui, et _____ ?",
+          "options": [
+            "tu",
+            "te",
+            "toi",
+            "ton"
+          ],
+          "correct": 2,
+          "explanation": "et 后面独立提问用重读代词 toi，相当于 et toi, tu en veux ?",
+          "category": "独立使用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il court plus vite que _____.",
+          "options": [
+            "je",
+            "moi",
+            "me",
+            "mon"
+          ],
+          "correct": 1,
+          "explanation": "比较结构 que 后面跟人用重读代词 moi。",
+          "category": "比较结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": ", ils préfèrent rester à la maison.",
+          "options": [
+            "Ils",
+            "Eux",
+            "Les",
+            "Leurs"
+          ],
+          "correct": 1,
+          "explanation": "句首强调位用重读代词 eux，后面再跟主语代词 ils。",
+          "category": "强调主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est _____ qui as téléphoné hier soir.",
+          "options": [
+            "tu",
+            "toi",
+            "te",
+            "ton"
+          ],
+          "correct": 1,
+          "explanation": "c'est... qui 结构中必须用重读代词 toi。注意动词 as 与实际主语 tu（=toi）配合。",
+          "category": "c'est...qui 结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je pense souvent à _____ (她).",
+          "correct": [
+            "elle"
+          ],
+          "explanation": "介词 à 后面跟人用重读代词。elle 的重读形式还是 elle。注意这里不能用 la 或 lui（lui 是间接宾语代词，但在「介词 à + 人」的强调/独立结构中用 elle）。",
+          "category": "介词+重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous venez avec _____ ou avec _____ ?",
+          "options": [
+            "moi / elle",
+            "je / elle",
+            "moi / la",
+            "me / elle"
+          ],
+          "correct": 0,
+          "explanation": "avec 是介词，后面两个空都必须用重读代词：moi 和 elle。",
+          "category": "介词+重读代词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的重读代词？",
+          "options": [
+            "Moi, je suis français.",
+            "Je travaille avec tu.",
+            "C'est lui qui a gagné.",
+            "Elle est plus grande que je."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "B 错误：avec 后应为 toi，不是 tu。D 错误：que 后应为 moi，不是 je。A 和 C 都正确使用了重读代词。",
+          "category": "综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Qui veut jouer ? — _____ ! (我)",
+          "correct": [
+            "Moi"
+          ],
+          "explanation": "独立回答用重读代词 Moi，不能用 Je。",
+          "category": "独立使用"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": " (他), il aime le sport. Et _____ (她), elle préfère la musique. Ils habitent chez _____ (我们).",
+          "correct": [
+            "Lui",
+            "elle",
+            "nous"
+          ],
+          "explanation": "第一空：句首强调用 Lui。第二空：句首强调用 elle。第三空：chez 介词后用重读代词 nous。",
+          "category": "综合运用"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1IiPaEzCmSOQWHH-cC3AV4iMupdchR52vPfRluQFqCb0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772472781366-ecgn3bnlix",
+          "front": "je 的重读形式",
+          "back": "moi"
+        },
+        {
+          "id": "1772472781366-8e1m15vbttx",
+          "front": "tu 的重读形式",
+          "back": "toi"
+        },
+        {
+          "id": "1772472781366-pz0zzfy250a",
+          "front": "il 的重读形式",
+          "back": "lui"
+        },
+        {
+          "id": "1772472781366-r8sjazi8wfa",
+          "front": "elle 的重读形式",
+          "back": "elle（不变）"
+        },
+        {
+          "id": "1772472781366-bjvw5p5ncxn",
+          "front": "nous 的重读形式",
+          "back": "nous（不变）"
+        },
+        {
+          "id": "1772472781366-ho5xab3mzyc",
+          "front": "vous 的重读形式",
+          "back": "vous（不变）"
+        },
+        {
+          "id": "1772472781366-6h3vqhx1nbr",
+          "front": "ils 的重读形式",
+          "back": "eux"
+        },
+        {
+          "id": "1772472781366-6maqfezdmsn",
+          "front": "elles 的重读形式",
+          "back": "elles（不变）"
+        },
+        {
+          "id": "1772472781366-xfy2fm2tfmm",
+          "front": "重读代词用法1：句首强调\n句型骨架是什么？",
+          "back": "重读代词 + , + 主语代词 + 动词\n例：Moi, je travaille beaucoup."
+        },
+        {
+          "id": "1772472781366-k1di47q1ii",
+          "front": "重读代词用法2：独立回答\nQui veut du café ?",
+          "back": "— Moi !\n独立回答/感叹时用重读代词，不能用主语代词"
+        },
+        {
+          "id": "1772472781366-uffhsvukbtq",
+          "front": "重读代词用法3：介词后跟人\n哪些介词？",
+          "back": "à, de, pour, avec, sans, chez, contre, entre, selon...\n所有介词后跟人 → 必须用重读代词"
+        },
+        {
+          "id": "1772472781366-jbz26a7dixe",
+          "front": "avec toi 还是 avec tu？",
+          "back": "avec toi ✅\navec tu ❌\n介词后绝对不能用主语代词"
+        },
+        {
+          "id": "1772472781366-tg0n8e2z8pm",
+          "front": "chez eux 还是 chez ils？",
+          "back": "chez eux ✅\nchez ils ❌\nils 的重读形式是 eux"
+        },
+        {
+          "id": "1772472781366-uep29e3hx5a",
+          "front": "C'est _____ qui a raison.（他）",
+          "back": "C'est lui qui a raison.\nc'est... qui 结构用重读代词"
+        },
+        {
+          "id": "1772472781366-5whv8fd3k38",
+          "front": "Elle est plus grande que _____（我）",
+          "back": "Elle est plus grande que moi.\n比较结构 que 后跟人用重读代词"
+        },
+        {
+          "id": "1772472781366-0gypfh8hs8yw",
+          "front": "moi aussi 什么意思？",
+          "back": "我也是（肯定）\n对应否定：moi non plus（我也不）"
+        },
+        {
+          "id": "1772472781366-8ybb8zuttv7",
+          "front": "3秒解题法：看到代词选择题怎么判断？",
+          "back": "1. 有介词？→ 重读代词\n2. 句首强调/独立回答/c'est？→ 重读代词\n3. 做动词主语？→ 主语代词"
+        },
+        {
+          "id": "1772472781366-xly2h13zg2",
+          "front": "只有哪4个重读代词和主语代词不同？",
+          "back": "moi (≠je), toi (≠tu), lui (≠il), eux (≠ils)\n其余 elle/nous/vous/elles 不变"
+        }
+      ]
+    },
+    {
+      "id": 1772472438775,
+      "name": "法语名词和形容词的单复数 & 性数配合",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-02T17:27:18.775Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « chapeau » ?",
+          "options": [
+            "chapeaus",
+            "chapeaux",
+            "chapeau",
+            "chapeauxs"
+          ],
+          "correct": 1,
+          "explanation": "以 -eau 结尾的名词，复数加 -x → chapeaux。",
+          "category": "名词复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « festival » ?",
+          "options": [
+            "festivaux",
+            "festivalx",
+            "festivals",
+            "festivales"
+          ],
+          "correct": 2,
+          "explanation": "festival 是例外词，复数直接加 -s → festivals，不变成 -aux。",
+          "category": "名词复数例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « nez » au pluriel est :",
+          "options": [
+            "nezs",
+            "nez",
+            "nezes",
+            "nezx"
+          ],
+          "correct": 1,
+          "explanation": "以 -z 结尾的名词，复数形式不变 → nez。",
+          "category": "名词复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le pluriel de « jeu » ?",
+          "options": [
+            "jeus",
+            "jeux",
+            "jeuxs",
+            "jeues"
+          ],
+          "correct": 1,
+          "explanation": "以 -eu 结尾的名词，复数加 -x → jeux。",
+          "category": "名词复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le pluriel de « pneu » est :",
+          "options": [
+            "pneux",
+            "pneaux",
+            "pneus",
+            "pneuxs"
+          ],
+          "correct": 2,
+          "explanation": "pneu 是例外词，复数加 -s → pneus，不加 -x。",
+          "category": "名词复数例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur est très _____ et _____.",
+          "options": [
+            "sportif / actif",
+            "sportive / active",
+            "sportifs / actifs",
+            "sportives / actives"
+          ],
+          "correct": 1,
+          "explanation": "ma sœur 是阴性单数，形容词要用阴性单数形式：sportive, active。",
+          "category": "性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ses filles sont _____ et _____.",
+          "options": [
+            "poli / gentil",
+            "polie / gentille",
+            "polis / gentils",
+            "polies / gentilles"
+          ],
+          "correct": 3,
+          "explanation": "filles 是阴性复数，形容词用阴性复数：polies, gentilles。注意 gentille 双 l。",
+          "category": "性数配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a trois _____ (cheval) dans le champ.",
+          "correct": [
+            "chevaux"
+          ],
+          "explanation": "cheval 以 -al 结尾，复数变为 -aux → chevaux。",
+          "category": "名词复数"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ce sont des garçons très _____ (heureux).",
+          "correct": [
+            "heureux"
+          ],
+          "explanation": "heureux 以 -x 结尾，阳性复数形式不变，仍是 heureux。",
+          "category": "性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une marque _____ → des marques _____",
+          "options": [
+            "international / internationals",
+            "internationale / internationales",
+            "internationale / internationaux",
+            "international / internationales"
+          ],
+          "correct": 1,
+          "explanation": "marque 是阴性名词。阴性单数 internationale，阴性复数 internationales。-aux 是阳性复数形式。",
+          "category": "性数配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词的复数需要加 -x 而不是 -s？（多选）",
+          "options": [
+            "chapeau",
+            "festival",
+            "noyau",
+            "pneu"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "chapeau → chapeaux, noyau → noyaux 加 -x。festival → festivals, pneu → pneus 是例外，加 -s。",
+          "category": "名词复数"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mon oncle est un homme _____ (généreux). Ma tante est une femme _____ (généreux). Leurs fils sont _____ (généreux). Leurs filles sont _____ (généreux).",
+          "correct": [
+            "généreux",
+            "généreuse",
+            "généreux",
+            "généreuses"
+          ],
+          "explanation": "阳性单数 généreux → 阴性单数 généreuse → 阳性复数 généreux（不变）→ 阴性复数 généreuses。",
+          "category": "性数配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1HpdZ_oVpTNcq44jK1hrioQOvZTD482m6UQbJbtaVCLo/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772472457045-op4wqi227jk",
+          "front": "名词复数基本规则",
+          "back": "大多数名词复数直接加 -s\nhomme → hommes\nlivre → livres"
+        },
+        {
+          "id": "1772472457045-0qmd5bspl5zj",
+          "front": "以 -s / -x / -z 结尾的名词复数",
+          "back": "复数形式不变\nChinois → Chinois\nfils → fils\nnez → nez"
+        },
+        {
+          "id": "1772472457045-2emy33jx5yz",
+          "front": "以 -eau 结尾的名词复数",
+          "back": "加 -x\nchapeau → chapeaux\ngâteau → gâteaux"
+        },
+        {
+          "id": "1772472457045-9uet0dmj4z",
+          "front": "以 -au 结尾的名词复数",
+          "back": "加 -x\nnoyau → noyaux"
+        },
+        {
+          "id": "1772472457045-ar8mnp56whi",
+          "front": "以 -eu 结尾的名词复数",
+          "back": "加 -x\njeu → jeux\nfeu → feux"
+        },
+        {
+          "id": "1772472457045-kd18exhudm",
+          "front": "以 -al 结尾的名词复数",
+          "back": "变为 -aux\ncheval → chevaux\njournal → journaux"
+        },
+        {
+          "id": "1772472457045-l12v0ag0xdb",
+          "front": "例外：pneu 的复数",
+          "back": "pneus（加 -s，不加 -x）"
+        },
+        {
+          "id": "1772472457045-bpgf7vqezji",
+          "front": "例外：festival 的复数",
+          "back": "festivals（加 -s，不变 -aux）"
+        },
+        {
+          "id": "1772472457045-j17dcoj59g",
+          "front": "例外：bal 的复数",
+          "back": "bals（加 -s，不变 -aux）"
+        },
+        {
+          "id": "1772472457045-43nth138dnn",
+          "front": "形容词复数规则与名词的区别",
+          "back": "几乎一致，但形容词没有 -z 结尾的，也没有常见的 -au / -eu 结尾形容词"
+        },
+        {
+          "id": "1772472457045-75oiletgqdj",
+          "front": "形容词 -eau 结尾复数",
+          "back": "加 -x\nbeau → beaux\nnouveau → nouveaux"
+        },
+        {
+          "id": "1772472457045-xbo9ttnnes",
+          "front": "形容词 -al 结尾复数",
+          "back": "变为 -aux\nnational → nationaux\ninternational → internationaux"
+        },
+        {
+          "id": "1772472457045-1tzlki1z2nm",
+          "front": "形容词 -eux 结尾复数",
+          "back": "阳性复数不变\nheureux → heureux\ngénéreux → généreux"
+        },
+        {
+          "id": "1772472457045-gsy6xq37jlt",
+          "front": "性数配合：heureux 四种形式",
+          "back": "阳单 heureux\n阴单 heureuse\n阳复 heureux\n阴复 heureuses"
+        },
+        {
+          "id": "1772472457045-6xo6646e6sv",
+          "front": "性数配合：beau 四种形式",
+          "back": "阳单 beau\n阴单 belle\n阳复 beaux\n阴复 belles"
+        },
+        {
+          "id": "1772472457045-kyjxs78w3eb",
+          "front": "性数配合：international 四种形式",
+          "back": "阳单 international\n阴单 internationale\n阳复 internationaux\n阴复 internationales"
+        },
+        {
+          "id": "1772472457045-t1okdu0wqx",
+          "front": "性数配合：gentil 四种形式",
+          "back": "阳单 gentil\n阴单 gentille（双 l）\n阳复 gentils\n阴复 gentilles"
+        },
+        {
+          "id": "1772472457045-32g82kegj8",
+          "front": "性数配合：sportif 四种形式",
+          "back": "阳单 sportif\n阴单 sportive\n阳复 sportifs\n阴复 sportives"
+        },
+        {
+          "id": "1772472457045-3vyde3iifa2",
+          "front": "性数配合：poli 四种形式",
+          "back": "阳单 poli\n阴单 polie\n阳复 polis\n阴复 polies"
+        },
+        {
+          "id": "1772472457045-itq2jr5dogm",
+          "front": "calme 的性数变化",
+          "back": "阴阳同形\n阳单 calme / 阴单 calme\n阳复 calmes / 阴复 calmes"
+        },
+        {
+          "id": "1772472457045-02cdckthns7a",
+          "front": "如何判断听力中名词的单复数？",
+          "back": "听冠词！\nun/une = 单数\ndes = 复数\nle/la = 单数\nles = 复数\n（名词末尾的 -s 通常不发音）"
+        },
+        {
+          "id": "1772472457045-shj16jrjhs",
+          "front": "TCF 陷阱：-eux 阳性复数",
+          "back": "-eux 结尾的阳性形容词，单复数同形\n不要多加 -s 或 -x\nheureux → heureux ✓\nheureux → heureuxs ✗"
+        }
+      ]
+    },
+    {
+      "id": 1772471936342,
+      "name": "Finir(第二组动词变位)",
+      "folderId": "1770593074621",
+      "createdAt": "2026-03-02T17:18:56.342Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ un restaurant pour ce soir.",
+          "options": [
+            "choisisons",
+            "choissons",
+            "choisissons",
+            "choisons"
+          ],
+          "correct": 2,
+          "explanation": "choisir 是第二组动词，nous 的变位 = 词根 chois- + issons → choisissons。第二组复数形式必须有 -iss-，其余选项拼写均错误。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ toujours tes devoirs avant le dîner.",
+          "options": [
+            "finis",
+            "finit",
+            "fini",
+            "finiss"
+          ],
+          "correct": 0,
+          "explanation": "tu 对应词尾 -is → tu finis。finit 是 il/elle 的形式；fini 是过去分词；finiss 不是完整变位。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ à leurs parents.",
+          "options": [
+            "obéissent",
+            "obéient",
+            "obéissont",
+            "obéisent"
+          ],
+          "correct": 0,
+          "explanation": "obéir 第二组，ils 形式 = obé- + issent → obéissent。注意双 s 和 -ent 词尾。obéir 后接 à qqn。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ à obtenir son diplôme.",
+          "options": [
+            "réussi",
+            "réussie",
+            "réussit",
+            "réussir"
+          ],
+          "correct": 0,
+          "explanation": "passé composé 用 avoir，过去分词 réussi 不与主语配合（直接宾语未前置）。réussie 仅在直接宾语前置且为阴性时使用。réussit 是现在时 il 的形式。",
+          "category": "变位-复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, j'ai _____ le formulaire d'inscription.",
+          "options": [
+            "rempli",
+            "remplis",
+            "remplit",
+            "remplir"
+          ],
+          "correct": 0,
+          "explanation": "remplir 的过去分词 = rempli。用 avoir 做助动词，直接宾语在后，不配合。remplis/remplit 是现在时形式。",
+          "category": "变位-复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ à ce problème depuis une heure.",
+          "options": [
+            "réfléchissez",
+            "réfléchez",
+            "réfléchisez",
+            "réfléchissé"
+          ],
+          "correct": 0,
+          "explanation": "réfléchir 第二组，vous = réfléch- + issez → réfléchissez。注意 -iss- 不可省略。réfléchir à qqch 是固定搭配。",
+          "category": "变位-现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ choisir une spécialité l'année prochaine.",
+          "options": [
+            "va",
+            "vais",
+            "vas",
+            "aller"
+          ],
+          "correct": 0,
+          "explanation": "il 对应 aller 的变位 va。futur proche = aller（现在时）+ 不定式。vais 是 je 的形式，vas 是 tu 的形式。",
+          "category": "变位-最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle réfléchit _____ sa décision.",
+          "options": [
+            "à",
+            "de",
+            "pour",
+            "∅（不加介词）"
+          ],
+          "correct": 0,
+          "explanation": "réfléchir 是间接及物动词，固定搭配 réfléchir à qqch。不能直接跟宾语，也不用 de。",
+          "category": "动词用法-介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous allons _____ (réussir) cet examen, j'en suis sûr !",
+          "correct": [
+            "réussir"
+          ],
+          "explanation": "futur proche 结构 = aller + 不定式，动词保持原形 réussir。注意 réussir un examen 直接及物，不加介词。",
+          "category": "变位-最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ beaucoup depuis l'année dernière.",
+          "options": [
+            "ont grandi",
+            "ont grandies",
+            "sont grandies",
+            "sont grandi"
+          ],
+          "correct": 0,
+          "explanation": "grandir 用 avoir 做助动词，过去分词 grandi 不配合。grandir 是不及物动词，不用 être。ont grandi 是唯一正确形式。",
+          "category": "变位-复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment distinguer un verbe du 2e groupe d'un verbe du 3e groupe en -ir ?",
+          "options": [
+            "Le 2e groupe fait -issons à la forme nous",
+            "Le 2e groupe n'a pas de -s à je",
+            "Le 3e groupe fait -issons à la forme nous",
+            "Il n'y a aucune différence"
+          ],
+          "correct": 0,
+          "explanation": "第二组动词 nous 形式带 -issons（如 nous finissons），第三组不带（如 nous partons）。这是最可靠的鉴别方法。",
+          "category": "语法判断"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词属于第二组动词？",
+          "options": [
+            "partir",
+            "choisir",
+            "obéir",
+            "dormir"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "choisir → nous choisissons ✓；obéir → nous obéissons ✓。partir → nous partons（无 -iss-，第三组）；dormir → nous dormons（第三组）。",
+          "category": "动词分类"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La lettre qu'elle a _____ (écrire? non — finir) est très longue.",
+          "correct": [
+            "finie"
+          ],
+          "explanation": "直接宾语 la lettre 通过 que 前置，且为阴性单数，所以过去分词要配合 → finie。这是 B1-B2 核心考点。",
+          "category": "变位-过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ de manger moins de sucre.",
+          "options": [
+            "choisis",
+            "choisi",
+            "choisit",
+            "choisie"
+          ],
+          "correct": 0,
+          "explanation": "choisir de + inf. 是固定搭配。je 的现在时变位 = choisis。choisi 是过去分词，choisit 是 il 的形式。",
+          "category": "变位+用法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1wLaTDttZp-DUV1kojaABWjbx8sDyk31X2_bxNwCoFdA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772471966183-f6610k8my4",
+          "front": "第二组动词的判断标准是什么？",
+          "back": "不定式以 -ir 结尾，且 nous 形式带 -issons（现在分词 -issant）。\n例：finir → nous finissons ✓\n反例：partir → nous partons ✗（第三组）"
+        },
+        {
+          "id": "1772471966183-da61oow4hh7",
+          "front": "finir 现在时：je / tu",
+          "back": "je finis / tu finis\n词尾 -is，末尾 s 不发音"
+        },
+        {
+          "id": "1772471966183-1zf0iu45qyr",
+          "front": "finir 现在时：il / elle / on",
+          "back": "il finit\n词尾 -it，末尾 t 不发音"
+        },
+        {
+          "id": "1772471966183-sn51gv6d81o",
+          "front": "finir 现在时：nous",
+          "back": "nous finissons\n词尾 -issons，发 [fi.ni.sɔ̃]"
+        },
+        {
+          "id": "1772471966183-4srv0r2goeb",
+          "front": "finir 现在时：vous",
+          "back": "vous finissez\n词尾 -issez，发 [fi.ni.se]"
+        },
+        {
+          "id": "1772471966183-asp36hq45gh",
+          "front": "finir 现在时：ils / elles",
+          "back": "ils finissent\n词尾 -issent，-ent 不发音，发 [fi.nis]"
+        },
+        {
+          "id": "1772471966183-kkcf37v0rpi",
+          "front": "第二组动词复合过去时公式",
+          "back": "avoir（现在时）+ 过去分词\n过去分词 = 词根 + i\nfinir → fini / choisir → choisi"
+        },
+        {
+          "id": "1772471966183-rnn9v60q85q",
+          "front": "j'ai fini 还是 je suis fini？",
+          "back": "j'ai fini ✓（avoir 做助动词）\nje suis fini ✗ 第二组动词用 avoir\n（除代词式动词如 se réjouir 外）"
+        },
+        {
+          "id": "1772471966183-jl2lhpbqy4h",
+          "front": "过去分词配合：La lettre qu'elle a _____ (finir)",
+          "back": "finie\n直接宾语 la lettre 通过 que 前置，阴性单数 → 过去分词加 -e"
+        },
+        {
+          "id": "1772471966183-n974tsjaamh",
+          "front": "第二组动词最近将来时公式",
+          "back": "aller（现在时）+ 不定式原形\nje vais finir / il va choisir\n动词不定式不变"
+        },
+        {
+          "id": "1772471966183-vdkn0cqr98k",
+          "front": "choisir 的介词搭配",
+          "back": "choisir qqch（直接及物）\nchoisir de + inf.（选择做某事）\n例：Je choisis de rester."
+        },
+        {
+          "id": "1772471966183-4sdhj7tnyg9",
+          "front": "réussir 的介词搭配",
+          "back": "réussir un examen（直接及物，成功通过）\nréussir à + inf.（成功做到）\n例：Elle a réussi à convaincre son chef."
+        },
+        {
+          "id": "1772471966183-7um7d0blrej",
+          "front": "réfléchir 的介词搭配",
+          "back": "réfléchir à qqch（思考某事）\n⚠️ 间接及物，不能省略 à\n✅ Il réfléchit à ce problème.\n❌ Il réfléchit ce problème."
+        },
+        {
+          "id": "1772471966183-c452nw31mz6",
+          "front": "obéir 的介词搭配",
+          "back": "obéir à qqn（服从某人）\n⚠️ 间接及物，必须加 à\n✅ Les enfants obéissent à leurs parents.\n❌ Les enfants obéissent leurs parents."
+        },
+        {
+          "id": "1772471966183-twqke2brkv",
+          "front": "remplir 的用法",
+          "back": "remplir qqch（直接及物）\n填写：remplir un formulaire\n填满：remplir un verre"
+        },
+        {
+          "id": "1772471966183-c9vloafg3j5",
+          "front": "punir 的用法",
+          "back": "punir qqn pour qqch（因某事惩罚某人）\n直接及物 + pour 表原因"
+        },
+        {
+          "id": "1772471966183-r3l6hw6qgw9",
+          "front": "grossir / maigrir / grandir 的共同特点",
+          "back": "都是不及物动词，没有直接宾语\ngrossir 变胖 / maigrir 变瘦 / grandir 长大\n复合过去时用 avoir：il a grandi"
+        },
+        {
+          "id": "1772471966183-bt7bg4b8oa4",
+          "front": "TCF 陷阱：je finis vs j'ai fini 听力怎么区分？",
+          "back": "关键听助动词 ai/as/a\nje finis → 直接动词，无助动词\nj'ai fini → 听到 [ʒe] 后有 fini\n语境：有 hier/déjà 等 → passé composé"
+        },
+        {
+          "id": "1772471966183-jmesjs3gr4",
+          "front": "TCF 陷阱：nous choisissons vs nous choisons",
+          "back": "nous choisissons ✓\nnous choisons ✗\n第二组复数形式必须有 -iss-，缺少即错"
+        },
+        {
+          "id": "1772471966183-bdsd6gly8je",
+          "front": "TCF 陷阱：Elle est finie vs Elle a fini",
+          "back": "Elle a fini ✓（复合过去时，她完成了）\nElle est finie ✗ 作为过去时错误\n（est finie 是被动态/形容词，意为「她完蛋了」）"
+        },
+        {
+          "id": "1772471966183-773ma7um72",
+          "front": "je finis / tu finis / il finit 发音一样吗？",
+          "back": "是的！三者发音完全相同 /fi.ni/\nTCF 听力靠上下文判断主语\n笔试常用三者互做干扰项"
+        },
+        {
+          "id": "1772471966183-4149jo9n20a",
+          "front": "ils finissent 的 -ent 发音吗？",
+          "back": "不发音！-ent 是静音词尾\n但前面的 -iss- 发 [is]\n整体发音：/fi.nis/"
+        },
+        {
+          "id": "1772471966183-3teelckxgut",
+          "front": "如何快速鉴别：choisir vs partir 哪个是第二组？",
+          "back": "默念 nous 形式：\nchoisir → nous choisissons（有 -iss- ✓ 第二组）\npartir → nous partons（无 -iss- ✗ 第三组）"
+        }
+      ]
+    },
+    {
       "id": 1772412554462,
       "name": "Leçon 5 Trouvez l'objet 课文",
       "folderId": "1770747190002",
@@ -65112,55 +67224,7 @@
       "name": "A2词汇"
     }
   ],
-  "wrongBook": [
-    {
-      "type": "multiple_choice",
-      "stem": "下列哪些表达与“爱情/心动”有关？",
-      "options": [
-        "avoir un coup de foudre",
-        "avoir le mal de mer",
-        "tomber amoureux",
-        "avoir le cafard"
-      ],
-      "correct": [
-        0,
-        2
-      ],
-      "explanation": "avoir un coup de foudre (一见钟情) 和 tomber amoureux (坠入爱河) 与爱情相关。avoir le mal de mer 是晕船，avoir le cafard 是情绪低落。",
-      "category": "词汇/辨析",
-      "nextReview": "2026-03-01",
-      "interval": 1,
-      "repetitions": 0,
-      "wrongCount": 1
-    },
-    {
-      "type": "fill_blank",
-      "stem": "C'est le vrai _____ de foudre !",
-      "correct": [
-        "coup"
-      ],
-      "explanation": "固定表达 coup de foudre。",
-      "category": "词汇",
-      "nextReview": "2026-03-01",
-      "interval": 1,
-      "repetitions": 0,
-      "wrongCount": 1
-    },
-    {
-      "type": "paragraph_fill_blank",
-      "stem": "Dès qu'il l'a vue, il _____ (avoir) un coup de foudre _____ elle.",
-      "correct": [
-        "a eu",
-        "pour"
-      ],
-      "explanation": "第一空为复合过去时 a eu（瞬间发生的动作），第二空搭配介词 pour。",
-      "category": "综合",
-      "nextReview": "2026-03-01",
-      "interval": 1,
-      "repetitions": 0,
-      "wrongCount": 1
-    }
-  ],
+  "wrongBook": [],
   "questionNotes": {
     "Non, je ne ______ pas le voir ce soir.|vais|va|vois|ai|0": "为啥有le啊\n【1】TCF 结论（先记这一句）\n\nle = 直接宾语代词（COD），指“他 / 她 / 那个人”。\n这句话里 le = 某个人，不是多余的。\n\n完整意思是：\n👉 Non, je ne vais pas le voir ce soir.\n👉 不，我今晚不去见他 / 她。\n\n【2】这句话的真实结构（你一眼要看出来）\n\n原始完整句（不省略）是：\n\nNon, je ne vais pas voir Paul ce soir.\n\n把 Paul（人）换成代词，就变成：\n\nNon, je ne vais pas le voir ce soir.\n\n👉 le = Paul（男性）\n👉 如果是女性，用 la",
     "Bientôt, on ______ (aller) voir le résultat.|va|va": "aller的变位\nje vais\ntu vas\nil va\nnous allons\nvous allez\nils vont",
@@ -65181,6 +67245,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-02T00:50:07.457Z",
+  "exportedAt": "2026-03-02T18:16:05.913Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
