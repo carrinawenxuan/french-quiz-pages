@@ -1,6 +1,3341 @@
 {
   "savedSets": [
     {
+      "id": 1772412554462,
+      "name": "Leçon 5 Trouvez l'objet 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-02T00:49:14.462Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans le dialogue, « Ils sont dans la chambre » — « Ils » désigne quoi ?",
+          "options": [
+            "Le chapeau et la chaise",
+            "Le blouson et l'étagère",
+            "Le chapeau et le blouson",
+            "Les affiches et les livres"
+          ],
+          "correct": 2,
+          "explanation": "Ils 指代前文提到的 son chapeau et son blouson，两个阳性名词用 ils。",
+          "category": "代词指代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'étagère est _____ le mur, à droite de la fenêtre.",
+          "options": [
+            "sur",
+            "dans",
+            "contre",
+            "entre"
+          ],
+          "correct": 2,
+          "explanation": "contre le mur = 靠着墙（侧面紧贴）。sur le mur 是贴在墙面上（如海报），语义不合。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Sur la chaise, _____ un blouson et un chapeau.",
+          "options": [
+            "c'est",
+            "il est",
+            "il y a",
+            "ils sont"
+          ],
+          "correct": 2,
+          "explanation": "il y a 用于引入新信息，表示\"有……\"，后接不定冠词。",
+          "category": "il y a"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le blouson est sous l'étagère _____ la fenêtre.",
+          "options": [
+            "à côté",
+            "à côté de",
+            "côté de",
+            "au côté"
+          ],
+          "correct": 1,
+          "explanation": "à côté de 是完整的复合介词，意为\"在……旁边\"，三个词缺一不可。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ chapeau est sur _____ chaise.",
+          "options": [
+            "Son / le",
+            "Son / la",
+            "Sa / la",
+            "Ses / la"
+          ],
+          "correct": 1,
+          "explanation": "chapeau 是阳性单数 → son；chaise 是阴性单数且这里是特指 → la。",
+          "category": "物主形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les affiches sont _____ l'étagère. (海报在书架上方)",
+          "options": [
+            "sous",
+            "sur",
+            "contre",
+            "dans"
+          ],
+          "correct": 1,
+          "explanation": "原文说 sous les affiches（在海报下面），反推海报在书架上方，即 sur l'étagère。注意 sur 表示\"在……上面\"。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « contre le mur » et « sur le mur » ?",
+          "options": [
+            "没有区别，可以互换",
+            "contre = 侧面靠着；sur = 贴在墙面上",
+            "contre = 在墙前面；sur = 在墙后面",
+            "contre = 在墙上面；sur = 在墙下面"
+          ],
+          "correct": 1,
+          "explanation": "contre 强调侧面紧贴（如家具靠墙放），sur 强调在表面上（如海报挂墙上）。",
+          "category": "介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Oh ! là, là ! » 在口语中表达什么情绪？",
+          "options": [
+            "高兴和兴奋",
+            "不耐烦、惊讶或无奈",
+            "愤怒和攻击",
+            "悲伤和哭泣"
+          ],
+          "correct": 1,
+          "explanation": "Oh ! là, là ! 是法语口语感叹词，常用于表达不耐烦、惊讶、无奈等情绪。",
+          "category": "口语表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le chat est _____ la table. (在桌子下面)",
+          "correct": [
+            "sous"
+          ],
+          "explanation": "sous = 在……下面。",
+          "category": "方位介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La lampe est _____ de la fenêtre. (在窗户左边)",
+          "correct": [
+            "à gauche"
+          ],
+          "explanation": "à gauche de = 在……左边。",
+          "category": "方位介词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些是正确的复合方位介词？",
+          "options": [
+            "à côté de",
+            "à gauche de",
+            "à contre de",
+            "à droite de"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "à contre de 不存在，contre 本身就是介词，直接用 contre le mur。",
+          "category": "方位介词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ la chaise, il y a un blouson. Le blouson est _____ l'étagère, _____ de la fenêtre.",
+          "correct": [
+            "Sur",
+            "sous",
+            "à droite"
+          ],
+          "explanation": "Sur la chaise（在椅子上）；sous l'étagère（在书架下面）；à droite de la fenêtre（在窗户右边）。",
+          "category": "方位介词综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 听力中，对话先说 « à gauche » 后纠正为 « à droite »，正确答案通常是？",
+          "options": [
+            "à gauche",
+            "à droite",
+            "两者都对",
+            "无法判断"
+          ],
+          "correct": 1,
+          "explanation": "TCF 听力经典套路：先说错再纠正，答案在纠正之后。听到 Non 后的信息才是正确的。",
+          "category": "TCF 应试技巧"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Son étagère » — 为什么阴性名词 étagère 用 son 而不是 sa ？",
+          "options": [
+            "因为主人是男性",
+            "因为 étagère 其实是阳性",
+            "因为 étagère 以元音开头，为避免连读困难用 son",
+            "因为这是复数形式"
+          ],
+          "correct": 2,
+          "explanation": "阴性单数名词以元音或哑音 h 开头时，sa 变为 son，以避免两个元音相连的发音困难：son étagère，不说 sa étagère。",
+          "category": "物主形容词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1lckOgY0i-qqMLLQRGK_IfZtxyfwEY0wldtEqkRlTbXU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772412602653-q8u5w0m6nki",
+          "front": "dans",
+          "back": "在……里面\nIls sont dans la chambre. 他们在房间里。"
+        },
+        {
+          "id": "1772412602653-aw7mje0elyu",
+          "front": "sur",
+          "back": "在……上面\nSur la chaise, il y a un blouson. 椅子上有一件夹克。"
+        },
+        {
+          "id": "1772412602653-b72hxdx5bs",
+          "front": "sous",
+          "back": "在……下面\nLe chat est sous la table. 猫在桌子下面。"
+        },
+        {
+          "id": "1772412602653-vebg8u5ewkg",
+          "front": "contre",
+          "back": "靠着/紧贴（侧面）\nL'étagère est contre le mur. 书架靠着墙。\n⚠️ 区别 sur le mur（贴在墙面上）"
+        },
+        {
+          "id": "1772412602653-7g6ebmon9r",
+          "front": "à côté de",
+          "back": "在……旁边（紧挨着/并排）\nL'étagère à côté de la fenêtre. 窗户旁边的书架。\n⚠️ 比 près de 距离更近"
+        },
+        {
+          "id": "1772412602653-k7sq36cd0s",
+          "front": "à gauche de",
+          "back": "在……左边\nà gauche de la fenêtre 在窗户左边"
+        },
+        {
+          "id": "1772412602653-dwhm68evcu8",
+          "front": "à droite de",
+          "back": "在……右边\nà droite de la fenêtre 在窗户右边"
+        },
+        {
+          "id": "1772412602653-us9v6tf4aha",
+          "front": "devant",
+          "back": "在……前面\ndevant la porte 在门前面"
+        },
+        {
+          "id": "1772412602653-n30bxzg6ybd",
+          "front": "derrière",
+          "back": "在……后面\nderrière le canapé 在沙发后面"
+        },
+        {
+          "id": "1772412602653-v5alf2frzcl",
+          "front": "entre",
+          "back": "在……之间\nentre la porte et la fenêtre 在门和窗户之间"
+        },
+        {
+          "id": "1772412602653-ji1dbsrp32",
+          "front": "il y a + 不定冠词 + 名词",
+          "back": "存在句型，表示“有……”\nIl y a un blouson sur la chaise. 椅子上有一件夹克。\n⚠️ 后接 un/une/des，不用定冠词"
+        },
+        {
+          "id": "1772412602653-1r21p4o7g88j",
+          "front": "son / sa / ses 怎么选？",
+          "back": "看后面名词的性数，不看主人性别\nson chapeau（阳性单数）\nsa chambre（阴性单数）\nses affiches（复数）\n⚠️ 阴性名词以元音开头也用 son：son étagère"
+        },
+        {
+          "id": "1772412602653-d9ywanp7zig",
+          "front": "c'est ça",
+          "back": "口语确认：“就是这个/对吗”\n同义：c'est exact / c'est bien ça"
+        },
+        {
+          "id": "1772412602653-vtzw82ydi5q",
+          "front": "Voilà !",
+          "back": "就在那！就是这个！\n用于指示或确认\n同义：Exactement ! / Tout à fait !"
+        },
+        {
+          "id": "1772412602653-g9ed21wm3pr",
+          "front": "Oh ! là, là !",
+          "back": "法语感叹语，表示不耐烦/惊讶/无奈\n口语超高频"
+        },
+        {
+          "id": "1772412602653-8wruq1aon1h",
+          "front": "contre le mur vs sur le mur",
+          "back": "contre le mur = 侧面靠着墙（如书架靠墙放）\nsur le mur = 贴在墙面上（如海报挂在墙上）"
+        },
+        {
+          "id": "1772412602653-qpcqulhicl",
+          "front": "il y a vs c'est",
+          "back": "il y a：引入新信息（有一个……）\nc'est：确认已知信息（这是……）\nIl y a un chapeau. → C'est son chapeau."
+        },
+        {
+          "id": "1772412602653-wp41c6r4myj",
+          "front": "une étagère",
+          "back": "n.f. 书架，搁板\nL'étagère contre le mur. 靠墙的书架。"
+        },
+        {
+          "id": "1772412602653-qqouih15bzm",
+          "front": "une affiche",
+          "back": "n.f. 海报，招贴画\nsous les affiches 在海报下面"
+        },
+        {
+          "id": "1772412602653-6ewg8vdwc63",
+          "front": "un blouson",
+          "back": "n.m. 夹克衫（短款外套）\n区别 une veste（西装外套）"
+        },
+        {
+          "id": "1772412602653-ri8u74v6wxl",
+          "front": "un chapeau",
+          "back": "n.m. 帽子（有帽檐的）\n复数：des chapeaux\n区别 une casquette（鸭舌帽）"
+        },
+        {
+          "id": "1772412602653-8vdv6nizn5",
+          "front": "la fenêtre",
+          "back": "n.f. 窗户\nà côté de la fenêtre 在窗户旁边"
+        },
+        {
+          "id": "1772412602653-2v4jq3dckeq",
+          "front": "la chaise",
+          "back": "n.f. 椅子\nSur la chaise, il y a un blouson. 椅子上有一件夹克。"
+        },
+        {
+          "id": "1772412602653-5xk2hn64chj",
+          "front": "TCF 听力套路：纠正信息",
+          "back": "对话中先说错位置，再纠正。\n答案往往在纠正之后（Non ! ... à droite de...）\n听到 Non 要高度集中注意力！"
+        }
+      ]
+    },
+    {
+      "id": 1772412196417,
+      "name": "词汇：方位表达法",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-02T00:43:16.417Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Le chat dort _____ le lit.",
+          "options": [
+            "sur",
+            "dans",
+            "sous",
+            "entre"
+          ],
+          "correct": 0,
+          "explanation": "猫睡在床上（接触床面），用 sur。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La pharmacie est _____ la banque. (紧挨着)",
+          "options": [
+            "près de",
+            "loin de",
+            "à côté de",
+            "en face de"
+          ],
+          "correct": 2,
+          "explanation": "紧挨着用 à côté de；près de 只表示距离近，不强调相邻。",
+          "category": "方位介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait -5 degrés. La température est _____ zéro.",
+          "options": [
+            "sous",
+            "au-dessus de",
+            "au-dessous de",
+            "sur"
+          ],
+          "correct": 2,
+          "explanation": "零度以下用 au-dessous de zéro。sous zéro 口语可用，但 TCF 标准表达为 au-dessous de。",
+          "category": "方位介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le tableau est accroché _____ le canapé.",
+          "options": [
+            "sur",
+            "au-dessus de",
+            "sous",
+            "au-dessous de"
+          ],
+          "correct": 1,
+          "explanation": "画挂在沙发上方，不接触，用 au-dessus de。sur 表示接触表面。",
+          "category": "sur vs au-dessus de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'attends _____ la porte.",
+          "options": [
+            "avant",
+            "devant",
+            "après",
+            "derrière"
+          ],
+          "correct": 1,
+          "explanation": "在门前面（空间）用 devant。avant 是时间上的\"之前\"。",
+          "category": "devant vs avant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La boulangerie est _____ la poste et le cinéma.",
+          "options": [
+            "entre",
+            "dans",
+            "devant",
+            "à côté de"
+          ],
+          "correct": 0,
+          "explanation": "在邮局和电影院之间，用 entre... et...。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants courent _____ l'arbre.",
+          "options": [
+            "en face de",
+            "autour de",
+            "à droite de",
+            "loin de"
+          ],
+          "correct": 1,
+          "explanation": "孩子们绕着树跑，\"周围\"用 autour de。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'hôpital est _____ la gare. Il faut prendre le bus.",
+          "options": [
+            "à côté de",
+            "près de",
+            "loin de",
+            "devant"
+          ],
+          "correct": 2,
+          "explanation": "需要坐公交才能到，说明距离远，用 loin de。",
+          "category": "距离判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La poste est _____ (在……对面) de la mairie.",
+          "correct": [
+            "en face"
+          ],
+          "explanation": "在……对面 = en face de。注意不能写 à face de。",
+          "category": "方位表达翻译"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le supermarché est à gauche _____ cinéma.",
+          "correct": [
+            "du"
+          ],
+          "explanation": "à gauche de + le cinéma → de + le 缩合为 du。",
+          "category": "冠词缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ le dîner, je regarde la télé. (晚饭之后)",
+          "options": [
+            "Derrière",
+            "Après",
+            "Devant",
+            "Avant"
+          ],
+          "correct": 1,
+          "explanation": "时间上的\"之后\"用 après，不用 derrière（空间后方）。",
+          "category": "时间vs空间"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些方位短语后面需要接 de 才能连接名词？",
+          "options": [
+            "devant",
+            "à côté de",
+            "derrière",
+            "en face de"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "à côté de 和 en face de 结构本身就含 de。devant 和 derrière 直接接名词，不需要 de。",
+          "category": "介词结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon école est _____ d'ici. Je peux y aller à pied.",
+          "options": [
+            "loin",
+            "près",
+            "autour",
+            "entre"
+          ],
+          "correct": 1,
+          "explanation": "可以步行去，说明近，用 près d'ici。",
+          "category": "语境判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La lampe est _____ la table. Le chat est _____ la table. Le livre est _____ la table.（灯在桌子上方不接触；猫在桌子下面；书在桌子上面接触）",
+          "correct": [
+            "au-dessus de",
+            "sous",
+            "sur"
+          ],
+          "explanation": "灯悬在上方不接触 → au-dessus de；猫在下面 → sous；书放在桌面上接触 → sur。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tournez _____, la boulangerie est là.",
+          "options": [
+            "à gauche",
+            "à côté",
+            "en face",
+            "au-dessus"
+          ],
+          "correct": 0,
+          "explanation": "指路场景：向左转用 tournez à gauche。这里 à gauche 单独用作副词，不需要 de。",
+          "category": "指路场景"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1TQtfj03GbmpHuy_rGsYjjiaxZLwM5YPKVZUlQ4p1nGM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1772410068369,
+      "name": "Leçon 5 Trouvez l'objet 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-02T00:07:48.369Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Le chat est _____ le lit.",
+          "options": [
+            "sur",
+            "sous",
+            "au-dessus de",
+            "à côté"
+          ],
+          "correct": 1,
+          "explanation": "sous = 在……下面。猫在床下面。sur 是在上面，au-dessus de 是不接触的上方。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'affiche est _____ du lit. (海报在床的上方，不接触)",
+          "options": [
+            "sur",
+            "sous",
+            "au-dessus",
+            "au-dessous"
+          ],
+          "correct": 2,
+          "explanation": "au-dessus de = 在……上方（不接触）。sur 表示接触的\"在上面\"，这里海报挂在墙上，和床不接触，所以用 au-dessus。",
+          "category": "方位介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La lampe est _____ l'ordinateur.",
+          "options": [
+            "à côté de",
+            "à côté",
+            "côté de",
+            "le côté de"
+          ],
+          "correct": 0,
+          "explanation": "à côté de 是完整的介词短语，意为\"在……旁边\"。不能省略 de。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a une chaise _____ la fenêtre.",
+          "options": [
+            "devant",
+            "avant",
+            "il y a",
+            "voilà"
+          ],
+          "correct": 0,
+          "explanation": "devant = 在……前面（空间位置）。avant 是时间上的\"在……之前\"，不用于空间。",
+          "category": "devant vs avant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a pas _____ livre sur la table.",
+          "options": [
+            "un",
+            "le",
+            "de",
+            "du"
+          ],
+          "correct": 2,
+          "explanation": "否定句中，不定冠词 un/une/des 要变成 de。Il y a un livre → Il n'y a pas DE livre。这是 A1 必考规则。",
+          "category": "否定句冠词变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'étagère est _____ la fenêtre.",
+          "options": [
+            "à gauche de",
+            "à gauche",
+            "gauche de",
+            "la gauche de"
+          ],
+          "correct": 0,
+          "explanation": "à gauche de = 在……的左边，是完整固定搭配，三个词缺一不可。",
+          "category": "方位介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le fauteuil est à droite _____ la table.",
+          "correct": [
+            "de"
+          ],
+          "explanation": "à droite DE = 在……的右边。de 是这个介词短语的必要组成部分。如果后面是 le，要缩合：à droite du (de + le)。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est un meuble pour s'asseoir avec des accoudoirs.",
+          "options": [
+            "La chaise",
+            "Le fauteuil",
+            "La table",
+            "L'étagère"
+          ],
+          "correct": 1,
+          "explanation": "fauteuil = 扶手椅（有 accoudoirs 扶手）。chaise 是普通椅子，没有扶手。这是词义辨析题。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ mes clés dans le sac.",
+          "options": [
+            "cherche",
+            "trouve",
+            "chercher",
+            "trouver"
+          ],
+          "correct": 1,
+          "explanation": "trouve = 找到了（有结果）。cherche = 在找（过程中）。这里语境是\"我在包里找到了钥匙\"，说明已有结果，用 trouver。注意主语 je，变位去掉 -er 加 -e。",
+          "category": "trouver vs chercher"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paris se _____ en France.",
+          "options": [
+            "trouve",
+            "trouver",
+            "est trouvé",
+            "a trouvé"
+          ],
+          "correct": 0,
+          "explanation": "se trouver = 位于。主语 Paris 是第三人称单数，se trouve。这是代动词的基本变位。est trouvé 是被动态，意思不同。",
+          "category": "代动词 se trouver"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词是阴性（féminin）？",
+          "options": [
+            "la fenêtre",
+            "le mur",
+            "l'assiette",
+            "le chapeau"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "la fenêtre（窗户）和 l'assiette（盘子）是阴性。le mur 和 le chapeau 是阳性。-ette 结尾几乎全是阴性，是很好的判断线索。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词是阳性（masculin）？",
+          "options": [
+            "l'ordinateur",
+            "la chaise",
+            "le verre",
+            "l'étagère"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "l'ordinateur（电脑，-eur 结尾多阳性）和 le verre（玻璃杯）是阳性。la chaise 和 l'étagère（-ère 结尾）是阴性。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le lit est _____ le mur. (床靠着墙)",
+          "correct": [
+            "contre"
+          ],
+          "explanation": "contre = 靠着，挨着。表示物体紧贴另一个物体。",
+          "category": "方位介词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il y a _____ affiche au-dessus _____ lit. L'étagère est à côté _____ la fenêtre.",
+          "correct": [
+            "une",
+            "du",
+            "de"
+          ],
+          "explanation": "第一空：il y a + 不定冠词，affiche 是阴性，所以 une。第二空：au-dessus de + le lit → 缩合为 du。第三空：à côté de 后面跟 la，不缩合，保留 de。",
+          "category": "冠词与缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ mon livre ! (这就是我的书！)",
+          "options": [
+            "Voilà",
+            "Il y a",
+            "Là",
+            "Que"
+          ],
+          "correct": 0,
+          "explanation": "voilà = 这就是，那就是。用于指示、呈现某物。il y a 表示\"有\"，语气和功能不同。",
+          "category": "voilà 用法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1yJTDvAsbwB-_KFhAg3oyqaJeVyZOYYl6RMOASzZHXKw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772410131893-c70a1nrvzvf",
+          "front": "affiche (词性？含义？)",
+          "back": "n.f. 阴性\n海报，广告\nune affiche"
+        },
+        {
+          "id": "1772410131893-l99jha778l",
+          "front": "assiette (词性？含义？)",
+          "back": "n.f. 阴性\n盘子\nune assiette\n记忆：-ette 结尾 → 阴性"
+        },
+        {
+          "id": "1772410131893-xi45pazow6",
+          "front": "blouson (词性？含义？)",
+          "back": "n.m. 阳性\n夹克衫\nun blouson"
+        },
+        {
+          "id": "1772410131893-c6m0bx0zmac",
+          "front": "chaise (词性？含义？)",
+          "back": "n.f. 阴性\n椅子\nune chaise"
+        },
+        {
+          "id": "1772410131893-sq8xvhji4j",
+          "front": "chambre (词性？含义？)",
+          "back": "n.f. 阴性\n房间，卧室\nune chambre"
+        },
+        {
+          "id": "1772410131893-s64182erzx",
+          "front": "chapeau (词性？含义？)",
+          "back": "n.m. 阳性\n帽子\nun chapeau\n记忆：-eau 结尾 → 阳性"
+        },
+        {
+          "id": "1772410131893-6p0f51q1vih",
+          "front": "chat / chatte (词性？)",
+          "back": "le chat 公猫 (阳性)\nla chatte 母猫 (阴性)"
+        },
+        {
+          "id": "1772410131893-u6krkfn7ln9",
+          "front": "étagère (词性？含义？)",
+          "back": "n.f. 阴性\n架子，层板\nune étagère\n记忆：-ère 结尾 → 阴性"
+        },
+        {
+          "id": "1772410131893-yr2e996tak",
+          "front": "fauteuil (词性？含义？)",
+          "back": "n.m. 阳性\n扶手椅\nun fauteuil\n区分：chaise 普通椅子，fauteuil 有扶手"
+        },
+        {
+          "id": "1772410131893-krfjfrzjr7n",
+          "front": "fenêtre (词性？含义？)",
+          "back": "n.f. 阴性\n窗户\nune fenêtre"
+        },
+        {
+          "id": "1772410131893-jq8jl4fkggm",
+          "front": "lit (词性？含义？)",
+          "back": "n.m. 阳性\n床\nun lit"
+        },
+        {
+          "id": "1772410131893-6mffo4b9e5x",
+          "front": "livre (词性？含义？)",
+          "back": "n.m. 阳性\n书\nun livre\n⚠ la livre = 磅（阴性），别搞混"
+        },
+        {
+          "id": "1772410131893-w6f9ijusfq",
+          "front": "mur (词性？含义？)",
+          "back": "n.m. 阳性\n墙，壁\nun mur"
+        },
+        {
+          "id": "1772410131893-052sdkuezcut",
+          "front": "objet (词性？含义？)",
+          "back": "n.m. 阳性\n物体，东西\nun objet"
+        },
+        {
+          "id": "1772410131893-1228gcjn8su",
+          "front": "ordinateur (词性？含义？)",
+          "back": "n.m. 阳性\n电脑\nun ordinateur\n记忆：-eur 结尾 → 多为阳性"
+        },
+        {
+          "id": "1772410131893-fnnqmx0e6hm",
+          "front": "verre (词性？含义？)",
+          "back": "n.m. 阳性\n玻璃杯\nun verre\n⚠ 同音词：vert(绿), vers(向)"
+        },
+        {
+          "id": "1772410175248-adeq1rxga8b",
+          "front": "sur",
+          "back": "介词，在……上面（接触）\nLe livre est sur la table.\n书在桌子上。"
+        },
+        {
+          "id": "1772410175248-2ox67si5833",
+          "front": "sous",
+          "back": "介词，在……下面\nLe chat est sous le lit.\n猫在床下面。"
+        },
+        {
+          "id": "1772410175248-bxa7mjn2we",
+          "front": "sur vs au-dessus de 区别？",
+          "back": "sur = 接触的“在上面”\nau-dessus de = 不接触的“在上方”\n例：书在桌上 sur la table\n画在床上方墙上 au-dessus du lit"
+        },
+        {
+          "id": "1772410175248-mhyx14l6l1",
+          "front": "sous vs au-dessous de 区别？",
+          "back": "sous = 正下方（可接触）\nau-dessous de = 下方（可有距离）\n考试常用此区别设干扰项"
+        },
+        {
+          "id": "1772410175248-9zwolwav6r",
+          "front": "devant",
+          "back": "介词，在……前面（空间）\nLa chaise est devant la fenêtre.\n⚠ avant = 时间上的“之前”，别搞混"
+        },
+        {
+          "id": "1772410175248-5q5u7y88sb7",
+          "front": "contre",
+          "back": "介词，靠着，挨着\nLe lit est contre le mur.\n床靠着墙。"
+        },
+        {
+          "id": "1772410175248-hnxqam5pasi",
+          "front": "à côté de",
+          "back": "介词短语，在……旁边\nLa lampe est à côté de l'ordinateur.\n⚠ 三个词缺一不可"
+        },
+        {
+          "id": "1772410175248-nrr37ujzmjh",
+          "front": "à gauche de",
+          "back": "在……的左边\nL'étagère est à gauche de la fenêtre.\n架子在窗户左边。"
+        },
+        {
+          "id": "1772410175248-x0s8q8oqg6",
+          "front": "à droite de",
+          "back": "在……的右边\nLe fauteuil est à droite de la table.\n扶手椅在桌子右边。"
+        },
+        {
+          "id": "1772410175248-5mm7y4o2rvn",
+          "front": "de + le = ?",
+          "back": "du（缩合冠词）\nà côté du mur ✓\nà côté de le mur ✗"
+        },
+        {
+          "id": "1772410175248-1lx2wvcclcl",
+          "front": "de + les = ?",
+          "back": "des（缩合冠词）\nà côté des fenêtres ✓\nà côté de les fenêtres ✗"
+        },
+        {
+          "id": "1772410175249-kfc0bh38h2k",
+          "front": "de + la / de + l' 需要缩合吗？",
+          "back": "不需要！保持原样\nà côté de la table ✓\nau-dessus de l'étagère ✓\n只有 de+le 和 de+les 才缩合"
+        },
+        {
+          "id": "1772410188476-d1v4df7snsc",
+          "front": "trouver 含义与变位（je/il）",
+          "back": "v.t. 找到，发现\nje trouve / il trouve\n直接跟宾语：trouver qqch"
+        },
+        {
+          "id": "1772410188476-i0wlzmbyv9m",
+          "front": "se trouver 含义？",
+          "back": "代动词，位于\nParis se trouve en France.\n= Paris est en France.\nTCF 常用 se trouver 替换 être"
+        },
+        {
+          "id": "1772410188476-ow9c6d1u7tc",
+          "front": "trouver vs chercher",
+          "back": "chercher = 找（过程，还没找到）\ntrouver = 找到（有结果）\nJe cherche mes clés. 我在找钥匙\nJe trouve mes clés. 我找到了钥匙"
+        },
+        {
+          "id": "1772410188476-j0iktwx2tyb",
+          "front": "trouver + 宾语 + 形容词 = ?",
+          "back": "觉得……怎么样\nIl trouve ce film intéressant.\n他觉得这部电影有意思。"
+        },
+        {
+          "id": "1772410188476-46rii8icat9",
+          "front": "il y a 含义与用法",
+          "back": "有……（表存在）\n肯定：Il y a un chat.\n疑问：Est-ce qu'il y a un chat ?"
+        },
+        {
+          "id": "1772410188476-4tenrr7werl",
+          "front": "il y a 否定句怎么变？",
+          "back": "Il n'y a pas DE + 名词\n⚠ un/une/des 全部变成 de\nIl y a un livre → Il n'y a pas de livre\nTCF 必考规则！"
+        },
+        {
+          "id": "1772410188476-ajpxzvhp7yv",
+          "front": "voilà 含义与用法",
+          "back": "那就是，这就是\n用于指示/呈现某物\nVoilà mon livre! 这就是我的书！"
+        },
+        {
+          "id": "1772410188476-ua9r1oe5gvn",
+          "front": "que (疑问代词)",
+          "back": "什么\nQue cherchez-vous ?\n你们在找什么？"
+        },
+        {
+          "id": "1772410188476-iznutp6cupq",
+          "front": "là (感叹词用法)",
+          "back": "好啦，瞧\nLà, c'est ma chambre.\n瞧，这是我的房间。"
+        },
+        {
+          "id": "1772410188476-4hwerlhnlaf",
+          "front": "avec (介词)",
+          "back": "具有，带有\nUne chambre avec une fenêtre.\n一个带窗户的房间。"
+        },
+        {
+          "id": "1772410188476-05p5zypq6ugj",
+          "front": "le sac 含义",
+          "back": "n.m. 阳性\n袋子，包\nun sac\nLes clés sont dans le sac. 钥匙在包里。"
+        },
+        {
+          "id": "1772410188476-rnqbwjogo8",
+          "front": "⚠ 易错：le livre vs la livre",
+          "back": "le livre = 书（阳性）\nla livre = 磅（阴性，重量/货币单位）\n同一个词，阴阳性不同，意思完全不同！"
+        }
+      ]
+    },
+    {
+      "id": 1772409362687,
+      "name": "疑问词que/quoi/qu'est-ce que/quel",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T23:56:02.687Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ faites-vous dans la vie ?",
+          "options": [
+            "Que",
+            "Quoi",
+            "Quel",
+            "Quelle"
+          ],
+          "correct": 0,
+          "explanation": "que 位于句首 + 主谓倒装（faites-vous），是正式疑问句式。这里问的是动词 faites 的直接宾语（做什么），用疑问代词 que，不是修饰名词的 quel。",
+          "category": "que vs quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est votre nationalité ?",
+          "options": [
+            "Que",
+            "Qu'est-ce que",
+            "Quelle",
+            "Quoi"
+          ],
+          "correct": 2,
+          "explanation": "nationalité 是阴性名词，这里 quel 做表语修饰 nationalité，必须用阴性单数 quelle。que 是代词，不能修饰名词。",
+          "category": "que vs quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu _____ ce soir ?",
+          "options": [
+            "fait",
+            "fais",
+            "faites",
+            "faire"
+          ],
+          "correct": 1,
+          "explanation": "主语 tu 对应的 faire 现在时变位是 fais。注意 fait 是 il/elle 的形式，不要混淆。",
+          "category": "动词变位+疑问句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont vos projets pour l'été ?",
+          "options": [
+            "Quelles",
+            "Quel",
+            "Quels",
+            "Que"
+          ],
+          "correct": 2,
+          "explanation": "projets 是阳性复数名词，quel 做表语必须性数配合 → quels。",
+          "category": "quel 性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu cherches _____ ?",
+          "options": [
+            "que",
+            "quel",
+            "quoi",
+            "qu'est-ce que"
+          ],
+          "correct": 2,
+          "explanation": "口语中，疑问词放在动词后面时用重读形式 quoi。que 不能放在动词后面，qu'est-ce que 只能放句首。",
+          "category": "que vs quoi 位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ tu lis en ce moment ?",
+          "options": [
+            "Qu'est-ce que",
+            "Que",
+            "Quel",
+            "Quelle"
+          ],
+          "correct": 0,
+          "explanation": "后面是直陈语序（tu lis），没有倒装，所以用 qu'est-ce que。若用 que 则必须倒装：Que lis-tu ?",
+          "category": "句式判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ livre préfères-tu ?",
+          "options": [
+            "Que",
+            "Qu'est-ce que",
+            "Quoi",
+            "Quel"
+          ],
+          "correct": 3,
+          "explanation": "后面紧跟名词 livre（阳性单数），必须用疑问形容词 quel 来修饰。que/quoi 是代词，不能修饰名词。",
+          "category": "que vs quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "De _____ parlez-vous ?",
+          "options": [
+            "que",
+            "quoi",
+            "quel",
+            "qu'est-ce que"
+          ],
+          "correct": 1,
+          "explanation": "介词（de）后面必须用重读形式 quoi，不能用 que。parler de quoi = 谈论什么。这是固定规则：介词 + quoi。",
+          "category": "介词+quoi"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ couleur est ta voiture ?",
+          "options": [
+            "Que",
+            "Quoi",
+            "Quelle",
+            "Quel"
+          ],
+          "correct": 2,
+          "explanation": "couleur 是阴性单数名词，需要疑问形容词修饰 → quelle。不能用 que（代词，不修饰名词）。",
+          "category": "quel 性数配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些句子语法正确？",
+          "options": [
+            "Que fais-tu ?",
+            "Que tu fais ?",
+            "Qu'est-ce que tu fais ?",
+            "Tu fais quoi ?"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A 正确：que + 倒装。B 错误：用 que 开头必须倒装，不能直陈语序。C 正确：qu'est-ce que + 直陈语序。D 正确：口语句式，quoi 放动词后。",
+          "category": "三种句式判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "À _____ penses-tu ?（你在想什么？）",
+          "correct": [
+            "quoi"
+          ],
+          "explanation": "介词 à 后面必须用重读形式 quoi。penser à quoi = 想什么。规则：介词后永远用 quoi，不用 que。",
+          "category": "介词+quoi"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont les horaires du magasin ?",
+          "options": [
+            "Que",
+            "Quels",
+            "Quelles",
+            "Qu'est-ce que"
+          ],
+          "correct": 1,
+          "explanation": "horaires 是阳性复数名词，quel 做表语需性数配合 → quels。注意 horaire 虽然以 e 结尾但是阳性名词！",
+          "category": "quel 性数配合+阴阳性陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ qu'il a dit ?",
+          "options": [
+            "Quel",
+            "Qu'est-ce",
+            "Quoi",
+            "Que"
+          ],
+          "correct": 1,
+          "explanation": "完整形式是 Qu'est-ce qu'il a dit ?（他说了什么？）。Qu'est-ce 后接 que（省音为 qu'），构成固定结构 qu'est-ce que。",
+          "category": "qu'est-ce que 结构还原"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— _____ (1) langue parlez-vous ?\n— Je parle français.\n— _____ (2) vous faites comme travail ?\n— Je suis professeur.",
+          "correct": [
+            "Quelle",
+            "Qu'est-ce que"
+          ],
+          "explanation": "(1) langue 是阴性单数名词，用 quelle 修饰。(2) 问的是动词 faites 的宾语（做什么工作），后面是直陈语序，用 qu'est-ce que。",
+          "category": "que vs quel 综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "En _____ est cette table ?（这张桌子是什么材质的？）",
+          "options": [
+            "que",
+            "quoi",
+            "quel",
+            "quelle"
+          ],
+          "correct": 1,
+          "explanation": "介词 en 后面用重读形式 quoi。en quoi = 用什么（材质）。再次验证规则：所有介词后面只能跟 quoi。",
+          "category": "介词+quoi"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/17cBhaw7lVOSRjH31d_pBKX49SFNvuki-oFVdZ9RyE0A/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772409425182-k708chfqgz",
+          "front": "que 的语法功能是什么？",
+          "back": "疑问代词，充当直接宾语（COD），询问事物/对象，相当于英语 what"
+        },
+        {
+          "id": "1772409425182-sm6mukuo27n",
+          "front": "que 开头的疑问句需要什么句式？",
+          "back": "必须主谓倒装\n例：Que dis-tu ? Que fait-il ?"
+        },
+        {
+          "id": "1772409425182-a83m24erf3",
+          "front": "quoi 和 que 的关系？",
+          "back": "quoi 是 que 的重读形式（forme tonique），意思相同，但 quoi 放在动词后面，仅用于口语"
+        },
+        {
+          "id": "1772409425182-dvpa8jhxh9w",
+          "front": "quoi 在句中的位置？",
+          "back": "放在动词之后（直陈语序）\n例：Tu dis quoi ? Il fait quoi ?"
+        },
+        {
+          "id": "1772409425182-w87xf18jse",
+          "front": "qu'est-ce que 的结构拆解？",
+          "back": "qu'(=que) + est-ce que(疑问助动词，无实义)\n后接直陈语序，无需倒装"
+        },
+        {
+          "id": "1772409425183-hqx4koi1dd",
+          "front": "qu'est-ce que 的语域？",
+          "back": "最通用，既不太正式也不太口语，TCF 中最安全的选择"
+        },
+        {
+          "id": "1772409425183-h1yduzq7ie7",
+          "front": "三种句式互换记忆锚点",
+          "back": "Que dis-tu ? = Tu dis quoi ? = Qu'est-ce que tu dis ?\n正式倒装 = 口语后置 = 通用无倒装"
+        },
+        {
+          "id": "1772409425183-bpymrikr4z8",
+          "front": "qu'est-ce que 遇到 il/elle/on 怎么处理？",
+          "back": "省音：que + il → qu'il\n例：Qu'est-ce qu'il fait ?"
+        },
+        {
+          "id": "1772409425183-pvnzo3utmej",
+          "front": "que vs quel 怎么区分？（3秒法）",
+          "back": "看疑问词后面有没有名词：\n有名词 → quel（疑问形容词）\n没名词 → que/quoi/qu'est-ce que（疑问代词）"
+        },
+        {
+          "id": "1772409425183-oe7lymrli7f",
+          "front": "quel 的词性和功能？",
+          "back": "疑问形容词，必须修饰名词或做表语，且与名词性数一致"
+        },
+        {
+          "id": "1772409425183-i28gsdnkbec",
+          "front": "quel 的四种形式？",
+          "back": "阳性单数 quel / 阳性复数 quels\n阴性单数 quelle / 阴性复数 quelles\n发音全部相同：/kɛl/"
+        },
+        {
+          "id": "1772409425183-p618787qdtg",
+          "front": "Quelle couleur aimes-tu ?",
+          "back": "你喜欢什么颜色？\nquelle 修饰 couleur（阴性单数名词）"
+        },
+        {
+          "id": "1772409425183-ng44jlbjrvc",
+          "front": "Quels sont vos projets ?",
+          "back": "你们的计划是什么？\nquels 做表语，配合 projets（阳性复数）"
+        },
+        {
+          "id": "1772409425183-9gf38is8t0g",
+          "front": "❌ Que couleur aimes-tu ? 错在哪？",
+          "back": "que 是代词，不能修饰名词 couleur\n✅ 应改为 Quelle couleur aimes-tu ?"
+        },
+        {
+          "id": "1772409425183-bnpno8iyrvh",
+          "front": "❌ Quel tu fais ? 错在哪？",
+          "back": "quel 后面没有名词，不能这样用\n✅ 应改为 Qu'est-ce que tu fais ?"
+        },
+        {
+          "id": "1772409425183-wsa1gwdv1",
+          "front": "介词后面用 que 还是 quoi？",
+          "back": "永远用 quoi（重读形式）\nà quoi / de quoi / en quoi / pour quoi\n例：À quoi penses-tu ? De quoi parlez-vous ?"
+        },
+        {
+          "id": "1772409425183-o2wslbk72c",
+          "front": "De quoi parlez-vous ?",
+          "back": "您在谈论什么？\nparler de → 介词 de 后用 quoi"
+        },
+        {
+          "id": "1772409425183-p2dq8247nv",
+          "front": "En quoi est cette table ?",
+          "back": "这张桌子是什么材质的？\nen quoi = 用什么（材质），介词后用 quoi"
+        },
+        {
+          "id": "1772409425183-7hyk8sp90l5",
+          "front": "horaire 是阳性还是阴性？",
+          "back": "阳性名词（虽然以 e 结尾）\nQuels sont les horaires ? → quels（阳性复数）"
+        },
+        {
+          "id": "1772409425183-31ycmjaovs9",
+          "front": "TCF 听力中遇到三种 que 句式怎么办？",
+          "back": "意思完全一样，不要被句式干扰，集中听动词和语境内容"
+        }
+      ]
+    },
+    {
+      "id": 1772398081880,
+      "name": "Il y a句型",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T20:48:01.880Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Complétez : _____ vingt étudiants dans cette classe.",
+          "options": [
+            "Il y ont",
+            "Il y a",
+            "Ils y a",
+            "Il a y"
+          ],
+          "correct": 1,
+          "explanation": "il y a 是固定无人称结构，无论后面名词单复数，永远用 il y a。",
+          "category": "il y a 基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Forme négative correcte : « Il y a des fleurs dans le jardin. »",
+          "options": [
+            "Il n'y a pas des fleurs dans le jardin.",
+            "Il n'y a pas de fleurs dans le jardin.",
+            "Il n'y a pas les fleurs dans le jardin.",
+            "Il y a ne pas de fleurs dans le jardin."
+          ],
+          "correct": 1,
+          "explanation": "否定句中 des → de。否定结构为 il n'y a pas de + 名词。",
+          "category": "il y a 否定句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la forme correcte pour poser une question formelle avec « il y a » ?",
+          "options": [
+            "A-t-il y ... ?",
+            "Y a-t-il ... ?",
+            "Il y a-t-il ... ?",
+            "Y-a-til ... ?"
+          ],
+          "correct": 1,
+          "explanation": "正式倒装疑问：Y a-t-il ... ? 其中 -t- 是为了避免元音碰撞的语音连接。",
+          "category": "il y a 提问"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ un accident sur l'autoroute hier soir.",
+          "options": [
+            "y a",
+            "y a eu",
+            "y a été",
+            "va y avoir"
+          ],
+          "correct": 1,
+          "explanation": "描述过去发生的事 → 复合过去时 il y a eu。avoir 的过去分词是 eu，不是 été。",
+          "category": "il y a 时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention, il _____ une tempête demain.",
+          "options": [
+            "va y avoir",
+            "y va avoir",
+            "y a eu",
+            "y a"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时语序：il va y avoir。注意不是 il y va avoir。",
+          "category": "il y a 时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai déménagé à Montréal _____ trois ans.",
+          "options": [
+            "depuis",
+            "pendant",
+            "il y a",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "il y a + 时间段 = ago，表示过去某个时间点发生的动作，搭配复合过去时。",
+          "category": "il y a 表时间"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'habite à Paris _____ cinq ans.",
+          "options": [
+            "il y a",
+            "pendant",
+            "depuis",
+            "il y avait"
+          ],
+          "correct": 2,
+          "explanation": "depuis + 时间段 = 从过去持续到现在，搭配现在时。住了五年且还在住 → depuis。",
+          "category": "il y a vs depuis"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il n'y a pas _____ eau dans la bouteille.",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "否定句中部分冠词 de l' → d'。eau 以元音开头，所以 de 省略为 d'。",
+          "category": "il y a 否定句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ un cinéma près d'ici ?",
+          "options": [
+            "Est-ce qu'il y a",
+            "Est-ce que il y a",
+            "Est-ce il y a",
+            "Est-ce y a"
+          ],
+          "correct": 0,
+          "explanation": "Est-ce qu'il y a ... ? 是标准疑问形式。que + il 缩合为 qu'il。",
+          "category": "il y a 提问"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier soir, _____ beaucoup de monde au concert.",
+          "options": [
+            "il y a",
+            "il y avait",
+            "il y a eu",
+            "il va y avoir"
+          ],
+          "correct": 1,
+          "explanation": "描述过去某场景的持续状态/背景 → 未完成过去时 il y avait。beaucoup de monde 是背景描述。",
+          "category": "il y a 时态"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ un chat dans le jardin. _____ le chat de mon voisin. _____ noir et blanc.",
+          "correct": [
+            "Il y a",
+            "C'est",
+            "Il est"
+          ],
+          "explanation": "il y a 引入新事物存在 → c'est 识别它是什么 → il est 描述它的特征。这是法语中经典的指代链。",
+          "category": "il y a vs c'est vs il est"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ eau sur la terre.",
+          "options": [
+            "beaucoup de",
+            "beaucoup d'",
+            "beaucoup des",
+            "beaucoup de l'"
+          ],
+          "correct": 1,
+          "explanation": "beaucoup de + 名词。eau 以元音开头 → de 省略为 d'。不用冠词。",
+          "category": "il y a + 数量表达"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ujcP5eyaRyIm-1uOzqZqqA6mpzQvbfV9lB7w5fDu8hY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772398120255-is2xbulykip",
+          "front": "il y a 的本质是什么？",
+          "back": "无人称结构（structure impersonnelle），表示“有/存在”。\nil = 形式主语，y = 副代词（那里），a = avoir 现在时第三人称单数。"
+        },
+        {
+          "id": "1772398120255-09aft61tz2vj",
+          "front": "il y a 后面跟复数名词，动词变不变？",
+          "back": "不变。永远是 il y a，无论单复数。\n❌ il y ont"
+        },
+        {
+          "id": "1772398120255-d8jp0by9oko",
+          "front": "il y a 的否定形式",
+          "back": "il n'y a pas de/d' + 名词\n注意：不定冠词 un/une/des 和部分冠词 du/de la/de l' 全部变为 de/d'"
+        },
+        {
+          "id": "1772398120255-u5brygzysn",
+          "front": "Il n'y a pas _____ livres.\n（des 变成什么？）",
+          "back": "de\n→ Il n'y a pas de livres.\n否定句中 des → de"
+        },
+        {
+          "id": "1772398120255-ovo0agrtgx",
+          "front": "il y a 正式提问形式",
+          "back": "Y a-t-il ... ?\n-t- 是语音连接（euphonique），避免元音碰撞"
+        },
+        {
+          "id": "1772398120255-tf31hzkurra",
+          "front": "il y a 口语提问形式（两种）",
+          "back": "1. 升调：Il y a un cinéma ? ↗\n2. Est-ce qu'il y a un cinéma ?"
+        },
+        {
+          "id": "1772398120255-0a5kiprjee9r",
+          "front": "il y a 的复合过去时",
+          "back": "il y a eu\n（avoir 的过去分词是 eu）\n❌ il y a été"
+        },
+        {
+          "id": "1772398120255-moq6580knk",
+          "front": "il y a 的最近将来时",
+          "back": "il va y avoir\n注意语序！\n❌ il y va avoir"
+        },
+        {
+          "id": "1772398120255-578g4q6xv63",
+          "front": "il y a 的未完成过去时",
+          "back": "il y avait\n用于描述过去的背景/持续状态"
+        },
+        {
+          "id": "1772398120255-h87i46oooy",
+          "front": "il y a + 时间段 = ?",
+          "back": "= “……以前”（相当于英语 ago）\n例：il y a trois ans = 三年前\n常搭配复合过去时"
+        },
+        {
+          "id": "1772398120255-pyrwhui75mi",
+          "front": "depuis vs il y a vs pendant",
+          "back": "depuis + 时间 = 从过去到现在还在继续（配现在时）\nil y a + 时间 = ago，过去的时间点（配复合过去时）\npendant + 时间 = 持续了多久，已结束（配复合过去时）"
+        },
+        {
+          "id": "1772398120255-eroktx5bn4m",
+          "front": "il y a vs c'est vs il est",
+          "back": "il y a → 引入新事物的存在\nc'est → 识别/定义已知事物\nil est → 描述已知事物的状态"
+        },
+        {
+          "id": "1772398120255-pqjs5rihoc",
+          "front": "beaucoup de + 元音开头的名词",
+          "back": "beaucoup d' + 名词\n例：beaucoup d'eau, beaucoup d'enfants\n注意不加任何冠词"
+        },
+        {
+          "id": "1772398120255-ead1507mfcf",
+          "front": "il y a 简单将来时",
+          "back": "il y aura\n例：Il y aura un examen demain. 明天会有考试。"
+        },
+        {
+          "id": "1772398120255-rgw2j2p0pff",
+          "front": "Est-ce que + il → ?",
+          "back": "Est-ce qu'il\nque 在元音前省略为 qu'\n例：Est-ce qu'il y a ... ?"
+        }
+      ]
+    },
+    {
+      "id": 1772391747371,
+      "name": "阴阳性：名词+形容词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T19:02:27.371Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle est une _____ célèbre.",
+          "options": [
+            "acteur",
+            "actrice",
+            "acteuse",
+            "acteure"
+          ],
+          "correct": 1,
+          "explanation": "acteur 的阴性是 actrice（-teur → -trice）。célèbre 已以 e 结尾不变。",
+          "category": "名词阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____ professionnelle.",
+          "options": [
+            "infirmier",
+            "infirmière",
+            "infirmiere",
+            "infirmierre"
+          ],
+          "correct": 1,
+          "explanation": "-ier → -ière，注意 è 上的重音符号。",
+          "category": "名词阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma voisine est une femme très _____.",
+          "options": [
+            "heureux",
+            "heureuse",
+            "heureuxe",
+            "heureus"
+          ],
+          "correct": 1,
+          "explanation": "-x → -se，修饰阴性名词 femme。",
+          "category": "形容词阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a acheté une _____ voiture.",
+          "options": [
+            "nouveau",
+            "nouvel",
+            "nouvelle",
+            "nouveaule"
+          ],
+          "correct": 2,
+          "explanation": "voiture 是阴性名词，nouveau 的阴性形式是 nouvelle。nouvel 只用于阳性+元音开头名词前。",
+          "category": "不规则形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un _____ appartement.",
+          "options": [
+            "beau",
+            "bel",
+            "belle",
+            "beaux"
+          ],
+          "correct": 1,
+          "explanation": "appartement 是阳性且以元音开头，所以用 bel（不是 beau，也不是 belle）。",
+          "category": "不规则形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette _____ est très _____.",
+          "options": [
+            "boulanger / compétent",
+            "boulangère / compétente",
+            "boulangère / compétent",
+            "boulanger / compétente"
+          ],
+          "correct": 1,
+          "explanation": "cette 说明是阴性。boulanger→boulangère（-er→-ère），compétent→compétente（+e）。名词和形容词都要变。",
+          "category": "配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些阴性形式是正确的？",
+          "options": [
+            "directeur → directeuse",
+            "danseur → danseuse",
+            "informaticien → informaticienne",
+            "juif → juife"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "directeur→directrice（不是 -euse）；danseur→danseuse ✅；informaticien→informaticienne ✅；juif→juive（-f→-ve，不是 -fe）。",
+          "category": "名词阴阳性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Un _____ ami m'a téléphoné hier. (vieux)",
+          "correct": [
+            "vieil"
+          ],
+          "explanation": "ami 是阳性且以元音开头，所以用 vieil（不是 vieux）。",
+          "category": "不规则形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie est une _____ très _____.",
+          "options": [
+            "étudiant / sérieux",
+            "étudiante / sérieuse",
+            "étudiante / sérieux",
+            "étudiant / sérieuse"
+          ],
+          "correct": 1,
+          "explanation": "Marie 是女性。étudiant→étudiante（+e），sérieux→sérieuse（-x→-se）。名词和形容词都必须配合。",
+          "category": "配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette situation est _____.",
+          "options": [
+            "publique",
+            "public",
+            "publice",
+            "publiques"
+          ],
+          "correct": 0,
+          "explanation": "situation 是阴性单数，public 的阴性形式是 publique（不规则，必须记忆）。",
+          "category": "不规则形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est un _____ professionnel.",
+          "options": [
+            "champion",
+            "championne",
+            "champions",
+            "championes"
+          ],
+          "correct": 0,
+          "explanation": "Il 是阳性，所以用阳性形式 champion，形容词 professionnel 也保持阳性。",
+          "category": "配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____ difficile.",
+          "options": [
+            "client",
+            "cliente",
+            "clientes",
+            "clients"
+          ],
+          "correct": 1,
+          "explanation": "une 说明阴性，client→cliente（+e）。difficile 已以 e 结尾，不变。",
+          "category": "名词阴阳性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle est une championne _____. (professionnel)",
+          "correct": [
+            "professionnelle"
+          ],
+          "explanation": "championne 是阴性，professionnel→professionnelle（-el 双写 l 再加 e）。",
+          "category": "形容词阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon _____ est japonaise.",
+          "options": [
+            "amie",
+            "ami",
+            "amis",
+            "amie"
+          ],
+          "correct": 0,
+          "explanation": "japonaise 是阴性形式，说明修饰的是女性朋友，所以用 amie。注意 mon 在阴性元音开头名词前也用 mon（不用 ma）。",
+          "category": "配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些配合是正确的？",
+          "options": [
+            "une artiste célèbre",
+            "une médecin française",
+            "un beau hôtel",
+            "une vieille maison"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "une artiste célèbre ✅（两词都不变）；une médecin française ✅（médecin 不变但形容词要变）；un beau hôtel ✗（h 哑音+元音，应为 un bel hôtel）；une vieille maison ✅。",
+          "category": "综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La _____ (nouveau) secrétaire est très _____. (actif)",
+          "correct": [
+            "nouvelle",
+            "active"
+          ],
+          "explanation": "secrétaire 前有 la 说明阴性。nouveau→nouvelle；actif→active（-f→-ve）。",
+          "category": "配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1qTow6cT76iYNG5tFAQpINnec-XH84_TSu3oO2M6P4oY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772391783787-e2gpfiz14o",
+          "front": "名词阴阳性：基本规则",
+          "back": "阳性 + e → 阴性\n例：étudiant → étudiante"
+        },
+        {
+          "id": "1772391783787-mvvhqfuh6qh",
+          "front": "-teur → ?（阴性）",
+          "back": "-trice\n例：directeur → directrice"
+        },
+        {
+          "id": "1772391783787-jvkiux44zdh",
+          "front": "-eur → ?（阴性）",
+          "back": "-euse\n例：danseur → danseuse"
+        },
+        {
+          "id": "1772391783787-avui8vmckem",
+          "front": "-er → ?（阴性）",
+          "back": "-ère\n例：boulanger → boulangère"
+        },
+        {
+          "id": "1772391783787-88g716e8jeh",
+          "front": "-f → ?（阴性）",
+          "back": "-ve\n例：juif → juive"
+        },
+        {
+          "id": "1772391783787-opwryo997v",
+          "front": "-ien → ?（阴性）",
+          "back": "-ienne（双写 n + e）\n例：informaticien → informaticienne"
+        },
+        {
+          "id": "1772391783787-94fruqfgau",
+          "front": "阳性名词已以 -e 结尾怎么办？",
+          "back": "阴性形式不变，仅靠冠词 un/une 区分\n例：un/une artiste, un/une secrétaire"
+        },
+        {
+          "id": "1772391783787-oa1xt2xla6f",
+          "front": "-en, -on, -el 结尾的名词阴性怎么变？",
+          "back": "双写辅音 + e\n例：professionnel → professionnelle\nchampion → championne"
+        },
+        {
+          "id": "1772391783787-oslcdqtgh0r",
+          "front": "médecin 的阴性形式",
+          "back": "传统：une médecin（不变）\n词形不变，靠冠词区分"
+        },
+        {
+          "id": "1772391783787-aprjlof869m",
+          "front": "professeur 的阴性形式",
+          "back": "传统：une professeur\n现代（加拿大常见）：une professeure"
+        },
+        {
+          "id": "1772391783787-runryr632r",
+          "front": "形容词阴阳性基本规则",
+          "back": "阳性 + e → 阴性\n例：japonais → japonaise\n已以 -e 结尾则不变：facile → facile"
+        },
+        {
+          "id": "1772391783787-f2il78prmum",
+          "front": "形容词 -x → ?（阴性）",
+          "back": "-se\n例：heureux → heureuse"
+        },
+        {
+          "id": "1772391783787-oxaxrv1ze9",
+          "front": "形容词 -f → ?（阴性）",
+          "back": "-ve\n例：neuf → neuve"
+        },
+        {
+          "id": "1772391783787-3ufgrx62sra",
+          "front": "形容词 -er → ?（阴性）",
+          "back": "-ère\n例：cher → chère"
+        },
+        {
+          "id": "1772391783787-medj8d77df",
+          "front": "beau 的阴性 / 元音前形式",
+          "back": "阴性：belle\n元音前阳性：bel\n例：un bel homme, une belle femme"
+        },
+        {
+          "id": "1772391783787-d2eyelzqzbe",
+          "front": "nouveau 的阴性 / 元音前形式",
+          "back": "阴性：nouvelle\n元音前阳性：nouvel\n例：un nouvel appartement, une nouvelle voiture"
+        },
+        {
+          "id": "1772391783787-h1kfm63tk2p",
+          "front": "vieux 的阴性 / 元音前形式",
+          "back": "阴性：vieille\n元音前阳性：vieil\n例：un vieil ami, une vieille maison"
+        },
+        {
+          "id": "1772391783787-fee7wtdsfmw",
+          "front": "blanc 的阴性",
+          "back": "blanche\n（不规则，必须记忆）"
+        },
+        {
+          "id": "1772391783787-rt9qfxvz59g",
+          "front": "public 的阴性",
+          "back": "publique\n（不规则，必须记忆）"
+        },
+        {
+          "id": "1772391783787-wyqn2qqcfc",
+          "front": "阴阳性配合核心原则",
+          "back": "形容词必须在性（阳/阴）和数（单/复）上与所修饰的名词一致\n例：un ami actif → une amie active"
+        },
+        {
+          "id": "1772391783787-cqvhpxwsot5",
+          "front": "配合陷阱：名词不变但形容词要变",
+          "back": "médecin, artiste 等词形不变，但形容词仍须配合\n例：une médecin française ✅"
+        },
+        {
+          "id": "1772391783787-aq43nywc7mc",
+          "front": "配合陷阱：-e 结尾形容词不再加 e",
+          "back": "célèbre, facile, difficile 修饰阴性名词时不变\n例：une actrice célèbre ✅\n❌ 不要写 célèbree"
+        },
+        {
+          "id": "1772391783787-fd3w0jtxq1f",
+          "front": "TCF 3秒排除法",
+          "back": "①看冠词→判阴阳性\n②排除性别不一致的选项\n③检查不规则形容词陷阱（beau/bel/belle 等）"
+        }
+      ]
+    },
+    {
+      "id": 1772391592471,
+      "name": "词汇：家庭成员",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-01T18:59:52.471Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Comment prononce-t-on le mot « femme » ?",
+          "options": [
+            "/fɛm/",
+            "/fam/",
+            "/fɔm/",
+            "/fem/"
+          ],
+          "correct": 1,
+          "explanation": "femme 是特殊发音，读 /fam/，不按拼写规则读。TCF 听力高频考点。",
+          "category": "发音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment prononce-t-on le mot « fils » ?",
+          "options": [
+            "/fil/",
+            "/filz/",
+            "/fis/",
+            "/fi/"
+          ],
+          "correct": 2,
+          "explanation": "fils 读 /fis/，l 不发音，s 发音。经典发音陷阱。",
+          "category": "发音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma _____ travaille à l'hôpital. Elle est infirmière.",
+          "options": [
+            "femme",
+            "mari",
+            "fils",
+            "père"
+          ],
+          "correct": 0,
+          "explanation": "elle 表明主语是女性，infirmière 是女性职业名。femme（妻子）符合语境。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le père de ma mère, c'est mon _____.",
+          "options": [
+            "oncle",
+            "cousin",
+            "grand-père",
+            "beau-père"
+          ],
+          "correct": 2,
+          "explanation": "母亲的父亲 = 外祖父/祖父 = grand-père。法语不区分外祖父和祖父。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La sœur de mon père, c'est ma _____.",
+          "options": [
+            "cousine",
+            "tante",
+            "belle-sœur",
+            "grand-mère"
+          ],
+          "correct": 1,
+          "explanation": "父亲的姐妹 = 姑姑 = tante。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après le remariage de ma mère, son nouveau mari est mon _____.",
+          "options": [
+            "beau-père",
+            "grand-père",
+            "demi-frère",
+            "oncle"
+          ],
+          "correct": 0,
+          "explanation": "母亲再婚后的新丈夫 = 继父 = beau-père。重组家庭核心词汇。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon père a un fils avec sa nouvelle femme. Ce garçon est mon _____.",
+          "options": [
+            "cousin",
+            "beau-frère",
+            "demi-frère",
+            "frère"
+          ],
+          "correct": 2,
+          "explanation": "同父异母的兄弟 = demi-frère。注意不是 beau-frère（姻亲关系）。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些词既可以用 un 也可以用 une？",
+          "options": [
+            "enfant",
+            "cousin",
+            "parent",
+            "fils"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "enfant 是阴阳同形名词：un enfant / une enfant。cousin→cousine 阴阳不同形；parent 通常用阳性；fils 只有阳性。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le fils de mon oncle, c'est mon _____.",
+          "correct": [
+            "cousin"
+          ],
+          "explanation": "叔叔/舅舅的儿子 = 堂/表兄弟 = cousin。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La mère de mon père, c'est ma _____.",
+          "correct": [
+            "grand-mère"
+          ],
+          "explanation": "父亲的母亲 = 祖母 = grand-mère。注意拼写是 è 不是 é。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la forme correcte ? « Ma _____ habite à côté de chez nous. »（语境：祖母）",
+          "options": [
+            "grand-mère",
+            "grand-mére",
+            "grande-mère",
+            "grands-mère"
+          ],
+          "correct": 0,
+          "explanation": "grand-mère，è 重音符。图中 grand-mére 是拼写错误。grande-mère 也是错误形式。",
+          "category": "拼写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Mes parents sont gentils. » Ici, « parents » signifie :",
+          "options": [
+            "les amis",
+            "le père et la mère",
+            "les grands-parents",
+            "les voisins"
+          ],
+          "correct": 1,
+          "explanation": "最常见义：parents = 父母亲。虽然也可泛指亲戚，但默认语境下指父母。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La femme de mon frère, c'est ma _____.",
+          "options": [
+            "belle-mère",
+            "cousine",
+            "belle-sœur",
+            "demi-sœur"
+          ],
+          "correct": 2,
+          "explanation": "兄弟的妻子 = 嫂子/弟媳 = belle-sœur。belle-mère 是婆婆/岳母/继母。",
+          "category": "词汇"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "J'ai deux enfants : un _____ de 10 ans et une _____ de 7 ans.",
+          "correct": [
+            "fils",
+            "fille"
+          ],
+          "explanation": "fils（儿子）和 fille（女儿），un 对应阳性 fils，une 对应阴性 fille。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le pluriel de « grand-père » est :",
+          "options": [
+            "grand-pères",
+            "grands-pères",
+            "grands-père",
+            "grand-père"
+          ],
+          "correct": 1,
+          "explanation": "grands-pères，两个词都加 s。现代法语拼写规则。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1HsyYleRpok-Vj-pGuJ_6KZOz2K8VMQyl4ewGgpOWM9Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772391660975-dh5gx6n4okb",
+          "front": "le père",
+          "back": "父亲 /pɛʁ/\n搭配：beau-père（继父/岳父）"
+        },
+        {
+          "id": "1772391660975-vsmh9h5ypo9",
+          "front": "la mère",
+          "back": "母亲 /mɛʁ/\n搭配：belle-mère（继母/婆婆/岳母）"
+        },
+        {
+          "id": "1772391660975-cxjpvtxhf7",
+          "front": "le mari",
+          "back": "丈夫 /ma.ʁi/\n书面近义词：l'époux"
+        },
+        {
+          "id": "1772391660975-3opr0nufd7l",
+          "front": "la femme",
+          "back": "① 妻子 ② 女人\n⚠️ 发音 /fam/ 不是 /fɛm/\n书面近义词：l'épouse"
+        },
+        {
+          "id": "1772391660975-ucpuw1z51j",
+          "front": "les parents",
+          "back": "① 父母亲（最常用）\n② 亲戚（正式语境）"
+        },
+        {
+          "id": "1772391660975-ksezya7who",
+          "front": "le fils",
+          "back": "儿子\n⚠️ 发音 /fis/，l 不发音！\n搭配：fils unique（独子）"
+        },
+        {
+          "id": "1772391660975-b8jsn81uwhn",
+          "front": "la fille",
+          "back": "① 女儿 ② 女孩 /fij/\n搭配：fille unique（独女）\njeune fille = 年轻女子"
+        },
+        {
+          "id": "1772391660975-z2ew178xkv7",
+          "front": "l'enfant (m./f.)",
+          "back": "孩子（阴阳同形）\nun enfant / une enfant\nenfant unique = 独生子女"
+        },
+        {
+          "id": "1772391660975-nxnpb485u7p",
+          "front": "le frère",
+          "back": "兄弟 /fʁɛʁ/\ndemi-frère = 同父异母/同母异父兄弟\nbeau-frère = 姐夫/妹夫"
+        },
+        {
+          "id": "1772391660975-menqxejies",
+          "front": "la sœur",
+          "back": "姐妹 /sœʁ/（注意 œ 连字符）\ndemi-sœur = 同父异母姐妹\nbelle-sœur = 嫂子/弟媳"
+        },
+        {
+          "id": "1772391660975-vueasaljlo",
+          "front": "le grand-père",
+          "back": "祖父/外祖父\n口语：papi/papy\n复数：les grands-pères"
+        },
+        {
+          "id": "1772391660975-454eawt865g",
+          "front": "la grand-mère",
+          "back": "祖母/外祖母\n⚠️ 是 è 不是 é！\n口语：mamie/mamy"
+        },
+        {
+          "id": "1772391660975-66vekfwf5if",
+          "front": "les grands-parents",
+          "back": "祖父母/外祖父母\ngrand 在复数中加 s"
+        },
+        {
+          "id": "1772391660975-u6631g9eu8",
+          "front": "l'oncle",
+          "back": "叔/伯/舅/姑父/姨父\n/ɔ̃kl/ 注意尾部 /l/ 要发出"
+        },
+        {
+          "id": "1772391660975-ox2t384avt",
+          "front": "la tante",
+          "back": "姑/姨/婶/舅妈/伯母\n/tɑ̃t/"
+        },
+        {
+          "id": "1772391660975-niup113cys",
+          "front": "le cousin / la cousine",
+          "back": "堂/表兄弟·姐妹\ncousin /ku.zɛ̃/（鼻化，n 不发音）\ncousine /ku.zin/（n 发音）"
+        },
+        {
+          "id": "1772391660975-4kxr27o9kz5",
+          "front": "beau-père / belle-mère",
+          "back": "① 继父/继母（重组家庭）\n② 岳父岳母/公婆（姻亲）\nTCF 听力需看上下文判断"
+        },
+        {
+          "id": "1772391660975-rcsfadpwp7",
+          "front": "beau-fils / belle-fille",
+          "back": "① 继子/继女\n② 女婿/儿媳"
+        },
+        {
+          "id": "1772391660975-aoe1emxfokv",
+          "front": "demi-frère / demi-sœur",
+          "back": "同父异母或同母异父的兄弟/姐妹\n⚠️ 区分 beau-frère（姻亲）"
+        },
+        {
+          "id": "1772391660975-d6vxc08j584",
+          "front": "femme 怎么读？",
+          "back": "/fam/\n不是 /fɛm/！TCF 经典考点"
+        },
+        {
+          "id": "1772391660975-8hplxb1fvgr",
+          "front": "fils 怎么读？",
+          "back": "/fis/\nl 不发音，s 要发音！"
+        },
+        {
+          "id": "1772391660975-jbh8v9mb5o",
+          "front": "arrière-grand-père",
+          "back": "曾祖父\narrière- 前缀表示“更上一代”"
+        },
+        {
+          "id": "1772391660975-iph8zjkjxb",
+          "front": "petit-fils / petite-fille",
+          "back": "孙子 / 孙女\npetit- 前缀表示“下一代”"
+        }
+      ]
+    },
+    {
+      "id": 1772391345873,
+      "name": "Leçon 4 Correspondants 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-01T18:55:45.873Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Diouf _____ 29 ans.",
+          "options": [
+            "est",
+            "a",
+            "fait",
+            "va"
+          ],
+          "correct": 1,
+          "explanation": "法语表达年龄用 avoir，不用 être。J'ai X ans.",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marion habite _____ Montréal.",
+          "options": [
+            "en",
+            "au",
+            "à",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "城市前用介词 à：habiter à + 城市。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Antoine habite _____ Belgique.",
+          "options": [
+            "à",
+            "au",
+            "en",
+            "dans le"
+          ],
+          "correct": 2,
+          "explanation": "Belgique 以 -e 结尾，阴性国家，用 en。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Diouf cherche un correspondant _____ Canada.",
+          "options": [
+            "en",
+            "à",
+            "au",
+            "dans"
+          ],
+          "correct": 2,
+          "explanation": "Canada 是阳性国家，用 au（= à + le）。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pauline dit : « Je suis _____ . »",
+          "options": [
+            "une secrétaire",
+            "secrétaire",
+            "la secrétaire",
+            "des secrétaires"
+          ],
+          "correct": 1,
+          "explanation": "法语说职业时，être 后直接加职业名词，不加冠词。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Antoine aime _____ musique classique.",
+          "options": [
+            "de la",
+            "la",
+            "une",
+            "∅（不加冠词）"
+          ],
+          "correct": 1,
+          "explanation": "aimer + 定冠词（le/la/les）+ 名词，表示喜欢某类事物。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pauline _____ français, anglais et espagnol.",
+          "options": [
+            "parle le",
+            "parle de",
+            "parle",
+            "parle du"
+          ],
+          "correct": 2,
+          "explanation": "parler + 语言，不加冠词。Je parle français.",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel âge a Sandro ?",
+          "options": [
+            "18 ans",
+            "25 ans",
+            "22 ans",
+            "31 ans"
+          ],
+          "correct": 2,
+          "explanation": "课文原文：J'ai 22 ans.（细节提取题）",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pauline cherche une correspondante de _____ ans.",
+          "options": [
+            "18 à 25",
+            "25 à 30",
+            "30 à 40",
+            "20 à 35"
+          ],
+          "correct": 2,
+          "explanation": "课文原文：Je cherche une correspondante de 30 à 40 ans.",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qui habite en Suisse ?",
+          "options": [
+            "Diouf",
+            "Antoine",
+            "Pauline",
+            "Sandro"
+          ],
+          "correct": 3,
+          "explanation": "Sandro 说：J'habite en Suisse, à Lausanne.",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marion cherche _____.",
+          "options": [
+            "un correspondant au Canada",
+            "une amie en Europe",
+            "une correspondante de 30 à 40 ans",
+            "un ami au Sénégal"
+          ],
+          "correct": 1,
+          "explanation": "课文原文：Je cherche une amie en Europe.",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Salut » est une expression _____.",
+          "options": [
+            "formelle",
+            "familière",
+            "écrite",
+            "professionnelle"
+          ],
+          "correct": 1,
+          "explanation": "Salut 是非正式的打招呼方式（familier），相当于 Hi。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Sandro est _____ de métier.",
+          "options": [
+            "étudiant",
+            "secrétaire",
+            "boulanger",
+            "photographe"
+          ],
+          "correct": 2,
+          "explanation": "课文原文：Je suis boulanger.",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Moi, c'est Marion » signifie :",
+          "options": [
+            "Je cherche Marion",
+            "Je connais Marion",
+            "Je m'appelle Marion",
+            "J'aime Marion"
+          ],
+          "correct": 2,
+          "explanation": "Moi, c'est + 名字 = Je m'appelle + 名字，口语化的自我介绍。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些人物住在法语国家的城市？（多选）",
+          "options": [
+            "Diouf — Dakar",
+            "Antoine — Bruxelles",
+            "Marion — Montréal",
+            "Sandro — Lausanne"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "五人全部住在法语区城市：塞内加尔（官方语言法语）、比利时（法语区）、魁北克（法语省）、瑞士（法语区）。",
+          "category": "文化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (s'appeler) Pauline et j'ai 31 ans.",
+          "correct": [
+            "m'appelle"
+          ],
+          "explanation": "s'appeler 第一人称：je m'appelle。代词式动词，me 在元音前缩为 m'。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Diouf _____ (aller) souvent au cinéma.",
+          "correct": [
+            "va"
+          ],
+          "explanation": "aller 第三人称单数：il va。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Antoine aime la lecture, la nature et la musique _____.",
+          "correct": [
+            "classique"
+          ],
+          "explanation": "课文原文：la musique classique（古典音乐）。",
+          "category": "词汇"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marion est _____. Elle habite _____ Montréal. Elle aime _____ sport.",
+          "correct": [
+            "québécoise",
+            "à",
+            "le"
+          ],
+          "explanation": "第一空：国籍阴性形式 québécoise；第二空：城市前用 à；第三空：aimer + 定冠词 le。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Je parle le français et l'anglais.",
+            "Je parle français et anglais.",
+            "Je parle de français et d'anglais.",
+            "Je parle du français et de l'anglais."
+          ],
+          "correct": 1,
+          "explanation": "parler + 语言不加冠词。Je parle français et anglais. 注意：Je parle le français 在某些语法书中也被接受，但 TCF 标准答案倾向无冠词形式。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'aime beaucoup la danse. » — Où se place l'adverbe « beaucoup » ?",
+          "options": [
+            "Avant le sujet",
+            "Entre le sujet et le verbe",
+            "Après le verbe",
+            "À la fin de la phrase après le nom"
+          ],
+          "correct": 2,
+          "explanation": "副词 beaucoup 放在动词后面：J'aime beaucoup...",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/17da4sB2yz-onS_qIyg-6bgLIIyad9IEhLMHGklzk6QU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772391388571-xyeq0pcf64",
+          "front": "法语说年龄用哪个动词？",
+          "back": "avoir\n例：J'ai 29 ans.\n❌ 不用 être！"
+        },
+        {
+          "id": "1772391388571-n1nr2hbdrec",
+          "front": "Je m'appelle 中的 s'appeler 是什么类型的动词？",
+          "back": "代词式动词（verbe pronominal）\nme 在元音前缩写为 m'"
+        },
+        {
+          "id": "1772391388571-pgozk84expe",
+          "front": "à / en / au + 地点的规则",
+          "back": "à + 城市：à Dakar, à Montréal\nen + 阴性国家：en France, en Belgique\nau + 阳性国家：au Sénégal, au Canada"
+        },
+        {
+          "id": "1772391388571-dya3v58sq84",
+          "front": "如何判断国家阴阳性？",
+          "back": "以 -e 结尾的国家通常阴性\n例外：le Mexique, le Mozambique"
+        },
+        {
+          "id": "1772391388571-omtmalyglgm",
+          "front": "法语说职业时要加冠词吗？",
+          "back": "不加！\n✅ Je suis étudiant.\n❌ Je suis un étudiant."
+        },
+        {
+          "id": "1772391388571-67lf0cpjysq",
+          "front": "J'aime + 名词，冠词怎么用？",
+          "back": "必须加定冠词 le/la/les\n✅ J'aime la musique.\n❌ J'aime musique."
+        },
+        {
+          "id": "1772391388571-0e7hh555rhyo",
+          "front": "Je parle français — 语言前要加冠词吗？",
+          "back": "parler + 语言 → 不加冠词\n但其他动词要加：J'étudie le français"
+        },
+        {
+          "id": "1772391388571-ir7y1xytcml",
+          "front": "Salut 和 Bonjour 的区别",
+          "back": "Salut = 非正式（Hi）\nBonjour = 中性/正式（Hello）\nTCF 听力常考语域判断"
+        },
+        {
+          "id": "1772391388571-fb7nqb8zu6q",
+          "front": "Moi, c'est Marion 是什么意思？",
+          "back": "口语化的自我介绍 = Je m'appelle Marion\n语域更随意"
+        },
+        {
+          "id": "1772391388571-2en59shu9k7",
+          "front": "correspondant / correspondante",
+          "back": "笔友\n阳性：un correspondant\n阴性：une correspondante"
+        },
+        {
+          "id": "1772391388571-v1flrljxia",
+          "front": "boulanger 的阴性形式",
+          "back": "boulangère\n面包师"
+        },
+        {
+          "id": "1772391388571-f0b9d119ma",
+          "front": "secrétaire 的阴阳性",
+          "back": "阴阳同形\nle secrétaire / la secrétaire"
+        },
+        {
+          "id": "1772391388571-nl7li65oa8d",
+          "front": "québécois 的阴性形式",
+          "back": "québécoise\n注意：形容词小写，名词大写 un Québécois"
+        },
+        {
+          "id": "1772391388571-iko0urfoun",
+          "front": "de 30 à 40 ans 是什么意思？",
+          "back": "从30岁到40岁\nde... à... 表示范围"
+        },
+        {
+          "id": "1772391388571-w2q9ht8qg9e",
+          "front": "chercher 后面加介词吗？",
+          "back": "不加！直接接名词\n✅ Je cherche un ami.\n❌ Je cherche pour un ami."
+        },
+        {
+          "id": "1772391388571-b19d1tlj8xd",
+          "front": "beaucoup 在句中的位置",
+          "back": "放在动词后面\n✅ J'aime beaucoup la danse.\n❌ Beaucoup j'aime la danse."
+        },
+        {
+          "id": "1772391388571-1n23egnr80cj",
+          "front": "J'habite à Paris 的三种同义表达",
+          "back": "Je vis à Paris（口语）\nJe réside à Paris（正式）\nJe suis installé(e) à Paris（定居义）"
+        },
+        {
+          "id": "1772391388571-z660jftwx88",
+          "front": "J'aime le sport 的 B2 升级表达",
+          "back": "Je suis passionné(e) de sport.\n我酷爱运动。"
+        },
+        {
+          "id": "1772391388571-j62irwdq7rg",
+          "front": "la photo 是什么的缩写？",
+          "back": "la photographie\n口语中常用 la photo"
+        }
+      ]
+    },
+    {
+      "id": 1772391117225,
+      "name": "Leçon 4 Correspondants 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-01T18:51:57.225Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'_____ le chocolat.",
+          "options": [
+            "aime",
+            "aimes",
+            "aimons",
+            "aiment"
+          ],
+          "correct": 0,
+          "explanation": "主语 je → j'aime。aimer 以元音开头，je 省音为 j'。",
+          "category": "动词变位 aimer"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle cherche _____ travail.",
+          "options": [
+            "pour un",
+            "un",
+            "de un",
+            "à un"
+          ],
+          "correct": 1,
+          "explanation": "chercher 是直接及物动词，直接加名词，不需要介词。chercher un travail = 找工作。英语 look for 的 for 不能翻译成 pour。",
+          "category": "动词用法 chercher"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la voiture _____ directeur.",
+          "options": [
+            "de le",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "de + le → 缩合冠词 du。directeur 是阳性名词，前面用 le，所以 de + le = du。",
+          "category": "介词 de + 缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ intelligente.",
+          "options": [
+            "beaucoup",
+            "très",
+            "beaucoup de",
+            "trop de"
+          ],
+          "correct": 1,
+          "explanation": "修饰形容词用 très，不用 beaucoup。beaucoup 修饰动词。très intelligente = 非常聪明。",
+          "category": "副词 très vs beaucoup"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a _____ monde dans la rue.",
+          "options": [
+            "très",
+            "beaucoup",
+            "beaucoup de",
+            "beaucoup des"
+          ],
+          "correct": 2,
+          "explanation": "beaucoup de + 名词（不加冠词）。beaucoup des ❌。très 不能修饰名词。",
+          "category": "副词 beaucoup de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aime le thé. J'aime _____ le café.",
+          "options": [
+            "très",
+            "aussi",
+            "un peu de",
+            "beaucoup de"
+          ],
+          "correct": 1,
+          "explanation": "aussi = 也，放在动词后。表示\"也喜欢咖啡\"。très 不能修饰动词 aimer。",
+          "category": "副词 aussi"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "D'_____ viens-tu ? — Je viens de Chine.",
+          "correct": [
+            "où"
+          ],
+          "explanation": "D'où = 从哪里。de + où → d'où（省音）。这是询问来源的固定表达。",
+          "category": "介词 de 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La _____ est mon activité préférée le week-end.",
+          "options": [
+            "lecture",
+            "conférence",
+            "leçon",
+            "lecture de livres"
+          ],
+          "correct": 0,
+          "explanation": "lecture = 阅读（不是英语的\"讲座\"）。法语\"讲座\"= conférence。这是经典假朋友 faux ami。",
+          "category": "词汇辨析 lecture"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais _____ à Paris.",
+          "options": [
+            "toujours",
+            "souvent",
+            "jamais",
+            "très"
+          ],
+          "correct": 1,
+          "explanation": "souvent = 经常，放在动词后。très 不能单独修饰动词 aller。句意：我经常去巴黎。",
+          "category": "副词 souvent"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ timide.",
+          "options": [
+            "un peu",
+            "un peu de",
+            "beaucoup",
+            "très de"
+          ],
+          "correct": 0,
+          "explanation": "un peu + 形容词 = 有点……。un peu de + 名词。beaucoup 不直接修饰形容词（要用 très）。très de 不存在。",
+          "category": "副词 un peu"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些名词是阴性（féminin）？",
+          "options": [
+            "cinéma",
+            "lecture",
+            "sport",
+            "musique"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "lecture n.f.（阅读）、musique n.f.（音乐）是阴性。cinéma n.m.、sport n.m. 是阳性。",
+          "category": "名词阴阳性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous aimons _____ la danse.",
+          "options": [
+            "très",
+            "beaucoup",
+            "très de",
+            "beaucoup de"
+          ],
+          "correct": 1,
+          "explanation": "aimer 是动词，修饰动词用 beaucoup，不用 très。nous aimons beaucoup = 我们非常喜欢。",
+          "category": "très vs beaucoup"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle aime prendre des _____ en voyage.",
+          "correct": [
+            "photos"
+          ],
+          "explanation": "prendre des photos = 拍照。photo n.f.，复数加 s。固定搭配必须掌握。",
+          "category": "词汇 photo"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il a 20 _____. Il fait _____ sport le week-end. Il aime _____ le football.",
+          "correct": [
+            "ans",
+            "du",
+            "beaucoup"
+          ],
+          "explanation": "第一空：avoir + 数字 + ans 表示年龄，复数加 s。第二空：faire du sport（做运动），du = de + le 缩合冠词。第三空：修饰动词 aimer 用 beaucoup。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— J'aime le cinéma. — Moi _____.",
+          "options": [
+            "aussi",
+            "non plus",
+            "très",
+            "un peu"
+          ],
+          "correct": 0,
+          "explanation": "肯定句用 Moi aussi = 我也是。否定句才用 Moi non plus = 我也不。",
+          "category": "Moi aussi vs Moi non plus"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1UxpI-Fl-GSGgVld8Q4rqE4Y91HRFwy-vJrxZUgHhd58/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772391241971-wo4va3advyb",
+          "front": "aimer 的核心句型（3个）",
+          "back": "1. aimer + 名词：J'aime le café.\n2. aimer + 动词原形：J'aime lire.\n3. aimer bien = 挺喜欢（语气较弱）"
+        },
+        {
+          "id": "1772391241971-wefe3x3le58",
+          "front": "aimer 直陈式现在时：je / tu / il",
+          "back": "j'aime / tu aimes / il aime\n（注意 je 省音为 j'，因为 aimer 元音开头）"
+        },
+        {
+          "id": "1772391241971-p647pcicbxl",
+          "front": "aimer 直陈式现在时：nous / vous / ils",
+          "back": "nous aimons / vous aimez / ils aiment"
+        },
+        {
+          "id": "1772391241971-j6zlzh6q2zl",
+          "front": "chercher 后面加不加介词？",
+          "back": "不加！chercher 是直接及物动词。\nchercher un travail ✅\nchercher pour un travail ❌"
+        },
+        {
+          "id": "1772391241971-s8ywkfbsc0b",
+          "front": "chercher à + 动词原形 = ?",
+          "back": "试图做某事（B1+ 表达）\nIl cherche à comprendre. 他试图理解。"
+        },
+        {
+          "id": "1772391241971-sf99tt1xd1r",
+          "front": "aller chercher qqn = ?",
+          "back": "去接某人\nJe vais chercher mon fils à l'école.\n我去学校接我儿子。"
+        },
+        {
+          "id": "1772391241971-app3nbi2pan",
+          "front": "de 的三个核心含义",
+          "back": "1. 所属：la voiture de Pierre（皮埃尔的车）\n2. 来源：Je viens de Chine.（我来自中国）\n3. 范围：de 20 à 25 ans（从20到25岁）"
+        },
+        {
+          "id": "1772391241971-6o5lfr5gn6k",
+          "front": "de + le = ? / de + les = ?",
+          "back": "de + le = du\nde + les = des\n（缩合冠词，TCF 必考）"
+        },
+        {
+          "id": "1772391241971-w4sbwnyn5da",
+          "front": "très 和 beaucoup 的区别",
+          "back": "très → 修饰形容词/副词：très belle\nbeaucoup → 修饰动词：aimer beaucoup\n⚠️ 不能说 aime très ❌"
+        },
+        {
+          "id": "1772391241971-1vwke19tvos",
+          "front": "beaucoup de + 名词的规则",
+          "back": "beaucoup de + 名词（不加冠词）\nbeaucoup de livres ✅\nbeaucoup des livres ❌"
+        },
+        {
+          "id": "1772391241971-246sko4pp0s",
+          "front": "aussi 放在哪里？",
+          "back": "放在动词后面。\nJ'aime aussi le café.\n独立用法：Moi aussi = 我也是。"
+        },
+        {
+          "id": "1772391241971-7ny6p35s2pk",
+          "front": "Moi aussi vs Moi non plus",
+          "back": "肯定句 → Moi aussi（我也是）\n否定句 → Moi non plus（我也不）"
+        },
+        {
+          "id": "1772391241971-9fd1n9zqvz",
+          "front": "un peu 用法",
+          "back": "un peu + 形容词：Il est un peu timide.\nun peu + 动词：Je parle un peu français.\nun peu de + 名词：un peu de lait"
+        },
+        {
+          "id": "1772391241971-ga8eu0k5lop",
+          "front": "souvent 是什么意思？频率排序？",
+          "back": "souvent = 经常\njamais < rarement < parfois < souvent < toujours"
+        },
+        {
+          "id": "1772391241971-2y24ph74b8l",
+          "front": "lecture 是什么意思？（假朋友）",
+          "back": "lecture n.f. = 阅读 ✅\n≠ 英语 lecture（讲座）\n法语“讲座” = conférence"
+        },
+        {
+          "id": "1772391250129-itc7pe2xlv",
+          "front": "an n.m. = ?",
+          "back": "年，岁（阳性）\nIl a 20 ans.\nan 强调数量，année 强调持续时间"
+        },
+        {
+          "id": "1772391250129-puanl5bn9eg",
+          "front": "cinéma n.m. 常用搭配",
+          "back": "aller au cinéma = 去看电影\n（au = à + le）\n注意：cinéma 也可指“电影艺术”"
+        },
+        {
+          "id": "1772391250129-67trik6amqx",
+          "front": "correspondance n.f. 的多个含义",
+          "back": "1. 通信，书信\n2.（交通）换乘\nTCF 阅读中可能考“换乘”义"
+        },
+        {
+          "id": "1772391250129-7tv099ar8b2",
+          "front": "correspondant(e) n. = ?",
+          "back": "通信者，笔友\n阳性：correspondant\n阴性：correspondante（加 -e）"
+        },
+        {
+          "id": "1772391250129-soiliax8to",
+          "front": "danse n.f. 常用搭配",
+          "back": "la danse classique = 古典舞/芭蕾\nfaire de la danse = 跳舞\nElle aime beaucoup la danse."
+        },
+        {
+          "id": "1772391250129-1n9c93rtvth",
+          "front": "golf n.m. 怎么说“打高尔夫”？",
+          "back": "jouer au golf\n（jouer à + le → jouer au）"
+        },
+        {
+          "id": "1772391250129-q9kxwwlzus",
+          "front": "monde n.m. 最重要的搭配",
+          "back": "tout le monde = 所有人，大家\nTout le monde est là. 大家都在。\n注意：tout le monde 后动词用第三人称单数"
+        },
+        {
+          "id": "1772391250129-5qnrnoqrd1e",
+          "front": "musique n.f. 怎么说“听音乐”？",
+          "back": "écouter de la musique\n（de la = 部分冠词，阴性）"
+        },
+        {
+          "id": "1772391250129-c8xdaut3ukb",
+          "front": "nature n.f. 常用表达",
+          "back": "la nature = 自然，大自然\nen pleine nature = 在大自然中"
+        },
+        {
+          "id": "1772391250129-seub8e0etn",
+          "front": "photo n.f. 怎么说“拍照”？",
+          "back": "prendre une photo / prendre des photos\nphoto 复数加 s"
+        },
+        {
+          "id": "1772391250129-2u6f4lp9whv",
+          "front": "sœur n.f. 及其对应词",
+          "back": "sœur = 姐妹（阴性）\n对应：frère = 兄弟（阳性）"
+        },
+        {
+          "id": "1772391250129-9g8jpqxjy0e",
+          "front": "sport n.m. 怎么说“做运动”？",
+          "back": "faire du sport\n（du = de + le，缩合冠词）\njouer au football / au volley-ball"
+        },
+        {
+          "id": "1772391250129-4ebh4qqit0m",
+          "front": "volley-ball n.m. 搭配",
+          "back": "jouer au volley-ball = 打排球\n（jouer à + le → jouer au）"
+        },
+        {
+          "id": "1772391250129-xf65w8dmzzg",
+          "front": "classique adj. 常见搭配",
+          "back": "la musique classique = 古典音乐\nla danse classique = 古典舞\n阴阳性同形"
+        },
+        {
+          "id": "1772391250129-ylaywzrh6aj",
+          "front": "québécois(e) adj. = ?",
+          "back": "魁北克的\nl'accent québécois = 魁北克口音\n阴性加 -e：québécoise"
+        }
+      ]
+    },
+    {
+      "id": 1772390783041,
+      "name": "词汇：职业身份表达",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-01T18:46:23.041Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Marie _____ médecin.",
+          "options": [
+            "est une",
+            "est",
+            "est la",
+            "est des"
+          ],
+          "correct": 1,
+          "explanation": "主语 + être + 职业，无修饰语时零冠词。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est _____ bon ingénieur.",
+          "options": [
+            "∅（不填）",
+            "le",
+            "un",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "C'est 句型后必须加冠词；有形容词 bon 修饰，用不定冠词 un。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous sommes _____ professeurs.",
+          "options": [
+            "des",
+            "les",
+            "∅（不填）",
+            "uns"
+          ],
+          "correct": 2,
+          "explanation": "人称代词 + être + 职业 → 零冠词，即使是复数也不加 des。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle est _____ étudiante très sérieuse.",
+          "options": [
+            "∅（不填）",
+            "une",
+            "la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "职业名词前有形容词修饰（très sérieuse），必须恢复不定冠词 une。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est avocat.",
+          "options": [
+            "C'est",
+            "Il",
+            "C'est un",
+            "Il est un"
+          ],
+          "correct": 1,
+          "explanation": "零冠词 + 职业 → 只能用 Il est 句型。C'est 后面必须加冠词。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce sont _____ architectes français.",
+          "options": [
+            "∅（不填）",
+            "les",
+            "des",
+            "un"
+          ],
+          "correct": 2,
+          "explanation": "Ce sont 句型（C'est 的复数形式）后必须加冠词，复数用 des。",
+          "category": "职业表达"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Je suis une boulangère.",
+            "Je suis boulangère.",
+            "C'est un boulanger.",
+            "C'est boulanger."
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "Je suis + 职业零冠词 → B正确；C'est + 冠词 + 职业 → C正确。A多了冠词，D缺冠词。",
+          "category": "职业表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pierre _____ (être) journaliste. (用正确形式填写，不加冠词)",
+          "correct": [
+            "est"
+          ],
+          "explanation": "Pierre 是第三人称单数，être → est；表达职业零冠词。",
+          "category": "职业表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Julie est _____ chanteuse. Elle chante très bien.",
+          "options": [
+            "une",
+            "la",
+            "∅（不填）",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "虽然后面有一句补充说明，但职业名词本身没有形容词修饰，仍然零冠词。注意：修饰语必须直接修饰职业名词才触发加冠词规则。",
+          "category": "职业表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mon père _____ médecin. C'est _____ très bon médecin.",
+          "correct": [
+            "est",
+            "un"
+          ],
+          "explanation": "第一空：人称主语 + être + 职业 → 零冠词，填 est。第二空：C'est 句型 + 有形容词修饰 → 必须加冠词 un。",
+          "category": "职业表达"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1gWLNb_DTdYalqMUfaevrigneA7SbUOCmlD_CLq-hGQ8/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772390815704-sfgzoydo4h",
+          "front": "法语表达职业的基本句型是什么？",
+          "back": "主语 + être + 职业名词（零冠词）\n例：Je suis étudiante."
+        },
+        {
+          "id": "1772390815704-gedip5ahmpb",
+          "front": "Je suis ___ médecin.\n填什么？",
+          "back": "什么都不填（零冠词）\nJe suis médecin."
+        },
+        {
+          "id": "1772390815704-wykfl83ifu",
+          "front": "C'est 后面接职业名词，要不要加冠词？",
+          "back": "必须加冠词！\nC'est un professeur. ✅\nC'est professeur. ❌"
+        },
+        {
+          "id": "1772390815704-sxv63dbvdc",
+          "front": "什么时候 Il est + 职业 需要加冠词？",
+          "back": "当职业名词前有形容词或修饰语时\n例：Il est un excellent avocat."
+        },
+        {
+          "id": "1772390815704-c4m4aongzjn",
+          "front": "Il est professeur.\n换成 C'est 句型怎么说？",
+          "back": "C'est un professeur.\n（C'est 后必须加冠词）"
+        },
+        {
+          "id": "1772390815704-bh6rpwruwu7",
+          "front": "Marie est étudiante.\n加上“非常聪明”怎么改？",
+          "back": "Marie est une étudiante très intelligente.\n（有修饰语 → 加冠词 une）"
+        },
+        {
+          "id": "1772390815704-b6rmtbi4czr",
+          "front": "Nous sommes ___ ingénieurs.\n要加 des 吗？",
+          "back": "不加！零冠词。\nNous sommes ingénieurs. ✅\nNous sommes des ingénieurs. ❌"
+        },
+        {
+          "id": "1772390815704-1nfboeurcjn",
+          "front": "Ce sont 后面接职业要加冠词吗？",
+          "back": "要！Ce sont 是 C'est 的复数形式。\nCe sont des architectes. ✅"
+        },
+        {
+          "id": "1772390815704-yt98gecjjf",
+          "front": "boulanger 的阴性形式是？",
+          "back": "boulangère\n规律：-er → -ère"
+        },
+        {
+          "id": "1772390815704-ltvtzke1mgm",
+          "front": "médecin 的阴性形式是？",
+          "back": "传统上阴阳同形：médecin\nElle est médecin. ✅\n（TCF 考试遵循传统用法）"
+        },
+        {
+          "id": "1772390815704-bz2jumkhp3w",
+          "front": "professeur 的阴性形式是？",
+          "back": "现代用法：professeure（加 -e）\n传统用法：阴阳同形 professeur"
+        },
+        {
+          "id": "1772390815704-bc45666j1ff",
+          "front": "3秒判断法：何时加冠词？",
+          "back": "1. C'est/Ce sont → 加冠词\n2. 名词前有形容词 → 加冠词\n3. 都没有 → 零冠词"
+        },
+        {
+          "id": "1772390815704-04336byjcn07",
+          "front": "❌ 找错：Je suis une avocate.",
+          "back": "错！无修饰语时零冠词。\n✅ Je suis avocate."
+        },
+        {
+          "id": "1772390815704-t5lasiihpm",
+          "front": "❌ 找错：C'est boulanger.",
+          "back": "错！C'est 后必须加冠词。\n✅ C'est un boulanger."
+        },
+        {
+          "id": "1772390815704-7fvpabxjiqo",
+          "front": "Il est vs C'est 的核心区别？",
+          "back": "Il/Elle est + 零冠词 → 描述属性\nC'est + 冠词 → 介绍/强调\nIl est avocat. vs C'est un avocat."
+        }
+      ]
+    },
+    {
+      "id": 1772390685875,
+      "name": "主有形容词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-01T18:44:45.875Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Marie adore _____ chien.",
+          "options": [
+            "sa",
+            "son",
+            "ses",
+            "ma"
+          ],
+          "correct": 1,
+          "explanation": "chien 是阳性单数名词，不管所有者 Marie 是女性，都用 son。这是 TCF 最经典的陷阱：性数跟名词走，不跟所有者。",
+          "category": "主有形容词-性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre parle souvent de _____ école.",
+          "options": [
+            "sa",
+            "son",
+            "ses",
+            "ta"
+          ],
+          "correct": 1,
+          "explanation": "école 是阴性名词，但以元音 é 开头，为避免元音碰撞，必须用 son 代替 sa。干扰项 sa 是最大陷阱。",
+          "category": "主有形容词-元音规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous aimons _____ professeurs.",
+          "options": [
+            "notre",
+            "nos",
+            "votre",
+            "mon"
+          ],
+          "correct": 1,
+          "explanation": "professeurs 是复数名词，nous 对应的复数形式是 nos。notre 只能接单数名词。",
+          "category": "主有形容词-notre/nos"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils ont invité _____ amis à la fête.",
+          "options": [
+            "leur",
+            "leurs",
+            "ses",
+            "son"
+          ],
+          "correct": 1,
+          "explanation": "amis 是复数名词，ils 对应的复数形式是 leurs（有 s）。leur（无 s）只接单数名词。",
+          "category": "主有形容词-leur/leurs"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as oublié _____ adresse ?",
+          "options": [
+            "ta",
+            "ton",
+            "tes",
+            "sa"
+          ],
+          "correct": 1,
+          "explanation": "adresse 是阴性名词，但以元音 a 开头，必须用 ton 代替 ta。和 son école 同理。",
+          "category": "主有形容词-元音规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants rangent _____ chambre.",
+          "options": [
+            "leurs",
+            "leur",
+            "ses",
+            "son"
+          ],
+          "correct": 1,
+          "explanation": "chambre 是单数名词，les enfants (ils) 对应单数形式是 leur（无 s）。leurs 只接复数名词。",
+          "category": "主有形容词-leur/leurs"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle se lave _____ mains tous les matins.",
+          "correct": [
+            "les"
+          ],
+          "explanation": "身体部位 + 自反动词时，法语用定冠词 les，不用主有形容词 ses。这是 B1 级别的重要考点。",
+          "category": "主有形容词-身体部位规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai perdu _____ clés et _____ portefeuille.",
+          "options": [
+            "mes / mon",
+            "ma / mon",
+            "mes / ma",
+            "mon / mes"
+          ],
+          "correct": 0,
+          "explanation": "clés 是阴性复数 → mes；portefeuille 是阳性单数 → mon。注意一个句子里可能出现不同形式。",
+          "category": "主有形容词-综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中主有形容词使用正确？",
+          "options": [
+            "Mon amie est gentille.",
+            "Ma histoire est longue.",
+            "Son école est grande.",
+            "Sa ami est sympathique."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 正确：amie 以元音开头，阴性用 mon。B 错误：histoire 以哑音 h 开头，应该用 mon histoire。C 正确：école 以元音开头，用 son。D 错误：ami 以元音开头，应该用 son ami。",
+          "category": "主有形容词-元音规则综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous pouvez me donner _____ numéro de téléphone ?",
+          "options": [
+            "votre",
+            "vos",
+            "notre",
+            "leurs"
+          ],
+          "correct": 0,
+          "explanation": "numéro 是阳性单数名词，vous 对应的单数形式是 votre（阴阳通用）。vos 只接复数名词。",
+          "category": "主有形容词-votre/vos"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ToRr-9TtAfgmXfT2SZsPDaFL7FoWhUwgyIfqt0pyuAI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772390704525-58xuhsspwld",
+          "front": "Je + 阳性单数名词 → ?",
+          "back": "mon\n例：mon père, mon livre"
+        },
+        {
+          "id": "1772390704525-65ypptnbf97",
+          "front": "Je + 阴性单数名词 → ?",
+          "back": "ma\n例：ma mère, ma sœur"
+        },
+        {
+          "id": "1772390704525-d0jqq1fyf",
+          "front": "Je + 复数名词 → ?",
+          "back": "mes\n例：mes parents, mes amis"
+        },
+        {
+          "id": "1772390704525-k69co4hahc",
+          "front": "Tu + 阳性单数名词 → ?",
+          "back": "ton\n例：ton fils, ton chat"
+        },
+        {
+          "id": "1772390704525-07ubh6m2ntx5",
+          "front": "Tu + 阴性单数名词 → ?",
+          "back": "ta\n例：ta fille, ta maison"
+        },
+        {
+          "id": "1772390704525-z4xbvcz4ugd",
+          "front": "Tu + 复数名词 → ?",
+          "back": "tes\n例：tes étudiants, tes idées"
+        },
+        {
+          "id": "1772390704525-gyqyul42gkq",
+          "front": "Il/Elle + 阳性单数名词 → ?",
+          "back": "son\n例：son livre, son ami"
+        },
+        {
+          "id": "1772390704525-k9o7yx8fad",
+          "front": "Il/Elle + 阴性单数名词 → ?",
+          "back": "sa\n例：sa maison, sa voiture"
+        },
+        {
+          "id": "1772390704525-nesqge34pz",
+          "front": "Il/Elle + 复数名词 → ?",
+          "back": "ses\n例：ses amis, ses clés"
+        },
+        {
+          "id": "1772390704525-15jf48t1w98",
+          "front": "Nous + 单数名词 → ?",
+          "back": "notre（阴阳通用）\n例：notre école, notre enfant"
+        },
+        {
+          "id": "1772390704525-s7pqtfapvi8",
+          "front": "Nous + 复数名词 → ?",
+          "back": "nos\n例：nos enfants, nos parents"
+        },
+        {
+          "id": "1772390704525-v1snhi2qptp",
+          "front": "Vous + 单数名词 → ?",
+          "back": "votre（阴阳通用）\n例：votre maison, votre fils"
+        },
+        {
+          "id": "1772390704525-6cy8hmw0mc",
+          "front": "Vous + 复数名词 → ?",
+          "back": "vos\n例：vos parents, vos idées"
+        },
+        {
+          "id": "1772390704525-fjohh26gqnf",
+          "front": "Ils/Elles + 单数名词 → ?",
+          "back": "leur（无 s，阴阳通用）\n例：leur mère, leur père"
+        },
+        {
+          "id": "1772390704525-6cey9rho35y",
+          "front": "Ils/Elles + 复数名词 → ?",
+          "back": "leurs（有 s）\n例：leurs parents, leurs amis"
+        },
+        {
+          "id": "1772390704525-392m1of7wsw",
+          "front": "阴性名词以元音或哑音 h 开头时，ma/ta/sa 要变成什么？",
+          "back": "必须用 mon/ton/son\n例：mon amie（不是 ma amie）\nton école（不是 ta école）\nson histoire（不是 sa histoire）"
+        },
+        {
+          "id": "1772390704525-6olqy8zxbwc",
+          "front": "为什么说 mon amie 而不是 ma amie？",
+          "back": "为避免元音碰撞（hiatus），法语追求语音流畅。amie 以元音 a 开头，ma + amie 两个元音相撞，所以强制用 mon。"
+        },
+        {
+          "id": "1772390704525-4sn26otfsz5",
+          "front": "leur（主有形容词）vs leur（间接宾语代词）怎么区分？",
+          "back": "主有形容词 leur 后面跟名词：C'est leur maison.\n代词 leur 后面跟动词：Je leur parle."
+        },
+        {
+          "id": "1772390704525-xttex7i3y6k",
+          "front": "身体部位用主有形容词吗？",
+          "back": "不用！自反动词 + 定冠词\n✅ Je me lave les mains.\n❌ Je lave mes mains.\n例外：有形容词修饰时可用 → J'ai levé ma main droite."
+        },
+        {
+          "id": "1772390704525-qse6x49fng",
+          "front": "son/sa/ses 到底跟谁的性数？",
+          "back": "跟【被拥有的名词】的性数，不跟所有者！\nMarie aime son père.（père 阳性 → son）\nPierre aime sa mère.（mère 阴性 → sa）"
+        },
+        {
+          "id": "1772390704525-xr45fwrwi9",
+          "front": "notre vs nos 怎么选？",
+          "back": "看后面名词的数：\n单数 → notre（阴阳通用）\n复数 → nos"
+        },
+        {
+          "id": "1772390704525-0ialloqbdu3i",
+          "front": "3 秒做题法：主有形容词填空",
+          "back": "1. 看名词的数 → 单数/复数\n2. 看名词的性 → 阳性/阴性\n3. 名词以元音/哑音h开头？→ 强制 mon/ton/son\n4. 确定所有者人称 → 选对应形式"
+        }
+      ]
+    },
+    {
       "id": 1772390444825,
       "name": "定冠词 vs 不定冠词 vs 部分冠词",
       "folderId": "1770593095506",
@@ -61840,12 +65175,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-01",
+    "date": "2026-03-02",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-01T18:41:35.079Z",
+  "exportedAt": "2026-03-02T00:50:07.457Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
