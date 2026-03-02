@@ -1,6 +1,1318 @@
 {
   "savedSets": [
     {
+      "id": 1772479660988,
+      "name": "Leçon 7 Shopping课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-02T19:27:40.988Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans un magasin, le vendeur dit : « Bonjour, madame, _____ ? » Quelle est la phrase la plus appropriée ?",
+          "options": [
+            "Qu'est-ce que vous cherchez ?",
+            "Qu'est-ce que vous mangez ?",
+            "Où est-ce que vous habitez ?",
+            "Comment est-ce que vous vous appelez ?"
+          ],
+          "correct": 0,
+          "explanation": "在商店里，店员的标准开场白是询问顾客想买什么：Qu'est-ce que vous cherchez ? 其他选项与购物场景无关。",
+          "category": "情景交际"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ma fille a 16 ans. » Dans cette phrase, pourquoi utilise-t-on le verbe « avoir » ?",
+          "options": [
+            "Parce que « avoir » exprime la possession d'un objet",
+            "Parce qu'en français, on exprime l'âge avec « avoir »",
+            "Parce que « être » n'existe pas en français",
+            "Parce que « avoir » signifie « être » ici"
+          ],
+          "correct": 1,
+          "explanation": "法语中表达年龄必须用 avoir … ans，不能用 être。这是法语和英语/中文的重要区别。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une cliente demande : « Comment est-ce que tu trouves cette robe ? » Que signifie « trouver » ici ?",
+          "options": [
+            "找到",
+            "丢失",
+            "觉得、认为",
+            "寻找"
+          ],
+          "correct": 2,
+          "explanation": "trouver 在评价语境中意为「觉得、认为」，相当于英语 How do you find …? 不是「找到」的意思。TCF 经典陷阱。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'aime bien ce type de pantalon. » Quelle est la nuance de « aimer bien » par rapport à « aimer » ?",
+          "options": [
+            "aimer bien 表示非常喜爱，比 aimer 更强烈",
+            "aimer bien 表示讨厌",
+            "aimer bien 表示挺喜欢，语气比 aimer 稍弱/更日常",
+            "aimer bien 和 aimer 完全相同，没有区别"
+          ],
+          "correct": 2,
+          "explanation": "aimer bien 语气比 aimer 稍弱，更偏日常「挺喜欢」。特别注意：对人说 je t'aime = 我爱你，je t'aime bien = 我挺喜欢你（朋友层面）。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le client demande : « Vous avez _____ couleurs, s'il vous plaît ? » Complétez avec le bon mot interrogatif.",
+          "options": [
+            "quel",
+            "quelle",
+            "quels",
+            "quelles"
+          ],
+          "correct": 3,
+          "explanation": "couleur 是阴性名词，这里是复数（couleurs），所以疑问形容词用 quelles（阴性复数）。quel 的性数变化：quel(阳单) / quelle(阴单) / quels(阳复) / quelles(阴复)。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce n'est pas très cher ! » Quel est le contraire de « cher » dans un contexte de prix ?",
+          "options": [
+            "joli",
+            "bon marché",
+            "grand",
+            "nouveau"
+          ],
+          "correct": 1,
+          "explanation": "cher = 贵，反义表达是 bon marché（便宜）或 pas cher / abordable（价格合理）。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « ça coûte combien » et « ça fait combien » ?",
+          "options": [
+            "完全相同，没有任何区别",
+            "ça coûte combien 问总价，ça fait combien 问单价",
+            "ça fait combien 侧重总价/结账，ça coûte combien 更偏单件价格",
+            "ça fait combien 只用于餐厅"
+          ],
+          "correct": 2,
+          "explanation": "ça fait combien 侧重「加在一起总共多少钱」，常用于结账；ça coûte combien 更偏问单件价格。两者可互换，但语境侧重不同，TCF 会考这个区别。",
+          "category": "情景交际"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Oh, non ! Pas du tout. » Que signifie « pas du tout » ?",
+          "options": [
+            "不太",
+            "有一点",
+            "完全不、一点也不",
+            "非常"
+          ],
+          "correct": 2,
+          "explanation": "pas du tout = 完全不、一点也不，是强否定表达。如果听力问「她喜欢吗？」，答案是「完全不喜欢」而非「不太喜欢」。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "– Bonjour, madame, qu'est-ce que vous _____ ? – Des vêtements pour ma fille.",
+          "correct": [
+            "cherchez"
+          ],
+          "explanation": "chercher（寻找/想买），vous 对应变位 cherchez。购物场景高频动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Comment est-ce que tu _____ cette robe ? – Je la trouve très jolie !",
+          "correct": [
+            "trouves"
+          ],
+          "explanation": "trouver 在这里意为「觉得」，tu 对应变位 trouves。注意回答用 Je la trouve + 形容词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Pour les filles, c'est sur les étagères à gauche et pour les garçons, _____ . »",
+          "options": [
+            "à gauche",
+            "en haut",
+            "à droite",
+            "en bas"
+          ],
+          "correct": 2,
+          "explanation": "对话原文：女孩区在左边（à gauche），男孩区在右边（à droite）。方位词是 TCF 听力高频考点。",
+          "category": "情景理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une cliente dit : « Vous avez le gris en taille 38 ? » Elle veut savoir :",
+          "options": [
+            "这件灰色的多少钱",
+            "这件灰色的有没有 38 码",
+            "这件灰色的是什么材质",
+            "这件灰色的可以打折吗"
+          ],
+          "correct": 1,
+          "explanation": "Vous avez + 物品 + en taille … ? 是询问「有没有某个尺码」的固定句型。",
+          "category": "情景理解"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "– Ce pull et ce pantalon, ça _____ combien, s'il vous plaît ?\n– 35 et 59… ça _____ 94 euros, madame.\n– _____.",
+          "correct": [
+            "fait",
+            "fait",
+            "Voilà"
+          ],
+          "explanation": "ça fait combien 用于问总价；回答也用 ça fait + 金额。Voilà 在交钱/递东西时表示「给您」。",
+          "category": "情景交际"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些表达可以用来询问价格？",
+          "options": [
+            "Il coûte combien ?",
+            "Combien ça coûte ?",
+            "Ça fait combien ?",
+            "Comment tu trouves ?"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "前三个都是问价表达：Il coûte combien / Combien ça coûte（偏单价）/ Ça fait combien（偏总价）。Comment tu trouves 是问看法，不是问价格。",
+          "category": "情景交际"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ma fille a 16 ans et mon fils 14. » La phrase complète pour le fils est :",
+          "options": [
+            "Mon fils est 14 ans",
+            "Mon fils a 14 ans",
+            "Mon fils fait 14 ans",
+            "Mon fils avoir 14 ans"
+          ],
+          "correct": 1,
+          "explanation": "法语年龄用 avoir … ans。原文省略了 a … ans，完整形式为 Mon fils a 14 ans。绝对不能用 être 表年龄！",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1aq9E8ODW4a_eAnYwce-MutxD56LaPJNqCKN8tEvwJxM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772479727725-wgemfjrgy5",
+          "front": "Qu'est-ce que vous cherchez ?",
+          "back": "您在找什么？/ 您想买什么？\n购物场景店员开场白"
+        },
+        {
+          "id": "1772479727725-dpzj9qxvzwn",
+          "front": "「您想买什么？」的三种法语表达",
+          "back": "1. Qu'est-ce que vous cherchez ?\n2. Vous désirez ?\n3. Je peux vous aider ?"
+        },
+        {
+          "id": "1772479727725-75r9j0934du",
+          "front": "chercher",
+          "back": "v. 寻找、想买\nJe cherche une robe. 我在找一条裙子。"
+        },
+        {
+          "id": "1772479727725-jt5kl3ae9xr",
+          "front": "des vêtements",
+          "back": "一些衣服（阳性复数）\nvêtement (m.) 单数"
+        },
+        {
+          "id": "1772479727725-k85gso7n9u",
+          "front": "法语怎么表达年龄？",
+          "back": "用 avoir … ans\nElle a 16 ans. 她16岁。\n⚠️ 绝不用 être！"
+        },
+        {
+          "id": "1772479727725-q1zclw36c6",
+          "front": "ma fille / mon fils",
+          "back": "我的女儿 / 我的儿子\nma + 阴性名词 / mon + 阳性名词\n主有形容词跟名词的性别走，不跟说话者"
+        },
+        {
+          "id": "1772479727725-p03snzaa3tq",
+          "front": "une étagère",
+          "back": "货架（阴性名词）\nC'est sur les étagères. 在货架上。"
+        },
+        {
+          "id": "1772479727725-wxqzfg9f2ie",
+          "front": "à gauche / à droite",
+          "back": "在左边 / 在右边\nTCF 听力方位词高频考点"
+        },
+        {
+          "id": "1772479727725-a4ul9qtfhn",
+          "front": "Comment est-ce que tu trouves ce pantalon ?",
+          "back": "你觉得这条裤子怎么样？\ntrouver 在这里 = 觉得、认为\n⚠️ 不是「找到」！"
+        },
+        {
+          "id": "1772479727725-j0on93znue",
+          "front": "trouver 的两个含义",
+          "back": "1. 找到：J'ai trouvé mes clés.\n2. 觉得：Je trouve cette robe jolie.\nTCF 经典陷阱"
+        },
+        {
+          "id": "1772479727725-evsyj0grjef",
+          "front": "Je la trouve très jolie.",
+          "back": "我觉得它（阴性）很漂亮。\n回答句型：Je le/la trouve + 形容词"
+        },
+        {
+          "id": "1772479727725-6u18y32dbkf",
+          "front": "aimer vs aimer bien",
+          "back": "aimer = 喜欢/爱\naimer bien = 挺喜欢（语气更日常、稍弱）\n⚠️ 对人：je t'aime = 我爱你 / je t'aime bien = 我挺喜欢你（朋友）"
+        },
+        {
+          "id": "1772479727725-65lz5vkmgst",
+          "front": "ce type de + 名词",
+          "back": "这种类型的……\nJ'aime bien ce type de pantalon. 我挺喜欢这种裤子。"
+        },
+        {
+          "id": "1772479727725-0ggtlo2smp1i",
+          "front": "quel / quelle / quels / quelles",
+          "back": "疑问形容词，必须与名词性数一致：\nquel (阳单) / quelle (阴单)\nquels (阳复) / quelles (阴复)\nQuelles couleurs ? 什么颜色？（couleur 阴性）"
+        },
+        {
+          "id": "1772479727725-zlw6qxf2xrl",
+          "front": "s'il vous plaît / s'il te plaît",
+          "back": "请（礼貌用语）\nvous = 您（正式）/ te = 你（非正式）"
+        },
+        {
+          "id": "1772479727725-qqjeto9wzu",
+          "front": "Il y a bleu, gris ou noir.",
+          "back": "有蓝色、灰色或黑色。\nil y a = 有（存在句）"
+        },
+        {
+          "id": "1772479727725-qlng89iza4i",
+          "front": "Il coûte combien ?",
+          "back": "它多少钱？\ncoûter = 花费、值"
+        },
+        {
+          "id": "1772479727725-igyo3bu1eei",
+          "front": "问价格的三种方式",
+          "back": "1. Il/Ça coûte combien ?\n2. Combien ça coûte ?\n3. Ça fait combien ?（侧重总价/结账）"
+        },
+        {
+          "id": "1772479727725-y0hg0u330eh",
+          "front": "ça coûte combien vs ça fait combien",
+          "back": "ça coûte combien → 偏问单件价格\nça fait combien → 侧重总价、结账时用\nTCF 会考这个区别！"
+        },
+        {
+          "id": "1772479727725-0dt73hm7kon",
+          "front": "cher / bon marché",
+          "back": "贵 / 便宜\nCe n'est pas très cher ! 这不太贵！\n同义：abordable（价格合理）"
+        },
+        {
+          "id": "1772479727725-d1lc5o5fzya",
+          "front": "en taille 38",
+          "back": "38码的\nVous avez le gris en taille 38 ? 灰色的有38码吗？\n询问尺码固定句型"
+        },
+        {
+          "id": "1772479727725-0c304rj9ycvd",
+          "front": "cette robe verte",
+          "back": "这条绿色连衣裙\ncette = 指示形容词（阴性单数）\nverte = vert 的阴性形式"
+        },
+        {
+          "id": "1772479727725-b5xdua7zyp6",
+          "front": "ce / cet / cette / ces",
+          "back": "指示形容词：\nce + 阳性辅音开头：ce pantalon\ncet + 阳性元音开头：cet homme\ncette + 阴性：cette robe\nces + 复数：ces chaussures"
+        },
+        {
+          "id": "1772479727725-zt17vlwqj0g",
+          "front": "Pas du tout !",
+          "back": "完全不！一点也不！\n强否定表达\n⚠️ 不等于「不太」，是「完全不」"
+        },
+        {
+          "id": "1772479727725-1k6a1g1ne3",
+          "front": "un pull",
+          "back": "毛衣（阳性名词）\nce pull = 这件毛衣"
+        },
+        {
+          "id": "1772479727725-2tfhnojhkod",
+          "front": "un pantalon",
+          "back": "裤子（阳性名词）\n⚠️ 法语中 pantalon 是单数形式"
+        },
+        {
+          "id": "1772479727725-mpuac45cs2",
+          "front": "une robe",
+          "back": "连衣裙（阴性名词）\ncette robe verte = 这条绿色连衣裙"
+        },
+        {
+          "id": "1772479727725-bib223jf3b",
+          "front": "Voilà.",
+          "back": "给您 / 就这样\n交钱、递东西时常用\n35 et 59, ça fait 94 euros. — Voilà."
+        },
+        {
+          "id": "1772479727725-px0ititffjd",
+          "front": "35 et 59, ça fait combien ?",
+          "back": "35加59，一共多少钱？\nÇa fait 94 euros.\nTCF 听力可能考数字运算！"
+        }
+      ]
+    },
+    {
+      "id": 1772479366811,
+      "name": "Leçon 7 Shopping单词",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-02T19:22:46.811Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle chante _____ .",
+          "options": [
+            "bon",
+            "bonne",
+            "bien",
+            "mieux"
+          ],
+          "correct": 2,
+          "explanation": "修饰动词 chanter 要用副词 bien，不能用形容词 bon/bonne。mieux 是 bien 的比较级，此处无比较语境。",
+          "category": "bien vs bon"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est une _____ idée !",
+          "options": [
+            "bien",
+            "bon",
+            "bonne",
+            "mieux"
+          ],
+          "correct": 2,
+          "explanation": "idée 是阴性名词，用形容词修饰，bon 的阴性形式是 bonne。bien 是副词，不能直接修饰名词。",
+          "category": "bien vs bon"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de personnes y a-t-il dans la classe ?",
+          "options": [
+            "Combien",
+            "Comment",
+            "Comme",
+            "Quand"
+          ],
+          "correct": 0,
+          "explanation": "问数量用 combien de + 名词。comment 问方式，comme 表\"像\"，quand 问时间。",
+          "category": "combien"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ça coûte _____ , ce sac ?",
+          "options": [
+            "comment",
+            "combien",
+            "comme",
+            "quand"
+          ],
+          "correct": 1,
+          "explanation": "问价格用 combien。Ça coûte combien ? 是购物场景最基础的句型。",
+          "category": "combien"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette robe est très _____ .",
+          "options": [
+            "joli",
+            "jolie",
+            "jolies",
+            "jolis"
+          ],
+          "correct": 1,
+          "explanation": "robe 是阴性单数名词，形容词必须配合为阴性单数 jolie。",
+          "category": "形容词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon _____ ami, comment vas-tu ?",
+          "options": [
+            "chère",
+            "cher",
+            "chères",
+            "chers"
+          ],
+          "correct": 1,
+          "explanation": "ami 是阳性单数，cher 放在名词前表示\"亲爱的\"。chère 是阴性形式。",
+          "category": "cher 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce pull est trop _____ , je ne l'achète pas.",
+          "options": [
+            "chère",
+            "cher",
+            "chères",
+            "chers"
+          ],
+          "correct": 1,
+          "explanation": "pull 是阳性单数，cher 放名词后表\"昂贵的\"，阳性形式 cher。",
+          "category": "cher 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aime _____ le chocolat.",
+          "options": [
+            "très",
+            "beaucoup",
+            "bien sûr",
+            "combien"
+          ],
+          "correct": 1,
+          "explanation": "très 不能修饰动词！修饰动词 aimer 要用 beaucoup。这是 TCF 经典陷阱。",
+          "category": "très vs beaucoup"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Combien _____ argent as-tu ?",
+          "correct": [
+            "d'"
+          ],
+          "explanation": "combien de + 名词，argent 以元音开头，de 缩写为 d'。",
+          "category": "combien de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ du shopping ce week-end.",
+          "options": [
+            "faisons",
+            "faites",
+            "font",
+            "fais"
+          ],
+          "correct": 0,
+          "explanation": "faire 的现在时：nous faisons。注意发音 /fəzɔ̃/，ai 在此读 /ə/。",
+          "category": "faire 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ cette robe très jolie.",
+          "options": [
+            "trouve",
+            "trouver",
+            "trouvé",
+            "trouvais"
+          ],
+          "correct": 0,
+          "explanation": "trouver + 名词 + adj. = 觉得……怎样。主语 je，现在时变位为 trouve。",
+          "category": "trouver 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle _____ faites-vous ?",
+          "options": [
+            "type",
+            "taille",
+            "euro",
+            "robe"
+          ],
+          "correct": 1,
+          "explanation": "Quelle taille faites-vous ? 是问尺码的标准句型。",
+          "category": "购物场景"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ça _____ trois euros. (coûter, présent)",
+          "correct": [
+            "coûte"
+          ],
+          "explanation": "主语 ça 对应第三人称单数，coûter → coûte。",
+          "category": "coûter 变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul _____ Marie sont français.",
+          "options": [
+            "est",
+            "et",
+            "es",
+            "ai"
+          ],
+          "correct": 1,
+          "explanation": "et 是连词\"和\"，连接两个并列主语。est 是 être 的第三人称单数，意思完全不同。",
+          "category": "et vs est"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "C'est bien.",
+            "C'est un bien livre.",
+            "Elle parle très bien.",
+            "J'aime très la France."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A: C'est bien 评价行为，正确。B: bien 不能修饰名词，应为 bon livre。C: très 修饰副词 bien，正确。D: très 不能修饰动词，应为 J'aime beaucoup。",
+          "category": "bien/très 综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Hier, nous avons _____ du shopping. (faire, passé composé)",
+          "correct": [
+            "fait"
+          ],
+          "explanation": "faire 的过去分词是 fait（不规则），助动词用 avoir。",
+          "category": "faire passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle porte une _____ robe noire.",
+          "options": [
+            "joli",
+            "jolie",
+            "beau",
+            "bon"
+          ],
+          "correct": 1,
+          "explanation": "robe 是阴性名词，joli 放名词前要配合为阴性 jolie。joli 属于前置形容词。",
+          "category": "joli 位置与配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Cette robe _____ combien ?\n— Elle _____ 50 euros. Je la _____ très jolie !",
+          "correct": [
+            "coûte",
+            "coûte",
+            "trouve"
+          ],
+          "explanation": "第一空：coûter 第三人称单数 coûte。第二空：同上。第三空：trouver + 名词 + adj.，je 对应 trouve。",
+          "category": "购物综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1C8p9MQ7SMsTNzUbNW2D_Ea3XGzIuOFCbGFy1F0FPzGk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772479433923-mc9oht4gode",
+          "front": "bien (词性 & 含义)",
+          "back": "adv. 好，很，非常，完全\n修饰动词或形容词\nEx: Elle chante très bien."
+        },
+        {
+          "id": "1772479433923-1q2md542g9m",
+          "front": "bien vs bon 怎么区分？",
+          "back": "bien = 副词，修饰动词/形容词\nbon(ne) = 形容词，修饰名词\nEx: Il parle bien. / C'est un bon livre."
+        },
+        {
+          "id": "1772479433923-gc08pnznfia",
+          "front": "C'est bien. 还是 C'est bon. ？",
+          "back": "评价行为/抽象事物 → C'est bien.（做得好/这样对）\n修饰名词 → C'est une bonne idée."
+        },
+        {
+          "id": "1772479433923-askfno8fipj",
+          "front": "bien sûr",
+          "back": "当然\nEx: Tu viens ? — Bien sûr !"
+        },
+        {
+          "id": "1772479433923-2vbm2pqp4xs",
+          "front": "bon(ne) (词性 & 变化)",
+          "back": "adj. 好的，美味的\n阳性 bon /bɔ̃/ → 阴性 bonne /bɔn/"
+        },
+        {
+          "id": "1772479433923-1zmx22fivoii",
+          "front": "Ah bon ?",
+          "back": "是吗？真的吗？\n表示惊讶或怀疑（口语/听力超高频）"
+        },
+        {
+          "id": "1772479433923-y52mr2103je",
+          "front": "cher, chère (两个含义)",
+          "back": "① 名词前 = 亲爱的：mon cher ami\n② 名词后 = 昂贵的：un sac cher\n阴性：chère"
+        },
+        {
+          "id": "1772479433923-0a6rv5nftirk",
+          "front": "coûter cher 中 cher 变不变？",
+          "back": "不变。此时 cher 作副词\nEx: Ça coûte cher."
+        },
+        {
+          "id": "1772479433923-mv2zexilhtq",
+          "front": "combien 问价格怎么说？",
+          "back": "Ça coûte combien ?\n= Combien ça coûte ?"
+        },
+        {
+          "id": "1772479433923-rkmqhi5w4yd",
+          "front": "combien 后接名词，要加什么？",
+          "back": "必须加 de（元音前 d'）\nCombien de personnes ?\nCombien d'argent ?"
+        },
+        {
+          "id": "1772479433923-ui1135yy40a",
+          "front": "coûter (含义 & 关键变位)",
+          "back": "v.i. 值（多少钱），花费\nça coûte = 它花费……\nEx: Ça coûte trois euros."
+        },
+        {
+          "id": "1772479433923-13wvc83colh",
+          "front": "Ça coûte combien ? 的同义表达",
+          "back": "Ça fait combien ?\n（faire 在购物中 = 一共是……）"
+        },
+        {
+          "id": "1772479433923-91m85f5tjtk",
+          "front": "et (发音注意)",
+          "back": "conj. 和，加\n发音 /e/，永远不连诵！\n区分 est /ɛ/（être 三单）"
+        },
+        {
+          "id": "1772479433923-qn2bl40e3pt",
+          "front": "euro (性数)",
+          "back": "n.m. 欧元\n阳性，复数 euros\nEx: cinquante euros"
+        },
+        {
+          "id": "1772479433923-bvb923knj4d",
+          "front": "faire 现在时变位",
+          "back": "je fais, tu fais, il fait\nnous faisons /fəzɔ̃/\nvous faites /fɛt/\nils font"
+        },
+        {
+          "id": "1772479433923-572kdcjn3hn",
+          "front": "faire 过去分词",
+          "back": "fait（不规则）\nEx: J'ai fait du shopping."
+        },
+        {
+          "id": "1772479433923-pp3k9fgyrtj",
+          "front": "faire du shopping",
+          "back": "逛街购物\nEx: Nous faisons du shopping ce week-end."
+        },
+        {
+          "id": "1772479433923-0212hjgzht3l",
+          "front": "gris(e) (阴阳性)",
+          "back": "adj. 灰色的\n阳性 gris → 阴性 grise（s 发音 /z/）\nEx: un pull gris / une robe grise"
+        },
+        {
+          "id": "1772479433923-w3dptfplggq",
+          "front": "joli(e) 放名词前还是后？",
+          "back": "前置形容词（BANGS 类）\nune jolie robe ✅\n阴性加 e：jolie"
+        },
+        {
+          "id": "1772479433923-r4fljumznli",
+          "front": "joli vs beau",
+          "back": "joli = 精致、小巧的好看（更口语）\nbeau/belle = 宏大、壮观的美"
+        },
+        {
+          "id": "1772479433923-9qj9pgjfpnt",
+          "front": "pour (核心用法)",
+          "back": "prép. 为了，对于，给\nC'est pour qui ? 这给谁的？\npour + inf. = 为了做……"
+        },
+        {
+          "id": "1772479433923-ql4r3zxygu",
+          "front": "pull (含义 & 词性)",
+          "back": "n.m. 羊毛套衫\npull-over 的缩写\nEx: un pull gris"
+        },
+        {
+          "id": "1772479433923-kurfs3b4yw",
+          "front": "robe (含义 & 词性)",
+          "back": "n.f. 连衣裙，长外衣\n注意是阴性！\nEx: une robe noire"
+        },
+        {
+          "id": "1772479433923-wmgmhayzq5",
+          "front": "shopping (搭配)",
+          "back": "n.m. 购物\nfaire du shopping = 逛街购物"
+        },
+        {
+          "id": "1772479433923-mh49odkcpj",
+          "front": "taille (购物句型)",
+          "back": "n.f. 尺码，号码\nQuelle taille faites-vous ?\nJe fais du 38."
+        },
+        {
+          "id": "1772479433923-2tyyqdi5ckh",
+          "front": "très 能修饰动词吗？",
+          "back": "❌ 绝对不能！\ntrès 只修饰形容词/副词\n修饰动词用 beaucoup\nJ'aime très → J'aime beaucoup ✅"
+        },
+        {
+          "id": "1772479433923-2uzs0vd8idd",
+          "front": "trouver 的两个含义",
+          "back": "① 找到：Je trouve mes clés.\n② 觉得：Je trouve cette robe jolie.\n结构：trouver + 名词 + adj."
+        },
+        {
+          "id": "1772479433923-z4jvoa9osre",
+          "front": "type (含义 & 词性)",
+          "back": "n.m. 类型，型，种\nEx: Quel type de vêtement cherchez-vous ?"
+        },
+        {
+          "id": "1772479433923-k42jix0rlk9",
+          "front": "hum (用法)",
+          "back": "interj. 嗯！\n表示怀疑、不耐烦或持保留意见\n口语/听力中出现"
+        }
+      ]
+    },
+    {
+      "id": 1772479026874,
+      "name": "指示形容词ce/cet/cette/ces",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-02T19:17:06.874Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ garçon est très intelligent.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 0,
+          "explanation": "garçon 是阳性单数，以辅音 g 开头，用 ce。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ école est grande.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 2,
+          "explanation": "école 是阴性单数，阴性一律用 cette，不管首字母是什么。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ hôtel est confortable.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 1,
+          "explanation": "hôtel 是阳性单数，h 是哑音 h，等同于元音开头，用 cet。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ fleurs sont magnifiques.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 3,
+          "explanation": "fleurs 是复数，复数一律用 ces，不分阴阳。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ amie est française.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 2,
+          "explanation": "amie 是阴性单数。虽然以元音开头，但阴性名词永远用 cette，不能用 cet。这是 TCF 经典陷阱。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ ordinateur ne fonctionne pas.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 1,
+          "explanation": "ordinateur 是阳性单数，以元音 o 开头，用 cet。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ année, je vais apprendre le français.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 2,
+          "explanation": "année 是阴性单数，用 cette。cette année = 今年，是固定时间搭配。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ héros est très courageux.",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette",
+            "Ces"
+          ],
+          "correct": 0,
+          "explanation": "héros 是阳性单数，h 是嘘音 h（h aspiré），视为辅音开头，用 ce 而非 cet。这是 B2 级考点。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle achète une robe. _____ robe coûte 50 euros.",
+          "correct": [
+            "Cette"
+          ],
+          "explanation": "robe 是阴性单数，用 cette。此处 cette 起回指作用，指代上文提到的 une robe。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ matin, je vais à _____ université avec _____ amis.",
+          "correct": [
+            "Ce",
+            "cette",
+            "ces"
+          ],
+          "explanation": "matin 阳性单数辅音开头 → ce；université 阴性单数 → cette；amis 复数 → ces。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些搭配是正确的？",
+          "options": [
+            "cet homme",
+            "cet amie",
+            "cette histoire",
+            "ce enfant"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "cet homme ✅（阳性+哑音h）；cet amie ❌（amie是阴性，必须用cette）；cette histoire ✅（阴性单数）；ce enfant ❌（enfant以元音开头，阳性应用cet）。",
+          "category": "指示形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'aime pas _____ chansons.",
+          "options": [
+            "ce",
+            "cet",
+            "cette",
+            "ces"
+          ],
+          "correct": 3,
+          "explanation": "chansons 是复数，复数统一用 ces。",
+          "category": "指示形容词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/10fT4xci2y0iurzYNHnmS1TZ6NvqX0e9nacAwgmAu_Jo/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772479071244-c3aq6d8fd7b",
+          "front": "阳性单数 + 辅音开头 → 用哪个指示形容词？",
+          "back": "ce\n例：ce garçon, ce livre, ce chat"
+        },
+        {
+          "id": "1772479071244-3ecbi5sit0g",
+          "front": "阳性单数 + 元音开头 → 用哪个指示形容词？",
+          "back": "cet\n例：cet ami, cet ordinateur, cet enfant"
+        },
+        {
+          "id": "1772479071244-gi9vd53abhi",
+          "front": "阳性单数 + 哑音h开头 → 用哪个指示形容词？",
+          "back": "cet\n例：cet hôtel, cet homme, cet hôpital"
+        },
+        {
+          "id": "1772479071244-a7wwz4bief6",
+          "front": "阴性单数 → 用哪个指示形容词？",
+          "back": "cette（不管首字母是什么）\n例：cette fille, cette école, cette amie"
+        },
+        {
+          "id": "1772479071244-3jw5lpf1qud",
+          "front": "复数名词 → 用哪个指示形容词？",
+          "back": "ces（不分阴阳性）\n例：ces enfants, ces fleurs, ces livres"
+        },
+        {
+          "id": "1772479071244-vbb5fjghxd8",
+          "front": "cet 存在的理由是什么？",
+          "back": "为了语音连贯（避免两个元音相撞）\n只用于阳性单数 + 元音/哑音h开头的名词"
+        },
+        {
+          "id": "1772479071244-cvoqm8kys0w",
+          "front": "cette amie 还是 cet amie？",
+          "back": "cette amie ✅\namie 是阴性，阴性永远用 cette，不能用 cet"
+        },
+        {
+          "id": "1772479071244-f0b8spydj8",
+          "front": "ce héros 还是 cet héros？",
+          "back": "ce héros ✅\nhéros 的 h 是嘘音h（h aspiré），视为辅音开头，用 ce"
+        },
+        {
+          "id": "1772479071244-hum127kqkjg",
+          "front": "常见嘘音h词汇有哪些？（用 ce 不用 cet）",
+          "back": "héros, haricot, hasard, honte, haut\n这些词的 h 视为辅音，不做联诵"
+        },
+        {
+          "id": "1772479071244-2fvpo1tf8cs",
+          "front": "cette année 是什么意思？",
+          "back": "今年\ncette + 时间名词 = 离说话时刻最近的时间"
+        },
+        {
+          "id": "1772479071244-lni470vfo6p",
+          "front": "ce matin / ce soir",
+          "back": "今天早晨 / 今晚\n指示形容词 + 时间 = 标记当前时间"
+        },
+        {
+          "id": "1772479071244-jyu2cppo1x9",
+          "front": "cette semaine / ces jours-ci",
+          "back": "这周 / 这几天"
+        },
+        {
+          "id": "1772479071244-8xnt5jcd966",
+          "front": "指示形容词的回指功能是什么？",
+          "back": "指代上文已提到的事物\n例：Elle achète une voiture. Cette voiture coûte cher.\n（她买了一辆车。这辆车很贵。）"
+        },
+        {
+          "id": "1772479071244-ue4ne1qkmb",
+          "front": "TCF 3秒排除法（指示形容词）",
+          "back": "1. 复数 → ces\n2. 阴性单数 → cette\n3. 阳性单数：元音/哑音h → cet；辅音 → ce"
+        },
+        {
+          "id": "1772479071244-68fkt11pxou",
+          "front": "ce vs le 的区别？",
+          "back": "ce = 特指“这个/那个”（指示）\nle = 泛指已知事物（定冠词）\nTCF 常把两者混在选项里"
+        }
+      ]
+    },
+    {
+      "id": 1772478775890,
+      "name": "faire变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-03-02T19:12:55.890Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ du sport tous les matins.",
+          "options": [
+            "faisons",
+            "faisez",
+            "faites",
+            "font"
+          ],
+          "correct": 0,
+          "explanation": "nous 对应 faisons。注意 nous 的变位不是 faisez（这个形式根本不存在），也不是 faites（那是 vous）。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ la cuisine ce soir ?",
+          "options": [
+            "faisez",
+            "faites",
+            "faisons",
+            "fais"
+          ],
+          "correct": 1,
+          "explanation": "vous 对应 faites，这是特殊拼写，绝对不能写成 faisez。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce qu'ils _____ le week-end ?",
+          "options": [
+            "fait",
+            "fais",
+            "faites",
+            "font"
+          ],
+          "correct": 3,
+          "explanation": "ils 对应 font。类似 avoir→ont, aller→vont 的不规则模式。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, j'_____ un gâteau au chocolat.",
+          "options": [
+            "ai fait",
+            "ai fairé",
+            "suis fait",
+            "a fait"
+          ],
+          "correct": 0,
+          "explanation": "faire 的复合过去时用 avoir + fait。过去分词是不规则的 fait，不是 fairé。j' 对应 ai fait。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ leurs devoirs avant le dîner hier.",
+          "options": [
+            "ont fait",
+            "ont fairé",
+            "sont faites",
+            "a fait"
+          ],
+          "correct": 0,
+          "explanation": "elles 对应 ont fait。助动词是 avoir（不是 être），过去分词 fait 在此不需要配合。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, nous _____ faire une promenade.",
+          "options": [
+            "allons",
+            "avons",
+            "faisons",
+            "sommes"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时结构：aller（现在时）+ 动词原形。nous → allons faire。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ très froid aujourd'hui.",
+          "options": [
+            "est",
+            "a",
+            "fait",
+            "va"
+          ],
+          "correct": 2,
+          "explanation": "表示天气用无人称结构 il fait + 形容词。Il fait froid = 天气冷。不用 il est 或 il a。",
+          "category": "天气用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne fait pas _____ natation.",
+          "options": [
+            "de la",
+            "de",
+            "la",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "否定句中，faire + du/de la/de l' 里的部分冠词全部变为 de。ne fait pas DE natation。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (faire) quoi ce week-end ? (现在时)",
+          "correct": [
+            "fais"
+          ],
+          "explanation": "tu 对应 fais，结尾 -s 不发音。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (faire) beau hier, alors on a mangé dehors. (复合过去时)",
+          "correct": [
+            "a fait"
+          ],
+          "explanation": "描述过去的天气，用 il a fait + 形容词。助动词 avoir + 过去分词 fait。",
+          "category": "复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce soir, tu _____ faire tes devoirs avant de jouer.",
+          "options": [
+            "vas",
+            "fais",
+            "as",
+            "es"
+          ],
+          "correct": 0,
+          "explanation": "最近将来时：aller + inf。tu → vas faire。ce soir 提示未来时间。",
+          "category": "最近将来时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 faire 现在时的正确变位？（多选）",
+          "options": [
+            "nous faisez",
+            "vous faites",
+            "ils font",
+            "je fait"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "vous faites ✓（特殊拼写）；ils font ✓。nous faisez 不存在（应为 faisons）；je 对应 fais 不是 fait。",
+          "category": "现在时变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je fais _____ vélo le dimanche.",
+          "options": [
+            "de la",
+            "du",
+            "le",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "faire du vélo（骑车）。vélo 是阳性名词，用缩合冠词 du（= de + le）。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le week-end dernier, Marie _____ (faire, passé composé) la cuisine. Demain, elle _____ (aller + faire, futur proche) les courses.",
+          "correct": [
+            "a fait",
+            "va faire"
+          ],
+          "explanation": "第一空：过去时间标记 le week-end dernier → a fait。第二空：未来标记 demain → va faire。",
+          "category": "时态综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1b74Czx9_0LphH04KoFBn3iFqprJomIQDp-06JwZZkCI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772478834018-q77s9ytjq0e",
+          "front": "faire 的意思",
+          "back": "做、制造（do / make）\n法语第三组不规则动词"
+        },
+        {
+          "id": "1772478834018-jpz8bz4z6s",
+          "front": "je faire → ?（现在时）",
+          "back": "je fais\n发音 /fɛ/，-s 不发音"
+        },
+        {
+          "id": "1772478834018-h0qoc49pq8t",
+          "front": "tu faire → ?（现在时）",
+          "back": "tu fais\n发音 /fɛ/，-s 不发音"
+        },
+        {
+          "id": "1772478834018-97d5f8lkuch",
+          "front": "il/elle/on faire → ?（现在时）",
+          "back": "il/elle/on fait\n发音 /fɛ/，-t 不发音"
+        },
+        {
+          "id": "1772478834018-wh0jctkl769",
+          "front": "nous faire → ?（现在时）",
+          "back": "nous faisons\n⚠️ ai 读 /ə/（“额”），不读 /ɛ/"
+        },
+        {
+          "id": "1772478834018-7f8a4pmwosi",
+          "front": "vous faire → ?（现在时）",
+          "back": "vous faites\n⚠️ 特殊拼写，不是 faisez！"
+        },
+        {
+          "id": "1772478834018-ixyh2yaav7n",
+          "front": "ils/elles faire → ?（现在时）",
+          "back": "ils/elles font\n类似 avoir→ont, aller→vont"
+        },
+        {
+          "id": "1772478834018-8fxrv8l2hdw",
+          "front": "faire 的过去分词是什么？",
+          "back": "fait（不规则）\n不是 fairé 或 faité"
+        },
+        {
+          "id": "1772478834018-3cql7scjc4p",
+          "front": "faire 复合过去时用哪个助动词？",
+          "back": "avoir\nj'ai fait, tu as fait, il a fait..."
+        },
+        {
+          "id": "1772478834018-h3mnly3s4ns",
+          "front": "nous faire → ?（复合过去时）",
+          "back": "nous avons fait"
+        },
+        {
+          "id": "1772478834018-t3cvuc6f3cd",
+          "front": "elles faire → ?（复合过去时）",
+          "back": "elles ont fait"
+        },
+        {
+          "id": "1772478834018-m4bg8svfyh",
+          "front": "je faire → ?（最近将来时）",
+          "back": "je vais faire\naller（现在时）+ faire"
+        },
+        {
+          "id": "1772478834018-xxqn2qtco8d",
+          "front": "nous faire → ?（最近将来时）",
+          "back": "nous allons faire"
+        },
+        {
+          "id": "1772478834018-ux14gucj1ln",
+          "front": "「做作业」法语怎么说？",
+          "back": "faire les devoirs"
+        },
+        {
+          "id": "1772478834018-70jrm4pq6xa",
+          "front": "「做饭」法语怎么说？",
+          "back": "faire la cuisine"
+        },
+        {
+          "id": "1772478834018-5rc0ffr8sbf",
+          "front": "「做蛋糕」法语怎么说？",
+          "back": "faire un gâteau"
+        },
+        {
+          "id": "1772478834018-8pv1v1nyt9k",
+          "front": "「做运动」法语怎么说？",
+          "back": "faire du sport\n注意介词用 du（缩合冠词）"
+        },
+        {
+          "id": "1772478834018-483kiqqxiay",
+          "front": "「天气好」法语怎么说？",
+          "back": "Il fait beau.\nil 是无人称主语"
+        },
+        {
+          "id": "1772478834018-mjt63g3sm6o",
+          "front": "「天气冷」法语怎么说？",
+          "back": "Il fait froid."
+        },
+        {
+          "id": "1772478834018-wk5rasb5z39",
+          "front": "「天气热」法语怎么说？",
+          "back": "Il fait chaud."
+        },
+        {
+          "id": "1772478834018-iyzop524opc",
+          "front": "faire + 运动，肯定句用什么冠词？",
+          "back": "du / de la / de l'\nfaire du vélo, faire de la natation"
+        },
+        {
+          "id": "1772478834018-t9awa40lo4b",
+          "front": "faire + 运动，否定句冠词怎么变？",
+          "back": "全部变为 de\nJe ne fais pas de sport."
+        },
+        {
+          "id": "1772478834018-1wfv0gsmtrj",
+          "front": "「骑车」法语怎么说？",
+          "back": "faire du vélo"
+        },
+        {
+          "id": "1772478834018-ic36c7ojonh",
+          "front": "「游泳」（活动）法语怎么说？",
+          "back": "faire de la natation"
+        },
+        {
+          "id": "1772478834018-0ke7x7593bk",
+          "front": "faire + 不定式 = ？",
+          "back": "使役结构：让某人做某事\nJe fais réparer la voiture.（我让人修车）"
+        },
+        {
+          "id": "1772478834018-kwveb70oj7",
+          "front": "je fais / tu fais / il fait 发音一样吗？",
+          "back": "一样！都读 /fɛ/\n听力题靠上下文判断人称"
+        },
+        {
+          "id": "1772478834018-x3mlpgycxtb",
+          "front": "TCF 时间标记判断：hier → ?",
+          "back": "用复合过去时（passé composé）\nIl a fait beau hier."
+        },
+        {
+          "id": "1772478834018-ksnsvviu68d",
+          "front": "TCF 时间标记判断：demain → ?",
+          "back": "用最近将来时（futur proche）\nJe vais faire les courses demain."
+        }
+      ]
+    },
+    {
       "id": 1772475269469,
       "name": "Leçon 6 Portrait-robot课文",
       "folderId": "1770747190002",
@@ -67245,6 +68557,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-02T18:16:05.913Z",
+  "exportedAt": "2026-03-02T19:28:50.006Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
