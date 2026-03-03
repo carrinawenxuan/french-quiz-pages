@@ -1,6 +1,1511 @@
 {
   "savedSets": [
     {
+      "id": 1772567196011,
+      "name": "习语：Se mettre en quatre pour quelqu'un",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-03T19:46:36.011Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "« Se mettre en quatre pour quelqu'un » signifie :",
+          "options": [
+            "Diviser un groupe en quatre équipes",
+            "Faire tout son possible pour aider une personne",
+            "Hésiter longtemps avant d'agir",
+            "Se mettre en colère contre quelqu'un"
+          ],
+          "correct": 1,
+          "explanation": "该习语意为\"竭尽全力帮助某人\"，与字面意思\"分成四块\"无关。选项 0 是字面陷阱，选项 2、3 完全无关。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma mère _____ en quatre pour préparer mon anniversaire.",
+          "options": [
+            "s'est mis",
+            "s'est mise",
+            "s'est mises",
+            "s'est mets"
+          ],
+          "correct": 1,
+          "explanation": "主语 ma mère 是阴性单数，过去分词需性数配合：mise。选项 0 是阳性形式，选项 2 是阴性复数，选项 3 变位错误。",
+          "category": "代词式动词变位+性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression est synonyme de « se mettre en quatre » ?",
+          "options": [
+            "Faire la grasse matinée",
+            "Faire tout son possible",
+            "Mettre la charrue avant les bœufs",
+            "Avoir le cafard"
+          ],
+          "correct": 1,
+          "explanation": "faire tout son possible = 竭尽全力，与 se mettre en quatre 同义。选项 0 = 睡懒觉，选项 2 = 本末倒置，选项 3 = 心情低落。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Bien qu'il _____ en quatre pour ses clients, personne ne le remercie.",
+          "options": [
+            "se met",
+            "se mette",
+            "s'est mis",
+            "se mettra"
+          ],
+          "correct": 1,
+          "explanation": "bien que 后面必须接虚拟式（subjonctif），se mettre 虚拟式第三人称单数为 se mette。这是 B2 级语法陷阱。",
+          "category": "虚拟式触发"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous nous _____ en quatre pour finir ce projet avant vendredi.",
+          "options": [
+            "mettons",
+            "mettez",
+            "mets",
+            "mettrons"
+          ],
+          "correct": 0,
+          "explanation": "nous 对应 mettons（现在时）。选项 1 是 vous 的变位，选项 2 是 je/tu，选项 3 是简单将来时。",
+          "category": "代词式动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils se sont _____ en quatre pour accueillir les invités.",
+          "options": [
+            "mis",
+            "mise",
+            "mises",
+            "mettent"
+          ],
+          "correct": 0,
+          "explanation": "主语 ils 是阳性复数，代词式动词复合过去时过去分词配合主语：mis（阳性复数形式与阳性单数相同）。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达可以替换 « se mettre en quatre » ？（多选）",
+          "options": [
+            "faire des pieds et des mains",
+            "se décarcasser",
+            "avoir le cœur sur la main",
+            "faire tout son possible"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "选项 0（费尽周折）、1（拼命干）、3（竭尽全力）都表示\"全力以赴\"。选项 2 意为\"慷慨大方\"，侧重性格而非行为，不能直接替换。",
+          "category": "近义辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ en quatre pour que tout soit parfait. (se mettre, passé composé)",
+          "correct": [
+            "s'est mise"
+          ],
+          "explanation": "主语 elle 阴性单数，复合过去时：s'est mise。注意过去分词 mise 的阴性配合。",
+          "category": "代词式动词复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Mon père se met en quatre pour nous », « en quatre » signifie :",
+          "options": [
+            "en quatre morceaux (sens littéral)",
+            "de manière excessive",
+            "de toutes les façons possibles",
+            "en quatre heures"
+          ],
+          "correct": 2,
+          "explanation": "en quatre 在此习语中是比喻用法，意为\"用一切可能的方式\"，不是字面的\"分成四块\"或\"四小时内\"。",
+          "category": "习语深层理解"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, mes parents _____ (se mettre, passé composé) en quatre pour organiser la fête. Aujourd'hui, je _____ (se mettre, présent) en quatre pour les remercier.",
+          "correct": [
+            "se sont mis",
+            "me mets"
+          ],
+          "explanation": "第一空：mes parents 阳性复数复合过去时 → se sont mis；第二空：je 现在时 → me mets。",
+          "category": "综合变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1RLUk5VzTv25dHuIFh4IUGDoaciBa11VheVWOLnAKFI8/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772567249469-mneq74s22pc",
+          "front": "se mettre en quatre pour qqn",
+          "back": "竭尽全力帮助某人\n= faire tout son possible pour une personne"
+        },
+        {
+          "id": "1772567249469-p1ei13w9bmc",
+          "front": "se mettre en quatre 的字面画面",
+          "back": "把自己“分成四块”——用夸张的画面记忆“不遗余力”"
+        },
+        {
+          "id": "1772567249469-s5340ikgu2n",
+          "front": "je _____ en quatre (présent)",
+          "back": "je me mets en quatre"
+        },
+        {
+          "id": "1772567249469-c76iev997c",
+          "front": "elle _____ en quatre (passé composé)",
+          "back": "elle s'est mise en quatre\n（注意 mise 阴性配合）"
+        },
+        {
+          "id": "1772567249469-ovox317i4c",
+          "front": "nous _____ en quatre (présent)",
+          "back": "nous nous mettons en quatre"
+        },
+        {
+          "id": "1772567249469-pmw7ssflpba",
+          "front": "ils _____ en quatre (passé composé)",
+          "back": "ils se sont mis en quatre\n（mis 阳性复数，形式同单数）"
+        },
+        {
+          "id": "1772567249469-gjmpu68gbge",
+          "front": "bien que + se mettre → 什么语式？",
+          "back": "虚拟式 subjonctif\nbien qu'il se mette en quatre..."
+        },
+        {
+          "id": "1772567249469-snel12sz9x",
+          "front": "se mettre en quatre 的近义表达（3个）",
+          "back": "1. faire tout son possible（通用）\n2. faire des pieds et des mains（口语，费尽周折）\n3. se décarcasser（口语，拼命干）"
+        },
+        {
+          "id": "1772567249469-j9uzlgpmc8r",
+          "front": "se mettre en quatre vs faire des pieds et des mains 区别",
+          "back": "se mettre en quatre → 侧重为“某个人”付出（pour + 人）\nfaire des pieds et des mains → 侧重为“达成某事”费尽周折（pour + 动词不定式）"
+        },
+        {
+          "id": "1772567249469-yc1uxu3p4u",
+          "front": "remuer ciel et terre",
+          "back": "翻天覆地 / 竭尽全力（文学/夸张语域）\n比 se mettre en quatre 语气更强"
+        },
+        {
+          "id": "1772567249469-7pfmaj2o3ou",
+          "front": "se décarcasser",
+          "back": "拼命干、使劲折腾（familier 口语）\n近义于 se mettre en quatre"
+        },
+        {
+          "id": "1772567249469-jfeh3exg7tp",
+          "front": "TCF 陷阱：se mettre en quatre 的字面干扰项",
+          "back": "❌ 分成四组\n❌ 犹豫不决\n✅ 正确理解：竭尽全力"
+        },
+        {
+          "id": "1772567249469-hc1c5kgs6zp",
+          "front": "Ma mère s'est mise en quatre pour moi.",
+          "back": "我妈妈为我竭尽全力。\n（mise：阴性过去分词配合 ma mère）"
+        },
+        {
+          "id": "1772567249469-677ya0h7lfm",
+          "front": "se mettre en quatre 在 TCF 口语中的价值",
+          "back": "自然使用该习语 = B2+ 水平标志\n口语表达加分项"
+        }
+      ]
+    },
+    {
+      "id": 1772566944538,
+      "name": "TCF A2-Leçon 2 写作 Tàche 2",
+      "folderId": "1772566472155",
+      "createdAt": "2026-03-03T19:42:24.538Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "J'apprends le français _____ 8 ans.",
+          "options": [
+            "il y a",
+            "pendant",
+            "depuis",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "depuis + 时间段，动作持续到现在 → 用现在时 + depuis。il y a 表示\"……之前\"，pendant 表示\"持续了（已结束）\"，都不符合语境。",
+          "category": "depuis 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais petit, je _____ souvent au parc.",
+          "options": [
+            "suis allé",
+            "vais",
+            "allais",
+            "irai"
+          ],
+          "correct": 2,
+          "explanation": "quand j'étais petit + souvent → 过去的习惯性动作 → imparfait。allais 是 aller 的 imparfait 第一人称。",
+          "category": "imparfait 习惯"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ quand soudain le téléphone a sonné.",
+          "options": [
+            "a dormi",
+            "dormait",
+            "dort",
+            "va dormir"
+          ],
+          "correct": 1,
+          "explanation": "经典句型：背景动作（imparfait）+ quand + 突发动作（passé composé）。dormait 是正在进行的背景。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Hier, elle _____ à participer à un atelier de français.",
+          "options": [
+            "commençait",
+            "commence",
+            "a commencé",
+            "commencera"
+          ],
+          "correct": 2,
+          "explanation": "hier 是明确的过去时间点，且\"开始参加\"是一次性动作 → passé composé。",
+          "category": "passé composé 一次性动作"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Grâce à cette expérience, nous _____ de nouveaux amis.",
+          "options": [
+            "nous faisons",
+            "nous sommes fait",
+            "nous sommes faits",
+            "nous nous sommes fait"
+          ],
+          "correct": 3,
+          "explanation": "se faire 是代词式动词，passé composé 用 être 助动词 + 代词 nous。\"de nouveaux amis\" 是直接宾语在动词后，fait 不配合 → nous nous sommes fait。",
+          "category": "代词式动词 passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Au début, ce _____ pas très utile.",
+          "options": [
+            "n'est",
+            "n'a été",
+            "n'était",
+            "ne sera"
+          ],
+          "correct": 2,
+          "explanation": "Au début 引出过去一段时期的状态描述 → imparfait。否定结构：ne + était + pas。",
+          "category": "imparfait 状态描述"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai travaillé à Montréal _____ 5 ans. Maintenant, j'habite à Toronto.",
+          "options": [
+            "depuis",
+            "pendant",
+            "il y a",
+            "pour"
+          ],
+          "correct": 1,
+          "explanation": "动作已结束（现在住多伦多了）→ passé composé + pendant。depuis 表示动作延续到现在，不符合。",
+          "category": "pendant vs depuis"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand il était jeune, il _____ toujours des difficultés à communiquer.",
+          "options": [
+            "a eu",
+            "a",
+            "avait",
+            "aura"
+          ],
+          "correct": 2,
+          "explanation": "quand il était jeune + toujours → 过去持续存在的状态 → imparfait。avait 是 avoir 的 imparfait 第三人称。",
+          "category": "imparfait 持续状态"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子应该使用未完成过去时（imparfait）？",
+          "options": [
+            "Il faisait beau ce jour-là.（那天天气很好）",
+            "Soudain, il a commencé à pleuvoir.（突然下起了雨）",
+            "D'habitude, elle prenait le bus.（她通常坐公交）",
+            "Un jour, j'ai décidé de partir.（有一天我决定离开）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 是背景天气描述 → imparfait；C 是 d'habitude 引导的过去习惯 → imparfait。B 有 soudain（突然），D 有 un jour（有一天），都是一次性事件 → passé composé。",
+          "category": "imparfait 判断"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些时间标志词通常搭配 passé composé？",
+          "options": [
+            "pendant",
+            "toujours",
+            "soudain",
+            "chaque matin"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "pendant（持续了，已结束）和 soudain（突然）→ 一次性/已完成动作 → passé composé。toujours 和 chaque matin 表示习惯/重复 → imparfait。",
+          "category": "时间标志词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (se lever) à 7 h chaque matin quand elle était étudiante.",
+          "correct": [
+            "se levait"
+          ],
+          "explanation": "chaque matin + quand elle était étudiante → 过去的重复性习惯 → imparfait。se lever 第三人称 imparfait：se levait。",
+          "category": "imparfait 习惯动作"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ à cette expérience, j'ai beaucoup progressé en français.",
+          "correct": [
+            "Grâce"
+          ],
+          "explanation": "后面是正面结果（进步了）→ 用 Grâce à（多亏了）。如果是负面结果才用 À cause de。",
+          "category": "Grâce à vs À cause de"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Hier soir, je _____ (se faire) un nouvel ami à la fête.",
+          "correct": [
+            "me suis fait"
+          ],
+          "explanation": "hier soir → 过去一次性事件 → passé composé。se faire 用 être 助动词：je me suis fait。un nouvel ami 在动词后，fait 不配合。",
+          "category": "代词式动词 passé composé"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand j'étais jeune, j' _____ (habiter) à Lyon. Chaque été, nous _____ (aller) à la mer. Un jour, mon père _____ (décider) de déménager à Paris. Grâce à ce changement, j' _____ (rencontrer) ma meilleure amie.",
+          "correct": [
+            "habitais",
+            "allions",
+            "a décidé",
+            "ai rencontré"
+          ],
+          "explanation": "habitais → 过去持续的状态（imparfait）；allions → chaque été 重复习惯（imparfait）；a décidé → un jour 一次性决定（passé composé）；ai rencontré → 一次性结果（passé composé）。这就是典型叙事逻辑：imparfait 铺背景 → passé composé 推情节。",
+          "category": "imparfait vs passé composé 综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ (faire) froid dehors. Marie _____ (lire) un livre tranquillement. Tout à coup, quelqu'un _____ (frapper) à la porte. Elle _____ (se lever) et _____ (ouvrir) la porte.",
+          "correct": [
+            "faisait",
+            "lisait",
+            "a frappé",
+            "s'est levée",
+            "a ouvert"
+          ],
+          "explanation": "faisait → 天气背景描述（imparfait）；lisait → 正在进行的延续动作（imparfait）；a frappé → tout à coup 突发事件（passé composé）；s'est levée → 一次性反应动作（passé composé），主语 Marie 是女性所以加 e；a ouvert → 紧接的一次性动作（passé composé）。",
+          "category": "imparfait vs passé composé 叙事"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1FH5pMCj1krGvYLBmAWpccWqNGYKU4wkBI7PCcgbF3Sg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772567026768-se212zgldv",
+          "front": "depuis + 时间段，动作仍持续到现在 → 用什么时态？",
+          "back": "直陈式现在时\n例：J'apprends le français depuis 8 ans."
+        },
+        {
+          "id": "1772567026768-pl6dc30j7a",
+          "front": "pendant + 时间段 → 表示什么？搭配什么时态？",
+          "back": "表示动作持续了多久但已结束 → passé composé\n例：J'ai travaillé à Montréal pendant 5 ans."
+        },
+        {
+          "id": "1772567026768-2ryc2benoef",
+          "front": "il y a + 时间段 → 表示什么？",
+          "back": "表示“……之前”，搭配 passé composé\n例：J'ai commencé il y a 3 ans.（我3年前开始的）"
+        },
+        {
+          "id": "1772567026768-506azvjv1uq",
+          "front": "Imparfait 的三大功能是什么？",
+          "back": "1. 描述背景/状态/天气/感受\n2. 重复/习惯性动作\n3. 延续性动作（正在进行中）"
+        },
+        {
+          "id": "1772567026768-fqt5aop89t",
+          "front": "Passé composé 的三大功能是什么？",
+          "back": "1. 叙述具体的一次性事件\n2. 突然发生的动作\n3. 已完成的结果"
+        },
+        {
+          "id": "1772567026768-zy1o3r5p8u",
+          "front": "经典句型：Il mangeait quand elle a frappé à la porte.\n两个时态分别是什么？为什么？",
+          "back": "mangeait → imparfait（正在进行的背景动作）\na frappé → passé composé（突然插入的一次性动作）"
+        },
+        {
+          "id": "1772567026768-iw0qev6in3",
+          "front": "Imparfait 时间标志词（4个）",
+          "back": "toujours, souvent, chaque jour/matin, d'habitude\n都表示过去的习惯或重复"
+        },
+        {
+          "id": "1772567026768-sjctyr9kgd9",
+          "front": "Passé composé 时间标志词（5个）",
+          "back": "pendant, il y a, soudain, tout à coup, un jour, hier\n都指向一次性/已完成的事件"
+        },
+        {
+          "id": "1772567026768-90jjl9pu96",
+          "front": "Grâce à 和 À cause de 的区别",
+          "back": "Grâce à → 正面原因（多亏了）\nÀ cause de → 负面原因（因为……）\n例：Grâce à cette expérience, j'ai progressé."
+        },
+        {
+          "id": "1772567026768-k0u7jot5wpp",
+          "front": "se faire 的 passé composé（je）",
+          "back": "je me suis fait(e)\n代词式动词一律用 être 作助动词"
+        },
+        {
+          "id": "1772567026768-tlaeggoz5ii",
+          "front": "se lever 的 imparfait（elle）",
+          "back": "elle se levait\nimparfait 词干：lev- + 词尾：-ais, -ais, -ait, -ions, -iez, -aient"
+        },
+        {
+          "id": "1772567026768-qtjd1tckq6",
+          "front": "代词式动词 passé composé 的过去分词什么时候需要性数配合？",
+          "back": "只有当直接宾语在动词前面时才配合\n例：Elle s'est levée.（se = 直接宾语，前置 → 配合）\n但：Je me suis fait de nouveaux amis.（amis 在后 → 不配合）"
+        },
+        {
+          "id": "1772567026768-9d9b432llqj",
+          "front": "叙事文时态逻辑口诀",
+          "back": "Imparfait 铺背景 → Passé composé 推情节\n先描述当时的状态/环境/习惯，再叙述发生了什么事件/转折/结果"
+        },
+        {
+          "id": "1772567026768-1le6stifw2s",
+          "front": "Au début, j'utilisais... 为什么用 imparfait？",
+          "back": "Au début 引出过去一段时期的持续性习惯/状态，没有明确起止点 → imparfait"
+        },
+        {
+          "id": "1772567026768-8z8es9t9zyi",
+          "front": "Alors, j'ai commencé... 为什么用 passé composé？",
+          "back": "Alors 标志叙事转折，引入一个新的一次性决定/行动 → passé composé"
+        },
+        {
+          "id": "1772567026768-89rtyipenq3",
+          "front": "depuis + imparfait 表示什么？（高级用法）",
+          "back": "在过去某个时间点回看，当时仍在持续的动作\n例：Je travaillais à Wuhan depuis 10 ans.（那时候我已经在武汉工作10年了）"
+        },
+        {
+          "id": "1772567026768-j300sk2r8q",
+          "front": "quand + imparfait vs quand + passé composé",
+          "back": "quand + imparfait → 每当……（习惯）\nquand + passé composé → 当……的时候（突发打断前面的 imparfait 背景）"
+        },
+        {
+          "id": "1772567026768-u1i6ddpyxg",
+          "front": "判断时态的3秒排除法",
+          "back": "1. 有 depuis 且动作还在？→ 现在时\n2. 是背景/习惯/状态？→ imparfait\n3. 是事件/转折/结果？→ passé composé"
+        }
+      ]
+    },
+    {
+      "id": 1772566508730,
+      "name": "TCF A2-Leçon 2 写作 Tàche 1",
+      "folderId": "1772566472155",
+      "createdAt": "2026-03-03T19:35:08.730Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "你想邀请朋友来参加周末派对，以下哪个表达最地道？",
+          "options": [
+            "Tu veux venir à ma fête ?",
+            "Ça te dirait de venir à ma fête ?",
+            "Tu dois venir à ma fête.",
+            "Viens à ma fête."
+          ],
+          "correct": 1,
+          "explanation": "Ça te dirait de + inf. 是条件式邀请，委婉地道。Tu veux 太直接，Tu dois 是命令，Viens 是祈使句，都不够礼貌。",
+          "category": "邀请表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在正式咨询信中，以下哪个开头最合适？",
+          "options": [
+            "Salut, je veux savoir...",
+            "Bonjour, tu peux me dire...",
+            "Madame, Monsieur, je vous écris pour obtenir des informations sur...",
+            "Coucou, j'aimerais savoir..."
+          ],
+          "correct": 2,
+          "explanation": "正式信必须用 vous，称呼用 Madame, Monsieur。Salut/Coucou/tu 都是非正式语域，用在正式信中直接扣分。",
+          "category": "语域判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je te _____ de visiter ce musée, il est magnifique.",
+          "options": [
+            "conseille",
+            "conseil",
+            "conseilles",
+            "conseillez"
+          ],
+          "correct": 0,
+          "explanation": "主语 je → conseille（第一人称单数）。conseil 是名词不是动词，conseilles 是 tu 的变位，conseillez 是 vous 的变位。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "正式信结尾，以下哪个表达最得体？",
+          "options": [
+            "Bisous",
+            "À bientôt",
+            "Bien cordialement",
+            "Salut"
+          ],
+          "correct": 2,
+          "explanation": "Bien cordialement 是正式信标准结尾。Bisous（亲亲）、À bientôt（再见）、Salut（嗨）都是非正式用语。",
+          "category": "语域判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ me donner plus d'informations sur vos cours ?",
+          "options": [
+            "Peux-tu",
+            "Pourriez-vous",
+            "Tu pourrais",
+            "Pouvez-tu"
+          ],
+          "correct": 1,
+          "explanation": "正式信用 vous + 条件式倒装 = Pourriez-vous。Peux-tu 和 Tu pourrais 是非正式的 tu。Pouvez-tu 是 vous 动词配 tu 主语，语法错误。",
+          "category": "正式表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aimerais t'inviter _____ mon anniversaire.",
+          "options": [
+            "pour",
+            "de",
+            "à",
+            "sur"
+          ],
+          "correct": 2,
+          "explanation": "inviter qqn à qqch = 邀请某人参加某事。介词必须用 à，不是 pour/de/sur。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪句用于表达「我刚找到一份工作」？",
+          "options": [
+            "Je vais trouver un travail.",
+            "Je viens de trouver un travail.",
+            "Je trouve un travail.",
+            "J'ai trouvé un travail hier."
+          ],
+          "correct": 1,
+          "explanation": "venir de + inf. = 刚刚做了某事（passé récent）。Je vais trouver = 将要找到（futur proche）。Je trouve = 现在时。J'ai trouvé hier = 昨天找到的（passé composé + 时间标记）。",
+          "category": "时态辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "投诉信中，「不幸地，我遇到了一些问题」最佳翻译是：",
+          "options": [
+            "Je suis en colère parce que j'ai des problèmes.",
+            "Malheureusement, j'ai rencontré plusieurs problèmes.",
+            "J'ai beaucoup de problèmes, c'est nul !",
+            "Il y a des problèmes et je suis fâché."
+          ],
+          "correct": 1,
+          "explanation": "Malheureusement + j'ai rencontré（passé composé）是正式投诉的标准表达。其他选项要么太口语（c'est nul）、要么太情绪化（en colère / fâché），不适合正式信。",
+          "category": "投诉表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais _____ si les frais d'inscription sont inclus.",
+          "options": [
+            "connaître",
+            "savoir",
+            "comprendre",
+            "apprendre"
+          ],
+          "correct": 1,
+          "explanation": "savoir si... = 知道是否……（接从句）。connaître 后面接名词（认识某人/某物），不能接 si 从句。comprendre = 理解，apprendre = 学习，语义不对。savoir vs connaître 是 TCF 高频考点。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'appartement se situe _____ proximité des transports en commun.",
+          "options": [
+            "en",
+            "dans la",
+            "à",
+            "de"
+          ],
+          "correct": 2,
+          "explanation": "à proximité de = 在……附近，固定搭配，介词必须是 à。不能用 en/dans la/de。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪个连接词表示「确认/补充」而非「转折/纠正」？",
+          "options": [
+            "en fait",
+            "pourtant",
+            "en effet",
+            "cependant"
+          ],
+          "correct": 2,
+          "explanation": "en effet = 事实上（确认/补充）。en fait = 实际上（转折/纠正）。pourtant 和 cependant 都表示转折（然而）。",
+          "category": "连接词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "正式信中，「我随时等候您的安排」怎么说？",
+          "options": [
+            "Dis-moi ce que tu en penses.",
+            "N'hésite pas à me contacter.",
+            "Je reste à votre disposition pour tout renseignement complémentaire.",
+            "J'attends ta réponse."
+          ],
+          "correct": 2,
+          "explanation": "Je reste à votre disposition... 是正式信标准收尾。其他三个都是非正式的 tu 语域或口语表达。",
+          "category": "正式表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je t'écris _____ t'inviter à ma fête d'anniversaire.",
+          "correct": [
+            "pour"
+          ],
+          "explanation": "pour + infinitif 表示目的（为了……）。Je t'écris pour t'inviter = 我写信是为了邀请你。",
+          "category": "介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Malheureusement, j'ai _____ plusieurs problèmes durant mon séjour.",
+          "correct": [
+            "rencontré"
+          ],
+          "explanation": "rencontrer un problème = 遇到问题（固定搭配）。j'ai rencontré = passé composé，助动词 avoir + 过去分词。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le loyer _____ de 800 dollars par mois.",
+          "correct": [
+            "est"
+          ],
+          "explanation": "est de + 价格 = 表示价格的固定结构。Le loyer est de 800 dollars = 租金是800美元。",
+          "category": "固定结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ de trouver un nouvel appartement. (刚刚找到)",
+          "correct": [
+            "viens"
+          ],
+          "explanation": "venir de + inf. = 刚刚做了某事（passé récent）。主语 je → viens。",
+          "category": "时态"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些表达适合用在正式信的结尾？（多选）",
+          "options": [
+            "Bisous",
+            "Bien cordialement",
+            "Je vous prie d'agréer mes salutations distinguées",
+            "À bientôt"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "Bien cordialement 和 Je vous prie d'agréer... 是正式结尾。Bisous（亲亲）和 À bientôt（再见）是非正式结尾，用在正式信中语域不当。",
+          "category": "语域判断"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些句型可以用来在正式信中提出请求？（多选）",
+          "options": [
+            "Pourriez-vous me préciser...",
+            "Tu peux me dire...",
+            "Je souhaiterais que vous puissiez...",
+            "Dis-moi si..."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "Pourriez-vous（条件式+倒装）和 Je souhaiterais que vous puissiez（条件式+虚拟式）都是正式请求句型。Tu peux 和 Dis-moi 是非正式的 tu 语域。",
+          "category": "正式表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Salut Marc,\n\nJ'espère que tu vas bien ! Je t'écris _____ t'inviter à un pique-nique. Ça _____ le samedi 15 juin au parc. Ça te _____ de venir ? N'hésite pas à me _____ si tu es disponible.\n\nÀ bientôt,\nAshley",
+          "correct": [
+            "pour",
+            "se passera",
+            "dirait",
+            "dire"
+          ],
+          "explanation": "pour t'inviter = 为了邀请你；se passera = se passer 简单将来时（将举行）；dirait = dire 条件式（Ça te dirait = 你想不想）；dire = N'hésite pas à me dire（别犹豫告诉我）。",
+          "category": "邀请信综合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Madame, Monsieur,\n\nJe vous _____ concernant mon séjour récent dans votre hôtel. _____, j'ai rencontré plusieurs problèmes. _____, la chambre n'était pas propre. Cette situation m'a causé une grande _____.\n\nBien cordialement,\nAshley",
+          "correct": [
+            "écris",
+            "Malheureusement",
+            "En effet",
+            "déception"
+          ],
+          "explanation": "Je vous écris concernant = 我写信关于……；Malheureusement = 不幸地（引出问题）；En effet = 事实上（展开细节）；déception = 失望（causer une grande déception = 造成很大失望）。",
+          "category": "投诉信综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1N1O7QTtZKljsm5cAd2JpsI-gYbPFvfY6-DoNV8SZEPg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772566588250-hwnsiuxghsf",
+          "front": "非正式信开头寒暄（固定句）",
+          "back": "J'espère que tu vas bien !\n意思：希望你一切都好！"
+        },
+        {
+          "id": "1772566588250-mneni7r6rud",
+          "front": "正式信开头寒暄（固定句）",
+          "back": "J'espère que vous allez bien.\n意思：希望您一切都好。"
+        },
+        {
+          "id": "1772566588250-ot5ctsz49",
+          "front": "非正式信：表达写信目的（邀请）",
+          "back": "Je t'écris pour t'inviter à...\n意思：我写信是为了邀请你……"
+        },
+        {
+          "id": "1772566588250-p560nkydsj",
+          "front": "正式信：表达写信目的（咨询）",
+          "back": "Je vous écris pour obtenir des informations sur...\n意思：我写信是为了获取关于……的信息。"
+        },
+        {
+          "id": "1772566588250-hog5u02iue",
+          "front": "正式信：表达写信目的（投诉/关于）",
+          "back": "Je vous écris concernant...\n意思：我写信是关于……\nconcernant 比 pour 更正式"
+        },
+        {
+          "id": "1772566588250-ohvzp50n64r",
+          "front": "委婉邀请：「你想不想来……？」",
+          "back": "Ça te dirait de + inf. ?\n例：Ça te dirait de venir chez moi samedi ?\n注意：dirait 是 dire 的条件式"
+        },
+        {
+          "id": "1772566588250-d9a7w84zgsa",
+          "front": "委婉邀请：「我想邀请你……」",
+          "back": "J'aimerais t'inviter à...\n例：J'aimerais t'inviter à ma fête.\naimerais = aimer 条件式现在时"
+        },
+        {
+          "id": "1772566588250-yn96ouzyycd",
+          "front": "礼貌询问：「你有空……吗？」",
+          "back": "Serais-tu disponible pour... ?\n例：Serais-tu disponible pour un dîner samedi ?\nserais = être 条件式 + 倒装"
+        },
+        {
+          "id": "1772566588250-i2orrefn73",
+          "front": "给建议：「我建议你……」",
+          "back": "Je te conseille de + inf.\n例：Je te conseille de prendre le métro.\n注意介词是 de，不是 à"
+        },
+        {
+          "id": "1772566588250-o2nj6pryv3",
+          "front": "给建议：「如果你愿意，我们可以……」",
+          "back": "Si tu veux, on peut + inf.\n例：Si tu veux, on peut y aller ensemble."
+        },
+        {
+          "id": "1772566588250-9vjxqs0svxc",
+          "front": "给建议：「这是个很好的选择因为……」",
+          "back": "C'est un excellent choix parce que...\n例：C'est un excellent choix parce que les prix sont raisonnables."
+        },
+        {
+          "id": "1772566588250-36514ngqjn7",
+          "front": "正式咨询：「我想知道是否……」",
+          "back": "Je voudrais savoir si...\n例：Je voudrais savoir si les cours sont gratuits.\nvoudrais = vouloir 条件式"
+        },
+        {
+          "id": "1772566588250-19oiwz7ppu7",
+          "front": "正式咨询：「您能否告诉我……？」",
+          "back": "Pourriez-vous me préciser si... ?\n例：Pourriez-vous me préciser si l'appartement est meublé ?\npourriez = pouvoir 条件式 + 倒装"
+        },
+        {
+          "id": "1772566588250-frg7k3uz69",
+          "front": "正式咨询（B2加分）：「我希望获得关于……的信息」",
+          "back": "Je souhaiterais obtenir des renseignements sur...\nsouhaiterais = souhaiter 条件式"
+        },
+        {
+          "id": "1772566588250-d1culntig9b",
+          "front": "投诉：「不幸地，我遇到了……」",
+          "back": "Malheureusement, j'ai rencontré + 问题\n例：Malheureusement, j'ai rencontré plusieurs problèmes.\nrencontrer un problème = 遇到问题（固定搭配）"
+        },
+        {
+          "id": "1772566588250-9m1v5im9e4b",
+          "front": "投诉：「这件事让我非常失望」",
+          "back": "Cette situation m'a causé une grande déception.\n比 je suis en colère 更正式得体"
+        },
+        {
+          "id": "1772566588250-ptn9wikwasb",
+          "front": "投诉：请求解决方式（高级句型）",
+          "back": "Je souhaiterais que vous puissiez + inf.\n例：Je souhaiterais que vous puissiez me proposer un remboursement.\nsouhaiterais（条件式）+ que + puissiez（虚拟式）"
+        },
+        {
+          "id": "1772566588250-5ju7gx095b9",
+          "front": "补充信息的连接词（4个）",
+          "back": "De plus / En plus / Par ailleurs / Également\n都表示“此外、另外”"
+        },
+        {
+          "id": "1772566588250-m1e1qbh2hzs",
+          "front": "en effet vs en fait 区别",
+          "back": "en effet = 事实上（确认/补充）\nen fait = 实际上（转折/纠正）\n⚠️ 不能混用！"
+        },
+        {
+          "id": "1772566588250-3yzeofujp26",
+          "front": "正式信收尾：「我随时等候您的安排」",
+          "back": "Je reste à votre disposition pour tout renseignement complémentaire."
+        },
+        {
+          "id": "1772566588250-oh71g9hj4aj",
+          "front": "非正式信表达期待回复",
+          "back": "N'hésite pas à me dire si tu es disponible.\n或：J'espère avoir de tes nouvelles bientôt.\n或：Dis-moi ce que tu en penses !"
+        },
+        {
+          "id": "1772566588250-u0c77sfm03e",
+          "front": "正式信表达期待回复",
+          "back": "Dans l'attente de votre réponse,...\n意思：等待您的回复……"
+        },
+        {
+          "id": "1772566588250-ju0zslfoz4",
+          "front": "最正式的结尾公式",
+          "back": "Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées."
+        },
+        {
+          "id": "1772566588250-ti313k11z8n",
+          "front": "正式但简洁的结尾（2个）",
+          "back": "Bien cordialement,\nCordialement,\n（Bien cordialement 比 Cordialement 略礼貌）"
+        },
+        {
+          "id": "1772566588250-a7n9zve2ifb",
+          "front": "非正式结尾（3个）",
+          "back": "À bientôt,（再见）\nBisous,（亲亲，很亲密）\nAmicalement,（友好地）"
+        },
+        {
+          "id": "1772566588250-jm79rab96zf",
+          "front": "描述地点：「位于……附近」",
+          "back": "Il se situe à proximité de...\n例：Il se situe à proximité des commerces.\nse situer = 位于；à proximité de = 在……附近"
+        },
+        {
+          "id": "1772566588250-qvy1rrkkb6i",
+          "front": "描述价格：「租金是……」",
+          "back": "Le loyer est de + 价格 + par mois\n例：Le loyer est de 600 dollars par mois.\nest de + 数字 = 表价格的固定结构"
+        },
+        {
+          "id": "1772566588250-3dge22k5lku",
+          "front": "表达将来计划（futur proche）",
+          "back": "Je vais + inf.\n例：Je vais déménager samedi prochain.\n= 我下周六要搬家"
+        },
+        {
+          "id": "1772566588250-aayfne54d3",
+          "front": "表达刚刚发生的事（passé récent）",
+          "back": "Je viens de + inf.\n例：Je viens de trouver un appartement.\n= 我刚找到一套公寓"
+        },
+        {
+          "id": "1772566588250-ktcp19w5m1",
+          "front": "正式信称呼（不知道性别时）",
+          "back": "Madame, Monsieur,\n两个都写，逗号分隔"
+        },
+        {
+          "id": "1772566588250-6srvvfv5cbs",
+          "front": "非正式信称呼",
+          "back": "Salut [prénom],\n例：Salut André,"
+        },
+        {
+          "id": "1772566588250-gcht3mhljcr",
+          "front": "⚠️ Tâche 1 最大语域陷阱",
+          "back": "正式信里用了 tu / Salut / Bisous = 语域混乱，直接扣分\n非正式信里用了 Veuillez agréer = 同样不得体"
+        }
+      ]
+    },
+    {
+      "id": 1772564862277,
+      "name": "TCF A2-Leçon 2 口语 Tàche 1",
+      "folderId": "1772564799444",
+      "createdAt": "2026-03-03T19:07:42.277Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Bonjour, je _____ Marie. J'ai 28 ans.",
+          "options": [
+            "suis appelée",
+            "m'appelle",
+            "suis",
+            "appelle"
+          ],
+          "correct": 1,
+          "explanation": "自我介绍姓名用 s'appeler 的现在时：je m'appelle。永远不说 je suis appelée。",
+          "category": "基本信息"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai 30 ans et je suis _____ française.",
+          "options": [
+            "de origine",
+            "d'origine",
+            "de l'origine",
+            "à origine"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配 être d'origine + 形容词，介词 de 在元音前缩写为 d'，不加冠词。",
+          "category": "基本信息"
+        },
+        {
+          "type": "single_choice",
+          "stem": ", j'habite à Montréal, au Canada.",
+          "options": [
+            "Actually",
+            "En ce moment",
+            "Actuellement",
+            "Présentement"
+          ],
+          "correct": 2,
+          "explanation": "Actuellement = 目前、现在。注意：actually 是英语，不是法语！En ce moment 也可以，但 Actuellement 是TCF最标准答案。",
+          "category": "基本信息"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'habite à Vancouver _____ trois ans.",
+          "options": [
+            "pour",
+            "pendant",
+            "il y a",
+            "depuis"
+          ],
+          "correct": 3,
+          "explanation": "depuis + 时间段表示从过去持续到现在的动作，动词用现在时。pour/pendant 不能表达持续到现在。",
+          "category": "基本信息"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'habite _____ France, _____ Paris.",
+          "options": [
+            "au / à",
+            "en / à",
+            "à / en",
+            "en / en"
+          ],
+          "correct": 1,
+          "explanation": "阴性国家用 en（en France），城市用 à（à Paris）。",
+          "category": "介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je suis _____ (出生并长大) en Corée.",
+          "correct": [
+            "né(e) et j'ai grandi",
+            "née et j'ai grandi",
+            "né et j'ai grandi"
+          ],
+          "explanation": "né(e) = 出生（形容词与主语性数一致），j'ai grandi = 长大（复合过去时）。",
+          "category": "基本信息"
+        },
+        {
+          "type": "single_choice",
+          "stem": " quatre personnes dans ma famille : mes parents, mon frère et moi.",
+          "options": [
+            "Il y a",
+            "Il y est",
+            "Il existe",
+            "Nous sommes"
+          ],
+          "correct": 0,
+          "explanation": "描述家庭成员数量用 Il y a + 数字 + personnes，这是最标准的TCF表达。",
+          "category": "家庭"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis marié(e) et j'ai une fille _____ 7 ans.",
+          "options": [
+            "qui a",
+            "avec",
+            "ayant",
+            "de"
+          ],
+          "correct": 3,
+          "explanation": "年龄定语用 de：une fille de 7 ans。虽然 qui a 语法正确，但 de 是更地道的口语表达。",
+          "category": "家庭"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis _____ unique, et mes parents habitent en Chine.",
+          "options": [
+            "enfant",
+            "fils / fille",
+            "seul",
+            "propre"
+          ],
+          "correct": 1,
+          "explanation": "独生子女固定说法：fils unique（男）/ fille unique（女），不加冠词。",
+          "category": "家庭"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ mes études à l'Université de Lyon.",
+          "options": [
+            "étudié",
+            "passé",
+            "fait",
+            "suivi"
+          ],
+          "correct": 2,
+          "explanation": "faire ses études à = 在…学习，是最地道的固定搭配。étudié à 虽可用但不如 fait mes études 自然。",
+          "category": "学业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai obtenu _____ licence en informatique en 2021.",
+          "options": [
+            "un",
+            "une",
+            "la",
+            "de"
+          ],
+          "correct": 1,
+          "explanation": "licence 是阴性名词，用不定冠词 une。",
+          "category": "学业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je me suis spécialisé(e) _____ droit international.",
+          "options": [
+            "dans le",
+            "en",
+            "au",
+            "pour le"
+          ],
+          "correct": 1,
+          "explanation": "se spécialiser en + 专业（不加冠词）。这是固定介词搭配。",
+          "category": "学业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ensuite, j'ai _____ un master à l'Université de Montréal.",
+          "options": [
+            "fait",
+            "poursuivi",
+            "continué",
+            "étudié"
+          ],
+          "correct": 1,
+          "explanation": "poursuivre un master = 攻读硕士，比 faire un master 更书面、更高级，TCF加分表达。",
+          "category": "学业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Depuis 2024, je travaille _____ ingénieure dans une grande entreprise.",
+          "options": [
+            "comme une",
+            "en tant qu'une",
+            "comme",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "comme + 职业不加冠词。en tant que 在元音前缩写为 en tant qu'，但后面也不加冠词：en tant qu'ingénieure。",
+          "category": "职业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis chargée _____ analyser les données et _____ rédiger des rapports.",
+          "options": [
+            "pour / pour",
+            "de / de",
+            "à / à",
+            "d' / de"
+          ],
+          "correct": 1,
+          "explanation": "être chargé(e) de + 动词，固定介词搭配。注意 de 在元音前变 d'，但选项1的 de/de 组合是正确的（第二个动词 rédiger 以辅音开头）。",
+          "category": "职业"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子描述工作职责是正确的？",
+          "options": [
+            "Je suis chargée de gérer les projets.",
+            "Mon rôle est de communiquer avec les clients.",
+            "Je suis responsable pour le budget.",
+            "Je m'occupe de la gestion du contenu."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "être responsable 后接 de，不接 pour，所以选项C错误。其余三个句型均正确。",
+          "category": "职业"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pendant mon temps libre, j'aime _____ de la randonnée dans la nature.",
+          "options": [
+            "faire",
+            "jouer",
+            "pratiquer",
+            "aller"
+          ],
+          "correct": 0,
+          "explanation": "faire de la randonnée 是固定搭配。注意：pratiquer 后直接接运动名词（pratiquer le yoga），不加 de la。",
+          "category": "兴趣"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pratique régulièrement du yoga pour .",
+          "options": [
+            "rester en forme",
+            "garder ma forme",
+            "être en bonne",
+            "maintenir ma santé"
+          ],
+          "correct": 0,
+          "explanation": "rester en forme = 保持健康/状态，是最标准的固定搭配。garder la ligne 偏体形，maintenir 后需接冠词。",
+          "category": "兴趣"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cela me _____ de me détendre après une longue journée de travail.",
+          "options": [
+            "aide",
+            "permet",
+            "fait",
+            "laisse"
+          ],
+          "correct": 1,
+          "explanation": "permettre à qn de faire qch = 使某人得以做某事。这里省略了间接宾语：Cela me permet de...",
+          "category": "兴趣"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai décidé de _____ le TCF Canada l'année prochaine.",
+          "options": [
+            "réussir",
+            "passer",
+            "gagner",
+            "finir"
+          ],
+          "correct": 1,
+          "explanation": "passer un examen = 参加考试（不是通过！）。réussir = 通过考试。这是TCF超高频词汇陷阱。",
+          "category": "TCF词汇陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aimerais immigrer au Canada pour une meilleure _____ de vie.",
+          "options": [
+            "qualité",
+            "quantité",
+            "façon",
+            "manière"
+          ],
+          "correct": 0,
+          "explanation": "une meilleure qualité de vie = 更好的生活质量，固定表达，TCF口语必备。",
+          "category": "移民原因"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'apprends le français depuis deux ans et je _____ passer cet examen pour immigrer.",
+          "options": [
+            "veux",
+            "voudrais",
+            "voulais",
+            "voulus"
+          ],
+          "correct": 1,
+          "explanation": "voudrais（条件式）比 veux（现在时）更礼貌、更得体，是TCF口语的加分表达。",
+          "category": "条件式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À part ma langue maternelle, je parle _____ langues étrangères.",
+          "options": [
+            "beaucoup",
+            "plusieurs",
+            "quelques-uns",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "plusieurs + 复数名词 = 好几个，是最自然的表达。quelques-uns 是代词不能直接修饰名词。",
+          "category": "语言"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "À l'avenir, j' (希望) développer ma carrière au Canada et créer ma _____ (自己的) entreprise. Je vais m'_____ (定居) au Canada et continuer à apprendre le français pour mieux communiquer dans la vie _____ (日常的).",
+          "correct": [
+            "aimerais",
+            "propre",
+            "installer",
+            "quotidienne"
+          ],
+          "explanation": "①aimerais=条件式表愿望 ②propre放名词前=自己的 ③s'installer=定居 ④quotidien(ne)=日常的",
+          "category": "将来计划"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je travaille _____ que comptable _____ 2023. Je suis _____ d'analyser des données financières et de rédiger des rapports pour nos clients.",
+          "correct": [
+            "en tant",
+            "depuis",
+            "chargé(e)"
+          ],
+          "explanation": "①en tant que+职业（不加冠词）②depuis+时间点（持续到现在用现在时）③être chargé(e) de+职责",
+          "category": "职业综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1TLLSDIX4mJahvpOzYO-PfqAcBNFUBOeEB7xwm8bJOGw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772564921792-0fsns8e6q0o",
+          "front": "我叫___（自我介绍开场）",
+          "back": "Je m'appelle ___\n⚠️ 永远不说 Je suis appelé"
+        },
+        {
+          "id": "1772564921792-0lcjznq1rvkb",
+          "front": "我今年26岁",
+          "back": "J'ai 26 ans\n⚠️ 年龄用 avoir，绝不用 être"
+        },
+        {
+          "id": "1772564921792-ts9yf23g8g",
+          "front": "我是中国人（4种说法）",
+          "back": "① Je suis d'origine chinoise\n② Je suis originaire de Chine\n③ Je viens de Chine\n④ Je suis chinois(e)"
+        },
+        {
+          "id": "1772564921792-kfw2bjdmkrc",
+          "front": "我目前住在多伦多",
+          "back": "Actuellement, j'habite à Toronto, au Canada.\n⚠️ Actuellement = 目前，≠ actually"
+        },
+        {
+          "id": "1772564921792-qod5skml27p",
+          "front": "我在温哥华住了3年了（持续到现在）",
+          "back": "J'habite à Vancouver depuis 3 ans.\n⚠️ 用现在时！不用复合过去时"
+        },
+        {
+          "id": "1772564921792-3nxev6r39r8",
+          "front": "我来自中国北京",
+          "back": "Je suis originaire de Pékin, en Chine."
+        },
+        {
+          "id": "1772564921792-c3k82g94ski",
+          "front": "我在中国出生长大",
+          "back": "Je suis né(e) et j'ai grandi en Chine."
+        },
+        {
+          "id": "1772564921792-v4sf61202si",
+          "front": "habiter à / en / au 怎么选？",
+          "back": "城市 → habiter à Paris\n阳性国家 → au Canada / au Japon\n阴性国家 → en France / en Chine\n复数国家 → aux États-Unis"
+        },
+        {
+          "id": "1772564921792-dkrqe7ji2re",
+          "front": "我一个人住",
+          "back": "J'habite seul(e).\n女性写 seule，口语e不发音"
+        },
+        {
+          "id": "1772564921792-dikl0h2lvds",
+          "front": "我和我的爱人一起住",
+          "back": "J'habite avec mon mari. / J'habite avec ma femme."
+        },
+        {
+          "id": "1772564921792-0om7s26xhejp",
+          "front": "我结婚了，有一个5岁的女儿",
+          "back": "Je suis marié(e) et j'ai une fille de 5 ans.\n⚠️ une fille de 5 ans，不说 qui a 5 ans"
+        },
+        {
+          "id": "1772564921792-2icgrsg0son",
+          "front": "我有一个儿子一个女儿",
+          "back": "J'ai une fille et un fils.\n⚠️ fils 发音 [fis]，s要发音"
+        },
+        {
+          "id": "1772564921792-2atq9ls7qui",
+          "front": "我家里一共四口人",
+          "back": "Il y a quatre personnes dans ma famille : mes parents, ma sœur et moi."
+        },
+        {
+          "id": "1772564921792-n30llajerv",
+          "front": "我是独生子女，父母住在中国",
+          "back": "Je suis fils/fille unique, et mes parents habitent en Chine."
+        },
+        {
+          "id": "1772564921792-190kwjal3f6",
+          "front": "我在XXX大学学习（学业经历）",
+          "back": "J'ai fait mes études à l'Université de XXX\n✅ 比 j'ai étudié à 更地道"
+        },
+        {
+          "id": "1772564921792-7tcelywvpld",
+          "front": "我获得了社会科学学士学位",
+          "back": "J'ai obtenu une licence en science sociale.\n学士=licence / 硕士=master / 博士=doctorat"
+        },
+        {
+          "id": "1772564921792-6t0ncnnm7pe",
+          "front": "我的专业是信息技术（高级说法）",
+          "back": "Je me suis spécialisé(e) en informatique.\n⚠️ en 后不加冠词"
+        },
+        {
+          "id": "1772564921792-2v8a0u7xda6",
+          "front": "然后我攻读了硕士",
+          "back": "Ensuite, j'ai poursuivi un master à l'Université de XXX.\n✅ poursuivre un master 比 faire un master 更高级"
+        },
+        {
+          "id": "1772564921792-qftqxhht1yr",
+          "front": "从2025年起，我作为会计工作",
+          "back": "Depuis 2025, je travaille en tant que comptable.\n⚠️ en tant que 后不加冠词"
+        },
+        {
+          "id": "1772564921792-q3bjf0xa3wo",
+          "front": "\"作为...工作\" 两种说法",
+          "back": "① en tant que + 职业（正式）\n② comme + 职业（口语）\n⚠️ 两者后面都不加冠词"
+        },
+        {
+          "id": "1772564921792-a2u47gqqr1c",
+          "front": "我负责分析财务数据",
+          "back": "Je suis chargé(e) d'analyser des données financières."
+        },
+        {
+          "id": "1772564921792-ksziklw4wwk",
+          "front": "描述工作职责的三个句型",
+          "back": "① je suis chargé(e) de + 动词/名词\n② mon rôle est de + 动词\n③ je suis responsable de + 动词/名词"
+        },
+        {
+          "id": "1772564921792-ndan0goydtd",
+          "front": "我在一家国际企业做市场部经理",
+          "back": "Je travaille comme directrice du marketing dans une entreprise internationale."
+        },
+        {
+          "id": "1772564921792-q68jryd4qqb",
+          "front": "s'occuper de 是什么意思？",
+          "back": "负责、处理\n比 faire 更地道\n例：je m'occupe de la gestion de contenu"
+        },
+        {
+          "id": "1772564921792-azjzn0tukuq",
+          "front": "空闲时间，我喜欢做运动",
+          "back": "Pendant mon temps libre, j'aime bien faire du sport."
+        },
+        {
+          "id": "1772564921792-pgut2kow8l",
+          "front": "这让我放松和充电",
+          "back": "Cela me permet de me détendre et de me ressourcer."
+        },
+        {
+          "id": "1772564921792-f5oifvoug47",
+          "front": "我定期练瑜伽以保持健康",
+          "back": "Je pratique régulièrement du yoga pour rester en bonne santé."
+        },
+        {
+          "id": "1772564921792-m0z2w17k9",
+          "front": "保持健康/保持体形 3种说法",
+          "back": "① rester en forme\n② garder la ligne（偏体形）\n③ rester en bonne santé（偏健康）"
+        },
+        {
+          "id": "1772564921792-vwcw4g7u0n",
+          "front": "因为对我有好处",
+          "back": "parce que ça me fait du bien"
+        },
+        {
+          "id": "1772564921792-y0bwnk261u",
+          "front": "因为这让我忘却压力",
+          "back": "parce que ça me permet d'oublier le stress"
+        },
+        {
+          "id": "1772564921792-qb9inq0broo",
+          "front": "我热爱旅行（B1+说法）",
+          "back": "Je suis passionné(e) de voyages.\n或：Je suis intéressé(e) par les voyages."
+        },
+        {
+          "id": "1772564921792-6saqkpaepuv",
+          "front": "我决定参加TCF Canada考试（注意词汇！）",
+          "back": "J'ai décidé de passer le TCF Canada.\n⚠️ passer=参加考试，≠通过\n通过=réussir / 达到7级=atteindre le niveau 7"
+        },
+        {
+          "id": "1772564921792-ws1es3x122f",
+          "front": "因为我希望移民加拿大（礼貌表达）",
+          "back": "car j'aimerais immigrer au Canada.\n✅ aimerais = 条件式，比 je veux 更得体"
+        },
+        {
+          "id": "1772564921792-lrc0smb7nvm",
+          "front": "更好的生活质量",
+          "back": "une meilleure qualité de vie"
+        },
+        {
+          "id": "1772564921792-0qvsymuj0znd",
+          "front": "更好的职业前景",
+          "back": "de meilleures perspectives professionnelles"
+        },
+        {
+          "id": "1772564921792-0k8ybdpcul2",
+          "front": "更好的工作生活平衡",
+          "back": "un meilleur équilibre entre vie professionnelle et vie personnelle"
+        },
+        {
+          "id": "1772564921792-xioa7ut2sbm",
+          "front": "竞争压力更小的环境",
+          "back": "un environnement avec moins de concurrence"
+        },
+        {
+          "id": "1772564921792-093b9s385dn3",
+          "front": "我学法语已经两年了",
+          "back": "J'apprends le français depuis deux ans.\n⚠️ 用现在时（持续到现在）"
+        },
+        {
+          "id": "1772564921792-q3dysx7swc",
+          "front": "我每周上三次课",
+          "back": "Je prends des cours trois fois par semaine."
+        },
+        {
+          "id": "1772564921792-l81aje34je",
+          "front": "我自学法语",
+          "back": "J'apprends le français en autodidacte. / tout(e) seul(e)."
+        },
+        {
+          "id": "1772564921792-60bmc18xp6e",
+          "front": "除了母语，我还会几门外语",
+          "back": "À part ma langue maternelle, je parle plusieurs langues étrangères, comme le français et l'anglais."
+        },
+        {
+          "id": "1772564921792-t0vegszb2c8",
+          "front": "我的目标是创办自己的企业",
+          "back": "Mon objectif à l'avenir est de créer ma propre entreprise.\n✅ propre 放名词前=自己的"
+        },
+        {
+          "id": "1772564921792-ousncymybwc",
+          "front": "将来，我希望在加拿大发展职业",
+          "back": "À l'avenir, j'aimerais développer ma carrière au Canada."
+        },
+        {
+          "id": "1772564921792-ljh29wgkbh",
+          "front": "我想定居加拿大",
+          "back": "Je vais m'installer au Canada.\n✅ s'installer = 定居"
+        },
+        {
+          "id": "1772564921792-471t76njr2a",
+          "front": "为了在日常生活中更好地沟通",
+          "back": "pour mieux communiquer dans la vie quotidienne.\n✅ la vie quotidienne = 日常生活"
+        },
+        {
+          "id": "1772564921792-uticu1ler1",
+          "front": "自我介绍结尾句（口语Tâche 1专用）",
+          "back": "C'est tout pour ma présentation. Merci !"
+        }
+      ]
+    },
+    {
       "id": 1772479660988,
       "name": "Leçon 7 Shopping课文",
       "folderId": "1770747190002",
@@ -68534,6 +70039,14 @@
     {
       "id": "1772343782185",
       "name": "A2词汇"
+    },
+    {
+      "id": "1772564799444",
+      "name": "TCF口语"
+    },
+    {
+      "id": "1772566472155",
+      "name": "TCF写作"
     }
   ],
   "wrongBook": [],
@@ -68551,12 +70064,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-02",
+    "date": "2026-03-03",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-02T19:28:50.006Z",
+  "exportedAt": "2026-03-03T19:47:34.380Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
