@@ -1,6 +1,228 @@
 {
   "savedSets": [
     {
+      "id": 1772680595978,
+      "name": "习语：Faure d'une pierre deux coups*",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-05T03:16:35.978Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Que signifie l'expression « faire d'une pierre deux coups » ?",
+          "options": [
+            "Lancer des pierres sur quelqu'un",
+            "Réaliser deux objectifs en une seule action",
+            "Frapper deux fois la même personne",
+            "Casser deux pierres en même temps"
+          ],
+          "correct": 1,
+          "explanation": "这是比喻义：一举两得，用一个行动达成两个目标。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— J'ai trouvé un appartement près de mon travail ET de l'école des enfants !\n— Super, tu _____.\n",
+          "options": [
+            "fais d'une pierre deux coups",
+            "fais deux pierres d'un coup",
+            "fais un coup de deux pierres",
+            "fais une pierre de deux coups"
+          ],
+          "correct": 0,
+          "explanation": "固定表达：faire d'une pierre deux coups，语序不可更改。",
+          "category": "习语搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases utilise correctement l'expression ?",
+          "options": [
+            "Il a tué deux oiseaux avec une pierre.",
+            "Elle a fait d'une pierre deux coups en combinant réunion et déjeuner.",
+            "Nous avons frappé deux coups avec une seule pierre.",
+            "J'ai lancé une pierre et j'ai eu deux coups."
+          ],
+          "correct": 1,
+          "explanation": "B 是唯一正确使用该习语的句子。A 是英语直译，C/D 是字面硬凑，法语不这么说。",
+          "category": "习语辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "En allant à la poste, j'ai aussi déposé les vêtements au pressing. J'ai fait d'une pierre deux coups.\n\nDans ce contexte, la personne exprime :",
+          "options": [
+            "sa frustration",
+            "sa satisfaction d'avoir été efficace",
+            "sa surprise",
+            "son regret"
+          ],
+          "correct": 1,
+          "explanation": "一趟出门办了两件事，表达的是对效率的满意。这是 TCF 听力典型题型：通过语境判断说话人态度。",
+          "category": "TCF听力"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot est synonyme ou proche de « faire d'une pierre deux coups » ?",
+          "options": [
+            "Joindre l'utile à l'agréable",
+            "Mettre la charrue avant les bœufs",
+            "Avoir le cafard",
+            "Couper les ponts"
+          ],
+          "correct": 0,
+          "explanation": "joindre l'utile à l'agréable（寓用于乐）思路最接近。B=本末倒置，C=心情低落，D=断绝关系。",
+          "category": "近义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Cette stratégie nous permettra de faire _____ pierre deux coups.",
+          "options": [
+            "de la",
+            "d'une",
+            "d'un",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配：d'une pierre（阴性单数）。pierre 是阴性名词，所以用 une → d'une。",
+          "category": "语法-阴阳性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tout à _____, il a commencé à pleuvoir.",
+          "correct": [
+            "coup"
+          ],
+          "explanation": "tout à coup = 突然。coup 结尾 p 不发音 /ku/。顺便巩固 coup 的高频搭配。",
+          "category": "词汇-coup搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Donne-moi un coup de _____ pour déménager !",
+          "options": [
+            "pied",
+            "main",
+            "tête",
+            "cœur"
+          ],
+          "correct": 1,
+          "explanation": "un coup de main = 帮忙。这是 coup 最高频的搭配之一。coup de pied=踢，coup de tête=头撞/冲动决定，coup de cœur=一见钟情。",
+          "category": "词汇-coup搭配"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi ces expressions avec « coup », lesquelles sont correctes et courantes ? (plusieurs réponses)",
+          "options": [
+            "un coup de téléphone",
+            "un coup de pierre",
+            "du coup",
+            "un coup de soleil"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "coup de téléphone=电话，du coup=因此（口语），coup de soleil=晒伤。coup de pierre 不是固定搭配。",
+          "category": "词汇-coup搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Écoutez le dialogue :\n— Pourquoi tu vas à Lyon ce week-end ?\n— Je vais voir ma sœur et en même temps passer un entretien. Comme ça, je fais d'une pierre deux coups.\n\nPourquoi cette personne va-t-elle à Lyon ?",
+          "options": [
+            "Uniquement pour voir sa sœur.",
+            "Uniquement pour un entretien.",
+            "Pour deux raisons : voir sa sœur et passer un entretien.",
+            "Pour visiter la ville de Lyon."
+          ],
+          "correct": 2,
+          "explanation": "TCF 听力经典题型：提取对话中的双重目的。关键词 « en même temps » + 习语本身都指向两个目的。",
+          "category": "TCF听力模拟"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Gxyd0ICNbX5rc7MF1Pg16X4oUjbBiibZq-YyWfISzQs/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772680609735-5p0v02gjvj",
+          "front": "Faire d'une pierre deux coups",
+          "back": "一举两得 / 一石二鸟\n比喻用一个行动同时达成两个目标\n发音：/fɛʁ dyn pjɛʁ dø ku/"
+        },
+        {
+          "id": "1772680609735-j05r5qc1rip",
+          "front": "faire d'une pierre deux coups 的语序能改吗？",
+          "back": "不能。这是固定表达，语序不可变。\n❌ faire deux pierres d'un coup\n❌ faire un coup de deux pierres"
+        },
+        {
+          "id": "1772680609735-pv2cib2zqzb",
+          "front": "pierre 是什么性？",
+          "back": "阴性（une pierre）\n所以搭配是 d'une pierre"
+        },
+        {
+          "id": "1772680609735-sh2ahcv1fsd",
+          "front": "coup 的发音？",
+          "back": "/ku/\n结尾的 p 永远不发音"
+        },
+        {
+          "id": "1772680609735-y2ir9jjmaf",
+          "front": "英语 kill two birds with one stone 法语怎么说？",
+          "back": "faire d'une pierre deux coups\n❌ 不能直译为 tuer deux oiseaux avec une pierre"
+        },
+        {
+          "id": "1772680609735-4tzgy9bca98",
+          "front": "joindre l'utile à l'agréable",
+          "back": "寓用于乐（把有用的和愉快的结合）\n与 faire d'une pierre deux coups 意思相近"
+        },
+        {
+          "id": "1772680609735-pa7n6m5mf6",
+          "front": "un coup de téléphone",
+          "back": "一通电话\n例：Passe-moi un coup de téléphone ce soir."
+        },
+        {
+          "id": "1772680609735-n4ls99msatp",
+          "front": "un coup de main",
+          "back": "帮忙\n例：Donne-moi un coup de main ! 帮我一下！"
+        },
+        {
+          "id": "1772680609735-c3o1wlthayd",
+          "front": "tout à coup",
+          "back": "突然\n例：Tout à coup, il a commencé à pleuvoir."
+        },
+        {
+          "id": "1772680609735-gir7fa8uhwh",
+          "front": "du coup",
+          "back": "因此、所以（口语超高频）\n例：Il pleut, du coup on reste à la maison."
+        },
+        {
+          "id": "1772680609735-8c5mwnamzca",
+          "front": "un coup de soleil",
+          "back": "晒伤\n例：J'ai attrapé un coup de soleil à la plage."
+        },
+        {
+          "id": "1772680609735-jl6jj9tis3f",
+          "front": "un coup de cœur",
+          "back": "一见钟情 / 特别喜欢\n例：J'ai eu un coup de cœur pour ce livre."
+        },
+        {
+          "id": "1772680609735-v9zvzmem5k",
+          "front": "un coup de tête",
+          "back": "冲动的决定\n例：Il a acheté cette voiture sur un coup de tête."
+        },
+        {
+          "id": "1772680609735-7v9ftpftzf9",
+          "front": "En prenant le bus, je fais d'une pierre deux coups : _____ et _____.",
+          "back": "j'économise de l'essence et je lis mon livre.\n坐公交一举两得：省油还能看书。"
+        },
+        {
+          "id": "1772680609735-dzf1o8sc03m",
+          "front": "Cette réforme permettrait de faire d'une pierre deux coups en _____ tout en _____.",
+          "back": "en réduisant les coûts tout en améliorant la qualité du service.\nB2 级加分句型：en + 现在分词 + tout en + 现在分词"
+        }
+      ]
+    },
+    {
       "id": 1772567196011,
       "name": "习语：Se mettre en quatre pour quelqu'un",
       "folderId": "1770661225895",
@@ -70064,12 +70286,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-03",
+    "date": "2026-03-05",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-03T19:47:34.380Z",
+  "exportedAt": "2026-03-05T03:16:52.779Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
