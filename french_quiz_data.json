@@ -1,6 +1,2860 @@
 {
   "savedSets": [
     {
+      "id": 1772686397681,
+      "name": "TCF A2 Lecon 3 听力",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-05T04:53:17.681Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans ce dialogue, qui va partir à la retraite ?",
+          "options": [
+            "Mademoiselle Dulac",
+            "Monsieur Vincent",
+            "Madame Potier",
+            "Madame Normand"
+          ],
+          "correct": 2,
+          "explanation": "Le directeur dit « remplacer madame Potier qui part à la retraite ». C'est Potier qui prend sa retraite.",
+          "category": "听力理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Claudia propose quelle candidate ?",
+          "options": [
+            "Madame Normand",
+            "Madame Potier",
+            "Mademoiselle Dulac",
+            "Monsieur Vincent"
+          ],
+          "correct": 2,
+          "explanation": "Claudia dit « Moi, je propose mademoiselle Dulac ». 注意 proposer qqn = 推荐某人。",
+          "category": "听力理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Selon Claudia, quelles sont les qualités de Mademoiselle Dulac ? (plusieurs réponses)",
+          "options": [
+            "sérieuse",
+            "travailleuse",
+            "rapide",
+            "dynamique"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "Claudia dit : « elle est très sérieuse, rapide... et elle est dynamique ». travailleuse 是 Xavier 对 Vincent 的评价，不是 Claudia 对 Dulac 的。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon Xavier, quel est le défaut de Mademoiselle Dulac ?",
+          "options": [
+            "Elle est timide.",
+            "Elle est trop dynamique.",
+            "Elle est souvent en retard.",
+            "Elle ne sait pas diriger."
+          ],
+          "correct": 2,
+          "explanation": "Xavier dit « Mademoiselle Dulac est souvent en retard ». en retard = 迟到。",
+          "category": "听力理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « à l'heure » ?",
+          "options": [
+            "en avance",
+            "en retard",
+            "à temps / ponctuel",
+            "en vacances"
+          ],
+          "correct": 2,
+          "explanation": "à l'heure = 准时、按时。与 en retard（迟到）相反。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Claudia pense que Monsieur Vincent ne pourra jamais _____ une équipe.",
+          "options": [
+            "quitter",
+            "rejoindre",
+            "diriger",
+            "proposer"
+          ],
+          "correct": 2,
+          "explanation": "Claudia dit « il ne pourra jamais diriger une équipe ». diriger = 领导、管理。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Et vous Xavier, lequel choisissez-vous ? », le mot « lequel » remplace :",
+          "options": [
+            "madame Potier",
+            "le directeur",
+            "le candidat",
+            "l'équipe"
+          ],
+          "correct": 2,
+          "explanation": "lequel 是阳性单数疑问代词，指代前面提到的 candidat（阳性名词）。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Monsieur Vincent est toujours _____ (准时).",
+          "correct": [
+            "à l'heure"
+          ],
+          "explanation": "à l'heure = 准时。固定搭配，注意介词 à + 定冠词 l'。",
+          "category": "词汇填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans ce dialogue, Madame Normand :",
+          "options": [
+            "est proposée par Xavier",
+            "est proposée par Claudia",
+            "est critiquée par le directeur",
+            "n'est mentionnée par personne"
+          ],
+          "correct": 3,
+          "explanation": "Madame Normand 出现在图片中，但对话里没有任何人提到她。这是 TCF 典型的图片干扰项。",
+          "category": "听力陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Claudia : Moi, je _____ mademoiselle Dulac, elle est très sérieuse, _____ ... et elle est _____.",
+          "correct": [
+            "propose",
+            "rapide",
+            "dynamique"
+          ],
+          "explanation": "三个空分别对应 proposer 的第一人称变位 propose，以及两个形容词 rapide 和 dynamique。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1X_Cc23TpmEbTTq7zKzKfrX-7EywL3pQ7a4Bm7HATfBg/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772686415813-ynoxk3aords",
+          "front": "candidat / candidate",
+          "back": "n.m./f. 候选人\nQuel candidat allons-nous choisir ?\n我们要选哪位候选人？"
+        },
+        {
+          "id": "1772686415813-4b2bn467uvp",
+          "front": "remplacer",
+          "back": "v.t. 替换、接替\nremplacer qqn = 接替某人\nremplacer madame Potier = 接替 Potier 女士"
+        },
+        {
+          "id": "1772686415813-dktk6xllomf",
+          "front": "partir à la retraite",
+          "back": "退休（固定搭配）\nMadame Potier part à la retraite.\nPotier 女士要退休了。\n⚠ 不是「出发去度假」"
+        },
+        {
+          "id": "1772686415813-8xl5vk1xo4f",
+          "front": "proposer",
+          "back": "v.t. 提议、推荐\nproposer qqn = 推荐某人\nproposer qqch à qqn = 向某人提议某事\nJe propose mademoiselle Dulac."
+        },
+        {
+          "id": "1772686415813-eczh6s2zo6t",
+          "front": "sérieux / sérieuse",
+          "back": "adj. 认真的、严肃的\n阳性 sérieux → 阴性 sérieuse\nElle est très sérieuse. 她非常认真。"
+        },
+        {
+          "id": "1772686415813-5r7vaakf063",
+          "front": "rapide",
+          "back": "adj. 快的、高效的（阴阳同形）\nElle est rapide. 她效率高。"
+        },
+        {
+          "id": "1772686415813-xf062j23grk",
+          "front": "dynamique",
+          "back": "adj. 有活力的、积极进取的（阴阳同形）\nElle est dynamique. 她很有活力。"
+        },
+        {
+          "id": "1772686415813-nt4no2hgu2a",
+          "front": "lequel / laquelle",
+          "back": "疑问代词「哪一个」\n阳单 lequel / 阴单 laquelle\n阳复 lesquels / 阴复 lesquelles\nLequel choisissez-vous ? 你选哪一个？"
+        },
+        {
+          "id": "1772686415813-59xu8dcp748",
+          "front": "préférer",
+          "back": "v.t. 更喜欢\nje préfère, tu préfères, il préfère\nnous préférons, vous préférez, ils préfèrent\n⚠ 注意重音符号变化：é → è"
+        },
+        {
+          "id": "1772686415814-96jf7tw81t",
+          "front": "travailleur / travailleuse",
+          "back": "adj. 勤劳的\n阳性 travailleur → 阴性 travailleuse\nIl est travailleur. 他很勤劳。"
+        },
+        {
+          "id": "1772686415814-rxr2tgy2zgp",
+          "front": "compétent / compétente",
+          "back": "adj. 有能力的\n阳性 compétent → 阴性 compétente\nIl est compétent. 他很有能力。"
+        },
+        {
+          "id": "1772686415814-mken3fqjbtp",
+          "front": "à l'heure",
+          "back": "准时（固定搭配）\nIl est toujours à l'heure. 他总是很准时。\n反义：en retard 迟到\n近义：ponctuel(le) 守时的"
+        },
+        {
+          "id": "1772686415814-zlrtxbpwzvp",
+          "front": "en retard",
+          "back": "迟到（固定搭配）\nElle est souvent en retard. 她经常迟到。\n反义：à l'heure 准时 / en avance 提前"
+        },
+        {
+          "id": "1772686415814-bk6cr3tpq6s",
+          "front": "timide",
+          "back": "adj. 害羞的、胆怯的（阴阳同形）\nIl est trop timide. 他太害羞了。"
+        },
+        {
+          "id": "1772686415814-f6zhp9j5dht",
+          "front": "diriger",
+          "back": "v.t. 领导、管理、指挥\ndiriger une équipe = 领导一个团队\ndiriger une entreprise = 管理一家企业"
+        },
+        {
+          "id": "1772686415814-1svy1enz2id",
+          "front": "une équipe",
+          "back": "n.f. 团队（⚠ 阴性）\ndiriger une équipe 领导一个团队\ntravailler en équipe 团队合作"
+        },
+        {
+          "id": "1772686415814-1bbv5fyttzw",
+          "front": "ne ... jamais",
+          "back": "从不、永远不（否定结构）\nIl ne pourra jamais diriger une équipe.\n他永远不可能领导一个团队。\n⚠ jamais 放在助动词/动词后面"
+        },
+        {
+          "id": "1772686415814-dfenl4tq9v",
+          "front": "qualité ↔ défaut",
+          "back": "qualité n.f. 优点\ndéfaut n.m. 缺点\nTCF 听力常考：区分谁说了谁的优缺点"
+        },
+        {
+          "id": "1772686415814-hviei6fshh8",
+          "front": "TCF 陷阱：图片干扰项",
+          "back": "图片中出现的人物/选项不一定在对话中被提到。\n本课：Madame Normand 在图中出现，但对话完全没提她。\n→ 如果选项出现她，直接排除！"
+        }
+      ]
+    },
+    {
+      "id": 1772686001856,
+      "name": "TCF A2 Lecon 3 口语 Tàche 1",
+      "folderId": "1772564799444",
+      "createdAt": "2026-03-05T04:46:41.856Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans le dialogue, « la plus ancienne » signifie :",
+          "options": [
+            "la plus âgée",
+            "la plus expérimentée",
+            "celle qui a le plus d'ancienneté dans l'entreprise",
+            "la plus vieille candidate"
+          ],
+          "correct": 2,
+          "explanation": "ancienne 在此语境中指的是在公司资历最老的人（ancienneté），不是年龄最大。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Laquelle préférez-vous ? » — Le mot « laquelle » remplace :",
+          "options": [
+            "une question",
+            "une personne féminine",
+            "un objet masculin",
+            "un lieu"
+          ],
+          "correct": 1,
+          "explanation": "laquelle 是阴性单数疑问代词，这里指代两位女性候选人中的哪一位。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Elle a travaillé pendant dix ans. » — « pendant » indique :",
+          "options": [
+            "un moment précis dans le futur",
+            "une durée terminée",
+            "une habitude",
+            "une durée qui continue"
+          ],
+          "correct": 1,
+          "explanation": "pendant + 时间段表示一段已结束的持续时间，常与 passé composé 搭配。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « connaître » et « savoir » ?",
+          "options": [
+            "Ils sont synonymes",
+            "connaître + nom / savoir + que + phrase",
+            "connaître est plus formel",
+            "savoir s'utilise avec les personnes"
+          ],
+          "correct": 1,
+          "explanation": "connaître 后接名词（人、地方等），savoir 后接从句或不定式。je connais Autoplus / je sais que c'est une bonne entreprise。",
+          "category": "语法辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Convoquez-la jeudi matin. » — Quelle est la forme grammaticale de « convoquez-la » ?",
+          "options": [
+            "Indicatif présent",
+            "Passé composé",
+            "Impératif affirmatif + pronom COD",
+            "Conditionnel présent"
+          ],
+          "correct": 2,
+          "explanation": "这是肯定命令式（vous 形式）+ 直接宾语代词 la，代词放在动词后用连字符。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À la forme négative, « Convoquez-la » devient :",
+          "options": [
+            "Ne convoquez-la pas",
+            "Ne la convoquez pas",
+            "La ne convoquez pas",
+            "Ne convoquez pas la"
+          ],
+          "correct": 1,
+          "explanation": "否定命令式中，代词移到动词前面：Ne la convoquez pas。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Elle est ponctuelle, efficace. » — Le masculin de « ponctuelle » est :",
+          "options": [
+            "ponctuel",
+            "ponctuelle",
+            "ponctuele",
+            "ponctual"
+          ],
+          "correct": 0,
+          "explanation": "ponctuel (m.) → ponctuelle (f.)，阴性双写 l 加 -e。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Madame Normand est plus _____ (expérimenté) que mademoiselle Dulac.",
+          "correct": [
+            "expérimentée"
+          ],
+          "explanation": "madame Normand 是女性，形容词需要阴性配合：expérimentée。",
+          "category": "形容词配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1m-LQw8A0nsX-xtoMNcv6F7_-WVKSp_BL13iTXYufpoQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772686032017-3s7fec6rkz3",
+          "front": "laquelle（疑问代词）",
+          "back": "哪一个（阴性单数）\n用于替代阴性名词独立提问\n例：Laquelle préférez-vous ?\nlequel (m.) / laquelle (f.) / lesquels (m.pl.) / lesquelles (f.pl.)"
+        },
+        {
+          "id": "1772686032017-nw43na2imv",
+          "front": "ponctuel / ponctuelle",
+          "back": "准时的\n阴性：双写 l + e\n例：Elle est ponctuelle."
+        },
+        {
+          "id": "1772686032017-23h70zu4nsp",
+          "front": "efficace",
+          "back": "高效的（阴阳同形）\n例：Elle est efficace au travail."
+        },
+        {
+          "id": "1772686032017-vmuxlt8barq",
+          "front": "expérimenté(e)",
+          "back": "有经验的\n阴性加 -e：expérimentée\n例：Elle est plus expérimentée."
+        },
+        {
+          "id": "1772686032017-0g53unutrmwr",
+          "front": "ancien(ne) 前置 vs 后置",
+          "back": "前置 = 前任的（un ancien collègue 前同事）\n后置 = 古老的（un meuble ancien 古董家具）"
+        },
+        {
+          "id": "1772686032017-14pn6q30285h",
+          "front": "pendant + 时间段",
+          "back": "持续了……（常搭配 passé composé）\n例：Elle a travaillé pendant dix ans."
+        },
+        {
+          "id": "1772686032017-iabadls881",
+          "front": "connaître vs savoir",
+          "back": "connaître + 名词（人/地方）：je connais Paris\nsavoir + que/从句/不定式：je sais qu'il est là"
+        },
+        {
+          "id": "1772686032017-91t534ka59e",
+          "front": "Convoquez-la（肯定命令式）",
+          "back": "叫她来（vous 形式命令式 + COD 代词 la）\n代词放动词后，用连字符\n否定：Ne la convoquez pas"
+        },
+        {
+          "id": "1772686032017-yvd2gcjbmt",
+          "front": "la plus ancienne（最高级）",
+          "back": "资历最老的（阴性）\n结构：le/la/les + plus + adj\n例：Laquelle est la plus ancienne ?"
+        },
+        {
+          "id": "1772686032017-vtd7s5wsvk8",
+          "front": "je suis d'accord",
+          "back": "我同意\n常用口语表达\n例：Si vous préférez madame Normand, je suis d'accord."
+        },
+        {
+          "id": "1772686032017-0nydu8ay9uqh",
+          "front": "une société concurrente",
+          "back": "一家竞争对手公司\nconcurrent(e) = 竞争的\nconcurrence (f.) = 竞争"
+        },
+        {
+          "id": "1772686032017-0qr7xyyqubp",
+          "front": "convocation (f.)",
+          "back": "召集通知 / 面谈通知\n动词：convoquer\n例：Convoquez-la dans mon bureau."
+        },
+        {
+          "id": "1772686032017-n4zda11y2wj",
+          "front": "finalement",
+          "back": "最终，最后\n例：Bon, finalement, quelle est votre décision ?"
+        },
+        {
+          "id": "1772686032017-4vxa9aow99",
+          "front": "aimable",
+          "back": "和蔼可亲的（阴阳同形）\n例：Elle est très aimable."
+        },
+        {
+          "id": "1772686032017-zsj4drzjqg",
+          "front": "Quel jour sommes-nous ?",
+          "back": "今天星期几？\n固定表达，用倒装形式\n回答：Mardi. / Nous sommes mardi."
+        }
+      ]
+    },
+    {
+      "id": 1772685822663,
+      "name": "A2 Lecon 3 TCF阅读",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-05T04:43:42.663Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "\"Le musée cherche un guide disponible le week-end.\" Cette annonce propose _____.",
+          "options": [
+            "un cours d'art",
+            "un travail à temps partiel",
+            "une visite gratuite",
+            "un logement"
+          ],
+          "correct": 1,
+          "explanation": "句子含义：博物馆正在寻找周末可工作的导游。关键词 cherche un guide = 招聘导游；disponible le week-end = 只在周末工作。因此这是一个兼职工作（un travail à temps partiel）。\nA un cours d'art：艺术课程，与招聘无关。\nB un travail à temps partiel：正确答案，周末工作通常属于兼职。\nC une visite gratuite：免费参观，与招聘语境不符。\nD un logement：住房信息，与文本无关。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Munissez-vous de votre CV\" signifie :",
+          "options": [
+            "Envoyez votre CV par email",
+            "Apportez votre CV avec vous",
+            "Rédigez un nouveau CV",
+            "Montrez votre CV en ligne"
+          ],
+          "correct": 1,
+          "explanation": "动词 se munir de 表示“随身带上、准备好”。Munissez-vous 是命令式复数形式，意思是“请带上”。\nA Envoyez votre CV par email：发送邮件，不符合原义。\nB Apportez votre CV avec vous：正确答案，带上简历。\nC Rédigez un nouveau CV：重新写简历，不是原意。\nD Montrez votre CV en ligne：在线展示，也不符合语境。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase \"Il leur permet de trouver un emploi\", \"leur\" remplace :",
+          "options": [
+            "les emplois",
+            "les formations",
+            "les jeunes",
+            "les entreprises"
+          ],
+          "correct": 2,
+          "explanation": "leur 是第三人称复数间接宾语代词，相当于 à eux / à elles。\n结构：permettre à quelqu'un de faire quelque chose（允许某人做某事）。\n句子实际结构：Il permet aux jeunes de trouver un emploi.\nA les emplois：宾语不对。\nB les formations：不符合句意。\nC les jeunes：正确答案。\nD les entreprises：语义不符。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Des milliers d'offres sont disponibles dans près de 300 métiers.\" Que signifie \"près de\" ?",
+          "options": [
+            "exactement",
+            "environ",
+            "plus de",
+            "moins de"
+          ],
+          "correct": 1,
+          "explanation": "près de 表示“大约、接近”。在数量表达中相当于 environ 或 presque。\nA exactement：正好，不对。\nB environ：正确答案。\nC plus de：超过，不符合。\nD moins de：少于，也不符合。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Envoyez-nous la description du poste, le salaire et vos coordonnées.\" Que signifie \"coordonnées\" ?",
+          "options": [
+            "votre adresse et téléphone",
+            "votre diplôme",
+            "votre expérience",
+            "votre photo"
+          ],
+          "correct": 0,
+          "explanation": "coordonnées 在招聘语境中指联系方式，例如地址、电话、邮箱。\nA votre adresse et téléphone：正确答案。\nB votre diplôme：文凭，不是联系方式。\nC votre expérience：工作经验。\nD votre photo：照片。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Connaître les formations existantes\" est le plus proche de :",
+          "options": [
+            "s'inscrire à une formation",
+            "s'informer sur les formations",
+            "créer une nouvelle formation",
+            "terminer une formation"
+          ],
+          "correct": 1,
+          "explanation": "connaître 表示“了解、知道”。在此语境中指了解有哪些培训课程。\nA s'inscrire à une formation：报名，不是了解。\nB s'informer sur les formations：正确答案，了解培训信息。\nC créer une nouvelle formation：创建课程。\nD terminer une formation：完成课程。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel type de texte est \"Salon Jeunes Diplômés les 25 et 26 avril... Munissez-vous de votre CV\" ?",
+          "options": [
+            "une lettre personnelle",
+            "un article de journal",
+            "une annonce de recrutement",
+            "un programme de cours"
+          ],
+          "correct": 2,
+          "explanation": "文本包含活动日期、目标人群（jeunes diplômés）以及要求带简历，这些都是招聘会或就业活动广告的典型特征。\nA une lettre personnelle：私人信件，不符合。\nB un article de journal：新闻报道，不符合。\nC une annonce de recrutement：正确答案，招聘活动广告。\nD un programme de cours：课程安排，不符合。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le salon _____ (s'adresser) aux jeunes de moins de 30 ans.",
+          "correct": [
+            "s'adresse"
+          ],
+          "explanation": "动词：s'adresser à = 面向、针对。\n主语：le salon（第三人称单数）。\n现在时变位：\nje m'adresse\ntu t'adresses\nil/elle s'adresse\nnous nous adressons\nvous vous adressez\nils/elles s'adressent\n因此正确答案是 s'adresse。\n句子意思：这个展会面向30岁以下的年轻人。",
+          "category": "变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1u6ZcBUPDVsXQrzrPsQaVWM4YFy1z7aifQMXNqdWOwwI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772685842363-pzclozzxkeb",
+          "front": "s'adresser à qqn",
+          "back": "面向某人\nEx: Le forum s'adresse aux jeunes."
+        },
+        {
+          "id": "1772685842363-jtxlameu6qh",
+          "front": "avec ou sans diplôme",
+          "back": "有无文凭\n表示不限学历"
+        },
+        {
+          "id": "1772685842363-mi94j0yztvd",
+          "front": "des milliers de",
+          "back": "数千个\n注意：millier 后面跟 de"
+        },
+        {
+          "id": "1772685842363-r5q9xtl2pap",
+          "front": "signer un contrat de travail",
+          "back": "签劳动合同\n= 找到工作（TCF 同义改写）"
+        },
+        {
+          "id": "1772685842363-pkfper8jk8",
+          "front": "lors de",
+          "back": "在……期间\nEx: lors du salon = 在展会期间"
+        },
+        {
+          "id": "1772685842363-wcxnus0g21",
+          "front": "disponible",
+          "back": "有空的；可用的\nEx: disponible le week-end"
+        },
+        {
+          "id": "1772685842363-whixlfpvif",
+          "front": "envoyez votre CV",
+          "back": "请发送你的简历\nCV = curriculum vitae"
+        },
+        {
+          "id": "1772685842363-bns3w7bjx8i",
+          "front": "à temps partiel",
+          "back": "兼职\n反义词：à temps plein（全职）"
+        },
+        {
+          "id": "1772685842363-9z0ndbuzda",
+          "front": "être intéressé(e)",
+          "back": "感兴趣\n后接 par（被动）或直接用"
+        },
+        {
+          "id": "1772685842363-gekwywzb16i",
+          "front": "coordonnées (n.f.pl.)",
+          "back": "联系方式（地址、电话、邮箱）\nTCF 高频词"
+        },
+        {
+          "id": "1772685842363-wde04kmjifk",
+          "front": "publier une annonce",
+          "back": "发布广告/公告"
+        },
+        {
+          "id": "1772685842363-rc9rlmh30oq",
+          "front": "un poste est libre",
+          "back": "有一个空缺职位\nposte (n.m.) = 职位"
+        },
+        {
+          "id": "1772685842363-xck6ojvggus",
+          "front": "visible pendant un mois",
+          "back": "展示一个月\npendant = 持续……时间"
+        },
+        {
+          "id": "1772685842363-o4fxbslvlm7",
+          "front": "se munir de",
+          "back": "随身携带\nEx: Munissez-vous de votre CV.\n命令式用法"
+        },
+        {
+          "id": "1772685842363-3ep98txo5vp",
+          "front": "diplômé(e) en + 专业",
+          "back": "拥有……专业的文凭\nEx: diplômé en ingénierie informatique"
+        },
+        {
+          "id": "1772685842363-f5js17nacl",
+          "front": "motivé, dynamique, organisé",
+          "back": "积极的、有活力的、有条理的\n法语招聘广告三大高频形容词"
+        },
+        {
+          "id": "1772685842363-ij6sm0swuy8",
+          "front": "chef d'entreprise",
+          "back": "企业主/老板\nchef = 领导者（不是厨师！）"
+        },
+        {
+          "id": "1772685842363-05it3h6l2hus",
+          "front": "souhaiter + inf.",
+          "back": "希望做某事\nEx: Vous souhaitez travailler rapidement ?"
+        },
+        {
+          "id": "1772685842363-rk6pv21a8gg",
+          "front": "s'informer sur",
+          "back": "了解关于……的信息\n≠ s'inscrire à（报名参加）"
+        },
+        {
+          "id": "1772685842363-hkuxmnh4xj",
+          "front": "près de + 数字",
+          "back": "大约、将近\n= environ\nEx: près de 300 métiers"
+        },
+        {
+          "id": "1772685842363-86jpg9xo4gi",
+          "front": "leur（间接宾语代词）",
+          "back": "给他们/给她们\nEx: Il leur permet de... = 它让他们能够……\n替代 à + 人"
+        },
+        {
+          "id": "1772685842363-uxpsx9edqwg",
+          "front": "connaître vs s'inscrire",
+          "back": "connaître = 了解、认识\ns'inscrire = 报名注册\nTCF 常用来设干扰项"
+        },
+        {
+          "id": "1772685842363-h0i5vuj4ge",
+          "front": "salon vs conférence",
+          "back": "salon = 展会、展览会\nconférence = 学术会议、演讲\n不能混用"
+        }
+      ]
+    },
+    {
+      "id": 1772685371826,
+      "name": "疑问句总复习",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-05T04:36:11.826Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "将 \"Tu travailles le week-end ?\" 转为 est-ce que 形式：",
+          "options": [
+            "Est-ce que tu travailles le week-end ?",
+            "Est-ce que travailles-tu le week-end ?",
+            "Tu est-ce que travailles le week-end ?",
+            "Est-ce que tu le week-end travailles ?"
+          ],
+          "correct": 0,
+          "explanation": "est-ce que 直接放在陈述语序前面即可，语序不变：Est-ce que + tu travailles le week-end ?",
+          "category": "疑问句形式转换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "将 \"Elle parle français.\" 变成倒装疑问句：",
+          "options": [
+            "Parle-elle français ?",
+            "Parle-t-elle français ?",
+            "Elle parle-t-français ?",
+            "Parle-elle-t français ?"
+          ],
+          "correct": 1,
+          "explanation": "parle 以元音字母 e 结尾，主语是 elle，必须插入 -t-：Parle-t-elle français ?",
+          "category": "-t- 插入规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment Marie va au travail ? 的正式倒装形式是：",
+          "options": [
+            "Comment va-Marie au travail ?",
+            "Comment va-t-Marie au travail ?",
+            "Comment Marie va-t-elle au travail ?",
+            "Comment va-t-il Marie au travail ?"
+          ],
+          "correct": 2,
+          "explanation": "名词主语倒装 = 名词保持原位 + 动词后加对应代词。Marie = elle，va 以元音结尾需 -t-：Comment Marie va-t-elle au travail ?",
+          "category": "名词主语复杂倒装"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Tu manges quoi ?\" 属于哪种语域？",
+          "options": [
+            "书面语（langue soutenue）",
+            "通用（口语+书面均可）",
+            "口语（langue familière）",
+            "学术用语"
+          ],
+          "correct": 2,
+          "explanation": "疑问词 quoi 放句末是纯口语形式。书面语必须用 que：Que manges-tu ? 或 Qu'est-ce que tu manges ?",
+          "category": "语域判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "根据 Sports et langues 广告，应聘者必须满足什么条件？",
+          "options": [
+            "持有大学文凭",
+            "会说法语和英语两种语言即可",
+            "持有 BAFA 且至少会两种语言",
+            "在餐饮业有工作经验"
+          ],
+          "correct": 2,
+          "explanation": "广告明确要求 titulaires du BAFA + doivent être bilingues ou trilingues。",
+          "category": "广告信息提取"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pizza Tino 广告中 \"Anglais apprécié\" 的意思是：",
+          "options": [
+            "必须会英语",
+            "英语是加分项，不是必须",
+            "只招英语母语者",
+            "需要英语等级证书"
+          ],
+          "correct": 1,
+          "explanation": "apprécié 意为\"受欢迎的、加分的\"，不是 requis（必需的）。会英语是优势但非硬性条件。",
+          "category": "广告词汇理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a un problème. → 倒装疑问句：Y -il un problème ?",
+          "correct": [
+            "a-t"
+          ],
+          "explanation": "il y a 倒装后变为 y a-t-il。a 以元音结尾，il 以元音开头，需插入 -t-。",
+          "category": "-t- 插入规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\" langues parlez-vous ?\" 空格处应填：",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 3,
+          "explanation": "langue 是阴性名词，复数 langues，所以 quel 必须用阴性复数形式 quelles。",
+          "category": "疑问形容词 quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "两则广告的薪酬方式有何不同？",
+          "options": [
+            "都是固定工资",
+            "Sports et langues 固定，Pizza Tino 浮动",
+            "Sports et langues 浮动，Pizza Tino 固定+小费",
+            "都按小时计费"
+          ],
+          "correct": 2,
+          "explanation": "Sports et langues 是 rémunération variable selon les séjours；Pizza Tino 是 salaire fixe + pourboires。",
+          "category": "广告对比"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complétez les questions formelles :\n1. _____ êtes-vous disponible ?\n2. Parle--il anglais ?\n3. Les candidats sont- bilingues ?",
+          "correct": [
+            "Quand",
+            "t",
+            "ils"
+          ],
+          "explanation": "1. Quand（什么时候）+ 倒装；2. parle 以元音结尾 + il，需插入 t；3. les candidats 对应代词 ils。",
+          "category": "综合倒装"
+        },
+        {
+          "type": "single_choice",
+          "stem": "将 \"Vous avez le BAFA ?\" 转为倒装形式：",
+          "options": [
+            "Avez-vous le BAFA ?",
+            "Avez-t-vous le BAFA ?",
+            "Vous avez-vous le BAFA ?",
+            "A-t-vous le BAFA ?"
+          ],
+          "correct": 0,
+          "explanation": "avez 以辅音 z 结尾，直接倒装即可，不需要 -t-。B 错在多加了 -t-，C 错在主语重复，D 错在动词变位。",
+          "category": "倒装 + 干扰项排除"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Où est-ce que le restaurant se trouve ?\" 的口语形式是：",
+          "options": [
+            "Où se trouve le restaurant ?",
+            "Le restaurant se trouve où ?",
+            "Où le restaurant se trouve-t-il ?",
+            "Est-ce que où le restaurant ?"
+          ],
+          "correct": 1,
+          "explanation": "口语形式 = 陈述语序 + 疑问词放句末。A 是倒装（正式），C 也是倒装，D 语序完全错误。",
+          "category": "语域转换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Le directeur accepte-_____ les candidatures ?\" 空格处应填：",
+          "options": [
+            "il",
+            "t-il",
+            "elle",
+            "t-elle"
+          ],
+          "correct": 1,
+          "explanation": "le directeur = il，accepte 以元音 e 结尾，必须插入 -t-：accepte-t-il。",
+          "category": "名词主语复杂倒装 + -t-"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个句子语法正确？",
+          "options": [
+            "Que tu veux manger ?",
+            "Qu'est-ce que tu veux manger ?",
+            "Qu'est-ce que veux-tu manger ?",
+            "Que est-ce que tu veux manger ?"
+          ],
+          "correct": 1,
+          "explanation": "B 正确：疑问词 + est-ce que + 陈述语序。A 缺少 est-ce que 或倒装；C 把 est-ce que 和倒装混用，双重错误；D 缺少省音 qu'。",
+          "category": "疑问句结构陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pizza Tino 的工作时间是：",
+          "options": [
+            "8h - 18h",
+            "18h - 24h",
+            "9h - 17h",
+            "12h - 20h"
+          ],
+          "correct": 1,
+          "explanation": "广告明确写 Horaires 18 h - 24 h，即晚班。",
+          "category": "广告信息提取"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "将口语句 \"Il habite où ?\" 转为 est-ce que 形式：_____ est-ce qu'il habite ?",
+          "correct": [
+            "Où"
+          ],
+          "explanation": "疑问词 où 提到句首 + est-ce que + 陈述语序：Où est-ce qu'il habite ? 注意 est-ce que + il 省音为 est-ce qu'il。",
+          "category": "形式转换 + 省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"La serveuse travaille-t-elle le dimanche ?\" 中 -t- 的原因是：",
+          "options": [
+            "serveuse 是阴性名词",
+            "travaille 以元音字母结尾，elle 以元音开头",
+            "所有倒装都需要 -t-",
+            "t 代替了主语 tu"
+          ],
+          "correct": 1,
+          "explanation": "-t- 是 euphonique（语音性的），仅当动词以元音字母结尾且后接 il/elle/on 时插入，目的是避免元音碰撞。不是所有倒装都需要。",
+          "category": "-t- 原理理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是合法的疑问句？（多选）",
+          "options": [
+            "Comment allez-vous ?",
+            "Pourquoi tu es en retard ?",
+            "Quand part-elle ?",
+            "Où va-il au travail ?"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A 正确（倒装）；B 正确（口语，陈述语序+疑问词在句首也可接受）；C 正确（倒装，part 以 t 结尾不需要插 -t-）；D 错误，va 以元音结尾 + il，必须写 va-t-il。",
+          "category": "综合判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "根据两则广告，用正式疑问句补全对话：\n\nRecruteur : _____ langues parlez-vous ?\nCandidat : Je parle français et espagnol.\nRecruteur : Êtes-vous _____ du BAFA ?\nCandidat : Oui, je l'ai obtenu en 2024.\nRecruteur : _____ -vous disponible en juillet ?",
+          "correct": [
+            "Quelles",
+            "titulaire",
+            "Serez"
+          ],
+          "explanation": "1. Quelles（阴性复数，修饰 langues）；2. titulaire（持有者，固定搭配 être titulaire de）；3. Serez（être 的简单将来时 vous 形式，问未来的可用性）。",
+          "category": "广告场景综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Combien de pourboires reçoit-on par soir ?\" 中 on 的倒装为什么没有 -t- ？",
+          "options": [
+            "on 不是第三人称",
+            "reçoit 以辅音字母 t 结尾，不需要再加 -t-",
+            "combien 后面不用 -t-",
+            "这个句子其实是错的"
+          ],
+          "correct": 1,
+          "explanation": "reçoit 本身以 t 结尾，与 on 之间已有辅音，无需再插入 -t-。-t- 只在动词以元音字母结尾时才需要。",
+          "category": "-t- 深度辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "你想问 Pizza Tino 是否提供员工餐，最正式的说法是：",
+          "options": [
+            "Vous offrez des repas aux employés ?",
+            "Est-ce que vous offrez des repas aux employés ?",
+            "Offrez-vous des repas aux employés ?",
+            "Vous offrez quoi aux employés ?"
+          ],
+          "correct": 2,
+          "explanation": "倒装是最正式的形式。A 是口语语调上升；B 是通用；D 是口语（quoi 在句末）。",
+          "category": "语域选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "将 \"Les horaires sont flexibles.\" 变为正式倒装疑问句：Les horaires sont-_____ flexibles ?",
+          "correct": [
+            "ils"
+          ],
+          "explanation": "名词主语复杂倒装：les horaires 是阳性复数，对应代词 ils。名词保留原位，动词后加 -ils。",
+          "category": "名词主语复杂倒装"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"N'avez-vous pas d'expérience dans la restauration ?\" 这个句子的功能是：",
+          "options": [
+            "单纯询问是否有经验",
+            "表达惊讶：你居然没有经验？",
+            "命令对方去获取经验",
+            "询问餐厅的地址"
+          ],
+          "correct": 1,
+          "explanation": "否定疑问句（N'...pas）在法语中常带有惊讶、质疑的语气，暗示说话人原本预期对方有经验。TCF 听力中否定疑问句的语用功能是 B1+ 考点。",
+          "category": "否定疑问句语用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "回答否定疑问句 \"N'êtes-vous pas bilingue ?\"，如果你确实是双语者，应该回答：",
+          "options": [
+            "Oui, je suis bilingue.",
+            "Non, je suis bilingue.",
+            "Si, je suis bilingue.",
+            "Pas, je suis bilingue."
+          ],
+          "correct": 2,
+          "explanation": "否定疑问句的肯定回答必须用 si（不是 oui）。Si, je suis bilingue = 不，你说错了，我确实是双语者。这是法语特有的规则，TCF 必考。",
+          "category": "si / oui / non 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "间接疑问句：\"Je voudrais savoir _____ le poste est encore disponible.\" 空格填：",
+          "options": [
+            "est-ce que",
+            "si",
+            "qu'est-ce que",
+            "que"
+          ],
+          "correct": 1,
+          "explanation": "间接疑问句中，一般疑问句（oui/non 类型）用 si 引导，且后面必须是陈述语序。不能用 est-ce que，也不能倒装。",
+          "category": "间接疑问句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Pourriez-vous me dire _____ commence le travail ?\" 空格填：",
+          "options": [
+            "quand est-ce que",
+            "quand",
+            "qu'est-ce qui",
+            "est-ce que quand"
+          ],
+          "correct": 1,
+          "explanation": "间接疑问句中疑问词直接放在从句开头 + 陈述语序：...quand le travail commence / ...quand commence le travail（名词主语可简单倒装）。不能用 est-ce que。",
+          "category": "间接疑问句 + 疑问词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"_____ est votre disponibilité en juillet ?\" 空格填：",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 1,
+          "explanation": "disponibilité 是阴性单数名词（la disponibilité），所以用 quelle。",
+          "category": "quel 性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"À _____ heure fermez-vous le restaurant ?\" 空格填：",
+          "options": [
+            "quel",
+            "quelle",
+            "quels",
+            "quelles"
+          ],
+          "correct": 1,
+          "explanation": "heure 是阴性单数（une heure），所以用 quelle。注意介词 à 在 quel 前面不影响 quel 的性数。",
+          "category": "介词 + quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个间接疑问句是正确的？",
+          "options": [
+            "Je ne sais pas qu'est-ce qu'il veut.",
+            "Je ne sais pas ce qu'il veut.",
+            "Je ne sais pas qu'est-ce que veut-il.",
+            "Je ne sais pas que veut-il."
+          ],
+          "correct": 1,
+          "explanation": "间接疑问句中 qu'est-ce que 必须变成 ce que + 陈述语序。A、C、D 都保留了直接疑问句结构，全错。这是 B1/B2 高频陷阱。",
+          "category": "间接疑问句转换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "你打电话应聘 Pizza Tino，想问薪资多少，最得体的说法是：",
+          "options": [
+            "C'est combien le salaire ?",
+            "Pourriez-vous m'indiquer quel est le salaire proposé ?",
+            "Tu me paies combien ?",
+            "Le salaire c'est quoi ?"
+          ],
+          "correct": 1,
+          "explanation": "求职电话属于正式场合。B 使用条件式 pourriez-vous（礼貌）+ 间接疑问句 quel est le salaire proposé，语域最合适。A/D 口语化，C 用了 tu 且过于直接。",
+          "category": "语域 + 求职场景"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子需要插入 -t- ？（多选）",
+          "options": [
+            "Mange--on ici ?",
+            "Prend--il le bus ?",
+            "Travaille--elle le soir ?",
+            "Finit--il à minuit ?"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A：mange 以 e 结尾 + on → mange-t-on ✓；B：prend 以 d 结尾，不需要 → prend-il ✗；C：travaille 以 e 结尾 + elle → travaille-t-elle ✓；D：finit 以 t 结尾，不需要 → finit-il ✗。",
+          "category": "-t- 综合判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "完成这封求职信开头的正式提问：\n\nMadame, Monsieur,\nSuite à votre annonce, je me permets de vous écrire. Pourriez-vous me dire _____ le contrat commence et _____ sont les horaires de travail ? Je voudrais également savoir _____ une expérience préalable est nécessaire.",
+          "correct": [
+            "quand",
+            "quels",
+            "si"
+          ],
+          "explanation": "1. quand（什么时候）引导间接疑问句；2. quels（阳性复数，修饰 horaires，阳性名词）；3. si 引导一般疑问句（oui/non 类型）的间接形式。",
+          "category": "间接疑问句 + 求职信"
+        },
+        {
+          "type": "single_choice",
+          "stem": "\"Savez-vous si les pourboires _____ inclus ?\" 空格填：",
+          "options": [
+            "sont-ils",
+            "est-ce qu'ils sont",
+            "sont",
+            "ils sont"
+          ],
+          "correct": 2,
+          "explanation": "si 引导的间接疑问句后面用陈述语序。A 是倒装（错），B 用了 est-ce que（间接疑问句中禁止），C 正确（陈述语序），D 多了主语（si 后面已暗含从句，sont 的主语是 les pourboires）。",
+          "category": "间接疑问句陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "面试官问 \"Ne seriez-vous pas disponible en août également ?\"，他的真正意图是：",
+          "options": [
+            "他确认你8月不能来",
+            "他希望你8月也能来，试探性地问",
+            "他拒绝你的申请",
+            "他在问你7月的安排"
+          ],
+          "correct": 1,
+          "explanation": "否定条件式疑问句（Ne seriez-vous pas...）是法语中非常礼貌的试探方式，暗示\"如果你8月也能来就更好了\"。这种语用理解是 B2 听力/阅读的核心考点。",
+          "category": "否定疑问句 + 条件式语用"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/11x6g1jqU7tOTcW6hRk5UgQGa09wFXzYZYX5XYk21XL0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772685678755-r4x8254i8k",
+          "front": "法语疑问句的三种形式分别是？",
+          "back": "1. 语调上升（口语）：Tu aimes la musique ?\n2. Est-ce que + 陈述语序（通用）：Est-ce que tu aimes la musique ?\n3. 主谓倒装（书面语）：Aimes-tu la musique ?"
+        },
+        {
+          "id": "1772685678755-v2zxu9roi6g",
+          "front": "特殊疑问句的三种语域形式（以 aimer 为例）",
+          "back": "口语：Tu aimes quoi ?\n通用：Qu'est-ce que tu aimes ?\n书面：Qu'aimes-tu ?"
+        },
+        {
+          "id": "1772685678755-3s69nd1kk4p",
+          "front": "quoi 和 que 的区别？",
+          "back": "quoi 只用于口语（放句末）：Tu veux quoi ?\nque / qu' 用于书面语和 est-ce que 结构：Que veux-tu ? / Qu'est-ce que tu veux ?"
+        },
+        {
+          "id": "1772685678755-cdzxy1eyl6p",
+          "front": "什么时候需要插入 -t- ？",
+          "back": "当主语是 on / il / elle，且动词以元音字母（a, e）结尾时：\nMange-t-on ici ?\nParle-t-elle français ?\nY a-t-il un problème ?"
+        },
+        {
+          "id": "1772685678755-vb3dbsvrn8j",
+          "front": "什么时候不需要 -t- ？",
+          "back": "动词本身以辅音字母结尾时：\nPrend-il le bus ?（d 结尾）\nEst-elle française ?（t 结尾）\nFinit-il à minuit ?（t 结尾）"
+        },
+        {
+          "id": "1772685678755-wwsm4iai8f",
+          "front": "名词主语如何做倒装？",
+          "back": "名词保持原位 + 动词后加对应人称代词：\nComment Léo va-t-il au bureau ?\nLa salle est-elle ouverte ?\n❌ 错误：Comment va-t-il Léo ?"
+        },
+        {
+          "id": "1772685678755-ywqptw8zmli",
+          "front": "否定疑问句回答\"是\"用什么词？",
+          "back": "用 si（不是 oui）：\n— N'êtes-vous pas bilingue ?\n— Si, je suis bilingue.\nsi = 对否定的反驳肯定"
+        },
+        {
+          "id": "1772685678755-t477fl20bo",
+          "front": "间接疑问句中，一般疑问句用什么引导？",
+          "back": "用 si + 陈述语序：\nJe voudrais savoir si le poste est disponible.\n❌ 不能用 est-ce que"
+        },
+        {
+          "id": "1772685678755-8izq0elp3m2",
+          "front": "间接疑问句中，qu'est-ce que 变成什么？",
+          "back": "变成 ce que + 陈述语序：\nJe ne sais pas ce qu'il veut.\n❌ 错误：Je ne sais pas qu'est-ce qu'il veut."
+        },
+        {
+          "id": "1772685678755-53oaunx6i4k",
+          "front": "间接疑问句中，特殊疑问词怎么处理？",
+          "back": "疑问词直接放从句开头 + 陈述语序：\nDites-moi quand le travail commence.\nJe voudrais savoir où il habite.\n❌ 不能保留 est-ce que 或倒装"
+        },
+        {
+          "id": "1772685678755-gr2y2vbf355",
+          "front": "quel 的四种形式？",
+          "back": "阳性单数：quel（Quel âge ?）\n阴性单数：quelle（Quelle heure ?）\n阳性复数：quels（Quels horaires ?）\n阴性复数：quelles（Quelles langues ?）\n必须与修饰的名词性数一致"
+        },
+        {
+          "id": "1772685678755-awo8dk2whb",
+          "front": "titulaire de 是什么意思？",
+          "back": "持有（某证书/学位）\nÊtes-vous titulaire du BAFA ?\n= 您持有 BAFA 证书吗？\n正式表达，招聘广告高频"
+        },
+        {
+          "id": "1772685678755-1suatazcx9y",
+          "front": "bilingue / trilingue",
+          "back": "bilingue = 双语的\ntrilingue = 三语的\n无性数变化（形容词）\nElle est bilingue."
+        },
+        {
+          "id": "1772685678755-838x0trdnls",
+          "front": "un séjour",
+          "back": "n.m. 停留、逗留、游学项目\nun séjour linguistique = 语言游学\nrémunération variable selon les séjours = 薪酬按项目浮动"
+        },
+        {
+          "id": "1772685678755-ryoarnq1hse",
+          "front": "rémunération vs salaire",
+          "back": "rémunération (n.f.) = 报酬（更正式、更广义）\nsalaire (n.m.) = 工资（更日常）\nrémunération variable = 浮动报酬\nsalaire fixe = 固定工资"
+        },
+        {
+          "id": "1772685678755-4nfa78u49ap",
+          "front": "un pourboire",
+          "back": "n.m. 小费\n词源：pour + boire（用来喝的钱）\nsalaire fixe + pourboires = 固定工资+小费"
+        },
+        {
+          "id": "1772685678755-duywy9nv6fj",
+          "front": "apprécié(e) 在招聘广告中的意思？",
+          "back": "= 受欢迎的、加分项（不是必须）\nAnglais apprécié = 会英语是加分的\n对比：requis(e) = 必需的"
+        },
+        {
+          "id": "1772685678755-w4lj5kuvxi",
+          "front": "disponible",
+          "back": "adj. 有空的、可用的\nÊtes-vous disponible en juillet ?\n= 您七月有空吗？\nla disponibilité (n.f.) = 可用性"
+        },
+        {
+          "id": "1772685678755-5eg357bfzf",
+          "front": "la restauration",
+          "back": "n.f. 餐饮业\nla restauration italienne = 意大利餐饮业\n⚠️ 另一个意思是“修复”，但招聘语境下指餐饮"
+        },
+        {
+          "id": "1772685678755-m32or3dkof",
+          "front": "Ne seriez-vous pas... ? 表达什么语气？",
+          "back": "条件式否定疑问 = 非常礼貌的试探\nNe seriez-vous pas disponible en août ?\n= 您8月是不是也可以？（暗示希望你能来）\nTCF B2 听力考语用理解"
+        },
+        {
+          "id": "1772685678755-djlo1kjgsge",
+          "front": "法语日期中\"1号\"怎么说？",
+          "back": "用序数词 premier：\nle premier juillet = 7月1日\ndu premier au 30 juillet = 从7月1日到30日\n⚠️ 其他日期用基数词：le 2, le 3..."
+        },
+        {
+          "id": "1772685678755-iiv719zoos",
+          "front": "3秒排除法：疑问句",
+          "back": "看到 quoi 在句末 → 口语\n看到 est-ce que → 通用，后面必须陈述语序\n看到连字符 → 倒装，检查 -t- 和名词主语\n看到 si + 从句 → 间接疑问句，禁止 est-ce que 和倒装"
+        }
+      ]
+    },
+    {
+      "id": 1772685109116,
+      "name": "疑问代词lequel",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-05T04:31:49.116Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Entre ces deux restaurants, _____ préfères-tu ?",
+          "options": [
+            "quel",
+            "lequel",
+            "laquelle",
+            "lesquels"
+          ],
+          "correct": 1,
+          "explanation": "restaurant 是阳性单数名词，且已省略（entre 给出范围），需要疑问代词 lequel 代替。",
+          "category": "lequel 基本用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Parmi ces chansons, _____ est ta préférée ?",
+          "options": [
+            "lequel",
+            "lesquelles",
+            "laquelle",
+            "quel"
+          ],
+          "correct": 2,
+          "explanation": "chanson 是阴性单数名词，问\"哪一首\"→ laquelle。",
+          "category": "性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de ces livres as-tu lus ?",
+          "options": [
+            "Laquelle",
+            "Lesquelles",
+            "Lequel",
+            "Lesquels"
+          ],
+          "correct": 3,
+          "explanation": "livre 是阳性名词，复数（ces livres）→ lesquels。注意 lus 也配合阳性复数。",
+          "category": "性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le projet _____ je participe est très intéressant.",
+          "options": [
+            "auquel",
+            "à laquelle",
+            "duquel",
+            "pour lequel"
+          ],
+          "correct": 0,
+          "explanation": "participer à + le projet（阳性单数）→ à + lequel = auquel。",
+          "category": "介词缩合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les raisons _____ elle a refusé sont inconnues.",
+          "options": [
+            "pour lesquels",
+            "pour laquelle",
+            "pour lesquelles",
+            "pour lequel"
+          ],
+          "correct": 2,
+          "explanation": "les raisons 是阴性复数 → pour lesquelles。考生常误选阳性 lesquels。",
+          "category": "介词缩合+性数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La chaise sur _____ tu es assis est cassée.",
+          "options": [
+            "qui",
+            "laquelle",
+            "lequel",
+            "que"
+          ],
+          "correct": 1,
+          "explanation": "先行词 la chaise 是物+前面有介词 sur → 必须用 laquelle，不能用 qui（qui 只指人）。",
+          "category": "关系代词 lequel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ robe préfères-tu ?",
+          "options": [
+            "Laquelle",
+            "Quelle",
+            "Lesquelles",
+            "Quel"
+          ],
+          "correct": 1,
+          "explanation": "robe 这个名词还在句中 → 用疑问形容词 quelle（阴性单数）。不是 laquelle！",
+          "category": "lequel vs quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai deux sœurs. _____ veux-tu inviter ?",
+          "options": [
+            "Quelle",
+            "Laquelle",
+            "Lesquelles",
+            "Quel"
+          ],
+          "correct": 1,
+          "explanation": "前文已提到 deux sœurs，此处名词省略，问\"哪一个\"→ laquelle（阴性单数，指其中一位）。",
+          "category": "lequel vs quel"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Voici plusieurs solutions. _____ avez-vous choisie ?（填写正确的 lequel 形式）",
+          "correct": [
+            "Laquelle"
+          ],
+          "explanation": "solution 是阴性单数 → Laquelle。注意 choisie 也配合阴性单数（COD 前置）。",
+          "category": "性数一致+过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'entreprise _____ il travaille est à Paris.",
+          "options": [
+            "pour lequel",
+            "dans laquelle",
+            "dans lesquelles",
+            "à lequel"
+          ],
+          "correct": 1,
+          "explanation": "travailler dans + l'entreprise（阴性单数）→ dans laquelle。注意 dans 不与 lequel 缩合。",
+          "category": "关系代词 lequel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les amis _____ je pense sont loin d'ici.",
+          "options": [
+            "desquels",
+            "auxquels",
+            "pour lesquels",
+            "avec lesquels"
+          ],
+          "correct": 1,
+          "explanation": "penser à + les amis（阳性复数）→ à + lesquels = auxquels。",
+          "category": "介词缩合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是 lequel 与介词 de 的正确缩合形式？",
+          "options": [
+            "duquel",
+            "de laquelle",
+            "desquels",
+            "de lequel"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "duquel（阳性单数）、de laquelle（阴性单数，不缩合）、desquels（阳性复数）都正确。de lequel 是错误形式，必须缩合为 duquel。",
+          "category": "介词缩合规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de vous deux veut commencer ?",
+          "options": [
+            "Quel",
+            "Lequel",
+            "Laquelle",
+            "Lesquels"
+          ],
+          "correct": 1,
+          "explanation": "de vous deux 限定范围（假设对两位男性说），名词省略 → lequel（阳性单数）。",
+          "category": "lequel + de 限定范围"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a beaucoup de films. _____ voulez-vous regarder ?（填写正确形式）",
+          "options": [],
+          "correct": [
+            "Lesquels",
+            "Lequel"
+          ],
+          "explanation": "film 是阳性名词。若问\"哪一部\"→ Lequel；若问\"哪些\"→ Lesquels。两者皆可，取决于语境。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de ces candidates avez-vous recrutée ?",
+          "options": [
+            "Lesquels",
+            "Laquelle",
+            "Lequel",
+            "Quel"
+          ],
+          "correct": 1,
+          "explanation": "candidate 是阴性单数 → laquelle。recrutée 过去分词配合阴性单数（COD 前置）。",
+          "category": "性数一致+过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les outils avec _____ il travaille sont très anciens.",
+          "options": [
+            "lesquels",
+            "lesquelles",
+            "lequel",
+            "laquelle"
+          ],
+          "correct": 0,
+          "explanation": "les outils 是阳性复数 + 介词 avec → avec lesquels。avec 不与 lequel 缩合。",
+          "category": "关系代词 lequel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La porte par _____ il est entré était ouverte.",
+          "options": [
+            "lequel",
+            "laquelle",
+            "lesquelles",
+            "qui"
+          ],
+          "correct": 1,
+          "explanation": "la porte 是阴性单数+介词 par+先行词是物 → par laquelle。",
+          "category": "关系代词 lequel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai acheté trois robes. _____ préfères-tu ?",
+          "options": [
+            "Quelle",
+            "Laquelle",
+            "Lesquelles",
+            "Quel"
+          ],
+          "correct": 1,
+          "explanation": "前文提到 trois robes，此处问\"你更喜欢哪一条\"→ 单数选择 → laquelle。若问\"哪些\"则用 lesquelles。",
+          "category": "lequel vs quel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les conditions _____ nous avons accepté ce contrat étaient raisonnables.",
+          "options": [
+            "dans lesquels",
+            "sous lesquelles",
+            "sous lesquels",
+            "dans laquelle"
+          ],
+          "correct": 1,
+          "explanation": "les conditions 是阴性复数 + accepter sous certaines conditions → sous lesquelles。",
+          "category": "介词+性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le stylo avec _____ j'écris ne marche plus.",
+          "options": [
+            "laquelle",
+            "lequel",
+            "qui",
+            "que"
+          ],
+          "correct": 1,
+          "explanation": "le stylo 是阳性单数+介词 avec+先行词是物 → avec lequel。不能用 qui（qui 指人）。",
+          "category": "关系代词 lequel vs qui"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a deux chemins. Par _____ veux-tu passer ?（填写正确形式）",
+          "correct": [
+            "lequel"
+          ],
+          "explanation": "chemin 是阳性单数 + 介词 par → par lequel。",
+          "category": "介词+lequel"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les étudiantes _____ j'ai donné les documents sont absentes.",
+          "options": [
+            "auxquels",
+            "auxquelles",
+            "à lesquelles",
+            "desquelles"
+          ],
+          "correct": 1,
+          "explanation": "donner à + les étudiantes（阴性复数）→ à + lesquelles = auxquelles。注意 à lesquelles 是错误形式。",
+          "category": "介词缩合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Voici deux propositions. _____ choisis-tu ? Et les arguments _____ tu te bases, sont-ils solides ?",
+          "correct": [
+            "Laquelle",
+            "sur lesquels"
+          ],
+          "explanation": "第一空：proposition 阴性单数 → Laquelle。第二空：se baser sur + les arguments（阳性复数）→ sur lesquels（sur 不缩合）。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est votre numéro de téléphone ?",
+          "options": [
+            "Lequel",
+            "Quel",
+            "Laquelle",
+            "Quelle"
+          ],
+          "correct": 1,
+          "explanation": "numéro 这个名词在句中 → 用疑问形容词 quel（阳性单数）。不用 lequel！",
+          "category": "lequel vs quel 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la raison pour _____ je suis venu.",
+          "options": [
+            "laquelle",
+            "lequel",
+            "que",
+            "qui"
+          ],
+          "correct": 0,
+          "explanation": "la raison 阴性单数 + pour → pour laquelle。这是一个固定高频表达：la raison pour laquelle…（…的原因）。",
+          "category": "关系代词高频搭配"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Auquel de ces clubs appartiens-tu ?",
+            "À lequel de ces clubs appartiens-tu ?",
+            "Auxquelles de ces équipes participes-tu ?",
+            "De lesquels parles-tu ?"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A 正确：à + lequel = auquel。B 错误：必须缩合。C 正确：à + lesquelles = auxquelles。D 错误：de + lesquels = desquels。",
+          "category": "缩合规则综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a visité plusieurs musées, mais je ne sais pas _____ elle a préféré.（填写正确形式）",
+          "correct": [
+            "lequel",
+            "lesquels"
+          ],
+          "explanation": "musée 是阳性名词。若指\"哪一个\"→ lequel；若指\"哪些\"→ lesquels。",
+          "category": "间接疑问句中的 lequel"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1DjvFsDPgyOrKGb3QwNMguEjzNzZW1H5TFznjkCarnhc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772685217154-3fl5kujxajt",
+          "front": "lequel 的本质功能是什么？",
+          "back": "疑问代词，指代一个名词，表示“哪一个/哪些”。\n相当于英语 which one / which ones。\n使用前提：语境中必须有选择范围。"
+        },
+        {
+          "id": "1772685217154-hmiz666zlfw",
+          "front": "lequel 的四种性数形式",
+          "back": "阳性单数：lequel\n阴性单数：laquelle\n阳性复数：lesquels\n阴性复数：lesquelles"
+        },
+        {
+          "id": "1772685217154-8lk8wxz6gd3",
+          "front": "lequel 的构成记忆法",
+          "back": "冠词 + quel 粘在一起：\nle + quel = lequel\nla + quelle = laquelle\nles + quels = lesquels\nles + quelles = lesquelles"
+        },
+        {
+          "id": "1772685217154-4nc9mrhulhx",
+          "front": "lesquels 和 lesquelles 发音一样吗？",
+          "back": "完全一样，都读 /lekɛl/。\nTCF 听力中只能靠语境判断性别。"
+        },
+        {
+          "id": "1772685217154-4k41fuihba",
+          "front": "à + lequel = ?",
+          "back": "auquel（阳性单数）"
+        },
+        {
+          "id": "1772685217154-tqd5o1jf43",
+          "front": "à + laquelle = ?",
+          "back": "à laquelle（不缩合！）"
+        },
+        {
+          "id": "1772685217154-2c67pkr912",
+          "front": "à + lesquels = ?",
+          "back": "auxquels"
+        },
+        {
+          "id": "1772685217154-iny7yckle4",
+          "front": "à + lesquelles = ?",
+          "back": "auxquelles"
+        },
+        {
+          "id": "1772685217154-rc8rfpc4alf",
+          "front": "de + lequel = ?",
+          "back": "duquel（阳性单数）"
+        },
+        {
+          "id": "1772685217154-ebazf0vbo6q",
+          "front": "de + laquelle = ?",
+          "back": "de laquelle（不缩合！）"
+        },
+        {
+          "id": "1772685217154-xn5z8i65kt",
+          "front": "de + lesquels = ?",
+          "back": "desquels"
+        },
+        {
+          "id": "1772685217154-rixl4o6t96i",
+          "front": "de + lesquelles = ?",
+          "back": "desquelles"
+        },
+        {
+          "id": "1772685217154-d393csp4riv",
+          "front": "为什么 à/de + laquelle 不缩合？",
+          "back": "因为 la 不与 à/de 缩合。\n对比：à + le → au，但 à + la → à la。\n所以 à + laquelle 保持原样。"
+        },
+        {
+          "id": "1772685217154-h1eyq06bbii",
+          "front": "lequel 用法1：疑问代词（触发条件）",
+          "back": "语境中有明确的选择范围，通常由以下词引出：\n• entre（在…之间）\n• parmi（在…之中）\n• de + 名词（…中的）"
+        },
+        {
+          "id": "1772685217154-t34q27oss1h",
+          "front": "Entre le thé et le café, lequel préfères-tu ?",
+          "back": "茶和咖啡之间，你更喜欢哪一个？\nlequel = 阳性单数，指代 le thé/le café。"
+        },
+        {
+          "id": "1772685217154-zodfbmtfrw",
+          "front": "Laquelle de ces robes avez-vous choisie ?",
+          "back": "这些裙子中你选了哪一条？\nlaquelle：阴性单数（指代 une robe）\nchoisie：过去分词与前置 COD 配合。"
+        },
+        {
+          "id": "1772685217154-6cs8f215wew",
+          "front": "lequel 用法2：关系代词（什么时候必须用？）",
+          "back": "先行词是“物” + 前面有介词时 → 必须用 lequel。\n因为 qui 作关系代词接介词时只能指人。\n例：la table sur laquelle...（不能说 sur qui）"
+        },
+        {
+          "id": "1772685217154-dlcexa92skd",
+          "front": "La table sur laquelle j'ai posé mon livre...",
+          "back": "我放书的那张桌子……\nsur + laquelle（la table 阴性单数，是物）"
+        },
+        {
+          "id": "1772685217154-tmuy335p5or",
+          "front": "Le projet auquel je participe...",
+          "back": "我参与的那个项目……\nparticiper à → à + lequel = auquel\n（le projet 阳性单数）"
+        },
+        {
+          "id": "1772685217154-tcq9xc9cdl",
+          "front": "Les raisons pour lesquelles il est parti...",
+          "back": "他离开的原因……\npour + lesquelles（les raisons 阴性复数）\n⭐ 高频固定表达：la raison pour laquelle..."
+        },
+        {
+          "id": "1772685217154-r4dpni9xvdp",
+          "front": "quel vs lequel 怎么区分？",
+          "back": "quel = 疑问形容词 → 后面接名词\n例：Quel livre veux-tu ?\n\nlequel = 疑问代词 → 单独使用，名词已省略\n例：Lequel veux-tu ?"
+        },
+        {
+          "id": "1772685217154-9vnpeq3p8jc",
+          "front": "TCF 陷阱：Quel est votre nom ? 为什么不用 lequel？",
+          "back": "因为 nom 这个名词在句中 → 用 quel。\nlequel 只在名词省略时使用。"
+        },
+        {
+          "id": "1772685217154-1tnlod81czr",
+          "front": "TCF 陷阱：性数不一致",
+          "back": "lequel 必须与所指代名词的性数完全一致。\n❌ les robes → lesquels（阳性）\n✅ les robes → lesquelles（阴性）"
+        },
+        {
+          "id": "1772685217154-mvy4t65o98h",
+          "front": "TCF 陷阱：介词缩合遗漏",
+          "back": "❌ à lequel → ✅ auquel\n❌ de lesquels → ✅ desquels\n❌ à lesquelles → ✅ auxquelles\n唯一不缩合：à/de + laquelle"
+        },
+        {
+          "id": "1772685217154-of2xap8cf8n",
+          "front": "TCF 陷阱：过去分词配合",
+          "back": "lequel 作 COD 前置于 avoir 前时，过去分词要配合。\nLaquelle as-tu choisie ?（阴性单数 → choisie）\nLesquels as-tu lus ?（阳性复数 → lus）"
+        },
+        {
+          "id": "1772685217154-8ryets4a11k",
+          "front": "介词 sur/avec/par/pour + lequel 缩合吗？",
+          "back": "不缩合！只有 à 和 de 才与 lequel 缩合。\nsur lequel ✅\navec laquelle ✅\npar lesquels ✅\npour lesquelles ✅"
+        },
+        {
+          "id": "1772685217154-lp2fp50g0uj",
+          "front": "间接疑问句中的 lequel",
+          "back": "lequel 可出现在间接疑问句中：\nJe ne sais pas lequel choisir.\n（我不知道该选哪一个。）"
+        },
+        {
+          "id": "1772685217154-jmhjut1bni",
+          "front": "la raison pour laquelle...（固定表达）",
+          "back": "……的原因\nC'est la raison pour laquelle je suis venu.\n这就是我来的原因。\n⭐ TCF 高频表达，务必掌握。"
+        }
+      ]
+    },
+    {
+      "id": 1772684792671,
+      "name": "词汇：求职/工作主题词",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-05T04:26:32.671Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Mon père a 65 ans, il va bientôt _____.",
+          "options": [
+            "être à la retraite",
+            "partir à la retraite",
+            "rester à la retraite",
+            "avoir la retraite"
+          ],
+          "correct": 1,
+          "explanation": "\"va bientôt\" 表示即将发生的动作，用 partir à la retraite（退休这个动作）。être à la retraite 表示已经处于退休状态，不搭配 va bientôt。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'entreprise a décidé de _____ trois employés à cause de la crise.",
+          "options": [
+            "démissionner",
+            "postuler",
+            "licencier",
+            "recruter"
+          ],
+          "correct": 2,
+          "explanation": "企业因危机\"解雇\"员工 = licencier。démissionner 是主动辞职（不及物动词，不能接宾语）；postuler = 申请；recruter = 招聘。",
+          "category": "动词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne peut pas répondre au téléphone, elle est _____.",
+          "options": [
+            "en réunion",
+            "au réunion",
+            "dans réunion",
+            "à réunion"
+          ],
+          "correct": 0,
+          "explanation": "固定搭配：être en réunion（在开会）。réunion 是阴性名词，但此处用介词 en，不加冠词。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour ce poste, nous cherchons une personne _____ et _____.",
+          "options": [
+            "sérieux ... organisé",
+            "sérieuse ... organisée",
+            "sérieuse ... organisé",
+            "sérieux ... organisée"
+          ],
+          "correct": 1,
+          "explanation": "une personne 是阴性，形容词必须配阴性：sérieuse, organisée。",
+          "category": "形容词配性"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些形容词阴阳性同形？（选出所有正确的）",
+          "options": [
+            "dynamique",
+            "productif",
+            "aimable",
+            "efficace"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "dynamique（-ique）、aimable（-able）、efficace（-ace）阴阳同形。productif 阴性变为 productive（-if → -ive）。",
+          "category": "形容词变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a _____ (postuler, passé composé) à un poste de directeur.",
+          "correct": [
+            "postulé"
+          ],
+          "explanation": "postuler 的复合过去时：il a postulé。第一组动词（-er），过去分词 -é。postuler à = 申请。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je travaille seulement le matin, j'ai un emploi _____.",
+          "options": [
+            "à plein temps",
+            "à temps partiel",
+            "en congé",
+            "au chômage"
+          ],
+          "correct": 1,
+          "explanation": "只上午工作 = 兼职 = à temps partiel。à plein temps = 全职；en congé = 休假；au chômage = 失业。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie a envoyé son _____ et sa lettre de motivation. Elle espère _____ un entretien d'embauche la semaine prochaine.",
+          "correct": [
+            "CV",
+            "passer"
+          ],
+          "explanation": "第一空：发送简历 = envoyer son CV。第二空：参加面试 = passer un entretien（不是 faire）。",
+          "category": "求职流程"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après 30 ans dans cette entreprise, Monsieur Dupont est maintenant _____.",
+          "options": [
+            "à la retraite",
+            "au chômage",
+            "en congé",
+            "en réunion"
+          ],
+          "correct": 0,
+          "explanation": "工作30年后的状态 = 退休 = être à la retraite。au chômage 是失业（非自愿）；en congé 是暂时休假；en réunion 是在开会。关键词 \"après 30 ans\" 暗示职业生涯结束。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette méthode est très _____. Elle permet de gagner beaucoup de temps.",
+          "options": [
+            "efficace",
+            "productive",
+            "sérieuse",
+            "ponctuelle"
+          ],
+          "correct": 0,
+          "explanation": "\"方法\"有效 + 节省时间 = efficace（方法层面的高效）。productive 侧重产出多，修饰人或一天更自然。sérieuse = 认真的；ponctuelle = 守时的，语义不搭。",
+          "category": "近义词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'a pas de travail depuis six mois. Il est _____.",
+          "options": [
+            "en congé",
+            "à la retraite",
+            "au chômage",
+            "en vacances"
+          ],
+          "correct": 2,
+          "explanation": "没有工作六个月 = 失业 = être au chômage。en congé 是有工作但在休假；à la retraite 是退休；en vacances 是度假。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Notre société a besoin de _____ de nouveaux ingénieurs pour le projet.",
+          "options": [
+            "licencier",
+            "démissionner",
+            "recruter",
+            "postuler"
+          ],
+          "correct": 2,
+          "explanation": "公司需要\"招聘\"新工程师 = recruter。licencier = 解雇；démissionner = 辞职（不及物，不能接宾语）；postuler = 申请（是求职者的动作，不是公司的）。",
+          "category": "动词辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些搭配是正确的？（选出所有正确的）",
+          "options": [
+            "passer un entretien",
+            "faire un entretien",
+            "donner sa démission",
+            "donner sa licenciement"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "passer un entretien（参加面试）✓ 不说 faire un entretien ✗。donner sa démission（提交辞呈）✓。licenciement 是阳性名词，不说 donner sa licenciement，且辞退是公司行为不是个人行为 ✗。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon collègue est très _____. Il arrive toujours à 8 heures précises.",
+          "options": [
+            "ponctuel",
+            "productif",
+            "compétent",
+            "travailleur"
+          ],
+          "correct": 0,
+          "explanation": "总是准时到达 = 守时 = ponctuel。关键线索：\"toujours à 8 heures précises\"（总是精确8点）。其他选项语义不匹配。",
+          "category": "形容词理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a suivi une _____ professionnelle de trois mois pour améliorer ses compétences.",
+          "options": [
+            "promotion",
+            "formation",
+            "rémunération",
+            "démission"
+          ],
+          "correct": 1,
+          "explanation": "三个月的职业\"培训\"以提升技能 = une formation professionnelle。promotion = 升职/促销；rémunération = 报酬；démission = 辞呈。suivre une formation 是固定搭配。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Sophie travaille dans un _____. Elle est _____ (expérimenté) et très _____ (organisé). Ses collègues disent qu'elle est aussi très _____ avec tout le monde.",
+          "correct": [
+            "bureau",
+            "expérimentée",
+            "organisée",
+            "aimable"
+          ],
+          "explanation": "第一空：在办公室工作 = dans un bureau。第二至三空：Sophie 是女性，形容词配阴性 = expérimentée, organisée（+e）。第四空：aimable 阴阳同形，不变。",
+          "category": "形容词配性+词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le taux de _____ a augmenté dans cette région.",
+          "options": [
+            "chômage",
+            "congé",
+            "retraite",
+            "salaire"
+          ],
+          "correct": 0,
+          "explanation": "\"le taux de chômage\"（失业率）是固定搭配，TCF 阅读高频表达。taux de 后面不搭配 congé 或 retraite 来表示社会问题。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a signé un _____ à durée indéterminée avec l'entreprise.",
+          "options": [
+            "contrat",
+            "entretien",
+            "stage",
+            "congé"
+          ],
+          "correct": 0,
+          "explanation": "CDI = Contrat à Durée Indéterminée（无固定期限合同）。signer un contrat = 签合同。entretien = 面试；stage = 实习；congé = 假期。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ de travail dans cette entreprise sont de 9h à 17h.",
+          "options": [
+            "horaires",
+            "salaires",
+            "formations",
+            "promotions"
+          ],
+          "correct": 0,
+          "explanation": "工作时间 = les horaires de travail。9h à 17h 是具体的工时安排。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour bien travailler en groupe, il faut avoir l'esprit d'_____.",
+          "correct": [
+            "équipe"
+          ],
+          "explanation": "l'esprit d'équipe = 团队精神。TCF 口语和写作中的加分表达。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul a décidé de quitter son travail. Il a _____.",
+          "options": [
+            "licencié",
+            "été licencié",
+            "démissionné",
+            "recruté"
+          ],
+          "correct": 2,
+          "explanation": "\"décidé de quitter\" = 自己决定离开 = 主动 = démissionner。licencié / été licencié 都表示被解雇（被动），与 \"a décidé\" 矛盾。",
+          "category": "动词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant de passer l'entretien, n'oubliez pas d'envoyer votre _____.",
+          "options": [
+            "CV",
+            "CDI",
+            "congé",
+            "chômage"
+          ],
+          "correct": 0,
+          "explanation": "面试前发送简历 = envoyer votre CV。CDI 是合同类型；congé 是假期；chômage 是失业。",
+          "category": "求职流程"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un travailleur _____. Il a plus de vingt ans d'expérience dans ce domaine.",
+          "options": [
+            "expérimenté",
+            "ponctuel",
+            "aimable",
+            "dynamique"
+          ],
+          "correct": 0,
+          "explanation": "20年经验 = 有经验的 = expérimenté。关键线索：\"vingt ans d'expérience\"。ponctuel = 守时；aimable = 和蔼；dynamique = 有活力，都不匹配语境。",
+          "category": "形容词理解"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/11KdE2MZFh_z_7WXbQMcI31hXjPDTM8kjxrOgzvOrEt0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772684815335-a07lizuoegv",
+          "front": "un bureau（两个含义？）",
+          "back": "1. 办公室 2. 办公桌\n复数：des bureaux（-eau → -eaux）\nJe suis au bureau.（我在办公室。）"
+        },
+        {
+          "id": "1772684815335-b78t5z1gcj",
+          "front": "une réunion",
+          "back": "会议\n搭配：être en réunion（在开会）\norganiser une réunion（组织会议）"
+        },
+        {
+          "id": "1772684815335-wbhdisu783",
+          "front": "une équipe",
+          "back": "团队（阴性）\n搭配：travailler en équipe（团队合作）\nl'esprit d'équipe（团队精神）"
+        },
+        {
+          "id": "1772684815335-sojinfes1u",
+          "front": "un emploi à plein temps",
+          "back": "全职工作\n= un travail à temps plein"
+        },
+        {
+          "id": "1772684815335-sksge0plg1n",
+          "front": "un emploi à temps partiel",
+          "back": "兼职工作\nIl travaille à temps partiel."
+        },
+        {
+          "id": "1772684815335-283bl2fni7f",
+          "front": "les horaires de travail",
+          "back": "工作时间（阳性复数）\ndes horaires flexibles（弹性工作时间）"
+        },
+        {
+          "id": "1772684815335-mshuf1q5hxs",
+          "front": "le congé vs les vacances",
+          "back": "congé = 工作制度内的假（病假、产假等）\nvacances = 休闲度假（永远复数）\n都用 en：en congé / en vacances"
+        },
+        {
+          "id": "1772684815335-c0nsdwkojj4",
+          "front": "le congé maladie",
+          "back": "病假（sick leave）\n相关：le congé maternité（产假）"
+        },
+        {
+          "id": "1772684815335-mfwibph08xa",
+          "front": "être au chômage",
+          "back": "失业\nle chômage（失业）\nun chômeur / une chômeuse（失业者）\nle taux de chômage（失业率）"
+        },
+        {
+          "id": "1772684815335-8xju6e576lc",
+          "front": "le salaire vs la rémunération",
+          "back": "salaire = 固定工资（月薪/周薪）\nrémunération = 报酬（更正式，含奖金津贴等）"
+        },
+        {
+          "id": "1772684815335-64fwpsdl6os",
+          "front": "la carrière",
+          "back": "事业、职业生涯\n搭配：faire carrière（干出一番事业）⚠️ 无冠词\nun plan de carrière（职业规划）"
+        },
+        {
+          "id": "1772684815335-rlm3ynj94qe",
+          "front": "une formation",
+          "back": "培训；也指学历/教育背景\nsuivre une formation（参加培训）\nQuelle est votre formation ?（您的学历是？）"
+        },
+        {
+          "id": "1772684815335-8ggt0xoczfc",
+          "front": "une promotion（两个含义？）",
+          "back": "1. 升职：obtenir une promotion\n2. 促销：une promotion sur les prix\n⚠️ TCF 陷阱：注意语境判断"
+        },
+        {
+          "id": "1772684815335-e1pyglnka8",
+          "front": "partir à la retraite vs être à la retraite",
+          "back": "partir à la retraite = 退休（动作/转变）\nêtre à la retraite = 处于退休状态\n同逻辑：partir en vacances vs être en vacances"
+        },
+        {
+          "id": "1772684815335-b9bdois3t5j",
+          "front": "un(e) retraité(e)",
+          "back": "退休人员\n既是名词也是形容词"
+        },
+        {
+          "id": "1772684862815-7fpug6f2g2i",
+          "front": "compétent(e)",
+          "back": "能干的、能力强的\n搭配：être compétent en qqch\n名词：la compétence（能力）"
+        },
+        {
+          "id": "1772684862815-p2sarlnl5gq",
+          "front": "expérimenté(e)",
+          "back": "有经验的\n反义：inexpérimenté(e)\n名词：l'expérience (f.)\n⚠️ expérience 还有“实验”的意思"
+        },
+        {
+          "id": "1772684862815-q28laotcisn",
+          "front": "travailleur, travailleuse",
+          "back": "努力的（形容词）/ 工人（名词）\n⚠️ 双重身份\n阴性变化：-eur → -euse"
+        },
+        {
+          "id": "1772684862815-14jqg7w3mnp",
+          "front": "diligent(e)",
+          "back": "勤奋的（比 travailleur 更书面）\n阳性 t 不发音，阴性 te 发音"
+        },
+        {
+          "id": "1772684862815-5ijd8axqfzt",
+          "front": "dynamique",
+          "back": "有活力的\n⚠️ 阴阳同形（-ique 结尾）\n名词：le dynamisme"
+        },
+        {
+          "id": "1772684862815-iav0zpigij",
+          "front": "productif, productive",
+          "back": "高效的、有成效的\n变化：-if → -ive\n名词：la productivité"
+        },
+        {
+          "id": "1772684862815-ycgdfw0n0y",
+          "front": "efficace",
+          "back": "高效的（方法有效）\n⚠️ 阴阳同形\n反义：inefficace\n名词：l'efficacité (f.)"
+        },
+        {
+          "id": "1772684862815-8mefkpzbevw",
+          "front": "efficace vs productif 区别？",
+          "back": "efficace = 方法有效（强调方式）\nproductif = 产出多（强调结果）"
+        },
+        {
+          "id": "1772684862815-l3wopldz5jl",
+          "front": "sérieux, sérieuse",
+          "back": "认真的；也可表示“严重的”\n变化：-eux → -euse\nun problème sérieux（严重的问题）"
+        },
+        {
+          "id": "1772684862815-6uc21ka701m",
+          "front": "ponctuel, ponctuelle",
+          "back": "守时的\n变化：-el → -elle\n同义：être à l'heure\n反义：être en retard"
+        },
+        {
+          "id": "1772684862815-c9wupj0iqhg",
+          "front": "intelligent(e)",
+          "back": "聪明的\n阳性 t 不发音，阴性 te 发音\n名词：l'intelligence (f.)"
+        },
+        {
+          "id": "1772684862815-1q9p04vf44x",
+          "front": "aimable",
+          "back": "和蔼的、亲切的\n⚠️ 阴阳同形（-able 结尾）\n⚠️ aimable ≠ 可爱的（可爱 = mignon/ne）"
+        },
+        {
+          "id": "1772684862815-nkmygw9mx3g",
+          "front": "organisé(e)",
+          "back": "有条理的\n搭配：être bien organisé(e)\n名词：l'organisation (f.)"
+        },
+        {
+          "id": "1772684862815-nvydeq8hvq",
+          "front": "形容词阴阳性规律：+e",
+          "back": "compétent → compétente\ndiligent → diligente\nintelligent → intelligente\nexpérimenté → expérimentée"
+        },
+        {
+          "id": "1772684862815-u4ghiumjtro",
+          "front": "形容词阴阳性规律：-eux → -euse",
+          "back": "sérieux → sérieuse\nheureux → heureuse\ncurieux → curieuse"
+        },
+        {
+          "id": "1772684862815-iiz599mft3c",
+          "front": "形容词阴阳性规律：-if → -ive",
+          "back": "productif → productive\nactif → active\ncréatif → créative"
+        },
+        {
+          "id": "1772684862815-s6xmcsmjtkp",
+          "front": "形容词阴阳性规律：-el → -elle",
+          "back": "ponctuel → ponctuelle\nprofessionnel → professionnelle"
+        },
+        {
+          "id": "1772684862815-aquovnd78op",
+          "front": "形容词阴阳性规律：阴阳同形",
+          "back": "-ique：dynamique\n-ace：efficace\n-able：aimable, capable, responsable"
+        },
+        {
+          "id": "1772684862815-yvp27aghn1r",
+          "front": "Au travail, il faut être...（造句）",
+          "back": "Au travail, il faut être ponctuel, sérieux et organisé.\n在工作中，需要守时、认真、有条理。"
+        }
+      ]
+    },
+    {
+      "id": 1772684169288,
+      "name": "简单将来时 vs 最近将来时 vs 先将来时 vs 过去将来时 vs 过去先将来时",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-05T04:16:09.288Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Si tu _____ bien, tu réussiras l'examen.",
+          "options": [
+            "vas étudier",
+            "étudies",
+            "étudieras",
+            "as étudié"
+          ],
+          "correct": 1,
+          "explanation": "si 条件句铁律：si + présent, 主句 futur simple。si 后面绝不用将来时，也不用 futur proche。étudies 是现在时。",
+          "category": "si条件句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Quand il , nous partirons.",
+          "options": [
+            "arrive",
+            "arrivera",
+            "est arrivé",
+            "va arriver"
+          ],
+          "correct": 1,
+          "explanation": "法语铁律：quand/dès que/lorsque + futur simple（不像英语用现在时）。arrivera 是 futur simple。arrive 是英语思维的错误迁移。",
+          "category": "quand从句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la phrase correcte pour exprimer un projet déjà décidé, à l'oral :",
+          "options": [
+            "Je partirai en vacances la semaine prochaine.",
+            "Je vais partir en vacances la semaine prochaine.",
+            "Je partirais en vacances la semaine prochaine.",
+            "Je suis parti en vacances la semaine prochaine."
+          ],
+          "correct": 1,
+          "explanation": "口语中表达已决定的近期计划 → futur proche（aller + inf.）。futur simple 也不算错但不够自然。partirais 是条件式，suis parti 是过去时，均不合适。",
+          "category": "futur proche vs futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Dès que j' mon travail, je t'appellerai.",
+          "options": [
+            "ai fini",
+            "aurai fini",
+            "finis",
+            "vais finir"
+          ],
+          "correct": 1,
+          "explanation": "dès que + futur antérieur 表示「一完成就…」。先完成的动作用 futur antérieur（aurai fini），后发生的用 futur simple（appellerai）。ai fini 是 passé composé，不能用在将来语境。",
+          "category": "futur antérieur"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'a dit qu'il _____ le lendemain.",
+          "options": [
+            "partira",
+            "va partir",
+            "partirait",
+            "est parti"
+          ],
+          "correct": 2,
+          "explanation": "间接引语，主句过去时（a dit）→ 从句将来变为 conditionnel présent（= futur dans le passé）。partirait 对应英语 would leave。partira 是 futur simple，不做时态后移是错的。",
+          "category": "futur dans le passé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À la météo : « Demain, il _____ sur toute la France. »",
+          "options": [
+            "va pleuvoir",
+            "pleuvra",
+            "pleuvait",
+            "a plu"
+          ],
+          "correct": 1,
+          "explanation": "天气预报是典型的客观预测、正式书面语境 → futur simple（pleuvra）。va pleuvoir 更适合口语中看到乌云说「要下雨了」。pleuvait 是过去时，a plu 也是过去时。",
+          "category": "futur simple 语域"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention ! Tu _____ !",
+          "options": [
+            "tomberas",
+            "vas tomber",
+            "tomberais",
+            "es tombé"
+          ],
+          "correct": 1,
+          "explanation": "看到有人快摔倒，紧急警告 → 眼前即将发生 + 有明显迹象 → futur proche（vas tomber）。tomberas 太正式/太远，不符合紧迫感。tomberais 是条件式，es tombé 是已摔倒。",
+          "category": "futur proche 迹象"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中，quand 后面的时态使用是正确的？",
+          "options": [
+            "Quand il viendra, je lui parlerai.",
+            "Quand il vient, je lui parlerai.",
+            "Quand il sera arrivé, nous mangerons.",
+            "Quand il arrive, nous mangerons."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "法语铁律：quand + 将来时态。选项A用 futur simple ✅，选项C用 futur antérieur 表先后顺序 ✅。选项B和D用现在时是英语思维的错误迁移 ❌。",
+          "category": "quand从句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Lorsque vous _____ ce livre, vous comprendrez mieux la situation.",
+          "options": [
+            "lisez",
+            "allez lire",
+            "aurez lu",
+            "avez lu"
+          ],
+          "correct": 2,
+          "explanation": "lorsque + futur antérieur 表示「等你读完之后」→ 先完成的动作用 futur antérieur（aurez lu），主句 comprendrez 是 futur simple。avez lu 是 passé composé，不能用于将来语境。lisez 是现在时，英语思维陷阱。",
+          "category": "futur antérieur"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle pensait qu'ils _____ avant la fin du mois.",
+          "options": [
+            "déménageront",
+            "vont déménager",
+            "déménageraient",
+            "déménagent"
+          ],
+          "correct": 2,
+          "explanation": "主句 pensait（imparfait，过去时）→ 从句将来变为 conditionnel présent（= futur dans le passé）。déménageraient = would move。déménageront 是 futur simple，没有做时态后移。",
+          "category": "futur dans le passé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a promis qu'il _____ le rapport avant vendredi.",
+          "options": [
+            "finira",
+            "aura fini",
+            "aurait fini",
+            "va finir"
+          ],
+          "correct": 2,
+          "explanation": "主句 a promis（passé composé，过去时）+ 「在周五之前完成」= 过去视角看将来的完成 → conditionnel passé（= futur antérieur dans le passé）。aurait fini = would have finished。finira 和 aura fini 没有做时态后移。",
+          "category": "futur antérieur dans le passé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Choisissez la meilleure traduction de : \"When I have finished, I'll call you.\"",
+          "options": [
+            "Quand je finis, je t'appellerai.",
+            "Quand j'ai fini, je t'appellerai.",
+            "Quand j'aurai fini, je t'appellerai.",
+            "Quand je vais finir, je t'appellerai."
+          ],
+          "correct": 2,
+          "explanation": "英语 when + 现在完成时 → 法语 quand + futur antérieur。这是法英最大的结构差异之一。英语用 have finished，法语必须用 aurai fini。选项A和B是现在时/过去时，D的 futur proche 不用于 quand 从句。",
+          "category": "法英对比"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qu'est-ce que tu fais ce soir ?\n— Je _____ au cinéma avec Marie.",
+          "options": [
+            "irai",
+            "vais aller",
+            "irais",
+            "suis allé"
+          ],
+          "correct": 1,
+          "explanation": "口语对话、已有计划的近期安排 → futur proche（vais aller）。irai（futur simple）语法上不算错但在口语对话中不自然。irais 是条件式，suis allé 是过去时。",
+          "category": "futur proche 口语"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Transformez au discours indirect (间接引语) :\nDirect : Il dit : « Je partirai demain. »\nIndirect : Il a dit qu'il _____ le lendemain.",
+          "correct": [
+            "partirait"
+          ],
+          "explanation": "主句 a dit（过去时）→ futur simple（partirai）变为 conditionnel présent（partirait）。同时 demain → le lendemain。对应英语 will leave → would leave。",
+          "category": "间接引语"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Transformez au discours indirect :\nDirect : Elle dit : « J'aurai terminé avant midi. »\nIndirect : Elle a dit qu'elle _____ avant midi.",
+          "correct": [
+            "aurait terminé"
+          ],
+          "explanation": "主句 a dit（过去时）→ futur antérieur（aurai terminé）变为 conditionnel passé（aurait terminé）= futur antérieur dans le passé。对应英语 will have finished → would have finished。",
+          "category": "间接引语"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Si j'aurai le temps, je viendrai.",
+            "Si j'ai le temps, je viendrai.",
+            "Si j'ai le temps, je vais venir.",
+            "Quand j'aurai le temps, je viendrai."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "B ✅：si + présent, futur simple，经典正确搭配。D ✅：quand + futur simple，法语中 quand 后面可以用将来时。A ❌：si 后面绝不用将来时（铁律）。C ❌：si 条件句主句不用 futur proche。注意 D 中 quand 和 si 的区别：quand 后可以用将来时，si 后绝不行。",
+          "category": "si vs quand 综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/16YZsGS-N9MSK_9-yY-5BsTt8SMTEn0Jf_HWF_xxGXIc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772684200292-4w128vtjxda",
+          "front": "Futur proche 的构成是什么？",
+          "back": "aller（现在时变位）+ 动词不定式\n例：Je vais partir. (I'm going to leave.)"
+        },
+        {
+          "id": "1772684200292-52wgark6tgx",
+          "front": "Futur proche 对应英语哪个时态？",
+          "back": "be going to + 动词原形\n共同点：已有计划、即将发生、有明显迹象、口语高频"
+        },
+        {
+          "id": "1772684200292-dk1v6d1dnsi",
+          "front": "Futur simple 的构成是什么？",
+          "back": "动词不定式（或不规则词干）+ 词尾 -ai, -as, -a, -ons, -ez, -ont\n例：Je partirai. (I will leave.)"
+        },
+        {
+          "id": "1772684200292-3z0ufpnwh67",
+          "front": "Futur simple 对应英语哪个时态？",
+          "back": "will + 动词原形\n共同点：客观预测、承诺、正式/书面语"
+        },
+        {
+          "id": "1772684200292-5r8qpc20u9l",
+          "front": "Futur proche vs Futur simple：主观性谁更强？",
+          "back": "Futur proche 主观性更强（我打算…、即将…）\nFutur simple 更客观中性（预测、承诺）"
+        },
+        {
+          "id": "1772684200292-eyzaf35ins",
+          "front": "Futur proche vs Futur simple：哪个口语更常用？",
+          "back": "Futur proche 在口语中几乎完全取代了 Futur simple\n法语口语的替代程度远超英语中 be going to 对 will 的替代"
+        },
+        {
+          "id": "1772684200292-0g0vdi2fgiv",
+          "front": "si 条件句的主句用哪个将来时？",
+          "back": "只能用 Futur simple，绝不用 Futur proche\nSi tu travailles, tu réussiras. ✅\nSi tu travailles, tu vas réussir. ❌"
+        },
+        {
+          "id": "1772684200292-o79fqoye8na",
+          "front": "si 后面能不能用将来时？",
+          "back": "绝不能！si + présent（现在时）\nSi j'ai le temps, je viendrai. ✅\nSi j'aurai le temps... ❌"
+        },
+        {
+          "id": "1772684200292-5c4qcgtldf",
+          "front": "quand/dès que/lorsque 后面用什么时态表将来？",
+          "back": "用 futur simple 或 futur antérieur（将来时态）\nQuand il viendra, je lui parlerai. ✅\n≠ 英语用现在时：When he comes... ✅"
+        },
+        {
+          "id": "1772684200292-uev82crx0el",
+          "front": "法英铁律差异：quand vs when",
+          "back": "法语：quand + futur（将来时）\n英语：when + present（现在时）\n这是法英最大的结构性差异之一！"
+        },
+        {
+          "id": "1772684200292-ck21shr25sk",
+          "front": "Futur antérieur 的构成是什么？",
+          "back": "avoir/être 的 futur simple + 过去分词\n例：j'aurai fini, elle sera partie"
+        },
+        {
+          "id": "1772684200292-s1nyznoim1h",
+          "front": "Futur antérieur 对应英语哪个时态？",
+          "back": "will have + past participle（Future Perfect）\n例：I will have finished by noon."
+        },
+        {
+          "id": "1772684200292-i4jipc1itk",
+          "front": "Futur antérieur 表达什么含义？",
+          "back": "在将来某个时间点之前已经完成的动作\nQuand j'aurai fini, je sortirai.\n= When I have finished, I will go out."
+        },
+        {
+          "id": "1772684200292-yib1o271hi",
+          "front": "quand + futur antérieur 表达什么？",
+          "back": "先后顺序：先完成的动作用 futur antérieur，后发生的用 futur simple\nDès que j'aurai mangé, je partirai.\n（一吃完我就走）"
+        },
+        {
+          "id": "1772684200292-cwyuvz0av",
+          "front": "Futur dans le passé 的构成是什么？",
+          "back": "= conditionnel présent（词干 + -ais, -ais, -ait, -ions, -iez, -aient）\n用于间接引语时态后移"
+        },
+        {
+          "id": "1772684200292-tl7tda1nuof",
+          "front": "Futur dans le passé 对应英语哪个时态？",
+          "back": "would + 动词原形\nIl a dit qu'il partirait. = He said he would leave.\nfutur simple → conditionnel présent"
+        },
+        {
+          "id": "1772684200292-hxw4bsjwx7g",
+          "front": "间接引语时态后移：futur simple 变成什么？",
+          "back": "Conditionnel présent（= futur dans le passé）\n直接：« Je partirai. »\n间接：Il a dit qu'il partirait."
+        },
+        {
+          "id": "1772684200292-xxm50kuh86",
+          "front": "间接引语时态后移：futur antérieur 变成什么？",
+          "back": "Conditionnel passé（= futur antérieur dans le passé）\n直接：« J'aurai fini. »\n间接：Il a dit qu'il aurait fini."
+        },
+        {
+          "id": "1772684200292-yz1rwm9zysg",
+          "front": "Futur antérieur dans le passé 对应英语什么？",
+          "back": "would have + past participle\nIl a dit qu'il aurait fini. = He said he would have finished."
+        },
+        {
+          "id": "1772684200292-1declwg7n2y",
+          "front": "天气预报用哪个将来时？",
+          "back": "Futur simple（客观预测、正式书面）\nDemain, il pleuvra sur toute la France.\n≠ 口语看到乌云说 Il va pleuvoir（futur proche）"
+        },
+        {
+          "id": "1772684200292-5pzat1gp8et",
+          "front": "「小心你要摔了！」用哪个将来时？",
+          "back": "Futur proche（眼前即将发生、有明显迹象、紧迫感）\nAttention ! Tu vas tomber !\n不用 Tu tomberas（太远、太正式）"
+        },
+        {
+          "id": "1772684200292-jiiwdmvviid",
+          "front": "Futur antérieur 的第二个用法：推测",
+          "back": "对过去事件的猜测\nIl aura oublié. = He must have forgotten.\n（他大概是忘了吧）"
+        },
+        {
+          "id": "1772684200292-cfh5vqyl3qv",
+          "front": "五种将来时 TCF 等级排序",
+          "back": "A1-A2：Futur proche\nA2-B1：Futur simple\nB1-B2：Futur antérieur\nB2：Futur dans le passé\nC1：Futur ant. dans le passé"
+        },
+        {
+          "id": "1772684200292-43tirev4q1r",
+          "front": "间接引语中 demain 变成什么？",
+          "back": "le lendemain（第二天）\nIl a dit : « Je partirai demain. »\n→ Il a dit qu'il partirait le lendemain."
+        },
+        {
+          "id": "1772684200292-djds5l8k3jh",
+          "front": "口语对话中听到将来动作，第一反应？",
+          "back": "Futur proche（aller + inf.）\nTCF 听力部分大量出现\n— Tu fais quoi ce soir ?\n— Je vais aller au cinéma."
+        }
+      ]
+    },
+    {
+      "id": 1772683606583,
+      "name": "简单将来时（Futur simple)",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-05T04:06:46.583Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Demain, je _____ au bureau à 8 heures.",
+          "options": [
+            "suis",
+            "serai",
+            "serais",
+            "étais"
+          ],
+          "correct": 1,
+          "explanation": "demain 是未来时间标志词，用简单将来时。être 的将来词干是 ser-，je 形式加 -ai → serai。serais 是条件式，étais 是未完成过去时。",
+          "category": "不规则词干 + 时态辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'année prochaine, nous _____ en France.",
+          "options": [
+            "allons",
+            "irons",
+            "allions",
+            "irions"
+          ],
+          "correct": 1,
+          "explanation": "l'année prochaine 指向将来。aller 的将来词干是 ir-，nous 加 -ons → irons。allons 是现在时，allions 是未完成过去时，irions 是条件式。",
+          "category": "不规则词干"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ me téléphoner ce soir ?",
+          "options": [
+            "pourras",
+            "pourais",
+            "peurras",
+            "peux"
+          ],
+          "correct": 0,
+          "explanation": "pouvoir 将来词干是 pourr-（双 r），tu 加 -as → pourras。pourais 拼写错误（双 r 才对），peurras 词干完全错误，peux 是现在时。",
+          "category": "双 r 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ le projet la semaine prochaine.",
+          "options": [
+            "finissent",
+            "finiront",
+            "finissont",
+            "finirant"
+          ],
+          "correct": 1,
+          "explanation": "finir 是第二组规则动词，将来词干就是原形 finir-，ils 加 -ont → finiront。finissent 是现在时，finissont/finirant 不存在。",
+          "category": "规则动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ ses amis demain après-midi.",
+          "options": [
+            "verra",
+            "vera",
+            "voira",
+            "voit"
+          ],
+          "correct": 0,
+          "explanation": "voir 的将来词干是 verr-（双 r！），elle 加 -a → verra。vera 少一个 r 是经典陷阱，voira 词干错误，voit 是现在时。",
+          "category": "双 r 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ ce livre avant vendredi ?",
+          "options": [
+            "lirez",
+            "lireerez",
+            "lisez",
+            "liriez"
+          ],
+          "correct": 0,
+          "explanation": "lire 是 -re 动词，去掉 e → lir-，vous 加 -ez → lirez。lisez 是现在时，liriez 是条件式。",
+          "category": "-re 动词去 e"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne _____ pas venir à la fête samedi.",
+          "options": [
+            "pourrai",
+            "pourai",
+            "peux",
+            "pouvrai"
+          ],
+          "correct": 0,
+          "explanation": "pouvoir 将来词干 pourr-（双 r），je 加 -ai → pourrai。pourai（单 r）是最常见的拼写陷阱。peux 是现在时，pouvrai 词干错误。",
+          "category": "双 r 陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans deux ans, j' _____ une maison.",
+          "options": [
+            "ai",
+            "aurai",
+            "aurais",
+            "avais"
+          ],
+          "correct": 1,
+          "explanation": "dans deux ans 是将来时间标志词。avoir 将来词干 aur-，j' 加 -ai → aurai。ai 是现在时，aurais 是条件式，avais 是未完成过去时。",
+          "category": "时态辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On _____ du sport ensemble ce week-end.",
+          "options": [
+            "fera",
+            "faira",
+            "fait",
+            "faisait"
+          ],
+          "correct": 0,
+          "explanation": "faire 的将来词干是 fer-（不是 fair-！），on 加 -a → fera。faira 词干错误是高频陷阱，fait 是现在时，faisait 是未完成过去时。",
+          "category": "不规则词干"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je t' _____ un message demain matin.",
+          "options": [
+            "enverrai",
+            "envoierai",
+            "envoyerai",
+            "envoie"
+          ],
+          "correct": 0,
+          "explanation": "envoyer 的将来词干是 enverr-（双 r），je 加 -ai → enverrai。envoierai 和 envoyerai 都是用现在时词干硬套将来时的典型错误。envoie 是现在时。",
+          "category": "双 r 陷阱"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些是正确的简单将来时形式？（多选）",
+          "options": [
+            "je pourrai",
+            "il vera",
+            "nous saurons",
+            "elles viendront"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "je pourrai ✅（pourr- 双 r + ai）；il vera ✗（应为 verra，双 r）；nous saurons ✅（saur- + ons）；elles viendront ✅（viendr- + ont）。vera 少了一个 r 是经典陷阱。",
+          "category": "不规则词干综合辨认"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Demain il _____ (pleuvoir) toute la journée.",
+          "correct": [
+            "pleuvra"
+          ],
+          "explanation": "pleuvoir 是无人称动词，将来时只有 il 形式。词干 pleuvr-（-re 动词去 e 的逻辑虽不完全适用，但此词干需记忆），加 -a → pleuvra。",
+          "category": "无人称动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (devoir) partir tôt demain.",
+          "correct": [
+            "devrons"
+          ],
+          "explanation": "devoir 将来词干 devr-，nous 加 -ons → devrons。注意不是 devoirons。",
+          "category": "不规则词干"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (vendre) ta voiture le mois prochain ?",
+          "correct": [
+            "vendras"
+          ],
+          "explanation": "vendre 是 -re 动词，去掉末尾 e → vendr-，tu 加 -as → vendras。不是 venderas（不能保留 e）。",
+          "category": "-re 动词去 e"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Dans cinq ans, je _____ (vivre) au Canada. J' _____ (avoir) un bon travail et je _____ (pouvoir) parler français couramment. Ma famille _____ (venir) me rendre visite et nous _____ (faire) beaucoup de voyages ensemble.",
+          "correct": [
+            "vivrai",
+            "aurai",
+            "pourrai",
+            "viendra",
+            "ferons"
+          ],
+          "explanation": "vivre: -re 动词去 e → vivr- + ai = vivrai\navoir: aur- + ai = aurai\npouvoir: pourr- + ai = pourrai（双 r）\nvenir: viendr- + a = viendra（主语 ma famille 是第三人称单数）\nfaire: fer- + ons = ferons（nous）\n\n注意 ma famille 是单数，不要写 viendront。",
+          "category": "综合段落填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1b7C2w4pqM3e0bdADNdnXVan3l0odPiw-geTaNQX4RGI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772683637273-gpdxcog30zu",
+          "front": "简单将来时的构成公式",
+          "back": "动词原形 + 词尾（-ai, -as, -a, -ons, -ez, -ont）\n⚠️ -re 结尾动词要先去掉 e"
+        },
+        {
+          "id": "1772683637273-mb38l9c8q5f",
+          "front": "简单将来时的 6 个词尾",
+          "back": "je: -ai\ntu: -as\nil/elle/on: -a\nnous: -ons\nvous: -ez\nils/elles: -ont"
+        },
+        {
+          "id": "1772683637273-6wcvrv9w5j9",
+          "front": "记忆钩子：将来时词尾像哪个动词的现在时？",
+          "back": "avoir 的现在时：ai, as, a, avons, avez, ont\n将来时只有 nous(-ons) 和 vous(-ez) 不同"
+        },
+        {
+          "id": "1772683637273-1cxymx096bd",
+          "front": "être 的将来时词干 + je 形式",
+          "back": "词干：ser-\nje serai, tu seras, il sera, nous serons, vous serez, ils seront"
+        },
+        {
+          "id": "1772683637273-ij1o6b6ste",
+          "front": "avoir 的将来时词干 + je 形式",
+          "back": "词干：aur-\nj'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront"
+        },
+        {
+          "id": "1772683637273-ifz65y7eqdj",
+          "front": "aller 的将来时词干 + je 形式",
+          "back": "词干：ir-\nj'irai, tu iras, il ira, nous irons, vous irez, ils iront"
+        },
+        {
+          "id": "1772683637273-9lc58x9wpwo",
+          "front": "faire 的将来时词干 + je 形式",
+          "back": "词干：fer-\nje ferai, tu feras, il fera, nous ferons, vous ferez, ils feront"
+        },
+        {
+          "id": "1772683637273-t2jagus7i1s",
+          "front": "venir 的将来时词干 + je 形式",
+          "back": "词干：viendr-\nje viendrai, tu viendras, il viendra, nous viendrons, vous viendrez, ils viendront"
+        },
+        {
+          "id": "1772683637273-qb98sinf5q",
+          "front": "pouvoir 的将来时词干 + je 形式",
+          "back": "词干：pourr-（双 r！）\nje pourrai, tu pourras, il pourra, nous pourrons, vous pourrez, ils pourront"
+        },
+        {
+          "id": "1772683637273-xexecvlgka",
+          "front": "vouloir 的将来时词干 + je 形式",
+          "back": "词干：voudr-\nje voudrai, tu voudras, il voudra, nous voudrons, vous voudrez, ils voudront"
+        },
+        {
+          "id": "1772683637273-jruv76aoy0m",
+          "front": "devoir 的将来时词干 + je 形式",
+          "back": "词干：devr-\nje devrai, tu devras, il devra, nous devrons, vous devrez, ils devront"
+        },
+        {
+          "id": "1772683637273-8jtdtiqwyp9",
+          "front": "voir 的将来时词干（易错！）",
+          "back": "词干：verr-（双 r！）\nje verrai ✅\nje verai ✗"
+        },
+        {
+          "id": "1772683637273-mnfdvdraov",
+          "front": "envoyer 的将来时词干（易错！）",
+          "back": "词干：enverr-（双 r！）\nj'enverrai ✅\nj'envoierai ✗"
+        },
+        {
+          "id": "1772683637273-4ldssqna4es",
+          "front": "savoir 的将来时词干",
+          "back": "词干：saur-\nje saurai"
+        },
+        {
+          "id": "1772683637273-6d7ipdfryu",
+          "front": "-re 动词的将来时怎么处理？",
+          "back": "去掉词尾的 e，再加将来时词尾\nvendre → vendr + a = vendra\nlire → lir + ai = lirai\nprendre → prendr + a = prendra"
+        },
+        {
+          "id": "1772683637273-0gm7wf7jbfd9",
+          "front": "futur proche vs futur simple 核心区别",
+          "back": "futur proche（aller + inf.）：马上要做，确定，口语\nfutur simple（原形 + 词尾）：计划/预测，较正式/书面"
+        },
+        {
+          "id": "1772683637273-dcaxzfj2t64",
+          "front": "futur simple 的时间标志词有哪些？",
+          "back": "demain, après-demain, la semaine prochaine, le mois prochain, l'année prochaine, dans + 时间（dans 2 ans, dans 10 minutes）"
+        },
+        {
+          "id": "1772683637273-8d914edonvi",
+          "front": "TCF 陷阱：pouvoir 将来时怎么拼？",
+          "back": "je pourrai（双 r + ai）\n✗ je pourai（单 r 是错的！）"
+        },
+        {
+          "id": "1772683637273-zgrl40oxrs",
+          "front": "TCF 口语模板：Que ferez-vous dans 2 ans ?",
+          "back": "Je travaillerai dans une entreprise internationale.\nJe gagnerai un bon salaire.\nJe serai résident(e) permanent(e) du Canada.\nJ'aurai une bonne qualité de vie."
+        },
+        {
+          "id": "1772683637273-ah95cr04weh",
+          "front": "陷阱辨认：je parle vs je parlerai vs je parlais",
+          "back": "je parle = 现在时\nje parlerai = 简单将来时\nje parlais = 未完成过去时\n注意词尾 -e / -erai / -ais 的区别"
+        }
+      ]
+    },
+    {
       "id": 1772680595978,
       "name": "习语：Faure d'une pierre deux coups*",
       "folderId": "1770661225895",
@@ -70269,6 +73123,18 @@
     {
       "id": "1772566472155",
       "name": "TCF写作"
+    },
+    {
+      "id": "1772683473645",
+      "name": "A2语法"
+    },
+    {
+      "id": "1772685738192",
+      "name": "TCF阅读"
+    },
+    {
+      "id": "1772686244763",
+      "name": "TCF听力"
     }
   ],
   "wrongBook": [],
@@ -70292,6 +73158,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-05T03:16:52.779Z",
+  "exportedAt": "2026-03-05T04:53:38.604Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
