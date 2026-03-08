@@ -1,6 +1,2883 @@
 {
   "savedSets": [
     {
+      "id": 1772943088227,
+      "name": "A2 Lecon 4 TCF阅读练习2",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-08T04:11:28.227Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Je n'arrive pas à dormir », que signifie « arriver à » ?",
+          "options": [
+            "到达某个地方",
+            "成功做到某事",
+            "发生某事",
+            "来到某人身边"
+          ],
+          "correct": 1,
+          "explanation": "arriver à + inf. = 成功做到……，这里意思是「我睡不着（我没能成功入睡）」。这是 TCF 高频考点，不要和「到达」混淆。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le féminin de « heureux » ?",
+          "options": [
+            "heureuse",
+            "heurouse",
+            "heureuxe",
+            "heurese"
+          ],
+          "correct": 0,
+          "explanation": "以 -eux 结尾的形容词，阴性变为 -euse：heureux → heureuse。同类：malheureux → malheureuse。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il ne mange _____ de viande. » Complétez avec le mot correct.",
+          "options": [
+            "toujours",
+            "souvent",
+            "jamais",
+            "parfois"
+          ],
+          "correct": 2,
+          "explanation": "ne…jamais = 从不。句意：他从不吃肉。注意 jamais 和 ne 配合使用构成否定。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Classez les adverbes du plus fréquent au moins fréquent : souvent, jamais, toujours, rarement.",
+          "options": [
+            "toujours → souvent → rarement → jamais",
+            "souvent → toujours → jamais → rarement",
+            "jamais → rarement → souvent → toujours",
+            "toujours → rarement → souvent → jamais"
+          ],
+          "correct": 0,
+          "explanation": "频率从高到低：toujours（总是）→ souvent（经常）→ rarement（很少）→ jamais（从不）。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Pouvez-vous me dire où _____ ? » Choisissez la forme correcte.",
+          "options": [
+            "habite-t-il",
+            "il habite",
+            "est-ce qu'il habite",
+            "habite il"
+          ],
+          "correct": 1,
+          "explanation": "间接疑问句用陈述语序，不倒装。Pouvez-vous me dire où il habite ? 是唯一正确形式。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « concilier vie professionnelle et vie personnelle », « concilier » signifie :",
+          "options": [
+            "放弃",
+            "兼顾、平衡",
+            "比较",
+            "分开"
+          ],
+          "correct": 1,
+          "explanation": "concilier = 调和、兼顾。concilier A et B = 平衡 A 和 B。B2 级核心词汇。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce travail est _____. » (这份工作令人疲倦)",
+          "options": [
+            "fatigué",
+            "fatiguée",
+            "fatigant",
+            "fatiguant"
+          ],
+          "correct": 2,
+          "explanation": "fatigant(e) 描述事物「令人疲倦的」；fatigué(e) 描述人「累的」。注意拼写：fatigant（形容词）不是 fatiguant。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tu me manques » signifie en chinois :",
+          "options": [
+            "你缺少我",
+            "我让你想念",
+            "我想你",
+            "你想我"
+          ],
+          "correct": 2,
+          "explanation": "法语 manquer 的逻辑和中文相反：Tu me manques = 你对我「缺失」= 我想你。主语是被想念的人。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les expressions suivantes, lesquelles expriment une réponse négative dans un sondage ?",
+          "options": [
+            "oui tout à fait",
+            "non plutôt pas",
+            "oui plutôt",
+            "non pas du tout"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "non plutôt pas（不太是，弱否定）和 non pas du tout（完全不是，强否定）是两种否定回答。oui tout à fait 和 oui plutôt 是肯定回答。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels mots sont synonymes de « une contrainte » ?",
+          "options": [
+            "une obligation",
+            "une liberté",
+            "une restriction",
+            "un avantage"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "contrainte = 限制、约束。同义词：obligation（义务）、restriction（限制）。liberté（自由）和 avantage（优势）是反义方向。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les _____ de logement sont un problème courant. » Complétez.",
+          "options": [
+            "facilités",
+            "difficultés",
+            "qualités",
+            "quantités"
+          ],
+          "correct": 1,
+          "explanation": "des difficultés de logement = 住房困难，是固定搭配，原文高频表达。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il souffre de la _____ depuis le départ de sa famille. (孤独)",
+          "correct": [
+            "solitude"
+          ],
+          "explanation": "la solitude = 孤独（n.f.）。来自形容词 seul(e)。souffrir de = 遭受……之苦。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle n'arrive pas à _____ son travail et sa vie personnelle. (兼顾)",
+          "correct": [
+            "concilier"
+          ],
+          "explanation": "arriver à + concilier = 能够兼顾。concilier A et B 是固定搭配。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« En dehors de son travail, il fait du sport. » Que signifie « en dehors de » ?",
+          "options": [
+            "在……里面",
+            "在……之外",
+            "在……之前",
+            "在……期间"
+          ],
+          "correct": 1,
+          "explanation": "en dehors de = 在……之外。同义：hors de, à l'extérieur de。句意：工作之外，他做运动。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Le manque _____ temps est le problème principal. » Quelle préposition ?",
+          "options": [
+            "à",
+            "en",
+            "de",
+            "par"
+          ],
+          "correct": 2,
+          "explanation": "le manque de + 名词 = 缺乏……。这是固定结构，介词永远是 de。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« L'_____ familial est difficile à supporter. » Complétez avec le bon mot. (亲情疏远)",
+          "options": [
+            "éducation",
+            "éloignement",
+            "enseignement",
+            "engagement"
+          ],
+          "correct": 1,
+          "explanation": "l'éloignement familial = 亲情疏远/家人远离。来自动词 s'éloigner（远离）。",
+          "category": "词汇"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Selon le sondage, 49% des personnes sont _____ heureux au travail, tandis que 9% ne le sont _____. Le problème le plus cité dans la vie quotidienne est le _____ de temps.",
+          "correct": [
+            "souvent",
+            "jamais",
+            "manque"
+          ],
+          "explanation": "第一空：souvent（经常），对应49%。第二空：jamais（从不），对应9%。第三空：le manque de temps（缺少时间），排名第一的困难。",
+          "category": "综合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Domestique » dans « des problèmes domestiques » signifie :",
+          "options": [
+            "野生的",
+            "国内的",
+            "家庭的、家务的",
+            "温柔的"
+          ],
+          "correct": 2,
+          "explanation": "domestique 在此语境 = 家庭的、家务的。des problèmes domestiques = 家庭/家务问题。注意它也可以指「家养的」（un animal domestique），但这里是家庭义。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Mon travail me passionne. » Dans cette phrase, le sujet de « passionne » est :",
+          "options": [
+            "me",
+            "je",
+            "mon travail",
+            "la passion"
+          ],
+          "correct": 2,
+          "explanation": "passionner qqn 的主语是事物：mon travail（工作）让我（me）充满热情。不要误认为「我」是主语。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'ai du mal à payer mes factures. » Que signifie « avoir du mal à » ?",
+          "options": [
+            "喜欢做某事",
+            "做某事有困难",
+            "拒绝做某事",
+            "习惯做某事"
+          ],
+          "correct": 1,
+          "explanation": "avoir du mal à + inf. = 做某事有困难，是 arriver à 的反义表达。句意：我很难付清账单。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : « Je ne suis pas toujours _____ de prendre les bonnes décisions. » (Je = femme)",
+          "options": [
+            "sûr",
+            "sûre",
+            "sûres",
+            "sûrs"
+          ],
+          "correct": 1,
+          "explanation": "je 是女性单数，形容词配性数：sûre。sûr 是阳性，sûres/sûrs 是复数。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je n'ai plus _____ vie personnelle. » Choisissez le bon article.",
+          "options": [
+            "de la",
+            "de",
+            "une",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "在否定句 ne…plus 中，不定冠词和部分冠词变为 de：je n'ai plus de vie personnelle。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les loyers sont trop _____ dans ma ville. » Complétez avec l'adjectif correct pour parler de prix.",
+          "options": [
+            "hauts",
+            "grands",
+            "élevés",
+            "forts"
+          ],
+          "correct": 2,
+          "explanation": "形容价格/数量「高」用 élevé(e)，不用 haut（物理高度）也不用 grand。les loyers sont élevés = 房租很高。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le sens de « récupérer » dans « Je n'arrive pas à récupérer même le week-end » ?",
+          "options": [
+            "取回东西",
+            "恢复精力",
+            "回收利用",
+            "追赶进度"
+          ],
+          "correct": 1,
+          "explanation": "récupérer 在此语境 = 恢复精力。句意：即使周末我也没法恢复精力。它也可以指「取回」，但这里是引申义。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« C'est _____. Je passe deux heures par jour dans les embouteillages. » Choisissez le mot le plus fort.",
+          "options": [
+            "fatigant",
+            "intéressant",
+            "épuisant",
+            "amusant"
+          ],
+          "correct": 2,
+          "explanation": "épuisant = 令人精疲力竭的，比 fatigant 程度更强。每天堵车两小时用 épuisant 更准确。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tout _____ sur moi : le ménage, la cuisine, le linge. » Complétez.",
+          "options": [
+            "reste",
+            "repose",
+            "pose",
+            "passe"
+          ],
+          "correct": 1,
+          "explanation": "reposer sur qqn = 全落在某人身上。tout repose sur moi = 一切都落在我身上。不要和 rester（停留）混淆。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les phrases suivantes, lesquelles sont correctes pour une femme qui parle d'elle-même ?",
+          "options": [
+            "Je suis souvent heureux dans mon travail.",
+            "Je suis souvent heureuse dans mon travail.",
+            "Je me sens isolé après le départ de ma famille.",
+            "Je suis constamment fatiguée."
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "女性说自己必须用阴性形容词：heureuse（不是 heureux）、fatiguée（不是 fatigué）、isolée（不是 isolé）。选项A用了 heureux（阳性），C用了 isolé（阳性），都不对。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je _____ de la solitude depuis le départ de ma famille. » Complétez.",
+          "options": [
+            "souffre",
+            "souffris",
+            "souffrit",
+            "souffire"
+          ],
+          "correct": 0,
+          "explanation": "souffrir 的现在时 je 变位是 souffre。souffrir de = 遭受……之苦。souffris 是简单过去时，souffrit 是第三人称简单过去时，souffire 不存在。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a _____ (avoir du mal) à trouver une crèche fiable.",
+          "correct": [
+            "du mal"
+          ],
+          "explanation": "avoir du mal à + inf. = 做某事有困难。Elle a du mal à trouver = 她很难找到。注意 du mal 是固定搭配，不能改成 de mal 或 des mals。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je passe presque deux heures par jour dans les _____ . (堵车)",
+          "correct": [
+            "embouteillages"
+          ],
+          "explanation": "les embouteillages（m.pl.）= 堵车。être dans les embouteillages / passer du temps dans les embouteillages 是常见搭配。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Mon appartement est trop petit et les _____ sont trop élevés. » Quel mot complète la phrase ? (房租)",
+          "options": [
+            "loyers",
+            "logements",
+            "étages",
+            "locataires"
+          ],
+          "correct": 0,
+          "explanation": "le loyer = 房租（复数 les loyers）。logement = 住房，étage = 楼层，locataire = 租客。只有 loyer 搭配 élevé 表示「房租高」。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ma principale contrainte, _____ le manque de temps. » Complétez avec la bonne structure de mise en relief.",
+          "options": [
+            "c'est",
+            "il est",
+            "elle est",
+            "ce sont"
+          ],
+          "correct": 0,
+          "explanation": "c'est + 名词/名词短语，是法语中最常见的强调结构。Ma principale contrainte, c'est le manque de temps. 不用 il est 或 elle est（这两个后面通常接形容词）。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je rentre souvent _____ le soir. Je suis trop _____ pour profiter _____ mes soirées. Je n'ai plus _____ vie personnelle.",
+          "correct": [
+            "tard",
+            "fatiguée",
+            "de",
+            "de"
+          ],
+          "explanation": "第一空：tard（晚，副词）。第二空：fatiguée（累的，女性加 e）。第三空：profiter de = 享受……。第四空：ne…plus de + 名词（否定句中不定冠词变 de）。",
+          "category": "综合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles expressions signifient « 做家务 » en français ?",
+          "options": [
+            "faire les courses",
+            "faire le ménage",
+            "faire le linge",
+            "faire la cuisine"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "faire le ménage = 做家务/打扫；faire le linge = 洗衣服；faire la cuisine = 做饭。这三个都属于家务范畴。faire les courses = 购物/买菜，不算家务。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« L'éducation des enfants me _____. » (让我担心) Complétez.",
+          "options": [
+            "préoccupe",
+            "préoccupes",
+            "préoccupent",
+            "préoccupée"
+          ],
+          "correct": 0,
+          "explanation": "préoccuper qqn = 使某人担心。主语是 l'éducation（单数第三人称），所以动词用 préoccupe。me 是宾语不是主语。和 passionner 结构一样：事物做主语，人做宾语。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1w40kSNxI8joGgQK4QQH3x6l5__b0li-ml-ZnjdvPIEE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772943128772-vh1i6mypawb",
+          "front": "souvent",
+          "back": "经常（频率副词）\n例：Je suis souvent fatigué."
+        },
+        {
+          "id": "1772943128772-riqq7icmrt",
+          "front": "de temps en temps",
+          "back": "有时、偶尔（频率副词）\n例：Il voyage de temps en temps."
+        },
+        {
+          "id": "1772943128772-nsi5tervgq",
+          "front": "jamais（单独使用）",
+          "back": "从不\n完整否定：ne…jamais\n例：Il n'est jamais content."
+        },
+        {
+          "id": "1772943128772-7fttjy50hd",
+          "front": "频率副词从高到低排列",
+          "back": "toujours → souvent → de temps en temps → rarement → jamais"
+        },
+        {
+          "id": "1772943128772-sosubncb7l",
+          "front": "heureux / heureuse",
+          "back": "幸福的、快乐的（adj.）\n近义：content(e), satisfait(e)\n反义：malheureux / malheureuse"
+        },
+        {
+          "id": "1772943128772-n1vn46tdrzt",
+          "front": "arriver à + inf.",
+          "back": "成功做到……、能够……\n≠ 到达\n例：Je n'arrive pas à dormir. 我睡不着。"
+        },
+        {
+          "id": "1772943128772-6rbxjwvxtfw",
+          "front": "concilier",
+          "back": "调和、兼顾、平衡（v.）\n搭配：concilier A et B\n例：concilier travail et famille\n名词：la conciliation"
+        },
+        {
+          "id": "1772943128772-ye94wq35oik",
+          "front": "une exigence",
+          "back": "要求、需求（n.f.）\n复数：les exigences\n形容词：exigeant(e) = 要求高的"
+        },
+        {
+          "id": "1772943128772-2c5mbmdt7x1",
+          "front": "une contrainte",
+          "back": "限制、约束（n.f.）\n复数：les contraintes\n动词：contraindre（迫使）\n近义：obligation, restriction"
+        },
+        {
+          "id": "1772943128772-pnysinfp31c",
+          "front": "oui tout à fait",
+          "back": "完全是（强肯定）"
+        },
+        {
+          "id": "1772943128772-xpnqwbn0lhg",
+          "front": "oui plutôt",
+          "back": "基本是（弱肯定）"
+        },
+        {
+          "id": "1772943128772-kbtot5579c",
+          "front": "non plutôt pas",
+          "back": "不太是（弱否定）"
+        },
+        {
+          "id": "1772943128772-3om5r6snf12",
+          "front": "non pas du tout",
+          "back": "完全不是（强否定）"
+        },
+        {
+          "id": "1772943128772-e0rm6i7qywp",
+          "front": "Pouvez-vous me dire + 间接疑问句",
+          "back": "你能告诉我……吗？\n⚠️ 后接陈述语序，不倒装\n正确：…où il habite\n错误：…où habite-t-il"
+        },
+        {
+          "id": "1772943128772-ccqloc0so0t",
+          "front": "en dehors de",
+          "back": "在……之外\n同义：hors de, à l'extérieur de\n例：en dehors du travail 工作之外"
+        },
+        {
+          "id": "1772943128772-mr0iwigeir9",
+          "front": "quotidien(ne)",
+          "back": "日常的（adj.）\n名词：le quotidien = 日常生活\n同义：de tous les jours"
+        },
+        {
+          "id": "1772943128772-7hyfyrzp0pl",
+          "front": "le manque de + 名词",
+          "back": "缺乏……（名词结构）\n例：le manque de temps 缺时间\n元音前：le manque d'argent"
+        },
+        {
+          "id": "1772943128772-6h3p7bxsfvj",
+          "front": "Tu me manques.",
+          "back": "我想你。\n⚠️ 法语逻辑：主语是被想念的人\n字面：你对我缺失。"
+        },
+        {
+          "id": "1772943128772-fcauecfeoqm",
+          "front": "fatigué(e) vs fatigant(e)",
+          "back": "fatigué(e) = 累的（人的感受）\nfatigant(e) = 令人疲倦的（事物特征）\n例：Je suis fatigué. / Ce travail est fatigant."
+        },
+        {
+          "id": "1772943128772-29ueg49nyrk",
+          "front": "la solitude",
+          "back": "孤独（n.f.）\n形容词：seul(e)\n例：Il souffre de la solitude."
+        },
+        {
+          "id": "1772943128772-5m25oeg5w47",
+          "front": "l'éloignement (m.)",
+          "back": "远离、疏远\n来自动词：s'éloigner（远离）\n例：l'éloignement familial 亲情疏远"
+        },
+        {
+          "id": "1772943128772-h2vmwqq186r",
+          "front": "le logement",
+          "back": "住房、住所（n.m.）\n例：des difficultés de logement 住房困难\nB1核心词"
+        },
+        {
+          "id": "1772943128772-j5qrk5zybgc",
+          "front": "l'éducation (f.) vs l'enseignement (m.)",
+          "back": "éducation = 教育（广义，含家教）\nenseignement = 教学（学校层面）\n例：l'éducation des enfants 孩子的教育"
+        },
+        {
+          "id": "1772943128772-v9tz2nt2c1p",
+          "front": "domestique",
+          "back": "家庭的、家务的（adj.）\n例：des problèmes domestiques 家庭问题\n也可指：家养的（un animal domestique）"
+        },
+        {
+          "id": "1772943128772-t0iji4eyjl",
+          "front": "rencontrer（引申义）",
+          "back": "遇到（问题、困难）\n≠ 只是“见面”\n例：les contraintes que vous rencontrez 你遇到的限制"
+        },
+        {
+          "id": "1772943141130-a6yu370csgp",
+          "front": "Je suis souvent heureuse dans mon travail.",
+          "back": "我经常在工作中感到幸福。\n⚠️ 女性用 heureuse，不是 heureux"
+        },
+        {
+          "id": "1772943141130-0a1cz8oon0um",
+          "front": "Mon travail me passionne.",
+          "back": "我的工作让我充满热情。\npassionner qqn = 让某人充满热情\n主语是事物，宾语是人"
+        },
+        {
+          "id": "1772943141130-87xyhkcy24m",
+          "front": "Je me sens heureuse.",
+          "back": "我感到幸福。\nse sentir + adj. = 感到……\n女性：heureuse"
+        },
+        {
+          "id": "1772943141130-dkq60m7j6ob",
+          "front": "surtout quand…",
+          "back": "尤其是当……的时候\n例：surtout quand je réussis un projet important\n尤其是当我完成一个重要项目时"
+        },
+        {
+          "id": "1772943141130-95cq05bf6v",
+          "front": "Je trouve mon poste ennuyeux et mal payé.",
+          "back": "我觉得我的职位无聊又薪水低。\ntrouver qqch + adj. = 觉得某物……\nmal payé = 薪水低的"
+        },
+        {
+          "id": "1772943141130-zkkg7xvtuti",
+          "front": "avoir du mal à + inf.",
+          "back": "做某事有困难\n= arriver à 的反义\n例：J'ai du mal à concilier les deux.\n我很难兼顾两者。"
+        },
+        {
+          "id": "1772943141130-sudcfggmdvh",
+          "front": "faire des sacrifices sur…",
+          "back": "在……方面做出牺牲\n例：faire des sacrifices sur ma vie personnelle\n在个人生活上做出牺牲"
+        },
+        {
+          "id": "1772943141130-0446w2dlgwwo",
+          "front": "Je rentre souvent tard.",
+          "back": "我经常很晚回家。\nrentrer = 回家\ntard = 晚（副词）"
+        },
+        {
+          "id": "1772943141130-doueleq6ydr",
+          "front": "profiter de + 名词",
+          "back": "享受……\n例：profiter de mes soirées\n享受我的晚间时光"
+        },
+        {
+          "id": "1772943141130-j4ngse7myj",
+          "front": "je n'ai plus de + 名词",
+          "back": "我不再有……\nne…plus de（否定中 des → de）\n例：je n'ai plus de vie personnelle\n我已经没有个人生活了"
+        },
+        {
+          "id": "1772943141130-oiz86iyr99r",
+          "front": "Mon travail prend tout mon temps.",
+          "back": "工作占据了我所有的时间。\nprendre + 时间 = 占用时间"
+        },
+        {
+          "id": "1772943141130-sacp3ow0ug",
+          "front": "les courses (f.pl.)",
+          "back": "购物、买菜\nfaire les courses = 去买东西"
+        },
+        {
+          "id": "1772943141130-04xjsums15ht",
+          "front": "le ménage",
+          "back": "家务\nfaire le ménage = 做家务"
+        },
+        {
+          "id": "1772943141130-7uwcpykj5fw",
+          "front": "les embouteillages (m.pl.)",
+          "back": "堵车\nêtre dans les embouteillages = 堵在路上\n例：Je passe deux heures dans les embouteillages."
+        },
+        {
+          "id": "1772943141130-99hs2h1qrlr",
+          "front": "épuisant(e)",
+          "back": "令人精疲力竭的\n比 fatigant 程度更重\n例：C'est épuisant. 太累人了。"
+        },
+        {
+          "id": "1772943141130-bs486ll8nxk",
+          "front": "les factures (f.pl.)",
+          "back": "账单\npayer les factures = 付账单\n例：J'ai du mal à payer toutes les factures."
+        },
+        {
+          "id": "1772943141130-cqma8ccba6",
+          "front": "à la fin du mois",
+          "back": "月底的时候\n例：À la fin du mois, je n'ai plus d'argent.\n月底我就没钱了。"
+        },
+        {
+          "id": "1772943141130-nf248y6fugs",
+          "front": "préoccuper qqn",
+          "back": "使某人担心\n例：L'éducation des enfants me préoccupe.\n孩子的教育让我担心。\n类似结构：qqch me passionne / me fatigue"
+        },
+        {
+          "id": "1772943141130-ys9oimgmnde",
+          "front": "Je ne suis pas toujours sûre de + inf.",
+          "back": "我并不总是确定……\n⚠️ 女性用 sûre（加 e）\n例：Je ne suis pas sûre de prendre les bonnes décisions."
+        },
+        {
+          "id": "1772943141130-2kma0lsynki",
+          "front": "la garde d'enfants",
+          "back": "儿童看护\nune crèche = 托儿所\nune nounou = 保姆"
+        },
+        {
+          "id": "1772943141130-p4ddnxtej5",
+          "front": "fiable",
+          "back": "可靠的（adj.）\n例：une nounou fiable 一个可靠的保姆\n近义：digne de confiance"
+        },
+        {
+          "id": "1772943141130-leuuks3wu2",
+          "front": "tout repose sur moi",
+          "back": "全都落在我身上\nreposer sur qqn = 依赖/落在某人身上"
+        },
+        {
+          "id": "1772943141130-9z7zxxevw95",
+          "front": "lourd(e)",
+          "back": "沉重的（字面 + 引申）\n例：C'est vraiment lourd. 真的很沉重（心理负担）。"
+        },
+        {
+          "id": "1772943141130-8kzuqaqu1o7",
+          "front": "le linge",
+          "back": "洗的衣服\nfaire le linge = 洗衣服"
+        },
+        {
+          "id": "1772943141130-y0poegb2b1",
+          "front": "souffrir de + 名词",
+          "back": "遭受……之苦\n例：Je souffre du manque de repos.\n我饱受缺乏休息之苦。\n注意：de + le = du"
+        },
+        {
+          "id": "1772943141130-16id9lyjgq",
+          "front": "récupérer",
+          "back": "恢复精力；也可指「取回」\n例：Je n'arrive pas à récupérer.\n我没法恢复精力。"
+        },
+        {
+          "id": "1772943141130-obfsdenczo",
+          "front": "se sentir isolé(e)",
+          "back": "感到被孤立\n例：Je me sens souvent isolée.\n我经常感到被孤立。（女性加 e）"
+        },
+        {
+          "id": "1772943141130-d936bvg5tcr",
+          "front": "le loyer",
+          "back": "房租（n.m.）\n复数：les loyers\n例：Les loyers sont trop élevés. 房租太高了。"
+        },
+        {
+          "id": "1772943141130-7qah4lrxzw6",
+          "front": "élevé(e)（价格）",
+          "back": "高的（用于价格、数量）\n≠ haut（物理高度）\n例：Les loyers sont élevés. 房租很高。"
+        },
+        {
+          "id": "1772943141130-hzu3n2h0p3t",
+          "front": "des horaires flexibles",
+          "back": "弹性工作时间\nun horaire = 时间表（n.m.）\nflexible = 灵活的"
+        }
+      ]
+    },
+    {
+      "id": 1772943024447,
+      "name": "A2 Lecon 4 TCF阅读练习1",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-08T04:10:24.447Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il y a cinq ans, deux jeunes femmes _____ leur propre entreprise.",
+          "options": [
+            "ont créé",
+            "ont créées",
+            "sont créé",
+            "sont créées"
+          ],
+          "correct": 0,
+          "explanation": "créer 用 avoir 作助动词，过去分词不与主语配合。ont créé 是正确形式。只有用 être 作助动词时过去分词才与主语配合。",
+          "category": "passé composé 助动词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Zohra est originaire _____ Maroc.",
+          "options": [
+            "de",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "Maroc 是阳性国名，de + le 缩合为 du。阴性国名用 de（de France），复数国名用 des（des États-Unis）。",
+          "category": "国名介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle veut créer _____ propre entreprise.",
+          "options": [
+            "sa",
+            "son",
+            "leur",
+            "ses"
+          ],
+          "correct": 0,
+          "explanation": "entreprise 是阴性单数名词，对应 elle 的主有形容词是 sa。propre 在名词前意为\"自己的\"。注意：虽然 entreprise 以元音开头，但 propre 隔开了主有形容词和名词，所以不需要用 son。",
+          "category": "主有形容词 + propre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai une chambre . C'est ma _____ chambre.",
+          "options": [
+            "propre / propre",
+            "propre / propre",
+            "sale / propre",
+            "propre / grande"
+          ],
+          "correct": 0,
+          "explanation": "第一个 propre 在名词后 = 干净的；第二个 propre 在名词前 = 自己的。同一个词，位置不同意思完全不同。这就是 TCF 的陷阱设计。",
+          "category": "propre 位置辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles se sont _____ dans un service de traiteur à domicile.",
+          "options": [
+            "lancé",
+            "lancés",
+            "lancée",
+            "lancées"
+          ],
+          "correct": 3,
+          "explanation": "se lancer 是代词式动词，passé composé 用 être，过去分词与主语 elles（阴性复数）配合 → lancées（加 -es）。",
+          "category": "代词式动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": " trois ans, elles ont vendu leurs produits sur les marchés.",
+          "options": [
+            "Dans",
+            "En",
+            "Pendant",
+            "Il y a"
+          ],
+          "correct": 2,
+          "explanation": "pendant + 时间段 = 在……期间，强调持续。句意是\"在三年期间她们一直在卖\"。dans 用于将来，en 强调完成速度，il y a 表示\"……以前\"。",
+          "category": "时间介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'entreprise s'est développée _____ quelques mois.",
+          "options": [
+            "pendant",
+            "dans",
+            "en",
+            "il y a"
+          ],
+          "correct": 2,
+          "explanation": "en + 时间段 = 在……之内（强调完成速度）。句意是\"在几个月之内企业就发展起来了\"，强调速度快。",
+          "category": "时间介词辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Leur cuisine a été qualifiée _____ « délicieuse » par les clients.",
+          "options": [
+            "comme",
+            "en",
+            "de",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "qualifier qqch de + adj 是固定搭配，意为\"将某物评价为……\"。介词必须用 de。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "frais 的阴性形式是？",
+          "options": [
+            "fraise",
+            "fraîse",
+            "fraîche",
+            "freche"
+          ],
+          "correct": 2,
+          "explanation": "frais → fraîche 是特殊变化，不遵循普通的加 -e 规则。TCF 常考的不规则阴性形容词。",
+          "category": "形容词阴性变化"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles envisagent _____ embaucher deux employés.",
+          "options": [
+            "à",
+            "de",
+            "pour",
+            "—（直接跟动词）"
+          ],
+          "correct": 1,
+          "explanation": "envisager de + 动词原形 = 打算/考虑做某事。介词用 de，不能用 à 或 pour。",
+          "category": "动词 + 介词 + 不定式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si elles _____ les financements, elles ouvriront une boutique.",
+          "options": [
+            "trouvaient",
+            "trouveront",
+            "trouvent",
+            "trouveraient"
+          ],
+          "correct": 2,
+          "explanation": "si + 现在时 → 主句用将来时（或现在时）。这是真实条件句。si 后面永远不能直接跟 futur simple。",
+          "category": "条件句"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些动词的 passé composé 用 être 作助动词？（多选）",
+          "options": [
+            "venir",
+            "vendre",
+            "se lancer",
+            "créer"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "venir 是移动类动词（DR MRS VANDERTRAMP），用 être。se lancer 是代词式动词，一律用 être。vendre 和 créer 用 avoir。",
+          "category": "être vs avoir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle est _____ (originaire) du Sénégal et lui est _____ (originaire) du Maroc.",
+          "correct": [
+            "originaire",
+            "originaire"
+          ],
+          "explanation": "originaire 是形容词，但它阴阳同形，不需要变化。无论主语是男是女都写 originaire。",
+          "category": "形容词配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Devant le succès, les clients ont qualifié la cuisine de _____ (délicieux).",
+          "correct": [
+            "délicieuse"
+          ],
+          "explanation": "délicieux 修饰 la cuisine（阴性），-eux → -euse 变为 délicieuse。",
+          "category": "形容词阴性变化"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ cinq ans, deux femmes ont créé leur _____ entreprise. _____ trois ans, elles ont vendu leurs produits. _____ quelques mois, le chiffre d'affaires a atteint 100 000 euros.",
+          "correct": [
+            "Il y a",
+            "propre",
+            "Pendant",
+            "En"
+          ],
+          "explanation": "Il y a + 时间 = ……以前；propre 在名词前 = 自己的；Pendant + 时间 = 在……期间；En + 时间 = 在……之内完成。四个时间/限定表达一次性巩固。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1aZyJ9_zc-1ijC25umP0FIqz8zG3rQx2dF8fbZ46wV_M/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772943045834-gumce0czh6h",
+          "front": "il y a + 时间段",
+          "back": "……以前（搭配过去时）\n例：Il y a cinq ans, j'ai déménagé. 五年前我搬了家。"
+        },
+        {
+          "id": "1772943045834-hl4jxnddi3",
+          "front": "dans + 时间段",
+          "back": "……之后（搭配将来时）\n例：Je pars dans deux jours. 我两天后出发。"
+        },
+        {
+          "id": "1772943045834-5i1xa2x7ra2",
+          "front": "pendant + 时间段",
+          "back": "在……期间（强调持续）\n例：J'ai étudié pendant trois heures. 我学了三个小时。"
+        },
+        {
+          "id": "1772943045834-itulre1cemo",
+          "front": "en + 时间段",
+          "back": "在……之内（强调完成速度）\n例：Elle a fini en dix minutes. 她十分钟内完成了。"
+        },
+        {
+          "id": "1772943045834-peyraqpznuo",
+          "front": "une entreprise (n.f.)",
+          "back": "企业、公司\n阴性名词\n同义：une société, une firme"
+        },
+        {
+          "id": "1772943045834-vjwqr5963t",
+          "front": "gourmand → 阴性？",
+          "back": "gourmande\n规则变化：加 -e\n拟人用法：une entreprise gourmande 一家美食企业"
+        },
+        {
+          "id": "1772943045834-s2ywhmgwtr",
+          "front": "dynamique (adj.) 阴阳性？",
+          "back": "阴阳同形，不变化\nun homme dynamique / une femme dynamique\n意思：充满活力的、积极进取的"
+        },
+        {
+          "id": "1772943045834-tx0yj8w1ow",
+          "front": "créer 的 passé composé (elles)",
+          "back": "elles ont créé\n助动词 avoir + 过去分词 créé"
+        },
+        {
+          "id": "1772943045834-7kxu8up0i87",
+          "front": "主有形容词 + propre + 名词 =?",
+          "back": "某人自己的（= someone's own）\n例：mon propre bureau 我自己的办公室\nsa propre voiture 他自己的车"
+        },
+        {
+          "id": "1772943045834-rplgaaqtfu",
+          "front": "⚠️ propre 在名词前 vs 名词后？",
+          "back": "名词前 = 自己的：ma propre chambre 我自己的房间\n名词后 = 干净的：une chambre propre 一间干净的房间"
+        },
+        {
+          "id": "1772943045834-3bkpohf94j6",
+          "front": "spécialisé(e) dans + 领域",
+          "back": "专业从事……、专注于……\n例：une entreprise spécialisée dans la cuisine africaine\n一家专注于非洲美食的企业"
+        },
+        {
+          "id": "1772943045834-rybj9ac8yqi",
+          "front": "venir 的 passé composé 用哪个助动词？",
+          "back": "用 être\nL'idée est venue. 这个想法出现了。\n过去分词与主语配合：venue（阴性加 -e）"
+        },
+        {
+          "id": "1772943045834-gh3t443rlaf",
+          "front": "être originaire de + 地名",
+          "back": "来自……、原籍是……\n例：Elle est originaire du Sénégal. 她来自塞内加尔。"
+        },
+        {
+          "id": "1772943045834-gry8gdw2w1a",
+          "front": "du Maroc / du Sénégal 中的 du =?",
+          "back": "de + le 的缩合形式\n阳性国名前用 du\n阴性/元音开头国名用 de/d'：de France, d'Italie"
+        },
+        {
+          "id": "1772943045834-drfcuqmww1t",
+          "front": "toutes deux / toutes les deux",
+          "back": "她们俩都\ntoutes deux 是书面简写\n例：Toutes deux sont excellentes cuisinières."
+        },
+        {
+          "id": "1772943045834-2t4jyaqwc9",
+          "front": "vendre 的 passé composé (elles)",
+          "back": "elles ont vendu\navoir + vendu\nvendre 是第三组不规则动词"
+        },
+        {
+          "id": "1772943045834-dvchuho3wpu",
+          "front": "devant（抽象含义）",
+          "back": "面对、鉴于（不仅仅是空间上的\"前面\"）\n例：Devant le succès, elles se sont lancées dans un nouveau projet.\n面对成功，她们投身于新项目。"
+        },
+        {
+          "id": "1772943045834-l1b6iwo7ko",
+          "front": "qualifier qqch de + adj",
+          "back": "把某物评价为……\n例：qualifiée de « délicieuse » par les clients\n被客户评价为\"美味的\""
+        },
+        {
+          "id": "1772943045834-n24riiuyk9",
+          "front": "délicieux → 阴性？",
+          "back": "délicieuse\n规律：-eux → -euse\n同类：heureux → heureuse, sérieux → sérieuse"
+        },
+        {
+          "id": "1772943045834-846dssv5jz4",
+          "front": "frais → 阴性？",
+          "back": "fraîche ⚠️ 特殊变化！\n不是简单加 -e\nTCF 常考的不规则阴性形容词"
+        },
+        {
+          "id": "1772943045834-w36slw8vr0o",
+          "front": "se lancer dans + qch",
+          "back": "投身于、开始从事\n代词式动词\n例：Elles se sont lancées dans un service de traiteur.\n她们投身于餐饮服务。"
+        },
+        {
+          "id": "1772943045834-ach16hcnqpg",
+          "front": "代词式动词 passé composé 规则？",
+          "back": "一律用 être 作助动词\n过去分词与主语配合\n例：elles se sont lancées（阴性复数加 -es）"
+        },
+        {
+          "id": "1772943045834-7ljvf6cb684",
+          "front": "un service de traiteur à domicile",
+          "back": "上门餐饮服务\ntraiteur = 外卖/宴席供应商\nà domicile = 到家、上门"
+        },
+        {
+          "id": "1772943045834-7hrjos93zue",
+          "front": "le chiffre d'affaires (n.m.)",
+          "back": "营业额、销售额\n商务法语核心词\n例：atteindre 100 000 euros de chiffre d'affaires 达到10万欧元营业额"
+        },
+        {
+          "id": "1772943045834-aff5btbexka",
+          "front": "envisager de + 动词原形",
+          "back": "考虑/打算做某事\n例：Elles envisagent d'embaucher deux employés.\n她们打算雇用两名员工。\n同义：prévoir de, avoir l'intention de"
+        },
+        {
+          "id": "1772943045834-1ba5nkjd7r7",
+          "front": "embaucher (v.t.)",
+          "back": "雇用、招聘\n反义词：licencier（解雇）\n例：embaucher des employés 招聘员工"
+        },
+        {
+          "id": "1772943045834-64jrx9od5a9",
+          "front": "si + 现在时 → ?",
+          "back": "真实条件句：如果……就……\n主句用现在时或将来时\n例：Si elles trouvent les financements, elles ouvriront une boutique.\n如果她们找到融资，就会开一家店。"
+        },
+        {
+          "id": "1772943045834-2bxqa1sx8yv",
+          "front": "souhaiter qch à qqn",
+          "back": "祝某人……\nsouhaiter bonne chance à qqn 祝好运\nsouhaiter bon anniversaire à qqn 祝生日快乐"
+        },
+        {
+          "id": "1772943045834-5gknvwch2i4",
+          "front": "faits maison",
+          "back": "自制的、家庭制作的\nfait 与名词配合（plats → faits）\nmaison 作副词不变\n例：des plats faits maison 自制菜肴"
+        },
+        {
+          "id": "1772943045834-1lq1rukbioe",
+          "front": "créer une entreprise 的同义替换？",
+          "back": "fonder une entreprise\nlancer une entreprise\nmonter une entreprise\nTCF 同义改写常考"
+        }
+      ]
+    },
+    {
+      "id": 1772942941673,
+      "name": "ne que句型",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-08T04:09:01.673Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je _____ mange _____ des légumes.\n（我只吃蔬菜。）",
+          "options": [
+            "ne ... pas",
+            "ne ... que",
+            "ne ... plus",
+            "ne ... jamais"
+          ],
+          "correct": 1,
+          "explanation": "\"只\"= 限制结构 ne ... que。ne ... pas 是否定\"不吃\"，意思完全不同。",
+          "category": "ne...que 基本结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle n'a invité que ses amis.\n这句话等于：",
+          "options": [
+            "Elle n'a pas invité ses amis.",
+            "Elle a seulement invité ses amis.",
+            "Elle a invité tous ses amis.",
+            "Elle n'a jamais invité ses amis."
+          ],
+          "correct": 1,
+          "explanation": "ne ... que = seulement（仅仅）。她只邀请了她的朋友。A 是\"没邀请\"，C 是\"所有朋友\"，D 是\"从不邀请\"，全错。",
+          "category": "ne...que 与 seulement 互换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'a _____ qu'une sœur.",
+          "options": [
+            "a",
+            "eu",
+            "—（不填）",
+            "est"
+          ],
+          "correct": 2,
+          "explanation": "n'a 已经是 ne + a（avoir 现在时），qu'une 是 que + une 的省音。空处不需要填任何东西，原句已完整：Il n'a qu'une sœur. 本题考省音识别。",
+          "category": "省音规则"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai mangé que du pain.\n句中 que 的位置在：",
+          "options": [
+            "助动词 ai 之前",
+            "助动词 ai 和过去分词 mangé 之间",
+            "过去分词 mangé 之后",
+            "句末"
+          ],
+          "correct": 2,
+          "explanation": "ne ... que 在复合时态中，que 放在过去分词之后、被限制成分之前。这和 ne ... pas（pas 在过去分词之前）是核心区别。",
+          "category": "复合时态中的位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "选出正确的句子：",
+          "options": [
+            "Je ne mange que de pain.",
+            "Je ne mange que du pain.",
+            "Je ne mange que pain.",
+            "Je n'mange que du pain."
+          ],
+          "correct": 1,
+          "explanation": "ne ... que 不是否定，所以部分冠词 du 保持不变！A 错在用了 de（那是 ne...pas 才触发的规则），C 缺冠词，D 的 ne 省音形式错误（mange 以辅音开头，ne 不省音）。",
+          "category": "冠词陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les femmes ne s'intéressent plus qu'à leur voiture.\n这句话的意思是：",
+          "options": [
+            "女人们不再对汽车感兴趣了。",
+            "女人们现在就只关心她们的汽车了。",
+            "女人们从来不关心汽车。",
+            "女人们越来越关心汽车了。"
+          ],
+          "correct": 1,
+          "explanation": "ne ... plus que = 不再……只…… → 现在就只关心汽车了。plus 表示\"不再\"，que 表示\"只\"，叠加使用。",
+          "category": "ne...plus que 组合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "把下句改写为 ne ... que：\nIl boit seulement de l'eau.",
+          "options": [
+            "Il ne boit que de l'eau.",
+            "Il ne boit pas que de l'eau.",
+            "Il ne boit que l'eau.",
+            "Il ne boit qu'eau."
+          ],
+          "correct": 0,
+          "explanation": "seulement → ne ... que，冠词 de l'eau 保持不变。B 多了 pas（意思变成\"不只喝水\"），C 把部分冠词 de l' 换成了定冠词 l'，D 缺冠词。",
+          "category": "seulement 改写"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous ne regardons _____ la télé le soir.\n（我们只在晚上看电视。）",
+          "correct": [
+            "que"
+          ],
+          "explanation": "ne ... que 结构，que 放在被限制的时间状语 la télé 前面。注意这里限制的是 la télé（只看电视），而不是 le soir。",
+          "category": "que 位置判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1AfoV-hWKbk5qxktAcLi_3CiqVZYL-_qfCYsFnjiw3Vk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942978785-ayunpnfoikh",
+          "front": "ne ... que 的含义是什么？",
+          "back": "“仅仅、只”，表示限制（la restriction）。\n语义等同于副词 seulement / uniquement。\n例：Je ne mange que des fruits.（我只吃水果）"
+        },
+        {
+          "id": "1772942978785-du3rdczuizs",
+          "front": "ne ... que 的基本结构",
+          "back": "ne + 动词 + que + 被限制成分\n例：Je ne mange que des fruits.\n结构说明：ne 在动词前，que 紧贴被限制成分。"
+        },
+        {
+          "id": "1772942978785-w4f45qdn54",
+          "front": "ne ... que 是否定结构吗？",
+          "back": "不是！它是限制结构，表达肯定含义。\nne ... que = 只……\nne ... pas = 不……（真正否定）\n因此句子整体仍是肯定意义。"
+        },
+        {
+          "id": "1772942978785-p2zzwi8xs8p",
+          "front": "ne ... que 改写为 seulement\nJe ne bois qu'un café.",
+          "back": "Je bois seulement un café.\n两者含义完全相同：我只喝一杯咖啡。\nne...que = seulement。"
+        },
+        {
+          "id": "1772942978785-heh7iyhapth",
+          "front": "seulement 改写为 ne ... que\nElle a seulement invité ses amis.",
+          "back": "Elle n'a invité que ses amis.\n结构变化：ne + 助动词 + 过去分词 + que + 成分。"
+        },
+        {
+          "id": "1772942978785-y9pk3yhm6y8",
+          "front": "que 前遇到元音/哑音 h 怎么办？",
+          "back": "发生省音：que → qu'\n例：Il n'a qu'une sœur.\n解释：que + une → qu'une。"
+        },
+        {
+          "id": "1772942978785-fb581moblgu",
+          "front": "ne 前遇到元音/哑音 h 开头的动词怎么办？",
+          "back": "发生省音：ne → n'\n例：Il n'a qu'un ami.\n解释：ne + a → n'a。"
+        },
+        {
+          "id": "1772942978785-zf9r79rx1a9",
+          "front": "复合时态中 ne ... que 的位置",
+          "back": "结构：ne + 助动词 + 过去分词 + que + X\n例：Je n'ai mangé que du pain.\n注意：que 在过去分词之后。"
+        },
+        {
+          "id": "1772942978785-uhpenpdxf1",
+          "front": "复合时态：ne...pas vs ne...que 位置对比",
+          "back": "ne...pas：ne + 助动词 + pas + 过去分词\n→ Je n'ai pas mangé.\n\nne...que：ne + 助动词 + 过去分词 + que + X\n→ Je n'ai mangé que du pain.\n核心记忆：pas 在分词前，que 在分词后。"
+        },
+        {
+          "id": "1772942978785-al03t8e87kt",
+          "front": "ne ... que 后面冠词变不变？\nJe ne mange que ___ pain.",
+          "back": "不变！仍然使用部分冠词：du。\nJe ne mange que du pain.\n原因：ne...que 不是否定。\n对比否定：Je ne mange pas de pain."
+        },
+        {
+          "id": "1772942978785-dwqnj9i7eaw",
+          "front": "ne ... plus que 是什么意思？",
+          "back": "结构：ne + 动词 + plus + que\n意思：现在只……了 / 不再……只……\n例：Il ne mange plus que des pâtes.\n含义：他现在只吃意面了。"
+        },
+        {
+          "id": "1772942978785-f78i871lmy",
+          "front": "ne ... jamais que 是什么意思？",
+          "back": "结构：ne + 动词 + jamais + que\n意思：永远只…… / 从来只……\n例：Il ne mange jamais que des pâtes."
+        },
+        {
+          "id": "1772942978785-ic1wwdom7u",
+          "front": "que 的位置不同，意思变吗？\nJe ne lis que le journal.\nJe ne lis le journal que le matin.",
+          "back": "会改变含义。\nque 紧贴它限制的成分。\n\nJe ne lis que le journal = 我只读报纸。\nJe ne lis le journal que le matin = 我只在早上读报纸。"
+        },
+        {
+          "id": "1772942978785-cmsp8ah3o2a",
+          "front": "TCF 三秒排除法：看到 ne ... que",
+          "back": "看到 ne...que 时：\n1. 不是否定句\n2. 含义 = seulement / uniquement\n3. 直接排除含“没有、不”的选项"
+        }
+      ]
+    },
+    {
+      "id": 1772942900527,
+      "name": "习语：Envoyer quelqu'un sur les roses",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-08T04:08:20.527Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « envoyer quelqu'un sur les roses » ?",
+          "options": [
+            "Offrir des fleurs à quelqu'un",
+            "Rejeter quelqu'un brutalement",
+            "Inviter quelqu'un à se promener",
+            "Complimenter quelqu'un"
+          ],
+          "correct": 1,
+          "explanation": "这个习语意为粗暴地拒绝某人、打发某人走，与玫瑰花无关。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai demandé une augmentation à mon patron, mais il m'a _____ sur les roses.",
+          "options": [
+            "envoyé",
+            "envoyée",
+            "envoyer",
+            "envoie"
+          ],
+          "correct": 0,
+          "explanation": "助动词 avoir + 过去分词。m' 指代男性（je），直接宾语前置但为阳性，不需配合，用 envoyé。",
+          "category": "语法-过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie a insisté, mais le directeur l'a _____ sur les roses.",
+          "options": [
+            "envoyé",
+            "envoyée",
+            "envoyés",
+            "envoyées"
+          ],
+          "correct": 1,
+          "explanation": "l' 指代 Marie（阴性单数），直接宾语前置于 avoir，过去分词需配合阴性：envoyée。TCF 高频考点。",
+          "category": "语法-过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le registre de « envoyer quelqu'un sur les roses » ?",
+          "options": [
+            "Soutenu / littéraire",
+            "Courant / standard",
+            "Familier / oral",
+            "Vulgaire"
+          ],
+          "correct": 2,
+          "explanation": "此表达属于口语/日常非正式语域（familier），正式场合用 éconduire 或 refuser。",
+          "category": "语域判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression est synonyme de « envoyer quelqu'un sur les roses » ?",
+          "options": [
+            "Envoyer balader quelqu'un",
+            "Envoyer un message à quelqu'un",
+            "Mettre quelqu'un à l'aise",
+            "Donner un coup de main à quelqu'un"
+          ],
+          "correct": 0,
+          "explanation": "envoyer balader qqn = 打发走某人，与 envoyer sur les roses 同义。其余选项意思完全不同。",
+          "category": "近义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ Paul sur les roses hier.",
+          "options": [
+            "envoyons",
+            "avons envoyé",
+            "envoyions",
+            "enverrons"
+          ],
+          "correct": 1,
+          "explanation": "hier 表示过去已完成的动作，用复合过去时 avons envoyé。",
+          "category": "时态选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quand je lui ai proposé mon aide, elle m'a _____ sur les roses.",
+          "correct": [
+            "envoyé"
+          ],
+          "explanation": "passé composé：a + envoyé。m' 若指代男性则不配合。",
+          "category": "变位填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase utilise CORRECTEMENT cette expression ?",
+          "options": [
+            "Il m'a envoyé dans les roses.",
+            "Il m'a envoyé aux roses.",
+            "Il m'a envoyé sur les roses.",
+            "Il m'a envoyé pour les roses."
+          ],
+          "correct": 2,
+          "explanation": "固定搭配介词为 sur，不可替换为 dans / aux / pour。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans un dialogue TCF, une personne dit : « Il m'a envoyée sur les roses. » Que peut-on déduire ?",
+          "options": [
+            "La personne a reçu un cadeau.",
+            "La personne a été acceptée.",
+            "La personne a été rejetée.",
+            "La personne a visité un jardin."
+          ],
+          "correct": 2,
+          "explanation": "听力理解题核心：envoyer sur les roses = 被拒绝（rejetée）。",
+          "category": "TCF听力推断"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达可以表示「拒绝某人」？（多选）",
+          "options": [
+            "envoyer quelqu'un sur les roses",
+            "éconduire quelqu'un",
+            "donner un coup de main à quelqu'un",
+            "envoyer balader quelqu'un"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "前三个选中项都表示拒绝：envoyer sur les roses（口语）、éconduire（正式）、envoyer balader（口语）。donner un coup de main = 帮忙，不表示拒绝。",
+          "category": "近义多选"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1HiptXvwl-XwCWcMry4ovoN2AN5Xa1y6gvYy89adk-BY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942913914-l3b1lix5e9",
+          "front": "envoyer quelqu'un sur les roses\n字面意思？",
+          "back": "把某人扔到玫瑰花丛上\n（玫瑰有刺 → 毫不留情地拒绝）"
+        },
+        {
+          "id": "1772942913914-5ihx854q0w9",
+          "front": "envoyer quelqu'un sur les roses\n实际含义？",
+          "back": "粗暴地拒绝某人、打发某人走\n= 让人吃闭门羹"
+        },
+        {
+          "id": "1772942913914-7ktpbws7tj9",
+          "front": "envoyer quelqu'un sur les roses\n语域？",
+          "back": "口语 / 日常非正式（familier）\n正式场合不宜使用"
+        },
+        {
+          "id": "1772942913914-9nfz7l4twn5",
+          "front": "envoyer 现在时变位\nje / tu / il",
+          "back": "j'envoie\ntu envoies\nil/elle envoie\n（注意 y → i）"
+        },
+        {
+          "id": "1772942913914-z4qm7pjvek",
+          "front": "envoyer 现在时变位\nnous / vous / ils",
+          "back": "nous envoyons\nvous envoyez\nils/elles envoient"
+        },
+        {
+          "id": "1772942913914-tgv22ahxuo",
+          "front": "envoyer 的复合过去时\n助动词 + 过去分词？",
+          "back": "avoir + envoyé\n例：j'ai envoyé"
+        },
+        {
+          "id": "1772942913914-5pfvs9o81ba",
+          "front": "Marie a insisté, mais le directeur l'a _____ sur les roses.\n为什么过去分词要加 -e？",
+          "back": "envoyée\nl' 指代 Marie（阴性），直接宾语前置于 avoir → 过去分词配合阴性加 -e"
+        },
+        {
+          "id": "1772942913914-tmp0iqxat3o",
+          "front": "envoyer sur les roses 的介词是？\nsur / dans / aux？",
+          "back": "sur（固定搭配）\n❌ dans les roses\n❌ aux roses"
+        },
+        {
+          "id": "1772942913914-23s29lze8hw",
+          "front": "「打发某人走」的近义口语表达？\n（除 envoyer sur les roses 外）",
+          "back": "envoyer balader quelqu'un\nenvoyer promener quelqu'un"
+        },
+        {
+          "id": "1772942913914-00nn43dn4zqc",
+          "front": "「婉拒、回绝某人」\n正式/书面怎么说？",
+          "back": "éconduire quelqu'un\n（语域：soutenu / formel）"
+        },
+        {
+          "id": "1772942913914-9w7g7m1dbo6",
+          "front": "TCF 听力：对话中出现\nenvoyer sur les roses\n正确答案指向什么？",
+          "back": "拒绝 / refus\n干扰项常见：offrir des roses（送花）、inviter（邀请）"
+        },
+        {
+          "id": "1772942913914-b9eqvq8xg1",
+          "front": "Il m'a envoyé sur les roses.\n中文翻译？",
+          "back": "他把我轰走了。/ 他直接拒绝了我。"
+        }
+      ]
+    },
+    {
+      "id": 1772942855452,
+      "name": "法语副词 -ment & 其他形态",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-08T04:07:35.452Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Choisissez l'adverbe correct : Elle chante _____.",
+          "options": [
+            "doucement",
+            "doucement",
+            "doucment",
+            "douçement"
+          ],
+          "correct": 0,
+          "explanation": "doux → 阴性 douce + -ment = doucement。注意 c 不加 cédille。",
+          "category": "副词构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est l'adverbe formé à partir de « suffisant » ?",
+          "options": [
+            "suffisantement",
+            "suffisamment",
+            "suffisement",
+            "suffisament"
+          ],
+          "correct": 1,
+          "explanation": "-ant 结尾 → 去 -ant 加 -amment = suffisamment。双 m 是关键。",
+          "category": "副词构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'adverbe de « récent » est :",
+          "options": [
+            "récentement",
+            "récentment",
+            "récemment",
+            "récenment"
+          ],
+          "correct": 2,
+          "explanation": "-ent 结尾 → 去 -ent 加 -emment = récemment。发音 [ʁesamɑ̃]。",
+          "category": "副词构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il parle avec courage » peut se reformuler par :",
+          "options": [
+            "Il parle courageux.",
+            "Il parle courageusement.",
+            "Il parle de courage.",
+            "Il parle en courage."
+          ],
+          "correct": 1,
+          "explanation": "avec courage = courageusement，介词短语与 -ment 副词同义替换。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle travaille de manière _____.",
+          "options": [
+            "efficace",
+            "efficacement",
+            "efficaces",
+            "efficace's"
+          ],
+          "correct": 0,
+          "explanation": "de manière + 形容词（阴性单数）。efficace 阴阳同形，直接用。不是副词形式。",
+          "category": "介词短语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel adverbe est INCORRECTEMENT formé ?",
+          "options": [
+            "poliment",
+            "gentilment",
+            "vraiment",
+            "absolument"
+          ],
+          "correct": 1,
+          "explanation": "gentil 的副词是 gentiment（不是 gentilment），这是特殊例外，TCF 高频考点。",
+          "category": "特殊例外"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« patiemment » est l'adverbe de :",
+          "options": [
+            "patiente",
+            "patient",
+            "patience",
+            "patientant"
+          ],
+          "correct": 1,
+          "explanation": "patient 以 -ent 结尾 → 去 -ent 加 -emment = patiemment。",
+          "category": "副词构成"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Transformez : heureux → Il vit _____.",
+          "correct": [
+            "heureusement"
+          ],
+          "explanation": "heureux → 阴性 heureuse + -ment = heureusement。",
+          "category": "副词构成"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Transformez : évident → C'est _____ une erreur.",
+          "correct": [
+            "évidemment"
+          ],
+          "explanation": "évident 以 -ent 结尾 → 去 -ent 加 -emment = évidemment。双 m 必须记住。",
+          "category": "副词构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ils ont répondu avec politesse » = ?",
+          "options": [
+            "Ils ont répondu poliment.",
+            "Ils ont répondu de politesse.",
+            "Ils ont répondu en politesse.",
+            "Ils ont répondu politesse."
+          ],
+          "correct": 0,
+          "explanation": "avec politesse = poliment。avec + 抽象名词 = -ment 副词。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Il agit de façon _____.",
+          "options": [
+            "intelligent",
+            "intelligente",
+            "intelligemment",
+            "intelligents"
+          ],
+          "correct": 1,
+          "explanation": "de façon + 形容词阴性单数。intelligent → 阴性 intelligente。不能用副词形式。",
+          "category": "介词短语"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les adverbes suivants, lesquels sont correctement orthographiés ?",
+          "options": [
+            "constamment",
+            "évidamment",
+            "différemment",
+            "patienment"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "constant → constamment ✓（-ant → -amment）；différent → différemment ✓（-ent → -emment）。évidamment ✗ 应为 évidemment；patienment ✗ 应为 patiemment。",
+          "category": "拼写辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte ?",
+          "options": [
+            "Elle parle de manière doux.",
+            "Elle parle de manière douce.",
+            "Elle parle de manière doucement.",
+            "Elle parle de manière douces."
+          ],
+          "correct": 1,
+          "explanation": "de manière + 形容词阴性单数。doux → 阴性 douce。不能用副词，也不能用复数。",
+          "category": "介词短语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« courageusement » peut être remplacé par toutes les expressions suivantes SAUF :",
+          "options": [
+            "avec courage",
+            "de manière courageuse",
+            "de façon courageuse",
+            "en courage"
+          ],
+          "correct": 3,
+          "explanation": "en courage 不是法语正确表达。其余三种都可以替换 courageusement。",
+          "category": "同义替换"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il travaille _____ (sérieux). Elle répond de façon _____ (honnête). Nous avançons _____ (constant).",
+          "correct": [
+            "sérieusement",
+            "honnête",
+            "constamment"
+          ],
+          "explanation": "sérieux → 阴性 sérieuse + -ment = sérieusement；de façon + 阴性形容词 honnête（阴阳同形）；constant 以 -ant 结尾 → constamment。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Il a vraiment aimé ce film », l'adverbe est placé :",
+          "options": [
+            "avant le sujet",
+            "après le participe passé",
+            "entre l'auxiliaire et le participe passé",
+            "en fin de phrase"
+          ],
+          "correct": 2,
+          "explanation": "短副词（vraiment, bien, mal, déjà）在复合过去时中放在助动词和过去分词之间：Il a vraiment aimé。这是 TCF 高频语序考点。",
+          "category": "副词位置"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1sJx6wD4krUlzJB6MYPbZc1-Jo8gDytEApUNuChz8Xwc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942875651-t99apx9uchr",
+          "front": "副词 -ment 构成基本公式",
+          "back": "形容词阴性单数形式 + -ment"
+        },
+        {
+          "id": "1772942875651-3m5gybu6xbs",
+          "front": "辅音结尾形容词 → 副词\n规则是什么？",
+          "back": "先变阴性形式，再加 -ment\n例：froid → froide → froidement"
+        },
+        {
+          "id": "1772942875651-ilxnj0oueb8",
+          "front": "froid → 副词",
+          "back": "froidement（冷淡地）"
+        },
+        {
+          "id": "1772942875651-jg98fcfnwd",
+          "front": "franc → 副词",
+          "back": "franchement（坦率地）"
+        },
+        {
+          "id": "1772942875651-gi46boutw2w",
+          "front": "vif → 副词",
+          "back": "vivement（活泼地/强烈地）"
+        },
+        {
+          "id": "1772942875651-rmjtdrgf5qn",
+          "front": "lent → 副词",
+          "back": "lentement（缓慢地）"
+        },
+        {
+          "id": "1772942875651-8y17iomcrqn",
+          "front": "元音结尾、阴阳同形的形容词 → 副词\n规则是什么？",
+          "back": "直接在词尾加 -ment\n例：vrai → vraiment"
+        },
+        {
+          "id": "1772942875651-4znv6qavo93",
+          "front": "vrai → 副词",
+          "back": "vraiment（真正地）"
+        },
+        {
+          "id": "1772942875651-h1eok9b8nhv",
+          "front": "absolu → 副词",
+          "back": "absolument（绝对地）"
+        },
+        {
+          "id": "1772942875651-z3csjy84yth",
+          "front": "facile → 副词",
+          "back": "facilement（容易地）"
+        },
+        {
+          "id": "1772942875651-uorldw380e",
+          "front": "obstiné → 副词",
+          "back": "obstinément（固执地）"
+        },
+        {
+          "id": "1772942875651-2ascmg8ozqg",
+          "front": "-ant 结尾形容词 → 副词\n规则是什么？",
+          "back": "去 -ant 加 -amment\n例：suffisant → suffisamment\n发音 [amɑ̃]"
+        },
+        {
+          "id": "1772942875651-238b749sx02",
+          "front": "-ent 结尾形容词 → 副词\n规则是什么？",
+          "back": "去 -ent 加 -emment\n例：différent → différemment\n发音也是 [amɑ̃]"
+        },
+        {
+          "id": "1772942875651-75dfyvskgfv",
+          "front": "suffisant → 副词",
+          "back": "suffisamment（足够地）"
+        },
+        {
+          "id": "1772942875651-nv6oedbg7i",
+          "front": "constant → 副词",
+          "back": "constamment（不断地）"
+        },
+        {
+          "id": "1772942875651-zlku887s89r",
+          "front": "différent → 副词",
+          "back": "différemment（不同地）"
+        },
+        {
+          "id": "1772942875651-g5b8hwpgxgc",
+          "front": "récent → 副词",
+          "back": "récemment（最近地）"
+        },
+        {
+          "id": "1772942875651-vvonwgj6og",
+          "front": "patient → 副词",
+          "back": "patiemment（耐心地）"
+        },
+        {
+          "id": "1772942875651-czocl78a35",
+          "front": "évident → 副词",
+          "back": "évidemment（显然地）"
+        },
+        {
+          "id": "1772942875651-qlp5juinbbb",
+          "front": "⚠️ gentil → 副词（特殊例外）",
+          "back": "gentiment（温柔地）\n不是 gentillement！TCF 高频考点"
+        },
+        {
+          "id": "1772942875651-8hrgv4te6x8",
+          "front": "difficile → 副词",
+          "back": "difficilement（困难地）"
+        },
+        {
+          "id": "1772942875651-qcxnbxte3a",
+          "front": "certain → 副词",
+          "back": "certainement（当然/肯定地）"
+        },
+        {
+          "id": "1772942875651-1kbdi3zaoxl",
+          "front": "poli → 副词",
+          "back": "poliment（礼貌地）"
+        },
+        {
+          "id": "1772942875651-y763d36w70d",
+          "front": "heureux → 副词",
+          "back": "heureusement（幸运地/幸好）"
+        },
+        {
+          "id": "1772942875651-ave57fi4tws",
+          "front": "malheureux → 副词",
+          "back": "malheureusement（不幸地）"
+        },
+        {
+          "id": "1772942875651-njku73h74rh",
+          "front": "parfait → 副词",
+          "back": "parfaitement（完美地）"
+        },
+        {
+          "id": "1772942875651-0xqzt6onxdp",
+          "front": "régulier → 副词",
+          "back": "régulièrement（有规律地）"
+        },
+        {
+          "id": "1772942875651-38m8bhzz8m5",
+          "front": "actif → 副词",
+          "back": "activement（积极地）"
+        },
+        {
+          "id": "1772942875651-9vv044g92sp",
+          "front": "définitif → 副词",
+          "back": "définitivement（最终地/彻底地）"
+        },
+        {
+          "id": "1772942875651-kyqi8yt8li",
+          "front": "doux → 副词",
+          "back": "doucement（轻柔地/慢慢地）"
+        },
+        {
+          "id": "1772942875651-wgf9jslq42",
+          "front": "honnête → 副词",
+          "back": "honnêtement（诚实地）"
+        },
+        {
+          "id": "1772942875651-ulk8agsgsrk",
+          "front": "avec + 抽象名词 = ?\n用法是什么？",
+          "back": "相当于 -ment 副词\navec courage = courageusement\navec 后不加冠词"
+        },
+        {
+          "id": "1772942875651-nh4r0ojnvz",
+          "front": "avec courage =",
+          "back": "courageusement（勇敢地）"
+        },
+        {
+          "id": "1772942875651-ag6nz85xmqc",
+          "front": "avec patience =",
+          "back": "patiemment（耐心地）"
+        },
+        {
+          "id": "1772942875651-4xqa3cgdtpm",
+          "front": "avec politesse =",
+          "back": "poliment（礼貌地）"
+        },
+        {
+          "id": "1772942875651-02en8lgvde39",
+          "front": "avec soin =",
+          "back": "soigneusement（仔细地）"
+        },
+        {
+          "id": "1772942875651-5q85dz7n70s",
+          "front": "avec attention =",
+          "back": "attentivement（专注地）"
+        },
+        {
+          "id": "1772942875651-ls1nknaa3ee",
+          "front": "de manière / de façon + 形容词\n形容词用什么形式？",
+          "back": "必须用阴性单数形式\n例：de manière responsable\nde façon intelligente"
+        },
+        {
+          "id": "1772942875651-u5wkzdx9pt",
+          "front": "de manière 和 de façon 的区别？",
+          "back": "几乎可互换\nde manière 稍偏书面\nde façon 稍偏口语"
+        },
+        {
+          "id": "1772942875651-vckgae7ohe",
+          "front": "三种等价表达互换\ncourageusement = ? = ?",
+          "back": "= avec courage\n= de manière courageuse\n= de façon courageuse"
+        },
+        {
+          "id": "1772942875651-8g4c3p3ehlx",
+          "front": "复合过去时中，短副词放在哪里？",
+          "back": "放在助动词和过去分词之间\nIl a vraiment aimé ce film.\n常见：bien, mal, déjà, vraiment"
+        },
+        {
+          "id": "1772942875651-behpudc92wg",
+          "front": "avec + 名词的加分技巧",
+          "back": "可以加形容词修饰名词来细化程度\navec beaucoup de courage\navec une grande patience\n这是 -ment 副词做不到的！"
+        }
+      ]
+    },
+    {
+      "id": 1772942801157,
+      "name": "强调句 C'est ... qui / que",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-08T04:06:41.157Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Ma sœur a préparé ce gâteau.\n→ C'est ma sœur _____ a préparé ce gâteau.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "ma sœur 在原句中是主语，强调主语用 qui。",
+          "category": "强调句 qui/que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai rencontré Pierre au supermarché.\n→ C'est Pierre _____ j'ai rencontré au supermarché.",
+          "options": [
+            "qui",
+            "dont",
+            "que",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "Pierre 在原句中是宾语（rencontrer qqn），强调非主语成分用 que。",
+          "category": "强调句 qui/que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons visité ce musée en juillet.\n→ C'est en juillet _____ nous avons visité ce musée.",
+          "options": [
+            "qui",
+            "où",
+            "que",
+            "dont"
+          ],
+          "correct": 2,
+          "explanation": "en juillet 是时间状语，不是主语，强调非主语成分一律用 que。注意不要被 où 干扰，où 用于关系从句，不用于强调句。",
+          "category": "强调句 qui/que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est toi _____ as oublié les clés sur la table.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "lequel"
+          ],
+          "correct": 1,
+          "explanation": "toi = tu，是主语，用 qui。注意 qui 后面动词跟 tu 变位：as。",
+          "category": "强调句 + 动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est à Lyon _____ il a trouvé son premier emploi.",
+          "options": [
+            "qui",
+            "où",
+            "que",
+            "dont"
+          ],
+          "correct": 2,
+          "explanation": "à Lyon 是地点状语，不是主语。强调句中非主语成分统一用 que，不用 où。",
+          "category": "强调句 介词保留"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est nous _____ _____ occupés de ce projet.\n请选择正确的组合：",
+          "options": [
+            "qui sommes",
+            "que sommes",
+            "qui sont",
+            "que sont"
+          ],
+          "correct": 0,
+          "explanation": "nous 是主语 → 用 qui；动词跟 nous 变位 → sommes。",
+          "category": "强调句 + 动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce sont eux _____ ont remporté la victoire.",
+          "options": [
+            "que",
+            "dont",
+            "qui",
+            "lequel"
+          ],
+          "correct": 2,
+          "explanation": "eux = ils，是主语，用 qui。注意复数第三人称用 ce sont 开头。",
+          "category": "强调句 ce sont"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est cette chanson _____ je préfère.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "cette chanson 在原句中是 préférer 的宾语（je préfère cette chanson），非主语 → que。不要因为\"物\"就选 qui。",
+          "category": "强调句 人/物陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai parlé de ce problème à mon directeur.\n→ C'est de ce problème _____ j'ai parlé à mon directeur.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "de ce problème 是介词短语做间接宾语，不是主语 → 用 que。注意介词 de 必须保留在被强调成分前面。不要选 dont，dont 用于关系从句，不用于强调句。",
+          "category": "强调句 介词保留"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ moi qui ai pris cette décision, pas lui.",
+          "options": [
+            "C'est",
+            "Ce sont",
+            "Il est",
+            "Il y a"
+          ],
+          "correct": 0,
+          "explanation": "强调单数主语 moi，用 C'est。Il est 和 Il y a 不能构成强调句。",
+          "category": "强调句 结构识别"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "原句：Mon père m'a offert ce livre.\n强调 ce livre：C'est ce livre _____ mon père m'a offert.",
+          "correct": [
+            "que"
+          ],
+          "explanation": "ce livre 在原句中是 offrir 的直接宾语，非主语 → que。",
+          "category": "强调句 填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "原句：Mes parents sont venus hier soir.\n强调 mes parents：Ce sont mes parents _____ sont venus hier soir.",
+          "correct": [
+            "qui"
+          ],
+          "explanation": "mes parents 是原句主语 → qui。复数第三人称强调句开头用 Ce sont。",
+          "category": "强调句 填空"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些强调句是正确的？",
+          "options": [
+            "C'est à Paris que je suis né.",
+            "C'est moi qui est arrivé en retard.",
+            "Ce sont elles qui ont réussi l'examen.",
+            "C'est hier que nous sommes partis."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "选项 B 错误：C'est moi qui 后面动词应跟 je 变位 → suis arrivé，不是 est arrivé。其余三句均正确：A 保留介词 à + que；C 复数用 ce sont + qui；D 时间状语用 que。",
+          "category": "强调句 综合判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1B2w5g1Lt2-JANDE6Ta4evDl8TMKuAnYVcP77HROei_8/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942825769-qcr66tfvn4p",
+          "front": "强调句公式",
+          "back": "C'est + 被强调成分 + qui/que + 剩余部分"
+        },
+        {
+          "id": "1772942825769-k87o94k09fk",
+          "front": "强调句选 qui 还是 que 的唯一标准？",
+          "back": "被强调成分在原句中做主语 → qui\n不做主语（宾语、状语等） → que"
+        },
+        {
+          "id": "1772942825769-lnab9xjc8ir",
+          "front": "C'est ma mère _____ aime bien Céline.\n（强调主语 ma mère）",
+          "back": "qui\nma mère 是原句主语 → qui"
+        },
+        {
+          "id": "1772942825769-11wsm4g4cvt",
+          "front": "C'est la chanteuse Céline _____ ma mère aime bien.\n（强调宾语）",
+          "back": "que\nla chanteuse Céline 是原句宾语 → que"
+        },
+        {
+          "id": "1772942825769-qkxioqec3jj",
+          "front": "C'est à 9 heures du matin _____ je suis sorti.\n（强调时间状语）",
+          "back": "que\n时间状语 ≠ 主语 → que"
+        },
+        {
+          "id": "1772942825769-3uxhecg2xyi",
+          "front": "C'est moi _____ suis sorti de chez lui.\n（强调主语 je）",
+          "back": "qui\nmoi = je，是主语 → qui\n动词 suis 跟 je 变位"
+        },
+        {
+          "id": "1772942825769-7sfni20smg8",
+          "front": "C'est moi qui 后面动词跟谁变位？",
+          "back": "跟被强调的主语变位：\nC'est moi qui suis...\nC'est toi qui es...\nC'est nous qui sommes...\nC'est vous qui êtes..."
+        },
+        {
+          "id": "1772942825769-e59ignqntcw",
+          "front": "复数第三人称强调句开头用什么？",
+          "back": "Ce sont（不用 C'est）\nCe sont eux qui ont gagné.\nCe sont elles qui sont venues."
+        },
+        {
+          "id": "1772942825769-uep122ardji",
+          "front": "强调句中介词能丢吗？",
+          "back": "绝对不能丢！介词必须跟被强调成分一起走：\nC'est à Paris que je travaille. ✓\nC'est Paris que je travaille. ✗"
+        },
+        {
+          "id": "1772942825769-aa6mm7entqt",
+          "front": "强调句否定怎么加？",
+          "back": "否定加在 c'est 上：\nCe n'est pas moi qui ai fait ça. ✓\n不是加在 qui/que 后面的动词上"
+        },
+        {
+          "id": "1772942825769-bcjip9om9ja",
+          "front": "陷阱：看到「人」就选 qui？",
+          "back": "错！qui/que 跟人/物无关，只跟是否做主语有关。\nC'est Pierre que j'ai rencontré.（Pierre 是宾语 → que）"
+        },
+        {
+          "id": "1772942825769-0klnikdnxnom",
+          "front": "陷阱：强调地点时能用 où 吗？",
+          "back": "不能！强调句中非主语成分统一用 que：\nC'est à Lyon que il a trouvé un emploi. ✓\nOù 只用于关系从句，不用于强调句"
+        },
+        {
+          "id": "1772942825769-6f7pgpiyub",
+          "front": "3 秒做题法：强调句 qui/que",
+          "back": "① 找到 c'est 和 qui/que 之间的成分\n② 还原成普通句\n③ 做主语 → qui；不做主语 → que"
+        }
+      ]
+    },
+    {
+      "id": 1772942660137,
+      "name": "关系代词 qui 与 que",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-08T04:04:20.137Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "La fille _____ chante bien est ma sœur.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "空格后紧跟动词 chante，缺主语 → qui。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le gâteau _____ tu as préparé est délicieux.",
+          "options": [
+            "qui",
+            "dont",
+            "que",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "空格后跟 tu（主语），缺直接宾语 → que。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est l'homme _____ j'ai vu au supermarché.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "空格后跟 j'（主语），缺宾语 → que。注意 que 在元音前省音为 qu'，但这里 j' 已省音，que 保持原形。",
+          "category": "qui/que省音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ jouent dans le jardin sont heureux.",
+          "options": [
+            "que",
+            "dont",
+            "où",
+            "qui"
+          ],
+          "correct": 3,
+          "explanation": "空格后紧跟动词 jouent，缺主语 → qui。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici le professeur _____ tout le monde respecte.",
+          "options": [
+            "qui",
+            "dont",
+            "que",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "空格后跟 tout le monde（主语），缺直接宾语 → que。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La chanson _____ elle écoute est très populaire.",
+          "options": [
+            "qui",
+            "où",
+            "dont",
+            "que"
+          ],
+          "correct": 3,
+          "explanation": "空格后跟 elle（主语），缺直接宾语 → que。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai un ami _____ me comprend très bien.",
+          "options": [
+            "que",
+            "dont",
+            "qui",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "空格后跟 me comprend，me 是宾语代词不是主语，真正缺的是做 comprend 的主语 → qui。这是经典干扰套路。",
+          "category": "qui/que干扰项"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le restaurant _____ nous avons découvert est fantastique.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "空格后跟 nous（主语），缺直接宾语 → que。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'homme _____ tu parles souvent est mon voisin.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "parler DE quelqu'un → 先行词前有介词 de → 不能用 que，必须用 dont。这是 B1 经典陷阱。",
+          "category": "dont陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La lettre _____ on a envoyée hier est arrivée.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "空格后跟 on（主语），缺宾语 → que。注意 que + on 不省音。同时注意过去分词 envoyée 与先行词 la lettre（阴性单数）配合。",
+          "category": "que+过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la raison _____ il est parti.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "pour laquelle"
+          ],
+          "correct": 3,
+          "explanation": "partir pour une raison → 有介词 pour → 需要 pour laquelle。不能用 qui/que/dont。这是 B2 级别考点。",
+          "category": "B2介词+关系代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les livres _____ j'ai lus cet été étaient passionnants.",
+          "options": [
+            "qui",
+            "dont",
+            "que",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "空格后跟 j'（主语），缺直接宾语 → que。注意 lus 与 les livres（阳性复数）配合。",
+          "category": "que+过去分词配合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La femme _____ habite ici est médecin.",
+          "correct": [
+            "qui"
+          ],
+          "explanation": "空格后紧跟动词 habite，缺主语 → qui。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le cours _____ elle suit est difficile.",
+          "correct": [
+            "que",
+            "qu'"
+          ],
+          "explanation": "空格后跟 elle（主语），缺宾语 → que。que 在此不需要省音因为 elle 以辅音开头。",
+          "category": "qui/que基础"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai trouvé le sac _____ on avait perdu.",
+          "correct": [
+            "que",
+            "qu'"
+          ],
+          "explanation": "空格后跟 on（主语），缺宾语 → que。que + on 可省音为 qu'on，也可写 que l'on（更正式）。两种均可接受。",
+          "category": "que省音"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中应该用 qui 而不是 que？",
+          "options": [
+            "Le chat _____ dort sur le canapé est gros.",
+            "La tarte _____ ma mère a faite est bonne.",
+            "L'étudiant _____ travaille ici est sérieux.",
+            "Le film _____ nous avons regardé était long."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "选项0：dort 是动词，缺主语 → qui。选项1：ma mère 是主语，缺宾语 → que。选项2：travaille 是动词，缺主语 → qui。选项3：nous 是主语，缺宾语 → que。",
+          "category": "qui/que综合判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/15cyNUmgzF_YayEc5tM45QE09nMA_lN7fZW1zqbHDZZo/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942683940-ku2ssoh7v3b",
+          "front": "qui 在从句中做什么成分？",
+          "back": "做主语。qui 后面直接跟动词。\n例：La femme qui parle est ma prof."
+        },
+        {
+          "id": "1772942683940-arlxt0utucf",
+          "front": "que 在从句中做什么成分？",
+          "back": "做直接宾语。que 后面跟「主语 + 动词」。\n例：Le film que j'ai vu est intéressant."
+        },
+        {
+          "id": "1772942683940-snppdzisrk",
+          "front": "qui 在元音前省音吗？",
+          "back": "❌ 永远不省音。\nqui il, qui elle（不写 qu'il, qu'elle）"
+        },
+        {
+          "id": "1772942683940-co3fgkbyhf7",
+          "front": "que 在元音前省音吗？",
+          "back": "✅ 必须省音 → qu'\n例：qu'il, qu'elle, qu'on"
+        },
+        {
+          "id": "1772942683940-3cccjxle2fc",
+          "front": "3秒判断法：空格后紧跟动词 →",
+          "back": "选 qui（缺主语）"
+        },
+        {
+          "id": "1772942683940-ozvismjohvc",
+          "front": "3秒判断法：空格后紧跟名词/代词（主语） →",
+          "back": "选 que（缺直接宾语）"
+        },
+        {
+          "id": "1772942683940-ocpz7kmdnmh",
+          "front": "parler DE qqn → 关系代词用什么？",
+          "back": "用 dont（= de qui）\n❌ 不能用 que\n例：L'homme dont tu parles est mon voisin."
+        },
+        {
+          "id": "1772942683940-8kfri0lk55e",
+          "front": "que 引导从句 + passé composé (avoir)\n过去分词要不要配合？",
+          "back": "✅ 要！与 que 代替的先行词性数配合。\n例：La robe que j'ai achetée（阴性单数 → -ée）"
+        },
+        {
+          "id": "1772942683940-pvdidwm66ym",
+          "front": "qui 引导从句 + passé composé (avoir)\n过去分词要不要配合？",
+          "back": "❌ 不需要。qui 做主语，不触发 avoir 过去分词配合。\n例：La fille qui a chanté（不变）"
+        },
+        {
+          "id": "1772942683940-efg5omjs9i6",
+          "front": "C'est un collègue que tout le monde aime.\n为什么用 que 不用 qui？",
+          "back": "tout le monde 是从句主语，aime 的宾语缺失 → 用 que 代替 collègue 做宾语。"
+        },
+        {
+          "id": "1772942683940-ivy48prmyq",
+          "front": "qui / que / dont / où 四选一排除法",
+          "back": "1. 有 de → dont\n2. 表时间/地点「在那时/那里」→ où\n3. 空格后跟动词 → qui\n4. 空格后跟主语 → que"
+        },
+        {
+          "id": "1772942683940-cms6j6x30xb",
+          "front": "干扰套路：qui + 宾语代词 + 动词\n例：l'ami qui me comprend",
+          "back": "me 是宾语代词，不是主语。\n真正缺的是「谁 comprend」的主语 → 用 qui。\n别被 me/te/le/nous 等代词迷惑。"
+        },
+        {
+          "id": "1772942683940-6knfxtk0igq",
+          "front": "que 能不能做间接宾语？",
+          "back": "❌ 绝对不能。\nque 只做直接宾语。\n间接宾语（带介词 de/à/pour 等）需要 dont 或「介词 + lequel」。"
+        }
+      ]
+    },
+    {
+      "id": 1772942593620,
+      "name": "TCF A2 Lecon 4 听力",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-08T04:03:13.620Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "在法语中，当别人用否定句说 « Tu ne viens pas ? »，你要反驳\"不，我来\"，应该说：",
+          "options": [
+            "Oui, je viens.",
+            "Si, je viens.",
+            "Non, je viens.",
+            "Bien sûr, je viens."
+          ],
+          "correct": 1,
+          "explanation": "反驳否定句必须用 si，不能用 oui。Mais si ! 是本课核心考点。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand je _____ à la maison, je te téléphonerai.",
+          "options": [
+            "rentre",
+            "rentrerai",
+            "suis rentré",
+            "rentrais"
+          ],
+          "correct": 1,
+          "explanation": "quand 引导将来时间从句时，从句也必须用 futur simple。法语 ≠ 英语（英语用现在时）。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est midi et _____.",
+          "options": [
+            "demie",
+            "demi",
+            "demis",
+            "demies"
+          ],
+          "correct": 1,
+          "explanation": "midi 是阳性名词，所以用 demi（无 -e）。对比：six heures et demie（heure 阴性，加 -e）。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Leroux a _____ le travail après son congé maladie.",
+          "options": [
+            "pris",
+            "repris",
+            "prit",
+            "reprend"
+          ],
+          "correct": 1,
+          "explanation": "reprendre le travail = 复工。passé composé 用 avoir + repris。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne lis plus _____ histoires aux enfants.",
+          "options": [
+            "des",
+            "les",
+            "d'",
+            "de les"
+          ],
+          "correct": 2,
+          "explanation": "否定句中，不定冠词 des 变为 de/d'。ne...plus d'histoires。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle s'occupe _____ ses enfants toute la journée.",
+          "options": [
+            "à",
+            "avec",
+            "de",
+            "pour"
+          ],
+          "correct": 2,
+          "explanation": "s'occuper de qqn/qqch，固定搭配，介词用 de。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Au contraire » 的意思是：",
+          "options": [
+            "此外",
+            "恰恰相反",
+            "总之",
+            "因此"
+          ],
+          "correct": 1,
+          "explanation": "au contraire = 恰恰相反，用于转折。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu vas jouer avec _____ ce soir ? (les enfants)",
+          "options": [
+            "les",
+            "leur",
+            "ils",
+            "eux"
+          ],
+          "correct": 3,
+          "explanation": "介词 avec 后面必须用重读代词。les enfants（阳性复数）→ eux。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ludo travaille la nuit. Le matin, il _____ à 6 heures.",
+          "options": [
+            "rentre",
+            "rentrera",
+            "rentrait",
+            "est rentré"
+          ],
+          "correct": 1,
+          "explanation": "语境是描述将来的安排，应使用 futur simple。rentrer → il rentrera。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle travaille _____ : seulement 20 heures par semaine.",
+          "options": [
+            "à plein temps",
+            "à mi-temps",
+            "à temps",
+            "de nuit"
+          ],
+          "correct": 1,
+          "explanation": "à mi-temps = 半职工作（每周约20小时）。à plein temps = 全职。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon père est au _____. Il cherche un nouveau travail.",
+          "options": [
+            "congé",
+            "travail",
+            "chômage",
+            "salaire"
+          ],
+          "correct": 2,
+          "explanation": "être au chômage = 处于失业状态。后面说他在找新工作，印证失业。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ à 21 heures hier soir.",
+          "options": [
+            "s'endorment",
+            "se sont endormis",
+            "s'endormiront",
+            "s'endormaient"
+          ],
+          "correct": 1,
+          "explanation": "hier soir 表示过去具体事件，用 passé composé。s'endormir → se sont endormis。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n'ai pas le _____, je dois accepter ce travail.",
+          "correct": [
+            "choix"
+          ],
+          "explanation": "je n'ai pas le choix = 我没有选择。高频口语表达。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tous les matins, il apporte le café _____ lit à sa femme.",
+          "correct": [
+            "au"
+          ],
+          "explanation": "le café au lit = 床上咖啡。au = à + le。",
+          "category": "词汇"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle regarde la télé tous les soirs, comme _____.",
+          "correct": [
+            "d'habitude"
+          ],
+          "explanation": "comme d'habitude = 像往常一样。固定表达。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是否定结构？（多选）",
+          "options": [
+            "ne ... pas",
+            "ne ... plus",
+            "ne ... avec",
+            "ne ... jamais"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "ne...pas（不）、ne...plus（不再）、ne...jamais（从来不）都是法语否定结构。ne...avec 不存在。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— On ne sortira plus le soir ?\n— Non, on ne sort _____ le soir.",
+          "options": [
+            "pas",
+            "plus",
+            "jamais",
+            "rien"
+          ],
+          "correct": 2,
+          "explanation": "原文 Ludo 回答 on ne sort jamais le soir（我们晚上从来不出门），用 jamais 强调一贯如此。",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ludo va avoir une _____ de salaire. Et comme ça, Cécile va travailler à _____. C'est une bonne _____ !",
+          "correct": [
+            "augmentation",
+            "mi-temps",
+            "nouvelle"
+          ],
+          "explanation": "une augmentation de salaire = 加薪；à mi-temps = 半职；une bonne nouvelle = 好消息。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand ils _____, je partirai au travail.",
+          "options": [
+            "s'endorment",
+            "s'endormiront",
+            "se sont endormis",
+            "s'endormaient"
+          ],
+          "correct": 1,
+          "explanation": "quand + futur simple：当表达将来的事，quand 从句也用 futur simple。s'endormir → ils s'endormiront。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ne manges pas ? — _____, je mange !",
+          "options": [
+            "Oui",
+            "Non",
+            "Si",
+            "Bien"
+          ],
+          "correct": 2,
+          "explanation": "反驳否定疑问句必须用 Si。这是 TCF 经典考点。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1tnw1GeQ5_ZixS-oepkFZ6Yhglaejw0shkBDRu9hpDhU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1772942616171-9q3zuhglhfm",
+          "front": "un travail de nuit",
+          "back": "夜班工作\n例：Il a accepté un travail de nuit."
+        },
+        {
+          "id": "1772942616171-dtc57c7v0l",
+          "front": "je n'ai pas le choix",
+          "back": "我没有选择\n高频口语表达"
+        },
+        {
+          "id": "1772942616171-mty2kg7p8n",
+          "front": "ma puce（昵称）",
+          "back": "亲爱的、宝贝\n字面意思“我的跳蚤”，法式亲昵称呼"
+        },
+        {
+          "id": "1772942616171-ja91v62jti",
+          "front": "reprendre le travail",
+          "back": "复工、重返工作岗位\npassé composé: a repris le travail"
+        },
+        {
+          "id": "1772942616171-cx976imr53v",
+          "front": "un congé maladie",
+          "back": "病假\n相关：un congé maternité 产假"
+        },
+        {
+          "id": "1772942616171-19esfoxjwr9",
+          "front": "le chômage",
+          "back": "失业（阳性名词）\nêtre au chômage = 处于失业状态\nun chômeur / une chômeuse = 失业者"
+        },
+        {
+          "id": "1772942616171-ko6k9wriopd",
+          "front": "C'est ça ou le chômage.",
+          "back": "要么这样，要么失业。\n表示别无选择的口语句型"
+        },
+        {
+          "id": "1772942616171-kuj7aptmffr",
+          "front": "ne ... plus",
+          "back": "不再\n例：On ne passera plus beaucoup de temps ensemble."
+        },
+        {
+          "id": "1772942616171-n7ji9l4m4g",
+          "front": "ne ... jamais",
+          "back": "从来不\n例：On ne sort jamais le soir."
+        },
+        {
+          "id": "1772942616171-ly9guhy7y8",
+          "front": "passer du temps (ensemble)",
+          "back": "花时间（在一起）\n注意：beaucoup de temps，beaucoup 后用 de"
+        },
+        {
+          "id": "1772942616171-xyceq6zzi6",
+          "front": "Mais si !（用于反驳否定句）",
+          "back": "不，会的！/ 有的！\n别人说否定句，你反驳时用 si 而非 oui\n例：— Tu ne viens pas ? — Si !"
+        },
+        {
+          "id": "1772942616171-90j9g2j540l",
+          "front": "quand + futur simple 规则",
+          "back": "法语中 quand 引导将来时间从句，从句也用 futur simple\n例：quand je rentrerai（≠英语用现在时）"
+        },
+        {
+          "id": "1772942616171-pza31ji0rc",
+          "front": "réveiller qqn",
+          "back": "叫醒某人\nje te réveillerai = 我会叫醒你"
+        },
+        {
+          "id": "1772942616171-3mcpbc93jwg",
+          "front": "apporter qqch à qqn",
+          "back": "给某人带来某物\n例：je t'apporterai le café au lit"
+        },
+        {
+          "id": "1772942616171-hypbxk6seus",
+          "front": "le café au lit",
+          "back": "床上咖啡（浪漫法式表达）"
+        },
+        {
+          "id": "1772942616171-zz6lw0azjzp",
+          "front": "6 heures et demie 为什么是 demie 带 -e？",
+          "back": "因为 heure 是阴性名词，demie 要配合阴性\n对比：midi et demi（midi 阳性，无 -e）"
+        },
+        {
+          "id": "1772942616171-kj84qahnys",
+          "front": "gentil 的阴性形式",
+          "back": "gentille（双 l + e）\n发音也改变"
+        },
+        {
+          "id": "1772942616171-vc063fwfgtj",
+          "front": "le soir / le matin / le week-end",
+          "back": "用定冠词表示习惯性时间段\n在晚上 / 在早上 / 在周末"
+        },
+        {
+          "id": "1772942616171-5rnppvue0g5",
+          "front": "jouer avec eux 为什么用 eux？",
+          "back": "介词后必须用重读代词\navec moi / toi / lui / elle / nous / vous / eux / elles"
+        },
+        {
+          "id": "1772942616171-36lv3z2rtqt",
+          "front": "leur（间接宾语代词）",
+          "back": "给他们\n例：tu ne leur liras plus d'histoires\n= 你不再给他们读故事了"
+        },
+        {
+          "id": "1772942616171-vu82v2lvro",
+          "front": "否定句中 des → d' 规则",
+          "back": "否定句中不定冠词/部分冠词变为 de/d'\nlire des histoires → ne plus lire d'histoires"
+        },
+        {
+          "id": "1772942616171-rket95wtkqa",
+          "front": "au contraire",
+          "back": "恰恰相反\n转折衔接词，TCF 听力高频"
+        },
+        {
+          "id": "1772942616171-v7dyhfsqu78",
+          "front": "s'occuper de qqn/qqch",
+          "back": "照顾某人 / 负责某事\n代动词，介词用 de\n例：je m'occuperai d'eux"
+        },
+        {
+          "id": "1772942616171-5hyor1boqiv",
+          "front": "toute la soirée",
+          "back": "整个晚上\ntout/toute + 定冠词 + 名词 = 整个\ntoute la journée 整天"
+        },
+        {
+          "id": "1772942616171-3pmckw6l1ny",
+          "front": "s'endormir",
+          "back": "入睡（代动词，dormir 家族）\n例：quand ils s'endormiront"
+        },
+        {
+          "id": "1772942616171-8g5lq2t8sb5",
+          "front": "comme d'habitude",
+          "back": "像往常一样\n固定表达，必背"
+        },
+        {
+          "id": "1772942616171-pkd2sbnoakk",
+          "front": "gagner de l'argent",
+          "back": "赚钱\ngagner plus d'argent = 赚更多的钱"
+        },
+        {
+          "id": "1772942616171-ahrpqgylrng",
+          "front": "futur proche 结构",
+          "back": "aller（现在时）+ 动词原形\n例：tu vas avoir une augmentation\n比 futur simple 更口语、更即时"
+        },
+        {
+          "id": "1772942616171-0kkeju9cn0q",
+          "front": "une augmentation (de salaire)",
+          "back": "加薪\navoir/obtenir une augmentation = 获得加薪"
+        },
+        {
+          "id": "1772942616171-r1h3xsiytug",
+          "front": "travailler à mi-temps",
+          "back": "半职工作\nà plein temps 全职\nà temps partiel 兼职"
+        },
+        {
+          "id": "1772942616171-s7a1g9wnz8",
+          "front": "comme ça",
+          "back": "这样的话\n口语因果衔接词\n例：Et comme ça, tu travailleras à mi-temps."
+        },
+        {
+          "id": "1772942616171-fejmoer2en5",
+          "front": "une bonne nouvelle",
+          "back": "一个好消息（nouvelle 阴性名词）\n反义：une mauvaise nouvelle 坏消息"
+        }
+      ]
+    },
+    {
       "id": 1772686397681,
       "name": "TCF A2 Lecon 3 听力",
       "folderId": "1772686244763",
@@ -73152,12 +76029,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-05",
+    "date": "2026-03-08",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-05T04:53:38.604Z",
+  "exportedAt": "2026-03-08T04:12:24.955Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
