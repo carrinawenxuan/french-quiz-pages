@@ -1,6 +1,337 @@
 {
   "savedSets": [
     {
+      "id": 1773106016470,
+      "name": "TEST 1 B2 Question 28-29",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-10T01:26:56.470Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans le texte, que signifie l'expression « faire mouche » ?",
+          "options": [
+            "Attirer des insectes",
+            "Atteindre son objectif",
+            "Faire du bruit",
+            "Provoquer une dispute"
+          ],
+          "correct": 1,
+          "explanation": "« Faire mouche » 是习语，意思是\"正中目标、奏效\"。与昆虫（mouche = 苍蝇）无关，这里指学生们的倡议很有效果。",
+          "category": "词汇-习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon le texte, pourquoi les élèves organisent-ils des initiatives ?",
+          "options": [
+            "Pour impressionner leurs professeurs",
+            "Pour compenser le manque de financement de l'Éducation nationale",
+            "Pour obtenir de meilleures notes",
+            "Pour promouvoir leur lycée"
+          ],
+          "correct": 1,
+          "explanation": "原文明确写道 « afin de pallier la faiblesse des moyens de l'Éducation nationale pour financer leurs voyages d'études »，即弥补国家教育经费不足。",
+          "category": "阅读-细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qui a proposé un repas « tout citron » ?",
+          "options": [
+            "Les élèves de seconde",
+            "Le Lions Club",
+            "Les terminales de restauration",
+            "Le lycée Paul-Valéry"
+          ],
+          "correct": 2,
+          "explanation": "原文 « l'exemple donné par les terminales de restauration qui proposent un repas tout citron »，主语是餐饮专业毕业班学生。注意不要与高一学生混淆。",
+          "category": "阅读-主体辨别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la destination du voyage d'études des élèves de seconde ?",
+          "options": [
+            "Barcelone",
+            "Paris",
+            "La Corse",
+            "Lyon"
+          ],
+          "correct": 2,
+          "explanation": "最后一句 « leur voyage d'études en Corse »。Barcelone 是毕业班的目的地，这是典型的张冠李戴干扰项。",
+          "category": "阅读-细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Ceux-ci bénéficieront des retombées d'un vide-grenier », à qui renvoie « ceux-ci » ?",
+          "options": [
+            "Les professeurs",
+            "Les terminales de restauration",
+            "Les membres du Lions Club",
+            "Les élèves de seconde"
+          ],
+          "correct": 3,
+          "explanation": "« Ceux-ci » 是指示代词，指代最近提到的名词，即前一句的 « élèves de seconde »。TCF 常考代词指代。",
+          "category": "语法-代词指代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « boucler le budget » dans ce contexte ?",
+          "options": [
+            "Réduire les dépenses inutiles",
+            "Réunir la somme nécessaire",
+            "Annuler le voyage",
+            "Demander une aide gouvernementale"
+          ],
+          "correct": 1,
+          "explanation": "« Boucler le budget » = 凑齐预算、让收支平衡。结合上下文，学生通过跳蚤市场筹集资金来凑够旅行费用。",
+          "category": "词汇-固定表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'après le texte, quel rôle joue le Lions Club ?",
+          "options": [
+            "Il finance directement le voyage des élèves",
+            "Il organise un vide-grenier dont les élèves profiteront",
+            "Il propose des cours de cuisine aux élèves",
+            "Il sélectionne les élèves qui partiront en voyage"
+          ],
+          "correct": 1,
+          "explanation": "原文 « un vide-grenier, organisé par le Lions Club »，狮子会负责组织跳蚤市场，学生从中获益（bénéficieront des retombées）。并非直接资助。",
+          "category": "阅读-细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le ton général de ce texte ?",
+          "options": [
+            "Critique envers l'Éducation nationale",
+            "Admiratif envers l'initiative des élèves",
+            "Neutre et purement informatif",
+            "Pessimiste sur l'avenir des voyages scolaires"
+          ],
+          "correct": 1,
+          "explanation": "文章虽然提到教育经费不足，但整体语气是赞赏学生的主动性：« ont des idées »、« initiatives originales »、« font mouche » 都是正面表达。",
+          "category": "阅读-态度推断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle des phrases suivantes est une reformulation correcte de « ils n'arrêtent pas de mobiliser les bonnes volontés » ?",
+          "options": [
+            "Ils ont cessé de chercher de l'aide",
+            "Ils continuent à solliciter le soutien des gens",
+            "Ils refusent toute aide extérieure",
+            "Ils hésitent à demander de l'aide"
+          ],
+          "correct": 1,
+          "explanation": "« ne pas arrêter de + inf. » = 不停地做 = continuer à。mobiliser les bonnes volontés = solliciter le soutien des gens。这是典型的同义替换题。",
+          "category": "阅读-同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle information du texte permet de comprendre que le vide-grenier n'a pas encore eu lieu ?",
+          "options": [
+            "L'utilisation du mot « retombées »",
+            "L'emploi du futur « bénéficieront »",
+            "La mention du Lions Club",
+            "L'expression « à la rentrée »"
+          ],
+          "correct": 1,
+          "explanation": "动词 « bénéficieront » 用的是简单将来时（futur simple），说明这件事尚未发生。这是通过时态判断事件时间线的典型考法。",
+          "category": "语法-时态推断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Les gens empilaient les objets avec frénésie », que signifie « frénésie » ?",
+          "options": [
+            "Prudence",
+            "Agitation incontrôlable",
+            "Lenteur extrême",
+            "Indifférence totale"
+          ],
+          "correct": 1,
+          "explanation": "frénésie = 狂热、不可控的激动状态。A 是谨慎，C 是极度缓慢，D 是完全漠然，均不符。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que suggère la phrase « leurs paupières battaient de façon anormalement lente » ?",
+          "options": [
+            "Les acheteurs étaient fatigués après une longue journée.",
+            "Les acheteurs semblaient dans un état proche de l'hypnose.",
+            "Les acheteurs souffraient d'une maladie des yeux.",
+            "Les acheteurs essayaient de mieux voir les produits."
+          ],
+          "correct": 1,
+          "explanation": "眼皮异常缓慢地眨动，结合上下文\"面容紧绷、不知自己在做什么\"，暗示一种类似催眠的失控状态，而非疲劳或眼疾。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« On aurait dit que les gens ne savaient plus ce qu'ils faisaient. » Quel est le rôle de « on aurait dit » dans cette phrase ?",
+          "options": [
+            "Exprimer une certitude absolue",
+            "Introduire une apparence ou une impression",
+            "Rapporter un discours direct",
+            "Formuler une hypothèse scientifique"
+          ],
+          "correct": 1,
+          "explanation": "on aurait dit = 看上去好像、给人的印象是。条件式过去时用于表达一种主观印象，不是确定事实，也不是转述或科学假设。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce n'étaient pas eux qui saisissaient la marchandise. C'est la marchandise qui se collait d'elle-même à leurs mains. » Quel procédé stylistique l'auteur utilise-t-il ici ?",
+          "options": [
+            "La comparaison",
+            "L'inversion des rôles entre sujet et objet",
+            "L'exagération humoristique",
+            "La répétition simple"
+          ],
+          "correct": 1,
+          "explanation": "作者把人和商品的主客体关系倒转：不是人拿商品，而是商品自己粘上来。这是主客体倒置（inversion des rôles），核心修辞手法。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « La nourriture n'était plus que des formes », que signifie « ne…plus que » ?",
+          "options": [
+            "Pas encore",
+            "Ne…jamais",
+            "Seulement, rien d'autre que",
+            "Beaucoup plus que"
+          ],
+          "correct": 2,
+          "explanation": "ne…plus que = 只不过是（seulement）。食物不再是食物本身，只剩下形状和颜色。A=还没，B=从不，D=远多于，均错。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les yeux dévoraient les couleurs » — pourquoi l'auteur utilise-t-il le verbe « dévorer » ?",
+          "options": [
+            "Pour montrer que les gens avaient très faim",
+            "Pour personnifier les yeux et leur donner un appétit propre",
+            "Pour décrire une scène de repas dans le magasin",
+            "Pour exprimer le dégoût des acheteurs"
+          ],
+          "correct": 1,
+          "explanation": "dévorer 本义是狼吞虎咽，这里用于眼睛，是拟人化（personnification）：眼睛拥有了自己的欲望和饥饿感，暗示人被感官驱动。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les éléments suivants, lesquels montrent que les acheteurs ont perdu le contrôle de leurs actions ? (plusieurs réponses)",
+          "options": [
+            "Ils ne savaient plus ce qu'ils faisaient.",
+            "La marchandise se collait d'elle-même à leurs mains.",
+            "Ils comparaient les prix avec attention.",
+            "Leurs paupières battaient de façon anormalement lente."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "C 选项\"仔细比价\"体现的是理性行为，与文中描述的失控状态相反。其余三项都表明购物者处于一种被动的、非自主的状态。",
+          "category": "阅读理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez avec la structure correcte : On _____ (dire, conditionnel passé) qu'ils étaient hypnotisés.",
+          "correct": [
+            "aurait dit"
+          ],
+          "explanation": "on aurait dit = 看上去好像。dire 的条件式过去时：auxiliaire avoir 条件式（aurait）+ participe passé（dit）。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1xMYTqJbPAz_jUYhvSiKarV88Tdz_WP7KvN-ThBEReqU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773106101823-bt9zzmz7cf4",
+          "front": "frénésie (n.f.)",
+          "back": "狂热、疯狂的激动状态\n例：avec frénésie = 疯狂地\n语域：B2 书面/文学"
+        },
+        {
+          "id": "1773106101823-g9ah63qalgk",
+          "front": "empiler",
+          "back": "堆叠、堆放\n例：empiler les objets dans un chariot = 把东西堆进购物车"
+        },
+        {
+          "id": "1773106101823-7arpwgjq5n8",
+          "front": "contracté(e) (adj.)",
+          "back": "紧绷的、收缩的\n例：un visage contracté = 紧绷的面容\n近义：tendu, crispé"
+        },
+        {
+          "id": "1773106101823-skai34s4gr",
+          "front": "paupière (n.f.)",
+          "back": "眼皮、眼睑\n例：les paupières battaient lentement = 眼皮缓慢地眨动"
+        },
+        {
+          "id": "1773106101823-mq26z43uzkn",
+          "front": "étal (n.m.)",
+          "back": "货摊、货架（尤指市场/超市的陈列台）\n复数：étals 或 étaux"
+        },
+        {
+          "id": "1773106101823-0h0e9z4alg6c",
+          "front": "saisir",
+          "back": "① 抓取、抓住 saisir la marchandise\n② 理解、领会 saisir le sens\nTCF 一词多义常考"
+        },
+        {
+          "id": "1773106101823-m5cgumomdd",
+          "front": "se coller à",
+          "back": "粘住、贴在…上\n例：La marchandise se collait à leurs mains.\n代动词，注意变位"
+        },
+        {
+          "id": "1773106101823-nlnx65s4nrr",
+          "front": "dévorer",
+          "back": "① 原义：狼吞虎咽\n② 比喻：贪婪地看/读\n例：Les yeux dévoraient les couleurs. = 眼睛贪婪地吞噬着颜色"
+        },
+        {
+          "id": "1773106101823-pxqa69muyo8",
+          "front": "capsule de fer-blanc",
+          "back": "马口铁罐盖/锡罐盖\nfer-blanc = 马口铁（镀锡铁皮）\n文学描写中常见"
+        },
+        {
+          "id": "1773106101823-kc74komcg9e",
+          "front": "on aurait dit que…",
+          "back": "看上去好像……、给人的印象是……\n结构：on + avoir 条件式过去时 + dit + que\nTCF 高频句型，表主观印象"
+        },
+        {
+          "id": "1773106101823-wgt1o19sai",
+          "front": "ne…plus que",
+          "back": "只不过是、仅仅是（= seulement）\n例：La nourriture n'était plus que des formes.\n食物只不过是一些形状罢了"
+        },
+        {
+          "id": "1773106101823-qrjkeo0e74",
+          "front": "Ce n'est pas X qui… C'est Y qui…",
+          "back": "强调句的否定+肯定对比结构\n不是X做的……是Y做的……\n例：Ce n'étaient pas eux qui saisissaient la marchandise. C'est la marchandise qui se collait à leurs mains.\n效果：主客体倒置"
+        },
+        {
+          "id": "1773106101823-12hijl555vea",
+          "front": "de façon + adj.",
+          "back": "以……的方式（= d'une manière + adj.）\n例：de façon anormalement lente = 以异常缓慢的方式\nadj. 用阴性形式"
+        },
+        {
+          "id": "1773106101823-anptw0vy5p4",
+          "front": "TCF 文学阅读技巧：\n主客体倒置怎么识别？",
+          "back": "看谁是句子的真正主语：\n· 正常：人（主）→ 物（宾）\n· 倒置：物（主）→ 人（宾）\n信号词：se coller d'elle-même, entrer directement\n= 物体有了自主性，人变成被动工具"
+        },
+        {
+          "id": "1773106101823-xjx64c8652j",
+          "front": "manipulé(e) par une force supérieure",
+          "back": "被一种更强大的力量所操控\nmanipuler = 操纵、控制\nforce supérieure = 更高的力量\n本题正确答案 C 的核心表达"
+        },
+        {
+          "id": "1773106101823-30u0yneig5f",
+          "front": "vénérer vs être manipulé\n（TCF 干扰项辨析）",
+          "back": "vénérer = 崇拜、敬畏（主动行为）\nêtre manipulé = 被操控（被动状态）\n文中人物是被动失控的 → 选 manipulé\n不能选 vénérer（干扰项 A）"
+        }
+      ]
+    },
+    {
       "id": 1772943088227,
       "name": "A2 Lecon 4 TCF阅读练习2",
       "folderId": "1772685738192",
@@ -75990,10 +76321,6 @@
       "name": "A2课文"
     },
     {
-      "id": "1772343782185",
-      "name": "A2词汇"
-    },
-    {
       "id": "1772564799444",
       "name": "TCF口语"
     },
@@ -76029,12 +76356,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-08",
+    "date": "2026-03-10",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-08T04:12:24.955Z",
+  "exportedAt": "2026-03-10T01:28:36.058Z",
   "importAllowedDeviceFingerprint": "zuo6tk"
 }
