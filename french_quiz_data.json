@@ -1,6 +1,646 @@
 {
   "savedSets": [
     {
+      "id": 1773169362986,
+      "name": "缩合冠词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-10T19:02:42.986Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous allons _____ cinéma ce soir.",
+          "options": [
+            "à le",
+            "au",
+            "à la",
+            "aux"
+          ],
+          "correct": 1,
+          "explanation": "cinéma 是阳性单数，辅音开头 → à + le = au。",
+          "category": "缩合冠词 à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ directeur depuis une heure.",
+          "options": [
+            "à le",
+            "au",
+            "à la",
+            "à l'"
+          ],
+          "correct": 1,
+          "explanation": "directeur 是阳性单数，辅音开头 → à + le = au。",
+          "category": "缩合冠词 à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu vas _____ université aujourd'hui ?",
+          "options": [
+            "au",
+            "à la",
+            "à l'",
+            "aux"
+          ],
+          "correct": 2,
+          "explanation": "université 是阴性单数，元音开头 → à + l'（不缩合）。",
+          "category": "缩合冠词 à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il pense _____ vacances d'été.",
+          "options": [
+            "à les",
+            "au",
+            "à la",
+            "aux"
+          ],
+          "correct": 3,
+          "explanation": "vacances 是复数 → à + les = aux。",
+          "category": "缩合冠词 à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la voiture _____ voisin.",
+          "options": [
+            "de le",
+            "du",
+            "de la",
+            "de l'"
+          ],
+          "correct": 1,
+          "explanation": "voisin 是阳性单数，辅音开头 → de + le = du。",
+          "category": "缩合冠词 de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La porte _____ école est fermée.",
+          "options": [
+            "du",
+            "de la",
+            "de l'",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "école 是阴性单数，元音开头 → de + l'（不缩合）。",
+          "category": "缩合冠词 de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je reviens _____ marché.",
+          "options": [
+            "de le",
+            "de la",
+            "du",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "marché 是阳性单数，辅音开头 → de + le = du。",
+          "category": "缩合冠词 de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voici les résultats _____ examens.",
+          "options": [
+            "de les",
+            "du",
+            "de la",
+            "des"
+          ],
+          "correct": 3,
+          "explanation": "examens 是复数 → de + les = des。",
+          "category": "缩合冠词 de"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle habite près _____ hôpital.",
+          "correct": [
+            "de l'"
+          ],
+          "explanation": "hôpital 是阳性单数，哑音 h → 元音规则 → de + l'（不缩合）。",
+          "category": "缩合冠词 de + 哑音h"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous pensons souvent _____ enfants.",
+          "correct": [
+            "aux"
+          ],
+          "explanation": "enfants 是复数 → à + les = aux。",
+          "category": "缩合冠词 à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le bureau est en face _____ bibliothèque (f.).",
+          "options": [
+            "du",
+            "de la",
+            "de l'",
+            "des"
+          ],
+          "correct": 1,
+          "explanation": "bibliothèque 是阴性单数，辅音开头 → de + la（不缩合）。en face de 是固定搭配。",
+          "category": "缩合冠词 de + 方位搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il joue _____ piano tous les jours.",
+          "options": [
+            "au",
+            "à la",
+            "du",
+            "de la"
+          ],
+          "correct": 2,
+          "explanation": "jouer de + 乐器 → piano 是阳性单数 → de + le = du。注意：jouer à = 玩运动/游戏，jouer de = 演奏乐器。",
+          "category": "缩合冠词 jouer à/de 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants jouent _____ football.",
+          "options": [
+            "au",
+            "du",
+            "à la",
+            "de la"
+          ],
+          "correct": 0,
+          "explanation": "jouer à + 运动 → football 是阳性单数 → à + le = au。",
+          "category": "缩合冠词 jouer à/de 辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是缩合冠词？（多选）",
+          "options": [
+            "au",
+            "à la",
+            "des",
+            "de l'"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "au = à + le，des = de + les，这两个发生了缩合。à la 和 de l' 保持原样，没有缩合。",
+          "category": "缩合冠词概念辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je vais _____ supermarché, puis je passe _____ pharmacie (f.), et enfin je vais _____ bureaux (pluriel) de mon père.",
+          "correct": [
+            "au",
+            "à la",
+            "aux"
+          ],
+          "explanation": "supermarché 阳性单数 → au；pharmacie 阴性单数辅音开头 → à la；bureaux 复数 → aux。",
+          "category": "缩合冠词综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/16ZauP0EINQVE946YxCj2hLM3GZv9FOK5aiOeo14khqU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773169377257-b25plb6qycq",
+          "front": "à + le = ?",
+          "back": "au\n例：Je vais au supermarché."
+        },
+        {
+          "id": "1773169377257-9hilif7dacl",
+          "front": "à + la = ?",
+          "back": "à la（不变）\n例：Je vais à la gare."
+        },
+        {
+          "id": "1773169377257-pavtt70hhop",
+          "front": "à + l' = ?",
+          "back": "à l'（不变）\n例：Je vais à l'école."
+        },
+        {
+          "id": "1773169377257-15woiyrxj0j",
+          "front": "à + les = ?",
+          "back": "aux\n例：Je parle aux professeurs."
+        },
+        {
+          "id": "1773169377257-i1lx3bwoy4l",
+          "front": "de + le = ?",
+          "back": "du\n例：Le prix du gâteau."
+        },
+        {
+          "id": "1773169377257-tvoc2nx2tf",
+          "front": "de + la = ?",
+          "back": "de la（不变）\n例：La couleur de la robe."
+        },
+        {
+          "id": "1773169377257-fkeldu3g4n4",
+          "front": "de + l' = ?",
+          "back": "de l'（不变）\n例：L'entrée de l'hôtel."
+        },
+        {
+          "id": "1773169377257-akqye0vrcms",
+          "front": "de + les = ?",
+          "back": "des\n例：Le sac des enfants."
+        },
+        {
+          "id": "1773169377257-n5xej67qi7q",
+          "front": "哪些组合会缩合？",
+          "back": "只有 le 和 les 会缩合：\nà+le=au, à+les=aux\nde+le=du, de+les=des\nla 和 l' 永远不变"
+        },
+        {
+          "id": "1773169377257-vumezu3gob8",
+          "front": "du 有几种身份？",
+          "back": "两种：\n1. 缩合冠词（de+le）：Je parle du projet.\n2. 部分冠词：Je bois du café."
+        },
+        {
+          "id": "1773169377257-s34sxw6c9b",
+          "front": "des 有几种身份？",
+          "back": "两种：\n1. 缩合冠词（de+les）：Le sac des enfants.\n2. 不定冠词复数：J'ai des amis."
+        },
+        {
+          "id": "1773169377257-ujnjs2ya13p",
+          "front": "hôtel 前用 au 还是 à l' ?",
+          "back": "à l'hôtel\nhôtel 是哑音 h，当元音处理 → 不缩合"
+        },
+        {
+          "id": "1773169377257-xycbwokaa",
+          "front": "jouer à vs jouer de 区别？",
+          "back": "jouer à + 运动/游戏：jouer au football\njouer de + 乐器：jouer du piano"
+        },
+        {
+          "id": "1773169377257-0a7uxitwojaf",
+          "front": "en face de + le magasin = ?",
+          "back": "en face du magasin\n方位搭配中 de 同样遵守缩合规则"
+        },
+        {
+          "id": "1773169377257-fxrj0g6j9wc",
+          "front": "3秒判断法",
+          "back": "第1步：介词是 à 还是 de？\n第2步：名词性数 → 定冠词是 le/la/l'/les？\n第3步：只有 le 和 les 缩合，la 和 l' 不变"
+        },
+        {
+          "id": "1773169377257-3xjvlk0vlhh",
+          "front": "à gauche de + le placard = ?",
+          "back": "à gauche du placard\nplacard 阳性单数 → de+le=du"
+        },
+        {
+          "id": "1773169377257-f8v7y6prlg7",
+          "front": "près de + l'hôpital = ?",
+          "back": "près de l'hôpital\nhôpital 哑音 h → de+l'（不缩合）"
+        }
+      ]
+    },
+    {
+      "id": 1773167259601,
+      "name": "aceheter & manger 变位",
+      "folderId": "1770593074621",
+      "createdAt": "2026-03-10T18:27:39.601Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ des fruits au marché ce matin.",
+          "options": [
+            "achetons",
+            "achètons",
+            "acheteons",
+            "achèterons"
+          ],
+          "correct": 0,
+          "explanation": "nous 形式词干不变，不加重音符 è。nous achetons。achètons 是最经典的拼写陷阱。",
+          "category": "acheter 现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ trop vite, fais attention !",
+          "options": [
+            "mange",
+            "manges",
+            "mangez",
+            "mangeons"
+          ],
+          "correct": 1,
+          "explanation": "tu 对应 manges。mange 是 je/il 的形式，mangez 是 vous，mangeons 是 nous。",
+          "category": "manger 现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ une nouvelle voiture la semaine dernière.",
+          "options": [
+            "achètent",
+            "ont acheté",
+            "achètaient",
+            "vont acheter"
+          ],
+          "correct": 1,
+          "explanation": "la semaine dernière 是过去时间标记，用 passé composé：ont acheté。achètent 是现在时，vont acheter 是将来。",
+          "category": "acheter 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ ensemble au restaurant ce soir.",
+          "options": [
+            "mangons",
+            "mangerons",
+            "allons manger",
+            "mangeons"
+          ],
+          "correct": 2,
+          "explanation": "ce soir 表示将来计划，用 futur proche：allons manger。mangons 不存在（拼写错误），mangeons 是现在时。",
+          "category": "manger 最近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (acheter, présent) toujours ses vêtements en ligne.",
+          "correct": [
+            "achète"
+          ],
+          "explanation": "elle 对应 achète（带 è）。第三人称单数属于鞋子动词变化的部分。",
+          "category": "acheter 现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ bien ici ?",
+          "options": [
+            "mangez",
+            "mangeez",
+            "mangiez",
+            "mangeons"
+          ],
+          "correct": 0,
+          "explanation": "vous 对应 mangez。不需要额外加 e，因为 -ez 本身以 e 开头。mangeez 不存在。mangeons 是 nous。",
+          "category": "manger 现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais _____ un cadeau à ma sœur.",
+          "options": [
+            "achète",
+            "acheté",
+            "acheter",
+            "achèter"
+          ],
+          "correct": 2,
+          "explanation": "futur proche 结构是 aller + 动词原形。原形是 acheter，不是 achète 也不是 acheté。",
+          "category": "acheter 最近将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ tout le gâteau hier.",
+          "options": [
+            "mangent",
+            "ont mangé",
+            "mangés",
+            "mangeaient"
+          ],
+          "correct": 1,
+          "explanation": "hier 是过去时间标记 → passé composé：ont mangé。mangent 是现在时。mangés 不是合法的变位形式。",
+          "category": "manger 复合过去时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (manger, présent) souvent des pâtes le vendredi.",
+          "correct": [
+            "mangeons"
+          ],
+          "explanation": "nous + manger = mangeons。g 后面必须加 e 才能保持 [ʒ] 的发音。写 mangons 是错的。",
+          "category": "manger 现在时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La robe que j'ai _____ est très belle.",
+          "options": [
+            "acheté",
+            "achetée",
+            "achetés",
+            "achetées"
+          ],
+          "correct": 1,
+          "explanation": "直接宾语 la robe（阴性单数）前置，过去分词需配合：achetée（加 -e）。",
+          "category": "acheter 过去分词配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些 nous 形式拼写正确？",
+          "options": [
+            "nous achetons",
+            "nous achètons",
+            "nous mangeons",
+            "nous mangons"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "nous achetons（不加 è）和 nous mangeons（加 e 保软音）是正确的。achètons 和 mangons 都是经典错误。",
+          "category": "拼写陷阱对比"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu vas _____ ce soir ?",
+          "options": [
+            "manges",
+            "mangé",
+            "manger",
+            "mange"
+          ],
+          "correct": 2,
+          "explanation": "aller + 动词原形。manger 是原形。manges/mange 是现在时变位，mangé 是过去分词。",
+          "category": "manger 最近将来时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J' _____ (acheter, passé composé) ce livre pour toi.",
+          "correct": [
+            "ai acheté"
+          ],
+          "explanation": "je + avoir 的现在时 ai + 过去分词 acheté。注意过去分词是 é 不是 è。",
+          "category": "acheter 复合过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On _____ du pain tous les matins.",
+          "options": [
+            "achètes",
+            "achète",
+            "achetons",
+            "achètent"
+          ],
+          "correct": 1,
+          "explanation": "on 的变位和 il/elle 相同 → achète。achètes 是 tu，achètent 是 ils。",
+          "category": "acheter 现在时"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le matin, nous _____ (manger) des croissants et nous _____ (acheter) du café.",
+          "correct": [
+            "mangeons",
+            "achetons"
+          ],
+          "explanation": "nous mangeons（加 e 保软音）+ nous achetons（不加 è）。两个 nous 形式的拼写规则不同，这是 TCF 最爱的对比考点。",
+          "category": "拼写规则对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1grPpILKk-a4tLcWcMp4MRJQO3xgbgGn42xlRJqXwmKk/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773167575174-4ip3fpr42bx",
+          "front": "acheter 属于哪类特殊 -er 动词？",
+          "back": "e → è 类（鞋子动词）\n当词尾不发音时（je/tu/il/ils），词干 e 变 è\nnous/vous 不变"
+        },
+        {
+          "id": "1773167575174-xybbidkl2qg",
+          "front": "acheter 现在时：je",
+          "back": "j'achète\n注意带 è"
+        },
+        {
+          "id": "1773167575174-m7w9zph4den",
+          "front": "acheter 现在时：tu",
+          "back": "tu achètes\n-es 不发音"
+        },
+        {
+          "id": "1773167575174-y69i5j6nbim",
+          "front": "acheter 现在时：il/elle/on",
+          "back": "il achète"
+        },
+        {
+          "id": "1773167575174-x0dkrx0e9uo",
+          "front": "acheter 现在时：nous",
+          "back": "nous achetons\n⚠️ 不加 è！不是 achètons"
+        },
+        {
+          "id": "1773167575174-akr2flvvljg",
+          "front": "acheter 现在时：vous",
+          "back": "vous achetez\n⚠️ 不加 è！"
+        },
+        {
+          "id": "1773167575174-hugnok10916",
+          "front": "acheter 现在时：ils/elles",
+          "back": "ils achètent\n-ent 不发音"
+        },
+        {
+          "id": "1773167575174-zo01awiqvt",
+          "front": "acheter 的 passé composé 用哪个助动词？",
+          "back": "avoir\n例：j'ai acheté"
+        },
+        {
+          "id": "1773167575174-oth66o7xeej",
+          "front": "acheter 的过去分词",
+          "back": "acheté\n注意是 é 不是 è"
+        },
+        {
+          "id": "1773167575174-08c7unxg9zgf",
+          "front": "过去分词配合：La robe que j'ai _____ est belle.",
+          "back": "achetée\n直接宾语 la robe（阴性单数）前置，过去分词加 -e"
+        },
+        {
+          "id": "1773167575174-lk8v04qkb8r",
+          "front": "acheter 最近将来时：nous",
+          "back": "nous allons acheter\naller 现在时 + 动词原形"
+        },
+        {
+          "id": "1773167575174-gd3ny2l2vak",
+          "front": "acheter qqch à qqn 是什么意思？",
+          "back": "给某人买某物 / 从某人那买某物\n靠语境判断\n例：J'achète un cadeau à ma mère."
+        },
+        {
+          "id": "1773167575174-g2qvau4h6wn",
+          "front": "acheter 的同族名词（购买）",
+          "back": "un achat"
+        },
+        {
+          "id": "1773167575174-gebzll4khc6",
+          "front": "acheter 的同族名词（买家）",
+          "back": "un acheteur / une acheteuse"
+        },
+        {
+          "id": "1773167575174-q2glwqhcsf",
+          "front": "manger 属于哪类特殊 -er 动词？",
+          "back": "-ger 类（保软音动词）\nnous 形式 g 后加 e 保持 [ʒ] 发音"
+        },
+        {
+          "id": "1773167575174-md52v5id8gd",
+          "front": "manger 现在时：je",
+          "back": "je mange\n结尾 e 不发音"
+        },
+        {
+          "id": "1773167575174-pf6d6ky7j8",
+          "front": "manger 现在时：tu",
+          "back": "tu manges\n-es 不发音"
+        },
+        {
+          "id": "1773167575174-9d4eke88kfk",
+          "front": "manger 现在时：il/elle/on",
+          "back": "il mange"
+        },
+        {
+          "id": "1773167575174-yeyv5ijz66p",
+          "front": "manger 现在时：nous",
+          "back": "nous mangeons\n⚠️ g 后多一个 e！不是 mangons"
+        },
+        {
+          "id": "1773167575174-lwp93hiezn",
+          "front": "manger 现在时：vous",
+          "back": "vous mangez\n不需要额外加 e，-ez 本身以 e 开头"
+        },
+        {
+          "id": "1773167575174-nqy0amu073c",
+          "front": "manger 现在时：ils/elles",
+          "back": "ils mangent\n-ent 不发音"
+        },
+        {
+          "id": "1773167575174-o5a6dmc9da",
+          "front": "manger 的 passé composé：ils",
+          "back": "ils ont mangé\n助动词 avoir + 过去分词 mangé"
+        },
+        {
+          "id": "1773167575174-ian99eaq3a",
+          "front": "manger 最近将来时：je",
+          "back": "je vais manger\naller + 原形"
+        },
+        {
+          "id": "1773167575174-jn9ahipvg7",
+          "front": "manger sur le pouce",
+          "back": "随便吃点、凑合吃一口\n口语常用表达"
+        },
+        {
+          "id": "1773167575174-s2w43mw8mp",
+          "front": "la salle à manger",
+          "back": "餐厅（家里的饭厅）"
+        },
+        {
+          "id": "1773167575174-jgziik1rvj",
+          "front": "donner à manger à",
+          "back": "喂……吃东西\n例：donner à manger au chat"
+        },
+        {
+          "id": "1773167575174-dcitq8va1du",
+          "front": "manger + 部分冠词：吃面包",
+          "back": "manger du pain\n用部分冠词 du 表示“吃一些”"
+        },
+        {
+          "id": "1773167575174-vluvois5do",
+          "front": "陷阱对比：nous achetons vs nous mangeons",
+          "back": "achetons → 不加 è（nous/vous 不属于鞋子变化）\nmangeons → 必须加 e（保持 g 的软音 [ʒ]）\n两个规则不同，TCF 爱对比考"
+        },
+        {
+          "id": "1773167575174-98z82o18cf6",
+          "front": "和 manger 同规则的动词有哪些？",
+          "back": "所有 -ger 动词：\nvoyager → nous voyageons\nnager → nous nageons\npartager → nous partageons\nbouger → nous bougeons"
+        },
+        {
+          "id": "1773167575174-icagjer9wwh",
+          "front": "和 acheter 同规则的动词有哪些？",
+          "back": "所有词干含哑音 e 的动词：\nlever → je lève\npeser → je pèse\namener → j'amène\nemmener → j'emmène"
+        }
+      ]
+    },
+    {
       "id": 1773112701232,
       "name": "TEST 1 B2 Question 28-29",
       "folderId": "1772685738192",
@@ -77699,6 +78339,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-10T03:19:51.587Z",
+  "exportedAt": "2026-03-10T23:47:44.936Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
