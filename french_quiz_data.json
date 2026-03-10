@@ -1,10 +1,10 @@
 {
   "savedSets": [
     {
-      "id": 1773106016470,
+      "id": 1773112701232,
       "name": "TEST 1 B2 Question 28-29",
       "folderId": "1772685738192",
-      "createdAt": "2026-03-10T01:26:56.470Z",
+      "createdAt": "2026-03-10T03:18:21.232Z",
       "questions": [
         {
           "type": "single_choice",
@@ -250,199 +250,1417 @@
       "reviewImages": [],
       "cards": [
         {
-          "id": "1773106101823-bt9zzmz7cf4",
-          "front": "frénésie (n.f.)",
-          "back": "狂热、疯狂的激动状态\n例：avec frénésie = 疯狂地\n语域：B2 书面/文学"
-        },
-        {
-          "id": "1773106101823-g9ah63qalgk",
-          "front": "empiler",
-          "back": "堆叠、堆放\n例：empiler les objets dans un chariot = 把东西堆进购物车"
-        },
-        {
-          "id": "1773106101823-7arpwgjq5n8",
-          "front": "contracté(e) (adj.)",
-          "back": "紧绷的、收缩的\n例：un visage contracté = 紧绷的面容\n近义：tendu, crispé"
-        },
-        {
-          "id": "1773106101823-skai34s4gr",
-          "front": "paupière (n.f.)",
-          "back": "眼皮、眼睑\n例：les paupières battaient lentement = 眼皮缓慢地眨动"
-        },
-        {
-          "id": "1773106101823-mq26z43uzkn",
-          "front": "étal (n.m.)",
-          "back": "货摊、货架（尤指市场/超市的陈列台）\n复数：étals 或 étaux"
-        },
-        {
-          "id": "1773106101823-0h0e9z4alg6c",
-          "front": "saisir",
-          "back": "① 抓取、抓住 saisir la marchandise\n② 理解、领会 saisir le sens\nTCF 一词多义常考"
-        },
-        {
-          "id": "1773106101823-m5cgumomdd",
-          "front": "se coller à",
-          "back": "粘住、贴在…上\n例：La marchandise se collait à leurs mains.\n代动词，注意变位"
-        },
-        {
-          "id": "1773106101823-nlnx65s4nrr",
-          "front": "dévorer",
-          "back": "① 原义：狼吞虎咽\n② 比喻：贪婪地看/读\n例：Les yeux dévoraient les couleurs. = 眼睛贪婪地吞噬着颜色"
-        },
-        {
-          "id": "1773106101823-pxqa69muyo8",
-          "front": "capsule de fer-blanc",
-          "back": "马口铁罐盖/锡罐盖\nfer-blanc = 马口铁（镀锡铁皮）\n文学描写中常见"
-        },
-        {
-          "id": "1773106101823-kc74komcg9e",
-          "front": "on aurait dit que…",
-          "back": "看上去好像……、给人的印象是……\n结构：on + avoir 条件式过去时 + dit + que\nTCF 高频句型，表主观印象"
-        },
-        {
-          "id": "1773106101823-wgt1o19sai",
-          "front": "ne…plus que",
-          "back": "只不过是、仅仅是（= seulement）\n例：La nourriture n'était plus que des formes.\n食物只不过是一些形状罢了"
-        },
-        {
-          "id": "1773106101823-qrjkeo0e74",
-          "front": "Ce n'est pas X qui… C'est Y qui…",
-          "back": "强调句的否定+肯定对比结构\n不是X做的……是Y做的……\n例：Ce n'étaient pas eux qui saisissaient la marchandise. C'est la marchandise qui se collait à leurs mains.\n效果：主客体倒置"
-        },
-        {
-          "id": "1773106101823-12hijl555vea",
-          "front": "de façon + adj.",
-          "back": "以……的方式（= d'une manière + adj.）\n例：de façon anormalement lente = 以异常缓慢的方式\nadj. 用阴性形式"
-        },
-        {
-          "id": "1773106101823-anptw0vy5p4",
-          "front": "TCF 文学阅读技巧：\n主客体倒置怎么识别？",
-          "back": "看谁是句子的真正主语：\n· 正常：人（主）→ 物（宾）\n· 倒置：物（主）→ 人（宾）\n信号词：se coller d'elle-même, entrer directement\n= 物体有了自主性，人变成被动工具"
-        },
-        {
-          "id": "1773106101823-xjx64c8652j",
-          "front": "manipulé(e) par une force supérieure",
-          "back": "被一种更强大的力量所操控\nmanipuler = 操纵、控制\nforce supérieure = 更高的力量\n本题正确答案 C 的核心表达"
-        },
-        {
-          "id": "1773106101823-30u0yneig5f",
-          "front": "vénérer vs être manipulé\n（TCF 干扰项辨析）",
-          "back": "vénérer = 崇拜、敬畏（主动行为）\nêtre manipulé = 被操控（被动状态）\n文中人物是被动失控的 → 选 manipulé\n不能选 vénérer（干扰项 A）"
-        },
-        {
-          "id": "1773106373310-ayppjmpq7i9",
+          "id": "1773112765043-4kfzsz3peds",
           "front": "afin de + inf.",
           "back": "为了…（目的状语，比 pour 更书面正式）\nex: Afin de financer leur voyage, ils organisent des activités."
         },
         {
-          "id": "1773106373310-lnvmlefxqtq",
+          "id": "1773112765043-mqhl106rrkt",
           "front": "pallier qqch",
           "back": "弥补、补救（⚠️ 直接接宾语，不加 à）\nex: pallier la faiblesse des moyens"
         },
         {
-          "id": "1773106373310-qow3mgfi81i",
+          "id": "1773112765043-7sx02u853rq",
           "front": "la faiblesse des moyens",
           "back": "资金/手段不足\nmoyens 在这里指“经费、资源”"
         },
         {
-          "id": "1773106373310-b55pcdag2h8",
+          "id": "1773112765043-0y00t7poz44e",
           "front": "l'Éducation nationale",
           "back": "法国国民教育体系 / 教育部"
         },
         {
-          "id": "1773106373310-y3qk8thzvtk",
+          "id": "1773112765043-ka7yc2rngk",
           "front": "financer",
           "back": "资助、出资\nex: financer un voyage d'études"
         },
         {
-          "id": "1773106373310-vm83fh3k81",
+          "id": "1773112765043-6psbklfco9u",
           "front": "un voyage d'études",
           "back": "游学旅行、学习考察"
         },
         {
-          "id": "1773106373310-q7j7qb1fmfb",
+          "id": "1773112765043-6rvb8g0ktzc",
           "front": "ne pas arrêter de + inf.",
           "back": "不停地做某事（= continuer à + inf.）\nex: Ils n'arrêtent pas de travailler."
         },
         {
-          "id": "1773106373310-9w3mj4aeqnc",
+          "id": "1773112765043-8p3m4byfkkh",
           "front": "mobiliser les bonnes volontés",
           "back": "动员善意力量、调动各方积极性"
         },
         {
-          "id": "1773106373310-exxe8766xas",
+          "id": "1773112765043-88j7b9v751x",
           "front": "à coups de + n.",
           "back": "靠一次又一次的…、通过…\nex: à coups d'initiatives originales"
         },
         {
-          "id": "1773106373310-pji5kuynia",
+          "id": "1773112765043-jbmgsqff0sm",
           "front": "faire mouche",
           "back": "🎯 正中目标、奏效（习语）\n字面：击中靶心上的苍蝇"
         },
         {
-          "id": "1773106373310-sfzlhonc3eq",
+          "id": "1773112765043-sf8msnro0r",
           "front": "les terminales",
           "back": "毕业班学生（terminale = 法国高中最后一年，相当于高三）"
         },
         {
-          "id": "1773106373310-73nzhkwbdzs",
+          "id": "1773112765043-ny7zm7dvwxk",
           "front": "les élèves de seconde",
           "back": "高一学生（seconde = 法国高中第一年）"
         },
         {
-          "id": "1773106373310-s0zpp3nydhi",
+          "id": "1773112765043-7taacrxqv7f",
           "front": "c'est au tour de qqn de + inf.",
           "back": "轮到某人做某事\nex: C'est au tour des élèves de seconde de battre le rappel."
         },
         {
-          "id": "1773106373310-w7stz434qz",
+          "id": "1773112765043-1byjwkofqwi",
           "front": "battre le rappel",
           "back": "召集力量、发出号召（习语）"
         },
         {
-          "id": "1773106373310-6xgit1572mr",
+          "id": "1773112765043-3v81nwvhacz",
           "front": "ceux-ci / celles-ci",
           "back": "指示代词，指代最近提到的名词（“后者”）\n⚠️ TCF 常考代词指代"
         },
         {
-          "id": "1773106373310-x57m0x8bacs",
+          "id": "1773112765043-k95vqnje6oe",
           "front": "bénéficier de qqch",
           "back": "从…中获益（介词用 de）\nex: bénéficier des retombées d'un vide-grenier"
         },
         {
-          "id": "1773106373310-x4mqyq29rv",
+          "id": "1773112765043-aazrxbzo7nq",
           "front": "les retombées",
           "back": "收益、成果、回报\nex: les retombées d'un événement"
         },
         {
-          "id": "1773106373310-ejgkfr16nqq",
+          "id": "1773112765043-irs8sa35h5p",
           "front": "un vide-grenier",
           "back": "跳蚤市场 / 旧货集市\nvide = 空的，grenier = 阁楼 → 清空阁楼"
         },
         {
-          "id": "1773106373310-xcfikcxlgkn",
+          "id": "1773112765043-hdkudjq2got",
           "front": "boucler le budget",
           "back": "凑齐预算、让收支平衡\nex: boucler le budget de leur voyage"
         },
         {
-          "id": "1773106373310-q5vu7u1mdc",
+          "id": "1773112765043-25kmkarv2xm",
           "front": "à la rentrée",
           "back": "开学时（la rentrée = 开学季，通常指9月）"
         },
         {
-          "id": "1773106373310-cdz0s1upjkk",
+          "id": "1773112765043-3rw8k653qkt",
           "front": "TCF阅读技巧：多主体文章怎么做？",
           "back": "① 先看题目锁定问的是“谁”\n② 回原文只看与该主体相关的句子\n③ 警惕选项混淆不同群体的信息（张冠李戴）"
         },
         {
-          "id": "1773106373310-ccnclitdgt7",
+          "id": "1773112765043-a3pum65f8jk",
           "front": "TCF阅读技巧：同义替换识别",
           "back": "正确答案几乎不会照抄原文，而是用同义词改写\n例：boucler le budget → gagner de l'argent\nvoyage d'études → séjour"
         },
         {
-          "id": "1773106373310-8l5iftj7esm",
+          "id": "1773112765043-udmbptbdmsi",
           "front": "TCF阅读技巧：通过时态判断时间线",
           "back": "将来时（futur simple）→ 事件尚未发生\n复合过去时（passé composé）→ 已完成\n未完成过去时（imparfait）→ 背景描述"
+        },
+        {
+          "id": "1773112789576-xzwulnhirxm",
+          "front": "frénésie (n.f.)",
+          "back": "狂热、疯狂的激动状态\n例：avec frénésie = 疯狂地\n语域：B2 书面/文学"
+        },
+        {
+          "id": "1773112789576-3l4xyop9hyy",
+          "front": "empiler",
+          "back": "堆叠、堆放\n例：empiler les objets dans un chariot = 把东西堆进购物车"
+        },
+        {
+          "id": "1773112789576-a7ordxqlnv5",
+          "front": "contracté(e) (adj.)",
+          "back": "紧绷的、收缩的\n例：un visage contracté = 紧绷的面容\n近义：tendu, crispé"
+        },
+        {
+          "id": "1773112789576-f5zbxyvq8j",
+          "front": "paupière (n.f.)",
+          "back": "眼皮、眼睑\n例：les paupières battaient lentement = 眼皮缓慢地眨动"
+        },
+        {
+          "id": "1773112789576-vtvhlw2329i",
+          "front": "étal (n.m.)",
+          "back": "货摊、货架（尤指市场/超市的陈列台）\n复数：étals 或 étaux"
+        },
+        {
+          "id": "1773112789576-bvtb6mk67lq",
+          "front": "saisir",
+          "back": "① 抓取、抓住 saisir la marchandise\n② 理解、领会 saisir le sens\nTCF 一词多义常考"
+        },
+        {
+          "id": "1773112789576-x3qi9yjprah",
+          "front": "se coller à",
+          "back": "粘住、贴在…上\n例：La marchandise se collait à leurs mains.\n代动词，注意变位"
+        },
+        {
+          "id": "1773112789576-d0djrnvjto6",
+          "front": "dévorer",
+          "back": "① 原义：狼吞虎咽\n② 比喻：贪婪地看/读\n例：Les yeux dévoraient les couleurs. = 眼睛贪婪地吞噬着颜色"
+        },
+        {
+          "id": "1773112789576-5joiskcyybk",
+          "front": "capsule de fer-blanc",
+          "back": "马口铁罐盖/锡罐盖\nfer-blanc = 马口铁（镀锡铁皮）\n文学描写中常见"
+        },
+        {
+          "id": "1773112789576-7xg9571vfrw",
+          "front": "on aurait dit que…",
+          "back": "看上去好像……、给人的印象是……\n结构：on + avoir 条件式过去时 + dit + que\nTCF 高频句型，表主观印象"
+        },
+        {
+          "id": "1773112789576-ldgqmpirxig",
+          "front": "ne…plus que",
+          "back": "只不过是、仅仅是（= seulement）\n例：La nourriture n'était plus que des formes.\n食物只不过是一些形状罢了"
+        },
+        {
+          "id": "1773112789576-t1ro3cg9fhm",
+          "front": "Ce n'est pas X qui… C'est Y qui…",
+          "back": "强调句的否定+肯定对比结构\n不是X做的……是Y做的……\n例：Ce n'étaient pas eux qui saisissaient la marchandise. C'est la marchandise qui se collait à leurs mains.\n效果：主客体倒置"
+        },
+        {
+          "id": "1773112789576-yv3ld6ndcgr",
+          "front": "de façon + adj.",
+          "back": "以……的方式（= d'une manière + adj.）\n例：de façon anormalement lente = 以异常缓慢的方式\nadj. 用阴性形式"
+        },
+        {
+          "id": "1773112789576-itpqwfc4g8n",
+          "front": "TCF 文学阅读技巧：主客体倒置怎么识别？",
+          "back": "看谁是句子的真正主语：\n· 正常：人（主）→ 物（宾）\n· 倒置：物（主）→ 人（宾）\n信号词：se coller d'elle-même, entrer directement\n= 物体有了自主性，人变成被动工具"
+        },
+        {
+          "id": "1773112789576-09m1jxezn6lx",
+          "front": "manipulé(e) par une force supérieure",
+          "back": "被一种更强大的力量所操控\nmanipuler = 操纵、控制\nforce supérieure = 更高的力量\n本题正确答案 C 的核心表达"
+        },
+        {
+          "id": "1773112789576-oihb4016fvh",
+          "front": "vénérer vs être manipulé（TCF 干扰项辨析）",
+          "back": "vénérer = 崇拜、敬畏（主动行为）\nêtre manipulé = 被操控（被动状态）\n文中人物是被动失控的 → 选 manipulé\n不能选 vénérer（干扰项 A）"
+        }
+      ]
+    },
+    {
+      "id": 1773112368100,
+      "name": "A2 Lecon 5 TCF阅读 练习3",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-10T03:12:48.100Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Le client cherche quel type de logement ?",
+          "options": [
+            "Une maison à acheter",
+            "Un appartement à louer",
+            "Un studio à vendre",
+            "Une chambre d'hôtel"
+          ],
+          "correct": 1,
+          "explanation": "原文：je suis à la recherche d'un appartement à louer。客户要租公寓。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le client souhaite habiter dans quel quartier ?",
+          "options": [
+            "Le quartier de l'université",
+            "Le centre-ville",
+            "Le quartier de la gare",
+            "La banlieue"
+          ],
+          "correct": 2,
+          "explanation": "原文：je voudrais être dans le quartier de la gare。客户想住在火车站附近。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le budget maximum du client par mois ?",
+          "options": [
+            "450 euros",
+            "500 euros",
+            "600 euros",
+            "700 euros"
+          ],
+          "correct": 1,
+          "explanation": "原文：je ne voudrais pas dépasser 500 euros par mois。注意600是最终总价，不是预算上限。",
+          "category": "数字陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le quartier de la gare, pour 500 euros, que peut-on trouver ?",
+          "options": [
+            "Un deux pièces",
+            "Un trois pièces",
+            "Seulement des studios",
+            "Un appartement avec balcon et ascenseur"
+          ],
+          "correct": 2,
+          "explanation": "原文：vous ne trouverez que des studios。ne...que = seulement。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien faut-il payer au minimum pour un deux pièces dans le quartier de la gare ?",
+          "options": [
+            "500 euros",
+            "600 euros",
+            "700 euros",
+            "450 euros"
+          ],
+          "correct": 2,
+          "explanation": "原文：Comptez 700 euros minimum pour un deux pièces。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'expression « être à la recherche de » signifie :",
+          "options": [
+            "avoir peur de",
+            "chercher",
+            "trouver",
+            "perdre"
+          ],
+          "correct": 1,
+          "explanation": "être à la recherche de = chercher，TCF 常考同义替换。",
+          "category": "词汇替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le studio proposé par l'agent fait combien de mètres carrés ?",
+          "options": [
+            "28 m²",
+            "35 m²",
+            "38 m²",
+            "48 m²"
+          ],
+          "correct": 2,
+          "explanation": "原文：un grand studio, 38 mètres carrés avec un balcon。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le studio donne sur :",
+          "options": [
+            "La mer",
+            "La rue principale",
+            "Un jardin",
+            "Une cour intérieure"
+          ],
+          "correct": 3,
+          "explanation": "原文：un studio agréable qui donne sur une cour intérieure。donner sur = 朝向。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi il n'y a pas d'ascenseur dans l'immeuble ?",
+          "options": [
+            "Parce que l'immeuble est en rénovation",
+            "Parce que l'immeuble est ancien",
+            "Parce que l'ascenseur est en panne",
+            "Parce que c'est au rez-de-chaussée"
+          ],
+          "correct": 1,
+          "explanation": "原文：l'immeuble est ancien。老楼没有电梯。",
+          "category": "推断题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le montant total du loyer charges comprises ?",
+          "options": [
+            "450 euros",
+            "500 euros",
+            "550 euros",
+            "600 euros"
+          ],
+          "correct": 3,
+          "explanation": "原文：450 euros + 150 euros de charges → Ça fait 600 euros。charges comprises 意味着600是全部费用。",
+          "category": "计算题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « les charges sont comprises » ?",
+          "options": [
+            "Les charges sont en supplément",
+            "Les charges sont incluses dans le loyer",
+            "Les charges sont gratuites",
+            "Les charges sont payées par le propriétaire"
+          ],
+          "correct": 1,
+          "explanation": "charges comprises = charges incluses = 杂费已包含在租金里。A选项是反义陷阱。",
+          "category": "词汇替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi le client accepte-t-il de visiter le studio ?",
+          "options": [
+            "Parce que le prix est dans son budget",
+            "Parce que ça ne coûte rien d'aller voir",
+            "Parce que l'agent lui offre une réduction",
+            "Parce qu'il n'a pas d'autre choix"
+          ],
+          "correct": 1,
+          "explanation": "原文：ça ne coûte rien d'aller voir。去看看又不费什么，这是客户同意看房的原因。",
+          "category": "态度题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « dépasser mon budget » ?",
+          "options": [
+            "Respecter mon budget",
+            "Être en dessous de mon budget",
+            "Excéder mon budget",
+            "Ignorer mon budget"
+          ],
+          "correct": 2,
+          "explanation": "dépasser = excéder = 超过。dépasser mon budget = 超出我的预算。",
+          "category": "词汇替换"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "D'après le dialogue, quelles informations sont vraies concernant le studio proposé ?",
+          "options": [
+            "Il fait 38 m² avec un balcon",
+            "Il est au cinquième étage avec ascenseur",
+            "Il donne sur une cour intérieure",
+            "Le loyer total est de 450 euros"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确（38 m² avec un balcon）；B错误（没有电梯）；C正确（donne sur une cour intérieure）；D错误（总价是600欧）。",
+          "category": "综合判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1c7Y0FOlqBwbcwGpAZUpGpJHywx42l5m-2QDzgNVoJxI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773112518019-jw5x53voo7k",
+          "front": "être à la recherche de",
+          "back": "寻找（= chercher）\n例：Je suis à la recherche d'un appartement à louer."
+        },
+        {
+          "id": "1773112518019-154xvtxtx69",
+          "front": "dépendre de",
+          "back": "取决于\n例：Ça dépendra du prix. 这取决于价格。\n注意：de + le = du"
+        },
+        {
+          "id": "1773112518019-ahkwyhuil2i",
+          "front": "dépasser",
+          "back": "超过、超出\n例：Je ne voudrais pas dépasser 500 euros par mois.\n同义词：excéder"
+        },
+        {
+          "id": "1773112518019-g8ugcsr53ek",
+          "front": "dépasser mon budget",
+          "back": "超出我的预算\n例：Ça dépasse un peu votre budget."
+        },
+        {
+          "id": "1773112518019-a9s4hu4a7kl",
+          "front": "ne... que",
+          "back": "只有（= seulement）\n例：Vous ne trouverez que des studios.\n⚠️ 不是否定，是限定！"
+        },
+        {
+          "id": "1773112518019-tbvbku5y0al",
+          "front": "même pas",
+          "back": "甚至都不、连……都没有（表惊讶/不满）\n例：Même pas un deux pièces ?"
+        },
+        {
+          "id": "1773112518019-2cv6vas50qe",
+          "front": "s'éloigner (de)",
+          "back": "远离\n例：Il faut s'éloigner un peu.\n扩展：s'éloigner de mes parents 远离父母"
+        },
+        {
+          "id": "1773112518019-pldkidguhi",
+          "front": "malheureusement",
+          "back": "遗憾地、不幸地（副词）\n同义：hélas\n例：Non, malheureusement."
+        },
+        {
+          "id": "1773112518019-d7m8zqes5yw",
+          "front": "lumineux (adj.)",
+          "back": "明亮的、光线充足的\n例：Est-ce qu'il est lumineux ?\n同义：clair, bien éclairé"
+        },
+        {
+          "id": "1773112518019-2oro5z5yuat",
+          "front": "donner sur",
+          "back": "朝向、面向\n例：un studio qui donne sur une cour intérieure\n扩展：donner sur la mer 朝向大海"
+        },
+        {
+          "id": "1773112518019-626if036evx",
+          "front": "agréable (adj.)",
+          "back": "舒适的、令人愉快的\n例：C'est un studio agréable."
+        },
+        {
+          "id": "1773112518019-afkl7p7cgjn",
+          "front": "un ascenseur",
+          "back": "电梯\n例：Y a-t-il un ascenseur ?"
+        },
+        {
+          "id": "1773112518019-6sqrrhc8prj",
+          "front": "l'immeuble (n.m.)",
+          "back": "公寓楼、大楼\n例：L'immeuble est ancien. 这栋楼比较老。"
+        },
+        {
+          "id": "1773112518019-yr7ht9zhd6f",
+          "front": "le loyer",
+          "back": "租金\n例：Quel est le loyer ? / Le loyer est à combien ?"
+        },
+        {
+          "id": "1773112518019-98fw8u2268k",
+          "front": "les charges (n.f.pl.)",
+          "back": "杂费（水电、公共维护等）\n例：450 euros + 150 euros de charges"
+        },
+        {
+          "id": "1773112518019-6qzyq9idjss",
+          "front": "les charges sont comprises / incluses",
+          "back": "杂费已包含在内\n⚠️ TCF 高频考点\n反义：charges en sus（杂费另算）"
+        },
+        {
+          "id": "1773112518019-nlmb62788jk",
+          "front": "ça ne coûte rien de faire qch.",
+          "back": "做某事不费什么/不花钱\n例：Ça ne coûte rien d'aller voir. 去看看又不费什么。"
+        },
+        {
+          "id": "1773112518019-rq802igcd29",
+          "front": "quand même",
+          "back": "还是、尽管如此（= tout de même）\n例：Vous voulez quand même le visiter ?"
+        },
+        {
+          "id": "1773112518019-t0t3aafegg",
+          "front": "compter（在租房语境中）",
+          "back": "预计需要、估计\n例：Comptez 700 euros minimum.\n⚠️ 这里不是“数数”的意思"
+        },
+        {
+          "id": "1773112518019-0v7deq5dqfl",
+          "front": "un studio",
+          "back": "开间、单间公寓（没有独立卧室）\n法国户型：studio → deux pièces → trois pièces"
+        },
+        {
+          "id": "1773112518019-pbt4iik3kq",
+          "front": "Quelle est la surface de l'appartement ?",
+          "back": "公寓面积多大？\n（租房必备提问句）"
+        },
+        {
+          "id": "1773112518019-3mq5hvnbp1l",
+          "front": "Combien de pièces y a-t-il ?",
+          "back": "有几个房间？\n（租房必备提问句）"
+        },
+        {
+          "id": "1773112518019-434npu117ul",
+          "front": "Est-ce que l'appartement est en bon état ?",
+          "back": "公寓状况好吗？\n（租房必备提问句）"
+        },
+        {
+          "id": "1773112518019-kn4jdwt7p7p",
+          "front": "Est-ce qu'il y a assez de place pour le rangement ?",
+          "back": "有没有足够的储物空间？\n（租房必备提问句）"
+        },
+        {
+          "id": "1773112518020-n2ju2qpfdnp",
+          "front": "Le loyer mensuel est de combien ?",
+          "back": "月租多少？\nmensuel = 每月的\n（租房必备提问句）"
+        }
+      ]
+    },
+    {
+      "id": 1773112296297,
+      "name": "A2 Lecon 5 TCF阅读 练习2",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-10T03:11:36.297Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel appartement est décrit comme lumineux ?",
+          "options": [
+            "Appartement nº 1",
+            "Appartement nº 2",
+            "Appartement nº 3",
+            "Aucun des trois"
+          ],
+          "correct": 0,
+          "explanation": "原文 nº1 明确写了 très calme et lumineux。其他两个没有提到 lumineux。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour quel appartement les charges sont-elles incluses dans le loyer ?",
+          "options": [
+            "Appartement nº 1",
+            "Appartement nº 2",
+            "Appartement nº 3",
+            "Appartements nº 2 et nº 3"
+          ],
+          "correct": 1,
+          "explanation": "nº2 写的是 660 € C.C.（charges comprises = 含杂费）。nº1 只写了 loyer: 780 €，未说明；nº3 明确写了 + charges（杂费另付）。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel appartement se trouve dans un bâtiment récent ?",
+          "options": [
+            "Appartement nº 1",
+            "Appartement nº 2",
+            "Appartement nº 3",
+            "Appartements nº 1 et nº 3"
+          ],
+          "correct": 2,
+          "explanation": "nº3 写了 immeuble neuf（新建筑）。nº1 是 immeuble ancien（老建筑）。nº2 没有提到建筑新旧。bâtiment récent = immeuble neuf，同义替换。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel appartement a le plus de chambres ?",
+          "options": [
+            "Appartement nº 1 (2 chambres)",
+            "Appartement nº 2 (1 chambre)",
+            "Appartement nº 3 (3 chambres)",
+            "Appartements nº 1 et nº 3"
+          ],
+          "correct": 2,
+          "explanation": "nº1 有 2 chambres，nº2 有 1 chambre，nº3 有 3 chambres。nº3 最多。",
+          "category": "细节比较"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'expression « donnant sur balcon » dans l'annonce nº 2 signifie que :",
+          "options": [
+            "Le balcon est fermé",
+            "Le séjour a une vue sur le balcon / ouvre sur le balcon",
+            "Le balcon est partagé avec les voisins",
+            "Le balcon donne sur la rue"
+          ],
+          "correct": 1,
+          "explanation": "donnant sur = 面朝/通向。séjour double donnant sur balcon = 客厅通向阳台。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel(s) appartement(s) dispose(nt) d'une cave ?",
+          "options": [
+            "Appartement nº 1 uniquement",
+            "Appartement nº 2 uniquement",
+            "Appartements nº 2 et nº 3",
+            "Les trois appartements"
+          ],
+          "correct": 2,
+          "explanation": "nº2 提到了 cave et parking，nº3 也提到了 cave。nº1 没有提到 cave。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Lequel de ces appartements n'a PAS de parking ?",
+          "options": [
+            "Appartement nº 1",
+            "Appartement nº 2",
+            "Appartement nº 3",
+            "Tous les appartements ont un parking"
+          ],
+          "correct": 0,
+          "explanation": "nº1 完全没有提到 parking。nº2 有 parking，nº3 有 parking（公共停车位）。注意题目问的是\"没有\"。",
+          "category": "否定题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Un étudiant cherche un appartement pas cher, proche de l'université. Quel appartement lui convient le mieux ?",
+          "options": [
+            "Appartement nº 1",
+            "Appartement nº 2",
+            "Appartement nº 3",
+            "Aucun des trois"
+          ],
+          "correct": 1,
+          "explanation": "nº2 位于 quartier des facultés（大学区），且租金 660 € C.C. 是三套中最便宜的（含杂费）。这是 TCF 典型的推断题。",
+          "category": "推断题"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles caractéristiques s'appliquent à l'appartement nº 3 ? (plusieurs réponses)",
+          "options": [
+            "Il est dans un immeuble avec ascenseur",
+            "Il est situé dans le quartier des facultés",
+            "Il est proche de la gare",
+            "Le loyer est de 660 € charges comprises"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "nº3：immeuble neuf avec ascenseur ✓，proche de la gare ✓。quartier des facultés 是 nº2，660 € C.C. 也是 nº2。",
+          "category": "多选细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la différence entre « 660 € C.C. » et « 890 € + charges » ?",
+          "options": [
+            "C.C. signifie que le loyer est négociable",
+            "660 € inclut toutes les charges, 890 € n'inclut pas les charges",
+            "Les deux formules signifient la même chose",
+            "+ charges signifie que les charges sont offertes"
+          ],
+          "correct": 1,
+          "explanation": "C.C. = charges comprises = 杂费包含在内。+ charges = 杂费另付。这是租房广告中的经典考点。",
+          "category": "词汇/概念辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1F_GCR8jHwEBHeDAxK2zcZDFnSlCgCeAWM7LC8YHyQ58/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773112321570-wsl93k2z95",
+          "front": "immeuble ancien",
+          "back": "老式建筑\n≠ immeuble neuf（新建筑）\nTCF 同义替换：ancien ↔ vieux / neuf ↔ moderne, récent"
+        },
+        {
+          "id": "1773112321570-pejpgpid3lg",
+          "front": "lumineux",
+          "back": "明亮的、采光好的\n反义：sombre（阴暗的）\nTCF 常考同义替换：lumineux = pas sombre"
+        },
+        {
+          "id": "1773112321570-thybh40ok9i",
+          "front": "cuisine aménagée vs cuisine équipée",
+          "back": "aménagée = 配备基本橱柜的厨房\néquipée = 配备齐全的厨房（含电器）\néquipée 级别更高"
+        },
+        {
+          "id": "1773112321570-dlg8adm5nlp",
+          "front": "comprenant",
+          "back": "包括（comprendre 的现在分词）\n租房广告高频词，用来列举房间\n例：appartement comprenant entrée, séjour..."
+        },
+        {
+          "id": "1773112321570-t3xtgatopa",
+          "front": "donnant sur + 地点",
+          "back": "面朝…/ 通向…\n例：séjour donnant sur balcon = 客厅通向阳台\nune fenêtre donnant sur la rue = 朝街的窗户"
+        },
+        {
+          "id": "1773112321570-sfkom6lyt2i",
+          "front": "C.C. = charges comprises",
+          "back": "含杂费（物业费等包含在租金内）\n≠ + charges（杂费另付）\nTCF 价格陷阱：660 € C.C. 实际花 660；890 € + charges 实际花 > 890"
+        },
+        {
+          "id": "1773112321570-s0fe7w24z9",
+          "front": "loyer",
+          "back": "租金（n.m.）\n例：Le loyer est de 780 €.\n相关：louer = 租（动词），locataire = 租客"
+        },
+        {
+          "id": "1773112321570-vuyq6menf3l",
+          "front": "cave",
+          "back": "地窖、储藏室（n.f.）\n法国公寓常配有地下储藏间\n注意：≠ garage（车库）"
+        },
+        {
+          "id": "1773112321570-1uzrbwq2ph7",
+          "front": "ascenseur",
+          "back": "电梯（n.m.）\n例：immeuble neuf avec ascenseur\n相关：escalier = 楼梯"
+        },
+        {
+          "id": "1773112321570-jbxhxqbty",
+          "front": "au calme",
+          "back": "环境安静\n同义替换：pas bruyant\nTCF 阅读常考：au calme ↔ n'est pas bruyant ↔ tranquille"
+        },
+        {
+          "id": "1773112321570-likqfzipjlf",
+          "front": "toutes commodités",
+          "back": "各种生活便利设施\n= proche des commerces, transports...\n房产广告常用语"
+        },
+        {
+          "id": "1773112321570-2n4u3nw1usx",
+          "front": "placard",
+          "back": "壁柜、衣柜（n.m.）\n例：entrée avec placard\n≠ dressing（步入式衣柜，更大）"
+        },
+        {
+          "id": "1773112321570-twc5l276dqi",
+          "front": "situé dans / proche de",
+          "back": "situé dans = 位于…内\nproche de = 靠近…\n描述位置的两个核心表达"
+        },
+        {
+          "id": "1773112321570-pngug7psv5k",
+          "front": "quartier des facultés",
+          "back": "大学区\nfaculté = 大学学院（n.f.）\n= quartier universitaire"
+        },
+        {
+          "id": "1773112321570-s8mruiofino",
+          "front": "「没有提到」怎么判断？",
+          "back": "TCF 技巧：题目说 n'est pas mentionné\n= 原文中根本找不到这个信息\n不是找「有」，而是确认「没有」\n需要逐个扫描排除"
+        }
+      ]
+    },
+    {
+      "id": 1773112182887,
+      "name": "A2 Lecon 5 TCF阅读 练习1",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-10T03:09:42.887Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Vous cherchez un logement. Vous lisez : « Studio meublé, 25m2, 550€ C.C. » Que signifie « C.C. » ?",
+          "options": [
+            "Cuisine comprise",
+            "Charges comprises",
+            "Chauffage collectif",
+            "Cave comprise"
+          ],
+          "correct": 1,
+          "explanation": "C.C. = charges comprises，意思是杂费（水电、管理费等）包含在租金内。这是房产广告中的标准缩写。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'annonce indique : « Appartement de 3 pièces comprenant séjour, 2 chambres, cuisine et salle de bains. » Combien de chambres y a-t-il ?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 1,
+          "explanation": "3 pièces = séjour + 2 chambres。在法国，pièces 的计算不包含厨房和卫浴。题目已明确列出 2 chambres。注意不要把 3 pièces 误读为 3 间卧室。",
+          "category": "阅读-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« La chambre donne sur un jardin. » Que signifie « donner sur » ?",
+          "options": [
+            "Offrir un jardin",
+            "Être face à",
+            "Être loin de",
+            "Posséder un jardin"
+          ],
+          "correct": 1,
+          "explanation": "donner sur = 面朝/朝向。La chambre donne sur un jardin = 卧室朝向花园。不是\"赠送\"也不是\"拥有\"。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle annonce décrit un logement avec chauffage individuel au gaz ?\nA. « 3 pièces, chauffage collectif, 660€ C.C. »\nB. « 3 pièces, chauffage individuel au gaz, 780€ »\nC. « 4 pièces, immeuble neuf, 890€ + charges »",
+          "options": [
+            "Annonce A",
+            "Annonce B",
+            "Annonce C",
+            "Aucune annonce"
+          ],
+          "correct": 1,
+          "explanation": "只有 B 明确写了 chauffage individuel au gaz。A 是 collectif，C 没有提到供暖类型。individuel = 独立供暖（费用自理），collectif = 集体供暖（通常包含在 charges 里）。",
+          "category": "阅读-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Appartement lumineux et spacieux, proche de toutes commodités. » Le mot « commodités » signifie :",
+          "options": [
+            "des produits alimentaires",
+            "des facilités et services pratiques",
+            "des meubles modernes",
+            "des transports en commun"
+          ],
+          "correct": 1,
+          "explanation": "commodités = 便利设施（商店、交通、学校等生活配套）。不要和英语 commodity（商品）混淆，也不等于 meubles（家具）或仅指交通。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'annonce dit : « cuisine équipée ». Cela veut dire que la cuisine :",
+          "options": [
+            "est très grande",
+            "a tous les appareils nécessaires",
+            "est récemment rénovée",
+            "donne sur le jardin"
+          ],
+          "correct": 1,
+          "explanation": "cuisine équipée = 配备齐全的厨房，即配有冰箱、炉灶、烤箱等必要电器。équipé(e) de = 配备有……",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La maison est à côté du métro, c'est très _____.",
+          "correct": [
+            "pratique"
+          ],
+          "explanation": "à côté du métro + 评价 → pratique（方便的）。这是房产广告中描述交通便利的固定表达。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'appartement est dans un immeuble neuf avec un _____ (电梯).",
+          "correct": [
+            "ascenseur"
+          ],
+          "explanation": "ascenseur = 电梯（m.）。immeuble neuf avec ascenseur 是房产广告的高频组合。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Un appartement meublé » signifie :",
+          "options": [
+            "Un appartement avec des meubles",
+            "Un appartement sans meubles",
+            "Un appartement avec un jardin",
+            "Un appartement rénové"
+          ],
+          "correct": 0,
+          "explanation": "meublé(e) = 带家具的。来自动词 meubler（配家具）。反义：non meublé / vide（空房）。注意阴阳性：un studio meublé / une maison meublée。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous lisez : « 660€ C.C. » et « 890€ + charges ». Quel logement est le moins cher si les charges sont de 100€ par mois ?",
+          "options": [
+            "Le premier (660€ C.C.)",
+            "Le deuxième (890€ + charges)",
+            "Ils coûtent le même prix",
+            "On ne peut pas savoir"
+          ],
+          "correct": 0,
+          "explanation": "660€ C.C. = 660€ tout compris。890€ + charges = 890 + 100 = 990€。所以第一个更便宜。TCF 阅读经常考这类数字比较题，关键是理解 C.C. 和 + charges 的区别。",
+          "category": "阅读-租房"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les adjectifs suivants, lesquels décrivent un logement de manière positive ?",
+          "options": [
+            "lumineux",
+            "sombre",
+            "spacieux",
+            "bruyant"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "lumineux（明亮的）和 spacieux（宽敞的）是正面描述。sombre（暗的）和 bruyant（吵闹的）是负面描述。TCF 常考正/负面形容词的区分。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Situé dans le quartier des facultés, appartement de 2–3 pièces comprenant entrée, séjour double donnant sur balcon, cuisine _____, salle de bains, dressing, chambre, cave et parking. – 660 € _____.",
+          "correct": [
+            "équipée",
+            "C.C."
+          ],
+          "explanation": "第一空：cuisine 是阴性名词，所以 équipé 要加 e → équipée。第二空：C.C. = charges comprises，杂费包含在租金内。",
+          "category": "阅读-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Le loyer est de 780€, charges non comprises. » Cela signifie que :",
+          "options": [
+            "Le locataire paie 780€ en tout",
+            "Le locataire paie 780€ plus les charges",
+            "Les charges sont incluses dans le loyer",
+            "Le loyer comprend le dépôt de garantie"
+          ],
+          "correct": 1,
+          "explanation": "charges non comprises = 杂费不包含在内，即租客需要在 780€ 之外另付水电管理费等。",
+          "category": "阅读-租房"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour visiter l'appartement, il faut consulter les _____ immobilières. (房产广告)",
+          "correct": [
+            "annonces"
+          ],
+          "explanation": "les annonces immobilières = 房产广告。annonce（f.）= 广告/通知。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Proche de la gare, dans immeuble neuf, parking collectif. » Le mot « collectif » signifie ici :",
+          "options": [
+            "Le parking est privé",
+            "Le parking est partagé entre les résidents",
+            "Le parking est gratuit",
+            "Le parking est situé en sous-sol"
+          ],
+          "correct": 1,
+          "explanation": "collectif = 集体的/共用的。parking collectif = 住户共用停车位。与 individuel（个人的/独立的）相对。",
+          "category": "词汇-租房"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1kueVDvNDXT_StOHf80AuPSSCzfip51XBLnkQCu3pHrA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773112252308-ezv9susj5ku",
+          "front": "C.C. 在房产广告中是什么意思？",
+          "back": "charges comprises\n杂费包含在租金内（水电、管理费等）"
+        },
+        {
+          "id": "1773112252308-333wbtvgrqc",
+          "front": "louer",
+          "back": "v.t. 租（租入/出租均可）\nlouer un appartement = 租一套公寓\nlouer à qqn = 租给某人"
+        },
+        {
+          "id": "1773112252308-fe9881wpef",
+          "front": "un studio",
+          "back": "m. 单间公寓（一室一厅一体，含厨卫）\n比 appartement 更小"
+        },
+        {
+          "id": "1773112252308-a5u5jnnw5sr",
+          "front": "meublé(e)",
+          "back": "adj. 带家具的\nun appartement meublé / une maison meublée\n反义：non meublé / vide（空房）"
+        },
+        {
+          "id": "1773112252308-12hdz929a50e",
+          "front": "un quartier calme",
+          "back": "安静的街区\n反义：un quartier bruyant（吵闹的街区）"
+        },
+        {
+          "id": "1773112252308-g4ej4lvme8l",
+          "front": "un quartier animé",
+          "back": "热闹/有活力的街区\n反义：calme"
+        },
+        {
+          "id": "1773112252308-0turx0kzhex",
+          "front": "à proximité de",
+          "back": "离……近\nà proximité des commerces = 离商场近\nà proximité des transports en commun = 离公共交通近"
+        },
+        {
+          "id": "1773112252308-2fe1n095jtc",
+          "front": "proche de toutes commodités",
+          "back": "靠近所有便利设施\ncommodités f.pl. = 便利设施（≠英语 commodity 商品）"
+        },
+        {
+          "id": "1773112252308-qga1t7tnrq",
+          "front": "le loyer",
+          "back": "m. 租金\npayer le loyer = 交房租"
+        },
+        {
+          "id": "1773112252308-cmxjjsqtftw",
+          "front": "les charges",
+          "back": "f.pl. 杂费（水电、管理费、公共清洁费等）\ncharges comprises = 杂费包含\ncharges non comprises = 杂费另算"
+        },
+        {
+          "id": "1773112252308-l38xt3vka8",
+          "front": "un dépôt de garantie",
+          "back": "m. 押金/保证金\n通常为 1-2 个月 loyer"
+        },
+        {
+          "id": "1773112252308-8mia9zu2gfs",
+          "front": "une pièce",
+          "back": "f. 房间（泛指）\n3 pièces = 三居室（客厅+2卧室）\n⚠️ 厨房和卫浴不算在 pièces 里"
+        },
+        {
+          "id": "1773112252308-7qx46y5kzdl",
+          "front": "un salon / une salle de séjour",
+          "back": "客厅\nséjour 也可单独使用表示客厅"
+        },
+        {
+          "id": "1773112252308-ztcyljb0zm",
+          "front": "une chambre",
+          "back": "f. 卧室"
+        },
+        {
+          "id": "1773112252308-ae94rb685qf",
+          "front": "une cuisine équipée",
+          "back": "配备齐全的厨房（冰箱、炉灶、烤箱等）\nêtre équipé(e) de + 名词 = 配备有……\n⚠️ cuisine 是阴性 → équipée"
+        },
+        {
+          "id": "1773112252308-9339tdjzrg",
+          "front": "chauffage individuel",
+          "back": "独立供暖（费用自理）\n反义：chauffage collectif（集体供暖，通常包含在 charges 里）"
+        },
+        {
+          "id": "1773112252308-8evivb3w1bk",
+          "front": "le gaz / l'électricité",
+          "back": "le gaz m. 煤气\nl'électricité f. 电"
+        },
+        {
+          "id": "1773112252308-752m869vxk3",
+          "front": "un immeuble ancien / neuf / moderne",
+          "back": "m. 楼房/建筑\nancien = 老的 / neuf = 新的 / moderne = 现代的"
+        },
+        {
+          "id": "1773112252308-bx0nqbu7xqs",
+          "front": "une cave",
+          "back": "f. 地窖/地下储藏室"
+        },
+        {
+          "id": "1773112252308-c3033gf3vkl",
+          "front": "un ascenseur",
+          "back": "m. 电梯\nimmeuble neuf avec ascenseur = 带电梯的新建筑"
+        },
+        {
+          "id": "1773112252308-y1e1qzdx5hj",
+          "front": "mètres carrés (m²)",
+          "back": "平方米\n50m2 = cinquante mètres carrés"
+        },
+        {
+          "id": "1773112252308-1myn2sszik8",
+          "front": "lumineux(se)",
+          "back": "adj. 明亮的\n-eux → -euse（阴性变化）\nun salon lumineux / une chambre lumineuse"
+        },
+        {
+          "id": "1773112252308-sv4kkg94q2e",
+          "front": "spacieux(se)",
+          "back": "adj. 宽敞的\n-eux → -euse\nun séjour spacieux / une cuisine spacieuse"
+        },
+        {
+          "id": "1773112252308-j1frdiqep5",
+          "front": "confortable",
+          "back": "adj. 舒适的\n⚠️ 阴阳同形，不变化"
+        },
+        {
+          "id": "1773112252308-miac7aq5hq",
+          "front": "sombre",
+          "back": "adj. 暗的（负面描述）\n反义：clair(e) / lumineux(se)"
+        },
+        {
+          "id": "1773112252308-n4ywwzeel7n",
+          "front": "donner sur",
+          "back": "面朝/朝向\nLa chambre donne sur un jardin. 卧室朝向花园。\n≠ donner（给）"
+        },
+        {
+          "id": "1773112252308-4rssciaidtm",
+          "front": "être à côté de",
+          "back": "在……旁边\nLa maison est à côté du métro. 房子在地铁旁边。\nc'est très pratique = 很方便"
+        },
+        {
+          "id": "1773112252308-zfssdff0am",
+          "front": "en très bon état",
+          "back": "状态很好\n用于描述房屋/物品保养良好"
+        },
+        {
+          "id": "1773112252308-wnjq220om9",
+          "front": "aménagé(e)",
+          "back": "adj. 整理好的/布置好的\ncuisine aménagée = 布置好的厨房"
+        },
+        {
+          "id": "1773112252308-pujx5jsy4d",
+          "front": "rangé(e)",
+          "back": "adj. 整齐的\n来自动词 ranger（整理）"
+        },
+        {
+          "id": "1773112252308-pi4xrw4homf",
+          "front": "comprendre（房产广告含义）",
+          "back": "= 包含（≠ 理解）\nL'appartement comprend 3 chambres.\n公寓包含3间卧室。\ncomprenant = 现在分词，用于列举"
+        },
+        {
+          "id": "1773112252308-xyunsjbbwfr",
+          "front": "individuel / collectif",
+          "back": "individuel = 个人的/独立的\ncollectif = 集体的/共用的\nchauffage individuel ↔ chauffage collectif\nparking collectif = 共用停车位"
+        },
+        {
+          "id": "1773112252308-43va4blkle5",
+          "front": "un fauteuil",
+          "back": "m. 扶手椅"
+        },
+        {
+          "id": "1773112252308-0fn8oml6row6",
+          "front": "un canapé",
+          "back": "m. 沙发"
+        },
+        {
+          "id": "1773112252308-dbok9rqf17",
+          "front": "une table basse",
+          "back": "f. 茶几"
+        },
+        {
+          "id": "1773112252308-k7vlkpv01ps",
+          "front": "une armoire",
+          "back": "f. 衣柜"
+        },
+        {
+          "id": "1773112252308-srf0kuz31pf",
+          "front": "un placard",
+          "back": "m. 壁橱"
+        },
+        {
+          "id": "1773112252308-fjy6a3o0l6h",
+          "front": "un bureau（一词多义）",
+          "back": "m. ① 书桌 ② 办公室 ③ 办公桌\n根据上下文判断含义"
+        },
+        {
+          "id": "1773112252308-325539cddos",
+          "front": "les annonces immobilières",
+          "back": "f.pl. 房产广告\nconsulter les annonces = 查看广告\nimmobilier(ère) adj. 不动产的\nl'immobilier m. = 房地产行业"
+        },
+        {
+          "id": "1773112252308-z62et6vaps",
+          "front": "un lit simple / un lit double",
+          "back": "m. 单人床 / 双人床"
+        }
+      ]
+    },
+    {
+      "id": 1773112099338,
+      "name": "关系代词 où",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-10T03:08:19.338Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "La maison _____ j'ai grandi se trouve à Québec.",
+          "options": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "correct": 2,
+          "explanation": "先行词 la maison 是地点，从句缺「在那里」（j'ai grandi dans cette maison），用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est l'époque _____ tout le monde utilisait des lettres pour communiquer.",
+          "options": [
+            "que",
+            "où",
+            "qui",
+            "dont"
+          ],
+          "correct": 1,
+          "explanation": "先行词 l'époque 是时间词，从句缺「在那时」，用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le restaurant _____ nous avons dîné hier soir était excellent.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 3,
+          "explanation": "先行词 le restaurant 是地点，从句缺「在那里」（nous avons dîné dans ce restaurant），用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la période _____ les enfants ont le plus de vacances.",
+          "options": [
+            "dont",
+            "que",
+            "où",
+            "qui"
+          ],
+          "correct": 2,
+          "explanation": "先行词 la période 是时间词，从句缺「在那段时间」，用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le pays _____ elle rêve de visiter est le Japon.",
+          "options": [
+            "où",
+            "que",
+            "dont",
+            "qui"
+          ],
+          "correct": 1,
+          "explanation": "陷阱题！从句 = elle rêve de visiter ce pays，visiter 是及物动词，ce pays 做直接宾语，缺宾语用 que。不是 où！",
+          "category": "où vs que 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'hôpital _____ mon père travaille est très moderne.",
+          "options": [
+            "qui",
+            "que",
+            "où",
+            "dont"
+          ],
+          "correct": 2,
+          "explanation": "先行词 l'hôpital 是地点，从句缺「在那里」（mon père travaille dans cet hôpital），用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un film _____ raconte l'histoire d'un immigré à Montréal.",
+          "options": [
+            "où",
+            "que",
+            "dont",
+            "qui"
+          ],
+          "correct": 3,
+          "explanation": "陷阱题！从句 = un film raconte l'histoire...，从句缺主语，用 qui。虽然 film 不是人，但从句里它做主语。",
+          "category": "où vs qui 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le café _____ je t'ai rencontré pour la première fois a fermé.",
+          "options": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "correct": 2,
+          "explanation": "先行词 le café 是地点，从句缺「在那里」（je t'ai rencontré dans ce café），用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La semaine _____ il a passé son examen, il était très stressé.",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 3,
+          "explanation": "先行词 la semaine 是时间词，从句缺「在那段时间」，用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La ville _____ je connais le mieux au Canada est Montréal.",
+          "options": [
+            "où",
+            "que",
+            "qui",
+            "dont"
+          ],
+          "correct": 1,
+          "explanation": "陷阱题！从句 = je connais cette ville，connaître 是及物动词，cette ville 做直接宾语，缺宾语用 que。不是 où！",
+          "category": "où vs que 辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Voici la chambre _____ je dors chaque nuit.",
+          "correct": [
+            "où"
+          ],
+          "explanation": "先行词 la chambre 是地点，从句缺「在那里」（je dors dans cette chambre），用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu te souviens de l'année _____ on s'est rencontrés ?",
+          "correct": [
+            "où"
+          ],
+          "explanation": "先行词 l'année 是时间词，从句缺「在那时」，用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le magasin _____ vend des produits bio est à côté de chez moi.",
+          "options": [
+            "où",
+            "que",
+            "dont",
+            "qui"
+          ],
+          "correct": 3,
+          "explanation": "陷阱题！从句 = le magasin vend des produits bio，从句缺主语，用 qui。",
+          "category": "où vs qui 辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est le moment _____ vous devez prendre une décision.",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 3,
+          "explanation": "先行词 le moment 是时间词，从句缺「在那时」，用 où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La région _____ nous habitons est très froide en hiver. C'est une région _____ attire beaucoup de touristes en été.",
+          "correct": [
+            "où",
+            "qui"
+          ],
+          "explanation": "第一空：从句缺地点状语（nous habitons dans cette région）→ où。第二空：从句缺主语（cette région attire...）→ qui。这组对比是 TCF 经典考法。",
+          "category": "où vs qui 综合辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/142ui91691X1tnyCwnz2ycv6z5HG5P36lJ8_mTxDAkuw/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773112120660-423qlju23zr",
+          "front": "关系代词 où 的两大功能",
+          "back": "1. 做地点状语：代替「介词 + 地点名词」（dans / à / en + 地点）\n2. 做时间状语：代替「pendant / à + 时间名词」"
+        },
+        {
+          "id": "1773112120660-bvya6ynxy0i",
+          "front": "où 做地点状语的判断方法",
+          "back": "先行词是地点名词 + 从句缺「在那里」\n例：La ville où j'habite = La ville + j'habite dans cette ville"
+        },
+        {
+          "id": "1773112120660-q09qh7x0nea",
+          "front": "où 做时间状语的常见先行词",
+          "back": "le moment, le jour, l'époque, la saison, la période, l'année, la semaine\n这些时间词后接 où，不用 quand"
+        },
+        {
+          "id": "1773112120660-so6lwh5gc5",
+          "front": "où vs que 怎么区分？",
+          "back": "où：从句缺地点/时间状语（在哪里/在那时）\nque：从句缺直接宾语（动词后缺名词）\n例：La ville où j'habite vs La ville que je visite"
+        },
+        {
+          "id": "1773112120660-iyxj1tuetuc",
+          "front": "où vs qui 怎么区分？",
+          "back": "où：从句缺地点/时间状语\nqui：从句缺主语\n例：Le bureau où je travaille vs Le bureau qui se trouve au bout du couloir"
+        },
+        {
+          "id": "1773112120660-cd0c5ln11l4",
+          "front": "TCF 陷阱：先行词是地点，就一定用 où 吗？",
+          "back": "不一定！要看从句的语法功能。\n如果从句缺主语 → qui\n如果从句缺宾语 → que\n例：C'est un projet qui demande du travail（缺主语，用 qui）"
+        },
+        {
+          "id": "1773112120660-ym27vhkealq",
+          "front": "où 和 quand 能互换吗？",
+          "back": "不能。où 是关系代词，引导关系从句修饰时间名词。\nquand 是连词，引导时间状语从句。\nTCF 书面语中关系从句只用 où。"
+        },
+        {
+          "id": "1773112120660-wxzb4v3sk2",
+          "front": "3秒排除法（关系代词选择）",
+          "back": "1. 找先行词\n2. 看从句缺什么：\n 缺主语 → qui\n 缺直接宾语 → que\n 缺「在那里/在那时」→ où\n 缺「de + 名词」→ dont\n3. 填入验证"
+        },
+        {
+          "id": "1773112120660-264fin7tj2n",
+          "front": "Le quartier _____ j'habite est bruyant.\n填什么？",
+          "back": "où\n从句 = j'habite dans le quartier，缺地点状语"
+        },
+        {
+          "id": "1773112120660-nysh2bam6ys",
+          "front": "Le jour _____ il est parti, il faisait beau.\n填什么？",
+          "back": "où\n先行词 le jour 是时间词，从句缺「在那天」"
+        },
+        {
+          "id": "1773112120660-uoiajiq5s5",
+          "front": "C'est l'entreprise _____ j'ai fait mon stage.\n填什么？",
+          "back": "où\n从句 = j'ai fait mon stage dans cette entreprise，缺地点状语"
+        },
+        {
+          "id": "1773112120660-vibun6t4dp",
+          "front": "Le bureau _____ se trouve au bout du couloir est celui du directeur.\n填什么？",
+          "back": "qui\n陷阱题！从句 = le bureau se trouve...，缺主语，用 qui"
+        },
+        {
+          "id": "1773112120660-wlf0sgq2pk",
+          "front": "La ville _____ je connais le mieux est Montréal.\n填什么？",
+          "back": "que\n陷阱题！从句 = je connais cette ville，connaître 是及物动词，缺直接宾语，用 que"
         }
       ]
     },
@@ -76436,6 +77654,10 @@
       "name": "A2课文"
     },
     {
+      "id": "1772343782185",
+      "name": "A2词汇"
+    },
+    {
       "id": "1772564799444",
       "name": "TCF口语"
     },
@@ -76477,6 +77699,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-10T01:32:56.653Z",
-  "importAllowedDeviceFingerprint": "zuo6tk"
+  "exportedAt": "2026-03-10T03:19:51.587Z",
+  "importAllowedDeviceFingerprint": "12hg5e"
 }
