@@ -1,6 +1,1538 @@
 {
   "savedSets": [
     {
+      "id": 1773189909780,
+      "name": "TCF听力 TEST1 Q5-7 A2",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-11T00:45:09.780Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Tu sais où Marie a acheté cette robe ?\n（你知道 Marie 在哪里买的这条裙子吗？）",
+          "options": [
+            "A. Elle coûte 50 euros.（它50欧元。）",
+            "B. Dans une boutique près de la gare.（在火车站附近的一家店。）",
+            "C. Elle l'a achetée la semaine dernière.（她上周买的。）",
+            "D. C'est un cadeau de son copain.（是她男朋友送的礼物。）"
+          ],
+          "correct": 1,
+          "explanation": "问 où（哪里），只有 B 给出了地点信息（火车站附近的店）。A 回答价格（combien），C 回答时间（quand），D 回答来源/人物（qui）。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qui t'a recommandé ce restaurant ?\n（谁向你推荐了这家餐厅？）",
+          "options": [
+            "A. On y mange très bien.（那里吃得很好。）",
+            "B. Il se trouve dans le centre-ville.（它在市中心。）",
+            "C. Un ami qui habite dans le quartier.（一个住在附近的朋友。）",
+            "D. J'y suis allé samedi soir.（我周六晚上去的。）"
+          ],
+          "correct": 2,
+          "explanation": "问 qui（谁推荐的），C 给出了人物（un ami）且动作匹配（推荐 → 住附近所以了解）。A 是评价，B 是地点，D 是时间。",
+          "category": "听力-qui动作匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Salut Tom, ça fait longtemps ! Comment s'est passé ton voyage au Japon ?\n（嗨 Tom，好久不见！你的日本旅行怎么样？）",
+          "options": [
+            "A. J'y suis resté deux semaines.（我在那里待了两周。）",
+            "B. C'était magnifique, j'ai adoré la cuisine.（太棒了，我很喜欢那里的美食。）",
+            "C. J'ai pris l'avion depuis Paris.（我从巴黎坐飞机去的。）",
+            "D. Ma femme a organisé le voyage.（我妻子安排的旅行。）"
+          ],
+          "correct": 1,
+          "explanation": "问 comment s'est passé（旅行怎么样），需要评价/感受。B 给出了感受（magnifique, adoré）。A 是时长，C 是交通方式，D 是谁安排的。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— On organise un barbecue dimanche au parc. Tu viens avec nous ?\n（我们周日在公园组织烧烤。你跟我们一起来吗？）",
+          "options": [
+            "A. Oui, j'adore les grillades en plein air !（好啊，我喜欢户外烧烤！）",
+            "B. Oui, je connais bien ce quartier.（好的，我很了解这个街区。）",
+            "C. Oui, je préfère manger à la maison.（好的，我更喜欢在家吃。）",
+            "D. Oui, je travaille dimanche.（好的，我周日上班。）"
+          ],
+          "correct": 0,
+          "explanation": "邀请参加烧烤，A 表示同意且内容与烧烤场景吻合（grillades en plein air）。B 主题偷换（街区），C 前后矛盾（说好但更喜欢在家），D 前后矛盾（说好但要上班）。",
+          "category": "听力-邀请语境匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qui a préparé ce gâteau ? Il est délicieux !\n（谁做的这个蛋糕？太好吃了！）",
+          "options": [
+            "A. Je l'ai acheté à la boulangerie du coin.（我在街角面包店买的。）",
+            "B. C'est ma mère, elle adore la pâtisserie.（是我妈妈，她很喜欢做甜点。）",
+            "C. Il est au chocolat et aux framboises.（是巧克力和覆盆子口味的。）",
+            "D. On l'a mangé hier soir.（我们昨晚吃的。）"
+          ],
+          "correct": 1,
+          "explanation": "问 qui a préparé（谁做的），B 给出人物（ma mère）且动作匹配（adore la pâtisserie = 喜欢做甜点 → 她做的）。A 是来源但动作不匹配（买≠做），C 是描述口味，D 是时间。注意 A 的陷阱：虽然回答了'从哪来的'，但 acheter≠préparer。",
+          "category": "听力-qui动作匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Combien de temps tu as mis pour finir ce livre ?\n（你花了多长时间读完这本书？）",
+          "options": [
+            "A. Environ trois semaines.（大约三周。）",
+            "B. C'est un roman de 400 pages.（这是一本400页的小说。）",
+            "C. Je l'ai lu pendant les vacances.（我假期读的。）",
+            "D. Mon professeur me l'a conseillé.（我老师推荐给我的。）"
+          ],
+          "correct": 0,
+          "explanation": "问 combien de temps（多长时间），A 给出了时长（trois semaines）。B 是书的描述（页数），C 是时间段但不是\"花了多久\"，D 是谁推荐的。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Hé, on va au cinéma ce soir, tu veux venir ?\n（嘿，我们今晚去看电影，你想来吗？）",
+          "options": [
+            "A. Bonne idée, j'ai vu ce film trois fois.（好主意，这部电影我看了三遍。）",
+            "B. Avec plaisir, ça fait longtemps que j'y suis pas allé !（很乐意，我好久没去了！）",
+            "C. D'accord, je n'aime pas trop le cinéma.（好的，我不太喜欢电影院。）",
+            "D. Super, je travaille jusqu'à minuit.（太好了，我工作到午夜。）"
+          ],
+          "correct": 1,
+          "explanation": "邀请看电影，B 同意且理由合理（好久没去了，正好去）。A 前后矛盾（说好主意但已经看了三遍），C 前后矛盾（同意但不喜欢），D 前后矛盾（说好但工作到很晚）。",
+          "category": "听力-邀请语境匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qui a réparé ta voiture ?\n（谁修了你的车？）",
+          "options": [
+            "A. Elle est tombée en panne la semaine dernière.（它上周抛锚了。）",
+            "B. Ça m'a coûté 300 euros.（花了我300欧元。）",
+            "C. Mon voisin, il est mécanicien.（我邻居，他是修车工。）",
+            "D. Je l'ai récupérée ce matin.（我今早取回来的。）"
+          ],
+          "correct": 2,
+          "explanation": "问 qui a réparé（谁修的），C 给出人物（mon voisin）且身份与动作完全匹配（mécanicien = 修车工）。A 是背景（抛锚），B 是价格，D 是时间。",
+          "category": "听力-qui动作匹配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/16QA8ac9a7SM7HuDIFIXIeqFO9DYAXkh6zDKBhByCvK0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773189932370-af6d5b08ite",
+          "front": "TCF 听力核心技巧：疑问词匹配法",
+          "back": "听到疑问词后立刻锁定答案类型：\nQuand → 时间点\nOù → 地点\nQui → 人物+对应动作\nComment → 方式/评价\nCombien (de temps) → 数量/时长\nPourquoi → 原因"
+        },
+        {
+          "id": "1773189932370-m3tic34636n",
+          "front": "Quand 问什么？答案必须包含什么？",
+          "back": "问：什么时候\n答案必须包含时间点\n例：mardi prochain, en juin, demain, la semaine prochaine"
+        },
+        {
+          "id": "1773189932370-y71h4esvkkd",
+          "front": "Qui 问什么？答案必须包含什么？",
+          "back": "问：谁\n答案必须包含人物 + 该人物执行的动作必须与题目一致\n⚠️ 出现人物但动作不对 = 干扰项"
+        },
+        {
+          "id": "1773189932370-r916dh30md",
+          "front": "Où 问什么？答案必须包含什么？",
+          "back": "问：哪里\n答案必须包含地点\n例：dans une boutique, à Paris, près de la gare"
+        },
+        {
+          "id": "1773189932370-gi24bngqznr",
+          "front": "Comment 问什么？答案必须包含什么？",
+          "back": "问：怎样/怎么样\n答案必须包含方式或评价/感受\n例：en avion（方式）、c'était magnifique（评价）"
+        },
+        {
+          "id": "1773189932370-9ewsidsvqub",
+          "front": "Combien de temps 问什么？答案必须包含什么？",
+          "back": "问：多长时间\n答案必须包含时长\n例：trois semaines, deux heures, cinq jours\n⚠️ 时长（cinq jours）≠ 时间点（mardi）"
+        },
+        {
+          "id": "1773189932370-cs2hdq3n25",
+          "front": "TCF 听力陷阱：qui + 动作不匹配\n举例说明",
+          "back": "题目：Qui a écrit ce roman?（谁写的？）\n干扰项：Ma sœur me l'a offert.（我姐姐送给我的。）\n分析：sœur 是人，但 offert（送）≠ écrit（写）\n技巧：找到人还不够，必须确认动作一致"
+        },
+        {
+          "id": "1773189932370-ruki1mpaqjl",
+          "front": "TCF 听力陷阱：场景相关但答非所问\n如何识别？",
+          "back": "干扰项特征：内容与场景有关，但回答的不是题目问的\n例：问 quand（什么时候），给你 cinq jours（待多久）\n例：问 qui（谁写的），给你 intéressant（评价）\n技巧：听到疑问词 → 脑中锁定答案类型 → 排除不匹配项"
+        },
+        {
+          "id": "1773189932370-rl51d9yabh",
+          "front": "TCF 听力陷阱：前后矛盾型干扰项\n如何识别？",
+          "back": "特征：前半句表示同意，后半句内容矛盾\n例：D'accord. Je pars tout seul.（好的，我一个人去。）→ 矛盾：同意一起去却说独自走\n例：Oui, je travaille dimanche.（好，我周日上班。）→ 矛盾：答应了但没时间\n技巧：前后两句必须逻辑一致"
+        },
+        {
+          "id": "1773189932370-jxnvikci768",
+          "front": "TCF 听力邀请类对话\n正确答案有什么特征？",
+          "back": "正确答案 = 态度明确 + 补充内容与活动场景一致\n例：邀请滑雪 → Bonne idée. J'adore la neige.（好主意，我喜欢雪。）\n例：邀请烧烤 → J'adore les grillades en plein air!（我喜欢户外烧烤！）\n态度 + 场景匹配 = 正确"
+        },
+        {
+          "id": "1773189932370-80hilo5v4ec",
+          "front": "avoir l'air + adj.\n什么意思？注意什么？",
+          "back": "看起来……\n例：T'as l'air fatiguée.（你看起来很累。）\n注意：形容词要与主语性数配合\nfatigué（男）/ fatiguée（女）"
+        },
+        {
+          "id": "1773189932370-kj0th3ioqai",
+          "front": "T'as = ?\nTCF 听力口语缩读",
+          "back": "T'as = Tu as\n类似缩读：\nT'es = Tu es\nY'a = Il y a\n⚠️ 听力中非常常见，不熟悉会漏掉主语"
+        },
+        {
+          "id": "1773189932370-9ceni8dy9g7",
+          "front": "partir en vacances\n什么意思？注意什么介词？",
+          "back": "去度假\n介词用 en：partir EN vacances\n不要说 partir aux vacances ❌\n相关：rentrer de vacances（度假回来）"
+        },
+        {
+          "id": "1773189932370-dw4fep6jhle",
+          "front": "faire du ski\n什么结构？",
+          "back": "去滑雪\n结构：faire du/de la/de l' + 运动\nfaire du vélo（骑车）\nfaire de la natation（游泳）\nfaire de l'escalade（攀岩）"
+        },
+        {
+          "id": "1773189932370-qh0szjygj8d",
+          "front": "roman policier\n什么意思？其他小说类型？",
+          "back": "侦探小说\n其他类型：\nroman d'amour（爱情小说）\nroman historique（历史小说）\nroman de science-fiction（科幻小说）"
+        },
+        {
+          "id": "1773189932370-wbddez6qhp8",
+          "front": "en solde vs soldes\n区别是什么？",
+          "back": "en solde = 打折中（单个商品状态）\n例：Ce livre est en solde.（这本书在打折。）\nles soldes（阳性复数）= 打折季\n例：Les soldes d'hiver commencent en janvier.（冬季打折季一月开始。）"
+        },
+        {
+          "id": "1773189932370-26o6o4ntptl",
+          "front": "offrir 的 passé composé",
+          "back": "j'ai offert\ntu as offert\nil/elle a offert\nnous avons offert\nvous avez offert\nils/elles ont offert\n助动词：avoir\n意思：赠送、送礼"
+        },
+        {
+          "id": "1773189932370-gvrk5i3s8he",
+          "front": "me l'a offert\n双代词结构怎么理解？",
+          "back": "me = 间接宾语（给我）\nl' = 直接宾语（它）\na offert = 送了\n合起来：把它送给了我\n代词顺序：me/te/se/nous/vous + le/la/les + 动词"
+        },
+        {
+          "id": "1773189932370-nvj2ns8bwyq",
+          "front": "TCF 听力 3 秒排除法",
+          "back": "步骤：\n1. 听到疑问词 → 锁定答案类型\n2. 扫描选项 → 排除类型不匹配的\n3. 剩余选项中确认逻辑一致性\n例：听到 quand → 找时间词 → 只有一个选项有 mardi → 选它"
+        }
+      ]
+    },
+    {
+      "id": 1773189037245,
+      "name": "TCF 听力 TEST1 Q1-4 A1",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-11T00:30:37.245Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "（看图题：餐厅里，服务员端着菜单走向一对夫妇的桌子）\nÉcoutez les 4 propositions, choisissez celle qui correspond à l'image.\n（听四个选项，选择与图片对应的。）",
+          "options": [
+            "Voici le menu, je reviens dans cinq minutes.（这是菜单，我五分钟后回来。）",
+            "L'addition, s'il vous plaît.（请买单。）",
+            "La table est réservée pour ce soir.（这张桌子今晚已预订。）",
+            "Le restaurant est fermé le lundi.（餐厅周一关门。）"
+          ],
+          "correct": 0,
+          "explanation": "图中服务员递菜单给客人，只有A描述了这个动作。B是结账场景，C/D与图片动作无关。关键：先看图中的动作（递菜单），再听关键名词（menu）。",
+          "category": "听力-场景匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "（看图题：火车站台，一位女士看着站台上的电子屏幕，旁边有行李箱）\nÉcoutez les 4 propositions, choisissez celle qui correspond à l'image.\n（听四个选项，选择与图片对应的。）",
+          "options": [
+            "Le train arrive avec dix minutes de retard.（火车晚到十分钟。）",
+            "Je voudrais un aller simple pour Lyon.（我要一张去里昂的单程票。）",
+            "N'oubliez pas de composter votre billet.（别忘了打票。）",
+            "Elle vérifie l'horaire du train sur l'écran.（她在屏幕上查看火车时刻。）"
+          ],
+          "correct": 3,
+          "explanation": "图中女士看电子屏幕+行李=查看火车时刻。A没有对应人物动作，B是售票窗口场景，C是提醒动作。关键物品：écran（屏幕）+ 关键动作：vérifier（查看）。",
+          "category": "听力-场景匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "（看图题：酒店房间内，服务员正在整理床铺，桌上放着毛巾）\nÉcoutez les 4 propositions, choisissez celle qui correspond à l'image.\n（听四个选项，选择与图片对应的。）",
+          "options": [
+            "La chambre sera prête dans une heure.（房间一小时后准备好。）",
+            "Je prépare la chambre pour le prochain client.（我在为下一位客人准备房间。）",
+            "Vous pouvez laisser vos bagages à la réception.（您可以把行李放在前台。）",
+            "Le petit déjeuner est servi de 7h à 10h.（早餐7点到10点供应。）"
+          ],
+          "correct": 1,
+          "explanation": "图中服务员整理床铺=准备房间。A说房间还没好（但图中已在整理），C是行李场景，D是早餐信息。关键动词：préparer（准备）对应整理床铺的动作。",
+          "category": "听力-场景匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où habitez-vous ?\n（您住在哪里？）",
+          "options": [
+            "Depuis trois ans.（三年了。）",
+            "Avec ma famille.（和家人一起。）",
+            "À Montréal.（在蒙特利尔。）",
+            "Très bien.（很好。）"
+          ],
+          "correct": 2,
+          "explanation": "où问地点，只有C回答了地点。A回答的是depuis quand（多久了），B回答的是avec qui（和谁），D回答的是comment（怎么样）。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand est-ce que tu pars en vacances ?\n（你什么时候去度假？）",
+          "options": [
+            "En Espagne.（去西班牙。）",
+            "En avion.（坐飞机。）",
+            "En juillet.（七月。）",
+            "En famille.（和家人一起。）"
+          ],
+          "correct": 2,
+          "explanation": "quand问时间，只有C（en juillet=七月）是时间。A是地点（où），B是方式（comment），D是同伴（avec qui）。注意：四个选项都以en开头，视觉干扰极强。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien coûte ce livre ?\n（这本书多少钱？）",
+          "options": [
+            "Il est très intéressant.（它很有趣。）",
+            "À la librairie.（在书店。）",
+            "Quinze euros.（十五欧元。）",
+            "Depuis hier.（从昨天开始。）"
+          ],
+          "correct": 2,
+          "explanation": "combien问数量/价格，只有C给出了价格。A回答的是comment（怎么样），B回答的是où（哪里），D回答的是depuis quand（从什么时候）。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment allez-vous au bureau ?\n（您怎么去办公室？）",
+          "options": [
+            "À 9 heures.（9点。）",
+            "Au centre-ville.（在市中心。）",
+            "En métro.（坐地铁。）",
+            "Tous les jours.（每天。）"
+          ],
+          "correct": 2,
+          "explanation": "comment问方式，en métro是交通方式。A是时间（à quelle heure），B是地点（où），D是频率（combien de fois）。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne sais pas comment envoyer ce document. Tu peux m'aider ?\n（我不知道怎么发送这个文件。你能帮我吗？）",
+          "options": [
+            "Attends, je vais le supprimer.（等等，我去删掉它。）",
+            "Montre-moi, je vais regarder.（给我看看，我来看看。）",
+            "Viens, je vais t'expliquer.（来，我给你解释。）",
+            "Laisse, je vais le réparer.（算了，我去修它。）"
+          ],
+          "correct": 2,
+          "explanation": "对方不会发送文件（ne sais pas=不会）→需要教/解释。C的expliquer（解释）完美匹配。A的supprimer（删除）答非所问，B的逻辑反了（应该是我给你看，不是你给我看），D的réparer（修理）偷换概念（不会用≠坏了）。",
+          "category": "听力-情境回应"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'imprimante ne marche plus. Qu'est-ce qu'on fait ?\n（打印机不工作了。我们怎么办？）",
+          "options": [
+            "Regarde, je vais te montrer comment l'utiliser.（看，我来教你怎么用。）",
+            "Laisse, je vais appeler le technicien.（算了，我去叫技术员。）",
+            "Tiens, je vais lui envoyer un message.（嘿，我去给他发条消息。）",
+            "Attends, je vais la ranger.（等等，我去收拾它。）"
+          ],
+          "correct": 1,
+          "explanation": "ne marche plus=不工作了=坏了→需要修理/叫人修。B的appeler le technicien（叫技术员）最合逻辑。A的montrer comment l'utiliser是教人用（适合\"不会用\"的场景），C不明确，D的ranger（收拾）无关。注意区分：不会用→montrer/expliquer；坏了→réparer/appeler le technicien。",
+          "category": "听力-情境回应"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne trouve pas la salle de réunion. Tu sais où elle est ?\n（我找不到会议室。你知道它在哪吗？）",
+          "options": [
+            "Suis-moi, je vais te montrer.（跟我来，我带你去看。）",
+            "Laisse, je vais la nettoyer.（算了，我去打扫它。）",
+            "Tiens, je vais lui téléphoner.（嘿，我去给他打电话。）",
+            "Attends, je vais la réserver.（等等，我去预订它。）"
+          ],
+          "correct": 0,
+          "explanation": "对方找不到地方→需要带路/指路。A的suis-moi（跟我来）+montrer完美匹配。B的nettoyer（打扫）、C的téléphoner（打电话）、D的réserver（预订）都答非所问。",
+          "category": "听力-情境回应"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne _____ pas conduire, elle prend toujours le bus.\n（她不会开车，她总是坐公交。）",
+          "options": [
+            "peut（能）",
+            "sait（会）",
+            "veut（想）",
+            "doit（必须）"
+          ],
+          "correct": 1,
+          "explanation": "不会开车=缺少驾驶技能→用savoir。pouvoir表示能力或许可，veut表示意愿，doit表示义务。savoir+动词原形=会做某事（技能）。",
+          "category": "听力-savoir vs pouvoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ m'aider ? J'ai trop de travail.\n（你能帮我吗？我工作太多了。）",
+          "options": [
+            "sais（会）",
+            "peux（能）",
+            "veux（想）",
+            "dois（必须）"
+          ],
+          "correct": 1,
+          "explanation": "请求帮忙=问对方有没有能力/时间→用pouvoir。savoir用于技能，veux用于意愿，dois用于义务。Tu peux m'aider?是请求帮忙的标准句型。",
+          "category": "听力-savoir vs pouvoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment vas-tu à l'université ?\n（你怎么去大学？）",
+          "options": [
+            "À vélo.（骑自行车。）",
+            "À midi.（中午。）",
+            "À Lyon.（在里昂。）",
+            "À demain.（明天见。）"
+          ],
+          "correct": 0,
+          "explanation": "comment问方式，à vélo=骑自行车，是交通方式。à midi=时间，à Lyon=地点，à demain=告别语。四个选项都以à开头，视觉干扰强。",
+          "category": "听力-疑问词+交通方式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Bienvenue à l'hôtel. Voici _____ pour le petit déjeuner.\n（欢迎来到酒店。这是_____用于吃早餐。）",
+          "options": [
+            "la clé（钥匙）",
+            "la salle（大厅）",
+            "le programme（节目单）",
+            "les bagages（行李）"
+          ],
+          "correct": 1,
+          "explanation": "voici la salle pour le petit déjeuner=这是早餐厅。酒店入住时介绍早餐地点。la clé是房间钥匙，le programme是日程，les bagages是行李，都不搭配pour le petit déjeuner。",
+          "category": "听力-酒店场景词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Excusez-moi, je cherche la réception de l'hôtel.\n— \n（打扰一下，我找酒店前台。\n—）",
+          "options": [
+            "C'est au bout du couloir à gauche.（在走廊尽头左转。）",
+            "Le petit déjeuner est à 8 heures.（早餐在8点。）",
+            "Vous pouvez laisser vos bagages ici.（您可以把行李放这里。）",
+            "À bientôt, au plaisir de vous revoir.（再见，期待再见。）"
+          ],
+          "correct": 0,
+          "explanation": "对方在找前台（cherche la réception）→需要指路。A给出了方向（au bout du couloir à gauche=走廊尽头左转），完美匹配。B是早餐信息，C是行李寄存，D是告别语。",
+          "category": "听力-酒店场景"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1anWOS4J37HZE5GhxTkLfwDNNdkZqZVLllXofk9nUyCI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773189110359-oat8n8et7cm",
+          "front": "s'asseoir 的命令式 (vous)",
+          "back": "Asseyez-vous\n请坐\n例：Asseyez-vous, je vous en prie.（请坐。）"
+        },
+        {
+          "id": "1773189110359-9vtud9nk2z",
+          "front": "s'asseoir 的命令式 (tu)",
+          "back": "Assieds-toi\n坐下（非正式）\n例：Assieds-toi ici.（坐这儿。）"
+        },
+        {
+          "id": "1773189110359-7fg6x80ux2q",
+          "front": "je vous en prie 是什么意思？",
+          "back": "请便 / 不客气\n比 s'il vous plaît 更正式礼貌\n常用于主动邀请或回应感谢"
+        },
+        {
+          "id": "1773189110359-k5vk0927co",
+          "front": "je vous en prie vs s'il vous plaît",
+          "back": "je vous en prie = 更正式，主动邀请/回应感谢\ns'il vous plaît = 通用的\"请\"，请求时用\n例：Asseyez-vous, je vous en prie.（请坐。）\nUn café, s'il vous plaît.（请来杯咖啡。）"
+        },
+        {
+          "id": "1773189110359-3pnkilr7l2p",
+          "front": "代动词命令式肯定句的语序规则",
+          "back": "主语省略，代词后置，用连字符连接\n例：s'asseoir → Asseyez-vous / Assieds-toi\nse lever → Levez-vous / Lève-toi"
+        },
+        {
+          "id": "1773189110359-kmx9socfq8",
+          "front": "la photocopieuse",
+          "back": "复印机（阴性名词）\n来自动词 photocopier（复印）\n例：Je ne sais pas utiliser la photocopieuse.（我不会用复印机。）"
+        },
+        {
+          "id": "1773189110359-d6npebuhn5b",
+          "front": "bagage(s) 的性数",
+          "back": "阳性名词，日常几乎总用复数 les bagages\n例：Vous pouvez laisser vos bagages là.（您可以把行李放那里。）"
+        },
+        {
+          "id": "1773189110359-q4pf0plodyf",
+          "front": "faire ses bagages",
+          "back": "收拾行李\n例：Je fais mes bagages ce soir.（我今晚收拾行李。）"
+        },
+        {
+          "id": "1773189110359-k4kkdgldb1r",
+          "front": "laisser 的两个核心用法",
+          "back": "1. laisser + 名词 = 留下/放置\n例：Laissez vos bagages ici.（把行李放这里。）\n2. laisser + 人 + 动词原形 = 让某人做某事\n例：Laissez-moi parler.（让我说。）"
+        },
+        {
+          "id": "1773189110359-4jwf4ctz97n",
+          "front": "voici vs voilà",
+          "back": "voici = 这是（近处/即将介绍的）\nvoilà = 那是（远处/刚提到的）\n例：Voici la salle pour le petit déjeuner.（这是早餐厅。）"
+        },
+        {
+          "id": "1773189110359-bfn0r6jx5u9",
+          "front": "法语\"吃早餐\"怎么说？",
+          "back": "prendre le petit déjeuner\n注意：用 prendre，不用 manger\n同理：prendre le déjeuner / le dîner"
+        },
+        {
+          "id": "1773189110359-7fm2lkziz52",
+          "front": "comment 这个疑问词问什么？",
+          "back": "问方式/手段\n回答必须是方式类：à pied, en bus, bien...\n例：Comment allez-vous au travail ? — À pied."
+        },
+        {
+          "id": "1773189110359-ppsneci7s8n",
+          "front": "où 这个疑问词问什么？",
+          "back": "问地点\n回答必须是地点：à Paris, chez moi, ici...\n例：Où habitez-vous ? — À Montréal."
+        },
+        {
+          "id": "1773189110359-o2qie1bjxp",
+          "front": "quand 这个疑问词问什么？",
+          "back": "问时间\n回答必须是时间：demain, en juillet, à 8h...\n例：Quand pars-tu ? — En juillet."
+        },
+        {
+          "id": "1773189110359-8yxaoz3bnio",
+          "front": "combien 这个疑问词问什么？",
+          "back": "问数量/价格\n回答必须是数量或金额：trois, 15 euros...\n例：Combien coûte ce livre ? — Quinze euros."
+        },
+        {
+          "id": "1773189110359-js3wbcf7gu",
+          "front": "pourquoi 这个疑问词问什么？",
+          "back": "问原因\n回答用 parce que... / car...\n例：Pourquoi tu es en retard ? — Parce que j'ai raté le bus."
+        },
+        {
+          "id": "1773189110359-l0zdtml4bcg",
+          "front": "à pied",
+          "back": "步行\n例：Je vais au travail à pied.（我步行去上班。）\n规律：à + 无冠词 = 人力/身体方式"
+        },
+        {
+          "id": "1773189110359-tzvqrvm3xg",
+          "front": "à vélo",
+          "back": "骑自行车\n例：Elle va à l'école à vélo.（她骑车去学校。）\n规律：à + 无冠词 = 人在上面的方式"
+        },
+        {
+          "id": "1773189110359-q4458hq7txo",
+          "front": "en voiture / en bus / en métro",
+          "back": "开车 / 坐公交 / 坐地铁\n规律：en + 无冠词 = 人在里面的封闭交通工具\n同类：en train, en avion, en taxi"
+        },
+        {
+          "id": "1773189110359-g38j9u35fy",
+          "front": "交通方式介词规则：à vs en",
+          "back": "à = 人在上面或用身体（à pied, à vélo, à cheval）\nen = 人在里面的交通工具（en bus, en voiture, en avion）"
+        },
+        {
+          "id": "1773189110359-rvnhnk4wr4g",
+          "front": "savoir vs pouvoir 的核心区别",
+          "back": "savoir + 动词原形 = 会做（技能/知识）\npouvoir + 动词原形 = 能做（能力/许可）\n例：Je sais nager.（我会游泳。）\nJe peux nager ici ?（我能在这游吗？）"
+        },
+        {
+          "id": "1773189110359-vhxptmvhq1",
+          "front": "ne sais pas utiliser = ?",
+          "back": "不会使用（缺技能）\n→ 需要 montrer（演示）/ expliquer（解释）\n⚠️ 不要和\"坏了\"混淆（坏了→réparer修理）"
+        },
+        {
+          "id": "1773189110359-430e8jum3cg",
+          "front": "ne marche plus = ?",
+          "back": "不工作了 / 坏了\n→ 需要 réparer（修理）/ appeler le technicien（叫技术员）\n⚠️ 不要和\"不会用\"混淆（不会用→montrer/expliquer）"
+        },
+        {
+          "id": "1773189110359-t1jkn3zruz",
+          "front": "Tu peux m'aider ?",
+          "back": "你能帮我吗？\npouvoir + aider qqn = 请求帮忙的标准句型\n回答：Oui, bien sûr.（当然。）/ Viens, je vais t'expliquer.（来，我给你解释。）"
+        },
+        {
+          "id": "1773189110359-qawlba50ok",
+          "front": "je vais + 动词原形 = ?",
+          "back": "最近将来时（futur proche）\n表示马上要做的事\n例：Je vais te montrer.（我来给你演示。）\n结构：aller现在时 + 动词原形"
+        },
+        {
+          "id": "1773189110359-imvstg46v4f",
+          "front": "attends（口语感叹词）",
+          "back": "等一下 / 稍等\n来自 attendre 命令式 tu\n例：Attends, je vais y aller.（等等，我过去。）"
+        },
+        {
+          "id": "1773189110359-yd5hyae6da",
+          "front": "laisse（口语感叹词）",
+          "back": "算了 / 别管了\n来自 laisser 命令式 tu\n例：Laisse, je vais la réparer.（算了，我去修它。）"
+        },
+        {
+          "id": "1773189110359-e1nc403chc",
+          "front": "regarde（口语感叹词）",
+          "back": "你看 / 看这里\n来自 regarder 命令式 tu\n例：Regarde, je vais te montrer.（你看，我来给你演示。）"
+        },
+        {
+          "id": "1773189110359-3r9tcrfpo26",
+          "front": "tiens（口语感叹词）",
+          "back": "嘿 / 给你（引起注意）\n来自 tenir 命令式 tu\n例：Tiens, je vais lui demander.（嘿，我去问他。）"
+        },
+        {
+          "id": "1773189110359-kx8fde7tv2s",
+          "front": "代词 y 代替什么？",
+          "back": "代替地点（去那里/在那里）\n例：Je vais y aller.（我要去那里。）\ny = à + 地点"
+        },
+        {
+          "id": "1773189110359-qyajnog7h4b",
+          "front": "代词 la 代替什么？",
+          "back": "代替阴性单数直接宾语\n例：Je vais la réparer.（我去修它。）\nla = la photocopieuse"
+        },
+        {
+          "id": "1773189110359-ls7ekzurwim",
+          "front": "代词 te 代替什么？",
+          "back": "代替\"你\"（间接宾语）\n例：Je vais te montrer.（我给你演示。）\nte = à toi"
+        },
+        {
+          "id": "1773189110359-hcaat7nph67",
+          "front": "代词 lui 代替什么？",
+          "back": "代替第三人称间接宾语（给他/给她）\n例：Je vais lui demander.（我去问他/她。）\nlui = à il/elle"
+        },
+        {
+          "id": "1773189110359-ne3wzhnfd0a",
+          "front": "TCF听力图片题黄金法则",
+          "back": "1. 先看图：抓关键物品+人物动作\n2. 预判关键词：根据图片猜可能出现的名词/动词\n3. 听到关键词后验证，3秒锁定答案\n4. 排除法：与图片动作不符的全排除"
+        },
+        {
+          "id": "1773189110359-8ye0gux0bnb",
+          "front": "TCF听力疑问词题解题法",
+          "back": "1. 第一秒抓疑问词（comment/où/quand/combien）\n2. 立刻锁定答案类型（方式/地点/时间/数量）\n3. 排除所有不属于该类型的选项\n⚠️ 选项常以相同字母开头制造视觉干扰"
+        },
+        {
+          "id": "1773189110359-c5mw99mg178",
+          "front": "TCF听力情境回应题解题法",
+          "back": "1. 抓住问题本质的动词（ne sais pas=不会 vs ne marche pas=坏了）\n2. 用动词锁定答案的动词（montrer/expliquer vs réparer）\n3. 排除答非所问的选项\n⚠️ 最强干扰项往往偷换问题概念"
+        },
+        {
+          "id": "1773189110359-z7d7rnd90wm",
+          "front": "afficher",
+          "back": "v. 张贴、公布\n例：Le programme est affiché sur la porte.（日程贴在门上。）\nest affiché = 被动态（被张贴）"
+        },
+        {
+          "id": "1773189110359-wkrdt6fpkt",
+          "front": "à bientôt vs au plaisir de vous revoir",
+          "back": "à bientôt = 回头见（通用告别）\nau plaisir de vous revoir = 期待再见到您（正式礼貌告别）\n两者都是离开时说的，不是到达时说的"
+        }
+      ]
+    },
+    {
+      "id": 1773187722361,
+      "name": "Leçon 8 & 9 课文",
+      "folderId": "1770747190002",
+      "createdAt": "2026-03-11T00:08:42.361Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Le poète est _____ Henri Matisse et Camille Claudel.",
+          "options": [
+            "à côté de",
+            "en face de",
+            "entre",
+            "près de"
+          ],
+          "correct": 2,
+          "explanation": "entre 表示「在……之间」，后接两个名词用 et 连接。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La cuisine est _____ de l'entrée.",
+          "options": [
+            "à gauche",
+            "en face",
+            "au bout",
+            "au coin"
+          ],
+          "correct": 0,
+          "explanation": "原文：La cuisine est à gauche de l'entrée. 注意 à gauche de 是完整搭配。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ la cuisine, vous avez les toilettes.",
+          "options": [
+            "À côté de",
+            "En face de",
+            "Au bout de",
+            "Entre"
+          ],
+          "correct": 1,
+          "explanation": "原文：En face de la cuisine, vous avez les toilettes. en face de = 在……对面。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La chambre est _____ du couloir.",
+          "options": [
+            "au coin",
+            "en face",
+            "au bout",
+            "à côté"
+          ],
+          "correct": 2,
+          "explanation": "au bout de = 在……尽头。原文：La chambre est au bout du couloir.",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'immeuble est _____ de la rue Victor-Hugo et de la rue Michelet.",
+          "options": [
+            "au bout",
+            "au coin",
+            "en face",
+            "à gauche"
+          ],
+          "correct": 1,
+          "explanation": "au coin de = 在……拐角处。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon école est en face _____ mon appartement.",
+          "options": [
+            "à",
+            "du",
+            "de",
+            "des"
+          ],
+          "correct": 2,
+          "explanation": "en face de + 名词。mon appartement 前不用冠词（因为有主有代词 mon），所以直接用 de。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'appartement se trouve _____ centre de la ville.",
+          "options": [
+            "dans le",
+            "au",
+            "en",
+            "à la"
+          ],
+          "correct": 1,
+          "explanation": "au centre de = 在……中心。au = à + le（缩合冠词）。",
+          "category": "缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon fils est _____ ma sœur.",
+          "options": [
+            "à",
+            "dans",
+            "chez",
+            "en face de"
+          ],
+          "correct": 2,
+          "explanation": "chez + 人 = 在某人家里/那里。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a une fenêtre _____ la salle de bains.",
+          "options": [
+            "en",
+            "dans",
+            "chez",
+            "au"
+          ],
+          "correct": 1,
+          "explanation": "dans + 定冠词 + 地点 = 在……里面。dans la salle de bains。",
+          "category": "方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Colette est à gauche _____ peintre.",
+          "options": [
+            "de le",
+            "du",
+            "de la",
+            "de l'"
+          ],
+          "correct": 1,
+          "explanation": "de + le = du（缩合冠词）。le peintre 是阳性，所以 de le → du。",
+          "category": "缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在租房广告中，「sdb」是什么意思？",
+          "options": [
+            "salon de beauté",
+            "salle de bains",
+            "sous-sol du bâtiment",
+            "salle de bureau"
+          ],
+          "correct": 1,
+          "explanation": "sdb 是 salle de bains（浴室）的常见缩写，TCF 阅读中租房广告高频考点。",
+          "category": "租房广告缩写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在租房广告中，「chbre」是什么意思？",
+          "options": [
+            "chambre",
+            "chèvre",
+            "chimbre",
+            "charbre"
+          ],
+          "correct": 0,
+          "explanation": "chbre = chambre（卧室），法语租房广告标准缩写。",
+          "category": "租房广告缩写"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de Claude Debussy, il y a le sculpteur.",
+          "options": [
+            "En face",
+            "Au bout",
+            "À côté",
+            "Entre"
+          ],
+          "correct": 2,
+          "explanation": "原文：À côté de Claude Debussy, il y a le sculpteur. à côté de = 在……旁边。",
+          "category": "方位介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'appartement _____ (se trouver, présent) au centre de la ville.",
+          "correct": [
+            "se trouve"
+          ],
+          "explanation": "se trouver 第三人称单数现在时：se trouve。意思等同于 est，但更书面。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪句是口语中询问地点的说法？",
+          "options": [
+            "Où se trouve ton école ?",
+            "Ton école, c'est où ?",
+            "Ton école est située où ?",
+            "Où est localisée ton école ?"
+          ],
+          "correct": 1,
+          "explanation": "Ton école, c'est où ? 是口语中主题前置的问法，TCF 听力中常见。A 和 C/D 偏书面。",
+          "category": "口语句型"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些是正确的缩合冠词用法？",
+          "options": [
+            "à côté de le salon → à côté du salon",
+            "en face de la cuisine → en face de la cuisine",
+            "au bout de les couloirs → au bout des couloirs",
+            "près de le centre → près du centre"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "de+le→du, de+la 不变, de+les→des。四个选项的缩合都正确。",
+          "category": "缩合冠词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "La chambre est _____ (au bout de / en face de) du couloir. _____ (À gauche / À droite) du couloir, il y a le salon.",
+          "correct": [
+            "au bout",
+            "À gauche"
+          ],
+          "explanation": "原文：La chambre est au bout du couloir. À gauche du couloir, il y a le salon.",
+          "category": "方位介词综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1sArd08hf021KfPZ__3YL3lu2kQQNRt17yeKlqzBx9IE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1773187406941,
+      "name": "Leçon 8 & 9 词汇",
+      "folderId": "1770604921596",
+      "createdAt": "2026-03-11T00:03:26.941Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Marie est _____ . Elle joue du piano depuis 10 ans.",
+          "options": [
+            "une musicienne",
+            "musicienne",
+            "la musicienne",
+            "de musicienne"
+          ],
+          "correct": 1,
+          "explanation": "être + 职业 → 零冠词。Elle est musicienne.",
+          "category": "词汇-职业冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le livre _____ étudiants est sur la table.",
+          "options": [
+            "de les",
+            "des",
+            "de",
+            "du"
+          ],
+          "correct": 1,
+          "explanation": "de + les = des（缩合冠词）。le livre des étudiants = 学生们的书。",
+          "category": "语法-缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je bois _____ café tous les matins.",
+          "options": [
+            "de",
+            "des",
+            "du",
+            "le"
+          ],
+          "correct": 2,
+          "explanation": "café 是阳性不可数名词，部分冠词用 du。注意 du 这里不是缩合冠词，而是部分冠词。",
+          "category": "语法-部分冠词vs缩合冠词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La boulangerie est _____ la rue, juste à côté de la banque.",
+          "options": [
+            "au bout de",
+            "en face de",
+            "entre",
+            "chez"
+          ],
+          "correct": 0,
+          "explanation": "au bout de la rue = 在街的尽头。en face de = 在对面。根据 juste à côté de la banque（紧挨银行），au bout de 最合理。",
+          "category": "词汇-方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon _____ mari habite maintenant à Lyon.",
+          "options": [
+            "ancien",
+            "ancienne",
+            "anciens",
+            "anciennes"
+          ],
+          "correct": 0,
+          "explanation": "ancien 放在名词前 = 前任的。mari 是阳性单数，用 ancien。",
+          "category": "词汇-形容词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette maison _____ date du 18e siècle.",
+          "options": [
+            "ancienne",
+            "ancien",
+            "anciennes",
+            "anciens"
+          ],
+          "correct": 0,
+          "explanation": "ancien 放在名词后 = 古老的。maison 是阴性单数 → ancienne。",
+          "category": "词汇-形容词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous habitons au troisième _____ .",
+          "options": [
+            "étage",
+            "rez-de-chaussée",
+            "entrée",
+            "couloir"
+          ],
+          "correct": 0,
+          "explanation": "troisième étage = 第三层楼。rez-de-chaussée 是底层，不搭配 troisième。",
+          "category": "词汇-住房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où est la chambre ? — Elle est au _____ du couloir.",
+          "options": [
+            "coin",
+            "bout",
+            "face",
+            "plan"
+          ],
+          "correct": 1,
+          "explanation": "au bout du couloir = 在走廊尽头。固定搭配。",
+          "category": "词汇-方位搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai trouvé cet appartement grâce à une petite _____ dans le journal.",
+          "options": [
+            "agence",
+            "annonce",
+            "avenue",
+            "entrée"
+          ],
+          "correct": 1,
+          "explanation": "une petite annonce = 分类广告。在报纸上找房子用 petite annonce。",
+          "category": "词汇-租房场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle aime faire la _____ . Ce soir, elle prépare un plat japonais.",
+          "options": [
+            "douche",
+            "cuisine",
+            "salle",
+            "face"
+          ],
+          "correct": 1,
+          "explanation": "faire la cuisine = 做饭/烹饪。这里 cuisine 取\"烹饪\"义。",
+          "category": "词汇-一词多义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les chaussures _____ sont très jolies.",
+          "options": [
+            "oranges",
+            "orange",
+            "orangées",
+            "d'orange"
+          ],
+          "correct": 1,
+          "explanation": "orange 作颜色形容词时不变性数，永远是 orange。这是来自名词的颜色形容词的规则（同类：marron）。",
+          "category": "语法-颜色形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vais _____ le médecin cet après-midi.",
+          "options": [
+            "à",
+            "chez",
+            "dans",
+            "en"
+          ],
+          "correct": 1,
+          "explanation": "chez + 人 = 在某人那里。chez le médecin = 去看医生（在医生那里）。",
+          "category": "语法-介词chez"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ sont les toilettes, s'il vous plaît ?",
+          "options": [
+            "Où",
+            "Ou",
+            "Quoi",
+            "Que"
+          ],
+          "correct": 0,
+          "explanation": "Où（带重音符）= 哪里。Ou（无重音）= 或者。",
+          "category": "语法-où vs ou"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'appartement fait 60 _____ .",
+          "options": [
+            "mètre carré",
+            "mètres carrés",
+            "mètres carré",
+            "mètre carrés"
+          ],
+          "correct": 1,
+          "explanation": "60 是复数 → mètres carrés，两个词都要加 s。",
+          "category": "词汇-度量"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La salle de _____ est à côté de la chambre.",
+          "correct": [
+            "bains"
+          ],
+          "explanation": "salle de bains（浴室），注意 bains 用复数形式。",
+          "category": "词汇-房屋结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a un grand _____ dans le salon. C'est une œuvre de Monet.",
+          "options": [
+            "tapis",
+            "tableau",
+            "placard",
+            "bureau"
+          ],
+          "correct": 1,
+          "explanation": "tableau = 画。une œuvre de Monet 说明是一幅画。",
+          "category": "词汇-一词多义"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le _____ est trop cher : 1 200 euros par mois !",
+          "options": [
+            "loyer",
+            "locataire",
+            "propriétaire",
+            "étage"
+          ],
+          "correct": 0,
+          "explanation": "le loyer = 房租。par mois = 每月。",
+          "category": "词汇-租房"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul est _____ . Il écrit des romans depuis 20 ans.",
+          "options": [
+            "un écrivain",
+            "écrivain",
+            "l'écrivain",
+            "d'écrivain"
+          ],
+          "correct": 1,
+          "explanation": "être + 职业 → 零冠词。Il est écrivain.",
+          "category": "词汇-职业冠词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些词在法语中作颜色形容词时不变性数？",
+          "options": [
+            "orange",
+            "bleu",
+            "marron",
+            "vert"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "orange 和 marron 来自名词，作颜色形容词时不变性数。bleu → bleus/bleue，vert → verts/verte 正常变化。",
+          "category": "语法-颜色形容词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est _____ (第一) fois que je visite Paris.",
+          "correct": [
+            "la première"
+          ],
+          "explanation": "第一次 = la première fois。premier 的阴性形式是 première，fois 是阴性。",
+          "category": "词汇-序数词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1mbZPU_Hv1CLtF286c9Ctf1BkTygmW7cvhFl6hbOpaHU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773187427675-fo1t0bf016",
+          "front": "artiste 词性与性别",
+          "back": "n. 阴阳同形：un/une artiste\n意思：艺术家"
+        },
+        {
+          "id": "1773187427675-v7jajf26vk",
+          "front": "职业名词的冠词规则",
+          "back": "Il/Elle est + 职业 → 零冠词：Il est poète.\nC'est un/une + 职业 → 带冠词：C'est un poète célèbre."
+        },
+        {
+          "id": "1773187427675-4033xc4h901",
+          "front": "coin n.m. 含义与搭配",
+          "back": "角，角落；街角处\nau coin de la rue 在街角"
+        },
+        {
+          "id": "1773187427675-or2jgp0f7z",
+          "front": "des 缩合冠词 = ?",
+          "back": "de + les = des\n例：les livres des étudiants（学生们的书）"
+        },
+        {
+          "id": "1773187427675-g3yjf2xzb94",
+          "front": "du 缩合冠词 = ?",
+          "back": "de + le = du\n例：le livre du professeur（老师的书）"
+        },
+        {
+          "id": "1773187427675-g7jqixj21ms",
+          "front": "du 的两种身份",
+          "back": "① 缩合冠词（de + le）：le livre du professeur\n② 部分冠词（不可数）：Je bois du café."
+        },
+        {
+          "id": "1773187427675-rczfxiotvo",
+          "front": "écrivain 阴性形式",
+          "back": "écrivaine（加拿大法语常用）\n零冠词：Il est écrivain."
+        },
+        {
+          "id": "1773187427675-md1ylwrxug8",
+          "front": "écrivain vs auteur",
+          "back": "écrivain = 作家（广义，写书的人）\nauteur/autrice = 作者（强调某作品的作者）"
+        },
+        {
+          "id": "1773187427675-22o6rdv3jde",
+          "front": "entre 用法三种",
+          "back": "① 空间：entre Paris et Lyon\n② 时间：entre 8h et 10h\n③ 人际：entre nous（私下说）"
+        },
+        {
+          "id": "1773187427675-0e5ekf2lh239",
+          "front": "entre vs parmi",
+          "back": "entre → 两者之间或明确列举的几个\nparmi → 在一群/许多之中"
+        },
+        {
+          "id": "1773187427675-4mrmr9f1qy6",
+          "front": "film n.m. 常见搭配",
+          "back": "regarder un film 看电影\ntourner un film 拍电影\naller au cinéma 去看电影（不说 aller au film）"
+        },
+        {
+          "id": "1773187427676-mrxftejb56m",
+          "front": "môme 是什么语域？",
+          "back": "n. 阴阳同形，口语/俗语 = 小孩、小家伙\n正式场合用 enfant"
+        },
+        {
+          "id": "1773187427676-uv8wm4xlma",
+          "front": "musicien 的阴性",
+          "back": "musicienne（双写 n + e）\nElle est musicienne.（零冠词）"
+        },
+        {
+          "id": "1773187427676-r8fi0lkq4k",
+          "front": "orange 作颜色形容词",
+          "back": "不变性数！\ndes chaussures orange（不加 s、不加 e）\n同类：marron"
+        },
+        {
+          "id": "1773187427676-c7ucn4uq5l7",
+          "front": "peintre 词性",
+          "back": "n. 阴阳同形：un/une peintre = 画家\n词族：la peinture, peindre"
+        },
+        {
+          "id": "1773187427676-u34fvsk2vp",
+          "front": "poème vs poète",
+          "back": "poème n.m. = 一首诗\npoète n.m. = 诗人\n注意拼写区别：poème / poète"
+        },
+        {
+          "id": "1773187427676-u0ytqwrfw7r",
+          "front": "sculpteur 发音陷阱",
+          "back": "p 不发音！/skyltœʁ/\n阴性：sculptrice"
+        },
+        {
+          "id": "1773187427676-zc0pky9bjf",
+          "front": "tableau 复数 + 双义",
+          "back": "复数：tableaux（加 x）\n① 画：un tableau de Picasso\n② 表格：un tableau de conjugaison"
+        },
+        {
+          "id": "1773187427676-yusd7xp5u69",
+          "front": "tapis 复数形式",
+          "back": "单复数同形：un tapis → des tapis\nn.m. 地毯"
+        },
+        {
+          "id": "1773187427676-8zqid1jhv66",
+          "front": "agence immobilière",
+          "back": "n.f. 房产中介公司\nagence = 代理处；immobilière = 不动产的"
+        },
+        {
+          "id": "1773187427676-lfh7j18rvz",
+          "front": "immeuble vs appartement vs maison",
+          "back": "immeuble n.m. = 整栋公寓楼\nappartement n.m. = 楼里的一套公寓\nmaison n.f. = 独栋房子"
+        },
+        {
+          "id": "1773187427676-xlfsd2teaik",
+          "front": "louer 为什么是双向动词？",
+          "back": "房东：louer un appart à qqn = 租给\n租客：louer un appart = 租用\n相关词：le loyer（房租）, le/la locataire（租客）"
+        },
+        {
+          "id": "1773187427676-7lnpsg4o2wg",
+          "front": "ancien 放名词前 vs 后",
+          "back": "名词前 = 前任的：mon ancien mari（前夫）\n名词后 = 古老的：une maison ancienne（老房子）"
+        },
+        {
+          "id": "1773187427676-njqcxk5mvig",
+          "front": "petite annonce",
+          "back": "n.f. 分类广告（报纸/网站上的租房、招聘广告）\npasser une annonce = 登广告\nrépondre à une annonce = 回复广告"
+        },
+        {
+          "id": "1773187427676-r0xppgu0yqa",
+          "front": "avenue vs rue vs boulevard",
+          "back": "avenue n.f. = 大道（宽，有行道树）\nrue n.f. = 街道（一般的路）\nboulevard n.m. = 大马路"
+        },
+        {
+          "id": "1773187427676-b91vtygzue6",
+          "front": "au bout de",
+          "back": "在……尽头\nau bout de la rue 在街尽头\nau bout de 10 minutes 10分钟后"
+        },
+        {
+          "id": "1773187427676-jti9ctdurrq",
+          "front": "chez 的使用规则",
+          "back": "chez + 人/代词 = 在某人家/那里\nchez moi, chez le médecin\n⚠️ 不能跟地点名词：不说 chez la maison"
+        },
+        {
+          "id": "1773187427676-x8udqyaavnq",
+          "front": "clair(e) vs sombre",
+          "back": "clair(e) = 明亮的\nsombre = 昏暗的\n租房描述核心反义对"
+        },
+        {
+          "id": "1773187427676-xkfawbcs5ts",
+          "front": "cuisine 一词三义",
+          "back": "① 厨房：Ma cuisine est grande.\n② 烹饪：faire la cuisine\n③ 菜系：la cuisine japonaise"
+        },
+        {
+          "id": "1773187427676-e4rvz9p0ikb",
+          "front": "prendre une douche vs prendre un bain",
+          "back": "prendre une douche = 洗淋浴\nprendre un bain = 泡澡"
+        },
+        {
+          "id": "1773187427676-xw5k0z1nuw",
+          "front": "entrée 两个含义",
+          "back": "① 入口、门厅（反义：la sortie 出口）\n② 餐饮中 = 前菜/头盘"
+        },
+        {
+          "id": "1773187427676-hu6lhg71fhw",
+          "front": "法国 vs 加拿大楼层计数",
+          "back": "地面层：都叫 rez-de-chaussée\n法国一楼 = premier étage = 加拿大二楼 deuxième étage\nTCF Canada 注意加拿大计数"
+        },
+        {
+          "id": "1773187427676-rc397qczpvg",
+          "front": "salle vs chambre",
+          "back": "salle n.f. = 功能性房间（salle de bains, salle de classe）\nchambre n.f. = 卧室（私人睡觉的房间）"
+        },
+        {
+          "id": "1773187427676-swa5wleiyu",
+          "front": "salle de bains 拼写",
+          "back": "bains 用复数！salle de bains\n不是 salle de bain"
+        },
+        {
+          "id": "1773187427676-bw4eudkor7p",
+          "front": "toilettes vs toilette",
+          "back": "les toilettes（复数）= 卫生间、厕所\nla toilette（单数）= 梳洗（faire sa toilette）"
+        },
+        {
+          "id": "1773187427676-fi3prxaby1",
+          "front": "où vs ou",
+          "back": "où（带重音符）= 哪里：Où habites-tu ?\nou（无重音）= 或者：café ou thé ?"
+        },
+        {
+          "id": "1773187427676-somcn1vle4s",
+          "front": "mètres carrés 复数",
+          "back": "60 mètres carrés（两个词都加 s）\nm² = 平方米"
+        },
+        {
+          "id": "1773187427676-wjzotpulai",
+          "front": "placard ≠ 英语 placard",
+          "back": "法语 placard n.m. = 壁橱/柜子\n英语 placard = 标语牌\n假朋友！"
+        },
+        {
+          "id": "1773187427676-nmxzhn4ll8b",
+          "front": "responsable 拼写",
+          "back": "respon-s-able（法语）\n不是 responsible（那是英语）\nn. 负责人 / adj. 负责的"
+        },
+        {
+          "id": "1773187427676-mbtqr23560k",
+          "front": "premier → première",
+          "back": "阳性 premier → 阴性 première\nla première fois（第一次）\n其余序数词：基数词 + ième"
+        }
+      ]
+    },
+    {
+      "id": 1773187024155,
+      "name": "特殊疑问词",
+      "folderId": "1770593095506",
+      "createdAt": "2026-03-10T23:57:04.155Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_______ allez-vous au travail, en bus ou en métro ?",
+          "options": [
+            "Où",
+            "Pourquoi",
+            "Comment",
+            "Quand"
+          ],
+          "correct": 2,
+          "explanation": "后面给了 en bus ou en métro 两个交通方式选项，明显问「怎么去」，用 comment。干扰项 où 问地点，但这里 au travail 已经给出地点了。",
+          "category": "comment"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_______ commence le cours de français ?",
+          "options": [
+            "Comment",
+            "Qui",
+            "Quand",
+            "Combien"
+          ],
+          "correct": 2,
+          "explanation": "问课什么时候开始，用 quand。commence 暗示时间起点。",
+          "category": "quand"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Qui est-ce que mange la pomme ?",
+            "Qui mange la pomme ?",
+            "Pourquoi tu fais ça pourquoi ?",
+            "Quelle est votre adresse ?"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "选项1错：qui 作主语不用 est-ce que，直接 Qui mange...。选项3错：pourquoi 不能放句尾重复。选项2和4正确。",
+          "category": "结构判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_______ chaussures voulez-vous essayer ?",
+          "options": [
+            "Quel",
+            "Quelle",
+            "Quels",
+            "Quelles"
+          ],
+          "correct": 3,
+          "explanation": "chaussures 是阴性复数（les chaussures），用 quelles。鞋子在法语中通常用复数。",
+          "category": "quel性数变化"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_______ coûte ce manteau ? — Il coûte 120 euros.",
+          "correct": [
+            "Combien"
+          ],
+          "explanation": "问价格/数量，用 combien。注意这里 combien 单独使用，后面没有名词，所以不加 de。",
+          "category": "combien"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_______ est-ce que tu as invité pour ton anniversaire ?",
+          "options": [
+            "Que",
+            "Qui",
+            "Quoi",
+            "Comment"
+          ],
+          "correct": 1,
+          "explanation": "问「你邀请了谁」，问人用 qui。这里 qui 作宾语（inviter qqn）。que 问物，不问人。",
+          "category": "qui作宾语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个句子在 TCF 写作中最合适？",
+          "options": [
+            "Tu habites où ?",
+            "Où est-ce que tu habites ?",
+            "Où habites-tu ?",
+            "T'habites où ?"
+          ],
+          "correct": 2,
+          "explanation": "TCF 写作要求正式语域。选项1和4是口语，选项2虽然正确但偏日常。选项3是正式倒装，写作首选。",
+          "category": "语域判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1B1Dz5_aEd0I_pZR8cpU1tIGGTVrsyuPFmF4x9emkByI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773187035361-ta48jf4f95",
+          "front": "问「谁」用哪个疑问词？",
+          "back": "Qui\n作主语：Qui veut du café ?\n作宾语：Qui cherches-tu ?"
+        },
+        {
+          "id": "1773187035361-skxg24gsyph",
+          "front": "Qui 作主语时，动词用什么人称？",
+          "back": "一律用第三人称单数\nQui veut du café ? （不管实际是几个人）"
+        },
+        {
+          "id": "1773187035361-177kkmp4xcm",
+          "front": "Qui 作主语能不能倒装？",
+          "back": "不能！\n✅ Qui mange ce gâteau ?\n❌ Mange-qui ce gâteau ?"
+        },
+        {
+          "id": "1773187035361-scl4c3c00sl",
+          "front": "问「什么」（作宾语）用什么？",
+          "back": "Que（正式倒装）：Que fais-tu ?\nQu'est-ce que（标准）：Qu'est-ce que tu fais ?\n口语：Tu fais quoi ?"
+        },
+        {
+          "id": "1773187035361-w609o45ilof",
+          "front": "问「什么」（作主语）用什么？",
+          "back": "Qu'est-ce qui\nQu'est-ce qui se passe ?（发生了什么？）\n⚠️ 绝对不能用 que 或 qu'est-ce que"
+        },
+        {
+          "id": "1773187035361-zdjryhyx1qq",
+          "front": "que 和 qu'est-ce qui 的核心区别？",
+          "back": "que / qu'est-ce que → 问物，作宾语\nqu'est-ce qui → 问物，作主语\nTCF 经典干扰项！"
+        },
+        {
+          "id": "1773187035361-of2o340277l",
+          "front": "Où 的双重身份是什么？",
+          "back": "1. 疑问词：Où habites-tu ?\n2. 关系代词：la ville où j'habite\nTCF 阅读常考第二种"
+        },
+        {
+          "id": "1773187035361-xdv4o5udzf",
+          "front": "Pourquoi 的特殊规则？",
+          "back": "几乎不放句尾！\n✅ Pourquoi achètes-tu ça ?\n❌ Tu achètes ça pourquoi ?（极不自然）"
+        },
+        {
+          "id": "1773187035361-3xliz32g4w7",
+          "front": "Combien 后接名词时要注意什么？",
+          "back": "必须加 de（不加冠词）\n✅ Combien de livres as-tu ?\n❌ Combien des livres"
+        },
+        {
+          "id": "1773187035361-vwmgbduzovf",
+          "front": "Combien 单独使用时加不加 de？",
+          "back": "不加！\nÇa coûte combien ?（多少钱？）"
+        },
+        {
+          "id": "1773187035361-axzdll7o1l",
+          "front": "Quel 的四种性数形式？",
+          "back": "阳单 quel / 阴单 quelle\n阳复 quels / 阴复 quelles\n必须和修饰的名词性数一致"
+        },
+        {
+          "id": "1773187035361-bg5ihlznumf",
+          "front": "Quel + être 的固定规则？",
+          "back": "固定放句首，不用 est-ce que\n✅ Quelle est votre profession ?\n❌ Quelle est-ce que votre profession est ?"
+        },
+        {
+          "id": "1773187035361-e5csny06z0j",
+          "front": "法语特殊疑问句有几种结构？",
+          "back": "三种：\n1. 正式倒装：Où vas-tu ?\n2. est-ce que：Où est-ce que tu vas ?\n3. 口语后置：Tu vas où ?"
+        },
+        {
+          "id": "1773187035361-qmke452l8nc",
+          "front": "正式倒装中，第三人称动词以元音结尾怎么办？",
+          "back": "插入 -t-\nOù va-t-elle ?\nComment mange-t-il ?"
+        },
+        {
+          "id": "1773187035361-6ixdaa4iiki",
+          "front": "正式倒装中，主语是名词怎么办？",
+          "back": "复杂倒装：名词留原位，加代词倒装\nOù Pierre habite-t-il ?"
+        },
+        {
+          "id": "1773187035361-veexp1lxz0c",
+          "front": "TCF 写作应该用哪种疑问句结构？",
+          "back": "首选正式倒装（Où vas-tu ?）\n其次 est-ce que 结构\n❌ 绝对不用口语后置（Tu vas où ?）"
+        },
+        {
+          "id": "1773187035361-36m0wd8pgt6",
+          "front": "TCF 听力中最常出现哪种疑问句结构？",
+          "back": "口语后置：Tu vas où ? Tu fais quoi ?\n听力要能听懂，但写作不要用"
+        },
+        {
+          "id": "1773187035361-4yfalcbol83",
+          "front": "Comment 有哪两种常见含义？",
+          "back": "1. 问方式：Comment vas-tu à l'école ?（怎么去）\n2. 问状态：Comment allez-vous ?（您好吗）"
+        },
+        {
+          "id": "1773187035361-6yhs2rgbqf7",
+          "front": "nationalité 用 quel 还是 quelle？",
+          "back": "quelle — nationalité 是阴性单数\nQuelle est votre nationalité ?"
+        },
+        {
+          "id": "1773187035361-rw6kx92kzfd",
+          "front": "chaussures 用 quels 还是 quelles？",
+          "back": "quelles — chaussures 是阴性复数\nQuelles chaussures voulez-vous ?"
+        }
+      ]
+    },
+    {
       "id": 1773169362986,
       "name": "缩合冠词",
       "folderId": "1770593095506",
@@ -78333,12 +79865,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-10",
+    "date": "2026-03-11",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-10T23:47:44.936Z",
+  "exportedAt": "2026-03-11T00:45:35.155Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
