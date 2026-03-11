@@ -1,6 +1,318 @@
 {
   "savedSets": [
     {
+      "id": 1773190408662,
+      "name": "TCF听力 TEST1 Q8-10 A2",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-11T00:53:28.662Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Tu veux goûter ma tarte aux pommes ?\n— _____\n（— 你想尝尝我的苹果派吗？\n— _____）",
+          "options": [
+            "Oui, j'adore les desserts !（是的，我喜欢甜点！）",
+            "Non, je préfère le métro.（不，我更喜欢地铁。）",
+            "Elle est partie hier.（她昨天走了。）",
+            "Je cherche la pharmacie.（我在找药房。）"
+          ],
+          "correct": 0,
+          "explanation": "对方问你要不要尝苹果派，回答必须是关于食物/品尝的评价。A 直接回应了对食物的态度。B/C/D 完全跑题。",
+          "category": "听力-情境对话匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Excusez-moi, je cherche un endroit pour envoyer ce colis.\n— Il y a un bureau de poste au bout de la rue.\nQue veut faire cette personne ?\n（— 打扰一下，我在找一个地方寄这个包裹。\n— 街尾有一个邮局。\n这个人想做什么？）",
+          "options": [
+            "Acheter un cadeau.（买礼物。）",
+            "Poster un paquet.（寄一个包裹。）",
+            "Prendre le bus.（坐公交。）",
+            "Visiter un ami.（去看朋友。）"
+          ],
+          "correct": 1,
+          "explanation": "envoyer ce colis = poster un paquet，同义替换。colis = paquet = 包裹。其他选项都是无关信息。",
+          "category": "听力-意图识别+同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Salut, ça va ? Tu as l'air stressé.\n— Oui, j'ai un entretien d'embauche demain et je n'ai pas encore préparé mes réponses.\nDe quoi cette personne a-t-elle peur ?\n（— 嗨，还好吗？你看起来很紧张。\n— 是的，我明天有个求职面试，我还没有准备好回答。\n这个人害怕什么？）",
+          "options": [
+            "De rater son entretien.（面试搞砸。）",
+            "De tomber malade.（生病。）",
+            "De manquer le bus.（错过公交。）",
+            "D'arriver en avance.（到太早。）"
+          ],
+          "correct": 0,
+          "explanation": "没准备好面试回答 → 担心面试搞砸。rater = ne pas réussir。B/C/D 对话中均未涉及。",
+          "category": "听力-情感识别+因果区分"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Qu'est-ce que tu penses de ce restaurant ?\n— _____\n（— 你觉得这家餐厅怎么样？\n— ）",
+          "options": [
+            "Il ferme à 22 heures.（它22点关门。）",
+            "La cuisine est excellente !（菜非常棒！）",
+            "Je travaille le samedi.（我周六上班。）",
+            "Il y a un parking à côté.（旁边有停车场。）"
+          ],
+          "correct": 1,
+          "explanation": "qu'est-ce que tu penses de... 征求意见，回答必须是评价/态度。B 是对餐厅的直接评价。A/D 是事实信息但不是评价；C 完全无关。",
+          "category": "听力-征求意见句型匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Bonjour, je voudrais trouver une boîte aux lettres.\n— Il y en a une juste en face de la boulangerie.\nOù se trouve la boîte aux lettres ?\n（— 你好，我想找一个邮筒。\n— 面包店对面就有一个。\n邮筒在哪里？）",
+          "options": [
+            "À côté du métro.（地铁旁边。）",
+            "Derrière le cinéma.（电影院后面。）",
+            "En face de la boulangerie.（面包店对面。）",
+            "Dans la pharmacie.（在药房里面。）"
+          ],
+          "correct": 2,
+          "explanation": "原文明确说 en face de la boulangerie。其他方位均为干扰。注意 il y en a une 中 en 代替 une boîte aux lettres。",
+          "category": "听力-方位定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Je pense que je n'ai pas réussi mon examen de maths. Je n'ai pas pu réviser ce week-end.\nQue signifie « réussir un examen » ?\n（— 我觉得我数学考试没考好。这周末我没能复习。\n« réussir un examen » 是什么意思？）",
+          "options": [
+            "Passer un examen（参加考试）",
+            "Avoir une bonne note（取得好成绩）",
+            "Réviser pour un examen（为考试复习）",
+            "Rater un examen（考试不及格）"
+          ],
+          "correct": 1,
+          "explanation": "réussir un examen = 考试通过/取得好成绩。注意区分：passer = 参加（不含成功的意思），rater = 失败/搞砸，réviser = 复习。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Samedi, je suis _____ au marché et dimanche, j'ai joué au foot.\n（— 周六我去了市场，周日我踢了足球。）",
+          "options": [
+            "allé（去了-阳性）",
+            "allée（去了-阴性）",
+            "aller（去-原形）",
+            "allés（去了-阳性复数）"
+          ],
+          "correct": 0,
+          "explanation": "主语 je 用 être 做助动词，过去分词需配合性数。此处无上下文标明性别，默认阳性 allé。若为女性则用 allée（如原题中 Laura 用 allée）。",
+          "category": "语法-passé composé 配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laura dit : « J'étais beaucoup trop fatiguée. » Pourquoi utilise-t-on l'imparfait ici ?\n（Laura 说：「我当时实在太累了。」这里为什么用未完成过去时？）",
+          "options": [
+            "Pour décrire une action terminée（描述一个完成的动作）",
+            "Pour décrire un état dans le passé（描述过去的一种状态）",
+            "Pour exprimer un ordre（表达命令）",
+            "Pour parler du futur（谈论未来）"
+          ],
+          "correct": 1,
+          "explanation": "imparfait 用于描述过去的状态、背景、习惯。fatiguée 是一种状态，不是一个完成的动作，所以用 imparfait 而不是 passé composé。",
+          "category": "语法-imparfait vs passé composé"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a une pharmacie près du métro. → Il y _____ a une près du métro.\n（地铁附近有一家药房。→ 地铁附近有一家。）",
+          "correct": [
+            "en"
+          ],
+          "explanation": "en 代替 une pharmacie（不定冠词+名词）。il y en a une = 有一个。en 是代词，代替 de + 名词 或 不定冠词 + 名词。",
+          "category": "语法-代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Tu pouvais travailler le soir » exprime :\n（「你晚上可以学习的」表达的是：）",
+          "options": [
+            "Un ordre direct（直接命令）",
+            "Un reproche / une suggestion au passé（过去的责备/建议）",
+            "Une action future（未来的动作）",
+            "Une habitude actuelle（现在的习惯）"
+          ],
+          "correct": 1,
+          "explanation": "pouvais (imparfait) 在这里表达轻微的责备或建议：「你本来可以……的」。这是 imparfait 的一个特殊用法，表示过去未实现的可能性。",
+          "category": "语法-imparfait 特殊用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Bonjour, est-ce qu'il y a un bureau de poste près d'ici ?\n— Oui, _____ le supermarché, à droite.\n（— 你好，附近有邮局吗？\n— 有，在超市，往右。）",
+          "options": [
+            "juste après（就在……过去）",
+            "sous（在……下面）",
+            "dans（在……里面）",
+            "sans（没有）"
+          ],
+          "correct": 0,
+          "explanation": "juste après + 地点 = 就在某地过去一点。这是指路场景的高频表达。sous/dans/sans 语义不通。",
+          "category": "听力-方位表达"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达可以用来征求别人的意见？（多选）",
+          "options": [
+            "Qu'est-ce que tu penses de... ?（你觉得……怎么样？）",
+            "Tu ne te sens pas bien ?（你不舒服吗？）",
+            "Ça te dit de... ?（你想不想……？）",
+            "Comment tu trouves... ?（你觉得……如何？）"
+          ],
+          "correct": [
+            0,
+            3
+          ],
+          "explanation": "A 和 D 都是征求意见的句型。B 是询问身体状况，C 是提议/邀请做某事，不是征求评价。",
+          "category": "句型-征求意见"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1UbFnVBeZ3Y5qzBmCSDfDU6ehpZuaKwMB8IvCh9pxq9I/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773190614802-qex7oos6dn",
+          "front": "le souper",
+          "back": "晚餐（加拿大法语常用）\n法国常说 le dîner\n例：Pour le souper, on mange du poulet.（晚餐我们吃鸡肉。）"
+        },
+        {
+          "id": "1773190614802-4su182qpofy",
+          "front": "Qu'est-ce que tu penses de... ?",
+          "back": "你觉得……怎么样？（征求意见）\n例：Qu'est-ce que tu penses de ce film ?（你觉得这部电影怎么样？）\n回答必须是评价/态度"
+        },
+        {
+          "id": "1773190614802-9ulhwe9kc4a",
+          "front": "Ce sera parfait",
+          "back": "那会很完美（将来时表达赞同）\nce = 这 / sera = être 的简单将来时\n例：Ce sera parfait avec du riz.（配米饭就完美了。）"
+        },
+        {
+          "id": "1773190614802-93jp984holj",
+          "front": "aux champignons / aux pommes",
+          "back": "配蘑菇的 / 配苹果的\naux = à + les，表示配料/搭配\n例：une tarte aux pommes（苹果派）"
+        },
+        {
+          "id": "1773190614802-z0zef04m0w",
+          "front": "poster (un courrier)",
+          "back": "寄（邮件）= envoyer\n例：Je cherche une boîte pour poster ce courrier.（我在找邮筒寄这封信。）"
+        },
+        {
+          "id": "1773190614802-3bjdo76qzau",
+          "front": "une boîte aux lettres",
+          "back": "邮筒 / 信箱\n口语中常省略 aux lettres，直接说 une boîte\n例：Il y a une boîte aux lettres en face de la pharmacie."
+        },
+        {
+          "id": "1773190614802-53kpcr87jag",
+          "front": "envoyer une lettre = ?",
+          "back": "= poster un courrier\n寄一封信\nTCF 听力高频同义替换"
+        },
+        {
+          "id": "1773190614802-ze326onz3b",
+          "front": "en face de",
+          "back": "在……对面\n方位介词\n例：La poste est en face de la pharmacie.（邮局在药房对面。）"
+        },
+        {
+          "id": "1773190614802-y5rusawknw9",
+          "front": "de l'autre côté",
+          "back": "在另一边\n例：Il y en a une de l'autre côté.（另一边也有一个。）"
+        },
+        {
+          "id": "1773190614802-aee17qke5gg",
+          "front": "juste après + 地点",
+          "back": "就在……过去一点\n例：C'est à gauche, juste après le cinéma.（在左边，就在电影院过去。）"
+        },
+        {
+          "id": "1773190614802-hdxp0pcvlob",
+          "front": "près de",
+          "back": "在……附近\n例：près du métro（在地铁附近）\ndu = de + le"
+        },
+        {
+          "id": "1773190614802-7yis7u5tv7b",
+          "front": "il y en a une",
+          "back": "有一个（代替前面提到的阴性名词）\nen 代替 une boîte\nune 保留数量\n例：— Tu cherches une pharmacie ? — Il y en a une là-bas."
+        },
+        {
+          "id": "1773190614802-irgparo856s",
+          "front": "faire une drôle de tête",
+          "back": "表情怪怪的 / 脸色不对\n口语表达\n例：Tu fais une drôle de tête, ça va ?（你表情怪怪的，还好吗？）"
+        },
+        {
+          "id": "1773190614802-kyzrjvejdvs",
+          "front": "se sentir bien / mal",
+          "back": "感觉好 / 不好\n反代动词\n例：Tu ne te sens pas bien ?（你不舒服吗？）"
+        },
+        {
+          "id": "1773190614802-mq7mx1j1ccb",
+          "front": "réussir un examen",
+          "back": "考试通过 / 考好\n≠ passer un examen（参加考试）\n≠ rater un examen（考砸）\n例：Je n'ai pas réussi mon examen.（我没考好。）"
+        },
+        {
+          "id": "1773190614802-oof5y9d6rnl",
+          "front": "avoir une mauvaise note",
+          "back": "得到一个差成绩\n= ne pas réussir un examen\nTCF 同义替换考点"
+        },
+        {
+          "id": "1773190614802-df44cc1jmk4",
+          "front": "réviser",
+          "back": "复习\n例：Je n'ai pas pu réviser.（我没能复习。）\n同义：étudier / travailler"
+        },
+        {
+          "id": "1773190614802-31t0z5u6kgr",
+          "front": "ne pas pouvoir + inf.（passé composé）",
+          "back": "没能做某事\n变位：je n'ai pas pu\n例：Je n'ai pas pu réviser ce week-end.（这周末我没能复习。）"
+        },
+        {
+          "id": "1773190614802-99tm9mfna74",
+          "front": "imparfait 什么时候用？",
+          "back": "描述过去的状态、背景、习惯\n例：J'étais fatiguée.（我当时很累。）→ 状态\n例：Tu pouvais travailler.（你本可以学习的。）→ 未实现的可能性/责备"
+        },
+        {
+          "id": "1773190614802-39l63j508zo",
+          "front": "passé composé 和 imparfait 怎么区分？",
+          "back": "passé composé = 完成的动作/事件\nimparfait = 状态/背景/习惯\n例：Je suis allée au cinéma（PC，完成的动作）\nJ'étais trop fatiguée（IMP，当时的状态）"
+        },
+        {
+          "id": "1773190614802-477z3n9ay3a",
+          "front": "je suis allé(e)",
+          "back": "我去了（passé composé，用 être 做助动词）\n阳性：allé / 阴性：allée\n位移动词用 être：aller, venir, partir, arriver..."
+        },
+        {
+          "id": "1773190614802-6pwvmr0j059",
+          "front": "s'occuper de",
+          "back": "负责 / 照管\n例：Je m'occupe du dessert.（我来负责甜点。）\ndu = de + le"
+        },
+        {
+          "id": "1773190614802-mkl3ozct9i",
+          "front": "manquer de + n.",
+          "back": "缺少……\n例：manquer de temps（缺时间）\n注意：manquer 有多个用法，别混淆"
+        },
+        {
+          "id": "1773190614802-m4byfqoogn",
+          "front": "tomber malade",
+          "back": "生病（固定搭配）\n例：J'ai peur de tomber malade.（我怕生病。）\ntomber 在这里不是\"摔倒\""
+        },
+        {
+          "id": "1773190614802-42unyi6jctg",
+          "front": "TCF 听力技巧：场景词干扰",
+          "back": "对话中出现的地点词（pharmacie, métro, cinéma）常被用来制造错误选项\n它们只是方位参照物，不是说话人的目的\n关键：锁定说话人的第一句请求/意图"
+        },
+        {
+          "id": "1773190614802-nalmfnay80j",
+          "front": "TCF 听力技巧：原因 vs 结果",
+          "back": "题目问「害怕什么」→ 找结果/后果\n不要选原因\n例：没复习（原因）→ 怕成绩差（结果/答案）"
+        },
+        {
+          "id": "1773190614802-cg5mgy8ibq",
+          "front": "TCF 听力技巧：被否定的信息",
+          "back": "如果对话中某信息被 Non 否定了，对应的选项一定是错的\n例：— Tu ne te sens pas bien ? — Non. → 排除「生病」选项"
+        },
+        {
+          "id": "1773190614802-jh700w9j0t",
+          "front": "TCF 听力技巧：征求意见类",
+          "back": "听到 Qu'est-ce que tu penses de... / Comment tu trouves...\n→ 答案必须是评价/态度\n不是事实信息，不是无关话题"
+        }
+      ]
+    },
+    {
       "id": 1773189909780,
       "name": "TCF听力 TEST1 Q5-7 A2",
       "folderId": "1772686244763",
@@ -79871,6 +80183,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-11T00:45:35.155Z",
+  "exportedAt": "2026-03-11T00:56:56.419Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
