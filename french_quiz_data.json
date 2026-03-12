@@ -1,6 +1,232 @@
 {
   "savedSets": [
     {
+      "id": 1773285456433,
+      "name": "TCF A2 Lecon 6 听力4-9题",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-12T03:17:36.433Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "« Chers clients, le magasin ferme dans 10 minutes. Veuillez vous diriger vers les caisses. »\nÀ qui s'adresse ce message ?\n（亲爱的顾客们，商店将在10分钟后关门。请前往收银台。\n这条消息是对谁说的？）",
+          "options": [
+            "Aux vendeurs（给售货员）",
+            "Aux clients（给顾客）",
+            "Aux directeurs（给经理们）",
+            "Aux livreurs（给送货员）"
+          ],
+          "correct": 1,
+          "explanation": "« Chers clients » 直接点明了对象是顾客。广播用语 + Veuillez（请您）= 面向公众的通知。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Mesdames et messieurs, le vol AF320 à destination de Lyon est retardé d'une heure. »\nOù entend-on ce message ?\n（女士们先生们，飞往里昂的AF320航班延误一小时。\n在哪里能听到这条消息？）",
+          "options": [
+            "Dans un hôpital（在医院）",
+            "Dans un aéroport（在机场）",
+            "Dans une école（在学校）",
+            "Dans un restaurant（在餐厅）"
+          ],
+          "correct": 1,
+          "explanation": "vol（航班）、à destination de（飞往）、retardé（延误）全部指向机场场景。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu sais quand commence le cours ?\n（你知道课什么时候开始吗？）",
+          "options": [
+            "En mathématiques.（数学课。）",
+            "Avec Marie.（和Marie一起。）",
+            "À 14 heures.（下午两点。）",
+            "Non, je n'aime pas.（不，我不喜欢。）"
+          ],
+          "correct": 2,
+          "explanation": "quand = 什么时候，答案必须是时间。只有 À 14 heures 是时间。",
+          "category": "疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu veux boire ?\n（你想喝什么？）",
+          "options": [
+            "À la terrasse.（在露台上。）",
+            "Un jus d'orange.（一杯橙汁。）",
+            "Oui, j'ai très soif.（是的，我很渴。）",
+            "Avec mon ami.（和我朋友一起。）"
+          ],
+          "correct": 1,
+          "explanation": "Qu'est-ce que = 什么 + boire = 喝 → 答案必须是饮品。Un jus d'orange 是唯一的饮品。A 是地点，C 是状态描述，D 是同伴。",
+          "category": "疑问词+语义限定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment vas-tu au travail ?\n（你怎么去上班？）",
+          "options": [
+            "En 20 minutes.（用20分钟。）",
+            "À 8 heures.（在8点。）",
+            "En métro.（坐地铁。）",
+            "Au bureau.（在办公室。）"
+          ],
+          "correct": 2,
+          "explanation": "Comment + 位移动词 = 问交通方式。En métro（坐地铁）是唯一的交通方式。A 是时长，B 是时间，D 是地点。",
+          "category": "en 多义辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Attention, la porte va se fermer. Prochain arrêt : Châtelet. »\nOù entend-on ce message ?\n（注意，车门即将关闭。下一站：夏特莱。\n在哪里能听到这条消息？）",
+          "options": [
+            "Dans un taxi（在出租车里）",
+            "Dans le métro（在地铁里）",
+            "Dans un avion（在飞机上）",
+            "Dans un hôpital（在医院里）"
+          ],
+          "correct": 1,
+          "explanation": "porte va se fermer（车门关闭）+ prochain arrêt（下一站）+ Châtelet（巴黎地铁站名）→ 地铁。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où est-ce que tu as acheté ce livre ?\n（你在哪儿买的这本书？）",
+          "options": [
+            "Hier matin.（昨天早上。）",
+            "Pour mon frère.（给我弟弟的。）",
+            "Il est très intéressant.（它很有意思。）",
+            "À la librairie du coin.（在街角的书店。）"
+          ],
+          "correct": 3,
+          "explanation": "Où = 哪里 → 答案必须是地点。À la librairie du coin 是唯一的地点。A 是时间，B 是目的/对象，C 是评价。",
+          "category": "疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi es-tu en retard ?\n（你为什么迟到了？）",
+          "options": [
+            "En bus.（坐公交。）",
+            "Parce que j'ai raté le train.（因为我错过了火车。）",
+            "À 9 heures.（在九点。）",
+            "Au bureau.（在办公室。）"
+          ],
+          "correct": 1,
+          "explanation": "Pourquoi = 为什么 → 答案必须是原因。Parce que...（因为……）是唯一给出原因的选项。",
+          "category": "疑问词匹配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1pO1DWUWY99r6ghnjEUQzQt4dNvnt6-a4ChwdvI1MbvU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773285481974-yvtqfkd967",
+          "front": "Mesdames, messieurs 出现在广播中，听众是谁？",
+          "back": "面向公众（乘客、顾客、观众等）\n这是法语公共广播的标准称呼，不会用于内部员工。"
+        },
+        {
+          "id": "1773285481974-5cuwbl9f65d",
+          "front": "Merci de + 动词原形",
+          "back": "请……（正式礼貌请求）\n例：Merci de patienter. = 请耐心等待。\n比 s'il vous plaît 更书面，常见于公告、通知。"
+        },
+        {
+          "id": "1773285481974-fp2mmv8nx7k",
+          "front": "Veuillez + 动词原形",
+          "back": "请您……（非常正式的请求）\n例：Veuillez vous asseoir. = 请您坐下。\nvouloir 的虚拟式，用于官方通知和正式场合。"
+        },
+        {
+          "id": "1773285481974-kbenu8th63",
+          "front": "être à l'arrêt",
+          "back": "处于停止状态\n交通广播固定表达。\n例：Nous sommes à l'arrêt. = 我们停下了。"
+        },
+        {
+          "id": "1773285481974-jg5uxvntcf",
+          "front": "pour raisons + 形容词",
+          "back": "由于……原因\npour raisons techniques = 由于技术原因\npour raisons de sécurité = 出于安全原因\npour raisons personnelles = 因个人原因"
+        },
+        {
+          "id": "1773285481974-yha4lvj8pbr",
+          "front": "patienter vs attendre",
+          "back": "patienter = 耐心等待（更正式，强调耐心）\nattendre = 等待（通用）\n广播中常用 patienter。"
+        },
+        {
+          "id": "1773285481974-hzshh230565",
+          "front": "疑问词 où → 答案类型？",
+          "back": "地点\n回答用 à / au / en / dans / chez + 地点\n例：Où on joue ? → Au stade."
+        },
+        {
+          "id": "1773285481974-ua538b42xd",
+          "front": "疑问词 quand → 答案类型？",
+          "back": "时间\n回答用 à + 时间 / le + 日期 / demain, hier...\n例：Quand commence le cours ? → À 14 heures."
+        },
+        {
+          "id": "1773285481974-klf2x3qv1p",
+          "front": "疑问词 comment + 位移动词 → 答案类型？",
+          "back": "交通方式\n回答用 en + 封闭交通工具 / à + 开放方式\n例：Comment es-tu venu ? → En voiture."
+        },
+        {
+          "id": "1773285481974-xubqx3pjj3i",
+          "front": "疑问词 pourquoi → 答案类型？",
+          "back": "原因\n回答用 parce que... / car... / à cause de...\n例：Pourquoi es-tu en retard ? → Parce que j'ai raté le train."
+        },
+        {
+          "id": "1773285481974-lys8o89uc3",
+          "front": "Qu'est-ce que + 动词 → 答案类型？",
+          "back": "具体事物（名词），且必须符合动词语义限定\nQu'est-ce que tu veux manger ? → 食物\nQu'est-ce que tu veux boire ? → 饮品"
+        },
+        {
+          "id": "1773285481974-hflwkwfw879",
+          "front": "on 在口语中的含义",
+          "back": "= nous（我们）\n例：On joue demain. = Nous jouons demain.\nTCF 听力从 A1 到 B2 大量出现。"
+        },
+        {
+          "id": "1773285481974-bmig25po67j",
+          "front": "Tu sais + 疑问句",
+          "back": "你知道……吗？（口语间接提问）\n例：Tu sais où on joue ? = 你知道我们在哪比赛吗？\n实际问的是 où，不是 oui/non。"
+        },
+        {
+          "id": "1773285481974-qm86qpopi6a",
+          "front": "en voiture / en bus / en train / en avion",
+          "back": "en + 封闭交通工具 = 表交通方式\n开车 / 坐公交 / 坐火车 / 坐飞机"
+        },
+        {
+          "id": "1773285481974-rnxu43k2am",
+          "front": "à pied / à vélo / à moto",
+          "back": "à + 开放/骑跨类方式\n步行 / 骑自行车 / 骑摩托"
+        },
+        {
+          "id": "1773285481974-52crmxg9d0g",
+          "front": "en 的四种常见用法（TCF 干扰点）",
+          "back": "1. en + 交通工具 = 方式（en voiture）\n2. en + 时间量 = 在……内（en 10 minutes）\n3. en + 地点/状态（en altitude）\n4. 代词 en = 代替 de + 名词（je n'en veux pas）"
+        },
+        {
+          "id": "1773285481974-9tsbx01q5j",
+          "front": "avoir faim / avoir soif / avoir froid",
+          "back": "饿了 / 渴了 / 冷了\n法语用 avoir（有）表达生理感受，不用 être（是）。\n例：J'ai faim. = 我饿了。"
+        },
+        {
+          "id": "1773285481974-n9s5igcmorl",
+          "front": "un steak-frites",
+          "back": "一份牛排薯条\n法国经典日常菜。frites (n.f.pl.) 永远是复数。"
+        },
+        {
+          "id": "1773285481974-kiolbkos51",
+          "front": "jusqu'ici / jusqu'à",
+          "back": "jusqu'ici = 到这里\njusqu'à + 地点/时间 = 直到……\n例：jusqu'à la gare = 到火车站"
+        },
+        {
+          "id": "1773285481974-cbxzbiwqk2i",
+          "front": "TCF 听力广播题：3 秒排除法",
+          "back": "1. 听到 Mesdames, messieurs → 排除所有内部员工选项\n2. 听到场景关键词（vol, arrêt, porte）→ 锁定场所\n3. 听到 Merci de / Veuillez → 确认对象是公众"
+        },
+        {
+          "id": "1773285481974-fawj7bu80xt",
+          "front": "TCF 听力问答题：做题铁律",
+          "back": "1. 抓疑问词 → 锁定答案类型\n2. 听完整个句子 → 注意动词语义限定\n3. 所有选项形式相似时 → 回到疑问词本身判断\n不要只听半句就选！"
+        }
+      ]
+    },
+    {
       "id": 1773284134167,
       "name": "A2 Lecon 6 TCF阅读 练习1",
       "folderId": "1772685738192",
@@ -83033,6 +83259,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-12T03:05:55.813Z",
+  "exportedAt": "2026-03-12T03:18:04.194Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
