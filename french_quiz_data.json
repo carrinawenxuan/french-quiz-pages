@@ -1,6 +1,283 @@
 {
   "savedSets": [
     {
+      "id": 1773284134167,
+      "name": "A2 Lecon 6 TCF阅读 练习1",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-12T02:55:34.167Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ ; il ne voit rien sans ses lunettes.\n（他是近视的；没有眼镜他什么都看不见。）",
+          "options": [
+            "aveugle（失明的）",
+            "myope（近视的）",
+            "sourd（聋的）",
+            "muet（哑的）"
+          ],
+          "correct": 1,
+          "explanation": "myope = 近视的。aveugle 是完全失明，程度过重。sourd 和 muet 分别是聋和哑，与视力无关。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a choisi un restaurant _____ ; elle ne connaissait aucune adresse dans cette ville.\n（她随便选了一家餐厅；她在这个城市不知道任何地址。）",
+          "options": [
+            "à l'aveuglette（盲目地）",
+            "à la légère（轻率地）",
+            "à contrecœur（不情愿地）",
+            "à haute voix（大声地）"
+          ],
+          "correct": 0,
+          "explanation": "à l'aveuglette = 盲目地、随意地，符合「不认识任何地址所以随便选」的语境。à la légère = 轻率地，语义接近但强调不认真而非不知情。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les _____ municipaux ont voté contre le projet.\n（市政当选官员投票反对了这个项目。）",
+          "options": [
+            "élus（当选者）",
+            "électeurs（选民）",
+            "candidats（候选人）",
+            "citoyens（公民）"
+          ],
+          "correct": 0,
+          "explanation": "élus = 当选的官员。électeurs = 投票的选民。candidats = 还在竞选的候选人。citoyens = 普通公民。语境是「投票反对项目」，只有已当选的官员才有这个权力。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais petit, je _____ du piano tous les jours.\n（我小时候每天弹钢琴。）",
+          "options": [
+            "joue（我弹 - 现在时）",
+            "ai joué（我弹了 - 复合过去时）",
+            "jouais（我弹 - 未完成过去时）",
+            "jouerai（我将弹 - 简单将来时）"
+          ],
+          "correct": 2,
+          "explanation": "「小时候每天都弹」= 过去的习惯性动作，必须用 imparfait。passé composé 表示一次性完成的动作，不合语境。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ dans un monde flou parce qu'il était très myope.\n（他生活在一个模糊的世界里，因为他非常近视。）",
+          "options": [
+            "vit（他住 - 现在时）",
+            "vivait（他住 - 未完成过去时）",
+            "a vécu（他住了 - 复合过去时）",
+            "vivra（他将住 - 简单将来时）"
+          ],
+          "correct": 1,
+          "explanation": "描述过去的持续状态，用 imparfait。后半句 était 也是 imparfait，前后时态一致。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le synonyme de « à l'aveuglette » ?\n（「à l'aveuglette」的同义词是什么？）",
+          "options": [
+            "au hasard（随机地）",
+            "avec soin（仔细地）",
+            "en silence（安静地）",
+            "avec joie（高兴地）"
+          ],
+          "correct": 0,
+          "explanation": "à l'aveuglette = 盲目地 ≈ au hasard（随机地）。TCF 阅读常考同义替换，这是典型考点。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ mélancolique le soir dans sa boutique.\n（她晚上在店里忧郁地幻想着。）",
+          "options": [
+            "rêve（她梦想 - 现在时）",
+            "rêvait（她梦想 - 未完成过去时）",
+            "a rêvé（她梦想了 - 复合过去时）",
+            "rêvera（她将梦想 - 简单将来时）"
+          ],
+          "correct": 1,
+          "explanation": "描述过去反复发生的状态/习惯，用 imparfait。le soir 暗示「每个晚上」的反复性。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le verbe « élire » au passé composé avec « il » : Il a _____.\n（动词 élire 用 il 的复合过去时：Il a _____.）",
+          "correct": [
+            "élu"
+          ],
+          "explanation": "élire 的过去分词是 élu。注意不规则：élire → élu（不是 *éli 或 *éliré）。",
+          "category": "变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il marchait _____ dans le couloir sombre.\n（他在黑暗的走廊里摸索前行。）",
+          "options": [
+            "à l'aveuglette（盲目地）",
+            "à l'improviste（突然地）",
+            "à la dérobée（偷偷地）",
+            "à la hâte（匆忙地）"
+          ],
+          "correct": 0,
+          "explanation": "dans le couloir sombre（黑暗的走廊）= 看不见路 → 摸索前行 = à l'aveuglette。à l'improviste = 突然，à la dérobée = 偷偷地，à la hâte = 匆忙地，均不合语境。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Myope comme une taupe » signifie :\n（「Myope comme une taupe」意思是：）",
+          "options": [
+            "très intelligent（非常聪明）",
+            "très myope（非常近视）",
+            "très fatigué（非常疲惫）",
+            "très prudent（非常谨慎）"
+          ],
+          "correct": 1,
+          "explanation": "comme une taupe 是固定表达，taupe = 鼹鼠，视力极差。整个短语 = 近视得不得了。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand elle était jeune, elle _____ des croissants chaque matin.\n（她年轻时每天早上都买牛角面包。）",
+          "options": [
+            "achète（她买 - 现在时）",
+            "achetait（她买 - 未完成过去时）",
+            "a acheté（她买了 - 复合过去时）",
+            "achètera（她将买 - 简单将来时）"
+          ],
+          "correct": 1,
+          "explanation": "quand elle était jeune + chaque matin = 过去的习惯动作，必须用 imparfait。chaque matin 是典型的 imparfait 信号词。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le mot « élu » dans la phrase « C'est l'élu de son cœur » signifie :\n（在「C'est l'élu de son cœur」中，élu 的意思是：）",
+          "options": [
+            "le président（总统）",
+            "le candidat（候选人）",
+            "la personne choisie par amour（被爱情选中的人）",
+            "le vainqueur d'un concours（比赛的获胜者）"
+          ],
+          "correct": 2,
+          "explanation": "l'élu de son cœur = 心中的意中人，是文学性表达。élu 在这里不是政治意义的「当选者」，而是「被（心/爱）选中的人」。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels mots sont des signaux typiques de l'imparfait ?\n（以下哪些词是未完成过去时的典型信号词？）",
+          "options": [
+            "tous les matins（每天早上）",
+            "hier à 15h（昨天下午3点）",
+            "chaque jour（每天）",
+            "soudain（突然）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "tous les matins 和 chaque jour 表示过去的习惯/重复 → imparfait。hier à 15h 是具体时间点 → passé composé。soudain 表示突发事件 → passé composé。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La boulangère lui _____, mais il ne la _____ pas.\n（面包店女店员对他微笑，但他不看她。）",
+          "options": [
+            "sourit / regarde（现在时）",
+            "souriait / regardait（未完成过去时）",
+            "a souri / a regardé（复合过去时）",
+            "sourira / regardera（简单将来时）"
+          ],
+          "correct": 1,
+          "explanation": "两个动作都是过去的持续/习惯状态：她（总是）微笑，他（总是）不看她。两个动词都用 imparfait。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'adjectif « aveugle » donne la locution adverbiale : à _____.\n（形容词 aveugle 派生出的副词短语是：à _____.）",
+          "correct": [
+            "l'aveuglette"
+          ],
+          "explanation": "aveugle → à l'aveuglette。词根联动：aveugle（盲的）+ 后缀 -ette 构成副词短语，表示「盲目地、摸索地」。",
+          "category": "词汇"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1TkT0s0dakPVKePdB2hpc-XxvpCJyNT21bcmiIP6Td6k/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773284274646-qi9g0743mu",
+          "front": "myope",
+          "back": "adj. 近视的\nIPA: /mjɔp/\n例：Il est myope, il porte des lunettes.\n（他近视，戴眼镜。）"
+        },
+        {
+          "id": "1773284274646-d6g59i9f5zr",
+          "front": "myope comme une taupe",
+          "back": "固定表达：非常近视\ntaupe = 鼹鼠（视力极差）\n类似英语 blind as a bat"
+        },
+        {
+          "id": "1773284274646-o9xqumeicee",
+          "front": "à l'aveuglette",
+          "back": "loc. adv. 盲目地，摸索地\n例：Il avançait à l'aveuglette dans le noir.\n（他在黑暗中摸索前进。）"
+        },
+        {
+          "id": "1773284274646-1lom2kk9me6",
+          "front": "à l'aveuglette 的同义表达？",
+          "back": "au hasard（随机地）\nsans réfléchir（不加思考地）\nsans voir（看不见地）"
+        },
+        {
+          "id": "1773284274646-2q00ph7n7ck",
+          "front": "aveugle → 副词短语？",
+          "back": "aveugle（盲的）→ à l'aveuglette（盲目地）\n另：aveuglement（盲目地，更书面）"
+        },
+        {
+          "id": "1773284274646-9g9hbhax8h",
+          "front": "élu (n.m.)",
+          "back": "当选者；意中人\n动词原形：élire（选举）\n例1：les élus municipaux（市政当选官员）\n例2：l'élu de son cœur（心中的意中人）"
+        },
+        {
+          "id": "1773284274646-of56ypu59ma",
+          "front": "élire 的过去分词？",
+          "back": "élu\npassé composé: il a élu\n注意：不规则，不要写成 *éli 或 *éliré"
+        },
+        {
+          "id": "1773284274646-xe3flnwo2wl",
+          "front": "imparfait 三大功能",
+          "back": "1. 过去的习惯动作（tous les jours, chaque matin...）\n2. 过去的状态/背景描述（il était grand, elle avait faim...）\n3. 过去正在进行的动作（je lisais quand...）"
+        },
+        {
+          "id": "1773284274646-98b3y2rpbm7",
+          "front": "imparfait 信号词有哪些？",
+          "back": "tous les matins（每天早上）\nchaque jour（每天）\nsouvent（经常）\nd'habitude（通常）\nquand j'étais petit（我小时候）"
+        },
+        {
+          "id": "1773284274646-s1h7ajiydc",
+          "front": "imparfait vs passé composé 怎么区分？",
+          "back": "imparfait = 持续/习惯/背景\npassé composé = 一次性/完成/突发\n例：Je lisais (imparfait) quand il est arrivé (passé composé).\n（他到的时候我正在看书。）"
+        },
+        {
+          "id": "1773284274646-kg0znvb2qko",
+          "front": "flou (adj.)",
+          "back": "模糊的，不清晰的\n例：un monde flou（一个模糊的世界）\n反义词：net, clair（清晰的）"
+        },
+        {
+          "id": "1773284274646-m9zfjpgcx1q",
+          "front": "mélancolique (adj.)",
+          "back": "忧郁的\n例：Elle rêvait mélancolique.\n（她忧郁地幻想着。）\n近义词：triste, nostalgique"
+        },
+        {
+          "id": "1773284274646-hsmz59we9q",
+          "front": "croustillant(e) (adj.)",
+          "back": "1. 酥脆的（食物）：un croissant croustillant\n2. 引申义：吸引人的，有趣的（口语）"
+        },
+        {
+          "id": "1773284274646-qq8mk1bhwfh",
+          "front": "sourire à qqn",
+          "back": "对某人微笑\n例：La boulangère lui souriait.\n（面包店女店员对他微笑。）\nlui = 间接宾语代词（对他/对她）"
+        }
+      ]
+    },
+    {
       "id": 1773283741542,
       "name": "时间标志词",
       "folderId": "1772683473645",
@@ -82756,6 +83033,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-12T02:50:09.664Z",
+  "exportedAt": "2026-03-12T03:05:55.813Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
