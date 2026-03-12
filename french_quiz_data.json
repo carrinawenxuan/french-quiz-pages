@@ -1,6 +1,570 @@
 {
   "savedSets": [
     {
+      "id": 1773288863950,
+      "name": "Unit 2 Imparfait POUVOIR  VOULOIR DEVOIR FALLOIR SAVOIR",
+      "folderId": "1771907837913",
+      "createdAt": "2026-03-12T04:14:23.950Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais enfant, je ne _____ pas nager.\n（我小时候不会游泳。）",
+          "options": [
+            "pouvais（能）",
+            "savais（知道/会）",
+            "devais（必须）",
+            "voulais（想要）"
+          ],
+          "correct": 1,
+          "explanation": "「会做某技能」用 savoir + 动词原形，不用 pouvoir。savoir nager = 会游泳。",
+          "category": "pouvoir vs savoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ partir avant minuit, c'était la règle.\n（必须在午夜前离开，这是规定。）",
+          "options": [
+            "devait（必须）",
+            "fallait（必须-无人称）",
+            "pouvait（能）",
+            "savait（知道）"
+          ],
+          "correct": 1,
+          "explanation": "无人称主语 il + 表达客观规则 → falloir。il fallait = 必须（无人称）。devait 需要一个具体的人称主语。",
+          "category": "falloir vs devoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ aller chez le médecin tous les mois.\n（我们当时每个月都必须去看医生。）",
+          "options": [
+            "pouvions（能）",
+            "savions（知道）",
+            "devions（必须）",
+            "voulions（想要）"
+          ],
+          "correct": 2,
+          "explanation": "主语 nous + 义务 → devoir。nous devions = 我们必须。",
+          "category": "devoir imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a dit qu'elle _____ partir tôt.\n（她说过她想早走。）",
+          "options": [
+            "veut（想要-现在）",
+            "voulait（想要-imparfait）",
+            "a voulu（想要-passé composé）",
+            "voudra（想要-将来）"
+          ],
+          "correct": 1,
+          "explanation": "间接引语转述：直接引语 « je veux » → 间接引语 elle voulait（现在时后退为 imparfait）。",
+          "category": "间接引语+vouloir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si je , je voyagerais autour du monde.\n（如果我能的话，我会环游世界。）",
+          "options": [
+            "peux（能-现在）",
+            "pouvais（能-imparfait）",
+            "ai pu（能-passé composé）",
+            "pourrais（能-条件式）"
+          ],
+          "correct": 1,
+          "explanation": "Si + imparfait, conditionnel présent：表达与现实相反的假设。Si je pouvais = 如果我能（但实际上不能）。",
+          "category": "si + imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants ne _____ pas qu'il y avait un examen.\n（孩子们当时不知道有考试。）",
+          "options": [
+            "pouvaient（能）",
+            "voulaient（想要）",
+            "devaient（必须）",
+            "savaient（知道）"
+          ],
+          "correct": 3,
+          "explanation": "「知道某信息」= savoir + que 从句。ne savaient pas que... = 不知道……",
+          "category": "savoir + que"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Avant, on ne _____ (pouvoir) pas utiliser Internet.\n（以前人们不能用互联网。）",
+          "correct": [
+            "pouvait"
+          ],
+          "explanation": "on 按第三人称单数变位。pouvoir imparfait → pouvait。",
+          "category": "pouvoir imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (vouloir) toujours jouer dehors.\n（你以前总是想在外面玩。）",
+          "correct": [
+            "voulais"
+          ],
+          "explanation": "tu + vouloir imparfait → voulais。描述过去反复的愿望用 imparfait。",
+          "category": "vouloir imparfait"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ (falloir) réserver. Nous _____ (devoir) arriver tôt. Si vous _____ (vouloir), vous _____ (pouvoir) choisir votre place.\n（必须预订。我们必须早到。如果你们想的话，可以选座位。）",
+          "correct": [
+            "fallait",
+            "devions",
+            "vouliez",
+            "pouviez"
+          ],
+          "explanation": "falloir → il fallait（无人称）；nous → devions；vous → vouliez / pouviez。",
+          "category": "综合填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ vous demander un petit service.\n（我想请您帮个小忙。）——这是一种礼貌表达。",
+          "options": [
+            "veux（想要-现在）",
+            "voulais（想要-imparfait）",
+            "voudrai（想要-将来）",
+            "dois（必须-现在）"
+          ],
+          "correct": 1,
+          "explanation": "用 imparfait 的 voulais 表达礼貌/委婉请求，比直接说 je veux 更得体。TCF 口语和写作加分表达。",
+          "category": "礼貌用法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中 imparfait 表示的是「过去的习惯」？\n（选出所有正确项）",
+          "options": [
+            "Je pouvais courir 10 km chaque matin.（我以前每天早上能跑10公里。）",
+            "Il a dû partir soudainement.（他突然不得不离开。）",
+            "Nous voulions toujours manger des crêpes le dimanche.（我们以前每个周日都想吃可丽饼。）",
+            "Elle savait jouer du piano depuis l'âge de 5 ans.（她从5岁起就会弹钢琴。）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "选项B是 passé composé（一次性事件），不是 imparfait。其余三个都是 imparfait 描述过去持续的习惯/能力/状态。",
+          "category": "imparfait 用法辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ne _____ pas entrer sans invitation.\n（你们当时没有邀请函不能进入。）",
+          "options": [
+            "saviez（知道）",
+            "vouliez（想要）",
+            "pouviez（能）",
+            "deviez（必须）"
+          ],
+          "correct": 2,
+          "explanation": "「不能进入」= 不被允许 → ne pouviez pas。pouvoir 表许可/能力。",
+          "category": "pouvoir 否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": " -tu que Marie était malade ?\n（你当时知道 Marie 生病了吗？）",
+          "options": [
+            "Pouvais（能）",
+            "Devais（必须）",
+            "Savais（知道）",
+            "Voulais（想要）"
+          ],
+          "correct": 2,
+          "explanation": "「知道某信息」→ savoir。Savais-tu que... = 你知道……吗？",
+          "category": "savoir 疑问句"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Lg2gl9SokJOgtGW29mwo3V50nsKauJmbV8esV91vcv0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773288875720-dp3fpkqnicg",
+          "front": "pouvoir imparfait 变位",
+          "back": "je pouvais, tu pouvais, il pouvait\nnous pouvions, vous pouviez, ils pouvaient\n词干：pouv-（来自 nous pouvons）"
+        },
+        {
+          "id": "1773288875720-vpb139pxkn",
+          "front": "vouloir imparfait 变位",
+          "back": "je voulais, tu voulais, il voulait\nnous voulions, vous vouliez, ils voulaient\n词干：voul-（来自 nous voulons）"
+        },
+        {
+          "id": "1773288875720-zfspxgazrw",
+          "front": "devoir imparfait 变位",
+          "back": "je devais, tu devais, il devait\nnous devions, vous deviez, ils devaient\n词干：dev-（来自 nous devons）"
+        },
+        {
+          "id": "1773288875720-iohd9t2bjc",
+          "front": "falloir imparfait 变位",
+          "back": "il fallait\n⚠️ 只有 il 一个形式，无人称动词"
+        },
+        {
+          "id": "1773288875720-o144xxzckc",
+          "front": "savoir imparfait 变位",
+          "back": "je savais, tu savais, il savait\nnous savions, vous saviez, ils savaient\n词干：sav-（来自 nous savons）"
+        },
+        {
+          "id": "1773288875720-x1kue8ihdn9",
+          "front": "「会游泳」用 pouvoir 还是 savoir？",
+          "back": "savoir nager ✅\npouvoir nager ❌（pouvoir = 有条件/被允许；savoir = 掌握技能）"
+        },
+        {
+          "id": "1773288875720-js03nw4qe1k",
+          "front": "falloir vs devoir 怎么区分？",
+          "back": "falloir：无人称，只用 il fallait，表客观规则\ndevoir：有主语，je devais / nous devions，表个人义务\n例：Il fallait réserver.（规定要预订）\nNous devions partir.（我们必须走）"
+        },
+        {
+          "id": "1773288875720-jdxtdmy29fn",
+          "front": "Si + imparfait 表达什么？",
+          "back": "表达与现实相反的假设（虚拟条件）\nSi je pouvais, je voyagerais.\n如果我能的话，我会去旅行。（但实际上不能）"
+        },
+        {
+          "id": "1773288875720-xfdhe7gs0k",
+          "front": "间接引语中 vouloir 怎么变？",
+          "back": "直接：Elle dit : « Je veux partir. »\n间接：Elle a dit qu'elle voulait partir.\n规则：现在时 → imparfait"
+        },
+        {
+          "id": "1773288875720-62sifklwcwb",
+          "front": "je voulais 的礼貌用法",
+          "back": "Je voulais vous demander...\n我想请问您……\n用 imparfait 比 je veux 更委婉得体，TCF 口语加分"
+        },
+        {
+          "id": "1773288875720-7j05c9fhtxv",
+          "front": "nous savions [s] vs nous avions [z]\n发音区别",
+          "back": "savions → s 发 [s]（清音）\navions → 联诵带 [z]（浊音）\nTCF 听力陷阱：两者发音相似但意思完全不同\nsavions = 我们知道 / avions = 我们有"
+        },
+        {
+          "id": "1773288875720-05wi1q3c3bah",
+          "front": "pouvait vs a pu 区别",
+          "back": "pouvait（imparfait）= 当时有能力/被允许（状态）\na pu（passé composé）= 成功做到了（一次性结果）\n例：Il ne pouvait pas dormir.（他当时睡不着-状态）\nIl a pu s'échapper.（他成功逃走了-结果）"
+        },
+        {
+          "id": "1773288875720-9naur8hgnid",
+          "front": "devait vs a dû 区别",
+          "back": "devait（imparfait）= 当时应该/必须（背景义务）\na dû（passé composé）= 不得不并且做了（完成的行动）\n例：Je devais travailler.（我当时得工作-背景）\nJ'ai dû annuler.（我不得不取消了-动作）"
+        },
+        {
+          "id": "1773288875720-76omc5pdw5",
+          "front": "3秒排除法：选 falloir 的信号",
+          "back": "1. 主语是 il 且不指具体的人\n2. 表达客观规则/必须\n→ il fallait\n注意：有具体人称主语时用 devoir"
+        },
+        {
+          "id": "1773288875720-vp3xkxke52i",
+          "front": "3秒排除法：选 savoir 的信号",
+          "back": "1. 后面跟 que 从句 → savoir que\n2. 后面跟技能动词 → savoir + inf.\n例：Je savais qu'il venait.\nElle savait nager."
+        }
+      ]
+    },
+    {
+      "id": 1773288338242,
+      "name": "Unit 2 Imparfait ÊTRE AVOIR ALLER VENIR FAIRE",
+      "folderId": "1771907837913",
+      "createdAt": "2026-03-12T04:05:38.242Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'_____ petit, je jouais dans le jardin.\n（我小时候，我在花园里玩。）",
+          "options": [
+            "étais（我是）",
+            "était（他是）",
+            "étions（我们是）",
+            "suis（我是-现在时）"
+          ],
+          "correct": 0,
+          "explanation": "je + imparfait de être = j'étais。描述过去的状态。",
+          "category": "imparfait - être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ très fatigués après le voyage.\n（旅行后我们很累。）",
+          "options": [
+            "étions（我们是）",
+            "étaient（他们是）",
+            "étiez（你们是）",
+            "avions（我们有）"
+          ],
+          "correct": 0,
+          "explanation": "nous + être imparfait = étions。描述过去的状态。",
+          "category": "imparfait - être"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y _____ beaucoup de monde dans la rue.\n（街上当时有很多人。）",
+          "options": [
+            "avait（有-三单）",
+            "avaient（有-三复）",
+            "était（是-三单）",
+            "a（有-现在时）"
+          ],
+          "correct": 0,
+          "explanation": "il y avait = 过去有…，固定结构，永远三单。",
+          "category": "imparfait - avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ quel âge quand tu as déménagé ?\n（你搬家时几岁？）",
+          "options": [
+            "avais（你有）",
+            "avait（他有）",
+            "as（你有-现在时）",
+            "avas（不存在）"
+          ],
+          "correct": 0,
+          "explanation": "tu + avoir imparfait = avais。avoir + âge 表年龄。注意 avas 不存在，是常见干扰项。",
+          "category": "imparfait - avoir"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Soudain, le téléphone a sonné. Je _____ la cuisine.\n（突然电话响了。我当时在做饭。）",
+          "options": [
+            "faisais（我做）",
+            "fais（我做-现在时）",
+            "ai fait（我做了）",
+            "ferai（我将做）"
+          ],
+          "correct": 0,
+          "explanation": "背景动作用 imparfait：je faisais。soudain 后的 a sonné 是突发事件用 passé composé。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'habitude, ils _____ au parc le dimanche.\n（通常，他们周日去公园。）",
+          "options": [
+            "allaient（他们去）",
+            "sont allés（他们去了）",
+            "vont（他们去-现在时）",
+            "allait（他去）"
+          ],
+          "correct": 0,
+          "explanation": "d'habitude = 通常 → 过去习惯 → imparfait。ils + aller = allaient。",
+          "category": "imparfait - aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ de manger quand je suis arrivé.\n（我到的时候她刚吃完。）",
+          "options": [
+            "venait（她刚刚）",
+            "venue（过去分词）",
+            "vient（她来-现在时）",
+            "viendrait（她将来-条件式）"
+          ],
+          "correct": 0,
+          "explanation": "venir de + inf. 在 imparfait 中 = 过去的\"刚刚\"。elle + venir imparfait = venait。",
+          "category": "imparfait - venir de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ beau, alors nous sommes sortis.\n（天气很好，所以我们出去了。）",
+          "options": [
+            "faisait（天气是）",
+            "fait（天气是-现在时）",
+            "a fait（天气是-passé composé）",
+            "fera（天气将是）"
+          ],
+          "correct": 0,
+          "explanation": "描述天气背景 → imparfait。il faisait beau = 当时天气好。nous sommes sortis = 一次性动作用 passé composé。",
+          "category": "imparfait - faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On _____ peur du chien quand on était enfants.\n（我们小时候害怕那只狗。）",
+          "options": [
+            "avait（有-三单）",
+            "avions（我们有）",
+            "avaient（他们有）",
+            "a（有-现在时）"
+          ],
+          "correct": 0,
+          "explanation": "on 永远接三单变位，即使意思是「我们」。avoir peur de = 害怕。",
+          "category": "imparfait - avoir / on"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous _____ souvent à la plage en été ?\n（你们夏天经常去海滩吗？）",
+          "options": [
+            "alliez（你们去）",
+            "allaient（他们去）",
+            "allions（我们去）",
+            "êtes allés（你们去了）"
+          ],
+          "correct": 0,
+          "explanation": "vous + aller imparfait = alliez。souvent + en été = 过去习惯 → imparfait。",
+          "category": "imparfait - aller"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants _____ leurs devoirs pendant que la mère préparait le dîner.\n（妈妈准备晚饭时，孩子们在做作业。）",
+          "options": [
+            "faisaient（他们做）",
+            "faisais（我做）",
+            "font（他们做-现在时）",
+            "ont fait（他们做了）"
+          ],
+          "correct": 0,
+          "explanation": "pendant que + imparfait → 两个同时进行的背景动作。les enfants = ils → faisaient。",
+          "category": "imparfait - faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ partir quand il a commencé à pleuvoir.\n（我正要出发，就开始下雨了。）",
+          "options": [
+            "allais（我正要）",
+            "suis allé（我去了）",
+            "vais（我去-现在时）",
+            "irai（我将去）"
+          ],
+          "correct": 0,
+          "explanation": "aller + inf. 在 imparfait 中 = 当时正要做某事。j'allais partir = 我正要离开。",
+          "category": "imparfait - aller + inf."
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Chaque été, nous _____ (venir) chez nos grands-parents.\n（每年夏天，我们都来爷爷奶奶家。）",
+          "correct": [
+            "venions"
+          ],
+          "explanation": "nous + venir imparfait = venions。chaque été = 过去重复的习惯。",
+          "category": "imparfait - venir"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'_____ (être) une belle journée, il _____ (faire) chaud.\n（那是美好的一天，天气很热。）",
+          "correct": [
+            "était",
+            "faisait"
+          ],
+          "explanation": "c'était = 那是（固定结构）。il faisait chaud = 天气热（描述背景天气）。",
+          "category": "imparfait - être / faire"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子应该用 imparfait？",
+          "options": [
+            "Il pleuvait quand je suis sorti.（我出去时在下雨。）",
+            "Soudain, il a crié.（突然他喊了一声。）",
+            "D'habitude, nous faisions du sport.（通常我们做运动。）",
+            "Hier, j'ai mangé une pizza.（昨天我吃了一个披萨。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "pleuvait = 背景天气；faisions = 过去习惯（d'habitude）。a crié 和 ai mangé 是一次性完成的事件 → passé composé。",
+          "category": "imparfait vs passé composé 辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1M9iVJ2KqDRSEq_Krk75Ar-JwbVGMrf9CZFBeajCdZ3Y/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773288374783-63lt8ivdrrt",
+          "front": "Imparfait 的构成规则是什么？",
+          "back": "取现在时 nous 的词干（去掉 -ons）+ 词尾：\n-ais, -ais, -ait, -ions, -iez, -aient\n例：nous faisons → fais- → je faisais\n唯一例外：être（词干为 ét-）"
+        },
+        {
+          "id": "1773288374783-kfk71yvu2v",
+          "front": "être 的 imparfait 变位",
+          "back": "j'étais, tu étais, il/elle était\nnous étions, vous étiez, ils/elles étaient\n注意：唯一不从 nous 现在时取词干的动词"
+        },
+        {
+          "id": "1773288374783-f5h2qb03l7s",
+          "front": "avoir 的 imparfait 变位",
+          "back": "j'avais, tu avais, il/elle avait\nnous avions, vous aviez, ils/elles avaient\n词干来自 nous avons → av-"
+        },
+        {
+          "id": "1773288374783-ny19p7i0of",
+          "front": "aller 的 imparfait 变位",
+          "back": "j'allais, tu allais, il/elle allait\nnous allions, vous alliez, ils/elles allaient\n词干来自 nous allons → all-"
+        },
+        {
+          "id": "1773288374783-5vwx561u0br",
+          "front": "venir 的 imparfait 变位",
+          "back": "je venais, tu venais, il/elle venait\nnous venions, vous veniez, ils/elles venaient\n词干来自 nous venons → ven-"
+        },
+        {
+          "id": "1773288374783-h05402u0evn",
+          "front": "faire 的 imparfait 变位",
+          "back": "je faisais, tu faisais, il/elle faisait\nnous faisions, vous faisiez, ils/elles faisaient\n词干来自 nous faisons → fais-"
+        },
+        {
+          "id": "1773288374783-jl52pr15dzj",
+          "front": "on + être imparfait 用几单？",
+          "back": "永远用三单：on était\n即使 on = nous，动词也接三单\n例：On était contents.（我们很高兴。）"
+        },
+        {
+          "id": "1773288374783-fzhfpz2l2rt",
+          "front": "il y avait 是什么意思？",
+          "back": "过去有……\nil y a（现在有）→ il y avait（过去有）\n永远三单，不能写 il y avaient\n例：Il y avait du monde.（当时有很多人。）"
+        },
+        {
+          "id": "1773288374783-xhfd00e517e",
+          "front": "avoir peur de",
+          "back": "害怕……\nimparfait：j'avais peur de…\n例：Elle avait peur du chien.（她害怕那只狗。）"
+        },
+        {
+          "id": "1773288374783-cqol4podou",
+          "front": "avoir + 年龄 在 imparfait 中",
+          "back": "表示过去的年龄\n例：J'avais 10 ans.（我当时10岁。）\n注意用 avoir 不用 être"
+        },
+        {
+          "id": "1773288374783-p8trfek5otb",
+          "front": "venir de + inf. 在 imparfait 中",
+          "back": "表示过去的「刚刚做完」\n例：Je venais de manger.（我刚吃完。）\n= plus-que-parfait 的口语替代\nTCF 超高频考点"
+        },
+        {
+          "id": "1773288374783-1mieeevzy0g",
+          "front": "aller + inf. 在 imparfait 中",
+          "back": "表示过去「正要做某事」（≠ futur proche）\n例：J'allais partir quand il est arrivé.\n（我正要走，他就到了。）"
+        },
+        {
+          "id": "1773288374783-xjxlqnsordk",
+          "front": "il faisait + 天气",
+          "back": "描述过去的天气\nil faisait beau / chaud / froid / mauvais\n例：Il faisait beau cet été-là.\n（那年夏天天气很好。）"
+        },
+        {
+          "id": "1773288374783-lhziw30lc5",
+          "front": "Imparfait 3秒判断法",
+          "back": "① 背景/状态/描述？→ imparfait\n② 过去习惯/重复？→ imparfait\n③ 一次性完成事件？→ passé composé\n关键词：soudain/hier → PC\nd'habitude/souvent/chaque → imparfait"
+        },
+        {
+          "id": "1773288374783-qsd2tskwhep",
+          "front": "pendant que + 什么时态？",
+          "back": "pendant que + imparfait\n表示两个同时进行的背景动作\n例：Il lisait pendant que je faisais la cuisine.\n（他看书，我同时在做饭。）"
+        },
+        {
+          "id": "1773288374783-6rdhxt3jrnf",
+          "front": "quand + imparfait, ... passé composé",
+          "back": "经典 TCF 句型：\n背景进行中 + 突发事件打断\n例：Je dormais quand le téléphone a sonné.\n（我正在睡觉时电话响了。）"
+        },
+        {
+          "id": "1773288374783-7pleihrik35",
+          "front": "Imparfait 强制连读规则",
+          "back": "nous/vous/ils/elles + 元音开头变位时必须连读：\nnous‿étions, vous‿étiez\nnous‿avions, ils‿avaient\nnous‿allions, elles‿allaient\n听力中容易听不出主语"
+        },
+        {
+          "id": "1773288374783-rbwpjthead",
+          "front": "avoir le cœur sur la main",
+          "back": "非常慷慨大方\n字面：把心放在手上\n例：Mon grand-père avait le cœur sur la main.\n（我爷爷非常慷慨。）"
+        },
+        {
+          "id": "1773288374783-gru11upys47",
+          "front": "être mort(e) de peur",
+          "back": "吓得要死\n注意阴性加 -e：elle était morte de peur\n例：Elle était morte de peur dans l'autobus.\n（她在公交车上吓得要死。）"
+        },
+        {
+          "id": "1773288374783-6hgc5qv1ny",
+          "front": "défaire / refaire 的 imparfait",
+          "back": "和 faire 同规则：\nje défaisais, nous défaisions\nje refaisais, nous refaisions\n所有 faire 的派生动词同理"
+        }
+      ]
+    },
+    {
       "id": 1773285456433,
       "name": "TCF A2 Lecon 6 听力4-9题",
       "folderId": "1772686244763",
@@ -83259,6 +83823,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-12T03:18:04.194Z",
+  "exportedAt": "2026-03-12T04:14:39.822Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
