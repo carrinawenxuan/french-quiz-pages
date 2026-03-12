@@ -1,6 +1,2579 @@
 {
   "savedSets": [
     {
+      "id": 1773283741542,
+      "name": "时间标志词",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-12T02:49:01.542Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je _____ le piano depuis l'âge de six ans.\n（我从六岁起就弹钢琴。）",
+          "options": [
+            "joue（弹——现在时）",
+            "ai joué（弹——复合过去时）",
+            "jouerai（弹——简单将来时）",
+            "jouais（弹——未完成过去时）"
+          ],
+          "correct": 0,
+          "explanation": "depuis 表示动作从过去持续到现在，主句必须用 présent。je joue。",
+          "category": "depuis 时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a quitté la France _____ trois ans.\n（他三年前离开了法国。）",
+          "options": [
+            "depuis（自从）",
+            "il y a（……之前）",
+            "dans（……之后）",
+            "en（用了……时间）"
+          ],
+          "correct": 1,
+          "explanation": "passé composé（a quitté）+ 时间段 = 过去完成的动作，用 il y a = ago。depuis 要求 présent。",
+          "category": "il y a vs depuis"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous vivons ensemble _____ 2019.\n（我们从2019年起就住在一起。）",
+          "options": [
+            "il y a（……之前）",
+            "pendant（在……期间）",
+            "depuis（自从）",
+            "en（用了……时间）"
+          ],
+          "correct": 2,
+          "explanation": "主句 présent（vivons）+ 时间点（2019）= 动作还在继续，用 depuis。",
+          "category": "depuis + 时间点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a lu tout le livre _____ deux heures.\n（她两个小时就读完了整本书。）",
+          "options": [
+            "pendant（持续了）",
+            "en（用了……完成）",
+            "depuis（自从）",
+            "pour（打算……）"
+          ],
+          "correct": 1,
+          "explanation": "a lu tout le livre = 读完（有终点），强调完成所用时间，用 en。pendant 强调过程持续，没有\"完成\"的意思。",
+          "category": "en vs pendant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ cinq ans que nous habitons dans cette ville.\n（我们在这个城市住了五年了。）",
+          "options": [
+            "Il y a（已经……了）",
+            "Depuis（自从）",
+            "Pendant（在……期间）",
+            "Dans（……之后）"
+          ],
+          "correct": 0,
+          "explanation": "Il y a + 时间段 + que + présent = ça fait...que = depuis，表示动作持续到现在。注意这里的 il y a...que 不是\"……之前\"的意思。",
+          "category": "il y a...que 句式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le train arrive _____ vingt minutes.\n（火车二十分钟后到。）",
+          "options": [
+            "il y a（……之前）",
+            "en（用了……时间）",
+            "pendant（持续了）",
+            "dans（……之后）"
+          ],
+          "correct": 3,
+          "explanation": "动作还没发生，指向未来，用 dans + 时间段 = ……之后。",
+          "category": "dans 未来"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai travaillé dans ce restaurant _____ six mois.\n（我在这家餐厅工作了六个月。）",
+          "options": [
+            "depuis（自从）",
+            "pendant（持续了）",
+            "en（用了……完成）",
+            "dans（……之后）"
+          ],
+          "correct": 1,
+          "explanation": "passé composé（ai travaillé）+ 时间段 = 动作已结束，强调持续过程，用 pendant。不能用 depuis（depuis 要求 présent）。",
+          "category": "pendant vs depuis"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pars au Japon _____ trois semaines.\n（我去日本，打算待三周。）",
+          "options": [
+            "pendant（持续了）",
+            "dans（……之后）",
+            "pour（打算持续）",
+            "en（用了……时间）"
+          ],
+          "correct": 2,
+          "explanation": "pour + 时间段 = 计划/打算持续的时间。\"去日本，打算待三周\"是计划安排。pendant 强调已经发生的过程。",
+          "category": "pour vs pendant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ combien de temps est-ce que tu as vécu à Paris ?\n（你在巴黎住了多久？）",
+          "options": [
+            "Depuis（自从）",
+            "Pendant（持续了）",
+            "En（用了……完成）",
+            "Dans（……之后）"
+          ],
+          "correct": 1,
+          "explanation": "as vécu = passé composé，动作已结束，问\"持续了多久\"，用 pendant。如果还在住，应该用 depuis + présent（tu vis à Paris）。",
+          "category": "pendant 提问"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon frère apprend l'anglais _____ septembre.\n（我哥哥从九月开始学英语。）",
+          "options": [
+            "il y a（……之前）",
+            "pendant（持续了）",
+            "depuis（自从）",
+            "en（用了……时间）"
+          ],
+          "correct": 2,
+          "explanation": "apprend = présent，动作还在继续。septembre 是时间点。depuis + 时间点 = 从……开始到现在。",
+          "category": "depuis + 时间点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ça fait une heure que nous _____ le bus.\n（我们等公交已经一个小时了。）",
+          "options": [
+            "avons attendu（等了——复合过去时）",
+            "attendions（等——未完成过去时）",
+            "attendons（等——现在时）",
+            "attendrons（等——简单将来时）"
+          ],
+          "correct": 2,
+          "explanation": "ça fait...que = depuis，动作还在继续，que 后面用 présent。nous attendons。",
+          "category": "ça fait...que 时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a construit cette maison _____ six mois.\n（他六个月就建好了这栋房子。）",
+          "options": [
+            "pendant（持续了）",
+            "pour（打算……）",
+            "en（用了……完成）",
+            "depuis（自从）"
+          ],
+          "correct": 2,
+          "explanation": "a construit = 建好了（有明确终点），强调完成所用时间，用 en。pendant 只强调过程持续，不突出\"完成\"。",
+          "category": "en 完成效率"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas vu Marie _____ longtemps.\n（我很久没见到 Marie 了。）",
+          "options": [
+            "depuis（自从）",
+            "pendant（持续了）",
+            "il y a（……之前）",
+            "en（用了……时间）"
+          ],
+          "correct": 0,
+          "explanation": "depuis longtemps = 很久以来（一直没见）。虽然 passé composé 出现了，但这里表示\"没见\"这个状态从过去延续到现在，用 depuis。这是 depuis 的特殊用法之一。",
+          "category": "depuis + 否定句"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. Elle habite au Canada _____ 2020.\n（她从2020年起住在加拿大。）\n2. Elle a étudié le français _____ deux ans.\n（她学了两年法语。）\n3. Elle a trouvé un travail _____ trois mois.\n（她三个月前找到了工作。）\n4. Elle va déménager _____ un mois.\n（她一个月后要搬家。）",
+          "correct": [
+            "depuis",
+            "pendant",
+            "il y a",
+            "dans"
+          ],
+          "explanation": "第1空：présent + 时间点 → depuis。第2空：passé composé + 时间段（过程）→ pendant。第3空：passé composé + 时间段（ago）→ il y a。第4空：futur proche + 时间段（未来）→ dans。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些句子是正确的？\n（选出所有正确的句子。）",
+          "options": [
+            "J'habite ici depuis trois ans.（我住在这里三年了。）",
+            "J'ai habité ici depuis trois ans.（我住在这里三年了。）",
+            "Ça fait trois ans que j'habite ici.（我住在这里三年了。）",
+            "Il y a trois ans que j'ai habité ici.（我住在这里三年了。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "A正确：depuis + présent。B错误：depuis 不能搭配 passé composé（动作还在继续就不能用过去时）。C正确：ça fait...que + présent = depuis。D错误：il y a...que 表示\"还在继续\"时，que 后面应该用 présent（j'habite），不能用 passé composé。",
+          "category": "综合判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1IFZJO5Y05rV5kjcVQ-D_7yogYOWc_FzoaX_Q_Rx2f8o/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773283767049-amwrjycopq",
+          "front": "depuis 的核心含义",
+          "back": "从过去持续到现在，动作还在继续\n主句用 présent\n英语：since / for（现在时语境）"
+        },
+        {
+          "id": "1773283767049-rwm2ililah8",
+          "front": "depuis + 时间段\n例句？",
+          "back": "J'habite ici depuis trois ans.\n我住在这里三年了。（还在住）"
+        },
+        {
+          "id": "1773283767049-ilzvgkiywzk",
+          "front": "depuis + 时间点\n例句？",
+          "back": "Je travaille ici depuis 2020.\n我从2020年起在这里工作。（还在工作）"
+        },
+        {
+          "id": "1773283767049-o8l42mndzpn",
+          "front": "depuis que + 从句\n从句用什么时态？",
+          "back": "从句用 passé composé（触发事件已完成）\n主句用 présent（动作还在继续）\n例：Je travaille ici depuis que je suis arrivée au Canada."
+        },
+        {
+          "id": "1773283767049-lg076216fn",
+          "front": "pendant 的核心含义",
+          "back": "持续了多久，动作已经结束\n主句用 passé composé\n英语：for / during（过去时语境）"
+        },
+        {
+          "id": "1773283767049-mr9czmnfc3",
+          "front": "pendant vs depuis\n怎么判断？",
+          "back": "动作还在做 → depuis + présent\n动作已结束 → pendant + passé composé"
+        },
+        {
+          "id": "1773283767049-3wa82k462un",
+          "front": "il y a 的核心含义",
+          "back": "……之前（= ago）\n动作已完成，定位过去时间点\n主句用 passé composé"
+        },
+        {
+          "id": "1773283767049-pzydglf3wwe",
+          "front": "il y a vs depuis\n同样是时间段，怎么区分？",
+          "back": "il y a：多久之前做了（ago）→ passé composé\ndepuis：做了多久还在做 → présent\n例：J'ai commencé il y a 4 mois. / J'apprends depuis 4 mois."
+        },
+        {
+          "id": "1773283767049-i1ktfx6q5ts",
+          "front": "pour 的核心含义",
+          "back": "打算/计划持续多久\n强调意图和安排，不是实际过程\n例：Je pars pour deux semaines.（打算去两周）"
+        },
+        {
+          "id": "1773283767049-rn4r0jefaq7",
+          "front": "pour vs pendant\n怎么区分？",
+          "back": "pour = 计划表上的时间（打算）\npendant = 实际发生的时间（已完成）\n例：Je pars pour 2 semaines. vs J'ai voyagé pendant 2 semaines."
+        },
+        {
+          "id": "1773283767049-ol1otteu5gk",
+          "front": "dans 的核心含义",
+          "back": "……之后（指向未来）\n主句用 futur / futur proche / présent\n英语：in\n例：Le cours commence dans 10 minutes."
+        },
+        {
+          "id": "1773283767049-r2w2lssek4",
+          "front": "dans vs il y a\n怎么区分？",
+          "back": "dans → 未来（……之后）\nil y a → 过去（……之前）\n例：dans 10 min = 10分钟后 / il y a 10 min = 10分钟前"
+        },
+        {
+          "id": "1773283767049-25dtijv3vt3",
+          "front": "en 的核心含义",
+          "back": "完成某事所用时间（强调效率）\n主句常用 passé composé\n例：J'ai fini en deux heures.（两小时就完成了）"
+        },
+        {
+          "id": "1773283767049-8nmsig6ok93",
+          "front": "en vs pendant\n怎么区分？",
+          "back": "en = 完成所用时间（有终点）\npendant = 持续时间（强调过程）\n例：lu le livre en 2h（读完了）vs lu pendant 2h（读了2小时，不一定读完）"
+        },
+        {
+          "id": "1773283767049-al9j2vbd3p",
+          "front": "ça fait...que 的用法",
+          "back": "ça fait + 时间段 + que + présent\n= depuis，口语常用\n例：Ça fait 2 ans que j'habite ici. = J'habite ici depuis 2 ans."
+        },
+        {
+          "id": "1773283767049-twkhlgs55v8",
+          "front": "il y a...que 的用法",
+          "back": "il y a + 时间段 + que + présent\n= depuis，书面常用\n例：Il y a 3 mois que je travaille ici. = Je travaille ici depuis 3 mois."
+        },
+        {
+          "id": "1773283767049-kg64abmneh",
+          "front": "⚠️ il y a 的两种身份",
+          "back": "1. il y a + 时间段（句末）= ago → passé composé\n2. il y a + 时间段 + que + 从句 = depuis → présent\n别混淆！"
+        },
+        {
+          "id": "1773283767049-5lbztt6wr7f",
+          "front": "TCF 3秒判断法\n时间标志词速查",
+          "back": "动作还在做 → depuis / ça fait...que / il y a...que + présent\n动作结束了（过程）→ pendant + passé composé\n多久前做了 → il y a + passé composé\n多久后要做 → dans + futur\n完成用了多久 → en + passé composé\n打算持续多久 → pour"
+        }
+      ]
+    },
+    {
+      "id": 1773282695175,
+      "name": "真题TCF口语 2026-03 Partie 3 Tache1-2",
+      "folderId": "1772564799444",
+      "createdAt": "2026-03-12T02:31:35.175Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Vous voulez savoir la date d'un spectacle. Quelle question posez-vous ?\n（你想知道演出日期。你怎么提问？）",
+          "options": [
+            "À quelle date a lieu ce spectacle ?（这场演出是哪天？）",
+            "À quelle heure a lieu ce spectacle ?（这场演出几点？）",
+            "Combien de temps dure ce spectacle ?（这场演出持续多久？）",
+            "Quel est le nom du spectacle ?（这场演出叫什么？）"
+          ],
+          "correct": 0,
+          "explanation": "À quelle date 问日期，À quelle heure 问时间，Combien de temps 问时长，Quel est le nom 问名称。",
+          "category": "口语-场景一"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Le concert _____ samedi prochain à 20h.\n（补全：音乐会下周六晚8点_____。）",
+          "options": [
+            "a lieu（举行）",
+            "a place（占位）",
+            "fait lieu（做地方）",
+            "prend lieu（拿地方）"
+          ],
+          "correct": 0,
+          "explanation": "avoir lieu = 举行，是固定搭配。其他三个选项不存在。",
+          "category": "口语-场景一"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression est synonyme de « avoir lieu » ?\n（哪个表达与 avoir lieu 同义？）",
+          "options": [
+            "se dérouler（举行）",
+            "se promener（散步）",
+            "se coucher（睡觉）",
+            "se lever（起床）"
+          ],
+          "correct": 0,
+          "explanation": "se dérouler = avoir lieu = 举行。其他三个是日常动作，与「举行」无关。",
+          "category": "口语-场景一"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous demandez si le spectacle convient aux enfants. Quelle phrase est correcte ?\n（你问演出是否适合儿童。哪句正确？）",
+          "options": [
+            "Est-ce que le spectacle est adapté aux enfants ?（演出适合儿童吗？）",
+            "Est-ce que le spectacle est adapté pour enfants ?（语法错误）",
+            "Est-ce que le spectacle est adapté des enfants ?（语法错误）",
+            "Est-ce que le spectacle est adapté les enfants ?（语法错误）"
+          ],
+          "correct": 0,
+          "explanation": "adapté à 是固定搭配，aux = à + les。不用 pour / des / les。",
+          "category": "口语-场景一"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Faut-il réserver _____ ?\n（需要_____预订吗？）",
+          "correct": [
+            "à l'avance"
+          ],
+          "explanation": "à l'avance = 提前，固定搭配。",
+          "category": "口语-场景一"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous voulez savoir le prix du canapé. Quelle question est la plus naturelle ?\n（你想知道沙发价格。哪个问法最自然？）",
+          "options": [
+            "Combien demandez-vous pour le canapé ?（沙发您要多少钱？）",
+            "Combien coûte-vous le canapé ?（语法错误）",
+            "Quel est le canapé prix ?（语法错误）",
+            "Comment est le prix du canapé ?（沙发价格怎么样？— 不自然）"
+          ],
+          "correct": 0,
+          "explanation": "Combien demandez-vous pour... 是二手交易中问价的最自然表达。B 的 coûte-vous 语法错误（coûter 不以人做主语）。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : La télévision _____ bien ?\n（补全：电视_____正常吗？）",
+          "options": [
+            "fonctionne（运转）",
+            "travaille（工作）",
+            "opère（手术/操作）",
+            "joue（玩/演奏）"
+          ],
+          "correct": 0,
+          "explanation": "fonctionner = 机器/电器正常运转。travailler 指人工作，opérer 指手术，jouer 指玩。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Les meubles ont-ils été beaucoup utilisés ? » — Cette phrase est à :\n（这句话的语态是：）",
+          "options": [
+            "la voix passive au passé composé（被动语态复合过去时）",
+            "la voix active au passé composé（主动语态复合过去时）",
+            "la voix passive au présent（被动语态现在时）",
+            "la voix active au présent（主动语态现在时）"
+          ],
+          "correct": 0,
+          "explanation": "ont été utilisés = avoir été + p.p.，这是被动语态的复合过去时。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : C'est fait _____ quoi, cette table ?\n（补全：这张桌子是_____什么做的？）",
+          "options": [
+            "en（用……材质）",
+            "de（的）",
+            "avec（用/和）",
+            "par（被）"
+          ],
+          "correct": 0,
+          "explanation": "en + 材质 是标准搭配：en bois, en verre, en métal。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Je possède cette voiture _____ trois ans.\n（补全：我拥有这辆车_____三年了。）",
+          "options": [
+            "depuis（自从……以来）",
+            "pendant（在……期间）",
+            "il y a（……以前）",
+            "pour（为了）"
+          ],
+          "correct": 0,
+          "explanation": "depuis + 现在时 = 从过去持续到现在。pendant 用于已结束的时间段，il y a 表示过去某个时间点。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les meubles sont en _____ état.\n（家具状况很_____。）",
+          "correct": [
+            "bon",
+            "parfait",
+            "mauvais"
+          ],
+          "explanation": "en bon état = 状况好，en parfait état = 完好，en mauvais état = 状况差。三个都合理。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment demander si on peut négocier le prix ?\n（怎么问价格是否可以商量？）",
+          "options": [
+            "Les prix sont-ils négociables ?（价格可以商量吗？）",
+            "Les prix sont-ils négocieux ?（词不存在）",
+            "Les prix sont-ils négatifs ?（价格是负数吗？）",
+            "Les prix sont-ils négligés ?（价格被忽视了吗？）"
+          ],
+          "correct": 0,
+          "explanation": "négociable = 可协商的。négocieux 不存在，négatif = 负面的，négligé = 被忽视的。",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce meuble est facile _____ transporter. »\n（这件家具容易搬运。）",
+          "options": [
+            "à（……做）",
+            "de（的）",
+            "pour（为了）",
+            "en（在……里）"
+          ],
+          "correct": 0,
+          "explanation": "facile à + inf. 当主语是事物时用 à。Ce meuble est facile à transporter.",
+          "category": "口语-场景二"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot signifie « prendre / aller chercher quelque chose » ?\n（哪个词表示「去取某样东西」？）",
+          "options": [
+            "récupérer（取回）",
+            "recycler（回收利用）",
+            "reculer（后退）",
+            "recueillir（收集/收留）"
+          ],
+          "correct": 0,
+          "explanation": "récupérer = 取回、领取。recycler = 回收，reculer = 后退，recueillir = 收集。",
+          "category": "口语-场景二"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1VeKGyjHPcJ5Q-0ej19g0iksm3JKPf-chigv8iVeZ4II/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773282715487-mvcdb6xov7b",
+          "front": "avoir lieu",
+          "back": "举行、发生\n同义词：se dérouler, se tenir\n例：Le concert a lieu samedi.（音乐会周六举行。）"
+        },
+        {
+          "id": "1773282715487-hyxod7lhfss",
+          "front": "À quelle date...?",
+          "back": "在什么日期……？\n例：À quelle date a lieu ce spectacle ?（这场演出是哪天？）"
+        },
+        {
+          "id": "1773282715487-v1wyady8bv",
+          "front": "À quelle heure...?",
+          "back": "几点钟……？\n例：À quelle heure commence le film ?（电影几点开始？）"
+        },
+        {
+          "id": "1773282715487-wnym8eo1ma",
+          "front": "Combien de temps + durer",
+          "back": "持续多长时间\n例：Combien de temps dure le spectacle ?（演出持续多久？）\ndurer = 持续（不及物动词）"
+        },
+        {
+          "id": "1773282715487-d6hx858pey",
+          "front": "Il s'agit de...",
+          "back": "这是关于……/ 涉及的是……\n例：Il s'agit d'un concert de jazz.（这是一场爵士音乐会。）\n注意：il 是无人称主语，不能换"
+        },
+        {
+          "id": "1773282715487-oy0p3v9lqqm",
+          "front": "une réduction",
+          "back": "折扣、优惠（阴性）\n同义：une remise, un tarif réduit, une promotion\n例：Les étudiants bénéficient d'une réduction.（学生享受折扣。）"
+        },
+        {
+          "id": "1773282715487-rhz4d2pm2k",
+          "front": "être adapté(e) à",
+          "back": "适合……\n注意介词用 à，不用 pour\n例：Ce spectacle est adapté aux enfants.（这场演出适合儿童。）\naux = à + les"
+        },
+        {
+          "id": "1773282715487-s2ohbxjrfe",
+          "front": "à l'avance",
+          "back": "提前\n同义：en avance, au préalable（更正式）\n例：Faut-il réserver à l'avance ?（需要提前预订吗？）"
+        },
+        {
+          "id": "1773282715487-ynaztekoeqh",
+          "front": "Il faut + inf.",
+          "back": "需要做某事（无人称句型）\n例：Il faut réserver.（需要预订。）\nIl faut apporter un document.（需要带证件。）"
+        },
+        {
+          "id": "1773282715487-tl3wr81lqu",
+          "front": "transport en commun",
+          "back": "公共交通\n复数：les transports en commun\n例：Y a-t-il un accès en transport en commun ?（有公共交通到达方式吗？）"
+        },
+        {
+          "id": "1773282715487-9qujwfurlf9",
+          "front": "fonctionner",
+          "back": "运转、正常工作（用于机器/电器）\n例：La télévision fonctionne bien.（电视运转正常。）\n口语同义：marcher（好使）"
+        },
+        {
+          "id": "1773282715487-rig46kgnfq",
+          "front": "récupérer",
+          "back": "取回、领取\n例：récupérer un colis（取快递）\nJe dois venir les récupérer ?（我需要来取吗？）"
+        },
+        {
+          "id": "1773282715487-dg2li8a8714",
+          "front": "Combien demandez-vous pour...?",
+          "back": "您要价多少？（二手交易问价）\n例：Combien demandez-vous pour le canapé ?（沙发您要多少钱？）"
+        },
+        {
+          "id": "1773282715487-ksvd93cpnpo",
+          "front": "en + 材质",
+          "back": "用……材质制成\nen bois（木质）、en verre（玻璃）、en métal（金属）、en cuir（皮革）\n例：C'est fait en quoi ?（这是什么材质做的？）"
+        },
+        {
+          "id": "1773282715487-k2i9vsa9vgg",
+          "front": "en bon état / en mauvais état",
+          "back": "状况好 / 状况差\nen parfait état = 完好无损\n例：Les meubles sont en bon état.（家具状况良好。）"
+        },
+        {
+          "id": "1773282715487-84m9utzie1b",
+          "front": "négociable",
+          "back": "可协商的、可商量的\n例：Les prix sont-ils négociables ?（价格可以商量吗？）\n搭配：faire un prix = 给优惠价"
+        },
+        {
+          "id": "1773282715487-w8aa9e7foo",
+          "front": "depuis + 现在时",
+          "back": "从过去持续到现在（法语用现在时！）\n例：Je possède ces meubles depuis 5 ans.（我拥有这些家具五年了。）\n≠ pendant（已结束的时间段）"
+        },
+        {
+          "id": "1773282715487-zo13oiaj4bh",
+          "front": "facile à + inf.（主语是事物）",
+          "back": "容易做……\n例：Ce meuble est facile à transporter.（这件家具容易搬运。）\n对比：Il est facile de faire ça.（无人称用 de）"
+        },
+        {
+          "id": "1773282715487-1997d394jud",
+          "front": "démonter vs monter",
+          "back": "démonter = 拆卸 / monter = 组装\n前缀 dé- 表示相反动作\n例：Les meubles sont faciles à démonter.（家具容易拆卸。）"
+        },
+        {
+          "id": "1773282715487-45fmn94gmfu",
+          "front": "TCF口语开场白模板",
+          "back": "Merci beaucoup, c'est très gentil !\nJ'aimerais juste vous poser quelques questions.\n（太感谢了！我想问您几个问题。）"
+        },
+        {
+          "id": "1773282715487-8g69bd8kxhk",
+          "front": "TCF口语收尾模板",
+          "back": "Parfait, merci pour toutes ces informations.\nJe pense que ça pourrait m'intéresser !\n（太好了，谢谢这些信息。我觉得我可能会感兴趣！）"
+        }
+      ]
+    },
+    {
+      "id": 1773282229099,
+      "name": "习语：Avoir la main verte",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-12T02:23:49.099Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Ma voisine a la main verte : son jardin est magnifique !\nQue signifie « avoir la main verte » ?\n（我的邻居有绿手指：她的花园太漂亮了！\n「avoir la main verte」是什么意思？）",
+          "options": [
+            "Elle aime la couleur verte.（她喜欢绿色。）",
+            "Elle est douée pour le jardinage.（她擅长园艺。）",
+            "Elle a mal à la main.（她手疼。）",
+            "Elle porte des gants verts.（她戴着绿色手套。）"
+          ],
+          "correct": 1,
+          "explanation": "avoir la main verte 是固定习语，意思是擅长园艺、善于种植。不是字面意思。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai pas _____ main verte, toutes mes plantes meurent.\n（我不擅长园艺，我所有的植物都死了。）",
+          "options": [
+            "le（阳性定冠词）",
+            "la（阴性定冠词）",
+            "les（复数定冠词）",
+            "un（阳性不定冠词）"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配 avoir la main verte，必须用 la（阴性单数），因为 main 是阴性名词。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est synonyme de « Mon père a la main verte » ?\n（哪句话和「我爸爸擅长园艺」意思相同？）",
+          "options": [
+            "Mon père déteste les plantes.（我爸爸讨厌植物。）",
+            "Mon père sait faire pousser les plantes.（我爸爸会种植物。）",
+            "Mon père a les mains sales.（我爸爸手很脏。）",
+            "Mon père travaille dans un hôpital.（我爸爸在医院工作。）"
+          ],
+          "correct": 1,
+          "explanation": "avoir la main verte = savoir faire pousser les plantes = être doué pour le jardinage。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Complétez : Elle est vraiment _____ pour le jardinage.\n（填空：她真的很_____园艺。）",
+          "options": [
+            "douée（擅长的，阴性）",
+            "doué（擅长的，阳性）",
+            "doués（擅长的，阳性复数）",
+            "douées（擅长的，阴性复数）"
+          ],
+          "correct": 0,
+          "explanation": "主语 elle 是阴性单数，所以用 douée。être doué(e) pour qqch = 擅长某事。",
+          "category": "形容词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Avoir la main verte » — quel est le mot correct ?\n（「Avoir la main verte」——哪个词是正确的？）",
+          "options": [
+            "avoir la main vertes",
+            "avoir les mains vertes",
+            "avoir la main verte",
+            "avoir la mains verte"
+          ],
+          "correct": 2,
+          "explanation": "固定表达必须用单数 la main verte，不能改成复数。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Contrairement à ma sœur, je suis _____ de faire pousser quoi que ce soit.\n（跟我姐姐相反，我什么都种不活。）",
+          "correct": [
+            "incapable"
+          ],
+          "explanation": "être incapable de + inf. = 无法做某事。与 avoir la main verte 构成反义语境。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « Toutes mes plantes meurent », quel est l'infinitif du verbe « meurent » ?\n（在句子中，动词 meurent 的原形是什么？）",
+          "options": [
+            "meurer",
+            "mourir（死亡）",
+            "meurir",
+            "mourrir"
+          ],
+          "correct": 1,
+          "explanation": "mourir（死亡），第三人称复数现在时：ils/elles meurent。不规则动词，TCF 高频考点。",
+          "category": "动词变位"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达可以替换 « avoir la main verte »？\n（选出所有同义表达。）",
+          "options": [
+            "être doué pour le jardinage（擅长园艺）",
+            "savoir faire pousser les plantes（会种植物）",
+            "avoir les mains propres（手很干净）",
+            "aimer la couleur verte（喜欢绿色）"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "être doué pour le jardinage 和 savoir faire pousser les plantes 都是 avoir la main verte 的同义替换。其余为干扰项。",
+          "category": "同义替换"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1W48nWa_Z_Rre5RA-xW3QF9asBzOigI8eb0mTH3NvjF8/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773282284849-irxx8y04h3m",
+          "front": "avoir la main verte",
+          "back": "擅长园艺，善于种植花草\n= être doué(e) pour le jardinage\n例：Ma grand-mère a la main verte.（我奶奶很会种花草。）"
+        },
+        {
+          "id": "1773282284849-rdva8bg2r7",
+          "front": "la main 是阳性还是阴性？",
+          "back": "阴性（la main）\n⚠️ 常考陷阱：虽然不以 -e 结尾，但 main 是阴性名词"
+        },
+        {
+          "id": "1773282284849-oql6pqc1jb",
+          "front": "avoir la main verte 能用复数 les mains vertes 吗？",
+          "back": "不能！\n这是固定搭配，必须用单数 la main verte"
+        },
+        {
+          "id": "1773282284849-p2ntlbty8w",
+          "front": "être doué(e) pour + qqch",
+          "back": "擅长某事\n例：Elle est douée pour le jardinage.（她擅长园艺。）\n注意：主语阴性加 -e"
+        },
+        {
+          "id": "1773282284849-o2vdg76r5mc",
+          "front": "faire pousser",
+          "back": "使……生长，种植\n例：Il sait faire pousser les plantes.（他会种植物。）"
+        },
+        {
+          "id": "1773282284849-tera6lnm5dp",
+          "front": "mourir 现在时变位（je / il / ils）",
+          "back": "je meurs / il meurt / ils meurent\n中文：死亡\n例：Toutes mes plantes meurent.（我所有的植物都死了。）"
+        },
+        {
+          "id": "1773282284849-p7x9nefwrei",
+          "front": "incapable de + inf.",
+          "back": "无法做某事\n例：Je suis incapable de faire pousser quoi que ce soit.（我什么都种不活。）"
+        },
+        {
+          "id": "1773282284849-uxjvq9g250q",
+          "front": "quoi que ce soit",
+          "back": "任何东西（用于否定/疑问语境）\n例：Je ne comprends pas quoi que ce soit.（我什么都不懂。）"
+        },
+        {
+          "id": "1773282284849-36ep1hsnr8d",
+          "front": "contrairement à",
+          "back": "与……相反\n例：Contrairement à ma sœur, je n'ai pas la main verte.（跟我姐姐不同，我不擅长园艺。）"
+        },
+        {
+          "id": "1773282284849-r70dju7ney",
+          "front": "TCF 陷阱：avoir la main verte 的字面干扰项",
+          "back": "❌ 她喜欢绿色\n❌ 她手受伤了\n❌ 她戴绿手套\n✅ 正确：她擅长园艺"
+        }
+      ]
+    },
+    {
+      "id": 1773281984465,
+      "name": "TCF A2 Lecon 6 听力10-12题文档",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-12T02:19:44.465Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "'Le prochain train à destination de Lyon Part-Dieu partira voie 3 dans 5 minutes.' Où peut-on entendre cette annonce ?\n（'下一班前往里昂帕丢站的列车将于5分钟后从3号站台出发。'在哪里可以听到这条广播？）",
+          "options": [
+            "Dans un aéroport.（在机场。）",
+            "Dans une gare.（在火车站。）",
+            "Dans un bus.（在公交车上。）",
+            "Dans un parking.（在停车场。）"
+          ],
+          "correct": 1,
+          "explanation": "关键词 train（火车）+ voie（站台）+ destination（目的地）→ 火车站场景。gare 是火车站，station 是地铁站，注意区分。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Mesdames et Messieurs les passagers, nous vous informons que le vol AF326 à destination de Madrid est retardé de 45 minutes.' Où peut-on entendre cette annonce ?\n（'各位旅客，我们通知您，飞往马德里的AF326航班延误45分钟。'在哪里可以听到这条广播？）",
+          "options": [
+            "Dans une gare routière.（在长途汽车站。）",
+            "Dans un port.（在港口。）",
+            "Dans un aéroport.（在机场。）",
+            "Dans un hôtel.（在酒店。）"
+          ],
+          "correct": 2,
+          "explanation": "关键词 vol（航班）+ passagers（旅客）+ retardé（延误）→ 机场场景。vol 是本题核心定位词。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Chers clients, le magasin fermera ses portes dans 15 minutes. Merci de vous diriger vers les caisses.' Où peut-on entendre cette annonce ?\n（'亲爱的顾客们，商店将在15分钟后关门。请前往收银台。'在哪里可以听到这条广播？）",
+          "options": [
+            "Dans une école.（在学校。）",
+            "Dans un supermarché.（在超市。）",
+            "Dans une banque.（在银行。）",
+            "Dans un cinéma.（在电影院。）"
+          ],
+          "correct": 1,
+          "explanation": "关键词 clients（顾客）+ magasin（商店）+ caisses（收银台）→ 超市/商场场景。三个词互相印证。",
+          "category": "场景识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'N'oubliez pas : la date limite pour rendre vos dossiers est le 15 mars. Passé ce délai, aucune inscription ne sera acceptée.' Quel est l'objectif de cette annonce ?\n（'别忘了：提交材料的截止日期是3月15日。逾期将不接受任何注册。'这条广播的目的是什么？）",
+          "options": [
+            "Féliciter.（祝贺。）",
+            "Informer.（告知。）",
+            "Avertir.（警告/提醒。）",
+            "Consoler.（安慰。）"
+          ],
+          "correct": 2,
+          "explanation": "N'oubliez pas（别忘了）+ date limite（截止日期）+ aucune...ne sera acceptée（不接受）→ 带有后果警告的提醒 = avertir。虽然也有告知成分，但强调「逾期不候」的后果，性质更接近警告。",
+          "category": "意图识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Suite aux fortes pluies, la circulation est perturbée sur l'autoroute A6. Veuillez emprunter des itinéraires alternatifs.' Quel est l'objectif de ce message ?\n（'由于暴雨，A6高速公路交通受阻。请走替代路线。'这条消息的目的是什么？）",
+          "options": [
+            "Ordonner.（命令。）",
+            "Proposer.（提议。）",
+            "Avertir.（警告。）",
+            "Rassurer.（安抚。）"
+          ],
+          "correct": 2,
+          "explanation": "fortes pluies（暴雨）+ circulation perturbée（交通受阻）→ 告知危险/异常情况 + 提醒应对 = avertir。虽然末尾有建议成分，但整体意图是警告出行者注意异常状况。",
+          "category": "意图识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Votre candidature a bien été reçue. Nous reviendrons vers vous dans les meilleurs délais.' Quel est l'objectif de ce message ?\n（'您的申请已收到。我们会尽快回复您。'这条消息的目的是什么？）",
+          "options": [
+            "Avertir.（警告。）",
+            "Rassurer.（安抚。）",
+            "Critiquer.（批评。）",
+            "Interdire.（禁止。）"
+          ],
+          "correct": 1,
+          "explanation": "a bien été reçue（已收到）+ dans les meilleurs délais（尽快）→ 确认收到 + 承诺回复 = 让对方放心 = rassurer。没有任何危险或警告成分。",
+          "category": "意图识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Chers élèves, nous vous rappelons que l'utilisation des téléphones portables est interdite pendant les cours.' À qui s'adresse ce message ?\n（'亲爱的同学们，我们提醒你们，上课期间禁止使用手机。'这条消息是对谁说的？）",
+          "options": [
+            "Aux patients d'un hôpital.（给医院的病人。）",
+            "Aux clients d'un restaurant.（给餐厅的顾客。）",
+            "Aux élèves d'une école.（给学校的学生。）",
+            "Aux passagers d'un avion.（给飞机上的乘客。）"
+          ],
+          "correct": 2,
+          "explanation": "关键词 élèves（学生）+ cours（课程）+ téléphones portables interdits → 学校场景，受众 = 学生。élèves 直接点明了对象。",
+          "category": "受众识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Chers résidents, en raison de travaux de maintenance, l'eau sera coupée demain entre 9h et 14h.' À qui s'adresse ce message ?\n（'亲爱的居民们，由于维修工程，明天9点到14点之间将停水。'这条消息是对谁说的？）",
+          "options": [
+            "Aux employés d'une entreprise.（给公司的员工。）",
+            "Aux habitants d'un immeuble.（给一栋楼的住户。）",
+            "Aux touristes d'une ville.（给一个城市的游客。）",
+            "Aux spectateurs d'un concert.（给音乐会的观众。）"
+          ],
+          "correct": 1,
+          "explanation": "关键词 résidents（居民）+ eau coupée（停水）+ travaux de maintenance（维修工程）→ 居民楼/社区通知，受众 = 住户。résidents 和 habitants 是同义词。",
+          "category": "受众识别"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1QFJHIK9dC8D2PYbTWVqgOCVi6hWtiqJAgyj8XIuzuyI/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773281997477-8wbynigm1d",
+          "front": "la pièce（剧场语境）",
+          "back": "戏剧、剧目\n例：La pièce va reprendre.（演出即将继续。）\n⚠️ 多义词：还可以指房间、硬币、零件"
+        },
+        {
+          "id": "1773281997477-ldy4q5t1um",
+          "front": "reprendre",
+          "back": "重新开始、继续\n例：Le cours va reprendre après la pause.（课程将在休息后继续。）\nre- = 重新 + prendre = 开始"
+        },
+        {
+          "id": "1773281997477-aw70vn2mvpd",
+          "front": "Merci de bien vouloir + inf.",
+          "back": "烦请……、敬请……\n极正式的礼貌请求，公共广播常用\n例：Merci de bien vouloir rejoindre vos places.（请回到您的座位。）"
+        },
+        {
+          "id": "1773281997477-5lgayilupzx",
+          "front": "rejoindre",
+          "back": "回到、前往、会合\n例：Veuillez rejoindre vos places.（请回到座位。）\n变位同 joindre（不规则）"
+        },
+        {
+          "id": "1773281997477-pc29tgt55gq",
+          "front": "avertir",
+          "back": "警告、提醒\n例：Cette annonce sert à avertir les passagers.（这条广播用来提醒乘客。）\n名词：un avertissement（警告）"
+        },
+        {
+          "id": "1773281997477-th8bd4f7olc",
+          "front": "Attention !",
+          "back": "注意！当心！\n单独使用 = 发出警告\n广播中出现 Attention → 后面通常跟危险信息"
+        },
+        {
+          "id": "1773281997477-tov1851yqln",
+          "front": "des pickpockets",
+          "back": "扒手（复数）\n英语借词，法语中直接使用\n例：Des pickpockets agissent dans la station.（扒手在车站内活动。）"
+        },
+        {
+          "id": "1773281997477-218ln28tx",
+          "front": "agir",
+          "back": "行动、活动、起作用\n第二组动词：agis, agis, agit, agissons, agissez, agissent\n例：Des voleurs agissent dans le quartier.（小偷在这个街区活动。）"
+        },
+        {
+          "id": "1773281997477-u2ap3lnl6fa",
+          "front": "Veuillez + inf.",
+          "back": "请您……（极正式命令式）\nvouloir 的命令式 vous 形式\n例：Veuillez patienter.（请您耐心等候。）"
+        },
+        {
+          "id": "1773281997477-6ew5tzxe0v",
+          "front": "faire attention à",
+          "back": "注意……、当心……\n例：Faites attention à vos affaires.（注意您的物品。）\nà 后接名词或动词原形"
+        },
+        {
+          "id": "1773281997477-lhat0182ozb",
+          "front": "il est interdit de + inf.",
+          "back": "禁止做……\n例：Il est interdit de fumer.（禁止吸烟。）\n同义：Défense de + inf. / Ne pas + inf.（标牌）"
+        },
+        {
+          "id": "1773281997477-bmwewdsg0ui",
+          "front": "donner à manger à",
+          "back": "给……喂食\n例：Il est interdit de donner à manger aux animaux.（禁止给动物喂食。）\n注意两个 à：à manger（食物）+ à qqn（对象）"
+        },
+        {
+          "id": "1773281997477-3nvrng1js0r",
+          "front": "animal → 复数？",
+          "back": "animaux\n规则：以 -al 结尾 → -aux\n同类：journal → journaux, hôpital → hôpitaux\n例外：festival → festivals"
+        },
+        {
+          "id": "1773281997477-56l7ezipxau",
+          "front": "nous vous rappelons que...",
+          "back": "我们提醒您……\nrappeler = 提醒、使想起\n例：Nous vous rappelons que le port du masque est obligatoire.（我们提醒您必须佩戴口罩。）"
+        },
+        {
+          "id": "1773281997477-zj3pb9470qq",
+          "front": "la gare vs la station",
+          "back": "la gare = 火车站\nla station = 地铁站 / 公交站\n例：la gare de Lyon（里昂火车站）\nla station de métro（地铁站）"
+        },
+        {
+          "id": "1773281997477-pk3qk8oskyf",
+          "front": "le vol（机场语境）",
+          "back": "航班\n例：Le vol AF326 est retardé.（AF326航班延误了。）\n⚠️ 多义词：还可以指盗窃、飞行"
+        },
+        {
+          "id": "1773281997477-gb8obx18j67",
+          "front": "la caisse（商场语境）",
+          "back": "收银台\n例：Merci de vous diriger vers les caisses.（请前往收银台。）\n⚠️ 多义词：还可以指箱子、基金"
+        },
+        {
+          "id": "1773281997477-hvxehvyqy1",
+          "front": "rassurer",
+          "back": "安抚、使放心\n例：Ce message sert à rassurer les candidats.（这条消息是为了让候选人放心。）\n反义：inquiéter（使担心）"
+        },
+        {
+          "id": "1773281997477-iyftuerqfzi",
+          "front": "ordonner vs avertir vs proposer vs rassurer",
+          "back": "ordonner = 命令（强制）\navertir = 警告/提醒（告知危险）\nproposer = 建议（提供选择）\nrassurer = 安抚（消除担忧）\nTCF 意图识别四大选项"
+        },
+        {
+          "id": "1773281997477-0uaivljccgzr",
+          "front": "TCF 听力：场景识别解题法",
+          "back": "抓「场景专属词」→ 秒选\npièce → 剧场\nvol → 机场\ntrain + voie → 火车站\ncaisses + clients → 超市\nanimaux + interdit → 动物园"
+        }
+      ]
+    },
+    {
+      "id": 1773281914149,
+      "name": "TCF A2 Lecon 6 听力1-3题",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-12T02:18:34.149Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Pardon, où se trouve la gare ?\n（打扰一下，火车站在哪里？）",
+          "options": [
+            "Hier matin.（昨天早上。）",
+            "C'est tout droit, puis à gauche.（一直走，然后左转。）",
+            "Merci beaucoup.（非常感谢。）",
+            "Je prends le bus.（我坐公交车。）"
+          ],
+          "correct": 1,
+          "explanation": "问 où（哪里），必须回答方位。B 给出了方向指引：一直走然后左转。A 是时间，C 是感谢，D 是交通方式。",
+          "category": "听力-问路场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Excusez-moi, la pharmacie, c'est par où ?\n（打扰一下，药房往哪走？）",
+          "options": [
+            "C'est gratuit.（是免费的。）",
+            "Deuxième à gauche.（第二个路口左转。）",
+            "C'est gentil.（你真好。）",
+            "À 8 heures.（8点。）"
+          ],
+          "correct": 1,
+          "explanation": "问路 → 回答方位。B 给出'第二个路口左转'，是唯一的方位回答。A 说免费，C 是客套，D 是时间。",
+          "category": "听力-问路场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu fais samedi ?\n（你周六做什么？）",
+          "options": [
+            "En métro.（坐地铁。）",
+            "Je visite un musée.（我去参观博物馆。）",
+            "C'est à côté.（在旁边。）",
+            "Non, merci.（不，谢谢。）"
+          ],
+          "correct": 1,
+          "explanation": "Qu'est-ce que tu fais = 问活动内容。B 描述了一个具体活动（参观博物馆）。A 是交通方式，C 是方位，D 是拒绝。",
+          "category": "听力-计划场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que vous faites pendant les vacances ?\n（您假期做什么？）",
+          "options": [
+            "Avec ma sœur.（和我姐姐一起。）",
+            "Depuis deux ans.（两年了。）",
+            "On part à la montagne.（我们去山里。）",
+            "C'est très bien.（非常好。）"
+          ],
+          "correct": 2,
+          "explanation": "问假期做什么 → 回答活动。C 说'我们去山里'，是活动计划。A 回答的是'和谁'，B 回答的是'多久'，D 是评价。",
+          "category": "听力-计划场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À qui est ce sac ?\n（这个包是谁的？）",
+          "options": [
+            "Il est rouge.（它是红色的。）",
+            "À elle, je crois.（我觉得是她的。）",
+            "Dans le salon.（在客厅里。）",
+            "C'est joli.（很漂亮。）"
+          ],
+          "correct": 1,
+          "explanation": "À qui = 问归属。B 用 à elle 回答归属，且 je crois 表示不确定语气，和原题 C 选项 à moi, je pense 结构相同。A 描述颜色，C 说地点，D 是评价。",
+          "category": "听力-归属场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À qui sont ces clés ?\n（这些钥匙是谁的？）",
+          "options": [
+            "À nous.（是我们的。）",
+            "Elles sont neuves.（它们是新的。）",
+            "Sur la table.（在桌子上。）",
+            "Oui, bien sûr.（是的，当然。）"
+          ],
+          "correct": 0,
+          "explanation": "À qui sont = 问归属（复数）。A 用 à nous 直接回应。B 描述新旧，C 说位置，D 是肯定回答但不对题。",
+          "category": "听力-归属场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Chers clients, une promotion exceptionnelle vous attend au rayon fromagerie.' Où peut-on entendre cette annonce ?\n（'亲爱的顾客，奶酪区有特别促销等着您。'在哪里能听到这则广播？）",
+          "options": [
+            "Dans une fromagerie.（在奶酪店里。）",
+            "Dans un supermarché.（在超市里。）",
+            "Dans un restaurant.（在餐厅里。）",
+            "Dans un marché.（在集市上。）"
+          ],
+          "correct": 1,
+          "explanation": "rayon fromagerie = 超市里的奶酪区，不是独立奶酪店。rayon 是超市专用词，加上 chers clients（亲爱的顾客），确认是超市广播。A 是局部词汇陷阱。",
+          "category": "听力-场景判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Mesdames et messieurs, le vol AF326 à destination de Lyon est prêt pour l'embarquement, porte 12.' Où peut-on entendre cette annonce ?\n（'女士们先生们，飞往里昂的AF326航班已准备登机，12号登机口。'在哪能听到？）",
+          "options": [
+            "Dans un train.（在火车上。）",
+            "Dans un aéroport.（在机场。）",
+            "Dans un bus.（在公交车上。）",
+            "Dans une gare.（在火车站。）"
+          ],
+          "correct": 1,
+          "explanation": "vol（航班）+ embarquement（登机）+ porte 12（12号登机口）= 机场三连确认。火车用 voiture/quai，不用 vol/porte。",
+          "category": "听力-场景判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Comment tu vas au travail ?\n（你怎么去上班？）",
+          "options": [
+            "À pied.（步行。）",
+            "Lundi matin.（周一早上。）",
+            "Ça va bien.（我很好。）",
+            "Au bureau.（去办公室。）"
+          ],
+          "correct": 0,
+          "explanation": "Comment = 问方式。A 回答'步行'是交通方式。B 是时间，C 是问候回答（comment 在此不是问候），D 是地点。注意：Comment tu vas ≠ Comment ça va，前者问方式，后者问状态。",
+          "category": "听力-交通方式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Le responsable du rayon boulangerie est attendu à la caisse 5.' Où peut-on entendre cette annonce ?\n（'面包区负责人请到5号收银台。'在哪能听到？）",
+          "options": [
+            "Dans une boulangerie.（在面包店。）",
+            "Dans un hôtel.（在酒店。）",
+            "Dans un supermarché.（在超市。）",
+            "Dans un café.（在咖啡馆。）"
+          ],
+          "correct": 2,
+          "explanation": "rayon boulangerie = 超市面包区（不是独立面包店）。caisse（收银台）也是超市标志词。rayon + caisse = 超市确认。A 是局部词汇陷阱，和 rayon boucherie → boucherie 完全同一套路。",
+          "category": "听力-场景判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À qui est cette écharpe ?\n（这条围巾是谁的？）",
+          "options": [
+            "Elle est en laine.（它是羊毛的。）",
+            "Ce n'est pas grave.（没关系。）",
+            "À toi, non ?\n（是你的吧？）",
+            "Je la trouve belle.（我觉得它很漂亮。）"
+          ],
+          "correct": 2,
+          "explanation": "À qui = 问归属 → 回答必须是 à + 重读代词。C 用 à toi 回应，且 non ? 表示反问确认，非常地道。A 描述材质，B 是安慰语，D 是评价。",
+          "category": "听力-归属场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Qu'est-ce que tu prends pour le petit-déjeuner ?\n（你早餐吃什么？）",
+          "options": [
+            "À 7 heures.（7点。）",
+            "Un café et un croissant.（一杯咖啡和一个牛角包。）",
+            "À la maison.（在家。）",
+            "Avec ma mère.（和我妈妈一起。）"
+          ],
+          "correct": 1,
+          "explanation": "Qu'est-ce que tu prends = 问'你吃/喝什么'。B 给出具体食物，是唯一回答内容的选项。A 是时间，C 是地点，D 是同伴。",
+          "category": "听力-活动内容"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Mesdames et messieurs les voyageurs, le TGV 6824 à destination de Marseille partira voie 3 dans 10 minutes.' Où peut-on entendre cette annonce ?\n（'旅客们，开往马赛的TGV 6824次列车将于10分钟后从3号站台出发。'在哪能听到？）",
+          "options": [
+            "Dans un avion.（在飞机上。）",
+            "Dans un aéroport.（在机场。）",
+            "Dans une gare.（在火车站。）",
+            "Dans un métro.（在地铁里。）"
+          ],
+          "correct": 2,
+          "explanation": "TGV（法国高铁）+ voyageurs（旅客）+ voie 3（3号站台）= 火车站。voie 是火车站专用词，飞机用 porte，地铁用 ligne。",
+          "category": "听力-场景判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Où est la librairie, s'il vous plaît ?\n（请问书店在哪里？）",
+          "options": [
+            "C'est 15 euros.（15欧元。）",
+            "Elle est fermée le lundi.（它周一关门。）",
+            "En face de la poste.（在邮局对面。）",
+            "J'aime lire.（我喜欢读书。）"
+          ],
+          "correct": 2,
+          "explanation": "Où = 问地点 → 回答方位。C 用 en face de（在……对面）给出位置。A 是价格，B 虽然和书店相关但没回答位置，D 是个人喜好。注意：librairie = 书店 ≠ library（图书馆 = bibliothèque）。",
+          "category": "听力-问路场景"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avec qui tu pars en voyage ?\n（你和谁一起去旅行？）",
+          "options": [
+            "En Espagne.（去西班牙。）",
+            "La semaine prochaine.（下周。）",
+            "Avec des amis.（和朋友们。）",
+            "En avion.（坐飞机。）"
+          ],
+          "correct": 2,
+          "explanation": "Avec qui = 问同伴。C 回答'和朋友们一起'。A 是目的地（où），B 是时间（quand），D 是交通方式（comment）。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "'Chers voyageurs, en raison d'un incident technique, le train 4512 aura un retard de 20 minutes. Nous nous excusons pour la gêne occasionnée.' Où peut-on entendre cette annonce ?\n（'亲爱的旅客，由于技术故障，4512次列车将延误20分钟。对此造成的不便我们深表歉意。'在哪能听到？）",
+          "options": [
+            "Dans un avion.（在飞机上。）",
+            "Dans un supermarché.（在超市里。）",
+            "Dans une gare.（在火车站。）",
+            "Dans un hôpital.（在医院里。）"
+          ],
+          "correct": 2,
+          "explanation": "voyageurs + train + retard（延误）= 火车站。飞机用 vol 不用 train，超市用 clients 不用 voyageurs。另外 Nous nous excusons pour la gêne occasionnée 是法国公共交通标准致歉语。",
+          "category": "听力-场景判断"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ppXukoPrqLO_xXFaNJ8wJe-qL0NLrOVjuLvkavmsDvM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773281943852-naecdtnm6ml",
+          "front": "où",
+          "back": "哪里（疑问词）\n听到 où → 答案必须包含方位/地点信息\n例：Où est la poste ? → C'est tout droit."
+        },
+        {
+          "id": "1773281943852-tg1b5m6j5hk",
+          "front": "Qu'est-ce que...?",
+          "back": "……是什么？/ 做什么？\n听到 Qu'est-ce que → 答案必须是活动/事物内容\n例：Qu'est-ce que tu fais ? → Je vais à la mer."
+        },
+        {
+          "id": "1773281943852-vbamjar7xw",
+          "front": "À qui est... ?",
+          "back": "……是谁的？（问归属）\n回答结构：À + 重读代词\n例：À qui est ce verre ? → À moi, je pense."
+        },
+        {
+          "id": "1773281943852-glyyc87tyah",
+          "front": "Comment... ?",
+          "back": "怎么/如何？（问方式）\n听到 comment → 答案是方式/手段\n例：Comment tu y vas ? → À pied."
+        },
+        {
+          "id": "1773281943852-1p1gpqfb9r1",
+          "front": "Avec qui... ?",
+          "back": "和谁？（问同伴）\n回答必须包含人物\n例：Avec qui tu pars ? → Avec des amis."
+        },
+        {
+          "id": "1773281943852-bg0czs6frld",
+          "front": "Quand... ?",
+          "back": "什么时候？（问时间）\n回答必须是时间信息\n例：Quand tu pars ? → La semaine prochaine."
+        },
+        {
+          "id": "1773281943852-2bpzkaq5icv",
+          "front": "重读代词（全套）",
+          "back": "moi / toi / lui / elle\nnous / vous / eux / elles\n用于 à qui 归属回答：À moi, à toi, à lui..."
+        },
+        {
+          "id": "1773281943852-qnz4tmgrcdd",
+          "front": "à droite",
+          "back": "右转\n问路高频词\n例：Première à droite. = 第一个路口右转。"
+        },
+        {
+          "id": "1773281943852-yp4jbkfxmsf",
+          "front": "à gauche",
+          "back": "左转\n例：Deuxième à gauche. = 第二个路口左转。"
+        },
+        {
+          "id": "1773281943852-9tteldwpcrk",
+          "front": "tout droit",
+          "back": "一直走\n例：C'est tout droit. = 一直走就到。"
+        },
+        {
+          "id": "1773281943852-vd4x6fzc9ef",
+          "front": "en face de",
+          "back": "在……对面\n例：La librairie est en face de la poste. = 书店在邮局对面。"
+        },
+        {
+          "id": "1773281943852-j981ytt688s",
+          "front": "à côté de",
+          "back": "在……旁边\n例：C'est à côté de la banque. = 在银行旁边。"
+        },
+        {
+          "id": "1773281943852-kfr9pi3fuk9",
+          "front": "au bout de la rue",
+          "back": "在街道尽头\n例：La pharmacie est au bout de la rue. = 药房在街尾。"
+        },
+        {
+          "id": "1773281943852-zcmb17dqc2",
+          "front": "au coin de",
+          "back": "在……拐角\n例：Le café est au coin de la rue. = 咖啡馆在街角。"
+        },
+        {
+          "id": "1773281943852-dgwt81lalfl",
+          "front": "voiture（火车语境）",
+          "back": "车厢（不是汽车！）\n例：Votre place est en voiture 7. = 您的座位在第7节车厢。\n⚠️ 一词多义：日常 = 汽车，火车 = 车厢"
+        },
+        {
+          "id": "1773281943852-5wetmum895n",
+          "front": "wagon-restaurant",
+          "back": "火车餐车（n.m.）\nwagon + restaurant 的复合词\n⚠️ 不等于独立餐厅 restaurant\n复数：des wagons-restaurants"
+        },
+        {
+          "id": "1773281943852-dmycd02gs0v",
+          "front": "rayon（超市语境）",
+          "back": "货架区/部门\n例：rayon boucherie = 肉类区\n⚠️ 只有超市/大卖场才分 rayon\n其他含义：光线、半径"
+        },
+        {
+          "id": "1773281943852-eerxblfifkp",
+          "front": "rayon boucherie",
+          "back": "超市里的肉类区\n⚠️ ≠ une boucherie（独立肉铺）\n听到 rayon + 任何商品类 → 超市场景"
+        },
+        {
+          "id": "1773281943852-i32ie0m2u9",
+          "front": "rayon boulangerie",
+          "back": "超市里的面包区\n⚠️ ≠ une boulangerie（独立面包店）"
+        },
+        {
+          "id": "1773281943852-3qrvsy782nz",
+          "front": "rayon fromagerie",
+          "back": "超市里的奶酪区\n⚠️ ≠ une fromagerie（独立奶酪店）"
+        },
+        {
+          "id": "1773281943852-gysadke2t9",
+          "front": "accueil",
+          "back": "前台/接待处/服务台（n.m.）\n超市、酒店、公司都有 accueil\n⚠️ 单独出现不能定位场景，需要配合其他词"
+        },
+        {
+          "id": "1773281943852-7pqlejfqjb9",
+          "front": "être à la disposition de qqn",
+          "back": "供某人使用/听候某人吩咐\n正式表达，常见于广播和商务\n例：Un wagon-restaurant est à votre disposition."
+        },
+        {
+          "id": "1773281943852-hhyjs15k37s",
+          "front": "est attendu(e)",
+          "back": "被等候/被请到（被动语态）\nêtre + 过去分词\n广播常用：Le responsable est attendu à l'accueil.\n= 请负责人到前台来。"
+        },
+        {
+          "id": "1773281943852-n9p9j9znx6",
+          "front": "informer qqn que...",
+          "back": "通知某人……\n例：La société vous informe qu'un wagon-restaurant est disponible.\n名词：une information（一条信息）"
+        },
+        {
+          "id": "1773281943852-yjmk1wtl74q",
+          "front": "voyageur / voyageuse",
+          "back": "旅客（n.）\n来自动词 voyager（旅行）\n火车站/火车广播常用\n⚠️ 飞机更常用 passager(ère)"
+        },
+        {
+          "id": "1773281943852-2d1kcyw0dlf",
+          "front": "passager / passagère",
+          "back": "乘客（n.）\n飞机、轮船常用\n⚠️ 区分：voyageur 多用于火车"
+        },
+        {
+          "id": "1773281943852-hv7tvy5i3nw",
+          "front": "火车场景关键词",
+          "back": "voyageurs, wagon, voiture + 数字, quai, voie, TGV, SNCF, gare, correspondance, billet\n听到这些词 → 火车/火车站"
+        },
+        {
+          "id": "1773281943852-vshoufde29n",
+          "front": "飞机/机场场景关键词",
+          "back": "passagers, vol, embarquement, porte + 数字, décollage, atterrissage, ceinture de sécurité, aéroport\n听到这些词 → 飞机/机场"
+        },
+        {
+          "id": "1773281943852-ruyokzh8jl8",
+          "front": "超市场景关键词",
+          "back": "chers clients, rayon + 商品类, caisse（收银台）, promotion, soldes, accueil\n听到 rayon 或 chers clients → 超市"
+        },
+        {
+          "id": "1773281943852-4zd7u44s7y8",
+          "front": "voie（火车站）",
+          "back": "站台\n例：Le train partira voie 3. = 火车将从3号站台出发。\n⚠️ 飞机用 porte（登机口），不用 voie"
+        },
+        {
+          "id": "1773281943852-oj34uf7gvae",
+          "front": "quai",
+          "back": "站台（n.m.）\n火车站/地铁站用\n例：Le train arrive au quai 2. = 火车到达2号站台。"
+        },
+        {
+          "id": "1773281943852-fy1kako7n95",
+          "front": "librairie ≠ library",
+          "back": "librairie = 书店（法语）\nbibliothèque = 图书馆\n⚠️ 法英假朋友（faux ami），TCF 爱考！"
+        },
+        {
+          "id": "1773281943852-re6vqrmt5g8",
+          "front": "TCF听力3秒判断法",
+          "back": "1. 抓疑问词 → 确定答案类型\n2. 扫选项找对应类型的词\n3. 排除类型不匹配的选项\n例：où → 找方位词；qu'est-ce que → 找活动词"
+        },
+        {
+          "id": "1773281943852-e1924g66zfw",
+          "front": "TCF听力陷阱：局部词汇",
+          "back": "出题人从复合表达中抽出一个词做干扰\nwagon-restaurant → 陷阱选项 restaurant\nrayon boucherie → 陷阱选项 boucherie\n⚠️ 永远看完整表达，不要只抓部分"
+        },
+        {
+          "id": "1773281943852-67mnmm8ktno",
+          "front": "TCF听力陷阱：语义联想",
+          "back": "题干和干扰项有生活关联但问答不匹配\n例：verre（杯子）→ 干扰项 jus de fruit（果汁）\n⚠️ 先锁定疑问词，不被相关词汇带偏"
+        },
+        {
+          "id": "1773281943852-dplhmej6fiu",
+          "front": "boucherie / boucher",
+          "back": "boucherie = 肉铺（n.f.）\nboucher / bouchère = 屠夫/肉店老板\n同类：boulangerie/boulanger, pâtisserie/pâtissier, poissonnerie/poissonnier"
+        },
+        {
+          "id": "1773281943852-sj8gvb5e0k",
+          "front": "Nous nous excusons pour la gêne occasionnée.",
+          "back": "对此造成的不便我们深表歉意。\n法国公共交通标准致歉语\n在火车站/机场广播中经常出现"
+        }
+      ]
+    },
+    {
+      "id": 1773281769189,
+      "name": "动词不定式（L'infinitif）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-12T02:16:09.189Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ de changer de travail.\n（她决定换工作。）",
+          "options": [
+            "décide（决定）",
+            "décide à（决定+à）",
+            "décide pour（决定+pour）",
+            "décide par（决定+par）"
+          ],
+          "correct": 0,
+          "explanation": "décider de + inf. 是固定搭配，表示\"决定做某事\"。直接接 de，不用其他介词。",
+          "category": "de + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je veux _____ maintenant.\n（我现在想走。）",
+          "options": [
+            "de partir（de+走）",
+            "à partir（à+走）",
+            "partir（走）",
+            "pour partir（pour+走）"
+          ],
+          "correct": 2,
+          "explanation": "vouloir 属于\"能想敢愿\"家族，直接接不定式，不加任何介词。",
+          "category": "直接 + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il commence _____ pleuvoir.\n（开始下雨了。）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "par（par）",
+            "pour（pour）"
+          ],
+          "correct": 1,
+          "explanation": "commencer à + inf. = 开始做某事。注意区分：commencer par + inf. = 先做…（表顺序）。",
+          "category": "à + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après _____ ses études, il est parti en France.\n（完成学业后，他去了法国。）",
+          "options": [
+            "finir（完成-原形）",
+            "avoir fini（已完成）",
+            "a fini（他完成了）",
+            "fini（完成-过去分词）"
+          ],
+          "correct": 1,
+          "explanation": "après 后面只能接不定式过去时（avoir/être + p.p.），不能接原形或变位形式。",
+          "category": "après + inf. passé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est important de respecter les règles.\n（遵守规则很重要。）",
+          "options": [
+            "C'（这）",
+            "Il（无人称il）",
+            "Ce（这）",
+            "Ça（这个）"
+          ],
+          "correct": 1,
+          "explanation": "泛指\"做某事很重要\"用 il est + adj. + de + inf. 结构。c'est + adj. + à + inf. 用于特指。",
+          "category": "il est...de vs c'est...à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est parti _____ dire au revoir.\n（他没说再见就走了。）",
+          "options": [
+            "sans de（没有+de）",
+            "sans（没有）",
+            "sans à（没有+à）",
+            "sans pas（没有+pas）"
+          ],
+          "correct": 1,
+          "explanation": "sans 直接接不定式，不加 de，不加 à。sans dire = 没有说。",
+          "category": "sans + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je préfère ne pas _____ ce soir.\n（我今晚宁可不出门。）",
+          "options": [
+            "de sortir（de+出门）",
+            "sortir（出门）",
+            "à sortir（à+出门）",
+            "en sortir（en+出门）"
+          ],
+          "correct": 1,
+          "explanation": "préférer 直接接不定式。否定时 ne pas 放在不定式前面：ne pas sortir。préférer 后面不加介词。",
+          "category": "否定 + 直接接"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ de parler en public.\n（我害怕在公共场合讲话。）",
+          "options": [
+            "peur（害怕）",
+            "envie（想要）",
+            "hâte（迫不及待）",
+            "besoin（需要）"
+          ],
+          "correct": 0,
+          "explanation": "avoir peur de + inf. = 害怕做某事。四个选项都是 avoir + 名词 + de 结构，但语义上\"害怕在公共场合讲话\"只能选 peur。",
+          "category": "avoir + n. + de + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'aide _____ comprendre la leçon.\n（他帮我理解课程。）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "aider à + inf. = 帮助做某事。aider 属于\"开继学帮到\"家族，接 à。",
+          "category": "à + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a réussi _____ convaincre son père.\n（她成功说服了她爸爸。）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "réussir à + inf. = 成功做到某事。注意：不是 réussir de。",
+          "category": "à + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il regrette _____ ne pas avoir étudié plus.\n（他后悔没有多学习。）",
+          "options": [
+            "à（à）",
+            "de（de）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "regretter de + inf. = 后悔做某事。这里接的是不定式过去时的否定形式：de ne pas avoir étudié。",
+          "category": "de + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce problème, c'est difficile _____ résoudre.\n（这个问题，很难解决。）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "c'est + adj. + à + inf. 用于特指某个具体事物。这里\"这个问题\"是具体对象，所以用 à。如果泛指则用 il est difficile de résoudre。",
+          "category": "il est...de vs c'est...à"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de partir, vérifie que tu as tout.\n（走之前，确认你都带齐了。）",
+          "options": [
+            "Après（之后）",
+            "Avant（之前）",
+            "Pour（为了）",
+            "Sans（没有）"
+          ],
+          "correct": 1,
+          "explanation": "avant de + inf. présent = 在做…之前。注意 avant 后面必须加 de。après 后面接不定式过去时（avoir/être + p.p.），不能接原形。",
+          "category": "avant de + inf."
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il finit _____ accepter notre proposition.\n（他最终接受了我们的提议。）",
+          "options": [
+            "de（de）",
+            "par（par）",
+            "à（à）",
+            "pour（pour）"
+          ],
+          "correct": 1,
+          "explanation": "finir par + inf. = 最终做了（强调经过曲折后的结果）。区分：finir de + inf. = 做完某事（动作结束）。",
+          "category": "finir de vs finir par"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il demande _____ sortir plus tôt.\n（他请求提前离开。）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "demander à + inf. = 请求允许自己做某事（主语自己想做）。区分：demander de + inf. = 请求别人做某事。这里\"他请求（允许自己）提前走\"，用 à。",
+          "category": "demander de vs demander à"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Je veux de partir.（我想走。）",
+            "Il est important de lire.（阅读很重要。）",
+            "Après manger, je suis sorti.（吃完后我出去了。）",
+            "Elle refuse de répondre.（她拒绝回答。）"
+          ],
+          "correct": [
+            1,
+            3
+          ],
+          "explanation": "选项A错：vouloir 直接接不定式，不加 de。选项B对：il est + adj. + de + inf. 泛指结构。选项C错：après 后面只能接不定式过去时 avoir mangé，不能接原形。选项D对：refuser de + inf. 固定搭配。",
+          "category": "综合判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je viens _____ manger.\n（我刚吃完。）",
+          "options": [
+            "à（à）",
+            "de（de）",
+            "par（par）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "venir de + inf. = 刚刚做了某事（最近过去时）。区分：venir + inf.（直接接）= 来做某事。Je viens manger = 我来吃饭；Je viens de manger = 我刚吃完。",
+          "category": "venir vs venir de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai vu Paul _____ lever et sortir.\n（我看见 Paul 站起来并出去了。）",
+          "options": [
+            "me（我）",
+            "se（他自己）",
+            "te（你）",
+            "nous（我们）"
+          ],
+          "correct": 1,
+          "explanation": "se lever 的自反代词必须跟逻辑主语一致。站起来的人是 Paul（第三人称），所以用 se。不是\"我\"站起来，所以不用 me。",
+          "category": "代词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle préfère _____ tôt le matin.\n（她宁愿早上不起床。）",
+          "options": [
+            "ne pas se lever（不起床）",
+            "ne se lever pas（不起床）",
+            "se ne pas lever（不起床）",
+            "se lever ne pas（不起床）"
+          ],
+          "correct": 0,
+          "explanation": "不定式否定 + 代词的语序：ne pas + 代词 + inf.。所以是 ne pas se lever。ne pas 紧贴在一起，代词紧贴在不定式前面。",
+          "category": "否定 + 代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pense _____ fermer la porte !\n（记得关门！）",
+          "options": [
+            "de（de）",
+            "à（à）",
+            "pour（pour）",
+            "∅（无介词）"
+          ],
+          "correct": 1,
+          "explanation": "penser à + inf. = 想到要做某事（提醒性质）。区分：penser + inf.（直接接）= 打算做。Pense à fermer = 记得关；Je pense partir = 我打算走。",
+          "category": "penser à vs penser + inf."
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est interdit _____ fumer dans ce bâtiment.\n（这栋楼里禁止吸烟。）",
+          "correct": [
+            "de"
+          ],
+          "explanation": "il est + adj. + de + inf. 是泛指无人称结构。il est interdit de = 禁止做某事。",
+          "category": "il est...de"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ avoir terminé le travail, il a décidé _____ se reposer. Il hésite _____ sortir ou à rester chez lui.\n（完成工作后，他决定休息。他犹豫要出门还是待在家。）",
+          "correct": [
+            "Après",
+            "de",
+            "à"
+          ],
+          "explanation": "第一空：après + 不定式过去时（avoir terminé）。第二空：décider de + inf. 固定搭配。第三空：hésiter à + inf. 固定搭配。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1eyqM2BhJnzjqi24S5y9dn_7KrvBQxeLcFzLAtsqIbNY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773281797231-1e6qnxlqxiw",
+          "front": "vouloir + inf. 接什么？",
+          "back": "直接接，无介词\nJe veux partir.\n（我想走。）\n口诀：能想敢愿感 → 直接接"
+        },
+        {
+          "id": "1773281797231-2yo9axhtvn6",
+          "front": "pouvoir + inf. 接什么？",
+          "back": "直接接，无介词\nIl peut venir demain.\n（他明天能来。）"
+        },
+        {
+          "id": "1773281797231-76krxbxw6jg",
+          "front": "devoir + inf. 接什么？",
+          "back": "直接接，无介词\nTu dois finir tes devoirs.\n（你必须完成作业。）"
+        },
+        {
+          "id": "1773281797231-ll35sbyr14c",
+          "front": "savoir + inf. 接什么？",
+          "back": "直接接，无介词\nElle sait parler anglais.\n（她会说英语。）"
+        },
+        {
+          "id": "1773281797231-etybvqv6b8m",
+          "front": "aimer + inf. 接什么？",
+          "back": "直接接，无介词\nJ'aime lire avant de dormir.\n（我喜欢睡前读书。）"
+        },
+        {
+          "id": "1773281797231-d1uota12xsv",
+          "front": "espérer + inf. 接什么？",
+          "back": "直接接，无介词\nJ'espère réussir l'examen.\n（我希望考试成功。）"
+        },
+        {
+          "id": "1773281797231-eqdoxrmc3xb",
+          "front": "oser + inf. 接什么？",
+          "back": "直接接，无介词\nIl n'ose pas dire la vérité.\n（他不敢说实话。）"
+        },
+        {
+          "id": "1773281797231-66h7bs2ecco",
+          "front": "décider _____ + inf.",
+          "back": "décider de + inf. = 决定做某事\nElle décide de changer de travail.\n（她决定换工作。）"
+        },
+        {
+          "id": "1773281797231-ebwsg04ofqb",
+          "front": "essayer _____ + inf.",
+          "back": "essayer de + inf. = 尝试做某事\nJ'essaie de comprendre.\n（我尝试理解。）"
+        },
+        {
+          "id": "1773281797231-bojfv3v8mg8",
+          "front": "refuser _____ + inf.",
+          "back": "refuser de + inf. = 拒绝做某事\nIl refuse de répondre.\n（他拒绝回答。）"
+        },
+        {
+          "id": "1773281797231-zi6hvc9sto",
+          "front": "oublier _____ + inf.",
+          "back": "oublier de + inf. = 忘记做某事\nN'oublie pas de fermer la porte.\n（别忘了关门。）"
+        },
+        {
+          "id": "1773281797231-zxpylzwu08m",
+          "front": "regretter _____ + inf.",
+          "back": "regretter de + inf. = 后悔做某事\nJe regrette de ne pas avoir étudié.\n（我后悔没学习。）"
+        },
+        {
+          "id": "1773281797231-q4osorm8owf",
+          "front": "avoir peur de + inf.",
+          "back": "害怕做某事\nJ'ai peur de parler en public.\n（我害怕在公共场合讲话。）"
+        },
+        {
+          "id": "1773281797231-pukngfnq6qd",
+          "front": "avoir besoin de + inf.",
+          "back": "需要做某事\nElle a besoin de dormir.\n（她需要睡觉。）"
+        },
+        {
+          "id": "1773281797231-i0ujju75mc",
+          "front": "avoir hâte de + inf.",
+          "back": "迫不及待做某事\nJ'ai hâte de partir en vacances.\n（我迫不及待想去度假。）"
+        },
+        {
+          "id": "1773281860248-zfmh6bvcrdb",
+          "front": "commencer _____ + inf.",
+          "back": "commencer à + inf. = 开始做某事\nIl commence à pleuvoir.\n（开始下雨了。）\n注意：commencer par + inf. = 先做…（表顺序）"
+        },
+        {
+          "id": "1773281860248-cpm755zxlvd",
+          "front": "continuer _____ + inf.",
+          "back": "continuer à + inf. = 继续做某事\nElle continue à travailler.\n（她继续工作。）"
+        },
+        {
+          "id": "1773281860248-w9fztks7n8j",
+          "front": "apprendre _____ + inf.",
+          "back": "apprendre à + inf. = 学习做某事\nJ'apprends à conduire.\n（我在学开车。）"
+        },
+        {
+          "id": "1773281860248-si62xgrygu8",
+          "front": "aider _____ + inf.",
+          "back": "aider à + inf. = 帮助做某事\nIl m'aide à comprendre.\n（他帮我理解。）"
+        },
+        {
+          "id": "1773281860248-iwm3g12862",
+          "front": "réussir _____ + inf.",
+          "back": "réussir à + inf. = 成功做到\nJ'ai réussi à le convaincre.\n（我成功说服了他。）"
+        },
+        {
+          "id": "1773281860248-zqd5v2e1t9",
+          "front": "arriver _____ + inf.",
+          "back": "arriver à + inf. = 做到/成功\nJe n'arrive pas à dormir.\n（我睡不着。）"
+        },
+        {
+          "id": "1773281860248-swen4hq5i68",
+          "front": "hésiter _____ + inf.",
+          "back": "hésiter à + inf. = 犹豫做某事\nIl hésite à partir.\n（他犹豫要不要走。）"
+        },
+        {
+          "id": "1773281860248-klq7ya13a6",
+          "front": "s'habituer _____ + inf.",
+          "back": "s'habituer à + inf. = 习惯做某事\nJe m'habitue à me lever tôt.\n（我习惯早起了。）"
+        },
+        {
+          "id": "1773281860248-ewna26hd37h",
+          "front": "se mettre _____ + inf.",
+          "back": "se mettre à + inf. = 开始做某事\nElle se met à pleurer.\n（她开始哭了。）\n与 commencer à 近义，但更突然"
+        },
+        {
+          "id": "1773281860248-7wtzvfqv8db",
+          "front": "à 家族记忆口诀",
+          "back": "开继学帮到，à 字跑不了\n开：commencer à, se mettre à\n继：continuer à\n学：apprendre à\n帮：aider à\n到：réussir à, arriver à"
+        },
+        {
+          "id": "1773281860248-bgjkjb0v3bn",
+          "front": "de 家族记忆口诀",
+          "back": "决请情停拒，de 是好朋友\n决：décider de, choisir de\n请：demander de, proposer de\n情：regretter de, avoir peur de\n停：arrêter de, finir de\n拒：refuser de, interdire de"
+        },
+        {
+          "id": "1773281860248-08rztopsgmqc",
+          "front": "直接接家族记忆口诀",
+          "back": "能想敢愿感，全部直接接\n能：pouvoir, savoir\n想：vouloir, désirer, souhaiter, espérer\n敢：oser\n愿：aimer, préférer, détester\n感：sembler, paraître\n+ devoir, aller, faire, laisser"
+        },
+        {
+          "id": "1773281860248-lmtrnk3rqp9",
+          "front": "不定式否定语序",
+          "back": "ne pas 放在不定式前面，紧挨不分开\n✅ ne pas parler\n❌ ne parler pas\n例：Je préfère ne pas sortir.\n（我宁可不出门。）"
+        },
+        {
+          "id": "1773281860248-d539e3jwp0f",
+          "front": "不定式过去时否定语序",
+          "back": "ne pas + avoir/être + p.p.\n✅ ne pas avoir fait\n❌ n'avoir pas fait\n例：Je regrette de ne pas avoir étudié.\n（我后悔没学习。）"
+        },
+        {
+          "id": "1773281860248-oavxnyzhaq",
+          "front": "不定式中代词放哪？",
+          "back": "代词放在不定式前面，紧贴不定式\nJe veux me lever.（我想起床。）\n代词人称跟逻辑主语一致：\nje→me, tu→te, il/elle→se\nnous→nous, vous→vous, ils→se"
+        },
+        {
+          "id": "1773281860248-psgg71mkq6",
+          "front": "否定 + 代词 + 不定式的语序",
+          "back": "ne pas + 代词 + inf.\n✅ ne pas se lever\n❌ ne se lever pas\n❌ se ne pas lever\n例：Elle préfère ne pas se lever tôt.\n（她宁愿不早起。）"
+        },
+        {
+          "id": "1773281860248-xmx2626rm7",
+          "front": "après + 什么时态？",
+          "back": "après + 不定式过去时（avoir/être + p.p.）\n✅ Après avoir mangé\n❌ Après manger\n表示\"做完…之后\""
+        },
+        {
+          "id": "1773281860248-d6fqc8v39av",
+          "front": "avant de + 什么时态？",
+          "back": "avant de + 不定式现在时（动词原形）\n✅ Avant de partir\n❌ Avant partir（必须加 de）\n表示\"在做…之前\""
+        },
+        {
+          "id": "1773281860248-5b50qxi59wa",
+          "front": "sans + inf. 接法",
+          "back": "sans 直接接不定式，不加 de\n✅ sans dire\n❌ sans de dire\n例：Il est parti sans dire au revoir.\n（他没说再见就走了。）"
+        },
+        {
+          "id": "1773281860248-fvr081tcotc",
+          "front": "il est + adj. + de vs c'est + adj. + à",
+          "back": "泛指 → il est + adj. + de + inf.\nIl est difficile de comprendre.（理解很难。）\n\n特指 → c'est + adj. + à + inf.\nC'est difficile à comprendre.（这个很难理解。）\n\n判断：有具体对象→c'est...à；没有→il est...de"
+        },
+        {
+          "id": "1773281876810-x2dma8zd7p",
+          "front": "demander de vs demander à",
+          "back": "demander de + inf. = 请求别人做\nIl me demande de partir.（他请我离开。）\n\ndemander à + inf. = 请求允许自己做\nIl demande à partir.（他请求离开。）\n\n区别：de→让别人做；à→自己想做"
+        },
+        {
+          "id": "1773281876810-yr2nu1g9r5",
+          "front": "décider de vs se décider à",
+          "back": "décider de + inf. = 决定做（普通）\nJ'ai décidé de partir.（我决定离开。）\n\nse décider à + inf. = 下定决心做（犹豫后）\nIl s'est décidé à parler.（他终于下决心开口了。）"
+        },
+        {
+          "id": "1773281876810-nwbz3gtmoke",
+          "front": "finir de vs finir par",
+          "back": "finir de + inf. = 做完某事（动作结束）\nTu as fini de manger ?（你吃完了吗？）\n\nfinir par + inf. = 最终做了（强调结果）\nIl finit par accepter.（他最终接受了。）"
+        },
+        {
+          "id": "1773281876810-uzuc38d0uk",
+          "front": "commencer à vs commencer par",
+          "back": "commencer à + inf. = 开始做\nIl commence à pleuvoir.（开始下雨。）\n\ncommencer par + inf. = 先做…（表顺序）\nIl commence par lire le texte.（他先读课文。）"
+        },
+        {
+          "id": "1773281876810-4ef7jz04pcv",
+          "front": "penser + inf. vs penser à + inf.",
+          "back": "penser + inf.（直接接）= 打算做\nJe pense partir demain.（我打算明天走。）\n\npenser à + inf. = 想到要做（提醒）\nPense à fermer la porte !（记得关门！）"
+        },
+        {
+          "id": "1773281876810-mhxlhbqrj28",
+          "front": "venir + inf. vs venir de + inf.",
+          "back": "venir + inf.（直接接）= 来做某事\nIl vient dîner ce soir.（他今晚来吃饭。）\n\nvenir de + inf. = 刚刚做了（最近过去时）\nJe viens de manger.（我刚吃完。）"
+        },
+        {
+          "id": "1773281876810-rewsjkygt19",
+          "front": "manquer de + inf.",
+          "back": "manquer de + inf. = 差点做了\nJ'ai manqué de tomber.（我差点摔倒。）\n\nne pas manquer de + inf. = 一定会做\nIl ne manquera pas de venir.（他一定会来。）\n\n注意：manquer à qqn = 被某人想念\nTu me manques.（我想你。）"
+        },
+        {
+          "id": "1773281876810-zlcewg2hqro",
+          "front": "不定式作主语，动词怎么变？",
+          "back": "按第三人称单数变位\nCohabiter permet de faire des économies.\n（合住可以省钱。）\nVoyager est enrichissant.\n（旅行使人充实。）"
+        },
+        {
+          "id": "1773281876810-tnrro8xn7y",
+          "front": "avoir envie de + inf.",
+          "back": "想要做某事\nJ'ai envie de manger une glace.\n（我想吃冰淇淋。）\navoir envie de 后面也可以接名词：\nJ'ai envie d'un café.（我想喝杯咖啡。）"
+        },
+        {
+          "id": "1773281876810-9yuffbrhupl",
+          "front": "proposer de vs inviter à",
+          "back": "proposer de + inf. = 建议做\nIl propose de partir ensemble.（他建议一起走。）\n\ninviter à + inf. = 邀请做\nJe t'invite à dîner.（我请你吃饭。）\n\n建议→de；邀请→à"
+        },
+        {
+          "id": "1773281876810-p0y46xb2ul",
+          "front": "arrêter de vs s'arrêter de",
+          "back": "arrêter de + inf. = 停止做某事\nArrête de crier !（别叫了！）\n\ns'arrêter de + inf. = 自己停下来\nIl s'est arrêté de parler.（他停下来不说了。）\n两者意思相近，arrêter de 更常用"
+        },
+        {
+          "id": "1773281876810-lfbbvzvmly",
+          "front": "promettre de + inf.",
+          "back": "承诺做某事\nIl promet de revenir.\n（他承诺会回来。）\npromettre 接 de，不接 à"
+        },
+        {
+          "id": "1773281876810-0nzvwizt0alg",
+          "front": "éviter de + inf.",
+          "back": "避免做某事\nJ'évite de sortir le soir.\n（我避免晚上出门。）\néviter 接 de，不接 à"
+        },
+        {
+          "id": "1773281876810-o9i0gxbselj",
+          "front": "tenir à + inf.",
+          "back": "坚持要做某事\nJe tiens à vous remercier.\n（我一定要感谢您。）\ntenir à 表示很在意、坚持"
+        },
+        {
+          "id": "1773281876810-74ntjasz8f",
+          "front": "TCF 3秒做题法",
+          "back": "第1秒：能想敢愿感？→ 直接接\n第2秒：决请情停拒？→ de\n第3秒：开继学帮到？→ à\n\n额外检查：\nil est + adj → de\nc'est + adj → à\naprès → 不定式过去时\navant de → 不定式现在时\nsans → 直接接（不加de）"
+        }
+      ]
+    },
+    {
+      "id": 1773262261313,
+      "name": "TCF写作 2026-03 Combinaison 5",
+      "folderId": "1772566472155",
+      "createdAt": "2026-03-11T20:51:01.313Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "_____ vous le savez, l'anniversaire de notre ami approche.\n（正如你们所知，我们朋友的生日快到了。）",
+          "correct": [
+            "Comme"
+          ],
+          "explanation": "Comme vous le savez = 正如你们所知，引出已知信息的经典开头。",
+          "category": "Tâche 1 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vous propose qu'on lui _____ un cadeau en commun.\n（我建议我们一起送他一份礼物。）",
+          "options": [
+            "fait（做，直陈式）",
+            "fasse（做，虚拟式）",
+            "fera（做，简单将来时）",
+            "ferait（做，条件式）"
+          ],
+          "correct": 1,
+          "explanation": "proposer que 后面必须接虚拟式（subjonctif），faire 的虚拟式第三人称单数是 fasse。",
+          "category": "Tâche 1 语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'anniversaire approche _____ grands pas.\n（生日很快就要到了。）",
+          "options": [
+            "à（介词à）",
+            "de（介词de）",
+            "en（介词en）",
+            "avec（介词avec）"
+          ],
+          "correct": 0,
+          "explanation": "approcher à grands pas = 迫近，固定表达，字面意思是'大步走来'。",
+          "category": "Tâche 1 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Chacun _____ participer avec une petite contribution.\n（每个人可以出一小份钱。）",
+          "correct": [
+            "pourrait"
+          ],
+          "explanation": "pourrait 是 pouvoir 的条件式现在时，用于礼貌建议，比 peut 更委婉得体。",
+          "category": "Tâche 1 条件式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dites-moi ce que vous _____ pensez !\n（告诉我你们对此怎么想！）",
+          "options": [
+            "y（代词y）",
+            "en（代词en）",
+            "le（代词le）",
+            "lui（代词lui）"
+          ],
+          "correct": 1,
+          "explanation": "en 指代前面提到的整个建议/事情。penser de qqch → en penser。",
+          "category": "Tâche 1 代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在 Tâche 1（给朋友群发消息）中，以下哪个结尾最合适？",
+          "options": [
+            "Cordialement, Nabil（此致，纳比尔）",
+            "Dans l'attente de votre réponse...（期待您的回复……）",
+            "Dites-moi ce que vous en pensez ! Nabil（告诉我你们怎么想！纳比尔）",
+            "Je vous prie d'agréer mes salutations distinguées.（请接受我最崇高的敬意。）"
+          ],
+          "correct": 2,
+          "explanation": "Tâche 1 是非正式消息，直接征求意见+签名即可。其他选项都太正式了。",
+          "category": "Tâche 1 语域"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ la recherche d'un espace pouvant accueillir 100 personnes, j'ai visité une salle.\n（为了寻找能容纳100人的场所，我参观了一个大厅。）",
+          "correct": [
+            "À"
+          ],
+          "explanation": "À la recherche de = 在寻找……。固定表达，用介词短语开头让句子更书面。",
+          "category": "Tâche 2 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il s'agit _____ un local moderne et spacieux.\n（这是一个现代宽敞的场所。）",
+          "options": [
+            "de（介词de → d'）",
+            "d'（de + 元音缩合）",
+            "pour（为了）",
+            "à（介词à）"
+          ],
+          "correct": 1,
+          "explanation": "Il s'agit de + 名词 = 这是……/涉及的是……。un 以元音开头，de 缩合为 d'。",
+          "category": "Tâche 2 固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La salle est située _____ du centre-ville.\n（大厅位于市中心附近。）",
+          "options": [
+            "à proximité（在……附近）",
+            "en proximité（不存在的搭配）",
+            "de proximité（不存在的搭配）",
+            "au proximité（不存在的搭配）"
+          ],
+          "correct": 0,
+          "explanation": "à proximité de = 在……附近，比 près de 更正式。注意固定介词是 à。",
+          "category": "Tâche 2 固定搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ de ma visite, j'ai été impressionné par la qualité des installations.\n（在我参观期间，我对设施质量印象深刻。）",
+          "correct": [
+            "Lors"
+          ],
+          "explanation": "Lors de = 在……期间，比 pendant 更书面正式，正式信件优先使用。",
+          "category": "Tâche 2 连接词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La salle _____ d'une scène et d'un bon système d'éclairage.\n（大厅配有一个舞台和良好的照明系统。）",
+          "options": [
+            "a（有）",
+            "possède（拥有）",
+            "dispose（配备）",
+            "contient（包含）"
+          ],
+          "correct": 2,
+          "explanation": "disposer de = 拥有/配备，比 avoir 更书面正式，是 TCF 写作加分动词。注意搭配介词 de。",
+          "category": "Tâche 2 词汇升级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le tarif est raisonnable et _____ à notre budget.\n（价格合理，符合我们的预算。）",
+          "options": [
+            "correspond（符合）",
+            "convient（适合）",
+            "adapte（适应）",
+            "répond（回应）"
+          ],
+          "correct": 0,
+          "explanation": "correspondre à = 符合/对应。注意介词 à。convenir à 也可以但搭配 budget 时 correspondre à 更精准。",
+          "category": "Tâche 2 动词搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je recommande _____ ce lieu, car il réunit confort et qualité.\n（我强烈推荐这个场地，因为它汇集了舒适和品质。）",
+          "correct": [
+            "vivement"
+          ],
+          "explanation": "vivement = 强烈地/热烈地，比 beaucoup 更正式有力。recommander vivement = 强烈推荐。",
+          "category": "Tâche 2 副词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪个是正式信件最合适的结尾？",
+          "options": [
+            "Bisous ! Marie（亲亲！玛丽）",
+            "Dites-moi ce que vous en pensez !（告诉我你们怎么想！）",
+            "Je reste à votre disposition pour toute information complémentaire.（如需更多信息，我随时为您效劳。）",
+            "À plus ! Nabil（回头见！纳比尔）"
+          ],
+          "correct": 2,
+          "explanation": "Tâche 2 是正式信件，必须用正式结尾。选项A和D是朋友间用语，选项B适合非正式消息。",
+          "category": "Tâche 2 语域"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ le débat sur l'éducation, sévérité et permissivité s'opposent souvent.\n（在关于教育的辩论中，严格与放任常常对立。）",
+          "correct": [
+            "Dans"
+          ],
+          "explanation": "Dans le débat sur = 在关于……的辩论中。议论文引入话题的万能开头句式。",
+          "category": "Tâche 3 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le Document 1 montre le point de vue d'une jeune fille qui _____ trop contrôlée.\n（文档1展示了一个觉得被管得太严的女孩的观点。）",
+          "options": [
+            "se sent（感觉，代词式动词）",
+            "se trouve（发现自己）",
+            "est sentie（不存在的用法）",
+            "a senti（闻到/感觉到，复合过去时）"
+          ],
+          "correct": 0,
+          "explanation": "se sentir + 形容词 = 感觉……。这里用直陈式现在时 se sent，表示持续的感受状态。",
+          "category": "Tâche 3 动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": ", le Document 2 critique les parents trop tolérants.\n（相反，文档2批评了过于宽容的父母。）",
+          "options": [
+            "En effet（事实上）",
+            "À l'inverse（相反）",
+            "En conclusion（总之）",
+            "De plus（此外）"
+          ],
+          "correct": 1,
+          "explanation": "À l'inverse = 相反，用于引出与前文对立的观点，比 au contraire 更书面。",
+          "category": "Tâche 3 连接词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": " mon avis, une éducation équilibrée est essentielle.\n（在我看来，平衡的教育至关重要。）",
+          "correct": [
+            "À"
+          ],
+          "explanation": "À mon avis = 在我看来。议论文中表达个人观点的标准句式，注意介词是 À。",
+          "category": "Tâche 3 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Trop de contrôle peut _____ un sentiment d'injustice.\n（过度管控可能造成不公感。）",
+          "options": [
+            "faire（做）",
+            "donner（给）",
+            "créer（造成/创造）",
+            "produire（产生）"
+          ],
+          "correct": 2,
+          "explanation": "créer un sentiment de = 造成/产生一种……感。是议论文中描述后果的高频搭配。",
+          "category": "Tâche 3 动词搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": ", le Document 2 rappelle que l'absence de règles pose problème.\n（然而，文档2提醒缺乏规则会造成问题。）",
+          "options": [
+            "De plus（此外）",
+            "Toutefois（然而）",
+            "En effet（事实上）",
+            "Par exemple（例如）"
+          ],
+          "correct": 1,
+          "explanation": "Toutefois = 然而/不过，高级转折连接词，比 mais 更正式，议论文必用。",
+          "category": "Tâche 3 连接词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "L'absence de règles peut _____ un manque de repères.\n（缺乏规则可能导致缺乏参照。）",
+          "correct": [
+            "entraîner"
+          ],
+          "explanation": "entraîner = 导致/引起，正式写作高频因果动词，比 causer 更常用于议论文。",
+          "category": "Tâche 3 因果动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants ont besoin _____ d'amour, de confiance et de limites claires.\n（孩子们同时需要爱、信任和明确的界限。）",
+          "options": [
+            "en même temps（在同一时间）",
+            "à la fois（同时/既……又）",
+            "au même moment（在同一刻）",
+            "ensemble（一起）"
+          ],
+          "correct": 1,
+          "explanation": "à la fois = 同时，表示并列多个要素。avoir besoin à la fois de A, de B et de C 是高分表达。",
+          "category": "Tâche 3 固定表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": " que de choisir entre autorité et liberté, je pense qu'il faut trouver un équilibre.\n（与其在权威和自由之间选择，我认为应该找到平衡。）",
+          "correct": [
+            "Plutôt"
+          ],
+          "explanation": "Plutôt que de + 动词原形 = 与其……。高级让步/替代结构，议论文结论段常用。",
+          "category": "Tâche 3 句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette approche permet d'accompagner l'enfant vers la responsabilité tout _____ respectant sa personnalité.\n（这种方式能引导孩子走向责任感，同时尊重他的个性。）",
+          "options": [
+            "à（介词à）",
+            "de（介词de）",
+            "en（介词en）",
+            "par（介词par）"
+          ],
+          "correct": 2,
+          "explanation": "tout en + 现在分词 = 同时……。这是 gérondif 的让步用法，B2 级高分语法结构。",
+          "category": "Tâche 3 高级语法"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些连接词表示转折关系？（多选）",
+          "options": [
+            "Toutefois（然而）",
+            "En effet（事实上）",
+            "Cependant（然而）",
+            "Néanmoins（尽管如此）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "Toutefois、Cependant、Néanmoins 都是转折连接词，可以替代 mais，让议论文更正式。En effet 是解释/强调，不是转折。",
+          "category": "连接词辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "以下哪些表达可以用来在议论文中引出个人观点？（多选）",
+          "options": [
+            "À mon avis（在我看来）",
+            "Il s'agit de（这是关于）",
+            "Selon moi（依我看）",
+            "Il me semble que（我觉得）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "À mon avis、Selon moi、Il me semble que 都是表达个人观点的句式。Il s'agit de 是引出介绍，不是表达观点。",
+          "category": "观点表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "以下哪组词汇升级是正确的？",
+          "options": [
+            "mais → toutefois / parce que → en effet（但是→然而 / 因为→事实上）",
+            "mais → de plus / parce que → en conclusion（但是→此外 / 因为→总之）",
+            "mais → en effet / parce que → toutefois（但是→事实上 / 因为→然而）",
+            "mais → par exemple / parce que → surtout（但是→例如 / 因为→尤其）"
+          ],
+          "correct": 0,
+          "explanation": "mais 的升级版是 toutefois/cependant/néanmoins（转折）；parce que 的升级版是 car/en effet/étant donné que（原因）。其他选项功能对应错误。",
+          "category": "词汇升级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "你需要写一封正式信推荐餐厅给公司领导。以下哪个开头最合适？",
+          "options": [
+            "Salut ! J'ai trouvé un super resto !（嗨！我找到了个超棒的餐厅！）",
+            "À la recherche d'un restaurant pouvant accueillir notre équipe, j'ai visité un établissement parfaitement adapté.（为了寻找能容纳团队的餐厅，我参观了一家完全合适的餐厅。）",
+            "Coucou, devine quoi, j'ai trouvé un resto génial !（嘿，你猜怎么着，我找到了个超赞的餐厅！）",
+            "Yo, j'ai un bon plan resto pour nous !（嘿，我有个好餐厅推荐！）"
+          ],
+          "correct": 1,
+          "explanation": "正式推荐信必须使用书面语域。选项B使用了 À la recherche de... 的正式结构，完全符合 Tâche 2 的语域要求。其他选项都是口语/非正式语气。",
+          "category": "语域判断"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ le débat sur l'éducation, sévérité et permissivité s'opposent. _____ mon avis, une éducation équilibrée est essentielle. _____, le Document 2 rappelle que l'absence de règles peut _____ des difficultés.\n（在关于教育的辩论中，严格与放任对立。在我看来，平衡的教育至关重要。然而，文档2提醒缺乏规则可能导致困难。）",
+          "correct": [
+            "Dans",
+            "À",
+            "Toutefois",
+            "entraîner"
+          ],
+          "explanation": "四个空分别考查：引入话题（Dans le débat sur）、表达观点（À mon avis）、转折（Toutefois）、因果动词（entraîner = 导致）。",
+          "category": "Tâche 3 综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1zMIkVfvqpZah4xYtOylHS72dPTE_TYz0vjeVe-r0l90/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773262407526-zacpvmosir",
+          "front": "Comme vous le savez,...",
+          "back": "正如你们所知，……\n用于引出大家已知的信息，非正式消息开头常用。\n例：Comme vous le savez, l'anniversaire de notre ami approche."
+        },
+        {
+          "id": "1773262407526-hr6uv7tqgn",
+          "front": "approcher à grands pas",
+          "back": "迫近、很快就要到了\n字面意思：大步走来\n例：L'examen approche à grands pas.（考试很快就到了。）"
+        },
+        {
+          "id": "1773262407526-0opdtb0b13si",
+          "front": "proposer que + ?",
+          "back": "proposer que 后面必须接虚拟式（subjonctif）\n例：Je propose qu'on fasse un cadeau.（我建议我们送个礼物。）\nfasse = faire 的虚拟式"
+        },
+        {
+          "id": "1773262407526-z60khiixxhb",
+          "front": "un cadeau en commun",
+          "back": "合买的礼物、集体礼物\nen commun = 共同的\n例：On pourrait lui offrir un cadeau en commun."
+        },
+        {
+          "id": "1773262407526-nd8uykk9z3p",
+          "front": "pour marquer le coup",
+          "back": "为了庆祝一下、为了纪念这个时刻\n口语常用表达，B1+ 加分\n例：On va faire une fête pour marquer le coup."
+        },
+        {
+          "id": "1773262407526-ej1r414xwjw",
+          "front": "J'ai pensé à...",
+          "back": "我想到了……\npenser à + 名词 = 想到某物（介词 à 不能丢）\n例：J'ai pensé à une montre élégante.（我想到了一块优雅的手表。）"
+        },
+        {
+          "id": "1773262407526-7t2f5rzoucn",
+          "front": "car vs parce que",
+          "back": "car = 因为（更书面，适合写作）\nparce que = 因为（口语和书面均可）\nTCF 写作中优先用 car"
+        },
+        {
+          "id": "1773262407526-d5ijo85ov2l",
+          "front": "au quotidien",
+          "back": "在日常生活中\n= dans la vie quotidienne 的简洁写法\n例：Il aime les accessoires utiles au quotidien.（他喜欢日常实用的配饰。）"
+        },
+        {
+          "id": "1773262407526-a21sn7m3ij",
+          "front": "pourrait（条件式）的作用",
+          "back": "pouvoir 的条件式现在时\n用于礼貌建议，比 peut 更委婉得体\n例：Chacun pourrait participer.（每人可以参与。）"
+        },
+        {
+          "id": "1773262407526-o8fwmi7669g",
+          "front": "chacun",
+          "back": "每个人（不定代词）\n例：Chacun pourrait participer avec une petite contribution.（每人可以出一小份钱。）"
+        },
+        {
+          "id": "1773262407526-dp9u1hir3d",
+          "front": "fixer un montant",
+          "back": "确定一个金额\nfixer = 确定/固定\nmontant = 金额\n例：On pourrait fixer un montant.（我们可以定个金额。）"
+        },
+        {
+          "id": "1773262407526-3q6y864nn6m",
+          "front": "se retrouver",
+          "back": "约着见面、碰头（代词式动词）\n例：On pourrait se retrouver ce week-end.（我们周末可以约着见面。）"
+        },
+        {
+          "id": "1773262407526-bqe3x1senoh",
+          "front": "Dites-moi ce que vous en pensez !",
+          "back": "告诉我你们对此怎么想！\n非正式消息的标准结尾\nen 指代前面提到的整个建议"
+        },
+        {
+          "id": "1773262407526-mowh6ldamo",
+          "front": "非正式消息的开头怎么写？",
+          "back": "Salut tout le monde,（大家好，）\nCoucou les amis,（嗨朋友们，）\n语气轻松友好，直接进入主题"
+        },
+        {
+          "id": "1773262407526-lvig2k6tjxe",
+          "front": "非正式消息的结尾怎么写？",
+          "back": "Dites-moi ce que vous en pensez !（告诉我你们怎么想！）\n然后直接签名即可，不需要 Cordialement 之类的正式结语"
+        },
+        {
+          "id": "1773262407526-pcollpllig",
+          "front": "À la recherche de...",
+          "back": "在寻找……\n正式信件开头用介词短语，让句子更书面\n例：À la recherche d'un espace pouvant accueillir 100 personnes, j'ai visité une salle."
+        },
+        {
+          "id": "1773262407526-icwdxw9dtwh",
+          "front": "pouvant accueillir",
+          "back": "能够容纳\npouvant = pouvoir 的现在分词\naccueillir = 接待/容纳\n现在分词做后置修饰语，B2 级语法"
+        },
+        {
+          "id": "1773262407526-6ped6p0y4g",
+          "front": "parfaitement adapté(e) à",
+          "back": "完全适合……的\nadapté à = 适合……的\nparfaitement = 完美地\n例：une salle parfaitement adaptée à notre événement"
+        },
+        {
+          "id": "1773262407526-upzx9avo6hh",
+          "front": "Il s'agit de...",
+          "back": "这是……/涉及的是……\n非人称结构，正式写作超高频\n用来引出介绍和说明\n例：Il s'agit d'un local moderne et spacieux."
+        },
+        {
+          "id": "1773262407526-4om7e2vks4c",
+          "front": "à proximité de",
+          "back": "在……附近\n= près de，但更正式\n正式写作优先使用\n例：à proximité du centre-ville（靠近市中心）"
+        },
+        {
+          "id": "1773262407526-xeu152oht7",
+          "front": "Lors de",
+          "back": "在……期间\n比 pendant 更书面正式\n例：Lors de ma visite, j'ai été impressionné(e) par la qualité des installations."
+        },
+        {
+          "id": "1773262407526-1d4lgkhootp",
+          "front": "j'ai été impressionné(e) par",
+          "back": "我被……所打动/印象深刻\n被动语态 passé composé\n例：J'ai été impressionné par la qualité des installations.（我对设施质量印象深刻。）"
+        },
+        {
+          "id": "1773262407526-yqmzc23xh1",
+          "front": "disposer de",
+          "back": "拥有/配备（正式动词，比 avoir 更书面）\n搭配介词 de\n例：La salle dispose d'une scène.（大厅配有一个舞台。）"
+        },
+        {
+          "id": "1773262407526-irj4rfrgpn",
+          "front": "Le tarif est raisonnable et correspond à notre budget.",
+          "back": "价格合理，符合我们的预算。\ntarif = 价格/费率（比 prix 更正式）\nraisonnable = 合理的\ncorrespondre à = 符合/对应"
+        },
+        {
+          "id": "1773262407526-1cdim3s0ldf",
+          "front": "Je recommande vivement...",
+          "back": "我强烈推荐……\nvivement = 强烈地（比 beaucoup 更正式有力）\n例：Je recommande vivement ce lieu.（我强烈推荐这个场地。）"
+        },
+        {
+          "id": "1773262407526-irergtsb9ao",
+          "front": "réunir",
+          "back": "汇集/集合\n例：Ce lieu réunit confort, praticité et qualité.（这个场地汇集了舒适、实用与品质。）"
+        },
+        {
+          "id": "1773262407526-l3ikze778og",
+          "front": "Je reste à votre disposition pour toute information complémentaire.",
+          "back": "如需更多信息，我随时为您效劳。\n正式信件结尾万能句，可直接背诵套用。"
+        },
+        {
+          "id": "1773262407526-3lsap9jgkol",
+          "front": "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.",
+          "back": "期待您的回复，此致敬礼。\n最正式的信件结尾格式。"
+        },
+        {
+          "id": "1773262407526-sxffbwuigrr",
+          "front": "Tâche 2 词汇升级：avoir → ?",
+          "back": "avoir → disposer de（配备）\n例：La salle a une scène. → La salle dispose d'une scène.\n更书面正式，TCF 加分"
+        },
+        {
+          "id": "1773262407526-5h3kt9af8v",
+          "front": "Tâche 2 词汇升级：près de → ?",
+          "back": "près de → à proximité de（在……附近）\n例：près du centre-ville → à proximité du centre-ville\n更正式，写作优先使用"
+        },
+        {
+          "id": "1773262407526-hi7wcchq4mu",
+          "front": "Tâche 2 词汇升级：pendant → ?",
+          "back": "pendant → lors de（在……期间）\n例：pendant ma visite → lors de ma visite\n更书面，正式信件必用"
+        },
+        {
+          "id": "1773262407526-vc8m2lese4l",
+          "front": "Dans le débat sur..., A et B s'opposent souvent.",
+          "back": "在关于……的辩论中，A 和 B 常常对立。\n议论文引入话题的万能开头\ns'opposer = 对立/相互矛盾"
+        },
+        {
+          "id": "1773262407526-7p42jj0wkg7",
+          "front": "À l'inverse,...",
+          "back": "相反，……\n转折连接词，比 au contraire 更书面\n用于引出与前文对立的观点\n例：À l'inverse, le Document 2 critique les parents trop tolérants."
+        },
+        {
+          "id": "1773262407526-8hw4rddlaje",
+          "front": "À mon avis,...",
+          "back": "在我看来，……\n议论文中表达个人观点的标准句式\n同义表达：Selon moi / Il me semble que"
+        },
+        {
+          "id": "1773262407526-fyrh9ivfpm",
+          "front": "se sentir + 形容词",
+          "back": "感觉……\n代词式动词\n例：Elle se sent trop contrôlée par ses parents.（她觉得被父母管得太严。）"
+        },
+        {
+          "id": "1773262407526-de1nynvkix4",
+          "front": "Le témoignage révèle que...",
+          "back": "证言揭示了……\nrévéler que = 揭示……（比 montrer 更有深度）\n例：Le témoignage révèle que trop de contrôle peut créer un sentiment d'injustice."
+        },
+        {
+          "id": "1773262407526-sh386axqkgd",
+          "front": "un sentiment de + 名词",
+          "back": "一种……感\nsentiment d'injustice = 不公感\nsentiment de frustration = 挫败感\nsentiment de liberté = 自由感"
+        },
+        {
+          "id": "1773262407526-mwjv09w6k9c",
+          "front": "Toutefois / Cependant / Néanmoins",
+          "back": "然而/不过\n三个高级转折连接词，都可以替代 mais\n正式程度：Néanmoins > Toutefois > Cependant > mais"
+        },
+        {
+          "id": "1773262407526-jjlnn147tkr",
+          "front": "entraîner",
+          "back": "导致/引起\n正式写作高频因果动词\n例：L'absence de règles peut entraîner des difficultés.（缺乏规则可能导致困难。）"
+        },
+        {
+          "id": "1773262407526-3hx9mow1086",
+          "front": "un manque de repères",
+          "back": "缺乏参照/标杆\nmanque de = 缺乏……\nrepère = 参照点/标杆（TCF 高频词）"
+        },
+        {
+          "id": "1773262407526-nrws4kdsop",
+          "front": "à la fois... et...",
+          "back": "既……又……/同时\n表示并列多个要素\n例：Les enfants ont besoin à la fois d'amour et de limites.（孩子既需要爱也需要界限。）"
+        },
+        {
+          "id": "1773262407526-btzeqc65e9",
+          "front": "Plutôt que de + 动词原形",
+          "back": "与其……\n高级让步/替代结构，比 au lieu de 更正式\n例：Plutôt que de choisir entre A et B, je pense qu'il faut trouver un équilibre."
+        },
+        {
+          "id": "1773262407526-8qpmw12ac9j",
+          "front": "tout en + 现在分词",
+          "back": "同时……\ngérondif 的让步用法，B2 级高分结构\n例：...tout en respectant sa personnalité.（……同时尊重他的个性。）"
+        },
+        {
+          "id": "1773262407526-0488d6ksycxc",
+          "front": "permettre de + 动词原形",
+          "back": "使得……成为可能/能够……\n正式写作高频结构\n例：Cette approche permet d'accompagner l'enfant vers la responsabilité.（这种方式能引导孩子走向责任感。）"
+        },
+        {
+          "id": "1773262407526-n56zq6ql3g",
+          "front": "accompagner... vers...",
+          "back": "引导……走向……\naccompagner = 陪伴/引导\n例：accompagner l'enfant vers la responsabilité（引导孩子走向责任感）"
+        },
+        {
+          "id": "1773262407526-vk9gr7bhcri",
+          "front": "议论文词汇升级：mais → ?",
+          "back": "mais → toutefois / cependant / néanmoins\n全部表示「然而」，比 mais 更正式"
+        },
+        {
+          "id": "1773262407526-4ei6gnlrsap",
+          "front": "议论文词汇升级：je pense → ?",
+          "back": "je pense → à mon avis / selon moi / il me semble que\n全部表示「我认为」，更多样化"
+        },
+        {
+          "id": "1773262407526-hewotkhl15b",
+          "front": "议论文词汇升级：parce que → ?",
+          "back": "parce que → car / en effet / étant donné que\n全部表示原因，更书面正式"
+        },
+        {
+          "id": "1773262407526-ruwxi8c927",
+          "front": "议论文词汇升级：il faut → ?",
+          "back": "il faut → il est essentiel de / il convient de\n更正式的表达「必须/应该」"
+        },
+        {
+          "id": "1773262407526-r2cycedhf7",
+          "front": "三个 Tâche 的语域区别",
+          "back": "Tâche 1：非正式（amical），tu/vous 均可\nTâche 2：正式（formel），必须 vous\nTâche 3：学术客观（argumentatif），无直接称呼\n语域错误是 TCF 写作最严重的扣分项之一"
+        },
+        {
+          "id": "1773262407526-bv9f68nzg4s",
+          "front": "Tâche 3 议论文结构",
+          "back": "1. 引入话题：Dans le débat sur...\n2. 概述文档1观点\n3. 概述文档2观点（À l'inverse）\n4. 个人立场（À mon avis）\n5. 论证分析（Toutefois）\n6. 结论升华（Plutôt que de...）"
+        }
+      ]
+    },
+    {
       "id": 1773190408662,
       "name": "TCF听力 TEST1 Q8-10 A2",
       "folderId": "1772686244763",
@@ -80177,12 +82750,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-11T00:56:56.419Z",
+  "exportedAt": "2026-03-12T02:49:32.631Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
