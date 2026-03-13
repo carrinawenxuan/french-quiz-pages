@@ -1,6 +1,595 @@
 {
   "savedSets": [
     {
+      "id": 1773444091351,
+      "name": "真题TEST 2听力 A2 Q8-10",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-13T23:21:31.351Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Salut Marie ! Il y a un concert gratuit au parc demain soir, tu veux venir ?\n— _____\n（— 嗨 Marie！明天晚上公园有免费音乐会，你想来吗？\n— _____）",
+          "options": [
+            "Super, j'adore la musique en plein air !（太棒了，我喜欢户外音乐！）",
+            "Oui, j'ai bien aimé le concert hier.（是的，我很喜欢昨天的音乐会。）",
+            "D'accord, je vais acheter les billets.（好的，我去买票。）",
+            "Attends, je cherche mon parapluie.（等一下，我找我的雨伞。）"
+          ],
+          "correct": 0,
+          "explanation": "A 正确：直接表达同意 + 与音乐会场景吻合（plein air = 户外）。B 错误：时间线不对，hier（昨天）vs demain（明天）。C 错误：语义冲突，concert gratuit（免费音乐会）不需要 acheter les billets（买票）。D 错误：答非所问，没有回应邀请，且 parapluie（雨伞）与场景无关。",
+          "category": "听力-回应邀请"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— On va faire un pique-nique dimanche, ça te dit ?\n— _____\n（— 我们周日去野餐，你感兴趣吗？\n— _____）",
+          "options": [
+            "Bonne idée, mais lundi je travaille.（好主意，但周一我上班。）",
+            "Oui, je peux apporter une salade.（好的，我可以带一份沙拉。）",
+            "Non merci, hier il faisait trop froid.（不用了谢谢，昨天太冷了。）",
+            "D'accord, je viens tout de suite.（好的，我马上来。）"
+          ],
+          "correct": 1,
+          "explanation": "B 正确：同意邀请 + 补充合理计划（带食物去野餐）。A 错误：lundi je travaille 与 dimanche 的邀请无逻辑关系，没有回应是否参加。C 错误：时间线错误，hier（昨天）不能作为拒绝 dimanche（周日）的理由。D 错误：tout de suite（马上）与 dimanche（周日）时间矛盾。",
+          "category": "听力-回应邀请"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Je fais un barbecue samedi après-midi chez moi. Tu es libre ?\n— Oui ! Comment je fais pour venir chez toi ?\n— _____\n（— 我周六下午在我家烧烤。你有空吗？\n— 有！我怎么去你家？\n— _____）",
+          "options": [
+            "Tu prends le métro ligne 5, tu sors à Nation.（你坐地铁5号线，在 Nation 站出来。）",
+            "Tu peux inviter ton frère aussi.（你也可以带你哥哥来。）",
+            "On commence vers 14 heures.（我们大约14点开始。）",
+            "Apporte du pain et du fromage.（带点面包和奶酪来。）"
+          ],
+          "correct": 0,
+          "explanation": "问题是 Comment je fais pour venir?（怎么去？）→ 需要交通/路线指示。A 正确：给出具体交通方式（métro ligne 5）+ 下车地点（Nation）。B 错误：关于带人，不是路线。C 错误：关于时间，不是路线。D 错误：关于带东西，不是路线。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Salut ! Je déménage ce week-end. Tu peux m'aider ?\n— Bien sûr ! Où est ton nouvel appartement ?\n— _____\n（— 嗨！我这周末搬家。你能帮我吗？\n— 当然！你的新公寓在哪？\n— _____）",
+          "options": [
+            "Il est au troisième étage, sans ascenseur.（在三楼，没有电梯。）",
+            "C'est dans le quartier Saint-Michel, près du métro.（在圣米歇尔区，地铁旁边。）",
+            "J'ai trouvé un très bon prix.（我找到了一个很好的价格。）",
+            "On commence à 9 heures du matin.（我们早上9点开始。）"
+          ],
+          "correct": 1,
+          "explanation": "问题是 Où est...?（在哪里？）→ 需要地点/位置信息。B 正确：给出具体位置（quartier Saint-Michel）+ 参照物（près du métro）。A 错误：描述楼层信息，不是地理位置。C 错误：关于价格，不回答 où 的问题。D 错误：关于时间，不回答 où 的问题。",
+          "category": "听力-疑问词匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Chers auditeurs, ce soir à 21h, ne manquez pas notre grand jeu. Envoyez MUSIQUE par SMS au 7 14 14 pour gagner deux places de concert. Que doit-on faire pour participer ?\n（亲爱的听众们，今晚21点，不要错过我们的大型游戏。发送\"MUSIQUE\"短信到 7 14 14，赢取两张音乐会门票。要参与需要做什么？）",
+          "options": [
+            "Téléphoner.（打电话。）",
+            "Écrire un SMS.（发短信。）",
+            "Aller sur Internet.（上网。）",
+            "Écouter la radio.（听广播。）"
+          ],
+          "correct": 1,
+          "explanation": "关键句：Envoyez MUSIQUE par SMS au 7 14 14。Envoyer un SMS = Écrire un SMS（同义替换）。A 错误：是发短信不是打电话。C 错误：没有提到网络。D 错误：听广播是接收信息的方式，不是参与方式（与 Q10 的 D 选项同一陷阱类型）。",
+          "category": "听力-信息提取+同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Attention voyageurs : en raison de travaux sur la ligne 3, les trains ne circulent pas entre Opéra et Gambetta ce week-end. Utilisez la ligne de bus 96 pour rejoindre ces stations. Que doivent faire les voyageurs ce week-end ?\n（旅客请注意：由于3号线施工，本周末 Opéra 到 Gambetta 之间的列车停运。请使用96路公交车到达这些站点。旅客这个周末该怎么办？）",
+          "options": [
+            "Prendre un autre bus pour aller à Opéra.（坐另一辆公交车去 Opéra。）",
+            "Attendre la fin des travaux à la station.（在车站等施工结束。）",
+            "Utiliser un moyen de transport de remplacement.（使用替代交通工具。）",
+            "Acheter un nouveau ticket de métro.（买一张新的地铁票。）"
+          ],
+          "correct": 2,
+          "explanation": "关键信息：地铁停运 → Utilisez la ligne de bus 96（使用96路公交）。选项 C 'un moyen de transport de remplacement'（替代交通工具）是对 'Utilisez la ligne de bus 96' 的上位概括/同义替换。A 错误：虽然提到了 bus，但 'un autre bus' 暗示之前已经在坐公交，与原文不符。B 错误：原文没有说等待。D 错误：没有提到买票。",
+          "category": "听力-信息提取+同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Salut Léa ! Samedi prochain c'est l'anniversaire de Thomas. On organise une surprise. Tu viens ?\n— _____\n（— 嗨 Léa！下周六是 Thomas 的生日。我们组织一个惊喜。你来吗？\n— _____）",
+          "options": [
+            "Quel dommage, samedi je suis en voyage.（太遗憾了，周六我在旅行。）",
+            "C'est super, hier c'était très amusant.（太棒了，昨天很有趣。）",
+            "D'accord, je viens mercredi.（好的，我周三来。）",
+            "Oui bien sûr, qu'est-ce que je peux préparer ?（当然了，我能准备什么？）"
+          ],
+          "correct": 3,
+          "explanation": "D 正确：接受邀请（Oui bien sûr）+ 合理后续问题（准备什么）。A 虽然语法正确且逻辑通顺（合理拒绝），但本题音频语境暗示接受邀请更自然——注意本题 A 也可以算合理回应，但 D 更完整地回应了 surprise 组织的语境。B 错误：hier（昨天）时间线不对。C 错误：mercredi（周三）与 samedi（周六）时间不匹配。",
+          "category": "听力-回应邀请"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous cherchez un cadeau original ? Rendez-vous sur notre site www.cadeaux-fun.fr et découvrez notre nouvelle collection. Livraison gratuite pour toute commande avant le 20 décembre. Que faut-il faire pour voir les produits ?\n（您在找一份有创意的礼物吗？请访问我们的网站 www.cadeaux-fun.fr，发现我们的新系列。12月20日前所有订单免费配送。要查看产品需要做什么？）",
+          "options": [
+            "Téléphoner au magasin.（打电话给商店。）",
+            "Consulter un site Internet.（浏览一个网站。）",
+            "Se rendre dans une boutique.（去一家店铺。）",
+            "Envoyer un courrier.（寄一封信。）"
+          ],
+          "correct": 1,
+          "explanation": "关键句：Rendez-vous sur notre site www.cadeaux-fun.fr。'Rendez-vous sur notre site' = 'Consulter un site Internet'（同义替换）。A 错误：没有提到打电话。C 错误：是网站不是实体店。D 错误：没有提到寄信。",
+          "category": "听力-信息提取+同义替换"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1zD3dTmOFL_H_kxqwQgay05pNpEERTuUpMwGy4ghkNmk/edit?tab=t.0#heading=h.1h81fjqld9bw"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773444110773-xkjx2wv1jw",
+          "front": "faire beau（天气相关）",
+          "back": "天气好\n例：Dimanche, il fera beau.\n（周日天气会很好。）"
+        },
+        {
+          "id": "1773444110773-opco2u0cno",
+          "front": "J'aimerais bien + 动词原形",
+          "back": "我很想……（委婉表达愿望，conditionnel présent）\n例：J'aimerais bien faire un peu de sport.\n（我很想做点运动。）"
+        },
+        {
+          "id": "1773444110773-8y9prs07yg",
+          "front": "faire du vélo",
+          "back": "骑自行车\nfaire du / de la / des + 运动 = 从事某项运动\n例：Tu veux faire du vélo avec moi ?\n（你想和我一起骑车吗？）"
+        },
+        {
+          "id": "1773444110773-t44obya50v",
+          "front": "un peu de + 不可数名词",
+          "back": "一点儿……\n例：faire un peu de sport（做点运动）\nun peu de lait（一点牛奶）"
+        },
+        {
+          "id": "1773444110773-xju4gfqpt9o",
+          "front": "Bonne idée",
+          "back": "好主意\n用于积极回应对方的提议或邀请"
+        },
+        {
+          "id": "1773444110773-4koqxi4czxw",
+          "front": "tout de suite",
+          "back": "马上、立刻\n⚠️ TCF 陷阱：如果邀请说的是将来时间（dimanche / samedi），回答 tout de suite 就是时间矛盾"
+        },
+        {
+          "id": "1773444110773-cwv5bnvaxaf",
+          "front": "Quel dommage !",
+          "back": "太可惜了！太遗憾了！\n用于表达遗憾或拒绝"
+        },
+        {
+          "id": "1773444110773-mntkzj7yi8b",
+          "front": "faire une fête",
+          "back": "办聚会 / 办派对\n例：Je fais une fête samedi.\n（我周六办个聚会。）"
+        },
+        {
+          "id": "1773444110773-npqm7f43yqe",
+          "front": "Ouais",
+          "back": "是的 / 嗯（oui 的口语非正式形式）\nTCF 听力口语对话中常出现"
+        },
+        {
+          "id": "1773444110773-pwbmij8n3hm",
+          "front": "avec plaisir",
+          "back": "非常乐意（愉快接受邀请的固定表达）\n例：— Tu viens ? — Avec plaisir !\n（— 你来吗？— 非常乐意！）"
+        },
+        {
+          "id": "1773444110773-wei5vt6is8d",
+          "front": "Comment on fait pour + 动词原形 ?",
+          "back": "我们怎么做才能……？（口语高频句型）\n例：Comment on fait pour aller chez toi ?\n（怎么去你家？）"
+        },
+        {
+          "id": "1773444110773-3mlfvpdqbtv",
+          "front": "aller chez toi / chez moi / chez lui",
+          "back": "去你家 / 去我家 / 去他家\nchez + 重读人称代词 = 在/去某人家"
+        },
+        {
+          "id": "1773444110773-ox7ll09xsd8",
+          "front": "descendre（交通场景）",
+          "back": "下车\ndescendre du bus / du train / du métro\n例：Tu descends au dernier arrêt du bus 78.\n（你在78路最后一站下车。）"
+        },
+        {
+          "id": "1773444110773-y8sgbzb31in",
+          "front": "un arrêt",
+          "back": "公交车站\nle dernier arrêt = 终点站 / 最后一站\nle prochain arrêt = 下一站"
+        },
+        {
+          "id": "1773444110773-j9ug5yximyp",
+          "front": "une chaîne",
+          "back": "频道（电视/广播）\n例：À 20h50 sur notre chaîne...\n（今晚20:50在我们的频道上……）"
+        },
+        {
+          "id": "1773444110773-0l80wq0jz8qm",
+          "front": "une émission",
+          "back": "节目（电视/广播节目）\n例：Participez à notre émission.\n（参与我们的节目。）"
+        },
+        {
+          "id": "1773444110773-60mtx8dkf74",
+          "front": "composer un numéro",
+          "back": "拨打一个号码 = téléphoner（打电话）\n⚠️ TCF 同义替换高频考点\n例：Composez le 01 40 00 01 01."
+        },
+        {
+          "id": "1773444110773-cehhnkcc1ba",
+          "front": "participer à + 名词",
+          "back": "参加……\n例：participer à une émission（参加一个节目）\nparticiper à un jeu（参加一个游戏）"
+        },
+        {
+          "id": "1773444110773-sv1wsdjorye",
+          "front": "la meilleure / le meilleur",
+          "back": "最好的（bon 的最高级）\n例：la meilleure chanson de l'année\n（年度最佳歌曲）"
+        },
+        {
+          "id": "1773444110773-q2gmfglg5l",
+          "front": "francophone",
+          "back": "法语的 / 说法语的\n例：chanson francophone（法语歌曲）\npays francophone（法语国家）"
+        },
+        {
+          "id": "1773444110773-3xngmaepe5o",
+          "front": "TCF 技巧：听到疑问词先锁定答案类型",
+          "back": "Comment → 方式/路线\nOù → 地点\nQuand → 时间\nPourquoi → 原因\nCombien → 数量\n先判断问什么，再匹配选项的信息类型"
+        },
+        {
+          "id": "1773444110773-9sdvv4tumrl",
+          "front": "TCF 技巧：时间线索匹配",
+          "back": "邀请说 dimanche/samedi → 回答不能用 tout de suite（马上）或 hier（昨天）\n⚠️ 时间矛盾是 TCF 听力最常见的干扰项设计"
+        },
+        {
+          "id": "1773444110773-oepuclbwv9",
+          "front": "TCF 技巧：同义替换识别",
+          "back": "TCF 听力正确选项几乎不会照搬原文原词，而是用同义词替换：\ncomposer un numéro → téléphoner\nenvoyer un SMS → écrire un SMS\nRendez-vous sur notre site → consulter un site Internet"
+        },
+        {
+          "id": "1773444110773-kyfuljgcx7d",
+          "front": "TCF 技巧：区分「接收信息」和「参与方式」",
+          "back": "écouter la radio / regarder la télé = 接收信息（不算参与）\ntéléphoner / envoyer un SMS / aller sur le site = 实际参与动作\n⚠️ 题目问 pour participer 时，不要选「听/看」"
+        }
+      ]
+    },
+    {
+      "id": 1773440006731,
+      "name": "真题TEST 2听力 A2 Q5-7",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-13T22:13:26.731Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Avez-vous vu quelqu'un dans le jardin ?\n— \n（——你在花园里看到什么人了吗？\n——）",
+          "options": [
+            "Oui, je crois.（是的，我觉得是。）",
+            "Non, c'est par là.（不，是往那边走。）",
+            "Merci, je ne veux rien.（谢谢，我什么都不要。）",
+            "Peut-être demain ?（也许明天？）"
+          ],
+          "correct": 0,
+          "explanation": "oui/non 疑问句，问'是否看到人'，只有 A 正面回应了感知类问题。B 是方向，C 是拒绝提供，D 是时间。",
+          "category": "听力-回应匹配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— J'ai réservé une table pour ce soir. Tu viens avec moi ?\n— \n（——我订了今晚的桌子。你跟我一起来吗？\n——）",
+          "options": [
+            "Désolé, je ne peux pas t'aider.（抱歉，我帮不了你。）",
+            "Avec plaisir, j'adore ce restaurant !（很乐意，我喜欢那家餐厅！）",
+            "Désolé, je préfère le menu à 18 euros.（抱歉，我更喜欢18欧的套餐。）",
+            "D'accord, je te prêterai ma valise.（好的，我把行李箱借给你。）"
+          ],
+          "correct": 1,
+          "explanation": "对方邀请你一起去吃饭，B 接受邀请且理由匹配（喜欢那家餐厅）。A 是回应求助，C 是点菜阶段，D 和吃饭无关。",
+          "category": "听力-邀请回应"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Mon train part à 5h du matin. Tu pourrais m'emmener à la gare ?\n— \n（——我的火车早上5点出发。你能送我去火车站吗？\n——）",
+          "options": [
+            "Parfait. Je viendrai te chercher à l'aéroport.（好的。我去机场接你。）",
+            "Bien sûr. Je passe te prendre chez toi à 4h.（当然。我4点去你家接你。）",
+            "D'accord. Je te prêterai mon billet.（好的。我把我的票借给你。）",
+            "Avec plaisir. J'adore les voyages.（很乐意。我喜欢旅行。）"
+          ],
+          "correct": 1,
+          "explanation": "请求送去 la gare，B 回应了'开车接你'且时间合理（5点的车，4点接）。A 地点错（aéroport≠gare），C 语义无关，D 答非所问。",
+          "category": "听力-请求回应"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On réserve une table pour deux ?\n这句话中 on 的含义是：\n（这句话里 on 是什么意思？）",
+          "options": [
+            "某人（quelqu'un）",
+            "人们（les gens）",
+            "我们（nous）",
+            "他/她（il/elle）"
+          ],
+          "correct": 2,
+          "explanation": "口语中 on 常替代 nous 表示'我们'。On réserve = Nous réservons。",
+          "category": "语法-代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je passe te prendre chez toi.\n句中 passer prendre 的意思是：\n（这里 passer prendre 是什么意思？）",
+          "options": [
+            "路过看看（passer voir）",
+            "顺路去接（aller chercher en passant）",
+            "经过而不停留（passer sans s'arrêter）",
+            "递交/传递（transmettre）"
+          ],
+          "correct": 1,
+          "explanation": "passer prendre qqn = 顺路去接某人，口语高频表达。Je passe te prendre = 我去接你。",
+          "category": "词汇-固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'a _____ à l'aéroport en voiture.\n（他开车送我去了机场。）",
+          "options": [
+            "amené（带来）",
+            "emmené（带走/送去）",
+            "apporté（带来-物品）",
+            "emporté（带走-物品）"
+          ],
+          "correct": 1,
+          "explanation": "emmener = 带人离开此处去某地。amener = 带人来到此处。apporter/emporter 用于物品。送去机场 = emmener à l'aéroport。",
+          "category": "词汇-emmener/amener"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu peux me prêter ta valise ?\n— Oui, je te _____ prête avec plaisir.\n（——你能把行李箱借给我吗？\n——好的，我很乐意借给你。）",
+          "options": [
+            "le（阳性直宾代词）",
+            "la（阴性直宾代词）",
+            "les（复数直宾代词）",
+            "lui（间宾代词）"
+          ],
+          "correct": 1,
+          "explanation": "valise 是阴性名词，用 la 替代。prêter qqch à qqn → je te la prête（我把它借给你）。",
+          "category": "语法-代词替代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À cette heure-là, il n'y a pas de transport en commun.\n句中 transport en commun 的意思是：\n（这里 transport en commun 是什么意思？）",
+          "options": [
+            "私人交通（transport privé）",
+            "公共交通（transport public）",
+            "共享单车（vélo partagé）",
+            "出租车（taxi）"
+          ],
+          "correct": 1,
+          "explanation": "transport en commun = 公共交通，包括公交车、地铁、电车等。TCF 高频词组。",
+          "category": "词汇-固定搭配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1vg1zeqv6QI4-CWaWdAer3VCe7hHdKgRrptaXmNDU4cA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1773439207395,
+      "name": "真题TEST 2听力 A1 Q1-4",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-13T22:00:07.395Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "（妈妈对孩子说）_____ tes chaussures, on part !\n（穿上你的鞋，我们出发！）",
+          "options": [
+            "Met（错误形式）",
+            "Mets（穿上，tu命令式）",
+            "Mettons（穿上，nous命令式）",
+            "Mettez（穿上，vous命令式）"
+          ],
+          "correct": 1,
+          "explanation": "妈妈对孩子 → tu 形式。mettre 不是 -er 动词，tu 命令式保留 -s：Mets。A 少了 s 是错误形式。",
+          "category": "命令式-非er动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "（朋友之间）_____ attention, la route est glissante !\n（小心，路很滑！）",
+          "options": [
+            "Fais（小心，tu命令式）",
+            "Fait（他做）",
+            "Faites（小心，vous命令式）",
+            "Faire（做，原形）"
+          ],
+          "correct": 0,
+          "explanation": "朋友之间 → tu 形式。faire 的 tu 命令式是 Fais。B 是第三人称直陈式，C 是 vous 形式，D 是原形。",
+          "category": "命令式-faire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais envoyer ce colis au Canada. C'est combien ?\n（我想把这个包裹寄到加拿大。多少钱？）\n这段对话最可能发生在哪里？",
+          "options": [
+            "À la boulangerie（面包店）",
+            "À la poste（邮局）",
+            "À la banque（银行）",
+            "Au restaurant（餐厅）"
+          ],
+          "correct": 1,
+          "explanation": "envoyer un colis（寄包裹）→ 邮局场景。boulangerie 买面包，banque 办理金融业务，restaurant 吃饭。",
+          "category": "场景识别-邮局"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu peux m'aider à porter cette valise ?\n（你能帮我搬这个箱子吗？）",
+          "options": [
+            "Ce n'est pas grave.（没关系。）",
+            "Ça va, merci.（我很好，谢谢。）",
+            "Bien sûr, pas de problème.（当然，没问题。）",
+            "Pas de quoi.（不客气。）"
+          ],
+          "correct": 2,
+          "explanation": "对方提出请求（Tu peux m'aider），正确回应是 Bien sûr, pas de problème（当然没问题）。A 回应道歉，B 回应问候，D 回应感谢。",
+          "category": "社交应答-请求"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个表达属于餐厅「点餐阶段」？\n（Which expression belongs to the 'ordering' stage in a restaurant?）",
+          "options": [
+            "Gardez la monnaie.（零钱不用找了。）",
+            "Je voudrais une table près de la fenêtre.（我想要靠窗的桌子。）",
+            "Je vais prendre le plat du jour.（我要今日特餐。）",
+            "Bravo aux cuisiniers !（厨师做得好！）"
+          ],
+          "correct": 2,
+          "explanation": "le plat du jour（今日特餐）是点餐表达。A 是结账，B 是到达/入座，D 是用餐后评价。",
+          "category": "餐厅场景-时间线"
+        },
+        {
+          "type": "single_choice",
+          "stem": "「靠近车站」用法语怎么说？\n（How do you say 'near the station' in French?）",
+          "options": [
+            "loin de la gare（远离车站）",
+            "à côté de la gare（在车站旁边）",
+            "près de la gare（靠近车站）",
+            "en face de la gare（在车站对面）"
+          ],
+          "correct": 2,
+          "explanation": "près de = 靠近。loin de = 远离，à côté de = 旁边，en face de = 对面。注意区分这四个方位介词短语。",
+          "category": "词汇-方位介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪个是「早餐」的法语？\n（Which is the French word for 'breakfast'?）",
+          "options": [
+            "le dîner（晚餐）",
+            "le déjeuner（午餐）",
+            "le goûter（下午茶/点心）",
+            "le petit-déjeuner（早餐）"
+          ],
+          "correct": 3,
+          "explanation": "le petit-déjeuner = 早餐，le déjeuner = 午餐，le goûter = 下午茶，le dîner = 晚餐。",
+          "category": "词汇-三餐"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1PeMERjDgAbUdSmMHFWTHkL2xM44Yfw9-JHMkfPg9DxQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773439267278-181mooq6ckm",
+          "front": "邀请的正确回应\nOn va au cinéma ?",
+          "back": "Avec plaisir ! / D'accord. / Pourquoi pas ? / Bonne idée !\n中文：很乐意！/ 好的。/ 为什么不呢？/ 好主意！"
+        },
+        {
+          "id": "1773439267278-5s4lmq5k9dq",
+          "front": "感谢的正确回应\nMerci beaucoup !",
+          "back": "De rien. / Je t'en prie. / Pas de quoi. / Il n'y a pas de quoi.\n中文：不客气。（四种说法，从口语到正式）"
+        },
+        {
+          "id": "1773439267278-6fe2mabrz4x",
+          "front": "道歉的正确回应\nPardon ! / Désolé(e) !",
+          "back": "Ce n'est pas grave. / Ce n'est rien. / Il n'y a pas de mal.\n中文：没关系。/ 没事。/ 没什么。"
+        },
+        {
+          "id": "1773439267278-l4nbkmj6lhf",
+          "front": "问候的正确回应\nComment ça va ?",
+          "back": "Ça va, merci. / Très bien, et toi ?\n中文：还好，谢谢。/ 很好，你呢？"
+        },
+        {
+          "id": "1773439267278-wlvszz5w52j",
+          "front": "请求的正确回应\nTu peux m'aider ?",
+          "back": "Bien sûr. / Pas de problème. / Avec plaisir.\n中文：当然。/ 没问题。/ 很乐意。"
+        },
+        {
+          "id": "1773439267278-3sxdf1nrkwi",
+          "front": "命令式：-er 动词 tu 形式的特殊规则",
+          "back": "去掉词尾 -s\ntu regardes → Regarde !\ntu arrêtes → Arrête !\n⚠️ 只有 -er 动词去 -s"
+        },
+        {
+          "id": "1773439267278-l3a0jek617q",
+          "front": "命令式：mettre (tu)",
+          "back": "Mets !\n非 -er 动词保留 -s\n例：Mets ton bonnet !（戴上你的帽子！）"
+        },
+        {
+          "id": "1773439267278-7i7z8tiev1i",
+          "front": "命令式：faire (tu)",
+          "back": "Fais !\n例：Fais attention !（小心！）"
+        },
+        {
+          "id": "1773439267278-mhkm6bqw3kb",
+          "front": "命令式的三个人称",
+          "back": "tu → 省略主语，直接动词\nnous → 省略主语（= 咱们……吧）\nvous → 省略主语（正式/对多人）\n例：Mange ! / Mangeons ! / Mangez !"
+        },
+        {
+          "id": "1773439267278-0grrzupdski",
+          "front": "tout de suite",
+          "back": "立刻，马上\n例：Viens ici tout de suite !\n中文：马上过来！"
+        },
+        {
+          "id": "1773439267278-chhwuif1n3e",
+          "front": "près de",
+          "back": "靠近，在……附近\n反义词：loin de（远离）\n例：J'habite près de la gare.\n中文：我住在火车站附近。"
+        },
+        {
+          "id": "1773439267278-5p4mcqe0fzt",
+          "front": "envoyer",
+          "back": "寄，发送\n⚠️ 变位不规则：j'envoie, nous envoyons\n例：Je voudrais envoyer cette lettre.\n中文：我想寄这封信。"
+        },
+        {
+          "id": "1773439267278-yhz3yryy4k9",
+          "front": "un colis vs une lettre vs le courrier",
+          "back": "un colis = 包裹\nune lettre = 信\nle courrier = 邮件（总称）\n⚠️ colis 阳性，lettre 阴性"
+        },
+        {
+          "id": "1773439267278-13ugfvrok1id",
+          "front": "le facteur",
+          "back": "邮递员（阳性）\n阴性：la factrice\n例：Le facteur est passé ce matin.\n中文：邮递员今天早上来过了。"
+        },
+        {
+          "id": "1773439267278-k394awf6wog",
+          "front": "un bonnet vs un chapeau vs une casquette",
+          "back": "un bonnet = 无沿帽（毛线帽）\nun chapeau = 有沿帽\nune casquette = 鸭舌帽"
+        },
+        {
+          "id": "1773439267278-8ldcuk7hm59",
+          "front": "餐厅四阶段表达",
+          "back": "① 到达：Je voudrais une table pour...\n② 点餐：Je vais prendre...\n③ 用餐中：Un autre café / C'est délicieux\n④ 结账：L'addition / Gardez la monnaie"
+        },
+        {
+          "id": "1773439267278-6tt605ebwkj",
+          "front": "je voudrais vs je veux",
+          "back": "je voudrais = 我想要（礼貌，条件式）\nje veux = 我要（直接，可能显粗鲁）\n⚠️ TCF 场景中几乎总用 je voudrais"
+        },
+        {
+          "id": "1773439267278-b6ycj4v65p",
+          "front": "libre",
+          "back": "adj. 有空的；自由的\n例：Je suis libre demain.\n中文：我明天有空。"
+        },
+        {
+          "id": "1773439267278-agxnsic33cf",
+          "front": "ensemble",
+          "back": "adv. 一起\n例：On travaille ensemble.\n中文：我们一起工作。"
+        },
+        {
+          "id": "1773439267278-w7tdc4wx45r",
+          "front": "三餐法语",
+          "back": "le petit-déjeuner = 早餐\nle déjeuner = 午餐\nle dîner = 晚餐\nle goûter = 下午茶/点心"
+        },
+        {
+          "id": "1773439267278-k9bmo9ih6el",
+          "front": "De rien vs Je t'en prie vs Pas de quoi",
+          "back": "De rien = 不客气（最口语）\nJe t'en prie = 不客气（tu，稍正式）\nJe vous en prie = 不客气（vous，正式）\nPas de quoi = 不客气（口语缩写）"
+        },
+        {
+          "id": "1773439267278-liebf8frhzb",
+          "front": "allô 的使用规则",
+          "back": "仅用于电话开头\n⚠️ 面对面打招呼不用 allô\n面对面用：Bonjour / Salut"
+        },
+        {
+          "id": "1773439267278-llr36ai6fln",
+          "front": "TCF听力：图文匹配3秒判断法",
+          "back": "① 看图抓三要素：地点 + 动作 + 人物关系\n② 听选项只抓核心动词\n③ 排除与图片时间节点/场景不符的选项"
+        },
+        {
+          "id": "1773439267278-omooxhnphcb",
+          "front": "TCF听力：社交应答解题法",
+          "back": "① 判断对方话语的功能：邀请？问候？感谢？道歉？请求？\n② 排除功能不匹配的选项\n③ 当两个选项功能相同时，通常两个都不选"
+        }
+      ]
+    },
+    {
       "id": 1773288863950,
       "name": "Unit 2 Imparfait POUVOIR  VOULOIR DEVOIR FALLOIR SAVOIR",
       "folderId": "1771907837913",
@@ -3642,7 +4231,7 @@
     },
     {
       "id": 1773190408662,
-      "name": "TCF听力 TEST1 Q8-10 A2",
+      "name": "真题TEST 1听力 A2 Q8-10",
       "folderId": "1772686244763",
       "createdAt": "2026-03-11T00:53:28.662Z",
       "questions": [
@@ -3954,7 +4543,7 @@
     },
     {
       "id": 1773189909780,
-      "name": "TCF听力 TEST1 Q5-7 A2",
+      "name": "真题TEST 1听力 A2 Q5-7",
       "folderId": "1772686244763",
       "createdAt": "2026-03-11T00:45:09.780Z",
       "questions": [
@@ -4170,7 +4759,7 @@
     },
     {
       "id": 1773189037245,
-      "name": "TCF 听力 TEST1 Q1-4 A1",
+      "name": "真题TEST 1听力 A1 Q1-4",
       "folderId": "1772686244763",
       "createdAt": "2026-03-11T00:30:37.245Z",
       "questions": [
@@ -83795,11 +84384,11 @@
     },
     {
       "id": "1772685738192",
-      "name": "TCF阅读"
+      "name": "TCF阅读A1-A2"
     },
     {
       "id": "1772686244763",
-      "name": "TCF听力"
+      "name": "TCF听力A1-A2"
     }
   ],
   "wrongBook": [],
@@ -83817,12 +84406,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-12",
+    "date": "2026-03-13",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-12T04:14:39.822Z",
+  "exportedAt": "2026-03-13T23:21:54.878Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
