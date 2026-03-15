@@ -1,6 +1,167 @@
 {
   "savedSets": [
     {
+      "id": 1773540356998,
+      "name": "习语：Rouler sa bosse",
+      "folderId": "1770661225895",
+      "createdAt": "2026-03-15T02:05:56.998Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Que signifie l'expression « rouler sa bosse » ?\n（« rouler sa bosse » 是什么意思？）",
+          "options": [
+            "Travailler très dur（拼命工作）",
+            "Voyager beaucoup et acquérir de l'expérience（大量旅行并积累经验）",
+            "Conduire une voiture sur une route difficile（在难走的路上开车）",
+            "Avoir mal au dos（背疼）"
+          ],
+          "correct": 1,
+          "explanation": "rouler sa bosse = voyager beaucoup, parcourir le monde。干扰项 A 混淆了 bosse 和 bosser（干活），C 只取了 rouler 的字面意思，D 混淆了 bosse（包/驼峰）和身体疼痛。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon grand-père a roulé sa bosse pendant trente ans avant de revenir dans son village.\n（我爷爷在外面闯荡了三十年才回到村里。）\nQue peut-on dire du grand-père ?\n（关于爷爷，我们可以说什么？）",
+          "options": [
+            "Il n'a jamais quitté son village.（他从未离开过村子。）",
+            "Il a beaucoup voyagé avant de rentrer chez lui.（他在回家之前旅行了很多。）",
+            "Il a travaillé dans une usine pendant trente ans.（他在工厂工作了三十年。）",
+            "Il a eu un accident de voiture.（他出了车祸。）"
+          ],
+          "correct": 1,
+          "explanation": "rouler sa bosse = 四处闯荡、旅行。句意是爷爷在外闯荡30年后回到村子。A 与原文矛盾，C 是对 bosse/bosser 的混淆，D 是对 rouler 的字面曲解。",
+          "category": "习语-语境推断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après avoir roulé sa bosse en Amérique du Sud, Julie est devenue très _____ .\n（在南美闯荡之后，Julie 变得非常 _____ 。）",
+          "options": [
+            "fatiguée（疲惫的）",
+            "ouverte d'esprit（开明的）",
+            "malade（生病的）",
+            "riche（富有的）"
+          ],
+          "correct": 1,
+          "explanation": "rouler sa bosse 强调的是通过旅行积累阅历、开阔眼界。最合逻辑的结果是 ouverte d'esprit（心态开放）。其他选项虽然语法上成立，但不符合这个习语的文化内涵。",
+          "category": "习语-逻辑搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le synonyme le plus proche de « rouler sa bosse » ?\n（« rouler sa bosse » 最接近的同义词是什么？）",
+          "options": [
+            "Se reposer（休息）",
+            "Bourlinguer（四处漂泊）",
+            "Bosser（干活）",
+            "Se disputer（吵架）"
+          ],
+          "correct": 1,
+          "explanation": "bourlinguer = 到处漂泊，与 rouler sa bosse 意思最接近。bosser（干活）是最常见的干扰项，因为 bosse 和 bosser 形似。",
+          "category": "习语-同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans quelle situation peut-on utiliser « rouler sa bosse » ?\n（在什么情况下可以使用 « rouler sa bosse »？）",
+          "options": [
+            "Paul travaille dans le même bureau depuis 20 ans.（Paul 在同一个办公室工作了20年。）",
+            "Marie a vécu dans cinq pays différents avant ses 30 ans.（Marie 在30岁之前在五个不同的国家生活过。）",
+            "Lucas n'est jamais sorti de sa ville natale.（Lucas 从未离开过家乡。）",
+            "Sophie a mal à la tête depuis ce matin.（Sophie 从今早开始头疼。）"
+          ],
+          "correct": 1,
+          "explanation": "rouler sa bosse 用于描述一个人四处闯荡、经历丰富。Marie 在5个国家生活过，完全符合。A 是固定不动的生活，C 正好相反，D 和这个习语毫无关系。",
+          "category": "习语-语境判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Synonyme de « rouler sa bosse » : voyager beaucoup et _____ de l'expérience.\n（« rouler sa bosse » 的同义表达：大量旅行并 _____ 经验。）",
+          "correct": [
+            "acquérir"
+          ],
+          "explanation": "acquérir de l'expérience = 获取/积累经验，是 rouler sa bosse 含义的核心部分。",
+          "category": "习语-词汇填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Il a roulé sa bosse aux quatre coins du monde. »\n（他在世界各地闯荡过。）\nQue signifie « aux quatre coins du monde » ?\n（« aux quatre coins du monde » 是什么意思？）",
+          "options": [
+            "Dans quatre pays seulement（只在四个国家）",
+            "Partout dans le monde（在世界各地）",
+            "Dans les coins les plus dangereux（在最危险的角落）",
+            "Près de chez lui（在他家附近）"
+          ],
+          "correct": 1,
+          "explanation": "aux quatre coins du monde = 在世界各地（partout dans le monde）。这里 quatre coins 不是字面的\"四个角\"，而是一个固定表达，意为\"各处\"。这是 TCF 常见的习语叠加考法。",
+          "category": "习语-双重习语理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达可以替换 « rouler sa bosse » ？",
+          "options": [
+            "parcourir le monde（周游世界）",
+            "travailler sans arrêt（不停地工作）",
+            "bourlinguer（四处漂泊）",
+            "avoir beaucoup voyagé（旅行很多）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "parcourir le monde、bourlinguer、avoir beaucoup voyagé 都可以替换 rouler sa bosse。travailler sans arrêt（不停工作）是对 bosser 的混淆，不正确。",
+          "category": "习语-同义替换多选"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Ri0OiK5Q8bamrbAOnPzcT_rlax7IqIFCYH5dK7088vY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773540395806-pex4ojpv7e",
+          "front": "rouler sa bosse",
+          "back": "走南闯北、四处闯荡、到处旅行积累经验\nvoyager beaucoup, partir à l'aventure\n例：Il a roulé sa bosse pendant vingt ans.（他闯荡了二十年。）"
+        },
+        {
+          "id": "1773540395806-c4rzh6ljxmc",
+          "front": "rouler sa bosse 的字面意思？",
+          "back": "滚自己的驼峰/包\nrouler = 滚动；bosse = 驼峰、肿包\n引申为：在旅途颠簸中积累阅历"
+        },
+        {
+          "id": "1773540395806-j9wlu00jug",
+          "front": "rouler sa bosse 的同义词（3个）",
+          "back": "1. bourlinguer（四处漂泊，口语）\n2. parcourir le monde（周游世界，书面）\n3. avoir beaucoup voyagé（旅行很多，中性）"
+        },
+        {
+          "id": "1773540395806-5kbmu5rbhlx",
+          "front": "TCF 陷阱：bosse vs bosser",
+          "back": "bosse（n.f.）= 驼峰、肿包\nbosser（v., familier）= 干活、工作\n⚠️ rouler sa bosse ≠ travailler dur"
+        },
+        {
+          "id": "1773540395806-e8r4d3xb96t",
+          "front": "rouler sa bosse 适用场景？",
+          "back": "✅ 描述一个人去过很多地方、阅历丰富\n❌ 不用于：在同一地方工作、单一城市生活"
+        },
+        {
+          "id": "1773540395806-1o912acxnov",
+          "front": "aux quatre coins du monde",
+          "back": "在世界各地（partout dans le monde）\n⚠️ 不是字面的\"四个角\"\n例：Il a roulé sa bosse aux quatre coins du monde.（他在世界各地闯荡过。）"
+        },
+        {
+          "id": "1773540395806-1i0sjkiobi5",
+          "front": "acquérir de l'expérience",
+          "back": "积累经验、获取经验\n常与 rouler sa bosse 搭配解释：\nvoyager beaucoup et acquérir de l'expérience"
+        },
+        {
+          "id": "1773540395806-ehkcyvcmtpe",
+          "front": "用 rouler sa bosse 造一个 B2 句子",
+          "back": "C'est quelqu'un qui a roulé sa bosse : il sait s'adapter à n'importe quelle situation.\n（他是个走南闯北的人——他懂得适应任何情况。）"
+        }
+      ]
+    },
+    {
       "id": 1773540080667,
       "name": "A2 Lecon 7 TCF阅读 练习",
       "folderId": "1772685738192",
@@ -86569,6 +86730,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-15T02:02:11.291Z",
+  "exportedAt": "2026-03-15T02:06:37.269Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
