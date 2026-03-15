@@ -1,6 +1,2163 @@
 {
   "savedSets": [
     {
+      "id": 1773540080667,
+      "name": "A2 Lecon 7 TCF阅读 练习",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-15T02:01:20.667Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Selon le texte, que signifie « avoir une alimentation équilibrée » ?\n（根据文章，「avoir une alimentation équilibrée」是什么意思？）",
+          "options": [
+            "Manger uniquement des légumes（只吃蔬菜）",
+            "Manger de tout en quantités adaptées（什么都吃，量要适当）",
+            "Ne jamais manger de sucre（永远不吃糖）",
+            "Manger trois fois par jour（每天吃三顿）"
+          ],
+          "correct": 1,
+          "explanation": "équilibré = 均衡的，意思是各种食物都吃、量要合理，而不是只吃某一类或完全禁止某类食物。A 太极端，C 太绝对，D 是用餐频率而非均衡概念。",
+          "category": "主旨理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien de fruits et légumes faut-il manger au minimum par jour ?\n（每天至少要吃多少种蔬菜水果？）",
+          "options": [
+            "3（3种）",
+            "4（4种）",
+            "5（5种）",
+            "9（9种）"
+          ],
+          "correct": 2,
+          "explanation": "原文明确写 « Au moins 5 fruits et légumes par jour »。9 是饮食准则的总条数，不是蔬果数量，这是典型的数字干扰项。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'après le texte, une alimentation trop riche en matières grasses peut causer :\n（根据文章，脂肪摄入过多可能导致：）",
+          "options": [
+            "des allergies（过敏）",
+            "des maladies cardio-vasculaires（心血管疾病）",
+            "des problèmes de sommeil（睡眠问题）",
+            "des douleurs musculaires（肌肉疼痛）"
+          ],
+          "correct": 1,
+          "explanation": "原文提到不健康饮食会 causer du diabète, de l'obésité et des maladies cardio-vasculaires。其他三个选项文中未提及，属于无中生有型干扰项。",
+          "category": "因果关系"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « à volonté » dans le texte ?\n（文中「à volonté」是什么意思？）",
+          "options": [
+            "Avec modération（适量地）",
+            "Autant qu'on veut（想要多少就多少）",
+            "Une fois par jour（每天一次）",
+            "Seulement le matin（只在早上）"
+          ],
+          "correct": 1,
+          "explanation": "à volonté = 随意地、不限量。文中说 « De l'eau à volonté »，意思是水可以随便喝，不需要限制。A 是反义，C/D 是凭空编造。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle expression est synonyme de « rester en forme » ?\n（哪个表达是「rester en forme」的同义表达？）",
+          "options": [
+            "Rester à la maison（待在家里）",
+            "Rester en bonne santé（保持健康）",
+            "Rester au calme（保持安静）",
+            "Rester en contact（保持联系）"
+          ],
+          "correct": 1,
+          "explanation": "rester en forme = rester en bonne santé，都表示保持健康。其他选项的 rester 搭配不同介词短语，意思完全不同。TCF 常考同义替换。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon les 9 repères, combien de produits laitiers faut-il consommer par jour ?\n（根据9条准则，每天应该摄入多少份乳制品？）",
+          "options": [
+            "1（1份）",
+            "2（2份）",
+            "3（3份）",
+            "5（5份）"
+          ],
+          "correct": 2,
+          "explanation": "原文 « 3 produits laitiers par jour »。5 是蔬果的数量，这里是典型的数字交叉干扰。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le texte recommande de faire au moins _____ de marche rapide par jour.\n（文章建议每天至少快走_____。）",
+          "options": [
+            "15 minutes（15分钟）",
+            "20 minutes（20分钟）",
+            "30 minutes（30分钟）",
+            "60 minutes（60分钟）"
+          ],
+          "correct": 2,
+          "explanation": "原文 « Au moins l'équivalent de 30 minutes de marche rapide par jour »。15/20/60 都是数字干扰项。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel verbe peut remplacer « causer » dans le texte ?\n（哪个动词可以替换文中的「causer」？）",
+          "options": [
+            "Guérir（治愈）",
+            "Provoquer（引起）",
+            "Empêcher（阻止）",
+            "Soigner（治疗）"
+          ],
+          "correct": 1,
+          "explanation": "causer = provoquer = entraîner，都表示\"导致、引起\"。guérir/soigner 是治疗，empêcher 是阻止，都是反义或无关。",
+          "category": "同义替换"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1nDsBInlgYk6xzYhvUvz5fmyJN0k1_jcGFNPBINN6YfE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773540129711-3018t8kowj9",
+          "front": "des aliments",
+          "back": "食物（m.pl.）\n= de la nourriture\nEx: Il faut manger des aliments sains.（要吃健康的食物。）"
+        },
+        {
+          "id": "1773540129711-2x9wumm58iz",
+          "front": "des boissons",
+          "back": "饮料（f.pl.）\nEx: Les boissons sucrées sont mauvaises pour la santé.（含糖饮料对健康有害。）"
+        },
+        {
+          "id": "1773540129711-ctzbdhy1cxm",
+          "front": "des produits laitiers",
+          "back": "乳制品（m.pl.）\nlaitier 来自 lait（牛奶）\nEx: Il faut consommer 3 produits laitiers par jour.（每天要摄入3份乳制品。）"
+        },
+        {
+          "id": "1773540129711-ibm5594r2ig",
+          "front": "des féculents",
+          "back": "淀粉类食物（m.pl.）\n如：米饭、面包、土豆、面条\nEx: Les féculents donnent de l'énergie.（淀粉类食物提供能量。）"
+        },
+        {
+          "id": "1773540129711-uv5ovbxfimq",
+          "front": "riche en + 名词",
+          "back": "富含……的\n介词用 en，不是 de\nEx: un aliment riche en vitamines（富含维生素的食物）"
+        },
+        {
+          "id": "1773540129711-ognvsa7nqap",
+          "front": "nutritionnel / nutritif",
+          "back": "有营养的（形容词）\nnutritionnel 偏书面，nutritif 更常用\nEx: une valeur nutritionnelle（营养价值）"
+        },
+        {
+          "id": "1773540129711-lfo1g4u3tgc",
+          "front": "calorique",
+          "back": "高热量的（形容词）\n名词形式：une calorie（卡路里）\nEx: éviter les aliments caloriques（避免高热量食物）"
+        },
+        {
+          "id": "1773540129711-ickdvxuw2m9",
+          "front": "causer",
+          "back": "导致、引起（及物动词）\n= provoquer = entraîner\nEx: causer du diabète（导致糖尿病）"
+        },
+        {
+          "id": "1773540129711-x0pysa0b8d",
+          "front": "le diabète",
+          "back": "糖尿病（m.）\n注意：阳性名词\nEx: Le sucre peut causer du diabète.（糖可能导致糖尿病。）"
+        },
+        {
+          "id": "1773540129711-oqpif2gyxz",
+          "front": "l'obésité",
+          "back": "肥胖症（f.）\n形容词：obèse（肥胖的）\nEx: L'obésité est un problème de santé.（肥胖是一个健康问题。）"
+        },
+        {
+          "id": "1773540129711-xaquuz47ml9",
+          "front": "les maladies cardio-vasculaires",
+          "back": "心血管疾病（f.pl.）\ncardio = 心脏，vasculaire = 血管的\nEx: Les matières grasses causent des maladies cardio-vasculaires.（脂肪导致心血管疾病。）"
+        },
+        {
+          "id": "1773540129711-fh2dhmkxzac",
+          "front": "une alimentation équilibrée et saine",
+          "back": "均衡且健康的饮食\néquilibré = 均衡的，sain(e) = 健康的\nEx: Il faut avoir une alimentation équilibrée.（要有均衡的饮食。）"
+        },
+        {
+          "id": "1773540129711-mzjcnt9nhlf",
+          "front": "manger sain / manger bio / manger équilibré",
+          "back": "吃得健康 / 吃有机食品 / 吃得均衡\n注意：这里形容词当副词用，不加 -ment\n三者是 TCF 常考同义替换"
+        },
+        {
+          "id": "1773540129711-2q0j5id8rlf",
+          "front": "réduire / limiter",
+          "back": "减少 / 限制\nEx: réduire la consommation de sucre（减少糖的摄入）\nlimiter la consommation de sel（限制盐的摄入）"
+        },
+        {
+          "id": "1773540129711-v4tnb44e88",
+          "front": "éviter de + 动词原形",
+          "back": "避免做……\nTCF 必考结构\nEx: éviter de manger des aliments gras（避免吃油腻的食物）"
+        },
+        {
+          "id": "1773540129711-f3gsxd7l804",
+          "front": "la consommation de...",
+          "back": "……的消费/摄入量（f.）\n动词：consommer（消费、食用）\nEx: limiter la consommation de matières grasses（限制脂肪摄入）"
+        },
+        {
+          "id": "1773540129711-3d8m4g72738",
+          "front": "les matières grasses",
+          "back": "脂肪（f.pl.）\ngras / grasse = 油腻的\nEx: réduire les matières grasses（减少脂肪）"
+        },
+        {
+          "id": "1773540129711-h6z2f998v2r",
+          "front": "rester en forme",
+          "back": "保持健康、保持好身材\n= rester en bonne santé\nTCF 常考同义替换"
+        },
+        {
+          "id": "1773540129711-mdqyqgh2h0j",
+          "front": "Il faut + 动词原形",
+          "back": "必须做……（无人称句）\nTCF A2-B1 必考\nEx: Il faut bien manger.（必须好好吃饭。）"
+        },
+        {
+          "id": "1773540129711-uf2ilth1qjq",
+          "front": "Il existe",
+          "back": "存在（= Il y a，但更正式）\nTCF 书面语常用\nEx: Il existe 9 repères de consommation.（有9条饮食准则。）"
+        },
+        {
+          "id": "1773540129711-6nirvfvz5b2",
+          "front": "un repère de consommation",
+          "back": "消费准则/参考标准（m.）\n= une référence de consommation\nEx: suivre les repères de consommation（遵循消费准则）"
+        },
+        {
+          "id": "1773540129711-1d97xtmh8zp",
+          "front": "au quotidien",
+          "back": "在日常生活中\n= dans la vie quotidienne = chaque jour\nTCF 常考三者互换"
+        },
+        {
+          "id": "1773540129711-jmbhj75bb3",
+          "front": "à volonté",
+          "back": "任意地、随意地、想要多少就多少\nEx: De l'eau à volonté.（水随便喝。）\nTCF 常考词汇理解题"
+        },
+        {
+          "id": "1773540129711-0kp6yefudads",
+          "front": "au moins",
+          "back": "至少\nTCF 超高频，常和数字搭配考细节定位\nEx: au moins 5 fruits par jour（每天至少5种水果）"
+        },
+        {
+          "id": "1773540129711-8ur2czo05zg",
+          "front": "par jour",
+          "back": "每天\n= chaque jour = tous les jours\nEx: 30 minutes de marche par jour（每天走路30分钟）"
+        },
+        {
+          "id": "1773540129711-kgg0wzzpgfs",
+          "front": "selon l'appétit",
+          "back": "根据食欲\nselon = 根据（介词）\nEx: Des féculents à chaque repas, selon l'appétit.（每餐吃淀粉类，看食欲。）"
+        },
+        {
+          "id": "1773540129711-sikb1ecg0ci",
+          "front": "Bon appétit !",
+          "back": "祝好胃口！\n法国人用餐前必说的一句话\n相当于英文 Enjoy your meal!"
+        },
+        {
+          "id": "1773540129711-1dm9gsn26o6",
+          "front": "causer 的同义替换（TCF 必背）",
+          "back": "causer = provoquer = entraîner = être à l'origine de\n都表示\"导致、引起\"\nTCF 阅读中经常互相替换"
+        }
+      ]
+    },
+    {
+      "id": 1773539861678,
+      "name": "TCF A2 Lecon 7 听力练习2-3",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-15T01:57:41.678Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Tu veux du gâteau ?\n— Non merci, il y _____ a encore à la maison.\n（——你要蛋糕吗？——不了谢谢，家里还有。）",
+          "options": [
+            "y（那里）",
+            "en（一些）",
+            "le（它）",
+            "lui（他）"
+          ],
+          "correct": 1,
+          "explanation": "en 代替 du gâteau（部分冠词+名词）。il y en a = 还有一些。y 代地点，en 代数量/部分，这里代替的是'蛋糕'这个东西，不是地点。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne vais plus à la piscine. → Je n'_____ vais plus.\n（我不再去游泳池了。→ 我不再去那里了。）",
+          "options": [
+            "en",
+            "y",
+            "le",
+            "la"
+          ],
+          "correct": 1,
+          "explanation": "y 代替 à la piscine（à + 地点）。代词 y 放在动词前，代替介词 à/dans/en + 地点。",
+          "category": "代词 y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a acheté des pommes. Il _____ a acheté cinq.\n（他买了苹果。他买了五个。）",
+          "options": [
+            "y",
+            "en",
+            "les",
+            "leur"
+          ],
+          "correct": 1,
+          "explanation": "en 代替 des pommes（部分冠词+名词），后面有数量词 cinq 时仍用 en。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Annie dit : « Non pas que ça me déplaise. » Que signifie cette phrase ?\n（Annie 说：'倒不是说我不喜欢。' 这句话是什么意思？）",
+          "options": [
+            "Elle déteste ça.（她讨厌。）",
+            "Elle n'aime pas du tout.（她一点都不喜欢。）",
+            "Ce n'est pas la raison de son refus.（这不是她拒绝的原因。）",
+            "Elle hésite à répondre.（她犹豫要不要回答。）"
+          ],
+          "correct": 2,
+          "explanation": "'Non pas que...' 意思是'倒不是因为……'，用来先否定一个可能的误解，然后引出真正原因。所以这句话的意思是：不喜欢并不是她拒绝的原因。",
+          "category": "表达理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne mange plus à la cantine. Le mot « plus » signifie ici :\n（她不再在食堂吃了。这里的 plus 意思是：）",
+          "options": [
+            "更多（davantage）",
+            "不再（ne... plus = not anymore）",
+            "加上（en plus）",
+            "最多（au plus）"
+          ],
+          "correct": 1,
+          "explanation": "ne... plus 表示'不再'，表示动作或状态的终止。区分：ne...pas（不），ne...plus（不再），ne...jamais（从不）。",
+          "category": "否定结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu connais ce restaurant ? — Oui, j'_____ suis allé hier.\n（你知道那家餐厅吗？——知道，我昨天去了那里。）",
+          "options": [
+            "en",
+            "y",
+            "lui",
+            "le"
+          ],
+          "correct": 1,
+          "explanation": "y 代替 à ce restaurant（à + 地点）。注意：je y → j'y（元音省略）。",
+          "category": "代词 y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aimerais une alimentation plus _____.\n（我想要更多样化的饮食。）",
+          "options": [
+            "varié（多样的，阳性）",
+            "variée（多样的，阴性）",
+            "variés（多样的，阳性复数）",
+            "variées（多样的，阴性复数）"
+          ],
+          "correct": 1,
+          "explanation": "alimentation 是阴性单数名词，形容词必须配合为阴性单数 variée。",
+          "category": "形容词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Rien qu'en _____ à la cantine, j'ai pris deux kilos.\n（光是在食堂吃饭，我就胖了两公斤。）",
+          "options": [
+            "mangé",
+            "manger",
+            "mangeant",
+            "mange"
+          ],
+          "correct": 2,
+          "explanation": "en + 现在分词构成副动词。manger 的现在分词是 mangeant。结构：en + V-ant 表示'通过做……/在做……的时候'。",
+          "category": "副动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as des bonbons ?\n— Oui, ma grand-mère m'_____ a donné.\n（——你有糖果吗？——有，我奶奶给了我一些。）",
+          "options": [
+            "y",
+            "en",
+            "les",
+            "leur"
+          ],
+          "correct": 1,
+          "explanation": "en 代替 des bonbons（不定冠词复数+名词）。注意：如果是特指的糖果（les bonbons），用 les；如果是泛指一些，用 en。这里问的是 des bonbons，所以用 en。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Ce sont tes livres ?\n— Non, ce sont _____ de Marie.\n（——这些是你的书吗？——不，这些是 Marie 的。）",
+          "options": [
+            "ceux（那些，阳性复数）",
+            "celles（那些，阴性复数）",
+            "celui（那个，阳性单数）",
+            "celle（那个，阴性单数）"
+          ],
+          "correct": 0,
+          "explanation": "livres 是阳性复数，指示代词必须配合为 ceux。ceux de Marie = Marie 的那些（书）。",
+          "category": "指示代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu préfères quelles chaussures ?\n— _____ qui sont en vitrine.\n（——你喜欢哪双鞋？——橱窗里的那双。）",
+          "options": [
+            "Ceux（那些，阳性复数）",
+            "Celles（那些，阴性复数）",
+            "Celui（那个，阳性单数）",
+            "Celle（那个，阴性单数）"
+          ],
+          "correct": 1,
+          "explanation": "chaussures 是阴性复数，指示代词配合为 celles。celles qui... = ……的那些（鞋）。",
+          "category": "指示代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je voudrais éviter de manger trop .\n（我想避免吃太油腻。）",
+          "options": [
+            "gras（油腻）",
+            "grasse（油腻，阴性）",
+            "grosses（大的，阴性复数）",
+            "grasses（油腻，阴性复数）"
+          ],
+          "correct": 0,
+          "explanation": "manger gras 中，gras 做副词用，修饰 manger，不需要性数配合，保持原形。类似结构：manger salé（吃咸的），manger sucré（吃甜的）。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le dialogue, Annie dit « Au contraire ». Cela signifie :\n（对话中 Annie 说'Au contraire'，这表示：）",
+          "options": [
+            "Elle est d'accord.（她同意。）",
+            "Elle dit le contraire de ce qu'on pourrait penser.（她说的和人们可能以为的相反。）",
+            "Elle change de sujet.（她换了话题。）",
+            "Elle pose une question.（她在提问。）"
+          ],
+          "correct": 1,
+          "explanation": "Au contraire = 恰恰相反。用来推翻前面别人可能产生的假设，引出与预期相反的事实。Annie 先说'倒不是不喜欢'，再用 au contraire 强调'我其实挺喜欢的'。",
+          "category": "逻辑词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a plusieurs choix d'entrées. Le mot « entrées » signifie ici :\n（有多种前菜可选。这里的 entrées 意思是：）",
+          "options": [
+            "入口（entrance）",
+            "前菜（starter）",
+            "门票（ticket）",
+            "开始（beginning）"
+          ],
+          "correct": 1,
+          "explanation": "在餐饮语境中，entrée = 前菜/头盘。注意：在美式英语中 entrée 指主菜，但在法语中 entrée 是前菜，plat principal 才是主菜。",
+          "category": "词汇多义"
+        },
+        {
+          "type": "single_choice",
+          "stem": " gâteau préfères-tu ? Celui au chocolat ou celui aux fruits ?\n（你更喜欢哪个蛋糕？巧克力的还是水果的？）",
+          "options": [
+            "Quel（哪个，阳性单数）",
+            "Lequel（哪一个，阳性单数）",
+            "Quels（哪些，阳性复数）",
+            "Lesquels（哪些，阳性复数）"
+          ],
+          "correct": 1,
+          "explanation": "lequel 用来在已知范围内追问'哪一个'，后面不跟名词（独立使用）。quel 后面必须跟名词。这里后面没有跟名词，所以用 lequel。",
+          "category": "疑问代词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些表达在对话中 Annie 用来说明她不去食堂的原因？（多选）",
+          "options": [
+            "une alimentation plus variée（更多样化的饮食）",
+            "éviter de manger trop gras（避免吃太油腻）",
+            "elle déteste les frites（她讨厌薯条）",
+            "elle est complexée par son poids（她为体重烦恼）"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "Annie 明确说希望饮食更多样化、想避免太油腻。但她说'j'aime plutôt ça'（我挺喜欢的），所以不讨厌薯条；她也说'je ne suis pas complexée par mon poids'（不为体重烦恼），所以 C 和 D 与原文矛盾。",
+          "category": "听力理解"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1GDJDjwOgbOxudv_fpUEC9jIK8mtuV4-k9VBprFrrQSM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773540032462-e8bnhfkjawh",
+          "front": "en（代词）用在什么情况？",
+          "back": "代替「部分冠词/不定冠词 + 名词」\n例：Tu veux des bonbons ? — Il y en a à la maison.\n中文：你要糖果吗？——家里有一些。\n记忆：en = 代替\"一些东西\""
+        },
+        {
+          "id": "1773540032462-3mdzx26x67p",
+          "front": "y（代词）用在什么情况？",
+          "back": "代替「à / dans / en / chez + 地点」\n例：Tu vas à la cantine ? — Non, je n'y vais plus.\n中文：你去食堂吗？——不，我不再去那了。\n记忆：y = 代替\"去那里\""
+        },
+        {
+          "id": "1773540032462-0htyiplypzkq",
+          "front": "ne... plus 是什么意思？",
+          "back": "不再（表示动作/状态的终止）\n例：Je n'y vais plus.\n中文：我不再去那了。\n对比：ne...pas（不）/ ne...jamais（从不）/ ne...rien（什么都不）"
+        },
+        {
+          "id": "1773540032462-vqx6nb4pbl",
+          "front": "lesquels / lesquelles",
+          "back": "疑问代词\"哪些\"，用于追问已知范围内的具体项\n阳性复数：lesquels\n阴性复数：lesquelles\n例：Ah bon ? Lesquels ?\n中文：真的吗？哪些？"
+        },
+        {
+          "id": "1773540032462-1ux5oo33wp8",
+          "front": "celui / celle / ceux / celles",
+          "back": "指示代词，代替前面提到的名词，避免重复\n阳单：celui / 阴单：celle\n阳复：ceux / 阴复：celles\n后接 que/qui/de 使用\n例：Ceux que ta grand-mère t'a donnés.\n中文：你奶奶给你的那些。"
+        },
+        {
+          "id": "1773540032462-bdcylnym3j6",
+          "front": "ceux-ci vs ceux-là",
+          "back": "ceux-ci = 这些（近指）\nceux-là = 那些（远指）\n例：ceux-là sont sans sucre.\n中文：那些是无糖的。\n记忆：-ci = ici（这里）/ -là = là（那里）"
+        },
+        {
+          "id": "1773540032462-16na319grqr",
+          "front": "sans + 名词（无冠词）",
+          "back": "sans = 没有，后面直接加名词，不加冠词\n例：sans sucre（无糖的）\n中文：sans 后面不需要 le/la/un/une\n更多：sans sel（无盐）、sans gluten（无麸质）"
+        },
+        {
+          "id": "1773540032462-8ski7y7zznc",
+          "front": "servir qqch à qqn",
+          "back": "给某人提供/端上某物\n例：On nous sert des frites chaque semaine.\n中文：他们每周给我们提供薯条。"
+        },
+        {
+          "id": "1773540032462-gt1mglnhqb7",
+          "front": "déplaire à qqn",
+          "back": "使某人不喜欢（plaire 的反义词）\n例：Ça me déplaît.\n中文：这让我不喜欢。\n对比：Ça me plaît.（这让我喜欢。）"
+        },
+        {
+          "id": "1773540032462-l9s2a993v9c",
+          "front": "Non pas que + subjonctif...",
+          "back": "倒不是说……（先否定一个可能的误解）\n例：Non pas que ça me déplaise, au contraire.\n中文：倒不是说我不喜欢，恰恰相反。\n用法：引出真正原因前，先排除错误猜测。"
+        },
+        {
+          "id": "1773540032462-xp7ayklwmso",
+          "front": "au contraire",
+          "back": "恰恰相反\n用于推翻前面的假设，引出相反的事实\n例：Non pas que ça me déplaise. Au contraire, j'aime plutôt ça.\n中文：倒不是不喜欢，恰恰相反，我挺喜欢的。"
+        },
+        {
+          "id": "1773540032462-ybvklfwyk3",
+          "front": "une alimentation variée",
+          "back": "多样化的饮食\nalimentation（f.）= 饮食\nvariée = 多样的（阴性配合）\n同义替换：manger équilibré = 均衡饮食"
+        },
+        {
+          "id": "1773540032462-ocgbdoi444",
+          "front": "le plat principal / l'entrée / le dessert",
+          "back": "plat principal = 主菜\nentrée = 前菜（⚠ 法语 entrée ≠ 美式英语 entrée）\ndessert = 甜点\n记忆：法式用餐顺序 entrée → plat → dessert"
+        },
+        {
+          "id": "1773540032462-5912zzajfzj",
+          "front": "manger trop gras",
+          "back": "吃太油腻\ngras 在这里做副词，不变形\n类似：manger salé（吃咸的）/ manger sucré（吃甜的）\n中文：gras 修饰吃的方式，不是形容词配合。"
+        },
+        {
+          "id": "1773540032462-qdraqmqikf",
+          "front": "être complexé(e) par...",
+          "back": "为……感到自卑/烦恼\n例：Je ne suis pas complexée par mon poids.\n中文：我不为体重烦恼。\n注意：complexé 要做性数配合（女性加 e）"
+        },
+        {
+          "id": "1773540032462-homjldbs45",
+          "front": "rien qu'en + 现在分词",
+          "back": "光是通过做……就……\n结构：rien que + en + V-ant\n例：Rien qu'en mangeant à la cantine, j'ai pris 2 kilos.\n中文：光是在食堂吃饭，我就胖了两公斤。"
+        },
+        {
+          "id": "1773540032462-styv7ogmffq",
+          "front": "prendre du poids / perdre du poids",
+          "back": "prendre du poids = 增重/长胖\nperdre du poids = 减重/瘦下来\n例：J'ai pris deux kilos.\n中文：我胖了两公斤。"
+        },
+        {
+          "id": "1773540032462-asv50ht43rr",
+          "front": "il y en a vs il en reste",
+          "back": "两者都表示\"还有一些\"\nil y en a encore = 还有一些\nil en reste = 还剩一些\n中文：TCF 常用这两个表达做同义替换！\n例：il y en a encore à la maison = il en reste encore chez elles"
+        },
+        {
+          "id": "1773540032462-jl1o3gw8f4",
+          "front": "à la maison vs chez + 人",
+          "back": "à la maison = 在家里\nchez elles = 在她们家\n两者可以互换指同一个地点\n中文：TCF 听力选项常把 à la maison 替换成 chez + 人称"
+        },
+        {
+          "id": "1773540032462-mwx29tecado",
+          "front": "TCF 听力陷阱：与原文相反",
+          "back": "选项使用原文出现过的词，但意思完全相反\n例：原文说 'j'aime plutôt ça'（我挺喜欢的）\n陷阱选项：'elle déteste la nourriture'（她讨厌食物）\n技巧：听到否定+肯定结构时，抓住最终态度。"
+        },
+        {
+          "id": "1773540032462-2vg8exdfnbu",
+          "front": "TCF 听力陷阱：以偏概全",
+          "back": "把局部事实扩大为整体结论\n例：原文说主菜选择少，但前菜甜点选择多\n陷阱选项：'il n'y a pas assez de choix'（没有足够选择）\n技巧：注意说话人的限定范围，不要自己扩大。"
+        },
+        {
+          "id": "1773540032462-a64m76hffl",
+          "front": "TCF 听力陷阱：程度夸大",
+          "back": "把轻微态度夸大为极端行为\n例：原文说 'il faut faire attention'（得注意一下）\n陷阱选项：'elle veut commencer un régime'（她要开始节食）\n技巧：注意说话人的语气强度，区分 '注意' 和 '严格执行'。"
+        },
+        {
+          "id": "1773540032462-tojw3xqaazj",
+          "front": "TCF 听力技巧：同义替换识别",
+          "back": "正确选项几乎不会照搬原文，而是用近义词改写\n例：alimentation variée + éviter trop gras → manger plus équilibré\n例：il y en a encore à la maison → il en reste chez elles\n核心能力：听到 A 表达，能识别 B 说的是同一件事。"
+        }
+      ]
+    },
+    {
+      "id": 1773539690562,
+      "name": "TCF A2 Lecon 7 听力练习1",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-15T01:54:50.562Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Dans le dialogue, qu'est-ce que Mélanie propose d'abord à Félix ?\n（对话中，梅腊丽首先给菲利斯提供什么？）",
+          "options": [
+            "Du poulet（一些鸡肉）",
+            "De la salade（一些沙拉）",
+            "Du pain（一些面包）",
+            "Des tomates（一些西红柿）"
+          ],
+          "correct": 1,
+          "explanation": "对话开头 Mélanie 说 Tu veux encore de la salade, Félix ? 她首先提供的是沙拉。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Félix dit « Avec plaisir ». Que signifie cette expression ?\n（菲利斯说 Avec plaisir，这个表达是什么意思？）",
+          "options": [
+            "Non merci（不用谢谢）",
+            "Peut-être（也许）",
+            "Avec joie, volontiers（很乐意、当然愿意）",
+            "Je ne sais pas（我不知道）"
+          ],
+          "correct": 2,
+          "explanation": "Avec plaisir = 非常愿意、乐意之至，是一种热情的肯定回答。",
+          "category": "表达理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le poulet aux herbes de Provence est une recette de qui ?\n（普罗旺斯香草鸡是谁的食谱？）",
+          "options": [
+            "De Mélanie（梅腊丽的）",
+            "De Claire（克莱尔的）",
+            "De la grand-mère de Mélanie（梅腊丽祖母的）",
+            "De Félix（菲利斯的）"
+          ],
+          "correct": 2,
+          "explanation": "Mélanie 说 c'est une recette de ma grand-mère，这是她祖母的食谱。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Claire pense qu'il y a des carottes dans le plat. Est-ce vrai ?\n（克莱尔认为菜里有胡萝卜，这对吗？）",
+          "options": [
+            "Oui, il y a des carottes（对，有胡萝卜）",
+            "Non, il y a des courgettes à la place（不对，放的是西葫芦）",
+            "Oui, il y a des carottes et des courgettes（对，有胡萝卜和西葫芦）",
+            "Non, il n'y a pas de légumes（不对，没有蔬菜）"
+          ],
+          "correct": 1,
+          "explanation": "Mélanie 纠正说 des carottes il n'y en a pas, mais je mets des courgettes。没有胡萝卜，放的是西葫芦。注意转折词 mais 后面才是正确信息。",
+          "category": "否定细节+转折"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans le dialogue, « Il n'y en a pas » — le mot « en » remplace quoi dans la première occurrence ?\n（对话中第一次出现的 il n'y en a pas，en 代替什么？）",
+          "options": [
+            "de la salade（沙拉）",
+            "des courgettes（西葫芦）",
+            "des carottes（胡萝卜）",
+            "du poulet（鸡肉）"
+          ],
+          "correct": 2,
+          "explanation": "Claire 问有没有胡萝卜，Mélanie 回答 il n'y en a pas，en 代替 des carottes。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel vin y a-t-il chez Mélanie ?\n（梅腊丽家有什么酒？）",
+          "options": [
+            "Du vin rouge（红葡萄酒）",
+            "Du vin blanc（白葡萄酒）",
+            "Du vin rouge et du vin blanc（红葡萄酒和白葡萄酒）",
+            "Il n'y a pas de vin（没有酒）"
+          ],
+          "correct": 1,
+          "explanation": "Claire 猜红葡萄酒，Mélanie 用 Mais pas du tout 强烈否定，然后说 Il y a du vin blanc。只有白葡萄酒。",
+          "category": "否定细节+转折"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ça sent bon ! » signifie :\n（Ça sent bon 的意思是：）",
+          "options": [
+            "C'est très chaud（很烫）",
+            "Ça a un bon goût（味道好）",
+            "Ça a une bonne odeur（闻起来很香）",
+            "C'est très joli（很好看）"
+          ],
+          "correct": 2,
+          "explanation": "sentir = 闻起来。Ça sent bon = 闻起来很香。注意区分 sentir（闻）和 goûter（尝）。",
+          "category": "表达理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Félix dit « Je peux en reprendre ? » Que veut-il ?\n（菲利斯说 Je peux en reprendre，他想要什么？）",
+          "options": [
+            "Il veut de la salade（他想要沙拉）",
+            "Il veut encore du poulet（他想再来点鸡肉）",
+            "Il veut du dessert（他想要甜点）",
+            "Il veut du vin（他想要酒）"
+          ],
+          "correct": 1,
+          "explanation": "上下文中 Félix 说 Ce poulet est délicieux 然后问 Je peux en reprendre，en = du poulet，他想再来点鸡肉。",
+          "category": "代词 en + 上下文"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Prends-en ! » — pourquoi « en » est après le verbe ?\n（Prends-en 中为什么 en 在动词后面？）",
+          "options": [
+            "C'est une question（这是疑问句）",
+            "C'est une phrase négative（这是否定句）",
+            "C'est l'impératif affirmatif（这是肯定命令式）",
+            "C'est le futur proche（这是最近将来时）"
+          ],
+          "correct": 2,
+          "explanation": "肯定命令式中，代词放在动词后面并用连字符连接：Prends-en ! 否定命令式则放前面：N'en prends pas !",
+          "category": "语法：命令式+代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Claire dit « Je n'en veux pas » à propos de quoi ?\n（克莱尔说 Je n'en veux pas，她拒绝的是什么？）",
+          "options": [
+            "Du pain（面包）",
+            "Des pommes de terre（土豆）",
+            "De la sauce（调味汁）",
+            "Du poulet（鸡肉）"
+          ],
+          "correct": 2,
+          "explanation": "Mélanie 问 Tu veux de la sauce ? Claire 回答 Je n'en veux pas，en = de la sauce。",
+          "category": "代词 en + 信息匹配"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels aliments sont présents dans le plat de Mélanie ?（选出所有梅腊丽的菜里有的食材）",
+          "options": [
+            "Des courgettes（西葫芦）",
+            "Des carottes（胡萝卜）",
+            "Des olives vertes（绿橄榄）",
+            "Des olives noires（黑橄榄）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "菜里有西葫芦（mais je mets des courgettes）和绿橄榄（Des olives vertes ? — Oui）。胡萝卜和黑橄榄都被否定了（il n'y en a pas）。",
+          "category": "信息匹配"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quelles expressions servent à refuser poliment dans ce dialogue ?（对话中哪些表达用于礼貌地拒绝？）",
+          "options": [
+            "Non, merci（不用，谢谢）",
+            "Avec plaisir（很乐意）",
+            "Je n'en veux pas, merci（我不要了，谢谢）",
+            "Bien sûr（当然）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "Non, merci 和 Je n'en veux pas, merci 都是礼貌拒绝。Avec plaisir 是热情接受，bien sûr 是当然/肯定。",
+          "category": "表达理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mélanie : Tu veux encore de la salade ? Il _____ reste.\n（你还想要沙拉吗？还剩一些。）",
+          "correct": [
+            "en"
+          ],
+          "explanation": "en 代替 de la salade，放在动词 reste 前面。Il en reste = 还剩一些沙拉。",
+          "category": "代词 en"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Félix : Ce poulet est délicieux. Je peux _____ reprendre ?\n（鸡肉太好吃了。我可以再来点吗？）",
+          "correct": [
+            "en"
+          ],
+          "explanation": "en 代替 du poulet，放在不定式 reprendre 前面（双动词结构中代词放在不定式前）。",
+          "category": "代词 en"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mélanie : Des carottes, il n'y _____ a pas, mais je mets des _____.\n（胡萝卜没有，但是我放了西葫芦。）",
+          "correct": [
+            "en",
+            "courgettes"
+          ],
+          "explanation": "第一空 en 代替 des carottes；第二空根据对话内容，Mélanie 放的是 courgettes（西葫芦）。",
+          "category": "代词 en + 词汇"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/13c_A1mFmvorNCllSQsRRRlMxay-C3xkOddcdI6p93ho/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773539809285-6w7dqln65zd",
+          "front": "encore (adv.)",
+          "back": "还、再\n例：Tu veux encore de la salade ?\n中文：你还想要沙拉吗？"
+        },
+        {
+          "id": "1773539809285-59pp8y7lplw",
+          "front": "avec plaisir",
+          "back": "非常愿意、乐意之至\n比 oui 更热情的肯定回答"
+        },
+        {
+          "id": "1773539809285-a36td0se4zi",
+          "front": "une recette (n.f.)",
+          "back": "食谱、菜谱\n例：une recette de ma grand-mère\n中文：我祖母的食谱"
+        },
+        {
+          "id": "1773539809285-xr85997gggm",
+          "front": "des herbes de Provence",
+          "back": "普罗旺斯香草（法国南部的混合香料）\npoulet aux herbes de Provence = 普罗旺斯香草鸡"
+        },
+        {
+          "id": "1773539809285-9x19k8d0np",
+          "front": "une courgette (n.f.)",
+          "back": "西葫芦"
+        },
+        {
+          "id": "1773539809285-ihozi3rwyoh",
+          "front": "reprendre (v.)",
+          "back": "再拿一些\nre-（再）+ prendre（拿）\n例：Je peux en reprendre ? = 我可以再来点吗？"
+        },
+        {
+          "id": "1773539809285-joywhecset",
+          "front": "goûter (v.)",
+          "back": "品尝\n命令式 tu：goûte\n例：Allez, goûte ! = 快来尝尝！"
+        },
+        {
+          "id": "1773539809285-8rfvna9yfn",
+          "front": "Ça sent bon !",
+          "back": "闻起来很香！\nsentir = 闻起来\n超高频口语表达"
+        },
+        {
+          "id": "1773539809285-6121zhej9et",
+          "front": "pas du tout",
+          "back": "一点也不、完全不\n用于强烈否定\n例：Du vin rouge ? — Mais pas du tout !\n中文：红葡萄酒？——一点都不对！"
+        },
+        {
+          "id": "1773539809285-cknq5dzxwva",
+          "front": "bien sûr",
+          "back": "当然\n例：Mais bien sûr ! = 当然可以！"
+        },
+        {
+          "id": "1773539809285-h6ief7v4fc",
+          "front": "délicieux / délicieuse",
+          "back": "美味的（阳性 / 阴性）\n例：Ce poulet est délicieux.\n中文：这鸡肉太好吃了。"
+        },
+        {
+          "id": "1773539809285-2d7drbwms22",
+          "front": "donne-moi (命令式)",
+          "back": "给我\ndonner 的命令式 tu + 间接宾语 moi\n肯定命令式代词放动词后"
+        },
+        {
+          "id": "1773539809285-o5zw31o3nrl",
+          "front": "calme-toi (命令式)",
+          "back": "你冷静点\nse calmer 的命令式 tu\n例：Félix, calme-toi, voyons !"
+        },
+        {
+          "id": "1773539809285-0re7xvv5adso",
+          "front": "voyons (语气词)",
+          "back": "得了吧 / 看看你\n表示轻微责备或打趣\n不是\"我们看\"的意思"
+        },
+        {
+          "id": "1773539809285-70wvk4egklu",
+          "front": "en 代替什么？",
+          "back": "代替 de + 名词\n即部分冠词 du / de la / des 引导的名词\n例：Il en reste = Il reste de la salade"
+        },
+        {
+          "id": "1773539809285-29iuctcjcux",
+          "front": "en 在陈述句中的位置？",
+          "back": "放在变位动词前面\n肯定：J'en ai.\n否定：Je n'en veux pas."
+        },
+        {
+          "id": "1773539809285-qnz0uf3in9m",
+          "front": "en 在双动词结构中的位置？",
+          "back": "放在不定式前面\n例：Je peux en reprendre.\n中文：我可以再来点。"
+        },
+        {
+          "id": "1773539809285-kmmqnikej6",
+          "front": "en 在肯定命令式中的位置？",
+          "back": "放在动词后面，用连字符\n例：Prends-en !\n中文：拿一些吧！"
+        },
+        {
+          "id": "1773539809285-5zr321oray4",
+          "front": "il n'y en a pas",
+          "back": "没有（某物）\nen 代替被否定的名词\n例：Des carottes ? — Il n'y en a pas.\n中文：胡萝卜？——没有。"
+        },
+        {
+          "id": "1773539809285-ajiihip5fz",
+          "front": "TCF 听力技巧：转折词 mais",
+          "back": "mais 后面才是正确信息！\n例：pas de carottes, mais des courgettes\n听到 mais 要集中注意力"
+        },
+        {
+          "id": "1773539809285-5a6ke52965r",
+          "front": "TCF 听力技巧：pas du tout",
+          "back": "强烈否定前面的猜测\n例：Du vin rouge ? — Pas du tout ! Du vin blanc !\n选项中如果有\"红葡萄酒\"就是陷阱"
+        },
+        {
+          "id": "1773539809285-quzxayikmg7",
+          "front": "chez + 人名",
+          "back": "在某人家里\n例：On mange bien chez Mélanie.\n中文：在梅腊丽家吃得很好。"
+        },
+        {
+          "id": "1773539809285-2cgzdwlznj9",
+          "front": "le deuxième plat",
+          "back": "第二道菜\n法餐顺序：entrée（前菜）→ plat（主菜）→ dessert（甜点）"
+        },
+        {
+          "id": "1773539809285-nsljo7mg6l8",
+          "front": "qu'est-ce qu'il y a d'autre ?",
+          "back": "还有什么别的？\nd'autre = 其他的\n听力中常见的追问句型"
+        },
+        {
+          "id": "1773539809285-205zdrotfdi",
+          "front": "apporter (v.)",
+          "back": "拿来、端来\n例：Qu'est-ce que tu nous apportes ?\n中文：你给我们拿来什么了？"
+        },
+        {
+          "id": "1773539809285-f5rpd46w94p",
+          "front": "comme dessert",
+          "back": "作为甜点\ncomme = 作为\n例：Qu'est-ce que nous allons manger comme dessert ?\n中文：我们会吃什么甜点？"
+        }
+      ]
+    },
+    {
+      "id": 1773539596170,
+      "name": "无人称句型（Il est + adjectif + de + infinitif）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-15T01:53:16.170Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ est important de bien dormir.\n（睡好觉是很重要的。）",
+          "options": [
+            "Il（无人称主语）",
+            "Ce（这个）",
+            "On（人们）",
+            "Ça（这个，口语）"
+          ],
+          "correct": 0,
+          "explanation": "无人称句型固定用 il 作形式主语，不能用 ce/on/ça。",
+          "category": "无人称句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est nécessaire _____ finir ce travail.\n（完成这项工作是必要的。）",
+          "options": [
+            "à（到）",
+            "de（的）",
+            "pour（为了）",
+            "en（在……里）"
+          ],
+          "correct": 1,
+          "explanation": "无人称句型 Il est + adj 后面固定用 de + infinitif。",
+          "category": "无人称句型 介词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce problème est difficile _____.\n（这个问题很难解决。）",
+          "options": [
+            "de résoudre（解决）",
+            "à résoudre（解决）",
+            "pour résoudre（为了解决）",
+            "en résolvant（在解决中）"
+          ],
+          "correct": 1,
+          "explanation": "具体名词作主语时，用 à + infinitif。Ce problème 是具体主语，所以用 à。",
+          "category": "de vs à 对比"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est _____ de fumer dans cet immeuble.\n（在这栋楼里吸烟是被禁止的。）",
+          "options": [
+            "interdit（禁止的）",
+            "facile（容易的）",
+            "amusant（有趣的）",
+            "agréable（舒适的）"
+          ],
+          "correct": 0,
+          "explanation": "根据语境\"在楼里吸烟\"，只有 interdit（禁止的）语义合理。",
+          "category": "形容词选择"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est dommage _____ partir si tôt.\n（这么早离开真遗憾。）",
+          "options": [
+            "à（到）",
+            "pour（为了）",
+            "de（的）",
+            "en（在……里）"
+          ],
+          "correct": 2,
+          "explanation": "Il est dommage 后面固定搭配 de + infinitif，没有 à 的用法。",
+          "category": "固定搭配"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette leçon est facile .\n（这节课很容易理解。）",
+          "options": [
+            "de comprendre（理解）",
+            "à comprendre（理解）",
+            "pour comprendre（为了理解）",
+            "comprendre（理解）"
+          ],
+          "correct": 1,
+          "explanation": "Cette leçon 是具体主语，评价这个对象→ 用 à + infinitif。",
+          "category": "de vs à 对比"
+        },
+        {
+          "type": "single_choice",
+          "stem": " est agréable de se promener le soir.\n（晚上散步很舒服。）",
+          "options": [
+            "C'（这）",
+            "Elle（她）",
+            "Il（无人称主语）",
+            "On（人们）"
+          ],
+          "correct": 2,
+          "explanation": "书面语中无人称句型用 Il est + adj + de + inf。口语可以用 C'est，但正式场合/TCF 写作优先 Il est。",
+          "category": "无人称句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est impossible de _____ tout le monde.\n（让所有人满意是不可能的。）",
+          "options": [
+            "satisfait（满意的，形容词）",
+            "satisfaire（使满意，动词原形）",
+            "satisfaisant（令人满意的）",
+            "satisfaisons（我们使满意）"
+          ],
+          "correct": 1,
+          "explanation": "de 后面必须接动词原形（infinitif），只有 satisfaire 是原形。",
+          "category": "de + infinitif"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est difficile de parler en public. 这句话的意思是：\n",
+          "options": [
+            "他在公众场合说话有困难（He has difficulty speaking in public）",
+            "在公众场合讲话是困难的（It is difficult to speak in public）",
+            "公众场合很难说话（The public place is difficult to speak）",
+            "他不喜欢在公众场合说话（He doesn't like speaking in public）"
+          ],
+          "correct": 1,
+          "explanation": "il 是无人称主语，不是\"他\"。整句意思是\"在公众场合讲话是困难的\"。",
+          "category": "语义理解 陷阱"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的无人称句型？",
+          "options": [
+            "Il est utile de lire chaque jour.（每天阅读是有用的。）",
+            "Ce livre est important de lire.（这本书是重要的读。）",
+            "Il est normal d'avoir peur.（害怕是正常的。）",
+            "Il est rare à voir ça.（看到这个是罕见的。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "B 错误：具体主语 Ce livre 不能用 Il est 句型的结构，应改为 Ce livre est important à lire 或 Il est important de lire ce livre。D 错误：Il est + adj 后应该用 de，不是 à。A 和 C 格式完全正确。",
+          "category": "综合判断"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est obligatoire _____ porter un masque dans le métro.\n（在地铁里戴口罩是强制的。）",
+          "correct": [
+            "de"
+          ],
+          "explanation": "无人称句型 Il est + adj 后固定接 de + infinitif。",
+          "category": "介词填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Cette valise est lourde _____ porter.\n（这个箱子提起来很重。）",
+          "correct": [
+            "à"
+          ],
+          "explanation": "Cette valise 是具体主语，评价对象用 à + infinitif。",
+          "category": "de vs à 对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1nYbonnEKYkIgNDPwaNwNzp-OQ-p_UXgRxEEbMbRTPuU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773539606961-yx1994gk339",
+          "front": "无人称句型的公式是什么？",
+          "back": "Il est + adjectif + de + verbe à l'infinitif\n中文：做某事是……的\n英语对应：It is + adj + to do sth"
+        },
+        {
+          "id": "1773539606961-6ds2ommh5om",
+          "front": "无人称句型中的 il 指什么？",
+          "back": "il 是形式主语（无人称），不指代任何具体的人或物，纯粹是语法占位符。"
+        },
+        {
+          "id": "1773539606961-2qera0kze13",
+          "front": "Il est important de dormir suffisamment.",
+          "back": "中文：睡眠充足很重要。\n句型：Il est + important + de + dormir"
+        },
+        {
+          "id": "1773539606961-zmosdv4osjq",
+          "front": "Il est nécessaire de finir ce travail aujourd'hui.",
+          "back": "中文：今天完成这项工作是必要的。\nnécessaire = 必要的"
+        },
+        {
+          "id": "1773539606961-n4b4gd76on8",
+          "front": "Il est difficile de comprendre ce texte sans dictionnaire.",
+          "back": "中文：没有词典，很难理解这篇文章。\ndifficile = 困难的\nsans = 没有"
+        },
+        {
+          "id": "1773539606961-uarwxgkpc1j",
+          "front": "Il est dommage de partir si tôt.",
+          "back": "中文：这么早离开真遗憾。\ndommage = 遗憾（名词，但在此句型中当形容词用）\n注意：永远是 dommage de，不存在 dommage à"
+        },
+        {
+          "id": "1773539606961-we60rkabb4o",
+          "front": "Il est dangereux de traverser la rue sans regarder.",
+          "back": "中文：不看路就过马路很危险。\ndangereux = 危险的\ntraverser = 穿过"
+        },
+        {
+          "id": "1773539606961-lwy144jvd18",
+          "front": "Il est interdit de fumer ici.",
+          "back": "中文：这里禁止吸烟。\ninterdit = 禁止的\nfumer = 吸烟"
+        },
+        {
+          "id": "1773539606961-8lswqovqwpc",
+          "front": "无人称 il 用 de 还是 à？",
+          "back": "无人称 il → 用 de\n记忆口诀：无人称 il → de（评价事）"
+        },
+        {
+          "id": "1773539606961-9sksqkvzjom",
+          "front": "具体名词作主语用 de 还是 à？",
+          "back": "具体名词主语 → 用 à\n记忆口诀：有具体主语 → à（评价物）\n例：Ce livre est facile à lire."
+        },
+        {
+          "id": "1773539606961-q2a3o9rby6",
+          "front": "Il est important de boire beaucoup d'eau.\nvs\nCe verre d'eau est difficile à boire.\n区别是什么？",
+          "back": "第一句：il 无人称 → de → 评价「喝水」这件事\n第二句：Ce verre d'eau 具体主语 → à → 评价「这杯水」这个对象"
+        },
+        {
+          "id": "1773539606961-nxnurd1plyi",
+          "front": "Il est + adj + de faire\nvs\nXX est + adj + à faire\n一句话怎么区分？",
+          "back": "看主语！\nil（无人称）→ de（评价事）\n具体名词 → à（评价物）"
+        },
+        {
+          "id": "1773539606961-9vtxs6jdpvd",
+          "front": "口语中 C'est 和 Il est 有什么区别？",
+          "back": "C'est + adj + de + inf → 口语化\nIl est + adj + de + inf → 书面正式\nTCF 写作建议用 Il est，听力中常听到 C'est"
+        },
+        {
+          "id": "1773539606961-8y1zpk2wdqo",
+          "front": "Il est + adj + de 后面接什么？",
+          "back": "接动词原形（infinitif）\n例：Il est utile de lire. ✓\nIl est utile de lis. ✗（lis 不是原形）"
+        },
+        {
+          "id": "1773539606961-dhz7g4rkf3",
+          "front": "utile（有用的）",
+          "back": "Il est utile de lire chaque jour.\n中文：每天阅读是有用的。\n反义词：inutile（无用的）"
+        },
+        {
+          "id": "1773539606961-zxz9gzzk7j9",
+          "front": "essentiel（必要的、关键的）",
+          "back": "Il est essentiel de bien manger.\n中文：吃好是至关重要的。\n近义词：nécessaire, important"
+        },
+        {
+          "id": "1773539606961-09zzjgh10bgb",
+          "front": "obligatoire（强制的）",
+          "back": "Il est obligatoire de porter un masque.\n中文：戴口罩是强制的。"
+        },
+        {
+          "id": "1773539606961-hlwx44o7hks",
+          "front": "impossible（不可能的）",
+          "back": "Il est impossible de tout faire.\n中文：什么都做是不可能的。\n反义词：possible（可能的）"
+        },
+        {
+          "id": "1773539606961-urd9lh7pn5q",
+          "front": "normal（正常的）",
+          "back": "Il est normal d'avoir peur.\n中文：害怕是正常的。\n注意：de + avoir → d'avoir（元音缩合）"
+        },
+        {
+          "id": "1773539606961-2p2bflf7ap",
+          "front": "rare（罕见的）",
+          "back": "Il est rare de voir ça.\n中文：看到这个很罕见。\n反义词：courant（常见的）"
+        },
+        {
+          "id": "1773539606961-5dyl6bg60t",
+          "front": "TCF 陷阱：Il est difficile de parler en public. 怎么翻译？",
+          "back": "正确：在公众场合讲话是困难的。\n错误：他在公众场合说话有困难。\nil 是无人称，不是「他」！"
+        },
+        {
+          "id": "1773539606961-zi5931ecix",
+          "front": "de + 元音开头的动词怎么写？",
+          "back": "de → d'（缩合）\n例：Il est normal d'avoir peur.\nIl est important d'écouter."
+        }
+      ]
+    },
+    {
+      "id": 1773539081596,
+      "name": "法语指示代词（Les pronoms démonstratifs）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-15T01:44:41.596Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Ma robe est plus belle que _____ de Sophie.\n（我的裙子比Sophie的那条更漂亮。）",
+          "options": [
+            "celui（那个，阳性单数）",
+            "celle（那个，阴性单数）",
+            "ceux（那些，阳性复数）",
+            "celles（那些，阴性复数）"
+          ],
+          "correct": 1,
+          "explanation": "robe 是阴性单数名词，替代它需要用 celle。celle de Sophie = Sophie的那条裙子。",
+          "category": "指示代词-性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ses résultats sont meilleurs que _____ de l'année dernière.\n（他的成绩比去年的好。）",
+          "options": [
+            "celui（那个，阳性单数）",
+            "celle（那个，阴性单数）",
+            "ceux（那些，阳性复数）",
+            "celles（那些，阴性复数）"
+          ],
+          "correct": 2,
+          "explanation": "résultats 是阳性复数名词，替代它用 ceux。ceux de l'année dernière = 去年的那些成绩。",
+          "category": "指示代词-性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu préfères quelles chaussures ? _____ ou _____ ?\n（你更喜欢哪双鞋？这双还是那双？）",
+          "options": [
+            "Celui-ci / celui-là",
+            "Celle-ci / celle-là",
+            "Ceux-ci / ceux-là",
+            "Celles-ci / celles-là"
+          ],
+          "correct": 3,
+          "explanation": "chaussures 是阴性复数，复合形式用 celles-ci / celles-là。",
+          "category": "指示代词-复合形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je connais bien cet acteur. C'est _____ qui a joué dans ce film.\n（我很了解这个演员。他就是在那部电影里演出的那位。）",
+          "options": [
+            "celle（那个，阴性单数）",
+            "celui（那个，阳性单数）",
+            "ceux（那些，阳性复数）",
+            "ce（这）"
+          ],
+          "correct": 1,
+          "explanation": "acteur 是阳性单数，且后面跟 qui 引导的关系从句，用简单形式 celui。",
+          "category": "指示代词-简单形式+关系从句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les idées de Marie sont différentes de _____ de Paul.\n（Marie的想法和Paul的不同。）",
+          "options": [
+            "celui（那个，阳性单数）",
+            "celle（那个，阴性单数）",
+            "ceux（那些，阳性复数）",
+            "celles（那些，阴性复数）"
+          ],
+          "correct": 3,
+          "explanation": "idées 是阴性复数，替代用 celles。celles de Paul = Paul的那些想法。",
+          "category": "指示代词-性数一致"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ me plaît, c'est de voyager.\n（让我开心的是旅行。）",
+          "options": [
+            "Ce qui（让……的事，作主语）",
+            "Ce que（……的事，作宾语）",
+            "Ce dont（……的事，与de搭配）",
+            "Celui qui（那个人，阳性）"
+          ],
+          "correct": 0,
+          "explanation": "空格处在从句中作主语（什么东西 plaît à moi），所以用 ce qui。",
+          "category": "指示代词-中性形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne comprends pas _____ tu veux dire.\n（我不明白你想说什么。）",
+          "options": [
+            "ce qui（……的事，作主语）",
+            "ce que（……的事，作宾语）",
+            "ce dont（……的事，与de搭配）",
+            "celui que（那个，阳性宾语）"
+          ],
+          "correct": 1,
+          "explanation": "tu veux dire 后面缺宾语（dire quelque chose），所以用 ce que。",
+          "category": "指示代词-中性形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il a besoin de repos. _____ il a besoin, c'est de dormir.\n（他需要休息。他需要的是睡觉。）",
+          "options": [
+            "Ce qui（……的事，作主语）",
+            "Ce que（……的事，作宾语）",
+            "Ce dont（……的事，与de搭配）",
+            "Ce à quoi（……的事，与à搭配）"
+          ],
+          "correct": 2,
+          "explanation": "avoir besoin DE → 动词搭配介词 de，所以用 ce dont。",
+          "category": "指示代词-中性形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pierre et Julie sont arrivés. _____ est fatiguée, _____ est en forme.\n（Pierre和Julie到了。后者累了，前者精力充沛。）",
+          "options": [
+            "Celui-ci / celui-là",
+            "Celle-ci / celle-là",
+            "Celle-ci / celui-là",
+            "Celui-ci / celle-là"
+          ],
+          "correct": 2,
+          "explanation": "Julie是后到提及的（后者），用-ci，且阴性→celle-ci（fatiguée也证实阴性）；Pierre是先提及的（前者），用-là，阳性→celui-là。",
+          "category": "指示代词-ci/là前后者"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ est vrai que la vie est difficile.\n（生活艰难，这是事实。）",
+          "options": [
+            "Ce（这）",
+            "Cela（那）",
+            "Ceci（这个）",
+            "Celui（那个，阳性）"
+          ],
+          "correct": 0,
+          "explanation": "C'est vrai que... 是固定结构，用中性代词 ce（缩写为 c'）放在 être 前。",
+          "category": "指示代词-中性ce"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous prenons le train de cinq heures, _____ de huit heures arrive trop tard.\n（我们坐五点的火车，八点的那趟到得太晚。）",
+          "options": [
+            "celle（那个，阴性单数）",
+            "celui（那个，阳性单数）",
+            "ceux（那些，阳性复数）",
+            "ce（这）"
+          ],
+          "correct": 1,
+          "explanation": "train 是阳性单数名词，替代用 celui。celui de huit heures = 八点的那趟火车。",
+          "category": "指示代词-简单形式+de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mes enfants jouent souvent avec _____ de mes voisins.\n（我的孩子经常和邻居的孩子们一起玩。）",
+          "options": [
+            "celui（那个，阳性单数）",
+            "celles（那些，阴性复数）",
+            "ceux（那些，阳性复数）",
+            "celle（那个，阴性单数）"
+          ],
+          "correct": 2,
+          "explanation": "enfants 是阳性复数，替代用 ceux。ceux de mes voisins = 邻居的孩子们。",
+          "category": "指示代词-简单形式+de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pense à mon avenir. _____ je pense, c'est à ma carrière.\n（我在想我的未来。我想的是我的职业。）",
+          "options": [
+            "Ce qui（作主语）",
+            "Ce que（作宾语）",
+            "Ce dont（与de搭配）",
+            "Ce à quoi（与à搭配）"
+          ],
+          "correct": 3,
+          "explanation": "penser À → 动词搭配介词 à，所以用 ce à quoi。",
+          "category": "指示代词-中性形式+介词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Regarde ces deux robes. Je préfère _____ (这条/近指).\n（看这两条裙子。我更喜欢这条。）",
+          "correct": [
+            "celle-ci"
+          ],
+          "explanation": "robe 阴性单数 → celle，近指加 -ci → celle-ci。复合形式可独立使用。",
+          "category": "指示代词-复合形式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Votre appartement est grand. _____ (celui/celle) de Marc est petit.\n（你的公寓很大。Marc的那套很小。）",
+          "correct": [
+            "Celui"
+          ],
+          "explanation": "appartement 是阳性单数 → celui。后接 de Marc 作限定。",
+          "category": "指示代词-简单形式+de"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是正确的？",
+          "options": [
+            "Je prends celui.（我拿那个。）",
+            "Je prends celui-ci.（我拿这个。）",
+            "Je prends celui de Pierre.（我拿Pierre的那个。）",
+            "Je prends celui qui est rouge.（我拿红色的那个。）"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "选项A错误：简单形式 celui 不能单独使用，必须接 -ci/-là、de+名词、或关系从句。其余三个都合法。",
+          "category": "指示代词-核心规则"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Clt429JWoDMfqpbYJRFIGaczi6mQHMT2JycNdIU3AFU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773539245264-uwpwuxmxk7f",
+          "front": "指示代词简单形式（阳性单数）",
+          "back": "celui\n中文：那个（阳性单数）\n⚠️ 不能单独使用，必须接 de+名词 或 关系从句"
+        },
+        {
+          "id": "1773539245264-nzp74fmtmoh",
+          "front": "指示代词简单形式（阴性单数）",
+          "back": "celle\n中文：那个（阴性单数）\n⚠️ 不能单独使用"
+        },
+        {
+          "id": "1773539245264-ng7nj0pdjf",
+          "front": "指示代词简单形式（阳性复数）",
+          "back": "ceux\n中文：那些（阳性复数）\n⚠️ 不能单独使用"
+        },
+        {
+          "id": "1773539245264-spimfml9hp8",
+          "front": "指示代词简单形式（阴性复数）",
+          "back": "celles\n中文：那些（阴性复数）\n⚠️ 不能单独使用"
+        },
+        {
+          "id": "1773539245264-2pad00l2tz7",
+          "front": "简单形式 celui 的两种合法搭配是什么？",
+          "back": "1. celui + de + 名词（表所属）\n2. celui + 关系从句（qui/que/où/dont）\n❌ 不可单独使用：celui. ✗"
+        },
+        {
+          "id": "1773539245264-eq70mp8ylp",
+          "front": "celui de + 名词 表示什么？",
+          "back": "表示\"……的那个\"\n例：celle de Sophie = Sophie的那个\n替代前面已出现的名词，避免重复"
+        },
+        {
+          "id": "1773539245264-b61e2qlz6wh",
+          "front": "celui qui vs celui que 怎么区分？",
+          "back": "celui qui → 关系从句中缺主语\ncelui que → 关系从句中缺宾语\n例：celui qui parle（说话的那个人）\ncelui que je connais（我认识的那个人）"
+        },
+        {
+          "id": "1773539245264-lq7zbw423u7",
+          "front": "复合形式 -ci 和 -là 分别表示什么？",
+          "back": "-ci → 近指（这个/后者）\n-là → 远指（那个/前者）\n✅ 复合形式可以单独使用"
+        },
+        {
+          "id": "1773539245264-3jmyb3bh6wn",
+          "front": "文本中 celui-ci 指前者还是后者？",
+          "back": "celui-ci = 后者（离得近的）\ncelui-là = 前者（离得远的）\n口诀：ci近là远，近后远前"
+        },
+        {
+          "id": "1773539245264-k7r45yyjwmr",
+          "front": "celle-ci / celle-là",
+          "back": "celle-ci = 这个（阴性单数，近指/后者）\ncelle-là = 那个（阴性单数，远指/前者）\n例：Tu préfères celle-ci ou celle-là ?"
+        },
+        {
+          "id": "1773539245264-crkfzg7waxd",
+          "front": "中性代词 ce (c') 用在哪里？",
+          "back": "用在 être 前面作主语\n例：C'est vrai.（这是真的。）\nC'est mon ami.（这是我的朋友。）"
+        },
+        {
+          "id": "1773539245264-p4s7z9bdhr",
+          "front": "ce qui 还是 ce que？怎么选？",
+          "back": "ce qui → 从句中缺主语（什么东西做了……）\nce que → 从句中缺宾语（……做了什么东西）\n例：Ce qui m'intéresse...（让我感兴趣的……）\nCe que tu dis...（你说的……）"
+        },
+        {
+          "id": "1773539245264-mcw2zc1itxk",
+          "front": "ce dont 什么时候用？",
+          "back": "当动词搭配介词 de 时\navoir besoin DE → ce dont j'ai besoin\nparler DE → ce dont je parle\n中文：……的那件事（与de搭配）"
+        },
+        {
+          "id": "1773539245264-1naq3nao1ds",
+          "front": "ce à quoi 什么时候用？",
+          "back": "当动词搭配介词 à 时\npenser À → ce à quoi je pense\ns'intéresser À → ce à quoi je m'intéresse\n中文：……的那件事（与à搭配）"
+        },
+        {
+          "id": "1773539245264-1sdu8jvrxs4",
+          "front": "ceci vs cela (ça) 的区别",
+          "back": "ceci → 指即将要说的内容（下文）→ 较正式\ncela → 指刚说过的内容（上文）→ 正式书面\nça → = cela → 口语日常\n例：Retenez ceci : ...（记住这一点：……）"
+        },
+        {
+          "id": "1773539245264-hsx9d67m2yc",
+          "front": "TCF 陷阱：❌ celui mon frère",
+          "back": "✅ 正确写法：celui de mon frère\n规则：简单形式 + de + 名词，de 不可省略"
+        },
+        {
+          "id": "1773539245264-dziqmepwcc",
+          "front": "TCF 陷阱：❌ Ce que m'intéresse",
+          "back": "✅ 正确写法：Ce qui m'intéresse\n原因：从句缺主语 → 用 ce qui\nce que 用于从句缺宾语的情况"
+        },
+        {
+          "id": "1773539245264-kt72olqy45t",
+          "front": "TCF 陷阱：❌ Je prends celui.",
+          "back": "✅ 正确写法：Je prends celui-ci. 或 celui de Pierre. 或 celui qui est rouge.\n规则：简单形式不能单独使用"
+        },
+        {
+          "id": "1773539245264-nzddxc65b1i",
+          "front": "3秒排除法（指示代词选择题）",
+          "back": "Step 1：看替代的名词→确定性数→排除性数不符选项\nStep 2：看空格后有无 de/关系从句→有→简单形式；无→复合形式\nStep 3：ce qui/ce que→看从句缺主语还是宾语"
+        },
+        {
+          "id": "1773539245264-k78ab2bnijh",
+          "front": "ça 在口语和写作中的使用",
+          "back": "口语：ça 完全替代 cela\n例：Ça va ? Ça ne me dérange pas.\n正式写作：优先用 cela\nTCF 写作考试建议用 cela"
+        }
+      ]
+    },
+    {
+      "id": 1773539000434,
+      "name": "法语代词位置（La place des pronoms）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-15T01:43:20.434Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je ______ tous les jours.\n（我每天都看见她。）",
+          "options": [
+            "la vois（看见她）",
+            "vois la（看见她）",
+            "lui vois（看见她）",
+            "la voir（看见她）"
+          ],
+          "correct": 0,
+          "explanation": "简单时态，直宾代词 la 放在变位动词 vois 前面。",
+          "category": "代词位置-简单时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ au cinéma.\n（我们想去那儿。）",
+          "options": [
+            "voulons y aller（想去那儿）",
+            "y voulons aller（想去那儿）",
+            "voulons aller y（想去那儿）",
+            "y aller voulons（想去那儿）"
+          ],
+          "correct": 0,
+          "explanation": "双动词结构，代词 y 放在不定式 aller 前面：voulons y aller。",
+          "category": "代词位置-双动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ hier.\n（她昨天看见了他们。）",
+          "options": [
+            "les a vus（看见了他们）",
+            "a les vus（看见了他们）",
+            "les vus a（看见了他们）",
+            "a vus les（看见了他们）"
+          ],
+          "correct": 0,
+          "explanation": "复合过去时，代词 les 放在助动词 a 前面：les a vus。过去分词 vus 与 les（阳性复数）配合。",
+          "category": "代词位置-复合时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ______ ce matin.\n（我今早没吃。）",
+          "options": [
+            "n'en ai pas mangé（没吃）",
+            "ne pas en ai mangé（没吃）",
+            "n'ai pas en mangé（没吃）",
+            "en n'ai pas mangé（没吃）"
+          ],
+          "correct": 0,
+          "explanation": "复合时态否定：ne + 代词 + 助动词 + pas + 过去分词 → n'en ai pas mangé。",
+          "category": "代词位置-否定+复合时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as donné les clés à Pierre ? — Oui, je ______ ai données.\n（你把钥匙给 Pierre 了吗？——是的，我给他了。）",
+          "options": [
+            "les lui（把它们给他）",
+            "lui les（给他它们）",
+            "le lui（把它给他）",
+            "les leur（把它们给他们）"
+          ],
+          "correct": 0,
+          "explanation": "双代词顺序：le/la/les（位置2）在 lui/leur（位置3）前面 → les lui。",
+          "category": "代词位置-双代词顺序"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ______ beaucoup.\n（他对此很感兴趣。）",
+          "options": [
+            "s'y intéresse（对此感兴趣）",
+            "y s'intéresse（对此感兴趣）",
+            "se y intéresse（对此感兴趣）",
+            "s'intéresse y（对此感兴趣）"
+          ],
+          "correct": 0,
+          "explanation": "自反代词 se（位置1）在 y（位置4）前面，且 se 在元音前缩合为 s' → s'y intéresse。",
+          "category": "代词位置-自反+y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous ______ à cette fête.\n（你们不想去那个派对。）",
+          "options": [
+            "ne voulez pas y aller（不想去那儿）",
+            "n'y voulez pas aller（不想去那儿）",
+            "ne voulez y pas aller（不想去那儿）",
+            "ne y voulez pas aller（不想去那儿）"
+          ],
+          "correct": 0,
+          "explanation": "双动词否定：ne + 主动词 + pas + 代词 + 不定式 → ne voulez pas y aller。",
+          "category": "代词位置-否定+双动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Y a-t-il du lait ? — Non, il ______.\n（有牛奶吗？——不，没有。）",
+          "options": [
+            "n'y en a pas（没有）",
+            "ne y en a pas（没有）",
+            "n'en y a pas（没有）",
+            "y n'en a pas（没有）"
+          ],
+          "correct": 0,
+          "explanation": "y（位置4）在 en（位置5）前面，否定结构：n'y en a pas。",
+          "category": "代词位置-y+en否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie ? Je ______ depuis longtemps.\n（Marie？我认识她很久了。）",
+          "options": [
+            "la connais（认识她）",
+            "lui connais（认识她）",
+            "le connais（认识她）",
+            "connais la（认识她）"
+          ],
+          "correct": 0,
+          "explanation": "connaître 接直接宾语，Marie 是女性 → 直宾代词 la，放在动词前。",
+          "category": "代词位置-COD辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu peux ______ ce soir ?\n（你今晚能给他打电话吗？）",
+          "options": [
+            "lui téléphoner（给他打电话）",
+            "le téléphoner（给他打电话）",
+            "téléphoner lui（给他打电话）",
+            "lui de téléphoner（给他打电话）"
+          ],
+          "correct": 0,
+          "explanation": "téléphoner à qqn → 间宾代词 lui，双动词结构放在不定式前。",
+          "category": "代词位置-COI+双动词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces livres, je ______ la semaine dernière.\n（这些书，我上周买了。）",
+          "options": [
+            "les ai achetés（买了它们）",
+            "les achetés ai（买了它们）",
+            "ai les achetés（买了它们）",
+            "leur ai acheté（买了它们）"
+          ],
+          "correct": 0,
+          "explanation": "复合时态代词在助动词前：les ai achetés。COD les 在助动词前，过去分词与 les（阳性复数）配合加 s。",
+          "category": "代词位置-复合时态+配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ de ce projet.\n（她不跟我们谈这个项目。）",
+          "options": [
+            "ne nous en parle pas（不跟我们谈这个）",
+            "ne en nous parle pas（不跟我们谈这个）",
+            "nous ne parle pas en（不跟我们谈这个）",
+            "ne nous parle en pas（不跟我们谈这个）"
+          ],
+          "correct": 0,
+          "explanation": "双代词：nous（位置1）在 en（位置5）前。否定：ne + 代词们 + 动词 + pas → ne nous en parle pas。",
+          "category": "代词位置-双代词+否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce gâteau est délicieux. Tu veux ______ ?\n（这蛋糕很好吃。你想尝尝吗？）",
+          "options": [
+            "en goûter（尝一些）",
+            "goûter en（尝一些）",
+            "le en goûter（尝一些）",
+            "y goûter（尝尝）"
+          ],
+          "correct": 0,
+          "explanation": "goûter de qqch → 用 en 替代，双动词结构放不定式前：en goûter。注意 D 选项 y goûter 也可能成立（goûter à），但此处搭配 de，选 en。",
+          "category": "代词位置-en+双动词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Tu parles à tes parents ? — Oui, je _____ parle tous les jours.\n（你跟父母说话吗？——是的，我每天都跟他们说。）",
+          "correct": [
+            "leur"
+          ],
+          "explanation": "parler à qqn → 间宾代词。tes parents 是复数 → leur（不是 les，les 是直宾）。",
+          "category": "代词位置-COI辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Vous avez vu ce film ? — Non, nous ne _____ avons pas vu.\n（你们看了那部电影吗？——不，我们没看。）",
+          "correct": [
+            "l'",
+            "le"
+          ],
+          "explanation": "voir qqch → 直宾代词 le（指 ce film），在元音前缩合为 l'。复合时态否定：ne l'avons pas vu。",
+          "category": "代词位置-缩合+否定复合时态"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1FupmWR4uOjgIdmTejNLDLjO9UJTyiCuLk9d2XiYCxAM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773539028799-wd82bbl0vd",
+          "front": "直宾代词（COD）有哪些？",
+          "back": "me / te / le / la / nous / vous / les\n替代没有介词连接的直接宾语"
+        },
+        {
+          "id": "1773539028799-c155ebhom39",
+          "front": "间宾代词（COI）有哪些？",
+          "back": "me / te / lui / nous / vous / leur\n替代 à + 人"
+        },
+        {
+          "id": "1773539028799-y6xjsgr4w8",
+          "front": "副代词 y 替代什么？",
+          "back": "替代 à + 地点/事物\n也替代 chez / dans / sur 等引导的地点\n例：Il va à Paris → Il y va."
+        },
+        {
+          "id": "1773539028799-x5lj86nje2l",
+          "front": "副代词 en 替代什么？",
+          "back": "替代 de + 名词\n常见：部分冠词 / 数量 / 不定冠词引导的名词\n例：Je mange du pain → J'en mange."
+        },
+        {
+          "id": "1773539028799-g8b9763cutc",
+          "front": "简单时态中，代词放在哪里？",
+          "back": "放在变位动词前面\n例：Je la vois.（我看见她）"
+        },
+        {
+          "id": "1773539028799-8amqrc78zfn",
+          "front": "双动词结构中，代词放在哪里？",
+          "back": "放在不定式（第二个动词）前面\n例：Je veux la voir.（我想看见她）"
+        },
+        {
+          "id": "1773539028799-pop0ftbwz78",
+          "front": "复合过去时中，代词放在哪里？",
+          "back": "放在助动词（avoir/être）前面\n例：Je l'ai vue.（我看见了她）\n⚠️ 不是放在过去分词前！"
+        },
+        {
+          "id": "1773539028799-fmjq9x8qqe",
+          "front": "否定句 ne...pas 夹住谁？",
+          "back": "只夹第一个变位动词（或助动词）\n简单时态：ne + 代词 + 动词 + pas\n复合时态：ne + 代词 + 助动词 + pas + 过去分词\n双动词：ne + 主动词 + pas + 代词 + 不定式"
+        },
+        {
+          "id": "1773539028799-9u1bywo1h97",
+          "front": "双代词顺序表（5个位置）",
+          "back": "1: me/te/nous/vous/se\n2: le/la/les\n3: lui/leur\n4: y\n5: en\n从左到右，编号小的先出现"
+        },
+        {
+          "id": "1773539028799-5eevcb4qmz9",
+          "front": "le lui 还是 lui le？",
+          "back": "le lui ✅\nlui le ❌\n规则：位置2（le/la/les）在位置3（lui/leur）前面\n例：Je le lui ai donné."
+        },
+        {
+          "id": "1773539028799-jd2zo7kzzy",
+          "front": "s'y 还是 y se？",
+          "back": "s'y ✅\ny se ❌\n规则：se（位置1）在 y（位置4）前面\n例：Il s'y intéresse."
+        },
+        {
+          "id": "1773539028799-df28wi3fulc",
+          "front": "y en 还是 en y？",
+          "back": "y en ✅\nen y ❌\n规则：y（位置4）在 en（位置5）前面\n例：Il y en a."
+        },
+        {
+          "id": "1773539028799-y33sq1sco8n",
+          "front": "lui 和 leur 的区别？",
+          "back": "lui = 间宾单数（给他/给她）\nleur = 间宾复数（给他们/给她们）\n⚠️ leur 作代词时不加 s"
+        },
+        {
+          "id": "1773539028799-97kttb05mwc",
+          "front": "les 和 leur 怎么区分？",
+          "back": "les = 直宾代词（看见他们：Je les vois）\nleur = 间宾代词（给他们：Je leur parle）\n关键：看动词搭配是直接宾语还是 à + 人"
+        },
+        {
+          "id": "1773539028799-z45sizhg9rj",
+          "front": "否定+双动词+代词，顺序？",
+          "back": "ne + 主动词 + pas + 代词 + 不定式\n例：Je ne veux pas la voir.\n⚠️ pas 在代词前面，代词紧贴不定式"
+        },
+        {
+          "id": "1773539028799-jcnhdob7myn",
+          "front": "否定+复合时态+双代词，顺序？",
+          "back": "ne + 代词1 + 代词2 + 助动词 + pas + 过去分词\n例：Je ne le lui ai pas donné.\n⚠️ 两个代词都夹在 ne 和助动词之间"
+        },
+        {
+          "id": "1773539028799-awyan6uuhj",
+          "front": "TCF 3秒排除法",
+          "back": "1. 找相关动词（代词属于谁？）\n2. 判断时态（简单/复合/双动词）\n3. 是否否定？→ ne...pas 夹谁\n4. 双代词？→ 查顺序表"
+        }
+      ]
+    },
+    {
+      "id": 1773538918133,
+      "name": "副代词 y 与 en",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-15T01:41:58.133Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "– Tu vas souvent à la bibliothèque ?\n– Oui, j'_____ vais tous les jours.\n（——你经常去图书馆吗？——是的，我每天都去。）",
+          "options": [
+            "en（从那里）",
+            "y（去那里）",
+            "lui（给他）",
+            "la（她/它）"
+          ],
+          "correct": 1,
+          "explanation": "à la bibliothèque 是地点，用 y 代替。",
+          "category": "副代词y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Vous buvez du thé ?\n– Oui, j'_____ bois le matin.\n（——你喝茶吗？——是的，我早上喝。）",
+          "options": [
+            "y（去那里）",
+            "en（一些）",
+            "le（它）",
+            "lui（给他）"
+          ],
+          "correct": 1,
+          "explanation": "du thé 含部分冠词 du，用 en 代替。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Elle pense à ses vacances ?\n– Oui, elle _____ pense souvent.\n（——她想她的假期吗？——是的，她经常想。）",
+          "options": [
+            "en（关于它）",
+            "lui（给他）",
+            "y（关于它）",
+            "les（它们）"
+          ],
+          "correct": 2,
+          "explanation": "penser à + 事物（非人），用 y 代替。",
+          "category": "副代词y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Tu as peur de l'examen ?\n– Oui, j'_____ ai très peur.\n（——你怕考试吗？——是的，我很怕。）",
+          "options": [
+            "y（对它）",
+            "en（对它）",
+            "lui（他）",
+            "le（它）"
+          ],
+          "correct": 1,
+          "explanation": "avoir peur de + 事物，用 en 代替 de l'examen。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Il répond à ses parents ?\n– Oui, il _____ répond toujours.\n（——他回复他父母吗？——是的，他总是回复。）",
+          "options": [
+            "y（对它）",
+            "en（关于它）",
+            "leur（给他们）",
+            "les（他们）"
+          ],
+          "correct": 2,
+          "explanation": "répondre à + 人，用间宾代词 leur，不用 y。",
+          "category": "y vs 间宾"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Combien de livres as-tu ?\n– J'_____ ai cinq.\n（——你有几本书？——我有五本。）",
+          "options": [
+            "y（那里）",
+            "les（它们）",
+            "en（一些）",
+            "leur（给他们）"
+          ],
+          "correct": 2,
+          "explanation": "数量表达中，名词用 en 代替，数字 cinq 保留在句末。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Tu penses à Marie ?\n– Oui, je pense _____ .\n（——你想 Marie 吗？——是的，我想她。）",
+          "options": [
+            "y（对她）",
+            "en（关于她）",
+            "à elle（对她）",
+            "lui（给她）"
+          ],
+          "correct": 2,
+          "explanation": "penser à + 人 → 用重读代词 à elle，不用 y，也不用 lui。",
+          "category": "y vs 重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Elle parle de son patron ?\n– Oui, elle parle souvent _____ .\n（——她谈论她老板吗？——是的，她经常谈论他。）",
+          "options": [
+            "en（关于它）",
+            "y（对它）",
+            "de lui（关于他）",
+            "lui（给他）"
+          ],
+          "correct": 2,
+          "explanation": "parler de + 人 → 用重读代词 de lui，不用 en。",
+          "category": "en vs 重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Vous vous intéressez à la politique ?\n– Oui, nous nous _____ intéressons beaucoup.\n（——你们对政治感兴趣吗？——是的，我们很感兴趣。）",
+          "options": [
+            "en（关于它）",
+            "y（对它）",
+            "lui（给他）",
+            "la（它）"
+          ],
+          "correct": 1,
+          "explanation": "s'intéresser à qch（非人），用 y。nous nous y intéressons。",
+          "category": "副代词y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Tu joues au tennis ?\n– Oui, j'_____ joue le week-end.\n（——你打网球吗？——是的，我周末打。）",
+          "options": [
+            "en（一些）",
+            "le（它）",
+            "y（打它）",
+            "lui（给他）"
+          ],
+          "correct": 2,
+          "explanation": "jouer au tennis = jouer à + 运动，用 y 代替。",
+          "category": "副代词y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Il est content de son salaire ?\n– Oui, il _____ est très content.\n（——他对工资满意吗？——是的，他很满意。）",
+          "options": [
+            "y（对它）",
+            "en（对它）",
+            "lui（给他）",
+            "le（它）"
+          ],
+          "correct": 1,
+          "explanation": "être content de + 事物，用 en 代替 de son salaire。",
+          "category": "副代词en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "– Va à la pharmacie !\n– D'accord, j'_____ vais tout de suite.\n（——去药房！——好的，我马上去。）",
+          "options": [
+            "en（从那里）",
+            "y（去那里）",
+            "la（它）",
+            "lui（给他）"
+          ],
+          "correct": 1,
+          "explanation": "à la pharmacie 是地点，用 y 代替。",
+          "category": "副代词y"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "– Tu as acheté des pommes ?\n– Oui, j'_____ ai acheté six.\n（——你买苹果了吗？——是的，我买了六个。）",
+          "correct": [
+            "en"
+          ],
+          "explanation": "des pommes 含部分冠词 des + 名词，用 en 代替，数字 six 保留在句末。",
+          "category": "副代词en"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "– Vous avez réfléchi à ce problème ?\n– Oui, nous _____ avons longuement réfléchi.\n（——你们思考过这个问题吗？——是的，我们仔细思考过了。）",
+          "correct": [
+            "y"
+          ],
+          "explanation": "réfléchir à + 事物（非人），用 y 代替 à ce problème。",
+          "category": "副代词y"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中应该用 en 而不是 y ？",
+          "options": [
+            "Elle parle de son travail.（她谈论她的工作。）",
+            "Il pense à son projet.（他想他的项目。）",
+            "Tu veux du pain ?（你要面包吗？）",
+            "Nous allons à Paris.（我们去巴黎。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "parler de + 事物 → en；du pain 含部分冠词 → en。penser à + 事物 → y；à Paris 是地点 → y。",
+          "category": "y vs en 辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "– Tu vas au cinéma ce soir ? – Oui, j'_____ vais avec Paul.\n– Et tu as de l'argent ? – Non, je n'_____ ai pas assez.\n（——你今晚去电影院吗？——是的，我和Paul去。\n——你有钱吗？——不，我没有足够的钱。）",
+          "correct": [
+            "y",
+            "en"
+          ],
+          "explanation": "第一空：au cinéma 是地点 → y。第二空：de l'argent 含部分冠词 → en，数量词 assez 保留句末。",
+          "category": "y + en 综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1MvRCoDklxGsXxiQeT0Mtb3ZFp_r9VSiCNhfjsLdtj3k/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773538949539-papmgjxyfi",
+          "front": "副代词 y 代替什么？",
+          "back": "y = 介词（à / en / sur / chez / dans）+ 地点或事物（非人）\n用于避免重复地点状语或 à + 非人名词"
+        },
+        {
+          "id": "1773538949539-c2xrowg9ze8",
+          "front": "Vas-tu chez le médecin ?\n用 y 回答（肯定）",
+          "back": "Oui, j'y vais.\ny = chez le médecin"
+        },
+        {
+          "id": "1773538949539-a6y8uuhpca",
+          "front": "副代词 en 代替什么？",
+          "back": "en = de + 名词（事物/非人）\n包括部分冠词（du/de la/des）、数量词 + de、动词搭配中的 de + 事物"
+        },
+        {
+          "id": "1773538949539-kbfofqy81rg",
+          "front": "Vous buvez du café ?\n用 en 回答（肯定）",
+          "back": "Oui, j'en bois tous les jours.\nen = du café（部分冠词 + 名词）"
+        },
+        {
+          "id": "1773538949539-8r3o6cae51o",
+          "front": "penser à + 事物 → 用什么代词？",
+          "back": "用 y\nIl pense à son projet. → Il y pense."
+        },
+        {
+          "id": "1773538949539-ngfxcmqsvbb",
+          "front": "penser à + 人 → 用什么代词？",
+          "back": "用重读人称代词（à lui / à elle / à eux...）\nJe pense à Marie. → Je pense à elle.\n⚠️ 不用 y，也不用 lui"
+        },
+        {
+          "id": "1773538949539-64bn8ipyvju",
+          "front": "répondre à + 事物 vs répondre à + 人",
+          "back": "事物 → y：J'y réponds.（我回复这封邮件）\n人 → 间宾代词 lui/leur：Je lui réponds.（我回复他）"
+        },
+        {
+          "id": "1773538949539-thx6xok5lqd",
+          "front": "avoir peur de + 事物 → 用什么代词？",
+          "back": "用 en\nTu as peur de l'examen ? → Tu en as peur ?\nen = de l'examen"
+        },
+        {
+          "id": "1773538949539-zfh06u9d2m",
+          "front": "avoir peur de + 人 → 用什么代词？",
+          "back": "用重读代词 de lui/d'elle/d'eux\nTu as peur de ton patron ? → Tu as peur de lui ?\n⚠️ 不用 en"
+        },
+        {
+          "id": "1773538949539-wywpdy96mtf",
+          "front": "parler de + 事物 vs parler de + 人",
+          "back": "事物 → en：Il en parle.（他谈论这趟旅行）\n人 → 重读代词：Il parle de lui.（他谈论他哥哥）"
+        },
+        {
+          "id": "1773538949539-z5ehhens6lp",
+          "front": "être content de + 事物 → 用什么代词？",
+          "back": "用 en\nElle en est contente.（她对工作满意）"
+        },
+        {
+          "id": "1773538949539-ticfp68hs3",
+          "front": "être content de + 人 → 用什么代词？",
+          "back": "用重读代词 d'eux / d'elle...\nElle est contente d'eux.（她对同事满意）\n⚠️ 不用 en"
+        },
+        {
+          "id": "1773538949539-nqhedy3bh4n",
+          "front": "en 与数量词搭配的规则？",
+          "back": "en 代替名词，数量词/数字保留在句末\nCombien de pommes ? → Il y en a trois.\n（en = de pommes，trois 保留句末）"
+        },
+        {
+          "id": "1773538949539-6u1b9c2m63",
+          "front": "常见数量词有哪些？（搭配 de）",
+          "back": "beaucoup de / un peu de / peu de / plus de / moins de / assez de / trop de / combien de\n回答时：en + 动词 + 数量词"
+        },
+        {
+          "id": "1773538949539-ric0n9m7x1o",
+          "front": "s'intéresser à qch → 用什么代词？",
+          "back": "用 y\nTu t'intéresses à la musique ? → Tu t'y intéresses ?\ny = à la musique"
+        },
+        {
+          "id": "1773538949539-y6v5ikowoe",
+          "front": "jouer au foot/basket/tennis → 用什么代词？",
+          "back": "用 y\nTu joues au tennis ? → Tu y joues ?\ny = au tennis"
+        },
+        {
+          "id": "1773538949539-apevsjkh5ac",
+          "front": "y 和 en 的位置规则（现在时）",
+          "back": "放在变位动词前\nJ'y vais. / J'en bois."
+        },
+        {
+          "id": "1773538949539-dl3ci3nwfjr",
+          "front": "y 和 en 的位置规则（复合过去时）",
+          "back": "放在助动词前\nJ'y suis allé. / J'en ai acheté trois."
+        },
+        {
+          "id": "1773538949539-49ud2lfqk7s",
+          "front": "y 和 en 的位置规则（最近将来时）",
+          "back": "放在不定式前\nJe vais y aller. / Je vais en acheter."
+        },
+        {
+          "id": "1773538949539-72bv2e9sqtv",
+          "front": "y 和 en 的位置规则（命令式肯定）",
+          "back": "放在动词后，加连字符\nVas-y ! / Prends-en !\n⚠️ va → vas-y（加 s 利于发音）"
+        },
+        {
+          "id": "1773538949539-ifhcvaepwsk",
+          "front": "y 和 en 的位置规则（命令式否定）",
+          "back": "放在动词前\nN'y va pas ! / N'en prends pas !"
+        },
+        {
+          "id": "1773538949539-c9nd6g22ucq",
+          "front": "终极口诀：y vs en vs 重读代词",
+          "back": "à + 事物 → y\nde + 事物 → en\n+ 人 → 重读代词（de lui, à elle...）或间宾代词（lui, leur）\n绝不用 y/en 代替人！"
+        }
+      ]
+    },
+    {
       "id": 1773444091351,
       "name": "真题TEST 2听力 A2 Q8-10",
       "folderId": "1772686244763",
@@ -84406,12 +86563,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-13",
+    "date": "2026-03-15",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-13T23:21:54.878Z",
+  "exportedAt": "2026-03-15T02:02:11.291Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
