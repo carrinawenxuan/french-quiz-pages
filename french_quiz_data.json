@@ -1,6 +1,1197 @@
 {
   "savedSets": [
     {
+      "id": 1773714638275,
+      "name": "A2 Lecon 8 TCF阅读 练习",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-17T02:30:38.275Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Selon l'enquête, que montre-t-elle d'abord ?\n（根据调查，它首先表明了什么？）",
+          "options": [
+            "Les Français mangent plus de sucre.（法国人吃更多糖。）",
+            "Les Français mangent mieux.（法国人吃得更好了。）",
+            "Les Français font plus de sport.（法国人做更多运动。）",
+            "Les Français mangent moins de fruits.（法国人吃更少水果。）"
+          ],
+          "correct": 1,
+          "explanation": "原文：Cette enquête montre d'abord que les Français mangent mieux. 调查首先表明法国人吃得更好了。选项A是反义，C是后文内容不是'd'abord'的内容，D偷换了信息。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Plus de 60 % des enfants mangent moins de 3 _____ par jour.\n（超过60%的儿童每天吃不到3份_____。）",
+          "options": [
+            "produits laitiers（乳制品）",
+            "féculents（淀粉类食物）",
+            "fruits et légumes（水果和蔬菜）",
+            "matières grasses（油脂类食物）"
+          ],
+          "correct": 2,
+          "explanation": "原文：on est loin des 5 fruits et légumes par jour ! Plus de 60 % des enfants en mangent moins de 3. 这里 en = fruits et légumes。干扰项A（乳制品）对应的是40%的数据，故意混淆数据对象。",
+          "category": "数据定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « 40 % consomment moins de 3 produits laitiers par jour également », que signifie « également » ?\n（在这句话中，également是什么意思？）",
+          "options": [
+            "seulement（仅仅）",
+            "également signifie « aussi »（同样地）",
+            "différemment（不同地）",
+            "rarement（很少地）"
+          ],
+          "correct": 1,
+          "explanation": "également = aussi，表示\"同样地\"，承接前文儿童水果蔬菜不够，乳制品\"同样\"不够。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le problème principal des adultes selon le texte ?\n（根据文章，成年人的主要问题是什么？）",
+          "options": [
+            "Ils mangent trop de viande.（他们吃太多肉。）",
+            "Ils ne mangent pas assez de féculents.（他们淀粉类食物吃得不够。）",
+            "Ils ne mangent pas assez de fruits.（他们水果吃得不够。）",
+            "Ils consomment trop de produits laitiers.（他们乳制品吃太多。）"
+          ],
+          "correct": 1,
+          "explanation": "原文：Notre problème, ce sont les féculents : nous n'en mangeons pas assez souvent. 成年人的问题是淀粉类食物吃得不够。选项C是儿童的问题，A和D都是原文未提及的错误信息。",
+          "category": "细节对比"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « nous n'en mangeons pas assez souvent », le pronom « en » remplace :\n（在这句话中，代词en替代的是：）",
+          "options": [
+            "la viande（肉）",
+            "les fruits（水果）",
+            "les féculents（淀粉类食物）",
+            "les matières grasses（油脂类食物）"
+          ],
+          "correct": 2,
+          "explanation": "上文：Notre problème, ce sont les féculents : nous n'en mangeons pas assez souvent. en 指代 les féculents。代词指代题必须回到上一句定位。",
+          "category": "代词指代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « un Français sur deux fait régulièrement du sport » ?\n（\"每两个法国人中有一个定期做运动\"是什么意思？）",
+          "options": [
+            "Tous les Français font du sport.（所有法国人都做运动。）",
+            "25 % des Français font du sport.（25%的法国人做运动。）",
+            "50 % des Français font du sport.（50%的法国人做运动。）",
+            "Deux Français font du sport ensemble.（两个法国人一起做运动。）"
+          ],
+          "correct": 2,
+          "explanation": "un sur deux = 1/2 = 50%。这是TCF常考的比例表达。选项D是字面误读陷阱。",
+          "category": "数据理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon le texte, qui fait plus de sport ?\n（根据文章，谁做更多运动？）",
+          "options": [
+            "Les hommes.（男性。）",
+            "Les enfants.（儿童。）",
+            "Les femmes.（女性。）",
+            "Les adultes en général.（成年人总体。）"
+          ],
+          "correct": 2,
+          "explanation": "原文：les femmes sont plus sportives que les hommes. 女性比男性更爱运动。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans « nous consommons de la viande ou du poisson au moins une fois par jour, ce qui est bien », « ce qui » fait référence à :\n（在这句话中，ce qui 指的是：）",
+          "options": [
+            "la viande（肉）",
+            "le poisson（鱼）",
+            "le fait de manger de la viande ou du poisson une fois par jour（每天至少吃一次肉或鱼这件事）",
+            "les féculents（淀粉类食物）"
+          ],
+          "correct": 2,
+          "explanation": "ce qui 是关系代词，指代前面整个事实（每天至少吃一次肉或鱼），不是单指某个名词。",
+          "category": "代词指代"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1aCNmjXSQxnxjkuEnZhBe5XwsvR4Vfq_BsXviu3mR7nc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1773713679812,
+      "name": "法语泛指代词（Les pronoms indéfinis）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-17T02:14:39.812Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "_____ ne comprend cette règle.\n（没有人理解这条规则。）",
+          "options": [
+            "Rien（什么都没有）",
+            "Personne（没有人）",
+            "Quelqu'un（某人）",
+            "Chacun（每个人）"
+          ],
+          "correct": 1,
+          "explanation": "主语位置表示\"没有人\"，用 Personne ne + 动词。rien 只能指物，不能指人。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai _____ compris.\n（我什么都没理解。）",
+          "options": [
+            "personne（没有人）",
+            "rien（什么都没有）",
+            "tout（一切）",
+            "quelque chose（某件事）"
+          ],
+          "correct": 1,
+          "explanation": "指物的否定用 rien，且复合时态中 rien 放在助动词和过去分词之间：n'ai rien compris。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai rencontré _____ au parc.\n（我在公园没遇到任何人。）",
+          "options": [
+            "rien（什么都没有）",
+            "personne（没有人）",
+            "quelqu'un（某人）",
+            "tous（所有人）"
+          ],
+          "correct": 1,
+          "explanation": "指人的否定用 personne，且复合时态中 personne 放在过去分词之后：n'ai rencontré personne。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est quelque chose _____ intéressant.\n（这是有趣的事。）",
+          "options": [
+            "d'（的）",
+            "de（的）",
+            "des（一些的）",
+            "du（部分的）"
+          ],
+          "correct": 1,
+          "explanation": "quelque chose de + 形容词（阳性单数）是固定结构，介词必须用 de。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "En France, _____ parle français.\n（在法国，人们说法语。）",
+          "options": [
+            "nous（我们）",
+            "ils（他们）",
+            "on（人们）",
+            "tout（一切）"
+          ],
+          "correct": 2,
+          "explanation": "on 泛指\"人们\"，动词用第三人称单数。这是 on 最常见的用法之一。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils sont _____ arrivés à l'heure.\n（他们全都准时到了。）",
+          "options": [
+            "tout（一切）",
+            "tous（所有人）",
+            "toutes（所有人-阴性）",
+            "chacun（每个人）"
+          ],
+          "correct": 1,
+          "explanation": "ils 是阳性复数，用 tous。作代词时 tous 读 [tus]，放在助动词和过去分词之间。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce café est froid. Je voudrais .\n（这杯咖啡是冷的。我想要另一杯。）",
+          "options": [
+            "l'autre（另外那个）",
+            "un autre（另一个）",
+            "d'autres（其他一些）",
+            "les autres（其他那些）"
+          ],
+          "correct": 1,
+          "explanation": "泛指\"随便另一个\"用 un autre。l'autre 表示特指\"另外那一个\"。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": " a son propre style.\n（每个人都有自己的风格。）",
+          "options": [
+            "Plusieurs（好几个）",
+            "Certains（某些人）",
+            "Chacun（每个人）",
+            "Quelques-uns（一些人）"
+          ],
+          "correct": 2,
+          "explanation": "强调\"每一个个体\"用 chacun，动词用第三人称单数。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On peut _____ acheter dans ce magasin.\n（在这家店人们可以买到一切。）",
+          "options": [
+            "acheter tout（买一切）",
+            "tout acheter（买一切）",
+            "acheter de tout（买各种）",
+            "tous acheter（全部买）"
+          ],
+          "correct": 1,
+          "explanation": "双动词结构中 tout 放在两个动词中间：peut + tout + acheter。",
+          "category": "tout位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai _____ mangé.\n（我全都吃了。）",
+          "options": [
+            "tout（全部）",
+            "mangé tout（全部吃）",
+            "tous（所有）",
+            "toute（全部-阴性）"
+          ],
+          "correct": 0,
+          "explanation": "复合时态中 tout 放在助动词和过去分词中间：ai + tout + mangé。",
+          "category": "tout位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous n'avons pas _____ compris.\n（我们没有全部理解。）",
+          "options": [
+            "tout（全部）",
+            "rien（什么都没有）",
+            "tous（所有）",
+            "compris tout（理解全部）"
+          ],
+          "correct": 0,
+          "explanation": "复合时态否定句语序：ne + 助动词 + pas + tout + 过去分词。",
+          "category": "tout位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il faut _____ supprimer.\n（应该全部删除。）",
+          "options": [
+            "supprimer tout（删除全部）",
+            "tout supprimer（删除全部）",
+            "de tout supprimer（删除全部）",
+            "tous supprimer（全部删除）"
+          ],
+          "correct": 1,
+          "explanation": "faut + tout + 不定式，tout 放在两个动词中间。",
+          "category": "tout位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est quelque chose _____ important.\n（这是重要的事。）",
+          "options": [
+            "de（的）",
+            "d'（的）",
+            "des（一些的）",
+            "du（部分的）"
+          ],
+          "correct": 1,
+          "explanation": "quelque chose de + 形容词。important 以元音开头，de 省音为 d'。",
+          "category": "de+形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai trouvé personne _____ compétent.\n（我没找到任何有能力的人。）",
+          "options": [
+            "de（的）",
+            "du（部分的）",
+            "des（一些的）",
+            "qui（关系代词）"
+          ],
+          "correct": 0,
+          "explanation": "personne de + 形容词（阳性单数），介词只能用 de。",
+          "category": "de+形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a rien _____ dans ce livre.\n（这本书里没什么有趣的。）",
+          "options": [
+            "intéressant（有趣的）",
+            "d'intéressant（有趣的）",
+            "d'intéressante（有趣的-阴性）",
+            "des intéressants（有趣的-复数）"
+          ],
+          "correct": 1,
+          "explanation": "rien de + 形容词（阳性单数）。不能省略 de，形容词不能用阴性或复数。",
+          "category": "de+形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Voilà quelqu'un de très _____.\n（这是一个非常善良的人。）",
+          "options": [
+            "gentille（善良的-阴性）",
+            "gentils（善良的-复数）",
+            "gentil（善良的-阳性单数）",
+            "gentilles（善良的-阴性复数）"
+          ],
+          "correct": 2,
+          "explanation": "quelqu'un de + 形容词永远用阳性单数，即使指代的是女性也不变。",
+          "category": "de+形容词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1A4t7AiBrXQv5HU-kHrhusLXya2riYnuTL2e2cNKyMt0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773713734830-4rpkfptnk5v",
+          "front": "on 的三层含义",
+          "back": "① 泛指\"人们、大家\"\nOn mange bien ici.（人们在这儿吃得好。）\n② 口语替代 nous\nOn va au cinéma.（我们去看电影。）\n③ 泛指\"有人、某人\"\nOn m'a dit que...（有人告诉我……）\n⚠️ 动词永远第三人称单数"
+        },
+        {
+          "id": "1773713734830-4tcydmecztb",
+          "front": "personne 在复合时态中的位置",
+          "back": "ne + 助动词 + 过去分词 + personne\nJe n'ai vu personne.（我谁也没看到。）\n⚠️ personne 放在过去分词【之后】"
+        },
+        {
+          "id": "1773713734830-pzv3pzj3uh",
+          "front": "rien 在复合时态中的位置",
+          "back": "ne + 助动词 + rien + 过去分词\nJe n'ai rien compris.（我什么都没理解。）\n⚠️ rien 夹在助动词和过去分词【之间】"
+        },
+        {
+          "id": "1773713734830-slyrdho7k7",
+          "front": "personne vs rien 复合时态位置对比",
+          "back": "personne → 过去分词之后：n'ai vu personne\nrien → 过去分词之前：n'ai rien dit\n这是 TCF 必考对比！"
+        },
+        {
+          "id": "1773713734830-ecmifkqumhn",
+          "front": "quelque chose de + 形容词 规则",
+          "back": "quelque chose de + 形容词（永远阳性单数）\nquelque chose de bon（好的东西）✅\nquelque chose de bonne ❌\nrien de + 形容词 规则相同：rien de spécial"
+        },
+        {
+          "id": "1773713734830-xqwcyok24gr",
+          "front": "tous 代词 vs 形容词发音区别",
+          "back": "代词 tous [tus]（s 发音）：Ils sont tous venus.\n形容词 tous [tu]（s 不发音）：tous les jours\nTCF 听力和语法都会考！"
+        },
+        {
+          "id": "1773713734830-rgm51i6wkp",
+          "front": "un autre vs l'autre",
+          "back": "un autre = 另一个（泛指，不确定哪一个）\nJe voudrais un autre café.\nl'autre = 另外那个（特指，确定的）\nL'autre est meilleur."
+        },
+        {
+          "id": "1773713734830-s2dnawrey38",
+          "front": "d'autres vs les autres",
+          "back": "d'autres = 其他一些（泛指，不确定）\nIl y a d'autres solutions.\nles autres = 其他那些（特指，确定）\nLes autres sont partis."
+        },
+        {
+          "id": "1773713734830-hmbtb3rtz0p",
+          "front": "quelqu'un vs quelques-un(e)s",
+          "back": "quelqu'un = 某人（单数）\nQuelqu'un a frappé à la porte.\nquelques-uns/unes = 一些（复数，从整体中取部分）\nJ'ai lu quelques-uns de ses livres."
+        },
+        {
+          "id": "1773713734830-z7muw4ktll",
+          "front": "chacun(e) 用法要点",
+          "back": "= 每个人/每个事物（强调个体）\nChacun a son opinion.（每个人都有自己的观点。）\n⚠️ 动词用第三人称单数"
+        },
+        {
+          "id": "1773713734830-23zml94hyx6",
+          "front": "plusieurs 用法要点",
+          "back": "= 好几个（永远复数，无性数变化）\nPlusieurs ont refusé.（好几个人拒绝了。）\n不分阴阳性，没有 plusieures 这种形式"
+        },
+        {
+          "id": "1773713734830-ya3c4rmsdj",
+          "front": "certain(e)s 用法要点",
+          "back": "= 某些人/某些事物\nCertains pensent que c'est vrai.（某些人认为这是真的。）\n指人时一般用阳性复数 certains\n明确指女性群体才用 certaines"
+        },
+        {
+          "id": "1773713734830-vl7h9uj76eq",
+          "front": "tout 作代词在复合时态中的位置",
+          "back": "tout 放在助动词和过去分词之间（和 rien 位置相同）\nElle a tout mangé.（她把一切都吃了。）\nJ'ai tout compris.（我全都理解了。）"
+        },
+        {
+          "id": "1773713734830-haxc1p3pqfj",
+          "front": "personne / rien 作主语的结构",
+          "back": "Personne ne + 动词：Personne ne parle.（没有人说话。）\nRien ne + 动词：Rien ne marche.（什么都不管用。）\n⚠️ 作主语时 ne 不能省略"
+        },
+        {
+          "id": "1773713741926-iwvqapwre4",
+          "front": "tout 作直接宾语 + 双动词结构的位置",
+          "back": "动词1 + tout + 不定式\nOn peut tout acheter.（人们可以买到一切。）\nIl faut tout enlever.（应该全部删除。）\n⚠️ tout 放在两个动词中间"
+        },
+        {
+          "id": "1773713741926-45x6xmoan4",
+          "front": "tout 作直接宾语 + 复合时态的位置",
+          "back": "助动词 + tout + 过去分词\nJ'ai tout vu.（我全都看见了。）\nElle a tout mangé.（她全都吃了。）\n⚠️ tout 放在助动词和过去分词中间"
+        },
+        {
+          "id": "1773713741926-5k5lb6edqnj",
+          "front": "tout 复合时态 + 否定句语序",
+          "back": "ne + 助动词 + pas + tout + 过去分词\nNous n'avons pas tout fini.（我们没有全部完成。）\n⚠️ pas 在 tout 前面"
+        },
+        {
+          "id": "1773713741926-29x9jreicb9",
+          "front": "tout 作主语的位置",
+          "back": "Tout + 动词（放句首）\nTout est prêt.（一切都准备好了。）\nTout est moderne.（一切都很现代。）\n动词用第三人称单数"
+        },
+        {
+          "id": "1773713741926-po7wx7jdt",
+          "front": "tout vs rien vs personne 复合时态位置对比",
+          "back": "tout → 助动词 + tout + 过去分词：J'ai tout vu.\nrien → 助动词 + rien + 过去分词：Je n'ai rien vu.\npersonne → 助动词 + 过去分词 + personne：Je n'ai vu personne.\n⚠️ tout 和 rien 位置相同，personne 放末尾"
+        },
+        {
+          "id": "1773713741926-yqtgyxc71po",
+          "front": "泛指代词 + de + 形容词 规则",
+          "back": "quelque chose / quelqu'un / rien / personne + de + 形容词（阳性单数）\n① 必须加介词 de\n② 形容词永远阳性单数，不随指代对象变化"
+        },
+        {
+          "id": "1773713741926-i1vxb3o298g",
+          "front": "quelque chose de + 形容词 示例",
+          "back": "quelque chose de nouveau（新鲜的事）\nquelque chose de bon（好的事）\n❌ quelque chose de bonne（不能用阴性）\n❌ quelque chose nouveau（不能省略 de）"
+        },
+        {
+          "id": "1773713741926-pmf8p3ryd08",
+          "front": "rien de + 形容词 示例",
+          "back": "rien de spécial（没什么特别的）\nrien d'intéressant（没什么有趣的）\n❌ rien intéressant（不能省略 de）\n❌ rien d'intéressante（不能用阴性）"
+        },
+        {
+          "id": "1773713741926-b11qrq8p8ja",
+          "front": "quelqu'un de + 形容词 示例",
+          "back": "quelqu'un de gentil（善良的人）\nquelqu'un de très bien（很合适的人）\n❌ quelqu'un de gentille（即使指女性也用阳性单数）"
+        },
+        {
+          "id": "1773713741926-prx9lfqjwyb",
+          "front": "personne de + 形容词 示例",
+          "back": "personne de compétent（没有能干的人）\npersonne de sérieux（没有认真的人）\n❌ personne du sérieux（de 不能变成 du）\n❌ personne des sérieux（de 不能变成 des）"
+        },
+        {
+          "id": "1773713741926-mxkztfmhd2l",
+          "front": "为什么形容词永远阳性单数？",
+          "back": "quelque chose / rien / quelqu'un / personne 本身没有明确阴阳性指向\n法语默认用阳性单数作为\"中性\"处理\n这个规则没有例外！"
+        }
+      ]
+    },
+    {
+      "id": 1773713590313,
+      "name": "比较级 — 特殊形式（不规则比较级）",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-17T02:13:10.313Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Cette tarte est _____ que celle d'hier.\n（这个馅饼比昨天的好吃。）",
+          "options": [
+            "plus bonne（更好的）",
+            "meilleure（更好的）",
+            "mieux（更好地）",
+            "plus bien（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "tarte 是阴性单数名词，bon 的比较级是 meilleur，阴性形式 → meilleure。plus bonne 是错误的。mieux 是副词不能修饰名词。",
+          "category": "bon → meilleur"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il parle français _____ que moi.\n（他法语说得比我好。）",
+          "options": [
+            "meilleur（更好的）",
+            "meilleure（更好的）",
+            "mieux（更好地）",
+            "plus bon（更好的）"
+          ],
+          "correct": 2,
+          "explanation": "parler 是动词，需要副词修饰。bien 的比较级是 mieux，无变化。meilleur 是形容词，不能修饰动词。",
+          "category": "bien → mieux"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces résultats sont _____ que les précédents.\n（这些结果比之前的好。）",
+          "options": [
+            "meilleur（更好的-阳单）",
+            "meilleure（更好的-阴单）",
+            "meilleurs（更好的-阳复）",
+            "meilleures（更好的-阴复）"
+          ],
+          "correct": 2,
+          "explanation": "résultats 是阳性复数名词，meilleur 必须做性数配合 → meilleurs。",
+          "category": "meilleur 性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La situation est _____ qu'avant.\n（情况比以前更糟了。）",
+          "options": [
+            "plus mauvaise（更坏的）",
+            "pire（更坏的）",
+            "les deux sont correctes（两个都对）",
+            "plus pire（更更坏的）"
+          ],
+          "correct": 2,
+          "explanation": "mauvais 的比较级可以用 pire 或 plus mauvais(e)，两种都合法。situation 是阴性，plus mauvaise 正确。pire 阴阳同形也正确。plus pire 是错误的，pire 已含比较意义。",
+          "category": "mauvais → pire"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce problème est de _____ importance.\n（这个问题不太重要。— 用 petit 的不规则比较级）",
+          "options": [
+            "plus petite（更小的）",
+            "moindre（更小的/更轻的）",
+            "moins petite（不如…小的）",
+            "mieux（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "importance 是抽象概念，表示程度上的\"更小/更轻微\"，用 moindre。plus petit 用于具体物理尺寸。",
+          "category": "petit → moindre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cet enfant est _____ que ses camarades.\n（这个孩子比他的同学矮。）",
+          "options": [
+            "moindre（更小的-抽象）",
+            "plus petit（更矮的-具体）",
+            "moins grand（不如…高的）",
+            "plus petit 和 moins grand 都可以"
+          ],
+          "correct": 3,
+          "explanation": "描述身高是具体物理尺寸，用 plus petit（不用 moindre）。moins grand 也可以表达同样的意思。两者都正确。",
+          "category": "plus petit vs moindre"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle cuisine _____ que sa mère.\n（她做饭比她妈妈做得好。）",
+          "options": [
+            "meilleur（更好的）",
+            "meilleure（更好的）",
+            "mieux（更好地）",
+            "plus bien（更好地）"
+          ],
+          "correct": 2,
+          "explanation": "cuisiner 是动词，需要副词修饰动作。bien → mieux。meilleur/meilleure 是形容词不能修饰动词。plus bien 是错误形式。",
+          "category": "mieux vs meilleur"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ses notes sont _____ que les miennes.\n（他的成绩比我的好。）",
+          "options": [
+            "meilleures（更好的-阴复）",
+            "meilleurs（更好的-阳复）",
+            "meilleur（更好的-阳单）",
+            "mieux（更好地）"
+          ],
+          "correct": 0,
+          "explanation": "notes（成绩）是阴性复数名词，meilleur 必须做性数配合 → meilleures。mieux 是副词不能修饰名词。",
+          "category": "meilleur 性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce vin est aussi _____ que l'autre.\n（这瓶酒和另一瓶一样好。）",
+          "options": [
+            "meilleur（更好的）",
+            "bon（好的）",
+            "mieux（更好地）",
+            "bien（好地）"
+          ],
+          "correct": 1,
+          "explanation": "等量比较（aussi...que）时，回到原形 bon，不用 meilleur。meilleur 只用于\"更好\"（+）的比较。",
+          "category": "等量回原形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette solution est moins _____ que l'autre.\n（这个方案没有另一个好。）",
+          "options": [
+            "meilleure（更好的）",
+            "bonne（好的）",
+            "mieux（更好地）",
+            "bien（好地）"
+          ],
+          "correct": 1,
+          "explanation": "moins 比较（不如…）时，回到原形 bon。solution 是阴性单数 → bonne。不用 meilleure。",
+          "category": "moins 回原形"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait _____ qu'hier.\n（天气比昨天更糟。）",
+          "options": [
+            "plus mauvais（更坏的）",
+            "pire（更坏的）",
+            "plus pire（更更坏的）",
+            "plus mal（更差地）"
+          ],
+          "correct": 1,
+          "explanation": "描述天气用形容词。pire 和 plus mauvais 都对，但这里只有 pire 在选项中正确。plus pire 是错误的（pire 已含比较义）。plus mal 是副词形式。",
+          "category": "pire 用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les conséquences sont _____ que prévu.\n（后果比预想的更严重。）",
+          "options": [
+            "pire（更坏的-单数）",
+            "pires（更坏的-复数）",
+            "plus pires（更更坏的）",
+            "plus mauvais（更坏的-阳单）"
+          ],
+          "correct": 1,
+          "explanation": "conséquences 是复数名词，pire 的复数形式是 pires（加 s）。plus pires 错误。plus mauvais 没有做阴性复数配合。",
+          "category": "pire 复数"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le risque est _____ que ce que nous pensions.\n（风险比我们想的小。）",
+          "options": [
+            "plus petit（更小的）",
+            "moindre（更小的-抽象）",
+            "moins grand（不如…大的）",
+            "moindre 和 plus petit 都可以"
+          ],
+          "correct": 1,
+          "explanation": "risque（风险）是抽象概念，表示程度上的\"更小/更轻微\"用 moindre。plus petit 用于具体物理尺寸，不适合描述风险。",
+          "category": "moindre 抽象用法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est la phrase correcte ?\n（哪个句子是正确的？）",
+          "options": [
+            "Ce gâteau est plus bon que l'autre.（这蛋糕更好。）",
+            "Ce gâteau est plus meilleur que l'autre.（这蛋糕更更好。）",
+            "Ce gâteau est meilleur que l'autre.（这蛋糕更好。）",
+            "Ce gâteau est mieux que l'autre.（这蛋糕更好。）"
+          ],
+          "correct": 2,
+          "explanation": "bon 的比较级是 meilleur，不能说 plus bon 也不能说 plus meilleur。mieux 是副词，不能修饰名词 gâteau。只有 meilleur 正确。",
+          "category": "综合排除"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle se sent _____ aujourd'hui.\n（她今天感觉好多了。）",
+          "options": [
+            "meilleure（更好的）",
+            "mieux（更好地）",
+            "plus bien（更好地）",
+            "plus bonne（更好的）"
+          ],
+          "correct": 1,
+          "explanation": "se sentir + 副词/形容词。se sentir mieux 是固定搭配，表示\"感觉好多了\"。这里 mieux 修饰的是状态/感觉（类似副词用法）。plus bien 和 plus bonne 都是错误形式。",
+          "category": "se sentir mieux"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "C'est la _____ solution possible.\n（这是可能的最小/最不重要的方案。— 用 petit 的不规则比较级）",
+          "correct": [
+            "moindre"
+          ],
+          "explanation": "solution 是抽象概念，表示重要性/程度上的\"更小\"，用 moindre。plus petite 用于具体尺寸。",
+          "category": "moindre"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu chantes _____ qu'avant.\n（你唱得比以前好了。）",
+          "correct": [
+            "mieux"
+          ],
+          "explanation": "chanter 是动词，用副词修饰。bien → mieux。不能写 meilleur（形容词）或 plus bien（错误形式）。",
+          "category": "bien → mieux"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ces conditions sont aussi _____ qu'avant.\n（这些条件和以前一样差。）",
+          "correct": [
+            "mauvaises"
+          ],
+          "explanation": "等量比较（aussi...que）回到原形 mauvais。conditions 是阴性复数 → mauvaises。不用 pire（pire 只用于\"更差\"）。",
+          "category": "等量回原形"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Ce restaurant est _____ (1) que l'autre. On y mange _____ (2). Mais le service est _____ (3) qu'avant.\n（这家餐厅比另一家好。在这里吃得更好。但服务比以前差了。）",
+          "correct": [
+            "meilleur",
+            "mieux",
+            "pire"
+          ],
+          "explanation": "(1) restaurant 是阳性单数名词，bon → meilleur；(2) manger 是动词，bien → mieux；(3) service 是阳性单数名词，mauvais → pire（或 plus mauvais 也可）。",
+          "category": "综合辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1pdNhlRF_cfjBDudy8A0PUiAhceVokgJh7DbDWQXexcs/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773713611600-giob99eqkd6",
+          "front": "bon 的比较级（更好）",
+          "back": "meilleur(e)(s)\n⛔ 不能说 plus bon\n例：Ce gâteau est meilleur que l'autre.（这个蛋糕比那个好。）"
+        },
+        {
+          "id": "1773713611600-5v22tl4vpy",
+          "front": "bon 的等量比较（一样好）",
+          "back": "aussi bon(ne)(s) que\n回到原形 bon，不用 meilleur\n例：Ce vin est aussi bon que l'autre.（这酒和另一瓶一样好。）"
+        },
+        {
+          "id": "1773713611600-mj7dd41wh2n",
+          "front": "bon 的较低比较（不如…好）",
+          "back": "moins bon(ne)(s) que\n回到原形 bon，不用 meilleur\n例：Ce manteau est moins bon que celui-là.（这件大衣没那件好。）"
+        },
+        {
+          "id": "1773713611600-whsi8968qg",
+          "front": "bien 的比较级（更好地）",
+          "back": "mieux\n⛔ 不能说 plus bien\n副词，无变化\n例：Elle chante mieux que moi.（她唱得比我好。）"
+        },
+        {
+          "id": "1773713611600-sefvfhcfyl",
+          "front": "meilleur 还是 mieux？",
+          "back": "meilleur = 形容词，修饰名词，有性数变化\nmieux = 副词，修饰动词，无变化\n问自己：修饰的是「东西」还是「动作」？"
+        },
+        {
+          "id": "1773713611600-ih5s7jndiif",
+          "front": "meilleur 的四种性数形式",
+          "back": "阳单：meilleur\n阴单：meilleure\n阳复：meilleurs\n阴复：meilleures\n例：de meilleures notes（更好的成绩，阴复）"
+        },
+        {
+          "id": "1773713611600-epy13izw5bb",
+          "front": "mauvais 的比较级（更差）",
+          "back": "pire(s) 或 plus mauvais(e)(s)\n两种都合法\npire 更书面正式，plus mauvais 更口语\n⛔ 不能说 plus pire"
+        },
+        {
+          "id": "1773713611600-ld9cpieszu",
+          "front": "pire 的性数变化",
+          "back": "阴阳同形：pire\n复数加 s：pires\n例：Les conséquences sont pires que prévu.（后果比预想的严重。）"
+        },
+        {
+          "id": "1773713611600-1e9m8rsg4wx",
+          "front": "mauvais 的等量比较",
+          "back": "aussi mauvais(e)(s) que\n回到原形，不用 pire\n例：Il fait aussi mauvais qu'hier.（天气和昨天一样糟。）"
+        },
+        {
+          "id": "1773713611600-codo4ufuk8f",
+          "front": "petit 的不规则比较级",
+          "back": "moindre(s) → 抽象含义（程度、重要性、价值）\nplus petit(e)(s) → 具体物理尺寸\n⛔ 不能说 plus moindre"
+        },
+        {
+          "id": "1773713611600-hxrwdvzxd3b",
+          "front": "moindre 用在什么场景？",
+          "back": "用于抽象概念：风险、重要性、价值、成功等\n例：un risque moindre（更小的风险）\nune réussite moindre（更小的成功）\n不用于描述身高、体型等具体尺寸"
+        },
+        {
+          "id": "1773713611600-stqydkb2za",
+          "front": "plus petit 用在什么场景？",
+          "back": "用于具体物理尺寸：身高、面积、体型等\n例：Cet enfant est plus petit que ceux de son âge.（这孩子比同龄人矮。）"
+        },
+        {
+          "id": "1773713611600-1bwqs7xvd4q",
+          "front": "铁律 1：不规则比较级不加 plus",
+          "back": "meilleur / pire / moindre / mieux 已含「更」的意思\n⛔ plus meilleur\n⛔ plus pire\n⛔ plus moindre\n⛔ plus mieux\n全部是错误形式"
+        },
+        {
+          "id": "1773713611600-j4oruh5f2lh",
+          "front": "铁律 2：moins 和 aussi 回到原形",
+          "back": "moins bon（不是 moins meilleur）\naussi bon（不是 aussi meilleur）\nmoins mauvais（不是 moins pire）\naussi mauvais（不是 aussi pire）"
+        },
+        {
+          "id": "1773713611600-3yj09i9hdvo",
+          "front": "se sentir mieux",
+          "back": "固定搭配：感觉好多了\n例：Elle se sent mieux aujourd'hui.（她今天感觉好多了。）\n这里 mieux 修饰感觉/状态，用副词"
+        },
+        {
+          "id": "1773713611600-i6dc4juwqw8",
+          "front": "不规则比较级速查表",
+          "back": "bon → meilleur(e)(s)（形容词）\nbien → mieux（副词）\nmauvais → pire(s) / plus mauvais(e)(s)（形容词）\npetit → moindre(s)（抽象）/ plus petit(e)(s)（具体）"
+        },
+        {
+          "id": "1773713611600-v6qamtfm9ns",
+          "front": "TCF 3 秒排除法（不规则）",
+          "back": "1. 看到 plus bon / plus bien → 直接排除\n2. pire 和 plus mauvais 都对\n3. moindre = 抽象，plus petit = 具体\n4. meilleur 检查性数配合\n5. 修饰名词 → meilleur，修饰动词 → mieux"
+        }
+      ]
+    },
+    {
+      "id": 1773713500690,
+      "name": "比较级 Le comparatif",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-17T02:11:40.690Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Marie est _____ grande que son frère.\n（Marie 比她哥哥高。）",
+          "options": [
+            "aussi（和…一样）",
+            "plus（更）",
+            "autant（同样多）",
+            "mieux（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "形容词比较级用 plus + adj + que。autant 用于名词/动词，不能修饰形容词。",
+          "category": "形容词比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il mange _____ que moi.\n（他吃得和我一样多。）",
+          "options": [
+            "aussi（和…一样）",
+            "autant（同样多）",
+            "plus de（更多的）",
+            "même（相同的）"
+          ],
+          "correct": 1,
+          "explanation": "动词的等量比较用 autant que，不用 aussi。aussi 用于形容词和副词。",
+          "category": "aussi vs autant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ amis que toi.\n（她的朋友比你多。）",
+          "options": [
+            "plus（更）",
+            "plus d'（更多的）",
+            "plus des（更多的）",
+            "plus que（比…更多）"
+          ],
+          "correct": 1,
+          "explanation": "名词比较级用 plus de + nom。de 在元音前省略为 d'。绝对不能写 plus des。",
+          "category": "名词比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce film est _____ que l'autre.\n（这部电影比另一部好。）",
+          "options": [
+            "plus bon（更好）",
+            "meilleur（更好）",
+            "mieux（更好地）",
+            "plus bien（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "bon 的比较级是 meilleur，不能说 plus bon。mieux 是副词 bien 的比较级，这里修饰名词 film 需要用形容词。",
+          "category": "不规则比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle chante _____ que sa sœur.\n（她唱得比她姐姐好。）",
+          "options": [
+            "meilleure（更好的）",
+            "plus bien（更好地）",
+            "mieux（更好地）",
+            "plus bonne（更好的）"
+          ],
+          "correct": 2,
+          "explanation": "chanter 是动词，需要副词来修饰。bien 的比较级是 mieux，不能说 plus bien。meilleur(e) 是形容词，不能修饰动词。",
+          "category": "mieux vs meilleur"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est plus intelligent que _____.\n（他比我聪明。）",
+          "options": [
+            "je（我）",
+            "moi（我）",
+            "me（我）",
+            "mon（我的）"
+          ],
+          "correct": 1,
+          "explanation": "比较级 que 后面接人称代词时，必须用重读代词。je 是主语代词，me 是宾语代词，都不能用在 que 后面。",
+          "category": "重读代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les cheveux de Julie sont plus longs que _____ de Pascal.\n（Julie 的头发比 Pascal 的长。）",
+          "options": [
+            "celui（阳性单数指示代词）",
+            "celle（阴性单数指示代词）",
+            "ceux（阳性复数指示代词）",
+            "celles（阴性复数指示代词）"
+          ],
+          "correct": 2,
+          "explanation": "cheveux 是阳性复数名词，所以用阳性复数指示代词 ceux 来替代，避免重复。",
+          "category": "指示代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ma voiture est moins rapide que _____ de Pierre.\n（我的车没有 Pierre 的快。）",
+          "options": [
+            "celui（阳性单数指示代词）",
+            "celle（阴性单数指示代词）",
+            "ceux（阳性复数指示代词）",
+            "celles（阴性复数指示代词）"
+          ],
+          "correct": 1,
+          "explanation": "voiture 是阴性单数名词（la voiture），所以用阴性单数指示代词 celle。",
+          "category": "指示代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il court _____ vite que Robert.\n（他跑得比 Robert 快。）",
+          "options": [
+            "plus（更）",
+            "plus de（更多的）",
+            "autant（同样多）",
+            "meilleur（更好的）"
+          ],
+          "correct": 0,
+          "explanation": "副词比较级用 plus + adv + que。vite 是副词，前面直接加 plus。plus de 用于名词比较，autant 用于动词等量比较，meilleur 是形容词。",
+          "category": "副词比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ couramment que lui.\n（她说得和他一样流利。）",
+          "options": [
+            "autant（同样多）",
+            "aussi（和…一样）",
+            "plus de（更多的）",
+            "même（相同的）"
+          ],
+          "correct": 1,
+          "explanation": "couramment 是副词，副词的等量比较用 aussi，不用 autant。autant 用于动词和名词。",
+          "category": "aussi vs autant"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il fait de _____ en _____ froid.\n（天气越来越冷。）",
+          "options": [
+            "plus...plus（越来越）",
+            "moins...moins（越来越不）",
+            "plus...moins（越…越不）",
+            "mieux...mieux（越来越好）"
+          ],
+          "correct": 0,
+          "explanation": "de plus en plus + adj 表示\"越来越…\"。froid 是形容词，表示越来越冷。",
+          "category": "递进比较"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ je travaille, _____ je suis fatigué.\n（我越工作，越累。）",
+          "options": [
+            "Plus...plus（越…越）",
+            "Plus de...plus de（越多…越多）",
+            "Aussi...aussi（和…一样…一样）",
+            "Autant...autant（同样多…同样多）"
+          ],
+          "correct": 0,
+          "explanation": "Plus + S + V, plus + S + V 表示\"越…越…\"。这是双重比较句型，不需要加 de。",
+          "category": "双重比较"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'est pas _____ fort que son père.\n（他没有他父亲那么强壮。）",
+          "options": [
+            "aussi（和…一样）",
+            "autant（同样多）",
+            "si（如此）",
+            "aussi 和 si 都可以"
+          ],
+          "correct": 3,
+          "explanation": "否定句中，aussi 可以被 si 替换，两者都正确。pas aussi...que 和 pas si...que 意思相同，si 更偏书面语。",
+          "category": "否定句比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces gâteaux sont _____ que ceux de la boulangerie.\n（这些蛋糕比面包店的好吃。）",
+          "options": [
+            "meilleur（更好的-阳单）",
+            "meilleure（更好的-阴单）",
+            "meilleurs（更好的-阳复）",
+            "meilleures（更好的-阴复）"
+          ],
+          "correct": 2,
+          "explanation": "gâteaux 是阳性复数，meilleur 作为形容词必须做性数配合：阳性复数 → meilleurs。",
+          "category": "meilleur 性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a de moins en moins _____ patience.\n（她越来越没耐心。）",
+          "options": [
+            "de（的）",
+            "des（一些）",
+            "la（定冠词）",
+            "不填"
+          ],
+          "correct": 0,
+          "explanation": "de moins en moins de + nom 是固定结构，名词前必须用 de，不用冠词。",
+          "category": "递进比较"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在句子 « Je n'en veux plus » 中，plus 怎么发音？\n（我不再要了。）",
+          "options": [
+            "/plys/（发 s 音）",
+            "/ply/（不发 s 音）",
+            "/plyz/（联诵 z 音）",
+            "/plu/（发 u 音）"
+          ],
+          "correct": 1,
+          "explanation": "ne...plus 表示\"不再\"，plus 的 s 不发音，读 /ply/。如果后面接元音才联诵读 /plyz/。",
+          "category": "plus 发音"
+        },
+        {
+          "type": "single_choice",
+          "stem": "在句子 « J'en veux plus » 中，plus 怎么发音？\n（我还要更多。）",
+          "options": [
+            "/plys/（发 s 音）",
+            "/ply/（不发 s 音）",
+            "/plyz/（联诵 z 音）",
+            "/plu/（发 u 音）"
+          ],
+          "correct": 0,
+          "explanation": "这里 plus 在句末表示\"更多\"（肯定含义），s 必须发音，读 /plys/。这和否定句 Je n'en veux plus /ply/ 意思完全相反。",
+          "category": "plus 发音"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mon frère est plus âgé que _____ .\n（我哥哥比我大。）",
+          "correct": [
+            "moi"
+          ],
+          "explanation": "que 后面接人称代词时用重读代词。je → moi。",
+          "category": "重读代词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Cette idée est _____ que la tienne.\n（这个主意比你的好。— 用 bon 的比较级）",
+          "correct": [
+            "meilleure"
+          ],
+          "explanation": "idée 是阴性单数名词，bon 的比较级 meilleur 必须做阴性配合 → meilleure。不能写 plus bonne。",
+          "category": "不规则比较级"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il y a _____ de monde aujourd'hui.\n（今天人越来越多。— 用\"越来越多\"的结构）",
+          "correct": [
+            "de plus en plus"
+          ],
+          "explanation": "de plus en plus de + nom 表示越来越多的…。monde 是名词，前面用 de plus en plus de，但这里 de monde 本身就是搭配，所以填 de plus en plus。",
+          "category": "递进比较"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marie a _____ (1) livres que Paul. Elle lit _____ (2) que lui. Mais Paul est _____ (3) intelligent qu'elle.\n（Marie 的书比 Paul 多。她读得和他一样多。但 Paul 和她一样聪明。）",
+          "correct": [
+            "plus de",
+            "autant",
+            "aussi"
+          ],
+          "explanation": "(1) 名词比较级用 plus de；(2) 动词等量比较用 autant；(3) 形容词等量比较用 aussi。这是 TCF 最核心的区分点。",
+          "category": "综合辨析"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1OJ6Di-y6KxrUbBhnGoKNlAa8hjN96yNvIYbY24U1pQQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773713540914-w6w73j62la",
+          "front": "形容词比较级公式",
+          "back": "主语 + être + plus/moins/aussi + 形容词 + que + 比较对象\n形容词必须与主语做性数配合\n例：Elle est plus grande que lui.（她比他高。）"
+        },
+        {
+          "id": "1773713540914-4agabo49w5l",
+          "front": "副词比较级公式",
+          "back": "主语 + 动词 + plus/moins/aussi + 副词 + que + 比较对象\n副词永远不变形\n例：Il court plus vite que moi.（他跑得比我快。）"
+        },
+        {
+          "id": "1773713540914-vzc4ges7d7q",
+          "front": "名词比较级公式",
+          "back": "主语 + 动词 + plus de / moins de / autant de + 名词 + que + 比较对象\n注意：名词前用 de，不用 des\n例：J'ai plus de livres que toi.（我的书比你多。）"
+        },
+        {
+          "id": "1773713540914-mogh0ezn8f",
+          "front": "动词比较级公式",
+          "back": "主语 + 动词 + plus / moins / autant + que + 比较对象\n等量用 autant（不是 aussi）\n例：Elle travaille autant que lui.（她工作和他一样多。）"
+        },
+        {
+          "id": "1773713540914-ir8u2l7kaoo",
+          "front": "aussi 还是 autant？",
+          "back": "aussi → 修饰形容词/副词（等量）\nautant → 修饰动词/名词（等量）\n口诀：形副 aussi，动名 autant"
+        },
+        {
+          "id": "1773713540914-t2y16pvgww",
+          "front": "bon 的比较级",
+          "back": "meilleur(e)(s)\n⛔ 不能说 plus bon\n有性数变化：meilleur / meilleure / meilleurs / meilleures\n例：Ce gâteau est meilleur que l'autre.（这个蛋糕比那个好。）"
+        },
+        {
+          "id": "1773713540914-qrwo2x2s5q",
+          "front": "bien 的比较级",
+          "back": "mieux\n⛔ 不能说 plus bien\n无变化（副词）\n例：Elle chante mieux que moi.（她唱得比我好。）"
+        },
+        {
+          "id": "1773713540914-f9qauzi8wjt",
+          "front": "meilleur 还是 mieux？",
+          "back": "meilleur = 形容词，修饰名词，有性数变化\nmieux = 副词，修饰动词，无变化\n判断方法：修饰的是「东西/人」用 meilleur，修饰「动作」用 mieux"
+        },
+        {
+          "id": "1773713540914-a0xr3l2zdyf",
+          "front": "比较级 que 后面用什么代词？",
+          "back": "用重读代词：\nje→moi, tu→toi, il→lui, elle→elle\nnous→nous, vous→vous, ils→eux, elles→elles\n例：plus grand que moi（不是 que je）"
+        },
+        {
+          "id": "1773713540914-hef5fl48snp",
+          "front": "指示代词 celui/celle/ceux/celles",
+          "back": "替代比较中重复出现的名词：\ncelui = 阳性单数\ncelle = 阴性单数\nceux = 阳性复数\ncelles = 阴性复数\n例：ceux de Pascal = les cheveux de Pascal"
+        },
+        {
+          "id": "1773713540914-6n6iggfiup",
+          "front": "plus de 还是 plus des？",
+          "back": "永远是 plus de，不与冠词缩合\n⛔ plus des 是错误写法\n例：plus de temps（更多时间），plus d'amis（更多朋友）"
+        },
+        {
+          "id": "1773713540914-ur01ntccykh",
+          "front": "de plus en plus + 形容词/副词",
+          "back": "表示「越来越…」\n例：Il fait de plus en plus froid.（天气越来越冷。）\n注意：形容词/副词前不加 de"
+        },
+        {
+          "id": "1773713540914-66w6wvllagi",
+          "front": "de plus en plus de + 名词",
+          "back": "表示「越来越多的…」\n例：Il y a de plus en plus de monde.（人越来越多。）\n注意：名词前要加 de"
+        },
+        {
+          "id": "1773713540914-g2t2ou8h07c",
+          "front": "Plus..., plus... 句型",
+          "back": "表示「越…越…」\nPlus + 主语 + 动词, plus + 主语 + 动词\n语序不倒装\n例：Plus je travaille, plus je suis fatigué.（越工作越累。）"
+        },
+        {
+          "id": "1773713540914-rpgxbyjd54h",
+          "front": "否定句中 aussi 可以换成什么？",
+          "back": "可以换成 si（书面语）\npas aussi...que = pas si...que\n例：Il n'est pas si grand que son père.（他没有他父亲那么高。）"
+        },
+        {
+          "id": "1773713540914-4a205229guv",
+          "front": "ne...plus 中 plus 怎么发音？",
+          "back": "读 /ply/，s 不发音\n表示「不再」\n例：Je ne mange plus. /ply/（我不再吃了。）\n但后接元音时联诵：plus ici → /plyz isi/"
+        },
+        {
+          "id": "1773713540914-kd4h6n6cnc",
+          "front": "句末 plus（表示更多）怎么发音？",
+          "back": "读 /plys/，s 发音\n例：J'en veux plus. /plys/（我还要更多。）"
+        },
+        {
+          "id": "1773713540914-ozr6cggogf9",
+          "front": "Je n'en veux plus vs J'en veux plus",
+          "back": "Je n'en veux plus /ply/ → 我不再要了（否定）\nJ'en veux plus /plys/ → 我还要更多（肯定）\n意思完全相反，靠 s 的发音区分"
+        },
+        {
+          "id": "1773713540914-lqfv71t11jd",
+          "front": "比较级中 plus 怎么发音？",
+          "back": "plus + 辅音开头的词 → /ply/（s 不发音）\nplus + 元音开头的词 → /plyz/（联诵）\n例：plus grand /ply/，plus intelligent /plyz/"
+        },
+        {
+          "id": "1773713540914-xz8vgjqf57",
+          "front": "plus 发音速记口诀",
+          "back": "否定不再 /ply/\n比较中间 /ply/\n句末要多 /plys/\n元音前联 /plyz/"
+        },
+        {
+          "id": "1773713540914-ev2rjn6m4ln",
+          "front": "meilleure 什么时候用？",
+          "back": "bon 的比较级阴性单数形式\n用于修饰阴性单数名词\n例：une meilleure idée（一个更好的主意）\nidée 是阴性 → meilleure"
+        },
+        {
+          "id": "1773713540914-uv4h1d0qwpk",
+          "front": "比较级 que 后面可以省略吗？",
+          "back": "可以。语境清楚时 que + 比较对象可省略\n例：Cette robe est plus chère.（这条裙子更贵。）\n省略了 que l'autre"
+        }
+      ]
+    },
+    {
       "id": 1773540356998,
       "name": "习语：Rouler sa bosse",
       "folderId": "1770661225895",
@@ -86724,12 +87915,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-15",
+    "date": "2026-03-17",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-15T02:06:37.269Z",
+  "exportedAt": "2026-03-17T02:32:34.236Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
