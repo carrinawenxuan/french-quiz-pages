@@ -1,6 +1,483 @@
 {
   "savedSets": [
     {
+      "id": 1773717034785,
+      "name": "TCF A2 Lecon 8 听力练习2",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-17T03:10:34.785Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Où se passe cette conversation ?\n（这段对话发生在哪里？）",
+          "options": [
+            "Dans un restaurant（在餐厅）",
+            "Au marché（在市场）",
+            "Dans un supermarché（在超市）",
+            "À la boulangerie（在面包店）"
+          ],
+          "correct": 1,
+          "explanation": "商贩用 ma petite dame、Qu'est-ce que je vous sers、现场称重（un kilo cent）等表达，这些都是法国市场（marché）的典型特征，而非超市或餐厅。",
+          "category": "场景定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le premier produit demandé par la cliente ?\n（客人要的第一样商品是什么？）",
+          "options": [
+            "Des courgettes（西葫芦）",
+            "Un melon（一个甜瓜）",
+            "Du jambon（火腿）",
+            "Du café（咖啡）"
+          ],
+          "correct": 1,
+          "explanation": "客人第一句话是 Je voudrais un beau melon，所以第一样商品是甜瓜。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi le marchand reconnaît-il la cliente ?\n（商贩为什么认出了客人？）",
+          "options": [
+            "Elle vient tous les jours（她每天都来）",
+            "Elle a acheté un melon la veille（她前一天买了一个甜瓜）",
+            "Elle est sa voisine（她是他的邻居）",
+            "Elle a oublié de payer hier（她昨天忘了付钱）"
+          ],
+          "correct": 1,
+          "explanation": "商贩说 Vous en avez pris un hier, je vous reconnais，意思是\"你昨天买了一个（甜瓜），我认出你了\"。la veille = 前一天 = hier。",
+          "category": "细节理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien de courgettes la cliente a-t-elle finalement ?\n（客人最终买了多少西葫芦？）",
+          "options": [
+            "Exactement un kilo（正好一公斤）",
+            "Un kilo cent grammes（一公斤一百克）",
+            "Deux kilos（两公斤）",
+            "Cinq cents grammes（五百克）"
+          ],
+          "correct": 1,
+          "explanation": "商贩说 j'en ai un kilo cent, ça va ? 客人回答 ça va。所以最终重量是 1.1 kg。注意 un kilo cent = un kilo et cent grammes。",
+          "category": "数量细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien de tranches de jambon la cliente prend-elle finalement ?\n（客人最终买了几片火腿？）",
+          "options": [
+            "Trois（3片）",
+            "Quatre（4片）",
+            "Cinq（5片）",
+            "Six（6片）"
+          ],
+          "correct": 2,
+          "explanation": "客人最初要3片 → 商贩建议4片（因为太薄）→ 客人最终说 mettez-en cinq（给我来5片）。TCF 经典数量陷阱：以最后确认的数量为准 = 5片。",
+          "category": "数量陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase « j'en mets quatre », que remplace « en » ?\n（在 j'en mets quatre 中，en 替代什么？）",
+          "options": [
+            "des melons（甜瓜）",
+            "des courgettes（西葫芦）",
+            "des tranches de jambon（火腿片）",
+            "des paquets de café（咖啡包）"
+          ],
+          "correct": 2,
+          "explanation": "上下文中客人刚说要 trois tranches de jambon，商贩回应 j'en mets quatre，所以 en = des tranches de jambon。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien coûtent les deux paquets de café ?\n（两包咖啡多少钱？）",
+          "options": [
+            "1 euro 85（1.85€）",
+            "1 euro 90（1.90€）",
+            "3 euros 70（3.70€）",
+            "5 euros 30（5.30€）"
+          ],
+          "correct": 2,
+          "explanation": "商贩说 le café, j'en ai mis deux paquets, donc 3 euros 70。两包咖啡一共 3.70€。",
+          "category": "价格细节"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien la cliente doit-elle payer au total ?\n（客人一共要付多少钱？）",
+          "options": [
+            "14 euros 58（14.58€）",
+            "14 euros 85（14.85€）",
+            "15 euros 85（15.85€）",
+            "13 euros 85（13.85€）"
+          ],
+          "correct": 1,
+          "explanation": "商贩最后说 Ça vous fait 14 euros et 85 centimes。总价 = 14,85€。",
+          "category": "价格总计"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1NZN0PAcYoNmY6_Z6sltKDd940Jld_f5bBz7AXmZbFvc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773717123917-enps5mjhbqo",
+          "front": "Qu'est-ce que je vous sers ?",
+          "back": "我能为您做些什么？/ 您要点什么？\nEnglish: What can I get you?\n用于市场/商店，商贩询问顾客需求的标准句型。"
+        },
+        {
+          "id": "1773717123917-gd1m0glnthj",
+          "front": "C'est à vous",
+          "back": "轮到您了。\nEnglish: It's your turn.\n排队/市场场景高频表达。"
+        },
+        {
+          "id": "1773717123917-rh8ehhefv5a",
+          "front": "Je voudrais + 名词",
+          "back": "我想要……（礼貌表达）\n例：Je voudrais un beau melon, s'il vous plaît.\n中文：我想要一个好的甜瓜，请。\nvouloir 的条件式，比 je veux 更礼貌。"
+        },
+        {
+          "id": "1773717123917-0vv056t1ei8",
+          "front": "Je vais prendre + 名词",
+          "back": "我要买……（随意/决定性表达）\n例：Je vais prendre trois tranches de jambon.\n中文：我要三片火腿。\nfutur proche 结构：aller + 动词原形。"
+        },
+        {
+          "id": "1773717123917-wm44iubo7gf",
+          "front": "Mettez-moi + 数量 + de + 名词",
+          "back": "给我来……\n例：Mettez-moi un kilo de courgettes.\n中文：给我来一公斤西葫芦。\nmettre 命令式，市场购物非常地道的说法。"
+        },
+        {
+          "id": "1773717123918-t59b70lkbus",
+          "front": "Donnez-moi + 数量 + de + 名词",
+          "back": "给我……\n例：Donnez-moi deux paquets de café.\n中文：给我两包咖啡。\ndonner 命令式，比 mettez-moi 稍正式。"
+        },
+        {
+          "id": "1773717123918-au9kkzcthum",
+          "front": "Et avec ça ?",
+          "back": "还要别的吗？\nEnglish: Anything else?\n商贩常用，口语化。同义表达：Autre chose? / Ensuite?"
+        },
+        {
+          "id": "1773717123918-tff9ndan74n",
+          "front": "Autre chose ?",
+          "back": "还要别的吗？\nEnglish: Anything else?\n与 Et avec ça? 同义，市场/商店通用。"
+        },
+        {
+          "id": "1773717123918-kzn8rfuuiq",
+          "front": "C'est tout ?",
+          "back": "就这些了吗？\nEnglish: Is that all?\n购物结束时商贩确认的表达。"
+        },
+        {
+          "id": "1773717123918-dw720y40mx6",
+          "front": "Ça (vous) fait + 价格",
+          "back": "一共是……（结账表达）\n例：Ça vous fait 14 euros et 85 centimes.\n中文：您一共是14欧85分。\nça fait = 合计；加 vous 更礼貌。"
+        },
+        {
+          "id": "1773717123918-d1uco5bcyk4",
+          "front": "代词 en 的核心功能",
+          "back": "替代 de + 名词 / 部分冠词 + 名词 / 数量中的名词部分。\n数量保留在句末，en 替代名词。\n例：J'en mets quatre. = 我放四片（火腿）。"
+        },
+        {
+          "id": "1773717123918-kax5wgohlbm",
+          "front": "Vous en avez pris un hier.",
+          "back": "您昨天买了一个。\nen = des melons（甜瓜）\navez pris = prendre 的 passé composé\nprendre 在购物场景 = 买、拿。"
+        },
+        {
+          "id": "1773717123918-s2q32b4lb0q",
+          "front": "j'en ai un kilo cent",
+          "back": "我这里有一公斤一百克。\nen = des courgettes（西葫芦）\nun kilo cent = 1 kg 100 g = 1.1 kg\n口语中省略 grammes。"
+        },
+        {
+          "id": "1773717123918-bn3pohgwtn",
+          "front": "mettez-en cinq",
+          "back": "给我来五片。\nen = des tranches de jambon（火腿片）\n命令式 + en 语序：动词-en（连字符连接）。"
+        },
+        {
+          "id": "1773717123918-2kkiszym6a8",
+          "front": "il y en a une boîte",
+          "back": "有一盒。\nen = des petits pois（豌豆）\nil y a + en = il y en a + 数量。"
+        },
+        {
+          "id": "1773717123918-ihtczt1nsw",
+          "front": "une bouteille de + 名词",
+          "back": "一瓶……\n例：une bouteille d'eau（一瓶水）\n量词结构：量词 + de + 名词（不加冠词）。"
+        },
+        {
+          "id": "1773717123918-qoq6vbf3vl",
+          "front": "une brique de + 名词",
+          "back": "一盒（纸盒装）……\n例：une brique de lait（一盒牛奶）\nbrique = 砖块，指利乐包/纸盒包装。"
+        },
+        {
+          "id": "1773717123918-4shcycco9lf",
+          "front": "une boîte de + 名词",
+          "back": "一罐/一盒……\n例：une boîte de petits pois（一罐豌豆）\nboîte /bwat/ = 盒子、罐头。"
+        },
+        {
+          "id": "1773717123918-w5r37wcokk8",
+          "front": "un paquet de + 名词",
+          "back": "一包……\n例：un paquet de sucre（一包糖）\npaquet = 包、袋。"
+        },
+        {
+          "id": "1773717123918-o4405c1l9b",
+          "front": "une tranche de + 名词",
+          "back": "一片……\n例：trois tranches de jambon（三片火腿）\ntranche = 薄片，常用于火腿、面包等。"
+        },
+        {
+          "id": "1773717123918-i3dcpjgcmvd",
+          "front": "un kilo de + 名词",
+          "back": "一公斤……\n例：un kilo de courgettes（一公斤西葫芦）\n注意：de 后面不加冠词。"
+        },
+        {
+          "id": "1773717123918-9jltdfh3wff",
+          "front": "量词 + de 规则",
+          "back": "量词 + de + 名词（绝对不加 le/la/les/du/de la）\n✓ une bouteille d'eau\n✗ une bouteille de l'eau\n这是 TCF 常考陷阱。"
+        },
+        {
+          "id": "1773717123918-vq7iry0o17r",
+          "front": "saucisson vs saucisse",
+          "back": "saucisson (m.) = 干腊肠，切片直接吃\nsaucisse (f.) = 鲜香肠，需要煮或煎\n注意区分，TCF 词汇辨析可能考到。"
+        },
+        {
+          "id": "1773717123918-7na0gotj62p",
+          "front": "petits pois",
+          "back": "豌豆 (m.pl.)\n固定搭配，永远用复数形式。\n例：une boîte de petits pois（一罐豌豆）。"
+        },
+        {
+          "id": "1773717123918-gp8r9vzbwz",
+          "front": "du sel",
+          "back": "盐\nsel (m.)，不可数名词，用部分冠词 du。\n例：Il faut du sel.（需要盐。）"
+        },
+        {
+          "id": "1773717123918-jqevon5ytwk",
+          "front": "des fraises",
+          "back": "草莓\nfraise (f.)，单数 une fraise /fʁɛz/。"
+        },
+        {
+          "id": "1773717123918-bs6qsra4a2",
+          "front": "des pommes de terre",
+          "back": "土豆\npomme de terre (f.)，复数时 pommes 加 s，terre 不加。\n字面意思：\"地里的苹果\"。"
+        },
+        {
+          "id": "1773717123918-81f2fyx3kxl",
+          "front": "法语价格怎么读？",
+          "back": "整数 + euro(s) + 小数（省略 centimes）\n例：1 euro 60 = 1,60€\n3 euros 70 = 3,70€\n55 centimes = 0,55€。"
+        },
+        {
+          "id": "1773717123918-ohlytxldpm",
+          "front": "TCF 听力数量陷阱",
+          "back": "对话中数量可能多次变化，以最后确认的为准。\n本篇例子：火腿 3片 → 4片 → 最终5片。\n技巧：听到数字变化时，只记最后一个。"
+        },
+        {
+          "id": "1773717123918-x3x4kfyk8h",
+          "front": "c'est vrai",
+          "back": "确实 / 是真的\nEnglish: That's true.\n口语中表示同意对方说法。"
+        },
+        {
+          "id": "1773717123918-a2dqx8zbb2w",
+          "front": "Voilà",
+          "back": "给您 / 好了\nEnglish: Here you go.\n递东西时的固定用语。"
+        },
+        {
+          "id": "1773717123918-3ky9g26xa41",
+          "front": "donc",
+          "back": "所以 / 因此\nEnglish: So / Therefore.\n逻辑连接词，听力中常出现在总结处。\n例：donc 3 euros 70（所以是3.70€）。"
+        }
+      ]
+    },
+    {
+      "id": 1773716854532,
+      "name": "TCF A2 Lecon 8 听力练习1",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-17T03:07:34.532Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Selon le document, cuisiner avec son enfant est une activité...\n（根据文档，和孩子一起做饭是一项……的活动。）",
+          "options": [
+            "ennuyeuse mais éducative（无聊但有教育意义的）",
+            "ludique, créative et enrichissante（有趣的、有创意的、有收获的）",
+            "difficile pour les jeunes enfants（对幼儿来说很困难的）",
+            "réservée aux professionnels（只有专业人士才能做的）"
+          ],
+          "correct": 1,
+          "explanation": "原文明确说 'une activité à la fois ludique, créative et enrichissante'。A 的 ennuyeuse 与原文相反；C 和 D 是无中生有。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « cuisiner à quatre mains » dans ce contexte ?\n（在这个语境中，« cuisiner à quatre mains » 是什么意思？）",
+          "options": [
+            "Cuisiner avec quatre ustensiles（用四个厨具做饭）",
+            "Cuisiner très rapidement（非常快速地做饭）",
+            "Cuisiner à deux personnes ensemble（两个人一起做饭）",
+            "Cuisiner quatre plats en même temps（同时做四道菜）"
+          ],
+          "correct": 2,
+          "explanation": "'à quatre mains' 是习语，指两个人一起做某事（两人共四只手）。这里指父母和孩子一起下厨。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi la cuisine est-elle enrichissante pour un enfant ?\n（为什么做饭对孩子来说是有收获的？）",
+          "options": [
+            "Parce qu'elle lui apprend à lire des recettes.（因为它教孩子读菜谱。）",
+            "Parce qu'elle fait appel à tous ses sens.（因为它调动了孩子所有的感官。）",
+            "Parce qu'elle lui permet de gagner de l'argent.（因为它让孩子赚钱。）",
+            "Parce qu'elle remplace l'école.（因为它替代了学校。）"
+          ],
+          "correct": 1,
+          "explanation": "原文说 'puisqu'elle fait appel à tous ses sens'。其他选项均为无中生有。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans ce document, « évoquer » signifie...\n（在这篇文档中，« évoquer » 的意思是……）",
+          "options": [
+            "oublier（忘记）",
+            "mentionner, parler de（提及，谈起）",
+            "interdire（禁止）",
+            "organiser（组织）"
+          ],
+          "correct": 1,
+          "explanation": "évoquer = 提及、谈起。原文说美食节是'提及一种乐趣的机会'。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel est le thème principal de ce document ?\n（这篇文档的主题是什么？）",
+          "options": [
+            "Les dangers de la cuisine pour les enfants.（烹饪对孩子的危险。）",
+            "Les recettes traditionnelles françaises.（法国传统菜谱。）",
+            "Le plaisir de cuisiner en famille lors de la fête de la gastronomie.（美食节期间家庭一起做饭的乐趣。）",
+            "Les cours de cuisine pour les professionnels.（面向专业人士的烹饪课程。）"
+          ],
+          "correct": 2,
+          "explanation": "整段听力围绕'美食节是家庭一起做饭、共度美好时光的机会'展开。",
+          "category": "主旨题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'expression « bien entendu » peut être remplacée par...\n（表达 « bien entendu » 可以被替换为……）",
+          "options": [
+            "malheureusement（不幸地）",
+            "par contre（相反）",
+            "bien sûr（当然）",
+            "en revanche（然而）"
+          ],
+          "correct": 2,
+          "explanation": "bien entendu = bien sûr = évidemment，都表示'当然'。其他选项表示转折或相反含义。",
+          "category": "同义替换"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Parents et enfants réunis autour d'une même recette. » Que signifie « réunis » ?\n（你听到：'父母和孩子围绕同一道菜谱聚在一起。' « réunis » 是什么意思？）",
+          "options": [
+            "séparés（分开的）",
+            "rassemblés, ensemble（聚集的，在一起）",
+            "fatigués（疲惫的）",
+            "absents（缺席的）"
+          ],
+          "correct": 1,
+          "explanation": "réunis = rassemblés = 聚在一起。原型 réunir（使聚集）。A、C、D 含义完全不符。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Une personne dit : « C'est un bon moment à passer ensemble. » Que veut-elle dire ?\n（一个人说：'这是一起度过的美好时光。' 她想表达什么？）",
+          "options": [
+            "Il faut se dépêcher.（要赶快。）",
+            "C'est une expérience agréable à partager.（这是一段值得分享的愉快经历。）",
+            "Il faut cuisiner seul.（要独自做饭。）",
+            "Le temps passe trop vite.（时间过得太快了。）"
+          ],
+          "correct": 1,
+          "explanation": "'un bon moment à passer ensemble' 强调的是共同度过的美好体验。B 是最准确的同义改写。",
+          "category": "推断题"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1q7ahpN7-SmyjyCWdAG2vHDGs5qrYzxuxR_av5CzwUeo/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1773716937155-f6hcw1d0ove",
+          "front": "évoquer",
+          "back": "v.t. 提及，谈起，唤起\n例：évoquer un souvenir（唤起一个回忆）\nTCF注意：évoquer ≠ conseiller（建议）"
+        },
+        {
+          "id": "1773716937155-dhhz666qe9g",
+          "front": "l'occasion de + inf.",
+          "back": "……的机会\n例：C'est l'occasion de se retrouver en famille.（这是家庭团聚的机会。）"
+        },
+        {
+          "id": "1773716937155-q3iv83drfkh",
+          "front": "à quatre mains",
+          "back": "习语：两个人一起（做某事）\n字面：用四只手\n例：cuisiner à quatre mains（两个人一起做饭）"
+        },
+        {
+          "id": "1773716937155-55laq2q588d",
+          "front": "réunis (réunir)",
+          "back": "adj./p.p. 聚集的，团聚的\n= rassemblés = ensemble\n例：parents et enfants réunis（父母和孩子聚在一起）"
+        },
+        {
+          "id": "1773716937156-e9pqi5dj4qv",
+          "front": "autour de",
+          "back": "prep. 围绕\n例：réunis autour d'une même recette（围绕同一道菜谱聚在一起）"
+        },
+        {
+          "id": "1773716937156-joet0hbmlv",
+          "front": "faire appel à",
+          "back": "固定搭配：求助于；调动\n例：faire appel à tous ses sens（调动所有感官）"
+        },
+        {
+          "id": "1773716937156-egc1qjxzqv7",
+          "front": "bien entendu",
+          "back": "当然\n= bien sûr = évidemment\n口语/听力常见插入语"
+        },
+        {
+          "id": "1773716937156-zhn6e67c11q",
+          "front": "ludique",
+          "back": "adj. 有趣的，游戏性的\n例：une activité ludique（一项有趣的活动）\nB1+ 词汇"
+        },
+        {
+          "id": "1773716937156-ioj5g3jr50k",
+          "front": "enrichissant(e)",
+          "back": "adj. 有收获的，充实的\n来自 enrichir（丰富）\n例：une expérience enrichissante（一段充实的经历）"
+        },
+        {
+          "id": "1773716937156-jb3k8tow1do",
+          "front": "à la fois A, B et C",
+          "back": "既A又B又C（同时具备多个特征）\n例：à la fois ludique, créative et enrichissante（既有趣又有创意又有收获）"
+        },
+        {
+          "id": "1773716937156-ysngf483sj",
+          "front": "puisque vs parce que",
+          "back": "puisque：既然（已知原因，较正式）\nparce que：因为（解释原因）\n例：puisqu'elle fait appel à tous ses sens（既然它调动了所有感官）"
+        },
+        {
+          "id": "1773716937156-7bbc52uondl",
+          "front": "même（放名词前 + 定冠词）",
+          "back": "同一个\n例：une même recette（同一道菜谱）\n注意：放名词后面 = 本身（lui-même 他自己）"
+        },
+        {
+          "id": "1773716937156-ffjzenmhhrr",
+          "front": "un bon moment à passer ensemble",
+          "back": "一起度过的美好时光\n'à + inf.' 表示\"待做的/值得做的\"\n听力中常用来总结主题"
+        },
+        {
+          "id": "1773716937156-fx1qa82flq",
+          "front": "selon",
+          "back": "prep. 根据，据……所说\n例：Selon cette personne...（据这个人说……）\nTCF 题目超高频词"
+        },
+        {
+          "id": "1773716937156-ra5sq8p6l2",
+          "front": "Q13 正确答案",
+          "back": "B. Créer l'occasion de se retrouver en famille.\n定位依据：partager en famille + réunis + ensemble 三处指向\"家庭团聚\"\n干扰项识别：A偷换动词 / C添加信息 / D扩大范围"
+        }
+      ]
+    },
+    {
       "id": 1773714638275,
       "name": "A2 Lecon 8 TCF阅读 练习",
       "folderId": "1772685738192",
@@ -118,7 +595,138 @@
         "https://docs.google.com/document/d/1aCNmjXSQxnxjkuEnZhBe5XwsvR4Vfq_BsXviu3mR7nc/edit?tab=t.0"
       ],
       "reviewImages": [],
-      "cards": []
+      "cards": [
+        {
+          "id": "1773716816097-jatzkuxwj",
+          "front": "faire une enquête",
+          "back": "做调查、做问卷\n例：Cette enquête montre que les Français mangent mieux.\n（这项调查表明法国人吃得更好了。）"
+        },
+        {
+          "id": "1773716816097-dorslaemqw8",
+          "front": "récent(e)",
+          "back": "最近的、新的\n阴性：récente\n例：une enquête récente sur la santé\n（一项关于健康的最新调查）"
+        },
+        {
+          "id": "1773716816097-ntvf45cue3e",
+          "front": "montrer que + 从句",
+          "back": "表明、显示\n例：L'enquête montre que les enfants mangent moins de fruits.\n（调查表明儿童吃更少的水果。）"
+        },
+        {
+          "id": "1773716816097-kzhu9qrp26",
+          "front": "les matières grasses",
+          "back": "油脂类物质（黄油、奶油等）\n阴性复数名词\n例：Moins de matières grasses.\n（更少的油脂。）"
+        },
+        {
+          "id": "1773716816097-38z2kjw8nwm",
+          "front": "moins de + 名词",
+          "back": "更少的……（数量比较）\n例：moins de sucre（更少的糖）\nmoins de 3 par jour（每天少于3份）"
+        },
+        {
+          "id": "1773716816097-4t8j3mg837",
+          "front": "être loin de",
+          "back": "离……很远（可指抽象差距）\n例：On est loin des 5 fruits et légumes par jour !\n（离每天5份水果蔬菜还差得远！）"
+        },
+        {
+          "id": "1773716816097-4tpupha3l",
+          "front": "au moins",
+          "back": "至少\n例：au moins une fois par jour\n（每天至少一次）"
+        },
+        {
+          "id": "1773716816097-qlwy4c8tj0n",
+          "front": "également",
+          "back": "同样地（= aussi，更正式）\n例：40 % consomment moins de 3 produits laitiers également.\n（40%的人同样乳制品吃不到3份。）"
+        },
+        {
+          "id": "1773716816097-xylagqipyq",
+          "front": "environ",
+          "back": "大约\n例：environ une heure par semaine\n（大约每周一小时）"
+        },
+        {
+          "id": "1773716816097-8n8cq9h53fg",
+          "front": "les féculents",
+          "back": "淀粉类食物（面包、米饭、土豆等）\n阳性复数名词\n例：Notre problème, ce sont les féculents.\n（我们的问题是淀粉类食物。）"
+        },
+        {
+          "id": "1773716816097-op7g79el42",
+          "front": "les produits laitiers",
+          "back": "乳制品\n阳性复数\n例：moins de 3 produits laitiers par jour\n（每天少于3份乳制品）"
+        },
+        {
+          "id": "1773716816097-7jl50a9uuu3",
+          "front": "consommer",
+          "back": "消费、食用（比 manger 更正式）\n例：Nous consommons de la viande.\n（我们食用肉类。）"
+        },
+        {
+          "id": "1773716816097-ig7hhjs9a4j",
+          "front": "une fois par jour",
+          "back": "每天一次（时间频率表达）\n拓展：deux fois par semaine（每周两次）\ntrois fois par mois（每月三次）"
+        },
+        {
+          "id": "1773716816097-o1mn1l44twj",
+          "front": "un Français sur deux",
+          "back": "每两个法国人中有一个 = 50%\n结构：un sur + 数字 = 比例\n例：Un étudiant sur trois parle anglais.\n（每三个学生中有一个说英语。）"
+        },
+        {
+          "id": "1773716816097-irbt858441c",
+          "front": "ce qui（关系代词）",
+          "back": "指代前面整个事实，做从句主语\n例：…au moins une fois par jour, ce qui est bien.\n（……每天至少一次，这是好的。）\n区分：ce que 做从句宾语"
+        },
+        {
+          "id": "1773716816097-2t3o4kpy1p8",
+          "front": "en（代词）指代什么？",
+          "back": "代替 de + 名词 / 部分冠词 + 名词\n本文三次出现：\n1. en = des fruits et légumes\n2. en = de la viande ou du poisson\n3. en = du footing\n必须回到上文定位！"
+        },
+        {
+          "id": "1773716816097-qtbor6aby7g",
+          "front": "faire un footing",
+          "back": "慢跑\n例：J'aimerais faire régulièrement un footing.\n（我想定期慢跑。）"
+        },
+        {
+          "id": "1773716816097-6bkfjekhauq",
+          "front": "arriver à faire quelque chose",
+          "back": "成功做某事、做到某事\n否定：je n'y arrive pas = 我做不到\n例：J'arrive à réussir l'examen.\n（我成功通过了考试。）"
+        },
+        {
+          "id": "1773716816097-ce5x5ry59qe",
+          "front": "je n'y arrive pas",
+          "back": "我做不到\ny = à faire qch（代替不定式补语）\n⚠️ 陷阱：arriver 不是「到达」的意思，这里是「做到」"
+        },
+        {
+          "id": "1773716816097-gmo31csjdzb",
+          "front": "plus + adj. + que",
+          "back": "比……更……（形容词比较级）\n例：Les femmes sont plus sportives que les hommes.\n（女性比男性更爱运动。）\n注意形容词要配合主语做阴阳性/单复数变化"
+        },
+        {
+          "id": "1773716816097-cm2mhfkumnm",
+          "front": "mieux vs meilleur(e)",
+          "back": "mieux = 副词 bien 的比较级，修饰动词\n→ manger mieux（吃得更好）\nmeilleur(e) = 形容词 bon 的比较级，修饰名词\n→ un meilleur résultat（更好的结果）"
+        },
+        {
+          "id": "1773716816097-8jd65u2zh2q",
+          "front": "d'abord",
+          "back": "首先（逻辑连接词）\n例：L'enquête montre d'abord que...\n（调查首先表明……）\nTCF阅读定位关键词！"
+        },
+        {
+          "id": "1773716816097-aa7ak8iqo1",
+          "front": "on 的指代",
+          "back": "泛指\"人们\"，常 = nous\n例：On est loin des 5 fruits.\n（我们离5份水果还差得远。）\nTCF常考：on 到底指谁？需看上下文"
+        },
+        {
+          "id": "1773716816098-5jzmwcl4gdd",
+          "front": "c'est vs ce sont",
+          "back": "c'est + 单数名词\nce sont + 复数名词\n例：Notre problème, ce sont les féculents.\n（我们的问题是淀粉类食物。）\n⚠️ 复数用 ce sont，不用 c'est"
+        },
+        {
+          "id": "1773716816098-lwubirfanwr",
+          "front": "TCF阅读技巧：数据题",
+          "back": "看到百分比/数字，必须确认：\n1. 数据对应的主语是谁？（儿童 vs 成人）\n2. 数据描述的对象是什么？（水果 vs 乳制品）\n干扰项常故意混淆数据对象！"
+        },
+        {
+          "id": "1773716816098-k8zhsn4k2qi",
+          "front": "TCF阅读技巧：代词指代题",
+          "back": "遇到 en / y / ce qui / ce que：\n1. 停下来，回到上一句\n2. 找到代词替代的名词或事实\n3. 代入验证是否通顺\n切忌凭感觉猜！"
+        }
+      ]
     },
     {
       "id": 1773713679812,
@@ -87921,6 +88529,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-17T02:32:34.236Z",
+  "exportedAt": "2026-03-17T03:13:39.599Z",
   "importAllowedDeviceFingerprint": "12hg5e"
 }
