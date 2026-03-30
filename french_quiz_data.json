@@ -1,6 +1,1807 @@
 {
   "savedSets": [
     {
+      "id": 1774900100488,
+      "name": "Unit 2 ER 动词 + 未完成过去时（imparfait）",
+      "folderId": "1771907837913",
+      "createdAt": "2026-03-30T19:48:20.488Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "Elles _____ (aimer) à l’imparfait.",
+          "correct": [
+            "aimaient"
+          ],
+          "explanation": "本题考察动词 aimer 在未完成过去时（imparfait），主语 elles → 词干 aim- + -aient = aimaient。常见错误：用现在时 aiment 或词尾错误。TCF 陷阱：复数第三人称 -aient。口诀：nous 词干 + ais, ais, ait, ions, iez, aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (ne pas aimer) le chocolat.",
+          "correct": [
+            "n’aimait pas"
+          ],
+          "explanation": "考察 aimer 未完成过去时 + 否定结构：ne + verbe + pas。主语 elle → aimait → n’aimait pas。错误：否定位置错误或用现在时。TCF陷阱：元音省音 ne → n’。口诀：否定夹动词。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (habiter) à Paris.",
+          "correct": [
+            "habitions"
+          ],
+          "explanation": "考察 habiter 未完成过去时，nous → habitions。错误：habitons（现在时）。TCF陷阱：nous 作词干来源。口诀：nous 现在式去 ons + imparfait 词尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (ne pas habiter) ici.",
+          "correct": [
+            "n’habitais pas"
+          ],
+          "explanation": "考察 habiter 未完成过去时 + 否定，tu → habitais → n’habitais pas。错误：ne 放错或省音错误。TCF陷阱：h 哑音需省音。口诀：元音或哑音h前 ne→n’。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (finir) le travail.",
+          "correct": [
+            "finissiez"
+          ],
+          "explanation": "考察 finir 未完成过去时，vous → finissiez。错误：finissez（现在时）。TCF陷阱：-iss- 插入。口诀：二组动词有 iss。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (ne pas finir) le travail.",
+          "correct": [
+            "ne finissiez pas"
+          ],
+          "explanation": "考察 finir 未完成过去时 + 否定，vous → finissiez。错误：词尾或否定结构错误。TCF陷阱：复数形式与否定结合。口诀：ne + verbe + pas。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (habiter) ici.",
+          "correct": [
+            "habitait"
+          ],
+          "explanation": "考察 habiter 未完成过去时，il → habitait。错误：habitait 写成 habite（现在时）。TCF陷阱：-ait 结尾。口诀：il/elle → -ait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (ne pas habiter) ici.",
+          "correct": [
+            "n’habitaient pas"
+          ],
+          "explanation": "考察 habiter 未完成过去时 + 否定，ils → habitaient → n’habitaient pas。错误：省音或词尾错误。TCF陷阱：-aient 复数。口诀：复数 ils → aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (cuisiner) souvent.",
+          "correct": [
+            "cuisiniez"
+          ],
+          "explanation": "考察 cuisiner 未完成过去时，vous → cuisiniez。错误：cuisinez（现在时）。TCF陷阱：-iez。口诀：vous → iez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (ne pas cuisiner) souvent.",
+          "correct": [
+            "ne cuisinais pas"
+          ],
+          "explanation": "考察 cuisiner 未完成过去时 + 否定，tu → cuisinais。错误：词尾混淆 ais/ait。TCF陷阱：tu → ais。口诀：tu → ais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (remercier) le professeur.",
+          "correct": [
+            "remerciions"
+          ],
+          "explanation": "考察 remercier 未完成过去时，nous → remerciions（双 i）。错误：remercions（现在时）。TCF陷阱：双 i 拼写。口诀：-ier 动词 nous imparfait 双 i。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (ne pas remercier) le professeur.",
+          "correct": [
+            "ne remerciions pas"
+          ],
+          "explanation": "考察 remercier 未完成过去时 + 否定，nous → remerciions。错误：漏写 i 或否定位置错误。TCF陷阱：拼写细节。口诀：ne + verbe + pas。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (tuer) le temps.",
+          "correct": [
+            "tuaient"
+          ],
+          "explanation": "考察 tuer 未完成过去时，ils → tuaient。错误：tuent（现在时）。TCF陷阱：元音组合 ua。口诀：词干 + aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (ne pas tuer) le temps.",
+          "correct": [
+            "ne tuait pas"
+          ],
+          "explanation": "考察 tuer 未完成过去时 + 否定，il → tuait。错误：拼写或否定顺序错误。TCF陷阱：-ait 结尾。口诀：il → ait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (jouer) au football.",
+          "correct": [
+            "jouiez"
+          ],
+          "explanation": "考察 jouer 未完成过去时，vous → jouiez。错误：jouez（现在时）。TCF陷阱：-iez。口诀：vous → iez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Vous _____ (ne pas jouer) au football.",
+          "correct": [
+            "ne jouiez pas"
+          ],
+          "explanation": "考察 jouer 未完成过去时 + 否定，vous → jouiez。错误：否定结构错误。TCF陷阱：复数。口诀：ne + verbe + pas。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (essayer) encore.",
+          "correct": [
+            "essayais"
+          ],
+          "explanation": "考察 essayer 未完成过去时，tu → essayais。错误：essaies（现在时）。TCF陷阱：y 不变。口诀：imparfait 保持 y。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Tu _____ (ne pas essayer) encore.",
+          "correct": [
+            "n’essayais pas"
+          ],
+          "explanation": "考察 essayer 未完成过去时 + 否定，tu → essayais。错误：省音错误。TCF陷阱：n’。口诀：元音前 n’。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (avancer) rapidement.",
+          "correct": [
+            "avancions"
+          ],
+          "explanation": "考察 avancer 未完成过去时，nous → avancions（ç）。错误：avancions 写错 c。TCF陷阱：ç 保持发音。口诀：c+o→ç。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (ne pas avancer) rapidement.",
+          "correct": [
+            "n’avancions pas"
+          ],
+          "explanation": "考察 avancer 未完成过去时 + 否定，nous → avancions。错误：ç 忘记。TCF陷阱：拼写。口诀：ne + verbe + pas。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (obliger) ses amis.",
+          "correct": [
+            "obligeait"
+          ],
+          "explanation": "考察 obliger 未完成过去时，elle → obligeait（e 保留）。错误：obligait。TCF陷阱：g 后加 e。口诀：g+e 保音。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (ne pas obliger) ses amis.",
+          "correct": [
+            "n’obligeait pas"
+          ],
+          "explanation": "考察 obliger 未完成过去时 + 否定，elle → obligeait。错误：拼写或省音错误。TCF陷阱：g 发音保持。口诀：ne + verbe + pas。",
+          "category": "动词变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1dXD7RXZWDVk-Fzq_-BhCOGAlLbx5DSdlDLVy_JIXTGA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1774899852429,
+      "name": "中性代词le",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T19:44:12.429Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Vous êtes médecin ?\n— Oui, je _____ suis.\n（您是医生吗？——是的，我是。）",
+          "options": [
+            "la（她/阴性宾语）",
+            "le（中性代词）",
+            "l'（省音形式，误用）",
+            "y（地点代词）"
+          ],
+          "correct": 1,
+          "explanation": "médecin 无冠词，为表语，用中性代词 le 代替整个身份状态。",
+          "category": "中性代词le"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Elle est fatiguée ?\n— Oui, elle _____ est depuis ce matin.\n（她累了吗？——是的，她从今早就累了。）",
+          "options": [
+            "la（阴性宾语代词）",
+            "lui（间接宾语）",
+            "le（中性代词）",
+            "en（部分代词）"
+          ],
+          "correct": 2,
+          "explanation": "fatiguée 是无冠词形容词表语，用中性 le 代替这个状态，不受 elle 的阴性影响。",
+          "category": "中性代词le"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu sais que Paul a démissionné ?\n— Non, je ne _____ savais pas.\n（你知道保罗辞职了吗？——不，我不知道。）",
+          "options": [
+            "lui",
+            "la",
+            "le",
+            "en"
+          ],
+          "correct": 2,
+          "explanation": "le 代替整个 que 从句「que Paul a démissionné」，此为中性代词用法。",
+          "category": "中性代词le"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous êtes la directrice ?\n— Oui, je _____ suis.\n（您是（那位）主任吗？——是的，我是。）",
+          "options": [
+            "le（中性代词）",
+            "la（阴性直接宾语）",
+            "lui",
+            "y"
+          ],
+          "correct": 1,
+          "explanation": "la directrice 带有定冠词 la，是具体名词，用普通直接宾语代词 la，不用中性 le。",
+          "category": "中性代词le vs la"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Est-ce que tu aimes voyager ?\n— Oui, j'aime beaucoup _____.\n（你喜欢旅行吗？——是的，我非常喜欢。）",
+          "options": [
+            "le",
+            "lui",
+            "la",
+            "ça"
+          ],
+          "correct": 3,
+          "explanation": "aimer + 动词不定式在口语强调情感时，用 ça 而非 le，更自然地表达情感指向。",
+          "category": "ça vs le"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中，划线处应填中性代词 le？\n（以下哪些情况使用中性代词 le？）",
+          "options": [
+            "— Il est professeur ? — Oui, il _____ est.（无冠词职业名词）",
+            "— Tu vois la voiture ? — Oui, je _____ vois.（有冠词具体名词）",
+            "— Tu crois qu'il viendra ? — Oui, je _____ crois.（代替整个从句）",
+            "— Elle est la gagnante ? — Oui, elle _____ est.（带冠词具体名词）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "选项A：professeur 无冠词，用 le；选项C：le 代替 que 从句；选项B应用 la（具体名词）；选项D应用 la（la gagnante 带冠词）。",
+          "category": "中性代词le综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Elle deviendra célèbre un jour ?\n— Oui, je pense qu'elle _____ deviendra.\n（她有一天会出名吗？——是的，我认为她会的。）",
+          "correct": [
+            "le"
+          ],
+          "explanation": "célèbre 是无冠词形容词表语，devenir 为系动词，用中性 le 代替这个状态。",
+          "category": "中性代词le"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Tu sais que Marie est enceinte ?\n— Non, je ne _____ savais vraiment pas !\n（你知道玛丽怀孕了吗？——不，我真的不知道！）",
+          "correct": [
+            "le"
+          ],
+          "explanation": "le 代替整个 que 从句，属于中性代词代替宾语从句用法。",
+          "category": "中性代词le"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Vous êtes malade, monsieur ?\n— Oui, je _____ suis depuis trois jours.\n— Et votre femme, elle est la patiente numéro 5 ?\n— Oui, elle _____ est.\n（您病了吗，先生？——是的，我病了三天了。——您的妻子，她是5号病人吗？——是的，她是。）",
+          "correct": [
+            "le",
+            "la"
+          ],
+          "explanation": "第一空：malade 无冠词形容词，用中性 le；第二空：la patiente numéro 5 带冠词，是具体名词，用 la。",
+          "category": "中性代词le vs la对比"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1l2K5jhBKqr6tVcoaToX19bFZVvsSMLGevRHcEId22hM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774899876920-vpf3edtrcrp",
+          "front": "中性代词 le 代替什么？",
+          "back": "代替整个句子 / 一个状态 / 一个想法\n≠ 普通 le（阳性单数名词）\n英语对应：it / that / so"
+        },
+        {
+          "id": "1774899876920-5gsxgcp00ia",
+          "front": "être + 无冠词形容词 → 代替用？",
+          "back": "用中性代词 le\n例：— Elle est fatiguée ? — Oui, elle le est. ✗\n→ Oui, elle l'est. ✓（元音前省音）\n规则：形容词无冠词 = 状态 = le"
+        },
+        {
+          "id": "1774899876920-idzgso34238",
+          "front": "être + 无冠词职业名词 → 代替用？",
+          "back": "用中性代词 le\n例：— Il est médecin ? — Oui, il l'est.\n（médecin 无冠词，代替职业身份）"
+        },
+        {
+          "id": "1774899876920-hjha81r2osb",
+          "front": "être + 有冠词名词 → 代替用？",
+          "back": "用普通直接宾语代词 le / la / les\n例：— Il est le directeur ? — Oui, il l'est.\n（此处 l' = la，因为 directeur 有冠词）\n⚠️ 对比：有冠词 → la/le；无冠词 → 中性 le"
+        },
+        {
+          "id": "1774899876920-rwxl6pizen",
+          "front": "Vous êtes malade ? vs Vous êtes la malade ?\n两句的回答分别用什么代词？",
+          "back": "malade（无冠词）→ Je le suis.\nla malade（有冠词）→ Je la suis.\n\n⚠️ TCF 高频陷阱：冠词决定代词！"
+        },
+        {
+          "id": "1774899876920-s80fu6wsi89",
+          "front": "中性 le 代替 que 从句：例句",
+          "back": "— Tu sais que Julie est mariée ?\n— Non, je ne le sais pas.\n（le = que Julie est mariée，整个从句）"
+        },
+        {
+          "id": "1774899876920-wzpt1u6jhwp",
+          "front": "中性 le 代替动词不定式短语：例句",
+          "back": "Je rêve de partir en vacances. Je le veux vraiment.\n（le = partir en vacances，整个不定式短语）"
+        },
+        {
+          "id": "1774899876920-jkjk4r3jxu",
+          "front": "aimer / détester / trouver + 动作 → 口语用什么？",
+          "back": "用 ça，不用 le\n例：— Tu aimes faire du ski ?\n— Oui, j'aime beaucoup ça. ✓\n原因：情感动词在口语强调时，ça 更自然"
+        },
+        {
+          "id": "1774899876920-8afiw8yh8bl",
+          "front": "中性 le 有性数变化吗？",
+          "back": "没有。永远是 le，不受主语阴阳性影响。\n例：Elle est courageuse ? — Oui, elle le est.\n→ elle le est ✗（元音碰撞）→ elle l'est ✓"
+        },
+        {
+          "id": "1774899876920-1sotz4081us",
+          "front": "元音前，中性 le 如何变化？",
+          "back": "省音为 l'\n例：— Elle est prête ? — Oui, elle l'est.\n— Il est avocat ? — Oui, il l'est."
+        }
+      ]
+    },
+    {
+      "id": 1774899521893,
+      "name": "TCF A2 Lecon 14 听力练习",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-30T19:38:41.893Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi Mélissa pense-t-elle que Lucas devrait avoir un portable ?\n（为什么 Mélissa 认为 Lucas 应该有手机？）",
+          "options": [
+            "Pour qu'il puisse regarder des vidéos（这样他可以看视频）",
+            "Pour qu'on puisse le joindre plus facilement（这样大家可以更容易联系到他）",
+            "Pour qu'il puisse jouer à des jeux vidéo（这样他可以玩电子游戏）",
+            "Pour qu'il consulte ses messages tout le temps（这样他可以一直查看消息）"
+          ],
+          "correct": 1,
+          "explanation": "Mélissa 明确说：Pour qu'on puisse te joindre plus facilement，目的是方便联系 Lucas。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Lucas dit : « Je n'en ai pas besoin. » Que remplace « en » ici ?\n（Lucas 说\"我不需要它\"，这里的 en 代替什么？）",
+          "options": [
+            "Des messages（消息）",
+            "Du temps（时间）",
+            "Du portable（手机）",
+            "De l'aide（帮助）"
+          ],
+          "correct": 2,
+          "explanation": "en 代替前文提到的 du portable（手机），结构为 avoir besoin de qch → en avoir besoin。",
+          "category": "代词指代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mélissa répond « Si » après la phrase de Lucas. Pourquoi utilise-t-elle « Si » et non « Oui » ?\n（Mélissa 用 Si 而不是 Oui 回答，原因是什么？）",
+          "options": [
+            "Parce qu'elle est d'accord avec Lucas（因为她同意 Lucas）",
+            "Parce qu'elle répond à une phrase affirmative（因为她回答的是肯定句）",
+            "Parce qu'elle contredit une phrase négative（因为她反驳的是否定句）",
+            "Parce que « si » et « oui » sont identiques（因为 si 和 oui 意思相同）"
+          ],
+          "correct": 2,
+          "explanation": "Si 专门用于反驳否定句。Lucas 说\"我不需要\"（否定），Mélissa 反驳说\"需要\"，所以用 Si 而非 Oui。",
+          "category": "语法考点"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est l'attitude de Lucas face au portable pendant toute la conversation ?\n（在整个对话中，Lucas 对手机的态度是什么？）",
+          "options": [
+            "Il est enthousiaste et veut en acheter un.（他很热情，想买一个。）",
+            "Il hésite et finit par accepter.（他犹豫，最后接受了。）",
+            "Il refuse et trouve des raisons pour ne pas en avoir.（他拒绝，并找理由不买。）",
+            "Il est indifférent et ne donne pas d'opinion.（他无所谓，没有表达意见。）"
+          ],
+          "correct": 2,
+          "explanation": "Lucas 全程抵触：Pourquoi faire？/ Je n'en ai pas besoin. / Ce n'est pas la peine. 始终在找理由拒绝。",
+          "category": "态度判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon Mélissa, quelle est la solution si Lucas ne veut pas être dérangé ?\n（根据 Mélissa，如果 Lucas 不想被打扰，解决办法是什么？）",
+          "options": [
+            "Ne jamais acheter de portable（永远不买手机）",
+            "Éteindre le portable et consulter les messages de temps en temps（关掉手机，时不时查看消息）",
+            "Utiliser le portable seulement pour les urgences（只在紧急情况下使用手机）",
+            "Demander à sa fille de ne pas appeler（让他女儿不要打电话）"
+          ],
+          "correct": 1,
+          "explanation": "Mélissa 说：tu peux l'éteindre et consulter tes messages de temps en temps。",
+          "category": "信息定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « faire les quatre volontés de quelqu'un » ?\n（\"faire les quatre volontés de quelqu'un\"是什么意思？）",
+          "options": [
+            "Donner quatre cadeaux à quelqu'un（给某人四份礼物）",
+            "Obéir à toutes les demandes de quelqu'un（对某人百依百顺）",
+            "Faire quatre choses importantes（做四件重要的事）",
+            "Refuser toutes les demandes（拒绝所有要求）"
+          ],
+          "correct": 1,
+          "explanation": "这是法语固定习语，faire les quatre volontés de qn = 对某人百依百顺，有求必应。",
+          "category": "习语理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La fille de Lucas a dit qu'elle « en avait assez de tomber sur son répondeur ». Que veut dire cette expression ?\n（Lucas 的女儿说她\"受够了总被转到语音信箱\"，这个表达是什么意思？）",
+          "options": [
+            "Elle aime écouter les messages vocaux.（她喜欢听语音留言。）",
+            "Elle est fatiguée que son père ne réponde jamais.（她厌倦了父亲从不接听电话。）",
+            "Elle veut acheter un nouveau répondeur.（她想买一个新的语音信箱。）",
+            "Elle préfère envoyer des messages écrits.（她更喜欢发短信。）"
+          ],
+          "correct": 1,
+          "explanation": "en avoir assez de = 厌倦；tomber sur le répondeur = 被转到语音信箱。合起来：厌倦了父亲不接电话只能留言。",
+          "category": "词汇理解"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels sont les inconvénients du portable mentionnés dans le document ?\n（材料中提到了哪些手机的缺点？请选出所有正确答案。）",
+          "options": [
+            "Créer une dépendance（造成依赖）",
+            "Être dérangé tout le temps（一直被打扰）",
+            "Coûter trop cher（太贵）",
+            "Entraîner des troubles de sommeil à cause de la lumière bleue（蓝光导致睡眠障碍）"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "材料列出的缺点包括：créer une dépendance、être dérangé、troubles de sommeil。价格贵（coûter cher）未被提及。",
+          "category": "信息定位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour exprimer le but avec deux sujets différents, on utilise « pour que » suivi du _____ .\n（当两个句子主语不同，表达目的时，用\"pour que\"后接_____。）",
+          "correct": [
+            "subjonctif",
+            "mode subjonctif"
+          ],
+          "explanation": "pour que + subjonctif（虚拟式）是法语目的从句的核心规则，如：Pour qu'on puisse te joindre.",
+          "category": "语法"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complète les phrases avec le bon mot.\n用正确的词填空。\n\n1. Si tu ne veux pas être dérangé, tu peux _____ ton portable.\n（如果你不想被打扰，你可以关掉手机。）\n2. Elle en avait assez, donc elle a décidé de _____ d'avis.\n（她受够了，所以她决定改变看法。）\n3. Mélissa veut _____ plaisir à la fille de Lucas.\n（Mélissa 想让 Lucas 的女儿高兴。）",
+          "correct": [
+            "éteindre",
+            "changer",
+            "faire"
+          ],
+          "explanation": "1. éteindre = 关掉电器（≠ allumer）；2. changer d'avis = 改变看法（固定搭配）；3. faire plaisir à qn = 让某人高兴（固定搭配）。",
+          "category": "词汇+固定搭配"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1QuzYM1LJhsSfwjTFu_-C3VAIAzgNIHZrVyqMbT-gnsU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774899668970-fqgn3bx4to",
+          "front": "s'en servir pour + infinitif",
+          "back": "用它来做……\n例：s'en servir pour se divertir\n中文：用它来娱乐自己\n注意：se servir de qch = 使用某物，en 代替前文提到的事物"
+        },
+        {
+          "id": "1774899668970-32fehtafpxh",
+          "front": "se servir de qch vs jouer de qch",
+          "back": "se servir de = 使用某物\njouer de = 演奏乐器（jouer de la guitare）\njouer à = 玩游戏/运动（jouer à des jeux vidéo）\n⚠️ TCF 常考介词区别"
+        },
+        {
+          "id": "1774899668970-knyrgb3f72p",
+          "front": "joindre qn",
+          "back": "联系到某人（= téléphoner à qn = contacter qn）\n例：Pour qu'on puisse te joindre plus facilement.\n中文：为了让大家能更容易联系到你。\n⚠️ TCF 高频同义替换词"
+        },
+        {
+          "id": "1774899668970-f4qwgk6n117",
+          "front": "garder le contact avec qn",
+          "back": "与某人保持联系\n≈ rester en contact avec qn\n例：Pour qu'ils gardent le contact avec toi.\n中文：为了让他们与你保持联系。"
+        },
+        {
+          "id": "1774899668970-i5itkv8m6qn",
+          "front": "en cas d'urgence",
+          "back": "万一紧急情况；在紧急情况下\n固定短语，不可拆分\n例：Garde mon numéro en cas d'urgence.\n中文：万一有紧急情况请保留我的号码。"
+        },
+        {
+          "id": "1774899668970-th4ujknkvuf",
+          "front": "se sentir + 形容词",
+          "back": "感觉……（反身动词结构）\n例：se sentir en sécurité = 感到安全\nse sentir fatigué = 感到疲惫\nEnglish: to feel + adjective"
+        },
+        {
+          "id": "1774899668970-n7w3uu6187",
+          "front": "entraîner qch",
+          "back": "导致，引起（≈ causer / provoquer）\n例：entraîner des troubles de sommeil\n中文：导致睡眠障碍\n⚠️ TCF B2 高分替换词，比 causer 更书面"
+        },
+        {
+          "id": "1774899668970-me8lja5368l",
+          "front": "une dépendance",
+          "back": "依赖；上瘾\n例：créer une dépendance\n中文：造成依赖/上瘾\n近义：une addiction\n动词：dépendre de qch = 依赖某物"
+        },
+        {
+          "id": "1774899668970-0pwb1m2m41mf",
+          "front": "ne… toujours pas vs ne… pas toujours",
+          "back": "ne… toujours pas = 还是没有，仍然没有\n→ Tu n'as toujours pas de portable. 你还是没有手机。\n\nne… pas toujours = 不总是，不一定\n→ Il ne fait pas toujours ses quatre volontés. 他不总是百依百顺。\n⚠️ TCF 超高频陷阱"
+        },
+        {
+          "id": "1774899668970-2v56fhsexnw",
+          "front": "tu devrais + infinitif",
+          "back": "你应该……（devoir 条件式，表建议）\n例：Tu devrais en acheter un.\n中文：你应该买一个。\nEnglish: You should buy one.\n⚠️ 与 tu dois（你必须）区分，devrais 语气更委婉"
+        },
+        {
+          "id": "1774899668970-oi231x49spj",
+          "front": "Pourquoi faire ?",
+          "back": "有什么用？为什么要这样？\n口语固定表达，表示质疑或不以为然\n例：— Tu devrais acheter un portable. — Pourquoi faire ?\n中文：— 你应该买手机。— 有什么用？"
+        },
+        {
+          "id": "1774899668970-0j96v2actw7q",
+          "front": "pour que + subjonctif",
+          "back": "为了……（目的从句，两个主语不同时用）\n例：Pour qu'on puisse te joindre.\n中文：为了让大家能联系到你。\n⚠️ 主语相同时用 pour + infinitif"
+        },
+        {
+          "id": "1774899668970-7t3qpqbp0ch",
+          "front": "pour + infinitif vs pour que + subjonctif",
+          "back": "主语相同 → pour + infinitif\n例：Je travaille pour réussir. 我努力工作是为了成功。\n\n主语不同 → pour que + subjonctif\n例：Je travaille pour que tu réussisses. 我努力工作是为了让你成功。\n⚠️ TCF B2 必考语法"
+        },
+        {
+          "id": "1774899668970-5b96jvcpker",
+          "front": "avoir besoin de qch → en",
+          "back": "avoir besoin de qch = 需要某物\n代词替换：en avoir besoin\n例：Je n'en ai pas besoin.\n中文：我不需要它。\n⚠️ en 代替 de + 事物"
+        },
+        {
+          "id": "1774899668970-n2zn026s7sg",
+          "front": "Si（肯定回答否定句）",
+          "back": "Si = 用于反驳否定句/否定疑问句的肯定回答\n例：— Je n'en ai pas besoin. — Si, bien sûr !\n中文：— 我不需要。— 当然需要！\n⚠️ 绝对不能用 Oui 来反驳否定句"
+        },
+        {
+          "id": "1774899668970-xt72oe8lqr",
+          "front": "si + imparfait → conditionnel présent",
+          "back": "条件句第二类：表示假设性情况\n例：Si tu avais un problème, tu pourrais appeler quelqu'un.\n中文：如果你有问题，你可以打电话给某人。\nEnglish: If you had a problem, you could call someone.\n⚠️ TCF B2 必考语法"
+        },
+        {
+          "id": "1774899668970-hlx9rgem6w",
+          "front": "tellement",
+          "back": "如此，这么（强调程度，= si）\n例：C'est tellement rare !\n中文：这种情况极少发生！\nEnglish: It's so rare!\n注意：tellement 后可接形容词或动词"
+        },
+        {
+          "id": "1774899668970-sn1yvcnrpb",
+          "front": "franchement",
+          "back": "坦白说，老实讲（副词）\n≈ honnêtement = sincèrement\n例：Franchement, je ne comprends pas.\n中文：说真的，我不明白。\nEnglish: Honestly / Frankly"
+        },
+        {
+          "id": "1774899668970-erm33ezxpfh",
+          "front": "les proches",
+          "back": "亲近的人，亲友（名词复数）\n例：Garde le contact avec tes proches.\n中文：与你的亲友保持联系。\nEnglish: loved ones / close ones\n⚠️ 近义：la famille，les amis proches"
+        },
+        {
+          "id": "1774899668970-ky2tnetjqmo",
+          "front": "en avoir assez de qch/qn",
+          "back": "对……感到厌烦（= en avoir marre de = être fatigué de）\n例：Elle en avait assez de tomber sur son répondeur.\n中文：她厌倦了总被转到语音信箱。\nEnglish: to be fed up with something"
+        },
+        {
+          "id": "1774899668970-srkg1kh1q4",
+          "front": "tomber sur le répondeur",
+          "back": "被转到语音信箱（口语固定表达）\n例：Chaque fois que j'appelle, je tombe sur son répondeur.\n中文：每次我打电话，都被转到语音信箱。\nEnglish: to get someone's voicemail"
+        },
+        {
+          "id": "1774899668971-e4s6xpchnu",
+          "front": "faire plaisir à qn",
+          "back": "让某人高兴，取悦某人\n例：Je veux lui faire plaisir.\n中文：我想让她高兴。\nEnglish: to please someone / to make someone happy\n⚠️ 注意间接宾语：faire plaisir À qn"
+        },
+        {
+          "id": "1774899668971-cgmfbbd1kk8",
+          "front": "Ah bon ?",
+          "back": "真的？是吗？（表惊讶或确认的口语感叹）\n例：— Ta fille m'a dit ça. — Ah bon ?\n中文：— 你女儿这么跟我说的。— 真的？\n⚠️ TCF 听力中标记说话人惊讶/怀疑态度"
+        },
+        {
+          "id": "1774899668971-x70f6cjqw6",
+          "front": "éteindre vs allumer",
+          "back": "éteindre = 关掉，熄灭（电器/灯）\nallumer = 打开，点亮（电器/灯）\n例：Éteins ton portable. 关掉你的手机。\nAllume la lampe. 开灯。\n⚠️ TCF 常考反义词对"
+        },
+        {
+          "id": "1774899668971-u6df18f33x",
+          "front": "consulter",
+          "back": "查看；请教（比 regarder 更正式）\n例：consulter ses messages = 查看消息\nconsulter le dictionnaire = 查字典\nconsulter un médecin = 看医生\n注意：用法比 regarder 宽泛"
+        },
+        {
+          "id": "1774899668971-4zggrc0u7i4",
+          "front": "de temps en temps",
+          "back": "时不时，偶尔（固定短语）\n≈ parfois = quelquefois\n例：Consulte tes messages de temps en temps.\n中文：时不时查看一下你的消息。\nEnglish: from time to time"
+        },
+        {
+          "id": "1774899668971-9w7pgdq5z9q",
+          "front": "ce n'est pas la peine",
+          "back": "没必要，不值得（固定表达）\n例：Si je ne m'en sers pas, ce n'est pas la peine.\n中文：如果我不用它，那就没必要了。\nEnglish: It's not worth it / There's no point"
+        },
+        {
+          "id": "1774899668971-ohkharfl7f",
+          "front": "changer d'avis",
+          "back": "改变看法/主意（固定搭配）\n例：Je vais lui faire changer d'avis.\n中文：我要让他改变想法。\nEnglish: to change one's mind\n⚠️ 注意：changer d'avis，不用 changer son avis"
+        },
+        {
+          "id": "1774899668971-iojpltn0g2",
+          "front": "faire + infinitif（使役结构）",
+          "back": "让某人做某事（使役结构）\n例：pour qu'elle te fasse changer d'avis\n中文：为了让她让你改变想法\nEnglish: to make someone do something\n结构：faire + infinitif（宾语放在 infinitif 后）"
+        },
+        {
+          "id": "1774899668971-b6fv055nkge",
+          "front": "faire les quatre volontés de qn",
+          "back": "对某人百依百顺，有求必应（固定习语）\n例：Je ne fais pas toujours ses quatre volontés.\n中文：我不总是对她百依百顺。\nEnglish: to do everything someone wants\n⚠️ 字面\"做四个意愿\"，实际表完全顺从"
+        }
+      ]
+    },
+    {
+      "id": 1774899228930,
+      "name": "A2 Lecon 14 TCF阅读 练习",
+      "folderId": "1772685738192",
+      "createdAt": "2026-03-30T19:33:48.930Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Selon le docteur Delattre, quelle est la première chose à faire pour arrêter de fumer ?\n（根据 Delattre 医生，戒烟要做的第一件事是什么？）",
+          "options": [
+            "Faire du sport tous les jours（每天做运动）",
+            "Choisir une période sans trop de problèmes personnels ou professionnels（选择一个个人或工作问题不多的时期）",
+            "Parler à un médecin immédiatement（立刻去看医生）",
+            "Éviter de manger sucré et salé（避免吃甜的和咸的）"
+          ],
+          "correct": 1,
+          "explanation": "医生第一条建议明确是选择一个问题不多的时期，原文：il faut que vous choisissiez une période où vous n'avez pas trop de problèmes。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi Thierry trouve-t-il difficile d'arrêter de fumer ?\n（Thierry 为什么觉得戒烟很难？）",
+          "options": [
+            "Il n'a jamais essayé d'arrêter（他从未尝试过戒烟）",
+            "La cigarette l'aide à se détendre principalement au travail（香烟主要帮助他在工作时放松）",
+            "Son médecin lui a conseillé de continuer（他的医生建议他继续抽）",
+            "Il habite avec des fumeurs（他和吸烟者住在一起）"
+          ],
+          "correct": 1,
+          "explanation": "Thierry 原文说：la cigarette, ça me calme principalement au travail。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel conseil le docteur donne-t-il pour remplacer la cigarette et se détendre ?\n（医生建议用什么来代替香烟放松？）",
+          "options": [
+            "Lire des livres sur la santé（阅读健康类书籍）",
+            "Parler à d'anciens fumeurs（与前吸烟者交谈）",
+            "Faire du sport et marcher aussi souvent que possible（做运动，尽可能多走路）",
+            "Prendre des médicaments（服药）"
+          ],
+          "correct": 2,
+          "explanation": "原文：Vous devez faire du sport ! Bougez. Marchez aussi souvent que possible。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon la fiche conseil, que faut-il faire si on prend du poids en arrêtant de fumer ?\n（根据建议卡，如果戒烟期间体重增加该怎么做？）",
+          "options": [
+            "Reprendre la cigarette（重新开始抽烟）",
+            "Faire un régime strict（严格节食）",
+            "Prendre rendez-vous chez le médecin（预约去看医生）",
+            "Éviter les activités physiques（避免体育活动）"
+          ],
+          "correct": 2,
+          "explanation": "原文：Si vous prenez du poids, il est important que vous preniez rendez-vous chez votre médecin。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Depuis quel âge Thierry fume-t-il ?\n（Thierry 从几岁开始吸烟？）",
+          "options": [
+            "12 ans（12岁）",
+            "16 ans（16岁）",
+            "20 ans（20岁）",
+            "45 ans（45岁）"
+          ],
+          "correct": 1,
+          "explanation": "原文：j'ai commencé à 16 ans。注意45岁是他现在的年龄，是干扰项。",
+          "category": "信息定位题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie 'il vaut mieux' dans ce contexte ?\n（在这个语境中，'il vaut mieux' 是什么意思？）",
+          "options": [
+            "Il est interdit de（被禁止）",
+            "Il est préférable de（最好……）",
+            "Il est impossible de（不可能）",
+            "Il est dangereux de（很危险）"
+          ],
+          "correct": 1,
+          "explanation": "il vaut mieux = it is better / it is preferable，表建议，语气比 il faut 更委婉。",
+          "category": "同义替换题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le docteur Delattre conseille d'associer la date d'arrêt à quoi ?\n（医生建议把戒烟日期和什么联系起来？）",
+          "options": [
+            "Une période de vacances scolaires（学校假期）",
+            "Un événement heureux comme la naissance d'un enfant（像孩子出生这样的幸福事件）",
+            "Une période de travail intense（高强度工作期）",
+            "Un rendez-vous médical（一次医疗预约）"
+          ],
+          "correct": 1,
+          "explanation": "原文：il vaut mieux que vous associiez cette date à un événement heureux : beaucoup de personnes arrêtent de fumer après la naissance de leur premier enfant。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la phrase 'En fait, j'ai déjà essayé plusieurs fois d'arrêter', que signifie 'en fait' ?\n（在这句话中，'en fait' 是什么意思？）",
+          "options": [
+            "En conséquence（因此）",
+            "Au contraire（相反）",
+            "En réalité / pour corriger ce qu'on vient de dire（实际上，用于纠正或补充）",
+            "Premièrement（首先）"
+          ],
+          "correct": 2,
+          "explanation": "en fait = actually，用于纠正或补充前面说的内容，不能与英语 actually 直接等同于 actuellement（目前）混淆。",
+          "category": "逻辑词题"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il faut que vous _____ (choisir) une période sans trop de problèmes.\n（您必须选择一个问题不多的时期。）",
+          "correct": [
+            "choisissiez"
+          ],
+          "explanation": "il faut que 后接虚拟式，choisir 的虚拟式 vous = choisissiez。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "J'ai essayé plusieurs fois _____ arrêter de fumer.\n（我尝试了好几次戒烟。）",
+          "correct": [
+            "de"
+          ],
+          "explanation": "essayer de + inf. 固定结构，介词用 de。",
+          "category": "介词搭配"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La cigarette me calme _____ au travail.\n（香烟主要在工作时让我平静。）",
+          "correct": [
+            "principalement"
+          ],
+          "explanation": "原文用副词 principalement（主要地）修饰动词。",
+          "category": "词汇"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il _____ (falloir) que vous _____ (éviter) de passer trop de temps avec des fumeurs.\n（您最好避免和吸烟者待太长时间。）",
+          "correct": [
+            "faudrait",
+            "évitiez"
+          ],
+          "explanation": "il faudrait = 条件式，更委婉的建议；évitiez = éviter 的虚拟式 vous。",
+          "category": "语法"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1_mA4dt6BmFQLufR682CAU7EjFyis19bnLg_swAw7ynA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774899257550-ms2lfs1y9ii",
+          "front": "il faut que + subjonctif",
+          "back": "必须……（接虚拟式）\n例：Il faut que vous choisissiez une bonne période.\n中文：您必须选择一个好时机。"
+        },
+        {
+          "id": "1774899257550-pog275dr4xd",
+          "front": "il vaut mieux que + subjonctif",
+          "back": "最好……（接虚拟式，比 il faut que 更委婉）\n例：Il vaut mieux que vous associiez cette date à un événement heureux.\n中文：您最好把这个日期和一件幸福的事联系起来。"
+        },
+        {
+          "id": "1774899257550-mhxbst9xsis",
+          "front": "il faudrait que + subjonctif",
+          "back": "最好……（条件式，语气最委婉）\n例：Il faudrait que vous évitiez de passer trop de temps avec des fumeurs.\n中文：您最好避免和吸烟者待太长时间。"
+        },
+        {
+          "id": "1774899257550-zxruz8f8lir",
+          "front": "associer qch à qch",
+          "back": "把……和……联系起来\n介词固定用 à，不用 avec\n例：associer cette date à un événement heureux\n中文：把这个日期和幸福事件联系起来"
+        },
+        {
+          "id": "1774899257550-2rhcvi56gjl",
+          "front": "en fait",
+          "back": "其实，实际上（用于纠正或补充）\n= actually（英语）\n⚠️ 不等于 actuellement（目前，currently）\n例：En fait, c'est difficile d'arrêter.\n中文：其实，戒烟很难。"
+        },
+        {
+          "id": "1774899257550-3x2f7h6wny7",
+          "front": "actuellement",
+          "back": "目前，当前（= currently）\n⚠️ 不等于英语 actually\n例：Actuellement, beaucoup de jeunes vapotent.\n中文：目前，很多年轻人吸电子烟。"
+        },
+        {
+          "id": "1774899257550-tprpjq7nwtr",
+          "front": "prendre du poids",
+          "back": "长胖\n对立：perdre du poids = 减肥\n例：Si vous prenez du poids, consultez votre médecin.\n中文：如果您体重增加，请咨询医生。"
+        },
+        {
+          "id": "1774899257550-pwfid113x7g",
+          "front": "arrêter de + infinitif",
+          "back": "停止做……\n介词固定用 de\n例：J'ai arrêté de fumer.\n中文：我戒烟了。"
+        },
+        {
+          "id": "1774899257550-63trdu1nznf",
+          "front": "recommencer à + infinitif",
+          "back": "重新开始做……\n介词固定用 à\n例：Je recommence à fumer chaque fois.\n中文：我每次都重新开始抽烟。"
+        },
+        {
+          "id": "1774899257550-isbe6lb8d2d",
+          "front": "essayer de + infinitif",
+          "back": "尝试做……\n介词固定用 de\n例：J'ai essayé plusieurs fois d'arrêter.\n中文：我尝试了好几次戒烟。"
+        },
+        {
+          "id": "1774899257550-0nvdz4qq6qf",
+          "front": "aussi souvent que possible",
+          "back": "尽可能频繁地\n结构：aussi + adverbe + que possible\n例：Marchez aussi souvent que possible.\n中文：尽可能多地走路。"
+        },
+        {
+          "id": "1774899257550-bx7bmh164x",
+          "front": "ancien / ancienne（位置陷阱）",
+          "back": "名词前：前任的，以前的\n→ mon ancien propriétaire（我的前房东）\n名词后：古老的，古旧的\n→ une cité ancienne（一座古城）"
+        },
+        {
+          "id": "1774899257550-kejzgyb9x5a",
+          "front": "prendre rendez-vous chez le médecin",
+          "back": "预约去看医生\n⚠️ 用 chez，不用 à\n例：Il est important que vous preniez rendez-vous.\n中文：您预约看医生是很重要的。"
+        },
+        {
+          "id": "1774899257550-6w5o4gek5mf",
+          "front": "permettre à qn de faire qch",
+          "back": "允许/使某人做某事\n结构：permettre à + 人 + de + inf.\n例：Faire du sport nous permet de nous détendre.\n中文：做运动让我们能放松。"
+        },
+        {
+          "id": "1774899257550-zkp15o8lpgp",
+          "front": "conseiller à qn de faire qch",
+          "back": "建议某人做某事\n结构：conseiller à + 人 + de + inf.\n例：Je vous conseille de ne pas manquer cette activité.\n中文：我建议您不要错过这个活动。"
+        },
+        {
+          "id": "1774899257550-gyfgr6rq85r",
+          "front": "grâce à vs à cause de",
+          "back": "grâce à = 多亏（正面原因）\nà cause de = 因为（负面原因）\n例：Grâce à ses conseils, j'ai réussi.\n中文：多亏了他的建议，我成功了。"
+        },
+        {
+          "id": "1774899257550-vp7f2ee0og",
+          "front": "se détendre",
+          "back": "放松（反身动词）\n例：Pour me détendre, je fais du sport.\n中文：为了放松，我做运动。"
+        },
+        {
+          "id": "1774899257550-k2hnaur96rb",
+          "front": "à chaque fois",
+          "back": "每次，每回（固定表达）\n例：À chaque fois, je recommence à fumer.\n中文：每次我都重新开始抽烟。"
+        },
+        {
+          "id": "1774899257550-39q064nsknj",
+          "front": "principalement",
+          "back": "主要地（副词）\n近义：surtout / essentiellement\n例：La cigarette me calme principalement au travail.\n中文：香烟主要在工作时让我平静。"
+        },
+        {
+          "id": "1774899257550-ye6nkg6wak",
+          "front": "Et si + imparfait ?",
+          "back": "……怎么样？（提建议的口语句型）\n例：Et si on faisait du sport ?\n中文：我们去做运动怎么样？"
+        }
+      ]
+    },
+    {
+      "id": 1774898825887,
+      "name": "虚拟现在时",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T19:27:05.887Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il faut que tu _____ à l'heure demain.\n（你明天必须准时到。）",
+          "options": [
+            "arrives（直陈式现在时）",
+            "arriveras（直陈式将来时）",
+            "arrives（虚拟式）",
+            "arrivais（未完成时）"
+          ],
+          "correct": 2,
+          "explanation": "Il faut que 永远触发虚拟式。arriver 规则动词，词根 arriv-，que tu → -es，结果 arrives。注意选项0和2拼写相同但来源不同，考官故意设陷，真正理解才能答对。",
+          "category": "虚拟式触发"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je suis déçue qu'il ne _____ pas venu.\n（我很失望他没来。）",
+          "options": [
+            "soit（être 虚拟式）",
+            "est（直陈式）",
+            "était（未完成时）",
+            "sera（将来时）"
+          ],
+          "correct": 0,
+          "explanation": "être déçu(e) que 属于情感表达，触发虚拟式。事件发生在过去，需虚拟式过去时：être 虚拟式（soit）+ 过去分词 venu。",
+          "category": "虚拟式过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est évident qu'elle _____ très intelligente.\n（她显然非常聪明。）",
+          "options": [
+            "soit（虚拟式）",
+            "serait（条件式）",
+            "est（直陈式）",
+            "fût（虚拟式过去式）"
+          ],
+          "correct": 2,
+          "explanation": "Il est évident que 表达确定事实，用直陈式。这是 TCF 最高频陷阱：évident / clair / sûr + que → 直陈式，不是虚拟式。",
+          "category": "直陈式 vs 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous voulons que vous _____ ce projet à temps.\n（我们希望你们按时完成这个项目。）",
+          "options": [
+            "finissez（直陈式）",
+            "finiez（虚拟式）",
+            "finirez（将来时）",
+            "finissiez（虚拟式）"
+          ],
+          "correct": 3,
+          "explanation": "vouloir que 触发虚拟式。finir 为 -ir 动词，ils finissent → 词根 finiss-，vous → -iez，结果 finissiez。finiez 是错误拼写（词根错误）。",
+          "category": "虚拟式构成"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour qu'il _____ son examen, il doit travailler dur.\n（为了通过考试，他必须努力学习。）",
+          "options": [
+            "réussit（直陈式）",
+            "réussisse（虚拟式）",
+            "réussira（将来时）",
+            "réussissait（未完成时）"
+          ],
+          "correct": 1,
+          "explanation": "pour que 是目的连词，永远触发虚拟式。réussir → ils réussissent → 词根 réussiss-，que il → -e，结果 réussisse。",
+          "category": "目的连词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je pense qu'il _____ raison sur ce point.\n（我认为他在这点上是对的。）",
+          "options": [
+            "ait（虚拟式）",
+            "avait（未完成时）",
+            "a（直陈式）",
+            "aura（将来时）"
+          ],
+          "correct": 2,
+          "explanation": "Je pense que（肯定形式）陈述事实，用直陈式。只有 Je ne pense pas que 才触发虚拟式。此处用直陈式现在时 a。",
+          "category": "直陈式 vs 虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a peur que son fils ne _____ pas à l'école.\n（她害怕她儿子不去上学。）",
+          "options": [
+            "va（直陈式）",
+            "allait（未完成时）",
+            "aille（虚拟式）",
+            "ira（将来时）"
+          ],
+          "correct": 2,
+          "explanation": "avoir peur que 属于情感，触发虚拟式。aller 不规则虚拟式词根 aill-，que il → -e，结果 aille。注意句中 ne 是虚词（ne explétif），不表示否定。",
+          "category": "不规则虚拟式"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中从句应该用虚拟式？\n（以下哪些句子的从句需要用虚拟式？）",
+          "options": [
+            "Il est important que tu dormes suffisamment.（睡眠充足很重要。）",
+            "Je suis sûr qu'il viendra demain.（我确定他明天会来。）",
+            "Je ne crois pas qu'elle ait menti.（我不认为她说谎了。）",
+            "Il est clair qu'ils ont gagné.（他们赢了，这是显而易见的。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "选项0：Il est important que → 必要性，触发虚拟式✅。选项1：être sûr que → 确定事实，用直陈式❌。选项2：Je ne crois pas que → 否定信念，触发虚拟式✅。选项3：Il est clair que → 客观明确，用直陈式❌。",
+          "category": "触发判断综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est essentiel que chaque élève _____ (avoir) accès à l'éducation.\n（每个学生都能受教育是至关重要的。）",
+          "correct": [
+            "ait"
+          ],
+          "explanation": "Il est essentiel que 触发虚拟式。avoir 不规则：que il/elle → ait。",
+          "category": "不规则虚拟式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne pense pas que ce film _____ (être) intéressant.\n（我不认为这部电影有意思。）",
+          "correct": [
+            "soit"
+          ],
+          "explanation": "Je ne pense pas que 触发虚拟式。être 不规则：que il → soit。",
+          "category": "否定触发"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous souhaitons que vous _____ (pouvoir) nous rejoindre ce soir.\n（我们希望您今晚能加入我们。）",
+          "correct": [
+            "puissiez"
+          ],
+          "explanation": "souhaiter que 触发虚拟式。pouvoir 不规则词根 puiss-，que vous → -iez → puissiez。",
+          "category": "不规则虚拟式"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il faut que tu _____ (savoir) la vérité. Je suis triste qu'il _____ (partir) sans dire au revoir. Pour que nous _____ (faire) des progrès, il faut pratiquer chaque jour.\n（你必须知道真相。我很难过他没道别就走了。为了我们能取得进步，必须每天练习。）",
+          "correct": [
+            "saches",
+            "soit parti",
+            "fassions"
+          ],
+          "explanation": "①savoir 不规则虚拟式：que tu → saches。②être triste que 触发虚拟式，事件发生在过去用虚拟式过去时：être 虚拟式（soit）+ parti。③pour que 触发虚拟式，faire 不规则词根 fass-，que nous → -ions → fassions。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/16ScVeEkHYPWkHpdIP-8gma69e78zdCr8uOFSAvt6kVE/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774898906037-xdxzovfii2",
+          "front": "虚拟式触发条件①\nIl faut que...",
+          "back": "Il faut que → 永远触发虚拟式\n含义：必须…\n例：Il faut que tu viennes.\n中文：你必须来。\n⚠️ 永远不接直陈式，无例外"
+        },
+        {
+          "id": "1774898906037-qtzqjb4glk",
+          "front": "虚拟式触发条件②\n情感表达",
+          "back": "être content(e) / triste / déçu(e) / fâché(e) / surpris(e) que...\n→ 全部触发虚拟式\n例：Je suis content que tu viennes.\n中文：我很高兴你来。"
+        },
+        {
+          "id": "1774898906037-n3bdhpm0cy",
+          "front": "虚拟式触发条件③\n否定信念动词",
+          "back": "Je ne pense pas que...\nJe ne crois pas que...\n→ 触发虚拟式\n⚠️ 对比：Je pense que... → 直陈式\n例：Je ne pense pas qu'il ait raison.\n中文：我不认为他是对的。"
+        },
+        {
+          "id": "1774898906037-7p1hfo2plng",
+          "front": "虚拟式触发条件④\n愿望动词",
+          "back": "vouloir que / souhaiter que / désirer que\n→ 全部触发虚拟式\n例：Je veux que tu fasses attention.\n中文：我想让你注意。"
+        },
+        {
+          "id": "1774898906037-rwkv08n0cxp",
+          "front": "虚拟式触发条件⑤\n目的连词",
+          "back": "pour que → 永远触发虚拟式\n含义：为了…\n例：Pour que la réunion soit réussie, il faut préparer.\n中文：为了会议顺利，必须做准备。"
+        },
+        {
+          "id": "1774898906037-r64ntn13jr",
+          "front": "直陈式 ⚠️ 不触发虚拟式\nIl est clair que...",
+          "back": "Il est clair que → 直陈式\nIl est évident que → 直陈式\nIl est sûr que → 直陈式\nJe suis sûr(e) que → 直陈式\n例：Il est clair que tu viendras.\n中文：你会来，这是显而易见的。"
+        },
+        {
+          "id": "1774898906037-oyeizfe12q",
+          "front": "Je pense que vs Je ne pense pas que",
+          "back": "✅ Je pense que + 直陈式（陈述事实）\nJe pense qu'il viendra.\n中文：我认为他会来。\n\n✅ Je ne pense pas que + 虚拟式（表达怀疑）\nJe ne pense pas qu'il vienne.\n中文：我不认为他会来。"
+        },
+        {
+          "id": "1774898906037-td37axd3org",
+          "front": "虚拟式构成公式",
+          "back": "词根 = 直陈式现在时 ils/elles 变位去掉 -ent\n词尾：je -e / tu -es / il -e / nous -ions / vous -iez / ils -ent\n例：parler → ils parlent → parl-\n→ que je parle / que nous parlions"
+        },
+        {
+          "id": "1774898906037-rbvqw0p6vf9",
+          "front": "avoir 虚拟式完整变位",
+          "back": "que j'aie\nque tu aies\nqu'il/elle ait\nque nous ayons\nque vous ayez\nqu'ils/elles aient\n⚠️ 完全不规则，必须死记\n高频：qu'il ait（Il faut qu'il ait de la patience.）"
+        },
+        {
+          "id": "1774898906037-3lxw0a5d7nt",
+          "front": "être 虚拟式完整变位",
+          "back": "que je sois\nque tu sois\nqu'il/elle soit\nque nous soyons\nque vous soyez\nqu'ils/elles soient\n⚠️ 完全不规则，必须死记\n高频：qu'il soit / que ce soit"
+        },
+        {
+          "id": "1774898906037-ohydocl2mk",
+          "front": "faire 虚拟式完整变位",
+          "back": "词根：fass-\nque je fasse\nque tu fasses\nqu'il fasse\nque nous fassions\nque vous fassiez\nqu'ils fassent\n例：Il faut que tu fasses attention.\n中文：你必须注意。"
+        },
+        {
+          "id": "1774898906037-5tp1msi7swc",
+          "front": "aller 虚拟式完整变位",
+          "back": "词根：aill-\nque j'aille\nque tu ailles\nqu'il aille\nque nous allions\nque vous alliez\nqu'ils aillent\n例：Il faut qu'elle aille chez le médecin.\n中文：她必须去看医生。"
+        },
+        {
+          "id": "1774898906037-yksygv6l8vp",
+          "front": "pouvoir 虚拟式完整变位",
+          "back": "词根：puiss-\nque je puisse\nque tu puisses\nqu'il puisse\nque nous puissions\nque vous puissiez\nqu'ils puissent\n例：Pour que nous puissions réussir, il faut travailler.\n中文：为了我们能成功，必须努力。"
+        },
+        {
+          "id": "1774898906037-v9oj95ykb5p",
+          "front": "savoir 虚拟式完整变位",
+          "back": "词根：sach-\nque je sache\nque tu saches\nqu'il sache\nque nous sachions\nque vous sachiez\nqu'ils sachent\n例：Il est important que tu saches la vérité.\n中文：你知道真相很重要。"
+        },
+        {
+          "id": "1774898906037-ft7nq7jycyf",
+          "front": "vouloir 虚拟式完整变位",
+          "back": "词根：veuill-\nque je veuille\nque tu veuilles\nqu'il veuille\nque nous voulions\nque vous vouliez\nqu'ils veuillent\n⚠️ nous/vous 词根变回 voul-\n例：Je veux qu'il veuille bien coopérer.\n中文：我希望他愿意合作。"
+        },
+        {
+          "id": "1774898906038-qyrddgq4zr",
+          "front": "devoir 虚拟式完整变位",
+          "back": "词根：doiv-\nque je doive\nque tu doives\nqu'il doive\nque nous devions\nque vous deviez\nqu'ils doivent\n⚠️ nous/vous 词根变回 dev-\n例：Il faut que vous deviez rendre le rapport.\n中文：你们必须提交报告。"
+        },
+        {
+          "id": "1774898906038-n03rp5jt1t",
+          "front": "虚拟式过去时构成公式",
+          "back": "avoir/être 的虚拟式现在时 + 过去分词\n例：\nIl soit parti（être 类动词）\nElle ait fini（avoir 类动词）\n触发场景：从句事件发生在主句之前\n例：Je suis triste qu'il soit parti.\n中文：我很难过他走了。"
+        },
+        {
+          "id": "1774898906038-yl39wtt7n3s",
+          "front": "⚠️ TCF 最高频陷阱\nnous/vous 虚拟式 vs 未完成时",
+          "back": "两者拼写完全相同！\n虚拟式：que nous parlions / que vous parliez\n未完成时：nous parlions / vous parliez\n\n区分方法：\n→ 有 que + 主句触发词 = 虚拟式\n→ 无触发词，描述过去持续动作 = 未完成时"
+        },
+        {
+          "id": "1774898906038-5t6vzwhn5qs",
+          "front": "Il est important que... 造句",
+          "back": "Il est important que tu étudies chaque jour.\n中文：你每天学习是很重要的。\nEnglish: It is important that you study every day.\n\n结构：Il est important que + 从句主语 + 虚拟式"
+        },
+        {
+          "id": "1774898906038-dek5jk113jn",
+          "front": "avoir peur que + ne explétif",
+          "back": "avoir peur que 触发虚拟式\n从句中常加 ne（虚词，不表否定）\n例：J'ai peur qu'il ne soit en retard.\n中文：我担心他会迟到。\n⚠️ 这里的 ne 不是否定，不要翻译为\"不\""
+        }
+      ]
+    },
+    {
+      "id": 1774898525250,
+      "name": "宾语从句",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T19:22:05.250Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je pense ______ il a raison.\n（我认为他是对的。）",
+          "options": [
+            "que（那个/引导从句）",
+            "si（是否）",
+            "ce que（什么-宾语）",
+            "ce qui（什么-主语）"
+          ],
+          "correct": 0,
+          "explanation": "penser que = 认为……，确定性陈述用 que。",
+          "category": "宾语从句-que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ne sait pas ______ nous viendrons.\n（她不知道我们是否会来。）",
+          "options": [
+            "que（那个/引导从句）",
+            "ce que（什么-宾语）",
+            "si（是否）",
+            "ce qui（什么-主语）"
+          ],
+          "correct": 2,
+          "explanation": "ne pas savoir = 不知道，不确定 → 用 si（是否）。",
+          "category": "宾语从句-si"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'espère ______ tu réussiras.\n（我希望你会成功。）",
+          "options": [
+            "que + subjonctif（虚拟式）",
+            "si（是否）",
+            "ce que（什么-宾语）",
+            "que + indicatif（直陈式）"
+          ],
+          "correct": 3,
+          "explanation": "espérer que 后接直陈式，不用虚拟式！réussiras 是简单将来时（直陈式）。这是 TCF 经典陷阱。",
+          "category": "宾语从句-espérer"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il veut ______ nous partions maintenant.\n（他想让我们现在离开。）",
+          "options": [
+            "si（是否）",
+            "ce que（什么-宾语）",
+            "que + indicatif（直陈式）",
+            "que + subjonctif（虚拟式）"
+          ],
+          "correct": 3,
+          "explanation": "vouloir que 表达愿望 → 触发虚拟式。partions 是 partir 的虚拟式 nous 形式。",
+          "category": "宾语从句-subjonctif"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je me demande ______ elle habite.\n（我想知道她住在哪里。）",
+          "options": [
+            "que（引导从句）",
+            "où（哪里）",
+            "ce que（什么-宾语）",
+            "si（是否）"
+          ],
+          "correct": 1,
+          "explanation": "\"住在哪里\" → 特殊疑问词 où 引导宾语从句。se demander où = 想知道……在哪里。",
+          "category": "宾语从句-疑问词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dis-moi ______ tu as acheté.\n（告诉我你买了什么。）",
+          "options": [
+            "ce qui（什么-主语）",
+            "que（引导从句）",
+            "ce que（什么-宾语）",
+            "si（是否）"
+          ],
+          "correct": 2,
+          "explanation": "空后有主语 tu → 从句不缺主语，缺宾语 → ce que。\"你买了什么\" = ce que tu as acheté。",
+          "category": "宾语从句-ce que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "______ m'étonne, c'est sa patience.\n（让我惊讶的是他的耐心。）",
+          "options": [
+            "Ce que（什么-宾语）",
+            "Ce qui（什么-主语）",
+            "Que（引导从句）",
+            "Si（是否）"
+          ],
+          "correct": 1,
+          "explanation": "空后直接跟动词 étonne（m' 是宾语代词，不是主语）→ 缺主语 → Ce qui。",
+          "category": "宾语从句-ce qui"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est nécessaire ______ vous fassiez vos devoirs.\n（你们做作业是必要的。）",
+          "options": [
+            "si（是否）",
+            "ce que（什么-宾语）",
+            "que + indicatif（直陈式）",
+            "que + subjonctif（虚拟式）"
+          ],
+          "correct": 3,
+          "explanation": "il est nécessaire que 表达必要性 → 触发虚拟式。fassiez = faire 的虚拟式 vous 形式。",
+          "category": "宾语从句-subjonctif"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/16WU7uvzRKKUP0th1wwkGm22Q3N1t44RWTsbmKZnPbzA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774898538375-vv31qr7ae7e",
+          "front": "que 引导宾语从句的结构",
+          "back": "主句 + que + 从句（主语+动词+...）\nque = 英语 that，不能省略\n例：Je sais que tu es occupé.\n（我知道你很忙。）"
+        },
+        {
+          "id": "1774898538375-zf854ft95fo",
+          "front": "que 在元音前怎么变？",
+          "back": "que → qu'\nque + il = qu'il\nque + elle = qu'elle\n例：Il dit qu'il viendra.\n（他说他会来。）"
+        },
+        {
+          "id": "1774898538375-wm2qxoy9von",
+          "front": "什么时候用 si 引导宾语从句？",
+          "back": "主句表达「不知道、问、想知道」时用 si（= whether/if）\n例：Je ne sais pas si elle viendra.\n（我不知道她来不来。）"
+        },
+        {
+          "id": "1774898538375-qr02dwosl0e",
+          "front": "si + il 怎么缩写？",
+          "back": "si + il = s'il（缩写）\n但 si + elle 不缩写，写 si elle\n例：Je me demande s'il a fini.\n（我想知道他是否完成了。）"
+        },
+        {
+          "id": "1774898538375-3w8yuwolgxb",
+          "front": "que vs si 怎么选？",
+          "back": "确定的事 → que\n不确定/疑问 → si\n例：Je sais que tu es là.（确定）\nJe ne sais pas si tu es là.（不确定）"
+        },
+        {
+          "id": "1774898538375-b85ze4d9srv",
+          "front": "ce que 是什么意思？什么时候用？",
+          "back": "ce que = what（做宾语）\n空后面有主语+动词 → 缺宾语 → ce que\n例：Je sais ce que tu as fait.\n（我知道你做了什么。）"
+        },
+        {
+          "id": "1774898538375-l4z5ex1xhoe",
+          "front": "ce qui 是什么意思？什么时候用？",
+          "back": "ce qui = what（做主语）\n空后面直接跟动词 → 缺主语 → ce qui\n例：Ce qui me fait peur, c'est son attitude.\n（让我害怕的是他的态度。）"
+        },
+        {
+          "id": "1774898538375-g5ej3719wyj",
+          "front": "ce qui vs ce que 快速判断",
+          "back": "空后直接跟动词 → ce qui（缺主语）\n空后跟主语+动词 → ce que（缺宾语）"
+        },
+        {
+          "id": "1774898538375-7afr4b5kva5",
+          "front": "espérer que 后面用什么语式？",
+          "back": "直陈式（indicatif）！不用虚拟式！\n例：J'espère que tu viendras.（将来时）\n⚠️ TCF 经典陷阱"
+        },
+        {
+          "id": "1774898538375-o5prb05tj9",
+          "front": "vouloir que 后面用什么语式？",
+          "back": "虚拟式（subjonctif）\n例：Je veux que tu viennes.\n（我希望你来。）\nviennes = venir 的虚拟式"
+        },
+        {
+          "id": "1774898538375-ltxxv1qqs5",
+          "front": "il faut que 后面用什么语式？",
+          "back": "虚拟式（subjonctif）\n例：Il faut que tu travailles.\n（你必须工作/学习。）"
+        },
+        {
+          "id": "1774898538375-4oflqtnt77l",
+          "front": "il est important que 后面用什么语式？",
+          "back": "虚拟式（subjonctif）\n例：Il est important que nous soyons à l'heure.\n（我们守时很重要。）\nsoyons = être 的虚拟式 nous 形式"
+        },
+        {
+          "id": "1774898538375-vnviis6vl9h",
+          "front": "触发虚拟式的四大类主句",
+          "back": "1. 愿望：vouloir que, souhaiter que\n2. 情感：être content que, avoir peur que\n3. 必要：il faut que, il est important que\n4. 怀疑：douter que"
+        },
+        {
+          "id": "1774898538375-db5oq1a6r98",
+          "front": "avoir tort",
+          "back": "犯错 / 是错的（固定搭配，用 avoir 不用 être）\n例：Il pense que nous avons tort.\n（他认为我们错了。）"
+        },
+        {
+          "id": "1774898538375-3u4q1b6qfra",
+          "front": "avoir raison",
+          "back": "有道理 / 是对的（固定搭配，用 avoir 不用 être）\n例：Je pense que tu as raison.\n（我认为你是对的。）"
+        },
+        {
+          "id": "1774898538375-i6tc7fw2qy",
+          "front": "疑问词引导宾语从句的语序",
+          "back": "用陈述语序（主语+动词），不倒装！\n直接问：Où habite-t-il ?（倒装）\n从句：Je sais où il habite.（不倒装）"
+        },
+        {
+          "id": "1774898538375-vfjsbaw3r5",
+          "front": "être 的虚拟式变位（6个）",
+          "back": "que je sois\nque tu sois\nqu'il/elle soit\nque nous soyons\nque vous soyez\nqu'ils/elles soient"
+        },
+        {
+          "id": "1774898538375-fksbpepbsph",
+          "front": "faire 的虚拟式变位（6个）",
+          "back": "que je fasse\nque tu fasses\nqu'il/elle fasse\nque nous fassions\nque vous fassiez\nqu'ils/elles fassent"
+        },
+        {
+          "id": "1774898538375-qhkqejmtr2e",
+          "front": "venir 的虚拟式变位（6个）",
+          "back": "que je vienne\nque tu viennes\nqu'il/elle vienne\nque nous venions\nque vous veniez\nqu'ils/elles viennent"
+        }
+      ]
+    },
+    {
+      "id": 1774898460551,
+      "name": "语法-时态变位回顾",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T19:21:00.551Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'_____ petit, je jouais au foot tous les jours.\n（我小时候每天踢足球。）",
+          "options": [
+            "étais（曾是）",
+            "ai été（曾经是）",
+            "serai（将是）",
+            "serais（会是）"
+          ],
+          "correct": 0,
+          "explanation": "描述过去的状态/背景用 imparfait。être 的 imparfait 词根是 ét-，je → j'étais。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, nous _____ à la plage chaque été.\n（以前我们每年夏天都去海滩。）",
+          "options": [
+            "allons（去）",
+            "sommes allés（去了）",
+            "allions（常去）",
+            "irons（将去）"
+          ],
+          "correct": 2,
+          "explanation": "avant + chaque été 表示过去的习惯，用 imparfait。aller: nous allions。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il _____ beau et les oiseaux chantaient.\n（天气很好，鸟儿在唱歌。）",
+          "options": [
+            "fait（天气是）",
+            "faisait（天气曾是）",
+            "fera（天气将是）",
+            "ferait（天气会是）"
+          ],
+          "correct": 1,
+          "explanation": "描述过去的天气/场景 = imparfait。faire → nous faisons → fais- → il faisait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand je _____ la télé, le téléphone a sonné.\n（我正在看电视时，电话响了。）",
+          "options": [
+            "regarde（看）",
+            "ai regardé（看了）",
+            "regardais（正在看）",
+            "regarderai（将看）"
+          ],
+          "correct": 2,
+          "explanation": "正在进行的背景动作用 imparfait，突发事件（a sonné）用 passé composé。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'année prochaine, je _____ en France.\n（明年我将去法国。）",
+          "options": [
+            "vais（去）",
+            "allais（曾去）",
+            "irai（将去）",
+            "irais（会去）"
+          ],
+          "correct": 2,
+          "explanation": "l'année prochaine = 明年，确定的将来计划用 futur simple。aller 特殊词根 ir- → j'irai。",
+          "category": "futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, il _____ très froid.\n（明天会很冷。）",
+          "options": [
+            "fait（天气是）",
+            "faisait（天气曾是）",
+            "fera（将会是）",
+            "ferait（会是）"
+          ],
+          "correct": 2,
+          "explanation": "demain = 明天，确定的将来用 futur simple。faire 特殊词根 fer- → il fera。",
+          "category": "futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ ce travail avant vendredi.\n（我们将在周五之前完成这项工作。）",
+          "options": [
+            "finissons（完成）",
+            "finissions（曾完成）",
+            "finirons（将完成）",
+            "finirions（会完成）"
+          ],
+          "correct": 2,
+          "explanation": "avant vendredi 表示将来截止日期，用 futur simple。finir → je finirai, nous finirons。",
+          "category": "futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ le résultat la semaine prochaine.\n（你下周会知道结果。）",
+          "options": [
+            "sais（知道）",
+            "savais（曾知道）",
+            "sauras（将知道）",
+            "saurais（会知道）"
+          ],
+          "correct": 2,
+          "explanation": "la semaine prochaine = 下周，futur simple。savoir 特殊词根 saur- → tu sauras。",
+          "category": "futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je _____ un café, s'il vous plaît.\n（我想要一杯咖啡。）",
+          "options": [
+            "veux（我要）",
+            "voulais（我曾想要）",
+            "voudrai（我将要）",
+            "voudrais（我想要）"
+          ],
+          "correct": 3,
+          "explanation": "礼貌请求用 conditionnel présent。vouloir 特殊词根 voudr- + -ais → je voudrais。",
+          "category": "conditionnel - 礼貌"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ -vous m'indiquer la gare ?\n（您能给我指一下火车站吗？）",
+          "options": [
+            "Pouvez（您能）",
+            "Pouviez（您曾能）",
+            "Pourrez（您将能）",
+            "Pourriez（您能否）"
+          ],
+          "correct": 3,
+          "explanation": "礼貌提问用 conditionnel。pouvoir 词根 pourr- + -iez → pourriez。",
+          "category": "conditionnel - 礼貌"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si j'avais le temps, je _____ au cinéma.\n（如果我有时间，我就去看电影。）",
+          "options": [
+            "vais（去）",
+            "allais（曾去）",
+            "irai（将去）",
+            "irais（会去）"
+          ],
+          "correct": 3,
+          "explanation": "Si + imparfait → conditionnel présent。aller 词根 ir- + -ais → j'irais。",
+          "category": "conditionnel - Si 条件句"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si nous _____ riches, nous voyagerions partout.\n（如果我们有钱，我们就到处旅行。）",
+          "options": [
+            "sommes（是）",
+            "étions（曾是）",
+            "serons（将是）",
+            "serions（会是）"
+          ],
+          "correct": 1,
+          "explanation": "Si 后面跟 imparfait（不能跟 conditionnel！）。être → nous étions。主句用 conditionnel: voyagerions。",
+          "category": "conditionnel - Si 条件句陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le ministre _____ en voyage officiel.\n（据说部长在进行公务旅行。）",
+          "options": [
+            "est（是）",
+            "était（曾是）",
+            "sera（将是）",
+            "serait（据说是）"
+          ],
+          "correct": 3,
+          "explanation": "转述不确定信息用 conditionnel。être 词根 ser- + -ait → serait。",
+          "category": "conditionnel - 转述"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu _____ faire plus de sport.\n（你应该多做运动。）",
+          "options": [
+            "dois（必须）",
+            "devais（曾必须）",
+            "devras（将必须）",
+            "devrais（应该）"
+          ],
+          "correct": 3,
+          "explanation": "建议用 conditionnel。devoir 词根 devr- + -ais → tu devrais。",
+          "category": "conditionnel - 建议"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand elle _____ jeune, elle habitait à Paris.\n（她年轻时住在巴黎。）",
+          "options": [
+            "est（是）",
+            "était（曾是）",
+            "sera（将是）",
+            "serait（会是）"
+          ],
+          "correct": 1,
+          "explanation": "描述过去状态 = imparfait。être → elle était。",
+          "category": "混合辨析 imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si tu _____ bien, tu réussirais l'examen.\n（如果你好好学，你就能通过考试。）",
+          "options": [
+            "étudies（学习）",
+            "étudiais（曾学习）",
+            "étudieras（将学习）",
+            "étudierais（会学习）"
+          ],
+          "correct": 1,
+          "explanation": "Si + imparfait, conditionnel。Si 后面用 imparfait → tu étudiais。绝不能选 conditionnel！",
+          "category": "混合辨析 Si句陷阱"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Demain, nous _____ nos amis au restaurant.\n（明天我们将在餐厅见朋友。）",
+          "options": [
+            "voyons（看见）",
+            "voyions（曾看见）",
+            "verrons（将看见）",
+            "verrions（会看见）"
+          ],
+          "correct": 2,
+          "explanation": "demain = 将来确定事件 → futur simple。voir 词根 verr- + -ons → nous verrons。",
+          "category": "混合辨析 futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'habitude, ils _____ à 7 heures.\n（他们通常7点起床。）",
+          "options": [
+            "se lèvent（起床）",
+            "se levaient（曾起床）",
+            "se lèveront（将起床）",
+            "se lèveraient（会起床）"
+          ],
+          "correct": 1,
+          "explanation": "d'habitude 表示过去的习惯 → imparfait。se lever → ils se levaient。",
+          "category": "混合辨析 imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'aimerai / J'aimerais — 哪个是 conditionnel ?\n（哪个是条件式？）",
+          "options": [
+            "j'aimerai（我将爱）",
+            "j'aimerais（我会爱）",
+            "两个都是",
+            "两个都不是"
+          ],
+          "correct": 1,
+          "explanation": "j'aimerai（无 s）= futur simple；j'aimerais（有 s）= conditionnel。多一个 s 就是条件式！",
+          "category": "混合辨析 拼写陷阱"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1zObKCFZSXJQ3cScHyVfzzSkiK5wITJsTmrAx0_efqSs/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774898482604-uyb78ddarjf",
+          "front": "Imparfait 构成公式",
+          "back": "词根：nous 现在时去 -ons\n词尾：-ais, -ais, -ait, -ions, -iez, -aient\n例：nous parlons → parl- → je parlais"
+        },
+        {
+          "id": "1774898482604-qyysv6t9ac",
+          "front": "être 的 imparfait 词根",
+          "back": "ét-\nj'étais, il était, nous étions, vous étiez, elles étaient"
+        },
+        {
+          "id": "1774898482604-8wqgr7p87e5",
+          "front": "Imparfait 什么时候用？",
+          "back": "1. 过去的状态/背景（天气、心情）\n2. 过去的习惯（avant, chaque jour, d'habitude）\n3. 正在进行的背景动作（与 passé composé 搭配）"
+        },
+        {
+          "id": "1774898482604-qtommbnmrro",
+          "front": "时间标志词 → imparfait",
+          "back": "avant（以前）\nchaque jour/été（每天/每年夏天）\nd'habitude（通常）\ntous les jours（每天）\nquand j'étais petit（我小时候）"
+        },
+        {
+          "id": "1774898482604-rkq35d9qwm",
+          "front": "Futur simple 构成公式",
+          "back": "词根：动词不定式（-re 动词去 e）\n词尾：-ai, -as, -a, -ons, -ez, -ont\n例：finir → je finirai；prendre → prendr- → je prendrai"
+        },
+        {
+          "id": "1774898482604-ohrroesm02",
+          "front": "aller 的 futur simple",
+          "back": "特殊词根：ir-\nj'irai, tu iras, il ira, nous irons, vous irez, ils iront"
+        },
+        {
+          "id": "1774898482604-cnjoxciwegn",
+          "front": "avoir 的 futur simple",
+          "back": "特殊词根：aur-\nj'aurai, tu auras, il aura, nous aurons, ils auront"
+        },
+        {
+          "id": "1774898482604-8qvqlusl44h",
+          "front": "être 的 futur simple",
+          "back": "特殊词根：ser-\nje serai, tu seras, il sera, nous serons, ils seront"
+        },
+        {
+          "id": "1774898482604-klnv9ud2yuc",
+          "front": "faire 的 futur simple",
+          "back": "特殊词根：fer-\nje ferai, tu feras, il fera, nous ferons, ils feront"
+        },
+        {
+          "id": "1774898482604-kamg1624exc",
+          "front": "voir 的 futur simple",
+          "back": "特殊词根：verr-\nje verrai, tu verras, il verra, nous verrons, ils verront"
+        },
+        {
+          "id": "1774898482604-h7qlsssg4b4",
+          "front": "pouvoir 的 futur simple",
+          "back": "特殊词根：pourr-\nje pourrai, tu pourras, il pourra, nous pourrons, ils pourront"
+        },
+        {
+          "id": "1774898482604-589v6coqbel",
+          "front": "vouloir 的 futur simple",
+          "back": "特殊词根：voudr-\nje voudrai, tu voudras, il voudra, nous voudrons, ils voudront"
+        },
+        {
+          "id": "1774898482604-6e5qqdpjwy8",
+          "front": "savoir 的 futur simple",
+          "back": "特殊词根：saur-\nje saurai, tu sauras, il saura, nous saurons, ils sauront"
+        },
+        {
+          "id": "1774898482604-0iu2btissdne",
+          "front": "venir 的 futur simple",
+          "back": "特殊词根：viendr-\nje viendrai, tu viendras, il viendra, nous viendrons, ils viendront"
+        },
+        {
+          "id": "1774898482604-q2tujiv4m4a",
+          "front": "Futur simple vs Futur proche",
+          "back": "Futur proche（aller + inf.）：马上/口语\n→ Je vais partir.（我马上走）\nFutur simple：确定计划/书面/较远将来\n→ Je partirai en septembre.（我九月走）"
+        },
+        {
+          "id": "1774898482604-xsp8gg6te",
+          "front": "Conditionnel présent 构成公式",
+          "back": "词根 = futur simple 的词根\n词尾 = imparfait 的词尾（-ais, -ais, -ait, -ions, -iez, -aient）\n口诀：将来时词根 + 过去时词尾"
+        },
+        {
+          "id": "1774898482604-qn7078qvwx",
+          "front": "je voudrais 是什么时态？",
+          "back": "Conditionnel présent（条件式现在时）\n= 礼貌请求「我想要……」\nvouloir 词根 voudr- + -ais"
+        },
+        {
+          "id": "1774898482604-qkvz80h8sua",
+          "front": "Conditionnel 四大用途",
+          "back": "1. 礼貌请求：Je voudrais...\n2. 建议：Tu devrais...\n3. Si 条件句：Si + imparfait, conditionnel\n4. 转述不确定信息：Il serait malade."
+        },
+        {
+          "id": "1774898482604-g92qfb2bcpl",
+          "front": "Si 条件句公式（现在假设）",
+          "back": "Si + imparfait, conditionnel présent\n例：Si j'avais le temps, j'irais au cinéma.\n⚠️ Si 后面永远不能直接跟 conditionnel！"
+        },
+        {
+          "id": "1774898482604-nq9qwkaodal",
+          "front": "j'aimerai vs j'aimerais",
+          "back": "j'aimerai（无 s）= futur simple（我将会喜欢）\nj'aimerais（有 s）= conditionnel（我想要/我会喜欢）\n拼写只差一个 s，发音也有细微区别：[e] vs [ɛ]"
+        },
+        {
+          "id": "1774898482604-4x02m5j6w16",
+          "front": "il parlera vs il parlerait",
+          "back": "il parlera = futur simple（他将说）\nil parlerait = conditionnel（他会说）\n词尾 -a vs -ait 是区分关键"
+        },
+        {
+          "id": "1774898482604-inpn2ihqvc",
+          "front": "devoir 的 conditionnel",
+          "back": "词根：devr-\nje devrais = 我应该\ntu devrais = 你应该\n用于给建议：Tu devrais faire du sport."
+        },
+        {
+          "id": "1774898482604-h0t0iuydl1c",
+          "front": "三时态词尾速记对比",
+          "back": "Imparfait：-ais -ais -ait -ions -iez -aient\nFutur simple：-ai -as -a -ons -ez -ont\nConditionnel：-ais -ais -ait -ions -iez -aient\n→ conditionnel 词尾 = imparfait 词尾！"
+        }
+      ]
+    },
+    {
       "id": 1774898404001,
       "name": "A2 Lecon 13 TCF阅读 练习1",
       "folderId": "1772685738192",
@@ -558,6 +2359,7 @@
     {
       "id": 1774897188638,
       "name": "表原因词汇",
+      "folderId": "1772683473645",
       "createdAt": "2026-03-30T18:59:48.638Z",
       "questions": [
         {
@@ -95287,6 +97089,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-30T19:20:18.698Z",
+  "exportedAt": "2026-03-30T19:49:38.657Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
