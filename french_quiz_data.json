@@ -1,6 +1,691 @@
 {
   "savedSets": [
     {
+      "id": 1774894225126,
+      "name": "复合过去时配合",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T18:10:25.126Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ (se changer) trois fois avant la fête.\n（她在聚会前换了三次衣服。）",
+          "options": [
+            "s'est changé（她换了）",
+            "s'est changée（她换了）",
+            "s'a changée（误用）",
+            "se changé（误用）"
+          ],
+          "correct": 1,
+          "explanation": "se changer：se 是直接宾语（COD），分词与主语 elle（阴性）配合 → changée。",
+          "category": "代动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ (se téléphoner) hier soir.\n（他们昨晚互相打了电话。）",
+          "options": [
+            "se sont téléphoné（不配合）",
+            "se sont téléphonés（误加s）",
+            "se sont téléphonée（误加e）",
+            "se sont téléphonées（误加es）"
+          ],
+          "correct": 0,
+          "explanation": "téléphoner à qn → se 是间接宾语（COI）→ 分词不配合，保持原形 téléphoné。",
+          "category": "代动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants que nous avons _____ (voir) sont très gentils.\n（我们看到的那些孩子非常可爱。）",
+          "options": [
+            "vu（原形）",
+            "vus（配合阳性复数）",
+            "vue（阴性单数）",
+            "vues（阴性复数）"
+          ],
+          "correct": 1,
+          "explanation": "que 指代 les enfants（阳性复数），COD 提前 → vu + s = vus。",
+          "category": "avoir + COD提前"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La pomme sur la table ? Je _____ mangée.\n（桌上的苹果？我吃掉了。）",
+          "options": [
+            "l'ai mangé",
+            "l'ai mangée",
+            "la ai mangée",
+            "l'ait mangé"
+          ],
+          "correct": 1,
+          "explanation": "l' 指代 la pomme（阴性单数），COD 代词提前 → mangé + e = mangée。",
+          "category": "avoir + COD提前"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ (aller) en Europe l'été dernier.\n（她们去年夏天去了欧洲。）",
+          "options": [
+            "sont allé（原形）",
+            "sont allés（阳性复数）",
+            "sont allée（阴性单数）",
+            "sont allées（阴性复数）"
+          ],
+          "correct": 3,
+          "explanation": "aller 用 être，主语 elles（阴性复数）→ allé + e + s = allées。",
+          "category": "être动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces livres, je _____ (lire).\n（这些书，我已经读过了。）",
+          "options": [
+            "les ai lu（原形）",
+            "les ai lus（配合阳性复数）",
+            "les ai lue（阴性单数）",
+            "les ai lues（阴性复数）"
+          ],
+          "correct": 1,
+          "explanation": "les 指代 les livres（阳性复数），COD 代词提前 → lu + s = lus。",
+          "category": "avoir + COD代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Combien de pommes avez-vous _____ (manger) ?\n（你们吃了多少苹果？）",
+          "options": [
+            "mangé（原形）",
+            "mangés（阳性复数）",
+            "mangée（阴性单数）",
+            "mangées（阴性复数）"
+          ],
+          "correct": 3,
+          "explanation": "Combien de pommes 提到句首，pommes 是阴性复数 COD → mangé + e + s = mangées。",
+          "category": "avoir + COD提前"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elles _____ (se parler) pendant une heure.\n（她们互相聊了一个小时。）",
+          "options": [
+            "se sont parlées（误配合）",
+            "se sont parlé（不配合）",
+            "se sont parlés（误加s）",
+            "se sont parlée（误加e）"
+          ],
+          "correct": 1,
+          "explanation": "parler à qn → se 是 COI → 分词不配合，保持 parlé 原形。",
+          "category": "代动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "On _____ (se rencontrer) devant le café.\n（我们在咖啡馆前面相遇了。）",
+          "options": [
+            "s'est rencontré（单数原形）",
+            "s'est rencontrés（复数）",
+            "s'est rencontrée（阴性单数）",
+            "s'est rencontrées（阴性复数）"
+          ],
+          "correct": 1,
+          "explanation": "se rencontrer：se 是 COD。on 泛指多人时，分词按实际复数处理 → rencontrés。",
+          "category": "代动词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ces affiches sont belles, mais celles que tu as _____ (créer) sont encore mieux.\n（这些海报很美，但你创作的那些更好看。）",
+          "options": [
+            "créé（原形）",
+            "créés（阳性复数）",
+            "créée（阴性单数）",
+            "créées（阴性复数）"
+          ],
+          "correct": 3,
+          "explanation": "que 指代 celles（阴性复数）→ créé + e + s = créées。",
+          "category": "avoir + que从句"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle s'est _____ (laver) les mains avant de manger.\n（她饭前洗了手。）",
+          "correct": [
+            "lavé"
+          ],
+          "explanation": "laver les mains：直接宾语是 les mains，se 退为 COI → 分词不配合主语，保持原形 lavé。",
+          "category": "代动词COI陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, Marie _____ (se lever) tôt et _____ (se préparer) rapidement. Elle _____ (s'habiller) en rouge.\n（昨天，玛丽起得很早，快速准备好了。她穿了红色的衣服。）",
+          "correct": [
+            "s'est levée",
+            "s'est préparée",
+            "s'est habillée"
+          ],
+          "explanation": "三个代动词的 se 均为 COD（动词不需介词接人），主语 Marie（阴性单数）→ 三个分词全部 +e。",
+          "category": "代动词配合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1UD47LOoPp0lIPzC2wqY7qa1wuCcGFH6QLZ-JgOVRRaA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774894221982-qq6rk4jcc2f",
+          "front": "être 做助动词时，过去分词如何配合？",
+          "back": "总是与主语性数配合\n阴性 +e，复数 +s，阴性复数 +es\n例：Elles sont allées.（她们去了）"
+        },
+        {
+          "id": "1774894221982-pyrxsynq35p",
+          "front": "avoir 做助动词时，过去分词默认配合吗？",
+          "back": "不配合，宾语在动词后时保持原形\n例：J'ai mangé une pomme.（我吃了苹果）"
+        },
+        {
+          "id": "1774894221982-q72bus6x0fg",
+          "front": "avoir + que 引导从句，分词要配合吗？",
+          "back": "要！que 是提前的 COD\n配合 que 所指代名词的性数\n例：Les enfants que nous avons vus...（vus 配合 les enfants，阳性复数）"
+        },
+        {
+          "id": "1774894221982-eo91rk8srkd",
+          "front": "直接宾语代词 le / la / les 提前时，分词如何变化？",
+          "back": "与代词所指名词的性数配合\nle → 原形 / la → +e / les → +s 或 +es\n例：Je l'ai mangée.（l' = la pomme，阴性单数 → +e）"
+        },
+        {
+          "id": "1774894221982-s3uf25awnfe",
+          "front": "代动词 se 是 COD 的判断标准？",
+          "back": "动词原形不需要介词接人，se 直接承受动作\n→ 分词配合主语性数\n例：se lever, se laver, s'habiller, se préparer"
+        },
+        {
+          "id": "1774894221982-8opallum0r8",
+          "front": "代动词 se 是 COI 的判断标准？",
+          "back": "动词原形需要介词 à 接人（à qn）\n→ 分词不配合，保持原形\n例：téléphoner à qn → se sont téléphoné\nparler à qn → se sont parlé\ndire à qn → se sont dit"
+        },
+        {
+          "id": "1774894221982-q7bfwib5fmg",
+          "front": "Elle s'est lavée. 和 Elle s'est lavé les mains. 分词为何不同？",
+          "back": "s'est lavée（+e）：se 是 COD，自己洗自己\ns'est lavé les mains（原形）：直接宾语是 les mains，se 退为 COI\n→ 同一动词，后面有无 COD 决定分词形式！"
+        },
+        {
+          "id": "1774894221982-xsomrscep6",
+          "front": "On s'est rencontrés. 为什么分词加 s？",
+          "back": "se rencontrer：se 是 COD\non 泛指多人时，分词按复数处理\n→ rencontrés（阳性复数默认形式）"
+        },
+        {
+          "id": "1774894221982-1x6rtdbd6oe",
+          "front": "Combien de pommes avez-vous mangées ? 为什么是 mangées？",
+          "back": "Combien de pommes 移到句首，pommes 是提前的 COD\npommes = 阴性复数 → mangé + e + s = mangées"
+        },
+        {
+          "id": "1774894221982-eadm8zwuwmo",
+          "front": "3秒判断法：avoir + 宾语提前，触发配合的三种来源？",
+          "back": "1. 关系代词 que（看 que 指代什么名词）\n2. 直接宾语代词 le / la / les / l'\n3. Combien de + 名词提前\n→ 找到提前的 COD，配合其性数"
+        }
+      ]
+    },
+    {
+      "id": 1774893659318,
+      "name": "A2 Lecon 9 TCF听力 练习",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-30T18:00:59.318Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— J'ai besoin d'un pull. — Mais tu _____ au moins vingt !\n（我需要一件毛衫。— 但你至少有20件了！）",
+          "options": [
+            "en as（有其中）",
+            "les as（有它们）",
+            "en es（是其中）",
+            "y as（在那里有）"
+          ],
+          "correct": 0,
+          "explanation": "en 代替前文的 pulls，结构为 tu en as。les 后需重复名词不自然；y 代替地点，不代替物品数量。",
+          "category": "代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marianne s'est habillée en blanc ce matin parce qu'_____ .\n（玛丽娜今天早上穿白色是因为……）",
+          "options": [
+            "il faisait chaud（天气热）",
+            "elle aime le blanc（她喜欢白色）",
+            "elle n'avait pas d'autre tenue（她没有其他衣服）",
+            "elle ne savait pas qu'il allait pleuvoir（她不知道会下雨）"
+          ],
+          "correct": 3,
+          "explanation": "对话中 Marianne 穿白色后下雨了才换衣，隐含她没预料到会下雨。",
+          "category": "听力推断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans la conversation, « ça ne me va pas » signifie :\n（在对话中，\"ça ne me va pas\"的意思是：）",
+          "options": [
+            "ce n'est pas ma taille（不是我的尺码）",
+            "cette couleur ne me convient pas（这个颜色不适合我）",
+            "je n'aime pas cette couleur（我不喜欢这个颜色）",
+            "je ne peux pas me le permettre（我买不起）"
+          ],
+          "correct": 1,
+          "explanation": "aller à qn = convenir à qn，表示适合某人。ça ne me va pas = this doesn't suit me，强调不搭配/不适合，不是单纯的喜好或尺码问题。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Jérôme dit : « tu t'es changée trois fois ». Le temps utilisé est :\n（若雷说\"你换了3次衣服\"，使用的时态是：）",
+          "options": [
+            "présent de l'indicatif（直陈式现在时）",
+            "futur proche（近未来时）",
+            "passé composé（复合过去时）",
+            "imparfait（未完成过去时）"
+          ],
+          "correct": 2,
+          "explanation": "tu t'es changée = se changer 的 passé composé，用 être 助动词，表示今天已经发生的动作。",
+          "category": "语法"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ (mettre) un pull rouge après la pluie.\n（下雨后她穿上了一件红色毛衫。）",
+          "correct": [
+            "a mis"
+          ],
+          "explanation": "mettre 的 passé composé = avoir + mis（不规则过去分词），主语 elle 用 avoir，过去分词不变。",
+          "category": "变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour essayer un vêtement, on dit : « Est-ce que je peux _____ ce pantalon ? »\n（要试穿一件衣服，我们说：我可以试穿这条裤子吗？）",
+          "correct": [
+            "essayer"
+          ],
+          "explanation": "essayer = to try on，pouvoir 后接动词原形。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases exprime un état et non une action ?\n（以下哪句表示状态而非动作？）",
+          "options": [
+            "Elle met son manteau.（她穿上大衣。）",
+            "Elle s'habille rapidement.（她迅速穿好衣服。）",
+            "Elle porte une jupe bleue.（她穿着一条蓝色裙子。）",
+            "Elle se change dans la chambre.（她在房间里换衣服。）"
+          ],
+          "correct": 2,
+          "explanation": "porter 表示穿着的状态；mettre/s'habiller/se changer 都强调穿衣的动作过程。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Parmi les vêtements suivants, lesquels sont féminins (f.) ?\n（以下服装中，哪些是阴性名词？）",
+          "options": [
+            "une jupe（裙子）",
+            "un pantalon（裤子）",
+            "une robe（连衣裙）",
+            "un costume（男士西装）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "jupe 和 robe 是阴性名词；pantalon 和 costume 是阳性名词。",
+          "category": "阴阳性"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Marianne _____ (s'habiller) en blanc ce matin, mais il _____ (pleuvoir). Alors elle _____ (se changer) et _____ (mettre) un pull rouge.\n（玛丽娜今天早上穿了白色衣服，但是下雨了。于是她换了衣服，穿上了一件红色毛衫。）",
+          "correct": [
+            "s'est habillée",
+            "a plu",
+            "s'est changée",
+            "a mis"
+          ],
+          "explanation": "四个动词全部用 passé composé：s'habiller/se changer 用 être 助动词（代动词），主语为女性加 -e；pleuvoir → a plu；mettre → a mis（不规则）。",
+          "category": "综合变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« J'ai envie de l'essayer. » Dans cette phrase, « l' » remplace :\n（\"我想试试它\"，句中\"l'\"代替的是：）",
+          "options": [
+            "Jérôme",
+            "le centre commercial（商场）",
+            "le pull gris（灰色毛衫）",
+            "le rouge（红色）"
+          ],
+          "correct": 2,
+          "explanation": "上文 Marianne 提到在商场看到了一件漂亮的灰色毛衫（un très beau, gris），l' 是直接宾语代词，代替 le pull gris。",
+          "category": "代词"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/10LYtCpOISikfK2PYH6dYY9gnuqJx6NgStYRt6goZtMM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774893657290-yb9eqhmxw9",
+          "front": "mettre",
+          "back": "动词：穿上、戴上（强调动作）\n例：Mets ton manteau !\n中文：把你的大衣穿上！"
+        },
+        {
+          "id": "1774893657290-eabh940rsfr",
+          "front": "porter",
+          "back": "动词：穿着（强调状态）\n例：Elle porte une robe rouge.\n中文：她穿着一条红色裙子。"
+        },
+        {
+          "id": "1774893657290-vhkgwm547g",
+          "front": "s'habiller",
+          "back": "代动词：穿好衣服（整体穿衣动作）\n反义词：se déshabiller（脱衣服）\n例：Je me suis habillée en blanc.\n中文：我穿了白色衣服。"
+        },
+        {
+          "id": "1774893657290-9v9a6jmnv3r",
+          "front": "se changer",
+          "back": "代动词：换衣服\n例：Tu t'es changée trois fois aujourd'hui !\n中文：你今天换了三次衣服！"
+        },
+        {
+          "id": "1774893657290-2g3zy99lsq8",
+          "front": "essayer",
+          "back": "动词：试穿\n固定句型：Est-ce que je peux essayer ce pantalon ?\n中文：我可以试穿这条裤子吗？"
+        },
+        {
+          "id": "1774893657290-z4zn7j5zrxp",
+          "front": "mettre 的过去分词是？",
+          "back": "mis（不规则！）\n例：Elle a mis un pull rouge.\n中文：她穿上了一件红色毛衫。\n⚠️ TCF必考不规则过去分词"
+        },
+        {
+          "id": "1774893657290-8oy16ixc6se",
+          "front": "ça me va / ça ne me va pas",
+          "back": "固定表达：适合我 / 不适合我\n等于：ça me convient / ça ne me convient pas\n例：Le rouge, ça ne me va pas.\n中文：红色和我不搭。"
+        },
+        {
+          "id": "1774893657290-f8ipr80g0z5",
+          "front": "avoir besoin de + ???",
+          "back": "固定搭配：需要……\n接名词：j'ai besoin d'un pull\n接动词原形：j'ai besoin de dormir\n中文：我需要一件毛衫 / 我需要睡觉"
+        },
+        {
+          "id": "1774893657290-7oeo0i3kxmm",
+          "front": "avoir envie de + ???",
+          "back": "固定搭配：想要……\n接动词原形：j'ai envie de l'essayer\n中文：我想试试它\n类似：vouloir（更强烈）"
+        },
+        {
+          "id": "1774893657290-tj08mbpmmzm",
+          "front": "代词 en 的用法",
+          "back": "代替「de + 名词」或数量表达\n例：Tu en as au moins vingt.\n中文：你有至少20件（毛衫）了。\n⚠️ en 放在动词前，是TCF高频考点"
+        },
+        {
+          "id": "1774893657290-eqdvmec7kns",
+          "front": "se changer 的 passé composé（elle）",
+          "back": "elle s'est changée\n⚠️ 代动词用 être 助动词\n⚠️ 主语为女性，过去分词加 -e"
+        },
+        {
+          "id": "1774893657290-93relt10w3",
+          "front": "s'habiller 的 passé composé（je，女性）",
+          "back": "je me suis habillée\n结构：me suis + habillée\n⚠️ 女性主语加 -e\n中文：我穿好了衣服"
+        },
+        {
+          "id": "1774893657290-0zr7q6wztkz",
+          "front": "pleuvoir 的 passé composé",
+          "back": "il a plu\n⚠️ 不规则过去分词：plu\n助动词用 avoir\n中文：下雨了"
+        },
+        {
+          "id": "1774893657290-rlo1gm4x1sl",
+          "front": "un pull en laine",
+          "back": "羊毛毛衫\n结构：名词 + en + 材质（不用冠词！）\n✅ en laine / en coton / en cuir / en soie\n❌ de la laine（错误搭配）"
+        },
+        {
+          "id": "1774893657290-k23efw504m",
+          "front": "衣服材质怎么说？（4种）",
+          "back": "en coton 棉质\nen laine 羊毛\nen cuir 皮革\nen soie 丝绸\n固定结构：名词 + en + 材质"
+        },
+        {
+          "id": "1774893657290-rxwhyb306t",
+          "front": "des lunettes",
+          "back": "一副眼镜（永远用复数！）\n⚠️ 不能说 une lunette\ndes lunettes de soleil = 墨镜"
+        },
+        {
+          "id": "1774893657290-zhxrcmc2f3",
+          "front": "une tenue",
+          "back": "名词（阴性）：整体穿着 / outfit\nune tenue sportive 运动装\nune tenue professionnelle 职业装\n⚠️ TCF听力高频词"
+        },
+        {
+          "id": "1774893657290-k34ydgh3au",
+          "front": "un maillot de bain",
+          "back": "泳衣\nmaillot = 紧身衣\n例：Il faut un maillot de bain pour la piscine.\n中文：游泳池需要穿泳衣。"
+        },
+        {
+          "id": "1774893657290-a9sad0e9ips",
+          "front": "des chaussures à talons",
+          "back": "高跟鞋（阴性复数）\ntalons = 鞋跟\n对比：des baskets 运动鞋\ndes bottes 靴子\ndes sandales �凉鞋\ndes pantoufles 拖鞋"
+        },
+        {
+          "id": "1774893657290-107ydt3ss6rh",
+          "front": "un bijou → 复数是？",
+          "back": "des bijoux\n⚠️ 特殊复数：-ou → -oux\n同类：un genou → des genoux\n中文：首饰 / 珠宝"
+        },
+        {
+          "id": "1774893657290-ijtnfoxy23c",
+          "front": "Encore !",
+          "back": "语气词：又来了！/ 还要！\n表示惊讶或不满\n例：Encore ! Tu as déjà vingt pulls !\n中文：又来了！你已经有20件毛衫了！"
+        },
+        {
+          "id": "1774893657290-leyax5jevx",
+          "front": "au moins",
+          "back": "副词短语：至少\n对比：au plus = 至多\n例：Tu en as au moins vingt.\n中文：你至少有20件。"
+        },
+        {
+          "id": "1774893657290-phnm3ma36ne",
+          "front": "se souvenir de",
+          "back": "代动词：记得……\n例：Tu te souviens du pull gris ?\n中文：你还记得那件灰色毛衫吗？\n⚠️ 接 de + 名词"
+        },
+        {
+          "id": "1774893657290-xx8qqwob73s",
+          "front": "se rencontrer",
+          "back": "互动代动词：互相相遇\n例：Quand on s'est rencontrés...\n中文：当我们相遇的时候……\n⚠️ passé composé 用 être，复数加 -s"
+        }
+      ]
+    },
+    {
+      "id": 1774892970977,
+      "name": "A2 Lecon 9 TCF阅读 练习",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T17:49:30.977Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quel est le thème principal du texte sur DANS LE NOIR Paris ?\n（DANS LE NOIR Paris 文章的主题是什么？）",
+          "options": [
+            "Un restaurant où les serveurs sont célèbres（一家服务员很有名的餐厅）",
+            "Un restaurant où on mange sans voir（一家在黑暗中用餐的餐厅）",
+            "Un restaurant qui propose un menu en surprise pour les chefs（一家为厨师提供惊喜菜单的餐厅）",
+            "Un restaurant situé dans un musée（一家位于博物馆里的餐厅）"
+          ],
+          "correct": 1,
+          "explanation": "文章明确说明：les serveurs sont non-voyants，le repas se passe dans le noir complet。",
+          "category": "主旨题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « non-voyant » dans le texte ?\n（文中 « non-voyant » 是什么意思？）",
+          "options": [
+            "Quelqu'un qui ne parle pas（不会说话的人）",
+            "Quelqu'un qui ne peut pas voir（看不见的人）",
+            "Quelqu'un qui ne mange pas（不吃饭的人）",
+            "Quelqu'un qui ne travaille pas（不工作的人）"
+          ],
+          "correct": 1,
+          "explanation": "non-voyant = 视力障碍者、盲人，是 aveugle 的书面委婉表达。",
+          "category": "词义题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Selon le texte, pourquoi le menu est-il une surprise ?\n（根据文章，为什么菜单是个惊喜？）",
+          "options": [
+            "Parce que les plats changent tous les jours（因为菜每天都不同）",
+            "Parce qu'on ne peut pas lire le menu dans le noir（因为在黑暗中无法看菜单）",
+            "Parce que le chef invente de nouveaux plats chaque soir（因为厨师每晚发明新菜）",
+            "Parce que les prix ne sont pas indiqués（因为价格没有标出）"
+          ],
+          "correct": 1,
+          "explanation": "原文：Le menu est une surprise, vous ne verrez rien à la présentation. 在黑暗中，菜单无法被看到。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "D'après le texte sur DANS LE NOIR, ce restaurant est surtout recommandé pour :\n（根据文章，DANS LE NOIR 主要推荐给哪类人？）",
+          "options": [
+            "Les personnes qui aiment la cuisine française traditionnelle（喜欢传统法餐的人）",
+            "Les personnes qui n'aiment pas les odeurs（不喜欢气味的人）",
+            "Les personnes qui aiment vivre des expériences originales（喜欢与众不同体验的人）",
+            "Les personnes qui ne mangent pas de viande（不吃肉的人）"
+          ],
+          "correct": 2,
+          "explanation": "原文末句：Si vous êtes fin gourmet, c'est le meilleur endroit pour découvrir la nourriture autrement. 强调「不同方式」的体验。",
+          "category": "推断题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « de près » dans le texte sur LE PANORAMIC ?\n（在 LE PANORAMIC 的文章中，« de près » 是什么意思？）",
+          "options": [
+            "De loin（从远处）",
+            "À toute vitesse（飞速地）",
+            "En détail / à courte distance（近距离地）",
+            "Avec précaution（谨慎地）"
+          ],
+          "correct": 2,
+          "explanation": "de près = 近距离地，up close。原文：Venez l'admirer de près sans vous fatiguer.",
+          "category": "词义题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pour quelle raison le Panoramic Mont Blanc déconseille-t-il sa visite à certains clients ?\n（全景餐厅为何不建议某些客人前往？）",
+          "options": [
+            "Parce que le restaurant est trop cher（因为餐厅太贵）",
+            "Parce que le restaurant est difficile d'accès（因为餐厅难以到达）",
+            "Parce que le menu contient beaucoup de fromage（因为菜单含大量奶酪）",
+            "Parce que la vue n'est pas garantie（因为景色无法保证）"
+          ],
+          "correct": 2,
+          "explanation": "原文：Pour les allergiques au fromage, le mieux est d'éviter ce restaurant. 菜单中有 fondue, raclette, tartiflette，均为奶酪类菜肴。",
+          "category": "细节题"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez la phrase : Il est très _____ à la qualité des ingrédients.\n（完成句子：他非常注重食材的质量。）\n提示：用 « être attentif à » 结构中的形容词",
+          "correct": [
+            "attentif"
+          ],
+          "explanation": "固定结构：être attentif à = 注意……。此处主语 Il 为阳性单数，形容词用原形 attentif。",
+          "category": "语法填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que veut dire « ça vaut le coup d'œil » ?\n（« ça vaut le coup d'œil » 是什么意思？）",
+          "options": [
+            "C'est trop cher（太贵了）",
+            "Ça mérite d'être vu（值得一看）",
+            "C'est difficile à trouver（很难找到）",
+            "C'est dangereux（很危险）"
+          ],
+          "correct": 1,
+          "explanation": "valoir le coup d'œil = 值得一看，是固定习语。= worth a look/visit。",
+          "category": "习语题"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1bpebl8E2OMhB9fqV-oI7S58rbjuUE9wVR5t1_ft_U28/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774892922193-6xk1kccgy6p",
+          "front": "non-voyant",
+          "back": "视力障碍者，盲人（委婉表达）\n比 aveugle 更书面/正式\n例：Les serveurs sont non-voyants.\n（服务员是盲人。）"
+        },
+        {
+          "id": "1774892922193-lg1gavvbcn",
+          "front": "se passer",
+          "back": "发生，进行（代词动词）\n固定：Tout se passe bien. 一切进展顺利。\n例：Le repas se passe dans le noir.\n（用餐在黑暗中进行。）"
+        },
+        {
+          "id": "1774892922193-bj7fe9opoon",
+          "front": "être attentif à",
+          "back": "注意……，留意……（固定介词 à，不能用 de）\n例：Vous serez attentif aux odeurs.\n（你会注意到气味。）"
+        },
+        {
+          "id": "1774892922193-zf96pzd8pi",
+          "front": "autrement",
+          "back": "以不同的方式（副词）\n例：découvrir la nourriture autrement\n（以不同的方式探索美食）\n记忆钩子：autre（另外的）+ ment → 另外地"
+        },
+        {
+          "id": "1774892922193-xd6zd7h9j9i",
+          "front": "fin gourmet",
+          "back": "有品位的美食家\nfin 在此为形容词：精致的、敏锐的（放名词前）\n例：Si vous êtes fin gourmet, venez ici.\n（如果你是美食家，请来这里。）"
+        },
+        {
+          "id": "1774892922193-059r544t8ti9",
+          "front": "le moins + 形容词",
+          "back": "最不……的（否定最高级）\n⚠️ 与 le plus（最……的）方向相反\n例：le restaurant le moins ordinaire\n（最不普通的餐厅）"
+        },
+        {
+          "id": "1774892922193-0in09a4a7jrr",
+          "front": "le meilleur / la meilleure",
+          "back": "最好的（bon 的最高级，不规则）\nbon → meilleur → le meilleur\n例：C'est le meilleur endroit.\n（这是最好的地方。）"
+        },
+        {
+          "id": "1774892922193-ua4cix9vvr",
+          "front": "de près",
+          "back": "近距离地（固定副词短语）\n反义：de loin（从远处）\n例：Venez admirer le mont Blanc de près.\n（来近距离欣赏勃朗峰。）"
+        },
+        {
+          "id": "1774892922193-fn4w2v5jk0b",
+          "front": "sans + infinitif",
+          "back": "不做某事，without doing sth\n例：sans vous fatiguer（不让你疲劳）\n结构：sans + 动词原形（注意不加 pas）"
+        },
+        {
+          "id": "1774892922193-l4v6zcwmnuo",
+          "front": "déguster",
+          "back": "细细品尝，慢慢享受（比 manger 更高级）\n例：vous dégusterez d'excellentes spécialités\n（您将品尝绝佳特色菜）"
+        },
+        {
+          "id": "1774892922193-35h9ijrmeji",
+          "front": "la spécialité",
+          "back": "特色菜，特产（阴性名词）\n例：les spécialités de la région savoyarde\n（萨瓦地区的特色菜）"
+        },
+        {
+          "id": "1774892922193-2m1iz8l30w5",
+          "front": "allergique à",
+          "back": "对……过敏（固定介词 à）\n例：être allergique au fromage\n（对奶酪过敏）\n⚠️ 不能用 allergique de"
+        },
+        {
+          "id": "1774892922193-awetczzc6iu",
+          "front": "le mieux est de + infinitif",
+          "back": "最好……（固定句型，B1加分）\n例：le mieux est d'éviter ce restaurant.\n（最好避开这家餐厅。）"
+        },
+        {
+          "id": "1774892922193-78g01k1rkua",
+          "front": "valoir le coup d'œil",
+          "back": "值得一看（固定习语）\n= worth a look\nvaut = valoir 第三人称单数现在时（不规则）\n例：Ce restaurant vaut le coup d'œil.\n（这家餐厅值得一看。）"
+        },
+        {
+          "id": "1774892922193-3dxlrtjmmpm",
+          "front": "ça vaut le coup",
+          "back": "值得一试（口语，比 valoir le coup d'œil 更常用）\n例：Ça vaut le coup d'essayer !\n（值得一试！）"
+        },
+        {
+          "id": "1774892922193-mcusbkzce7c",
+          "front": "le panorama / panoramique",
+          "back": "全景 / 全景的\npanorama（阳性名词）\npanoramique（形容词，阴阳性同形）\n例：une vue panoramique（全景视野）"
+        },
+        {
+          "id": "1774892922193-or73wp4dqz",
+          "front": "du coin",
+          "back": "当地的，附近的（口语固定表达）\n例：la plus belle vue du coin\n（当地最美的景色）"
+        },
+        {
+          "id": "1774892922193-8cmepxjpdj8",
+          "front": "éviter",
+          "back": "避免，避开（动词）\n例：le mieux est d'éviter ce restaurant.\n（最好避开这家餐厅。）\n搭配：éviter de + inf. 避免做某事"
+        }
+      ]
+    },
+    {
       "id": 1773717034785,
       "name": "TCF A2 Lecon 8 听力练习2",
       "folderId": "1772686244763",
@@ -1415,7 +2100,7 @@
     },
     {
       "id": 1773713500690,
-      "name": "比较级 Le comparatif",
+      "name": "比较级/最高级 Le comparatif",
       "folderId": "1772683473645",
       "createdAt": "2026-03-17T02:11:40.690Z",
       "questions": [
@@ -1683,7 +2368,8 @@
       "lastPracticedAt": null,
       "reviewTexts": [],
       "reviewLinks": [
-        "https://docs.google.com/document/d/1OJ6Di-y6KxrUbBhnGoKNlAa8hjN96yNvIYbY24U1pQQ/edit?tab=t.0"
+        "https://docs.google.com/document/d/1OJ6Di-y6KxrUbBhnGoKNlAa8hjN96yNvIYbY24U1pQQ/edit?tab=t.0",
+        "https://docs.google.com/document/d/1n24oA62XbKwsdx_5wfO_uRQJu-nkCjTR2y8ylmT9ulA/edit?tab=t.0"
       ],
       "reviewImages": [],
       "cards": [
@@ -88523,12 +89209,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-17",
+    "date": "2026-03-30",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-17T03:13:39.599Z",
-  "importAllowedDeviceFingerprint": "12hg5e"
+  "exportedAt": "2026-03-30T18:10:36.306Z",
+  "importAllowedDeviceFingerprint": "1sogdkz"
 }
