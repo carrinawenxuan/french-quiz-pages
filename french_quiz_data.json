@@ -1,6 +1,731 @@
 {
   "savedSets": [
     {
+      "id": 1774894597129,
+      "name": "否定结构",
+      "folderId": "1772683473645",
+      "createdAt": "2026-03-30T18:16:37.129Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Il _____ venu hier soir.\n（他昨晚没来。）",
+          "options": [
+            "ne ... pas（不）",
+            "n'est ... pas（没有）",
+            "n'a ... pas（没有）",
+            "ne ... rien（什么都没）"
+          ],
+          "correct": 2,
+          "explanation": "venir 用 être 作助动词：Il n'est pas venu。注意不是 n'a pas venu。",
+          "category": "ne...pas 复合时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as déjà visité le Canada ?\n— Non, je _____ visité le Canada.\n（——你去过加拿大吗？——没有，我______去过加拿大。）",
+          "options": [
+            "n'ai jamais（从未）",
+            "n'ai plus（不再）",
+            "n'ai pas encore（还没有）",
+            "n'ai rien（什么都没）"
+          ],
+          "correct": 0,
+          "explanation": "déjà 提问 + 回答表示\"从来没有\"→ ne...jamais。如果是\"还没但以后可能会\"才用 pas encore。",
+          "category": "jamais vs pas encore"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu fumes encore ?\n— Non, je _____ .\n（——你还抽烟吗？——不，我______。）",
+          "options": [
+            "ne fume jamais（从不抽）",
+            "ne fume plus（不再抽）",
+            "ne fume rien（什么都不抽）",
+            "ne fume pas encore（还没抽）"
+          ],
+          "correct": 1,
+          "explanation": "encore 提问 → ne...plus 回答，表示\"不再\"。",
+          "category": "ne...plus"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as acheté quelque chose ?\n— Non, je _____ acheté.\n（——你买了什么东西吗？——没有，我什么都没买。）",
+          "options": [
+            "n'ai pas（没有）",
+            "n'ai plus（不再）",
+            "n'ai rien（什么都没）",
+            "n'ai personne（没有人）"
+          ],
+          "correct": 2,
+          "explanation": "quelque chose 提问 → ne...rien 回答。注意 rien 在复合时态中放在过去分词前面：n'ai rien acheté。",
+          "category": "ne...rien 复合时态"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Il y a quelqu'un dans la salle ?\n— Non, il n'y a _____ .\n（——房间里有人吗？——没有，。）",
+          "options": [
+            "rien（什么都没有）",
+            "jamais（从不）",
+            "plus（不再）",
+            "personne（没有人）"
+          ],
+          "correct": 3,
+          "explanation": "quelqu'un 提问 → ne...personne 回答。",
+          "category": "ne...personne"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_ ne m'intéresse dans ce magasin.\n（这家店里什么都不让我感兴趣。）",
+          "options": [
+            "Personne（没有人）",
+            "Rien（什么都不）",
+            "Pas（不）",
+            "Plus（不再）"
+          ],
+          "correct": 1,
+          "explanation": "\"什么都不\"作主语 → Rien ne + 动词。Personne 指人不指物。",
+          "category": "rien 作主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "___ n'était présent à la réunion.\n（没有人出席会议。）",
+          "options": [
+            "Rien（什么都不）",
+            "Personne（没有人）",
+            "Jamais（从不）",
+            "Plus（不再）"
+          ],
+          "correct": 1,
+          "explanation": "指\"没有人\"作主语 → Personne ne + 动词。",
+          "category": "personne 作主语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai vu _____ dans le parc.\n（我在公园里没看到任何人。）",
+          "options": [
+            "rien（什么都没）",
+            "personne（任何人）",
+            "jamais（从不）",
+            "plus（不再）"
+          ],
+          "correct": 1,
+          "explanation": "personne 在复合时态中放在过去分词后面：n'ai vu personne。注意与 rien 的位置区别（n'ai rien vu）。",
+          "category": "personne 位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne veux _____ manger ce soir.\n（我今晚什么都不想吃。）",
+          "options": [
+            "pas（不）",
+            "rien（什么都不）",
+            "personne（任何人）",
+            "plus（不再）"
+          ],
+          "correct": 1,
+          "explanation": "双动词结构中 rien 放在不定式前面：ne veux rien manger。",
+          "category": "rien 双动词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne peux voir _____ dans la rue.\n（我在街上看不到任何人。）",
+          "options": [
+            "rien（什么都不）",
+            "personne（任何人）",
+            "pas（不）",
+            "jamais（从不）"
+          ],
+          "correct": 1,
+          "explanation": "双动词结构中 personne 放在不定式后面：ne peux voir personne。与 rien 不同（ne peux rien voir）。",
+          "category": "personne 双动词位置"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Toutes les réponses ne sont pas _____ .\n（并非所有答案都是正确的。）",
+          "options": [
+            "correctes（正确的）",
+            "incorrectes（不正确的）",
+            "fausses（错误的）",
+            "vraies（真的）"
+          ],
+          "correct": 0,
+          "explanation": "Toutes...ne...pas = 部分否定，意思是\"并非所有都……\"。这里表示\"不是所有答案都对\"。",
+          "category": "部分否定 tout"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ de ces étudiants n'a réussi l'examen.\n（这些学生没有一个通过考试。）",
+          "options": [
+            "Tous（所有）",
+            "Toutes（所有）",
+            "Aucun（没有一个）",
+            "Chaque（每一个）"
+          ],
+          "correct": 2,
+          "explanation": "全部否定\"没有任何一个\"→ Aucun(e)...ne。étudiants 是阳性复数，用 Aucun。",
+          "category": "aucun vs tout 全部否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne travaille pas _____ .\n（他干得不多。）",
+          "options": [
+            "jamais（从不）",
+            "beaucoup（很多）",
+            "rien（什么都不）",
+            "encore（还）"
+          ],
+          "correct": 1,
+          "explanation": "这是部分否定：ne...pas beaucoup = 干得不多（≠ 不干活）。pas 否定的是 beaucoup 而不是动词本身。",
+          "category": "部分否定"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu as déjà fini ton travail ?\n— Non, je _____ fini.\n（——你已经做完工作了吗？——没有，我还没做完。）",
+          "options": [
+            "n'ai jamais（从未）",
+            "n'ai pas encore（还没有）",
+            "n'ai plus（不再）",
+            "n'ai rien（什么都没）"
+          ],
+          "correct": 1,
+          "explanation": "déjà 提问 + 语境暗示\"还没完成但将来会完成\"→ ne...pas encore。如果是\"从来没做过\"才用 jamais。",
+          "category": "pas encore vs jamais"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中，否定词的位置是正确的？",
+          "options": [
+            "Je n'ai rien mangé.（我什么都没吃。）",
+            "Je n'ai mangé rien.（我什么都没吃。）",
+            "Je n'ai vu personne.（我没看到任何人。）",
+            "Je n'ai personne vu.（我没看到任何人。）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "rien 在过去分词前（n'ai rien mangé ✓），personne 在过去分词后（n'ai vu personne ✓）。B 和 D 位置颠倒，错误。",
+          "category": "rien vs personne 位置"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ ne veut m'aider.\n（没有人愿意帮我。）",
+          "correct": [
+            "Personne"
+          ],
+          "explanation": "指\"没有人\"作主语 → Personne ne + 动词。",
+          "category": "personne 作主语"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ n'a changé depuis notre dernière rencontre.\n（自从我们上次见面以来什么都没变。）",
+          "correct": [
+            "Rien"
+          ],
+          "explanation": "指\"什么都没有\"作主语 → Rien ne + 动词。",
+          "category": "rien 作主语"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Tu connais _____ (quelqu'un) ici ?\n— Non, je ne connais _____ ici.\n（——你认识这里的人吗？——不，我谁都不认识。）",
+          "correct": [
+            "quelqu'un",
+            "personne"
+          ],
+          "explanation": "第一空是肯定疑问句用 quelqu'un，第二空否定回答用 personne。",
+          "category": "quelqu'un → personne 配对"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1VNGyUQIpuS72bCzWSwdNKHrXF2YaGYb9HvlOI7d1I_Q/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774894671319-24qhhnyr4ec",
+          "front": "ne ... pas\n基础否定",
+          "back": "不，没有\n最基础的否定结构\n例：Il n'est pas venu.（他没来。）"
+        },
+        {
+          "id": "1774894671319-b2nehgyzts",
+          "front": "ne ... pas encore\n对应肯定词？",
+          "back": "还没有\n对应肯定词：déjà（已经）\n例：Je ne l'ai pas encore acheté.（我还没买。）"
+        },
+        {
+          "id": "1774894671319-8xw0wy260g8",
+          "front": "ne ... jamais\n对应肯定词？",
+          "back": "从未；永远不\n对应肯定词：déjà（已经）/ toujours（总是）\n例：Je n'ai jamais visité Paris.（我从没去过巴黎。）"
+        },
+        {
+          "id": "1774894671319-cr3zt5c6ann",
+          "front": "ne ... plus\n对应肯定词？",
+          "back": "不再\n对应肯定词：encore（还）/ toujours（一直）\n例：Je ne fume plus.（我不再抽烟了。）"
+        },
+        {
+          "id": "1774894671319-fytmr3ltkjq",
+          "front": "ne ... rien\n对应肯定词？",
+          "back": "什么都不 / 没有什么东西\n对应肯定词：quelque chose（某些东西）\n例：Je n'ai rien acheté.（我什么都没买。）"
+        },
+        {
+          "id": "1774894671319-64av1cb5aku",
+          "front": "ne ... personne\n对应肯定词？",
+          "back": "没有任何人\n对应肯定词：quelqu'un（某人）\n例：Il n'y a personne.（一个人也没有。）"
+        },
+        {
+          "id": "1774894671319-r3bmnyjmw8",
+          "front": "rien 在复合时态中放哪里？",
+          "back": "放在过去分词【前面】\nJe n'ai rien mangé. ✓\nJe n'ai mangé rien. ✗"
+        },
+        {
+          "id": "1774894671319-zm6ebaz116",
+          "front": "personne 在复合时态中放哪里？",
+          "back": "放在过去分词【后面】\nJe n'ai vu personne. ✓\nJe n'ai personne vu. ✗"
+        },
+        {
+          "id": "1774894671319-9nscrj2st1a",
+          "front": "rien 在双动词结构中放哪里？",
+          "back": "放在不定式【前面】\nJe ne veux rien manger. ✓\n（我什么都不想吃。）"
+        },
+        {
+          "id": "1774894671319-0bigrzycz95",
+          "front": "personne 在双动词结构中放哪里？",
+          "back": "放在不定式【后面】\nJe ne peux voir personne. ✓\n（我看不到任何人。）"
+        },
+        {
+          "id": "1774894671319-gbrs7d0tp0a",
+          "front": "rien 作主语怎么用？",
+          "back": "Rien ne + 动词\nRien ne m'intéresse.（什么都不让我感兴趣。）\nRien n'a changé.（什么都没变。）"
+        },
+        {
+          "id": "1774894671319-7licmhx81w",
+          "front": "personne 作主语怎么用？",
+          "back": "Personne ne + 动词\nPersonne ne s'intéresse à notre livre.（没人对我们的书感兴趣。）\nPersonne n'était dans la classe.（教室里没人。）"
+        },
+        {
+          "id": "1774894671319-8ht8ibwztl8",
+          "front": "rien vs personne 位置记忆口诀",
+          "back": "rien 短小轻便，紧贴动词前\npersonne 像个“大人”，总甩在最后面\n\n复合时态：n'ai rien mangé vs n'ai vu personne\n双动词：ne veux rien manger vs ne peux voir personne"
+        },
+        {
+          "id": "1774894690719-n2vwsttg3f",
+          "front": "déjà 提问，怎么否定回答？\n两种情况分别用什么？",
+          "back": "① 从来没有 → ne ... jamais\nTu as déjà visité Paris ? → Non, je n'ai jamais visité Paris.\n② 还没有（将来可能会）→ ne ... pas encore\nTu as déjà fini ? → Non, je n'ai pas encore fini."
+        },
+        {
+          "id": "1774894690719-924222lxn6s",
+          "front": "encore / toujours 提问，怎么否定回答？",
+          "back": "ne ... plus（不再）\nTu fumes encore ? → Non, je ne fume plus.\n（你还抽烟吗？→ 不，我不再抽了。）"
+        },
+        {
+          "id": "1774894690719-7mrtbm4dgxk",
+          "front": "quelque chose 提问，怎么否定回答？",
+          "back": "ne ... rien（什么都没有）\nTu as acheté quelque chose ? → Non, je n'ai rien acheté.\n（你买了东西吗？→ 没有，什么都没买。）"
+        },
+        {
+          "id": "1774894690719-6efs08m0xvj",
+          "front": "quelqu'un 提问，怎么否定回答？",
+          "back": "ne ... personne（没有任何人）\nTu connais quelqu'un ici ? → Non, je ne connais personne ici.\n（你认识这里的人吗？→ 不，谁都不认识。）"
+        },
+        {
+          "id": "1774894690719-e5qgs8svihf",
+          "front": "全部否定 vs 部分否定\nToutes les phrases ne sont pas correctes.\n是什么意思？",
+          "back": "部分否定：不是所有句子都正确（not all...）\n≠ 所有句子都不正确\n\n注意：tout 系列在否定句中，pas 否定的是 tout 而不是动词。"
+        },
+        {
+          "id": "1774894690719-l3gq7epkbsg",
+          "front": "怎么表达\"没有任何一个\"（全部否定）？",
+          "back": "Aucun(e) ... ne\nAucune de ces phrases n'est correcte.\n（这些句子没有一个是对的。= none of...）\n\n区分：Toutes...ne...pas = 并非所有（部分否定）\nAucun(e)...ne = 没有任何一个（全部否定）"
+        },
+        {
+          "id": "1774894690719-uj4ec4rlh4",
+          "front": "部分否定是什么意思？\n举例说明",
+          "back": "否定的不是动词本身，而是动词的修饰成分\n\nIl ne travaille pas. = 他不干活（全部否定）\nIl ne travaille pas beaucoup. = 他干得不多（部分否定，他还是干活的）"
+        },
+        {
+          "id": "1774894690719-d6mjzv7i1tk",
+          "front": "Il ne fume pas comme moi.\n是全部否定还是部分否定？",
+          "back": "部分否定\n= Il fume, mais pas comme moi.\n他吸烟，但不像我那样吸。\npas 否定的是 comme moi，不是 fume。"
+        },
+        {
+          "id": "1774894690719-8jgte0x01or",
+          "front": "TCF 3秒排除法\n否定词配对速查",
+          "back": "déjà → jamais / pas encore\nencore / toujours → plus\nquelque chose → rien\nquelqu'un → personne\n\n看到提问关键词，立刻锁定否定词！"
+        },
+        {
+          "id": "1774894690719-2wn4ere2sa7",
+          "front": "ne...pas 在复合时态中的位置",
+          "back": "ne + 助动词 + pas + 过去分词\nJe n'ai pas mangé.（我没吃。）\nIl n'est pas venu.（他没来。）"
+        },
+        {
+          "id": "1774894690719-um845hiz76e",
+          "front": "ne...pas 在双动词结构中的位置",
+          "back": "ne + 变位动词 + pas + 不定式\nJe ne veux pas manger.（我不想吃。）\nIl ne peut pas venir.（他不能来。）"
+        },
+        {
+          "id": "1774894690719-1kr9x247g19",
+          "front": "Aucun 的阴阳性变化",
+          "back": "阳性：aucun\n阴性：aucune\n\nAucun étudiant n'a réussi.（没有一个男学生通过。）\nAucune étudiante n'a réussi.（没有一个女学生通过。）\n\n注意：aucun(e) 永远用单数！"
+        }
+      ]
+    },
+    {
+      "id": 1774894533622,
+      "name": "TCF A2 Lecon 10 听力练习1",
+      "folderId": "1772686244763",
+      "createdAt": "2026-03-30T18:15:33.622Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "La vendeuse demande : « Quelle est votre _____ ? » La cliente répond : « Je fais du 39. » De quoi parle-t-on ?\n（售货员问：\"您的_____是多少？\"顾客回答：\"我穿39号。\"这里在说什么？）",
+          "options": [
+            "taille（尺码）",
+            "pointure（鞋码）",
+            "modèle（款式）",
+            "matière（材质）"
+          ],
+          "correct": 1,
+          "explanation": "39 是鞋码范围，所以用 pointure。衣服尺码（taille）一般是 S/M/L 或 36/38/40 等偶数。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La cliente dit : « Ça me plaît beaucoup, mais ça ne me _____ pas. »\n（顾客说：\"我很喜欢，但不_____我。\"）",
+          "options": [
+            "va（合适）",
+            "fait（做）",
+            "trouve（找到）",
+            "met（穿上）"
+          ],
+          "correct": 0,
+          "explanation": "plaît = 喜欢（主观感受），va = 合身（客观适合）。ça ne me va pas = 不适合我。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je préfère celui-là. » Que désigne « celui-là » ?\n（\"我更喜欢那个。\"celui-là 指的是什么？）",
+          "options": [
+            "un objet proche（近处的物品）",
+            "un objet éloigné（远处的物品）",
+            "une personne（一个人）",
+            "un lieu（一个地方）"
+          ],
+          "correct": 1,
+          "explanation": "celui-ci = 近指（这个），celui-là = 远指（那个）。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La vendeuse : « C'est pour quelle _____ ? » La cliente : « C'est pour un mariage. »\n（售货员：\"是什么_____穿的？\"顾客：\"是参加婚礼。\"）",
+          "options": [
+            "taille（尺码）",
+            "saison（季节）",
+            "occasion（场合）",
+            "couleur（颜色）"
+          ],
+          "correct": 2,
+          "explanation": "C'est pour quelle occasion ? 是问场合。un mariage（婚礼）是具体场合。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le pantalon est trop _____. Je ne peux pas le fermer.\n（裤子太_____了，我拉不上拉链。）",
+          "options": [
+            "léger（薄的）",
+            "large（宽的）",
+            "serré（紧的）",
+            "chaud（厚的）"
+          ],
+          "correct": 2,
+          "explanation": "serré = 紧的。裤子太紧所以拉不上。large 是宽松，正好相反。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Cette robe est très . Elle ne change jamais, ni au masculin ni au pluriel.\n（这条裙子很。这个词阴阳性和复数都不变。）",
+          "options": [
+            "élégante（优雅的）",
+            "originale（新颖的）",
+            "mignonne（可爱的）",
+            "chic（精致的）"
+          ],
+          "correct": 3,
+          "explanation": "chic 是不变形容词，没有阴性或复数变化。其他三个都有阴阳性变化。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "En été, on porte des vêtements .\n（夏天，人们穿_____的衣服。）",
+          "options": [
+            "chauds（厚的）",
+            "serrés（紧的）",
+            "légers（薄的）",
+            "ridicules（可笑的）"
+          ],
+          "correct": 2,
+          "explanation": "léger = 轻薄的，适合夏天。chaud = 保暖的/厚的，适合冬天。",
+          "category": "词汇"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Comment trouvez-vous cette robe ? » est équivalent à :\n（\"您觉得这条裙子怎么样？\"等同于：）",
+          "options": [
+            "Vous la trouvez comment ?（您觉得它怎么样？）",
+            "Où est cette robe ?（这条裙子在哪？）",
+            "Vous cherchez une robe ?（您在找裙子吗？）",
+            "C'est combien, cette robe ?（这条裙子多少钱？）"
+          ],
+          "correct": 0,
+          "explanation": "Comment trouvez-vous... ? = Vous la trouvez comment ? 两句意思完全相同，都是询问评价。",
+          "category": "句型"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "— Vous faites quelle taille ?\n— Je _____ du M.\n（——您穿多大号？——我穿M号。）",
+          "correct": [
+            "fais"
+          ],
+          "explanation": "faire du + 尺码 = 穿……号。je 对应 fais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La cliente dit : « Je ne trouve jamais ce que je veux. » Que signifie « ce que » ?\n（顾客说：\"我从来找不到我想要的东西。\"ce que 是什么意思？）",
+          "options": [
+            "what（……的东西）",
+            "where（……的地方）",
+            "who（……的人）",
+            "when（……的时候）"
+          ],
+          "correct": 0,
+          "explanation": "ce que = what，引导宾语从句，表示\"……的东西\"。ce que je veux = 我想要的东西。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'y a _____ dans la cabine, vous pouvez entrer.\n（试衣间里没，您可以进去。）",
+          "options": [
+            "rien（什么也没有）",
+            "jamais（从不）",
+            "personne（没有人）",
+            "plus（不再）"
+          ],
+          "correct": 2,
+          "explanation": "il n'y a personne = 没有人。rien = 没有东西；jamais = 从不；plus = 不再。这里问的是有没有人。",
+          "category": "否定结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La cliente a un peu _____ et le 40 ne lui va plus.\n（顾客有点_____了，40号不再适合她了。）",
+          "options": [
+            "maigri（瘦了）",
+            "grandi（长高了）",
+            "grossi（胖了）",
+            "vieilli（老了）"
+          ],
+          "correct": 2,
+          "explanation": "grossir = 变胖。j'ai grossi = 我胖了（passé composé）。裤子变紧是因为胖了。",
+          "category": "词汇"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels adjectifs peuvent signifier « élégant » dans le contexte de la mode ?\n（在时尚语境中，哪些形容词可以表示\"优雅的\"？）",
+          "options": [
+            "chic（精致的）",
+            "habillé（讲究的）",
+            "serré（紧的）",
+            "moche（丑的）"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "chic 和 habillé 都可以表示优雅、得体。serré = 紧的，moche = 丑的，都与\"优雅\"无关。",
+          "category": "同义替换"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quelqu'un l'a _____. (voler)\n（有人把它_____了。）",
+          "correct": [
+            "volé"
+          ],
+          "explanation": "voler 的过去分词是 volé。passé composé: a volé。助动词用 avoir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La cliente dit : « Je ne vois rien. » Cela signifie :\n（顾客说：\"Je ne vois rien。\"意思是：）",
+          "options": [
+            "Je vois quelque chose.（我看到了什么东西。）",
+            "Je ne vois pas quelqu'un.（我没看到某个人。）",
+            "Je ne vois absolument rien.（我什么也没看到。）",
+            "Je vois tout.（我全看到了。）"
+          ],
+          "correct": 2,
+          "explanation": "ne...rien = 什么也没有。je ne vois rien = 我什么也没看到。",
+          "category": "否定结构"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1sBkvpN_AvVY00L1virvXCXuf8sxeUxOv9i6xPh7apmQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774894531541-ena75oau60a",
+          "front": "taille vs pointure",
+          "back": "taille = 衣服尺码（Je fais du M / du 40）\npointure = 鞋码（Je fais du 39）\n⚠️ TCF 听力必考区分"
+        },
+        {
+          "id": "1774894531541-6guee9pyx7o",
+          "front": "Ça me plaît vs Ça me va",
+          "back": "plaît = 我喜欢（主观感受）\nva = 适合我（客观合身）\nÇa me plaît beaucoup. = 我很喜欢。\nÇa ne me va pas. = 不适合我。"
+        },
+        {
+          "id": "1774894531541-6s2srqfxpej",
+          "front": "celui-ci vs celui-là",
+          "back": "celui-ci = 这个（近指）\ncelui-là = 那个（远指）\n阴性：celle-ci / celle-là\n复数：ceux-ci / ceux-là / celles-ci / celles-là"
+        },
+        {
+          "id": "1774894531541-j4ovbqscsbs",
+          "front": "faire du + 数字/字母（穿……号）",
+          "back": "Je fais du 38. = 我穿38号。\nJe fais du M. = 我穿M号。\n⚠️ 不是\"做\"的意思，是表示尺码"
+        },
+        {
+          "id": "1774894531541-0e2kpzhzuau",
+          "front": "C'est pour quelle occasion ?",
+          "back": "是什么场合穿的？\nun entretien（面试）\nun mariage（婚礼）\nune soirée（晚会）"
+        },
+        {
+          "id": "1774894531541-p4yrraewth",
+          "front": "Comment trouvez-vous cette robe ?",
+          "back": "您觉得这条裙子怎么样？\n= Vous la trouvez comment ?\n两句完全同义，第二句更口语"
+        },
+        {
+          "id": "1774894531541-vclogx7mho",
+          "front": "serré,e",
+          "back": "紧的（tight）\n反义词：large（宽松的）\nLe pantalon est trop serré. = 裤子太紧了。"
+        },
+        {
+          "id": "1774894531541-ydj62vj3f0s",
+          "front": "léger, légère",
+          "back": "轻的、薄的（light）\ndes vêtements légers = 薄的衣服\n⚠️ 听到 léger 暗示夏天/暖季"
+        },
+        {
+          "id": "1774894531541-4uzqlo1csm9",
+          "front": "des vêtements chauds",
+          "back": "厚的 / 保暖的衣服（warm clothes）\n⚠️ chaud 在这里不是\"热的\"，是\"保暖的\""
+        },
+        {
+          "id": "1774894531541-6p1hbxrostv",
+          "front": "chic（不变形容词）",
+          "back": "精致的、漂亮的（stylish）\n⚠️ 阴阳性、单复数都不变\nune robe chic / des robes chic"
+        },
+        {
+          "id": "1774894531541-kqi5oidjhsf",
+          "front": "moche",
+          "back": "丑的（ugly）\n口语词，TCF 正式表达用 laid,e\n⚠️ 听力对话中可能出现 moche"
+        },
+        {
+          "id": "1774894531541-yopes1plh2l",
+          "front": "habillé,e",
+          "back": "讲究的、得体的（dressy, formal）\n⚠️ 形容衣服时 ≠ 穿衣服\nune veste très habillée = 一件很得体的上衣"
+        },
+        {
+          "id": "1774894531541-jnkj0qiwpvl",
+          "front": "un ensemble",
+          "back": "n.m. 一套衣服（outfit, set）\n指上衣+裤子/裙子的成套服装\n≠ un costume（西装）"
+        },
+        {
+          "id": "1774894531541-ouz14nlnymd",
+          "front": "un foulard",
+          "back": "n.m. 纱巾、丝巾（scarf）\n比 écharpe（冬天厚围巾）更轻薄"
+        },
+        {
+          "id": "1774894531541-2drik74n23p",
+          "front": "ce que je veux",
+          "back": "我想要的东西\nce que = what（引导宾语从句）\nJe ne trouve jamais ce que je veux.\n= 我从来找不到我想要的东西。"
+        },
+        {
+          "id": "1774894531541-jvlgn4i0its",
+          "front": "en（代词）在购物场景中",
+          "back": "代替前面提到的物品\nVous en avez encore ? = 你们还有吗？\nNous en avons beaucoup. = 我们有很多。\n⚠️ TCF 爱考 en 到底指代什么"
+        },
+        {
+          "id": "1774894531541-qknjt9h31fc",
+          "front": "il n'y a personne",
+          "back": "没有人\nne...personne = nobody\nIl n'y a personne dans la cabine.\n= 试衣间里没有人。"
+        },
+        {
+          "id": "1774894531541-m7tzg620jti",
+          "front": "je ne vois rien",
+          "back": "我什么也没看到\nne...rien = nothing\n⚠️ 区分 rien（东西）vs personne（人）"
+        },
+        {
+          "id": "1774894531541-10u1cx2idjql",
+          "front": "ne...plus",
+          "back": "不再\nLe 40 ne me va plus. = 40号不再适合我了。\n⚠️ 听力中 ne 可能弱读"
+        },
+        {
+          "id": "1774894531541-vzzr6w7ojuc",
+          "front": "ne...jamais",
+          "back": "从不\nJe ne trouve jamais ce que je veux.\n= 我从来找不到我想要的东西。"
+        },
+        {
+          "id": "1774894531541-6solu7d06xw",
+          "front": "grossir（passé composé）",
+          "back": "变胖\nj'ai grossi = 我胖了\n反义词：maigrir（变瘦）\n⚠️ 第二组动词（-ir），助动词用 avoir"
+        },
+        {
+          "id": "1774894531541-mqfll555yal",
+          "front": "voler（passé composé）",
+          "back": "偷\nQuelqu'un l'a volé. = 有人偷走了它。\n过去分词：volé\n助动词：avoir"
+        },
+        {
+          "id": "1774894531541-arthgpy1cwp",
+          "front": "Ça me plaît beaucoup, je vais les essayer.",
+          "back": "我很喜欢，我要试穿它们。\nje vais + inf. = futur proche（最近将来时）\nles = 代替前面提到的衣服"
+        },
+        {
+          "id": "1774894531541-0hrl6pgtwoid",
+          "front": "La cabine est à droite.",
+          "back": "试衣间在右边。\nà droite = 在右边\nà gauche = 在左边\ntout droit = 直走"
+        },
+        {
+          "id": "1774894531541-m8i75btzyph",
+          "front": "Quel est le prix ? = Combien ça coûte ?",
+          "back": "多少钱？\n两句完全同义\ncoûter = 花费（值多少钱）"
+        },
+        {
+          "id": "1774894531541-a74yw460sps",
+          "front": "cintré,e",
+          "back": "收腰的、收紧腰身的（fitted at the waist）\nune veste cintrée = 一件收腰上衣"
+        },
+        {
+          "id": "1774894531541-homk3ywh7zq",
+          "front": "mignon, mignonne",
+          "back": "可爱的（cute）\n阳性：mignon\n阴性：mignonne\n⚠️ 注意阴性双写 n"
+        },
+        {
+          "id": "1774894531541-0adclm8ylic",
+          "front": "original,e",
+          "back": "新颖的、有创意的（original）\n阳性：original\n阴性：originale\n⚠️ 阳性复数：originaux"
+        },
+        {
+          "id": "1774894531541-5agkgrherrg",
+          "front": "à la mode vs à la française",
+          "back": "à la mode = 时尚的（fashionable）\nà la française = 法式的（French-style）\n两个都是固定表达，不变形"
+        },
+        {
+          "id": "1774894531541-jgyqizb84bs",
+          "front": "fermé,e vs ouvert,e",
+          "back": "fermé,e = 关闭的（closed）\nouvert,e = 打开的（open）\nElle est fermée. = 它（门）是关着的。\n配合 être 使用"
+        }
+      ]
+    },
+    {
       "id": 1774894225126,
       "name": "复合过去时配合",
       "folderId": "1772683473645",
@@ -219,7 +944,7 @@
     },
     {
       "id": 1774893659318,
-      "name": "A2 Lecon 9 TCF听力 练习",
+      "name": "TCF A2 Lecon 9 听力练习",
       "folderId": "1772686244763",
       "createdAt": "2026-03-30T18:00:59.318Z",
       "questions": [
@@ -89215,6 +89940,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-30T18:10:36.306Z",
+  "exportedAt": "2026-03-30T18:18:14.167Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
