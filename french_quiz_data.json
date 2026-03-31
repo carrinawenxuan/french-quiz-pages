@@ -1,8 +1,1039 @@
 {
   "savedSets": [
     {
+      "id": 1774928082219,
+      "name": "Unit 2 Imparfait  -RE 结尾动词",
+      "folderId": "1771907837913",
+      "createdAt": "2026-03-31T03:34:42.219Z",
+      "questions": [
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. sourire: nous souri_____. Vous _____ sur cette photo. \n2. lire: nous li_____. Nous _____ des magazines. \n3. apprendre: nous appre_____. Je _____ facilement. \n4. entendre: nous enten_____. On _____ des bruits étranges.",
+          "correct": [
+            "ons",
+            "souriiez",
+            "sons",
+            "lisions",
+            "nions",
+            "apprenais",
+            "dons",
+            "entendait"
+          ],
+          "explanation": "本题考察未完成过去时（Imparfait）的构成：以直陈式现在时复数第一人称（nous）的词根为基础，加上词尾 -ais, -ais, -ait, -ions, -iez, -aient。注意 sourire 的 nous 变位是 sourions，去 -ons 后加 -iez 变为 souriiez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Hier, quand nous ______ (rire) ensemble, c'était merveilleux.",
+          "options": [
+            "rions",
+            "riions",
+            "riez",
+            "riaient"
+          ],
+          "correct": 1,
+          "explanation": "TCF 高频陷阱：动词 rire 的 Imparfait nous/vous 变位会出现双写 'i'。现在时为 nous rions，未完成过去时词根为 ri-，加上 -ions 后变为 riions。口诀：现在单i，过去双i。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Au début de mon séjour en France, je _____ beaucoup à mes parents, je leur _____ que tout _____ bien. En fait, je _____ très seul. Je _____ quand les gens _____ des plaisanteries car je _____ ce qu'ils _____. Je _____ dans les rues... La vie _____ facile !",
+          "correct": [
+            "écrivais",
+            "disais",
+            "allait",
+            "me sentais",
+            "ne riais pas",
+            "faisaient",
+            "ne comprenais pas",
+            "disaient",
+            "me perdais",
+            "n'était pas"
+          ],
+          "explanation": "本题考察段落逻辑与 Imparfait 的配合。需根据词库（écrire, dire, aller, se sentir, ne pas rire, faire, ne pas comprendre, se perdre, ne pas être）选择合适的动词并按主语变位。注意否定句 ne...pas 的位置。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：À l'époque, ils ne ______ (comprendre) jamais mes explications.",
+          "options": [
+            "comprenaient",
+            "comprenait",
+            "comprendent",
+            "comprendraient"
+          ],
+          "correct": 0,
+          "explanation": "TCF 陷阱点：区分 -re 结尾动词的现在时与 Imparfait。comprendre 的 nous 形式是 comprenons，词根为 compren-，加上 ils 的词尾 -aient。选项 2 为单数，选项 3 为误造词，选项 4 为条件式。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Autrefois, nous ______ (attendre) le bus pendant des heures.",
+          "options": [
+            "attendons",
+            "attendiez",
+            "attendions",
+            "attendaient"
+          ],
+          "correct": 2,
+          "explanation": "注意 nous 词尾为 -ions。选项 1 是现在时，选项 2 是 vous 变位，选项 4 是 ils/elles 变位。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Mes parents ______ (se plaindre) toujours du bruit dans ce quartier.",
+          "options": [
+            "se plaindaient",
+            "se plaignaient",
+            "se plaignent",
+            "se plaignait"
+          ],
+          "correct": 1,
+          "explanation": "陷阱点：-ndre 结尾动词（如 plaindre, peindre）在复数及 Imparfait 中会出现 g。词根为 plaign-。主语为复数，选 -aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：À cette époque-là, je ______ (craindre) le noir.",
+          "correct": [
+            "craignais"
+          ],
+          "explanation": "动词 craindre 的词根变化。第一人称 je 对应的 Imparfait 词尾是 -ais。正确拼写：craign- + ais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Est-ce que tu ______ (apprendre) le piano quand tu étais petit ?",
+          "options": [
+            "apprenais",
+            "apprenait",
+            "apprendais",
+            "appris"
+          ],
+          "correct": 0,
+          "explanation": "apprendre 的 Imparfait 变位。词根是 appren-，tu 对应词尾 -ais。选项 2 词尾错，选项 3 词根错，选项 4 是复合过去时。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mais autrefois, une femme _____ (être) moins libre. Elle _____ (dépendre) plus de son mari : elle ne _____ (conduire) pas, elle n' _____ (avoir) pas son propre compte en banque. Elle _____ (sortir) rarement seule le soir...",
+          "correct": [
+            "était",
+            "dépendait",
+            "conduisait",
+            "avait",
+            "sortait"
+          ],
+          "explanation": "考察使用 Imparfait 描述过去习惯或状态。être 是唯一的特殊变位（词根 ét-）。conduire 的词根是 conduis-。",
+          "category": "综合运用"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Avant l'invention de l'avion, on ______ (prendre) le bateau pour traverser l'Atlantique.",
+          "correct": [
+            "prenait"
+          ],
+          "explanation": "prendre 的词根是 pren-（来自 nous prenons），on 对应词尾 -ait。切记不要写成 prendait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Mais autrefois, une femme _____ (être) moins libre. Elle _____ (dépendre) de son mari : elle _____ (conduire) peu, elle _____ (avoir) rarement son propre compte. Elle _____ (sortir) seule le soir ? Non, elle _____ (aller) au cinéma accompagnée. Elle _____ (prendre) le train mais pas l'avion. Elle _____ (faire) la vaisselle à la main.",
+          "correct": [
+            "était",
+            "dépendait",
+            "conduisait",
+            "avait",
+            "sortait",
+            "allait",
+            "prenait",
+            "faisait"
+          ],
+          "explanation": "本题综合考察过去状态的描写。注意 être 的特殊词根 ét-；conduire 需变位为 conduis-；faire 的词根为 fais- (发音为 /fə/)。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：À cette époque, nous ______ (faire) toujours nos devoirs ensemble.",
+          "options": [
+            "faisons",
+            "faisaient",
+            "faisions",
+            "faites"
+          ],
+          "correct": 2,
+          "explanation": "TCF 高频考点：faire 的 Imparfait 词根是 fais-。nous 对应的词尾是 -ions。选项 0 为现在时，选项 1 为复数三人称，选项 3 为现在时 vous 变位。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Est-ce que vous vous ______ (servir) de ce dictionnaire hier ?",
+          "options": [
+            "serviez",
+            "serviriez",
+            "servez",
+            "servaient"
+          ],
+          "correct": 0,
+          "explanation": "代动词的未完成过去时。词根 serv- + 词尾 -iez。选项 1 是条件式，选项 2 是现在时，选项 3 是复数三人称。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "TCF 陷阱题：Ils ______ (vouloir) partir, mais il pleuvait trop.",
+          "correct": [
+            "voulaient"
+          ],
+          "explanation": "vouloir 的词根为 voul-，配合 ils 使用词尾 -aient。注意与条件式 voudraient 区分。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Le style de vie de mes parents _____ (être) très différent. Ils _____ (habiter) à la campagne. Ils _____ (écrire) des lettres car ils n'_____ (avoir) pas de portable. Mon père _____ (dire) que c'_____ (être) une époque plus tranquille.",
+          "correct": [
+            "était",
+            "habitaient",
+            "écrivaient",
+            "avaient",
+            "disait",
+            "était"
+          ],
+          "explanation": "描述父母一代的生活方式属于“过去习惯或背景”，必须使用 Imparfait。注意 écrire -> écrivaient 和 avoir -> avaient 的拼写。",
+          "category": "综合运用"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Quand j'étais petit, mon grand-père me ______ (dire) souvent de lire.",
+          "options": [
+            "disais",
+            "disait",
+            "disent",
+            "disait-il"
+          ],
+          "correct": 1,
+          "explanation": "dire (nous disons) 的词根是 dis-。主语 mon grand-père 是单数第三人称，词尾应为 -ait。选项 0 是单数第一/二人称词尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Pendant que tu ______ (lire), je faisais la cuisine.",
+          "options": [
+            "lisait",
+            "lises",
+            "lisais",
+            "lis"
+          ],
+          "correct": 2,
+          "explanation": "TCF 常用“pendant que”引导两个同时进行的过去动作。tu 对应的 Imparfait 词尾是 -ais。选项 0 为三人称，选项 1 为虚拟式，选项 3 为命令式或现在时。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pendant mon enfance, mon père me ______ toujours des histoires avant de dormir.",
+          "options": [
+            "lit",
+            "lisait",
+            "a lu",
+            "lira"
+          ],
+          "correct": 1,
+          "explanation": "Pendant表示过去持续的习惯，使用未完成过去时(Imparfait)。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dépêchez-vous ! Le train ______ partir dans deux minutes.",
+          "options": [
+            "va",
+            "vient de",
+            "est en train de",
+            "allait"
+          ],
+          "correct": 0,
+          "explanation": "dans deux minutes表示即将发生，使用最近将来时(aller + inf.)。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que vous ______ déjà ce que vous allez dire au directeur ?",
+          "options": [
+            "écrivez",
+            "avez écrit",
+            "écriviez",
+            "écrivent"
+          ],
+          "correct": 1,
+          "explanation": "déjà(已经)暗示动作已完成，使用复合过去时(Passé Composé)。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les clients ______ souvent de la qualité du service dans ce restaurant.",
+          "options": [
+            "plaignent",
+            "se plaindent",
+            "se plaignent",
+            "se plaindra"
+          ],
+          "correct": 2,
+          "explanation": "se plaindre(抱怨)在现在时复数词干为plaign-，且是代动词。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Est-ce que tu ______ à conduire l'année dernière ?",
+          "options": [
+            "apprends",
+            "as appris",
+            "apprenais",
+            "apprendras"
+          ],
+          "correct": 1,
+          "explanation": "l'année dernière是明确的过去时间点，强调完成的动作，用复合过去时。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils ne _____ (comprendre) pas la question, alors ils n'ont pas répondu.",
+          "correct": [
+            "comprenaient"
+          ],
+          "explanation": "这里描述的是“当时不理解”的状态（背景），用Imparfait。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Qu'est-ce que vous _____ (prendre) comme boisson ? (现在时)",
+          "correct": [
+            "prenez"
+          ],
+          "explanation": "Prendre的vous人称变位为prenez。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier, j'_____ (attendre) le bus pendant 20 minutes, mais il n'est jamais venu. Alors, j'_____ (prendre) un taxi.",
+          "correct": [
+            "ai attendu",
+            "ai pris"
+          ],
+          "explanation": "两个动作均为过去发生的具体、完成的动作。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Si vous avez faim, nous ______ commander une pizza tout de suite.",
+          "options": [
+            "allons",
+            "allions",
+            "sommes allés",
+            "alliez"
+          ],
+          "correct": 0,
+          "explanation": "tout de suite暗示即将发生的动作，用最近将来时。"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais petit, je _____ (rire) tout le temps avec mes amis.",
+          "options": [
+            "riait",
+            "riaient",
+            "riais",
+            "ris"
+          ],
+          "correct": 2,
+          "explanation": "Je 人称在 Imparfait 下的结尾是 -ais。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "1. vivre: nous viv_____. Ils _____ ensemble.\n2. mettre: nous met_____. Tu _____ toute ton énergie dans ce projet.\n3. se taire: nous nous tai_____. Vous _____ poliment.\n4. connaître: nous connai_____. Elle _____ bien la maison.",
+          "correct": [
+            "ons",
+            "vivaient",
+            "tons",
+            "mettais",
+            "sons",
+            "vous taisiez",
+            "ssons",
+            "connaissait"
+          ],
+          "explanation": "Imparfait 构成关键在于找到 nous 现在时的词根：vivre (viv-), mettre (mett-), se taire (tais-), connaître (connaiss-)。注意 se taire 是代动词，vous 人称需双重代词：vous vous taisiez。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：À l'époque, nous ______ (croire) encore au Père Noël.",
+          "options": [
+            "croyons",
+            "croyaient",
+            "croyions",
+            "croyez"
+          ],
+          "correct": 2,
+          "explanation": "TCF 高频：croire 的 nous 现在时是 croyons，去 -ons 剩 croy-，加 Imparfait 词尾 -ions 变成 croyions。注意中间的 y + i 拼写。口诀：y后加i，过去无疑。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Soudain, il s'est tu. Avant cela, il ______ (se taire) toujours.",
+          "options": [
+            "se taisait",
+            "se tait",
+            "se taisent",
+            "s'est tu"
+          ],
+          "correct": 0,
+          "explanation": "描述过去持续的状态用 Imparfait。se taire 的 nous 词根是 tais-，三人称单数加 -ait。选项 1 是现在时，选项 3 是现在时复数，选项 4 是复合过去时。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Avant, Cédric allait mal: il _____ (ne plus être) déprimé. Son travail _____ (ne pas lui plaire) et il _____ (ne pas se plaindre) plus de ses collègues. Il _____ (ne pas prendre) des cours de yoga, il _____ (ne pas se distraire). Il _____ (ne pas sortir) beaucoup, il _____ (ne pas connaître) les discothèques et _____ (ne pas boire) d'alcool. Il _____ (ne pas vivre) bien.",
+          "correct": [
+            "n'était plus",
+            "ne lui plaisait pas",
+            "ne se plaignait",
+            "ne prenait pas",
+            "ne se distrayait pas",
+            "ne sortait pas",
+            "ne connaissait pas",
+            "ne buvait pas",
+            "ne vivait pas"
+          ],
+          "explanation": "根据指令将文本转为未完成过去时并根据逻辑使用否定。注意 plaire -> plaisait, se distraire -> se distrayait (y+a 结构), boire -> buvait。",
+          "category": "综合变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Chaque soir, nous ______ (boire) un verre de lait avant de dormir.",
+          "options": [
+            "buvons",
+            "buvions",
+            "buviez",
+            "boivions"
+          ],
+          "correct": 1,
+          "explanation": "boire 的 nous 现在时是 buvons，词根 buv-。Imparfait nous 词位加 -ions。选项 3 词根错误（boiv- 是虚拟式或现在时单数词根）。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "J'ai fait un rêve étrange: je _____ (attendre) à un arrêt de bus mais je _____ (ne pas savoir) ce que je _____ (faire) là, dans cette ville que je _____ (ne pas connaître). Tout à coup le décor _____ (changer): je _____ (se trouver) dans un hall de gare et je _____ (voir) soudain ma grand-mère. Elle _____ (avoir) l'air très jeune et elle me _____ (sourire). Je _____ (courir) vers elle mais brusquement, elle _____ (disparaître).",
+          "correct": [
+            "attendais",
+            "ne savais pas",
+            "faisais",
+            "ne connaissais pas",
+            "changeait",
+            "me trouvais",
+            "voyais",
+            "avait",
+            "souriait",
+            "courais",
+            "disparaissait"
+          ],
+          "explanation": "梦境描写是 Imparfait 的典型用法。注意 saber (savoir) -> savais, voir -> voyais, sourire -> souriait 的拼写规则。",
+          "category": "综合变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：À cette époque, ils ______ (connaître) déjà la vérité.",
+          "options": [
+            "connaissaient",
+            "connaissait",
+            "connaissent",
+            "connurent"
+          ],
+          "correct": 0,
+          "explanation": "connaître 的复数词根有双写 s (connaiss-)。ils 对应词尾 -aient。选项 1 为单数，选项 3 为现在时，选项 4 为简单过去时。",
+          "category": "动词变位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "TCF 陷阱题：Nous ______ (interrompre) toujours nos professeurs.",
+          "options": [
+            "interrompons",
+            "interrompiez",
+            "interrompions",
+            "interrompaient"
+          ],
+          "correct": 2,
+          "explanation": "注意 nous 词尾 -ions。选项 0 是现在时，选项 1 是 vous 变位，选项 3 是 ils 变位。",
+          "category": "动词变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1PE0GDd2mLDuwlRV7Ezwh-jX7XbWyan9Tg-oztAN6kZo/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1774927083482,
+      "name": "Unit 2  Imparfait  IR 动词专项",
+      "folderId": "1771907837913",
+      "createdAt": "2026-03-31T03:18:03.482Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand j'étais petit, je ______ souvent au parc.",
+          "options": [
+            "vais",
+            "allais",
+            "suis allé",
+            "aller"
+          ],
+          "correct": 1,
+          "explanation": "souvent 表示习惯 → imparfait → allais。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ nos devoirs tous les soirs.",
+          "options": [
+            "finissons",
+            "finissions",
+            "avons fini",
+            "finirons"
+          ],
+          "correct": 1,
+          "explanation": "tous les soirs 表示习惯 → imparfait → finissions。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il _____ (ouvrir) la porte quand il faisait chaud.",
+          "correct": [
+            "ouvrait"
+          ],
+          "explanation": "描述习惯/背景 → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (se souvenir) de cette histoire.",
+          "correct": [
+            "me souvenais"
+          ],
+          "explanation": "代词动词 + imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Plus je ______, plus je comprenais.",
+          "options": [
+            "étudie",
+            "étudiais",
+            "ai étudié",
+            "étudier"
+          ],
+          "correct": 1,
+          "explanation": "plus…plus 结构 → 两边 imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "哪些句子使用 imparfait？",
+          "options": [
+            "Je lisais souvent.",
+            "J'ai lu ce livre.",
+            "Il faisait froid.",
+            "Nous avons mangé."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "描述习惯/背景用 imparfait。"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (partir) à 8h chaque jour.",
+          "correct": [
+            "partions"
+          ],
+          "explanation": "chaque jour → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ qu'il avait raison.",
+          "options": [
+            "pense",
+            "pensait",
+            "a pensé",
+            "pensera"
+          ],
+          "correct": 1,
+          "explanation": "心理状态 → imparfait → pensait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand il ______ froid, nous restions à la maison.",
+          "options": [
+            "fait",
+            "faisait",
+            "a fait",
+            "fera"
+          ],
+          "correct": 1,
+          "explanation": "背景描述 → imparfait → faisait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ______ partir, mais je n'avais pas le temps.",
+          "options": [
+            "veux",
+            "voulais",
+            "ai voulu",
+            "voudrai"
+          ],
+          "correct": 1,
+          "explanation": "心理状态 → imparfait → voulais。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ (boire) du café tous les matins.",
+          "correct": [
+            "buvaient"
+          ],
+          "explanation": "习惯 → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ (ouvrir) le magasin à 9h chaque jour.",
+          "correct": [
+            "ouvrions"
+          ],
+          "explanation": "ouvrir → ouvrions（特殊 IR）。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle ______ quand je suis arrivé.",
+          "options": [
+            "dort",
+            "dormait",
+            "a dormi",
+            "dormira"
+          ],
+          "correct": 1,
+          "explanation": "背景动作 + 突然事件 → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "哪些表达通常搭配 imparfait？",
+          "options": [
+            "souvent",
+            "hier",
+            "toujours",
+            "chaque jour"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "频率副词 → imparfait。"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Quand j'étais jeune, je _____ souvent au parc et mes amis _____ avec moi.",
+          "correct": [
+            "allais",
+            "jouaient"
+          ],
+          "explanation": "两个习惯动作 → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Plus il ______, plus il devenait fatigué.",
+          "options": [
+            "travaille",
+            "travaillait",
+            "a travaillé",
+            "travaillera"
+          ],
+          "correct": 1,
+          "explanation": "plus…plus → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (se sentir) triste ce jour-là.",
+          "correct": [
+            "me sentais"
+          ],
+          "explanation": "代词动词 imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous ______ à Paris quand nous étions enfants.",
+          "options": [
+            "habitons",
+            "habitions",
+            "avons habité",
+            "habiterons"
+          ],
+          "correct": 1,
+          "explanation": "背景/状态 → imparfait。",
+          "category": "imparfait"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "nous _____ (réussir)",
+          "correct": [
+            "réussissons"
+          ],
+          "explanation": "本题考察动词 réussir 的直陈式现在时，主语 nous，对应词尾 -issons。错误如 réussis/ réussit 不符合 nous。TCF陷阱：nous + -ir 动词必须 -issons。口诀：nous + -ir → -issons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ tous mes examens. (réussir, imparfait)",
+          "correct": [
+            "réussissais"
+          ],
+          "explanation": "考察未完成过去时，用 nous 现在时词干 réussiss- + ais。错误如 réussis（现在时）或 réussirais（条件式）。TCF陷阱：imparfait = nous词干 + ais。口诀：nous去-ons加ais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "nous _____ (offrir)",
+          "correct": [
+            "offrons"
+          ],
+          "explanation": "考察 offrir 属于第三组但按 -ir 规则变位，nous → offrons。错误如 offrons（正确）vs offrons拼写错误。TCF陷阱：offrir 类似 ouvrir。口诀：offrir像ouvrir。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Ils _____ une place gratuite. (offrir, imparfait)",
+          "correct": [
+            "offraient"
+          ],
+          "explanation": "考察 imparfait，nous offrons → offr- + aient。错误如 offrent（现在时）。TCF陷阱：第三人称复数 imparfait = aient。口诀：ils → -aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "nous nous _____ (se sentir)",
+          "correct": [
+            "sentons"
+          ],
+          "explanation": "考察代词式动词现在时，nous nous sentons。错误如 sentons缺反身代词。TCF陷阱：必须双 nous。口诀：nous nous + verbe。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle _____ bien. (se sentir, imparfait)",
+          "correct": [
+            "se sentait"
+          ],
+          "explanation": "考察代词式动词未完成过去时，se + sentait。错误如 sent（现在时）。TCF陷阱：反身代词位置不变。口诀：se + imparfait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus nous _____ (parler), plus tu rougissais.",
+          "correct": [
+            "parlions"
+          ],
+          "explanation": "考察 imparfait 结构 plus…plus，nous parlions。错误如 parlons（现在时）。TCF陷阱：两边都用未完成过去时。口诀：plus + imparfait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus je _____ le voir, plus je l’aimais.",
+          "correct": [
+            "voulais"
+          ],
+          "explanation": "考察 vouloir 未完成过去时 voulais。错误如 veux（现在时）。TCF陷阱：情态动词常用imparfait。口诀：vouloir → voulais。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus ils _____ agressifs. (devenir, imparfait)",
+          "correct": [
+            "devenaient"
+          ],
+          "explanation": "考察 devenir 未完成过去时，nous devenons → deven- + aient。错误如 deviennent。TCF陷阱：不规则词干。口诀：nous去-ons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus il _____ fatigué. (se sentir, imparfait)",
+          "correct": [
+            "se sentait"
+          ],
+          "explanation": "考察 se sentir 未完成过去时。错误如 sent。TCF陷阱：代词动词一致。口诀：se + imparfait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus elle _____ (grandir), plus elle _____ (maigrir).",
+          "correct": [
+            "grandissait",
+            "maigrissait"
+          ],
+          "explanation": "考察两个-ir动词未完成过去时，词干 + iss + ait。错误如 grandit。TCF陷阱：双动词一致时态。口诀：-ir → iss。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Son père _____ un bar qui _____ situé près d’un théâtre. Les acteurs _____ souvent boire un verre. Avant la représentation, ils _____ . Ils _____ souvent le trac. Alors, on ne leur _____ jamais d’alcool. Après le spectacle, ils _____ du théâtre et _____ au bar : ils , ils _____ leurs souvenirs. Parfois, ils _____ une bouteille de champagne et ils en _____ à tout le monde. En général, ils _____ avant 2 ou 3 heures du matin. J’ serveur dans ce bar : sympathique, mais fatigant. Certains soirs, je _____ de sommeil. Je _____ chez moi à pied parce qu’il n’y _____ plus de métro et je _____ au petit matin quand mes voisins _____ travailler.",
+          "correct": [
+            "tenait",
+            "était",
+            "venaient",
+            "se réunissaient",
+            "avaient",
+            "servait",
+            "sortaient",
+            "revenaient",
+            "dînaient",
+            "plaisantaient",
+            "ouvraient",
+            "offraient",
+            "partaient",
+            "étais",
+            "mourais",
+            "rentrais",
+            "y avait",
+            "m’endormais",
+            "partaient"
+          ],
+          "explanation": "考察多动词未完成过去时统一使用，包括 être/avoir/venir 等不规则。错误多为现在时或过去分词。TCF陷阱：长段落统一时态+不规则动词。口诀：背景描述=imparfait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ tous nos objectifs. (réussir, imparfait)",
+          "correct": [
+            "réussissions"
+          ],
+          "explanation": "考察未完成过去时，nous réussissons → réussiss- + ions。错误如 réussissons。TCF陷阱：nous 位 imparfait 词尾 -ions。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous _____ des cadeaux. (offrir, imparfait)",
+          "correct": [
+            "offrions"
+          ],
+          "explanation": "考察未完成过去时，nous offrons → offr- + ions。错误如 offrons。TCF陷阱：去 -ons。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous nous _____ mieux. (se sentir, imparfait)",
+          "correct": [
+            "sentions"
+          ],
+          "explanation": "考察未完成过去时 sentions。错误如 sentons。TCF陷阱：反身 + imparfait。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus vous _____, plus ils riaient. (parler, imparfait)",
+          "correct": [
+            "parliez"
+          ],
+          "explanation": "考察 vous imparfait → -iez。错误如 parlez。TCF陷阱：vous 专属词尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus ils _____ partir, plus ils hésitaient. (vouloir, imparfait)",
+          "correct": [
+            "voulaient"
+          ],
+          "explanation": "考察 vouloir ils 形式 voulaient。错误如 veulent。TCF陷阱：-aient 结尾。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus nous _____ calmes. (devenir, imparfait)",
+          "correct": [
+            "devenions"
+          ],
+          "explanation": "考察 nous devenions。错误如 devenons。TCF陷阱：-ions。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus ils _____ fatigués. (se sentir, imparfait)",
+          "correct": [
+            "se sentaient"
+          ],
+          "explanation": "考察复数 se sentaient。错误如 se sentait。TCF陷阱：复数一致。",
+          "category": "动词变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Plus elles _____, plus elles _____ heureuses. (grandir/devenir, imparfait)",
+          "correct": [
+            "grandissaient",
+            "devenaient"
+          ],
+          "explanation": "考察复数 imparfait。错误如 grandissent。TCF陷阱：-aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Son père _____ un bar qui _____ situé près d’un théâtre.",
+          "correct": [
+            "tenait",
+            "était"
+          ],
+          "explanation": "考察 tenir / être imparfait。错误如 tient。TCF陷阱：背景描述。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Les acteurs _____ souvent boire un verre.",
+          "correct": [
+            "venaient"
+          ],
+          "explanation": "考察 venir imparfait。错误如 viennent。TCF陷阱：-aient。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Avant la représentation, ils _____ . Ils _____ souvent le trac.",
+          "correct": [
+            "se réunissaient",
+            "avaient"
+          ],
+          "explanation": "考察 se réunir / avoir imparfait。TCF陷阱：复数。",
+          "category": "动词变位"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Après le spectacle, ils _____ du théâtre et _____ au bar.",
+          "correct": [
+            "sortaient",
+            "revenaient"
+          ],
+          "explanation": "考察 sortir / revenir imparfait。TCF陷阱：复合结构。",
+          "category": "动词变位"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1btj2MwZgn3PSkynVoPX04uI9wmslAGlJI_Z5mzjy2uA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1774927072770-zev58i7ow5",
+          "front": "imparfait 的构成公式",
+          "back": "nous 现在时去 -ons + 词尾（-ais, -ais, -ait, -ions, -iez, -aient）"
+        },
+        {
+          "id": "1774927072770-9buu2dts556",
+          "front": "imparfait 的典型用法（3个）",
+          "back": "1. 背景描述\n2. 习惯动作\n3. 心理/状态（vouloir, penser等）"
+        },
+        {
+          "id": "1774927072770-klgwgtv8ti",
+          "front": "finir 的 nous 现在时",
+          "back": "nous finissons → 词干 finiss-"
+        },
+        {
+          "id": "1774927072770-qa1dqpm1v7h",
+          "front": "je finissais 的特点",
+          "back": "双 s 必须保留（finiss- + ais）"
+        },
+        {
+          "id": "1774927072770-wis5ws67dho",
+          "front": "ouvrir 属于哪类变位？",
+          "back": "虽然是 IR，但按 ER 规则变（nous ouvrons → ouvrais）"
+        },
+        {
+          "id": "1774927072770-3zizsal288k",
+          "front": "nous ouvrions 的词干来源",
+          "back": "nous ouvrons → 去 ons → ouvr-"
+        },
+        {
+          "id": "1774927072770-i250kohrgp",
+          "front": "partir 的 nous 形式（imparfait）",
+          "back": "nous partions（注意两个 i）"
+        },
+        {
+          "id": "1774927072770-9zkntmrs6xk",
+          "front": "se souvenir（je）未完成过去",
+          "back": "je me souvenais（代词+动词）"
+        },
+        {
+          "id": "1774927072770-uuuoudff1ci",
+          "front": "代词动词在 imparfait 结构",
+          "back": "主语 + 反身代词 + imparfait（ex: je me levais）"
+        },
+        {
+          "id": "1774927072770-d15sfy0dyfm",
+          "front": "出现 souvent / toujours 用什么时态？",
+          "back": "imparfait（表示习惯）"
+        },
+        {
+          "id": "1774927072770-lkbyini8er8",
+          "front": "plus…plus 结构用什么时态？",
+          "back": "两边都用 imparfait（ex: plus je lisais, plus je comprenais）"
+        },
+        {
+          "id": "1774927072770-yth0ld5alip",
+          "front": "描述天气常用时态",
+          "back": "imparfait（ex: il faisait froid）"
+        },
+        {
+          "id": "1774927072770-m4jkhbh44h",
+          "front": "vouloir 在叙述过去常用时态",
+          "back": "imparfait（je voulais）"
+        },
+        {
+          "id": "1774927072770-s8ulhhe1hb7",
+          "front": "imparfait vs passé composé 核心区别",
+          "back": "imparfait = 过程/背景\npassé composé = 完成/一次"
+        },
+        {
+          "id": "1774927072770-qg0kh3foue",
+          "front": "Quand il pleuvait, je suis sorti → 时态逻辑",
+          "back": "pleuvait = 背景（imparfait）\nsuis sorti = 突然发生（passé composé）"
+        },
+        {
+          "id": "1774927072770-d62x78isd9l",
+          "front": "nous 位的 imparfait 词尾",
+          "back": "-ions（绝对不能错）"
+        },
+        {
+          "id": "1774927072770-9mww0prf3kj",
+          "front": "vous 位的 imparfait 词尾",
+          "back": "-iez"
+        },
+        {
+          "id": "1774927072770-3iv83kvy5tb",
+          "front": "ils 位的 imparfait 词尾",
+          "back": "-aient（发音和 -ait 一样）"
+        },
+        {
+          "id": "1774927072770-c0cpvplgmtj",
+          "front": "finissait vs finissaient 区别",
+          "back": "拼写不同（-ait vs -aient），但发音相同 → 听力靠主语判断"
+        },
+        {
+          "id": "1774927072770-gpf220cuox7",
+          "front": "TCF 判断 imparfait 的3秒法",
+          "back": "1. 看时间词（souvent）\n2. 看功能（描述）\n3. 看结构（plus…plus）"
+        }
+      ]
+    },
+    {
       "id": 1774900100488,
-      "name": "Unit 2 ER 动词 + 未完成过去时（imparfait）",
+      "name": "Unit 2 Imparfait ER 动词 + 未完成过去时",
       "folderId": "1771907837913",
       "createdAt": "2026-03-30T19:48:20.488Z",
       "questions": [
@@ -97083,12 +98114,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-30",
+    "date": "2026-03-31",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-30T22:24:45.270Z",
+  "exportedAt": "2026-03-31T03:38:22.930Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
