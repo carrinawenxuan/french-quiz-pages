@@ -1,6 +1,2678 @@
 {
   "savedSets": [
     {
+      "id": 1775361949749,
+      "name": "A2复习课16-比较级&最高级/泛指代词&形容词",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T04:05:49.749Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je mange _____ fruits que mon frère.\n（我吃的水果比我哥哥多。）",
+          "options": [
+            "plus des（更多的）",
+            "plus de（更多）",
+            "autant（一样多）",
+            "aussi de（同样多的）"
+          ],
+          "correct": 1,
+          "explanation": "名词比较级结构：plus de + 名词 + que。名词前不加冠词，直接用 de。",
+          "category": "比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle chante _____ que sa sœur.\n（她唱歌唱得和她姐姐一样好。）",
+          "options": [
+            "autant bien（一样好地）",
+            "aussi bien（一样好地）",
+            "autant（一样多）",
+            "plus bien（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "副词比较级\"一样\"用 aussi，不用 autant。autant 用于动词比较。plus bien 错误，应用 mieux。",
+          "category": "比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Mon père travaille _____ que moi.\n（我爸爸工作得比我多。）",
+          "options": [
+            "plus de（更多的）",
+            "aussi（一样）",
+            "plus（更多）",
+            "autant de（一样多的）"
+          ],
+          "correct": 2,
+          "explanation": "动词比较级结构：动词 + plus/moins/autant + que。动词后不加 de。",
+          "category": "比较级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce film est _____ que le précédent.\n（这部电影比上一部好。）",
+          "options": [
+            "plus bon（更好的）",
+            "meilleur（更好的）",
+            "mieux（更好地）",
+            "plus bien（更好地）"
+          ],
+          "correct": 1,
+          "explanation": "bon 的比较级是 meilleur，不能说 plus bon。mieux 是 bien（副词）的比较级，用于修饰动词。",
+          "category": "比较级特殊形式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est _____ ville de la région.\n（这是该地区最大的城市。）",
+          "options": [
+            "le plus grande（最大的）",
+            "la plus grande（最大的）",
+            "les plus grande（最大的）",
+            "la plus grand（最大的）"
+          ],
+          "correct": 1,
+          "explanation": "ville 是阴性单数名词，定冠词用 la，形容词 grande 阴性形式。定冠词必须与名词性数配合。",
+          "category": "最高级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il court _____.\n（他跑得最快。）",
+          "options": [
+            "le plus vite（最快地）",
+            "la plus vite（最快地）",
+            "les plus vite（最快地）",
+            "le plus de vite（最快地）"
+          ],
+          "correct": 0,
+          "explanation": "副词最高级定冠词永远用 le，不随任何名词变化。le plus vite 固定形式。",
+          "category": "最高级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a _____ patience de toute l'équipe.\n（她是整个团队中最有耐心的。）",
+          "options": [
+            "le plus de（最多的）",
+            "la plus de（最多的）",
+            "le plus（最）",
+            "plus de（更多的）"
+          ],
+          "correct": 0,
+          "explanation": "名词最高级：le plus de + 名词（名词前不加冠词）。定冠词永远用 le，不随后面名词变化。",
+          "category": "最高级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est lui qui mange _____.\n（他是吃得最多的那个人。）",
+          "options": [
+            "le plus de（最多的）",
+            "le plus（最多）",
+            "la plus（最多）",
+            "les plus（最多）"
+          ],
+          "correct": 1,
+          "explanation": "动词最高级：动词 + le plus / le moins，定冠词永远用 le。",
+          "category": "最高级"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a beaucoup d'élèves ici, _____ a son propre cahier.\n（这里有很多学生，每个人都有自己的本子。）",
+          "options": [
+            "chaque（每个）",
+            "chacun（每个人）",
+            "tous（所有人）",
+            "quelqu'un（某人）"
+          ],
+          "correct": 1,
+          "explanation": "此处独立充当主语，后无名词，需用代词 chacun。chaque 是形容词，必须接名词使用。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ étudiant doit rendre son devoir avant lundi.\n（每位学生必须在周一前交作业。）",
+          "options": [
+            "Chacun（每个人）",
+            "Chaque（每个）",
+            "Tous（所有）",
+            "Certain（某些）"
+          ],
+          "correct": 1,
+          "explanation": "后接名词 étudiant，需用形容词 chaque。chacun 是代词，不能直接接名词。",
+          "category": "泛指形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je n'ai _____ idée de la réponse correcte.\n（我对正确答案毫无概念。）",
+          "options": [
+            "pas une（没有一个）",
+            "aucune（任何）",
+            "quelque（某个）",
+            "certaine（某些）"
+          ],
+          "correct": 1,
+          "explanation": "aucune 与 ne 搭配表示强烈否定\"没有任何一个\"。idée 是阴性名词，用 aucune。",
+          "category": "泛指形容词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'ai commandé deux pizzas, mais _____ était froide à l'arrivée.\n（我点了两个披萨，但到的时候其中另一个是凉的。）",
+          "options": [
+            "une autre（另一个）",
+            "l'autre（另外那个）",
+            "d'autres（其他一些）",
+            "quelques-unes（其中几个）"
+          ],
+          "correct": 1,
+          "explanation": "两个披萨中的\"另外那个\"，特指已知范围内的另一个，用 l'autre（带定冠词）。une autre 表示泛指的另一个，不够精确。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ aiment le sport, _____ préfèrent la lecture.\n（有些人喜欢运动，另一些人更喜欢阅读。）",
+          "options": [
+            "Certains... d'autres（某些人……另一些人）",
+            "Quelques-uns... les autres（几个……其余的）",
+            "Chacun... certains（每个人……某些人）",
+            "Tous... certains（所有人……某些人）"
+          ],
+          "correct": 0,
+          "explanation": "表达对比关系\"有些……另一些……\"的经典结构是 certains... d'autres...。这是 TCF 写作/口语高频句型。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne vois _____ dans la salle.\n（我在房间里什么也没看见。）",
+          "correct": [
+            "rien"
+          ],
+          "explanation": "rien 与 ne 连用表示\"什么都没有\"。注意 ne 在动词前，rien 在动词后。",
+          "category": "泛指代词"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a acheté _____ livres pour ses enfants.\n（他为孩子们买了几本书。）",
+          "correct": [
+            "quelques"
+          ],
+          "explanation": "后接名词 livres（复数），表示\"几本/一些\"，用形容词 quelques。",
+          "category": "泛指形容词"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ (某些人) pensent que la technologie simplifie la vie, mais _____ (另一些人) estiment qu'elle crée de nouveaux problèmes. _____ (每个人) doit faire son propre choix.\n（某些人认为科技简化了生活，但另一些人认为它带来了新问题。每个人都必须做出自己的选择。）",
+          "correct": [
+            "Certains",
+            "d'autres",
+            "Chacun"
+          ],
+          "explanation": "经典对比句型 certains... d'autres... 后接 chacun 收尾，是 TCF 写作高分结构。",
+          "category": "综合运用"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1UIK14lXVaEPVnVbPwKsBR7ZMHVUTzk7Pqrz1rKqU6cY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775362039543-6e4y90pq0er",
+          "front": "名词比较级结构是什么？",
+          "back": "plus de / moins de / autant de + 名词 + que\n⚠️ 千万不能漏掉 de！\n例：Je mange plus de pommes que toi.\n中文：我吃的苹果比你多。"
+        },
+        {
+          "id": "1775362039543-sfrqio4tt9",
+          "front": "动词比较级结构是什么？",
+          "back": "动词 + plus / moins / autant + que\n⚠️ 动词后不加 de！\n例：Il travaille autant que moi.\n中文：他和我工作量一样多。"
+        },
+        {
+          "id": "1775362039543-dy61zle398b",
+          "front": "形容词/副词比较级\"一样\"用哪个词？",
+          "back": "用 aussi（不是 autant！）\n例：Elle est aussi intelligente que lui.\n中文：她和他一样聪明。\n⚠️ autant 只用于动词比较。"
+        },
+        {
+          "id": "1775362039543-wgz4v06vr7",
+          "front": "bon 和 bien 的比较级分别是什么？",
+          "back": "bon → meilleur / meilleure（形容词，更好的）\nbien → mieux（副词，更好地）\n⚠️ 绝对不能说 plus bon 或 plus bien！"
+        },
+        {
+          "id": "1775362039543-9853jrnjji",
+          "front": "形容词最高级的定冠词规则",
+          "back": "定冠词必须与名词性数配合：\nle / la / les + plus/moins + 形容词\n例：la plus grande ville（阴性单数）\n例：les plus belles fleurs（阴性复数）"
+        },
+        {
+          "id": "1775362039543-r27qrmak4a",
+          "front": "副词最高级的定冠词规则",
+          "back": "定冠词永远用 le，不变化！\n例：Il court le plus vite.\n中文：他跑得最快。\n⚠️ 不随任何名词变化。"
+        },
+        {
+          "id": "1775362039543-kn214xvrsu",
+          "front": "名词最高级结构",
+          "back": "le plus de + 名词（名词前不加冠词！）\n例：Il a le plus de devoirs.\n中文：他作业最多。\n⚠️ 定冠词永远用 le。"
+        },
+        {
+          "id": "1775362039543-6y6c0hvjvg",
+          "front": "bon/bonne 的最高级",
+          "back": "le/la meilleur(e) / les meilleur(e)s\n例：C'est la meilleure solution.\n中文：这是最好的解决方案。"
+        },
+        {
+          "id": "1775362039543-lol2lu17k5r",
+          "front": "chaque 和 chacun 的区别",
+          "back": "chaque = 形容词，后必须接名词\n→ Chaque étudiant（每位学生）\nchacun/chacune = 代词，独立使用\n→ Chacun a son avis.（每个人都有自己的看法）"
+        },
+        {
+          "id": "1775362039543-ntbyqiiaix",
+          "front": "quelques 和 quelques-uns 的区别",
+          "back": "quelques = 形容词 → 接名词\n→ quelques questions（几个问题）\nquelques-uns/unes = 代词 → 独立使用\n→ J'en ai acheté quelques-uns.\n中文：我买了其中几个。"
+        },
+        {
+          "id": "1775362039543-bcf3g18q4kn",
+          "front": "aucun/aucune 的用法规则",
+          "back": "与 ne 连用，表示\"没有任何一个\"\n性数与后接名词配合：\n→ aucun problème（阳性）\n→ aucune idée（阴性）\n永远接单数名词！"
+        },
+        {
+          "id": "1775362039543-46opywmvtkl",
+          "front": "certains... d'autres... 句型",
+          "back": "表示\"有些人……另一些人……\"\nTCF 写作/口语必备对比句型！\n例：Certains aiment le sport, d'autres préfèrent la lecture.\n中文：有些人喜欢运动，另一些人更喜欢阅读。"
+        },
+        {
+          "id": "1775362039543-xx7ewdxksn",
+          "front": "l'autre 和 une autre 的区别",
+          "back": "l'autre = 另外那个（特指，两者之一）\n→ Où est l'autre chaussure ?（另一只鞋呢？）\nune autre = 另一个（泛指，不特定）\n→ Je veux une autre chance.（我想要另一次机会。）"
+        },
+        {
+          "id": "1775362039543-wz68tz0r2l",
+          "front": "tous 作代词时的发音陷阱",
+          "back": "tous 作形容词时：s 不发音 → /tu/\n→ tous les étudiants\ntous 作代词时：s 要发音 → /tus/\n→ Ils sont tous partis.\n中文：他们全都走了。\n⚠️ TCF 听力高频陷阱！"
+        },
+        {
+          "id": "1775362039543-dodbd81qlq",
+          "front": "personne 和 rien 的否定用法",
+          "back": "两者必须与 ne 连用！\n→ Je ne vois personne.（我没看见任何人。）\n→ Je n'ai rien mangé.（我什么都没吃。）\n⚠️ 缺少 ne 是语法错误！"
+        },
+        {
+          "id": "1775362039543-2klpn8dxaww",
+          "front": "plusieurs 和 quelques 的区别",
+          "back": "quelques = 几个（数量少，有限）\nplusieurs = 好几个（数量比 quelques 多）\n两者都接复数名词，都无阴阳性变化\n例：quelques jours（几天）\n例：plusieurs semaines（好几周）"
+        }
+      ]
+    },
+    {
+      "id": 1775361504140,
+      "name": "A2复习课16-代词/关系代词",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:58:24.140Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle parle _____ avec enthousiasme.\n（她热情地谈论它。）\n\n上文已知：Elle parle de ce projet.",
+          "options": [
+            "y parle（用y替代）",
+            "en parle（用en替代）",
+            "lui parle（用lui替代）",
+            "le parle（用le替代）"
+          ],
+          "correct": 1,
+          "explanation": "parler de + 物 → 用 en 替代。parler de + 人 才用 lui。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il répond _____ immédiatement.\n（他立刻回答他。）\n\n上文已知：Il répond à Paul.",
+          "options": [
+            "y répond",
+            "en répond",
+            "lui répond",
+            "le répond"
+          ],
+          "correct": 2,
+          "explanation": "répondre à + 人 → 间宾代词 lui。répondre à + 物 才用 y。",
+          "category": "代词 lui"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu as _____ livres dans ton sac ?\n— Oui, j'_____ ai trois.\n（你包里有三本书吗？— 是的，我有三本。）",
+          "options": [
+            "en … en",
+            "les … les",
+            "y … y",
+            "en … les"
+          ],
+          "correct": 0,
+          "explanation": "数词+名词结构用 en 替代，且数词 trois 必须保留：j'en ai trois。",
+          "category": "代词 en + 数词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous avons besoin _____ pour finir le projet.\n（我们需要它来完成这个项目。）\n\n上文已知：Nous avons besoin de communication.",
+          "options": [
+            "y",
+            "lui",
+            "en",
+            "le"
+          ],
+          "correct": 2,
+          "explanation": "avoir besoin de + 物 → en。",
+          "category": "代词 en"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les enfants vont _____ chaque été.\n（孩子们每年夏天都去那里。）\n\n上文已知：Les enfants vont à la mer.",
+          "options": [
+            "en",
+            "y",
+            "leur",
+            "les"
+          ],
+          "correct": 1,
+          "explanation": "à + 地点 → y。",
+          "category": "代词 y"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Merci de _____ répondre le plus tôt possible.\n（请尽快回复我。）",
+          "options": [
+            "y",
+            "en",
+            "me",
+            "lui"
+          ],
+          "correct": 2,
+          "explanation": "répondre à moi → 间宾代词 me（第一人称）。",
+          "category": "间宾代词"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中，划线部分应用代词 en 替换？\n（选出所有正确答案）",
+          "options": [
+            "Il mange du chocolat.（他吃巧克力。）",
+            "Elle parle de sa mère.（她谈起她的母亲。）",
+            "Nous revenons de Paris.（我们从巴黎回来。）",
+            "Il est content de son travail.（他对工作满意。）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "① du chocolat = 部分冠词+名词 → en ✅；② sa mère 是人，parler de + 人 → de elle/d'elle ✅，不用en；③ revenir de + 地点 → en ✅；④ être content de + 物 → en ✅。",
+          "category": "代词 en 综合"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le portable _____ permet de rester en contact avec leurs parents.\n（手机允许他们与父母保持联系。）\n\n上文：Le portable permet aux enfants de rester en contact avec leurs parents.",
+          "correct": [
+            "leur"
+          ],
+          "explanation": "permettre à + 人（aux enfants）→ 间宾代词 leur。",
+          "category": "间宾代词"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est la ville _____ j'ai grandi.\n（这是我长大的城市。）",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 3,
+          "explanation": "先行词 la ville 是地点，从句中缺地点状语 → où。",
+          "category": "关系代词 où"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le film _____ tu m'as recommandé était excellent.\n（你推荐给我的那部电影非常精彩。）",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "recommander qch（直接宾语），从句缺直宾 → que。",
+          "category": "关系代词 que"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est un projet _____ nous sommes très fiers.\n（这是我们非常引以为豪的项目。）",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 2,
+          "explanation": "être fier de + n. → dont（替代 de + 名词结构）。",
+          "category": "关系代词 dont"
+        },
+        {
+          "type": "single_choice",
+          "stem": "L'étudiante _____ a réussi l'examen est très contente.\n（通过考试的那位学生非常高兴。）",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 1,
+          "explanation": "从句缺主语（a réussi 前无主语）→ qui。",
+          "category": "关系代词 qui"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le moment _____ il a annoncé la nouvelle, tout le monde était surpris.\n（他宣布消息的那一刻，所有人都很惊讶。）",
+          "options": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "correct": 3,
+          "explanation": "先行词 le moment 是时间名词 → où。注意：时间先行词也用 où，不用 que。",
+          "category": "关系代词 où 时间"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'adore _____ vous avez préparé pour la fête.\n（我非常喜欢您为派对准备的东西。）",
+          "options": [
+            "qui",
+            "que",
+            "ce que",
+            "ce qui"
+          ],
+          "correct": 2,
+          "explanation": "先行词不明确（泛指「所做之事」），且从句缺直宾 → ce que。",
+          "category": "ce qui / ce que"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le succès _____ elles ont obtenu est impressionnant.\n（她们取得的成功令人印象深刻。）",
+          "correct": [
+            "que"
+          ],
+          "explanation": "obtenir qch（直宾），从句缺直宾 → que。",
+          "category": "关系代词 que"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "C'est la candidate _____ le directeur a choisie et _____ tout le monde est satisfait.\n（这是董事选择的、大家都满意的那位候选人。）",
+          "correct": [
+            "que",
+            "dont"
+          ],
+          "explanation": "① choisir qn（直宾），缺直宾 → que；② être satisfait de + n. → dont。",
+          "category": "关系代词综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1Pz3VdQXKHd29eKfTGQ_NOZGQQ3GNiskSnSOrElmtQGA/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361513905-q07vbdozpe8",
+          "front": "en 替代什么结构？（3种）",
+          "back": "① 不定冠词/部分冠词/数词 + 名词\n② 形容词补语：être content de + n.\n③ 动词间接宾语：parler de + n.（物）\n⚠️ parler de + 人 → 用 de lui/d'elle，不用 en"
+        },
+        {
+          "id": "1775361513905-2wx7ne4fjsr",
+          "front": "avoir besoin de qch → 代词替换",
+          "back": "用 en\n例：Nous en avons besoin.\n中文：我们需要它。"
+        },
+        {
+          "id": "1775361513905-bu17l77qh2p",
+          "front": "en + 数词，数词能省略吗？",
+          "back": "❌ 不能省略！\n例：J'ai trois livres. → J'en ai trois.\n中文：我有三本（书）。数词必须保留。"
+        },
+        {
+          "id": "1775361513905-8b4gduakfba",
+          "front": "parler de + 物 → 用哪个代词？",
+          "back": "用 en\n例：Elle en parle. （她谈论它）\n⚠️ parler de + 人 → 用 de lui / d'elle，绝对不用 en"
+        },
+        {
+          "id": "1775361513905-p1zrxnp242",
+          "front": "y 替代什么结构？（2种）",
+          "back": "① 介词 + 地点\n例：Il y va.（他去那里）\n② à + n.（物）的间接宾语\n例：Il y répond.（他回答它）\n⚠️ à + 人 → 用 lui/leur，不用 y"
+        },
+        {
+          "id": "1775361513905-gcagiuba8dl",
+          "front": "répondre à + 人 → 代词？\nrépondre à + 物 → 代词？",
+          "back": "répondre à + 人 → lui / leur\nrépondre à + 物 → y\n例：Il lui répond.（他回答他）\n例：Il y répond.（他回答它/这个问题）"
+        },
+        {
+          "id": "1775361513905-35ztdc8yael",
+          "front": "permettre à qn de faire → 间宾代词怎么替换？",
+          "back": "permettre à + 人 → lui / leur\n例：Le portable leur permet de rester en contact.\n中文：手机让他们保持联系。"
+        },
+        {
+          "id": "1775361513905-z9xfk5lx89",
+          "front": "直宾代词 le/la/les 的触发条件",
+          "back": "定冠词 le/la/les + 名词\n指示形容词 ce/cette/ces + 名词\n主有形容词 mon/ton/son... + 名词\n例：Tu connais cette fille? → Tu la connais?\n中文：你认识她吗？"
+        },
+        {
+          "id": "1775361513905-rhz5we705xp",
+          "front": "关系代词 qui 的用法",
+          "back": "从句中充当【主语】\nqui 后面直接跟动词\n例：La fille qui porte un jean.\n中文：穿牛仔裤的那个女孩\n人/物均可用 qui"
+        },
+        {
+          "id": "1775361513905-n29w9pgf72i",
+          "front": "关系代词 que 的用法",
+          "back": "从句中充当【直接宾语】\nque 后面跟主语 + 动词\n例：La fille que tu as vue.\n中文：你见过的那个女孩\n⚠️ 复合时态中过去分词要与先行词性数配合"
+        },
+        {
+          "id": "1775361513905-0zxvelotw9mb",
+          "front": "que 复合时态配合规则",
+          "back": "过去分词需与先行词性数一致\n例：La fille que j'ai vue ✅（阴性 → vue）\n例：Le film que j'ai vu ✅（阳性 → vu）"
+        },
+        {
+          "id": "1775361513905-b759gujbe5l",
+          "front": "关系代词 où 的用法",
+          "back": "先行词是【地点】或【时间】时用 où\n例：La ville où tu habitais.（你住的城市）\n例：Le jour où tu es parti.（你离开的那天）\n⚠️ 时间名词也用 où，不用 que"
+        },
+        {
+          "id": "1775361513905-ek84ee0eue6",
+          "front": "关系代词 dont 的触发条件（3种）",
+          "back": "① 动词 + de：parler de, avoir besoin de, se souvenir de...\n② 形容词 + de：être fier de, être content de...\n③ 名词 + de：le nom de, le prix de...（相当于英语 whose）"
+        },
+        {
+          "id": "1775361513905-vufik9z6pe",
+          "front": "être fier de qch → 关系代词用哪个？",
+          "back": "dont\n例：Le projet dont elles sont fières.\n中文：她们引以为豪的项目\n❌ 不用 que"
+        },
+        {
+          "id": "1775361513905-m0q7a39ct4",
+          "front": "ce qui vs ce que 的区别",
+          "back": "ce qui：先行词不明确 + 从句缺【主语】\nce que：先行词不明确 + 从句缺【直宾】\n例：J'adore ce que vous avez fait.（我喜欢您做的事）\n例：Ce qui me plaît, c'est la musique.（让我喜欢的是音乐）"
+        },
+        {
+          "id": "1775361513905-1mk7fj7cfxr",
+          "front": "【综合陷阱】être content de → 用 en 还是 dont？",
+          "back": "两者都可能出现，取决于句子结构：\n① 主句替换：Il en est content.（en 替代 de + 物）\n② 关系从句：La candidate dont tu es content.（dont 引导从句）\n关键：看是【代词替换】还是【关系从句连接】"
+        }
+      ]
+    },
+    {
+      "id": 1775361441502,
+      "name": "A2复习课16-时态回顾",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:57:21.502Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Si elle _____ plus de temps libre, elle voyagerait plus souvent.\n（如果她有更多空闲时间，她会更频繁地旅行。）",
+          "options": [
+            "a（她有）",
+            "aura（她将有）",
+            "avait（她有—虚拟）",
+            "aurait（她会有）"
+          ],
+          "correct": 2,
+          "explanation": "Si引导非真实假设，从句必须用imparfait（avait），主句用conditionnel。Si后永远不能接conditionnel。",
+          "category": "Si句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand tu _____ à Paris, envoie-moi un message.\n（当你到达巴黎时，给我发条消息。）",
+          "options": [
+            "arrives（你到达—现在时）",
+            "arriveras（你将到达）",
+            "arrivais（你到达—过去）",
+            "sois arrivé（你已到达—虚拟式）"
+          ],
+          "correct": 1,
+          "explanation": "Quand引导将来时间从句，法语必须用futur simple（arriveras），不能像英语一样用现在时代替。",
+          "category": "简单将来时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je ne crois pas qu'il _____ capable de finir ce projet tout seul.\n（我不认为他有能力独自完成这个项目。）",
+          "options": [
+            "est（是—直陈式）",
+            "sera（将是）",
+            "soit（是—虚拟式）",
+            "serait（会是—条件式）"
+          ],
+          "correct": 2,
+          "explanation": "ne pas croire que触发虚拟式。être的虚拟式现在时il人称为soit。如果是肯定句Je crois que，则用直陈式est。",
+          "category": "虚拟式"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Avant, nous _____ au marché tous les dimanches.\n（以前，我们每个周日都去市场。）",
+          "options": [
+            "allons（我们去—现在时）",
+            "sommes allés（我们去了—复合过去时）",
+            "allions（我们去—未完成过去时）",
+            "irons（我们将去）"
+          ],
+          "correct": 2,
+          "explanation": "tous les dimanches表示过去的习惯性动作，用imparfait（allions）。passé composé表示一次性完成的动作，不适合此语境。",
+          "category": "未完成过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle _____ te rendre visite dès qu'elle _____ ses examens.\n（她一考完试就会来看你。）",
+          "options": [
+            "va / finit",
+            "viendra / aura fini",
+            "vient / finira",
+            "viendrait / finissait"
+          ],
+          "correct": 1,
+          "explanation": "dès que引导将来时间从句，从句用先将来时（aura fini），主句用简单将来时（viendra）。这是TCF高频考点。",
+          "category": "先将来时"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的时态？\n（以下哪些句子时态使用正确？）",
+          "options": [
+            "Si j'aurais le temps, je viendrais.（如果我有时间，我会来。）",
+            "Il faut que tu sois à l'heure.（你必须准时。）",
+            "Quand il arrivera, nous mangerons.（他到的时候，我们就吃饭。）",
+            "Je pense qu'il soit parti.（我认为他走了。）"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "A错：Si后不能用conditionnel，应为Si j'avais。B正确：il faut que触发虚拟式sois。C正确：quand将来从句用futur simple。D错：肯定penser que后用直陈式，应为il est parti。",
+          "category": "综合时态"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Pour que les enfants _____ (comprendre) mieux, le professeur utilise des images.\n（为了让孩子们更好地理解，老师使用图片。）",
+          "correct": [
+            "comprennent"
+          ],
+          "explanation": "pour que永远触发虚拟式。comprendre的虚拟式：ils comprennent去掉-ent→词根comprenn-，加-ent→comprennent。",
+          "category": "虚拟式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Hier soir, je _____ (lire) quand mon téléphone _____ (sonner).\n（昨晚，我正在读书，这时我的手机响了。）",
+          "correct": [
+            "lisais",
+            "a sonné"
+          ],
+          "explanation": "lisais：背景持续动作用imparfait。a sonné：突然发生的一次性动作用passé composé。这是imparfait与passé composé经典配合。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je _____ (vouloir) vous demander si vous pourriez m'aider avec ce dossier.\n（我想问您是否可以帮我处理这份文件。）",
+          "correct": [
+            "voudrais"
+          ],
+          "explanation": "正式书面请求用conditionnel表委婉语气。vouloir的conditionnel：词根voudr- + -ais = voudrais。",
+          "category": "条件式"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est essentiel que vous _____ (prendre) une décision avant demain.\n（您必须在明天之前做出决定。）",
+          "correct": [
+            "preniez"
+          ],
+          "explanation": "il est essentiel que触发虚拟式。prendre的虚拟式：ils prennent去掉-ent→词根prenn-，vous人称用直陈式nous词根pren- + -iez = preniez。",
+          "category": "虚拟式"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "L'année dernière, quand Marie _____ (habiter) encore à Lyon, elle _____ (prendre) le vélo tous les jours. Mais un jour, elle _____ (décider) de déménager à Paris pour son travail.\n（去年，当玛丽还住在里昂时，她每天骑自行车。但有一天，她决定为了工作搬到巴黎。）",
+          "correct": [
+            "habitait",
+            "prenait",
+            "a décidé"
+          ],
+          "explanation": "habitait：过去持续状态用imparfait。prenait：过去习惯性动作用imparfait。a décidé：某天突然做出的一次性决定用passé composé。",
+          "category": "imparfait vs passé composé"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Si tu _____ (être) à ma place, qu'est-ce que tu _____ (faire) ? Moi, je _____ (choisir) de rester.\n（如果你处于我的位置，你会怎么做？我的话，我会选择留下来。）",
+          "correct": [
+            "étais",
+            "ferais",
+            "choisirais"
+          ],
+          "explanation": "Si非真实假设：从句imparfait（étais），主句conditionnel（ferais / choisirais）。faire词根fer-，choisir词根choisir-，加-ais/-ais。",
+          "category": "Si句型"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les photos que j'ai _____ pendant le voyage sont magnifiques.\n（我旅行中拍的照片非常漂亮。）",
+          "options": [
+            "pris（拍—阳性）",
+            "prise（拍—阴性单数）",
+            "prises（拍—阴性复数）",
+            "prendre（拍—原形）"
+          ],
+          "correct": 2,
+          "explanation": "que替代les photos（阴性复数），作前置直接宾语，passé composé中avoir助动词时过去分词需配合前置宾语：pris + es = prises。",
+          "category": "过去分词配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je regrette qu'il _____ partir sans nous dire au revoir.\n（我很遗憾他没有和我们道别就走了。）",
+          "options": [
+            "parte（走—虚拟式现在时）",
+            "est parti（走了—直陈式）",
+            "soit parti（走了—虚拟式过去时）",
+            "partait（走—未完成过去时）"
+          ],
+          "correct": 2,
+          "explanation": "regretter que触发虚拟式。他离开是已经发生的事，用虚拟式过去时（soit parti）而非虚拟式现在时（parte）。",
+          "category": "虚拟式过去时"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dès que nous _____ l'appartement, nous vous inviterons à dîner.\n（我们一装修好公寓，就会邀请你们来吃晚饭。）",
+          "options": [
+            "rénovons（我们装修—现在时）",
+            "avons rénové（我们装修了—复合过去时）",
+            "aurons rénové（我们将装修完—先将来时）",
+            "rénovions（我们装修—未完成过去时）"
+          ],
+          "correct": 2,
+          "explanation": "dès que引导将来时间从句，且强调装修完成在先，邀请在后，从句用先将来时（aurons rénové），主句用简单将来时（inviterons）。",
+          "category": "先将来时"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1ICR_UaF7V7yuPc-Phx3K7cD49vQSwPMU1D-iJBI8hw0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361462601-hl55hgk2twi",
+          "front": "imparfait 的构成规则",
+          "back": "取 nous 人称的现在时变位，去掉 -ons，加词尾：\n-ais / -ais / -ait / -ions / -iez / -aient\n例：nous parlons → parl- → je parlais（我以前说话）"
+        },
+        {
+          "id": "1775361462601-ijnkm8zot0k",
+          "front": "être 的 imparfait 变位",
+          "back": "特殊词根：ét-（不走规则）\nj'étais / tu étais / il était\nnous étions / vous étiez / elles étaient\n中文：我是/你是/他是……（过去持续状态）"
+        },
+        {
+          "id": "1775361462601-rnh7kitblf",
+          "front": "avoir 的 imparfait 变位",
+          "back": "nous avons → 词根 av-\nj'avais / tu avais / il avait\nnous avions / vous aviez / ils avaient\n中文：我有/你有/他有……（过去持续状态）"
+        },
+        {
+          "id": "1775361462601-33xnkdffele",
+          "front": "imparfait vs passé composé：如何区分？",
+          "back": "imparfait = 背景、持续、习惯\npassé composé = 一次性完成的动作\n例：Je lisais（背景）quand il est entré（事件）。\n中文：他进来时，我正在读书。"
+        },
+        {
+          "id": "1775361462601-tsqeyb7n1f",
+          "front": "imparfait 的触发词",
+          "back": "autrefois（从前）\ntoujours / souvent / tous les jours（总是/经常/每天）\nquand j'étais enfant（小时候）\navant（以前）\n→ 看到这些词，优先考虑 imparfait"
+        },
+        {
+          "id": "1775361462601-ya1x3cg2csm",
+          "front": "futur simple 的构成规则",
+          "back": "词根 = 动词原形（以-e结尾去掉e）\n词尾：-ai / -as / -a / -ons / -ez / -ont\n例：travailler → je travaillerai（我将工作）"
+        },
+        {
+          "id": "1775361462601-yy0kp2w3wn",
+          "front": "futur simple 的9个特殊词根（必背）",
+          "back": "aller → ir-\navoir → aur-\nêtre → ser-\nfaire → fer-\nvenir → viendr-\nvoir → verr-\npouvoir → pourr-\nvouloir → voudr-\nsavoir → saur-"
+        },
+        {
+          "id": "1775361462601-mibpr5m3oje",
+          "front": "conditionnel présent 的构成规则",
+          "back": "词根 = futur simple 词根（完全相同！）\n词尾 = imparfait 词尾：\n-ais / -ais / -ait / -ions / -iez / -aient\n例：je travaillerais（我会工作）"
+        },
+        {
+          "id": "1775361462601-k4zcw7yjwod",
+          "front": "futur simple vs conditionnel：词尾区别",
+          "back": "futur simple je：-ai（发音 [e]）\nconditionnel je：-ais（发音 [ɛ]）\n⚠️ 发音极近，考试靠语境判断，不能靠听音区分！"
+        },
+        {
+          "id": "1775361462601-q2nwsh98cnp",
+          "front": "conditionnel présent 的两大用法",
+          "back": "① 礼貌/委婉请求：\nJe voudrais un café.（我想要一杯咖啡。）\nPourriez-vous m'aider ?（您能帮我吗？）\n② Si非真实假设的主句：\nSi j'avais le temps, je viendrais.（如果我有时间，我会来。）"
+        },
+        {
+          "id": "1775361462601-80jhul6oaa6",
+          "front": "Si句型三种配对（必背）",
+          "back": "① Si + présent → futur simple（真实条件）\nSi tu travailles, tu réussiras.\n② Si + imparfait → conditionnel présent（非真实假设）\nSi j'avais de l'argent, j'achèterais une voiture.\n③ Si + plus-que-parfait → conditionnel passé（对过去的假设）\n⚠️ Si后永远不能接conditionnel！"
+        },
+        {
+          "id": "1775361462601-30flhi263vs",
+          "front": "⚠️ Si后面能接条件式吗？",
+          "back": "绝对不能！\n❌ Si j'aurais le temps...\n✅ Si j'avais le temps...\n这是法语与英语最大的结构差异之一，TCF必考陷阱。"
+        },
+        {
+          "id": "1775361462601-xsc0s0oxm4",
+          "front": "Quand引导将来从句用什么时态？",
+          "back": "从句用 futur simple，不能用现在时！\n❌ Quand tu arrives, je partirai.\n✅ Quand tu arriveras, je partirai.\n中文：你到的时候，我就出发。\n同规则：lorsque / dès que / aussitôt que"
+        },
+        {
+          "id": "1775361462601-wjnuf2ca12",
+          "front": "先将来时（futur antérieur）构成",
+          "back": "公式：avoir/être 的 futur simple + 过去分词\n例（avoir类）：j'aurai mangé（我将已经吃完）\n例（être类）：je serai parti(e)（我将已经离开）\n含义：在未来某时间点之前已完成的动作（= will have done）"
+        },
+        {
+          "id": "1775361462601-5fmwi5gaowp",
+          "front": "先将来时的典型句型",
+          "back": "Quand tu arriveras, j'aurai déjà fini mes devoirs.\n中文：你到的时候，我将已经做完作业了。\nDès que + 先将来时从句 → futur simple 主句\n⚠️ 从句先将来时，主句简单将来时，不能混用！"
+        },
+        {
+          "id": "1775361462601-ql30alpuw3",
+          "front": "虚拟式现在时的构成规则",
+          "back": "词根 = ils 人称现在时变位去掉 -ent\n词尾：-e / -es / -e / -ions / -iez / -ent\n⚠️ nous/vous 例外：用直陈式nous词根（同imparfait）\n例：parler → ils parlent → parl- → que je parle"
+        },
+        {
+          "id": "1775361462601-9g288r68jc",
+          "front": "虚拟式的4个触发场景",
+          "back": "① 必要性：il faut que / il est important que\n② 情感：être content/triste/heureux que\n③ 怀疑/否定：ne pas penser/croire que / douter que\n④ 愿望/目的：vouloir que / pour que / afin que"
+        },
+        {
+          "id": "1775361462601-63p0i4ispwq",
+          "front": "penser que vs ne pas penser que：时态区别",
+          "back": "✅ Je pense que c'est vrai.（直陈式）\n中文：我认为这是真的。\n✅ Je ne pense pas que ce soit vrai.（虚拟式）\n中文：我不认为这是真的。\n规律：肯定→直陈式；否定→虚拟式"
+        },
+        {
+          "id": "1775361462601-zq7cwgkuwvd",
+          "front": "主语相同时，que从句怎么处理？",
+          "back": "主语不同 → que + 虚拟式\nJe veux qu'il parte.（我希望他离开。）\n主语相同 → 改用不定式，去掉que\n❌ Je veux que je parte.\n✅ Je veux partir.（我想离开。）"
+        },
+        {
+          "id": "1775361462601-p98xaq9xnnb",
+          "front": "pour que / afin que 后接什么时态？",
+          "back": "永远接虚拟式，无例外！\nJe t'explique pour que tu comprennes.\n中文：我给你解释，为了让你明白。\nElle parle lentement afin que tout le monde puisse suivre.\n中文：她说得慢，为了让大家都能跟上。"
+        },
+        {
+          "id": "1775361462601-voes3r9r0p",
+          "front": "虚拟式不规则动词：avoir / être",
+          "back": "avoir：aie / aies / ait / ayons / ayez / aient\nêtre：sois / sois / soit / soyons / soyez / soient\n⚠️ 这两个是构成虚拟式过去时的助动词，必须100%背熟！"
+        },
+        {
+          "id": "1775361462601-sz1yl4aj5c",
+          "front": "虚拟式不规则动词：faire / aller / vouloir",
+          "back": "faire：fasse / fasses / fasse / fassions / fassiez / fassent\naller：aille / ailles / aille / allions / alliez / aillent\nvouloir：veuille / veuilles / veuille / voulions / vouliez / veuillent"
+        },
+        {
+          "id": "1775361462601-sasz6r25j7n",
+          "front": "虚拟式过去时的构成",
+          "back": "公式：avoir/être 的虚拟式现在时 + 过去分词\n例（avoir类）：j'aie fini（我已经完成—虚拟式）\n例（être类）：il soit parti（他已经离开—虚拟式）\n用于：对已发生的事表达情感/怀疑/评价"
+        },
+        {
+          "id": "1775361462601-w8csb1sobme",
+          "front": "虚拟式现在时 vs 虚拟式过去时：区别",
+          "back": "现在时：动作尚未发生或同时发生\nJe veux qu'il vienne.（我希望他来。）\n过去时：动作已经发生\nJe suis content qu'il soit venu.（我很高兴他来了。）\n关键：看动作是否已完成！"
+        },
+        {
+          "id": "1775361462601-00sg6lfb9fcfd",
+          "front": "être类动词虚拟式过去时的配合规则",
+          "back": "être类动词虚拟式过去时，过去分词仍需性数配合！\n❌ Elle est triste qu'il soit partie.\n✅ Elle est triste qu'il soit parti.（il阳性，parti不加e）\n✅ Elle est triste qu'elle soit partie.（elle阴性，加e）"
+        },
+        {
+          "id": "1775361462601-xqn8prcefsp",
+          "front": "passé composé：avoir vs être 助动词",
+          "back": "用être的动词：位移类（aller/venir/partir/arriver/entrer/sortir/monter/descendre/naître/mourir）+ 所有代词式动词（se lever等）\n用être时过去分词必须性数配合！\n其余动词用avoir，过去分词通常不配合。"
+        },
+        {
+          "id": "1775361462601-xigrxe303s",
+          "front": "前置直接宾语引起的过去分词配合",
+          "back": "用avoir时，若直接宾语在动词前，过去分词配合宾语！\nLes photos que j'ai prises...（que = les photos，阴性复数）\n→ pris + es = prises\n⚠️ TCF阅读/写作高频考点，极易丢分！"
+        },
+        {
+          "id": "1775361462601-ajrnyqc68cu",
+          "front": "depuis + 持续状态用什么时态？",
+          "back": "depuis + 时间段，动作持续到现在 → 用présent！\n✅ Depuis trois ans, j'habite à Montréal.\n中文：我在蒙特利尔住了三年了（现在还住着）。\n❌ 不能用passé composé！\n⚠️ 这是法语与英语最大的区别之一。"
+        },
+        {
+          "id": "1775361462601-1ospbwiuvs5",
+          "front": "il vaut mieux que / il faudrait + 句型区别",
+          "back": "il vaut mieux que + 虚拟式（建议某人做某事）\nIl vaut mieux que tu partes tôt.（你最好早点走。）\nil faudrait + 不定式（泛指建议）\nIl faudrait partir tôt.（应该早点走。）\n⚠️ 有que → 虚拟式；无que → 不定式！"
+        }
+      ]
+    },
+    {
+      "id": 1775361306593,
+      "name": "习语：Casser les pieds à quelqu'un",
+      "folderId": "1770661225895",
+      "createdAt": "2026-04-05T03:55:06.593Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "— Pourquoi tu fais cette tête ?\n— Mon petit frère me _____ les pieds depuis ce matin !\n（——你为什么这副表情？\n——我弟弟从今早就一直烦我！）",
+          "options": [
+            "brise（打破）",
+            "casse（烦/折磨）",
+            "coupe（切断）",
+            "lève（举起）"
+          ],
+          "correct": 1,
+          "explanation": "固定搭配 casser les pieds à quelqu'un，表示\"烦某人\"。其他动词不构成此习语。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases utilise correctement l'expression « casser les pieds » ?\n（下列哪个句子正确使用了 casser les pieds？）",
+          "options": [
+            "Elle casse les pieds de la table.（她折断了桌腿。）",
+            "Il me casse les pieds avec ses histoires.（他用他的故事烦死我了。）",
+            "Nous cassons les pieds au sol.（我们把脚踩在地上。）",
+            "Tu casses les pieds très bien.（你把脚打断得很好。）"
+          ],
+          "correct": 1,
+          "explanation": "casser les pieds à quelqu'un 是固定习语，必须接「à + 人」，表示\"烦某人\"，不能用字面意思解读。",
+          "category": "习语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Dans quelle situation peut-on utiliser « tu me casses les pieds » ?\n（在哪种场合可以使用 tu me casses les pieds？）",
+          "options": [
+            "Dans une lettre officielle à un directeur.（在给主管的正式信件中。）",
+            "Dans une conversation informelle avec un ami.（在和朋友的非正式对话中。）",
+            "Dans un rapport professionnel.（在专业报告中。）",
+            "Dans un discours public.（在公众演讲中。）"
+          ],
+          "correct": 1,
+          "explanation": "此表达属于口语/非正式语域，只适合朋友之间的日常对话，不适合正式场合。",
+          "category": "语域判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quel mot peut remplacer « casser les pieds à » dans un contexte plus formel ?\n（在更正式的语境中，哪个词可以替换 casser les pieds à？）",
+          "options": [
+            "admirer（欣赏）",
+            "déranger（打扰）",
+            "aider（帮助）",
+            "féliciter（祝贺）"
+          ],
+          "correct": 1,
+          "explanation": "déranger 是 casser les pieds à 的正式替换词，意为\"打扰/烦扰\"，适用于正式写作。",
+          "category": "同义替换"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Arrête ! Tu me _____ les pieds avec tes questions répétitives !\n（停下！你那些重复的问题烦死我了！）",
+          "correct": [
+            "casses"
+          ],
+          "explanation": "主语 tu 对应 casser 的变位 casses。固定结构：casser les pieds à quelqu'un。",
+          "category": "变位填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Mon patron me _____ les pieds tous les jours avec des réunions inutiles.\n（我老板每天用无用的会议烦死我了。）",
+          "correct": [
+            "casse"
+          ],
+          "explanation": "主语 mon patron = il，casser 变位为 casse。",
+          "category": "变位填空"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Lesquelles de ces expressions sont synonymes de « casser les pieds à quelqu'un » ?\n（下列哪些表达与 casser les pieds à quelqu'un 同义？）",
+          "options": [
+            "agacer quelqu'un（惹烦某人）",
+            "féliciter quelqu'un（祝贺某人）",
+            "embêter quelqu'un（烦扰某人）",
+            "remercier quelqu'un（感谢某人）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "agacer 和 embêter 都表示\"烦、惹烦\"，是 casser les pieds 的常见替换词。féliciter 和 remercier 是正面表达，意思相反。",
+          "category": "同义词辨析"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "— Qu'est-ce qui se passe ?\n— C'est mon collègue. Il me _____ les pieds toute la journée. Je n'arrive pas à _____ (travailler) tranquillement !\n（——怎么了？\n——是我同事。他整天烦我。我根本没法安静地工作！）",
+          "correct": [
+            "casse",
+            "travailler"
+          ],
+          "explanation": "第一空：主语 il，casser → casse；第二空：arriver à + 动词原形，填 travailler。",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1-58lSn71IaLM5cBD7drq3FXx4VhBth436YfexkHJYBQ/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361356701-ohc0s003xqc",
+          "front": "casser les pieds à quelqu'un",
+          "back": "习语：烦死某人、让人烦透了\n字面：打断某人的脚\n语域：口语/非正式\n例：Il me casse les pieds. → 他烦死我了。"
+        },
+        {
+          "id": "1775361356701-lmwusq1f5v",
+          "front": "casser les pieds à quelqu'un 的结构是什么？",
+          "back": "casser + les pieds + à + 人\n动词 casser 按主语正常变位\n例：Tu me casses les pieds. → 你烦死我了。"
+        },
+        {
+          "id": "1775361356701-jewur0dmxc8",
+          "front": "casser（动词）的六个变位（présent）",
+          "back": "je casse\ntu casses\nil/elle casse\nnous cassons\nvous cassez\nils/elles cassent"
+        },
+        {
+          "id": "1775361356701-tpcu56ntcsa",
+          "front": "casser les pieds 可以用在正式信件里吗？",
+          "back": "❌ 不可以\n此表达属于口语/非正式语域\n正式场合应替换为：\ndéranger（打扰）\nagacer（惹烦）\nennuyer（使烦恼）"
+        },
+        {
+          "id": "1775361356701-m5o3agz3eb",
+          "front": "casser les pieds à quelqu'un 的三个正式替换词",
+          "back": "① déranger（打扰）→ 最正式\n② agacer（惹烦）→ 中性口语\n③ embêter（烦扰）→ 轻松口语\n④ ennuyer（使烦恼）→ 书面可用"
+        },
+        {
+          "id": "1775361356701-c34sqiwlp0a",
+          "front": "Arrête de me _____ les pieds !\n（别烦我了！）",
+          "back": "casser\n完整句：Arrête de me casser les pieds !\n结构：arrêter de + 动词原形"
+        },
+        {
+          "id": "1775361356701-0uhhp50q7ot",
+          "front": "il me casse les pieds 中，me 指什么？",
+          "back": "me = 间接宾语代词，指\"我\"\n完整逻辑：il casse les pieds à moi\n→ 口语缩写为：il me casse les pieds\n中文：他烦死我了"
+        },
+        {
+          "id": "1775361356701-iwmzxburq7m",
+          "front": "用 casser les pieds 造一个 B2 水平的句子",
+          "back": "Tu commences vraiment à me casser les pieds — on en a déjà parlé trois fois aujourd'hui.\n中文：你真的开始烦我了——我们今天已经谈过三次了。\n要点：vraiment 加强语气；on en a déjà parlé 用 passé composé"
+        }
+      ]
+    },
+    {
+      "id": 1775361254647,
+      "name": "语法-被动式补充",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:54:14.647Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "La ville est entourée ______ montagnes.\n（这座城市被山脉环绕。）",
+          "options": [
+            "par des（被……施动）",
+            "de（由……组成/状态）",
+            "avec des（和……一起）",
+            "pour des（为了……）"
+          ],
+          "correct": 1,
+          "explanation": "entourer de 表状态描述，主语为事物，用 de 而非 par。",
+          "category": "被动式补充"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ce professeur est respecté ______ tous ses étudiants.\n（这位老师受到所有学生的尊敬。）",
+          "options": [
+            "par（被……施动）",
+            "de（情感/抽象关系）",
+            "avec（和……）",
+            "en（用……）"
+          ],
+          "correct": 1,
+          "explanation": "respecter 表抽象情感关系，施动者介词用 de。",
+          "category": "被动式补充"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tous les documents ont été ______.\n（所有文件都被签署了。）",
+          "options": [
+            "signés（复数阳性过去分词）",
+            "signé（单数过去分词）",
+            "signée（单数阴性过去分词）",
+            "signer（原形）"
+          ],
+          "correct": 0,
+          "explanation": "被动式过去分词须与主语性数一致，documents 为复数阳性，用 signés。",
+          "category": "被动式补充"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est ______ fatigué ______ conduire.\n（他太累了，以至于无法开车。）",
+          "options": [
+            "si … que",
+            "trop … pour",
+            "assez … pour",
+            "tellement … que"
+          ],
+          "correct": 1,
+          "explanation": "trop + 形容词 + pour + 原形，表示程度过高导致消极结果。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle a ______ d'argent ______ partir en vacances.\n（她有足够的钱去度假。）",
+          "options": [
+            "trop … que",
+            "assez … pour",
+            "si … que",
+            "tellement … pour"
+          ],
+          "correct": 1,
+          "explanation": "assez de + 名词 + pour + 原形，表示程度足够达到积极结果。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il pleuvait ______, ______ nous avons décidé de rester à la maison.\n（雨下得很大，于是我们决定待在家里。）",
+          "options": [
+            "beaucoup … si",
+            "fort … donc",
+            "trop … pour",
+            "assez … que"
+          ],
+          "correct": 1,
+          "explanation": "donc 连接两个句子，表示因果结果，语义为\"因此/所以\"。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "J'avais ______ de travail ______ je n'ai pas pu dormir.\n（我有那么多工作，以至于无法入睡。）",
+          "options": [
+            "si … que",
+            "trop … pour",
+            "tellement … que",
+            "assez … pour"
+          ],
+          "correct": 2,
+          "explanation": "tellement de + 名词 + que，表示数量之多导致的结果。",
+          "category": "结果表达"
+        },
+        {
+          "type": "single_choice",
+          "stem": "C'est ______ il était absent qu'il n'a pas eu l'information.\n（正因为他缺席，所以他没有得到那个信息。）",
+          "options": [
+            "donc",
+            "alors",
+            "c'est pourquoi",
+            "parce que"
+          ],
+          "correct": 2,
+          "explanation": "c'est pourquoi 引导结果从句，强调\"正是因此\"。注意此处结构：原因在前，c'est pourquoi 引出结果。",
+          "category": "结果表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "La table est couverte _____ livres.\n（桌子上摆满了书。）",
+          "correct": [
+            "de"
+          ],
+          "explanation": "couvert de 表状态，主语为事物，介词用 de。",
+          "category": "被动式补充"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il est _____ fort pour soulever cette caisse.\n（他足够强壮，能搬起这个箱子。）",
+          "correct": [
+            "assez"
+          ],
+          "explanation": "assez + 形容词 + pour + 原形，表示积极结果。",
+          "category": "结果表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le film était _____ long _____ certains spectateurs sont partis avant la fin.\n（这部电影太长了，以至于一些观众在结束前就离开了。）",
+          "correct": [
+            "si",
+            "que"
+          ],
+          "explanation": "si + 形容词 + que 表示程度之高导致的结果，与 tellement + 形容词 + que 可互换。",
+          "category": "结果表达"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a _____ de patience _____ tout le monde l'admire.\n（他非常有耐心，以至于所有人都钦佩他。）",
+          "correct": [
+            "tellement",
+            "que"
+          ],
+          "explanation": "tellement de + 名词 + que，名词 patience 前用 tellement de。",
+          "category": "结果表达"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Cette maison est _____ fleurs. Le jardin est _____ entretenu _____ les voisins viennent souvent le visiter.\n（这栋房子装饰着鲜花。花园维护得相当好，以至于邻居们经常来参观。）",
+          "correct": [
+            "ornée de",
+            "assez bien",
+            "pour que"
+          ],
+          "explanation": "第一空：ornée de 状态描述用 de，ornée 与 maison（阴性单数）一致；第二空：assez bien 足够好；第三空：pour que 后接虚拟式从句。",
+          "category": "混合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il y avait _____ monde à la fête _____ on ne pouvait pas bouger. La musique était _____ forte _____ parler normalement.\n（派对上人太多了，以至于无法移动。音乐声太大，无法正常交谈。）",
+          "correct": [
+            "tellement de",
+            "qu'",
+            "trop",
+            "pour"
+          ],
+          "explanation": "第一、二空：tellement de + 名词 + que；第三、四空：trop + 形容词 + pour + 原形，表消极阻碍。",
+          "category": "结果表达"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子中介词使用正确？\n（选出所有正确的句子。）",
+          "options": [
+            "Il est aimé de tous ses collègues.（他受到所有同事的喜爱。）",
+            "La rue est bloquée par des voitures.（街道被汽车堵塞了。）",
+            "La forêt est couverte par la neige.（森林被雪覆盖。）",
+            "Ce chercheur est admiré de ses pairs.（这位研究员受到同行的钦佩。）"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "选项C错误：couverte de neige（状态描述用de），不用par。A和D为情感/抽象关系动词用de，正确；B为具体施动动作用par，正确。",
+          "category": "被动式补充"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1rKNYTxDSnaGh6X3UtwK7Pk_x1LDpLK2-ocWF4wrkHkc/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361274351-l7ngcza9nh",
+          "front": "être + orné / couvert / rempli / entouré → 介词用？",
+          "back": "用 de，不用 par\n这类词描述「状态」而非「动作」\n例：La table est couverte de livres.\n（桌子上摆满了书。）"
+        },
+        {
+          "id": "1775361274351-lad4upqgvm",
+          "front": "情感/抽象动词被动式 → 施动者介词用？",
+          "back": "用 de\n常见词：aimer, respecter, admirer, craindre, apprécier\n例：Il est aimé de tous.\n（他受到所有人的喜爱。）"
+        },
+        {
+          "id": "1775361274351-4lett8a2lee",
+          "front": "具体动作被动式 → 施动者介词用？",
+          "back": "用 par\n例：La fenêtre a été cassée par un enfant.\n（窗户被一个孩子打破了。）"
+        },
+        {
+          "id": "1775361274351-h7srsdqnrdj",
+          "front": "被动式省略施动者 → 什么情况下可以省？",
+          "back": "上下文明确、泛指大众时可省略\n例：Tous les billets ont été vendus.\n（所有票都被卖完了。）"
+        },
+        {
+          "id": "1775361274351-6td4wdauf22",
+          "front": "被动式 passé composé → 过去分词变化规则？",
+          "back": "必须与主语性数一致\n例：Les lettres ont été envoyées.（f. pl.）\n（信件已被寄出。）"
+        },
+        {
+          "id": "1775361274351-b13wjnyeski",
+          "front": "trop + 形/副 + pour + 原形",
+          "back": "含义：过于……反而无法……（消极结果）\n例：Il est trop fatigué pour conduire.\n（他太累了，无法开车。）"
+        },
+        {
+          "id": "1775361274351-wyakszoba6c",
+          "front": "assez + 形/副 + pour + 原形",
+          "back": "含义：足够……足以……（积极结果）\n例：Elle est assez courageuse pour parler en public.\n（她足够勇敢，能够在公众面前发言。）"
+        },
+        {
+          "id": "1775361274351-6t9jkrt2pqi",
+          "front": "tellement de + 名词 + que",
+          "back": "含义：那么多……以至于……\n例：J'ai tellement de travail que je ne dors plus.\n（我有那么多工作，以至于不再睡觉。）"
+        },
+        {
+          "id": "1775361274351-900o15fmawf",
+          "front": "si / tellement + 形容词/副词 + que",
+          "back": "含义：如此……以至于……\n两者可互换，si 更书面，tellement 更口语\n例：Il parle si vite que je ne comprends rien.\n（他说得如此快，以至于我什么都听不懂。）"
+        },
+        {
+          "id": "1775361274351-8llit8srgp9",
+          "front": "assez de + 名词 + pour + 原形",
+          "back": "含义：足够多的……足以……\n例：Il a assez d'argent pour acheter cette voiture.\n（他有足够的钱买这辆车。）"
+        },
+        {
+          "id": "1775361274351-cavym5q8o5",
+          "front": "trop de + 名词 + pour + 原形",
+          "back": "含义：过多的……反而无法……\n例：Vous avez trop de problèmes pour arrêter de fumer.\n（你问题太多，没法戒烟。）"
+        },
+        {
+          "id": "1775361274351-o6o2lclihmj",
+          "front": "donc / alors / c'est pourquoi → 区别？",
+          "back": "donc：因此（逻辑推论，较正式）\nalors：于是（叙事性，口语常见）\nc'est pourquoi：正因此（强调原因，较郑重）\n三者均连接两句，表结果。"
+        },
+        {
+          "id": "1775361274351-0jifs8nx1a7l",
+          "front": "c'est pourquoi vs c'est pour ça que",
+          "back": "含义相同：这就是为什么……\nc'est pourquoi → 书面/正式\nc'est pour ça que → 口语\n例：J'étais malade, c'est pourquoi je n'ai pas répondu.\n（我生病了，所以没有回复。）"
+        },
+        {
+          "id": "1775361274351-rk20u6wumi",
+          "front": "动词 + tellement + que",
+          "back": "含义：如此……以至于……（动词程度副词）\n例：Il l'aime tellement qu'il veut l'épouser.\n（他如此爱她，以至于想娶她。）"
+        },
+        {
+          "id": "1775361274351-4eh0gwht48o",
+          "front": "TCF陷阱：si 只能接什么？",
+          "back": "只接形容词或副词，不接名词\n✅ si fort que\n❌ si travail que（错，名词前用 tellement de）"
+        },
+        {
+          "id": "1775361274351-9vsu3one95t",
+          "front": "TCF陷阱：trop…pour vs tellement…que",
+          "back": "trop…pour：程度过高 → 无法做（后接原形）\ntellement…que：程度之高 → 导致结果（后接陈述句）\n例：\nIl est trop fatigué pour travailler.（无法工作）\nIl est tellement fatigué qu'il dort debout.（站着睡着）"
+        }
+      ]
+    },
+    {
+      "id": 1775361219314,
+      "name": "语法-被动式时态",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:53:39.314Z",
+      "questions": [
+        {
+          "type": "fill_blank",
+          "stem": "La mère prépare le repas. → Le repas _____ par la mère.\n（妈妈准备饭菜。→ 饭菜被妈妈准备。）",
+          "correct": [
+            "est préparé"
+          ],
+          "explanation": "présent被动：est + préparé（repas阳性单数，过去分词不变）。",
+          "category": "被动式-现在时"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le professeur a corrigé les examens. → Les examens _____ par le professeur.\n（老师批改了试卷。→ 试卷被老师批改了。）",
+          "correct": [
+            "ont été corrigés"
+          ],
+          "explanation": "passé composé被动：ont été + corrigés（examens阳性复数，加-s）。",
+          "category": "被动式-复合过去"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les enfants mangeaient les gâteaux. → Les gâteaux _____ par les enfants.\n（孩子们吃蛋糕。→ 蛋糕被孩子们吃。）",
+          "correct": [
+            "étaient mangés"
+          ],
+          "explanation": "imparfait被动：étaient + mangés（gâteaux阳性复数，加-s）。",
+          "category": "被动式-未完成过去"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le médecin va examiner la patiente. → La patiente _____ par le médecin.\n（医生将要检查女病人。→ 女病人将要被医生检查。）",
+          "correct": [
+            "va être examinée"
+          ],
+          "explanation": "futur proche被动：va être + examinée（patiente阴性单数，加-e）。",
+          "category": "被动式-最近将来"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Le gouvernement annoncera les résultats. → Les résultats _____ par le gouvernement.\n（政府将宣布结果。→ 结果将被政府宣布。）",
+          "correct": [
+            "seront annoncés"
+          ],
+          "explanation": "futur simple被动：seront + annoncés（résultats阳性复数，加-s）。",
+          "category": "被动式-简单将来"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Les fleurs _____ par Marie chaque matin.\n（花每天早上被玛丽浇水。）",
+          "options": [
+            "est arrosée（被浇水，阴单）",
+            "sont arrosées（被浇水，阴复）",
+            "ont été arrosées（曾被浇水）",
+            "étaient arrosées（过去经常被浇水）"
+          ],
+          "correct": 1,
+          "explanation": "chaque matin表示习惯，用现在时；fleurs阴性复数→sont arrosées。",
+          "category": "被动式-性数配合"
+        },
+        {
+          "type": "single_choice",
+          "stem": "La lettre _____ par le directeur hier.\n（这封信昨天被主任签署了。）",
+          "options": [
+            "est signée（现在时）",
+            "était signée（未完成过去）",
+            "a été signée（复合过去）",
+            "sera signée（将来时）"
+          ],
+          "correct": 2,
+          "explanation": "hier明确指向过去已完成动作，用passé composé被动：a été signée。",
+          "category": "被动式-时态判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "À cette époque, les rues _____ par les soldats.\n（那个时期，街道被士兵们巡逻。）",
+          "options": [
+            "sont patrouillées",
+            "ont été patrouillées",
+            "étaient patrouillées",
+            "seront patrouillées"
+          ],
+          "correct": 2,
+          "explanation": "à cette époque表示过去持续状态，用imparfait被动：étaient patrouillées。",
+          "category": "被动式-时态判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "下列哪一句是正确的被动式？\n（以下哪句被动式写法正确？）",
+          "options": [
+            "Elle est venue par lui.（她被他来了）",
+            "Le pont a construit par les ouvriers.（桥被工人建造了）",
+            "La voiture va être réparée par le mécanicien.（车将被修好）",
+            "Les lettres ont signé par le directeur.（信被主任签了）"
+          ],
+          "correct": 2,
+          "explanation": "A：venir是不及物动词不能被动；B：缺été；C：正确；D：缺été，应为ont été signées。",
+          "category": "被动式-结构识别"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est descendu du bus.\n（他从公交车上下来了。）\n这句话是：",
+          "options": [
+            "被动式，意为他被公交车送下来",
+            "被动式，descendre有施动者",
+            "普通复合过去时，descendre以être为助动词",
+            "未完成过去时"
+          ],
+          "correct": 2,
+          "explanation": "descendre是不及物位移动词，以être为助动词构成普通复合过去，不是被动式。这是TCF超高频陷阱。",
+          "category": "被动式-陷阱识别"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子是真正的被动式？（可多选）\n（以下哪些是被动式句子？）",
+          "options": [
+            "La fenêtre est ouverte par le vent.（窗户被风吹开）",
+            "Elle est partie ce matin.（她今早出发了）",
+            "Les devoirs ont été faits par les élèves.（作业被学生做完了）",
+            "Il est arrivé en retard.（他迟到了）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "B和D：partir/arriver是不及物动词，用être构成普通复合过去，不是被动。A和C：有施动者par，结构完整，是真正的被动式。",
+          "category": "被动式-陷阱识别"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些过去分词的性数配合是正确的？（可多选）\n（以下哪些分词性数一致？）",
+          "options": [
+            "Les filles sont invitées.（女孩们被邀请）",
+            "Le garçon est invitée.（男孩被邀请）",
+            "La porte est fermée.（门被关上）",
+            "Les livres sont fermée.（书被合上）"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "B：garçon阳性单数应为invité；D：livres阳性复数应为fermés。A和C性数完全正确。",
+          "category": "被动式-性数配合"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "改写下列主动句为被动句：\nLe chef cuisine les plats. → Les plats _____ par le chef.\nLe jury a choisi la gagnante. → La gagnante _____ par le jury.\nOn construisait l'école. → L'école _____ .\n（主厨烹饪菜肴→菜肴被主厨烹饪；评委选出了女冠军→女冠军被选出；人们在建造学校→学校在被建造）",
+          "correct": [
+            "sont cuisinés",
+            "a été choisie",
+            "était construite"
+          ],
+          "explanation": "1.plats阳复→sont cuisinés；2.gagnante阴单→a été choisie；3.imparfait无施动者on可省略par on→était construite。",
+          "category": "被动式-综合改写"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "用正确的被动式填空：\nDemain, le contrat _____ (signer) par les deux parties.\nL'année dernière, plusieurs musées _____ (rénover) par la ville.\nEn ce moment, la réunion _____ (organiser) par le comité.\n（明天合同将被双方签署；去年几个博物馆被市政府翻新；此刻会议正被委员会组织）",
+          "correct": [
+            "sera signé",
+            "ont été rénovés",
+            "est organisée"
+          ],
+          "explanation": "1.demain→futur simple，contrat阳单→sera signé；2.l'année dernière→passé composé，musées阳复→ont été rénovés；3.en ce moment→présent，réunion阴单→est organisée。",
+          "category": "被动式-时态综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/131QsOn7iL7n7IxvcKWkr9YqayTcyH1G362wSNLU5boc/edit?tab=t.0#heading=h.snjkw977g9zj"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
+      "id": 1775361165877,
+      "name": "语法-使动结构faire",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:52:45.877Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Je fais _____ les enfants.\n（我让孩子们进来。）",
+          "options": [
+            "entrer（进来）",
+            "entrés（进来了）",
+            "entrant（正在进来）",
+            "entré（进来了）"
+          ],
+          "correct": 0,
+          "explanation": "faire + 动词不定式，entrer 为不定式原形。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle fait _____ la voiture à son mari.\n（她让她丈夫修车。）",
+          "options": [
+            "répare（他修）",
+            "réparer（修）",
+            "réparé（修了）",
+            "réparant（正在修）"
+          ],
+          "correct": 1,
+          "explanation": "faire + 不定式，réparer 为原形，不能用变位形式。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il y a un direct object après l'infinitif. Laquelle est correcte ?\n（不定式后有直接宾语，哪句正确？）",
+          "options": [
+            "Je le fais lire le livre.（我让他读这本书。）",
+            "Je lui fais lire le livre.（我让他读这本书。）",
+            "Je fais lire le livre le garçon.（我让男孩读这本书。）",
+            "Je fais lire lui le livre.（我让他读这本书。）"
+          ],
+          "correct": 1,
+          "explanation": "lire 是及物动词，le livre 已占 COD，施动者用间接宾语代词 lui，不能用 le。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous faisons _____ les étudiants.\n（我们让学生们工作。）",
+          "options": [
+            "travaillent（他们工作）",
+            "travailler（工作）",
+            "travaillé（工作了）",
+            "travaillant（正在工作）"
+          ],
+          "correct": 1,
+          "explanation": "faire + 不定式原形，travailler 是正确形式。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je fais travailler les étudiants. 代词化后是？\n（我让学生们工作。→ 代词化）",
+          "options": [
+            "Je lui fais travailler.（我让他工作。）",
+            "Je leur fais travailler.（我让他们工作。）",
+            "Je les fais travailler.（我让他们工作。）",
+            "Je fais les travailler.（我让他们工作。）"
+          ],
+          "correct": 2,
+          "explanation": "travailler 不及物，les étudiants 是 COD，代词用 les，且放在 fais 前。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je fais photocopier le dossier à mon collègue. 代词化后是？\n（我让同事复印文件。→ 代词化）",
+          "options": [
+            "Je le fais photocopier le dossier.（我让他复印文件。）",
+            "Je lui fais photocopier le dossier.（我让他复印文件。）",
+            "Je les fais photocopier le dossier.（我让他们复印文件。）",
+            "Je fais lui photocopier le dossier.（我让他复印文件。）"
+          ],
+          "correct": 1,
+          "explanation": "photocopier 是及物动词，le dossier 占 COD，mon collègue 是间接宾语，代词用 lui。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il est allé _____ sa voiture.\n（他去找人修车了。）",
+          "options": [
+            "réparer（修）",
+            "faire réparer（让人修）",
+            "se réparer（自己修）",
+            "réparé（修了）"
+          ],
+          "correct": 1,
+          "explanation": "faire réparer 表示让别人做，不是自己修。这是使动结构的典型用法。",
+          "category": "使动结构"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je me suis fait _____ les cheveux.\n（我让人给我剪了头发。）",
+          "options": [
+            "coupée（剪了，阴性）",
+            "coupés（剪了，复数）",
+            "couper（剪）",
+            "coupant（正在剪）"
+          ],
+          "correct": 2,
+          "explanation": "se faire + 不定式原形，过去分词不与主语配合，用 couper 原形。",
+          "category": "使动结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子使用了正确的使动结构？\n（以下哪些句子的使动结构正确？）",
+          "options": [
+            "Elle fait chanter les enfants.（她让孩子们唱歌。）",
+            "Je le fais lire le journal.（我让他读报纸。）",
+            "Il fait réparer sa voiture par le mécanicien.（他让机械师修车。）",
+            "Nous lui faisons manger une pomme.（我们让他吃一个苹果。）"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A正确：chanter不及物，les enfants是COD。B错误：lire及物，journal已占COD，应用lui。C正确：par+名词表施动者。D正确：manger及物+une pomme，lui是间接宾语。",
+          "category": "使动结构"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "「她让Marie等待」哪些表达正确？\n（以下哪些正确？）",
+          "options": [
+            "Elle fait attendre Marie.（她让Marie等待。）",
+            "Elle la fait attendre.（她让她等待。）",
+            "Elle lui fait attendre.（她让她等待。）",
+            "Elle fait Marie attendre.（她让Marie等待。）"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "attendre此处不及物，Marie是COD，代词化用la。lui是COI代词，此处不适用。D语序错误。",
+          "category": "使动结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Les réseaux sociaux nous font _____ beaucoup de temps.\n（社交媒体让我们浪费很多时间。）",
+          "correct": [
+            "perdre"
+          ],
+          "explanation": "faire + 不定式，perdre 是原形，nous 在 font 前作间接宾语代词。",
+          "category": "使动结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Il a fait _____ la fenêtre par son propriétaire.\n（他让他的房东修理了窗户。）",
+          "correct": [
+            "réparer"
+          ],
+          "explanation": "faire + 不定式，réparer 原形，par + 施动者名词（因为 la fenêtre 已是直接宾语）。",
+          "category": "使动结构"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je me suis fait faire _____.\n（我让人给我打了一针。）",
+          "correct": [
+            "une piqûre"
+          ],
+          "explanation": "se faire faire qch = 让别人对自己做某事，une piqûre 是直接宾语。",
+          "category": "使动结构"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Nous _____ entrer dans la chambre. → 代词化：Nous _____ faisons entrer dans la chambre.\n（我们让他们进来房间。→ 代词化：我们让他们进来房间。）",
+          "correct": [
+            "les faisons",
+            "les"
+          ],
+          "explanation": "entrer 不及物，ils/eux 是 COD，代词用 les，放在 faisons 前。",
+          "category": "使动结构"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Je fais manger une pomme _____ garçon. → 代词化：Je _____ fais manger une pomme.\n（我让男孩吃一个苹果。→ 代词化：我让他吃一个苹果。）",
+          "correct": [
+            "au",
+            "lui"
+          ],
+          "explanation": "manger 及物，une pomme 是 COD，garçon 是间接宾语用 à，代词化用 lui。",
+          "category": "使动结构"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1fmK2WnzCDPHdzjGp2O2U9DG8LoHTQxzGWE57gM85zYM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361179088-i8xpfi74p1n",
+          "front": "faire + 不定式 = ？",
+          "back": "使动结构：让/使/叫某人做某事\n例：Je fais venir mon ami. 我让我的朋友来。"
+        },
+        {
+          "id": "1775361179088-x4q6le3rxrt",
+          "front": "使动结构中，不及物动词的施动者用什么宾语？",
+          "back": "直接宾语（COD）\n名词直接放后面，代词用 le/la/les\n例：Je les fais travailler. 我让他们工作。"
+        },
+        {
+          "id": "1775361179088-7f7sueas7x8",
+          "front": "使动结构中，及物动词后施动者为何退位？",
+          "back": "因为直接宾语位置已被动作承受者占据\n施动者变间接宾语，加 à/par 或用 lui/leur\n例：Je lui fais lire le livre. 我让他读这本书。"
+        },
+        {
+          "id": "1775361179088-0uytthgyh6pi",
+          "front": "情况A代词：施动者代词化用哪组？",
+          "back": "COD 代词：me, te, le, la, nous, vous, les\n条件：不定式不及物（后面无直接宾语）\n例：Elle les fait venir. 她让他们来。"
+        },
+        {
+          "id": "1775361179088-7k2r8hxi082",
+          "front": "情况B代词：施动者代词化用哪组？",
+          "back": "COI 代词：me, te, lui, nous, vous, leur\n条件：不定式及物（后面已有直接宾语）\n例：Je lui fais réparer la voiture. 我让他修车。"
+        },
+        {
+          "id": "1775361179088-q7dt2u8txjr",
+          "front": "faire réparer vs réparer — 区别是什么？",
+          "back": "faire réparer = 让别人修（使动）\nréparer = 自己修\n例：Il a fait réparer sa voiture. 他让人修了车。（不是自己修）"
+        },
+        {
+          "id": "1775361179088-ha3b4dbf1oa",
+          "front": "se faire + 不定式 = ？",
+          "back": "让别人对自己做某事\n例：Je me suis fait couper les cheveux. 我让人给我剪了头发。\n相当于英语 have sth done"
+        },
+        {
+          "id": "1775361179088-22st1mk0f6u",
+          "front": "se faire 结构中，过去分词是否配合主语性数？",
+          "back": "❌ 不配合！\n正确：Je me suis fait couper（不加 e）\n错误：Je me suis faite couper"
+        },
+        {
+          "id": "1775361179088-zegtldm93mq",
+          "front": "「一个宾语原则」是什么？",
+          "back": "不定式后只有一个宾语时：\n→ 施动者 = COD（直接宾语）\n不定式后有两个宾语时：\n→ 施动者 = COI（间接宾语）退位"
+        },
+        {
+          "id": "1775361179088-bx12udlrksl",
+          "front": "Je fais travailler les étudiants. → 代词化",
+          "back": "Je les fais travailler.\ntravailler 不及物 → les étudiants 是 COD → 代词 les"
+        },
+        {
+          "id": "1775361179088-mwaplq6rq6",
+          "front": "Je fais photocopier le dossier à mon collègue. → 代词化",
+          "back": "Je lui fais photocopier le dossier.\nphotocopier 及物 → le dossier 占 COD → mon collègue 是 COI → 代词 lui"
+        },
+        {
+          "id": "1775361179088-tvexgg476uk",
+          "front": "faire + 不定式，不定式用什么形式？",
+          "back": "永远用原形（不定式）\n❌ Je fais travaille\n✅ Je fais travailler"
+        },
+        {
+          "id": "1775361179088-fldbx2brmgi",
+          "front": "使动结构中，par 和 à 有何区别？",
+          "back": "par：强调「被委托/被指派」，书面语更常见\nà：口语更常见，两者在 TCF 中均视为正确\n例：Je fais réparer la voiture par/à Marc."
+        },
+        {
+          "id": "1775361179088-wewwts725r",
+          "front": "Les réseaux sociaux nous font _____ beaucoup de temps.",
+          "back": "perdre\n社交媒体让我们浪费很多时间。\nfaire + perdre（不定式原形）"
+        },
+        {
+          "id": "1775361179088-oyihx7ch79",
+          "front": "Il a fait _____ sa voiture.（他去让人修车了）",
+          "back": "réparer\nfaire réparer = 让人修\n完整：Il a fait réparer sa voiture par le mécanicien."
+        }
+      ]
+    },
+    {
+      "id": 1775361097112,
+      "name": "语法-对立和让步",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:51:37.112Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Elle travaille dur tous les jours, _____ elle n'obtient pas de promotion.\n（她每天努力工作，然而她还是得不到晋升。）",
+          "options": [
+            "mais（但是）",
+            "pourtant（然而）",
+            "au contraire（恰恰相反）",
+            "même si（即使）"
+          ],
+          "correct": 1,
+          "explanation": "强调'意外'的对立，努力工作却得不到晋升，语气强烈，用 pourtant 更准确，体现 B2 水平。mais 也勉强成立但语气弱。",
+          "category": "对立让步"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ la pluie, ils ont décidé de faire un pique-nique dehors.\n（尽管下雨，他们还是决定在外面野餐。）",
+          "options": [
+            "Malgré（尽管）",
+            "Même si（即使）",
+            "Bien que（尽管）",
+            "Pourtant（然而）"
+          ],
+          "correct": 0,
+          "explanation": "空格后是名词 la pluie，只能接名词的让步介词是 malgré。même si 和 bien que 后接从句，pourtant 不引导从句。",
+          "category": "让步"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_____ ses parents lui conseillent de se reposer, il continue à travailler.\n（即使父母建议他休息，他还是继续工作。）",
+          "options": [
+            "Malgré（尽管）",
+            "Même si（即使）",
+            "Au lieu de（而不是）",
+            "Contrairement à（与…相反）"
+          ],
+          "correct": 1,
+          "explanation": "空格后是完整从句（直陈式），引导让步条件从句用 même si。malgré 后只接名词，au lieu de 后接动词原形。",
+          "category": "让步"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Tu ferais mieux de te concentrer sur tes études _____ passer tout ton temps sur les réseaux sociaux.\n（你最好专注学习，而不是把时间都花在社交媒体上。）",
+          "options": [
+            "tandis que（而）",
+            "au lieu de（而不是）",
+            "pourtant（然而）",
+            "malgré（尽管）"
+          ],
+          "correct": 1,
+          "explanation": "空格后是动词原形 passer，表示'用A替代B'，用 au lieu de。tandis que 后接完整从句。",
+          "category": "替代"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il n'est pas paresseux ; , il est l'un des étudiants les plus travailleurs de la classe.\n（他不懒；恰恰相反，他是班里最勤奋的学生之一。）",
+          "options": [
+            "pourtant（然而）",
+            "au contraire（恰恰相反）",
+            "mais（但是）",
+            "tandis que（而）"
+          ],
+          "correct": 1,
+          "explanation": "前文是否定句 il n'est pas paresseux，后文给出完全相反的信息，必须用 au contraire。这是 au contraire 的核心用法。",
+          "category": "对立"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Marie aime le calme _____ son frère préfère les endroits animés.\n（玛丽喜欢安静，而她哥哥更喜欢热闹的地方。）",
+          "options": [
+            "pourtant（然而）",
+            "malgré（尽管）",
+            "tandis que（而）",
+            "au lieu de（而不是）"
+          ],
+          "correct": 2,
+          "explanation": "两个动作同时存在的客观对立，用 tandis que 或 alors que。pourtant 不引导从句，malgré 后接名词。",
+          "category": "对立"
+        },
+        {
+          "type": "single_choice",
+          "stem": " aux attentes de tout le monde, l'équipe a perdu le match final.\n（与所有人的期望相反，球队在决赛中输了。）",
+          "options": [
+            "Malgré（尽管）",
+            "Contrairement（与…相反）",
+            "Pourtant（然而）",
+            "Au lieu de（而不是）"
+          ],
+          "correct": 1,
+          "explanation": "空格后是介词 aux + 名词，固定结构 contrairement à + 名词，表示'与…相反'。malgré 语义接近但结构不同（malgré + 名词，无 à）。",
+          "category": "对立"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子语法正确？\n（选出所有正确的句子）",
+          "options": [
+            "Malgré qu'il soit fatigué, il continue.（尽管他很累，他还是继续。）",
+            "Malgré sa fatigue, il continue.（尽管很累，他还是继续。）",
+            "Bien qu'il soit fatigué, il continue.（尽管他很累，他还是继续。）",
+            "Même si il est fatigué, il continue.（即使他很累，他还是继续。）"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "① malgré que + 从句 ❌，malgré 只接名词。② malgré + 名词 ✅。③ bien que + 虚拟式 ✅。④ même si + 直陈式 ✅（même si 后不缩写，即使主语是 il 也不省略）。",
+          "category": "综合辨析"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ il pleuve, nous irons au marché.\n（即使下雨，我们也会去市场。）\n提示：填一个表示让步的连接词，后接虚拟式。",
+          "correct": [
+            "Même si",
+            "Bien que"
+          ],
+          "explanation": "même si 后接直陈式（il pleut），bien que 后接虚拟式（il pleuve）。本题从句用虚拟式 pleuve，因此只有 bien que 严格正确；même si 若用则后面应改为直陈式 il pleut。",
+          "category": "让步"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Il étudie le français depuis trois ans. _____ ses progrès sont réels, il hésite encore à parler en public. _____ se taire, il devrait saisir chaque occasion de pratiquer. _____ ses camarades de classe, qui participent activement, il reste souvent silencieux.\n（他学法语已经三年了。尽管他的进步是真实的，他还是不敢在公开场合说话。与其沉默，他应该抓住每一个练习机会。与他的同学不同——他们积极参与——他却常常保持沉默。）",
+          "correct": [
+            "Pourtant",
+            "Au lieu de",
+            "Contrairement à"
+          ],
+          "explanation": "第一空：两个分句对立，强调意外（进步明显却不敢开口），用 pourtant。第二空：后接动词原形 se taire，用 au lieu de。第三空：后接名词短语 ses camarades de classe，用 contrairement à。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1KYeL_iZLuuf7EW21wdZIKd45KhJVnbTC1Z7Ygnm4L8Q/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361131282-94f2ee9mol",
+          "front": "mais",
+          "back": "但是（对立，语气中性）\n连接两个完整分句，前后均衡。\n例：Il est sympa, mais il est souvent en retard.\n他人很好，但经常迟到。"
+        },
+        {
+          "id": "1775361131282-frjvgh45r27",
+          "front": "pourtant",
+          "back": "然而 / 可是（对立，强调意外）\n说话人觉得结果出人意料，语气比 mais 强。\n例：Il travaille dur, pourtant il n'est pas promu.\n他很努力，然而却没有晋升。"
+        },
+        {
+          "id": "1775361131282-ubs7k5irzqs",
+          "front": "au contraire",
+          "back": "恰恰相反（完全否定前文）\n⚠️ 前文必须有否定句，后文给出完全相反信息。\n例：Elle n'est pas fatiguée ; au contraire, elle est en pleine forme.\n她不累；恰恰相反，她状态极佳。"
+        },
+        {
+          "id": "1775361131282-cdblbs4znq5",
+          "front": "même si",
+          "back": "即使 / 就算（让步条件）\n⚠️ 后接直陈式从句，不接虚拟式！\n例：Même s'il fait froid, elle sort sans manteau.\n即使天冷，她也不穿外套出门。"
+        },
+        {
+          "id": "1775361131282-3xzy3a7v4q8",
+          "front": "même si vs bien que — 后接什么时态？",
+          "back": "même si → 直陈式（indicatif）✅\nbien que → 虚拟式（subjonctif）✅\n\n例：\nMême s'il est fatigué, il travaille.\nBien qu'il soit fatigué, il travaille.\n两句都表示'尽管他很累，他还是工作'。"
+        },
+        {
+          "id": "1775361131282-20u00e2mpdg",
+          "front": "alors que",
+          "back": "而 / 然而（客观对立 或 同时）\n① 对立：两个事实形成对比\n② 时间：当……时候\n⚠️ 后接直陈式从句。\n例：Elle est blonde alors que ses frères sont bruns.\n她是金发，而她兄弟是棕发。"
+        },
+        {
+          "id": "1775361131282-utku4dwtii",
+          "front": "tandis que",
+          "back": "而 / 与此同时（同时进行的对立）\n强调两个动作同时发生中的对比，与 alors que 近义。\n⚠️ 后接直陈式从句。\n例：Les uns travaillent, tandis que les autres bavardent.\n一些人在工作，而另一些人在闲聊。"
+        },
+        {
+          "id": "1775361131282-9v1c2a79xl",
+          "front": "alors que vs tandis que — 区别？",
+          "back": "两者几乎同义，可互换。\n细微差别：\n• tandis que 更强调两个动作同时进行中的对比\n• alors que 更常见，且有时间义（当……时）\n⚠️ TCF 考试中两者一般视为等价，选哪个都对。"
+        },
+        {
+          "id": "1775361131282-4ffgsv3g4hn",
+          "front": "contrairement à",
+          "back": "与……相反 / 不同于（介词短语）\n⚠️ 后接名词或代词，不能直接接从句！\n例：Contrairement aux prévisions, il n'a pas plu.\n与预报相反，并没有下雨。"
+        },
+        {
+          "id": "1775361131282-t0nb5dra5v",
+          "front": "malgré",
+          "back": "尽管 / 不顾（让步介词）\n⚠️ 后接名词或代词，绝不接 que 从句！\n例：Ils sont sortis malgré le mauvais temps.\n尽管天气不好，他们还是出门了。"
+        },
+        {
+          "id": "1775361131282-c3mc50u11xf",
+          "front": "malgré vs bien que — 如何选？",
+          "back": "malgré + 名词/代词 ✅\nbien que + 虚拟式从句 ✅\nmalgré que + 从句 ❌（错误，TCF 高频陷阱！）\n\n例：\nMalgré la pluie, il est sorti.\nBien qu'il pleuve, il est sorti.\n两句都表示'尽管下雨，他还是出去了'。"
+        },
+        {
+          "id": "1775361131282-gvl9db4prt5",
+          "front": "au lieu de",
+          "back": "而不是 / 代替（替代介词）\n⚠️ 后接动词原形或名词，不接有主语的从句！\n例：Tu devrais travailler au lieu de regarder la télé.\n你应该工作，而不是看电视。"
+        },
+        {
+          "id": "1775361131282-1w9fnq4q6c5",
+          "front": "au lieu de vs tandis que — 如何选？",
+          "back": "au lieu de + 动词原形/名词 → 表示替代\nEx: au lieu de dormir（而不是睡觉）\n\ntandis que + 完整从句 → 表示同时对立\nEx: tandis qu'il dort（而他在睡觉）\n\n⚠️ 空格后若有动词原形 → 选 au lieu de"
+        },
+        {
+          "id": "1775361131282-2wj1ak3s0e",
+          "front": "九大连接词 — 后接结构速查",
+          "back": "接名词/代词：\n• malgré ✅\n• contrairement à ✅\n• au lieu de（也接动词原形）✅\n\n接动词原形：\n• au lieu de ✅\n\n接直陈式从句：\n• mais / pourtant / alors que / tandis que / même si ✅\n\n接虚拟式从句：\n• bien que ✅（参考对比词）"
+        },
+        {
+          "id": "1775361131282-t48swl2tkwp",
+          "front": "TCF 写作加分替换表",
+          "back": "B1 写法 → B2 升级写法\n\nmais → pourtant（强调意外）\nmalgré + nom → bien que + subjonctif\nau contraire → à l'opposé / en revanche\nmême si → quand bien même（书面高级）\n\n💡 写作中用一个 pourtant 或 bien que，立刻体现 B2 水平！"
+        }
+      ]
+    },
+    {
+      "id": 1775361014520,
+      "name": "A2 Lecon 15 TCF阅读 练习",
+      "folderId": "1772685738192",
+      "createdAt": "2026-04-05T03:50:14.520Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Selon l'article, quelle est la position de la France par rapport aux autres pays ?\n（根据文章，法国相对于其他国家的立场是什么？）",
+          "options": [
+            "La France est le seul pays à ouvrir les magasins le dimanche.（法国是唯一一个周日开店的国家。）",
+            "La France refuse d'ouvrir les magasins le dimanche, contrairement à d'autres pays.（与其他国家不同，法国拒绝周日开店。）",
+            "La France a récemment changé sa loi sur les magasins du dimanche.（法国最近修改了周日商店法规。）",
+            "La France oblige les magasins à ouvrir le dimanche.（法国强制商店周日开业。）"
+          ],
+          "correct": 1,
+          "explanation": "文章首句明确：contrairement à beaucoup d'autres pays, la France continue à refuser l'ouverture des magasins le dimanche。答案B是原文的同义改写。",
+          "category": "细节定位"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que veut dire « on se demande bien pourquoi » dans ce contexte ?\n（在此语境中，« on se demande bien pourquoi » 是什么意思？）",
+          "options": [
+            "Les gens connaissent la raison de cette loi.（人们知道这条法律的原因。）",
+            "L'auteure trouve cette situation parfaitement logique.（作者认为这种情况完全合理。）",
+            "Les gens trouvent cette situation difficile à comprendre.（人们觉得这种情况难以理解。）",
+            "L'auteure demande une explication officielle au gouvernement.（作者要求政府给出官方解释。）"
+          ],
+          "correct": 2,
+          "explanation": "« se demander bien pourquoi » 表示困惑不解，bien 是加强语气词。作者在质疑这条规定的合理性，并非真的在提交正式请求。",
+          "category": "词义理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pourquoi l'auteure mentionne-t-elle les infirmières ?\n（作者为什么提到护士？）",
+          "options": [
+            "Pour expliquer que les infirmières refusent de travailler le dimanche.（为了说明护士拒绝周日上班。）",
+            "Pour montrer que d'autres travailleurs aimeraient aussi avoir leur dimanche en famille.（为了说明其他工作者也希望周日能与家人共度。）",
+            "Pour comparer les salaires des infirmières et des employés de supermarché.（为了比较护士和超市员工的薪资。）",
+            "Pour suggérer de fermer les hôpitaux le dimanche.（为了建议周日关闭医院。）"
+          ],
+          "correct": 1,
+          "explanation": "作者提到护士是为了反驳「服务业应该周日开门」的逻辑：护士们也同样希望周日与家人共度，并非为了真的建议关闭医院。选项D是对原文反问修辞的字面误读，是典型TCF陷阱。",
+          "category": "推断题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « faire ses courses » ?\n（« faire ses courses » 是什么意思？）",
+          "options": [
+            "Faire du sport.（做运动。）",
+            "Acheter des vêtements de luxe.（购买奢侈品。）",
+            "Faire des achats du quotidien.（购买日常用品。）",
+            "Prendre des cours particuliers.（上私教课。）"
+          ],
+          "correct": 2,
+          "explanation": "faire ses courses 是固定表达，专指购买日常生活用品（食物、生活必需品等），不等于 faire du shopping（逛街购物）或 faire des courses（跑腿/比赛，视语境）。",
+          "category": "词汇辨析"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Je ne suis pas sûre qu'elles aient envie d'aller dans les supermarchés le soir. » Quel mode est utilisé après « que » ?\n（« que »之后使用了什么语气/式？）",
+          "options": [
+            "L'indicatif présent.（直陈式现在时。）",
+            "Le conditionnel présent.（现在条件式。）",
+            "Le subjonctif présent.（现在虚拟式。）",
+            "L'infinitif.（不定式。）"
+          ],
+          "correct": 2,
+          "explanation": "« ne pas être sûr(e) que » 表达不确定性，后面必须接虚拟式。aient 是 avoir 的虚拟式第三人称复数。这是TCF语法必考点。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Que signifie « en ouvrant ce jour-là » ?\n（« en ouvrant ce jour-là » 是什么意思？）",
+          "options": [
+            "Ils ont ouvert ce jour-là.（他们那天开门了。）",
+            "En train d'ouvrir.（正在开门。）",
+            "En ayant ouvert.（已经开门之后。）",
+            "En ouvrant leurs portes ce jour-là.（通过在那天开门营业。）"
+          ],
+          "correct": 3,
+          "explanation": "en + 现在分词 构成副动词（gérondif），表示方式或条件，意为「通过……/在……的同时」。此处表示「通过周日开业，商店可以创造就业」。",
+          "category": "语法"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle est l'opinion de l'auteure sur l'ouverture des magasins le dimanche ?\n（作者对周日商店开业持什么态度？）",
+          "options": [
+            "Elle est totalement contre.（她完全反对。）",
+            "Elle est favorable à l'ouverture des magasins le dimanche.（她支持周日开店。）",
+            "Elle n'a pas d'opinion sur ce sujet.（她对此没有看法。）",
+            "Elle pense que seuls les supermarchés devraient ouvrir.（她认为只有超市应该开业。）"
+          ],
+          "correct": 1,
+          "explanation": "作者全文质疑禁止周日开店的合理性，并在结尾指出开店可创造就业，整体立场是支持周日开店。TCF态度题要看全文逻辑，而非只看局部句子。",
+          "category": "主旨/态度"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ à beaucoup d'autres pays, la France refuse d'ouvrir les magasins le dimanche.\n（与许多其他国家相反，法国拒绝周日开店。）",
+          "correct": [
+            "Contrairement"
+          ],
+          "explanation": "contrairement à 是固定介词短语，表示「与……相反」，句首大写。",
+          "category": "词汇填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je ne suis pas sûre qu'il _____ (avoir) envie de partir.\n（我不确定他是否想离开。）",
+          "correct": [
+            "ait"
+          ],
+          "explanation": "ne pas être sûr(e) que 后接虚拟式。avoir 的虚拟式第三人称单数为 ait。",
+          "category": "语法填空"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "En _____ (travailler) le dimanche, les employés peuvent gagner plus.\n（通过周日上班，员工可以挣更多钱。）",
+          "correct": [
+            "travaillant"
+          ],
+          "explanation": "en + 现在分词构成副动词。travailler 的现在分词为 travaillant。",
+          "category": "语法填空"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quelle phrase est correcte pour exprimer une question indirecte ?\n（哪个句子正确表达了间接疑问句？）",
+          "options": [
+            "Je veux savoir quelle différence y a-t-il entre eux.（我想知道他们之间有什么区别。）",
+            "Je veux savoir quelle différence il y a entre eux.（我想知道他们之间有什么区别。）",
+            "Je veux savoir quelle est différence entre eux.（我想知道他们之间是什么区别。）",
+            "Je veux savoir qu'elle différence il y a entre eux.（我想知道他们之间有什么区别。）"
+          ],
+          "correct": 1,
+          "explanation": "间接疑问句内部不倒装，语序为「疑问词 + 主语 + 动词」。选项A的 y a-t-il 是直接疑问句的倒装形式，不能用在间接疑问句中。",
+          "category": "语法辨析"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "Quels arguments l'auteure utilise-t-elle pour défendre l'ouverture des magasins le dimanche ?\n（作者用了哪些论据来支持周日开店？请选所有正确答案。）",
+          "options": [
+            "Les magasins peuvent créer des emplois en ouvrant le dimanche.（周日开店可以创造就业。）",
+            "Les travailleurs en semaine ont besoin de faire leurs courses le week-end.（工作日上班的人需要在周末购物。）",
+            "Les infirmières veulent travailler le dimanche.（护士们想在周日工作。）",
+            "Chacun est libre d'accepter ou de refuser de travailler le dimanche.（每个人可以自由选择是否周日工作。）"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A：结尾明确提到创造就业。B：文中提到工薪族需要周末购物。D：文中提到个人有选择权。C是干扰项——作者提到护士是反驳「服务业必须开门」的逻辑，并非说护士想上班。",
+          "category": "细节多选"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1z_7nM5q4BLAX5iGQ3kRf-I5_EWalwmQLpCtuuLxVquc/edit?tab=t.0#heading=h.jsiouscf925"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775361043578-79ttanjpozb",
+          "front": "contrairement à",
+          "back": "与……相反\n固定介词短语，用于句首引出对比\n例：Contrairement à beaucoup d'autres pays, la France refuse d'ouvrir les magasins le dimanche.\n（与许多其他国家不同，法国拒绝周日开店。）"
+        },
+        {
+          "id": "1775361043578-odaq9ppg1wo",
+          "front": "continuer à + infinitif",
+          "back": "继续做某事\n固定搭配：continuer à + 不定式\n例：Elle continue à travailler le week-end.\n（她继续在周末工作。）"
+        },
+        {
+          "id": "1775361043578-jfdq9cwgbja",
+          "front": "le dimanche（带定冠词）vs dimanche（不带）",
+          "back": "le dimanche = 每逢周日（习惯性）\ndimanche = 这个周日（具体某天）\n例：Il travaille le dimanche.（他每周日都上班。）\nIl travaille dimanche.（他这个周日上班。）"
+        },
+        {
+          "id": "1775361043578-809e147o6b9",
+          "front": "on se demande",
+          "back": "人们不禁想知道 / 令人费解\non = 泛指「人们」\nse demander = 自问/想知道\n例：On se demande bien pourquoi cette loi existe.\n（真不知道这条法律为何存在。）"
+        },
+        {
+          "id": "1775361043578-g7obijwubbu",
+          "front": "bien（副词，加强语气）",
+          "back": "此处不是「好」，而是加强语气，译为「真的/究竟」\n例：On se demande bien pourquoi !\n（人们真的很想知道为什么！）"
+        },
+        {
+          "id": "1775361043578-yufswedrlk",
+          "front": "ce jour-là",
+          "back": "那天（-là 加强指示距离感）\n区别：ce jour = 今天 / ce jour-là = 那天\n例：Les magasins étaient fermés ce jour-là.\n（那天商店都关门了。）"
+        },
+        {
+          "id": "1775361043578-otd7tq7j9gg",
+          "front": "ne … personne",
+          "back": "没有人（否定代词）\n结构：ne + 动词 + personne\n注意：personne 单独使用时意为「人」，加 ne 后变为否定\n例：Cela ne choque personne.\n（这不让任何人觉得奇怪。）"
+        },
+        {
+          "id": "1775361043578-cp0aqtjooi5",
+          "front": "j'aimerais que + subjonctif",
+          "back": "我希望……（后接虚拟式）\n条件式 + 虚拟式触发结构，TCF必考\n例：J'aimerais qu'on m'explique la différence.\n（我希望有人向我解释这个区别。）"
+        },
+        {
+          "id": "1775361043578-7w8czavmnwm",
+          "front": "间接疑问句语序规则",
+          "back": "间接疑问句内部不倒装！\n正确：Je veux savoir quelle différence il y a.\n错误：Je veux savoir quelle différence y a-t-il.\n公式：疑问词 + 主语 + 动词"
+        },
+        {
+          "id": "1775361043578-ntbm8lqvmwl",
+          "front": "à ce moment-là（逻辑用法）",
+          "back": "那么 / 既然如此（表逻辑推理，承接上文）\n区别于时间用法「在那个时刻」\n例：Si les restaurants ouvrent, pourquoi pas les magasins, à ce moment-là ?\n（如果餐厅能开，那超市为什么不行？）"
+        },
+        {
+          "id": "1775361043578-5bb1za0tc0a",
+          "front": "Pourquoi ne pas + infinitif ?",
+          "back": "为何不……？（无主语反问/建议句型）\n结构：Pourquoi ne pas + 动词原形\n例：Pourquoi ne pas fermer les hôpitaux le dimanche ?\n（为何不在周日关闭医院呢？）"
+        },
+        {
+          "id": "1775361043578-auwuvaya3bq",
+          "front": "无主语特殊疑问句",
+          "back": "疑问词 + 不定式（无主语）\n表泛指「该怎么做」\n常见：Que faire ? / Comment résoudre ? / Où aller ?\n例：Que faire pour améliorer la situation ?\n（为了改善局面该怎么做？）"
+        },
+        {
+          "id": "1775361043578-a25w5r7l1u6",
+          "front": "elles aussi（强调代词插入）",
+          "back": "她们也……\n强调代词插入句中，强调主语\n例：Les infirmières aimeraient, elles aussi, passer leur dimanche en famille.\n（护士们也希望周日能与家人共度。）"
+        },
+        {
+          "id": "1775361043578-fjcwuh9w4jd",
+          "front": "comment + sujet + verbe + pour + infinitif",
+          "back": "……如何做到……？\n疑问句型，表示方式\n例：Comment font-ils pour faire leurs courses ?\n（他们怎么去购物呢？）"
+        },
+        {
+          "id": "1775361043578-1pb470g7t7y",
+          "front": "faire ses courses",
+          "back": "购买日常用品（食物、生活必需品）\n≠ faire du shopping（逛街买衣服等）\n例：Je fais mes courses au supermarché chaque samedi.\n（我每周六在超市购买日常用品。）"
+        },
+        {
+          "id": "1775361043578-v0zt41mtx8g",
+          "front": "ne pas être sûr(e) que + subjonctif",
+          "back": "不确定……（后必须接虚拟式！）\n例：Je ne suis pas sûre qu'elles aient envie de venir.\n（我不确定她们是否想来。）\naient = avoir 的虚拟式第三人称复数"
+        },
+        {
+          "id": "1775361043578-vkqwttzbu3i",
+          "front": "avoir envie de + infinitif",
+          "back": "想要做……\n固定搭配\n例：Il n'a pas envie d'aller au travail.\n（他不想去上班。）\n虚拟式形式：aient envie de"
+        },
+        {
+          "id": "1775361043578-cjhs1p1du5",
+          "front": "être libre de + infinitif",
+          "back": "有权利/自由做……\n固定结构\n例：Chacun est libre d'accepter ou de refuser.\n（每个人都可以自由选择接受或拒绝。）"
+        },
+        {
+          "id": "1775361043578-zg46fkjmcq",
+          "front": "Chacun",
+          "back": "每个人（不定代词，单数）\n接单数动词\n例：Chacun est libre de choisir.\n（每个人都可以自由选择。）\n≠ chaque（形容词，后接名词）"
+        },
+        {
+          "id": "1775361043578-abstxgfgywh",
+          "front": "en + participe présent（副动词 gérondif）",
+          "back": "通过……/在……的同时（表方式或条件）\n结构：en + 现在分词\n例：En ouvrant ce jour-là, les magasins peuvent créer des emplois.\n（通过那天开业，商店可以创造就业。）"
+        },
+        {
+          "id": "1775361043578-snl7egqdqco",
+          "front": "créer des emplois",
+          "back": "创造就业岗位\n固定搭配，TCF写作/口语高频\n例：Ce projet peut créer des emplois dans la région.\n（这个项目可以在该地区创造就业岗位。）"
+        },
+        {
+          "id": "1775361043578-rdf89yrh21b",
+          "front": "En plus",
+          "back": "此外 / 而且（递进逻辑词）\nTCF写作高频连接词\n例：En plus, en ouvrant ce jour-là, les magasins peuvent créer des emplois.\n（此外，通过那天开业，商店可以创造就业。）"
+        },
+        {
+          "id": "1775361043578-yb4nf4n4nz",
+          "front": "Quelle est la différence entre A et B ?",
+          "back": "A和B之间有什么区别？\n结构：la différence 是主语\n中性/书面语域\n对比：Quelle différence y a-t-il entre A et B ?（更正式）"
+        },
+        {
+          "id": "1775361043578-1wxf9min4le",
+          "front": "Quelle différence y a-t-il entre A et B ?",
+          "back": "A和B之间有什么区别？（更正式）\n结构：quelle différence 前置，y a-t-il 是 il y a 的倒装\n≠ 间接疑问句（直接疑问句可倒装）"
+        }
+      ]
+    },
+    {
+      "id": 1775360873186,
+      "name": "语法-两个动作的时间关系",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T03:47:53.186Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "______ partir, il a vérifié son passeport.\n（离开之前，他检查了护照。）",
+          "options": [
+            "Avant de（在……之前）",
+            "Avant que（在……之前，接从句）",
+            "Après avoir（在……之后）",
+            "Depuis que（自从……）"
+          ],
+          "correct": 0,
+          "explanation": "主语相同（il），用 avant de + 不定式现在时。avant que 接从句，主语需不同或强调对比。",
+          "category": "先时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Rentrons ______ la pluie (ne) commence à tomber.\n（趁雨还没下，我们回去吧。）",
+          "options": [
+            "avant de（+ 不定式）",
+            "avant que（+ 虚拟式）",
+            "après que（+ 直陈式）",
+            "pendant que（+ 直陈式）"
+          ],
+          "correct": 1,
+          "explanation": "两个动作主语不同（nous / la pluie），用 avant que + 虚拟式。",
+          "category": "先时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "______ avoir lu le rapport, elle a pris une décision.\n（读完报告后，她做出了决定。）",
+          "options": [
+            "Avant d'",
+            "Depuis",
+            "Après",
+            "Pendant que"
+          ],
+          "correct": 2,
+          "explanation": "主语相同，表示之后，用 après + 不定式过去时：après avoir lu。",
+          "category": "后时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Je vous enverrai le contrat ______ j'aurai vérifié les détails.\n（核实完细节后，我会把合同发给您。）",
+          "options": [
+            "avant que",
+            "depuis que",
+            "après que",
+            "pendant que"
+          ],
+          "correct": 2,
+          "explanation": "après que 接直陈式（先将来时 aurai vérifié），表示主句动作发生之后。注意：après que 绝不接虚拟式。",
+          "category": "后时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Le téléphone a sonné ______ je .\n（正当我出去的那一刻，电话响了。）",
+          "options": [
+            "pendant que / suis sorti",
+            "au moment où / sortais",
+            "depuis que / sortais",
+            "avant que / sorte"
+          ],
+          "correct": 1,
+          "explanation": "au moment où 强调时间节点，从句描述背景动作用 imparfait（sortais），主句用 passé composé（a sonné）。",
+          "category": "同时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "_ tu arriveras à la gare, appelle-moi.\n（你到火车站的时候，给我打电话。）",
+          "options": [
+            "Quand tu arriveras",
+            "Quand tu arrives",
+            "Quand tu es arrivé",
+            "Quand tu arrivais"
+          ],
+          "correct": 1,
+          "explanation": "将来语境中，quand 从句用现在时（arrives），主句用将来时（appelle 为命令式）。这是 TCF 超高频陷阱。",
+          "category": "同时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ne me dérange pas ______ je travaille.\n（我工作的时候别打扰我。）",
+          "options": [
+            "avant que",
+            "après que",
+            "depuis que",
+            "pendant que"
+          ],
+          "correct": 3,
+          "explanation": "pendant que 表示两个动作同时持续进行，强调时间段重叠，接直陈式现在时。",
+          "category": "同时性"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il ne fume plus ______ il a commencé le sport.\n（自从他开始运动，就再不抽烟了。）",
+          "options": [
+            "avant que",
+            "depuis que",
+            "après que",
+            "pendant que"
+          ],
+          "correct": 1,
+          "explanation": "depuis que 表示持续性，自从某动作开始，状态一直延续到现在，接直陈式。",
+          "category": "持续性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Après _____ (s'endormir) tard, il était fatigué le lendemain.\n（很晚才睡着后，他第二天很累。）",
+          "correct": [
+            "s'être endormi"
+          ],
+          "explanation": "反身动词的不定式过去时：s'être + 过去分词。s'endormir → endormi。",
+          "category": "后时性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "_____ cinq ans que je travaille dans cette entreprise.\n（我在这家公司工作已经五年了。）",
+          "correct": [
+            "Depuis"
+          ],
+          "explanation": "depuis + 时间段，主句用现在时，表示从过去持续到现在的状态。",
+          "category": "持续性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Préviens-moi avant que le directeur ne _____ (partir).\n（经理离开之前通知我。）",
+          "correct": [
+            "parte"
+          ],
+          "explanation": "avant que 接虚拟式现在时。partir → que je parte / qu'il parte。",
+          "category": "先时性"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Après _____ (être / aller) au marché, elle a préparé le dîner.\n（去完市场后，她准备了晚饭。）",
+          "correct": [
+            "être allée"
+          ],
+          "explanation": "aller 用 être 助动词，主语为 elle（女性），过去分词配性数：allée。",
+          "category": "后时性"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "_____ que je fais du yoga chaque matin, je _____ (se sentir) beaucoup mieux. _____ avoir terminé la séance, je prends une douche froide.\n（自从我每天早上做瑜伽，我感觉好多了。做完之后，我冲个冷水澡。）",
+          "correct": [
+            "Depuis",
+            "me sens",
+            "Après"
+          ],
+          "explanation": "第一空：depuis que 持续性，接直陈式现在时。第二空：se sentir 现在时 je me sens。第三空：après + 不定式过去时（avoir terminé），主语相同。",
+          "category": "综合"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1jd7QiQPPKgVpXB8YMW1eeYCpwGBweS8EPYy5tYuu6wU/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775360903674-2l6lf6oc1xf",
+          "front": "avant de + ?",
+          "back": "不定式现在时（主语相同，表示在做某事之前）\n例：Réfléchissez avant de décider.\n中文：决定之前好好想想。"
+        },
+        {
+          "id": "1775360903674-52hf07zb8us",
+          "front": "avant que + ?",
+          "back": "虚拟式（subjonctif）+ 赘词 ne（可省）\n主语不同时使用\n例：Pars avant qu'il (ne) arrive.\n中文：在他来之前离开。"
+        },
+        {
+          "id": "1775360903674-3ltaqv96gmj",
+          "front": "après de + 不定式 ❌ 还是 après + 不定式过去时 ✅？",
+          "back": "✅ après + 不定式过去时\n❌ après de 不存在！\n例：après avoir mangé（吃完之后）\n例：après être parti（离开之后）"
+        },
+        {
+          "id": "1775360903674-hx2g7xayugq",
+          "front": "après + 不定式过去时：三种构成",
+          "back": "1. avoir类：après avoir + 过去分词\n 例：après avoir lu（读完后）\n2. être类：après être + 过去分词（配性数）\n 例：après être allée（她去完后）\n3. 反身动词：après s'être + 过去分词\n 例：après s'être endormi（睡着后）"
+        },
+        {
+          "id": "1775360903674-qnbq05vasfl",
+          "front": "après que 接虚拟式还是直陈式？",
+          "back": "✅ 直陈式（indicatif）\n❌ 绝不接虚拟式！\n例：Je partirai après qu'il sera arrivé.\n中文：他到了之后我再走。\n对比：avant que → 虚拟式"
+        },
+        {
+          "id": "1775360903674-b87gfko7pmq",
+          "front": "quand 从句在将来语境中用什么时态？",
+          "back": "✅ 现在时（présent）\n主句用将来时，从句用现在时！\n例：Quand tu arrives, appelle-moi.\n中文：你到的时候给我打电话。\n❌ 错误：Quand tu arriveras..."
+        },
+        {
+          "id": "1775360903674-swtfg28gw8n",
+          "front": "au moment où vs pendant que：区别？",
+          "back": "au moment où = 正当……的那一刻（强调时间节点）\npendant que = 在……期间（强调同时持续）\n例1：Le téléphone a sonné au moment où je sortais.\n例2：Ne parle pas pendant que je travaille."
+        },
+        {
+          "id": "1775360903674-bw4682m9llc",
+          "front": "au moment où 从句用什么时态？",
+          "back": "imparfait（未完成过去时）\n描述背景/正在进行的动作\n主句通常用 passé composé\n例：Il est entré au moment où je dormais.\n中文：正当我睡着的时候他进来了。"
+        },
+        {
+          "id": "1775360903674-uibbdnq5rve",
+          "front": "depuis vs depuis que：区别？",
+          "back": "depuis + 名词/时间段\n例：depuis cinq ans（五年以来）\n\ndepuis que + 完整从句\n例：depuis qu'il a commencé le sport\n中文：自从他开始运动以来"
+        },
+        {
+          "id": "1775360903674-5smvz8vflf",
+          "front": "depuis 表持续，主句用什么时态？",
+          "back": "✅ 现在时（présent）\n❌ 不用 passé composé！\n例：Je fais du sport depuis trois ans.\n中文：我运动已经三年了。\n（英语用完成时，法语用现在时！）"
+        },
+        {
+          "id": "1775360903674-x586p9z922",
+          "front": "赘词 ne（ne explétif）是什么？",
+          "back": "出现在 avant que 从句中的 ne\n没有否定含义，纯属语法习惯\n正式书面语加，口语可省略\n例：Pars avant qu'il ne parte.\n中文：在他离开之前走。\n⚠️ 不要误读成否定句！"
+        },
+        {
+          "id": "1775360903674-02lmr4gtevxw",
+          "front": "主语相同 vs 主语不同：选哪种结构？",
+          "back": "主语相同 → 不定式结构\n avant de + 不定式\n après + 不定式过去时\n\n主语不同 → 连接词 + 从句\n avant que + 虚拟式\n après que + 直陈式\n quand/pendant que + 直陈式"
+        }
+      ]
+    },
+    {
+      "id": 1775360765334,
+      "name": "TCF A2 Lecon 15 听力练习",
+      "folderId": "1772686244763",
+      "createdAt": "2026-04-05T03:46:05.334Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « D'un côté, la télévision permet de se détendre et de s'informer. » Que fait la télévision selon cette phrase ?\n（你听到：「一方面，电视让人可以放松并获取信息。」根据这句话，电视有什么作用？）",
+          "options": [
+            "Elle nuit à la santé.（它损害健康。）",
+            "Elle permet de se divertir et de s'informer.（它让人娱乐并获取信息。）",
+            "Elle crée une dépendance chez les adultes.（它让成年人产生依赖。）",
+            "Elle remplace les journaux papier.（它取代了纸质报纸。）"
+          ],
+          "correct": 1,
+          "explanation": "原句说电视让人「se détendre（放松）et s'informer（获取信息）」，选项B的「se divertir」是「se détendre」的同义替换，TCF常用此类近义词替换干扰。",
+          "category": "细节题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Les enfants peuvent devenir dépendants de la télévision. » Qui est concerné par ce problème ?\n（你听到：「孩子们可能对电视产生依赖。」谁受到这个问题的影响？）",
+          "options": [
+            "Les parents（家长）",
+            "Les auditeurs（广播听众）",
+            "Les enfants（孩子）",
+            "Les téléspectateurs adultes（成年电视观众）"
+          ],
+          "correct": 2,
+          "explanation": "原句主语明确是「les enfants」，注意区分auditeur（广播听众）和téléspectateur（电视观众），本题不可混淆。",
+          "category": "信息定位题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Il faut que les enfants fassent leurs devoirs avant de regarder la télé. » Que signifie cette phrase ?\n（你听到：「孩子们必须在看电视前完成作业。」这句话的意思是？）",
+          "options": [
+            "Les enfants peuvent regarder la télé sans faire leurs devoirs.（孩子们可以不做作业就看电视。）",
+            "Les enfants doivent d'abord finir leurs devoirs.（孩子们必须先完成作业。）",
+            "Les parents font les devoirs à la place des enfants.（家长替孩子做作业。）",
+            "Les devoirs sont moins importants que la télévision.（作业比电视不重要。）"
+          ],
+          "correct": 1,
+          "explanation": "「Il faut que + subjonctif」表达义务，「avant de regarder」= 在看电视之前，因此顺序是：先做作业，再看电视。",
+          "category": "意图题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « La télévision peut nuire à la concentration des élèves. » Quel est l'effet décrit ?\n（你听到：「电视可能损害学生的注意力。」描述的是什么影响？）",
+          "options": [
+            "La télévision améliore la concentration.（电视提升注意力。）",
+            "La télévision n'a aucun effet sur les élèves.（电视对学生没有影响。）",
+            "La télévision peut avoir un effet négatif sur la concentration.（电视可能对注意力产生负面影响。）",
+            "La télévision aide les élèves à apprendre.（电视帮助学生学习。）"
+          ],
+          "correct": 2,
+          "explanation": "「nuire à」= 损害、有害于，是负面含义。选项A是反义干扰项（améliorer = 提升），TCF最常见的陷阱之一。",
+          "category": "态度题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « Il est important que les parents contrôlent le temps d'écran. » Qui doit agir selon cette phrase ?\n（你听到：「家长控制屏幕时间是重要的。」根据这句话，谁需要采取行动？）",
+          "options": [
+            "Les enfants（孩子）",
+            "Les enseignants（老师）",
+            "Les parents（家长）",
+            "Les médecins（医生）"
+          ],
+          "correct": 2,
+          "explanation": "主语是「les parents」，动词「contrôlent」是虚拟式，但主语信息明确。注意不要因为句子说的是「孩子的屏幕时间」就选「les enfants」——题目问的是「谁需要行动」。",
+          "category": "信息定位题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez une personne dire : « À mon avis, la télévision présente des avantages et des inconvénients. » Quelle est l'attitude de cette personne ?\n（你听到一个人说：「依我之见，电视既有优点也有缺点。」这个人的态度是什么？）",
+          "options": [
+            "Elle est totalement contre la télévision.（她完全反对电视。）",
+            "Elle est totalement pour la télévision.（她完全支持电视。）",
+            "Elle a une opinion nuancée sur la télévision.（她对电视持有细微/中立的看法。）",
+            "Elle refuse de parler de la télévision.（她拒绝谈论电视。）"
+          ],
+          "correct": 2,
+          "explanation": "「des avantages et des inconvénients」= 优点和缺点都有，说明态度是中立/辩证的。「nuancé」= 有细微差别的，是TCF B2态度题的高频答案词。",
+          "category": "态度题"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Complétez : « La télévision peut créer une _____ chez les jeunes téléspectateurs. »\n（填空：「电视可能在年轻观众中产生一种_____。」）",
+          "correct": [
+            "dépendance"
+          ],
+          "explanation": "固定表达：créer une dépendance = 产生依赖。注意是阴性名词，冠词用une。",
+          "category": "词汇题"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vous entendez : « On peut apprendre des choses d'une façon ludique grâce à la télévision. » Que veut dire « ludique » ici ?\n（你听到：「借助电视，我们可以以一种趣味的方式学习事物。」这里「ludique」是什么意思？）",
+          "options": [
+            "sérieuse（严肃的）",
+            "difficile（困难的）",
+            "amusante et éducative（有趣且有教育意义的）",
+            "rapide（快速的）"
+          ],
+          "correct": 2,
+          "explanation": "「ludique」来自拉丁语「ludus」（游戏），意为「趣味的、游戏式的」。TCF中常考此类文化词汇，选项A「sérieuse」是反义干扰项。",
+          "category": "词汇题"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1wMYd-qnQpDr66XaqxfKLVNE1Bh0-7xDCSPHloSOikcY/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": []
+    },
+    {
       "id": 1774928082219,
       "name": "Unit 2 Imparfait  -RE 结尾动词",
       "folderId": "1771907837913",
@@ -98114,12 +100786,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-03-31T03:38:22.930Z",
+  "exportedAt": "2026-04-05T04:07:24.053Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
