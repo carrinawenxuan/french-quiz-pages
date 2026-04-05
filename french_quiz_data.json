@@ -1,6 +1,221 @@
 {
   "savedSets": [
     {
+      "id": 1775362204848,
+      "name": "时态拓展-愈过去时",
+      "folderId": "1772683473645",
+      "createdAt": "2026-04-05T04:10:04.848Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Quand il ______ (arriver), nous avions déjà fini le repas.\n（当他到达时，我们已经吃完饭了。）",
+          "options": [
+            "est arrivé（他到达了）",
+            "arrivait（他正在到达）",
+            "était arrivé（他已经到达了）",
+            "arriva（他到达）"
+          ],
+          "correct": 0,
+          "explanation": "主句用 plus-que-parfait（avions fini），从句 quand 引导的到达动作是后发生的，用 passé composé。注意：PQP 在 quand 从句中不常用，是陷阱！",
+          "category": "时态判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Elle était épuisée parce qu'elle ______ toute la nuit.\n（她精疲力竭，因为她整夜没睡。）",
+          "options": [
+            "n'a pas dormi（她没睡）",
+            "ne dormait pas（她不睡觉）",
+            "n'avait pas dormi（她此前没睡）",
+            "ne dort pas（她不睡）"
+          ],
+          "correct": 2,
+          "explanation": "parce que 引导原因从句，原因发生在疲惫状态之前，用 plus-que-parfait：n'avait pas dormi。",
+          "category": "时态判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Il m'a dit qu'il ______ déjà ce film.\n（他告诉我他已经看过这部电影了。）",
+          "options": [
+            "a vu（他看了）",
+            "voyait（他在看）",
+            "avait vu（他已经看过）",
+            "voit（他看）"
+          ],
+          "correct": 2,
+          "explanation": "间接引语中，说话（a dit）用 passé composé，内容中更早发生的动作（看电影）用 plus-que-parfait：avait vu。",
+          "category": "间接引语"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Quand nous ______ à l'aéroport, l'avion était déjà parti.\n（当我们到达机场时，飞机已经起飞了。）",
+          "options": [
+            "sommes arrivés（我们到达了）",
+            "étions arrivés（我们已经到达了）",
+            "arrivions（我们正在到达）",
+            "avons arrivé（错误形式）"
+          ],
+          "correct": 0,
+          "explanation": "飞机离开是 PQP（était parti），我们到达是后发生的动作，用 passé composé。arriver 用 être 助动词：sommes arrivés。avons arrivé 是典型错误。",
+          "category": "助动词选择"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Nous avons mangé le gâteau que maman ______ (préparer).\n（我们吃了妈妈事先准备好的蛋糕。）",
+          "correct": [
+            "avait préparé"
+          ],
+          "explanation": "妈妈准备蛋糕在前（PQP），我们吃在后（passé composé）。préparer 用 avoir：avait préparé。",
+          "category": "填空变位"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Elle a raté son examen parce qu'elle n'______ pas bien ______ (étudier).\n（她考试不及格，因为她之前没有好好学习。）",
+          "correct": [
+            "avait",
+            "étudié"
+          ],
+          "explanation": "原因在考试失败之前，用 PQP 否定式：n'avait pas bien étudié。注意 ne...pas 夹住助动词。",
+          "category": "否定式PQP"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Quand ils sont rentrés, nous ______ déjà ______ (partir).\n（当他们回来时，我们已经离开了。）",
+          "correct": [
+            "étions",
+            "partis"
+          ],
+          "explanation": "partir 用 être 做助动词；nous 为复数阳性，过去分词加 s：étions partis。",
+          "category": "être助动词+配合"
+        },
+        {
+          "type": "multiple_choice",
+          "stem": "下列哪些句子正确使用了 plus-que-parfait？\n（以下哪些句子正确使用了愈过去时？）",
+          "options": [
+            "Il avait déjà mangé quand je suis arrivé.（我到时他已经吃了。）",
+            "Elle était partie avant que tu appelles.（你打电话之前她已经走了。）",
+            "Nous avions arrivés en retard.（我们迟到了。）",
+            "J'avais oublié mon sac, alors je suis retourné.（我忘了包，所以我返回了。）"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "选项C错误：arriver 用 être 助动词，应为 étions arrivés，且意思也不匹配 PQP 场景。A/B/D 均正确使用 PQP 表达「更早发生的动作」。",
+          "category": "综合判断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Après qu'elle ______ ses devoirs, elle a regardé la télévision.\n（在她完成作业之后，她看了电视。）",
+          "options": [
+            "finissait（她在完成）",
+            "a fini（她完成了）",
+            "avait fini（她已经完成了）",
+            "finira（她将完成）"
+          ],
+          "correct": 2,
+          "explanation": "après que 表示「在……之后」，从句动作先于主句，用 plus-que-parfait：avait fini。这是 TCF 高频考点。",
+          "category": "après que + PQP"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Hier soir, quand Marc ______ (rentrer) chez lui, il a remarqué que quelqu'un ______ (entrer) par la fenêtre. La télévision ______ (disparaître) et les tiroirs ______ (être ouverts).\n（昨晚，当马克回到家时，他发现有人从窗户进来过。电视不见了，抽屉也被打开了。）",
+          "correct": [
+            "est rentré",
+            "était entré",
+            "avait disparu",
+            "avaient été ouverts"
+          ],
+          "explanation": "rentrer 是后发生的动作用 passé composé；entrer/disparaître/être ouverts 都是更早已经发生的情况，用 plus-que-parfait。rentrer 用 être 助动词。",
+          "category": "综合段落"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1dsiAzgQQTZ-NpqQuAnHzCL9uvtVw8TSi3q4bnoLbIV0/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775362226835-n3tvi18hkb",
+          "front": "Plus-que-parfait 的构成公式",
+          "back": "avoir/être 的 imparfait + 过去分词\n例：elle avait mangé / elle était partie\n中文：愈过去时 = 助动词过去未完成时 + 过去分词"
+        },
+        {
+          "id": "1775362226835-vbae4wp8gaq",
+          "front": "avoir 的 imparfait（愈过去时助动词）",
+          "back": "j'avais / tu avais / il avait\nnous avions / vous aviez / ils avaient\n中文：这6个形式是构成愈过去时的基础，必须背熟"
+        },
+        {
+          "id": "1775362226835-9kluq909ukk",
+          "front": "être 的 imparfait（愈过去时助动词）",
+          "back": "j'étais / tu étais / il était\nnous étions / vous étiez / ils étaient\n中文：移动动词和反身动词用 être 做助动词"
+        },
+        {
+          "id": "1775362226835-vlzmji6jba",
+          "front": "愈过去时的核心含义",
+          "back": "表示「过去的过去」——在另一个过去动作发生之前，已经完成的动作\n中文口诀：当时已经……（比过去还早）"
+        },
+        {
+          "id": "1775362226835-ep3510zvdkf",
+          "front": "时间轴顺序怎么记？",
+          "back": "动作A（PQP）→ 动作B（passé composé / imparfait）→ 现在\n中文：PQP 永远比 passé composé 更早发生"
+        },
+        {
+          "id": "1775362226835-zgy2n1cwgak",
+          "front": "quand 从句 + PQP 的规则",
+          "back": "quand 引导的从句表示「后发生」的动作，用 passé composé\n主句中「先发生」的动作，用 PQP\n例：Quand il est arrivé, elle était déjà partie.\n中文：当他到达时（后），她已经走了（前）"
+        },
+        {
+          "id": "1775362226835-bu8pw79oywg",
+          "front": "parce que / car + PQP 的规则",
+          "back": "用于解释更早发生的原因\n例：Elle était fatiguée parce qu'elle avait trop travaillé.\n中文：因为（原因在前），所以（结果在后）"
+        },
+        {
+          "id": "1775362226835-ne76xfppa7",
+          "front": "après que + PQP",
+          "back": "après que 后接 plus-que-parfait，表示「在……之后」\n例：Après qu'elle avait fini, elle est sortie.\n中文：在她完成之后，她出去了（完成在前）"
+        },
+        {
+          "id": "1775362226835-cyhvj7bzwen",
+          "front": "être 助动词 + 过去分词配合规则",
+          "back": "主语为女性 → 过去分词加 e\n主语为复数 → 加 s\n例：elle était partie ✅ / nous étions partis ✅\n中文：用 être 时，过去分词必须与主语性数配合"
+        },
+        {
+          "id": "1775362226835-c49t1j0cgi4",
+          "front": "PQP 否定式怎么构成？",
+          "back": "ne + 助动词(imparfait) + pas + 过去分词\n例：elle n'avait pas bien étudié\n中文：否定词 ne...pas 夹住助动词，不夹过去分词"
+        },
+        {
+          "id": "1775362226835-c408suy4if",
+          "front": "间接引语中 PQP 的用法",
+          "back": "主句用 passé composé（说），从句内容更早发生用 PQP\n例：Il a dit qu'il avait déjà mangé.\n中文：他说（说在后）他已经吃了（吃在前）"
+        },
+        {
+          "id": "1775362226835-4msy4vj82to",
+          "front": "⚠️ 陷阱：avoir 还是 être？",
+          "back": "arriver / partir / sortir / entrer / venir / aller / naître / mourir / tomber 等用 être\n其余大多数动词用 avoir\n中文：移动类动词 + 反身动词 → être；其他 → avoir"
+        },
+        {
+          "id": "1775362226835-j5gshw2dl2",
+          "front": "nous + être 助动词 PQP 配合",
+          "back": "nous étions partis（阳性复数）\nnous étions parties（阴性复数）\n中文：nous 复数，过去分词必须加 s"
+        },
+        {
+          "id": "1775362226835-y4pfwwzc8uk",
+          "front": "「她已经离开了」怎么说？",
+          "back": "Elle était déjà partie.\n中文：partie = parti + e（主语女性配合）\n⚠️ 常见错误：elle était déjà parti ❌"
+        },
+        {
+          "id": "1775362226835-oy2vox8spy9",
+          "front": "TCF 高频触发词 → PQP 信号",
+          "back": "déjà（已经）/ avant que（在…之前）/ après que（在…之后）/ parce que / car（因为）/ quand（当…时，主句先发生）\n中文：看到这些词，立刻判断时间先后，决定是否用 PQP"
+        }
+      ]
+    },
+    {
       "id": 1775361949749,
       "name": "A2复习课16-比较级&最高级/泛指代词&形容词",
       "folderId": "1772683473645",
@@ -100792,6 +101007,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-04-05T04:07:24.053Z",
+  "exportedAt": "2026-04-05T04:10:33.726Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
