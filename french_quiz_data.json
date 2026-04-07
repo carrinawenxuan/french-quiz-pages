@@ -1,6 +1,231 @@
 {
   "savedSets": [
     {
+      "id": 1775531498717,
+      "name": "TCF A2 Lecon 16 听力练习",
+      "folderId": "1772686244763",
+      "createdAt": "2026-04-07T03:11:38.717Z",
+      "questions": [
+        {
+          "type": "single_choice",
+          "stem": "Thomas compte faire quoi après la licence ?\n（Thomas 毕业后打算做什么？）",
+          "options": [
+            "Aller étudier aux États-Unis（去美国留学）",
+            "Faire un master en gestion et spectacle（读演艺管理硕士）",
+            "Monter son entreprise（创业）",
+            "Développer une application（开发应用）"
+          ],
+          "correct": 1,
+          "explanation": "对话中 Thomas 明确说：Je pense faire un master en gestion et spectacle。",
+          "category": "课文理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Lila va aux États-Unis pour quelle raison principale ?\n（Lila 去美国的主要原因是什么？）",
+          "options": [
+            "Pour trouver des financements（寻找融资）",
+            "Pour développer son appli（开发应用）",
+            "Pour parfaire son anglais（提升英语水平）",
+            "Pour monter son entreprise（创业）"
+          ],
+          "correct": 2,
+          "explanation": "Lila 说：j'irai étudier un an aux États-Unis pour parfaire mon anglais。pour 引导目的状语。",
+          "category": "课文理解"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Pendant que je _____ aux États-Unis, je vais développer mon projet.\n（在我去美国期间，我打算开发我的项目。）",
+          "options": [
+            "suis（现在时）",
+            "serai（将来时）",
+            "serais（条件式）",
+            "étais（未完成过去时）"
+          ],
+          "correct": 1,
+          "explanation": "pendant que 引导时间从句，主句为将来时，从句必须用 futur simple，不能用现在时。这是TCF高频陷阱。",
+          "category": "语法·futur simple"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Laquelle de ces phrases exprime une intention de manière la plus formelle ?\n（以下哪句表达意图最正式？）",
+          "options": [
+            "Je compte partir demain.（我打算明天离开。）",
+            "Je pense partir demain.（我考虑明天离开。）",
+            "J'ai l'intention de partir demain.（我打算明天离开。）",
+            "Je vais partir demain.（我明天要离开。）"
+          ],
+          "correct": 2,
+          "explanation": "avoir l'intention de + inf. 语域最正式；compter 和 penser 偏口语；aller + inf. 是近将来时，强调即将发生。",
+          "category": "语法·表达意图"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Tu comptes te mettre à ton compte tout de suite ?\n— ___________\n（你打算马上自己创业吗？）",
+          "options": [
+            "Non, je compte sur toi.（不，我依靠你。）",
+            "Oui, je vais développer mon projet pendant que je serai aux États-Unis.（是的，我打算在美国期间开发项目。）",
+            "Non, j'ai l'intention de rester en France.（不，我打算留在法国。）",
+            "Oui, je pense que tu as raison.（是的，我觉得你说得对。）"
+          ],
+          "correct": 1,
+          "explanation": "根据对话内容，Lila 回答是肯定的，且明确说将在美国期间开发项目。",
+          "category": "课文理解"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Thomas dit : « Je _____ faire un master en gestion et spectacle. »\n（Thomas 说：我打算读演艺管理硕士。）",
+          "correct": [
+            "pense"
+          ],
+          "explanation": "penser + inf. 表示打算/计划，主语 je 用 pense。",
+          "category": "语法·penser"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Lila a _____ _____ _____ monter son entreprise après son séjour aux États-Unis.\n（Lila 打算在美国之行后创业。）",
+          "correct": [
+            "l'intention de"
+          ],
+          "explanation": "固定结构：avoir l'intention de + inf.，中间不可省略 de。",
+          "category": "语法·avoir l'intention de"
+        },
+        {
+          "type": "single_choice",
+          "stem": "« Ce sera la surprise ! » — Que veut dire Lila ?\n（\"这将是个惊喜！\"—— Lila 的意思是？）",
+          "options": [
+            "Elle ne sait pas encore ce qu'elle va faire.（她还不知道自己要做什么。）",
+            "Elle refuse de révéler le contenu de son application.（她拒绝透露应用内容。）",
+            "Elle pense que Thomas sera surpris de la voir.（她觉得 Thomas 见到她会惊讶。）",
+            "Elle va offrir un cadeau à Thomas.（她打算送 Thomas 礼物。）"
+          ],
+          "correct": 1,
+          "explanation": "Lila 说「je ne te dirai pas ce que c'est」紧接「Ce sera la surprise」，明确表示不透露内容。",
+          "category": "课文理解·推断"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Vrai ou Faux : Lila va certainement développer une application sur la gastronomie.\n（判断正误：Lila 肯定会开发一个关于美食的应用。）",
+          "options": [
+            "Vrai（正确）",
+            "Faux（错误）"
+          ],
+          "correct": 1,
+          "explanation": "FAUX。Thomas 只是猜测（Te connaissant, ce sera forcément…），Lila 否认 Thomas 真正了解她，并说「Ce sera la surprise」，certainement 无法成立。",
+          "category": "Vrai-Faux·副词陷阱"
+        },
+        {
+          "type": "paragraph_fill_blank",
+          "stem": "Complétez le dialogue :\nLila : Qu'est-ce que tu _____ faire après la licence ?\nThomas : Je _____ faire un master. Et toi ?\nLila : Moi, j'ai l'intention de _____ mon entreprise.\n\n（完成对话：\nLila：你毕业后打算做什么？\nThomas：我打算读硕士。你呢？\nLila：我嘛，我打算创业。）",
+          "correct": [
+            "comptes",
+            "pense",
+            "monter"
+          ],
+          "explanation": "三空依次：compter（tu→comptes）/ penser（je→pense）/ monter（avoir l'intention de + inf.）",
+          "category": "综合填空"
+        }
+      ],
+      "practiceCount": 0,
+      "lastPracticedAt": null,
+      "reviewTexts": [],
+      "reviewLinks": [
+        "https://docs.google.com/document/d/1xKi_iEWID8T0w9G4ujdXxxQxGyIn_sDDln2RXgq1FtM/edit?tab=t.0"
+      ],
+      "reviewImages": [],
+      "cards": [
+        {
+          "id": "1775531526871-ahuh07agydv",
+          "front": "compter + inf.",
+          "back": "打算做……（口语常用）\n变位：je compte / tu comptes / il compte / nous comptons / vous comptez / ils comptent\n例：Tu comptes faire quoi après la licence ?\n你毕业后打算做什么？"
+        },
+        {
+          "id": "1775531526871-d84bwuqw7ni",
+          "front": "compter + inf. vs compter sur qn\n（两种用法区别）",
+          "back": "compter + inf. = 打算做某事\nJe compte partir demain. 我打算明天出发。\n\ncompter sur qn = 依靠某人\nJe compte sur toi. 我依靠你。\n⚠️ TCF陷阱：两种结构意思完全不同！"
+        },
+        {
+          "id": "1775531526871-f3z429fz9wb",
+          "front": "penser + inf.",
+          "back": "打算/考虑做……（中性，口语书面均可）\n例：Je pense faire un master.\n我打算读硕士。\n⚠️ 注意：penser + que + indicatif = 认为（接陈述式，意思不同）"
+        },
+        {
+          "id": "1775531526871-rwiwv25peg",
+          "front": "avoir l'intention de + inf.",
+          "back": "打算做……（最正式）\n固定结构，de 不可省略\n例：J'ai l'intention de monter mon entreprise.\n我打算创业。\n适用：书面语、正式口语"
+        },
+        {
+          "id": "1775531526871-2lqoshfclnq",
+          "front": "三种「打算」表达语域对比",
+          "back": "① compter + inf. → 口语，随意\n② penser + inf. → 中性，口语书面皆可\n③ avoir l'intention de + inf. → 正式\n④ aller + inf.（futur proche）→ 强调即将发生\n⚠️ TCF常考：根据语境选最合适的表达"
+        },
+        {
+          "id": "1775531526871-zonrnt06o3g",
+          "front": "pendant que + 将来时从句",
+          "back": "⚠️ TCF高频陷阱！\n主句为将来时，pendant que 从句必须用 futur simple\n✅ Pendant que je serai aux États-Unis, je développerai mon projet.\n❌ Pendant que je suis aux États-Unis（将来语境下错误）\n中文：在我去美国期间，我会开发项目。"
+        },
+        {
+          "id": "1775531526871-niwhzltbot",
+          "front": "futur simple — être 的变位",
+          "back": "je serai / tu seras / il sera\nnous serons / vous serez / ils seront\n词根：ser-\n例：Ce sera la surprise ! 这将是个惊喜！"
+        },
+        {
+          "id": "1775531526871-guts65ymjdo",
+          "front": "futur simple — aller 的变位",
+          "back": "j'irai / tu iras / il ira\nnous irons / vous irez / ils iront\n词根：ir-\n例：J'irai étudier aux États-Unis.\n我将去美国学习。"
+        },
+        {
+          "id": "1775531526871-mybwpfjuq5h",
+          "front": "futur simple — dire 的变位",
+          "back": "je dirai / tu diras / il dira\nnous dirons / vous direz / ils diront\n词根：dir-\n例：Je ne te dirai pas ce que c'est !\n我不会告诉你这是什么！"
+        },
+        {
+          "id": "1775531526871-ga7tl0j272",
+          "front": "parfaire son anglais",
+          "back": "动词：parfaire（完善、精进）\n固定搭配：parfaire + son/sa + 语言/技能\n例：J'irai aux États-Unis pour parfaire mon anglais.\n我去美国是为了提升我的英语水平。\n语域：书面/正式口语，B2加分表达"
+        },
+        {
+          "id": "1775531526871-d1ie7wmwz8g",
+          "front": "se mettre à son compte",
+          "back": "字面：把自己放到自己的账上\n实际含义：自己创业、成为自由职业者\n例：Tu comptes te mettre à ton compte tout de suite ?\n你打算马上自己创业吗？\n⚠️ 与 monter son entreprise 意思相近但更口语"
+        },
+        {
+          "id": "1775531526871-07ozovf63tj9",
+          "front": "monter son entreprise",
+          "back": "创业、建立自己的公司\nmonter = 建立、搭建（此处为比喻义）\n例：J'ai l'intention de monter mon entreprise.\n我打算创业。\n同义表达：créer son entreprise / lancer son projet"
+        },
+        {
+          "id": "1775531526871-ulvhsudu44",
+          "front": "trouver des financements",
+          "back": "寻找融资/资金\nfinancement (n.m.) = 融资、资金\n例：Je dois trouver des financements.\n我必须找到融资。\n相关词：financer (v.) 资助 / financier (adj.) 财务的"
+        },
+        {
+          "id": "1775531526871-ci4d1zgarc7",
+          "front": "je suis confiante",
+          "back": "我很有信心（女性说话者用 confiante）\nconfiant(e) (adj.) = 有信心的、自信的\n男性：je suis confiant\n女性：je suis confiante\n例：J'ai encore beaucoup de travail, mais je suis confiante.\n还有很多工作，但我很有信心。"
+        },
+        {
+          "id": "1775531526871-9p7hszf8r8",
+          "front": "Te connaissant, …",
+          "back": "了解你嘛，……（现在分词作独立状语）\n结构：connaissant = knowing（现在分词）\n例：Te connaissant, ce sera forcément un truc sur la gastronomie.\n了解你，这肯定是和美食有关的东西。\n✅ B2写作/口语加分结构"
+        },
+        {
+          "id": "1775531526871-cxyim8jvg3",
+          "front": "forcément",
+          "back": "副词：必然地、肯定地\n例：Ce sera forcément un truc sur la gastronomie.\n这肯定是和美食有关的东西。\n⚠️ TCF Vrai/Faux陷阱：含 forcément / certainement 的句子往往为FAUX，因现实中存在不确定性"
+        },
+        {
+          "id": "1775531526871-bw0u79kjgo",
+          "front": "Allez, je dois te laisser.",
+          "back": "好了，我得走了。\n口语常用告别语\nAllez = 好了/行了（语气词，表示结束话题）\nte laisser = 让你（离开）/ 挂断\nBisou = 亲亲，再见（口语亲昵告别）"
+        },
+        {
+          "id": "1775531526871-qr20zbnsa5",
+          "front": "la licence（法国学制）",
+          "back": "法国大学本科学位（3年）\n相当于：Bachelor's degree\n对应学制：\nLicence（本科，3年）\nMaster（硕士，2年）\nDoctorat（博士，3年+）\n⚠️ licence ≠ 执照（那是 permis 或 autorisation）"
+        }
+      ]
+    },
+    {
       "id": 1775362204848,
       "name": "时态拓展-愈过去时",
       "folderId": "1772683473645",
@@ -101001,12 +101226,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-04-05",
+    "date": "2026-04-07",
     "todayCount": 0,
     "lastDate": "2026-02-27",
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-04-05T04:12:46.164Z",
+  "exportedAt": "2026-04-07T03:13:11.519Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
