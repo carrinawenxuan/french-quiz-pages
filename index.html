@@ -8139,7 +8139,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           } else {
             if (!item.stem || !item.type) return;
             if (item.type === 'writing_dictation') return;
-            existing.push(initWritingSrItem(Object.assign({}, item, { id: writingNewId() }));
+            existing.push(initWritingSrItem(Object.assign({}, item, { id: writingNewId() })));
             added++;
           }
         });
