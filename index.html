@@ -2337,6 +2337,18 @@
     .writing-tache-card.tache-3 { border-top: 3px solid #8b5cf6; }
     .writing-tache-card h4 { margin: 0 0 0.35rem 0; font-size: 0.95rem; }
     .writing-tache-card .meta { font-size: 0.8rem; color: var(--text-muted); line-height: 1.45; }
+    .speaking-review-hub {
+      background: linear-gradient(135deg, rgba(236, 72, 153, 0.12), rgba(219, 39, 119, 0.08));
+      border: 1px solid rgba(236, 72, 153, 0.25);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .speaking-review-hub h3 { margin: 0 0 0.75rem 0; font-size: 1rem; }
+    .speaking-review-stat .num { display: block; font-size: 1.35rem; font-weight: 700; color: #ec4899; }
+    .speaking-tache-card:hover { border-color: #ec4899; transform: translateY(-1px); }
+    .speaking-topic-item:hover { border-color: #ec4899; }
+
     .writing-topic-list { display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1rem; }
     .writing-topic-item {
       display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
@@ -2528,6 +2540,12 @@
         <h2>TCF 写作</h2>
         <p class="writing-entry-desc">Tâche 1/2/3 写作题目 · 闪卡 · 练习 · 默写 · 艾宾浩斯复习提醒</p>
         <button type="button" class="btn btn-primary" id="btn-enter-writing" style="background: linear-gradient(135deg, #f97316, #ea580c);">✍️ 进入 TCF 写作</button>
+      </div>
+
+      <div class="home-section" id="speaking-entry-section">
+        <h2>TCF 口语</h2>
+        <p class="writing-entry-desc">Tâche 1/2/3 口语题目 · 闪卡 · 练习 · 背诵 · 艾宾浩斯复习提醒</p>
+        <button type="button" class="btn btn-primary" id="btn-enter-speaking" style="background: linear-gradient(135deg, #ec4899, #db2777);">🎤 进入 TCF 口语</button>
       </div>
 
       <div class="home-section saved-sets" id="saved-sets-section">
@@ -2797,6 +2815,179 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         </div>
       </div>
     </div>
+
+    <!-- TCF 口语模块 -->
+    <div id="screen-speaking" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-speaking-back-home" aria-label="返回首页">← 返回</button>
+        <h2>TCF 口语</h2>
+      </div>
+      <div class="speaking-review-hub" id="speaking-review-hub">
+        <h3>📊 今日复习</h3>
+        <div class="writing-review-grid" id="speaking-review-grid"></div>
+        <div class="writing-review-actions" id="speaking-review-actions"></div>
+      </div>
+      <div class="writing-tache-grid" id="speaking-tache-grid"></div>
+      <button type="button" class="btn btn-primary" id="btn-speaking-add-topic" style="width:100%;">➕ 新建口语题目</button>
+    </div>
+
+    <div id="screen-speaking-tache" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-speaking-back-dashboard" aria-label="返回口语首页">← 返回</button>
+        <h2 id="speaking-tache-title">Tâche</h2>
+      </div>
+      <div class="writing-topic-list" id="speaking-topic-list"></div>
+      <p class="flashcards-empty" id="speaking-topic-empty" style="display:none;">暂无题目，点击下方新建或从 AI 导入。</p>
+      <button type="button" class="btn btn-primary" id="btn-speaking-add-topic-tache" style="width:100%;margin-top:0.5rem;">➕ 新建题目</button>
+    </div>
+
+    <div id="screen-speaking-topic" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-speaking-back-tache" aria-label="返回题目列表">← 返回</button>
+        <h2 id="speaking-topic-title">题目详情</h2>
+      </div>
+      <div class="writing-detail-section">
+        <h4>题目原文</h4>
+        <div class="writing-prompt-box" id="speaking-topic-prompt"></div>
+        <p class="writing-dictation-meta" id="speaking-topic-prompt-zh" style="display:none;"></p>
+      </div>
+      <div class="writing-detail-section">
+        <h4>我的口语文本 <span class="writing-dictation-meta">（保存在 JSON 中）</span></h4>
+        <textarea class="writing-draft-area" id="speaking-topic-draft" placeholder="在此粘贴或输入你自己准备的口语文本/回答…" autocomplete="off"></textarea>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-save-draft">保存口语文本</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="speaking-section-cards">
+        <h4>🃏 闪卡 <span id="speaking-cards-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="speaking-cards-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-speaking-review-cards">复习到期闪卡</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-train-cards">全部训练</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-import-cards">导入闪卡</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="speaking-section-questions">
+        <h4>📝 练习题 <span id="speaking-questions-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="speaking-questions-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-speaking-review-questions">复习到期题目</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-practice-questions">全部练习</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-import-questions">导入练习题</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="speaking-section-dictations">
+        <h4>✍️ 背诵题 <span id="speaking-dictations-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="speaking-dictations-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-speaking-review-dictations">复习到期背诵</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-practice-dictations">全部背诵</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-import-dictations">导入背诵题</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="speaking-section-wrong">
+        <h4>⚠️ 重点错题</h4>
+        <p class="writing-dictation-meta" id="speaking-wrong-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-speaking-review-wrong">专攻错题</button>
+        </div>
+      </div>
+      <div class="writing-section-actions" style="margin-top:0.5rem;">
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-edit-topic">编辑题目信息</button>
+        <button type="button" class="btn btn-secondary btn-sm btn-danger" id="btn-speaking-delete-topic">删除题目</button>
+      </div>
+    </div>
+
+    <div id="screen-speaking-dictation" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-speaking-dictation-back" aria-label="返回">← 返回</button>
+        <h2 id="speaking-dictation-title">背诵</h2>
+      </div>
+      <div class="writing-dictation-phase" id="speaking-dictation-study">
+        <p class="writing-dictation-meta" id="speaking-dictation-stem"></p>
+        <p class="writing-dictation-meta">请先熟悉口语文本，点击「开始背诵」后原文将隐藏。</p>
+        <h4>📖 原文（先背诵）</h4>
+        <div class="writing-prompt-box" id="speaking-dictation-reference"></div>
+        <p class="writing-dictation-meta" id="speaking-dictation-reference-zh" style="display:none;"></p>
+        <div class="writing-dictation-actions">
+          <button type="button" class="btn btn-primary" id="btn-speaking-dictation-start">开始背诵</button>
+        </div>
+      </div>
+      <div class="writing-dictation-phase" id="speaking-dictation-active" style="display:none;">
+        <p class="writing-dictation-meta" id="speaking-dictation-active-stem"></p>
+        <p class="writing-dictation-meta">判题标准：归一化后须 <strong>100% 一致</strong>（忽略 accents、标点、空格差异）。可使用提示或偷看原文，但会影响复习间隔。</p>
+        <p class="writing-dictation-meta" id="speaking-dictation-hint-count">提示已用 0 次</p>
+        <div class="writing-hint-panel" id="speaking-dictation-hints" style="display:none;"></div>
+        <textarea class="writing-dictation-input" id="speaking-dictation-input" placeholder="在此背诵原文…" autocomplete="off"></textarea>
+        <p class="writing-dictation-meta" id="speaking-dictation-word-count"></p>
+        <div class="writing-dictation-actions">
+          <button type="button" class="btn btn-secondary" id="btn-speaking-dictation-hint">💡 提示</button>
+          <button type="button" class="btn btn-secondary" id="btn-speaking-dictation-peek">👁 偷看原文</button>
+          <button type="button" class="btn btn-primary" id="btn-speaking-dictation-submit">提交</button>
+        </div>
+      </div>
+      <div class="writing-dictation-phase" id="speaking-dictation-feedback" style="display:none;">
+        <p id="speaking-dictation-result-msg"></p>
+        <div class="writing-prompt-box" id="speaking-dictation-user-text"></div>
+        <h4 style="margin-top:0.75rem;">📖 标准原文</h4>
+        <div class="writing-prompt-box" id="speaking-dictation-ref-show"></div>
+        <p class="writing-dictation-meta" id="speaking-dictation-attempt-meta"></p>
+        <p class="flashcard-sr-prompt">掌握程度（影响下次复习时间）：</p>
+        <div class="writing-sr-btns" id="speaking-dictation-sr-btns">
+          <button type="button" class="btn btn-secondary" data-sr="forgot">😰 忘了</button>
+          <button type="button" class="btn btn-secondary" data-sr="fuzzy">🤔 模糊</button>
+          <button type="button" class="btn btn-primary" data-sr="remembered">✅ 记得</button>
+        </div>
+      </div>
+    </div>
+
+  <!-- 口语模块：新建/编辑题目 -->
+  <div class="flashcard-add-card-overlay" id="speaking-topic-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="speaking-topic-modal-title" style="display: none;">
+    <div class="flashcard-add-card-modal">
+      <h3 id="speaking-topic-modal-title">新建口语题目</h3>
+      <label for="speaking-topic-input-tache">Tâche</label>
+      <select id="speaking-topic-input-tache" style="width:100%;padding:0.4rem 0.6rem;margin:0.25rem 0 0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);">
+        <option value="1">Tâche 1 · Entretien dirigé</option>
+        <option value="2">Tâche 2 · Interaction</option>
+        <option value="3">Tâche 3 · Point de vue</option>
+      </select>
+      <label for="speaking-topic-input-title">标题（便于识别）</label>
+      <input type="text" id="speaking-topic-input-title" placeholder="例如：介绍你的家乡" autocomplete="off" style="width:100%;padding:0.4rem 0.6rem;margin:0.25rem 0 0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);" />
+      <label for="speaking-topic-input-prompt">题目原文（法语）</label>
+      <textarea id="speaking-topic-input-prompt" rows="5" placeholder="粘贴 TCF 口语题目/情境…" autocomplete="off"></textarea>
+      <label for="speaking-topic-input-prompt-zh">题目说明（可选，中文）</label>
+      <textarea id="speaking-topic-input-prompt-zh" rows="2" placeholder="可选中文说明…" autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-speaking-topic-modal-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-speaking-topic-modal-save">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 口语模块：JSON 导入 -->
+  <div class="flashcard-add-card-overlay" id="speaking-import-overlay" role="dialog" aria-modal="true" aria-labelledby="speaking-import-title" style="display: none;">
+    <div class="flashcard-add-card-modal flashcard-import-json-modal">
+      <h3 id="speaking-import-title">从 JSON 粘贴导入</h3>
+      <p class="flashcard-import-hint" id="speaking-import-hint">粘贴 AI 生成的 JSON 数组。闪卡需含 <code>front</code>/<code>back</code>；练习题用现有题型；背诵题需 <code>type: writing_dictation</code> 与 <code>reference</code>。</p>
+      <textarea id="speaking-import-textarea" rows="12" placeholder='[{"front":"…","back":"…"}]' autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-speaking-import-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-speaking-import-do">导入</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 口语：偷看原文弹层 -->
+  <div class="flashcard-add-card-overlay" id="speaking-peek-overlay" role="dialog" aria-modal="true" aria-label="原文参考" style="display: none;">
+    <div class="flashcard-add-card-modal">
+      <h3>原文参考</h3>
+      <div class="writing-prompt-box" id="speaking-peek-text"></div>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-primary" id="btn-speaking-peek-close">关闭</button>
+      </div>
+    </div>
+  </div>
+
 
     <!-- AI 学习：上传截图 + 元信息 -->
     <div id="screen-capture" class="screen">
@@ -3418,11 +3609,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
     const SEQUENTIAL_MODE_THRESHOLD = 16;
-    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards', CAPTURE: 'screen-capture', STUDY_UNITS: 'screen-study-units', STUDY_UNIT_DETAIL: 'screen-study-unit-detail', WRITING: 'screen-writing', WRITING_TACHE: 'screen-writing-tache', WRITING_TOPIC: 'screen-writing-topic', WRITING_DICTATION: 'screen-writing-dictation' };
+    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards', CAPTURE: 'screen-capture', STUDY_UNITS: 'screen-study-units', STUDY_UNIT_DETAIL: 'screen-study-unit-detail', WRITING: 'screen-writing', WRITING_TACHE: 'screen-writing-tache', WRITING_TOPIC: 'screen-writing-topic', WRITING_DICTATION: 'screen-writing-dictation', SPEAKING: 'screen-speaking', SPEAKING_TACHE: 'screen-speaking-tache', SPEAKING_TOPIC: 'screen-speaking-topic', SPEAKING_DICTATION: 'screen-speaking-dictation' };
     const FLASHCARD_DECKS_KEY = 'french_quiz_flashcard_decks';
     const WRITING_TOPICS_KEY = 'french_quiz_writing_topics';
     const WRITING_WRONG_BOOK_KEY = 'french_quiz_writing_wrong_book';
+    const SPEAKING_TOPICS_KEY = 'french_quiz_speaking_topics';
+    const SPEAKING_WRONG_BOOK_KEY = 'french_quiz_speaking_wrong_book';
     const TACHE_LABELS = { 1: 'Tâche 1 · Message personnel', 2: 'Tâche 2 · Récit', 3: 'Tâche 3 · Opinion' };
+    const SPEAKING_TACHE_LABELS = { 1: 'Tâche 1 · Entretien dirigé', 2: 'Tâche 2 · Interaction', 3: 'Tâche 3 · Point de vue' };
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
 
@@ -3436,6 +3630,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _flashcardDecksCache = null;
     let _writingTopicsCache = null;
     let _writingWrongBookCache = null;
+    let _speakingTopicsCache = null;
+    let _speakingWrongBookCache = null;
     let _questionNotesCache = null;
     let _currentStudyUnitId = null;
     let _currentStudyUnitFromBundle = null;
@@ -3553,6 +3749,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           _writingWrongBookCache = raw ? JSON.parse(raw) : [];
         } catch (_) { _writingWrongBookCache = []; }
         try {
+          raw = localStorage.getItem(SPEAKING_TOPICS_KEY);
+          _speakingTopicsCache = raw ? JSON.parse(raw) : [];
+        } catch (_) { _speakingTopicsCache = []; }
+        try {
+          raw = localStorage.getItem(SPEAKING_WRONG_BOOK_KEY);
+          _speakingWrongBookCache = raw ? JSON.parse(raw) : [];
+        } catch (_) { _speakingWrongBookCache = []; }
+        try {
           raw = localStorage.getItem(QUESTION_NOTES_KEY);
           if (raw) {
             var parsed = JSON.parse(raw);
@@ -3647,6 +3851,32 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           try { localStorage.setItem(WRITING_WRONG_BOOK_KEY, JSON.stringify(_writingWrongBookCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] writingWrongBook migration error', e); }
+
+      // speakingTopics
+      try {
+        raw = localStorage.getItem(SPEAKING_TOPICS_KEY);
+        if (raw) {
+          _speakingTopicsCache = JSON.parse(raw);
+          await idbSet('speakingTopics', _speakingTopicsCache);
+        } else {
+          val = await idbGet('speakingTopics');
+          _speakingTopicsCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          try { localStorage.setItem(SPEAKING_TOPICS_KEY, JSON.stringify(_speakingTopicsCache)); } catch (_) {}
+        }
+      } catch (e) { console.warn('[initStorage] speakingTopics migration error', e); }
+
+      // speakingWrongBook
+      try {
+        raw = localStorage.getItem(SPEAKING_WRONG_BOOK_KEY);
+        if (raw) {
+          _speakingWrongBookCache = JSON.parse(raw);
+          await idbSet('speakingWrongBook', _speakingWrongBookCache);
+        } else {
+          val = await idbGet('speakingWrongBook');
+          _speakingWrongBookCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          try { localStorage.setItem(SPEAKING_WRONG_BOOK_KEY, JSON.stringify(_speakingWrongBookCache)); } catch (_) {}
+        }
+      } catch (e) { console.warn('[initStorage] speakingWrongBook migration error', e); }
 
       // questionNotes
       try {
@@ -4086,6 +4316,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         flashcardDecks: getFlashcardDecks(),
         writingTopics: getWritingTopics(),
         writingWrongBook: getWritingWrongBook(),
+        speakingTopics: getSpeakingTopics(),
+        speakingWrongBook: getSpeakingWrongBook(),
         exportedAt: new Date().toISOString()
       };
       const fp = getImportAllowedFingerprint();
@@ -4162,7 +4394,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateWrongCount();
       renderSavedSets();
       updateStartPracticeSelect();
+      
+      if (safe.speakingTopics != null && Array.isArray(safe.speakingTopics)) {
+        _speakingTopicsCache = safe.speakingTopics;
+        try { localStorage.setItem(SPEAKING_TOPICS_KEY, JSON.stringify(_speakingTopicsCache)); } catch (_) {}
+        if (_idb) idbSet('speakingTopics', _speakingTopicsCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingTopics error', e); });
+      }
+      if (safe.speakingWrongBook != null && Array.isArray(safe.speakingWrongBook)) {
+        _speakingWrongBookCache = safe.speakingWrongBook;
+        try { localStorage.setItem(SPEAKING_WRONG_BOOK_KEY, JSON.stringify(_speakingWrongBookCache)); } catch (_) {}
+        if (_idb) idbSet('speakingWrongBook', _speakingWrongBookCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingWrongBook error', e); });
+      }
       if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
+      if (typeof window._onSpeakingTopicsChanged === 'function') window._onSpeakingTopicsChanged();
       // 强制再写 IDB（大数据以 IDB 为主）；localStorage 仅在小数据时写入，避免超量
       var sets = getSavedSets();
       var wrong = getWrongBook();
@@ -4447,7 +4691,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           console.error('[setWritingTopics] IDB write error', e);
         });
       }
+      
+      if (safe.speakingTopics != null && Array.isArray(safe.speakingTopics)) {
+        _speakingTopicsCache = safe.speakingTopics;
+        try { localStorage.setItem(SPEAKING_TOPICS_KEY, JSON.stringify(_speakingTopicsCache)); } catch (_) {}
+        if (_idb) idbSet('speakingTopics', _speakingTopicsCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingTopics error', e); });
+      }
+      if (safe.speakingWrongBook != null && Array.isArray(safe.speakingWrongBook)) {
+        _speakingWrongBookCache = safe.speakingWrongBook;
+        try { localStorage.setItem(SPEAKING_WRONG_BOOK_KEY, JSON.stringify(_speakingWrongBookCache)); } catch (_) {}
+        if (_idb) idbSet('speakingWrongBook', _speakingWrongBookCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingWrongBook error', e); });
+      }
       if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
+      if (typeof window._onSpeakingTopicsChanged === 'function') window._onSpeakingTopicsChanged();
     }
     function getWritingWrongBook() {
       if (_writingWrongBookCache !== null) return _writingWrongBookCache;
@@ -4472,7 +4728,19 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           console.error('[setWritingWrongBook] IDB write error', e);
         });
       }
+      
+      if (safe.speakingTopics != null && Array.isArray(safe.speakingTopics)) {
+        _speakingTopicsCache = safe.speakingTopics;
+        try { localStorage.setItem(SPEAKING_TOPICS_KEY, JSON.stringify(_speakingTopicsCache)); } catch (_) {}
+        if (_idb) idbSet('speakingTopics', _speakingTopicsCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingTopics error', e); });
+      }
+      if (safe.speakingWrongBook != null && Array.isArray(safe.speakingWrongBook)) {
+        _speakingWrongBookCache = safe.speakingWrongBook;
+        try { localStorage.setItem(SPEAKING_WRONG_BOOK_KEY, JSON.stringify(_speakingWrongBookCache)); } catch (_) {}
+        if (_idb) idbSet('speakingWrongBook', _speakingWrongBookCache).catch(function(e) { console.error('[loadDataFromObject] IDB speakingWrongBook error', e); });
+      }
       if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
+      if (typeof window._onSpeakingTopicsChanged === 'function') window._onSpeakingTopicsChanged();
     }
     function writingNewId() {
       return Date.now() + '-' + Math.random().toString(36).slice(2, 9);
@@ -4566,6 +4834,103 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return !(String(w.topicId) === String(topicId) && String(w.id) === String(q.id));
         });
         setWritingWrongBook(book);
+      }
+    }
+
+
+    function getSpeakingTopics() {
+      if (_speakingTopicsCache !== null) return _speakingTopicsCache;
+      try {
+        const raw = localStorage.getItem(SPEAKING_TOPICS_KEY);
+        _speakingTopicsCache = raw ? JSON.parse(raw) : [];
+        return Array.isArray(_speakingTopicsCache) ? _speakingTopicsCache : [];
+      } catch (_) { return []; }
+    }
+    function setSpeakingTopics(topics) {
+      _speakingTopicsCache = topics;
+      var payload = JSON.stringify(topics);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(SPEAKING_TOPICS_KEY, payload); } catch (e) {
+          console.error('[setSpeakingTopics] localStorage error', e);
+        }
+      } else {
+        try { localStorage.removeItem(SPEAKING_TOPICS_KEY); } catch (_) {}
+      }
+      if (_idb) {
+        idbSet('speakingTopics', topics).catch(function(e) {
+          console.error('[setSpeakingTopics] IDB write error', e);
+        });
+      }
+      if (typeof window._onSpeakingTopicsChanged === 'function') window._onSpeakingTopicsChanged();
+    }
+    function getSpeakingWrongBook() {
+      if (_speakingWrongBookCache !== null) return _speakingWrongBookCache;
+      try {
+        const raw = localStorage.getItem(SPEAKING_WRONG_BOOK_KEY);
+        _speakingWrongBookCache = raw ? JSON.parse(raw) : [];
+        return Array.isArray(_speakingWrongBookCache) ? _speakingWrongBookCache : [];
+      } catch (_) { return []; }
+    }
+    function setSpeakingWrongBook(book) {
+      _speakingWrongBookCache = book;
+      var payload = JSON.stringify(book);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(SPEAKING_WRONG_BOOK_KEY, payload); } catch (e) {
+          console.error('[setSpeakingWrongBook] localStorage error', e);
+        }
+      } else {
+        try { localStorage.removeItem(SPEAKING_WRONG_BOOK_KEY); } catch (_) {}
+      }
+      if (_idb) {
+        idbSet('speakingWrongBook', book).catch(function(e) {
+          console.error('[setSpeakingWrongBook] IDB write error', e);
+        });
+      }
+      if (typeof window._onSpeakingTopicsChanged === 'function') window._onSpeakingTopicsChanged();
+    }
+    function getSpeakingReviewStats() {
+      var topics = getSpeakingTopics();
+      var cardsDue = 0, questionsDue = 0, dictationsDue = 0, focusWrong = 0;
+      topics.forEach(function(t) {
+        (t.cards || []).forEach(function(c) { if (isWritingSrDue(c)) cardsDue++; });
+        (t.questions || []).forEach(function(q) { if (isWritingSrDue(q)) questionsDue++; });
+        (t.dictations || []).forEach(function(d) { if (isWritingSrDue(d)) dictationsDue++; });
+      });
+      getSpeakingWrongBook().forEach(function(w) {
+        if (isWritingSrDue(w) && (w.wrongCount || 0) >= 2) focusWrong++;
+      });
+      return { cardsDue: cardsDue, questionsDue: questionsDue, dictationsDue: dictationsDue, focusWrong: focusWrong };
+    }
+    function findSpeakingTopic(topicId) {
+      return getSpeakingTopics().find(function(t) { return String(t.id) === String(topicId); });
+    }
+    function updateSpeakingItemSr(topicId, kind, itemId, ratingOrCorrect, isCorrectBool) {
+      var topics = getSpeakingTopics();
+      var topic = topics.find(function(t) { return String(t.id) === String(topicId); });
+      if (!topic) return;
+      var listKey = kind === 'card' ? 'cards' : (kind === 'dictation' ? 'dictations' : 'questions');
+      var list = topic[listKey] || [];
+      var idx = list.findIndex(function(it) { return String(it.id) === String(itemId); });
+      if (idx === -1) return;
+      var item = list[idx];
+      if (typeof ratingOrCorrect === 'string') {
+        applyWritingSrRating(item, ratingOrCorrect);
+      } else {
+        applyWritingSrRating(item, ratingOrCorrect ? 'remembered' : 'forgot');
+      }
+      list[idx] = item;
+      topic[listKey] = list;
+      topic.lastPracticedAt = new Date().toISOString();
+      setSpeakingTopics(topics.map(function(t) { return String(t.id) === String(topicId) ? topic : t; }));
+    }
+    function updateSpeakingQuestionSr(topicId, q, correct) {
+      if (!q || !q.id) return;
+      updateSpeakingItemSr(topicId, 'question', q.id, correct);
+      if (correct) {
+        var book = getSpeakingWrongBook().filter(function(w) {
+          return !(String(w.topicId) === String(topicId) && String(w.id) === String(q.id));
+        });
+        setSpeakingWrongBook(book);
       }
     }
 
@@ -5720,6 +6085,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       practicedSetId: null,
       writingQuizContext: null,
       writingReturnScreen: null,
+      speakingQuizContext: null,
+      speakingReturnScreen: null,
       sequentialBatch: null,
       consecutiveCorrect: 0,
       maxConsecutiveCorrect: 0,
@@ -6392,32 +6759,36 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }, 1300);
     }
 
+    function recordTcfWrongAnswer(q, ctx, topicIdField, getBook, setBook) {
+      var topicId = q[topicIdField] || ctx.topicId;
+      var book = getBook();
+      var key = (topicId || '') + '::' + (q.id || q.stem || '');
+      var idx = book.findIndex(function(w) { return w._wbKey === key; });
+      var entry = Object.assign({}, q, {
+        _wbKey: key,
+        topicId: topicId,
+        itemKind: 'question',
+        nextReview: addDays(todayString(), 1),
+        repetitions: 0,
+        interval: 1,
+        wrongCount: 1
+      });
+      initWritingSrItem(entry);
+      if (idx >= 0) {
+        entry.wrongCount = (book[idx].wrongCount || 0) + 1;
+        entry.repetitions = 0;
+        entry.nextReview = addDays(todayString(), 1);
+        book[idx] = Object.assign({}, book[idx], entry);
+      } else {
+        book.push(entry);
+      }
+      setBook(book);
+    }
     function maybeRecordWrongAnswer(q) {
       if (state.writingQuizContext) {
-        var ctx = state.writingQuizContext;
-        var topicId = q._writingTopicId || ctx.topicId;
-        var book = getWritingWrongBook();
-        var key = (topicId || '') + '::' + (q.id || q.stem || '');
-        var idx = book.findIndex(function(w) { return w._wbKey === key; });
-        var entry = Object.assign({}, q, {
-          _wbKey: key,
-          topicId: topicId,
-          itemKind: 'question',
-          nextReview: addDays(todayString(), 1),
-          repetitions: 0,
-          interval: 1,
-          wrongCount: 1
-        });
-        initWritingSrItem(entry);
-        if (idx >= 0) {
-          entry.wrongCount = (book[idx].wrongCount || 0) + 1;
-          entry.repetitions = 0;
-          entry.nextReview = addDays(todayString(), 1);
-          book[idx] = Object.assign({}, book[idx], entry);
-        } else {
-          book.push(entry);
-        }
-        setWritingWrongBook(book);
+        recordTcfWrongAnswer(q, state.writingQuizContext, '_writingTopicId', getWritingWrongBook, setWritingWrongBook);
+      } else if (state.speakingQuizContext) {
+        recordTcfWrongAnswer(q, state.speakingQuizContext, '_speakingTopicId', getSpeakingWrongBook, setSpeakingWrongBook);
       } else {
         addToWrongBook(q);
       }
@@ -6523,6 +6894,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (state.writingQuizContext) {
         var tid = q._writingTopicId || state.writingQuizContext.topicId;
         if (tid) updateWritingQuestionSr(tid, q, correct);
+      } else if (state.speakingQuizContext) {
+        var tidS = q._speakingTopicId || state.speakingQuizContext.topicId;
+        if (tidS) updateSpeakingQuestionSr(tidS, q, correct);
       } else if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
 
       if (correct) {
@@ -6831,6 +7205,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         var btnBackW = document.getElementById('btn-back-home');
         if (btnBackW) btnBackW.textContent = state.writingReturnScreen === SCREEN.WRITING ? '返回写作首页' : '返回写作题目';
         state.writingQuizContext = null;
+      } else if (state.speakingQuizContext) {
+        if (!state.speakingReturnScreen) state.speakingReturnScreen = SCREEN.SPEAKING_TOPIC;
+        var btnBackS = document.getElementById('btn-back-home');
+        if (btnBackS) btnBackS.textContent = state.speakingReturnScreen === SCREEN.SPEAKING ? '返回口语首页' : '返回口语题目';
+        state.speakingQuizContext = null;
       }
       var finishedSetId = state.practicedSetId;
       if (finishedSetId) {
@@ -7344,7 +7723,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       window.startFlashcardTrainingWithCards = function(cards, opts) {
         opts = opts || {};
         if (!cards || cards.length === 0) { showToast('没有可训练的卡片'); return; }
-        _flashcardWritingSr = opts.writingSr || null;
+        _flashcardWritingSr = opts.writingSr || opts.speakingSr || null;
         _flashcardTrainingDeck = { cards: cards };
         _flashcardTrainingOrder = cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
@@ -8473,6 +8852,625 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     } catch (e) { console.error('[french-quiz] initWriting', e); }
 
     try {
+    (function initSpeaking() {
+      var _speakingCurrentTache = 1;
+      var _speakingCurrentTopicId = null;
+      var _speakingImportKind = 'cards';
+      var _speakingEditingTopicId = null;
+      var _speakingDictationQueue = [];
+      var _speakingDictationIndex = 0;
+      var _speakingDictationSession = null;
+      var _speakingDictationPendingRating = null;
+
+      function wEsc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+
+      function countTopicDue(topic) {
+        var c = 0, q = 0, d = 0;
+        (topic.cards || []).forEach(function(x) { if (isWritingSrDue(x)) c++; });
+        (topic.questions || []).forEach(function(x) { if (isWritingSrDue(x)) q++; });
+        (topic.dictations || []).forEach(function(x) { if (isWritingSrDue(x)) d++; });
+        return { cards: c, questions: q, dictations: d, total: c + q + d };
+      }
+
+      function tacheStats(tache) {
+        var topics = getSpeakingTopics().filter(function(t) { return Number(t.tache) === Number(tache); });
+        var due = { cards: 0, questions: 0, dictations: 0 };
+        topics.forEach(function(t) {
+          var x = countTopicDue(t);
+          due.cards += x.cards;
+          due.questions += x.questions;
+          due.dictations += x.dictations;
+        });
+        return { count: topics.length, due: due };
+      }
+
+      function renderSpeakingDashboard() {
+        var stats = getSpeakingReviewStats();
+        var grid = document.getElementById('speaking-review-grid');
+        if (grid) {
+          grid.innerHTML =
+            '<div class="writing-review-stat"><span class="num">' + stats.cardsDue + '</span><span class="lbl">闪卡待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.questionsDue + '</span><span class="lbl">题目待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.dictationsDue + '</span><span class="lbl">背诵待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.focusWrong + '</span><span class="lbl">重点错题</span></div>';
+        }
+        var actions = document.getElementById('speaking-review-actions');
+        if (actions) {
+          actions.innerHTML =
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-speaking-hub-cards">复习闪卡</button>' +
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-speaking-hub-questions">复习题目</button>' +
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-speaking-hub-dictations">复习背诵</button>' +
+            '<button type="button" class="btn btn-secondary btn-sm" id="btn-speaking-hub-wrong">专攻错题</button>';
+          document.getElementById('btn-speaking-hub-cards').addEventListener('click', function() { startSpeakingGlobalReview('cards'); });
+          document.getElementById('btn-speaking-hub-questions').addEventListener('click', function() { startSpeakingGlobalReview('questions'); });
+          document.getElementById('btn-speaking-hub-dictations').addEventListener('click', function() { startSpeakingGlobalReview('dictations'); });
+          document.getElementById('btn-speaking-hub-wrong').addEventListener('click', function() { startSpeakingWrongReview(); });
+        }
+        var tacheGrid = document.getElementById('speaking-tache-grid');
+        if (tacheGrid) {
+          tacheGrid.innerHTML = [1, 2, 3].map(function(n) {
+            var st = tacheStats(n);
+            var dueTotal = st.due.cards + st.due.questions + st.due.dictations;
+            return '<button type="button" class="writing-tache-card tache-' + n + '" data-tache="' + n + '">' +
+              '<h4>' + wEsc(SPEAKING_TACHE_LABELS[n]) + '</h4>' +
+              '<div class="meta">' + st.count + ' 道题目' + (dueTotal ? ' · 待复习 ' + dueTotal : '') + '</div></button>';
+          }).join('');
+          tacheGrid.querySelectorAll('.writing-tache-card').forEach(function(el) {
+            el.addEventListener('click', function() { openSpeakingTache(parseInt(el.getAttribute('data-tache'), 10)); });
+          });
+        }
+      }
+      window._renderSpeakingDashboard = renderSpeakingDashboard;
+
+      function openSpeakingTache(tache) {
+        _speakingCurrentTache = tache;
+        var titleEl = document.getElementById('speaking-tache-title');
+        if (titleEl) titleEl.textContent = SPEAKING_TACHE_LABELS[tache] || ('Tâche ' + tache);
+        renderSpeakingTopicList();
+        showScreen(SCREEN.SPEAKING_TACHE);
+      }
+
+      function renderSpeakingTopicList() {
+        var listEl = document.getElementById('speaking-topic-list');
+        var emptyEl = document.getElementById('speaking-topic-empty');
+        if (!listEl) return;
+        var topics = getSpeakingTopics().filter(function(t) { return Number(t.tache) === Number(_speakingCurrentTache); });
+        topics.sort(function(a, b) {
+          var da = countTopicDue(a).total, db = countTopicDue(b).total;
+          if (da !== db) return db - da;
+          return (b.lastPracticedAt || b.createdAt || '').localeCompare(a.lastPracticedAt || a.createdAt || '');
+        });
+        if (!topics.length) {
+          listEl.innerHTML = '';
+          if (emptyEl) emptyEl.style.display = 'block';
+          return;
+        }
+        if (emptyEl) emptyEl.style.display = 'none';
+        listEl.innerHTML = topics.map(function(t) {
+          var due = countTopicDue(t);
+          var wrongN = getSpeakingWrongBook().filter(function(w) { return String(w.topicId) === String(t.id) && (w.wrongCount || 0) >= 2; }).length;
+          return '<div class="writing-topic-item" data-topic-id="' + wEsc(String(t.id)) + '">' +
+            '<div><div class="title">' + wEsc(t.title || '未命名') + '</div>' +
+            '<div class="meta">闪卡 ' + (t.cards || []).length + ' · 练习 ' + (t.questions || []).length + ' · 背诵 ' + (t.dictations || []).length +
+            (due.total ? ' · 待复习 ' + due.total : '') + (wrongN ? ' · ⚠️ ' + wrongN : '') + '</div></div>' +
+            (due.total ? '<span class="writing-badge">' + due.total + '</span>' : '<span class="writing-badge muted">0</span>') +
+            '</div>';
+        }).join('');
+        listEl.querySelectorAll('.writing-topic-item').forEach(function(el) {
+          el.addEventListener('click', function() {
+            _speakingCurrentTopicId = el.getAttribute('data-topic-id');
+            openSpeakingTopicDetail();
+          });
+        });
+      }
+
+      function openSpeakingTopicDetail() {
+        renderSpeakingTopicDetail();
+        showScreen(SCREEN.SPEAKING_TOPIC);
+      }
+
+      function renderSpeakingTopicDetail() {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) { showScreen(SCREEN.SPEAKING_TACHE); return; }
+        var titleEl = document.getElementById('speaking-topic-title');
+        if (titleEl) titleEl.textContent = topic.title || '未命名';
+        var promptEl = document.getElementById('speaking-topic-prompt');
+        if (promptEl) promptEl.textContent = topic.prompt || '';
+        var zhEl = document.getElementById('speaking-topic-prompt-zh');
+        if (zhEl) {
+          if (topic.promptZh) { zhEl.textContent = topic.promptZh; zhEl.style.display = 'block'; }
+          else { zhEl.style.display = 'none'; }
+        }
+        var draftEl = document.getElementById('speaking-topic-draft');
+        if (draftEl) draftEl.value = topic.myDraft || '';
+        var due = countTopicDue(topic);
+        function setMeta(id, badgeId, total, dueN, label) {
+          var meta = document.getElementById(id);
+          var badge = document.getElementById(badgeId);
+          if (meta) meta.textContent = '共 ' + total + ' 项' + (dueN ? '，今日待复习 ' + dueN + ' 项' : '');
+          if (badge) badge.innerHTML = dueN ? '<span class="writing-badge">' + dueN + '</span>' : '';
+        }
+        setMeta('speaking-cards-meta', 'speaking-cards-due-badge', (topic.cards || []).length, due.cards, '闪卡');
+        setMeta('speaking-questions-meta', 'speaking-questions-due-badge', (topic.questions || []).length, due.questions, '练习');
+        setMeta('speaking-dictations-meta', 'speaking-dictations-due-badge', (topic.dictations || []).length, due.dictations, '背诵');
+        var wrongMeta = document.getElementById('speaking-wrong-meta');
+        var wrongN = getSpeakingWrongBook().filter(function(w) { return String(w.topicId) === String(topic.id); }).length;
+        var focusN = getSpeakingWrongBook().filter(function(w) { return String(w.topicId) === String(topic.id) && (w.wrongCount || 0) >= 2; }).length;
+        if (wrongMeta) wrongMeta.textContent = wrongN ? ('共 ' + wrongN + ' 道错题，其中重点 ' + focusN + ' 道') : '暂无错题';
+      }
+      window._renderSpeakingTopicDetail = renderSpeakingTopicDetail;
+
+      function openTopicModal(editId) {
+        _speakingEditingTopicId = editId || null;
+        var overlay = document.getElementById('speaking-topic-modal-overlay');
+        var titleEl = document.getElementById('speaking-topic-modal-title');
+        var tacheSel = document.getElementById('speaking-topic-input-tache');
+        var nameIn = document.getElementById('speaking-topic-input-title');
+        var promptIn = document.getElementById('speaking-topic-input-prompt');
+        var zhIn = document.getElementById('speaking-topic-input-prompt-zh');
+        if (editId) {
+          var t = findSpeakingTopic(editId);
+          if (titleEl) titleEl.textContent = '编辑口语题目';
+          if (tacheSel) tacheSel.value = String(t.tache || 1);
+          if (nameIn) nameIn.value = t.title || '';
+          if (promptIn) promptIn.value = t.prompt || '';
+          if (zhIn) zhIn.value = t.promptZh || '';
+        } else {
+          if (titleEl) titleEl.textContent = '新建口语题目';
+          if (tacheSel) tacheSel.value = String(_speakingCurrentTache || 1);
+          if (nameIn) nameIn.value = '';
+          if (promptIn) promptIn.value = '';
+          if (zhIn) zhIn.value = '';
+        }
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+      }
+      function closeTopicModal() {
+        var overlay = document.getElementById('speaking-topic-modal-overlay');
+        overlay.style.display = 'none';
+        clearModalFocusTrap();
+      }
+      function saveTopicModal() {
+        var title = (document.getElementById('speaking-topic-input-title').value || '').trim();
+        var prompt = (document.getElementById('speaking-topic-input-prompt').value || '').trim();
+        var promptZh = (document.getElementById('speaking-topic-input-prompt-zh').value || '').trim();
+        var tache = parseInt(document.getElementById('speaking-topic-input-tache').value, 10) || 1;
+        if (!title || !prompt) { showToast('请填写标题和题目原文'); return; }
+        var topics = getSpeakingTopics();
+        if (_speakingEditingTopicId) {
+          topics = topics.map(function(t) {
+            if (String(t.id) !== String(_speakingEditingTopicId)) return t;
+            return Object.assign({}, t, { title: title, prompt: prompt, promptZh: promptZh, tache: tache });
+          });
+        } else {
+          topics.push({
+            id: writingNewId(),
+            tache: tache,
+            title: title,
+            prompt: prompt,
+            promptZh: promptZh,
+            myDraft: '',
+            cards: [],
+            questions: [],
+            dictations: [],
+            createdAt: new Date().toISOString(),
+            lastPracticedAt: null,
+            practiceCount: 0
+          });
+        }
+        setSpeakingTopics(topics);
+        closeTopicModal();
+        showToast('已保存');
+        if (_speakingCurrentTopicId) renderSpeakingTopicDetail();
+        else if (document.getElementById('screen-speaking-tache').classList.contains('active')) renderSpeakingTopicList();
+        else renderSpeakingDashboard();
+      }
+
+      function saveDraft() {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) return;
+        var draft = (document.getElementById('speaking-topic-draft').value || '');
+        var topics = getSpeakingTopics().map(function(t) {
+          return String(t.id) === String(topic.id) ? Object.assign({}, t, { myDraft: draft }) : t;
+        });
+        setSpeakingTopics(topics);
+        showToast('口语文本已保存');
+      }
+
+      function openImportModal(kind) {
+        _speakingImportKind = kind;
+        var hints = {
+          cards: '粘贴闪卡 JSON 数组，每项含 front/back。',
+          questions: '粘贴练习题 JSON 数组（single_choice / fill_blank 等）。',
+          dictations: '粘贴背诵题 JSON 数组，每项 type 为 writing_dictation，含 reference。'
+        };
+        var hintEl = document.getElementById('speaking-import-hint');
+        if (hintEl) hintEl.textContent = hints[kind] || hints.cards;
+        document.getElementById('speaking-import-textarea').value = '';
+        var overlay = document.getElementById('speaking-import-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+      }
+      function closeImportModal() {
+        document.getElementById('speaking-import-overlay').style.display = 'none';
+        clearModalFocusTrap();
+      }
+      function looksLikeSpeakingDictationArray(arr) {
+        return Array.isArray(arr) && arr.length && arr.every(function(x) {
+          return x && (x.type === 'writing_dictation' || x.reference);
+        });
+      }
+      function doImportJson() {
+        var text = normalizeJsonPaste((document.getElementById('speaking-import-textarea').value || '').trim());
+        var parsed;
+        try { parsed = JSON.parse(text); } catch (e) { showToast('JSON 解析失败'); return; }
+        if (!Array.isArray(parsed)) { showToast('需要 JSON 数组'); return; }
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) { showToast('请先选择题目'); return; }
+        var kind = _speakingImportKind;
+        if (kind === 'cards' && looksLikeSpeakingDictationArray(parsed)) { showToast('检测到背诵题 JSON，请用「导入背诵题」'); return; }
+        if (kind === 'dictations' && parsed[0] && parsed[0].front && parsed[0].back) { showToast('检测到闪卡 JSON，请用「导入闪卡」'); return; }
+        var listKey = kind === 'cards' ? 'cards' : (kind === 'dictations' ? 'dictations' : 'questions');
+        var existing = topic[listKey] || [];
+        var added = 0;
+        parsed.forEach(function(item) {
+          if (!item || typeof item !== 'object') return;
+          if (kind === 'cards') {
+            if (!item.front && !item.back) return;
+            existing.push(initWritingSrItem({ id: writingNewId(), front: item.front || '', back: item.back || '' }));
+            added++;
+          } else if (kind === 'dictations') {
+            var ref = item.reference || item.correct || '';
+            if (!ref) return;
+            existing.push(initWritingSrItem({
+              id: writingNewId(),
+              type: 'writing_dictation',
+              stem: item.stem || '请背诵以下原文',
+              reference: ref,
+              referenceZh: item.referenceZh || '',
+              hints: item.hints || buildDictationHints(ref),
+              explanation: item.explanation || '',
+              category: item.category || ''
+            }));
+            added++;
+          } else {
+            if (!item.stem || !item.type) return;
+            if (item.type === 'writing_dictation') return;
+            existing.push(initWritingSrItem(Object.assign({}, item, { id: writingNewId() })));
+            added++;
+          }
+        });
+        topic[listKey] = existing;
+        var topics = getSpeakingTopics().map(function(t) { return String(t.id) === String(topic.id) ? topic : t; });
+        setSpeakingTopics(topics);
+        closeImportModal();
+        renderSpeakingTopicDetail();
+        showToast('已导入 ' + added + ' 项');
+      }
+
+      function collectDueItems(kind, topicIdOnly) {
+        var items = [];
+        getSpeakingTopics().forEach(function(t) {
+          if (topicIdOnly && String(t.id) !== String(topicIdOnly)) return;
+          var listKey = kind === 'cards' ? 'cards' : (kind === 'dictations' ? 'dictations' : 'questions');
+          (t[listKey] || []).forEach(function(it) {
+            if (isWritingSrDue(it)) items.push({ topicId: t.id, item: it, kind: kind === 'cards' ? 'card' : (kind === 'dictations' ? 'dictation' : 'question') });
+          });
+        });
+        return items;
+      }
+
+      function startSpeakingGlobalReview(kind) {
+        var items = collectDueItems(kind, null);
+        if (!items.length) { showToast('没有到期需要复习的内容'); return; }
+        if (kind === 'cards') {
+          var cardItems = items.map(function(x) { return Object.assign({}, x.item, { _speakingTopicId: x.topicId }); });
+          startSpeakingCardSession(cardItems, null, true);
+          return;
+        }
+        if (kind === 'dictations') {
+          _speakingDictationQueue = items.map(function(x) { return Object.assign({}, x.item, { _topicId: x.topicId }); });
+          _speakingDictationIndex = 0;
+          showDictationItem();
+          return;
+        }
+        var questions = items.map(function(x) { return Object.assign({}, x.item, { _speakingTopicId: x.topicId }); });
+        state.speakingQuizContext = { topicId: null, global: true };
+        state.speakingReturnScreen = SCREEN.SPEAKING;
+        startQuiz(questions, false, null, { noShuffle: false });
+      }
+
+      function startSpeakingCardSession(cards, topicId, multiTopic) {
+        if (!cards.length) { showToast('没有闪卡'); return; }
+        window.startFlashcardTrainingWithCards(cards, {
+          speakingSr: {
+            onRate: function(card, rating) {
+              var tid = card._speakingTopicId || topicId;
+              if (tid) updateSpeakingItemSr(tid, 'card', card.id, rating);
+            },
+            onComplete: function() {
+              showToast('闪卡复习完成');
+              if (_speakingCurrentTopicId && document.getElementById('screen-speaking-topic').classList.contains('active')) renderSpeakingTopicDetail();
+              else if (document.getElementById('screen-speaking').classList.contains('active')) renderSpeakingDashboard();
+              else renderSpeakingDashboard();
+            }
+          }
+        });
+      }
+
+      function startTopicCardReview(dueOnly) {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) return;
+        var cards = (topic.cards || []).slice();
+        if (dueOnly) cards = cards.filter(isWritingSrDue);
+        startSpeakingCardSession(cards, topic.id, false);
+      }
+
+      function startTopicQuiz(dueOnly) {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) return;
+        var qs = (topic.questions || []).slice();
+        if (dueOnly) qs = qs.filter(isWritingSrDue);
+        if (!qs.length) { showToast(dueOnly ? '没有到期题目' : '暂无练习题'); return; }
+        state.speakingQuizContext = { topicId: topic.id };
+        state.speakingReturnScreen = SCREEN.SPEAKING_TOPIC;
+        startQuiz(qs, false, null);
+      }
+
+      function startSpeakingWrongReview() {
+        var book = getSpeakingWrongBook().filter(isWritingSrDue);
+        if (!book.length) { showToast('没有到期错题'); return; }
+        var qs = book.filter(function(w) { return w.itemKind === 'question' || w.type; }).map(function(w) {
+          return Object.assign({}, w, { _speakingTopicId: w.topicId });
+        });
+        if (!qs.length) { showToast('错题本中暂无练习题类型'); return; }
+        state.speakingQuizContext = { topicId: qs[0].topicId, wrongMode: true };
+        state.speakingReturnScreen = SCREEN.SPEAKING;
+        startQuiz(qs, true, null);
+      }
+
+      function startTopicWrongReview() {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) return;
+        var qs = getSpeakingWrongBook().filter(function(w) {
+          return String(w.topicId) === String(topic.id) && isWritingSrDue(w);
+        });
+        if (!qs.length) { showToast('没有到期错题'); return; }
+        state.speakingQuizContext = { topicId: topic.id, wrongMode: true };
+        state.speakingReturnScreen = SCREEN.SPEAKING_TOPIC;
+        startQuiz(qs, true, null);
+      }
+
+      function startTopicDictation(dueOnly) {
+        var topic = findSpeakingTopic(_speakingCurrentTopicId);
+        if (!topic) return;
+        var list = (topic.dictations || []).slice();
+        if (dueOnly) list = list.filter(isWritingSrDue);
+        if (!list.length) { showToast(dueOnly ? '没有到期背诵题' : '暂无背诵题'); return; }
+        _speakingDictationQueue = list.map(function(d) { return Object.assign({}, d, { _topicId: topic.id }); });
+        _speakingDictationIndex = 0;
+        showDictationItem();
+      }
+
+      function showDictationItem() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        if (!item) {
+          showToast('背诵复习完成');
+          if (_speakingCurrentTopicId) {
+            renderSpeakingTopicDetail();
+            showScreen(SCREEN.SPEAKING_TOPIC);
+          } else {
+            renderSpeakingDashboard();
+            showScreen(SCREEN.SPEAKING);
+          }
+          return;
+        }
+        _speakingDictationSession = { hintsUsed: 0, peeked: false, hintLevel: 0, topicId: item._topicId, itemId: item.id };
+        document.getElementById('speaking-dictation-title').textContent = '背诵 (' + (_speakingDictationIndex + 1) + '/' + _speakingDictationQueue.length + ')';
+        document.getElementById('speaking-dictation-stem').textContent = item.stem || '请背诵以下原文';
+        document.getElementById('speaking-dictation-reference').textContent = item.reference || '';
+        var rzh = document.getElementById('speaking-dictation-reference-zh');
+        if (rzh) {
+          if (item.referenceZh) { rzh.textContent = item.referenceZh; rzh.style.display = 'block'; }
+          else rzh.style.display = 'none';
+        }
+        document.getElementById('speaking-dictation-study').style.display = 'block';
+        document.getElementById('speaking-dictation-active').style.display = 'none';
+        document.getElementById('speaking-dictation-feedback').style.display = 'none';
+        showScreen(SCREEN.SPEAKING_DICTATION);
+      }
+
+      function beginDictationActive() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        if (!item) return;
+        document.getElementById('speaking-dictation-study').style.display = 'none';
+        document.getElementById('speaking-dictation-active').style.display = 'block';
+        document.getElementById('speaking-dictation-feedback').style.display = 'none';
+        document.getElementById('speaking-dictation-active-stem').textContent = item.stem || '';
+        document.getElementById('speaking-dictation-hint-count').textContent = '提示已用 0 次';
+        document.getElementById('speaking-dictation-hints').style.display = 'none';
+        document.getElementById('speaking-dictation-hints').innerHTML = '';
+        var input = document.getElementById('speaking-dictation-input');
+        input.value = '';
+        input.focus();
+        updateDictationWordCount();
+      }
+
+      function getDictationHints(item) {
+        if (item.hints && item.hints.length) return item.hints;
+        return buildDictationHints(item.reference || '');
+      }
+
+      function revealDictationHint() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        if (!item || !_speakingDictationSession) return;
+        var hints = getDictationHints(item);
+        if (_speakingDictationSession.hintLevel >= hints.length) { showToast('已无更多提示'); return; }
+        var h = hints[_speakingDictationSession.hintLevel];
+        _speakingDictationSession.hintLevel++;
+        _speakingDictationSession.hintsUsed++;
+        var panel = document.getElementById('speaking-dictation-hints');
+        panel.style.display = 'block';
+        var div = document.createElement('div');
+        div.className = 'hint-item';
+        div.textContent = (h.text || h);
+        panel.appendChild(div);
+        document.getElementById('speaking-dictation-hint-count').textContent = '提示已用 ' + _speakingDictationSession.hintsUsed + ' 次';
+      }
+
+      function updateDictationWordCount() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        var input = document.getElementById('speaking-dictation-input');
+        var refWords = tokenizeFrenchText(item && item.reference).length;
+        var userWords = tokenizeFrenchText(input && input.value).length;
+        var el = document.getElementById('speaking-dictation-word-count');
+        if (el) el.textContent = '已输入 ' + userWords + ' 词 · 参考 ' + refWords + ' 词';
+      }
+
+      function submitDictation() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        if (!item) return;
+        var userText = (document.getElementById('speaking-dictation-input').value || '');
+        var result = evaluateDictation(item.reference || '', userText);
+        _speakingDictationPendingRating = {
+          item: item,
+          session: Object.assign({}, _speakingDictationSession),
+          result: result,
+          userText: userText
+        };
+        document.getElementById('speaking-dictation-study').style.display = 'none';
+        document.getElementById('speaking-dictation-active').style.display = 'none';
+        document.getElementById('speaking-dictation-feedback').style.display = 'block';
+        var msgEl = document.getElementById('speaking-dictation-result-msg');
+        if (msgEl) {
+          msgEl.className = result.correct ? 'speaking-feedback-correct' : 'speaking-feedback-wrong';
+          msgEl.textContent = result.correct
+            ? '✅ 正确（归一化后 100% 一致）'
+            : ('❌ 未通过（须 100% 一致，当前约 ' + Math.round(result.similarity * 100) + '%）');
+        }
+        document.getElementById('speaking-dictation-user-text').textContent = userText || '（空）';
+        document.getElementById('speaking-dictation-ref-show').textContent = item.reference || '';
+        var sess = _speakingDictationSession || {};
+        document.getElementById('speaking-dictation-attempt-meta').textContent =
+          '本次：提示 ' + (sess.hintsUsed || 0) + ' 次 · ' + (sess.peeked ? '已偷看原文' : '未偷看');
+      }
+
+      function applyDictationRating(rating) {
+        var pending = _speakingDictationPendingRating;
+        if (!pending) return;
+        var item = pending.item;
+        var sess = pending.session || {};
+        var finalRating = rating;
+        if (sess.peeked) finalRating = 'forgot';
+        else if (pending.result && pending.result.correct) {
+          if ((sess.hintsUsed || 0) >= 2) finalRating = 'fuzzy';
+          else if ((sess.hintsUsed || 0) >= 1 && rating === 'remembered') finalRating = 'fuzzy';
+        } else {
+          finalRating = 'forgot';
+          if (rating === 'remembered' || rating === 'fuzzy') {
+            showToast('未达 100% 一致，已按「忘了」记录复习');
+          }
+        }
+        updateSpeakingItemSr(item._topicId, 'dictation', item.id, finalRating);
+        if (finalRating === 'forgot') {
+          var book = getSpeakingWrongBook();
+          var key = item._topicId + '::dict::' + item.id;
+          var idx = book.findIndex(function(w) { return w._wbKey === key; });
+          var entry = Object.assign({}, item, { _wbKey: key, topicId: item._topicId, itemKind: 'dictation', wrongCount: 1 });
+          initWritingSrItem(entry);
+          if (idx >= 0) {
+            entry.wrongCount = (book[idx].wrongCount || 0) + 1;
+            book[idx] = Object.assign({}, book[idx], entry);
+          } else book.push(entry);
+          setSpeakingWrongBook(book);
+        }
+        _speakingDictationPendingRating = null;
+        _speakingDictationIndex++;
+        showDictationItem();
+      }
+
+      function deleteCurrentTopic() {
+        customConfirm('确定删除该口语题目及其全部闪卡/练习/背诵？').then(function(ok) {
+          if (!ok) return;
+          var id = _speakingCurrentTopicId;
+          setSpeakingTopics(getSpeakingTopics().filter(function(t) { return String(t.id) !== String(id); }));
+          setSpeakingWrongBook(getSpeakingWrongBook().filter(function(w) { return String(w.topicId) !== String(id); }));
+          _speakingCurrentTopicId = null;
+          showScreen(SCREEN.SPEAKING_TACHE);
+          renderSpeakingTopicList();
+          showToast('已删除');
+        });
+      }
+
+      window._onSpeakingTopicsChanged = function() {
+        if (document.getElementById('screen-speaking').classList.contains('active')) renderSpeakingDashboard();
+        if (document.getElementById('screen-speaking-tache').classList.contains('active')) renderSpeakingTopicList();
+        if (document.getElementById('screen-speaking-topic').classList.contains('active')) renderSpeakingTopicDetail();
+      };
+
+      var _btnEnterSpeaking = document.getElementById('btn-enter-speaking');
+      if (_btnEnterSpeaking) _btnEnterSpeaking.addEventListener('click', function() {
+        renderSpeakingDashboard();
+        showScreen(SCREEN.SPEAKING);
+      });
+      document.getElementById('btn-speaking-back-home').addEventListener('click', function() { showScreen(SCREEN.HOME); });
+      document.getElementById('btn-speaking-back-dashboard').addEventListener('click', function() {
+        renderSpeakingDashboard();
+        showScreen(SCREEN.SPEAKING);
+      });
+      document.getElementById('btn-speaking-back-tache').addEventListener('click', function() {
+        renderSpeakingTopicList();
+        showScreen(SCREEN.SPEAKING_TACHE);
+      });
+      document.getElementById('btn-speaking-add-topic').addEventListener('click', function() { openTopicModal(null); });
+      document.getElementById('btn-speaking-add-topic-tache').addEventListener('click', function() { openTopicModal(null); });
+      document.getElementById('btn-speaking-topic-modal-cancel').addEventListener('click', closeTopicModal);
+      document.getElementById('btn-speaking-topic-modal-save').addEventListener('click', saveTopicModal);
+      document.getElementById('btn-speaking-save-draft').addEventListener('click', saveDraft);
+      document.getElementById('btn-speaking-import-cancel').addEventListener('click', closeImportModal);
+      document.getElementById('btn-speaking-import-do').addEventListener('click', doImportJson);
+      document.getElementById('btn-speaking-review-cards').addEventListener('click', function() { startTopicCardReview(true); });
+      document.getElementById('btn-speaking-train-cards').addEventListener('click', function() { startTopicCardReview(false); });
+      document.getElementById('btn-speaking-import-cards').addEventListener('click', function() { openImportModal('cards'); });
+      document.getElementById('btn-speaking-review-questions').addEventListener('click', function() { startTopicQuiz(true); });
+      document.getElementById('btn-speaking-practice-questions').addEventListener('click', function() { startTopicQuiz(false); });
+      document.getElementById('btn-speaking-import-questions').addEventListener('click', function() { openImportModal('questions'); });
+      document.getElementById('btn-speaking-review-dictations').addEventListener('click', function() { startTopicDictation(true); });
+      document.getElementById('btn-speaking-practice-dictations').addEventListener('click', function() { startTopicDictation(false); });
+      document.getElementById('btn-speaking-import-dictations').addEventListener('click', function() { openImportModal('dictations'); });
+      document.getElementById('btn-speaking-review-wrong').addEventListener('click', startTopicWrongReview);
+      document.getElementById('btn-speaking-edit-topic').addEventListener('click', function() { openTopicModal(_speakingCurrentTopicId); });
+      document.getElementById('btn-speaking-delete-topic').addEventListener('click', deleteCurrentTopic);
+      document.getElementById('btn-speaking-dictation-back').addEventListener('click', function() {
+        if (_speakingCurrentTopicId) {
+          renderSpeakingTopicDetail();
+          showScreen(SCREEN.SPEAKING_TOPIC);
+        } else {
+          renderSpeakingDashboard();
+          showScreen(SCREEN.SPEAKING);
+        }
+      });
+      document.getElementById('btn-speaking-dictation-start').addEventListener('click', beginDictationActive);
+      document.getElementById('btn-speaking-dictation-hint').addEventListener('click', revealDictationHint);
+      document.getElementById('btn-speaking-dictation-peek').addEventListener('click', function() {
+        var item = _speakingDictationQueue[_speakingDictationIndex];
+        if (!item) return;
+        document.getElementById('speaking-peek-text').textContent = item.reference || '';
+        document.getElementById('speaking-peek-overlay').style.display = 'flex';
+        if (_speakingDictationSession) _speakingDictationSession.peeked = true;
+      });
+      document.getElementById('btn-speaking-peek-close').addEventListener('click', function() {
+        document.getElementById('speaking-peek-overlay').style.display = 'none';
+      });
+      document.getElementById('btn-speaking-dictation-submit').addEventListener('click', submitDictation);
+      document.getElementById('speaking-dictation-input').addEventListener('input', updateDictationWordCount);
+      document.querySelectorAll('#speaking-dictation-sr-btns [data-sr]').forEach(function(btn) {
+        btn.addEventListener('click', function() { applyDictationRating(btn.getAttribute('data-sr')); });
+      });
+    })();
+    } catch (e) { console.error('[french-quiz] initSpeaking', e); }
+
+    try {
     var _btnParse = document.getElementById('btn-import-parse');
     if (_btnParse) _btnParse.addEventListener('click', () => {
       const parseBtn = document.getElementById('btn-import-parse');
@@ -8763,8 +9761,9 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStartPracticeSelect();
     });
     document.getElementById('btn-back-home').addEventListener('click', () => {
-      var ret = state.writingReturnScreen;
+      var ret = state.writingReturnScreen || state.speakingReturnScreen;
       state.writingReturnScreen = null;
+      state.speakingReturnScreen = null;
       var btnBack = document.getElementById('btn-back-home');
       if (btnBack) btnBack.textContent = '返回首页';
       if (ret === SCREEN.WRITING_TOPIC) {
@@ -8775,6 +9774,16 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (ret === SCREEN.WRITING) {
         showScreen(SCREEN.WRITING, false);
         if (typeof window._renderWritingDashboard === 'function') window._renderWritingDashboard();
+        return;
+      }
+      if (ret === SCREEN.SPEAKING_TOPIC) {
+        showScreen(SCREEN.SPEAKING_TOPIC, false);
+        if (typeof window._renderSpeakingTopicDetail === 'function') window._renderSpeakingTopicDetail();
+        return;
+      }
+      if (ret === SCREEN.SPEAKING) {
+        showScreen(SCREEN.SPEAKING, false);
+        if (typeof window._renderSpeakingDashboard === 'function') window._renderSpeakingDashboard();
         return;
       }
       showScreen(SCREEN.HOME);
