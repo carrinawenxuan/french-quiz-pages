@@ -71344,430 +71344,209 @@
     },
     {
       "id": 1771908059497,
-      "name": "Unit 1 PRÉSENT AVOIR",
+      "name": "Unit 1-1 PRÉSENT AVOIR",
       "folderId": "1771907837913",
       "createdAt": "2026-02-24T04:40:59.497Z",
       "questions": [
         {
           "type": "fill_blank",
-          "stem": "_____ avons froid.",
+          "stem": "_____ avons froid.\n（我们感到冷。We are cold.）",
           "correct": "Nous",
-          "explanation": "原题 1-1：根据动词变位 avons 判定主语为第一人称复数 nous。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "_____ avons-nous froid ce matin ?",
-          "options": [
-            "Pourquoi",
-            "Qu'est-ce que",
-            "Qui",
-            "Quel"
-          ],
-          "correct": 0,
-          "explanation": "TCF 陷阱：考察疑问词与倒装结构的结合。avons-nous 是 avoir 的 nous 形式倒装，只有 pourquoi（为什么）符合逻辑语义。",
-          "category": "疑问句与变位"
+          "explanation": "【译文】我们感到冷。We are cold.\n【解析】\n• 主语：需要找与 avons 对应的人称代词\n• 动词原型：avoir，变位：avons\n• 时态：présent de l'indicatif\n• avons 是 avoir 的 nous 人称变位，因此主语必须是 Nous\n• 不能用 vous（→avez）或 ils（→ont）\n• TCF高频考点：通过动词形态反推主语代词",
+          "category": "代词识别"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ ai raison.",
-          "correct": "J’",
-          "explanation": "原题 1-2：动词 ai 是 avoir 的第一人称单数，由于以元音开头，je 必须省音变为 j'。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Est-ce que je _____ raison ?",
-          "options": [
-            "ai",
-            "as",
-            "a",
-            "avez"
-          ],
-          "correct": 0,
-          "explanation": "TCF 陷阱：在 Est-ce que 引导的疑问句中，主语 je 不需要省音（因为接的是 est），但后面的动词仍需对应 je 的变位 ai。",
-          "category": "动词变位"
+          "stem": "_____ ai raison.\n（我是对的。I am right.）",
+          "correct": "J'",
+          "explanation": "【译文】我是对的。I am right.\n【解析】\n• 主语：需要找与 ai 对应的人称代词\n• 动词原型：avoir，变位：ai\n• 时态：présent de l'indicatif\n• ai 是 avoir 的 je 人称变位\n• je 在元音 a 前必须缩写为 J'，写 Je ai 是严重错误\n• TCF高频考点：je → j' 的省音规则（élision）",
+          "category": "代词识别+省音"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ avez un chat ?",
-          "correct": [
-            "Vous"
-          ],
-          "explanation": "原题 1-3：avez 是 avoir 的第二人称复数/尊称形式，对应主语 vous。",
-          "category": "动词变位"
+          "stem": "_____ avez un chat ?\n（您有一只猫吗？Do you have a cat?）",
+          "correct": "Vous",
+          "explanation": "【译文】您有一只猫吗？Do you have a cat?\n【解析】\n• 主语：需要找与 avez 对应的人称代词\n• 动词原型：avoir，变位：avez\n• 时态：présent de l'indicatif\n• avez 是 avoir 的 vous 人称变位，唯一对应 vous\n• 不能用 tu（→as）或 nous（→avons）\n• TCF高频考点：vous avez 需连读 [vuzave]",
+          "category": "代词识别"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ (Avoir) - vous un chat ?",
-          "correct": [
-            "Avez"
-          ],
-          "explanation": "TCF 陷阱：考察首字母大写及倒装连字符。vous 对应 avez。",
-          "category": "动词变位"
+          "stem": "_____ as des lunettes de soleil.\n（你有一副太阳镜。You have sunglasses.）",
+          "correct": "Tu",
+          "explanation": "【译文】你有一副太阳镜。You have sunglasses.\n【解析】\n• 主语：需要找与 as 对应的人称代词\n• 动词原型：avoir，变位：as\n• 时态：présent de l'indicatif\n• as 是 avoir 的 tu 人称变位，唯一对应 tu\n• TCF高频考点：tu/vous 的区别及对应变位",
+          "category": "代词识别"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ as des lunettes de soleil.",
-          "correct": [
-            "Tu"
-          ],
-          "explanation": "原题 1-4：as 是 avoir 的第二人称单数形式，对应主语 tu。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Tu n'_____ pas de lunettes.",
-          "options": [
-            "as",
-            "a",
-            "ai",
-            "es"
-          ],
-          "correct": 0,
-          "explanation": "TCF 陷阱：否定句中 ne...pas 夹住变位动词，tu 依然对应 as。注意不要混淆 être 的变位 es。",
-          "category": "否定变位"
+          "stem": "_____ a deux filles et un garçon.\n（他/她有两个女儿和一个儿子。He/She has two daughters and a son.）",
+          "correct": "Il / Elle",
+          "explanation": "【译文】他/她有两个女儿和一个儿子。He/She has two daughters and a son.\n【解析】\n• 主语：需要找与 a 对应的人称代词\n• 动词原型：avoir，变位：a\n• 时态：présent de l'indicatif\n• a 是 avoir 的 il/elle 人称变位\n• 注意区分动词 a（有）和介词 à（在/向），书写时不加重音\n• TCF高频考点：a vs à 混淆",
+          "category": "代词识别"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ a deux filles et un garçon.",
-          "correct": [
-            "Il",
-            "Elle",
-            "On"
-          ],
-          "explanation": "原题 1-5：a 是 avoir 的第三人称单数，主语可以是 il, elle 或 on。",
-          "category": "动词变位"
+          "stem": "_____ ont une voiture et un vélo.\n（他们/她们有一辆车和一辆自行车。They have a car and a bike.）",
+          "correct": "Ils / Elles",
+          "explanation": "【译文】他们/她们有一辆车和一辆自行车。They have a car and a bike.\n【解析】\n• 主语：需要找与 ont 对应的人称代词\n• 动词原型：avoir，变位：ont\n• 时态：présent de l'indicatif\n• ont 是 avoir 的 ils/elles 变位，需连读 [ilzɔ̃]\n• 最高频混淆：ils ont（有）vs ils sont（是），发音和拼写完全不同\n• TCF高频考点：ont vs sont 判断",
+          "category": "代词识别+连读"
         },
         {
           "type": "fill_blank",
-          "stem": "Il y _____ deux filles dans la classe.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "TCF 陷阱：固定表达 il y a（有...），无论后面接单数还是复数，动词始终用 a。",
-          "category": "固定搭配"
+          "stem": "J'_____ trois sœurs et un frère.\n（我有三个姐妹和一个兄弟。I have three sisters and a brother.）",
+          "correct": "ai",
+          "explanation": "【译文】我有三个姐妹和一个兄弟。I have three sisters and a brother.\n【解析】\n• 主语：je（j'）\n• 动词原型：avoir，变位：ai\n• 时态：présent de l'indicatif\n• je 对应 ai，这是 avoir 最基础的变位\n• TCF考点：avoir 表示拥有家庭成员",
+          "category": "动词变位-肯定句"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ ont une voiture et un vélo.",
-          "correct": [
-            "Ils",
-            "Elles"
-          ],
-          "explanation": "原题 1-6：ont 是 avoir 的第三人称复数，对应 ils 或 elles。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Ils _____ une voiture, mais ils _____ espagnols.",
-          "options": [
-            "ont / ont",
-            "sont / sont",
-            "ont / sont",
-            "sont / ont"
-          ],
-          "correct": 2,
-          "explanation": "TCF 区分词：ont (avoir) 表示拥有，sont (être) 表示国籍/状态。Ils ont... 他们有车；Ils sont... 他们是西班牙人。",
-          "category": "动词辨析"
+          "stem": "Nous _____ des problèmes.\n（我们有一些问题。We have some problems.）",
+          "correct": "avons",
+          "explanation": "【译文】我们有一些问题。We have some problems.\n【解析】\n• 主语：nous\n• 动词原型：avoir，变位：avons\n• 时态：présent de l'indicatif\n• nous → avons，连读 [nuzavɔ̃]\n• TCF高频考点：nous avons 必须连读",
+          "category": "动词变位-肯定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Nous _____ des problèmes.",
-          "correct": [
-            "avons"
-          ],
-          "explanation": "原题 2-2：nous 对应的 avoir 变位是 avons。",
-          "category": "动词变位"
+          "stem": "Vous _____ un jardin ?\n（您有一个花园吗？Do you have a garden?）",
+          "correct": "avez",
+          "explanation": "【译文】您有一个花园吗？Do you have a garden?\n【解析】\n• 主语：vous\n• 动词原型：avoir，变位：avez\n• 时态：présent de l'indicatif\n• vous → avez，连读 [vuzave]\n• TCF高频考点：疑问句语调上扬，结构不变",
+          "category": "动词变位-疑问句"
         },
         {
           "type": "fill_blank",
-          "stem": "Nous n'_____ pas de problèmes.",
-          "correct": [
-            "avons"
-          ],
-          "explanation": "TCF 陷阱：否定句中，avoir 后的 des 变为 de，但变位本身不受影响，nous 依然用 avons。",
-          "category": "否定结构"
+          "stem": "Ils _____ beaucoup de valises.\n（他们有很多行李箱。They have many suitcases.）",
+          "correct": "ont",
+          "explanation": "【译文】他们有很多行李箱。They have many suitcases.\n【解析】\n• 主语：ils\n• 动词原型：avoir，变位：ont\n• 时态：présent de l'indicatif\n• ils → ont，连读 [ilzɔ̃]\n• 关键区分：ils ont（avoir）≠ ils sont（être）\n• TCF高频考点：ont vs sont",
+          "category": "动词变位-肯定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Vous _____ un jardin ?",
-          "correct": [
-            "avez"
-          ],
-          "explanation": "原题 2-3：vous 对应的 avoir 变位是 avez。",
-          "category": "动词变位"
+          "stem": "Tu _____ des disques de jazz ?\n（你有一些爵士乐唱片吗？Do you have some jazz records?）",
+          "correct": "as",
+          "explanation": "【译文】你有一些爵士乐唱片吗？Do you have some jazz records?\n【解析】\n• 主语：tu\n• 动词原型：avoir，变位：as\n• 时态：présent de l'indicatif\n• tu 唯一对应 as\n• TCF考点：tu vs vous 语境判断",
+          "category": "动词变位-疑问句"
         },
         {
           "type": "fill_blank",
-          "stem": "_____ - vous un jardin ?",
-          "correct": [
-            "Avez"
-          ],
-          "explanation": "TCF 陷阱：倒装句疑问句，动词提前并大写，vous 对应 avez。",
-          "category": "动词变位"
+          "stem": "Il _____ un piano chez lui.\n（他家里有一架钢琴。He has a piano at home.）",
+          "correct": "a",
+          "explanation": "【译文】他家里有一架钢琴。He has a piano at home.\n【解析】\n• 主语：il\n• 动词原型：avoir，变位：a\n• 时态：présent de l'indicatif\n• il → a，表示拥有物品\n• 注意：动词 a 不加重音；介词 à 才加重音\n• TCF高频考点：a（动词）vs à（介词）",
+          "category": "动词变位-肯定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Ils _____ beaucoup de valises.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题 2-4：ils 对应的 avoir 变位是 ont。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Ils _____ très fatigués par ces valises.",
-          "options": [
-            "ont",
-            "sont",
-            "avons",
-            "sommes"
-          ],
-          "correct": 1,
-          "explanation": "TCF 陷阱：区分拥有（avoir）与状态（être）。fatigués 是形容词，表示状态，用 être 的复数 sont。",
-          "category": "动词辨析"
+          "stem": "Elles _____ du travail.\n（她们有工作/有活要做。They have work to do.）",
+          "correct": "ont",
+          "explanation": "【译文】她们有工作/有活要做。They have work to do.\n【解析】\n• 主语：elles\n• 动词原型：avoir，变位：ont\n• 时态：présent de l'indicatif\n• elles → ont，与 ils 变位相同\n• TCF高频考点：elles ont 连读 [ɛlzɔ̃]",
+          "category": "动词变位-肯定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Tu _____ des disques de jazz ?",
-          "correct": [
-            "as"
-          ],
-          "explanation": "原题 2-5：tu 对应的 avoir 变位是 as。",
-          "category": "动词变位"
+          "stem": "Elle n'_____ pas de dictionnaire.\n（她没有字典。She doesn't have a dictionary.）",
+          "correct": "a",
+          "explanation": "【译文】她没有字典。She doesn't have a dictionary.\n【解析】\n• 主语：elle\n• 动词原型：avoir，变位：a\n• 时态：présent de l'indicatif，否定结构 ne...pas\n• elle → a；否定句结构：ne/n' + 动词 + pas\n• 元音前 ne → n'（省音）：n'a pas\n• 否定后不定冠词 un/une/des → de/d'\n• TCF高频考点：否定句冠词变化",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "N'***-tu pas de disques ?",
-          "correct": [
-            "as"
-          ],
-          "explanation": "TCF 陷阱：否定倒装句。ne 变为 n' 因为 as 以元音开头。tu 对应 as。",
-          "category": "否定倒装"
+          "stem": "Vous n'_____ pas un stylo ?\n（您没有一支钢笔吗？Don't you have a pen?）",
+          "correct": "avez",
+          "explanation": "【译文】您没有一支钢笔吗？Don't you have a pen?\n【解析】\n• 主语：vous\n• 动词原型：avoir，变位：avez\n• 时态：présent，否定疑问句\n• n'avez pas：元音前省音，否定疑问语调上扬\n• TCF考点：否定疑问句的理解与构成",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Il _____ un piano chez lui.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "原题 2-6：il 对应的 avoir 变位是 a。",
-          "category": "动词变位"
+          "stem": "Ils n'_____ pas le temps.\n（他们没有时间。They don't have time.）",
+          "correct": "ont",
+          "explanation": "【译文】他们没有时间。They don't have time.\n【解析】\n• 主语：ils\n• 动词原型：avoir，变位：ont\n• 时态：présent，否定结构\n• n'ont pas：元音前省音\n• avoir le temps 是固定表达，表示「有时间」\n• TCF高频考点：avoir + le temps 惯用表达",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Y a-t-*** un piano ?",
-          "correct": [
-            "il"
-          ],
-          "explanation": "TCF 陷阱：il y a 的倒装形式。为了发音方便，在 a 和 il 之间加 -t-。",
-          "category": "固定搭配"
+          "stem": "Tu n'_____ pas de voiture.\n（你没有车。You don't have a car.）",
+          "correct": "as",
+          "explanation": "【译文】你没有车。You don't have a car.\n【解析】\n• 主语：tu\n• 动词原型：avoir，变位：as\n• 时态：présent，否定结构\n• n'as pas：元音前省音\n• 否定后 une voiture → de voiture（冠词变化）\n• TCF高频考点：否定句中冠词 une → de",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Elles _____ du travail.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题 2-7：elles 对应的 avoir 变位是 ont。",
-          "category": "动词变位"
+          "stem": "Je n'_____ pas de patience.\n（我没有耐心。I don't have any patience.）",
+          "correct": "ai",
+          "explanation": "【译文】我没有耐心。I don't have any patience.\n【解析】\n• 主语：je\n• 动词原型：avoir，变位：ai\n• 时态：présent，否定结构\n• n'ai pas：元音前省音\n• patience 是抽象名词，否定后 de la patience → de patience\n• TCF考点：部分冠词在否定句中的变化",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Elle _____ du travail.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "TCF 陷阱：区分 elles (复数 ont) 和 elle (单数 a)。发音上 [õ] 与 [a] 明显不同。",
-          "category": "动词变位"
+          "stem": "Nous n'_____ pas de vacances.\n（我们没有假期。We don't have any holidays.）",
+          "correct": "avons",
+          "explanation": "【译文】我们没有假期。We don't have any holidays.\n【解析】\n• 主语：nous\n• 动词原型：avoir，变位：avons\n• 时态：présent，否定结构\n• n'avons pas：元音前省音\n• TCF考点：nous avons 连读规则在否定句中同样适用",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "Elle n'_____ pas de dictionnaire.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "原题 2-8：elle 对应的变位是 a，因否定词 ne 遇到元音变为 n'。",
-          "category": "动词变位"
+          "stem": "Elles n'_____ pas d'amis.\n（她们没有朋友。They don't have any friends.）",
+          "correct": "ont",
+          "explanation": "【译文】她们没有朋友。They don't have any friends.\n【解析】\n• 主语：elles\n• 动词原型：avoir，变位：ont\n• 时态：présent，否定结构\n• n'ont pas：元音前省音\n• des amis → d'amis（否定后冠词变化 + 元音省音）\n• TCF高频考点：d'amis = de + élision 双重规则",
+          "category": "动词变位-否定句"
         },
         {
           "type": "fill_blank",
-          "stem": "On n'_____ pas de dictionnaire.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "TCF 陷阱：on 的变位规则等同于 il/elle，对应的 avoir 变位为 a。",
-          "category": "动词变位"
+          "stem": "C'est leur anniversaire : ils _____.\n（今天是他们的生日：他们20岁了。It's their birthday: they are 20.）",
+          "correct": "ont 20 ans",
+          "explanation": "【译文】今天是他们的生日：他们20岁了。It's their birthday: they are 20.\n【解析】\n• 主语：ils\n• 动词原型：avoir，变位：ont\n• 时态：présent de l'indicatif\n• 法语年龄必须用 avoir：avoir X ans，绝对不用 être\n• 语境线索：anniversaire（生日）→ 年龄表达\n• TCF高频考点：年龄用 avoir 不用 être",
+          "category": "惯用表达-年龄"
         },
         {
           "type": "fill_blank",
-          "stem": "Vous n'_____ pas un stylo ?",
-          "correct": [
-            "avez"
-          ],
-          "explanation": "原题 2-9：vous 对应的变位是 avez。",
-          "category": "动词变位"
+          "stem": "Christine reste ici : elle _____.\n（Christine 留在这里：她不想出去。Christine stays here: she doesn't feel like going out.）",
+          "correct": "n'a pas envie de sortir",
+          "explanation": "【译文】Christine 留在这里：她不想出去。Christine stays here: she doesn't feel like going out.\n【解析】\n• 主语：elle\n• 动词原型：avoir，变位：a（否定：n'a pas）\n• 时态：présent\n• 语境线索：reste ici（留在这里）→ 不想出去\n• 固定表达：avoir envie de + infinitif = 想要做某事；否定：ne pas avoir envie de\n• TCF高频考点：avoir envie de 的否定形式",
+          "category": "惯用表达-envie"
         },
         {
           "type": "fill_blank",
-          "stem": "Ils n'_____ pas le temps.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题 2-10：ils 对应的变位是 ont。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Ils _____ le temps mais ils _____ en retard.",
-          "options": [
-            "sont / ont",
-            "ont / sont",
-            "ont / ont",
-            "sont / sont"
-          ],
-          "correct": 1,
-          "explanation": "TCF 辨析：avoir le temps (有时间) / être en retard (迟到)。主语 ils 对应 ont 和 sont。",
-          "category": "动词辨析"
+          "stem": "Il est midi : je _____.\n（现在是中午：我饿了。It's noon: I'm hungry.）",
+          "correct": "ai faim",
+          "explanation": "【译文】现在是中午：我饿了。It's noon: I'm hungry.\n【解析】\n• 主语：je\n• 动词原型：avoir，变位：ai\n• 时态：présent\n• 语境线索：midi（正午）→ 饿了\n• 固定表达：avoir faim = 饿（英语用 be hungry，法语用 avoir！）\n• TCF高频考点：感觉类表达必须用 avoir：faim, soif, chaud, froid, peur, sommeil",
+          "category": "惯用表达-感觉"
         },
         {
           "type": "fill_blank",
-          "stem": "Tu n'_____ pas de voiture.",
-          "correct": [
-            "as"
-          ],
-          "explanation": "原题 2-11：tu 对应的变位是 as。",
-          "category": "动词变位"
+          "stem": "Il est tard : le bébé _____.\n（时间很晚了：宝宝困了。It's late: the baby is sleepy.）",
+          "correct": "a sommeil",
+          "explanation": "【译文】时间很晚了：宝宝困了。It's late: the baby is sleepy.\n【解析】\n• 主语：le bébé（第三人称单数，对应 a）\n• 动词原型：avoir，变位：a\n• 时态：présent\n• 语境线索：il est tard（很晚了）→ 困了\n• 固定表达：avoir sommeil = 困（英语 be sleepy，法语 avoir！）\n• TCF高频考点：avoir sommeil vs être fatigué 区别",
+          "category": "惯用表达-感觉"
         },
         {
           "type": "fill_blank",
-          "stem": "N'***-tu pas de voiture ?",
-          "correct": [
-            "as"
-          ],
-          "explanation": "TCF 陷阱：否定倒装。tu 变位为 as，否定词 ne 省音为 n'。",
-          "category": "否定倒装"
+          "stem": "Tu es courageux : tu _____.\n（你很勇敢：你不害怕。You are brave: you are not afraid.）",
+          "correct": "n'as pas peur",
+          "explanation": "【译文】你很勇敢：你不害怕。You are brave: you are not afraid.\n【解析】\n• 主语：tu\n• 动词原型：avoir，变位：as（否定：n'as pas）\n• 时态：présent\n• 语境线索：courageux（勇敢）→ 不害怕\n• 固定表达：avoir peur = 害怕；否定：ne pas avoir peur\n• TCF高频考点：avoir peur 与否定构成",
+          "category": "惯用表达-感觉"
         },
         {
           "type": "fill_blank",
-          "stem": "Je n'*** pas de patience.",
-          "correct": [
-            "ai"
-          ],
-          "explanation": "原题 2-12：je 对应的变位是 ai。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Je _____ très patient.",
-          "options": [
-            "ai",
-            "as",
-            "suis",
-            "est"
-          ],
-          "correct": 2,
-          "explanation": "TCF 陷阱：区分拥有耐性 (avoir de la patience) 和 处于耐心的状态 (être patient)。je 对应 suis。",
-          "category": "动词辨析"
+          "stem": "Nous sommes pressées : nous _____.\n（我们很着急：我们没有时间。We are in a hurry: we don't have time.）",
+          "correct": "n'avons pas le temps",
+          "explanation": "【译文】我们很着急：我们没有时间。We are in a hurry: we don't have time.\n【解析】\n• 主语：nous\n• 动词原型：avoir，变位：avons（否定：n'avons pas）\n• 时态：présent\n• 语境线索：pressées（着急的）→ 没时间\n• 固定表达：avoir le temps = 有时间；否定：ne pas avoir le temps\n• TCF高频考点：avoir le temps 惯用表达",
+          "category": "惯用表达-时间"
         },
         {
           "type": "fill_blank",
-          "stem": "Nous n'_____ pas de vacances.",
-          "correct": [
-            "avons"
-          ],
-          "explanation": "原题 2-13：nous 对应的变位是 avons。",
-          "category": "动词变位"
+          "stem": "Ton amie est pâle : elle _____.\n（你的朋友脸色苍白：她看起来病了。Your friend is pale: she looks sick.）",
+          "correct": "a l'air malade",
+          "explanation": "【译文】你的朋友脸色苍白：她看起来病了。Your friend looks pale: she looks sick.\n【解析】\n• 主语：elle（ton amie）\n• 动词原型：avoir，变位：a\n• 时态：présent\n• 语境线索：pâle（苍白）→ 看起来生病了\n• 固定表达：avoir l'air + 形容词 = 看起来……\n• 注意：形容词 malade 与主语性数一致（此处 amie 为阴性，但 malade 阴阳同形）\n• TCF高频考点：avoir l'air 的用法",
+          "category": "惯用表达-外表"
         },
         {
           "type": "fill_blank",
-          "stem": "Nous _____ (avoir) de la chance.",
-          "correct": [
-            "avons"
-          ],
-          "explanation": "TCF 高频短语：avoir de la chance (运气好)。nous 变位为 avons。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Elles n'_____ pas d'amis.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题 2-14：elles 对应的变位是 ont。",
-          "category": "动词变位"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Ils n'_____ (avoir) pas d'enfants.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "TCF 陷阱：否定句中 des 变成 de (遇元音 d')。ils 对应 ont。",
-          "category": "动词变位"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Quel âge ***-ils ?",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "TCF 陷阱：询问年龄的倒装句。ils 对应 ont。",
-          "category": "疑问句"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Elle _____ envie _____ une glace.",
-          "options": [
-            "a / de",
-            "as / d'",
-            "a / d'",
-            "as / de"
-          ],
-          "correct": 2,
-          "explanation": "TCF 陷阱：avoir envie de + 名词。envie 后的 de 遇到 une 需省音为 d'。elle 对应 a。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Le bébé _____ sommeil, il _____ fatigué.",
-          "options": [
-            "a / a",
-            "est / est",
-            "a / est",
-            "est / a"
-          ],
-          "correct": 2,
-          "explanation": "TCF 辨析：avoir sommeil (困) 是生理感觉，être fatigué (疲劳) 是形容词状态。",
-          "category": "动词辨析"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "_____ (Avoir) - nous le temps de manger ?",
-          "correct": [
-            "Avons"
-          ],
-          "explanation": "TCF 陷阱：nous 的倒装。avons-nous。注意连字符和变位。",
-          "category": "疑问句"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Elle a l'air _____. (此处考察形容词配合陷阱)",
-          "options": [
-            "fatigué",
-            "fatiguée",
-            "fatigués",
-            "fatiguées"
-          ],
-          "correct": 1,
-          "explanation": "TCF 语法：avoir l'air + 形容词，形容词通常与主语配合。主语 elle 是阴性单数，选 fatiguée。",
-          "category": "形容词配合"
+          "stem": "Ma montre est arrêtée : vous _____ ?\n（我的手表停了：您知道现在几点吗？My watch stopped: do you have the time?）",
+          "correct": "avez l'heure",
+          "explanation": "【译文】我的手表停了：您知道现在几点吗？My watch has stopped: do you have the time?\n【解析】\n• 主语：vous\n• 动词原型：avoir，变位：avez\n• 时态：présent，疑问句\n• 语境线索：montre arrêtée（手表停了）→ 不知道时间\n• 固定表达：avoir l'heure = 知道现在几点（≠ avoir le temps）\n• TCF高频考点：avoir l'heure vs avoir le temps 区别",
+          "category": "惯用表达-时间"
         },
         {
           "type": "paragraph_fill_blank",
-          "stem": "Claire _____ (avoir) vingt ans. Elie _____ (être) étudiante à la faculté des Lettres. C' _____ (être) une fille sympathique. Elle _____ (être) grande, elle _____ (avoir) des cheveux blonds et des yeux noirs. Elle _____ (avoir) bon caractère et elle _____ (être) toujours gaie. Elle _____ (avoir) beaucoup d'amis.",
+          "stem": "Claire _____ vingt ans. Elle _____ étudiante à la faculté des Lettres. C'_____ une fille sympathique. Elle _____ grande, elle _____ des cheveux blonds et des yeux noirs. Elle _____ bon caractère et elle _____ toujours gaie. Elle _____ beaucoup d'amis.\n（Claire 20岁。她是文学院的学生。她是个友善的女孩。她个子高，有金色的头发和黑色的眼睛。她性格好，总是很开朗。她有很多朋友。\nClaire is 20. She is a student at the Faculty of Letters. She is a pleasant girl. She is tall, with blonde hair and dark eyes. She has a good character and is always cheerful. She has many friends.）",
           "correct": [
             "a",
             "est",
@@ -71778,12 +71557,12 @@
             "est",
             "a"
           ],
-          "explanation": "原题 6 左侧：考察 être（描述状态/职业/特征）与 avoir（年龄/生理特征/拥有）的综合应用。均为单数第三人称变位。",
-          "category": "综合变位"
+          "explanation": "【译文】Claire 20岁。她是文学院的学生。她是个友善的女孩。她个子高，有金色的头发和黑色的眼睛。她性格好，总是很开朗。她有很多朋友。\n【解析】核心规则：\n• avoir：年龄（X ans）、外貌特征（cheveux, yeux）、性格（bon caractère）、拥有（amis）\n• être：职业（étudiante）、C'est结构、身材描述形容词（grande）、情态形容词（gaie）\n• 时态：présent de l'indicatif 全程\n• TCF高频考点：être vs avoir 在人物描述中的分工是必考点",
+          "category": "être vs avoir-段落"
         },
         {
           "type": "paragraph_fill_blank",
-          "stem": "Mes voisins _____ (être) espagnols. Ils _____ (avoir) deux enfants. Ce _____ (être) des gens serviables. La fille _____ (avoir) 10 ans et le garçon _____ (avoir) 6 ans. Ils _____ (être) très généreux. Les enfants _____ (être) amusants. Ce _____ (être) des passionnés de jeux vidéo. Le père _____ (être) sportif ; c' _____ (être) un champion de tennis. Il _____ (être) aussi musicien.",
+          "stem": "Mes voisins _____ espagnols. Ils _____ deux enfants. Ce _____ des gens serviables. La fille _____ 10 ans et le garçon _____ 6 ans. Ils _____ très généreux. Les enfants _____ amusants. Ce _____ des passionnés de jeux vidéo. Le père _____ sportif ; c'_____ un champion de tennis. Il _____ aussi musicien.\n（我的邻居们是西班牙人。他们有两个孩子。他们是热心的人。女儿10岁，儿子6岁。他们非常慷慨大方。孩子们很有趣。他们是电子游戏迷。父亲很爱运动，是网球冠军，他还是一位音乐家。\nMy neighbors are Spanish. They have two children. They are helpful people. The girl is 10 and the boy is 6. They are very generous. The children are fun. They are passionate about video games. The father is sporty; he's a tennis champion. He is also a musician.）",
           "correct": [
             "sont",
             "ont",
@@ -71797,382 +71576,202 @@
             "est",
             "est"
           ],
-          "explanation": "原题 6 右侧：考察复数变位（sont/ont）与单数变位（est/a）的区别。Ce sont 接复数名词，C'est 接单数名词。",
-          "category": "综合变位"
+          "explanation": "【译文】我的邻居们是西班牙人。他们有两个孩子。他们是热心的人。女儿10岁，儿子6岁。他们非常慷慨大方。孩子们很有趣。他们是电子游戏迷。父亲很爱运动，是网球冠军，他还是一位音乐家。\n【解析】核心规则：\n• avoir：拥有（enfants）、年龄（10 ans, 6 ans）\n• être：国籍（espagnols）、C'est/Ce sont结构、形容词做表语（généreux, amusants, sportif）、职业（champion, musicien）\n• Ce sont = être 的第三人称复数特殊结构，不能用 Ils sont des gens\n• TCF高频考点：Ce sont vs Ils sont；年龄 avoir X ans",
+          "category": "être vs avoir-段落"
         },
         {
           "type": "single_choice",
-          "stem": "Dans ma chambre, il _____ un lit, mais il n'y _____ pas de télé.",
+          "stem": "Marie _____ très faim après la réunion.\n（Marie 开会后非常饿。）",
           "options": [
-            "a / est",
-            "est / a",
-            "a / a",
-            "est / est"
-          ],
-          "correct": 2,
-          "explanation": "TCF 高频：il y a (有) 的肯定与否定 (il n'y a pas)。注意无论单复数，固定使用 a。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Complétez : Je n'_____ pas de voiture.",
-          "options": [
-            "a",
-            "ai",
-            "as",
-            "avons"
+            "est（是）",
+            "a（有）",
+            "sont（是-复数）",
+            "ont（有-复数）"
           ],
           "correct": 1,
-          "explanation": "je → ai。否定结构：je n'ai pas de…",
-          "category": "变位+否定"
+          "explanation": "【译文】Marie 开会后非常饿。Marie is very hungry after the meeting.\n【解析】\n• 主语：Marie = elle，第三人称单数\n• avoir faim 是固定表达，表示「饿」，法语永远用 avoir，不用 être\n• est 是 être 的变位，wrong；sont/ont 是复数形式，主语单数不可用\n• 3秒排除法：看到 faim/soif/peur/chaud/froid/sommeil → 直接选 avoir\n• TCF高频考点：感觉类固定表达必须用 avoir",
+          "category": "惯用表达-感觉"
         },
         {
           "type": "single_choice",
-          "stem": "Complétez : Nous _____ trois enfants.",
+          "stem": "— Tu _____ l'heure, s'il te plaît ?\n— Il est trois heures.\n（— 你知道几点吗？\n— 三点了。）",
           "options": [
-            "avez",
-            "ont",
-            "avons",
-            "as"
+            "es（你是）",
+            "as（你有）",
+            "a（他有）",
+            "avez（您有）"
           ],
-          "correct": 2,
-          "explanation": "nous → avons。",
-          "category": "变位"
+          "correct": 1,
+          "explanation": "【译文】— 你知道现在几点吗？— 三点了。— Do you have the time? — It's three o'clock.\n【解析】\n• 主语：tu，对应 as\n• avoir l'heure = 知道现在几点（固定表达）\n• 干扰项：avez 是 vous 的变位，对话用 tu（s'il te plaît 已暗示非正式语境）\n• a 是第三人称，排除\n• 3秒排除法：s'il te plaît → tu语境 → 选 as\n• TCF高频考点：avoir l'heure vs avoir le temps 区别",
+          "category": "惯用表达-时间"
         },
         {
           "type": "single_choice",
-          "stem": "Complétez : Tu _____ quel âge ?",
+          "stem": "Mes parents _____ une grande maison à la campagne.\n（我的父母在乡下有一栋大房子。）",
           "options": [
-            "es",
-            "as",
-            "a",
+            "est（是）",
+            "sont（是-复数）",
+            "a（他有）",
+            "ont（他们有）"
+          ],
+          "correct": 3,
+          "explanation": "【译文】我的父母在乡下有一栋大房子。My parents have a big house in the countryside.\n【解析】\n• 主语：Mes parents = ils，第三人称复数\n• avoir 表示拥有，ils → ont\n• 干扰项：sont 是 être 复数，语义错误；a 是单数形式；est 是 être 单数\n• 3秒排除法：「有房子」→ 拥有 → avoir；复数主语 → ont\n• TCF高频考点：复数主语 ont 连读 [ilzɔ̃]",
+          "category": "动词变位-拥有"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Paul _____ l'air fatigué aujourd'hui.\n（Paul 今天看起来很疲惫。）",
+          "options": [
+            "est（是）",
+            "a（有）",
+            "sont（是-复数）",
+            "être（原形）"
+          ],
+          "correct": 1,
+          "explanation": "【译文】Paul 今天看起来很疲惫。Paul looks tired today.\n【解析】\n• 主语：Paul = il，第三人称单数\n• avoir l'air + 形容词 = 看起来……（固定表达）\n• 干扰项：est 最具迷惑性，因为「看起来疲惫」语义上像 être，但法语固定用 avoir l'air\n• 3秒排除法：看到 l'air + 形容词 → 100% 选 avoir\n• TCF超高频考点：avoir l'air 是必考固定搭配，干扰项永远是 être",
+          "category": "惯用表达-外表"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Nous _____ besoin d'aide pour ce projet.\n（我们这个项目需要帮助。）",
+          "options": [
+            "sommes（我们是）",
+            "avons（我们有）",
+            "ont（他们有）",
+            "êtes（你们是）"
+          ],
+          "correct": 1,
+          "explanation": "【译文】我们这个项目需要帮助。We need help for this project.\n【解析】\n• 主语：nous，对应 avons\n• avoir besoin de = 需要（固定表达）\n• 干扰项：sommes 是 être 的 nous 变位，语义错误；ont 是第三人称复数\n• 3秒排除法：besoin de → avoir；nous → avons\n• TCF高频考点：avoir besoin de + 名词/动词原形",
+          "category": "惯用表达-需要"
+        },
+        {
+          "type": "single_choice",
+          "stem": "— Vous _____ combien d'enfants ?\n— Nous en _____ trois.\n（— 您有几个孩子？\n— 我们有三个。）",
+          "options": [
+            "avez / avons（您有/我们有）",
+            "êtes / sommes（您是/我们是）",
+            "avez / ont（您有/他们有）",
+            "avons / avez（我们有/您有）"
+          ],
+          "correct": 0,
+          "explanation": "【译文】— 您有几个孩子？— 我们有三个。— How many children do you have? — We have three.\n【解析】\n• 第一空主语：vous → avez\n• 第二空主语：nous → avons\n• avoir 表示拥有，两空均需 avoir 变位\n• 干扰项：êtes/sommes 是 être，语义完全不符\n• 3秒排除法：「有孩子」→ avoir；两个主语各自对应变位\n• TCF高频考点：对话场景中双主语变位",
+          "category": "动词变位-对话"
+        },
+        {
+          "type": "single_choice",
+          "stem": "Ils _____ raison de protester contre cette décision.\n（他们抗议这个决定是对的。）",
+          "options": [
+            "sont（是）",
+            "ont（有）",
+            "a（他有）",
+            "est（是）"
+          ],
+          "correct": 1,
+          "explanation": "【译文】他们抗议这个决定是对的。They are right to protest against this decision.\n【解析】\n• 主语：ils，第三人称复数\n• avoir raison = 是对的（固定表达）\n• 干扰项：sont 最具迷惑性，英语用 be right，但法语固定用 avoir raison\n• a 和 est 是单数，与 ils 不符\n• 3秒排除法：raison/tort → avoir；ils → ont\n• TCF超高频考点：avoir raison vs avoir tort 都是 avoir，不是 être",
+          "category": "惯用表达-对错"
+        },
+        {
+          "type": "fill_blank",
+          "stem": "Je n'_____ pas envie de sortir ce soir, j'_____ trop sommeil.\n（我今晚不想出去，我太困了。I don't feel like going out tonight, I'm too sleepy.）",
+          "correct": [
+            "ai",
             "ai"
           ],
-          "correct": 1,
-          "explanation": "tu → as。注意表年龄用 avoir，不用 être。",
-          "category": "avoir vs être"
+          "explanation": "【译文】我今晚不想出去，我太困了。I don't feel like going out tonight, I'm too sleepy.\n【解析】\n• 主语：je，两空均对应 ai\n• 第一空：ne pas avoir envie de = 不想（否定惯用表达）；元音前 ne → n'\n• 第二空：avoir sommeil = 困（感觉类固定表达）\n• 两空都是 avoir 的 je 变位：ai\n• TCF高频考点：同一句中两个 avoir 惯用表达连用，考查稳定性",
+          "category": "惯用表达-综合"
         },
         {
           "type": "single_choice",
-          "stem": "Complétez : Elles n'_____ pas d'amis.",
+          "stem": "C'est une bonne nouvelle ! Vous _____ de la chance !\n（这是个好消息！您真幸运！）",
           "options": [
-            "a",
-            "ont",
-            "avons",
-            "avez"
+            "êtes（您是）",
+            "avez（您有）",
+            "ont（他们有）",
+            "sommes（我们是）"
           ],
           "correct": 1,
-          "explanation": "elles → ont。否定句中 des amis → pas d'amis。",
-          "category": "变位+否定"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Il est minuit, le bébé _____.",
-          "options": [
-            "est sommeil",
-            "a sommeil",
-            "fait sommeil",
-            "va sommeil"
-          ],
-          "correct": 1,
-          "explanation": "avoir sommeil = 困了。不能用 être。",
-          "category": "avoir 习语"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Quelle est la forme négative correcte de « J'ai une sœur » ?",
-          "options": [
-            "Je n'ai pas une sœur.",
-            "Je n'ai pas de sœur.",
-            "Je ne suis pas de sœur.",
-            "Je n'ai pas la sœur."
-          ],
-          "correct": 1,
-          "explanation": "否定句中 une → de：je n'ai pas de sœur。选项 A 语法上可以成立但仅用于强调\"不是一个\"的特殊语境，标准否定用 de。",
-          "category": "否定结构"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Complétez : _____ y a beaucoup de monde ici.",
-          "options": [
-            "Elle",
-            "Il",
-            "Ils",
-            "On"
-          ],
-          "correct": 1,
-          "explanation": "il y a 是固定存在句结构，用非人称 il。",
-          "category": "il y a"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Demain, nous _____ avoir un examen.",
-          "options": [
-            "avons",
-            "allons",
-            "sommes",
-            "irons"
-          ],
-          "correct": 1,
-          "explanation": "futur proche = aller（现在时）+ 动词原形。nous allons avoir。",
-          "category": "最近将来时"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Elle _____ les cheveux blonds et les yeux bleus.",
-          "correct": [
-            "a"
-          ],
-          "explanation": "描述身体特征用 avoir：elle a les cheveux…",
-          "category": "avoir 用法"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Vous n'_____ pas de chance.",
-          "correct": [
-            "avez"
-          ],
-          "explanation": "vous → avez。avoir de la chance 否定 → ne pas avoir de chance。",
-          "category": "变位+否定"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Dans la liaison « ils ont », on prononce :",
-          "options": [
-            "[s]",
-            "[z]",
-            "[t]",
-            "[n]"
-          ],
-          "correct": 1,
-          "explanation": "ils‿ont 连读发 [z]。注意区分 ils sont [s]。",
-          "category": "发音/连读"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Choisissez la phrase correcte :",
-          "options": [
-            "Je suis 25 ans.",
-            "J'ai 25 ans.",
-            "J'est 25 ans.",
-            "Je fais 25 ans."
-          ],
-          "correct": 1,
-          "explanation": "表年龄必须用 avoir：J'ai 25 ans。",
-          "category": "avoir vs être"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Complétez : Il n'y a pas _____ lait dans le frigo.",
-          "options": [
-            "du",
-            "de la",
-            "de",
-            "des"
-          ],
-          "correct": 2,
-          "explanation": "il y a du lait → 否定：il n'y a pas de lait。du/de la/des 在否定句中都变 de。",
-          "category": "il y a 否定"
+          "explanation": "【译文】这是个好消息！您真幸运！That's great news! You are so lucky!\n【解析】\n• 主语：vous，对应 avez\n• avoir de la chance = 幸运（固定表达）\n• 干扰项：êtes 是 être 的 vous 变位，英语习惯说 be lucky，法语必须用 avoir\n• 3秒排除法：chance → avoir；vous → avez\n• TCF高频考点：avoir de la chance 是书面和口语双频考点",
+          "category": "惯用表达-幸运"
         },
         {
           "type": "multiple_choice",
-          "stem": "Parmi ces phrases, lesquelles utilisent correctement le verbe « avoir » ?",
+          "stem": "下列哪些句子使用了正确的 avoir 变位？\n（Which sentences use the correct form of avoir?）",
           "options": [
-            "Elle a l'air fatigué.",
-            "Nous sommes faim.",
-            "Tu as raison.",
-            "Il est 30 ans."
+            "Ils ont beaucoup d'amis.（他们有很多朋友。）",
+            "Tu a un problème.（你有一个问题。）",
+            "Nous avons faim.（我们饿了。）",
+            "Elle sont fatiguée.（她很疲惫。）"
           ],
           "correct": [
             0,
             2
           ],
-          "explanation": "avoir l'air + adj. ✓；avoir raison ✓。avoir faim（不用 être）；avoir 30 ans（不用 être）。",
-          "category": "avoir 习语辨析"
+          "explanation": "【解析】\n• 选项0：ils → ont ✅ 正确\n• 选项1：tu → as，不是 a ❌（a 是 il/elle 的变位）\n• 选项2：nous → avons ✅ 正确；avoir faim 用法也正确\n• 选项3：elle → est（être）或 a（avoir），sont 是复数形式 ❌\n• TCF高频考点：tu/il 混淆（as vs a）是最常见变位错误",
+          "category": "变位辨错"
         },
         {
-          "type": "paragraph_fill_blank",
-          "stem": "Claire _____ vingt ans. Elle _____ étudiante à la faculté des Lettres. C'_____ une fille sympathique. Elle _____ grande, elle _____ des cheveux blonds.",
+          "type": "fill_blank",
+          "stem": "Mon frère _____ vingt-cinq ans. Il _____ les yeux bleus et il _____ toujours l'air sérieux.\n（我哥哥25岁。他有蓝色的眼睛，看起来总是很严肃。My brother is 25. He has blue eyes and always looks serious.）",
           "correct": [
             "a",
-            "est",
-            "est",
-            "est",
+            "a",
             "a"
           ],
-          "explanation": "年龄用 avoir → a；身份/特征描述用 être → est；C'est 固定结构；grande 形容词用 être；头发用 avoir。这道题考 avoir 与 être 的区分。",
-          "category": "avoir vs être 综合"
+          "explanation": "【译文】我哥哥25岁。他有蓝色的眼睛，看起来总是很严肃。My brother is 25. He has blue eyes and always looks serious.\n【解析】\n• 主语：mon frère = il，三空均对应 a\n• 第一空：avoir X ans = 年龄表达，必须用 avoir\n• 第二空：avoir les yeux + 颜色 = 眼睛是……颜色，必须用 avoir\n• 第三空：avoir l'air + 形容词 = 看起来……，必须用 avoir\n• 三个表达全部是 avoir 固定搭配\n• TCF高频考点：年龄+外貌+神情三合一，全部 avoir，是综合描述类必考句型",
+          "category": "avoir综合-人物描述"
         },
         {
           "type": "single_choice",
-          "stem": "Mon ami _____ 20 ans, mais il _____ l'air plus jeune.",
+          "stem": "— Est-ce que tu _____ mal à la tête ?\n— Oui, j'_____ aussi très chaud.\n（— 你头疼吗？\n— 是的，我还觉得很热。）",
           "options": [
-            "est / a",
-            "a / a",
-            "a / est",
-            "est / est"
+            "as / ai（你有/我有）",
+            "es / suis（你是/我是）",
+            "a / ai（他有/我有）",
+            "as / est（你有/他有）"
           ],
-          "correct": 1,
-          "explanation": "TCF 陷阱：年龄用 avoir (a)，外表描述 avoir l'air (a) 也用 avoir。由于后面是形容词 jeune，学生常误选 être。",
-          "category": "动词辨析"
+          "correct": 0,
+          "explanation": "【译文】— 你头疼吗？— 是的，我还觉得很热。— Do you have a headache? — Yes, I'm also very hot.\n【解析】\n• 第一空主语：tu → as\n• 第二空主语：je → ai\n• avoir mal à = 某处疼痛（固定表达）\n• avoir chaud = 感到热（感觉类固定表达）\n• 干扰项：es/suis 是 être，法语身体感觉绝不用 être\n• 3秒排除法：mal à / chaud / froid → 100% avoir\n• TCF超高频考点：身体不适表达全用 avoir",
+          "category": "惯用表达-身体感觉"
         },
         {
           "type": "paragraph_fill_blank",
-          "stem": "Dans ma chambre, il y _____ un lit. Il n'y _____ pas _____ bureau.",
+          "stem": "Aujourd'hui, nous _____ un examen important. Tout le monde _____ l'air stressé. Lucas _____ peur de rater. Il dit qu'il n'_____ pas eu le temps de bien réviser. Moi, j'_____ confiance, mais j'_____ quand même un peu peur.\n（今天我们有一场重要的考试。大家看起来都很紧张。Lucas 害怕不及格。他说他没有时间好好复习。我有信心，但我还是有点害怕。\nToday we have an important exam. Everyone looks stressed. Lucas is afraid of failing. He says he didn't have time to revise properly. I'm confident, but I'm still a little scared.）",
           "correct": [
+            "avons",
             "a",
             "a",
-            "de"
-          ],
-          "explanation": "原题 5 衍生：考察 il y a 的肯定与否定。否定式 il n'y a pas 后接名词时，不定冠词变为 de。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Est-ce qu'il _____ des fleurs dans le vase ?",
-          "options": [
             "a",
-            "ont",
-            "y a",
-            "y ont"
-          ],
-          "correct": 2,
-          "explanation": "TCF 陷阱：即使后面是复数 des fleurs，无人称句“有”依然固定为 il y a，不可用 ont。",
-          "category": "无主语结构"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Ils _____ (avoir) tort d'être en retard.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题讲解提及：avoir tort（做错了/理亏）。Ils 对应变位 ont。",
-          "category": "固定搭配"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Vous _____ raison, nous _____ tort.",
-          "options": [
-            "avez / ont",
-            "avez / avons",
-            "ont / avez",
-            "as / avons"
-          ],
-          "correct": 1,
-          "explanation": "TCF 词义对立：avoir raison (有理) / avoir tort (没理)。对应 vous avez 和 nous avons。",
-          "category": "动词变位"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "J'_____ (avoir) besoin de ton aide.",
-          "correct": [
+            "ai",
             "ai"
           ],
-          "explanation": "原题讲解提及：avoir besoin de（需要）。Je 遇到元音开头的 ai 需省音为 j'ai。",
-          "category": "动词变位"
+          "explanation": "【译文】今天我们有一场重要的考试。大家看起来都很紧张。Lucas 害怕不及格。他说他没有时间好好复习。我有信心，但我还是有点害怕。\n【解析】\n• avons：nous → avons（拥有：有考试）\n• a：tout le monde 语法上视为第三人称单数 → a（avoir l'air stressé）\n• a：Lucas = il → a（avoir peur）\n• a：il n'_____ pas eu → passé composé 否定，助动词 avoir → a\n• ai：je → ai（avoir confiance = 有信心）\n• ai：je → ai（avoir peur = 害怕）\n• TCF超高频考点：tout le monde 接单数动词；passé composé 否定结构中 avoir 助动词",
+          "category": "avoir综合-考场场景"
         },
         {
           "type": "single_choice",
-          "stem": "Il _____ besoin d'un stylo, il _____ son sac.",
+          "stem": "Tout le monde _____ envie de partir en vacances.\n（所有人都想去度假。）",
           "options": [
-            "a / cherche",
-            "est / cherche",
-            "a / cherches",
-            "est / cherches"
-          ],
-          "correct": 0,
-          "explanation": "TCF 逻辑判断：他“需要”笔，所以“寻找”包。avoir besoin de (a) + 一组变位 (cherche)。",
-          "category": "综合变位"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Elles _____ (avoir) de la chance aujourd'hui.",
-          "correct": [
-            "ont"
-          ],
-          "explanation": "原题讲解提及：avoir de la chance（运气好）。Elles 对应复数变位 ont。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Si vous gagnez au loto, vous _____ beaucoup de chance.",
-          "options": [
-            "avez",
-            "ont",
-            "a",
-            "as"
-          ],
-          "correct": 0,
-          "explanation": "TCF 情景模拟：中彩票是有运气。vous 对应变位 avez。",
-          "category": "动词变位"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "Tu _____ (avoir) mal à la tête ?",
-          "correct": [
-            "as"
-          ],
-          "explanation": "原题讲解提及：avoir mal à（身体某处疼）。Tu 对应变位 as。",
-          "category": "动词变位"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Qu'est-ce que tu _____ ? Tu _____ mal ?",
-          "options": [
-            "as / es",
-            "es / as",
-            "as / as",
-            "es / es"
+            "ont（他们有）",
+            "avons（我们有）",
+            "a（他/她有）",
+            "avez（您有）"
           ],
           "correct": 2,
-          "explanation": "TCF 高频短语：Qu'est-ce que tu as? (你怎么了？) 与 avoir mal (疼)。两者均用 avoir。",
-          "category": "日常用语"
-        },
-        {
-          "type": "fill_blank",
-          "stem": "J'_____ (avoir) chaud dans cette pièce.",
-          "correct": [
-            "ai"
-          ],
-          "explanation": "原题讲解提及：avoir chaud（热）。Je 省音为 j'ai。",
-          "category": "生理感觉"
+          "explanation": "【译文】所有人都想去度假。Everyone wants to go on holiday.\n【解析】\n• 主语：tout le monde（所有人）\n• 关键语法陷阱：tout le monde 语法上永远接第三人称单数动词 → a\n• 干扰项：ont 是复数，语义上「所有人」感觉是复数，这是最大的陷阱！\n• 3秒排除法：tout le monde → 单数 → a\n• TCF超高频考点：tout le monde + 单数动词 是每届 TCF 必考语法陷阱",
+          "category": "语法陷阱-tout le monde"
         },
         {
           "type": "single_choice",
-          "stem": "Il _____ chaud, l'eau _____ chaude.",
+          "stem": "Hier soir, elle _____ l'air inquiète quand elle _____ appris la nouvelle.\n（昨晚，当她得知这个消息时，她看起来很担心。）",
           "options": [
-            "a / a",
-            "est / est",
-            "a / est",
-            "est / a"
+            "avait / a（她有-未完成/她-复合过去）",
+            "a / a（她有-现在/她有-现在）",
+            "était / a（她是-未完成/她有-复合过去）",
+            "avait / avait（她有-未完成/她有-未完成）"
           ],
-          "correct": 2,
-          "explanation": "TCF 核心辨析：人感到热用 avoir chaud；物体本身热（描述性质）用 être chaud(e)。",
-          "category": "动词辨析"
-        },
-        {
-          "type": "paragraph_fill_blank",
-          "stem": "Est-ce qu'il y _____ un parking ? Non, il n'y _____ pas _____ parking.",
-          "correct": [
-            "a",
-            "a",
-            "de"
-          ],
-          "explanation": "总结性陷阱：il y a 的疑问与否定。否定时 un 变为 de。",
-          "category": "否定结构"
-        },
-        {
-          "type": "single_choice",
-          "stem": "Ils _____ une grande maison, ils _____ très riches.",
-          "options": [
-            "sont / ont",
-            "ont / sont",
-            "ont / ont",
-            "sont / sont"
-          ],
-          "correct": 1,
-          "explanation": "TCF 综合：拥有（avoir）与身份/状态（être）的区分。Ils ont... 他们有房；Ils sont... 他们很有钱。",
-          "category": "动词辨析"
+          "correct": 0,
+          "explanation": "【译文】昨晚，当她得知这个消息时，她看起来很担心。Last night, she looked worried when she learned the news.\n【解析】\n• 第一空：avoir l'air inquiète = 看起来担心；时间是 hier soir（昨晚），描述过去持续状态用 imparfait → avait\n• 第二空：apprendre la nouvelle = 得知消息；过去一次性动作用 passé composé，助动词 avoir → a（a appris）\n• 干扰项：était 是 être 的 imparfait，avoir l'air 不用 être；第二个 avait 用 imparfait 表动作不正确\n• 3秒排除法：描述状态 → imparfait；一次性动作 → passé composé\n• TCF高频考点：avoir l'air 在过去时中的变位 + imparfait vs passé composé 对比",
+          "category": "综合-时态对比"
         }
       ],
       "practiceCount": 2,
@@ -101210,6 +100809,19 @@
       "interval": 1,
       "repetitions": 0,
       "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "_____ (Avoir) - nous le temps de manger ?",
+      "correct": [
+        "Avons"
+      ],
+      "explanation": "TCF 陷阱：nous 的倒装。avons-nous。注意连字符和变位。",
+      "category": "疑问句",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
     }
   ],
   "questionNotes": {
@@ -101232,6 +100844,6 @@
     "streak": 3
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-04-07T03:13:11.519Z",
+  "exportedAt": "2026-04-07T22:44:51.112Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }

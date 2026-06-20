@@ -3102,9 +3102,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     </div>
   </div>
 
+  <script src="lib/evaluate-answer.js"></script>
   <script>
     /* =============================================================================
      * 架构说明（单文件应用，按逻辑分层，便于维护）
+     * 判题纯函数见 lib/evaluate-answer.js（浏览器 与 Node 测试共用）
      * 1. 常量 → 2. 全局状态与缓存 → 3. DOM 缓存 / 工具 / 错误处理
      * 4. IndexedDB 存储层与 initStorage → 5. 导入锁 / 设备绑定 / 自定义弹窗
      * 6. 模态框焦点陷阱与滚动锁 → 7. 会话 / 进度 / 每日统计
@@ -3703,69 +3705,6 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         [a[i], a[j]] = [a[j], a[i]];
       }
       return a;
-    }
-
-    function normalizeFrench(str) {
-      return str
-        .trim()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/\u0153/g, 'oe')
-        .replace(/\u00e6/g, 'ae')
-        .replace(/\s+/g, ' ');
-    }
-    function matchFrenchAnswer(val, acceptList) {
-      return acceptList.some(c => c === val) || acceptList.some(c => normalizeFrench(c) === normalizeFrench(val));
-    }
-
-    /**
-     * 判题纯函数：不读 DOM、不写存储，仅根据题目和用户答案返回对错（及填空的 details）。
-     * 用于可测试性与后续题型扩展；submitAnswer 中收集 DOM 答案后调用此函数。
-     */
-    function evaluateAnswer(q, userAnswer) {
-      if (q.type === 'single_choice') {
-        const correctIndex = Array.isArray(q.correct) ? q.correct[0] : q.correct;
-        return { correct: userAnswer.single === correctIndex };
-      }
-      if (q.type === 'multiple_choice') {
-        const correctSet = new Set(Array.isArray(q.correct) ? q.correct : [q.correct]);
-        const selected = new Set(Array.isArray(userAnswer.multiple) ? userAnswer.multiple : []);
-        const correct = selected.size === correctSet.size && [...selected].every(i => correctSet.has(i));
-        return { correct };
-      }
-      if (q.type === 'fill_blank') {
-        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
-        const blankCount = (q.stem.match(/_____/g) || []).length;
-        if (blankCount >= 2 && (userAnswer.paragraph || []).length >= 2) {
-          const answers = userAnswer.paragraph.slice(0, correctArr.length);
-          const details = answers.map((val, i) => {
-            const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
-            return { ok: matchFrenchAnswer(val.trim().toLowerCase(), accept), val, accept };
-          });
-          return { correct: details.every(d => d.ok), details };
-        }
-        const val = (userAnswer.fill || '').trim().toLowerCase();
-        const accept = correctArr.map(c => String(c).toLowerCase().trim());
-        return { correct: matchFrenchAnswer(val, accept) };
-      }
-      if (q.type === 'paragraph_fill_blank') {
-        const correctArr = Array.isArray(q.correct) ? q.correct : [q.correct];
-        const inputs = userAnswer.paragraph || [];
-        const len = Math.min(correctArr.length, inputs.length);
-        const details = [];
-        let correct = true;
-        for (let i = 0; i < len; i++) {
-          const val = (inputs[i] || '').trim().toLowerCase();
-          const accept = (Array.isArray(correctArr[i]) ? correctArr[i] : [correctArr[i]]).map(c => String(c).toLowerCase().trim());
-          const ok = matchFrenchAnswer(val, accept);
-          details.push({ ok, val, accept });
-          if (!ok) correct = false;
-        }
-        for (let i = len; i < correctArr.length; i++) details.push({ ok: false, val: '', accept: [] });
-        return { correct, details };
-      }
-      return { correct: false };
     }
 
     const QUESTION_TYPES = { single_choice: '单选', multiple_choice: '多选', fill_blank: '填空', paragraph_fill_blank: '段落填空' };
