@@ -2516,6 +2516,7 @@
                 <span id="device-bind-status-text">未绑定</span>
                 <span class="import-lock-btns">
                   <button type="button" class="btn btn-secondary btn-sm" id="btn-device-bind">绑定本机</button>
+                  <button type="button" class="btn btn-primary btn-sm" id="btn-device-rebind" style="display:none;">重新绑定本机</button>
                   <button type="button" class="btn btn-secondary btn-sm" id="btn-device-unbind" style="display:none;">解除绑定</button>
                 </span>
               </div>
@@ -3390,6 +3391,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       try { localStorage.setItem(IMPORT_ALLOWED_FINGERPRINT_KEY, fp); } catch (_) {}
       if (_idb) idbSet('importAllowedFingerprint', fp).catch(function(e) { console.error('[setImportAllowedFingerprint] IDB error', e); });
     }
+    function rebindImportDeviceToThisMachine() {
+      setImportAllowedFingerprintToThisDevice();
+      updateDeviceBindUI();
+      showToast('已重新绑定本机。请「一键保存」并推送到云端，其他设备将无法导入');
+    }
     function canImportOnThisDevice() {
       const allowed = getImportAllowedFingerprint();
       if (!allowed) return true;
@@ -3515,6 +3521,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     function updateDeviceBindUI() {
       const statusText = document.getElementById('device-bind-status-text');
       const bindBtn = document.getElementById('btn-device-bind');
+      const rebindBtn = document.getElementById('btn-device-rebind');
       const unbindBtn = document.getElementById('btn-device-unbind');
       if (!statusText) return;
       const allowed = getImportAllowedFingerprint();
@@ -3522,10 +3529,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       if (allowed) {
         statusText.textContent = isThisDevice ? '已绑定本机（仅本机可导入）' : '已绑定其他设备（当前设备不可导入）';
         if (bindBtn) bindBtn.style.display = 'none';
+        if (rebindBtn) rebindBtn.style.display = isThisDevice ? 'none' : 'inline-flex';
         if (unbindBtn) unbindBtn.style.display = isThisDevice ? 'inline-flex' : 'none';
       } else {
         statusText.textContent = '未绑定';
         if (bindBtn) bindBtn.style.display = 'inline-flex';
+        if (rebindBtn) rebindBtn.style.display = 'none';
         if (unbindBtn) unbindBtn.style.display = 'none';
       }
     }
@@ -8093,9 +8102,13 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           return;
         }
         if (t.id === 'btn-device-bind') {
-          setImportAllowedFingerprintToThisDevice();
-          updateDeviceBindUI();
-          showToast('已绑定本机。请「一键保存」并推送到云端，其他设备将无法导入');
+          rebindImportDeviceToThisMachine();
+          return;
+        }
+        if (t.id === 'btn-device-rebind') {
+          customConfirm('将清除旧设备绑定，并把导入权限绑定到当前这台电脑。确定继续？').then(function(ok) {
+            if (ok) rebindImportDeviceToThisMachine();
+          });
           return;
         }
         if (t.id === 'btn-device-unbind') {
