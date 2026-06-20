@@ -2297,6 +2297,98 @@
     }
     .screen { contain: layout style; }
 
+    /* ── Writing module (TCF 写作) ── */
+    .writing-entry-desc { font-size: 0.875rem; color: var(--text-muted); margin: 0 0 0.75rem 0; line-height: 1.5; }
+    .writing-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .writing-header h2 { margin: 0; flex: 1; font-size: 1.25rem; }
+    .writing-review-hub {
+      background: linear-gradient(135deg, rgba(249, 115, 22, 0.12), rgba(234, 88, 12, 0.08));
+      border: 1px solid rgba(249, 115, 22, 0.25);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .writing-review-hub h3 { margin: 0 0 0.75rem 0; font-size: 1rem; }
+    .writing-review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.65rem; }
+    .writing-review-stat {
+      background: var(--card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.65rem 0.75rem;
+      text-align: center;
+    }
+    .writing-review-stat .num { display: block; font-size: 1.35rem; font-weight: 700; color: #f97316; }
+    .writing-review-stat .lbl { font-size: 0.75rem; color: var(--text-muted); }
+    .writing-review-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; }
+    .writing-tache-grid { display: grid; grid-template-columns: 1fr; gap: 0.75rem; margin-bottom: 1rem; }
+    @media (min-width: 600px) { .writing-tache-grid { grid-template-columns: repeat(3, 1fr); } }
+    .writing-tache-card {
+      background: var(--card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      padding: 1rem;
+      cursor: pointer;
+      transition: border-color 0.15s, transform 0.15s;
+      text-align: left;
+    }
+    .writing-tache-card:hover { border-color: #f97316; transform: translateY(-1px); }
+    .writing-tache-card.tache-1 { border-top: 3px solid #3b82f6; }
+    .writing-tache-card.tache-2 { border-top: 3px solid #22c55e; }
+    .writing-tache-card.tache-3 { border-top: 3px solid #8b5cf6; }
+    .writing-tache-card h4 { margin: 0 0 0.35rem 0; font-size: 0.95rem; }
+    .writing-tache-card .meta { font-size: 0.8rem; color: var(--text-muted); line-height: 1.45; }
+    .writing-topic-list { display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1rem; }
+    .writing-topic-item {
+      display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+      background: var(--card); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem; cursor: pointer; transition: border-color 0.15s;
+    }
+    .writing-topic-item:hover { border-color: #f97316; }
+    .writing-topic-item .title { font-weight: 600; font-size: 0.95rem; }
+    .writing-topic-item .meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.2rem; }
+    .writing-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 1.25rem; height: 1.25rem; padding: 0 0.35rem;
+      background: #ef4444; color: #fff; border-radius: 999px; font-size: 0.7rem; font-weight: 700;
+    }
+    .writing-badge.muted { background: var(--surface); color: var(--text-muted); border: 1px solid var(--border-subtle); }
+    .writing-detail-section {
+      background: var(--card); border: 1px solid var(--border-subtle); border-radius: var(--radius);
+      padding: 1rem; margin-bottom: 0.85rem;
+    }
+    .writing-detail-section h4 { margin: 0 0 0.5rem 0; font-size: 0.95rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .writing-prompt-box {
+      background: var(--surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);
+      padding: 0.85rem; font-size: 0.9rem; line-height: 1.6; white-space: pre-wrap; word-break: break-word;
+    }
+    .writing-draft-area {
+      width: 100%; min-height: 120px; padding: 0.75rem; background: var(--surface);
+      border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text);
+      font-family: inherit; font-size: 0.9rem; line-height: 1.55; resize: vertical;
+    }
+    .writing-section-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.65rem; }
+    .writing-dictation-phase { max-width: 720px; margin: 0 auto; }
+    .writing-hint-panel {
+      background: var(--accent-soft); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);
+      padding: 0.75rem; margin: 0.75rem 0; font-size: 0.88rem; line-height: 1.55;
+    }
+    .writing-hint-panel .hint-item { margin: 0.35rem 0; padding-left: 0.5rem; border-left: 2px solid var(--accent); }
+    .writing-dictation-input {
+      width: 100%; min-height: 160px; padding: 0.85rem; background: var(--surface);
+      border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text);
+      font-family: inherit; font-size: 0.95rem; line-height: 1.6; resize: vertical;
+    }
+    .writing-dictation-meta { font-size: 0.8rem; color: var(--text-muted); margin: 0.35rem 0 0.75rem 0; }
+    .writing-dictation-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+    .writing-feedback-correct { color: #22c55e; font-weight: 600; }
+    .writing-feedback-wrong { color: #ef4444; font-weight: 600; }
+    .writing-sr-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .writing-sr-btns .btn { flex: 1; min-width: 90px; min-height: 44px; }
+    .flashcard-sr-rating { margin-top: 0.85rem; text-align: center; }
+    .flashcard-sr-prompt { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 0.5rem 0; }
+    .flashcard-sr-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+    .flashcard-sr-btns .btn { min-height: 44px; flex: 1; min-width: 88px; max-width: 140px; }
+
     @media print {
       .skip-link, #toast, .review-modal-overlay, .start-mode-modal-overlay, .image-lightbox-overlay, .edit-set-modal-overlay, .edit-set-review-overlay, .edit-set-append-overlay, .preview-questions-overlay, .incomplete-check-overlay,
       header .theme-toggle, header .home-actions .btn,
@@ -2430,6 +2522,12 @@
         <h2>记忆训练</h2>
         <p class="flashcard-entry-desc">速记卡片：正面回忆、翻面核对，适合词汇与知识点记忆。</p>
         <button type="button" class="btn btn-primary" id="btn-enter-flashcards" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">📇 进入记忆训练</button>
+      </div>
+
+      <div class="home-section" id="writing-entry-section">
+        <h2>TCF 写作</h2>
+        <p class="writing-entry-desc">Tâche 1/2/3 写作题目 · 闪卡 · 练习 · 默写 · 艾宾浩斯复习提醒</p>
+        <button type="button" class="btn btn-primary" id="btn-enter-writing" style="background: linear-gradient(135deg, #f97316, #ea580c);">✍️ 进入 TCF 写作</button>
       </div>
 
       <div class="home-section saved-sets" id="saved-sets-section">
@@ -2571,6 +2669,131 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-secondary" id="btn-flashcards-import-json">📋 从 JSON 粘贴导入</button>
           <button type="button" class="btn btn-secondary" id="btn-flashcards-clear-cards">清空卡片</button>
           <button type="button" class="btn btn-primary" id="btn-flashcards-start-train">开始训练</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TCF 写作模块 -->
+    <div id="screen-writing" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-writing-back-home" aria-label="返回首页">← 返回</button>
+        <h2>TCF 写作</h2>
+      </div>
+      <div class="writing-review-hub" id="writing-review-hub">
+        <h3>📊 今日复习</h3>
+        <div class="writing-review-grid" id="writing-review-grid"></div>
+        <div class="writing-review-actions" id="writing-review-actions"></div>
+      </div>
+      <div class="writing-tache-grid" id="writing-tache-grid"></div>
+      <button type="button" class="btn btn-primary" id="btn-writing-add-topic" style="width:100%;">➕ 新建写作题目</button>
+    </div>
+
+    <div id="screen-writing-tache" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-writing-back-dashboard" aria-label="返回写作首页">← 返回</button>
+        <h2 id="writing-tache-title">Tâche</h2>
+      </div>
+      <div class="writing-topic-list" id="writing-topic-list"></div>
+      <p class="flashcards-empty" id="writing-topic-empty" style="display:none;">暂无题目，点击下方新建或从 AI 导入。</p>
+      <button type="button" class="btn btn-primary" id="btn-writing-add-topic-tache" style="width:100%;margin-top:0.5rem;">➕ 新建题目</button>
+    </div>
+
+    <div id="screen-writing-topic" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-writing-back-tache" aria-label="返回题目列表">← 返回</button>
+        <h2 id="writing-topic-title">题目详情</h2>
+      </div>
+      <div class="writing-detail-section">
+        <h4>题目原文</h4>
+        <div class="writing-prompt-box" id="writing-topic-prompt"></div>
+        <p class="writing-dictation-meta" id="writing-topic-prompt-zh" style="display:none;"></p>
+      </div>
+      <div class="writing-detail-section">
+        <h4>我的范文 <span class="writing-dictation-meta">（保存在 JSON 中）</span></h4>
+        <textarea class="writing-draft-area" id="writing-topic-draft" placeholder="在此粘贴或输入你自己写的范文…" autocomplete="off"></textarea>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-save-draft">保存范文</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="writing-section-cards">
+        <h4>🃏 闪卡 <span id="writing-cards-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="writing-cards-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-writing-review-cards">复习到期闪卡</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-train-cards">全部训练</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-import-cards">导入闪卡</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="writing-section-questions">
+        <h4>📝 练习题 <span id="writing-questions-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="writing-questions-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-writing-review-questions">复习到期题目</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-practice-questions">全部练习</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-import-questions">导入练习题</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="writing-section-dictations">
+        <h4>✍️ 默写题 <span id="writing-dictations-due-badge"></span></h4>
+        <p class="writing-dictation-meta" id="writing-dictations-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-writing-review-dictations">复习到期默写</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-practice-dictations">全部默写</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-import-dictations">导入默写题</button>
+        </div>
+      </div>
+      <div class="writing-detail-section" id="writing-section-wrong">
+        <h4>⚠️ 重点错题</h4>
+        <p class="writing-dictation-meta" id="writing-wrong-meta"></p>
+        <div class="writing-section-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="btn-writing-review-wrong">专攻错题</button>
+        </div>
+      </div>
+      <div class="writing-section-actions" style="margin-top:0.5rem;">
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-writing-edit-topic">编辑题目信息</button>
+        <button type="button" class="btn btn-secondary btn-sm btn-danger" id="btn-writing-delete-topic">删除题目</button>
+      </div>
+    </div>
+
+    <div id="screen-writing-dictation" class="screen">
+      <div class="writing-header">
+        <button type="button" class="btn btn-secondary btn-back" id="btn-writing-dictation-back" aria-label="返回">← 返回</button>
+        <h2 id="writing-dictation-title">默写</h2>
+      </div>
+      <div class="writing-dictation-phase" id="writing-dictation-study">
+        <p class="writing-dictation-meta" id="writing-dictation-stem"></p>
+        <p class="writing-dictation-meta">请先背诵原文，点击「开始默写」后原文将隐藏。</p>
+        <h4>📖 原文（先背诵）</h4>
+        <div class="writing-prompt-box" id="writing-dictation-reference"></div>
+        <p class="writing-dictation-meta" id="writing-dictation-reference-zh" style="display:none;"></p>
+        <div class="writing-dictation-actions">
+          <button type="button" class="btn btn-primary" id="btn-writing-dictation-start">开始默写</button>
+        </div>
+      </div>
+      <div class="writing-dictation-phase" id="writing-dictation-active" style="display:none;">
+        <p class="writing-dictation-meta" id="writing-dictation-active-stem"></p>
+        <p class="writing-dictation-meta">判题标准：归一化后须 <strong>100% 一致</strong>（忽略 accents、标点、空格差异）。可使用提示或偷看原文，但会影响复习间隔。</p>
+        <p class="writing-dictation-meta" id="writing-dictation-hint-count">提示已用 0 次</p>
+        <div class="writing-hint-panel" id="writing-dictation-hints" style="display:none;"></div>
+        <textarea class="writing-dictation-input" id="writing-dictation-input" placeholder="在此默写原文…" autocomplete="off"></textarea>
+        <p class="writing-dictation-meta" id="writing-dictation-word-count"></p>
+        <div class="writing-dictation-actions">
+          <button type="button" class="btn btn-secondary" id="btn-writing-dictation-hint">💡 提示</button>
+          <button type="button" class="btn btn-secondary" id="btn-writing-dictation-peek">👁 偷看原文</button>
+          <button type="button" class="btn btn-primary" id="btn-writing-dictation-submit">提交</button>
+        </div>
+      </div>
+      <div class="writing-dictation-phase" id="writing-dictation-feedback" style="display:none;">
+        <p id="writing-dictation-result-msg"></p>
+        <div class="writing-prompt-box" id="writing-dictation-user-text"></div>
+        <h4 style="margin-top:0.75rem;">📖 标准原文</h4>
+        <div class="writing-prompt-box" id="writing-dictation-ref-show"></div>
+        <p class="writing-dictation-meta" id="writing-dictation-attempt-meta"></p>
+        <p class="flashcard-sr-prompt">掌握程度（影响下次复习时间）：</p>
+        <div class="writing-sr-btns" id="writing-dictation-sr-btns">
+          <button type="button" class="btn btn-secondary" data-sr="forgot">😰 忘了</button>
+          <button type="button" class="btn btn-secondary" data-sr="fuzzy">🤔 模糊</button>
+          <button type="button" class="btn btn-primary" data-sr="remembered">✅ 记得</button>
         </div>
       </div>
     </div>
@@ -2953,6 +3176,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           <button type="button" class="btn btn-secondary" id="btn-flashcard-prev">上一张</button>
           <button type="button" class="btn btn-primary" id="btn-flashcard-next">下一张</button>
         </div>
+        <div class="flashcard-sr-rating" id="flashcard-sr-rating" style="display: none;">
+          <p class="flashcard-sr-prompt">掌握程度（影响下次复习）：</p>
+          <div class="flashcard-sr-btns">
+            <button type="button" class="btn btn-secondary" data-sr="forgot">😰 忘了</button>
+            <button type="button" class="btn btn-secondary" data-sr="fuzzy">🤔 模糊</button>
+            <button type="button" class="btn btn-primary" data-sr="remembered">✅ 记得</button>
+          </div>
+        </div>
         <button type="button" class="btn btn-secondary btn-close-training" id="btn-flashcard-close-training" aria-label="结束训练">结束训练</button>
       </div>
       <div class="flashcard-complete-wrap" id="flashcard-complete-wrap" style="display: none;">
@@ -3021,6 +3252,53 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       <div class="flashcard-add-card-actions">
         <button type="button" class="btn btn-secondary" id="btn-flashcard-import-json-cancel">取消</button>
         <button type="button" class="btn btn-primary" id="btn-flashcard-import-json-do">导入</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 写作模块：新建/编辑题目 -->
+  <div class="flashcard-add-card-overlay" id="writing-topic-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="writing-topic-modal-title" style="display: none;">
+    <div class="flashcard-add-card-modal">
+      <h3 id="writing-topic-modal-title">新建写作题目</h3>
+      <label for="writing-topic-input-tache">Tâche</label>
+      <select id="writing-topic-input-tache" style="width:100%;padding:0.4rem 0.6rem;margin:0.25rem 0 0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);">
+        <option value="1">Tâche 1 · Message personnel</option>
+        <option value="2">Tâche 2 · Récit</option>
+        <option value="3">Tâche 3 · Opinion</option>
+      </select>
+      <label for="writing-topic-input-title">标题（便于识别）</label>
+      <input type="text" id="writing-topic-input-title" placeholder="例如：给朋友的度假邀请" autocomplete="off" style="width:100%;padding:0.4rem 0.6rem;margin:0.25rem 0 0.75rem;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);color:var(--text);" />
+      <label for="writing-topic-input-prompt">题目原文（法语）</label>
+      <textarea id="writing-topic-input-prompt" rows="5" placeholder="粘贴 TCF 写作题目…" autocomplete="off"></textarea>
+      <label for="writing-topic-input-prompt-zh">题目说明（可选，中文）</label>
+      <textarea id="writing-topic-input-prompt-zh" rows="2" placeholder="可选中文说明…" autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-writing-topic-modal-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-writing-topic-modal-save">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 写作模块：JSON 导入 -->
+  <div class="flashcard-add-card-overlay" id="writing-import-overlay" role="dialog" aria-modal="true" aria-labelledby="writing-import-title" style="display: none;">
+    <div class="flashcard-add-card-modal flashcard-import-json-modal">
+      <h3 id="writing-import-title">从 JSON 粘贴导入</h3>
+      <p class="flashcard-import-hint" id="writing-import-hint">粘贴 AI 生成的 JSON 数组。闪卡需含 <code>front</code>/<code>back</code>；练习题用现有题型；默写题需 <code>type: writing_dictation</code> 与 <code>reference</code>。</p>
+      <textarea id="writing-import-textarea" rows="12" placeholder='[{"front":"…","back":"…"}]' autocomplete="off"></textarea>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-secondary" id="btn-writing-import-cancel">取消</button>
+        <button type="button" class="btn btn-primary" id="btn-writing-import-do">导入</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 写作：偷看原文弹层 -->
+  <div class="flashcard-add-card-overlay" id="writing-peek-overlay" role="dialog" aria-modal="true" aria-label="原文参考" style="display: none;">
+    <div class="flashcard-add-card-modal">
+      <h3>原文参考</h3>
+      <div class="writing-prompt-box" id="writing-peek-text"></div>
+      <div class="flashcard-add-card-actions">
+        <button type="button" class="btn btn-primary" id="btn-writing-peek-close">关闭</button>
       </div>
     </div>
   </div>
@@ -3140,8 +3418,11 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     const RECENT_SESSIONS_MAX = 10;
     const SAVED_SETS_DISPLAY_LIMIT = 30;
     const SEQUENTIAL_MODE_THRESHOLD = 16;
-    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards', CAPTURE: 'screen-capture', STUDY_UNITS: 'screen-study-units', STUDY_UNIT_DETAIL: 'screen-study-unit-detail' };
+    const SCREEN = { HOME: 'screen-home', QUIZ: 'screen-quiz', RESULT: 'screen-result', FLASHCARDS: 'screen-flashcards', CAPTURE: 'screen-capture', STUDY_UNITS: 'screen-study-units', STUDY_UNIT_DETAIL: 'screen-study-unit-detail', WRITING: 'screen-writing', WRITING_TACHE: 'screen-writing-tache', WRITING_TOPIC: 'screen-writing-topic', WRITING_DICTATION: 'screen-writing-dictation' };
     const FLASHCARD_DECKS_KEY = 'french_quiz_flashcard_decks';
+    const WRITING_TOPICS_KEY = 'french_quiz_writing_topics';
+    const WRITING_WRONG_BOOK_KEY = 'french_quiz_writing_wrong_book';
+    const TACHE_LABELS = { 1: 'Tâche 1 · Message personnel', 2: 'Tâche 2 · Récit', 3: 'Tâche 3 · Opinion' };
 
     const QUIZ_PROGRESS_KEY = 'french_quiz_progress';
 
@@ -3153,6 +3434,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
     let _wrongBookCacheDirty = true;
     let _wrongBookIndex = null; // Map<wrongBookItemId, array index> for O(1) lookups
     let _flashcardDecksCache = null;
+    let _writingTopicsCache = null;
+    let _writingWrongBookCache = null;
     let _questionNotesCache = null;
     let _currentStudyUnitId = null;
     let _currentStudyUnitFromBundle = null;
@@ -3262,6 +3545,14 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           _flashcardDecksCache = raw ? JSON.parse(raw) : [];
         } catch (_) { _flashcardDecksCache = []; }
         try {
+          raw = localStorage.getItem(WRITING_TOPICS_KEY);
+          _writingTopicsCache = raw ? JSON.parse(raw) : [];
+        } catch (_) { _writingTopicsCache = []; }
+        try {
+          raw = localStorage.getItem(WRITING_WRONG_BOOK_KEY);
+          _writingWrongBookCache = raw ? JSON.parse(raw) : [];
+        } catch (_) { _writingWrongBookCache = []; }
+        try {
           raw = localStorage.getItem(QUESTION_NOTES_KEY);
           if (raw) {
             var parsed = JSON.parse(raw);
@@ -3330,6 +3621,32 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
         }
       } catch (e) { console.warn('[initStorage] flashcardDecks migration error', e); }
+
+      // writingTopics
+      try {
+        raw = localStorage.getItem(WRITING_TOPICS_KEY);
+        if (raw) {
+          _writingTopicsCache = JSON.parse(raw);
+          await idbSet('writingTopics', _writingTopicsCache);
+        } else {
+          val = await idbGet('writingTopics');
+          _writingTopicsCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          try { localStorage.setItem(WRITING_TOPICS_KEY, JSON.stringify(_writingTopicsCache)); } catch (_) {}
+        }
+      } catch (e) { console.warn('[initStorage] writingTopics migration error', e); }
+
+      // writingWrongBook
+      try {
+        raw = localStorage.getItem(WRITING_WRONG_BOOK_KEY);
+        if (raw) {
+          _writingWrongBookCache = JSON.parse(raw);
+          await idbSet('writingWrongBook', _writingWrongBookCache);
+        } else {
+          val = await idbGet('writingWrongBook');
+          _writingWrongBookCache = (val !== undefined && Array.isArray(val)) ? val : [];
+          try { localStorage.setItem(WRITING_WRONG_BOOK_KEY, JSON.stringify(_writingWrongBookCache)); } catch (_) {}
+        }
+      } catch (e) { console.warn('[initStorage] writingWrongBook migration error', e); }
 
       // questionNotes
       try {
@@ -3767,6 +4084,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         timerSeconds: timerEl ? Math.max(0, parseInt(timerEl.value, 10) || 10) : 10,
         dailyStats: getDailyStats(),
         flashcardDecks: getFlashcardDecks(),
+        writingTopics: getWritingTopics(),
+        writingWrongBook: getWritingWrongBook(),
         exportedAt: new Date().toISOString()
       };
       const fp = getImportAllowedFingerprint();
@@ -3828,11 +4147,22 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         try { localStorage.setItem(FLASHCARD_DECKS_KEY, JSON.stringify(_flashcardDecksCache)); } catch (_) {}
         if (_idb) idbSet('flashcardDecks', _flashcardDecksCache).catch(function(e) { console.error('[loadDataFromObject] IDB flashcardDecks error', e); });
       }
+      if (safe.writingTopics != null && Array.isArray(safe.writingTopics)) {
+        _writingTopicsCache = safe.writingTopics;
+        try { localStorage.setItem(WRITING_TOPICS_KEY, JSON.stringify(_writingTopicsCache)); } catch (_) {}
+        if (_idb) idbSet('writingTopics', _writingTopicsCache).catch(function(e) { console.error('[loadDataFromObject] IDB writingTopics error', e); });
+      }
+      if (safe.writingWrongBook != null && Array.isArray(safe.writingWrongBook)) {
+        _writingWrongBookCache = safe.writingWrongBook;
+        try { localStorage.setItem(WRITING_WRONG_BOOK_KEY, JSON.stringify(_writingWrongBookCache)); } catch (_) {}
+        if (_idb) idbSet('writingWrongBook', _writingWrongBookCache).catch(function(e) { console.error('[loadDataFromObject] IDB writingWrongBook error', e); });
+      }
       updateImportLockUI();
       updateDeviceBindUI();
       updateWrongCount();
       renderSavedSets();
       updateStartPracticeSelect();
+      if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
       // 强制再写 IDB（大数据以 IDB 为主）；localStorage 仅在小数据时写入，避免超量
       var sets = getSavedSets();
       var wrong = getWrongBook();
@@ -4091,6 +4421,151 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         idbSet('flashcardDecks', decks).catch(function(e) {
           console.error('[setFlashcardDecks] IDB write error', e);
         });
+      }
+    }
+
+    function getWritingTopics() {
+      if (_writingTopicsCache !== null) return _writingTopicsCache;
+      try {
+        const raw = localStorage.getItem(WRITING_TOPICS_KEY);
+        _writingTopicsCache = raw ? JSON.parse(raw) : [];
+        return Array.isArray(_writingTopicsCache) ? _writingTopicsCache : [];
+      } catch (_) { return []; }
+    }
+    function setWritingTopics(topics) {
+      _writingTopicsCache = topics;
+      var payload = JSON.stringify(topics);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(WRITING_TOPICS_KEY, payload); } catch (e) {
+          console.error('[setWritingTopics] localStorage error', e);
+        }
+      } else {
+        try { localStorage.removeItem(WRITING_TOPICS_KEY); } catch (_) {}
+      }
+      if (_idb) {
+        idbSet('writingTopics', topics).catch(function(e) {
+          console.error('[setWritingTopics] IDB write error', e);
+        });
+      }
+      if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
+    }
+    function getWritingWrongBook() {
+      if (_writingWrongBookCache !== null) return _writingWrongBookCache;
+      try {
+        const raw = localStorage.getItem(WRITING_WRONG_BOOK_KEY);
+        _writingWrongBookCache = raw ? JSON.parse(raw) : [];
+        return Array.isArray(_writingWrongBookCache) ? _writingWrongBookCache : [];
+      } catch (_) { return []; }
+    }
+    function setWritingWrongBook(book) {
+      _writingWrongBookCache = book;
+      var payload = JSON.stringify(book);
+      if (payload.length <= MAX_LOCALSTORAGE_PAYLOAD) {
+        try { localStorage.setItem(WRITING_WRONG_BOOK_KEY, payload); } catch (e) {
+          console.error('[setWritingWrongBook] localStorage error', e);
+        }
+      } else {
+        try { localStorage.removeItem(WRITING_WRONG_BOOK_KEY); } catch (_) {}
+      }
+      if (_idb) {
+        idbSet('writingWrongBook', book).catch(function(e) {
+          console.error('[setWritingWrongBook] IDB write error', e);
+        });
+      }
+      if (typeof window._onWritingTopicsChanged === 'function') window._onWritingTopicsChanged();
+    }
+    function writingNewId() {
+      return Date.now() + '-' + Math.random().toString(36).slice(2, 9);
+    }
+    function initWritingSrItem(item) {
+      if (!item || typeof item !== 'object') return item;
+      var today = todayString();
+      if (!item.id) item.id = writingNewId();
+      if (!item.nextReview) item.nextReview = today;
+      if (item.repetitions == null) item.repetitions = 0;
+      if (item.interval == null) item.interval = 1;
+      if (item.wrongCount == null) item.wrongCount = 0;
+      return item;
+    }
+    function isWritingSrDue(item) {
+      if (!item || item.graduated) return false;
+      var next = item.nextReview;
+      if (!next) return true;
+      return next <= todayString();
+    }
+    function applyWritingSrRating(item, rating) {
+      var today = todayString();
+      if (rating === 'forgot') {
+        item.repetitions = 0;
+        item.interval = 1;
+        item.nextReview = addDays(today, 1);
+        item.wrongCount = (item.wrongCount || 0) + 1;
+      } else if (rating === 'fuzzy') {
+        var repF = (item.repetitions || 0) + 1;
+        var intervalF = EBINGHAUS_INTERVALS[Math.min(repF, EBINGHAUS_INTERVALS.length - 1)];
+        intervalF = Math.max(1, Math.floor(intervalF / 2));
+        item.repetitions = repF;
+        item.interval = intervalF;
+        item.nextReview = addDays(today, intervalF);
+      } else {
+        var rep = (item.repetitions || 0) + 1;
+        if (rep >= 5) {
+          item.repetitions = 5;
+          item.graduated = true;
+          item.nextReview = addDays(today, 365);
+        } else {
+          var intervalDays = EBINGHAUS_INTERVALS[Math.min(rep, EBINGHAUS_INTERVALS.length - 1)];
+          item.repetitions = rep;
+          item.interval = intervalDays;
+          item.nextReview = addDays(today, intervalDays);
+        }
+      }
+      item.lastReviewed = today;
+      return item;
+    }
+    function getWritingReviewStats() {
+      var topics = getWritingTopics();
+      var cardsDue = 0, questionsDue = 0, dictationsDue = 0, focusWrong = 0;
+      topics.forEach(function(t) {
+        (t.cards || []).forEach(function(c) { if (isWritingSrDue(c)) cardsDue++; });
+        (t.questions || []).forEach(function(q) { if (isWritingSrDue(q)) questionsDue++; });
+        (t.dictations || []).forEach(function(d) { if (isWritingSrDue(d)) dictationsDue++; });
+      });
+      getWritingWrongBook().forEach(function(w) {
+        if (isWritingSrDue(w) && (w.wrongCount || 0) >= 2) focusWrong++;
+      });
+      return { cardsDue: cardsDue, questionsDue: questionsDue, dictationsDue: dictationsDue, focusWrong: focusWrong };
+    }
+    function findWritingTopic(topicId) {
+      return getWritingTopics().find(function(t) { return String(t.id) === String(topicId); });
+    }
+    function updateWritingItemSr(topicId, kind, itemId, ratingOrCorrect, isCorrectBool) {
+      var topics = getWritingTopics();
+      var topic = topics.find(function(t) { return String(t.id) === String(topicId); });
+      if (!topic) return;
+      var listKey = kind === 'card' ? 'cards' : (kind === 'dictation' ? 'dictations' : 'questions');
+      var list = topic[listKey] || [];
+      var idx = list.findIndex(function(it) { return String(it.id) === String(itemId); });
+      if (idx === -1) return;
+      var item = list[idx];
+      if (typeof ratingOrCorrect === 'string') {
+        applyWritingSrRating(item, ratingOrCorrect);
+      } else {
+        applyWritingSrRating(item, ratingOrCorrect ? 'remembered' : 'forgot');
+      }
+      list[idx] = item;
+      topic[listKey] = list;
+      topic.lastPracticedAt = new Date().toISOString();
+      setWritingTopics(topics.map(function(t) { return String(t.id) === String(topicId) ? topic : t; }));
+    }
+    function updateWritingQuestionSr(topicId, q, correct) {
+      if (!q || !q.id) return;
+      updateWritingItemSr(topicId, 'question', q.id, correct);
+      if (correct) {
+        var book = getWritingWrongBook().filter(function(w) {
+          return !(String(w.topicId) === String(topicId) && String(w.id) === String(q.id));
+        });
+        setWritingWrongBook(book);
       }
     }
 
@@ -5243,6 +5718,8 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       timerSeconds: 10,
       practicingWrongBook: false,
       practicedSetId: null,
+      writingQuizContext: null,
+      writingReturnScreen: null,
       sequentialBatch: null,
       consecutiveCorrect: 0,
       maxConsecutiveCorrect: 0,
@@ -5915,6 +6392,37 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       }, 1300);
     }
 
+    function maybeRecordWrongAnswer(q) {
+      if (state.writingQuizContext) {
+        var ctx = state.writingQuizContext;
+        var topicId = q._writingTopicId || ctx.topicId;
+        var book = getWritingWrongBook();
+        var key = (topicId || '') + '::' + (q.id || q.stem || '');
+        var idx = book.findIndex(function(w) { return w._wbKey === key; });
+        var entry = Object.assign({}, q, {
+          _wbKey: key,
+          topicId: topicId,
+          itemKind: 'question',
+          nextReview: addDays(todayString(), 1),
+          repetitions: 0,
+          interval: 1,
+          wrongCount: 1
+        });
+        initWritingSrItem(entry);
+        if (idx >= 0) {
+          entry.wrongCount = (book[idx].wrongCount || 0) + 1;
+          entry.repetitions = 0;
+          entry.nextReview = addDays(todayString(), 1);
+          book[idx] = Object.assign({}, book[idx], entry);
+        } else {
+          book.push(entry);
+        }
+        setWritingWrongBook(book);
+      } else {
+        addToWrongBook(q);
+      }
+    }
+
     function submitAnswer() {
       clearTimer();
       if (state.answered) return;
@@ -5940,7 +6448,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           }
           state.answered = true;
           if (allRight) state.score++;
-          else addToWrongBook(q);
+          else maybeRecordWrongAnswer(q);
           correct = allRight;
           multiInputs.forEach((inp, i) => {
             inp.disabled = true;
@@ -5959,7 +6467,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
           correct = matchFrenchAnswer(answer, accept);
           state.answered = true;
           if (correct) state.score++;
-          else addToWrongBook(q);
+          else maybeRecordWrongAnswer(q);
           fillInput.disabled = true;
           fillInput.classList.add(correct ? 'correct-blank' : 'wrong-blank');
         }
@@ -5979,7 +6487,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         for (let i = len; i < correctArr.length; i++) { allRight = false; answers.push({ val: '', ok: false, accept: [] }); }
         state.answered = true;
         if (allRight) state.score++;
-        else addToWrongBook(q);
+        else maybeRecordWrongAnswer(q);
         inputs.forEach((inp, i) => {
           inp.disabled = true;
           if (answers[i]) inp.classList.add(answers[i].ok ? 'correct-blank' : 'wrong-blank');
@@ -6000,7 +6508,7 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         correct = result.correct;
         state.answered = true;
         if (correct) state.score++;
-        else addToWrongBook(q);
+        else maybeRecordWrongAnswer(q);
 
         const correctSet = Array.isArray(q.correct) ? new Set(q.correct) : new Set([q.correct]);
         optionsEl.querySelectorAll('.option').forEach((label, i) => {
@@ -6012,7 +6520,10 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         });
       }
 
-      if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
+      if (state.writingQuizContext) {
+        var tid = q._writingTopicId || state.writingQuizContext.topicId;
+        if (tid) updateWritingQuestionSr(tid, q, correct);
+      } else if (state.practicingWrongBook) updateWrongBookAfterAnswer(q, correct);
 
       if (correct) {
         state.consecutiveCorrect = (state.consecutiveCorrect || 0) + 1;
@@ -6315,6 +6826,12 @@ A) écris  B) écrit  C) écrivons  D) écrivent
 
     function showResult() {
       clearQuizProgress();
+      if (state.writingQuizContext) {
+        if (!state.writingReturnScreen) state.writingReturnScreen = SCREEN.WRITING_TOPIC;
+        var btnBackW = document.getElementById('btn-back-home');
+        if (btnBackW) btnBackW.textContent = state.writingReturnScreen === SCREEN.WRITING ? '返回写作首页' : '返回写作题目';
+        state.writingQuizContext = null;
+      }
       var finishedSetId = state.practicedSetId;
       if (finishedSetId) {
         recordSavedSetPractice(finishedSetId);
@@ -6530,6 +7047,33 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       let _flashcardTrainingOrder = [];
       let _flashcardTrainingIndex = 0;
       let _flashcardFlipLock = false;
+      let _flashcardWritingSr = null;
+
+      function hideFlashcardSrPanel() {
+        var srEl = document.getElementById('flashcard-sr-rating');
+        if (srEl) srEl.style.display = 'none';
+      }
+      function showFlashcardSrPanelIfNeeded() {
+        var srEl = document.getElementById('flashcard-sr-rating');
+        if (!srEl) return;
+        if (_flashcardWritingSr && document.getElementById('flashcard-card-inner').classList.contains('flipped')) {
+          srEl.style.display = 'block';
+        } else {
+          srEl.style.display = 'none';
+        }
+      }
+      function advanceFlashcardTraining() {
+        hideFlashcardSrPanel();
+        if (_flashcardTrainingIndex < _flashcardTrainingOrder.length - 1) {
+          _flashcardTrainingIndex++;
+          updateFlashcardTrainingCard();
+        } else {
+          if (_flashcardWritingSr && typeof _flashcardWritingSr.onComplete === 'function') {
+            _flashcardWritingSr.onComplete();
+          }
+          showFlashcardDeckComplete(_flashcardTrainingOrder.length);
+        }
+      }
 
       function escapeHtml(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
       function escapeAttr(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
@@ -6766,12 +7310,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         if (frontEl) frontEl.textContent = card.front || '';
         if (backEl) backEl.textContent = card.back || '';
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
+        hideFlashcardSrPanel();
       }
 
       function closeFlashcardTraining() {
         const overlay = document.getElementById('flashcard-training-overlay');
         overlay.style.display = 'none';
         _flashcardTrainingDeck = null;
+        _flashcardWritingSr = null;
+        hideFlashcardSrPanel();
         clearModalFocusTrap();
       }
       function showFlashcardDeckComplete(count) {
@@ -6794,12 +7341,15 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         };
       }
 
-      window.startFlashcardTrainingWithCards = function(cards) {
+      window.startFlashcardTrainingWithCards = function(cards, opts) {
+        opts = opts || {};
         if (!cards || cards.length === 0) { showToast('没有可训练的卡片'); return; }
+        _flashcardWritingSr = opts.writingSr || null;
         _flashcardTrainingDeck = { cards: cards };
         _flashcardTrainingOrder = cards.map((_, i) => i).sort(() => Math.random() - 0.5);
         _flashcardTrainingIndex = 0;
         document.getElementById('flashcard-card-inner').classList.remove('flipped');
+        hideFlashcardSrPanel();
         var contentEl = document.getElementById('flashcard-training-content');
         var completeEl = document.getElementById('flashcard-complete-wrap');
         if (contentEl) contentEl.style.display = '';
@@ -7228,14 +7778,39 @@ A) écris  B) écrit  C) écrivons  D) écrivent
         inner.classList.toggle('flipped');
         inner.classList.add('flip-shadow');
         setTimeout(function() { inner.classList.remove('flip-shadow'); }, 500);
-        inner.addEventListener('transitionend', function unlock() { _flashcardFlipLock = false; }, { once: true });
+        inner.addEventListener('transitionend', function unlock() {
+          _flashcardFlipLock = false;
+          showFlashcardSrPanelIfNeeded();
+        }, { once: true });
       });
       document.getElementById('btn-flashcard-prev').addEventListener('click', () => {
         if (_flashcardTrainingIndex > 0) { _flashcardTrainingIndex--; updateFlashcardTrainingCard(); }
       });
       document.getElementById('btn-flashcard-next').addEventListener('click', () => {
-        if (_flashcardTrainingIndex < _flashcardTrainingOrder.length - 1) { _flashcardTrainingIndex++; updateFlashcardTrainingCard(); }
-        else { showFlashcardDeckComplete(_flashcardTrainingOrder.length); }
+        if (_flashcardWritingSr) {
+          if (!document.getElementById('flashcard-card-inner').classList.contains('flipped')) {
+            showToast('请先翻面核对，再自评掌握程度');
+            return;
+          }
+          var srVisible = document.getElementById('flashcard-sr-rating');
+          if (srVisible && srVisible.style.display !== 'none') {
+            showToast('请选择掌握程度：忘了 / 模糊 / 记得');
+            return;
+          }
+        }
+        advanceFlashcardTraining();
+      });
+      document.querySelectorAll('#flashcard-sr-rating [data-sr]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          if (!_flashcardWritingSr) return;
+          var order = _flashcardTrainingOrder;
+          var idx = order[_flashcardTrainingIndex];
+          var card = _flashcardTrainingDeck && _flashcardTrainingDeck.cards && _flashcardTrainingDeck.cards[idx];
+          if (card && typeof _flashcardWritingSr.onRate === 'function') {
+            _flashcardWritingSr.onRate(card, btn.getAttribute('data-sr'));
+          }
+          advanceFlashcardTraining();
+        });
       });
       document.getElementById('btn-flashcard-close-training').addEventListener('click', closeFlashcardTraining);
       document.addEventListener('keydown', function flashcardKeydown(e) {
@@ -7278,6 +7853,624 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       });
     })();
     } catch (e) { console.error('[french-quiz] initFlashcards', e); }
+
+    try {
+    (function initWriting() {
+      var _writingCurrentTache = 1;
+      var _writingCurrentTopicId = null;
+      var _writingImportKind = 'cards';
+      var _writingEditingTopicId = null;
+      var _writingDictationQueue = [];
+      var _writingDictationIndex = 0;
+      var _writingDictationSession = null;
+      var _writingDictationPendingRating = null;
+
+      function wEsc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+
+      function countTopicDue(topic) {
+        var c = 0, q = 0, d = 0;
+        (topic.cards || []).forEach(function(x) { if (isWritingSrDue(x)) c++; });
+        (topic.questions || []).forEach(function(x) { if (isWritingSrDue(x)) q++; });
+        (topic.dictations || []).forEach(function(x) { if (isWritingSrDue(x)) d++; });
+        return { cards: c, questions: q, dictations: d, total: c + q + d };
+      }
+
+      function tacheStats(tache) {
+        var topics = getWritingTopics().filter(function(t) { return Number(t.tache) === Number(tache); });
+        var due = { cards: 0, questions: 0, dictations: 0 };
+        topics.forEach(function(t) {
+          var x = countTopicDue(t);
+          due.cards += x.cards;
+          due.questions += x.questions;
+          due.dictations += x.dictations;
+        });
+        return { count: topics.length, due: due };
+      }
+
+      function renderWritingDashboard() {
+        var stats = getWritingReviewStats();
+        var grid = document.getElementById('writing-review-grid');
+        if (grid) {
+          grid.innerHTML =
+            '<div class="writing-review-stat"><span class="num">' + stats.cardsDue + '</span><span class="lbl">闪卡待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.questionsDue + '</span><span class="lbl">题目待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.dictationsDue + '</span><span class="lbl">默写待复习</span></div>' +
+            '<div class="writing-review-stat"><span class="num">' + stats.focusWrong + '</span><span class="lbl">重点错题</span></div>';
+        }
+        var actions = document.getElementById('writing-review-actions');
+        if (actions) {
+          actions.innerHTML =
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-writing-hub-cards">复习闪卡</button>' +
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-writing-hub-questions">复习题目</button>' +
+            '<button type="button" class="btn btn-primary btn-sm" id="btn-writing-hub-dictations">复习默写</button>' +
+            '<button type="button" class="btn btn-secondary btn-sm" id="btn-writing-hub-wrong">专攻错题</button>';
+          document.getElementById('btn-writing-hub-cards').addEventListener('click', function() { startWritingGlobalReview('cards'); });
+          document.getElementById('btn-writing-hub-questions').addEventListener('click', function() { startWritingGlobalReview('questions'); });
+          document.getElementById('btn-writing-hub-dictations').addEventListener('click', function() { startWritingGlobalReview('dictations'); });
+          document.getElementById('btn-writing-hub-wrong').addEventListener('click', function() { startWritingWrongReview(); });
+        }
+        var tacheGrid = document.getElementById('writing-tache-grid');
+        if (tacheGrid) {
+          tacheGrid.innerHTML = [1, 2, 3].map(function(n) {
+            var st = tacheStats(n);
+            var dueTotal = st.due.cards + st.due.questions + st.due.dictations;
+            return '<button type="button" class="writing-tache-card tache-' + n + '" data-tache="' + n + '">' +
+              '<h4>' + wEsc(TACHE_LABELS[n]) + '</h4>' +
+              '<div class="meta">' + st.count + ' 道题目' + (dueTotal ? ' · 待复习 ' + dueTotal : '') + '</div></button>';
+          }).join('');
+          tacheGrid.querySelectorAll('.writing-tache-card').forEach(function(el) {
+            el.addEventListener('click', function() { openWritingTache(parseInt(el.getAttribute('data-tache'), 10)); });
+          });
+        }
+      }
+      window._renderWritingDashboard = renderWritingDashboard;
+
+      function openWritingTache(tache) {
+        _writingCurrentTache = tache;
+        var titleEl = document.getElementById('writing-tache-title');
+        if (titleEl) titleEl.textContent = TACHE_LABELS[tache] || ('Tâche ' + tache);
+        renderWritingTopicList();
+        showScreen(SCREEN.WRITING_TACHE);
+      }
+
+      function renderWritingTopicList() {
+        var listEl = document.getElementById('writing-topic-list');
+        var emptyEl = document.getElementById('writing-topic-empty');
+        if (!listEl) return;
+        var topics = getWritingTopics().filter(function(t) { return Number(t.tache) === Number(_writingCurrentTache); });
+        topics.sort(function(a, b) {
+          var da = countTopicDue(a).total, db = countTopicDue(b).total;
+          if (da !== db) return db - da;
+          return (b.lastPracticedAt || b.createdAt || '').localeCompare(a.lastPracticedAt || a.createdAt || '');
+        });
+        if (!topics.length) {
+          listEl.innerHTML = '';
+          if (emptyEl) emptyEl.style.display = 'block';
+          return;
+        }
+        if (emptyEl) emptyEl.style.display = 'none';
+        listEl.innerHTML = topics.map(function(t) {
+          var due = countTopicDue(t);
+          var wrongN = getWritingWrongBook().filter(function(w) { return String(w.topicId) === String(t.id) && (w.wrongCount || 0) >= 2; }).length;
+          return '<div class="writing-topic-item" data-topic-id="' + wEsc(String(t.id)) + '">' +
+            '<div><div class="title">' + wEsc(t.title || '未命名') + '</div>' +
+            '<div class="meta">闪卡 ' + (t.cards || []).length + ' · 练习 ' + (t.questions || []).length + ' · 默写 ' + (t.dictations || []).length +
+            (due.total ? ' · 待复习 ' + due.total : '') + (wrongN ? ' · ⚠️ ' + wrongN : '') + '</div></div>' +
+            (due.total ? '<span class="writing-badge">' + due.total + '</span>' : '<span class="writing-badge muted">0</span>') +
+            '</div>';
+        }).join('');
+        listEl.querySelectorAll('.writing-topic-item').forEach(function(el) {
+          el.addEventListener('click', function() {
+            _writingCurrentTopicId = el.getAttribute('data-topic-id');
+            openWritingTopicDetail();
+          });
+        });
+      }
+
+      function openWritingTopicDetail() {
+        renderWritingTopicDetail();
+        showScreen(SCREEN.WRITING_TOPIC);
+      }
+
+      function renderWritingTopicDetail() {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) { showScreen(SCREEN.WRITING_TACHE); return; }
+        var titleEl = document.getElementById('writing-topic-title');
+        if (titleEl) titleEl.textContent = topic.title || '未命名';
+        var promptEl = document.getElementById('writing-topic-prompt');
+        if (promptEl) promptEl.textContent = topic.prompt || '';
+        var zhEl = document.getElementById('writing-topic-prompt-zh');
+        if (zhEl) {
+          if (topic.promptZh) { zhEl.textContent = topic.promptZh; zhEl.style.display = 'block'; }
+          else { zhEl.style.display = 'none'; }
+        }
+        var draftEl = document.getElementById('writing-topic-draft');
+        if (draftEl) draftEl.value = topic.myDraft || '';
+        var due = countTopicDue(topic);
+        function setMeta(id, badgeId, total, dueN, label) {
+          var meta = document.getElementById(id);
+          var badge = document.getElementById(badgeId);
+          if (meta) meta.textContent = '共 ' + total + ' 项' + (dueN ? '，今日待复习 ' + dueN + ' 项' : '');
+          if (badge) badge.innerHTML = dueN ? '<span class="writing-badge">' + dueN + '</span>' : '';
+        }
+        setMeta('writing-cards-meta', 'writing-cards-due-badge', (topic.cards || []).length, due.cards, '闪卡');
+        setMeta('writing-questions-meta', 'writing-questions-due-badge', (topic.questions || []).length, due.questions, '练习');
+        setMeta('writing-dictations-meta', 'writing-dictations-due-badge', (topic.dictations || []).length, due.dictations, '默写');
+        var wrongMeta = document.getElementById('writing-wrong-meta');
+        var wrongN = getWritingWrongBook().filter(function(w) { return String(w.topicId) === String(topic.id); }).length;
+        var focusN = getWritingWrongBook().filter(function(w) { return String(w.topicId) === String(topic.id) && (w.wrongCount || 0) >= 2; }).length;
+        if (wrongMeta) wrongMeta.textContent = wrongN ? ('共 ' + wrongN + ' 道错题，其中重点 ' + focusN + ' 道') : '暂无错题';
+      }
+      window._renderWritingTopicDetail = renderWritingTopicDetail;
+
+      function openTopicModal(editId) {
+        _writingEditingTopicId = editId || null;
+        var overlay = document.getElementById('writing-topic-modal-overlay');
+        var titleEl = document.getElementById('writing-topic-modal-title');
+        var tacheSel = document.getElementById('writing-topic-input-tache');
+        var nameIn = document.getElementById('writing-topic-input-title');
+        var promptIn = document.getElementById('writing-topic-input-prompt');
+        var zhIn = document.getElementById('writing-topic-input-prompt-zh');
+        if (editId) {
+          var t = findWritingTopic(editId);
+          if (titleEl) titleEl.textContent = '编辑写作题目';
+          if (tacheSel) tacheSel.value = String(t.tache || 1);
+          if (nameIn) nameIn.value = t.title || '';
+          if (promptIn) promptIn.value = t.prompt || '';
+          if (zhIn) zhIn.value = t.promptZh || '';
+        } else {
+          if (titleEl) titleEl.textContent = '新建写作题目';
+          if (tacheSel) tacheSel.value = String(_writingCurrentTache || 1);
+          if (nameIn) nameIn.value = '';
+          if (promptIn) promptIn.value = '';
+          if (zhIn) zhIn.value = '';
+        }
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+      }
+      function closeTopicModal() {
+        var overlay = document.getElementById('writing-topic-modal-overlay');
+        overlay.style.display = 'none';
+        clearModalFocusTrap();
+      }
+      function saveTopicModal() {
+        var title = (document.getElementById('writing-topic-input-title').value || '').trim();
+        var prompt = (document.getElementById('writing-topic-input-prompt').value || '').trim();
+        var promptZh = (document.getElementById('writing-topic-input-prompt-zh').value || '').trim();
+        var tache = parseInt(document.getElementById('writing-topic-input-tache').value, 10) || 1;
+        if (!title || !prompt) { showToast('请填写标题和题目原文'); return; }
+        var topics = getWritingTopics();
+        if (_writingEditingTopicId) {
+          topics = topics.map(function(t) {
+            if (String(t.id) !== String(_writingEditingTopicId)) return t;
+            return Object.assign({}, t, { title: title, prompt: prompt, promptZh: promptZh, tache: tache });
+          });
+        } else {
+          topics.push({
+            id: writingNewId(),
+            tache: tache,
+            title: title,
+            prompt: prompt,
+            promptZh: promptZh,
+            myDraft: '',
+            cards: [],
+            questions: [],
+            dictations: [],
+            createdAt: new Date().toISOString(),
+            lastPracticedAt: null,
+            practiceCount: 0
+          });
+        }
+        setWritingTopics(topics);
+        closeTopicModal();
+        showToast('已保存');
+        if (_writingCurrentTopicId) renderWritingTopicDetail();
+        else if (document.getElementById('screen-writing-tache').classList.contains('active')) renderWritingTopicList();
+        else renderWritingDashboard();
+      }
+
+      function saveDraft() {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) return;
+        var draft = (document.getElementById('writing-topic-draft').value || '');
+        var topics = getWritingTopics().map(function(t) {
+          return String(t.id) === String(topic.id) ? Object.assign({}, t, { myDraft: draft }) : t;
+        });
+        setWritingTopics(topics);
+        showToast('范文已保存');
+      }
+
+      function openImportModal(kind) {
+        _writingImportKind = kind;
+        var hints = {
+          cards: '粘贴闪卡 JSON 数组，每项含 front/back。',
+          questions: '粘贴练习题 JSON 数组（single_choice / fill_blank 等）。',
+          dictations: '粘贴默写题 JSON 数组，每项 type 为 writing_dictation，含 reference。'
+        };
+        var hintEl = document.getElementById('writing-import-hint');
+        if (hintEl) hintEl.textContent = hints[kind] || hints.cards;
+        document.getElementById('writing-import-textarea').value = '';
+        var overlay = document.getElementById('writing-import-overlay');
+        overlay.style.display = 'flex';
+        setModalFocusTrap(overlay);
+      }
+      function closeImportModal() {
+        document.getElementById('writing-import-overlay').style.display = 'none';
+        clearModalFocusTrap();
+      }
+      function looksLikeWritingDictationArray(arr) {
+        return Array.isArray(arr) && arr.length && arr.every(function(x) {
+          return x && (x.type === 'writing_dictation' || x.reference);
+        });
+      }
+      function doImportJson() {
+        var text = normalizeJsonPaste((document.getElementById('writing-import-textarea').value || '').trim());
+        var parsed;
+        try { parsed = JSON.parse(text); } catch (e) { showToast('JSON 解析失败'); return; }
+        if (!Array.isArray(parsed)) { showToast('需要 JSON 数组'); return; }
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) { showToast('请先选择题目'); return; }
+        var kind = _writingImportKind;
+        if (kind === 'cards' && looksLikeWritingDictationArray(parsed)) { showToast('检测到默写题 JSON，请用「导入默写题」'); return; }
+        if (kind === 'dictations' && parsed[0] && parsed[0].front && parsed[0].back) { showToast('检测到闪卡 JSON，请用「导入闪卡」'); return; }
+        var listKey = kind === 'cards' ? 'cards' : (kind === 'dictations' ? 'dictations' : 'questions');
+        var existing = topic[listKey] || [];
+        var added = 0;
+        parsed.forEach(function(item) {
+          if (!item || typeof item !== 'object') return;
+          if (kind === 'cards') {
+            if (!item.front && !item.back) return;
+            existing.push(initWritingSrItem({ id: writingNewId(), front: item.front || '', back: item.back || '' }));
+            added++;
+          } else if (kind === 'dictations') {
+            var ref = item.reference || item.correct || '';
+            if (!ref) return;
+            existing.push(initWritingSrItem({
+              id: writingNewId(),
+              type: 'writing_dictation',
+              stem: item.stem || '请默写以下原文',
+              reference: ref,
+              referenceZh: item.referenceZh || '',
+              hints: item.hints || buildDictationHints(ref),
+              explanation: item.explanation || '',
+              category: item.category || ''
+            }));
+            added++;
+          } else {
+            if (!item.stem || !item.type) return;
+            if (item.type === 'writing_dictation') return;
+            existing.push(initWritingSrItem(Object.assign({}, item, { id: writingNewId() }));
+            added++;
+          }
+        });
+        topic[listKey] = existing;
+        var topics = getWritingTopics().map(function(t) { return String(t.id) === String(topic.id) ? topic : t; });
+        setWritingTopics(topics);
+        closeImportModal();
+        renderWritingTopicDetail();
+        showToast('已导入 ' + added + ' 项');
+      }
+
+      function collectDueItems(kind, topicIdOnly) {
+        var items = [];
+        getWritingTopics().forEach(function(t) {
+          if (topicIdOnly && String(t.id) !== String(topicIdOnly)) return;
+          var listKey = kind === 'cards' ? 'cards' : (kind === 'dictations' ? 'dictations' : 'questions');
+          (t[listKey] || []).forEach(function(it) {
+            if (isWritingSrDue(it)) items.push({ topicId: t.id, item: it, kind: kind === 'cards' ? 'card' : (kind === 'dictations' ? 'dictation' : 'question') });
+          });
+        });
+        return items;
+      }
+
+      function startWritingGlobalReview(kind) {
+        var items = collectDueItems(kind, null);
+        if (!items.length) { showToast('没有到期需要复习的内容'); return; }
+        if (kind === 'cards') {
+          var cardItems = items.map(function(x) { return Object.assign({}, x.item, { _writingTopicId: x.topicId }); });
+          startWritingCardSession(cardItems, null, true);
+          return;
+        }
+        if (kind === 'dictations') {
+          _writingDictationQueue = items.map(function(x) { return Object.assign({}, x.item, { _topicId: x.topicId }); });
+          _writingDictationIndex = 0;
+          showDictationItem();
+          return;
+        }
+        var questions = items.map(function(x) { return Object.assign({}, x.item, { _writingTopicId: x.topicId }); });
+        state.writingQuizContext = { topicId: null, global: true };
+        state.writingReturnScreen = SCREEN.WRITING;
+        startQuiz(questions, false, null, { noShuffle: false });
+      }
+
+      function startWritingCardSession(cards, topicId, multiTopic) {
+        if (!cards.length) { showToast('没有闪卡'); return; }
+        window.startFlashcardTrainingWithCards(cards, {
+          writingSr: {
+            onRate: function(card, rating) {
+              var tid = card._writingTopicId || topicId;
+              if (tid) updateWritingItemSr(tid, 'card', card.id, rating);
+            },
+            onComplete: function() {
+              showToast('闪卡复习完成');
+              if (_writingCurrentTopicId && document.getElementById('screen-writing-topic').classList.contains('active')) renderWritingTopicDetail();
+              else if (document.getElementById('screen-writing').classList.contains('active')) renderWritingDashboard();
+              else renderWritingDashboard();
+            }
+          }
+        });
+      }
+
+      function startTopicCardReview(dueOnly) {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) return;
+        var cards = (topic.cards || []).slice();
+        if (dueOnly) cards = cards.filter(isWritingSrDue);
+        startWritingCardSession(cards, topic.id, false);
+      }
+
+      function startTopicQuiz(dueOnly) {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) return;
+        var qs = (topic.questions || []).slice();
+        if (dueOnly) qs = qs.filter(isWritingSrDue);
+        if (!qs.length) { showToast(dueOnly ? '没有到期题目' : '暂无练习题'); return; }
+        state.writingQuizContext = { topicId: topic.id };
+        state.writingReturnScreen = SCREEN.WRITING_TOPIC;
+        startQuiz(qs, false, null);
+      }
+
+      function startWritingWrongReview() {
+        var book = getWritingWrongBook().filter(isWritingSrDue);
+        if (!book.length) { showToast('没有到期错题'); return; }
+        var qs = book.filter(function(w) { return w.itemKind === 'question' || w.type; }).map(function(w) {
+          return Object.assign({}, w, { _writingTopicId: w.topicId });
+        });
+        if (!qs.length) { showToast('错题本中暂无练习题类型'); return; }
+        state.writingQuizContext = { topicId: qs[0].topicId, wrongMode: true };
+        state.writingReturnScreen = SCREEN.WRITING;
+        startQuiz(qs, true, null);
+      }
+
+      function startTopicWrongReview() {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) return;
+        var qs = getWritingWrongBook().filter(function(w) {
+          return String(w.topicId) === String(topic.id) && isWritingSrDue(w);
+        });
+        if (!qs.length) { showToast('没有到期错题'); return; }
+        state.writingQuizContext = { topicId: topic.id, wrongMode: true };
+        state.writingReturnScreen = SCREEN.WRITING_TOPIC;
+        startQuiz(qs, true, null);
+      }
+
+      function startTopicDictation(dueOnly) {
+        var topic = findWritingTopic(_writingCurrentTopicId);
+        if (!topic) return;
+        var list = (topic.dictations || []).slice();
+        if (dueOnly) list = list.filter(isWritingSrDue);
+        if (!list.length) { showToast(dueOnly ? '没有到期默写题' : '暂无默写题'); return; }
+        _writingDictationQueue = list.map(function(d) { return Object.assign({}, d, { _topicId: topic.id }); });
+        _writingDictationIndex = 0;
+        showDictationItem();
+      }
+
+      function showDictationItem() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        if (!item) {
+          showToast('默写复习完成');
+          if (_writingCurrentTopicId) {
+            renderWritingTopicDetail();
+            showScreen(SCREEN.WRITING_TOPIC);
+          } else {
+            renderWritingDashboard();
+            showScreen(SCREEN.WRITING);
+          }
+          return;
+        }
+        _writingDictationSession = { hintsUsed: 0, peeked: false, hintLevel: 0, topicId: item._topicId, itemId: item.id };
+        document.getElementById('writing-dictation-title').textContent = '默写 (' + (_writingDictationIndex + 1) + '/' + _writingDictationQueue.length + ')';
+        document.getElementById('writing-dictation-stem').textContent = item.stem || '请默写以下原文';
+        document.getElementById('writing-dictation-reference').textContent = item.reference || '';
+        var rzh = document.getElementById('writing-dictation-reference-zh');
+        if (rzh) {
+          if (item.referenceZh) { rzh.textContent = item.referenceZh; rzh.style.display = 'block'; }
+          else rzh.style.display = 'none';
+        }
+        document.getElementById('writing-dictation-study').style.display = 'block';
+        document.getElementById('writing-dictation-active').style.display = 'none';
+        document.getElementById('writing-dictation-feedback').style.display = 'none';
+        showScreen(SCREEN.WRITING_DICTATION);
+      }
+
+      function beginDictationActive() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        if (!item) return;
+        document.getElementById('writing-dictation-study').style.display = 'none';
+        document.getElementById('writing-dictation-active').style.display = 'block';
+        document.getElementById('writing-dictation-feedback').style.display = 'none';
+        document.getElementById('writing-dictation-active-stem').textContent = item.stem || '';
+        document.getElementById('writing-dictation-hint-count').textContent = '提示已用 0 次';
+        document.getElementById('writing-dictation-hints').style.display = 'none';
+        document.getElementById('writing-dictation-hints').innerHTML = '';
+        var input = document.getElementById('writing-dictation-input');
+        input.value = '';
+        input.focus();
+        updateDictationWordCount();
+      }
+
+      function getDictationHints(item) {
+        if (item.hints && item.hints.length) return item.hints;
+        return buildDictationHints(item.reference || '');
+      }
+
+      function revealDictationHint() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        if (!item || !_writingDictationSession) return;
+        var hints = getDictationHints(item);
+        if (_writingDictationSession.hintLevel >= hints.length) { showToast('已无更多提示'); return; }
+        var h = hints[_writingDictationSession.hintLevel];
+        _writingDictationSession.hintLevel++;
+        _writingDictationSession.hintsUsed++;
+        var panel = document.getElementById('writing-dictation-hints');
+        panel.style.display = 'block';
+        var div = document.createElement('div');
+        div.className = 'hint-item';
+        div.textContent = (h.text || h);
+        panel.appendChild(div);
+        document.getElementById('writing-dictation-hint-count').textContent = '提示已用 ' + _writingDictationSession.hintsUsed + ' 次';
+      }
+
+      function updateDictationWordCount() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        var input = document.getElementById('writing-dictation-input');
+        var refWords = tokenizeFrenchText(item && item.reference).length;
+        var userWords = tokenizeFrenchText(input && input.value).length;
+        var el = document.getElementById('writing-dictation-word-count');
+        if (el) el.textContent = '已输入 ' + userWords + ' 词 · 参考 ' + refWords + ' 词';
+      }
+
+      function submitDictation() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        if (!item) return;
+        var userText = (document.getElementById('writing-dictation-input').value || '');
+        var result = evaluateDictation(item.reference || '', userText);
+        _writingDictationPendingRating = {
+          item: item,
+          session: Object.assign({}, _writingDictationSession),
+          result: result,
+          userText: userText
+        };
+        document.getElementById('writing-dictation-study').style.display = 'none';
+        document.getElementById('writing-dictation-active').style.display = 'none';
+        document.getElementById('writing-dictation-feedback').style.display = 'block';
+        var msgEl = document.getElementById('writing-dictation-result-msg');
+        if (msgEl) {
+          msgEl.className = result.correct ? 'writing-feedback-correct' : 'writing-feedback-wrong';
+          msgEl.textContent = result.correct
+            ? '✅ 正确（归一化后 100% 一致）'
+            : ('❌ 未通过（须 100% 一致，当前约 ' + Math.round(result.similarity * 100) + '%）');
+        }
+        document.getElementById('writing-dictation-user-text').textContent = userText || '（空）';
+        document.getElementById('writing-dictation-ref-show').textContent = item.reference || '';
+        var sess = _writingDictationSession || {};
+        document.getElementById('writing-dictation-attempt-meta').textContent =
+          '本次：提示 ' + (sess.hintsUsed || 0) + ' 次 · ' + (sess.peeked ? '已偷看原文' : '未偷看');
+      }
+
+      function applyDictationRating(rating) {
+        var pending = _writingDictationPendingRating;
+        if (!pending) return;
+        var item = pending.item;
+        var sess = pending.session || {};
+        var finalRating = rating;
+        if (sess.peeked) finalRating = 'forgot';
+        else if (pending.result && pending.result.correct) {
+          if ((sess.hintsUsed || 0) >= 2) finalRating = 'fuzzy';
+          else if ((sess.hintsUsed || 0) >= 1 && rating === 'remembered') finalRating = 'fuzzy';
+        } else {
+          finalRating = 'forgot';
+          if (rating === 'remembered' || rating === 'fuzzy') {
+            showToast('未达 100% 一致，已按「忘了」记录复习');
+          }
+        }
+        updateWritingItemSr(item._topicId, 'dictation', item.id, finalRating);
+        if (finalRating === 'forgot') {
+          var book = getWritingWrongBook();
+          var key = item._topicId + '::dict::' + item.id;
+          var idx = book.findIndex(function(w) { return w._wbKey === key; });
+          var entry = Object.assign({}, item, { _wbKey: key, topicId: item._topicId, itemKind: 'dictation', wrongCount: 1 });
+          initWritingSrItem(entry);
+          if (idx >= 0) {
+            entry.wrongCount = (book[idx].wrongCount || 0) + 1;
+            book[idx] = Object.assign({}, book[idx], entry);
+          } else book.push(entry);
+          setWritingWrongBook(book);
+        }
+        _writingDictationPendingRating = null;
+        _writingDictationIndex++;
+        showDictationItem();
+      }
+
+      function deleteCurrentTopic() {
+        customConfirm('确定删除该写作题目及其全部闪卡/练习/默写？').then(function(ok) {
+          if (!ok) return;
+          var id = _writingCurrentTopicId;
+          setWritingTopics(getWritingTopics().filter(function(t) { return String(t.id) !== String(id); }));
+          setWritingWrongBook(getWritingWrongBook().filter(function(w) { return String(w.topicId) !== String(id); }));
+          _writingCurrentTopicId = null;
+          showScreen(SCREEN.WRITING_TACHE);
+          renderWritingTopicList();
+          showToast('已删除');
+        });
+      }
+
+      window._onWritingTopicsChanged = function() {
+        if (document.getElementById('screen-writing').classList.contains('active')) renderWritingDashboard();
+        if (document.getElementById('screen-writing-tache').classList.contains('active')) renderWritingTopicList();
+        if (document.getElementById('screen-writing-topic').classList.contains('active')) renderWritingTopicDetail();
+      };
+
+      document.getElementById('btn-enter-writing').addEventListener('click', function() {
+        renderWritingDashboard();
+        showScreen(SCREEN.WRITING);
+      });
+      document.getElementById('btn-writing-back-home').addEventListener('click', function() { showScreen(SCREEN.HOME); });
+      document.getElementById('btn-writing-back-dashboard').addEventListener('click', function() {
+        renderWritingDashboard();
+        showScreen(SCREEN.WRITING);
+      });
+      document.getElementById('btn-writing-back-tache').addEventListener('click', function() {
+        renderWritingTopicList();
+        showScreen(SCREEN.WRITING_TACHE);
+      });
+      document.getElementById('btn-writing-add-topic').addEventListener('click', function() { openTopicModal(null); });
+      document.getElementById('btn-writing-add-topic-tache').addEventListener('click', function() { openTopicModal(null); });
+      document.getElementById('btn-writing-topic-modal-cancel').addEventListener('click', closeTopicModal);
+      document.getElementById('btn-writing-topic-modal-save').addEventListener('click', saveTopicModal);
+      document.getElementById('btn-writing-save-draft').addEventListener('click', saveDraft);
+      document.getElementById('btn-writing-import-cancel').addEventListener('click', closeImportModal);
+      document.getElementById('btn-writing-import-do').addEventListener('click', doImportJson);
+      document.getElementById('btn-writing-review-cards').addEventListener('click', function() { startTopicCardReview(true); });
+      document.getElementById('btn-writing-train-cards').addEventListener('click', function() { startTopicCardReview(false); });
+      document.getElementById('btn-writing-import-cards').addEventListener('click', function() { openImportModal('cards'); });
+      document.getElementById('btn-writing-review-questions').addEventListener('click', function() { startTopicQuiz(true); });
+      document.getElementById('btn-writing-practice-questions').addEventListener('click', function() { startTopicQuiz(false); });
+      document.getElementById('btn-writing-import-questions').addEventListener('click', function() { openImportModal('questions'); });
+      document.getElementById('btn-writing-review-dictations').addEventListener('click', function() { startTopicDictation(true); });
+      document.getElementById('btn-writing-practice-dictations').addEventListener('click', function() { startTopicDictation(false); });
+      document.getElementById('btn-writing-import-dictations').addEventListener('click', function() { openImportModal('dictations'); });
+      document.getElementById('btn-writing-review-wrong').addEventListener('click', startTopicWrongReview);
+      document.getElementById('btn-writing-edit-topic').addEventListener('click', function() { openTopicModal(_writingCurrentTopicId); });
+      document.getElementById('btn-writing-delete-topic').addEventListener('click', deleteCurrentTopic);
+      document.getElementById('btn-writing-dictation-back').addEventListener('click', function() {
+        if (_writingCurrentTopicId) {
+          renderWritingTopicDetail();
+          showScreen(SCREEN.WRITING_TOPIC);
+        } else {
+          renderWritingDashboard();
+          showScreen(SCREEN.WRITING);
+        }
+      });
+      document.getElementById('btn-writing-dictation-start').addEventListener('click', beginDictationActive);
+      document.getElementById('btn-writing-dictation-hint').addEventListener('click', revealDictationHint);
+      document.getElementById('btn-writing-dictation-peek').addEventListener('click', function() {
+        var item = _writingDictationQueue[_writingDictationIndex];
+        if (!item) return;
+        document.getElementById('writing-peek-text').textContent = item.reference || '';
+        document.getElementById('writing-peek-overlay').style.display = 'flex';
+        if (_writingDictationSession) _writingDictationSession.peeked = true;
+      });
+      document.getElementById('btn-writing-peek-close').addEventListener('click', function() {
+        document.getElementById('writing-peek-overlay').style.display = 'none';
+      });
+      document.getElementById('btn-writing-dictation-submit').addEventListener('click', submitDictation);
+      document.getElementById('writing-dictation-input').addEventListener('input', updateDictationWordCount);
+      document.querySelectorAll('#writing-dictation-sr-btns [data-sr]').forEach(function(btn) {
+        btn.addEventListener('click', function() { applyDictationRating(btn.getAttribute('data-sr')); });
+      });
+    })();
+    } catch (e) { console.error('[french-quiz] initWriting', e); }
 
     try {
     var _btnParse = document.getElementById('btn-import-parse');
@@ -7570,6 +8763,20 @@ A) écris  B) écrit  C) écrivons  D) écrivent
       updateStartPracticeSelect();
     });
     document.getElementById('btn-back-home').addEventListener('click', () => {
+      var ret = state.writingReturnScreen;
+      state.writingReturnScreen = null;
+      var btnBack = document.getElementById('btn-back-home');
+      if (btnBack) btnBack.textContent = '返回首页';
+      if (ret === SCREEN.WRITING_TOPIC) {
+        showScreen(SCREEN.WRITING_TOPIC, false);
+        if (typeof window._renderWritingTopicDetail === 'function') window._renderWritingTopicDetail();
+        return;
+      }
+      if (ret === SCREEN.WRITING) {
+        showScreen(SCREEN.WRITING, false);
+        if (typeof window._renderWritingDashboard === 'function') window._renderWritingDashboard();
+        return;
+      }
       showScreen(SCREEN.HOME);
       updateWrongCount();
       renderSavedSets();
