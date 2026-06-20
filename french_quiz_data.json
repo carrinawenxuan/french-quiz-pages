@@ -71774,8 +71774,8 @@
           "category": "综合-时态对比"
         }
       ],
-      "practiceCount": 2,
-      "lastPracticedAt": "2026-02-26T01:47:20.099Z",
+      "practiceCount": 3,
+      "lastPracticedAt": "2026-04-07T22:55:55.264Z",
       "reviewTexts": [],
       "reviewLinks": [
         "https://docs.google.com/document/d/1gYxTOvdslOQGEzQJ1RJx3Y6XGbzJaFlz7LSrJCI2dmU/edit?tab=t.0"
@@ -71923,7 +71923,7 @@
           "back": "C'est + 限定词 + 名词：C'est une fille.\nIl/Elle est + 形容词/职业（无冠词）：Elle est grande."
         }
       ],
-      "sequentialNextIndex": 40
+      "sequentialNextIndex": 45
     },
     {
       "id": 1771900370558,
@@ -100822,6 +100822,74 @@
       "interval": 1,
       "repetitions": 0,
       "wrongCount": 1
+    },
+    {
+      "type": "paragraph_fill_blank",
+      "stem": "Aujourd'hui, nous _____ un examen important. Tout le monde _____ l'air stressé. Lucas _____ peur de rater. Il dit qu'il n'_____ pas eu le temps de bien réviser. Moi, j'_____ confiance, mais j'_____ quand même un peu peur.\n（今天我们有一场重要的考试。大家看起来都很紧张。Lucas 害怕不及格。他说他没有时间好好复习。我有信心，但我还是有点害怕。\nToday we have an important exam. Everyone looks stressed. Lucas is afraid of failing. He says he didn't have time to revise properly. I'm confident, but I'm still a little scared.）",
+      "correct": [
+        "avons",
+        "a",
+        "a",
+        "a",
+        "ai",
+        "ai"
+      ],
+      "explanation": "【译文】今天我们有一场重要的考试。大家看起来都很紧张。Lucas 害怕不及格。他说他没有时间好好复习。我有信心，但我还是有点害怕。\n【解析】\n• avons：nous → avons（拥有：有考试）\n• a：tout le monde 语法上视为第三人称单数 → a（avoir l'air stressé）\n• a：Lucas = il → a（avoir peur）\n• a：il n'_____ pas eu → passé composé 否定，助动词 avoir → a\n• ai：je → ai（avoir confiance = 有信心）\n• ai：je → ai（avoir peur = 害怕）\n• TCF超高频考点：tout le monde 接单数动词；passé composé 否定结构中 avoir 助动词",
+      "category": "avoir综合-考场场景",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "single_choice",
+      "stem": "Hier soir, elle _____ l'air inquiète quand elle _____ appris la nouvelle.\n（昨晚，当她得知这个消息时，她看起来很担心。）",
+      "options": [
+        "avait / a（她有-未完成/她-复合过去）",
+        "a / a（她有-现在/她有-现在）",
+        "était / a（她是-未完成/她有-复合过去）",
+        "avait / avait（她有-未完成/她有-未完成）"
+      ],
+      "correct": 0,
+      "explanation": "【译文】昨晚，当她得知这个消息时，她看起来很担心。Last night, she looked worried when she learned the news.\n【解析】\n• 第一空：avoir l'air inquiète = 看起来担心；时间是 hier soir（昨晚），描述过去持续状态用 imparfait → avait\n• 第二空：apprendre la nouvelle = 得知消息；过去一次性动作用 passé composé，助动词 avoir → a（a appris）\n• 干扰项：était 是 être 的 imparfait，avoir l'air 不用 être；第二个 avait 用 imparfait 表动作不正确\n• 3秒排除法：描述状态 → imparfait；一次性动作 → passé composé\n• TCF高频考点：avoir l'air 在过去时中的变位 + imparfait vs passé composé 对比",
+      "category": "综合-时态对比",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "_____ a deux filles et un garçon.\n（他/她有两个女儿和一个儿子。He/She has two daughters and a son.）",
+      "correct": "Il / Elle",
+      "explanation": "【译文】他/她有两个女儿和一个儿子。He/She has two daughters and a son.\n【解析】\n• 主语：需要找与 a 对应的人称代词\n• 动词原型：avoir，变位：a\n• 时态：présent de l'indicatif\n• a 是 avoir 的 il/elle 人称变位\n• 注意区分动词 a（有）和介词 à（在/向），书写时不加重音\n• TCF高频考点：a vs à 混淆",
+      "category": "代词识别",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "_____ ont une voiture et un vélo.\n（他们/她们有一辆车和一辆自行车。They have a car and a bike.）",
+      "correct": "Ils / Elles",
+      "explanation": "【译文】他们/她们有一辆车和一辆自行车。They have a car and a bike.\n【解析】\n• 主语：需要找与 ont 对应的人称代词\n• 动词原型：avoir，变位：ont\n• 时态：présent de l'indicatif\n• ont 是 avoir 的 ils/elles 变位，需连读 [ilzɔ̃]\n• 最高频混淆：ils ont（有）vs ils sont（是），发音和拼写完全不同\n• TCF高频考点：ont vs sont 判断",
+      "category": "代词识别+连读",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
+    },
+    {
+      "type": "fill_blank",
+      "stem": "Tu n'_____ pas de voiture.\n（你没有车。You don't have a car.）",
+      "correct": "as",
+      "explanation": "【译文】你没有车。You don't have a car.\n【解析】\n• 主语：tu\n• 动词原型：avoir，变位：as\n• 时态：présent，否定结构\n• n'as pas：元音前省音\n• 否定后 une voiture → de voiture（冠词变化）\n• TCF高频考点：否定句中冠词 une → de",
+      "category": "动词变位-否定句",
+      "nextReview": "2026-04-08",
+      "interval": 1,
+      "repetitions": 0,
+      "wrongCount": 1
     }
   ],
   "questionNotes": {
@@ -100838,12 +100906,12 @@
   },
   "timerSeconds": 30,
   "dailyStats": {
-    "date": "2026-04-07",
+    "date": "2026-06-20",
     "todayCount": 0,
-    "lastDate": "2026-02-27",
-    "streak": 3
+    "lastDate": "2026-04-07",
+    "streak": 1
   },
   "flashcardDecks": [],
-  "exportedAt": "2026-04-07T22:44:51.112Z",
+  "exportedAt": "2026-06-20T05:09:36.524Z",
   "importAllowedDeviceFingerprint": "1sogdkz"
 }
